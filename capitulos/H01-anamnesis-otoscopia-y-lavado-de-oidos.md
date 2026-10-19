@@ -410,7 +410,7 @@ Con la atención abierta, **Hablar con el paciente** abre la entrevista. El paci
 
 El botón **OT** abre el otoscopio, con un visor para cada oído. Al pasar el mouse sobre el visor ves un círculo de luz que sigue al cursor, como el campo real: **recorre toda la membrana** y el conducto antes de decidir. **Cono pediátrico** y **Cono adulto** cambian el tamaño del campo.
 
-En la pestaña **Informe** eliges el **hallazgo** (retracción, perforación, efusión, timpanoesclerosis, colesteatoma, inflamación, tubo, miringitis) y haces clic en el **cuadrante** donde lo viste: AS, AI, PI, PS o la pars flácida (PF). Después marcas el **conducto** (normal, cerumen, edema, otorrea, exostosis) y escribes tus **observaciones**. El esquema es el de la Ilustración H1.2: piensa en qué oído estás antes de marcar anterior o posterior.
+En la pestaña **Informe** eliges el **hallazgo** (retracción, perforación, efusión, timpanoesclerosis, colesteatoma, inflamación, tubo, miringitis) y haces clic en el **cuadrante** donde lo viste: AS, AI, PI, PS o la pars flácida (PF). Después marcas el **conducto** (normal, cerumen, edema, otorrea, exostosis) y escribes tus **observaciones**. El esquema es el de la Figura H1.2: piensa en qué oído estás antes de marcar anterior o posterior.
 
 ### El lavado
 

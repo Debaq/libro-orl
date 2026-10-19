@@ -162,12 +162,31 @@ no se rehicieron: un capítulo que se vuelva a armar puede cambiar de curva
   números de página estampados, índice y marcadores rehechos. Desde cero
   ~2,5 min; sin cambios ~1,3 min. `--de-una-pieza` = el armado viejo.
 
-- **Huecos al pie de página** (para la pasada final, él lo pidió así): ~85
-  páginas con más de un tercio vacío, por figuras y recuadros que no caben y
-  saltan enteros. `herramientas/acomodar.py` (sube el texto siguiente cuando
-  una figura salta; acepta solo movidas que bajan el hueco) está hecho pero
-  DESCONECTADO: es lento (H3: ~45 s) y en H3 bajó de 7 a 4 huecos; en otros
-  capítulos los huecos son de recuadros. Retomar en la versión cerrada.
+- **Tomos** (2026-10-19): `hacer_libro.py --tomos` arma libro-tomo-I.pdf
+  (B y H) y libro-tomo-II.pdf (capítulos clínicos); libro.pdf es la edición
+  de tapa dura en un tomo. Misma caché.
+- **Pasada de huecos** (2026-10-19): 1428 -> 1352 págs.; páginas con >=25 %
+  vacío al pie (sin finales de capítulo): tomo I 132 -> 94 (57 -> 35 págs. en
+  blanco), tomo II 84 -> 63 (30 -> 22). Lo que se hizo: el SVG del motor sin
+  width/height (en flex reservaba ~17 mm de más bajo cada resultado); la
+  ficha del caso ya no arrastra a los pasos (cadena de break-after: avoid);
+  recuadros largos (CAJA_LARGA) y la guía del docente partibles; pasos 1-3 en
+  una fila; es_ancho() reconoce 'figobs figobs-motor' (las figuras quedaban
+  con column-span dentro de las columnas); "Cómo citar" solo en los
+  créditos; sin el párrafo "Cada caso se trabaja en cuatro pasos" (está en
+  Cómo usar). `acomodar.py` CONECTADO (armado_incremental): sube texto bajo
+  figuras que saltan, parte la guía con "continúa →" y no deja la cabecera de
+  una ficha sola al pie. Armado desde cero ~20 min. Lo que queda son sobre
+  todo figuras grandes seguidas de más figuras (nada que subir). Después: la
+  viñeta de un recuadro largo también se parte (salvo la guía del docente) y
+  acomodar.py aprieta las referencias si la última página queda casi vacía.
+- **Una sola serie de figuras por capítulo** (2026-10-19): las ilustraciones
+  `![...](...)` se numeran como "Figura N.x" junto con las imágenes y las
+  figuras sueltas del motor (antes llevaban su propia serie, "Ilustración
+  N.x", y había dos 4.1 en el cap. 4). Ilustraciones nuevas, esquemas SVG
+  propios: 4.2 formas del reflejo (`hacer_cap04.py`, curvas de LabSim), 6.1
+  electromotilidad (`hacer_cap06.py`) y 10.1 reciclaje del potasio
+  (`hacer_cap10.py`), estas dos con las formas de `hacer_b3.py`.
 
 ### Libro, contenido
 - **Rostros** (hechos 2026-10-16): 38 personas en `rostros/` (JPG 512 px),

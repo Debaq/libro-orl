@@ -42,6 +42,7 @@ import time
 import urllib.parse
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import acomodar  # noqa: E402
 import hacer_libro as H  # noqa: E402
 
 CACHE = H.SALIDA / 'cache'
@@ -61,8 +62,10 @@ def documento(cuerpo, css_extra=''):
 
 
 def huella(doc):
-    """El HTML completo (CSS incluido) y los bytes de cada archivo local que pide."""
+    """El HTML completo (CSS incluido), los bytes de cada archivo local que pide
+    y el código del acomodo (que cambia cómo se compone)."""
     h = hashlib.sha256(doc.encode('utf-8'))
+    h.update(pathlib.Path(acomodar.__file__).read_bytes())
     for uri in sorted(set(re.findall(r'file://([^"\')\s]+)', doc))):
         ruta = pathlib.Path(urllib.parse.unquote(uri))
         h.update(uri.encode())
@@ -74,9 +77,9 @@ def componer(clave, doc, destino):
     """Compone un segmento (en otro proceso) y devuelve lo que el pegado
     necesita saber de sus páginas."""
     import logging
-    from weasyprint import HTML
     logging.getLogger('weasyprint').setLevel(logging.ERROR)
-    render = HTML(string=doc, base_url=BASE_URL).render()
+    # acomodo de figuras y guías partidas (acomodar.py): la pasada de huecos
+    render = acomodar.componer(doc, BASE_URL)
     paginas, anclas = [], {}
     for i, pag in enumerate(render.pages):
         tipo = pag._page_box.page_type

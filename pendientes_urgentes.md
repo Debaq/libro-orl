@@ -9,7 +9,7 @@ El texto de todos los capítulos del índice está escrito como primer borrador 
 5. **Ilustraciones que no existen** (salen como recuadro con la descripción): `cap06-electromotilidad`, `04-formas-reflejo`, `cap10-potasio`, `h04-grafico-meseta`, `h03-alta-frecuencia`, `h09-sonda`, `h08-sala-vra`. H12 ya tiene las vías del VEMP (captura de labyrinthus3d). Revisar si labyrinthus3d o los otros simuladores también sirven para `cap09-hidrops` y `cap10-potasio`. Las ilustraciones de Gemini del 2026-10-15 que el autor dio por "llenas de errores" siguen en el libro. Imagenología (TC/RM/Rx): 29 imágenes insertadas el 2026-10-17 (tandas A y B, ver ESTADO.md).
 6. **Decisiones del autor** ("Para él" en ESTADO.md): fórmulas médico-legales del cap. 34 (AMA y SUSESO sin fuente primaria leída), formato del informe con "patrón de neuropatía", LDL en H3, restricciones después de la maniobra en H19, publicar RinoSim y su dirección, fotos propias de los equipos nasales.
 7. ~~Rostros sin el signo clínico~~: rehechos con el modelo Pro el 2026-10-17 (`rostros/REHACER.md`); dos narices desviadas quedan sutiles.
-8. **Maquetación:** huecos al pie en muchas páginas (pasada final); `herramientas/acomodar.py` hecho pero desconectado.
+8. ~~**Maquetación:** huecos al pie~~: pasada hecha el 2026-10-19 (ESTADO.md, Armador); quedan ~35 págs. en blanco repartidas en el tomo I y ~22 en el II, casi todas figuras grandes seguidas de figuras.
 9. **Pendientes anteriores al loop:** pasada de "fundamento fisiológico" en H1, H2, H4, H5, H7, H8, H9 y H10; índice de Hood para citarlo en los capítulos de ABR; práctica offline de los pacientes del libro.
 
 Además: la revisión de fondo del texto como material docente (clínica correcta, tono del autor) todavía no la hace nadie del equipo.

@@ -171,16 +171,6 @@ def firma_capitulo(cap):
     return h
 
 
-def como_citar(cap, titulo):
-    autores = AUTORIA.get(cap)
-    if not autores:
-        return ''
-    anio = __import__('datetime').date.today().year
-    return (f'<p class="como-citar"><span>Cómo citar este capítulo</span>'
-            f'{", ".join(cita_vancouver(k) for k in autores)}. {titulo}. En: {cita_vancouver(EDITOR)}, editor. '
-            f'{TITULO}. {BAJADA}. 1.ª ed. {CIUDAD}: TecMedHub, Universidad Austral de Chile; {anio}.</p>')
-
-
 MARCA_IA = '{IA}'   # al inicio del pie: dibujo hecho con IA, a reemplazar (sale en rojo)
 
 
@@ -370,6 +360,9 @@ def resultados(nombre, numero, cap):
     return '<p class="rotulo-chico">Resultados</p>' + ''.join(figs)
 
 
+# Caracteres desde los que un recuadro (de una columna; el doble si va a todo
+# el ancho) se puede partir entre páginas: ~1/3 de columna
+CAJA_LARGA = 1100
 CAJAS = {
     'objetivos': 'En este capítulo', 'ayuda': 'Ayuda memoria', 'sabias': '¿Sabías que?',
     'ojo': 'Ojo clínico', 'pregunta': 'Pregunta abierta', 'comentario': 'Comentario',
@@ -486,6 +479,10 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     svg = re.sub(r'<metadata id="anclas">.*?</metadata>', '', svg)   # ya se usaron; ids repetidos en la página
     svg = svg.replace('</svg>', ''.join(globos) + '</svg>')
     svg = re.sub(r'<svg ', '<svg class="grafico" ', svg, count=1)
+    # Sin width/height el alto sale del viewBox: con ellos, al lado de los
+    # globos (flex) la figura reservaba el alto sin escalar y dejaba ~17 mm
+    # en blanco bajo cada resultado
+    svg = re.sub(r'^(<svg [^>]*?) width="[\d.]+" height="[\d.]+"', r'\1', svg, count=1)
     rot = NOMBRE_FIGURA.get(tipo, tipo)
     if 'sin enmascarar' in svg and 'sin enmascarar' not in rot:
         rot += ' sin enmascarar'
@@ -573,7 +570,16 @@ def capitulo(md_texto):
         tipo = {'mana': 'truco'}.get(tipo, tipo)      # nombre anterior del recuadro
         titulo = titulo or CAJAS.get(tipo, '')
         cuerpo_caja = markdown.markdown(dentro, extensions=['tables'])
-        return guardar(f'<aside class="caja caja-{tipo}{" ancho" if ancho else ""}">'
+        # Un recuadro largo se puede partir entre páginas: entero saltaba y
+        # dejaba el resto de la página en blanco (pasada de huecos, 2026-10-19)
+        largo = (tipo == 'docente'
+                 or len(re.sub(r'<[^>]+>', '', cuerpo_caja)) > (CAJA_LARGA * 2 if ancho else CAJA_LARGA))
+        # Los pasos 1-3 de un caso van lado a lado (él, 2026-10-19); ver pasos()
+        paso = tipo == 'pregunta' and titulo.startswith('Paso ')
+        if paso:
+            largo = False
+        return guardar(f'<aside class="caja caja-{tipo}{" ancho" if ancho else ""}{" larga" if largo else ""}'
+                       f'{" paso" if paso else ""}">'
                        f'<p class="caja-titulo">{html.escape(titulo)}</p>{cuerpo_caja}</aside>')
 
     # En orden de aparición: la ficha numera el caso y sus figuras toman ese número
@@ -589,14 +595,16 @@ def capitulo(md_texto):
         return guardar(imagen_con_globos(ruta, titulo or '', cuerpo_img.splitlines(), f'{cap}.{nfig["img"]}', ancho))
 
     texto_img = re.compile(r'^:::imagen\s+(\S+)(?:[ \t]+(.*?))?\s*\n(.*?)^:::\s*$', re.M | re.S)
-    # Imágenes y figuras del motor que no son de un caso comparten la serie
-    # "Figura H3.N" y se procesan en pasadas distintas: el número sale del
-    # orden en que aparecen en el texto, no del orden de proceso.
+    # Imágenes, figuras del motor que no son de un caso e ilustraciones
+    # (![...](...)) comparten la serie "Figura H3.N" (una sola serie por
+    # capítulo, como en los libros de texto; antes las ilustraciones llevaban
+    # la suya) y se procesan en pasadas distintas: el número sale del orden en
+    # que aparecen en el texto, no del orden de proceso.
     casos_md = set(re.findall(r'\{\{caso\s+([a-z0-9_]+)\}\}', md_texto))
-    serie = [('img' if m[1] else 'fig') for m in re.finditer(
-        r'^:::(imagen)\s|^:::figura\s+([a-z0-9_]+)\s', md_texto, re.M)
-        if m[1] or m[2] not in casos_md]
-    numeros = {k: [i for i, t in enumerate(serie, 1) if t == k] for k in ('img', 'fig')}
+    serie = [('img' if m[1] else 'ilu' if m[3] else 'fig') for m in re.finditer(
+        r'^:::(imagen)\s|^:::figura\s+([a-z0-9_]+)\s|^(!)\[', md_texto, re.M)
+        if m[1] or m[3] or m[2] not in casos_md]
+    numeros = {k: [i for i, t in enumerate(serie, 1) if t == k] for k in ('img', 'fig', 'ilu')}
     md_texto = texto_img.sub(lambda m: img(m[1], m[2], m[3]), md_texto)
 
     def uno(m):
@@ -614,7 +622,8 @@ def capitulo(md_texto):
     # CORTA las columnas en vez de usar column-span: WeasyPrint perdía todo lo
     # que seguía cuando un column-span caía justo en un salto de página.
     def es_ancho(h):
-        return (h.startswith(('<section class="caso"', '<div class="figobs"'))
+        # 'figobs' con o sin 'figobs-motor' (la figura al lado de los globos)
+        return (h.startswith(('<section class="caso"', '<div class="figobs"', '<div class="figobs '))
                 or re.match(r'<aside class="caja [^"]*\bancho\b', h) is not None)
 
     def dos_columnas(seccion):
@@ -647,22 +656,24 @@ def capitulo(md_texto):
     cuerpo = ''.join(partes)
     for clave, h in marcas.items():
         cuerpo = cuerpo.replace(f'<p>{clave}</p>', h)
+    # Pasos seguidos de un caso: en una fila (apilados ocupaban media página)
+    cuerpo = re.sub(r'(?:<aside class="caja caja-pregunta paso">.*?</aside>\s*){2,}',
+                    lambda m: f'<div class="pasos">{m[0].strip()}</div>\n', cuerpo, flags=re.S)
     # Ilustraciones (dibujos tipo BioRender): ![descripción](ilustraciones/x.png).
     # Si el archivo todavía no existe sale un recuadro con la descripción,
     # para que se vea dónde va y qué tiene que mostrar.
-    nilu = [0]
 
     def ilustracion(m):
         alt, src = html.unescape(m[1]), m[2]
         alt, ia = aviso_ia(alt)
-        nilu[0] += 1
+        n = numeros['ilu'].pop(0) if numeros['ilu'] else 0
         ruta = LIBRO / src
-        pie = f'<figcaption>{ia}Ilustración {cap}.{nilu[0]}. {html.escape(alt)}</figcaption>'
+        pie = f'<figcaption>{ia}Figura {cap}.{n}. {html.escape(alt)}</figcaption>'
         if ruta.exists():
             return f'<figure class="ilustracion"><img src="{ruta.as_uri()}">{pie}</figure>'
         # pendiente: la descripción completa va en el recuadro; el pie, solo la primera frase
         corto = re.split(r'(?<=[.:;])\s', alt, maxsplit=1)[0].rstrip('.:;')
-        pie = f'<figcaption>Ilustración {cap}.{nilu[0]}. {html.escape(corto)}.</figcaption>'
+        pie = f'<figcaption>Figura {cap}.{n}. {html.escape(corto)}.</figcaption>'
         return (f'<figure class="ilustracion"><div class="ilu-pendiente"><span>Ilustración pendiente</span>'
                 f'{html.escape(alt)}<br><small>{html.escape(src)}</small></div>{pie}</figure>')
 
@@ -695,8 +706,7 @@ def capitulo(md_texto):
         apertura = (f'<header class="apertura" id="cap-{cap}"><div class="ap-num"><span class="ap-tipo">{tipo}</span>'
                     f'<span class="ap-n">{cap}</span></div><div class="ap-tit"><h1 class="capitulo" data-marca="{marca}">'
                     f'{m[1]}</h1>{firma_capitulo(cap)}</div></header>')
-        cuerpo = (cuerpo[:m.start()] + apertura + cuerpo[m.end():]
-                  + como_citar(cap, re.sub(r'<.*?>', '', m[1]).strip()))
+        cuerpo = cuerpo[:m.start()] + apertura + cuerpo[m.end():]
     return cuerpo
 
 
@@ -806,10 +816,6 @@ h1.prelim {{ font: 700 24pt Fraunces, serif; color: #24101a; margin: 0 0 6mm; pa
 .ap-tit {{ flex: 1; }}
 .ap-autores {{ font: 600 9.6pt/1.4 'Plus Jakarta Sans'; color: #8e2a4a; margin: 2.5mm 0 0; letter-spacing: .2pt; }}
 .ap-revision {{ font: 7.8pt/1.3 'Plus Jakarta Sans'; color: #8f7a83; margin: .8mm 0 0; }}
-.como-citar {{ break-inside: avoid; margin: 9mm 0 0; padding: 2.5mm 3.5mm; background: #f6f1f3; border-left: 2pt solid #8e2a4a;
-               font: 7.8pt/1.45 'Plus Jakarta Sans'; color: #4a3a40; }}
-.como-citar span {{ display: block; font: 700 6.8pt 'Plus Jakarta Sans'; letter-spacing: 1.2pt; text-transform: uppercase;
-                    color: #8e2a4a; margin-bottom: .8mm; }}
 .simuladores {{ display: grid; grid-template-columns: 1fr 1fr; gap: 5mm 7mm; margin: 6mm 0; }}
 .sim {{ display: flex; gap: 4mm; align-items: flex-start; break-inside: avoid; padding: 3mm; border: .6pt solid #e7dde1;
         border-radius: 2.5mm; }}
@@ -877,18 +883,26 @@ h4 {{ font: 700 8.5pt 'Plus Jakarta Sans'; letter-spacing: .8pt; text-transform:
 p {{ margin: 0 0 2.4mm; orphans: 3; widows: 3; }}
 li {{ orphans: 2; widows: 2; }}
 h2, h3, h4, .rotulo-chico, .caja-titulo {{ break-after: avoid; }}
-/* la ficha del caso no se parte y arrastra consigo la pregunta que la sigue. No
-   abre página: si no cabe, pasa entera a la siguiente (con break-before: page
-   cada caso dejaba media hoja en blanco y los capítulos llegaban a 24 págs.) */
-.caso {{ break-after: avoid; }}
+/* la ficha del caso no abre página (con break-before: page cada caso dejaba
+   media hoja en blanco). Tampoco arrastra a los pasos que la siguen: la
+   cadena de break-after: avoid hacía saltar ficha y pasos juntos y dejaba
+   ~18 págs. en blanco en el libro (pasada de huecos, 2026-10-19) */
+.caso {{ break-after: auto; }}
 /* la ficha puede partirse en la historia clínica (entera dejaba media hoja en
    blanco); la cabecera y la anamnesis van juntas */
 .caso-cab, .anamnesis {{ break-inside: avoid; }}
 .historia li {{ break-inside: avoid; }}
-.caso + .caja-pregunta, .caso + p {{ break-before: avoid; }}
 /* un título de sección no queda solo al pie de la página */
 h2 + p, h3 + p, h4 + p, h2 + ul, h3 + ul, h2 + ol, h3 + ol {{ break-before: avoid; }}
 .caja {{ break-inside: avoid; }}
+/* el recuadro largo sí se parte (entero saltaba y dejaba media página en
+   blanco); el borde y el fondo se repiten en cada trozo */
+.caja.larga {{ break-inside: auto; box-decoration-break: clone; }}
+.caja.larga tr {{ break-inside: avoid; }}
+/* la viñeta larga también se parte (dos líneas a cada lado, como todo li): entera
+   saltaba de página y empujaba el final del capítulo a una hoja más. La guía del
+   docente no: la parte acomodar.py entre viñetas, con su "continúa" */
+.caja-docente li {{ break-inside: avoid; }}
 /* figura con globos: la figura no se parte, pero la lista de globos puede
    seguir en la página siguiente (entera saltaba y dejaba el hueco) */
 .figobs {{ break-inside: auto; }}
@@ -907,7 +921,7 @@ li {{ margin-bottom: .8mm; }}
               font-size: 8.8pt; color: #5c4a00; border-radius: 0 1.5mm 1.5mm 0; }}
 .pendiente span {{ font-weight: 700; text-transform: uppercase; letter-spacing: .6pt; font-size: 7.5pt; margin-right: 2mm; }}
 .caso {{ border-top: 1.2pt solid #8e2a4a; margin: 8mm 0 3mm; padding-top: 4mm; }}
-.caso-cab {{ display: flex; align-items: center; gap: 5mm; break-after: avoid; }}
+.caso-cab {{ display: flex; align-items: center; gap: 5mm; }}
 .rostro {{ width: 24mm; height: 24mm; border-radius: 50%; object-fit: cover; flex: none; }}
 .rostro.vacio {{ background: #f1e4e9; color: #8e2a4a; font: 700 15pt Fraunces, serif; display: flex;
                  align-items: center; justify-content: center; }}
@@ -930,6 +944,9 @@ li {{ margin-bottom: .8mm; }}
 .referencias h3 {{ font-size: 9pt; margin: 2.5mm 0 1mm; }}
 .referencias ol {{ padding-left: 4.5mm; margin-bottom: 1.5mm; }}
 .referencias li {{ margin-bottom: .5mm; overflow-wrap: anywhere; }}
+/* la pone acomodar.py cuando la última página del capítulo queda casi vacía */
+.referencias.apretada {{ font-size: 7.3pt; line-height: 1.3; }}
+.referencias.apretada li {{ margin-bottom: 0; }}
 .dos-col h3 {{ break-after: avoid; }}
 .dos-col .ancho, .dos-col table.ancho {{ column-span: all; }}
 /* fichas y figuras relatadas van siempre a todo el ancho, aunque caigan en una sección a dos columnas */
@@ -965,6 +982,13 @@ table caption {{ caption-side: top; text-align: left; font-size: 8pt; color: #5c
 .caja-pregunta .caja-titulo {{ color: #9a7100; }}
 .caja-docente {{ background: #eaf6ef; border: 1pt solid #2e7d4f; }}
 .caja-docente .caja-titulo {{ color: #2e7d4f; }}
+/* la guía partida (acomodar.py): "continúa" al pie del primer trozo */
+.caja .continua {{ text-align: right; font: 600 7.4pt 'Plus Jakarta Sans'; letter-spacing: .6pt; color: #2e7d4f;
+                  margin: 0 0 1mm !important; }}
+/* los pasos 1-3 de un caso, en una fila y en letra más chica */
+.pasos {{ display: flex; gap: 3mm; align-items: stretch; margin: 2mm 0 4mm; break-inside: avoid; }}
+.pasos .caja {{ flex: 1 1 0; margin: 0; font-size: 8.2pt; line-height: 1.38; padding: 2mm 2.6mm 1mm; }}
+.pasos .caja-titulo {{ font-size: 6.8pt; letter-spacing: .6pt; }}
 .caja-truco {{ background: #f0f7f2; border: 1pt solid #2e8540; border-radius: 2mm; }}
 .caja-truco .caja-titulo {{ color: #2e8540; }}
 .caja-truco .caja-titulo::before {{ content: '✦ '; }}
@@ -1077,7 +1101,11 @@ def paginas_iniciales(capitulos, tomo=None):
                 f'{", ".join(nombre_completo(k) for k in orden_autores())}.<br>'
                 f'Revisión general de los casos clínicos: {nombre_completo(REVISOR_CASOS)}.</p>'
                 f'<p>Cómo citar este libro: {cita_vancouver(EDITOR)}, editor. {TITULO}. {BAJADA}. {volumen}1.ª ed. '
-                f'{CIUDAD}: TecMedHub, Universidad Austral de Chile; {anio}.</p>' +
+                f'{CIUDAD}: TecMedHub, Universidad Austral de Chile; {anio}.</p>'
+                # uno solo, acá (él, 2026-10-19): antes iba al final de cada capítulo
+                f'<p>Cómo citar un capítulo: Autores del capítulo. Título del capítulo. En: {cita_vancouver(EDITOR)}, '
+                f'editor. {TITULO}. {BAJADA}. {volumen}1.ª ed. {CIUDAD}: TecMedHub, Universidad Austral de Chile; '
+                f'{anio}. Los autores de cada capítulo van bajo su título.</p>' +
                 f'<p>Edita: {", ".join(SELLO)}. {CIUDAD}, Chile.</p>'
                 f'<p>ISBN: en trámite</p>'
                 f'<p>Esta obra se distribuye con licencia <strong>Creative Commons Atribución-NoComercial-'
