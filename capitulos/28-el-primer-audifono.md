@@ -199,8 +199,6 @@ Un paciente de 70 años discrimina el 90 % en silencio, con una pérdida leve en
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap28_primera_vez}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

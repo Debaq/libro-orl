@@ -187,8 +187,6 @@ Una paciente con migraña desde los 16 años tiene tres crisis largas de mareo, 
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap23_meniere_avanzado}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

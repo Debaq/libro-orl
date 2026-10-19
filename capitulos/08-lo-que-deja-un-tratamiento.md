@@ -215,8 +215,6 @@ La oncóloga te llama: el control antes del tercer ciclo de un paciente con cisp
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap08_ototoxica}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

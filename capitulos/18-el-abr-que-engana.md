@@ -129,8 +129,6 @@ Obtienes un trazo con una onda perfecta a 5,6 ms a 40 dB nHL en un oído que el 
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 Los pacientes son de práctica corriente: sus oídos son los de siempre. En cada caso hay dos tipos de figura. El **ABR limpio** del paciente, tal como lo toma el equipo bien puesto, es la referencia. El **registro que engaña** es el mismo oído con el artefacto o el ajuste equivocado, simulado en LabSim: no es el registro de un paciente real.
 
 {{caso cap18_p33}}

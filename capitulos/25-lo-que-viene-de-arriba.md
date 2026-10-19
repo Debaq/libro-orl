@@ -238,8 +238,6 @@ Un paciente tiene un nistagmo evocado por la mirada simétrico, un seguimiento n
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 Lo vestibular de estos casos (la mirada, el seguimiento, las sacadas y los valores del impulso cefálico y de la calórica) **no sale de LabSim**: va en las figuras y en las tablas de cada caso. De LabSim salen la ficha, la historia y el audiograma.
 
 {{caso cap25_canvas}}

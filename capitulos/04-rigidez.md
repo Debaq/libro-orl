@@ -197,8 +197,6 @@ Una mujer de 30 años oye un poco menos por el oído izquierdo desde hace un añ
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap04_p34}}
 
 *Otoscopías: Viscaino M, Auat Cheein F, Ear imagery database (figshare, 2020), CC0 1.0.*

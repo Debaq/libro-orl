@@ -153,8 +153,6 @@ En el caso 2, la fosa derecha da 0,61 al inspirar y 0,36 al espirar. Si el exame
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 Los tres pacientes son de audición normal: la nariz no se estudia con LabSim. El valor de referencia es el de trabajo del libro (0,4 Pa/(cm³/s) a 150 Pa, → H26; Ren y cols., 2018; Vogt y cols., 2016).
 
 {{caso cap35_desviacion}}

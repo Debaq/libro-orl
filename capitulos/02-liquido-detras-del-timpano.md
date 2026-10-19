@@ -212,8 +212,6 @@ Una niña de 4 años tiene un audiograma normal y un timpanograma B bilateral co
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap02_p35}}
 
 *Otoscopías: Zaka Ur Rehman, OtitisMediaKPJ (Kaggle, 2026), CC BY-NC-SA 4.0.*

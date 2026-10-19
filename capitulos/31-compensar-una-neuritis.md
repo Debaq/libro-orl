@@ -193,8 +193,6 @@ Una paciente de 63 años tiene una neuritis de hace cinco semanas, toma un antih
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 :::comentario Lo vestibular de los casos
 LabSim no tiene vértigo, nistagmo ni vHIT: la ficha, la anamnesis, el audiograma y el VEMP de cada paciente salen del editor de casos. El **vHIT, el DHI y la batería funcional** están en tablas y en **hojas de seguimiento** propias. Cada hoja muestra las tres visitas: lo que llega el paciente, y cómo sigue.
 :::

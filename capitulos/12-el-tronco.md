@@ -173,8 +173,6 @@ Un paciente tiene los umbrales de la audiometría tonal normales y reflejos esta
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 En todos los casos, cada nivel del ABR trae sus dos réplicas (las líneas finas, dos subpromedios del mismo registro) bajo el trazo promedio: una onda que está en las dos es respuesta y no ruido (→ H10). Las ondas que se marcan son las que sobresalen del ruido; las latencias que se citan son de esas marcas y tienen un margen de décimas de milisegundo.
 
 {{caso cap12_esclerosis_multiple}}

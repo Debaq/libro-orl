@@ -180,8 +180,6 @@ Una persona de 82 años se cayó tres veces y le salió "todo normal para la eda
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap32_vppb}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

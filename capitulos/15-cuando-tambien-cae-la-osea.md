@@ -131,8 +131,6 @@ Un paciente tiene una pérdida de 90 dB en el oído derecho y la ósea sin enmas
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap15_mixta_otitis_cronica}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

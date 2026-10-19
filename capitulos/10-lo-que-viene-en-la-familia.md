@@ -229,8 +229,6 @@ Los padres de Adrián (caso 10.1) esperan otro hijo. Si el recién nacido **pasa
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap10_gjb2}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

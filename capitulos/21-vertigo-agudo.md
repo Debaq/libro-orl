@@ -159,8 +159,6 @@ Un paciente tiene vértigo agudo, un nistagmo que bate a la izquierda sin cambia
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 :::comentario Lo vestibular de los casos
 LabSim no tiene vértigo, nistagmo ni vHIT: la ficha, la anamnesis, el audiograma y el VEMP de cada paciente son los del simulador, y **la hoja de cabecera** (nistagmo, impulso cefálico y oclusión alternada) va con las cifras del paciente.
 :::

@@ -226,8 +226,6 @@ Un paciente tiene emisiones otoacústicas presentes en un oído con 50 dB de pé
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap11_p39}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?

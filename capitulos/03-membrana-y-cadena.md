@@ -171,8 +171,6 @@ Dos pacientes tienen un timpanograma Ad. Uno tiene un gap de 50 dB y el otro un 
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap03_perforacion}}
 
 *Otoscopías: Zaka Ur Rehman, OtitisMediaKPJ (Kaggle, 2026), CC BY-NC-SA 4.0.*

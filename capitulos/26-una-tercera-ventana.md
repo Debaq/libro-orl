@@ -163,8 +163,6 @@ Un paciente tiene un gap de 25 dB en 250 y 500 Hz, timpanograma A y reflejo ipsi
 
 ## Casos
 
-Cada caso se trabaja en cuatro pasos, como en el aprendizaje basado en problemas: lee la entrevista, separa los datos que importan, plantea tus hipótesis y decide qué pedir **antes** de mirar los resultados. La resolución de cada caso está al final del capítulo.
-
 {{caso cap26_dehiscencia}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
