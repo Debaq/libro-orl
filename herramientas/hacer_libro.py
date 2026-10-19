@@ -211,6 +211,9 @@ PRELIMINARES = LIBRO / 'preliminares'
 # capítulos numerados en el II) y las remisiones (→ H3, → cap. 6) sirven
 # igual en las tres. Cada tomo pagina desde 1.
 TOMOS = {'I': 'Bases y caja de herramientas', 'II': 'Casos clínicos'}
+# Color de acento de la portada de cada tomo (él, 2026-10-19: la misma
+# portada; el tomo II con los trazos en menta). El libro en un tomo, rosa.
+ACENTO = {None: '#E7A7BA', 'I': '#E7A7BA', 'II': '#9fd6c9'}
 
 
 def tomo_de(cap):
@@ -767,9 +770,9 @@ body {{ margin: 0; }}
 .portada {{ page: portada; position: relative; height: 297mm; color: #F8F1F3; box-sizing: border-box; }}
 .pt-banda-sup {{ position: absolute; top: 0; left: 0; right: 0; height: 14mm; background: #8e2a4a; color: #fff;
                  font: 700 10pt/14mm 'Plus Jakarta Sans'; letter-spacing: 3pt; text-transform: uppercase; padding-left: 22mm; }}
-.pt-centro {{ position: absolute; top: 58mm; left: 22mm; right: 22mm; border-left: 3pt solid #E7A7BA; padding-left: 8mm; }}
+.pt-centro {{ position: absolute; top: 58mm; left: 22mm; right: 22mm; border-left: 3pt solid var(--acento, #E7A7BA); padding-left: 8mm; }}
 .portada h1 {{ font: 700 38pt/1.08 Fraunces, serif; color: #F8F1F3; margin: 0 0 7mm; }}
-.portada .bajada {{ font: 15pt/1.3 'Plus Jakarta Sans'; color: #E7A7BA; margin: 0; }}
+.portada .bajada {{ font: 15pt/1.3 'Plus Jakarta Sans'; color: var(--acento, #E7A7BA); margin: 0; }}
 .portada .trazos {{ position: absolute; left: 0; right: 0; top: 150mm; width: 210mm; height: 78mm; }}
 .portada .autores {{ position: absolute; left: 22mm; right: 22mm; bottom: 38mm; margin: 0; padding-top: 5mm;
                      border-top: .8pt solid #5a2a3c; color: #F8F1F3; }}
@@ -854,7 +857,7 @@ a.toc.otro-tomo, a.toc.otro-tomo .toc-n {{ color: #a8979e; }}
 .pt-tomo {{ font: 600 11pt 'Plus Jakarta Sans'; letter-spacing: 2pt; text-transform: uppercase; color: #F8F1F3; margin: 6mm 0 0; }}
 .in-tomo {{ font: 600 10pt 'Plus Jakarta Sans'; letter-spacing: 1.5pt; text-transform: uppercase; color: #24101a; margin: -16mm 0 22mm; }}
 .cp-titulo span {{ display: block; margin-top: 3mm; font: 600 10pt 'Plus Jakarta Sans'; letter-spacing: 1.5pt;
-                   text-transform: uppercase; color: #E7A7BA; }}
+                   text-transform: uppercase; color: var(--acento, #E7A7BA); }}
 .parte {{ page: parte; break-before: right; height: 297mm; position: relative; color: #fff; }}
 .pt-num {{ position: absolute; top: 95mm; left: 25mm; margin: 0; font: 700 13pt 'Plus Jakarta Sans'; letter-spacing: 3pt;
            text-transform: uppercase; color: #F5C9D6; }}
@@ -1039,7 +1042,7 @@ def partes_del_indice():
     return out
 
 
-def trazos_portada():
+def trazos_portada(color=ACENTO[None]):
     """Franja de trazos de PEAT para la portada, dibujados con la misma forma que el motor."""
     import math
     w, h, filas = 600, 220, 7
@@ -1056,7 +1059,7 @@ def trazos_portada():
             y += 0.06 * math.sin(ms * 7 + k)
             pts.append(f'{ms / 12 * w:.1f},{base - y * amp:.1f}')
         op = 0.85 - k * 0.09
-        caminos.append(f'<path d="M{" L".join(pts)}" fill="none" stroke="#E7A7BA" stroke-width="1.6" stroke-opacity="{op:.2f}"/>')
+        caminos.append(f'<path d="M{" L".join(pts)}" fill="none" stroke="{color}" stroke-width="1.6" stroke-opacity="{op:.2f}"/>')
     return (f'<svg class="trazos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" preserveAspectRatio="none">'
             + ''.join(caminos) + '</svg>')
 
@@ -1074,10 +1077,11 @@ def paginas_iniciales(capitulos, tomo=None):
     entera, con lo del otro tomo rotulado y sin número."""
     anio = __import__('datetime').date.today().year
     rotulo = f'Tomo {tomo} · {TOMOS[tomo]}' if tomo else ''
-    portada = (f'<section class="portada"><div class="pt-banda-sup">TecMedHub · Universidad Austral de Chile</div>'
+    acento = f' style="--acento: {ACENTO[tomo]}"'
+    portada = (f'<section class="portada"{acento}><div class="pt-banda-sup">TecMedHub · Universidad Austral de Chile</div>'
                f'<div class="pt-centro"><h1>{TITULO}</h1><p class="bajada">{BAJADA}</p>'
                + (f'<p class="pt-tomo">{rotulo}</p>' if tomo else '') + '</div>'
-               f'{trazos_portada()}'
+               f'{trazos_portada(ACENTO[tomo])}'
                + f'<div class="autores"><p class="pt-aut">{" · ".join(AUTORES[k]["apellidos"] for k in alfabetico())}</p></div>' +
                f'<div class="pt-logos">{logo("uach-pm-blanco.png")}{logo("tecmedhub-blanco.png", "tm")}</div></section>')
     portadilla = (f'<section class="portadilla"><p class="pd-titulo">{TITULO}</p>'
@@ -1156,7 +1160,7 @@ def paginas_iniciales(capitulos, tomo=None):
 
 
 def contraportada(tomo=None):
-    return (f'<section class="contraportada"><p class="cp-titulo">{TITULO}'
+    return (f'<section class="contraportada" style="--acento: {ACENTO[tomo]}"><p class="cp-titulo">{TITULO}'
             + (f'<span>Tomo {tomo} · {TOMOS[tomo]}</span>' if tomo else '') + '</p>'
             f'<p class="cp-texto">Un libro para aprender a evaluar y rehabilitar en otorrinolaringología como se '
             f'aprende en el box: con pacientes. Cada técnica se explica paso a paso y cada caso se razona desde la '
