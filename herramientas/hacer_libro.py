@@ -30,15 +30,15 @@ import markdown
 
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent                                   # docs/libro
-RAIZ = LIBRO.parents[1]
+RAIZ = LIBRO / 'labsim'   # copia de los recursos de LabSim que usa el armado (labsim/LEEME.md)
 SALIDA = LIBRO / 'salida'                             # PDF de capítulos sueltos (no se versiona)
 CAPITULOS = LIBRO / 'capitulos'
 CASOS = LIBRO / 'casos'
 SALIDA_FIG = LIBRO / 'figuras' / 'salida'
 ROSTROS = LIBRO / 'rostros'
 OTOSCOPIAS = LIBRO / 'otoscopias'
-FUENTES = LIBRO.parent / 'manual' / 'fuentes'
-CASOS_DEMO = LIBRO.parent / 'manual' / 'capturas' / 'casos_demo.json'
+FUENTES = RAIZ / 'docs' / 'manual' / 'fuentes'
+CASOS_DEMO = RAIZ / 'docs' / 'manual' / 'capturas' / 'casos_demo.json'
 
 # Formato de página. 'a4': para imprimir y anillar ya (margen interior más
 # ancho del lado del anillado, alternando páginas pares e impares). 'libro':

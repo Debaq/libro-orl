@@ -23,16 +23,16 @@ que se arma un capítulo, así que siempre está al día.
 
 ```bash
 # Un capítulo: casos + figuras + su PDF (salida/capitulo-11.pdf) + libro.pdf completo
-python3 docs/libro/capitulos/11-asimetria-que-no-cierra.py
-python3 docs/libro/capitulos/11-asimetria-que-no-cierra.py --solo-pdf   # sin rehacer figuras
+python3 capitulos/11-asimetria-que-no-cierra.py
+python3 capitulos/11-asimetria-que-no-cierra.py --solo-pdf   # sin rehacer figuras
 
 # Solo armar PDF
-python3 docs/libro/herramientas/hacer_libro.py            # libro.pdf completo
-python3 docs/libro/herramientas/hacer_libro.py 11         # capítulo 11 y después libro.pdf
-python3 docs/libro/herramientas/hacer_libro.py 11 --sin-completo   # solo el capítulo (rápido)
+python3 herramientas/hacer_libro.py            # libro.pdf completo
+python3 herramientas/hacer_libro.py 11         # capítulo 11 y después libro.pdf
+python3 herramientas/hacer_libro.py 11 --sin-completo   # solo el capítulo (rápido)
 
 # Esqueleto de un capítulo nuevo desde indice.md
-python3 docs/libro/herramientas/nuevo_capitulo.py H8
+python3 herramientas/nuevo_capitulo.py H8
 ```
 
 **Estado y pendientes: ver `ESTADO.md`.**

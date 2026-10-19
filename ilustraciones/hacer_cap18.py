@@ -20,7 +20,7 @@ import sys
 import numpy as np
 
 AQUI = pathlib.Path(__file__).resolve().parent
-RAIZ = AQUI.parents[2]
+RAIZ = pathlib.Path(os.environ.get('LABSIM', AQUI.parents[1] / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
 import os
 os.chdir(RAIZ)
 sys.path.insert(0, str(RAIZ / 'src'))

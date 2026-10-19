@@ -5,11 +5,12 @@ salen de los mismos datos y generadores que ve el alumno.
 """
 import hashlib
 import json
+import os
 import pathlib
 import random
 import sys
 
-RAIZ = pathlib.Path(__file__).resolve().parents[4]          # raíz del repo
+RAIZ = pathlib.Path(os.environ.get('LABSIM', pathlib.Path(__file__).resolve().parents[3] / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
 SRC = RAIZ / 'src'
 CASOS_DEMO = RAIZ / 'docs' / 'manual' / 'capturas' / 'casos_demo.json'
 

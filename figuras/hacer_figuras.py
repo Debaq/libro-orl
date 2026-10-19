@@ -35,7 +35,7 @@ from motor.datos import cargar_caso  # noqa: E402
 
 CASOS = AQUI.parent / 'casos'
 SALIDA = AQUI / 'salida'
-FUENTES = AQUI.parents[1] / 'manual' / 'fuentes'
+FUENTES = AQUI.parent / 'labsim' / 'docs' / 'manual' / 'fuentes'
 
 
 def figura(caso, f):

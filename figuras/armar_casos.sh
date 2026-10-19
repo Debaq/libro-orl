@@ -22,8 +22,8 @@
 # Requiere: podman, chromium, python3 con "websockets".
 set -euo pipefail
 
-REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-AQUI="$REPO/docs/libro/figuras"
+AQUI="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO="${LABSIM:-$(cd "$AQUI/../.." && pwd)/LabSim}"   # checkout de LabSim
 CAPTURAS="$REPO/docs/manual/capturas"
 TRABAJO="$(mktemp -d "${TMPDIR:-/tmp}/labsim_libro.XXXXXX")"
 PUERTO="${PUERTO:-8796}"

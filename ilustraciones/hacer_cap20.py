@@ -12,6 +12,7 @@ Las escalas de intensidad (dB SPL del aéreo, dB FL del vibrador) son las del si
 rotulan como tales y no son valores de la literatura."""
 import copy
 import json
+import os
 import pathlib
 import sys
 
@@ -19,7 +20,7 @@ import numpy as np
 
 AQUI = pathlib.Path(__file__).resolve().parent
 LIBRO = AQUI.parent
-RAIZ = LIBRO.parents[1]
+RAIZ = pathlib.Path(os.environ.get('LABSIM', LIBRO.parent / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
 sys.path.insert(0, str(LIBRO / 'figuras'))
 from motor import estilo as E  # noqa: E402
 from motor.datos import en_raiz, semilla  # noqa: E402

@@ -28,6 +28,7 @@ de empezar, paso a paso, cómo se informa, errores frecuentes, en LabSim,
 referencias) y un generador sin pacientes, para agregar los que ilustren.
 """
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -36,7 +37,7 @@ import unicodedata
 
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent                                   # docs/libro
-RAIZ = LIBRO.parents[1]
+RAIZ = pathlib.Path(os.environ.get('LABSIM', LIBRO.parent / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
 INDICE = LIBRO / 'indice.md'
 CAPITULOS = LIBRO / 'capitulos'
 INVESTIGACION = LIBRO / 'investigacion'
