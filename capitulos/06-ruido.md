@@ -84,7 +84,14 @@ El órgano de Corti tiene una hilera de **células ciliadas internas** y tres de
 
 Cuando una célula ciliada externa se estimula, **cambia de largo**: se acorta y se alarga siguiendo el sonido, cientos o miles de veces por segundo. Es la **electromotilidad** (Brownell y cols., 1985), y el motor es una proteína de su membrana, la **prestina** (Zheng y cols., 2000). Ese movimiento empuja la membrana basilar en el momento justo y amplifica la vibración de los sonidos suaves en una zona muy estrecha: es el **amplificador coclear**. Le da al oído unos 50 dB de sensibilidad y su sintonía fina (Dallos, 2008). <!-- Pasada de fundamentos 2026-10-18: decía "unos 40 a 50 dB". Dallos (2008, texto completo PMC2630119): "in the absence of OHCs hearing threshold was elevated by some 50 dB". --> Un ratón sin prestina pierde entre 40 y 60 dB (Liberman y cols., 2002). El detalle está en B2 y la histología en B3.
 
-![Órgano de Corti en corte transversal: una célula ciliada interna y tres externas sobre la membrana basilar, bajo la membrana tectoria. A la derecha, ampliación de una célula ciliada externa en dos momentos: acortada y alargada, con la prestina marcada en su pared lateral y una flecha doble que indica el cambio de largo.](ilustraciones/cap06-electromotilidad.png)
+:::imagen ilustraciones/cap06-electromotilidad.svg ancho=96% A la izquierda, el órgano de Corti en corte: una célula ciliada interna y tres externas sobre la membrana basilar, bajo la membrana tectoria. A la derecha, una célula ciliada externa ampliada en dos momentos, acortada y alargada: el cambio de largo es el motor del amplificador coclear.
+- @13.9,52.1 | **Célula ciliada interna** (una hilera): es el receptor, la que manda la señal al nervio.
+- @31.2,56.6 | **Células ciliadas externas** (tres hileras): casi no informan al cerebro; su trabajo es mover la membrana basilar.
+- @19.4,41.6 | **Membrana tectoria**: sobre ella se apoyan los estereocilios de las externas.
+- @51,85.5 | **Membrana basilar**: el movimiento de las externas empuja esta membrana y amplifica la vibración.
+- @78.1,60.5 | **Prestina**, en la pared lateral de la célula: la proteína que cambia de largo con el voltaje.
+- @85,31.6 | **Flecha doble**: la célula se acorta y se alarga siguiendo el sonido; la base queda fija y se mueve el extremo con los estereocilios.
+:::
 
 El amplificador trabaja sobre todo con los sonidos **suaves**: a intensidades altas casi no agrega nada. Por eso la cóclea comprime: una gran variación de intensidad afuera se convierte en una variación mucho menor de movimiento adentro (Robles y Ruggero, 2001). Sin amplificador, los sonidos suaves dejan de oírse, pero los fuertes llegan casi igual. Eso es el **reclutamiento**: el umbral sube, la molestia no, y el campo dinámico se estrecha (→ H5, H6).
 

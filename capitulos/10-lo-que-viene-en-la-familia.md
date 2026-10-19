@@ -91,7 +91,7 @@ Las uniones gap de la cóclea están hechas sobre todo de **conexina 26**, la pr
 
 ### La estría vascular
 
-La estría vascular es un epitelio de la pared lateral del conducto coclear, con capilares propios, que trabaja como una bomba: genera el potencial endococlear y mantiene alto el potasio de la endolinfa (Hibino y cols., 2010). Tiene tres capas de células:
+La estría vascular es un epitelio de la pared lateral del conducto coclear, con capilares propios, que trabaja como una bomba: genera el potencial endococlear y mantiene alto el potasio de la endolinfa (Hibino y cols., 2010). Tiene tres tipos de células:
 
 - **Células marginales**, que dan a la endolinfa y le secretan potasio por un canal formado por las proteínas KCNQ1 y KCNE1.
 - **Células intermedias**, que son **melanocitos**, células del pigmento. Con su canal de potasio generan buena parte del potencial endococlear.
@@ -99,7 +99,16 @@ La estría vascular es un epitelio de la pared lateral del conducto coclear, con
 
 Si la estría falla, la endolinfa pierde su potencial y su potasio, y las células ciliadas, aunque estén sanas, se quedan sin batería. La histología de la estría y del ligamento espiral está en B3.
 
-![Pared lateral de la cóclea en corte. A la izquierda, el órgano de Corti con una célula ciliada interna y tres externas bajo la endolinfa. Flechas de potasio: entra a la célula ciliada desde la endolinfa, sale por su base, pasa por las células de sostén (uniones gap con conexina 26) hacia el ligamento espiral y sus fibrocitos (segunda red de uniones gap) y llega a la estría vascular, con sus células basales, intermedias (melanocitos) y marginales, que lo devuelven a la endolinfa. Rótulos: "+80 mV" en la endolinfa; KCNQ1/KCNE1 en las células marginales; conexina 26 en las uniones gap.](ilustraciones/cap10-potasio.png)
+:::imagen ilustraciones/cap10-potasio.svg ancho=96% Pared lateral de la cóclea en corte. El potasio (flecha magenta) hace un circuito cerrado: entra a la célula ciliada desde la endolinfa, sale por su base, cruza las células de sostén y los fibrocitos del ligamento espiral por dos redes de uniones gap (marcas verdes), sube a la estría vascular y vuelve a la endolinfa.
+- @29.6,44 | **El potasio entra** por los estereocilios de la célula ciliada, desde la endolinfa. Empuja el potencial endococlear y la carga negativa del interior de la célula.
+- @36,67 | **Sale por la base** de la célula ciliada y pasa a la célula de sostén que la rodea.
+- @53,73.2 | **Células de sostén**: pasan el potasio de una a otra por uniones gap de **conexina 26** (marcas verdes), la primera red.
+- @90.8,47 | **Ligamento espiral**: sus fibrocitos siguen el camino por una segunda red de uniones gap, también de conexina 26, hasta la estría.
+- @78.6,42 | **Estría vascular**, de la endolinfa hacia el ligamento: células marginales, intermedias (melanocitos, con pigmento) y basales. Los capilares rojos corren entre las capas.
+- @71,50.5 | **KCNQ1/KCNE1**: el canal de la célula marginal que devuelve el potasio a la endolinfa y cierra el circuito.
+- @48.6,60.8 | **+80 mV**: el potencial endococlear de la endolinfa respecto de la perilinfa. Lo genera la estría.
+- @14.3,60 | **Célula ciliada interna**, con las tres externas a su derecha. El esquema sigue el camino del potasio de las externas.
+:::
 
 <!-- Ilustración prevista: el diagrama de Furness DN (Wikimedia, CC BY 4.0) de la circulación de K+ y el potencial endococlear en la pared lateral, traducido; ver investigacion/imagenes.md. -->
 
