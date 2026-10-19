@@ -373,4 +373,4 @@ No hay paradigmas con estímulos estándar y desviante, ni tareas que el pacient
 1. Bishop DVM. Using mismatch negativity to study central auditory processing in developmental language and literacy impairments: where are we, and where should we be going? Psychol Bull. 2007;133(4):651-72. doi:10.1037/0033-2909.133.4.651
 1. Martin BA, Tremblay KL, Korczak P. Speech evoked potentials: from the laboratory to the clinic. Ear Hear. 2008;29(3):285-313. doi:10.1097/AUD.0b013e3181662c0e
 
-<!-- Informe de verificación en /home/nick/.claude/jobs/a1a88d9d/tmp/contenidos/nuevos/H14.md. Sin protocolo propio para este examen. -->
+<!-- Informe de verificación en investigacion/capitulos_nuevos_2026-10-18/H14.md. Sin protocolo propio para este examen. -->

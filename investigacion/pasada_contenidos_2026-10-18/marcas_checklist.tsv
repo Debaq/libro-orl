@@ -1,0 +1,258 @@
+11	x	B1
+12	x	B1
+14	x	B3 (borrador), B1
+15	x	B3 (borrador), B1, H19
+17	x	B1 "La nariz"
+18	x	B3 (borrador), H25
+19	x	B1
+21	x	cap. 3, B4
+22	~	caps. 6, 9, 10 (lista en B2)
+24	x	H16, H18
+25	x	H17, H18, H19
+26	~	angular en H16-H19; lineal corto (lista en B2)
+28	x	B4, H26, cap. 35
+29	x	H25 "Cómo acondiciona el aire la nariz"
+30	x	H28, H25 (lista en B2)
+32	x	caps. 5, 6, 13
+33	x	caps. 21-27
+35	x	caps. 35, 36
+36	x	cap. 36 "Rinosinusitis aguda y crónica"
+37	x	caps. 1-3, 21
+41	x	B1 (vía auditiva central, con labyrinthus3d)
+42	x	B1, cap. 12
+43	x	B1, H15, cap. 30
+45	x	B1
+46	x	B1 (láminas de labyrinthus3d), H16
+48	~	caps. 6, 9, 10 (lista en B2)
+49	~	caps. 12, 13 (lista en B2)
+51	x	caps. 12, 25
+53	~	caps. 11, 13 (lista en B2)
+55	x	H15, cap. 30
+57	x	H16, H18
+58	x	B1, H16, H12
+60	x	H16, cap. 25
+61	x	B1 (tálamo y corteza), cap. 27
+63	x	H15 "Oír con dos oídos" (lista en B2)
+64	x	H15, cap. 30
+66	x	H9 "El sistema eferente" (lista en B2)
+67	x	cap. 13, H10
+69	x	H17 (recuadro de pruebas rotatorias), cap. 24
+70	x	H16, H18
+72	x	B1 (vías otolíticas), H12
+73	x	H20
+75	x	H16, cap. 21, cap. 25
+83	x	H3 "Tipos de audiómetro", H7 "Tipos de impedanciómetro"
+84	x	H3, B4
+85	x	B4
+87	x	H1
+88	x	H1
+90	x	B4
+91	x	B4
+93	x	H1
+94	x	H1
+96	x	H7
+97	x	H7
+99	x	H7, cap. 11
+100	x	H7
+101	x	H7, cap. 11
+103	x	H7
+104	x	H7 (inflación-deflación)
+106	x	H2
+107	x	H2 (Weber, Rinne, Schwabach y Bing)
+109	x	H3
+111	x	H4
+112	x	H4
+113	x	H4
+115	x	H6, cap. 6
+116	x	H6
+118	x	H5
+119	x	H5
+120	x	H5
+122	x	H6
+123	x	H6
+125	x	H8
+126	x	H8
+127	x	H8
+129	x	H9, cap. 16
+130	x	H9, H10, cap. 16
+132	x	H3, cap. 8
+133	x	H3 (ototoxicidad y ruido), cap. 8
+135	x	H8 "Calibración de los parlantes"
+136	x	H8, H21, cap. 28
+140	x	H1, recuadro "En Chile"
+141	x	H1, H24, cap. 34
+143	x	H1 "De la anamnesis a las hipótesis"
+145	x	caps. 2-4
+146	x	caps. 1-4, H7
+148	x	caps. 5, 6, 8, 9
+150	x	caps. 11-13
+152	x	cap. 34
+153	x	cap. 34, H24
+155	x	todos los capítulos clínicos
+159	x	B4
+160	x	B1 (vía auditiva con labyrinthus3d), H10
+162	x	H15 "Oír con dos oídos"
+163	x	H15
+165	x	H15 (causas y subperfiles), cap. 30
+166	x	cap. 30
+168	x	H15 (dicóticas, baja redundancia, temporales)
+169	x	H14, H9 (supresión contralateral)
+171	x	H14, cap. 30
+172	x	H15
+174	x	cap. 30 "Planificar el entrenamiento"
+175	x	cap. 30 "El aula, la señal sobre el ruido"
+183	x	H10
+184	x	H10
+186	x	H10
+187	x	H10
+189	x	H10, cap. 12
+190	x	H10
+191	x	H10
+193	x	H11
+194	x	H11
+195	x	H11, caps. 9, 23
+197	x	H14
+198	x	H14
+200	x	H14
+201	x	H14, H15, cap. 30
+203	x	cap. 17
+204	x	caps. 14, 17
+206	x	H13
+207	x	H13
+209	x	H12
+210	x	H12, cap. 20
+211	x	H12, cap. 20
+212	x	cap. 20
+220	x	H22
+221	x	H21
+222	x	H21
+224	x	H21
+225	x	H22 (tabla de pilas)
+227	x	H21, B4
+228	x	H21
+229	x	H21
+231	x	B1
+232	x	H21 "La impresión del conducto"
+233	x	H21
+235	x	H22
+236	x	H22
+238	x	H22 (REM)
+239	x	H21
+241	x	H21 "Conectividad"
+242	x	H21 "Conectividad" (sin cifras de latencia del streaming)
+244	x	H21, cap. 28, cap. 30
+246	x	cap. 29
+247	x	cap. 29
+249	x	H21, recuadro "En Chile"
+253	x	cap. 28
+254	x	cap. 28
+256	x	cap. 28, H21
+257	x	caps. 28, 29
+259	x	H21 "El software de adaptación en la práctica"
+260	x	cap. 28
+262	x	H21, H22
+263	x	caps. 28, 30
+265	x	H23
+267	x	H23
+268	x	H23
+276	x	H16
+277	x	H16
+279	x	H16
+280	x	H16
+281	x	H16
+283	x	H16, H18, H12
+284	x	cap. 21
+285	x	H20 (DVA), H16 (head-shaking)
+286	x	cap. 21
+288	x	H16
+289	x	H16, cap. 25
+291	x	H16 "Conoce tu equipo"
+293	x	H16
+294	x	H16, H17
+296	x	H17
+297	x	H17
+298	x	H17
+300	x	H18
+301	x	H18
+302	x	H18
+304	x	caps. 9, 11, 21-23, 26
+306	x	caps. 12, 21, 23, 25
+310	x	H20
+311	x	cap. 31
+313	x	cap. 31 (farmacología)
+314	x	cap. 31, H20
+316	x	H20, cap. 27
+317	x	H20
+319	x	H20
+320	x	H20
+322	x	H18 (PR score), cap. 31
+324	x	H19, cap. 22
+325	x	H19
+326	x	H19
+328	x	H19
+329	x	H19
+331	x	H20
+332	x	H20
+334	x	H20
+336	x	cap. 32
+337	x	cap. 32
+345	x	H25
+346	x	H25
+348	x	H26
+349	x	H26 (patrones de Cottle con verificar)
+350	x	H26
+352	x	H27
+353	x	H27
+355	x	cap. 36
+356	x	H29
+357	x	H29
+359	x	H30
+360	x	H30
+361	x	H30
+362	x	H30
+364	x	H31
+365	x	H31
+367	x	H31
+368	x	H31
+370	x	H32
+371	x	H32
+372	x	H32
+374	x	H28
+375	x	H25, H28
+376	x	H28
+384	~	"Razonamiento" de cada capítulo clínico
+386	~	repartido en los capítulos clínicos
+387	x	caps. 1-4, 11-13
+389	x	cap. 23
+390	x	caps. 21-27
+392	x	caps. 7, 11, 20, 21, 26
+394	~	cada técnica en H26-H32; falta un caso integrador
+395	~	caps. 35, 36
+397	 	no entra al libro (decisión del autor, 2026-10-19)
+405	x	H24
+406	x	H24
+407	x	H24
+409	x	H24 "El puesto del examinador" (TMERT v3)
+410	x	H24 (riesgo por tarea, pausas)
+412	x	cap. 34, H24
+413	x	cap. 34
+414	x	H24
+416	x	H24
+417	x	cap. 34
+418	x	H24
+420	x	H24
+421	x	H24
+423	x	H24 (D.S. 38/2011 y D.S. 14/2024)
+424	 	no verificable, fuera del texto
+428	x	B5
+429	x	B5
+431	x	B5
+432	x	B5
+434	x	B5
+435	x	B5, H9, cap. 16
+437	x	B5, H21 (En Chile)
+438	x	H1, B5
+439	x	B5 (la 21.353 es tributaria: se usan 21.168, 21.303, 21.380, 21.120 y 20.422)
+441	x	B5
+442	x	B5
+443	x	B5 y recuadro "Prevención" de cada capítulo clínico
