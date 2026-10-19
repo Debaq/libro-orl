@@ -98,7 +98,7 @@ AUTORES = {
                   falta='área del magíster'),
     'vargas': dict(nombre='Cristina', apellidos='Vargas-Bustamante', areas='Audiología y electrofisiología',
                    titulo=['Tecnóloga Médica'], falta='afiliación y ORCID'),
-    'moreira': dict(nombre='Carlos', apellidos='Moreira-Quichahual', areas='Espirometría y sueño',
+    'moreira': dict(nombre='Carlos', apellidos='Moreira-Quichahual', areas='Espirometría, sueño y salud ocupacional',
                     titulo=['Tecnólogo Médico'], falta='afiliación y ORCID'),
 }
 EDITOR = 'baier'
@@ -108,7 +108,7 @@ REVISOR_CASOS = 'catipillan'   # firma la revisión de los casos de los capítul
 def _autoria():
     """Capítulo -> autores, según en qué es experto cada uno (él, 2026-10-17)."""
     a = {'B1': ['catipillan', 'uribe'], 'B2': ['lopez'], 'B3': ['lopez'], 'B4': ['baier'], 'B5': ['casanova'],
-         'H12': ['poza', 'baier'], 'H15': ['casanova'], 'H24': ['baier']}
+         'H12': ['poza', 'baier'], 'H15': ['casanova'], 'H24': ['baier', 'moreira']}
     for n in range(1, 9):
         a[f'H{n}'] = ['uribe', 'vargas']                 # audiología
     for n in (9, 10, 11, 13, 14):
@@ -132,7 +132,7 @@ def _autoria():
     for n in (28, 29, 30):
         a[str(n)] = ['casanova']
     for n in (33, 34):
-        a[str(n)] = ['baier']
+        a[str(n)] = ['baier', 'moreira']                 # salud ocupacional (él, 2026-10-19)
     for n in (35, 36):
         a[str(n)] = ['uribe']
     return a
