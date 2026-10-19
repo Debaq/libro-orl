@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Arma el PDF del libro desde capitulos/*.md.
 
-    python3 docs/libro/herramientas/hacer_libro.py      -> docs/libro/libro.pdf (el libro completo)
+    python3 docs/libro/herramientas/hacer_libro.py      -> docs/libro/libro.pdf (el libro completo,
+                                                           la edición de tapa dura en un tomo)
+    ... --tomo I (o II), --tomos                        -> docs/libro/libro-tomo-I.pdf, -II.pdf
     python3 docs/libro/herramientas/hacer_libro.py 11   -> salida/capitulo-11.pdf y DESPUÉS el
                                                            libro completo, para que libro.pdf
                                                            quede siempre al día
@@ -211,6 +213,18 @@ SELLO = ['TecMedHub', 'Universidad Austral de Chile', 'Sede Puerto Montt']
 CIUDAD = 'Puerto Montt'
 LOGOS = LIBRO / 'logos'
 PRELIMINARES = LIBRO / 'preliminares'
+
+# Tomos (él, 2026-10-19): la obra sale en dos tomos (libro-tomo-I.pdf y
+# libro-tomo-II.pdf) y en una edición de tapa dura de un solo tomo
+# (libro.pdf). El corte cae donde el libro ya cambia de tipo de capítulo, así
+# que no se renumera nada: las claves dicen el tomo (B y H en el I, los
+# capítulos numerados en el II) y las remisiones (→ H3, → cap. 6) sirven
+# igual en las tres. Cada tomo pagina desde 1.
+TOMOS = {'I': 'Bases y caja de herramientas', 'II': 'Casos clínicos'}
+
+
+def tomo_de(cap):
+    return 'I' if cap[:1] in ('B', 'H') else 'II'
 
 NOMBRE_FIGURA = {
     'audiograma': 'Audiometría tonal', 'acumetria': 'Acumetría', 'logoaudiometria': 'Logoaudiometría', 'timpanograma': 'Timpanometría',
@@ -827,6 +841,14 @@ a.toc {{ display: block; color: #2a1a20; text-decoration: none; font-size: 10pt;
    de WeasyPrint daba 1 en todo con el cuerpo como grupo de páginas. */
 a.toc::after {{ content: leader('.') attr(data-pag); color: #8f7a83; }}
 .toc-n {{ display: inline-block; width: 11mm; font-weight: 700; color: #8e2a4a; }}
+/* Tomos sueltos: el índice es el de la obra; lo del otro tomo va en gris */
+.toc-tomo {{ font: 700 13pt Fraunces, serif; color: #24101a; margin: 7mm 0 1mm; break-after: avoid; }}
+.toc-tomo:first-of-type {{ margin-top: 0; }}
+a.toc.otro-tomo, a.toc.otro-tomo .toc-n {{ color: #a8979e; }}
+.pt-tomo {{ font: 600 11pt 'Plus Jakarta Sans'; letter-spacing: 2pt; text-transform: uppercase; color: #F8F1F3; margin: 6mm 0 0; }}
+.in-tomo {{ font: 600 10pt 'Plus Jakarta Sans'; letter-spacing: 1.5pt; text-transform: uppercase; color: #24101a; margin: -16mm 0 22mm; }}
+.cp-titulo span {{ display: block; margin-top: 3mm; font: 600 10pt 'Plus Jakarta Sans'; letter-spacing: 1.5pt;
+                   text-transform: uppercase; color: #E7A7BA; }}
 .parte {{ page: parte; break-before: right; height: 297mm; position: relative; color: #fff; }}
 .pt-num {{ position: absolute; top: 95mm; left: 25mm; margin: 0; font: 700 13pt 'Plus Jakarta Sans'; letter-spacing: 3pt;
            text-transform: uppercase; color: #F5C9D6; }}
@@ -1019,29 +1041,42 @@ def logo(nombre, clase=''):
     return f'<img class="logo {clase}" src="{(LOGOS / nombre).as_uri()}">'
 
 
-def paginas_iniciales(capitulos):
+def paginas_iniciales(capitulos, tomo=None):
     """Portada, portadilla, portada interior, créditos, autores, prólogo,
     presentación, índice, cómo usar y abreviaturas. Cada una empieza en
-    página derecha; las hojas blancas de por medio las pone el paginado."""
+    página derecha; las hojas blancas de por medio las pone el paginado.
+    tomo: 'I' o 'II' para un tomo suelto (None, el libro en un tomo): el
+    prólogo y la presentación van solo en el I y el índice es el de la obra
+    entera, con lo del otro tomo rotulado y sin número."""
     anio = __import__('datetime').date.today().year
+    rotulo = f'Tomo {tomo} · {TOMOS[tomo]}' if tomo else ''
     portada = (f'<section class="portada"><div class="pt-banda-sup">TecMedHub · Universidad Austral de Chile</div>'
-               f'<div class="pt-centro"><h1>{TITULO}</h1><p class="bajada">{BAJADA}</p></div>'
+               f'<div class="pt-centro"><h1>{TITULO}</h1><p class="bajada">{BAJADA}</p>'
+               + (f'<p class="pt-tomo">{rotulo}</p>' if tomo else '') + '</div>'
                f'{trazos_portada()}'
                + f'<div class="autores"><p class="pt-aut">{" · ".join(AUTORES[k]["apellidos"] for k in alfabetico())}</p></div>' +
                f'<div class="pt-logos">{logo("uach-pm-blanco.png")}{logo("tecmedhub-blanco.png", "tm")}</div></section>')
-    portadilla = f'<section class="portadilla"><p class="pd-titulo">{TITULO}</p></section>'
+    portadilla = (f'<section class="portadilla"><p class="pd-titulo">{TITULO}</p>'
+                  + (f'<p class="pd-bajada">Tomo {tomo}</p>' if tomo else '') + '</section>')
     interior = (f'<section class="interior"><p class="in-titulo">{TITULO}</p><p class="in-bajada">{BAJADA}</p>'
+                + (f'<p class="in-tomo">{rotulo}</p>' if tomo else '')
                 + f'<p class="in-ed">{nombre_completo(EDITOR)}<span>editor</span></p>'
                 f'<p class="in-autores">{"<br>".join(nombre_completo(k) for k in orden_autores()[1:])}</p>' +
                 f'<p class="in-edicion">{EDICION}</p>'
                 f'<div class="in-sello">{logo("uach-pm.png")}{logo("tecmedhub.png", "tm")}'
                 f'<p>{" · ".join(SELLO)}<br>{CIUDAD}, {anio}</p></div></section>')
-    creditos = (f'<section class="creditos"><p><strong>{TITULO}</strong><br>{BAJADA}</p>'
+    volumen = f'Vol. {"1" if tomo == "I" else "2"}, {TOMOS[tomo]}. ' if tomo else ''
+    obra = ('<p>Obra en dos tomos. Tomo I: Bases (B1-B5) y Caja de herramientas (H1-H32). '
+            'Tomo II: capítulos clínicos (1-36). Las remisiones a B y H llevan al tomo I; '
+            'las remisiones a capítulos, al tomo II.</p>')
+    creditos = (f'<section class="creditos"><p><strong>{TITULO}</strong><br>{BAJADA}'
+                + (f'<br>{rotulo}' if tomo else '') + '</p>'
                 f'<p>{EDICION}, {anio}</p>'
+                + (obra if tomo else '')
                 + f'<p>Editor: {nombre_completo(EDITOR)}.<br>Autoras y autores: '
                 f'{", ".join(nombre_completo(k) for k in orden_autores())}.<br>'
                 f'Revisión general de los casos clínicos: {nombre_completo(REVISOR_CASOS)}.</p>'
-                f'<p>Cómo citar este libro: {cita_vancouver(EDITOR)}, editor. {TITULO}. {BAJADA}. 1.ª ed. '
+                f'<p>Cómo citar este libro: {cita_vancouver(EDITOR)}, editor. {TITULO}. {BAJADA}. {volumen}1.ª ed. '
                 f'{CIUDAD}: TecMedHub, Universidad Austral de Chile; {anio}.</p>' +
                 f'<p>Edita: {", ".join(SELLO)}. {CIUDAD}, Chile.</p>'
                 f'<p>ISBN: en trámite</p>'
@@ -1072,22 +1107,29 @@ def paginas_iniciales(capitulos):
     autores = ('<section class="preliminar"><h1 class="prelim">Autoras y autores</h1><div class="autores-lista">'
                + ''.join(ficha_autor(k) for k in orden_autores()) + '</div></section>')
     prelim = {f.stem: capitulo(f.read_text(encoding='utf-8')) for f in sorted(PRELIMINARES.glob('*.md'))}
-    antes = ''.join(v for k, v in prelim.items() if k[:2] in ('01', '02'))
+    antes = ''.join(v for k, v in prelim.items() if k[:2] in ('01', '02')) if tomo in (None, 'I') else ''
     despues = ''.join(v for k, v in prelim.items() if k[:2] not in ('01', '02'))
-    filas, parte_actual = [], None
+    filas, parte_actual, tomo_actual = [], None, None
     for cap, titulo, parte in capitulos:
+        if tomo and tomo_de(cap) != tomo_actual:
+            tomo_actual = tomo_de(cap)
+            filas.append(f'<p class="toc-tomo">Tomo {tomo_actual} · {TOMOS[tomo_actual]}</p>')
         if parte and parte != parte_actual:
             filas.append(f'<p class="toc-parte">{parte[0]}{" · " + parte[1] if parte[1] else ""}</p>')
             parte_actual = parte
-        filas.append(f'<a class="toc" href="#cap-{cap}" data-pag="@@PAG-{cap}@@"><span class="toc-n">{cap}</span>{titulo}</a>')
+        if tomo and tomo_de(cap) != tomo:
+            filas.append(f'<a class="toc otro-tomo" data-pag="Tomo {tomo_de(cap)}"><span class="toc-n">{cap}</span>{titulo}</a>')
+        else:
+            filas.append(f'<a class="toc" href="#cap-{cap}" data-pag="@@PAG-{cap}@@"><span class="toc-n">{cap}</span>{titulo}</a>')
         if AUTORIA.get(cap):
             filas.append(f'<p class="toc-aut">{", ".join(AUTORES[k]["apellidos"] for k in AUTORIA[cap])}</p>')
     indice = f'<section class="indice"><h1 class="titulo-indice">Índice</h1>{"".join(filas)}</section>'
     return portada + portadilla + interior + creditos + autores + antes + indice + despues
 
 
-def contraportada():
-    return (f'<section class="contraportada"><p class="cp-titulo">{TITULO}</p>'
+def contraportada(tomo=None):
+    return (f'<section class="contraportada"><p class="cp-titulo">{TITULO}'
+            + (f'<span>Tomo {tomo} · {TOMOS[tomo]}</span>' if tomo else '') + '</p>'
             f'<p class="cp-texto">Un libro para aprender a evaluar y rehabilitar en otorrinolaringología como se '
             f'aprende en el box: con pacientes. Cada técnica se explica paso a paso y cada caso se razona desde la '
             f'anamnesis hasta el diagnóstico, con los exámenes relatados sobre sus gráficos. Los simuladores de '
@@ -1146,7 +1188,23 @@ def main():
     una_pieza = '--de-una-pieza' in args
     if una_pieza:
         args.remove('--de-una-pieza')
+    tomos = []
+    if '--tomos' in args:
+        args.remove('--tomos')
+        tomos = list(TOMOS)
+    if '--tomo' in args:
+        i = args.index('--tomo')
+        tomos = [{'1': 'I', '2': 'II'}.get(args[i + 1], args[i + 1].upper())]
+        del args[i:i + 2]
+        if tomos[0] not in TOMOS:
+            sys.exit(f'Tomo desconocido: {tomos[0]} (hay {", ".join(TOMOS)})')
     pedido = args
+    if tomos:
+        # libro-tomo-I.pdf / libro-tomo-II.pdf, con la misma caché que libro.pdf
+        import armado_incremental
+        for t in tomos:
+            armado_incremental.armar(tomo=t)
+        return
     if not pedido and not una_pieza:
         # Libro completo: por capítulos con caché (armado_incremental.py).
         # --de-una-pieza compone las ~500 páginas juntas, en dos pasadas.

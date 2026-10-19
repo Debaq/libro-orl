@@ -3,6 +3,7 @@
 
     python3 docs/libro/herramientas/armado_incremental.py          # libro.pdf
     python3 docs/libro/herramientas/armado_incremental.py --todo   # ignora la caché
+    python3 docs/libro/herramientas/armado_incremental.py --tomo I # libro-tomo-I.pdf (o II)
 
 Antes, cada armado componía las ~490 páginas dos veces (la primera solo para
 saber en qué página cae cada capítulo). Ahora:
@@ -25,6 +26,9 @@ saber en qué página cae cada capítulo). Ahora:
 
 Tocar un capítulo recompone ese capítulo y las páginas iniciales; tocar el
 CSS recompone todo (en paralelo).
+
+Un tomo (H.TOMOS) pega solo sus segmentos, que son los mismos del libro en
+un tomo: comparten la caché y no se recompone nada para sacarlos.
 """
 import concurrent.futures as cf
 import hashlib
@@ -85,9 +89,10 @@ def componer(clave, doc, destino):
     return clave, {'paginas': paginas, 'anclas': anclas}
 
 
-def segmentos():
-    """[(clave, html del segmento, tiene_separador)] en el orden del libro, y
-    la lista (cap, título, parte) para el índice."""
+def segmentos(tomo=None):
+    """[(clave, html del segmento, tiene_separador)] en el orden del libro
+    (solo los del tomo, si se pide uno), y la lista (cap, título, parte) de la
+    obra entera para el índice."""
     archivos = sorted(H.CAPITULOS.glob('*.md'),
                       key=lambda a: ({'B': 0, 'H': 1}.get(a.name[:1].upper(), 2), a.name))
     partes = H.partes_del_indice()
@@ -98,6 +103,8 @@ def segmentos():
         cap, titulo = (m[1], m[2].strip()) if m else (a.stem, a.stem)
         parte = partes.get(cap)
         capitulos.append((cap, titulo, parte))
+        if tomo and H.tomo_de(cap) != tomo:
+            continue
         sep = ''
         if parte and parte != parte_actual:
             sep = H.separador(parte)
@@ -139,12 +146,12 @@ def copiar_marcadores(writer, reader, desplazamiento, padre=None, raices=None):
     return creados
 
 
-def armar(forzar=False, destino=None):
+def armar(forzar=False, destino=None, tomo=None):
     from pypdf import PdfReader, PdfWriter
     from pypdf.generic import ArrayObject, DictionaryObject, NameObject
     t0 = time.time()
     CACHE.mkdir(parents=True, exist_ok=True)
-    segs, capitulos = segmentos()
+    segs, capitulos = segmentos(tomo)
 
     # 1. Segmentos: los que cambiaron, en paralelo
     meta, pendientes = {}, []
@@ -191,12 +198,14 @@ def armar(forzar=False, destino=None):
 
     # 3. Páginas iniciales con el índice ya numerado, y la contraportada
     from weasyprint import HTML
-    iniciales = H.paginas_iniciales(capitulos)
+    iniciales = H.paginas_iniciales(capitulos, tomo)
     iniciales = re.sub(r'@@PAG-([A-Z]?\d+)@@', lambda m: str(pagina_cap.get(m[1], '')), iniciales)
     iniciales = re.sub(r'href="#cap-([A-Z]?\d+)"', r'href="libro://cap-\1"', iniciales)
-    frente_pdf, contra_pdf, capa_pdf = CACHE / '_frente.pdf', CACHE / '_contraportada.pdf', CACHE / '_numeros.pdf'
+    sufijo = f'-tomo-{tomo}' if tomo else ''      # dos armados a la vez no se pisan
+    frente_pdf, contra_pdf, capa_pdf = (CACHE / f'_frente{sufijo}.pdf', CACHE / f'_contraportada{sufijo}.pdf',
+                                        CACHE / f'_numeros{sufijo}.pdf')
     HTML(string=documento(iniciales), base_url=BASE_URL).write_pdf(str(frente_pdf))
-    HTML(string=documento(H.contraportada()), base_url=BASE_URL).write_pdf(str(contra_pdf))
+    HTML(string=documento(H.contraportada(tomo)), base_url=BASE_URL).write_pdf(str(contra_pdf))
     capa_de_numeros(numerada, capa_pdf)
 
     # 4. Pegado
@@ -248,10 +257,10 @@ def armar(forzar=False, destino=None):
                         NameObject('/S'): NameObject('/GoTo'),
                         NameObject('/D'): ArrayObject([objetivo.indirect_reference, NameObject('/Fit')])})
 
-    writer.add_metadata({'/Title': H.TITULO})
+    writer.add_metadata({'/Title': H.TITULO + (f'. Tomo {tomo}' if tomo else '')})
     writer.page_mode = '/UseOutlines'
-    destino = pathlib.Path(destino) if destino else H.LIBRO / 'libro.pdf'
-    temporal = destino.with_name(f'.libro.{os.getpid()}.pdf')
+    destino = pathlib.Path(destino) if destino else H.LIBRO / f'libro{sufijo}.pdf'
+    temporal = destino.with_name(f'.{destino.stem}.{os.getpid()}.pdf')
     with open(temporal, 'wb') as f:
         writer.write(f)
     os.replace(temporal, destino)
@@ -261,4 +270,5 @@ def armar(forzar=False, destino=None):
 
 if __name__ == '__main__':
     a = sys.argv[1:]
-    armar(forzar='--todo' in a, destino=a[a.index('--salida') + 1] if '--salida' in a else None)
+    armar(forzar='--todo' in a, destino=a[a.index('--salida') + 1] if '--salida' in a else None,
+          tomo=a[a.index('--tomo') + 1].upper() if '--tomo' in a else None)
