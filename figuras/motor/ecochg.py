@@ -10,6 +10,16 @@ from . import estilo as E
 from .datos import en_raiz
 from .svg import Svg
 
+# Como en el ABR (abr.SNR_ROTULO): no se marca sobre ruido. El marcado
+# automático de la app encuentra un "PA" en casi cualquier trazo plano; un
+# PA de menos de 0,1 µV o una razón negativa no son un complejo. Los PA
+# reales de los casos del libro miden de 0,4 a 3 µV.
+PA_MIN_UV = 0.1
+
+
+def _hay_complejo(m):
+    return (m.get('ap_amp') or 0) >= PA_MIN_UV and (m.get('sp_ap') or 0) >= 0
+
 
 def registrar(caso, lado, nivel=90):
     import numpy as np
@@ -57,7 +67,7 @@ def dibujar(caso, oidos=('OD', 'OI'), nivel=90, ms_max=5.0):
             s.texto(x0 + pw / 2, mt + ph / 2, 'Sin ECochG en el caso', E.T_ROTULO, E.TENUE)
             continue
         m = r['medida']
-        if 'base' not in m:
+        if 'base' not in m or not _hay_complejo(m):
             # Cófosis: hay trazo, pero no complejo que medir (measure_complex devuelve solo 'faltan')
             s.trazo([(X(t), Y(v)) for t, v in zip(r['t'], r['y']) if t <= ms_max], col, E.LINEA)
             s.texto(x0 + pw / 2, mt + ph + 48, 'Sin respuesta identificable', E.T_ROTULO, E.TENUE)

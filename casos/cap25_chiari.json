@@ -20,10 +20,57 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "centro": {
+          "dir": "abajo",
+          "vfl": 2
+        },
+        "abajo": {
+          "dir": "abajo",
+          "vfl": 5.5
+        },
+        "izquierda": {
+          "dir": "abajo",
+          "vfl": 3
+        },
+        "derecha": {
+          "dir": "abajo",
+          "vfl": 3
+        }
+      },
+      "sin_fijacion": {
+        "centro": {
+          "dir": "abajo",
+          "vfl": 2.2
+        },
+        "abajo": {
+          "dir": "abajo",
+          "vfl": 5.8
+        },
+        "izquierda": {
+          "dir": "abajo",
+          "vfl": 3.4
+        },
+        "derecha": {
+          "dir": "abajo",
+          "vfl": 3.4
+        }
+      }
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 20,
+      "OD30": 18,
+      "OI44": 19,
+      "OI30": 21
+    },
+    {
+      "tipo": "vemp",
+      "subtipo": "ambos"
     }
   ]
 }

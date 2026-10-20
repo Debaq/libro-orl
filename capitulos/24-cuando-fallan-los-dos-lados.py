@@ -16,10 +16,10 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-FIGURAS = [fig.audiograma()]
-
+# Lo vestibular de cada caso (examen de cabecera, posicional, vHIT, DVA) lo declara el .md; el
+# nistagmo (ninguno de los cuatro tiene) y la calórica bitermal, aquí: mariposa(OD44, OD30, OI44, OI30).
 CASOS = [
-    cuadro('gentamicina', [fig.audiograma()], od='normal', oi='normal', edad=52, sexo='hombre',
+    cuadro('gentamicina', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(1, 2, 1, 3), fig.vemps()], od='normal', oi='normal', edad=52, sexo='hombre',
            anamnesis="""Tiene 52 años y es electricista. Hace diez meses lo operaron de urgencia por una peritonitis, estuvo
            ocho días en cuidados intensivos y tres semanas hospitalizado. Hacia el final de la segunda semana se sintió
            "mareado, flojo", y lo atribuyeron a la debilidad de haber estado tanto tiempo en cama. Salió de alta sin vértigo.
@@ -34,7 +34,7 @@ CASOS = [
                      (120, 'Neurólogo: resonancia de cerebro normal; mareo inespecífico, posible componente ansioso.'),
                      (30, 'Otorrinolaringólogo: oscilopsia al caminar con audición normal; solicita evaluación audiológica y vestibular.')],
            antecedentes=['ototoxicos'], medicamentos='Ninguno'),
-    cuadro('tuberculosis', [fig.audiograma(), fig.logo(), fig.teoae()], od='ototoxica', oi='ototoxica',
+    cuadro('tuberculosis', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(3, 5, 2, 3), fig.vemps()], od='ototoxica', oi='ototoxica',
            grado_od='leve', grado_oi='leve', edad=41, sexo='mujer',
            anamnesis="""Tiene 41 años y es peluquera. Hace tres años le diagnosticaron una tuberculosis resistente a los
            fármacos habituales y la trataron durante un año y medio, con una inyección diaria los primeros meses. Hoy está
@@ -49,7 +49,7 @@ CASOS = [
                      (60, 'Control de oftalmología: lentes nuevos, sin mejoría de la visión al caminar.'),
                      (25, 'Programa de tuberculosis: acúfeno bilateral e hipoacusia referida; deriva a evaluación auditiva.')],
            medicamentos='Ninguno'),
-    cuadro('sin_causa', [fig.audiograma()], od='normal', oi='normal', edad=58, sexo='mujer',
+    cuadro('sin_causa', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(1, 3, 2, 3), fig.vemps()], od='normal', oi='normal', edad=58, sexo='mujer',
            anamnesis="""Tiene 58 años y es administrativa en un colegio. Hace unos tres años le cuesta caminar con seguridad,
            sobre todo cuando está oscuro o el piso es desparejo: en las escaleras de la micro se afirma con las dos manos y
            en la playa, con arena, camina "como si el piso se moviera". Cuando trota para alcanzar la micro ve la calle
@@ -63,7 +63,7 @@ CASOS = [
                      (200, 'Neurólogo: migraña; resonancia de cerebro normal. Se indica profilaxis.'),
                      (20, 'Otorrinolaringólogo: inestabilidad crónica con oscilopsia al trotar; pide evaluación audiológica y repetir el estudio vestibular.')],
            antecedentes=[], medicamentos='Propranolol 40 mg al día'),
-    cuadro('canvas', [fig.audiograma(), fig.logo()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
+    cuadro('canvas', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(1, 1, 1, 2), fig.vemps()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
            edad=67, sexo='hombre',
            anamnesis="""Tiene 67 años y es carpintero jubilado. Desde hace unos cuatro años camina "como curado": abre los pies,
            se desvía y se agarra de las paredes. Con los ojos cerrados o en la oscuridad empeora mucho. Se ha caído dos veces

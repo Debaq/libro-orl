@@ -242,10 +242,10 @@ Otorrea fétida de años y un mareo con la presión: ¿qué estructura puede est
 :::
 :::figura cap15_colesteatoma_fistula abr
 - @OI 80 V | El OI tiene su V en el lugar.
-- @OD 80 V | En el OD la V llega tarde, a la manera de una transmisión: el umbral por aire del click es de **60 dB nHL**.
+- @OD 80 V | En el OD la V llega tarde, a la manera de una transmisión: el umbral por aire del click es de **55 dB nHL**.
 :::
 :::figura cap15_colesteatoma_fistula abr 2
-- @OD 50 | Por vía ósea, el OD **no alcanza a mostrar una V a 50 dB**. Su umbral óseo está en 55, en el último escalón del vibrador.
+- @OD 50 V | Por vía ósea, a 50 dB el OD **apenas muestra una V**, chica y tardía, a 9,1 ms: está en su umbral óseo, a 5 dB del último escalón del vibrador (55).
 - @OI 50 V | El OI sano responde a 50 y a 30 dB. La diferencia es de pocos decibeles: el ABR óseo apenas separa a un oído con 20 a 30 dB de ósea caída de uno normal.
 :::
 

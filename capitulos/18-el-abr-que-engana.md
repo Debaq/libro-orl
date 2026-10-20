@@ -149,15 +149,15 @@ Antes de repetir nada, ¿qué dos números del equipo te dirían si el registro 
 
 :::figura cap18_p33 abr
 - @OD 80 V | La V llega a 5,7 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.
-- @OD 40 V | A 40 dB la V está a 6,9 ms: ahí coincide con lo que anotó el alumno.
+- @OD 40 V | A 40 dB la V está a 6,8 ms: ahí coincide con lo que anotó el alumno.
 - @OD 20 V | A 20 dB la V existe y se ve, a 7,9 ms. Es la curva que el alumno declaró "sin respuesta".
-- @OD 10 V | A 10 dB la V sigue ahí, a unos 8 ms, en las dos réplicas: el **umbral del paciente es 10 dB nHL**, tal como dice su audiograma.
+- @OD 10 V | A 10 dB la V sigue ahí, a unos 8 ms, en las dos réplicas: el **umbral del paciente está en 10 dB nHL o más abajo**, como dice su audiograma.
 :::
 
 :::imagen ilustraciones/cap18-promedio.svg ancho=92% El mismo oído a 20 dB nHL, de 250 a 4.000 barridos, con la mitad A del promedio en azul y la mitad B en rojo. Mira en qué fila empiezan a coincidir las dos mitades: recién ahí se puede decir que hay respuesta, y antes tampoco se podía decir que no la había.
-- @92,13 | **250 barridos:** FSP cerca de 1 y las dos mitades no se parecen. Los picos de ruido son del tamaño de lo que se busca: aquí no se puede decir ni que hay ni que no hay respuesta.
-- @92,40 | **1.000 barridos:** el ruido residual ya es la mitad, pero las mitades todavía no se pegan.
-- @92,77 | **4.000 barridos:** el FSP pasa el criterio. La onda de 8 ms está en las dos mitades.
+- @92,13 | **250 barridos:** FSP de 1,6 y las dos mitades no se parecen. Los picos de ruido son del tamaño de lo que se busca: aquí no se puede decir ni que hay ni que no hay respuesta.
+- @92,40 | **1.000 barridos:** el ruido residual bajó de 111 a 66 nV y el FSP llega justo al criterio de 3,1, pero las mitades todavía no se pegan.
+- @92,77 | **4.000 barridos:** el FSP pasa el criterio con holgura (16,7). La onda de 8 ms está en las dos mitades.
 :::
 
 :::docente Guía del caso
@@ -189,8 +189,8 @@ Un operador de chancador de 47 años, con acúfeno bilateral y un audiograma con
 :::
 
 :::figura cap18_p37 abr
-- @OD 100 I | Con fono de inserción y polaridad alternada, la I llega a 1,3 ms.
-- @OD 100 V | Y la V, a 5,5 ms. Interpico I-V de 4,2 ms.
+- @OD 100 I | Con fono de inserción y polaridad alternada, la I llega a 1,2 ms.
+- @OD 100 V | Y la V, a 5,5 ms. Interpico I-V de 4,3 ms.
 - @OD 60 V | A 60 dB la V sigue ahí, más tarde (6,6 ms): la V migra.
 :::
 
@@ -226,8 +226,8 @@ Sin cambiar de paciente, ¿qué mirarías al bajar la intensidad para saber si e
 #### Paso 4 · Los resultados
 
 :::figura cap18_p36 abr
-- @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 6,0 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
-- @OD 70 V | A 70 dB la V se atrasa a 6,5 ms y se achica.
+- @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 5,8 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
+- @OD 70 V | A 70 dB la V se atrasa a 6,5 ms.
 :::
 
 :::imagen ilustraciones/cap18-pam.svg ancho=92% El oído derecho con una respuesta postauricular y la ventana abierta a 25 ms, de 100 a 60 dB nHL. Las dos mitades del promedio coinciden en todo el trazo, así que replicar no basta: lo que delata a la onda muscular es que no se atrasa al bajar la intensidad, como sí lo hace la V.
@@ -303,8 +303,8 @@ Sin cambiar de oído, ¿qué parámetros del equipo pudieron esconder una onda q
 
 :::figura cap18_p38 abr
 - @OI 80 V | A 80 dB la V del oído izquierdo llega a 5,6 ms.
-- @OI 50 V | A 50 dB está a 6,7 ms. Con una ventana de 6 ms **queda afuera**.
-- @OI 30 | A 30 dB, a 8,0 ms, muy cerca del umbral. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.
+- @OI 50 V | A 50 dB está a 6,5 ms. Con una ventana de 6 ms **queda afuera**.
+- @OI 30 V | A 30 dB, a 7,7 ms, en el umbral. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.
 :::
 
 :::imagen ilustraciones/cap18-polaridad.svg ancho=92% El oído izquierdo con distintas polaridades a 80 dB nHL y con ventana de 12 y de 6 ms a 50 dB nHL. Arriba, otra polaridad cambia la forma y deja de valer la norma de rutina; abajo, la ventana corta deja la V afuera y el oído parece no responder.
@@ -342,7 +342,7 @@ El audiograma es normal y el paciente no tiene síntomas: un umbral de 40 dB nHL
 
 #### Diagnóstico y qué sigue
 
-ABR normal con umbral de la onda V en 10 dB nHL. El registro anterior no se informa como pérdida: se rehace con más barridos.
+ABR normal con onda V presente hasta 10 dB nHL, el nivel más bajo registrado. El registro anterior no se informa como pérdida: se rehace con más barridos.
 
 :::ayuda Ayuda memoria
 Un "no hay respuesta" solo vale si el **ruido residual** era lo bastante bajo como para verla. Con ruido alto, lo único que se puede decir es "no se ve".
@@ -356,7 +356,7 @@ Una "onda I" a 0,6 ms no puede ser neural con ese estímulo: el sonido ni siquie
 
 #### Diagnóstico y qué sigue
 
-El intervalo I-V "acortado" no es un hallazgo: se midió sobre un artefacto. Se repite con fonos de inserción y polaridad alternada. Con el registro limpio, la I llega a 1,3 ms y la V a 5,5 ms, sin alteración neural.
+El intervalo I-V "acortado" no es un hallazgo: se midió sobre un artefacto. Se repite con fonos de inserción y polaridad alternada. Con el registro limpio, la I llega a 1,2 ms y la V a 5,5 ms, sin alteración neural.
 
 :::ojo Ojo clínico
 Replicar no descarta un artefacto de estímulo: **se repite en cada barrido, y por eso sobrevive al promedio**. Las pruebas son otras: cambia con la polaridad, no desaparece al pinzar el tubo, crece con la intensidad y empieza en el instante cero.
@@ -394,11 +394,11 @@ Cofosis derecha. El ABR del oído derecho no muestra respuesta propia con el oí
 
 #### Razonamiento
 
-El oído del paciente es el de una hipoacusia leve en agudos con graves caídos; no hay razón para un umbral de 80 dB. Lo que hay son tres ajustes inadecuados: una **ventana de 6 ms**, una banda de **300 a 1.000 Hz** y una polaridad que no es la de la norma. La ventana corta es la que más pesa: la V a 50 dB llega a casi 7 ms y a 30 dB, a 8 ms, de modo que **no cabe** y el equipo no la registra. Los filtros angostos, además, achican y redondean las ondas.
+El oído del paciente es el de una hipoacusia leve en agudos con graves caídos; no hay razón para un umbral de 80 dB. Lo que hay son tres ajustes inadecuados: una **ventana de 6 ms**, una banda de **300 a 1.000 Hz** y una polaridad que no es la de la norma. La ventana corta es la que más pesa: la V a 50 dB llega a 6,5 ms y a 30 dB, a casi 8 ms, de modo que **no cabe** y el equipo no la registra. Los filtros angostos, además, achican y redondean las ondas.
 
 #### Diagnóstico y qué sigue
 
-ABR del oído izquierdo con umbral de la onda V cerca de 30 a 35 dB nHL con la configuración de rutina. El registro anterior no se usa para informar: se repite con ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz y polaridad alternada.
+ABR del oído izquierdo con umbral de la onda V en 30 dB nHL con la configuración de rutina. El registro anterior no se usa para informar: se repite con ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz y polaridad alternada.
 
 :::comentario Comentario
 El oído estaba bien: lo que estaba mal era el equipo. Por eso la configuración se revisa antes de registrar, y la norma que uses tiene que estar medida con los mismos filtros, polaridad, tasa y transductor (→ H10).
@@ -416,7 +416,7 @@ Niveles de prevención y su marco: → B5.
 
 :::pregunta Preguntas para discutir
 1. ¿Por qué replicar la curva es necesario pero no suficiente? Da un ejemplo de un artefacto que replica y otro que no.
-2. Con 250 barridos el FSP vale 1,1 y el ruido residual es alto; con 4.000, el FSP pasa 3,1. ¿Qué le dirías a quien dice que "con 250 ya se ve que no hay respuesta"?
+2. Con 250 barridos el FSP vale 1,6 y el ruido residual es alto; con 4.000, el FSP pasa 3,1. ¿Qué le dirías a quien dice que "con 250 ya se ve que no hay respuesta"?
 3. Un ABR sale con umbral de 20 dB nHL y el audiograma del mismo oído da 60 dB HL de promedio. ¿Qué tres cosas revisarías antes de decir que el paciente tiene una pérdida no orgánica?
 4. ¿Qué diferencia hay entre una onda V que se queda quieta al bajar la intensidad y una V que se atrasa? ¿Qué te dice cada una?
 5. ¿Cuándo preferirías **no** pinzar el tubo, y qué otra maniobra usarías para separar estímulo de respuesta?

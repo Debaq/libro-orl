@@ -15,5 +15,36 @@
       "cirugias": ""
     }
   },
-  "figuras": []
+  "figuras": [
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
+    },
+    {
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "timpanograma",
+      "sonda": 226
+    },
+    {
+      "tipo": "reflejos"
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 20,
+      "OD30": 18,
+      "OI44": 20,
+      "OI30": 19
+    },
+    {
+      "tipo": "vemp",
+      "subtipo": "ambos"
+    },
+    {
+      "tipo": "ecochg",
+      "nivel": 90
+    }
+  ]
 }

@@ -240,19 +240,19 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 - @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 93 %.
 :::
 :::figura cap17_cmv_congenito abr
-- @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,25 ms**, casi medio milisegundo más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
-- @OD 60 V | La V sigue a 60 dB nHL (6,99 ms).
+- @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,00 ms**, 0,3 ms más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
+- @OD 60 V | La V sigue a 60 dB nHL (6,77 ms).
 - @OD 40 | A 40 dB nHL no hay ninguna onda: **umbral con click del OD de 60 dB nHL**, unos 60 dB eHL.
-- @OI 80 V | El OI responde con I, III y V bien formadas: V a 5,76 ms e interpico **I-V de 4,2 ms**, normal para su edad (→ cap. 14).
-- @OI 20 V | Y mantiene la V hasta **20 dB nHL** (7,92 ms): el oído sano al lado sirve de comparación.
+- @OI 80 V | El OI responde con I, III y V bien formadas: V a 5,70 ms e interpico **I-V de 4,0 ms**, normal para su edad (→ cap. 14).
+- @OI 20 V | Y mantiene la V hasta **20 dB nHL** (7,77 ms): el oído sano al lado sirve de comparación.
 :::
 :::figura cap17_cmv_congenito abr 2
-- @OD 60 V | Con **burst de 500 Hz** el OD solo tiene V a 60 dB nHL (9,84 ms, el tone burst grave llega más tarde que el click); a 40 no hay respuesta. 60 − 20 = **40 dB eHL**.
-- @OI 20 V | El OI responde hasta 20 dB nHL (V a 10,57 ms).
+- @OD 60 V | Con **burst de 500 Hz** el OD tiene V a 80 dB nHL (9,00 ms; el tone burst grave llega más tarde que el click) y una V chica a 60 (10,03 ms); a 40 no hay respuesta. 60 − 20 = **40 dB eHL**. Cerca del umbral la V del grave es tan chica que se promedió más: 3.000 barridos.
+- @OI 20 V | El OI responde hasta 20 dB nHL (V a 10,60 ms).
 :::
 :::figura cap17_cmv_congenito abr 3
-- @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (7,57 ms) y no a 40: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**: algo más que en 500 Hz, una pérdida levemente descendente.
-- @OI 40 V | El OI responde a 40 dB nHL (V a 7,48 ms).
+- @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (7,73 ms) y no a 40: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**: algo más que en 500 Hz, una pérdida levemente descendente.
+- @OI 40 V | El OI responde a 40 dB nHL (V a 7,57 ms).
 :::
 
 :::docente Guía del caso

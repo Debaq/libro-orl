@@ -22,14 +22,23 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
     },
     {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 11,
+      "OD30": 8,
+      "OI44": 11,
+      "OI30": 9
+    },
+    {
+      "tipo": "vemp",
+      "subtipo": "ambos"
     }
   ]
 }

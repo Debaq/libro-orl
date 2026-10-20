@@ -16,12 +16,14 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-# Lo vestibular del capítulo (vHIT, DHI, agudeza visual dinámica, batería de H20) no es de LabSim: son las
-# tablas con "cifras inventadas para el libro" y las hojas de seguimiento de ilustraciones/hacer_cap31.py.
-# De LabSim salen la ficha, la anamnesis, el audiograma y el VEMP de cada caso (audición normal: la neuritis
-# no toca la cóclea).
+# Lo vestibular del capítulo (nistagmo, calórica, vHIT, DHI, DVA, batería de H20) no es de LabSim: son los
+# valores declarados aquí (nistagmo y mariposa) y las tablas del .md, más las hojas de seguimiento de
+# ilustraciones/hacer_cap31.py. De LabSim salen la ficha, la anamnesis, el audiograma con la logoaudiometría y
+# el VEMP. Martín y Lucía tienen caso propio (casos/propios/): el oVEMP del lado enfermo con el umbral en 90,
+# la hipofunción utricular de su neuritis superior.
 CASOS = [
-    cuadro('buena', [fig.audiograma(), fig.vemp()], od='normal', oi='normal', edad=41, sexo='hombre',
+    cuadro('buena', [fig.audiosupra(), fig.nistagmo(sin_fijacion={'izquierda': -3, 'arriba': -2, 'centro': -2, 'abajo': -2}),
+                     fig.mariposa(5, 3, 20, 14), fig.vemps()], od='normal', oi='normal', edad=41, sexo='hombre',
            anamnesis="""Tiene 41 años y es conductor de un camión de reparto de bebidas. Hace dos semanas despertó con la pieza
            girando, vomitó cuatro veces y no pudo ponerse de pie sin agarrarse. En urgencia le dijeron que era un cuadro del
            nervio del equilibrio del lado derecho. El giro se fue en cuatro días; hoy, en reposo, no gira nada. Pero al
@@ -32,7 +34,7 @@ CASOS = [
            historia=[(14, 'Servicio de urgencia: vértigo con vómitos, nistagmo hacia la izquierda; diagnóstico de neuritis vestibular derecha. Antiemético por tres días.'),
                      (4, 'Otorrinolaringólogo: confirma la hipofunción vestibular derecha con el examen y lo deriva a rehabilitación vestibular.')],
            medicamentos='Ninguno (el antiemético lo terminó a los tres días)'),
-    cuadro('lenta', [fig.audiograma()], od='normal', oi='normal', edad=63, sexo='mujer',
+    cuadro('lenta', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(19, 15, 3, 3), fig.vemps()], od='normal', oi='normal', edad=63, sexo='mujer',
            anamnesis="""Tiene 63 años y es costurera jubilada. Hace cinco semanas despertó con la pieza girando y vomitando; en
            urgencia le dijeron que era un problema del nervio del equilibrio del lado izquierdo, le dieron unas pastillas
            para el mareo y le recomendaron reposo. Las sigue tomando tres veces al día "porque si no, me marea", y casi no
@@ -44,7 +46,7 @@ CASOS = [
                      (10, 'Caída nocturna sin lesión.'),
                      (5, 'Médico de familia: persiste inestabilidad; solicita examen vestibular y deriva a rehabilitación vestibular.')],
            medicamentos='Dimenhidrinato 50 mg cada 8 horas (desde hace cinco semanas); losartán 50 mg al día', antecedentes=['hta']),
-    cuadro('meseta', [fig.audiograma()], od='normal', oi='normal', edad=33, sexo='hombre',
+    cuadro('meseta', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(14, 11, 20, 16), fig.vemps()], od='normal', oi='normal', edad=33, sexo='hombre',
            anamnesis="""Tiene 33 años y es diseñador de software; trabaja frente a dos pantallas. Hace diez semanas tuvo un vértigo
            muy intenso con vómitos, que le diagnosticaron como neuritis vestibular derecha. Empezó los ejercicios a las dos
            semanas y al principio mejoró bastante. Pero desde hace unas cuatro semanas siente que no avanza: un mareo suave

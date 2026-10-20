@@ -152,26 +152,84 @@ Además de la audiometría, ¿qué examen te diría si el equilibrio del oído d
 
 #### Paso 4 · Los resultados
 
-:::figura cap20_meniere audiograma
-- @OD 250 | El OD tiene **35 dB** en 250 Hz y baja a 20 dB en 4 kHz: una curva **ascendente**, peor en los graves, como la del hidrops temprano.
-- @OD osea 500 | La ósea va sobre la aérea: sin gap, la pérdida es **sensorioneural**.
-- @OI 500 | El OI está en 0 dB: es la referencia de lo normal.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, Romberg sensibilizado, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha, ojos abiertos y cerrados; tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
-:::figura cap20_meniere vemp
-- @OD P13 | El cVEMP del **OD** casi no sale del ruido: **34 µV**, **0,67** corregida por el EMG.
-- @OI P13 | El del **OI**, normal, mide **290 µV** y **5,71** corregida: ocho veces más.
-- La razón de asimetría es de **79 %**, sobre el corte de 35 % del protocolo (→ H12), y el lado más chico es el enfermo.
+
+:::imagen figuras/salida/cap20_meniere_nistagmo.svg ancho=75% Nistagmo espontáneo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
-:::figura cap20_meniere vemp 2
-- @OD n10 | El oVEMP del **OD** (registrado bajo el ojo izquierdo) está bien formado: **21 µV**, **0,51** corregida.
-- @OI n10 | El del OI mide **21 µV** y **0,50**. La razón de asimetría es de **1 %**.
-- Con el cVEMP caído y el oVEMP conservado, el compromiso es **sacular**: la rama inferior, no la superior.
+
+Entre las crisis el equilibrio es normal, y no hay signos de cerebelo ni de pares craneales. No hay nistagmo espontáneo con ni sin fijación ni con *head-shaking*.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
 :::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **24 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **20 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **21 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **17 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,92 | 0,90 | 0,88 |
+| **Izquierdo** | 0,95 | 0,92 | 0,90 |
+:::
+
+:::imagen figuras/salida/cap20_meniere_mariposa.svg ancho=62% Gráfico de mariposa del paciente: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos se parecen.
+:::
+
+Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **10 %** (valor no significativo), con (20 + 17 − 24 − 21) / 82, y dirección preponderante de **0 %**. El vHIT es normal en los seis canales: los canales no están comprometidos.
+
+:::imagen figuras/salida/cap20_meniere_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea: cVEMP a la izquierda del par y oVEMP a la derecha. Mira la amplitud del oído derecho en cada uno.
+:::
+
+El cVEMP del **OD** casi no sale del ruido: **34 µV**, **0,67** corregida por el EMG, contra **290 µV** y **5,71** del OI. La asimetría es de **79 %**, sobre el corte de 35 % del protocolo (→ H12), y el lado más chico es el enfermo. El oVEMP está bien formado en los dos oídos: **21 µV** y **0,51** en el OD, **21 µV** y **0,50** en el OI, asimetría de **1 %**. Con el cVEMP caído y el oVEMP conservado, el compromiso es **sacular**: la rama inferior, no la superior.
+
+:::imagen figuras/salida/cap20_meniere_audiosupra.svg ancho=80% Audiometría del paciente: el OD tiene una curva ascendente, con 35 dB en 250 Hz y 20 dB en 4 kHz, y la ósea sobre la aérea; el OI es normal.
+:::
+
+La pérdida del OD es **sensorioneural y ascendente**, peor en los graves, como la del hidrops temprano. SRT de 25 dB y discriminación de hasta 96 %, a 60 dB, con ruido de habla al OI.
+
+En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 55 dB en 500 y 1.000 Hz: la pérdida **recluta** y no se deteriora; es coclear (→ H6).
+
+:::imagen figuras/salida/cap20_meniere_ecochg.svg ancho=80% Electrococleografía con electrodo timpánico, click alternado a 90 dB nHL.
+:::
+
+En el OD el PS es grande frente al PA: razón PS/PA de **0,51** y razón de áreas de **5,01**, las dos sobre los límites de 0,40 y 1,94 (→ H11). El OI es normal: 0,30 y 1,77.
 
 :::docente Guía del caso
 - **Datos clave:** crisis de giro de unas tres horas con plenitud y zumbido grave previos, hipoacusia que fluctúa y mejora en parte, cuatro crisis en cinco meses, sin trauma ni dolor; otoscopía normal.
 - **Hipótesis esperables:** Ménière, migraña vestibular, VPPB, neuritis. Las crisis de horas con síntomas auditivos fluctuantes en un solo oído orientan al hidrops; la duración excluye al VPPB, que dura segundos.
-- **Qué pedir:** audiometría con vía ósea, impedanciometría, **cVEMP y oVEMP** entre crisis y, como complemento, ECochG (→ H3, H5, H11, H12 y cap. 9). Anotar cuánto hace de la última crisis.
+- **Qué pedir:** la ficha vestibular completa (→ H16, H17, H18); audiometría con vía ósea, impedanciometría, **cVEMP y oVEMP** entre crisis y, como complemento, ECochG (→ H3, H5, H11, H12 y cap. 9). Anotar cuánto hace de la última crisis.
 - **Errores esperables:** pedir solo el cVEMP; leer el VEMP normal como "no es Ménière"; olvidar que el momento cambia lo que se ve; hacer el diagnóstico con el VEMP.
 :::
 
@@ -191,26 +249,83 @@ Con un vértigo agudo de días y una sordera de un oído, ¿qué piensas primero
 
 #### Paso 4 · Los resultados
 
-:::figura cap20_laberintitis audiograma
-- @OD 500 | El OD tiene **75 dB** en 500 Hz y llega a 90 dB en 8 kHz: una pérdida **severa** y pareja en toda la curva.
-- @OD osea 500 | La ósea coincide con la aérea: sensorioneural.
-- @OI 500 | El OI es normal: la referencia.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, estable; ojos cerrados, **leve desvío hacia la derecha** |
+| | Brazos extendidos / Unterberger | Desvío leve y **giro hacia la derecha** |
+| | Marcha, ojos abiertos y cerrados | Avanza sola; con los ojos cerrados se desvía **hacia la derecha** |
+| | Romberg sensibilizado / tándem | Tándem con titubeo |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
-:::figura cap20_laberintitis vemp
-- @OD P13 | El cVEMP del **OD** es pequeño: **50 µV**, **0,99** corregida. Las marcas del equipo caen sobre una onda que apenas se separa del ruido.
-- @OI P13 | El del **OI** es normal: **354 µV**, **6,92** corregida.
-- La razón de asimetría es de **75 %**.
+
+A doce días el cuerpo aún se va hacia el lado enfermo, pero mucho menos que en el agudo. No hay signos de cerebelo ni de pares.
+
+:::imagen figuras/salida/cap20_laberintitis_nistagmo.svg ancho=75% Nistagmo espontáneo de la paciente en la hoja del campo clínico. Triángulos: mirada a la izquierda y a la derecha; franjas: arriba, al frente y abajo. Cada flecha apunta hacia donde bate la fase rápida, y su número da la intensidad.
 :::
-:::figura cap20_laberintitis vemp 2
-- @OD n10 | El oVEMP del **OD** es **6 µV**, **0,14** corregida: no se ve respuesta.
-- @OI n10 | El del OI mide **23 µV**, **0,54** corregida. La razón de asimetría es de **58 %**.
-- Caen **los dos** VEMP del mismo oído, y con una hipoacusia sensorioneural severa: las dos ramas, y la cóclea.
+
+Sin fijación, el nistagmo es **horizontal y bate a la izquierda**: **2 °/s** al frente y **4 °/s** a la izquierda, y no aparece a la derecha (Alexander II). Con fijación solo queda **1 °/s** al mirar a la izquierda (**OFI +**). Con *head-shaking* aumenta un poco, siempre hacia la izquierda. En el Dix-Hallpike y el McClure reaparece el espontáneo débil, sin paroxismo ni cambio de dirección. Es un nistagmo ya compensado en parte.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–D** | ← | Pers. | 0 s | No | No | No | No |
+| **D–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–I** | ← | Pers. | 0 s | No | No | No | No |
+| **I–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–E** | ← | Pers. | 0 s | No | No | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | ← | Pers. | 0 s | No | No | No | No |
+| **CC–E** | ← | Pers. | 0 s | No | No | No | No |
+| **E–CCD** | ← | Pers. | 0 s | No | No | No | No |
+| **CCD–E** | ← | Pers. | 0 s | No | No | No | No |
+| **E–CCI** | ← | Pers. | 0 s | No | No | No | No |
+| **CCI–E** | ← | Pers. | 0 s | No | No | No | No |
 :::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **23 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **3 °/s** | (+) | No | No |
+| OI 30 °C | → | **19 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **4 °/s** | (+) | No | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,34**, sacadas overt y covert | **0,52**, overt | **0,47**, overt |
+| **Izquierdo** | 0,97 | 0,94 | 0,92 |
+:::
+
+:::imagen figuras/salida/cap20_laberintitis_mariposa.svg ancho=62% Gráfico de mariposa de la paciente: las dos irrigaciones del OD casi no se separan de la línea.
+:::
+
+Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **71 %**, con (3 + 4 − 23 − 19) / 49, y dirección preponderante hacia la izquierda de **10 %** (valor no significativo): el espontáneo ya se compensó en parte. En el vHIT caen **los tres canales** derechos, con sacadas.
+
+:::imagen figuras/salida/cap20_laberintitis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea. Mira los dos del oído derecho: las marcas del equipo caen sobre una onda que apenas se separa del ruido.
+:::
+
+El cVEMP del **OD** es pequeño: **50 µV**, **0,99** corregida, contra **354 µV** y **6,92** del OI; asimetría de **75 %**. El oVEMP del OD mide **6 µV**, **0,14**, sin respuesta clara, contra **23 µV** y **0,54** del OI; asimetría de **58 %**. Caen **los dos** VEMP del mismo oído, igual que los tres canales: es todo el laberinto, no una rama.
+
+:::imagen figuras/salida/cap20_laberintitis_audiosupra.svg ancho=80% Audiometría de la paciente: el OD tiene una pérdida severa y pareja, de 75 dB en 500 Hz a 90 dB en 8 kHz; el OI es normal.
+:::
+
+La pérdida del OD es **sensorioneural severa**. SDT de 70 dB, SRT de 75 dB y discriminación que llega a **51 %**, a 100 dB, con ruido de habla al OI.
+
+Las supraliminares del OD son de cóclea: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 25 a 30 dB: el reflejo aparece muy cerca del umbral, porque la sonoridad crece rápido.
 
 :::docente Guía del caso
 - **Datos clave:** resfrío con fiebre baja, vértigo con vómitos de días y sordera del OD instalada con él, inestabilidad residual, sin zumbido ni síntomas del tronco; otoscopía normal.
 - **Hipótesis esperables:** neuritis vestibular, laberintitis, infarto de la AICA, sordera súbita con vértigo. La sordera que acompaña al vértigo descarta la neuritis, que no tiene hipoacusia.
-- **Qué pedir:** audiometría con vía ósea, impedanciometría y los dos VEMP; calórica o vHIT como complemento (→ H3, H12, H17, H18 y cap. 21). Y pedir al médico la imagen si hay factores vasculares o signos del tronco.
+- **Qué pedir:** la ficha vestibular completa, con audiometría con vía ósea, impedanciometría y los dos VEMP (→ H3, H12, H16, H17, H18 y cap. 21). Y pedir al médico la imagen si hay factores vasculares o signos del tronco.
 - **Errores esperables:** decir "neuritis" con una sordera; creer que el VEMP descarta el infarto de la AICA; pedir el VEMP en pleno vértigo, cuando el paciente no puede sostener la contracción del cuello.
 :::
 
@@ -230,27 +345,86 @@ Si el oído medio está sano y la pérdida es leve, ¿qué agrega el VEMP? ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap20_schwannoma audiograma
-- @OD 1000 | En las frecuencias del habla el OD tiene **25 dB**: una pérdida leve.
-- @OD 4000 | En 4 kHz llega a **50 dB** y en 8 kHz a 60, contra 5 dB del OI: una asimetría de agudos de **45 dB**, mucho más que los 15 que obligan a estudiar.
-- @OD osea 2000 | La ósea va pegada a la aérea: sensorioneural.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, estable; ojos cerrados, **leve desvío hacia la derecha** |
+| | Brazos extendidos / Unterberger | Sin desvío; Unterberger con **giro leve a la derecha** |
+| | Marcha, ojos abiertos y cerrados | Sin alteraciones |
+| | Romberg sensibilizado / tándem | Tándem con titubeo |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sensibilidad facial y reflejo corneal normales; mímica facial simétrica; sin alteraciones |
 :::
-:::figura cap20_schwannoma timpanograma
-- @OD pico | Curva **A** en los dos oídos: el oído medio está sano. Sin este dato, un VEMP caído puede ser una transmisión que falla.
+
+El cuerpo se va un poco hacia el OD solo cuando se le quita la vista, y el tándem es torpe: es un déficit **lento**, no un cuadro agudo. Los pares craneales, en particular el V y el VII, que se alteran con los tumores del ángulo, están sin hallazgos (Huh y Kim, 2013).
+
+:::imagen figuras/salida/cap20_schwannoma_nistagmo.svg ancho=75% Nistagmo espontáneo de la paciente en la hoja del campo clínico. Sin fijación aparece una flecha al frente y otra a la izquierda; con fijación no hay ninguna.
 :::
-:::figura cap20_schwannoma vemp
-- @OD P13 | El cVEMP del **OD** es pequeño: **77 µV**, **1,59** corregida.
-- @OI P13 | El del **OI** mide **353 µV**, **6,91** corregida. La razón de asimetría es de **62 %**.
+
+Sin fijación hay un nistagmo **horizontal que bate a la izquierda**: **2 °/s** al frente y **3 °/s** a la izquierda, y no aparece a la derecha (Alexander II). Con fijación **desaparece** (**OFI +**). Con *head-shaking* no cambia. En el Dix-Hallpike y el McClure persiste el espontáneo débil, sin paroxismo ni cambio de dirección.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–D** | ← | Pers. | 0 s | No | No | No | No |
+| **D–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–I** | ← | Pers. | 0 s | No | No | No | No |
+| **I–S** | ← | Pers. | 0 s | No | No | No | No |
+| **S–E** | ← | Pers. | 0 s | No | No | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | ← | Pers. | 0 s | No | No | No | No |
+| **CC–E** | ← | Pers. | 0 s | No | No | No | No |
+| **E–CCD** | ← | Pers. | 0 s | No | No | No | No |
+| **CCD–E** | ← | Pers. | 0 s | No | No | No | No |
+| **E–CCI** | ← | Pers. | 0 s | No | No | No | No |
+| **CCI–E** | ← | Pers. | 0 s | No | No | No | No |
 :::
-:::figura cap20_schwannoma vemp 2
-- @OD n10 | El oVEMP del **OD** también cae: **8 µV**, **0,18** corregida contra **26 µV**, **0,59** del OI. La razón de asimetría es de **53 %**.
-- Los dos VEMP del OD caídos, con el oído medio sano y una audición casi conservada: el compromiso es del **nervio vestibular**, no de la transmisión ni de la cóclea.
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **24 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **10 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **20 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **9 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,74**, sacadas covert | 0,85 | 0,90 |
+| **Izquierdo** | 0,98 | 0,95 | 0,93 |
 :::
+
+:::imagen figuras/salida/cap20_schwannoma_mariposa.svg ancho=62% Gráfico de mariposa de la paciente: las irrigaciones del OD (rojas) alcanzan menos de la mitad de las del OI.
+:::
+
+Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **40 %**, con (10 + 9 − 24 − 20) / 63, y dirección preponderante hacia la izquierda de **5 %** (significativa la primera, no significativa la segunda). El vHIT del canal lateral derecho baja a 0,74, con sacadas covert, y los verticales se conservan.
+
+:::imagen figuras/salida/cap20_schwannoma_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea. Los dos del oído derecho son más chicos que los del izquierdo.
+:::
+
+El cVEMP del **OD** es pequeño: **77 µV**, **1,59** corregida, contra **353 µV** y **6,91** del OI; asimetría de **62 %**. El oVEMP también cae: **8 µV** y **0,18** contra **26 µV** y **0,59**; asimetría de **53 %**. Los dos VEMP del OD están caídos.
+
+:::imagen figuras/salida/cap20_schwannoma_timpanograma.svg ancho=70% Timpanograma de los dos oídos: curva A en ambos. El oído medio está sano; sin este dato, un VEMP caído puede ser una transmisión que falla.
+:::
+
+:::imagen figuras/salida/cap20_schwannoma_audiosupra.svg ancho=80% Audiometría de la paciente: el OD tiene 25 dB en 1 kHz, 50 dB en 4 kHz y 60 dB en 8 kHz, con la ósea pegada a la aérea; el OI es normal. La asimetría de agudos es de 45 dB.
+:::
+
+La pérdida del OD es **sensorioneural leve en las frecuencias del habla y descendente**: la asimetría de 45 dB en 4 kHz es mucho mayor que los 15 dB que obligan a estudiar. SDT de 15 dB y SRT de 20 dB, pero la discriminación **no pasa de 56 %**, a 50 y 60 dB, con ruido de habla al OI: mucho menos de lo que explica esa pérdida (→ cap. 11).
+
+En el OD el patrón es otro: SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 1 kHz y **reflejos ausentes**. La pérdida no recluta y se cansa: es retrococlear (→ H6, cap. 11).
 
 :::docente Guía del caso
 - **Datos clave:** más de un año de voz "menos nítida" por el OD, inestabilidad de noche o al girar, sin zumbido, sin crisis de vértigo ni exposición a ruido; otoscopía normal, curva A en los dos oídos.
 - **Hipótesis esperables:** presbiacusia temprana, daño por ruido, hipoacusia coclear unilateral, lesión del VIII par. La asimetría de agudos sin causa y la inestabilidad obligan a descartar el nervio.
-- **Qué pedir:** audiometría con vía ósea, logoaudiometría, impedanciometría con reflejos, ABR y los dos VEMP (→ H3, H5, H10, H12 y cap. 11). La resonancia con gadolinio la decide el médico.
+- **Qué pedir:** la ficha vestibular completa, con audiometría con vía ósea, logoaudiometría, impedanciometría con reflejos, ABR y los dos VEMP (→ H3, H5, H10, H12, H17 y cap. 11). La resonancia con gadolinio la decide el médico.
 - **Errores esperables:** atribuir todo a la edad; leer el VEMP caído como un problema coclear; concluir "no hay tumor" porque el VEMP está normal.
 - **Para discutir:** El mismo cuadro, en grado moderado, es el segundo caso del cap. 11.
 :::
@@ -271,28 +445,80 @@ Su médico pidió un VEMP por la inestabilidad, sin audiometría reciente. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap20_otoesclerosis audiograma
-- @OD 500 | El OD tiene **55 dB** en 500 Hz por vía aérea...
-- @OD osea 500 | ...y **5 dB** por vía ósea: un **gap de 50 dB**, justo en la frecuencia del VEMP.
-- @OD osea 2000 | La ósea baja a **20 dB** en 2 kHz, contra 10 en las vecinas: la **muesca de Carhart**, típica de la otoesclerosis.
-- @OI 500 | El OI es igual: 55 dB por vía aérea y 5 por ósea. El gap es **simétrico**.
-:::
-:::figura cap20_otoesclerosis timpanograma
-- @OD pico | La curva del OD es **As**: pico bajo y chato, de compliance **0,14 mL**. El OI es parecido (0,16 mL).
-:::
-:::figura cap20_otoesclerosis vemp
-- @OD P13 | El cVEMP aéreo del **OD** mide **38 µV**, **0,76** corregida, y el del **OI** 36 µV, **0,73**.
-- Son mucho menores que los de un oído normal (**5,71** en el OI sano del caso 20.1), pero la razón de asimetría es de **2 %**: la razón dice "simétrico" cuando los **dos** están caídos.
-:::
-:::figura cap20_otoesclerosis vemp 2
-- @OD n10 | El oVEMP aéreo del **OD** mide **7 µV**, **0,15** corregida, y el del OI **6 µV**, **0,15**. La razón de asimetría es de **0 %**.
-- Los dos VEMP aéreos caídos y simétricos, con un gap de 50 dB en los dos oídos: no hay forma de saber, con esta vía, si el vestíbulo está sano.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, Romberg sensibilizado, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha, ojos abiertos y cerrados; tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen ilustraciones/cap20-oseo.svg ancho=92% Los mismos oídos de la paciente por vía aérea (arriba) y por vía ósea, con el vibrador en la mastoides (abajo). Por aire los VEMP parecen ausentes porque el oído medio no transmite; por hueso aparecen: el vestíbulo estaba sano.
-- @101,26 | **Vía aérea.** Los cuatro VEMP están casi planos: 37 y 35 µV en el cuello, 6 y 5 µV bajo el ojo (corregidas, 0,73 y 0,68; 0,14 y 0,12).
-- @101,68 | **Vía ósea.** Los cuatro aparecen con tamaño normal: 342 y 344 µV (6,82 y 6,86) en el cuello, 25 y 26 µV (0,60 y 0,60) bajo el ojo. El vestíbulo de los dos oídos responde.
+:::imagen figuras/salida/cap20_otoesclerosis_nistagmo.svg ancho=75% Nistagmo espontáneo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+La inestabilidad es de segundos y el examen de cabecera es normal. No hay nistagmo espontáneo con ni sin fijación ni con *head-shaking*.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **21 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **22 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **20 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **20 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,96 | 0,92 | 0,90 |
+| **Izquierdo** | 0,97 | 0,93 | 0,91 |
+:::
+
+:::imagen figuras/salida/cap20_otoesclerosis_mariposa.svg ancho=62% Gráfico de mariposa de la paciente: las cuatro curvas son simétricas.
+:::
+
+Según parámetro de VCL: hipoexcitabilidad vestibular de **1 %** y dirección preponderante de **1 %** (valores no significativos). El vHIT es normal en los seis canales.
+
+:::imagen figuras/salida/cap20_otoesclerosis_vemp.svg ancho=100% VEMP aéreo a 100 dB nHL, tone burst de 500 Hz. Todos los trazos están casi planos, y los dos oídos por igual.
+:::
+
+El cVEMP aéreo del **OD** mide **38 µV**, **0,76** corregida, y el del **OI** **36 µV**, **0,73**. El oVEMP del OD mide **7 µV** y **0,15**, y el del OI **6 µV** y **0,15**. Las razones de asimetría son de **2 %** y **0 %**: la razón dice "simétrico" cuando los **dos** oídos están caídos. Un cVEMP normal, como el del OI del caso 20.1, mide **5,71**: estos son mucho menores.
+
+:::imagen figuras/salida/cap20_otoesclerosis_timpanograma.svg ancho=70% Timpanograma de la paciente: curva As en los dos oídos, de pico bajo y chato. La compliance es de 0,14 mL en el OD y 0,16 mL en el OI.
+:::
+
+:::imagen figuras/salida/cap20_otoesclerosis_audiosupra.svg ancho=80% Audiometría de la paciente: aérea en 55 dB y ósea en 5 dB en 500 Hz, en los dos oídos. La ósea baja a 20 dB en 2 kHz, la muesca de Carhart.
+:::
+
+El gap en 500 Hz es de **50 dB**, justo en la frecuencia del VEMP, y es **simétrico**. SDT de 45 y 50 dB, SRT de 50 y 55 dB (OD y OI); discriminación de 100 % en los dos oídos.
+
+:::imagen ilustraciones/cap20-oseo.svg ancho=92% Los mismos oídos de la paciente por vía aérea (arriba) y por vía ósea, con el vibrador en la mastoides (abajo). Por aire los VEMP parecen ausentes porque el oído medio no transmite; por hueso aparecen: el vestíbulo estaba sano. Vía aérea: los cuatro VEMP casi planos, 37 y 35 µV en el cuello y 6 y 5 µV bajo el ojo. Vía ósea: los cuatro con tamaño normal, 342 y 344 µV en el cuello y 25 y 26 µV bajo el ojo.
+:::
+
+Los cuatro VEMP por vía ósea aparecen con tamaño normal (6,82 y 6,86 en el cuello, 0,60 y 0,60 bajo el ojo, corregidas): el vestíbulo de los dos oídos responde. Con la vía aérea no hay forma de saberlo.
 
 :::docente Guía del caso
 - **Datos clave:** hipoacusia bilateral de unos cuatro años que se notó después de un embarazo, mejor con ruido de fondo, zumbido constante, inestabilidad de segundos al agacharse, madre con audífonos desde los 40; otoscopía normal.
@@ -312,6 +538,16 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 La historia es de hidrops: crisis de horas con plenitud y zumbido grave del oído derecho y una audición que fluctúa. El audiograma es el de la etapa temprana (ascendente, sensorioneural). El VEMP agrega **dónde** se nota el daño en el equilibrio: el cVEMP del OD cae mucho (0,67 contra 5,71) y el oVEMP no (0,51 contra 0,50). Cae el sáculo y se conserva el utrículo: es la secuencia que describe Young (2013).
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*, Dix-Hallpike y McClure: sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 10 % (valor no significativo) y dirección preponderante de 0 % (valor no significativo). **vHIT:** ganancia del VOR simétrica y normal en los seis canales. **VEMP:** cVEMP con asimetría de 79 % (valor significativo), menor en el OD; oVEMP simétrico (1 %, valor no significativo). **Audiometría:** hipoacusia sensorioneural leve del OD, ascendente; SRT 25 dB y discriminación máxima de 96 %. OI normal. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OD, sin deterioro tonal; Metz positivo. **Electrococleografía:** OD con razón PS/PA de 0,51 y razón de áreas de 5,01, sobre los límites; OI con 0,30 y 1,77.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular en OD para las estructuras estudiadas (sáculo y/o nervio vestibular inferior), con simetría vestibular para los canales semicirculares y el utrículo, e hipoacusia sensorioneural coclear del OD con electrococleografía compatible con hidrops endolinfático. Entre crisis, sin nistagmo.
+
 #### Diagnóstico y qué sigue
 
 Hipoacusia sensorioneural del OD, ascendente, con **hipofunción sacular del mismo oído** (cVEMP disminuido y oVEMP conservado). El informe describe el patrón y deja el diagnóstico clínico para el médico, con la historia de crisis (Lopez-Escamez y cols., 2015). Sigue la ECochG y el control seriado, y registrar cuánto hace de la última crisis.
@@ -326,6 +562,16 @@ Un VEMP medido **en** la crisis habría sido otro: en el estudio de Manzari y co
 
 La sordera que acompaña al vértigo **separa** este cuadro de una neuritis, que no tiene hipoacusia. El audiograma es sensorioneural severo, y los dos VEMP del OD caen (0,99 y 0,14 contra 6,92 y 0,54): se afectan las dos ramas, la inferior y la superior, y la cóclea. El daño es del **laberinto entero**, no de una rama (figura del apartado de patología, fila de abajo).
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con leve desvío a derecha con ojos cerrados; giro en Unterberger a derecha; tándem con titubeo. **Neocerebelo** y **pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** sin fijación, horizontal que bate a izquierda, VFL 2 °/s al centro y 4 °/s a izquierda, ausente a derecha (Alexander II); con fijación, 1 °/s a izquierda (OFI +). *Head-shaking*: aumenta levemente hacia izquierda. **Posicional:** persiste el espontáneo débil, sin nistagmo paroxístico.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 71 % (valor significativo) y dirección preponderante hacia izquierda de 10 % (valor no significativo). **vHIT:** ganancia disminuida en los tres canales derechos (lateral 0,34, anterior 0,52, posterior 0,47), con sacadas overt y covert. **VEMP:** cVEMP con asimetría de 75 % y oVEMP con asimetría de 58 % (valores significativos), menores en el OD. **Audiometría:** hipoacusia sensorioneural severa del OD; SRT 75 dB y discriminación máxima de 51 %. OI normal. **Supraliminares:** OD con SISI de 90 %, sin deterioro tonal y Metz positivo.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular derecha de los tres canales, el sáculo y el utrículo, con hipoacusia sensorioneural severa del mismo lado, nistagmo espontáneo en compensación y sin signos de compromiso central.
+
 #### Diagnóstico y qué sigue
 
 Hipoacusia sensorioneural severa del OD con pérdida de los dos VEMP, **compatible con laberintitis**. El VEMP y el audiograma no separan una laberintitis de un infarto de la AICA, así que se informa al médico, que la separa con la historia, el examen neurológico y, si corresponde, la resonancia (Lee y cols., 2002; Ahn y cols., 2011). Sigue el control de la audición y de la función vestibular, y la rehabilitación vestibular si queda inestabilidad (→ cap. 31).
@@ -338,7 +584,17 @@ Sin factores vasculares un infarto es menos probable, pero no imposible. La comb
 
 #### Razonamiento
 
-Con 25 dB en las frecuencias del habla, pocos pensarían en el nervio. Pero la asimetría de **45 dB** en agudos, sin causa de ruido ni de oído medio (curva A), sí lo hace pensar, y los dos VEMP del OD caídos lo apoyan: el nervio vestibular de ese lado no conduce, y el oído medio y la cóclea no lo explican. El VEMP depende del nervio vestibular, no de cuánto oye el paciente, y a veces es la única prueba alterada (Chiarovano y cols., 2014).
+Con 25 dB en las frecuencias del habla, pocos pensarían en el nervio. Pero la asimetría de **45 dB** en agudos, sin causa de ruido ni de oído medio (curva A), sí lo hace pensar, y los dos VEMP del OD caídos lo apoyan: el nervio vestibular de ese lado no conduce, y el oído medio y la cóclea no lo explican. La calórica del OD baja 40 % y la discriminación de 56 % no corresponde a una pérdida tan leve: las dos pruebas apuntan al nervio. El VEMP depende del nervio vestibular, no de cuánto oye el paciente, y a veces es la única prueba alterada (Chiarovano y cols., 2014).
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con leve desvío a derecha con ojos cerrados; giro leve en Unterberger a derecha; tándem con titubeo. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones, incluidos V y VII; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** sin fijación, horizontal que bate a izquierda, VFL 2 °/s al centro y 3 °/s a izquierda, ausente a derecha (Alexander II); con fijación, ausente (OFI +). *Head-shaking*: sin cambios. **Posicional:** persiste el espontáneo débil, sin nistagmo paroxístico.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 40 % (valor significativo) y dirección preponderante hacia izquierda de 5 % (valor no significativo). **vHIT:** ganancia disminuida en canal lateral derecho (0,74, sacadas covert); anterior y posterior derechos 0,85 y 0,90; canales izquierdos normales. **VEMP:** cVEMP con asimetría de 62 % y oVEMP con asimetría de 53 % (valores significativos), menores en el OD. **Audiometría:** hipoacusia sensorioneural leve del OD, de agudos, con asimetría de 45 dB en 4 kHz; SRT 20 dB y discriminación máxima de 56 %. Timpanometría con curva A en los dos oídos. OI normal. **Supraliminares:** OD con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular derecha del canal lateral, el sáculo y el utrículo (nervio vestibular), con oído medio sano e hipoacusia sensorioneural del mismo lado con discriminación desproporcionada a la pérdida. Se sugiere ABR y la evaluación médica del ángulo pontocerebeloso.
 
 #### Diagnóstico y qué sigue
 
@@ -353,6 +609,16 @@ Si el VEMP hubiera salido normal, la resonancia igual se pediría: en las series
 #### Razonamiento
 
 El VEMP aéreo salió caído en los **dos** oídos y simétrico (2 % y 0 %). Leído solo, parece una pérdida vestibular bilateral con un cuadro simétrico que la razón de asimetría no puede marcar. Pero el audiograma tiene un gap de 50 dB en 500 Hz en ambos oídos: **el estímulo no llegó**. Por vía ósea, los cuatro VEMP aparecen con un tamaño normal (6,82 y 6,86 en el cuello, 0,60 y 0,60 bajo el ojo): el vestíbulo responde. Es la lección de Yang y Young (2007): el VEMP aéreo se apaga cuando crece el gap, y el óseo sigue.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio, neocerebelo** y **pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*, Dix-Hallpike y McClure: sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular de 1 % (valor no significativo) y dirección preponderante de 1 % (valor no significativo). **vHIT:** ganancia del VOR simétrica y normal en los seis canales. **VEMP aéreo:** cVEMP con asimetría de 2 % y oVEMP con asimetría de 0 %, con amplitudes muy bajas en los dos oídos; **VEMP óseo:** respuestas de tamaño normal y simétricas. **Audiometría:** hipoacusia conductiva bilateral con gap de 50 dB en 500 Hz y muesca de Carhart; timpanometría con curva As; discriminación de 100 %.
+>
+> **Conclusión:** examen compatible con simetría vestibular. El VEMP aéreo disminuido en los dos oídos corresponde al oído medio y no a una hipofunción vestibular; la función otolítica está conservada, según el VEMP óseo.
 
 #### Diagnóstico y qué sigue
 

@@ -16,10 +16,37 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
+    },
+    {
+      "tipo": "vng",
+      "paneles": [
+        {
+          "titulo": "Giro supino a la derecha (S–D)",
+          "seg": 40,
+          "h": {
+            "dir": 1,
+            "lat": 3,
+            "pico": 8,
+            "dur": 12
+          }
+        },
+        {
+          "titulo": "Giro supino a la izquierda (S–I)",
+          "seg": 40,
+          "h": {
+            "dir": -1,
+            "lat": 4,
+            "pico": 18,
+            "dur": 25
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "audiosupra"
     }
   ]
 }

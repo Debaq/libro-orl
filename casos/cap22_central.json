@@ -19,10 +19,58 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "vemp",
+      "subtipo": "ambos"
+    },
+    {
+      "tipo": "vng",
+      "paneles": [
+        {
+          "titulo": "Cabeza colgando (E–CC)",
+          "seg": 60,
+          "v": {
+            "dir": -1,
+            "lat": 0,
+            "pico": 7,
+            "tipo": "persistente"
+          }
+        },
+        {
+          "titulo": "Al sentarse (CC–E)",
+          "seg": 20
+        },
+        {
+          "titulo": "Cabeza colgando, repetida",
+          "seg": 60,
+          "v": {
+            "dir": -1,
+            "lat": 0,
+            "pico": 7,
+            "tipo": "persistente"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "izquierda": -3,
+        "derecha": 3
+      },
+      "sin_fijacion": {
+        "izquierda": -3,
+        "derecha": 3
+      }
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 21,
+      "OD30": 18,
+      "OI44": 22,
+      "OI30": 18
     }
   ]
 }

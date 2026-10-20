@@ -204,42 +204,101 @@ El vértigo ya pasó y sigue con síntomas al mover la cabeza. ¿Qué parte de l
 
 #### Paso 4 · Los resultados
 
-:::figura cap31_buena audiograma
-- @OD 1000 | La audición es normal: 0 dB en 1 kHz y 5 dB desde 2 kHz. La neuritis no toca la cóclea.
-- @OI 4000 | El OI es igual al OD, simétrico. No hay hipoacusia que haga pensar en una laberintitis.
-:::
-:::figura cap31_buena vemp
-- @OD P13 | El cVEMP del OD, el lado de la neuritis, mide **284 µV** (5,68 corregida por el EMG).
-- @OI P13 | El del OI mide **290 µV** (5,74). La asimetría es de **0 %**: el sáculo del lado enfermo responde. Es lo esperable si el daño fue de la rama superior del nervio (→ cap. 21).
-:::
-
-:::ayuda-ancho Lo que entrega Martín del examen y de la batería, a las dos semanas (→ H16 a H20)
-| Prueba | Resultado |
-|---|---|
-| Nistagmo sin fijación | Bate hacia la izquierda, **2 °/s**, casi apagado |
-| Calórica | Hipoexcitabilidad derecha de **62 %** |
-| vHIT, canal lateral | Derecha **0,45** con sacada manifiesta; izquierda **0,98** |
-| vHIT, canales verticales | Anterior derecho **0,60**; posterior derecho **1,00** |
-| DVA | Pierde **3 líneas** con el giro horizontal y 2 con el vertical |
-| Alcance funcional | **24 cm** |
-| Apoyo en un pie | **8 s** |
-| TUG | **10 s** |
-| DGI de 4 ítems | **9/12**, con lo más difícil en los giros de cabeza |
-| DHI | **58** (moderado) |
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, estable; ojos cerrados, oscila y se desvía **hacia la derecha** |
+| | Brazos extendidos / Unterberger | **Desvío y giro leves hacia la derecha** |
+| | Marcha, ojos abiertos y cerrados | Normal con los ojos abiertos; con los cerrados se va **hacia la derecha** |
+| | Romberg sensibilizado / tándem | Logra el tándem con **vacilación** |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-Con eso se arma el programa (fase 1 y 2 de la Técnica en foco, con el desafío creciente). Así siguió, visita a visita:
+Se desvía hacia el lado enfermo, el **derecho**, y solo cuando le falta la vista. No hay signos de cerebelo ni de pares.
 
-:::imagen ilustraciones/cap31-seguimiento-martin.svg ancho=100% Hoja de seguimiento de Martín: el impulso hacia la derecha y la batería en tres visitas. Mira cómo la sacada pasa de manifiesta a encubierta y el DHI baja a 12, con una ganancia que no llega a 1.
-- @22.6,25.7 | A la **semana 2** el reflejo es corto (**0,45**) y la sacada llega **después** de que la cabeza se detuvo: es una sacada manifiesta.
-- @45.4,28.8 | A la **semana 6** la ganancia sube a **0,62** y la sacada ya cae **dentro del giro**: encubierta, que el paciente no nota.
-- @99.5,59 | El DHI baja de 58 a **12** en tres meses, con una ganancia que **no llegó a 1** (0,74): se está bien con un reflejo que no se normalizó.
+:::imagen figuras/salida/cap31_buena_nistagmo.svg ancho=75% Nistagmo de Martín en la hoja del campo clínico. Con fijación no se ve. Sin fijación bate a la izquierda en todas las miradas menos a la derecha, donde se apaga.
+:::
+
+Con fijación **no hay nistagmo** (OFI +). Sin fijación, el nistagmo bate **a la izquierda**: **2 °/s** al frente, arriba y abajo, y **3 °/s** a la izquierda; a la derecha desaparece. Está casi apagado. Con *head-shaking* **aumenta** a 4 °/s, siempre hacia la izquierda. Sacadas y seguimiento sin otro hallazgo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | ← débil | Pers. | 0 s | No | No | No | No |
+| **S–D** | ← débil | Pers. | 0 s | No | No | No | No |
+| **D–S** | ← débil | Pers. | 0 s | No | No | No | No |
+| **S–I** | ← débil | Pers. | 0 s | No | No | No | No |
+| **I–S** | ← débil | Pers. | 0 s | No | No | No | No |
+| **S–E** | ← débil | Pers. | 0 s | No | No | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | ← débil | Pers. | 0 s | No | No | No | No |
+| **CC–E** | ← débil | Pers. | 0 s | No | No | No | No |
+| **E–CCD** | ← débil | Pers. | 0 s | No | No | No | No |
+| **CCD–E** | ← débil | Pers. | 0 s | No | No | No | No |
+| **E–CCI** | ← débil | Pers. | 0 s | No | No | No | No |
+| **CCI–E** | ← débil | Pers. | 0 s | No | No | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+En todas las posiciones solo persiste el nistagmo espontáneo, sin paroxismo ni cambio de dirección: no es un VPPB.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **20 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **5 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **14 °/s** | (+) | Moderado | No |
+| OD 30 °C | ← | **3 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,45**, sacada manifiesta | **0,60** | 1,00 |
+| **Izquierdo** | 0,98 | 0,95 | 0,97 |
+:::
+
+:::imagen figuras/salida/cap31_buena_mariposa.svg ancho=62% Gráfico de mariposa de Martín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.
+:::
+
+Hipoexcitabilidad derecha: (5 + 3 − 20 − 14) / 42 = **62 %**. Dirección preponderante hacia la izquierda: **10 %**, no significativa. En el vHIT caen el lateral y el anterior derechos y el posterior se conserva: el territorio del **nervio vestibular superior**.
+
+:::imagen figuras/salida/cap31_buena_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP simétrico: **284 µV** en el OD y **290 µV** en el OI (5,68 y 5,74 corregidas por el EMG), asimetría de **0 %**. El oVEMP cae al estimular el OD, el lado de la neuritis: **8 µV** contra **23 µV** (0,20 y 0,54), asimetría de **47 %**, sobre el corte de 33 %. Utrículo y nervio vestibular superior, como el vHIT, y el sáculo se salva (→ cap. 21).
+
+:::imagen figuras/salida/cap31_buena_audiosupra.svg ancho=80% Audiometría de Martín: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::
+
+La audición es normal: 0 dB hasta 1 kHz y 5 dB desde 2 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos. La neuritis no toca la cóclea.
+
+:::ayuda-ancho Batería de evaluación de rehabilitación, en tres visitas (→ H20)
+| Prueba | Semana 2 | Semana 6 | Mes 3 |
+|---|---|---|---|
+| **DHI** | **58** (moderado) | 30 | **12** |
+| vHIT, canal lateral derecho | **0,45**, sacada manifiesta | 0,62, sacada encubierta | 0,74, sacada encubierta |
+| DVA, líneas perdidas a 3 Hz | **3** en el giro horizontal y 2 en el vertical | 1 | 0 |
+| Alcance funcional | **24 cm** | 30 cm | 35 cm |
+| Apoyo monopodal | **8 s** | 24 s | 30 s |
+| Berg, recoger un objeto del suelo | **3**: lo recoge, con supervisión | 4 | 4 |
+| TUG | **10 s** | 8 s | 7 s |
+| DGI de 4 ítems | **9/12**, con lo más difícil en los giros de cabeza | 11/12 | 12/12 |
+:::
+
+Con la primera columna se arma el programa (fase 1 y 2 de la Técnica en foco, con el desafío creciente). Así siguió, visita a visita:
+
+:::imagen ilustraciones/cap31-seguimiento-martin.svg ancho=100% Hoja de seguimiento de Martín: el impulso hacia la derecha y la batería en tres visitas. A la semana 2 la sacada es manifiesta (llega después de que la cabeza se detuvo); a la semana 6 es encubierta (cae dentro del giro) y el paciente no la nota. El DHI baja de 58 a 12 en tres meses con una ganancia que no llega a 1 (0,74): se está bien con un reflejo que no se normalizó.
 :::
 
 :::docente Guía del caso
 - **Datos clave:** neuritis derecha de dos semanas, sin vértigo en reposo, síntomas al girar la cabeza y al agacharse, **meta clara** (volver a manejar), camina desde el quinto día, audición normal, VEMP simétrico.
 - **Hipótesis:** compensación estática hecha; falta la dinámica. Lo que hay que trabajar es la **mirada con los giros** y el equilibrio con cambios de postura.
-- **Qué pedir:** DHI, DVA, batería funcional de H20 y el vHIT que ya tiene del examen; repetir a la semana 6 y al tercer mes (→ H18, H20).
+- **Qué pedir:** la ficha vestibular completa, en orden (equilibrio, cerebelo, pares craneales, nistagmo, posicional, calórica, vHIT de seis canales, VEMP y audiometría), y la batería de rehabilitación: DHI, DVA, alcance funcional, apoyo monopodal, Berg, TUG y DGI; repetirla a la semana 6 y al tercer mes (→ H16 a H20).
 - **Qué enseña:** el curso típico de una neuritis que compensa, con una ganancia que sube pero **no se normaliza** y un alta por función.
 - **Errores esperables:** dar el alta por llevar la ganancia a 1; empezar el VOR x2 antes de que el x1 se haga sin síntomas; no pedir el registro de ejercicios en la casa.
 :::
@@ -260,38 +319,102 @@ Además de la batería de H20, ¿qué harías con el fármaco y con el reposo? �
 
 #### Paso 4 · Los resultados
 
-:::figura cap31_lenta audiograma
-- @OD 4000 | La audición es **simétrica y propia de la edad**: 20 dB en 4 kHz y 25 dB en 8 kHz. No hay una asimetría que sugiera otra cosa.
-- @OI 1000 | El OI es igual al OD: 10 dB en 1 kHz.
+Por indicación médica, suspendió el dimenhidrinato 48 horas antes del examen, como pide el protocolo: un antivertiginoso deprime la respuesta calórica y el nistagmo.
+
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, oscila; ojos cerrados, **cae hacia la izquierda** |
+| | Brazos extendidos / Unterberger | **Desvío y giro hacia la izquierda** |
+| | Marcha, ojos abiertos y cerrados | Base ancha, con bastón; gira todo el cuerpo para mirar hacia un lado |
+| | Romberg sensibilizado / tándem | No los logra |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Lucía del examen y de la batería, a las cinco semanas (→ H16 a H20)
-| Prueba | Resultado |
-|---|---|
-| Nistagmo sin fijación | No hay |
-| Calórica | Hipoexcitabilidad izquierda de **70 %** |
-| vHIT, canal lateral | Izquierda **0,30** con sacadas manifiestas; derecha **1,00** |
-| DVA | Pierde **4 líneas** con el giro horizontal |
-| Alcance funcional | **12 cm** |
-| Apoyo en un pie | **2 s** |
-| TUG | **17 s** |
-| DGI de 4 ítems | **5/12** |
-| DHI | **74** (grave) |
-| Una caída en los últimos 10 días | Sin lesión |
+Se desvía y cae hacia la **izquierda**, el lado enfermo, aun con los ojos abiertos. El cerebelo y los pares están sin hallazgos.
+
+:::imagen figuras/salida/cap31_lenta_nistagmo.svg ancho=75% Nistagmo espontáneo de Lucía en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* aparece un nistagmo débil, de **3 °/s**, que bate hacia la **derecha**: el lado enfermo sigue desbalanceado aunque en reposo no se note.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **3 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **19 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **3 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **15 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 1,00 | 0,98 | 0,96 |
+| **Izquierdo** | **0,30**, sacadas manifiestas | **0,48**, sacadas manifiestas | 0,92 |
+:::
+
+:::imagen figuras/salida/cap31_lenta_mariposa.svg ancho=62% Gráfico de mariposa de Lucía: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) apenas se separan de la línea.
+:::
+
+Hipoexcitabilidad izquierda: (19 + 15 − 3 − 3) / 40 = **70 %**. Dirección preponderante hacia la derecha: **10 %**, no significativa. En el vHIT caen el lateral y el anterior izquierdos: el territorio del **nervio vestibular superior**.
+
+:::imagen figuras/salida/cap31_lenta_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **622 µV** en el OD y **335 µV** en el OI (12,36 y 6,77 corregidas por el EMG): asimetría de **29 %**, bajo el corte de 35 %. El oVEMP cae al estimular el OI: **9 µV** contra **26 µV** (0,22 y 0,62), asimetría de **47 %**, sobre el corte de 33 %. Utrículo y nervio vestibular superior, como el vHIT.
+
+:::imagen figuras/salida/cap31_lenta_audiosupra.svg ancho=80% Audiometría de Lucía: simétrica y propia de la edad, con discriminación de 100 % en los dos oídos.
+:::
+
+La audición es **simétrica y propia de la edad**: 10 dB en 1 kHz, 20 dB en 4 kHz y 25 dB en 8 kHz, en los dos oídos. SRT de 10 dB y discriminación de **100 %** en ambos. No hay una asimetría que sugiera otra cosa.
+
+:::ayuda-ancho Batería de evaluación de rehabilitación, en tres visitas (→ H20)
+| Prueba | Semana 5 | Semana 9 | Semana 17 |
+|---|---|---|---|
+| **DHI** | **74** (grave) | 52 | **24** |
+| vHIT, canal lateral izquierdo | **0,30**, sacadas manifiestas | 0,42, sacadas manifiestas | 0,55, sacada encubierta |
+| DVA, líneas perdidas a 3 Hz | **4** en el giro horizontal | 3 | 1 |
+| Alcance funcional | **12 cm** | 16 cm | 21 cm |
+| Apoyo monopodal | **2 s** | 6 s | 14 s |
+| Berg, recoger un objeto del suelo | **2**: no lo recoge, llega a 2-5 cm | 3 | 3 |
+| TUG | **17 s** | 13 s | 10 s |
+| DGI de 4 ítems | **5/12** | 8/12 | 10/12 |
+| Caídas | Una en los últimos 10 días, sin lesión | | |
 :::
 
 El médico que la deriva acuerda con ella **retirar el antihistamínico de a poco** y le explica por qué; se arma un programa sentada, de pocos minutos y varias veces al día, con alguien de la familia al lado. Así siguió:
 
-:::imagen ilustraciones/cap31-seguimiento-lucia.svg ancho=100% Hoja de seguimiento de Lucía: el impulso hacia la izquierda y la batería en tres visitas. Va más lento que Martín, pero en el mismo sentido: la ganancia sube y la sacada se vuelve encubierta.
-- @22.6,20.5 | A la **semana 5** la ganancia es **0,30**: la más baja de los tres casos, con una sacada manifiesta grande que cae mucho después del giro.
-- @34,59.1 | El DHI parte en **74**, en el tramo grave.
-- @77.8,26.8 | A la **semana 17** la ganancia sube a **0,55** y la sacada ya es encubierta: más lento que Martín, **en el mismo sentido**.
+:::imagen ilustraciones/cap31-seguimiento-lucia.svg ancho=100% Hoja de seguimiento de Lucía: el impulso hacia la izquierda y la batería en tres visitas. Parte de una ganancia de 0,30, la más baja de los tres casos, con una sacada manifiesta grande que cae mucho después del giro; el DHI parte en 74, en el tramo grave. A la semana 17 la ganancia sube a 0,55 y la sacada ya es encubierta: más lento que Martín, en el mismo sentido.
 :::
 
 :::docente Guía del caso
 - **Datos clave:** cinco semanas, antihistamínico cada 8 horas desde la urgencia, casi sin salir del sillón, gira todo el cuerpo para mirar, **una caída**, miedo; la audición normal para su edad.
 - **Hipótesis:** compensación lenta por **dos frenos** (el fármaco y la inactividad). La edad no la explica: la guía dice que la edad no limita la recuperación (Hall y cols., 2022).
-- **Qué pedir:** batería completa, y **un aviso al médico** con los datos: el fármaco retrasa la compensación y hay una caída; el retiro lo decide él.
+- **Qué pedir:** la ficha vestibular y la batería completas, y **un aviso al médico** con los datos: el fármaco retrasa la compensación y hay una caída; el retiro lo decide él.
 - **Qué enseña:** que **lento no es fracaso**: la curva va en el mismo sentido que la de Martín, con unas semanas más. Y quién hace qué.
 - **Errores esperables:** suspender el fármaco por cuenta propia; dar un programa largo y exigente a alguien con miedo a caerse; no medir el riesgo de caída.
 :::
@@ -312,40 +435,101 @@ Si el reflejo ya volvió, ¿qué más puede explicar el mareo? Separa lo que dep
 
 #### Paso 4 · Los resultados
 
-:::figura cap31_meseta audiograma
-- @OD 4000 | La audición es normal: 0 dB hasta 6 kHz y 5 dB en 8 kHz, en los dos oídos.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg y Romberg sensibilizado | Estables, con ojos abiertos y cerrados |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro |
+| | Marcha, ojos abiertos y cerrados | Normal, hacia delante y hacia atrás; tándem sin alteración |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Ignacio del examen y de la batería, a las diez semanas (→ H16 a H20)
-| Prueba | Resultado |
-|---|---|
-| Nistagmo sin fijación | No hay |
-| Calórica | Hipoexcitabilidad derecha de **18 %**, bajo el corte de 25 % de H17 |
-| vHIT, canal lateral | Derecha **0,90** sin sacadas; izquierda **1,00** |
-| DVA | **No pierde** líneas |
-| Apoyo en un pie | **30 s** |
-| TUG | **7 s** |
-| DGI de 4 ítems | **12/12** |
-| DHI | **52** (moderado), con las respuestas de miedo y de evitación más altas |
+El equilibrio estático y el dinámico son normales, sin lado hacia el que se desvíe. Cerebelo y pares, sin hallazgos.
+
+:::imagen figuras/salida/cap31_meseta_nistagmo.svg ancho=75% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
-Esta es la hoja de sus tres visitas:
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
 
-:::imagen ilustraciones/cap31-seguimiento-ignacio.svg ancho=100% Hoja de seguimiento de Ignacio: el impulso hacia la derecha y la batería en tres visitas. El reflejo ya está casi normal y el DHI no baja: función y síntomas dejaron de ir juntos.
-- @75.4,33.6 | A la **semana 10** el reflejo está **casi en lo normal**: ganancia **0,90** y sin sacadas.
-- @67,59.1 | El DHI de la semana 6 era **46**.
-- @99.5,59.1 | A la semana 10 es **52**: la función subió y el DHI también. **Función y síntomas dejaron de ir juntos.**
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **20 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **14 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **16 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **11 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,90**, sin sacadas | 0,94 | 0,96 |
+| **Izquierdo** | 1,00 | 0,97 | 0,98 |
+:::
+
+:::imagen figuras/salida/cap31_meseta_mariposa.svg ancho=62% Gráfico de mariposa de Ignacio: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son parecidas, algo menores las del OD.
+:::
+
+Hipoexcitabilidad derecha: (14 + 11 − 20 − 16) / 61 = **18 %**, bajo el corte de 25 %. Dirección preponderante hacia la izquierda: **2 %**. El vHIT está casi en lo normal, sin sacadas.
+
+:::imagen figuras/salida/cap31_meseta_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **290 µV** en el OD y **275 µV** en el OI (5,70 y 5,60 corregidas), asimetría de **1 %**. oVEMP de **23** y **21 µV** (0,54 y 0,50), asimetría de **4 %**. Los dos, bajo el corte.
+
+:::imagen figuras/salida/cap31_meseta_audiosupra.svg ancho=80% Audiometría de Ignacio: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::
+
+La audición es normal: 0 dB hasta 6 kHz y 5 dB en 8 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos.
+
+:::ayuda-ancho Batería de evaluación de rehabilitación, en tres visitas (→ H20)
+| Prueba | Semana 2 | Semana 6 | Semana 10 |
+|---|---|---|---|
+| **DHI** | 60 | 46 | **52** (moderado), con las respuestas de miedo y de evitación más altas |
+| vHIT, canal lateral derecho | 0,50, sacada manifiesta | 0,78, sacada encubierta | **0,90**, sin sacadas |
+| DVA, líneas perdidas a 3 Hz | 3 | 1 | **0** |
+| Alcance funcional | 28 cm | 36 cm | 37 cm |
+| Apoyo monopodal | 10 s | 30 s | **30 s** |
+| Berg, recoger un objeto del suelo | 3 | 4 | **4** |
+| TUG | 10 s | 7 s | **7 s** |
+| DGI de 4 ítems | 9/12 | 12/12 | **12/12** |
+:::
+
+Esta es la hoja de sus tres visitas. El reflejo llegó casi a lo normal, y el DHI de la semana 6 era 46; a la semana 10 es 52: la función subió y el DHI también. **Función y síntomas dejaron de ir juntos.**
+
+:::imagen ilustraciones/cap31-seguimiento-ignacio.svg ancho=100% Hoja de seguimiento de Ignacio: el impulso hacia la derecha y la batería en tres visitas. El reflejo ya está casi normal (0,90, sin sacadas) y el DHI no baja: función y síntomas dejaron de ir juntos.
 :::
 
 :::imagen ilustraciones/cap31-trayectorias.svg ancho=100% Los tres casos en una sola vista: el DHI (A) y la ganancia del vHIT (B), semana a semana. Compara las curvas: los dos que mejoran bajan el DHI aunque la ganancia no llegue a 1; Ignacio tiene la mejor ganancia y el único DHI que no baja.
-- @26,41 | Ignacio es el único cuyo **DHI no baja**.
-- @74,19 | Y el único cuya ganancia **ya está cerca de 1**.
 :::
 
 :::docente Guía del caso
 - **Datos clave:** 33 años, diez semanas de una neuritis, **mejoró y se estancó**, mareo constante que no gira, peor con pantallas, supermercado y metro, mejor acostado o concentrado, **evita** lo que lo marea, hace los ejercicios "cuando se siente bien", duerme mal, miedo a que vuelva el vértigo.
 - **Hipótesis:** déficit mal compensado (no: la ganancia, la DVA y la batería están en lo esperable), vértigo posicional (pedir las pruebas posicionales), **mareo persistente funcional** en gestación (→ cap. 27).
-- **Qué pedir:** repetir el vHIT y la batería, preguntar lo que dejó de hacer, y **avisar al médico**: para la guía, la meseta es un motivo para detener la rehabilitación, y la ansiedad y la depresión son comorbilidades que empeoran el resultado y que llevan a derivar a otros profesionales (Hall y cols., 2022). <!-- Pasada de fundamentos 2026-10-18: decía "la meseta con la función recuperada es un motivo de derivación en la guía". Se corrigió: Hall y cols. (2022) dan la meseta como motivo para parar la terapia (AS 8), y la derivación la recomiendan ante comorbilidades como ansiedad y depresión (AS 9). -->
+- **Qué pedir:** la ficha vestibular y la batería, repetidas; preguntar lo que dejó de hacer, y **avisar al médico**: para la guía, la meseta es un motivo para detener la rehabilitación, y la ansiedad y la depresión son comorbilidades que empeoran el resultado y que llevan a derivar a otros profesionales (Hall y cols., 2022). <!-- Pasada de fundamentos 2026-10-18: decía "la meseta con la función recuperada es un motivo de derivación en la guía". Se corrigió: Hall y cols. (2022) dan la meseta como motivo para parar la terapia (AS 8), y la derivación la recomiendan ante comorbilidades como ansiedad y depresión (AS 9). -->
 - **Qué enseña:** que **más ejercicio de VOR no lo arregla** y que la función normal no es la misma cosa que "estar bien". La historia ya era la de Cousins y cols. (2017): evitación, miedo y dependencia visual.
 - **Errores esperables:** subir la dosis; decir "su examen está normal"; ponerle nombre de PPPD a las diez semanas, cuando el criterio de tiempo todavía no se cumple.
 - **Para discutir:** Es el mismo camino del paciente del cap. 27, **antes** de los nueve meses.
@@ -360,6 +544,18 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 #### Razonamiento
 
 La parte del reposo se compensó: ya no hay vértigo y el nistagmo casi no está. Falta lo dinámico: la ganancia del lado derecho es de 0,45 con una sacada manifiesta, la visión pierde 3 líneas con el giro y la marcha con giros de cabeza es lo que más le cuesta. Con una **neuritis de dos semanas**, el DHI de 58 y una meta clara, el programa calza en la fase 1 y la 2. Lo que se espera es que mejoren primero los síntomas y la marcha, y la ganancia más tarde y sin llegar a 1.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con oscilación y desvío a derecha con ojos cerrados; desvío de brazos y giro en Unterberger leves a derecha; marcha con ojos cerrados con desvío a derecha; tándem con vacilación. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** con fijación, ausente (OFI +); sin fijación, bate a izquierda, VFL 2 °/s al centro y 3 °/s a izquierda, y desaparece a derecha. *Head-shaking*: aumenta a 4 °/s hacia izquierda. **Posicional:** persiste el espontáneo, sin nistagmo paroxístico.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 62 % (valor significativo) y dirección preponderante hacia izquierda de 10 % (valor no significativo). **vHIT:** ganancia disminuida en canal lateral derecho (0,45, sacada manifiesta) y anterior derecho (0,60); posterior derecho y canales izquierdos normales. **VEMP:** cVEMP simétrico (0 %, valor no significativo); oVEMP con asimetría de 47 % (valor significativo), menor al estimular el OD. **Audiometría:** normal bilateral.
+>
+> **Evaluación de rehabilitación (semana 2):** DHI 58; DVA con pérdida de 3 líneas en el giro horizontal y 2 en el vertical; alcance funcional 24 cm; apoyo monopodal 8 s; Berg (recoger un objeto del suelo) 3; TUG 10 s; DGI de 4 ítems 9/12.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular derecha, de los canales lateral y anterior y del utrículo (nervio vestibular superior), con nistagmo espontáneo casi apagado.
 
 #### Diagnóstico y qué sigue
 
@@ -379,6 +575,18 @@ La ganancia **no llegó a 1** y el paciente está bien. Es la pregunta que más 
 
 La ganancia de 0,30 es la más baja de los tres, pero lo que **explica** la lentitud no es el tamaño del déficit: es lo que lo frena. Cinco semanas de un antihistamínico tres veces al día, que retrasa la compensación (Rascol y cols., 1995), y de reposo casi total, que no le da al cerebro un error que corregir. A eso se suma el miedo después de una caída, que hace que gire todo el cuerpo y no la cabeza. La edad no la explica (Hall y cols., 2022).
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con caída a izquierda con ojos cerrados y oscilación con ojos abiertos; desvío de brazos y giro en Unterberger a izquierda; marcha de base ancha con bastón; no logra tándem. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: nistagmo débil de 3 °/s que bate a derecha. **Posicional:** sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 70 % (valor significativo) y dirección preponderante hacia derecha de 10 % (valor no significativo). **vHIT:** ganancia disminuida en canal lateral izquierdo (0,30, sacadas manifiestas) y anterior izquierdo (0,48); demás canales normales. **VEMP:** cVEMP con asimetría de 29 % (valor no significativo); oVEMP con asimetría de 47 % (valor significativo), menor al estimular el OI. **Audiometría:** hipoacusia sensorioneural bilateral leve, simétrica y de agudos; SRT de 10 dB y discriminación de 100 % en los dos oídos.
+>
+> **Evaluación de rehabilitación (semana 5):** DHI 74; DVA con pérdida de 4 líneas en el giro horizontal; alcance funcional 12 cm; apoyo monopodal 2 s; Berg (recoger un objeto del suelo) 2; TUG 17 s; DGI de 4 ítems 5/12; una caída en los últimos 10 días.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular izquierda, de los canales lateral y anterior y del utrículo (nervio vestibular superior), con riesgo alto de caída. Se avisa al médico tratante del antihistamínico de uso prolongado y de la caída.
+
 #### Diagnóstico y qué sigue
 
 Hipofunción vestibular izquierda **en compensación lenta**, con factores que la frenan. El informe dice lo que se midió y lo que se propone: la batería de H20, el riesgo de caída (apoyo en un pie bajo 5 s, TUG de 17 s, DGI de 5/12), el aviso al médico sobre el antihistamínico de uso prolongado y la caída, y un programa corto y supervisado que se sube de a poco. La decisión de **retirar o cambiar el fármaco es del médico**.
@@ -392,6 +600,18 @@ El primer objetivo con ella no es el VOR x2, es que **salga del sillón con segu
 #### Razonamiento
 
 Mejoró y se estancó. Y esta vez no hay frenos "físicos": no toma fármacos, no hace reposo y sus pruebas están en lo esperable. La ganancia llegó a 0,90 sin sacadas, la DVA no pierde líneas y la batería sale perfecta. Lo que no está bien es el DHI, que subió de 46 a 52 cuando la función mejoró, y lo que cuenta: evita el metro, trabaja desde la casa, hace los ejercicios solo "cuando se siente bien", y se marea con las pantallas y con la multitud. Es el perfil que describieron Cousins y cols. (2017): el miedo, la evitación y la dependencia visual predicen un peor resultado, y **no** lo hacen las medidas vestibulares.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Romberg sensibilizado, brazos extendidos, Unterberger y marcha con ojos abiertos y cerrados sin alteraciones; tándem sin alteración. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación, en todas las miradas. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en las maniobras de Dix-Hallpike y de McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 18 % (valor no significativo) y dirección preponderante hacia izquierda de 2 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,90 e izquierdo 1,00), sin sacadas. **VEMP:** cVEMP simétrico (1 %) y oVEMP simétrico (4 %), valores no significativos. **Audiometría:** normal bilateral; SRT de 0 dB y discriminación de 100 % en los dos oídos.
+>
+> **Evaluación de rehabilitación (semana 10):** DHI 52 (46 a la semana 6); DVA sin pérdida de líneas; alcance funcional 37 cm; apoyo monopodal 30 s; Berg (recoger un objeto del suelo) 4; TUG 7 s; DGI de 4 ítems 12/12.
+>
+> **Conclusión:** examen sugiere simetría vestibular para las estructuras estudiadas, con función recuperada y DHI sin mejoría. Se sugiere evaluación por otorrinolaringología.
 
 #### Diagnóstico y qué sigue
 

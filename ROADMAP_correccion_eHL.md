@@ -22,7 +22,7 @@ Decidido por él el 2026-10-19: se hace la **opción 1** (revisar todo, capítul
 
 ## Estado (2026-10-20): revisión hecha, sin commit
 
-Criterio que decidió él: **los casos se ajustan al capítulo, no al revés**. El libro tiene casos propios (`casos/pacientes_demo.json` y `casos/propios/`): los que quedaron mal vuelven a sus valores anteriores y sus figuras son idénticas a las originales; los demás quedan con la corrección nueva y se ajustaron solo las cifras (57 líneas en 6 capítulos). Informe: `investigacion/revision_abr_ehl_2026-10-19/INFORME_revision.md`. Pendiente: llevar los casos propios a LabSim y revisar el marcado automático de la ECochG.
+El caso clínico no se mueve: los casos quedan con la corrección nueva; donde un caso se caía se ajustó un parámetro propio (sp_ap del OI en el Ménière bilateral y en Patricia) y el motor ya no marca ECochG sobre ruido. El resto: cifras del texto actualizadas. Informe: `investigacion/revision_abr_ehl_2026-10-19/INFORME_revision.md`. Pendiente: llevar esos ajustes a LabSim y revisar `ecochg.auto_marks`.
 
 ## La revisión (plan original)
 

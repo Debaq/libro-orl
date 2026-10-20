@@ -281,7 +281,7 @@ Al nivel del STAT a su OD le sobran 70 a 85 dB sobre el umbral, y aun así no so
 :::
 :::figura cap11_p39 abr
 - @OI 80 V | La onda V del OI aparece en su lugar, con I y III bien formadas.
-- @OD 80 V | La V del OD llega cerca de **1 ms más tarde** que la del OI al mismo nivel. La diferencia interaural supera de lejos los 0,4 ms.
+- @OD 80 V | La V del OD llega **0,8 ms más tarde** que la del OI al mismo nivel. La diferencia interaural duplica el límite de 0,4 ms.
 - @OD 80 I | La onda I del OD existe y está en su lugar: la señal sale bien de la cóclea y se atrasa en el camino.
 - @OD 40 | A 40 dB el OD ya no responde, aunque su umbral en 2 kHz es de 30 dB.
 :::

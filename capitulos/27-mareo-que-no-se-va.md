@@ -216,22 +216,79 @@ Ya tiene una resonancia de cerebro normal. ¿Qué agregarías para ver si el lab
 
 #### Paso 4 · Los resultados
 
-:::figura cap27_neuritis audiograma
-- @OD 1000 | La audición es normal: 5 dB en 1 kHz y hasta 10 dB en 8 kHz. No hay hipoacusia que sumar a la historia.
-- @OI 4000 | El OI es igual al OD: 5 dB en 4 kHz. La neuritis no dejó huella en la cóclea, como se espera.
-:::
-:::figura cap27_neuritis vemp
-- @OD P13 | El cVEMP del OD mide **349 µV** (6,86 corregida por el EMG).
-- @OI P13 | El del OI, el lado de la neuritis, mide **343 µV** (6,82). La asimetría es de **0 %**: el sáculo del lado enfermo responde igual. En una neuritis superior, el cVEMP suele conservarse (→ cap. 21).
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg y Romberg sensibilizado | Estables, con ojos abiertos y cerrados |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro |
+| | Marcha, ojos abiertos y cerrados | Normal, hacia delante y hacia atrás; tándem sin alteración |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Victoria del examen vestibular y de los cuestionarios (→ H16 a H20)
+No cae ni se desvía hacia ningún lado: el equilibrio estático y el dinámico son normales, y el cerebelo y los pares están sin hallazgos. Es lo que se espera de un laberinto que ya compensó.
+
+:::imagen figuras/salida/cap27_neuritis_nistagmo.svg ancho=75% Nistagmo espontáneo de Victoria en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* tampoco aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **9 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **11 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **7 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **9 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,98 | 0,95 | 0,96 |
+| **Izquierdo** | 0,93 | 0,92 | 0,94 |
+:::
+
+:::imagen figuras/salida/cap27_neuritis_mariposa.svg ancho=62% Gráfico de mariposa de Victoria: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas del OD y del OI son casi iguales.
+:::
+
+Hipoexcitabilidad izquierda: (11 + 9 − 9 − 7) / 36 = **11 %**, bajo el corte de 25 %. Dirección preponderante: **0 %**. El vHIT es simétrico y sin sacadas en los seis canales: el laberinto izquierdo, el de la neuritis, **compensó**.
+
+:::imagen figuras/salida/cap27_neuritis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP simétrico: **349 µV** en el OD y **343 µV** en el OI (6,86 y 6,82 corregidas por el EMG), asimetría de **0 %**. oVEMP de **27** y **24 µV** (0,65 y 0,57), asimetría de **6 %**, bajo el corte de 33 %. El sáculo y el utrículo del lado enfermo responden.
+
+:::imagen figuras/salida/cap27_neuritis_audiosupra.svg ancho=80% Audiometría de Victoria: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::
+
+La audición es normal: 5 dB hasta 4 kHz y 10 dB en 6 y 8 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos. La neuritis no dejó huella en la cóclea.
+
+:::ayuda-ancho Batería funcional y cuestionarios (→ H20)
 | Prueba | Resultado |
 |---|---|
-| VNG: nistagmo espontáneo, seguimiento y sacádicos | normales |
-| Posicional (Dix-Hallpike y rotación en decúbito) | negativa |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **21 °/s**, OI **17 °/s**: hipoexcitabilidad OI de **11 %**, bajo el corte de 25 % |
-| vHIT, canal lateral | OD **0,98**, OI **0,93**, sin sacadas |
 | Batería de H20 | DVA: pierde **1 línea** en el giro horizontal. TUG **8 s**. DGI de 4 ítems **12/12** |
 | DHI | **58** (moderado) |
 | VVAS | **5,8**, con las situaciones de supermercado y pantalla más altas |
@@ -242,8 +299,8 @@ Ya tiene una resonancia de cerebro normal. ¿Qué agregarías para ver si el lab
 :::docente Guía del caso
 - **Datos clave:** neuritis vestibular izquierda hace 9 meses con vértigo de 3 días, recuperación completa del giro, mareo diario desde entonces; peor de pie, en el supermercado, con pantallas, en la fila; mejor acostada o distraída. Resonancia de cerebro normal. Se pregunta "si quedó dañada".
 - **Hipótesis:** hipofunción residual sin compensar, VPPB secundario, migraña vestibular, **PPPD** precipitado por la neuritis. Lo que **mejora** con la distracción y lo visual apuntan a lo último.
-- **Qué pedir:** audiometría, calórica y vHIT para medir lo que quedó del laberinto, VEMP, batería funcional y DHI, VVAS y ABC.
-- **Lo que enseña:** que el laberinto compensó (la calórica baja del corte y el vHIT es normal), que **el déficit residual no alcanza a explicar** lo que cuenta, y que la historia, no el examen, hace el diagnóstico.
+- **Qué pedir:** la ficha vestibular completa, en orden: equilibrio, cerebelo, pares craneales, nistagmo con y sin fijación y provocado, calórica bitermal, vHIT de seis canales, VEMP y audiometría para medir lo que quedó del laberinto; batería funcional, DHI, VVAS, NPQ y ABC (→ H16 a H20).
+- **Lo que enseña:** que el laberinto compensó (la calórica baja del corte, el vHIT es simétrico y no hay nistagmo ni en el *head-shaking*), que **el déficit residual no alcanza a explicar** lo que cuenta, y que la historia, no el examen, hace el diagnóstico.
 - **Errores esperables:** decir "tu examen está normal" sin más; buscar el daño en el laberinto cuando el criterio es que no hay uno que lo explique.
 :::
 
@@ -263,23 +320,83 @@ La paciente dice que la llamaron "ansiosa" y que no está de acuerdo. ¿Qué har
 
 #### Paso 4 · Los resultados
 
-:::figura cap27_vppb audiograma
-- @OD 4000 | El OD baja a **60 dB** en 4 kHz y a 75 en 8 kHz.
-- @OI 4000 | El OI baja a **50 dB** en 4 kHz: caída de agudos de los dos lados, casi igual, la propia de la edad.
-- @OD osea 2000 | La ósea sigue a la aérea: es **sensorioneural**.
-:::
-:::figura cap27_vppb logoaudiometria
-- @OD max | El OD llega al **92 %**.
-- @OI max | El OI llega al **96 %**: discriminación buena, acorde a la pérdida, y casi igual en los dos oídos. No hay nada asimétrico ni retrococlear.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg y Romberg sensibilizado | Estables, con ojos abiertos y cerrados |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro |
+| | Marcha, ojos abiertos y cerrados | Normal, hacia delante y hacia atrás; en tándem, **vacila** |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Eva del examen vestibular y de los cuestionarios (→ H16 a H20)
+Sin lado hacia el que se desvíe. Solo el tándem la hace vacilar.
+
+:::imagen figuras/salida/cap27_vppb_nistagmo.svg ancho=75% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* tampoco aparece nistagmo.
+
+La posicional se **repite** y sale **negativa**: sin nistagmo ni vértigo en el Dix-Hallpike derecho e izquierdo ni en la rotación en decúbito.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **11 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **11 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **9 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **8 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,96 | 0,94 | 0,95 |
+| **Izquierdo** | 0,97 | 0,93 | 0,96 |
+:::
+
+:::imagen figuras/salida/cap27_vppb_mariposa.svg ancho=62% Gráfico de mariposa de Eva: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son casi iguales.
+:::
+
+Hipoexcitabilidad derecha: (11 + 8 − 11 − 9) / 39 = **3 %**. Dirección preponderante hacia la derecha: **3 %**. Los dos valores quedan muy bajo los cortes de 25 % y de 30 %. El vHIT es simétrico y sin sacadas.
+
+:::imagen figuras/salida/cap27_vppb_vemp.svg ancho=100% VEMP de Eva a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **348 µV** en el OD y **334 µV** en el OI (6,87 y 6,72 corregidas), asimetría de **1 %**. oVEMP de **25** y **26 µV** (0,58 y 0,62), asimetría de **3 %**. Los dos, bajo el corte.
+
+:::imagen figuras/salida/cap27_vppb_audiosupra.svg ancho=80% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % y 96 %.
+:::
+
+Caída de agudos de los dos lados, casi igual, la propia de la edad: el OD tiene **15 dB** en 1 kHz, **60 dB** en 4 kHz y 75 dB en 8 kHz; el OI, 15, **50** y 70 dB. La ósea sigue a la aérea: es **sensorioneural**. SRT de 10 dB en los dos oídos. Discriminación máxima de **92 %** en el OD y **96 %** en el OI: buena, acorde con la pérdida y casi igual en los dos. No hay nada asimétrico ni retrococlear.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 35 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+
+:::ayuda-ancho Presión arterial, batería funcional y cuestionarios (→ H20)
 | Prueba | Resultado |
 |---|---|
-| VNG: nistagmo espontáneo, seguimiento y sacádicos | normales |
-| Posicional (Dix-Hallpike derecho e izquierdo, rotación en decúbito) | **negativa**, sin nistagmo ni vértigo |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **19 °/s**, OI **20 °/s**: diferencia de **3 %** |
-| vHIT, canal lateral | OD **0,96**, OI **0,97**, sin sacadas |
 | Presión arterial | acostada **128/76**, de pie a los 3 minutos **124/78**: sin caída |
 | Batería de H20 | DVA: pierde **1 línea**. Apoyo monopodal **12 s**. TUG **10 s**. DGI de 4 ítems **11/12**, con vacilación al girar la cabeza |
 | DHI | **66** (grave), con la subescala **emocional** la más alta |
@@ -291,7 +408,7 @@ La paciente dice que la llamaron "ansiosa" y que no está de acuerdo. ¿Qué har
 :::docente Guía del caso
 - **Datos clave:** VPPB del canal posterior derecho hace 5 meses, resuelto con dos maniobras; desde entonces el piso "no está firme"; peor en el supermercado y en la micro; una crisis de pánico en el supermercado hace 2 meses; ahora evita salir sola. Dice que **el mareo vino antes que la ansiedad**.
 - **Hipótesis:** VPPB residual o recurrente, hipotensión ortostática, ansiedad primaria, **PPPD** precipitado por el VPPB y amplificado por el pánico.
-- **Qué pedir:** audiometría y logoaudiometría, pruebas posicionales repetidas (→ cap. 22), calórica, vHIT, la presión de pie y la lista de remedios; DHI, VVAS y ABC.
+- **Qué pedir:** la ficha vestibular completa, con las pruebas posicionales **repetidas** (→ cap. 22), calórica bitermal, vHIT, VEMP y audiometría con logoaudiometría; la presión de pie y la lista de remedios; DHI, VVAS y ABC.
 - **Lo que enseña:** que se **repite** lo que se descartó antes (la posicional ya estaba tratada); que la ansiedad que aparece **después** del mareo no lo explica ni lo contradice; y que una hipoacusia de la edad suma dificultad sin ser la causa.
 - **Errores esperables:** cerrarlo como "ansiedad" sin mirar el vestíbulo; dar por curada la posicional sin repetirla; olvidar que el ansiolítico se suspende 48 horas antes de la calórica (→ H17).
 :::
@@ -312,38 +429,92 @@ Tiene un pitido en el oído izquierdo y dificultad para oír por teléfono con e
 
 #### Paso 4 · Los resultados
 
-:::figura cap27_schwannoma audiograma
-- @OD 4000 | El OD tiene **20 dB** en 4 kHz: la caída suave de la edad.
-- @OI 4000 | El OI tiene **45 dB** en 4 kHz: **25 dB de asimetría** en esa frecuencia, sobre los 15 que obligan a estudiar (→ cap. 11).
-- @OI osea 2000 | La ósea coincide con la aérea: sensorioneural.
-:::
-:::figura cap27_schwannoma logoaudiometria
-- @OD max | El OD llega al **100 %**.
-- @OI max | El OI **no pasa del 56 %** aunque su pérdida en las frecuencias del habla es leve. Entiende mucho menos de lo que oye.
-:::
-:::figura cap27_schwannoma reflejos
-- @ipsi OD 1000 | El OD tiene reflejo ipsilateral a **85 dB**.
-- @ipsi OI 1000 | El OI **no tiene** reflejo ipsilateral.
-- @contra OD 1000 | Con el tono en el OI y la sonda en el OD, tampoco: falla todo lo que se estimula por el OI, el patrón aferente (→ cap. 11).
-:::
-:::figura cap27_schwannoma abr
-- @OD 80 V | La V del OD llega en su lugar.
-- @OI 80 V | La V del OI llega cerca de **1 ms más tarde** y de menor amplitud, aunque la pérdida del OI en esa zona es leve.
-- @OI 40 | A 40 dB el OI ya no responde.
-:::
-:::figura cap27_schwannoma vemp
-- @OD P13 | El cVEMP del OD mide **286 µV** (5,67 corregida por el EMG).
-- @OI P13 | El del OI mide **38 µV** (0,75 corregida). La asimetría es de **76 %**, sobre el corte de 35 % (→ H12): el sáculo del OI responde muy poco.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, estable; ojos cerrados, oscila y se **desvía hacia la izquierda** |
+| | Brazos extendidos / Unterberger | **Desvío y giro leves hacia la izquierda** |
+| | Marcha, ojos abiertos y cerrados | Normal con los ojos abiertos; con los cerrados se va **hacia la izquierda** |
+| | Romberg sensibilizado / tándem | Logra el tándem con **vacilación** |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sensibilidad de la cara y reflejo corneal presentes; mímica facial simétrica; resto sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Joaquín del examen vestibular y de los cuestionarios (→ H16 a H20)
+Se desvía hacia la **izquierda**, el lado del oído enfermo, y **solo cuando le falta la vista**. No hay signos de cerebelo ni de pares.
+
+:::imagen figuras/salida/cap27_schwannoma_nistagmo.svg ancho=75% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* aparece un nistagmo **débil, de 2 °/s, que bate a la derecha**.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **6 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **15 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **4 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **11 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,99 | 0,97 | 0,98 |
+| **Izquierdo** | 0,86 | 0,88 | 0,90 |
+:::
+
+:::imagen figuras/salida/cap27_schwannoma_mariposa.svg ancho=62% Gráfico de mariposa de Joaquín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) quedan mucho más cerca de la línea que las del OD.
+:::
+
+Hipoexcitabilidad izquierda: (15 + 11 − 6 − 4) / 36 = **44 %**. Dirección preponderante hacia la derecha: **6 %**, no significativa. El vHIT, en cambio, queda en lo normal en los seis canales, sin sacadas: la calórica ve la pérdida y el impulso no.
+
+:::imagen figuras/salida/cap27_schwannoma_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **286 µV** en el OD y **38 µV** en el OI (5,67 y 0,75 corregidas por el EMG): asimetría de **76 %**, sobre el corte de 35 % (→ H12). oVEMP de **26** y **5 µV** (0,61 y 0,10): asimetría de **71 %**, sobre el corte de 33 %. Caen los dos del OI: el sáculo y el utrículo, el nervio vestibular **inferior y el superior**.
+
+:::imagen figuras/salida/cap27_schwannoma_audiosupra.svg ancho=80% Audiometría de Joaquín: el OD tiene la caída suave de la edad; el OI tiene 45 dB en 4 kHz y una discriminación que no pasa de 56 %.
+:::
+
+El OD tiene **20 dB** en 4 kHz: la caída suave de la edad. El OI tiene **45 dB** en 4 kHz: **25 dB de asimetría** en esa frecuencia, sobre los 15 que obligan a estudiar (→ cap. 11). La ósea coincide con la aérea: sensorioneural. SRT de 5 dB en el OD y de 20 dB en el OI. La discriminación del OD llega al **100 %**; la del OI **no pasa de 56 %** (a 50 dB) y baja a 52 % a 60 dB, un roll-over leve, aunque su pérdida en las frecuencias del habla es leve: entiende mucho menos de lo que oye.
+
+En el OI, SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 2 kHz y **reflejos ausentes**: la pérdida, aunque leve, no recluta y se cansa (→ H6).
+
+:::imagen figuras/salida/cap27_schwannoma_reflejos.svg ancho=80% Reflejos estapediales de Joaquín: ausentes al estimular el OI, ipsilateral y contralateral.
+:::
+
+El OD tiene reflejo ipsilateral a **85 dB**. El OI **no tiene** reflejo ipsilateral, y tampoco aparece con el tono en el OI y la sonda en el OD: falla todo lo que se estimula por el OI, el patrón aferente (→ cap. 11).
+
+:::imagen figuras/salida/cap27_schwannoma_abr.svg ancho=90% ABR de Joaquín a 80, 60 y 40 dB. La onda V del OI llega más tarde y más chica.
+:::
+
+La onda V del OD llega en su lugar. La del OI llega cerca de **1 ms más tarde** y de menor amplitud, aunque la pérdida del OI en esa zona es leve. A 40 dB el OI ya no responde.
+
+:::ayuda-ancho Supraliminares, batería funcional y cuestionarios (→ H6, H20)
 | Prueba | Resultado |
 |---|---|
-| Supraliminares (→ H6) | Carhart en el OI: **30 dB** de deterioro. SISI en el OI: **10 %** |
-| VNG: nistagmo espontáneo, seguimiento y sacádicos | sin nistagmo; seguimiento y sacádicos normales |
-| Posicional | negativa |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **26 °/s**, OI **10 °/s**: hipoexcitabilidad OI de **44 %** |
-| vHIT, canal lateral | OD **0,99**, OI **0,86**, sin sacadas |
 | mCTSIB (→ H20) | cae en ojos cerrados sobre espuma, hacia la izquierda |
 | Batería de H20 | DVA: pierde **1 línea**. TUG **9 s**. DGI de 4 ítems **10/12**, con vacilación en los giros |
 | DHI | **40** (moderado) |
@@ -355,7 +526,7 @@ Tiene un pitido en el oído izquierdo y dificultad para oír por teléfono con e
 :::docente Guía del caso
 - **Datos clave:** 10 meses de inestabilidad **sin un evento que la disparara**, empeora **a oscuras** y al girar, sin vértigo; pitido del OI y dificultad para oír por teléfono con ese lado; lo trataron como "estrés".
 - **Hipótesis:** PPPD, hipofunción vestibular unilateral compensada, **tumor del VIII par**. Que no hay un precipitante (C) y que **no** empeora con lo visual (B) hacen poco probable el PPPD.
-- **Qué pedir:** audiometría, logoaudiometría, reflejos, deterioro tonal, PEAT y VEMP (→ cap. 11); calórica y vHIT; VVAS.
+- **Qué pedir:** la ficha vestibular completa; audiometría, logoaudiometría, reflejos, deterioro tonal, PEAT y VEMP (→ cap. 11); calórica bitermal y vHIT; VVAS.
 - **Lo que enseña:** el **criterio E**. Aun con ansiedad, aun con mareo crónico, la asimetría auditiva y los reflejos obligan a seguir estudiando. Y que un cuestionario **bajo** en lo visual es una señal en sí mismo.
 - **Errores esperables:** quedarse con el "mareo funcional" por el relato; no leer el audiograma; creer que la ansiedad del paciente confirma el diagnóstico.
 :::
@@ -369,6 +540,16 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 #### Razonamiento
 
 El relato cumple los criterios A a D: casi diario por 9 meses (A), peor de pie, con lo visual y en movimiento, mejor acostada o distraída (B), y partió de una neuritis (C). Afecta su vida diaria (D: DHI 58, ABC 62 %). Falta el E, y lo dan las pruebas: la audición es normal, el cVEMP del lado enfermo responde, la calórica queda bajo el corte (11 %) y el vHIT es normal. El laberinto **compensó**. Lo que le queda no se explica por él.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Romberg sensibilizado, brazos extendidos, Unterberger y marcha con ojos abiertos y cerrados sin alteraciones; tándem sin alteración. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación, en todas las miradas. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en las maniobras de Dix-Hallpike y de McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 11 % (valor no significativo) y dirección preponderante de 0 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,98, lateral izquierdo 0,93), sin sacadas. **VEMP:** cVEMP simétrico (0 %, valor no significativo); oVEMP con asimetría de 6 % (valor no significativo). **Audiometría:** normal bilateral; SRT de 0 dB y discriminación de 100 % en los dos oídos.
+>
+> **Conclusión:** examen sugiere simetría vestibular para las estructuras estudiadas. Cuestionarios: DHI 58, VVAS 5,8, NPQ 38, ABC 62 %.
 
 #### Diagnóstico y qué sigue
 
@@ -384,6 +565,16 @@ Perfil audiovestibular **sin hallazgos que expliquen el mareo**, con un patrón 
 
 La historia cumple los cinco criterios: casi diario por 5 meses, peor en lo visual y en la micro, disparado por un VPPB y amplificado por una crisis de pánico, con limitación (ABC 41 %). Lo que importa es lo que se **hizo antes de aceptarlo**: se repitió la posicional (negativa de los dos lados), se midió la presión de pie (sin caída) y se descartó una asimetría auditiva o vestibular (calórica con 3 % y vHIT simétrico). La hipoacusia es la de la edad: suma dificultad, sobre todo en lugares ruidosos, pero no es la causa.
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Romberg sensibilizado, brazos extendidos, Unterberger y marcha sin alteraciones; tándem con vacilación. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación, en todas las miradas. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo ni vértigo en el Dix-Hallpike derecho e izquierdo ni en la rotación en decúbito.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 3 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,96, lateral izquierdo 0,97), sin sacadas. **VEMP:** cVEMP simétrico (1 %) y oVEMP simétrico (3 %), valores no significativos. **Audiometría:** hipoacusia sensorioneural bilateral leve a moderada, de agudos, simétrica; SRT de 10 dB y discriminación máxima de 92 % en el OD y de 96 % en el OI. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Conclusión:** examen sugiere simetría vestibular para las estructuras estudiadas. Cuestionarios: DHI 66, VVAS 6,4, NPQ 44, ABC 41 %.
+
 #### Diagnóstico y qué sigue
 
 Perfil audiovestibular sin asimetría y sin positivo posicional, compatible con un **mareo postural-perceptual persistente** que sigue a un VPPB, con ansiedad asociada; el diagnóstico es médico. Se sugiere evaluación por otorrinolaringología y neurología, rehabilitación con exposición graduada y, aparte, **evaluación de la hipoacusia** (→ cap. 28).
@@ -396,7 +587,17 @@ La ansiedad que **sigue** al mareo no lo explica, y el mareo que **sigue** a la 
 
 #### Razonamiento
 
-El relato **no** calza con el PPPD: no hay un evento que lo dispare (C), empeora **a oscuras**, que es lo contrario de un problema de peso visual (B), y la VVAS es baja. Y las pruebas dicen que hay algo que lo explica mejor (E): 25 dB de asimetría a 4 kHz, discriminación del OI en 56 %, reflejo ausente al estimular el OI, onda V del OI tardía y cVEMP casi ausente de ese lado, con una calórica reducida en 44 %. Es el patrón de una lesión del VIII par izquierdo (→ cap. 11), con un vestíbulo compensado que no se queja de vértigo, pero sí de inestabilidad.
+El relato **no** calza con el PPPD: no hay un evento que lo dispare (C), empeora **a oscuras**, que es lo contrario de un problema de peso visual (B), y la VVAS es baja. Y las pruebas dicen que hay algo que lo explica mejor (E): 25 dB de asimetría a 4 kHz, discriminación del OI en 56 %, reflejo ausente al estimular el OI, onda V del OI tardía, cVEMP casi ausente y oVEMP caído de ese lado, con una calórica reducida en 44 %. Es el patrón de una lesión del VIII par izquierdo (→ cap. 11), con un vestíbulo compensado que no se queja de vértigo, pero sí de inestabilidad.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con oscilación y desvío a izquierda con ojos cerrados; desvío de brazos y giro en Unterberger leves a izquierda; marcha con ojos cerrados con desvío a izquierda; tándem con vacilación. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: nistagmo débil de 2 °/s que bate a derecha. **Posicional:** sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 44 % (valor significativo) y dirección preponderante hacia derecha de 6 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,99, lateral izquierdo 0,86), sin sacadas. **VEMP:** cVEMP con asimetría de 76 % y oVEMP con asimetría de 71 % (valores significativos), menores en el OI. **Audiometría:** hipoacusia sensorioneural del OI de grado leve, con 25 dB de asimetría en 4 kHz; OD con caída suave de agudos; SRT de 5 dB en el OD y de 20 dB en el OI; discriminación máxima de 100 % en el OD y de 56 % en el OI. ABR: onda V del OI con latencia prolongada, cerca de 1 ms, y sin respuesta a 40 dB. **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular izquierda de canal lateral (calórica) y de sáculo y utrículo (nervio vestibular inferior y superior), con hipoacusia sensorioneural del OI y signos retrococleares. Cuestionarios: DHI 40, VVAS 1,6, NPQ 12, ABC 70 %.
 
 #### Diagnóstico y qué sigue
 

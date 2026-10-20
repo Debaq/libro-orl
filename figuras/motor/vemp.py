@@ -89,3 +89,21 @@ def dibujar(caso, subtipo='cvemp', intensidad=100, promedios=200, ms_max=50.0):
                 E.T_ROTULO, E.TINTA_2, 'start')
     s.texto(s.ancho / 2, mt + ph + 28, 'Latencia (ms)', E.T_EJE, E.TENUE)
     return s.svg()
+
+
+def dibujar_ambos(caso, intensidad=100, promedios=200):
+    """cVEMP y oVEMP lado a lado, en una sola figura ancha."""
+    import re
+    partes, x, alto = [], 0.0, 0.0
+    for sub, titulo in (('cvemp', 'cVEMP'), ('ovemp', 'oVEMP')):
+        svg = dibujar(caso, sub, intensidad, promedios)
+        w = float(re.search(r'width="([\d.]+)"', svg)[1])
+        h = float(re.search(r'height="([\d.]+)"', svg)[1])
+        interior = re.sub(r'^<svg[^>]*>|</svg>\s*$', '', svg.strip())
+        interior = re.sub(r'<metadata.*?</metadata>', '', interior, flags=re.S)
+        partes.append(f'<text x="{x + 40}" y="12" font-size="{E.T_TITULO + 1}" font-weight="700" '
+                      f'fill="{E.TINTA}">{titulo}</text><g transform="translate({x},14)">{interior}</g>')
+        x += w + 10
+        alto = max(alto, h)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{x}" height="{alto + 14}" '
+            f'viewBox="0 0 {x} {alto + 14}" font-family="{E.FUENTE}">{"".join(partes)}</svg>')

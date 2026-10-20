@@ -95,6 +95,51 @@ class fig:
     def vemp(subtipo='cvemp'):
         return {'tipo': 'vemp', 'subtipo': subtipo}
 
+    @staticmethod
+    def vemps():
+        """cVEMP y oVEMP lado a lado, en una sola figura ancha."""
+        return {'tipo': 'vemp', 'subtipo': 'ambos'}
+
+    @staticmethod
+    def audiologo():
+        """Audiograma de los dos oídos en un gráfico, con la logoaudiometría en
+        datos al lado (SDT, SRT, UMD con los tres mejores intentos)."""
+        return {'tipo': 'audiologo'}
+
+    @staticmethod
+    def nistagmo(con_fijacion=None, sin_fijacion=None):
+        """Hoja del campo clínico (hexágonos). Cada mirada (izquierda, arriba,
+        centro, abajo, derecha): VFL en °/s, negativa = bate a la izquierda, o
+        {'dir': 'arriba'|'abajo'|'izquierda'|'derecha', 'vfl': n}."""
+        return {'tipo': 'nistagmo', 'con_fijacion': con_fijacion or {}, 'sin_fijacion': sin_fijacion or {}}
+
+    @staticmethod
+    def audiosupra():
+        """Hoja auditiva de los casos vestibulares (motor/audio_supra.py):
+        audiograma clínico con el Fowler y, al lado, logoaudiometría y
+        supraliminares en una tabla OD | OI."""
+        return {'tipo': 'audiosupra'}
+
+    @staticmethod
+    def supraliminares():
+        """Supraliminares del caso en LabSim: escalera de Fowler donde el caso
+        la tiene, y SISI, Carhart, Metz y decay del reflejo de cada oído con
+        pérdida sensorioneural."""
+        return {'tipo': 'supraliminares'}
+
+    @staticmethod
+    def vng(*paneles):
+        """VNG de una maniobra: un panel por posición, {'titulo', 'seg', 'h', 'v'};
+        'h' y 'v' son el componente horizontal y el vertical, {'dir': +1|-1
+        (derecha o arriba = +1), 'lat': s, 'pico': °/s, 'dur': s,
+        'tipo': 'paroxistico'|'persistente'}, o None si no hay."""
+        return {'tipo': 'vng', 'paneles': list(paneles)}
+
+    @staticmethod
+    def mariposa(od44, od30, oi44, oi30):
+        """Calórica bitermal: VFL máxima de cada irrigación (°/s)."""
+        return {'tipo': 'mariposa', 'OD44': od44, 'OD30': od30, 'OI44': oi44, 'OI30': oi30}
+
 
 def demo(numero, figuras, nombre=None):
     """Un paciente de práctica (docs/manual/capturas/casos_demo.json)."""

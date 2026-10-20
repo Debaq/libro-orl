@@ -199,38 +199,87 @@ Tienes tres audiogramas de la historia. ¿Qué te falta para decidir si el vest�
 
 #### Paso 4 · Los resultados
 
-:::figura cap23_meniere_avanzado audiograma
-- @OD 1000 | El OD tiene 55 dB en 1 kHz y 55 en 2 kHz: el promedio de 500 a 3.000 Hz es de **55 dB**, la **etapa 3**. En el historial había sido 24 y después 40.
-- @OD 8000 | Ya no es la curva ascendente: baja a **85 dB** en 8 kHz. La forma cambió con los años.
-- @OD osea 2000 | La ósea sigue a la aérea: es una pérdida **sensorioneural**.
-- @OI 4000 | El OI tiene la caída de agudos que se ve a esa edad (25 dB en 4 kHz); en graves y medias está en 5 a 15 dB.
-:::
-:::figura cap23_meniere_avanzado logoaudiometria
-- @OD max | El OD llega a **68 %**, a 80 dB. Su umbral del habla es de 50 dB: la discriminación está bajo lo que ese umbral permitiría.
-- @OI max | El OI llega a 100 %: es la referencia.
-:::
-:::figura cap23_meniere_avanzado ecochg
-- @OD PA | El OD casi no tiene respuesta: el PA es tan chico que no se separa del ruido. La razón de **0,24** y la de áreas de **1,98** salen de un trazo casi plano y **no se pueden leer**.
-- @OI PA | El OI es la referencia: PA claro, razón de **0,17** y de áreas de **1,14**, bajo los límites de 0,40 y 1,94 (→ cap. 9).
-:::
-:::figura cap23_meniere_avanzado vemp
-- @OD P13 | El cVEMP del OD mide **294 µV** (5,80 corregida por el EMG).
-- @OI P13 | El del OI mide **511 µV** (10,20 corregida). La asimetría es de **28 %**, bajo el corte de 35 % (→ H12): **el sáculo del OD responde**.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg / Romberg sensibilizado | Estable con ojos abiertos y cerrados |
+|  | Brazos extendidos / Unterberger | Sin desvío ni giro |
+|  | Marcha, ojos abiertos y cerrados / tándem | Sin desvío; lenta y atenta al piso; el tándem lo logra |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+|  | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Ignacio del examen vestibular (→ H16, H17, H18)
-| Prueba | Resultado |
-|---|---|
-| VNG: nistagmo espontáneo, seguimiento y sacádicos | sin nistagmo con ni sin fijación; seguimiento y sacádicos normales |
-| Posicional | negativa |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **9 °/s**, OI **31 °/s**: **hipoexcitabilidad OD de 55 %** (valor significativo) |
-| vHIT, canal lateral | OD **0,95**, OI **1,02**, sin sacadas |
+Entre crisis, el examen de cabecera es normal: no se desvía hacia ningún lado y no hay signos de cerebelo ni de pares. Una hipofunción de seis años está compensada y no se nota de pie.
+
+:::imagen figuras/salida/cap23_meniere_avanzado_nistagmo.svg ancho=75% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **22 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **6 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **16 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **5 °/s** | (+) | No | No |
+
+| vHIT | Lateral |
+|---|---|
+| **Derecho** | **0,95**, sin sacadas |
+| **Izquierdo** | 1,02, sin sacadas |
+:::
+
+:::imagen figuras/salida/cap23_meniere_avanzado_mariposa.svg ancho=62% Gráfico de mariposa de Ignacio. Las dos irrigaciones del OD (rojas) quedan cerca de la línea; las del OI (azules) responden bien.
+:::
+
+Hipoexcitabilidad derecha: (6 + 5 − 22 − 16) / 49 = **55 %** (valor significativo). Dirección preponderante hacia la izquierda: **10 %** (valor no significativo). El vHIT lateral es normal en los dos lados y sin sacadas: la calórica cae y el reflejo rápido no, que es la **disociación** del hidrops.
+
+:::imagen figuras/salida/cap23_meniere_avanzado_vemp.svg ancho=100% VEMP de Ignacio a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 294 µV en el OD (5,80 corregida por el EMG) y de 511 µV en el OI (10,20): asimetría de **28 %**, bajo el corte de 35 % (→ H12). El sáculo del OD responde. oVEMP de 23 y 21 µV (0,55 y 0,50): **5 %**, simétrico.
+
+:::imagen figuras/salida/cap23_meniere_avanzado_audiosupra.svg ancho=80% Audiometría de Ignacio: el OD tiene una pérdida sensorioneural moderada, de 55 dB en 1 y 2 kHz y 85 dB en 8 kHz, con la ósea pegada a la aérea; el OI baja a 25 dB en 4 kHz. Discriminación máxima del OD de 70 %.
+:::
+
+En el OD el SDT es de 45 dB y el SRT de 50 dB. La discriminación llega a **70 %** a 70 dB y baja a 65 % a 90 dB, con ruido de habla al OI; el umbral del habla permitiría más. El OI tiene SDT de 0 dB, SRT de 5 dB y 100 %.
+
+En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 30 a 40 dB: recluta y no se deteriora, aun con la pérdida avanzada.
+
+:::imagen figuras/salida/cap23_meniere_avanzado_ecochg.svg ancho=80% Electrococleografía de Ignacio. El OD casi no tiene respuesta; el OI es la referencia.
+:::
+
+En el OD el PA es tan chico que no se separa del ruido. La razón PS/PA de **0,43** y la de áreas de **4,64** pasan los límites (0,40 y 1,94), pero salen de un trazo casi plano y **no se pueden leer**. El OI tiene el PA claro, con razón de **0,09** y de áreas de **1,04** (→ cap. 9).
 
 :::docente Guía del caso
 - **Datos clave:** seis años de crisis típicas (tapado, zumbido grave, horas de vértigo), crisis hoy más espaciadas, **audición que ya no vuelve**, dos caídas bruscas sin pérdida de conciencia ni síntomas neurológicos.
 - **Hipótesis:** Ménière avanzado con crisis de Tumarkin; otras causas de caídas (arritmia, hipotensión, vertebrobasilar) que su tomografía y su historia no apoyan pero que el médico decide (→ cap. 25).
-- **Qué pedir:** audiometría con fecha y relación con la última crisis, logoaudiometría, cVEMP, calórica y vHIT. La ECochG sirve poco en este oído.
+- **Qué pedir:** audiometría con fecha y relación con la última crisis, logoaudiometría y la ficha vestibular completa (calórica bitermal, vHIT y VEMP). La ECochG sirve poco en este oído.
 - **Lo que enseña:** la calórica caída con el vHIT normal, en un oído con la audición ya fija; y que el cVEMP normal no cambia el diagnóstico.
 - **Errores esperables:** repetir "audición ascendente" cuando la curva hoy desciende; leer la ECochG de un oído sin respuesta; informar la asimetría de 28 % del cVEMP como alterada.
 :::
@@ -251,36 +300,87 @@ Se plantea apagar el laberinto izquierdo. ¿Qué necesitas saber del derecho ant
 
 #### Paso 4 · Los resultados
 
-:::figura cap23_meniere_bilateral audiograma
-- @OD 1000 | El OD tiene **30 dB** en 1 kHz y 40 en 500 Hz: es el oído "bueno", pero no es normal. Su promedio de 500 a 3.000 Hz es de **31 dB**, etapa 2.
-- @OI 4000 | El OI baja a **55 dB** en 4 kHz y **65** en 8 kHz. Su promedio es de **49 dB**: etapa 3.
-- @OI osea 500 | La ósea del OI sigue a la aérea: sensorioneural. El Weber **no lateraliza**, porque los dos oídos pierden parecido.
-:::
-:::figura cap23_meniere_bilateral logoaudiometria
-- @OD max | El OD llega a **92 %**, a 65 dB.
-- @OI max | El OI llega a **76 %**, a 80 dB. Los dos son los de una cóclea con reclutamiento y la discriminación va con el umbral.
-:::
-:::figura cap23_meniere_bilateral ecochg
-- @OD PS | El OD tiene un PS grande: razón **0,65**, sobre el límite de 0,40 del electrodo timpánico, aunque su razón de áreas es de **1,65**, bajo el 1,94.
-- @OI PS | El OI tiene la razón en **0,43**, apenas sobre el límite, y la razón de áreas en **2,84**, por encima de 1,94: los **dos** oídos tienen huella de hidrops, con un perfil distinto.
-:::
-:::figura cap23_meniere_bilateral vemp
-- @OD P13 | El cVEMP del OD, el de mejor audición, mide **73 µV**, **1,46** corregida por el EMG: casi no sale del ruido.
-- @OI P13 | El del OI mide **346 µV**, **6,84** corregida: la asimetría es de **65 %**, y el lado más débil es el **de mejor audición**. El sáculo y la cóclea no caen en paralelo.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg / Romberg sensibilizado | Estable con ojos abiertos y cerrados |
+|  | Brazos extendidos / Unterberger | Sin desvío ni giro |
+|  | Marcha, ojos abiertos y cerrados / tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+|  | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Clara del examen vestibular
-| Prueba | Resultado |
-|---|---|
-| VNG | sin nistagmo espontáneo ni posicional; seguimiento y sacádicos normales |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **14 °/s**, OI **11 °/s**: hipoexcitabilidad de 12 %, **no significativa** |
-| vHIT, canal lateral | OD **0,88**, OI **0,82**, sin sacadas |
+Entre crisis, el examen de cabecera es normal, aunque Clara ya cayó una vez al suelo. Nada de lo que se ve de pie avisa que los dos laberintos responden menos.
+
+:::imagen figuras/salida/cap23_meniere_bilateral_nistagmo.svg ancho=75% Nistagmo espontáneo de Clara en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **12 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **15 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **10 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **13 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral |
+|---|---|
+| **Derecho** | **0,88**, sin sacadas |
+| **Izquierdo** | **0,82**, sin sacadas |
+:::
+
+:::imagen figuras/salida/cap23_meniere_bilateral_mariposa.svg ancho=62% Gráfico de mariposa de Clara. Las curvas de los dos oídos son parecidas, y bajas.
+:::
+
+Hipoexcitabilidad izquierda: (15 + 13 − 12 − 10) / 50 = **12 %** (valor no significativo). Dirección preponderante: **0 %**. La fórmula no ve nada, y sin embargo las sumas tibia + fría de cada oído son de **28 °/s en el OD y 22 °/s en el OI**, menores que las de los lados sanos de los otros casos del capítulo (38 a 47 °/s). Están sobre el límite de 6 °/s, pero los **dos** oídos responden poco. El vHIT del OI (0,82) está cerca del límite habitual.
+
+:::imagen figuras/salida/cap23_meniere_bilateral_vemp.svg ancho=100% VEMP de Clara a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 73 µV en el OD (1,46 corregida por el EMG) y de 346 µV en el OI (6,84): asimetría de **65 %** (valor significativo), con el lado más débil en el OD, **el de mejor audición**. oVEMP de 24 y 25 µV (0,56 y 0,57): **1 %**. El sáculo y la cóclea no caen en paralelo.
+
+:::imagen figuras/salida/cap23_meniere_bilateral_audiosupra.svg ancho=80% Audiometría de Clara: pérdida sensorioneural de los dos oídos, mayor en el OI (55 dB en 4 kHz y 65 dB en 8 kHz); el OD tiene 30 dB en 1 kHz y 40 dB en 500 Hz. Discriminación de 92 % en el OD y de 76 % en el OI.
+:::
+
+En el OD el SDT es de 25 dB y el SRT de 30 dB; la discriminación llega a **92 %** a 60 dB. En el OI el SDT es de 40 dB y el SRT de 45 dB; llega a **76 %** a 80 dB y baja a 71 % a 90 dB. Los dos son los de una cóclea con reclutamiento: el SISI es de 90 % en ambos oídos (→ H6). El Weber no lateraliza a 500 Hz, porque los dos oídos pierden parecido.
+
+Los dos oídos reclutan: SISI de **90 %** a cada lado, Carhart sin deterioro en 2 y 4 kHz y Metz de 55 a 60 dB en el OD y de 40 a 50 dB en el OI. Con los dos oídos enfermos no hay un oído sano con que balancear: el Fowler no se hace.
+
+:::imagen figuras/salida/cap23_meniere_bilateral_ecochg.svg ancho=80% Electrococleografía de Clara. Los dos oídos tienen un PS grande.
+:::
+
+El OD tiene una razón PS/PA de **0,71**, sobre el límite de 0,40, aunque su razón de áreas es de **1,76**, bajo 1,94. El OI tiene la razón en **0,45**, apenas sobre el límite, y la de áreas en **2,43**, sobre 1,94: los **dos** oídos tienen huella de hidrops, con un perfil distinto.
 
 :::docente Guía del caso
 - **Datos clave:** crisis desde hace doce años en el OI y desde hace dos en el OD, zumbido grave permanente y plenitud en los dos oídos, una caída brusca, una propuesta de gentamicina intratimpánica en el OI.
 - **Hipótesis:** Ménière bilateral (asincrónico). El criterio audiométrico compara con el otro oído, que aquí también está afectado.
-- **Qué pedir:** audiograma seriado de los dos oídos, ECochG, cVEMP, calórica y vHIT. Lo que importa es lo que el OD **todavía hace**.
+- **Qué pedir:** audiograma seriado de los dos oídos, ECochG y la ficha vestibular completa. Lo que importa es lo que el OD **todavía hace**.
 - **Lo que enseña:** una calórica con asimetría pequeña no es normal si los **dos** oídos responden poco; hay que mirar las velocidades. Y un cVEMP muy asimétrico puede estar en el oído que mejor oye.
 - **Errores esperables:** informar la calórica de 12 % como "normal"; asumir que el oído de peor audiograma tiene el peor sáculo; opinar sobre el tratamiento: el informe describe el estado del otro laberinto, la decisión es médica.
 :::
@@ -301,32 +401,80 @@ No hay síntomas del oído. ¿Para qué sirve el audiograma, entonces? ¿Qué es
 
 #### Paso 4 · Los resultados
 
-:::figura cap23_migrana_vestibular audiograma
-- @OD 1000 | Audición **normal** en los dos oídos en todas las frecuencias. Cinco años de crisis y ningún cambio en el audiograma.
-:::
-:::figura cap23_migrana_vestibular teoae
-- @OD 2000 | Las emisiones están presentes en las cinco bandas de los dos oídos: reproducibilidad de **94 %** en el OD y **85 %** en el OI.
-:::
-:::figura cap23_migrana_vestibular ecochg
-- @OD PS | Los dos oídos tienen la razón PS/PA bajo el límite: **0,17** en el OD y **0,28** en el OI, y de áreas **1,11** y **1,19**. Ninguna huella de hidrops.
-:::
-:::figura cap23_migrana_vestibular vemp
-- @OD P13 | El cVEMP del OD mide **628 µV** (12,30 corregida por el EMG).
-- @OI P13 | El del OI mide **336 µV** (6,82 corregida). La asimetría es de **29 %**, bajo el corte de 35 %: una diferencia así es variabilidad, no enfermedad.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg / Romberg sensibilizado | Estable con ojos abiertos y cerrados |
+|  | Brazos extendidos / Unterberger | Sin desvío ni giro |
+|  | Marcha, ojos abiertos y cerrados / tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+|  | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Patricia del examen vestibular
-| Prueba | Resultado |
-|---|---|
-| VNG | sin nistagmo espontáneo ni posicional; seguimiento y sacádicos normales |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **28 °/s**, OI **30 °/s**: asimetría de 3 %, no significativa |
-| vHIT, canal lateral | OD **1,03**, OI **0,99**, sin sacadas |
+Entre crisis, el examen de cabecera es normal.
+
+:::imagen figuras/salida/cap23_migrana_vestibular_nistagmo.svg ancho=75% Nistagmo espontáneo de Patricia en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **25 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **23 °/s** | (+) | Leve | No |
+| OI 30 °C | → | **22 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **21 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral |
+|---|---|
+| **Derecho** | **1,03**, sin sacadas |
+| **Izquierdo** | 0,99, sin sacadas |
+:::
+
+:::imagen figuras/salida/cap23_migrana_vestibular_mariposa.svg ancho=62% Gráfico de mariposa de Patricia. Las cuatro curvas son parecidas entre sí: la respuesta es simétrica.
+:::
+
+Hipoexcitabilidad derecha: (23 + 21 − 25 − 22) / 91 = **3 %** (valor no significativo). Dirección preponderante hacia la derecha: **1 %** (valor no significativo). El vHIT lateral es normal y sin sacadas.
+
+:::imagen figuras/salida/cap23_migrana_vestibular_vemp.svg ancho=100% VEMP de Patricia a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 628 µV en el OD (12,30 corregida por el EMG) y de 336 µV en el OI (6,82): asimetría de **29 %**, bajo el corte de 35 %: una diferencia así es variabilidad, no enfermedad. oVEMP de 26 y 23 µV (0,60 y 0,54): **5 %**.
+
+:::imagen figuras/salida/cap23_migrana_vestibular_audiosupra.svg ancho=80% Audiometría de Patricia: audición normal en los dos oídos en todas las frecuencias, y discriminación de 100 %.
+:::
+
+SDT de −5 dB y SRT de 0 dB en los dos oídos, con discriminación de 100 % desde los 30 dB. Cinco años de crisis y ningún cambio en el audiograma.
 
 :::docente Guía del caso
 - **Datos clave:** migraña desde los 16 años, crisis de mareo de una hora a dos días con luz y ruido molestos, desencadenantes típicos, sensibilidad al movimiento visual entre crisis, **ningún síntoma del oído** y varios diagnósticos de "laberintitis".
 - **Hipótesis:** migraña vestibular (cumple los criterios); un Ménière no calza por el oído sano en toda la serie.
-- **Qué pedir:** audiometría y emisiones para documentar el oído sano, VEMP y calórica entre crisis. Todo normal es **lo esperable**; el diagnóstico es clínico.
+- **Qué pedir:** la ficha vestibular completa y la audiometría para documentar el oído sano, entre crisis. Todo normal es **lo esperable**; el diagnóstico es clínico.
 - **Lo que enseña:** un estudio normal no cierra el caso ni lo niega; y una asimetría pequeña del VEMP no hace un diagnóstico.
 - **Errores esperables:** repetir antivertiginosos; interpretar la asimetría de 29 % del cVEMP; informar "estudio normal, sin patología vestibular" sin decir que el diagnóstico es clínico.
 :::
@@ -347,35 +495,87 @@ Tiene un oído sano para comparar. ¿Qué te aporta eso para el criterio audiom�
 
 #### Paso 4 · Los resultados
 
-:::figura cap23_meniere_migrana audiograma
-- @OI 250 | El OI tiene **40 dB** en 125 y 250 Hz, **30** en 500 y 1.000 y baja a 20 dB en 3 y 4 kHz: es la curva **ascendente**, de graves. El promedio de 500 a 3.000 Hz es de **26 dB**: etapa 2.
-- @OD 250 | El OD está en 0 dB. La diferencia con el OI es de 40 dB en 125 y 250 Hz y de 30 en 500: cumple el criterio audiométrico de **30 dB** en dos frecuencias contiguas bajo 2.000 Hz.
-:::
-:::figura cap23_meniere_migrana logoaudiometria
-- @OD max | El OD llega a 100 %.
-- @OI max | El OI llega a **96 %**, a 60 dB: la discriminación se conserva, como en una cóclea.
-:::
-:::figura cap23_meniere_migrana ecochg
-- @OD PS | El OD es normal: razón **0,33** y de áreas **1,20**.
-- @OI PS | El OI tiene un PS grande: razón **0,53** y razón de áreas **2,60**, las dos sobre los límites (0,40 y 1,94).
-:::
-:::figura cap23_meniere_migrana vemp
-- @OD P13 | El cVEMP del OD mide **345 µV** (6,81 corregida por el EMG).
-- @OI P13 | El del OI mide **80 µV** (1,57 corregida): **62 %** de asimetría, con el sáculo del lado enfermo reducido.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg / Romberg sensibilizado | Estable con ojos abiertos y cerrados |
+|  | Brazos extendidos / Unterberger | Sin desvío ni giro |
+|  | Marcha, ojos abiertos y cerrados / tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+|  | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::ayuda-ancho Lo que entrega Marina del examen vestibular
-| Prueba | Resultado |
-|---|---|
-| VNG | sin nistagmo espontáneo ni posicional; seguimiento y sacádicos normales |
-| Calórica mínima (agua a 2 °C), fase lenta | OD **29 °/s**, OI **15 °/s**: **hipoexcitabilidad OI de 32 %** (valor significativo) |
-| vHIT, canal lateral | OD **1,01**, OI **0,97**, sin sacadas |
+Entre crisis, el examen de cabecera es normal.
+
+:::imagen figuras/salida/cap23_meniere_migrana_nistagmo.svg ancho=75% Nistagmo espontáneo de Marina en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **13 °/s** | (+) | Leve | No |
+| OD 44 °C | → | **25 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **11 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **22 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral |
+|---|---|
+| **Derecho** | 1,01, sin sacadas |
+| **Izquierdo** | **0,97**, sin sacadas |
+:::
+
+:::imagen figuras/salida/cap23_meniere_migrana_mariposa.svg ancho=62% Gráfico de mariposa de Marina. Las dos irrigaciones del OI (azules) quedan más bajas que las del OD (rojas).
+:::
+
+Hipoexcitabilidad izquierda: (25 + 22 − 13 − 11) / 71 = **32 %** (valor significativo). Dirección preponderante hacia la derecha: **1 %** (valor no significativo). El vHIT lateral es normal en los dos lados: calórica caída con vHIT normal, la disociación del hidrops.
+
+:::imagen figuras/salida/cap23_meniere_migrana_vemp.svg ancho=100% VEMP de Marina a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 345 µV en el OD (6,81 corregida por el EMG) y de 80 µV en el OI (1,57): asimetría de **62 %** (valor significativo), con el sáculo del lado enfermo reducido. oVEMP de 26 y 25 µV (0,63 y 0,58): **5 %**.
+
+:::imagen figuras/salida/cap23_meniere_migrana_audiosupra.svg ancho=80% Audiometría de Marina: el OI tiene una pérdida sensorioneural de graves (40 dB en 125 y 250 Hz, 30 dB en 500 y 1.000 Hz) y el OD está en 0 dB. Discriminación de 100 % en el OD y de 96 % en el OI.
+:::
+
+El OI tiene **40 dB** en 125 y 250 Hz, **30** en 500 y 1.000 Hz y baja a 20 dB en 3 y 4 kHz: es la curva **ascendente**, con un promedio de 500 a 3.000 Hz de **26 dB** (etapa 2). El OD está en 0 dB; la diferencia es de 40 dB en 125 y 250 Hz y de 30 en 500 y 1.000 Hz: cumple el criterio audiométrico de **30 dB** en dos frecuencias contiguas bajo 2.000 Hz. En el OD el SDT es de −5 dB, el SRT de 0 dB y la discriminación de 100 %. En el OI el SDT es de 20 dB, el SRT de 25 dB y la discriminación llega a **96 %** a 60 dB, con ruido de habla al OD. Pasados los 60 dB **cae**: 84 % a 80 dB y 83 % a 100 dB, un roll-over leve, de índice 0,14, lejos del 0,45 que sugiere una lesión del nervio (Jerger y Jerger, 1971; → cap. 11); con el reclutamiento de este oído, es la palabra fuerte que llega distorsionada.
+
+En el OI, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 55 dB en 1 kHz: la pérdida de graves es coclear.
+
+:::imagen figuras/salida/cap23_meniere_migrana_ecochg.svg ancho=80% Electrococleografía de Marina. El OI tiene un PS grande; el OD es normal.
+:::
+
+El OD es normal: razón PS/PA de **0,27** y de áreas de **1,21**. El OI tiene un PS grande: razón de **0,64**, sobre el límite de 0,40, y razón de áreas de **1,83**, bajo 1,94.
 
 :::docente Guía del caso
 - **Datos clave:** migraña con aura desde los 20 años; **cuatro** crisis de dos a tres horas con oído tapado, zumbido grave y baja de audición temporal; **más de diez** crisis largas de uno o dos días con cefalea, fotofobia y fonofobia, sin cambios del oído.
 - **Hipótesis:** Ménière del OI para las crisis cortas y migraña vestibular para las largas; las dos pueden coexistir.
-- **Qué pedir:** audiometría con fecha de la última crisis, ECochG, cVEMP, calórica y vHIT.
+- **Qué pedir:** audiometría con fecha de la última crisis, ECochG y la ficha vestibular completa.
 - **Lo que enseña:** cada crisis se clasifica por lo que trae; los hallazgos del oído (curva ascendente, ECochG, cVEMP, calórica con vHIT normal) apoyan el Ménière, y no dicen nada sobre las crisis largas.
 - **Errores esperables:** quedarse con un solo diagnóstico; atribuir todas las crisis al oído porque el estudio del oído salió alterado.
 :::
@@ -388,11 +588,21 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La historia es la de un Ménière que dejó la etapa de las crisis y entró a la de las secuelas: crisis más espaciadas, **audición que no vuelve** y un zumbido que cambió de carácter. La serie de audiogramas lo confirma: promedio de 24, 40 y 55 dB en seis años, de la etapa 1 a la 3, con una curva que ya no es ascendente. Las caídas, sin pérdida de conciencia ni mareo antes ni después, son típicas de una crisis otolítica, siempre que no haya síntomas neurológicos. En el vestíbulo, la calórica está caída en el OD (55 %) con un vHIT normal (0,95): la **disociación** de un hidrops. El cVEMP del OD responde, con una asimetría de 28 %, y la ECochG del OD no se puede leer.
+La historia es la de un Ménière que dejó la etapa de las crisis y entró a la de las secuelas: crisis más espaciadas, **audición que no vuelve** y un zumbido que cambió de carácter. La serie de audiogramas lo confirma: promedio de 24, 40 y 55 dB en seis años, de la etapa 1 a la 3, con una curva que ya no es ascendente. Las caídas, sin pérdida de conciencia ni mareo antes ni después, son típicas de una crisis otolítica, siempre que no haya síntomas neurológicos. En el vestíbulo, la calórica está caída en el OD (55 %) con un vHIT normal (0,95): la **disociación** de un hidrops. El cVEMP del OD responde, con una asimetría de 28 %, el oVEMP es simétrico y la ECochG del OD no se puede leer.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg y Unterberger sin alteraciones; marcha y tándem sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 55 % (valor significativo) y dirección preponderante hacia izquierda de 10 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,95 a derecha y 1,02 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 5 % (valores no significativos). **Audiometría:** hipoacusia sensorioneural moderada del OD con promedio de 55 dB, SRT 50 dB y discriminación máxima de 70 %; OI con audición normal para la edad. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OD, sin deterioro tonal; Metz positivo. **Electrococleografía:** OD sin respuesta legible; OI con razón PS/PA de 0,09 y de áreas de 1,04.
+>
+> **Conclusión:** examen sugiere hipofunción vestibular derecha del canal semicircular lateral por la calórica, con vHIT y VEMP simétricos, e hipoacusia sensorioneural coclear del OD.
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural del OD de grado moderado, **etapa 3**, con hipofunción calórica derecha y vHIT normal, compatible con enfermedad de Ménière avanzada. Se informa el patrón, con la serie de audiogramas y sus fechas. La decisión sobre las caídas y el tratamiento es médica. Para quien evalúa queda el **audífono**: con una pérdida fija de 55 dB en el OD, una discriminación de 68 % y el reclutamiento presente, es el oído que más se beneficia de una prueba de audífonos (→ cap. 28 y H21).
+Hipoacusia sensorioneural del OD de grado moderado, **etapa 3**, con hipofunción calórica derecha y vHIT normal, compatible con enfermedad de Ménière avanzada. Se informa el patrón, con la serie de audiogramas y sus fechas. La decisión sobre las caídas y el tratamiento es médica. Para quien evalúa queda el **audífono**: con una pérdida fija de 55 dB en el OD, una discriminación de 70 % y el reclutamiento presente, es el oído que más se beneficia de una prueba de audífonos (→ cap. 28 y H21).
 
 :::comentario Comentario
 La ECochG de este oído muestra por qué una prueba no se puede dar por hecha: sin PA no hay razón PS/PA que informar. El Ménière avanzado se diagnostica por la historia y la serie de audiogramas, no por una sola prueba.
@@ -402,7 +612,17 @@ La ECochG de este oído muestra por qué una prueba no se puede dar por hecha: s
 
 #### Razonamiento
 
-Los dos oídos están comprometidos: etapa 3 en el OI y etapa 2 en el OD, con zumbido grave en los dos y reclutamiento. La ECochG tiene huella de hidrops en ambos, con perfiles distintos. Lo que hace más pesada la decisión es lo que el cVEMP dice del **otro** oído: el sáculo del OD, el de mejor audición, es el más débil. La calórica engaña: una asimetría de 12 % no es significativa, pero las velocidades de los dos oídos (14 y 11 °/s) son menores que las de los lados sanos de los otros casos del capítulo (28 a 31 °/s). La fórmula, que compara un oído con el otro, no puede ver una pérdida que es **de los dos**. El vHIT del OI (0,82) está cerca del límite habitual.
+Los dos oídos están comprometidos: etapa 3 en el OI y etapa 2 en el OD, con zumbido grave en los dos y reclutamiento. La ECochG tiene huella de hidrops en ambos, con perfiles distintos. Lo que hace más pesada la decisión es lo que el cVEMP dice del **otro** oído: el sáculo del OD, el de mejor audición, es el más débil. La calórica engaña: una asimetría de 12 % no es significativa, pero las sumas tibia + fría de los dos oídos (28 y 22 °/s) son menores que las de los lados sanos de los otros casos del capítulo (38 a 47 °/s). La fórmula, que compara un oído con el otro, no puede ver una pérdida que es **de los dos**. El vHIT del OI (0,82) está cerca del límite habitual.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Unterberger, marcha y tándem sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 12 % (valor no significativo) y dirección preponderante de 0 % (valor no significativo). Velocidades de la fase lenta: OD 15 °/s a 44 °C y 13 °/s a 30 °C; OI 12 °/s a 44 °C y 10 °/s a 30 °C; la suma de cada oído es de 28 y 22 °/s, menor que la de oídos sanos. **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,88 a derecha y 0,82 a izquierda, esta última en el límite inferior, sin sacadas. **VEMP:** cVEMP con asimetría de 65 % (valor significativo), menor en el OD; oVEMP con asimetría de 1 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural bilateral asimétrica, con promedio de 31 dB en el OD y de 49 dB en el OI; SRT 30 y 45 dB; discriminación máxima de 92 % en el OD y de 76 % en el OI. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo bilateral. **Electrococleografía:** razón PS/PA de 0,71 en el OD y de 0,45 en el OI (razón de áreas de 1,76 y 2,43).
+>
+> **Conclusión:** examen sugiere hipofunción vestibular leve y simétrica por la calórica, con la asimetría de 12 % que no la refleja, hipofunción del sáculo del OD y hallazgos de hidrops en los dos oídos.
 
 #### Diagnóstico y qué sigue
 
@@ -416,7 +636,17 @@ Si se apagara el laberinto izquierdo y el derecho ya está comprometido, ¿qué 
 
 #### Razonamiento
 
-Veinte crisis en cinco años, **de una hora a dos días**, con náuseas, luz y ruido molestos, una migraña de fondo desde los 16 años y desencadenantes típicos: la historia cumple los criterios de migraña vestibular. Lo que falta es lo que importa: **no hay síntomas del oído**, y el audiograma, las emisiones, la ECochG y la calórica salen normales, con un vHIT normal. El cVEMP, con 29 % de asimetría, está dentro de la variabilidad (corte de 35 %).
+Veinte crisis en cinco años, **de una hora a dos días**, con náuseas, luz y ruido molestos, una migraña de fondo desde los 16 años y desencadenantes típicos: la historia cumple los criterios de migraña vestibular. Lo que falta es lo que importa: **no hay síntomas del oído**, y el audiograma y la calórica salen normales, con un vHIT normal. El cVEMP, con 29 % de asimetría, está dentro de la variabilidad (corte de 35 %).
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Unterberger, marcha y tándem sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 1,03 a derecha y 0,99 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 29 % y oVEMP con asimetría de 5 % (valores no significativos). **Audiometría:** normal bilateral; SRT 0 dB; discriminación de 100 %.
+>
+> **Conclusión:** examen compatible con simetría vestibular y audición normal. Estudio sin hallazgos del oído; no confirma ni descarta una migraña vestibular.
 
 #### Diagnóstico y qué sigue
 
@@ -431,6 +661,16 @@ Un estudio vestibular normal en un paciente con crisis repetidas **no es un estu
 #### Razonamiento
 
 Dos clases de crisis, dos explicaciones. Las **cuatro** crisis cortas, con el oído tapado, el zumbido grave y la audición baja, son del oído: el OI tiene una curva ascendente de etapa 2, con la diferencia de 30 dB o más sobre el OD en las frecuencias graves que exige el criterio, y la ECochG y el cVEMP del OI están alterados, con una calórica caída y el vHIT normal. Las **más de diez** crisis largas, con cefalea, luz y ruido, sin cambios del oído y con migraña con aura desde los 20 años, son de otra enfermedad.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Unterberger, marcha y tándem sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 32 % (valor significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 1,01 a derecha y 0,97 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 62 % (valor significativo), menor en el OI; oVEMP con asimetría de 5 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural del OI de graves, con promedio de 26 dB, SRT 25 dB y discriminación máxima de 96 %; OD normal. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OI, sin deterioro tonal. **Electrococleografía:** OD con razón PS/PA de 0,27 y de áreas de 1,21; OI con razón de 0,64 y de áreas de 1,83.
+>
+> **Conclusión:** examen sugiere hipofunción vestibular izquierda del canal lateral por la calórica, con vHIT normal, hipofunción del sáculo izquierdo y hallazgos de hidrops en el OI.
 
 #### Diagnóstico y qué sigue
 
@@ -472,6 +712,7 @@ La prevalencia a 12 meses de la migraña vestibular fue de 0,89 % (Neuhauser y c
 
 ### Técnica
 
+1. Jerger J, Jerger S. Diagnostic significance of PB word functions. Arch Otolaryngol. 1971;93(6):573-80. doi:10.1001/archotol.1971.00770060875006
 1. Lopez-Escamez JA, Carey J, Chung WH, Goebel JA, Magnusson M, Mandalà M, et al. Diagnostic criteria for Menière's disease. J Vestib Res. 2015;25(1):1-7. doi:10.3233/VES-150549
 1. Committee on Hearing and Equilibrium. Committee on Hearing and Equilibrium guidelines for the diagnosis and evaluation of therapy in Menière's disease. Otolaryngol Head Neck Surg. 1995;113(3):181-5. doi:10.1016/S0194-5998(95)70102-8. PMID 7675476.
 1. Hannigan IP, Welgampola MS, Watson SRD. Dissociation of caloric and head impulse tests: a marker of Meniere's disease. J Neurol. 2021;268(2):431-9. doi:10.1007/s00415-019-09431-9

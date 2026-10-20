@@ -21,18 +21,25 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
     },
     {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "centro": 2,
+        "derecha": 4
+      },
+      "sin_fijacion": {
+        "izquierda": 3,
+        "arriba": 5,
+        "centro": 5,
+        "abajo": 5,
+        "derecha": 8
+      }
     },
     {
       "tipo": "vemp",
-      "subtipo": "cvemp"
+      "subtipo": "ambos"
     }
   ]
 }

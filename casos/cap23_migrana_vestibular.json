@@ -16,21 +16,23 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
     },
     {
-      "tipo": "teoae"
+      "tipo": "audiosupra"
     },
     {
-      "tipo": "ecochg",
-      "nivel": 90
+      "tipo": "mariposa",
+      "OD44": 23,
+      "OD30": 21,
+      "OI44": 25,
+      "OI30": 22
     },
     {
       "tipo": "vemp",
-      "subtipo": "cvemp"
+      "subtipo": "ambos"
     }
   ]
 }

@@ -22,14 +22,12 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
     },
     {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
+      "tipo": "audiosupra"
     }
   ]
 }

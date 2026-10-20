@@ -19,18 +19,30 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "izquierda": -1
+      },
+      "sin_fijacion": {
+        "izquierda": -4,
+        "arriba": -2,
+        "centro": -2,
+        "abajo": -2
+      }
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 3,
+      "OD30": 4,
+      "OI44": 23,
+      "OI30": 19
     },
     {
       "tipo": "vemp",
-      "subtipo": "cvemp"
-    },
-    {
-      "tipo": "vemp",
-      "subtipo": "ovemp"
+      "subtipo": "ambos"
     }
   ]
 }

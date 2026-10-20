@@ -340,14 +340,14 @@ Los dos oídos están afectados y no hay oído testigo. ¿Qué pruebas agregarí
 - @ipsi OD 1000 | Reflejos ausentes en los cuatro registros.
 :::
 :::figura cap12_siderosis abr
-- @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,6 ms y la III en 4,6: **I-III de 3,0 ms**, sobre el límite de 2,7.
-- @OD 80 V | La V llega a 6,6 ms: I-V de 5,0 ms (límite 4,7).
-- @OI 80 I | En el OI la marca de la I cae en 1,1 ms, antes de lo que llega una onda I normal: es ruido y no se mide con ella. Hay **que ser prudente con un registro de ondas tan bajas**.
-- @OD 60 V | A 60 dB quedan III y V a 5,2 y 7,5 ms; a 40 dB no queda nada.
+- @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,7 ms y la III en 4,6: **I-III de 2,9 ms**, sobre el límite de 2,7.
+- @OD 80 V | La V llega a 6,7 ms: I-V de 5,0 ms (límite 4,7).
+- @OI 80 I | En el OI la marca de la I cae en 1,3 ms, antes de lo que suele llegar una onda I normal (cerca de 1,5): es ruido y no se mide con ella. Hay **que ser prudente con un registro de ondas tan bajas**.
+- @OD 60 V | A 60 dB quedan III y V a 5,1 y 6,9 ms; a 40 dB, apenas una marca de V a 7,6 ms que no se separa del ruido.
 :::
 :::figura cap12_siderosis abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,6 ms (1,1 ms más tarde) y mide 0,10 µV.
-- @OI 80 V | La V del OI llega a 7,0 ms con 0,09 µV. Las ondas casi se pierden en el ruido.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms (0,5 ms más tarde) y mide 0,10 µV.
+- @OI 80 V | La V del OI llega a 7,4 ms (1,3 ms más tarde) con 0,09 µV. Las ondas casi se pierden en el ruido, y con marcas tan inestables el atraso de cada oído no se mide con confianza.
 :::
 :::figura cap12_siderosis vemp
 - @OD P13 | El VEMP cervical del OD mide 26 µV (0,52 corregida por el EMG).

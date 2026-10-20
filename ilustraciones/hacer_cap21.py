@@ -81,21 +81,45 @@ def ficha(nombre, d):
         c.t(e.px, e.py - 4, f'ganancia {g:.2f}'.replace('.', ','), 8.5, AVISO if malo else OK, 'start', 700)
         if malo:
             c.t(e.X(300), e.Y(150), 'sacada', 7.5, AVISO, 'start', 700)
-    # --- C: oclusión alternada
+    # --- C: oclusión alternada, en dos pasos: se tapa un ojo (el otro fija) y se
+    # pasa la tapa al otro; se mira el ojo que se destapa. Con skew, ese ojo
+    # estaba desviado en vertical bajo la tapa y se mueve para volver a fijar.
     c.t(476, 20, 'C · Oclusión alternada', 10, TINTA, 'start', 700)
-    c.t(476, 33, 'los dos ojos, tras destapar uno', 8, TENUE, 'start')
+    c.t(476, 33, 'mira un punto; se tapa un ojo y luego el otro', 8, TENUE, 'start')
     sk = d['skew']
-    for xc, lado in ((525, 'derecho'), (625, 'izquierdo')):
-        yc = 110 + (11 if sk == lado else 0)
-        c.out.append(f'<ellipse cx="{xc}" cy="{yc}" rx="30" ry="16" fill="#fff" stroke="{TINTA}" stroke-width="1.4"/>')
-        c.out.append(f'<circle cx="{xc}" cy="{yc}" r="9.5" fill="{TINTA}"/>')
-        c.t(xc, 148, 'ojo ' + lado, 8, TENUE)
+    mirado = sk or 'derecho'                       # el ojo que se destapa en el paso 2
+    otro = 'izquierdo' if mirado == 'derecho' else 'derecho'
+    xs = {'derecho': 525, 'izquierdo': 625}
+
+    def ojo_dib(xc, yc, baja=0):
+        c.out.append(f'<ellipse cx="{xc}" cy="{yc}" rx="24" ry="12" fill="#fff" stroke="{TINTA}" stroke-width="1.3"/>')
+        c.out.append(f'<circle cx="{xc}" cy="{yc + baja}" r="7" fill="{TINTA}"/>')
+
+    def tapa(xc, yc):
+        c.out.append(f'<rect x="{xc - 30}" y="{yc - 18}" width="60" height="36" rx="5" fill="#a8a6a0" stroke="{TENUE}" stroke-width="1"/>')
+        c.t(xc, yc + 3, 'tapado', 7.5, '#fff', 'middle', 700)
+
+    # paso 1
+    c.t(476, 54, f'1 · se tapa el ojo {mirado}: fija el {otro}', 8, TINTA, 'start', 600)
+    ojo_dib(xs[otro], 76)
+    tapa(xs[mirado], 76)
+    # paso 2
+    c.t(476, 112, f'2 · se pasa la tapa al {otro} y se mira el {mirado}', 8, TINTA, 'start', 600)
+    ojo_dib(xs[mirado], 134, 5 if sk else 0)
+    tapa(xs[otro], 134)
     if sk:
-        c.t(575, 178, f'el ojo {sk} queda más bajo y sube', 8, AVISO, 'middle', 700)
-        c.t(575, 190, 'a re-fijar al destaparlo: skew presente', 8, AVISO, 'middle', 700)
+        x = xs[mirado] + 34
+        c.l(x, 142, x, 124, AVISO, 1.6)
+        c.out.append(f'<polygon points="{x},{119} {x - 4},{126} {x + 4},{126}" fill="{AVISO}"/>')
+        c.t(x + 6, 136, 'sube', 7.5, AVISO, 'start', 700)
+    for lado, xc in xs.items():
+        c.t(xc, 160, 'ojo ' + lado, 8, TENUE)
+    if sk:
+        c.t(575, 180, f'el ojo {sk} estaba más bajo bajo la tapa y sube', 8, AVISO, 'middle', 700)
+        c.t(575, 192, 'a re-fijar al destaparlo: skew presente', 8, AVISO, 'middle', 700)
     else:
-        c.t(575, 178, 'los ojos no se mueven en vertical', 8, OK, 'middle', 700)
-        c.t(575, 190, 'al destapar: skew ausente', 8, OK, 'middle', 700)
+        c.t(575, 180, 'el ojo que se destapa no se mueve en vertical,', 8, OK, 'middle', 700)
+        c.t(575, 192, 'ni con un ojo ni con el otro: skew ausente', 8, OK, 'middle', 700)
     # --- D: veredicto HINTS
     c.t(262, 266, 'HINTS', 10, TINTA, 'start', 700)
     chips = [('Impulso', d['hit'], d['verde'][0]), ('Nistagmo', d['nis'], d['verde'][1]),

@@ -635,13 +635,20 @@ def capitulo(md_texto):
         tipo = {'mana': 'truco'}.get(tipo, tipo)      # nombre anterior del recuadro
         titulo = titulo or CAJAS.get(tipo, '')
         cuerpo_caja = markdown.markdown(dentro, extensions=['tables'])
+        # Un recuadro que es solo dos tablas las pone lado a lado (él, 2026-10-20:
+        # calórica y vHIT; posicionales en decúbito y con la cabeza colgando)
+        tablas = re.findall(r'<table>.*?</table>', cuerpo_caja, re.S)
+        lado = len(tablas) == 2 and not re.sub(r'<table>.*?</table>|\s', '', cuerpo_caja, flags=re.S)
+        if lado:
+            # una tabla de maquetación (con flex, WeasyPrint las encimaba)
+            cuerpo_caja = f'<table class="tablas-lado"><tr><td>{tablas[0]}</td><td>{tablas[1]}</td></tr></table>'
         # Un recuadro largo se puede partir entre páginas: entero saltaba y
         # dejaba el resto de la página en blanco (pasada de huecos, 2026-10-19)
         largo = (tipo == 'docente'
                  or len(re.sub(r'<[^>]+>', '', cuerpo_caja)) > (CAJA_LARGA * 2 if ancho else CAJA_LARGA))
         # Los pasos 1-3 de un caso van lado a lado (él, 2026-10-19); ver pasos()
         paso = tipo == 'pregunta' and titulo.startswith('Paso ')
-        if paso:
+        if paso or lado:
             largo = False
         return guardar(f'<aside class="caja caja-{tipo}{" ancho" if ancho else ""}{" larga" if largo else ""}'
                        f'{" paso" if paso else ""}">'
@@ -982,6 +989,8 @@ h2 + p, h3 + p, h4 + p, h2 + ul, h3 + ul, h2 + ol, h3 + ol {{ break-before: avoi
    seguir en la página siguiente (entera saltaba y dejaba el hueco) */
 .figobs {{ break-inside: auto; }}
 .figobs .fig {{ break-after: avoid; }}
+/* sin lista de notas, la figura no tiene que quedar con lo que sigue (dejaba huecos) */
+.figobs .fig:last-child {{ break-after: auto; }}
 table {{ break-inside: auto; }}
 tr {{ break-inside: avoid; }}
 thead {{ display: table-header-group; }}
@@ -1047,6 +1056,10 @@ table caption {{ caption-side: top; text-align: left; font-size: 8pt; color: #5c
 .tabla-n {{ font-weight: 700; color: #8e2a4a; letter-spacing: .3pt; }}
 .caja table {{ font-size: 8pt; }}
 .caja td, .caja th {{ padding: .9mm 1.4mm; }}
+.tablas-lado, .tablas-lado > tbody > tr > td {{ border: none; background: none !important; padding: 0; margin: 0; }}
+.tablas-lado > tbody > tr > td + td {{ padding-left: 3mm; }}
+.tablas-lado table {{ margin: 0; }}
+.tablas-lado table td:first-child, .tablas-lado table th {{ white-space: nowrap; }}
 .caja-objetivos {{ background: #24101a; color: #f8eef1; }}
 .caja-objetivos .caja-titulo {{ color: #E7A7BA; }}
 .caja-objetivos strong {{ color: #fff; }}

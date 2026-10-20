@@ -22,10 +22,41 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "nistagmo",
+      "con_fijacion": {},
+      "sin_fijacion": {}
+    },
+    {
+      "tipo": "vng",
+      "paneles": [
+        {
+          "titulo": "Dix-Hallpike derecho (E–CCD)",
+          "seg": 40,
+          "v": {
+            "dir": 1,
+            "lat": 4,
+            "pico": 24,
+            "dur": 22
+          }
+        },
+        {
+          "titulo": "Al sentarse (CCD–E)",
+          "seg": 20,
+          "v": {
+            "dir": -1,
+            "lat": 2,
+            "pico": 6,
+            "dur": 6
+          }
+        },
+        {
+          "titulo": "Dix-Hallpike izquierdo (E–CCI)",
+          "seg": 40
+        }
+      ]
+    },
+    {
+      "tipo": "audiosupra"
     }
   ]
 }

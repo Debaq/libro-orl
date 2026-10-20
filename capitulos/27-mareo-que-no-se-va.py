@@ -16,11 +16,12 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-# LabSim da solo el lado auditivo: lo vestibular y lo postural de cada caso está escrito en el .md
-# ("cifras inventadas para el libro") o sale de los esquemas de ilustraciones/cap27-*.svg
-# (hacer_cap27.py) y del modelo postural de labyrinthus3d (hacer_cap27_simulador.py).
+# Lo vestibular de cada caso (nistagmo, calórica, vHIT, cabecera, cuestionarios) no es de LabSim: son los
+# valores declarados aquí (nistagmo y mariposa, figuras/motor/vestibular.py) y las tablas del .md. De LabSim
+# salen la ficha, la anamnesis, el audiograma con la logoaudiometría y el VEMP de cada caso (y el ABR y
+# los reflejos del schwannoma). Los esquemas están en ilustraciones/cap27-*.svg (hacer_cap27.py).
 CASOS = [
-    cuadro('neuritis', [fig.audiograma(), fig.vemp()], od='normal', oi='normal', edad=47, sexo='mujer',
+    cuadro('neuritis', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(11, 9, 9, 7), fig.vemps()], od='normal', oi='normal', edad=47, sexo='mujer',
            anamnesis="""Tiene 47 años y es analista de crédito en un banco. Hace nueve meses despertó con el mundo girando:
            vértigo intenso, vómitos y dos días sin poder ponerse de pie; en urgencia le dijeron que era una neuritis
            vestibular del lado izquierdo. El giro se fue en unos días, pero no volvió a sentirse firme: desde entonces
@@ -33,7 +34,7 @@ CASOS = [
                      (240, 'Control: sin vértigo; persiste mareo al caminar. Se indica seguir con sus actividades.'),
                      (60, 'Neurólogo: resonancia de cerebro normal; deriva a evaluación auditiva y vestibular por mareo persistente.')],
            medicamentos='Ninguno; paracetamol ocasional'),
-    cuadro('vppb', [fig.audiograma(), fig.logo()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=64, sexo='mujer',
+    cuadro('vppb', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(11, 8, 11, 9), fig.vemps()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=64, sexo='mujer',
            anamnesis="""Tiene 64 años y está jubilada de una tienda de ropa, donde fue vendedora. Hace cinco meses, al darse
            vuelta en la cama, todo giró unos segundos; le pasaba cada vez que se acostaba o se levantaba. Le dijeron que
            eran "cristales" y le hicieron dos maniobras; el giro se acabó a las dos semanas. Pero desde entonces el piso
@@ -48,7 +49,8 @@ CASOS = [
                      (60, 'Urgencia: crisis de angustia en el supermercado; electrocardiograma normal; alta con clonazepam.'),
                      (20, 'Médico de familia: mareo persistente; deriva a otorrinolaringología y evaluación audiovestibular.')],
            antecedentes=['hta'], medicamentos='Losartán 50 mg al día; clonazepam 0,5 mg de noche, a veces'),
-    cuadro('schwannoma', [fig.audiograma(), fig.logo(), fig.reflejos(), fig.abr(niveles=(80, 60, 40)), fig.vemp()],
+    cuadro('schwannoma', [fig.nistagmo(), fig.audiosupra(), fig.reflejos(), fig.abr(niveles=(80, 60, 40)),
+                          fig.mariposa(15, 11, 6, 4), fig.vemps()],
            oi='schwannoma', grado_oi='leve', edad=58, sexo='hombre',
            anamnesis="""Tiene 58 años y es técnico en refrigeración. Hace diez meses empezó, sin ningún evento que él recuerde,
            a sentirse inestable: "como caminar sobre un colchón". No ha tenido vértigo ni crisis. Es peor de noche, cuando

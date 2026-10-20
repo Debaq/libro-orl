@@ -10,13 +10,13 @@ Acá se deciden los pacientes y las figuras del capítulo; el texto está en
 Cuadros y grados: claves de CaseProfile::SCENARIOS. Un cuadro() acepta
 od=, oi=, grado_od=, grado_oi=, edad=, sexo='hombre'|'mujer', semilla=.
 
-LabSim no hace examen vestibular: lo que el libro entrega de calórica, vHIT y
-VNG de cada caso está escrito en el .md. Del oído, LabSim da audiograma,
-logoaudiometría, electrococleografía y VEMP. Un Ménière con 'meniere' lleva
-la curva ascendente de la etapa inicial; el avanzado se arma con
-'coclear_plana' (el motor no modela el hidrops en esa etapa). Las
-audiometrías anteriores de Ignacio van en la historia y en el esquema
-ilustraciones/cap23-evolucion.svg (hacer_cap23.py).
+Lo vestibular de cada caso (examen de cabecera, nistagmo, posicional, calórica, vHIT) lo
+declara el libro: el nistagmo y la calórica aquí (figuras/motor/vestibular.py), el resto en el
+.md. De LabSim salen el audiograma con la logoaudiometría, el VEMP y la electrococleografía.
+Un Ménière con 'meniere' lleva la curva ascendente de la etapa inicial; el avanzado se arma con
+'coclear_plana'. Las audiometrías anteriores de Ignacio van en la historia y en el esquema
+ilustraciones/cap23-evolucion.svg (hacer_cap23.py). Ningún caso de este capítulo tiene
+nistagmo espontáneo: los hexágonos van vacíos. La calórica es bitermal: mariposa(OD44, OD30, OI44, OI30).
 """
 import pathlib
 import sys
@@ -25,7 +25,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, fig  # noqa: E402
 
 CASOS = [
-    cuadro('meniere_avanzado', [fig.audiograma(), fig.logo(), fig.ecochg(), fig.vemp()],
+    cuadro('meniere_avanzado', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(6, 5, 22, 16), fig.vemps(), fig.ecochg()],
            od='coclear_plana', grado_od='moderada', edad=63, sexo='hombre',
            anamnesis="""Tiene 63 años y es jubilado de una empresa de buses, donde fue jefe de taller. Hace seis años
            tuvo su primera crisis: de un momento a otro todo giró, vomitó y estuvo cuatro horas sin poder levantarse;
@@ -43,7 +43,7 @@ CASOS = [
                      (420, 'Urgencia: dos caídas bruscas sin pérdida de conciencia; tomografía de cerebro sin hallazgos.'),
                      (30, 'Otorrinolaringología: audiometría con promedio de 55 dB en el OD. Se solicita evaluación audiológica completa y vestibular.')],
            antecedentes=['hta'], medicamentos='Betahistina 24 mg cada 12 horas; hidroclorotiazida 25 mg al día'),
-    cuadro('meniere_bilateral', [fig.audiograma(), fig.logo(), fig.ecochg(), fig.vemp()],
+    cuadro('meniere_bilateral', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(15, 13, 12, 10), fig.vemps(), fig.ecochg()],
            od='meniere', grado_od='leve', oi='coclear_plana', grado_oi='moderada', edad=58, sexo='mujer', semilla=5,
            anamnesis="""Tiene 58 años y es profesora de básica. Desde hace doce años tiene crisis de vértigo con el oído
            izquierdo tapado y un zumbido grave; con los años ese oído oye cada vez menos y ya no se recupera. Hace dos
@@ -58,7 +58,7 @@ CASOS = [
                      (90, 'Urgencia: caída brusca sin pérdida de conciencia; sin hallazgos neurológicos.'),
                      (20, 'Otorrinolaringología: se plantea gentamicina intratimpánica OI; solicita evaluación audiológica y vestibular antes de decidir.')],
            medicamentos='Betahistina 24 mg cada 12 horas'),
-    cuadro('migrana_vestibular', [fig.audiograma(), fig.teoae(), fig.ecochg(), fig.vemp()],
+    cuadro('migrana_vestibular', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(23, 21, 25, 22), fig.vemps()],
            od='normal', oi='normal', edad=34, sexo='mujer',
            anamnesis="""Tiene 34 años y es diseñadora gráfica. Desde los 16 años tiene jaquecas que le laten de un lado,
            con luz y ruido que le molestan, y a veces ve luces en zigzag antes. Hace cinco años empezó con otro tipo de
@@ -72,7 +72,7 @@ CASOS = [
                      (700, 'Médico general: nuevo episodio de mareo; otoscopía normal.'),
                      (60, 'Neurólogo: jaqueca recurrente; deriva a evaluación auditiva y vestibular por los episodios de mareo.')],
            medicamentos='Ibuprofeno 400 mg cuando tiene jaqueca'),
-    cuadro('meniere_migrana', [fig.audiograma(), fig.logo(), fig.ecochg(), fig.vemp()],
+    cuadro('meniere_migrana', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(25, 22, 13, 11), fig.vemps(), fig.ecochg()],
            od='normal', oi='meniere', grado_oi='leve', edad=45, sexo='mujer',
            anamnesis="""Tiene 45 años y es contadora. Desde los 20 tiene migraña con aura visual: unas luces que se
            corren por el campo de visión y después dolor pulsátil de un lado. Hace dos años y medio empezó a tener dos

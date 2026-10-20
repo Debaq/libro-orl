@@ -175,21 +175,97 @@ Antes de la estapedotomía, el médico pidió impedanciometría con reflejos y V
 
 #### Paso 4 · Los resultados
 
-El esquema usa las cifras de la literatura de la sección anterior: son promedios, no valores de un paciente.
-
-:::imagen ilustraciones/cap26-dehiscencia.svg ancho=95% La dehiscencia del conducto superior derecho en tres pruebas. La combinación que la delata: ósea mejor que lo normal en graves, reflejo presente a pesar del gap y un cVEMP de umbral bajo. Cifras promedio de la literatura (Minor, 2005; Zhou y cols., 2007), no de un paciente.
-- @10,24 | **La ósea baja de 0 dB HL** en graves: el oído oye por hueso mejor que lo normal.
-- @6,60 | **La aérea queda en 9 a 11 dB**: es un gap de 19 dB en 250 Hz, con timpanograma A.
-- @50,15 | **El reflejo está presente** a pesar del gap: la cadena se mueve.
-- @95,24 | **El umbral del cVEMP es de 81 dB nHL**, unos 18 dB más bajo que en el oído sano.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha y tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada sin desviación vertical |
+| | V, VII, IX, X y XII | Sin alteraciones |
+| **Sonido y presión** | Tullio (sonido fuerte en el OD) | **Nistagmo vertical-torsional breve** y sensación de que el piso se mueve |
+| | Valsalva con la nariz pinzada | **Nistagmo vertical-torsional**; la imagen "se salta" |
+| | Presión en el trago derecho | **Nistagmo vertical-torsional** breve |
+| | Los mismos estímulos en el OI | Sin nistagmo ni vértigo |
 :::
+
+El nistagmo de las tres pruebas va en el plano del conducto superior, vertical y torsional (Minor y cols., 1998). Es lo que esperaba la entrevista.
+
+:::imagen figuras/salida/cap26_dehiscencia_nistagmo.svg ancho=75% Nistagmo espontáneo de Marta en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::
+
+Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **20 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **20 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **19 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **18 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 1,00 | 0,96 | 0,95 |
+| **Izquierdo** | 0,98 | 0,95 | 0,96 |
+:::
+
+:::imagen figuras/salida/cap26_dehiscencia_mariposa.svg ancho=62% Gráfico de mariposa de Marta: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (20 + 18 − 20 − 19) / 77 = **1 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal.
+
+:::imagen figuras/salida/cap26_dehiscencia_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+El cVEMP del OD es de **605 µV** y el del OI, de 350 µV (asimetría de 27 %); el oVEMP del OD es de 42 µV y el del OI, de 27 µV (20 %). Ninguna asimetría llega al límite de 35 % y 33 %, pero **el oído de mayor amplitud es el derecho**, y no el de menor. El umbral dice más que la amplitud: en el OD es de **45 dB nHL** para el cVEMP y de **50 dB nHL** para el oVEMP, contra 65 y 70 dB nHL en el OI, unos 20 dB más bajo.
+
+:::imagen figuras/salida/cap26_dehiscencia_audiosupra.svg ancho=80% Audiometría de Marta: el OD tiene 25 dB por vía aérea en 125, 250 y 500 Hz, con la vía ósea bajo cero (−5 dB en 250 y 500 Hz): un gap de 25 a 30 dB en los graves que se cierra hacia los 2 kHz. El OI es normal. Discriminación de 100 % en los dos oídos.
+:::
+
+En el OD, SDT de 5 dB y SRT de 15 dB; en el OI, de −5 y 0 dB.
+
+:::imagen figuras/salida/cap26_dehiscencia_timpanograma.svg ancho=80% Timpanograma de Marta: curva A en los dos oídos, con compliancia de 0,86 mL en el OD y de 1,38 mL en el OI.
+:::
+
+:::imagen figuras/salida/cap26_dehiscencia_reflejos.svg ancho=80% Reflejos estapediales de Marta: presentes en los dos oídos, también en el OD con su gap.
+:::
+
+El reflejo ipsilateral del OD está **presente** (90, 85, 90 y 90 dB SPL de 500 a 4.000 Hz), a pesar del gap: la cadena se mueve.
+
+:::imagen figuras/salida/cap26_dehiscencia_ecochg.svg ancho=80% ECochG a 90 dB con click alternado, electrodo timpánico. El OD tiene la razón PS/PA de 0,64 y la razón de áreas de 2,90; el OI, de 0,33 y 1,65.
+:::
+
+En el OD la razón PS/PA es de **0,64**, sobre el límite de 0,40 del electrodo timpánico, y la razón de áreas es de 2,90, sobre el 1,94. El OI está bajo los dos límites.
 
 :::docente Guía del caso
 - **Datos clave:** autofonía, oír los latidos y el movimiento de los ojos, mareo con sirena y bocina (Tullio), la imagen que "salta" al toser o sonarse (Hennebert), y que oye bien por teléfono. Un gap en los graves del OD ya había llevado al médico a plantear una otoesclerosis.
 - **Hipótesis esperables:** otoesclerosis (por el gap), trompa abierta (por la autofonía), dehiscencia del conducto superior.
-- **Qué pedir:** impedanciometría con reflejos, VEMP con búsqueda de umbral, y una tomografía de huesos temporales que pide el médico (→ H3, H7, H12).
+- **Qué pedir:** la ficha vestibular completa con Tullio y presión, impedanciometría con reflejos, VEMP con búsqueda de umbral, ECochG, y una tomografía de huesos temporales que pide el médico (→ H3, H7, H11, H12).
 - **Errores esperables:** operar sin mirar el reflejo; leer el VEMP por la razón de asimetría de amplitud; redondear la ósea a 0.
-- **Para discutir:** El audiograma, el reflejo y el VEMP del caso son un esquema con las cifras de la literatura.
 :::
 
 {{caso cap26_otoesclerosis}}
@@ -208,24 +284,81 @@ Con un gap de 30 a 60 dB en un oído, ¿harías un VEMP aéreo? ¿Qué te diría
 
 #### Paso 4 · Los resultados
 
-:::figura cap26_otoesclerosis audiograma
-- @OD 250 | El OD tiene **60 dB** por vía aérea en 250 Hz...
-- @OD osea 250 | ...y **0 dB** por vía ósea: un gap de 60 dB, **sin ósea bajo cero**.
-- @OD osea 2000 | La ósea sube a **25 dB** en 2 kHz: es la **muesca de Carhart**, el artefacto mecánico del estribo fijo.
-- @OI 1000 | El OI es normal.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha y tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada sin desviación vertical |
+| | V, VII, IX, X y XII | Sin alteraciones |
+| **Sonido y presión** | Tullio, Valsalva y presión en el trago | Sin nistagmo ni vértigo, a los dos lados |
 :::
-:::figura cap26_otoesclerosis timpanograma
-- @OD pico | **Tipo As**: pico bajo y chato, de compliancia **0,19 mL**. La paciente anterior habría dado una curva A normal.
+
+:::imagen figuras/salida/cap26_otoesclerosis_nistagmo.svg ancho=75% Nistagmo espontáneo de Lourdes en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
-:::figura cap26_otoesclerosis reflejos
-- @ipsi OD 1000 | **Sin reflejo** ipsilateral en el OD, en ninguna frecuencia.
-- @contra OD 1000 | También faltan los contralaterales de los dos lados que involucran al OD: el tono no llega bien con el estribo fijo, y con la sonda en ese oído la contracción no se registra.
-- @ipsi OI 1000 | El OI tiene sus reflejos en su sitio: 90, 85, 90 y 90 dB SPL.
+
+Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
 :::
-:::figura cap26_otoesclerosis vemp
-- @OD P13 | El cVEMP aéreo del OD es **de 50 µV (1,01 corregida)**; el del OI, de **628 µV (12,26)**. Es una razón de asimetría de **85 %**.
-- Es **lo contrario** de la dehiscencia: amplitud pequeña, no grande. Pero tampoco dice que el sáculo esté enfermo: el sonido no pasa por el estribo fijo (→ cap. 20).
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **22 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **21 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **21 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **19 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 1,00 | 0,96 | 0,95 |
+| **Izquierdo** | 0,98 | 0,95 | 0,96 |
 :::
+
+:::imagen figuras/salida/cap26_otoesclerosis_mariposa.svg ancho=62% Gráfico de mariposa de Lourdes: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal.
+
+:::imagen figuras/salida/cap26_otoesclerosis_audiosupra.svg ancho=80% Audiometría de Lourdes: el OD tiene 60 dB por vía aérea en 250 Hz y 0 dB por vía ósea, un gap de 60 dB sin ósea bajo cero; la ósea sube a 25 dB en 2 kHz, la muesca de Carhart. El OI es normal. Discriminación de 100 % en los dos oídos.
+:::
+
+En el OD, SDT de 50 dB y SRT de 55 dB, con discriminación de 100 % desde los 80 dB; en el OI, de −5 y 0 dB.
+
+:::imagen figuras/salida/cap26_otoesclerosis_timpanograma.svg ancho=80% Timpanograma de Lourdes: tipo As en el OD, de pico bajo y chato (compliancia de 0,19 mL); el OI es normal (0,85 mL). La paciente anterior habría dado una curva A normal.
+:::
+
+:::imagen figuras/salida/cap26_otoesclerosis_reflejos.svg ancho=80% Reflejos estapediales de Lourdes: faltan en el OD, ipsilaterales y contralaterales; el OI tiene los suyos.
+:::
+
+Sin reflejo ipsilateral en el OD, en ninguna frecuencia. También faltan los contralaterales de los dos lados que involucran al OD: el tono no llega bien con el estribo fijo, y con la sonda en ese oído la contracción no se registra. El OI tiene sus reflejos en su sitio: 90, 85, 90 y 90 dB SPL.
+
+:::imagen figuras/salida/cap26_otoesclerosis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+El cVEMP aéreo del OD es de **50 µV** (1,01 corregida) y el del OI, de **628 µV** (12,26), una razón de asimetría de **85 %**; el oVEMP del OD es de 6 µV y el del OI, de 26 µV (**64 %**). Es **lo contrario** de la dehiscencia: amplitud pequeña, no grande. Pero tampoco dice que el sáculo ni el utrículo estén enfermos: el sonido no pasa por el estribo fijo (→ cap. 20).
 
 :::docente Guía del caso
 - **Datos clave:** hipoacusia unilateral lenta del OD; su voz suena **apagada**, no fuerte; sin autofonía, sin mareo con ruido, sin acúfeno; hermana con audífono desde los 40.
@@ -250,17 +383,80 @@ Un niño de 11 años con una pérdida bilateral que se nota más en la escuela. 
 
 #### Paso 4 · Los resultados
 
-:::figura cap26_pendred audiograma
-- @OD 250 | En 250 Hz el OD tiene **85 dB** por vía aérea...
-- @OD osea 250 | ...y **55 dB** por vía ósea: un **gap de 30 dB**.
-- @OD 1000 | En 1 kHz las dos curvas coinciden en 55 dB: **el gap desaparece** hacia los agudos y queda una pérdida sensorioneural.
-- @OI 250 | El OI repite el patrón: 70 dB por vía aérea y 45 por ósea, un gap de 25 dB.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha y tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada sin desviación vertical |
+| | V, VII, IX, X y XII | Sin alteraciones |
+| **Sonido y presión** | Tullio, Valsalva y presión en el trago | Sin nistagmo ni vértigo, a los dos lados |
 :::
-:::figura cap26_pendred timpanograma
-- @OD pico | **Curva A** en los dos oídos: el oído medio se mueve, y el tubo no tenía nada que arreglar.
+
+:::imagen figuras/salida/cap26_pendred_nistagmo.svg ancho=75% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
-:::figura cap26_pendred reflejos
-- @ipsi OD 1000 | **Reflejos presentes** de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.
+
+Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **21 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **22 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **23 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **20 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 1,00 | 0,96 | 0,95 |
+| **Izquierdo** | 0,98 | 0,95 | 0,96 |
+:::
+
+:::imagen figuras/salida/cap26_pendred_mariposa.svg ancho=62% Gráfico de mariposa de Joaquín: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (22 + 20 − 21 − 23) / 86 = **2 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos, y el vHIT es normal.
+
+:::imagen figuras/salida/cap26_pendred_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 639 µV en el OD y de 643 µV en el OI (**0 %**); oVEMP de 45 µV y de 47 µV (**1 %**). Son **simétricos y grandes**, y el umbral es bajo en los dos oídos: **50 dB nHL** para el cVEMP y para el oVEMP, a los dos lados.
+
+:::imagen figuras/salida/cap26_pendred_audiosupra.svg ancho=80% Audiometría de Joaquín: en 250 Hz el OD tiene 85 dB por vía aérea y 55 dB por vía ósea, un gap de 30 dB; en 1 kHz las dos curvas coinciden en 55 dB y queda una pérdida sensorioneural. El OI repite el patrón: 70 dB por vía aérea y 45 dB por ósea en 250 Hz, un gap de 25 dB.
+:::
+
+En el OD, SDT de 50 dB, SRT de 55 dB y discriminación máxima de 68 % a 90 dB; en el OI, SDT de 40 dB, SRT de 45 dB y discriminación máxima de 76 % a 80 dB.
+
+Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 25 a 40 dB. En 500 Hz el reflejo del OI no aparece: el gap de los graves (la ventana del acueducto) le quita el estímulo.
+
+:::imagen figuras/salida/cap26_pendred_timpanograma.svg ancho=80% Timpanograma de Joaquín: curva A en los dos oídos. El oído medio se mueve, y el tubo no tenía nada que arreglar.
+:::
+
+:::imagen figuras/salida/cap26_pendred_reflejos.svg ancho=80% Reflejos estapediales de Joaquín: presentes de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.
 :::
 
 En este cuadro la acumetría da Rinne positivo en 500 y 1.000 Hz: el diapasón no encuentra el gap, que está en 125 y 250 Hz. Por eso el diapasón no reemplaza a la audiometría con vía ósea.
@@ -280,7 +476,17 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La entrevista ya decía que el gap no venía del oído medio: una paciente con un estribo fijo oye **menos** y su voz suena **apagada**, y ella oye su voz y su cuerpo **demasiado fuerte**. Las pruebas confirman: la ósea sobre lo normal en los graves, un timpanograma A, un reflejo presente y un cVEMP con umbral 18 dB más bajo que el del oído sano. Un oído que oye mal por aire y bien por hueso, con la cadena libre y un vestíbulo hipersensible, es un oído con una **tercera ventana**.
+La entrevista ya decía que el gap no venía del oído medio: una paciente con un estribo fijo oye **menos** y su voz suena **apagada**, y ella oye su voz y su cuerpo **demasiado fuerte**. Las pruebas confirman: la ósea sobre lo normal en los graves, un timpanograma A, un reflejo presente y un cVEMP y un oVEMP con umbral 20 dB más bajo que los del oído sano, y una razón PS/PA de la ECochG sobre el límite, un hallazgo más que se informa. Un oído que oye mal por aire y bien por hueso, con la cadena libre y un vestíbulo hipersensible, es un oído con una **tercera ventana**.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** sin alteraciones. **Neocerebelo** y **pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada. **Nistagmo espontáneo:** sin nistagmo, con y sin fijación, en ninguna mirada. *Head-shaking* y posicional: sin nistagmo. **Sonido y presión:** Tullio, Valsalva y presión en el trago derecho con nistagmo vertical-torsional breve y vértigo; sin respuesta en el OI.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 1 % (valor no significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP con asimetría de 27 % y oVEMP con asimetría de 20 % (valores no significativos), con la mayor amplitud en el OD; umbral de 45 dB nHL para el cVEMP y de 50 dB nHL para el oVEMP en el OD, contra 65 y 70 dB nHL en el OI.
+>
+> **Audiometría:** OD con 25 dB en 125, 250 y 500 Hz por vía aérea y vía ósea bajo 0 dB (−5 dB en 250 y 500 Hz), con gap de 25 a 30 dB en graves; OI normal. SRT de 15 dB en el OD y 0 dB en el OI; discriminación de 100 % en los dos oídos. **Impedanciometría:** curva A en los dos oídos; reflejo ipsilateral del OD presente a pesar del gap. **ECochG:** razón PS/PA de 0,64 en el OD (límite de 0,40) y de 0,33 en el OI.
+>
+> **Conclusión:** examen compatible con **tercera ventana del oído derecho** (gap en graves con oído medio normal y reflejo presente, VEMP de umbral bajo, nistagmo con sonido y con presión), sin signos de compromiso central. Se sugiere evaluación por otorrinolaringología con tomografía de huesos temporales.
 
 #### Diagnóstico y qué sigue
 
@@ -296,6 +502,16 @@ El estudio previo a la cirugía fue lo que cambió el caso. Un gap sin el reflej
 
 La paciente tiene el mismo gap que la anterior, pero **todo lo demás es opuesto**: su voz suena apagada, el timpanograma es As, no hay reflejo y la ósea tiene la muesca de Carhart. El VEMP aéreo del OD sale muy pequeño, y eso no habla del sáculo: un estribo fijo deja pasar menos sonido y el estímulo no llega.
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** sin alteraciones. **Neocerebelo** y **pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada. **Nistagmo espontáneo:** sin nistagmo, con y sin fijación, en ninguna mirada. *Head-shaking*, posicional, Tullio, Valsalva y presión en el trago: sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 4 % (valor no significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP aéreo:** cVEMP con asimetría de 85 % y oVEMP con asimetría de 64 % (valores significativos), menores en el OD, **en un oído con gap**: no informativo del vestíbulo de ese lado.
+>
+> **Audiometría:** hipoacusia conductiva del OD, con 60 dB en 250 Hz por vía aérea, vía ósea de 0 dB y muesca de Carhart en 2 kHz (25 dB); OI normal. SRT de 55 dB en el OD y 0 dB en el OI; discriminación de 100 % en los dos oídos. **Impedanciometría:** timpanograma As en el OD (compliancia de 0,19 mL) y reflejos ipsilateral y contralateral ausentes con la sonda en el OD; OI normal.
+>
+> **Conclusión:** examen compatible con hipoacusia conductiva del OD de características de fijación estapedial, sin signos de compromiso central y con calórica y vHIT simétricos. Si se necesita saber del vestíbulo de ese oído, se sugiere VEMP por vía ósea.
+
 #### Diagnóstico y qué sigue
 
 Hipoacusia conductiva del OD de características de **fijación estapedial**, compatible con otoesclerosis. Se sugiere evaluación por otorrinolaringología. Si se necesita saber del vestíbulo de ese oído, se pide el VEMP por vía ósea (→ cap. 20).
@@ -309,6 +525,16 @@ Un VEMP aéreo caído **con** gap en el mismo oído no es una lesión del sácul
 #### Razonamiento
 
 El gap está en los graves y se cierra hacia los agudos; el oído medio se mueve (curva A) y el reflejo aparece en las frecuencias en que no hay gap. Un oído con un tubo y un timpanograma A **no tenía nada que arreglar en el oído medio**, y el gap tiene que venir del laberinto. En un niño con pérdida bilateral, una tercera ventana por acueducto vestibular dilatado es la causa más probable.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** sin alteraciones. **Neocerebelo** y **pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada. **Nistagmo espontáneo:** sin nistagmo, con y sin fijación, en ninguna mirada. *Head-shaking*, posicional, Tullio, Valsalva y presión en el trago: sin nistagmo.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 2 % (valor no significativo) y dirección preponderante hacia derecha de 5 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP con asimetría de 0 % y oVEMP con asimetría de 1 % (valores no significativos): examen compatible con simetría vestibular; umbral de 50 dB nHL para los dos VEMP en los dos oídos.
+>
+> **Audiometría:** hipoacusia sensorioneural bilateral con gap en los graves (30 dB en el OD y 25 dB en el OI, en 250 Hz) que desaparece hacia los agudos. SRT de 55 dB en el OD y de 45 dB en el OI; discriminación máxima de 68 % y de 76 %. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo. **Impedanciometría:** curva A en los dos oídos; reflejos presentes de 1 a 4 kHz.
+>
+> **Conclusión:** examen compatible con hipoacusia sensorioneural bilateral con gap en graves y oído medio normal, con VEMP de umbral bajo, sin signos de compromiso central y con función vestibular simétrica en calórica y vHIT. Se sugiere evaluación por otorrinolaringología con imagen del oído interno.
 
 #### Diagnóstico y qué sigue
 

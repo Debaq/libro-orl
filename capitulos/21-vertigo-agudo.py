@@ -16,11 +16,17 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-# Lo vestibular del capítulo (nistagmo, impulso cefálico, skew) no es de LabSim: son las hojas de
-# cabecera de ilustraciones/hacer_cap21.py, con las cifras de estos pacientes inventados. De LabSim
-# salen la ficha, la anamnesis, el audiograma, la logoaudiometría y el VEMP de cada caso.
+# Lo vestibular del capítulo (nistagmo, impulso cefálico, skew, calórica) no es de LabSim: son las
+# hojas de cabecera de ilustraciones/hacer_cap21.py y los valores de nistagmo y calórica declarados
+# aquí (figuras/motor/vestibular.py). De LabSim salen la ficha, la anamnesis, el audiograma con la
+# logoaudiometría y el VEMP de cada caso. Ana tiene un caso propio (casos/propios/): el oVEMP del OD
+# con el umbral en 90, la hipofunción utricular de su neuritis superior.
 CASOS = [
-    cuadro('neuritis', [fig.audiograma()], od='normal', oi='normal', edad=46, sexo='mujer',
+    cuadro('neuritis', [fig.audiosupra(),
+                        fig.nistagmo(con_fijacion={'izquierda': -3, 'centro': -1},
+                                     sin_fijacion={'izquierda': -9, 'arriba': -6, 'centro': -6, 'abajo': -6, 'derecha': -3}),
+                        fig.mariposa(6, 8, 26, 18), fig.vemps()],
+           od='normal', oi='normal', edad=46, sexo='mujer',
            anamnesis="""Tiene 46 años y es profesora de básica. Hace dos días, al levantarse, sintió que la pieza
            giraba, vomitó tres veces y no pudo ponerse de pie sin agarrarse de la pared. Con los ojos cerrados y
            acostada de lado mejora; al mover la cabeza, el giro vuelve. Camina "yéndose hacia la derecha". Una
@@ -29,7 +35,10 @@ CASOS = [
            piernas. Nunca había tenido un episodio así.""",
            historia=[(2, 'Servicio de urgencia: examen neurológico sin focalidad, antiemético. Se indica reposo y evaluación vestibular.'),
                      (9, 'Resfrío con tos y fiebre baja, sin tratamiento.')]),
-    cuadro('laberintitis', [fig.audiograma(), fig.vemp(), fig.vemp(subtipo='ovemp')], od='laberintitis',
+    cuadro('laberintitis', [fig.audiosupra(),
+                            fig.nistagmo(con_fijacion={'izquierda': -4, 'centro': -2},
+                                         sin_fijacion={'izquierda': -10, 'arriba': -7, 'centro': -7, 'abajo': -7, 'derecha': -4}),
+                            fig.mariposa(3, 4, 24, 19), fig.vemps()], od='laberintitis',
            grado_od='severa', edad=39, sexo='hombre',
            anamnesis="""Tiene 39 años y trabaja en una bodega. Hace tres días, después de una semana con resfrío, se
            despertó con el oído derecho "tapado, como con agua" y un zumbido a ratos. A las pocas horas
@@ -39,7 +48,10 @@ CASOS = [
            vértigo ni problemas de oído.""",
            historia=[(3, 'Servicio de urgencia: otoscopía normal, sin signos neurológicos; antiemético y reposo.'),
                      (10, 'Resfrío con congestión y tos, sin tratamiento.')]),
-    cuadro('pseudoneuritis', [fig.audiograma()], od='normal', oi='normal', edad=67, sexo='hombre',
+    cuadro('pseudoneuritis', [fig.audiosupra(),
+                              fig.nistagmo(con_fijacion={'izquierda': -8, 'derecha': 8},
+                                           sin_fijacion={'izquierda': -8, 'derecha': 8})],
+           od='normal', oi='normal', edad=67, sexo='hombre',
            anamnesis="""Tiene 67 años y es jubilado de la construcción. Ayer a media tarde, viendo televisión, sintió un
            mareo intenso con vómitos. Esta mañana no pudo sentarse en la cama sin irse hacia la derecha y su hija lo
            trajo al servicio de urgencia. Tiene un dolor de cabeza leve en la nuca desde ayer. No ha notado cambio
@@ -48,7 +60,10 @@ CASOS = [
            historia=[(1, 'Mareo súbito con vómitos, sin pérdida de conciencia ni traumatismo.')],
            antecedentes=['hta', 'diabetes'],
            medicamentos='Losartán 50 mg cada 12 horas; metformina 850 mg cada 12 horas; atorvastatina 20 mg en la noche'),
-    cuadro('aica', [fig.audiograma(), fig.logo(), fig.vemp()], oi='infarto_aica', grado_oi='moderada', edad=58,
+    cuadro('aica', [fig.audiosupra(),
+                    fig.nistagmo(con_fijacion={'centro': 2, 'derecha': 4},
+                                 sin_fijacion={'izquierda': 3, 'arriba': 5, 'centro': 5, 'abajo': 5, 'derecha': 8}),
+                    fig.vemps()], oi='infarto_aica', grado_oi='moderada', edad=58,
            sexo='mujer',
            anamnesis="""Tiene 58 años y es cajera de un supermercado. Hace dos días, en plena atención, sintió que
            todo giraba y vomitó. Dice que el oído izquierdo "se le apagó de golpe". Desde entonces no puede caminar

@@ -291,9 +291,9 @@ Sobre el umbral, Patricia entrega lo que se vio en H6: **Fowler** en 1 kHz con r
 :::
 
 :::figura cap09_p38 ecochg
-- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,31**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,19**, bajo 1,94. Es la referencia.
-- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,60**.
-- @OI PA | Después del PA el trazo no vuelve a la base dentro de la figura: el retorno está a 7,3 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,61**.
+- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,25**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,17**, bajo 1,94. Es la referencia.
+- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,63**.
+- @OI PA | Después del PA el trazo no vuelve a la base dentro de la figura: el retorno está a 8,8 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,87**.
 - Click alternado a 90 dB nHL, electrodo timpánico, filtros de 5 a 3.000 Hz.
 :::
 
@@ -370,8 +370,8 @@ Sobre el umbral, el **Fowler no se puede hacer**: no hay un oído de referencia 
 La electrococleografía, con el mismo protocolo del caso anterior, da:
 
 :::figura cap09_hidrops_retardado ecochg
-- @OI PS | En el OI el PS es grande frente al PA: razón PS/PA **0,45**, sobre el límite de 0,40 del electrodo timpánico.
-- @OI PA | La razón de áreas es **2,88**, sobre 1,94. Latencia del PA, **1,43 ms**.
+- @OI PS | En el OI el PS es grande frente al PA: razón PS/PA **0,64**, sobre el límite de 0,40 del electrodo timpánico.
+- @OI PA | La razón de áreas es **1,95**, apenas sobre 1,94. Latencia del PA, **1,60 ms**.
 - En el OD no hay complejo que medir: a 90 dB nHL, en una cóclea que no oye, no aparecen ni PS ni PA.
 - Click alternado a 90 dB nHL, electrodo timpánico, filtros de 5 a 3.000 Hz.
 :::
@@ -401,7 +401,7 @@ Patricia cumple la historia completa del Ménière: crisis de vértigo de horas,
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,60 y razón de áreas de 3,61, sobre los límites. VEMP cervical del OI con amplitud muy reducida. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
+Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,63 y razón de áreas de 3,87, sobre los límites. VEMP cervical del OI con amplitud muy reducida. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
 
 :::comentario Comentario
 El DP-grama del OI dice "pasa" con 4 de 7. Si solo se hubiera mirado el resultado global, se habría informado normal una cóclea que no amplifica los graves. Como en el ruido (→ cap. 6), las emisiones se leen frecuencia por frecuencia.
@@ -415,7 +415,7 @@ La clave está en el antecedente: un oído **sordo desde la infancia por paperas
 
 #### Diagnóstico y qué sigue
 
-OD: hipoacusia sensorioneural profunda, antigua. OI: hipoacusia sensorioneural leve, con graves 10 dB peor que los medios y caída de agudos acorde a la edad, de características cocleares, con buena discriminación. Electrococleografía del OI con razón PS/PA de 0,45 y razón de áreas de 2,88, sobre los límites; sin respuesta en el OD. VEMP cervical de amplitud reducida en ambos lados. Compatible con un hidrops endolinfático del OI en un paciente con cofosis derecha. Como es su **único oído útil**, se sugiere control audiométrico seriado y consulta precoz ante cualquier baja de audición, y conversar desde ya las opciones de rehabilitación si la audición del OI empeora (→ Parte IX).
+OD: hipoacusia sensorioneural profunda, antigua. OI: hipoacusia sensorioneural leve, con graves 10 dB peor que los medios y caída de agudos acorde a la edad, de características cocleares, con buena discriminación. Electrococleografía del OI con razón PS/PA de 0,64 y razón de áreas de 1,95, sobre los límites; sin respuesta en el OD. VEMP cervical de amplitud reducida en ambos lados. Compatible con un hidrops endolinfático del OI en un paciente con cofosis derecha. Como es su **único oído útil**, se sugiere control audiométrico seriado y consulta precoz ante cualquier baja de audición, y conversar desde ya las opciones de rehabilitación si la audición del OI empeora (→ Parte IX).
 
 :::ojo Ojo clínico
 El audiograma de hoy está casi normal y es fácil tranquilizar al paciente. Pero el hidrops fluctúa: lo que Samuel cuenta de los días en que "no entiende a los clientes" no se ve en un examen hecho un mes y medio después de la última crisis. El informe tiene que decir **cuándo** fue la última crisis.

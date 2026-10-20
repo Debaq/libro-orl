@@ -21,10 +21,29 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "izquierda": -2,
+        "derecha": 2
+      },
+      "sin_fijacion": {
+        "izquierda": -2,
+        "derecha": 2
+      }
+    },
+    {
+      "tipo": "mariposa",
+      "OD44": 0,
+      "OD30": 0,
+      "OI44": 0,
+      "OI30": 0
+    },
+    {
+      "tipo": "vemp",
+      "subtipo": "ambos"
     }
   ]
 }

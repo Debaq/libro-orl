@@ -273,10 +273,10 @@ Patricia tiene 46 años y una historia de Ménière del oído izquierdo: crisis 
 {{caso h11_p38}}
 
 :::figura h11_p38 ecochg
-- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,31**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,19**, bajo 1,94. La latencia del PA es de 1,37 ms.
+- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,25**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,17**, bajo 1,94. La latencia del PA es de 1,37 ms.
 - @OD PS | El PS del OD es el hombro de la bajada hacia el PA, y mide menos de un tercio de él.
-- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,60**, sobre el límite.
-- @OI PA | El PA del OI llega a 1,50 ms y es ancho. Después no vuelve a la base dentro de la figura: el retorno está a 7,3 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,61**.
+- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,63**, sobre el límite.
+- @OI PA | El PA del OI llega a 1,50 ms y es ancho. Después no vuelve a la base dentro de la figura: el retorno está a 8,8 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,87**.
 - Mismo electrodo, mismo nivel y mismos filtros en los dos oídos: la diferencia es del oído.
 :::
 
@@ -286,9 +286,9 @@ El informe describe las condiciones, luego cada oído, y recién al final la con
 
 > **Electrococleografía.** Electrodo timpánico, click alternado a 90 dB nHL, 11,1 estímulos/s, filtros 5 a 3.000 Hz, ventana de 10 ms, 1.500 barridos por curva.
 >
-> **OD**: complejo PS-PA de buena morfología y replicabilidad. Razón de amplitudes PS/PA 0,31 y razón de áreas 1,19, bajo los límites del electrodo (0,40 y 1,94). Latencia del PA 1,37 ms.
+> **OD**: complejo PS-PA de buena morfología y replicabilidad. Razón de amplitudes PS/PA 0,25 y razón de áreas 1,17, bajo los límites del electrodo (0,40 y 1,94). Latencia del PA 1,37 ms.
 >
-> **OI**: PA ensanchado, con PS prolongado que no vuelve a la línea de base dentro de la ventana de análisis. Razón de amplitudes PS/PA 0,60 y razón de áreas 3,61, sobre los límites. Latencia del PA 1,50 ms.
+> **OI**: PA ensanchado, con PS prolongado que vuelve a la línea de base recién a los 8,8 ms. Razón de amplitudes PS/PA 0,63 y razón de áreas 3,87, sobre los límites. Latencia del PA 1,50 ms.
 >
 > **Conclusión**: razones PS/PA y de áreas aumentadas en el OI, hallazgo compatible con hidrops endolinfático de ese oído; OD sin alteraciones. Se sugiere correlacionar con la clínica y los demás exámenes.
 
@@ -331,7 +331,7 @@ Una razón PS/PA alta **apoya** el hidrops pero no lo prueba, y una normal **no 
 3. Una razón de áreas de 3,6 con una de amplitudes de 0,60, ¿qué te dice la de áreas que no te dice la de amplitudes?
 4. ¿Por qué la ECochG se registra con polaridad alternada, y cuándo registrarías una sola?
 5. Al pasar de click a tone burst de 12 ms, ¿qué dos parámetros tienes que cambiar y por qué?
-6. Patricia tiene una razón de 0,60 en el OI y de 0,31 en el OD. Si le registraras el OI otra vez con 60 dB nHL, ¿qué esperarías? ¿Qué le dirías al médico si solo tuvieras ese registro?
+6. Patricia tiene una razón de 0,63 en el OI y de 0,25 en el OD. Si le registraras el OI otra vez con 60 dB nHL, ¿qué esperarías? ¿Qué le dirías al médico si solo tuvieras ese registro?
 7. Un paciente con la historia completa de Ménière tiene la ECochG normal. ¿Descarta eso el diagnóstico?
 :::
 

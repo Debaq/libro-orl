@@ -322,10 +322,10 @@ Con una pérdida unilateral, ¿qué pruebas agregarías a la audiometría para s
 - @OI 1000 | El OI no pasa ninguna: con 40 a 75 dB de pérdida en el rango de 500 a 4.000 Hz, las células ciliadas externas no funcionan. Coclear.
 :::
 :::figura cap34_hidrops ecochg
-- @OI PS | En el OI el PS es grande frente al PA: razón PS/PA de **0,46**, sobre el límite del electrodo timpánico (→ capítulo 9, H11). En el OD es de 0,20.
+- @OI PS | En el OI el PS es grande frente al PA: razón PS/PA de **0,40**, justo en el límite del electrodo timpánico, y razón de áreas de **2,93**, sobre el 1,94 (→ capítulo 9, H11). En el OD la razón es de 0,08.
 :::
 :::figura cap34_hidrops abr
-- @OI 80 V | En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, 55 dB nHL (unos 50 dB eHL), corresponde a la zona de 2 a 4 kHz del audiograma (40 a 45 dB). La vía responde y la batería no muestra signos que sugieran lesión retrococlear (→ capítulo 11).
+- @OI 80 V | En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, 50 dB nHL (unos 45 dB eHL), corresponde a la zona de 2 a 4 kHz del audiograma (40 a 45 dB). La vía responde y la batería no muestra signos que sugieran lesión retrococlear (→ capítulo 11).
 - @OD 40 V | El OD tiene ondas III y V a 40 dB, normal.
 :::
 

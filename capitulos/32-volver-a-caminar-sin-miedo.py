@@ -16,14 +16,14 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-# LabSim da solo el lado auditivo: lo vestibular, lo funcional y lo postural de cada caso está escrito en el .md
-# ("cifras inventadas para el libro") o sale de los esquemas de ilustraciones/cap32-*.svg (hacer_cap32.py,
+# De LabSim salen la ficha, la anamnesis, el audiograma con la logoaudiometría y el VEMP. Lo vestibular (calórica
+# de Isabel), lo funcional y lo postural de cada caso está escrito en el .md o sale de los esquemas de ilustraciones/cap32-*.svg (hacer_cap32.py,
 # hacer_cap32.mjs con el modelo postural de labyrinthus3d).
-OIDO = [fig.audiograma(), fig.logo()]
+OIDO = [fig.audiosupra(), fig.vemps()]
 
 CASOS = [
     # 32.1 Un VPPB escondido en una persona que se cae: no dice "vértigo", dice "se me va el piso".
-    cuadro('vppb', OIDO, od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=79, sexo='mujer',
+    cuadro('vppb', [fig.nistagmo(), fig.audiosupra()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=79, sexo='mujer',
            anamnesis="""Tiene 79 años, es profesora básica jubilada y vive con su hija. En los últimos cuatro meses se ha
            caído dos veces. La primera fue de noche: se levantó de la cama para ir al baño, "se me fue el piso", se agarró
            del velador y terminó sentada en el suelo, sin golpe. La segunda fue hace cuatro semanas, en la cocina, al estirar
@@ -38,7 +38,7 @@ CASOS = [
            antecedentes=['hta'],
            medicamentos='Enalapril 10 mg al día; alendronato 70 mg a la semana; carbonato de calcio con vitamina D'),
     # 32.2 La fragilidad: varias causas a la vez, ninguna vestibular, y el miedo.
-    cuadro('fragil', OIDO, od='presbiacusia', oi='presbiacusia', grado_od='moderada', grado_oi='moderada', edad=86, sexo='hombre',
+    cuadro('fragil', [fig.nistagmo()] + OIDO, od='presbiacusia', oi='presbiacusia', grado_od='moderada', grado_oi='moderada', edad=86, sexo='hombre',
            anamnesis="""Tiene 86 años, es electricista jubilado y vive solo desde que enviudó hace tres años; una hija lo llama
            cada noche. En el último año se ha caído tres veces. Dos fueron en la casa: de noche, camino al baño, y al
            pararse del excusado. La tercera fue en el jardín, hace dos meses: se cayó al agacharse a arrancar una maleza y no
@@ -57,7 +57,7 @@ CASOS = [
            medicamentos='Amlodipino 5 mg, enalapril 10 mg y furosemida 20 mg en la mañana; tamsulosina 0,4 mg y clonazepam 0,5 mg '
                         'en la noche; metformina 850 mg dos veces al día; paracetamol cuando le duele la rodilla'),
     # 32.3 Dos sentidos caídos (vestíbulo y pies) y la luz que falta: neuropatía diabética + hipofunción bilateral.
-    cuadro('bilateral', OIDO, od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=74, sexo='mujer',
+    cuadro('bilateral', [fig.nistagmo()] + OIDO + [fig.mariposa(3, 2, 2, 2)], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=74, sexo='mujer',
            anamnesis="""Tiene 74 años, trabajó como costurera y vive con su marido. Hace unos ocho meses empezó a sentirse
            insegura al caminar: "voy sobre algodón", dice, y no siente bien el piso. No tiene vértigo ni lo ha tenido. De
            noche, para ir al baño, se agarra de las murallas, y en esos ocho meses se cayó tres veces, siempre a oscuras o con

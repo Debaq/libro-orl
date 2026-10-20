@@ -30,7 +30,7 @@ import sys
 AQUI = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI))
 
-from motor import abr, acumetria, audiograma, campo_libre, ecochg, impedancia, logo, oae, vemp  # noqa: E402
+from motor import abr, acumetria, audio_supra, audiograma, campo_libre, ecochg, impedancia, logo, oae, supraliminares, vemp, vestibular  # noqa: E402
 from motor.datos import cargar_caso  # noqa: E402
 
 CASOS = AQUI.parent / 'casos'
@@ -71,6 +71,20 @@ def figura(caso, f):
         ganancia = {int(k): v for k, v in (f.get('ganancia') or {}).items()}
         return campo_libre.dibujar(caso, ganancia=ganancia or None, audifono=f.get('audifono'),
                                    banana=f.get('banana', False))
+    if tipo == 'audiologo':
+        return audiograma.con_logo(caso)
+    if tipo == 'nistagmo':
+        return vestibular.nistagmo(f.get('con_fijacion'), f.get('sin_fijacion'))
+    if tipo == 'audiosupra':
+        return audio_supra.dibujar(caso)
+    if tipo == 'supraliminares':
+        return supraliminares.dibujar(caso)
+    if tipo == 'vng':
+        return vestibular.vng(f['paneles'])
+    if tipo == 'mariposa':
+        return vestibular.mariposa(f['OD44'], f['OD30'], f['OI44'], f['OI30'])
+    if tipo == 'vemp' and f.get('subtipo') == 'ambos':
+        return vemp.dibujar_ambos(caso, intensidad=f.get('intensidad', 100), promedios=f.get('promedios', 200))
     if tipo == 'vemp':
         return vemp.dibujar(caso, subtipo=f.get('subtipo', 'cvemp'), intensidad=f.get('intensidad', 100),
                             promedios=f.get('promedios', 200))
@@ -108,7 +122,7 @@ def main(patrones):
 
 
 TIPOS = ('audiograma', 'acumetria', 'timpanograma', 'reflejos', 'abr', 'logoaudiometria',
-         'teoae', 'dpoae', 'ecochg', 'vemp', 'campo_libre')
+         'teoae', 'dpoae', 'ecochg', 'vemp', 'campo_libre', 'audiologo', 'nistagmo', 'mariposa', 'vng', 'supraliminares', 'audiosupra')
 
 
 def _hoja():

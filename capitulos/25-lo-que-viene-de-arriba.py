@@ -17,10 +17,15 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo oculomotor y lo vestibular del capítulo (mirada, seguimiento, sacadas, vHIT) no es de LabSim: son las
-# trazas de labyrinthus3d en ilustraciones/hacer_cap25.py y las cifras de estos pacientes inventados. De
-# LabSim salen la ficha, la anamnesis y el audiograma de cada caso.
+# trazas de labyrinthus3d en ilustraciones/hacer_cap25.py y las cifras de estos pacientes inventados; el
+# nistagmo (hoja del campo clínico) y la calórica (mariposa) se declaran aquí (figuras/motor/vestibular.py).
+# De LabSim salen la ficha, la anamnesis, el audiograma con la logoaudiometría y el VEMP de cada caso.
+# Rafael (CANVAS) tiene un caso propio (casos/propios/): sus VEMP caídos, como sus laberintos.
 CASOS = [
-    cuadro('canvas', [fig.audiograma()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
+    cuadro('canvas', [fig.audiosupra(),
+                      fig.nistagmo(con_fijacion={'izquierda': -2, 'derecha': 2},
+                                   sin_fijacion={'izquierda': -2, 'derecha': 2}),
+                      fig.mariposa(0, 0, 0, 0), fig.vemps()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
            edad=64, sexo='hombre', semilla=25,
            anamnesis="""Tiene 64 años y es electricista jubilado. Hace unos cinco años empezó a andar inseguro: en el
            baño de noche, sin luz, tiene que agarrarse de las paredes, y en el pasto o en una vereda en mal estado
@@ -33,7 +38,8 @@ CASOS = [
            historia=[(1100, 'Médico general: "mareo del adulto mayor"; betahistina por tres meses, sin mejoría.'),
                      (200, 'Neurología: marcha atáxica y reflejos aquilianos ausentes; solicita resonancia y estudio vestibular.')],
            medicamentos='Ninguno de forma permanente'),
-    cuadro('esclerosis', [fig.audiograma()], od='esclerosis_multiple', oi='esclerosis_multiple', edad=31, sexo='mujer',
+    cuadro('esclerosis', [fig.nistagmo(), fig.audiosupra(),
+                          fig.mariposa(21, 19, 22, 21), fig.vemps()], od='esclerosis_multiple', oi='esclerosis_multiple', edad=31, sexo='mujer',
            semilla=26,
            anamnesis="""Tiene 31 años y es cajera en una farmacia. Hace tres semanas, al mirar hacia el lado derecho,
            empezó a ver doble: las dos imágenes están una al lado de la otra y se juntan cuando mira al frente. A
@@ -44,7 +50,12 @@ CASOS = [
            los movimientos de los ojos mientras llega la resonancia.""",
            historia=[(1500, 'Oftalmología: neuritis óptica del ojo derecho, corticoide endovenoso con recuperación.'),
                      (25, 'Neurología: diplopía horizontal a la derecha y hormigueo de la mano izquierda; solicita resonancia y registro de movimientos oculares de los dos ojos.')]),
-    cuadro('chiari', [fig.audiograma()], oi='chiari_hic', grado_oi='leve', edad=38, sexo='mujer', semilla=27,
+    cuadro('chiari', [fig.audiosupra(),
+                      fig.nistagmo(con_fijacion={'centro': {'dir': 'abajo', 'vfl': 2}, 'abajo': {'dir': 'abajo', 'vfl': 5.5},
+                                                 'izquierda': {'dir': 'abajo', 'vfl': 3}, 'derecha': {'dir': 'abajo', 'vfl': 3}},
+                                   sin_fijacion={'centro': {'dir': 'abajo', 'vfl': 2.2}, 'abajo': {'dir': 'abajo', 'vfl': 5.8},
+                                                 'izquierda': {'dir': 'abajo', 'vfl': 3.4}, 'derecha': {'dir': 'abajo', 'vfl': 3.4}}),
+                      fig.mariposa(20, 18, 19, 21), fig.vemps()], oi='chiari_hic', grado_oi='leve', edad=38, sexo='mujer', semilla=27,
            anamnesis="""Tiene 38 años y trabaja en una oficina de partes. Desde hace dos años tiene un dolor de cabeza
            en la nuca que le sube al toser, estornudar o reírse fuerte. Se siente inestable, "como si el piso se
            moviera", sobre todo al bajar escaleras mirando los peldaños y al leer: dice que las líneas del texto
@@ -53,7 +64,12 @@ CASOS = [
            nistagmo, calórica simétrica". Le hormiguean a veces las manos.""",
            historia=[(180, 'Otorrinolaringología (otro servicio): mareo inespecífico y videonistagmografía sin hallazgos. Se indica observación.'),
                      (30, 'Neurología: cefalea occipital con maniobra de Valsalva; solicita resonancia y repetir el estudio vestibular con registro vertical.')]),
-    cuadro('farmaco', [fig.audiograma()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
+    cuadro('farmaco', [fig.audiosupra(),
+                       fig.nistagmo(con_fijacion={'izquierda': -4, 'derecha': 4, 'arriba': {'dir': 'arriba', 'vfl': 2},
+                                                  'abajo': {'dir': 'abajo', 'vfl': 2}},
+                                    sin_fijacion={'izquierda': -4, 'derecha': 4, 'arriba': {'dir': 'arriba', 'vfl': 2},
+                                                  'abajo': {'dir': 'abajo', 'vfl': 2}}),
+                       fig.mariposa(19, 17, 18, 20), fig.vemps()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
            edad=71, sexo='hombre', semilla=28,
            anamnesis="""Tiene 71 años y es jubilado de la construcción. Desde un golpe en la cabeza a los 45 años tiene
            epilepsia, controlada. Hace cuatro meses tuvo una convulsión y su neurólogo le subió la dosis de la

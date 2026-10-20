@@ -194,13 +194,13 @@ Ese esquema deja siempre un **escalón bajo el umbral sin onda V**. No es un reg
 {{caso h10_p33}}
 
 :::figura h10_p33 abr
-- @OD 80 I | A 80 dB nHL la **onda I** llega a 1,4 ms, la **III** a 3,8 y la **V** a 5,7. Interpicos: I-III 2,4 ms, III-V 1,9 e I-V 4,3. Todo dentro de lo normal.
-- @OD 40 V | A 40 dB la V llega a 6,9 ms y es más chica. La I y la III se achicaron mucho más que la V.
-- @OD 20 V | A 20 dB queda solo una III mínima y la **V**, a 7,9 ms.
-- @OD 10 V | A 10 dB la V es chica, a 8,3 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
+- @OD 80 I | A 80 dB nHL la **onda I** llega a 1,5 ms, la **III** a 3,7 y la **V** a 5,7. Interpicos: I-III 2,2 ms, III-V 1,9 e I-V 4,1. Todo dentro de lo normal.
+- @OD 40 V | A 40 dB la V llega a 6,8 ms y es más chica. La I y la III se achicaron mucho más que la V.
+- @OD 20 V | A 20 dB queda solo una III mínima y la **V**, a 7,7 ms.
+- @OD 10 V | A 10 dB la V es chica, a 8,1 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
 - @OD 0 | A 0 dB no hay nada que se repita.
 - El orden de registro fue **80, 60, 40, 20, 0** (sin V) y, subiendo 10, **10** (con V). **Umbral de la onda V: 10 dB nHL**.
-- Mira cómo se corre la V: 0,4 ms de 80 a 60, pero 1,0 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
+- Mira cómo se corre la V: 0,4 ms de 80 a 60, pero 0,9 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
 :::
 
 Si a 80 dB nHL no hay onda V, se sube a **90 o 100 dB nHL** antes de concluir que no hay respuesta. Más arriba los fonos no entregan sin distorsión.
@@ -257,7 +257,7 @@ En Tomás: 20 dB nHL con burst de 500 Hz − 20 = **0 dB eHL**, lo mismo que su 
 - Hernán tiene una pérdida sensorioneural de agudos: en el OD, 25 dB HL en 1 kHz, 40 en 2 kHz, 50 en 3 kHz y 60 en 4 kHz (su audiograma está en H3).
 - @OD 80 V | Con click, a 80 dB nHL, la V llega a 6,3 ms: todavía dentro de lo normal para sus 74 años.
 - @OD 80 III | **No hay onda I.** La I depende de la base de la cóclea, que es justo la zona dañada: es la primera onda que se pierde en una pérdida de agudos.
-- @OD 60 V | A 60 dB la V sigue presente (6,9 ms). A 50 (no se muestra) ya no hay una V que se repita: **umbral con click, 60 dB nHL**.
+- @OD 60 V | A 60 dB la V sigue presente (6,7 ms). A 50 (no se muestra) ya no hay una V que se repita: **umbral con click, 60 dB nHL**.
 - 60 dB nHL − 5 = **55 dB eHL**: un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 40 a 60 dB HL.
 :::
 
@@ -373,21 +373,21 @@ Una pérdida periférica (conductiva o coclear) alarga las latencias absolutas y
 {{caso h10_p34}}
 
 :::figura h10_p34 abr
-- @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,6 y V a 5,6. I-V de 4,1 ms.
-- @OD 80 I | En el **OD** la onda I llega a 2,9 ms: 1,4 ms tarde. La señal ya sale atrasada de la cóclea.
-- @OD 80 V | La V llega a 6,8 ms. Pero los interpicos son normales (I-III 2,3, III-V 1,7, I-V 3,9 ms): la vía conduce bien; lo que se atrasó fue la llegada del sonido.
-- @OD 60 V | A 60 dB ya solo queda la V, a 7,7 ms.
-- Compara con Tomás a 40 dB nHL (caso H10.1): I a 3,0, III a 5,2 y V a 6,9 ms. El OD de Carolina a 80 se parece a un oído normal a 40: la otoesclerosis le **resta intensidad** al click antes de que llegue a la cóclea, y la cóclea responde como a un sonido más suave.
-- La diferencia interaural de la V es de **1,2 ms**. Una conductiva la fabrica sola: antes de leerla como retrococlear, mira el audiograma y la timpanometría.
+- @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,6 y V a 5,5. I-V de 4,1 ms.
+- @OD 80 I | En el **OD** la onda I llega a 2,6 ms: 1,1 ms tarde. La señal ya sale atrasada de la cóclea.
+- @OD 80 V | La V llega a 6,5 ms. Pero los interpicos son normales (I-III 2,2, III-V 1,8, I-V 3,9 ms): la vía conduce bien; lo que se atrasó fue la llegada del sonido.
+- @OD 60 V | A 60 dB queda la V, a 7,7 ms, y apenas una III.
+- Compara con Tomás a 40 dB nHL (caso H10.1): I a 2,8, III a 5,1 y V a 6,8 ms. El OD de Carolina a 80 se parece a un oído normal a 40: la otoesclerosis le **resta intensidad** al click antes de que llegue a la cóclea, y la cóclea responde como a un sonido más suave.
+- La diferencia interaural de la V es de **1,0 ms**. Una conductiva la fabrica sola: antes de leerla como retrococlear, mira el audiograma y la timpanometría.
 :::
 
 {{caso h10_p39}}
 
 :::figura h10_p39 abr
-- @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,8 y V a 5,6. I-V de 4,1 ms.
-- @OD 80 I | En el **OD** la onda I llega a 1,4 ms, en su lugar: la cóclea entrega la señal a tiempo.
-- @OD 80 III | La III llega a 4,2 ms: **I-III de 2,8 ms**, sobre el límite de 2,7.
-- @OD 80 V | La V llega a 6,7 ms: III-V de 2,5 (límite 2,4) e **I-V de 5,2 ms** (límite 4,7). La diferencia interaural de la V es de **1,0 ms**.
+- @OI 80 V | El **OI** es normal: I a 1,6 ms, III a 3,8 y V a 5,7. I-V de 4,1 ms.
+- @OD 80 I | En el **OD** la onda I llega a 1,6 ms, en su lugar: la cóclea entrega la señal a tiempo.
+- @OD 80 III | La III llega a 4,2 ms: I-III de 2,6 ms, justo bajo el límite de 2,7.
+- @OD 80 V | La V llega a 6,5 ms: III-V de 2,3 (límite 2,4). Cada tramo queda en el borde, pero sumados dan un **I-V de 5,0 ms** (límite 4,7). La diferencia interaural de la V es de **0,8 ms**.
 - @OD 60 V | A 60 dB solo queda una V chica; la I y la III desaparecen.
 - Raúl tiene 30 a 55 dB de pérdida entre 2 y 4 kHz en el OD. Una pérdida coclear así puede atrasar algo la V, pero **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio. Es un **patrón retrococlear** (→ cap. 11).
 :::
@@ -457,7 +457,7 @@ Antes de informar un ABR, pregúntate si **calza con lo demás**: con el audiogr
 :::pregunta Preguntas para practicar
 1. En el caso de Tomás, ¿qué intensidades registrarías si a 20 dB nHL **no** hubiera onda V? ¿Cuál sería su umbral si a 30 sí la hay?
 2. Promedias 500 barridos en un oído con umbral real de 30 dB nHL y encuentras la V hasta 45. ¿El oído empeoró? ¿Qué harías para saberlo?
-3. Carolina tiene una diferencia interaural de la onda V de 1,2 ms y Raúl de 1,0 ms. ¿Por qué una es conductiva y la otra retrococlear? ¿Qué número de la figura lo decide?
+3. Carolina tiene una diferencia interaural de la onda V de 1,0 ms y Raúl de 0,8 ms. ¿Por qué una es conductiva y la otra retrococlear? ¿Qué número de la figura lo decide?
 4. Con los umbrales de Hernán (click 60 y burst de 1 kHz 40 dB nHL), estima su audición en dB eHL. ¿Qué le habría dicho a un médico un ABR solo con click?
 5. Un lactante tiene un ABR por vía aérea con umbral de 50 dB nHL y por vía ósea no responde a 55. ¿Puedes concluir que la pérdida es sensorioneural? ¿Qué cambia si es un adulto?
 6. En un AABR, un oído refiere dos veces. La enfermera propone subir el nivel a 60 dB "para que pase". ¿Qué le contestas?

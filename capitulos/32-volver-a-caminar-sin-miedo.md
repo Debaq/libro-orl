@@ -192,24 +192,71 @@ Piensa en el lado del vértigo, en la presión, en la marcha y en el miedo. ¿Qu
 
 #### Paso 4 · Los resultados
 
-:::figura cap32_vppb audiograma
-- @OD 4000 | **45 dB** en 4 kHz y 60 en 8 kHz: caída de agudos, la de la edad. En las frecuencias del habla, 25 dB.
-- @OI 4000 | El OI es igual que el OD. **Simétrica**: no hay nada retrococlear que perseguir (→ cap. 11).
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg y Romberg sensibilizado | Estables, con ojos abiertos y cerrados |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro |
+| | Marcha, ojos abiertos y cerrados | Normal, sin lado; con los ojos cerrados, más insegura |
+| | Tándem | Con **vacilación** |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
-:::figura cap32_vppb logoaudiometria
-- @OD max | Discriminación del **92 %**, acorde con la pérdida y casi igual en los dos oídos.
+
+Sentada y de pie, sin movimientos de la cabeza, el equilibrio está en lo esperable. Cerebelo y pares, sin hallazgos.
+
+:::imagen figuras/salida/cap32_vppb_nistagmo.svg ancho=75% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | No | — | No | No |
+| **S–D** | (−) | — | — | No | — | No | No |
+| **D–S** | (−) | — | — | No | — | No | No |
+| **S–I** | (−) | — | — | No | — | No | No |
+| **I–S** | (−) | — | — | No | — | No | No |
+| **S–E** | (−) | — | — | No | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | No | — | No | No |
+| **CC–E** | (−) | — | — | No | — | No | No |
+| **E–CCD** | (−) | — | — | No | — | No | No |
+| **CCD–E** | (−) | — | — | No | — | No | No |
+| **E–CCI** | ↑ + torsión OI | 20 s | 4 s | Sí | Sí | Mod. | No |
+| **CCI–E** | ↓ débil + torsión OD | 10 s | 2 s | Sí | No | Leve | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo. El Dix-Hallpike **derecho** es negativo y el **izquierdo** da, tras unos **4 s**, vértigo y nistagmo hacia **arriba** con el polo superior del ojo girando hacia el oído **izquierdo**; crece y se apaga solo en unos **20 s**, y se agota si se repite. Al sentarla, un nistagmo débil en sentido contrario. El giro supino es negativo.
+
+:::ayuda-ancho vHIT
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,92 | 0,90 | 0,94 |
+| **Izquierdo** | 0,93 | 0,91 | 0,93 |
+:::
+
+Ganancia del VOR simétrica y normal en los seis canales, sin sacadas.
+
+:::imagen figuras/salida/cap32_vppb_audiosupra.svg ancho=80% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % en los dos oídos.
+:::
+
+**45 dB** en 4 kHz y 60 en 8 kHz en los dos oídos: caída de agudos, la de la edad. En las frecuencias del habla, 25 dB. **Simétrica**: no hay nada retrococlear que perseguir (→ cap. 11). SRT de 20 dB y discriminación máxima de **92 %** en los dos oídos, acorde con la pérdida.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 70 a 75 dB en 500 Hz a 45 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::ayuda-ancho Lo que entrega Eva del equilibrio y de las posturas (→ H19, H20)
 | Prueba | Resultado |
 |---|---|
 | Presión arterial | acostada **138/78**; de pie al 1.er minuto **134/80** y a los 3 minutos **132/78**: sin caída |
 | Marcha | 6 m en 7 s: **0,86 m/s**. TUG **12 s** |
-| Batería de H20 | apoyo en un pie **6 s**; DGI de 4 ítems **10/12**, con vacilación al girar la cabeza; alcance funcional **21 cm**; DVA: pierde **1 línea** |
+| Batería de H20 | apoyo en un pie **6 s**; Berg, recoger un objeto del suelo, **3**; DGI de 4 ítems **10/12**, con vacilación al girar la cabeza; alcance funcional **21 cm**; DVA: pierde **1 línea** |
 | mCTSIB | sostiene las cuatro condiciones |
-| Dix-Hallpike derecho | sin nistagmo ni vértigo |
-| Dix-Hallpike izquierdo | tras unos **4 s**, vértigo y nistagmo hacia **arriba** con el polo superior del ojo girando hacia el oído **izquierdo**; crece y se apaga solo en unos **20 s**; al sentarla, nistagmo débil en sentido contrario |
-| Giro supino | sin nistagmo |
 | ABC | **52 %** |
 :::
 
@@ -237,32 +284,83 @@ Agrupa lo que podría explicar sus caídas por sistemas: cardiovascular, sensori
 
 #### Paso 4 · Los resultados
 
-:::figura cap32_fragil audiograma
-- @OD 1000 | **35 dB** en 1 kHz y **65** en 2 kHz: pérdida moderada en el habla, con una caída fuerte de agudos.
-- @OD 4000 | **110 dB** en 4 kHz y sin respuesta (120) más arriba. En el OI, 105 dB: **simétrica**, la forma de una presbiacusia.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, **oscila**; ojos cerrados, oscila mucho, **sin lado definido** |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro hacia un lado |
+| | Marcha, ojos abiertos | Lenta, con bastón y base ancha |
+| | Romberg sensibilizado / tándem | No los logra |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
-:::figura cap32_fragil logoaudiometria
-- @OD max | Discriminación máxima del **64 %** en el OD y del **68 %** en el OI, a 70 dB: baja, pero parecida entre los dos oídos y acorde con una pérdida de agudos tan grande.
+
+Oscila con los ojos abiertos y no se desvía hacia un lado: no es el patrón de una pérdida de un laberinto. Cerebelo y pares, sin hallazgos.
+
+:::imagen figuras/salida/cap32_fragil_nistagmo.svg ancho=75% Nistagmo espontáneo de Hugo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho vHIT
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,82 | 0,80 | 0,81 |
+| **Izquierdo** | 0,80 | 0,79 | 0,80 |
+:::
+
+Ganancia del VOR simétrica en los seis canales, sin sacadas.
+
+:::imagen figuras/salida/cap32_fragil_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **204 µV** en el OD y **363 µV** en el OI (4,07 y 7,33 corregidas por el EMG): asimetría de **29 %**, bajo el corte de 35 %. oVEMP de **19 µV** en los dos oídos (0,42 y 0,43), asimetría de **0 %**.
+
+:::imagen figuras/salida/cap32_fragil_audiosupra.svg ancho=80% Audiometría de Hugo: pérdida simétrica con caída fuerte de agudos y discriminación de 64 % y 68 %.
+:::
+
+Pérdida moderada en el habla, con una caída fuerte de agudos: **35 dB** en 1 kHz, **65** en 2 kHz y **110 dB** en 4 kHz en el OD, sin respuesta (120) más arriba. En el OI, 105 dB en 4 kHz: **simétrica**, la forma de una presbiacusia. SRT de 25 dB. Discriminación máxima del **64 %** en el OD y del **68 %** en el OI, a 70 dB: baja, pero parecida entre los dos oídos y acorde con una pérdida de agudos tan grande.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 70 dB en 500 Hz a 30 dB en 2 kHz; en 4 kHz la pérdida ya no deja ver el reflejo.
 
 :::ayuda-ancho Lo que entrega Hugo de la evaluación (→ H16, H19, H20)
 | Prueba | Resultado |
 |---|---|
 | Presión arterial | acostado 5 min **142/84**; de pie al minuto **118/70**, con "se me nubla"; a los 3 minutos **112/68** |
 | Marcha | 6 m en 11 s: **0,55 m/s**, con bastón. TUG **21 s**, con ayuda de los brazos para levantarse |
-| Batería de H20 | apoyo en un pie **menos de 2 s**; DGI de 4 ítems **5/12**; alcance funcional **12 cm**; DVA: pierde **2 líneas** |
+| Batería de H20 | apoyo en un pie **menos de 2 s**; Berg, recoger un objeto del suelo, **1**: necesita supervisión al intentarlo; DGI de 4 ítems **5/12**; alcance funcional **12 cm**; DVA: pierde **2 líneas** |
 | mCTSIB | sostiene con ojos abiertos sobre firme; con ojos cerrados oscila mucho; **cae** con ojos cerrados sobre espuma |
 | Vista | agudeza con lentes **0,3** (OD) y **0,4** (OI), con cataratas |
 | Pies | sensibilidad **disminuida** al monofilamento y a la vibración en ambos pies |
-| Posicional y vHIT | Dix-Hallpike y giro supino **negativos**; vHIT lateral **0,82** (OD) y **0,80** (OI), sin sacadas |
 | Cuestionarios | FES-I corta **22 de 28**; ABC **31 %** |
 | Durante la prueba | en el primer TUG no entendió la orden "ahora"; se repitió de frente y despacio |
 :::
 
-:::imagen ilustraciones/cap32-ortostatismo.svg ancho=80% La presión de Hugo acostado y de pie, con los cortes de la hipotensión ortostática: ya al minuto cruza los dos, y lo hace con síntomas.
-- @18.7,30.9 | **Acostado**: 142/84.
-- @42,45.5 | **Al minuto**: 118/70. Ya cruzó los dos cortes: bajó 24 la sistólica y 14 la diastólica. Dijo que se le nubló la vista.
-- @72,49.1 | **A los 3 minutos**: 112/68. **30** menos la sistólica y **16** menos la diastólica: cumple el criterio y, además, **tiene síntomas**.
+:::imagen ilustraciones/cap32-ortostatismo.svg ancho=80% La presión de Hugo acostado y de pie, con los cortes de la hipotensión ortostática. Acostado, 142/84. Al minuto, 118/70: ya cruzó los dos cortes (bajó 24 la sistólica y 14 la diastólica) y dijo que se le nubló la vista. A los 3 minutos, 112/68: 30 menos la sistólica y 16 menos la diastólica; cumple el criterio y, además, tiene síntomas.
 :::
 
 :::docente Guía del caso
@@ -289,35 +387,92 @@ Elige las pruebas que separan una pérdida de los pies, una del laberinto y una 
 
 #### Paso 4 · Los resultados
 
-:::figura cap32_bilateral audiograma
-- @OD 2000 | **40 dB** en 2 kHz y **55** en 4 kHz: caída de agudos suave y simétrica. En el habla, 25 dB.
-- @OI 8000 | **75 dB** en 8 kHz en el OI y **70** en el OD: la forma de la edad.
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Ojos abiertos, estable; ojos cerrados, oscila mucho y **cae**, **sin lado definido** |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro hacia un lado |
+| | Marcha, ojos abiertos | Lenta, de base ancha, apoyada en las murallas |
+| | Romberg sensibilizado / tándem | No los logra |
+| **Cerebelo** | Metría, diadococinesia, sinergia, rebote | Normales en los dos lados; sin temblor intencional; sin disartria |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
-:::figura cap32_bilateral logoaudiometria
-- @OD max | Discriminación del **88 %**, buena y simétrica: nada retrococlear.
+
+Se sostiene mientras ve y se cae cuando cierra los ojos, sin irse hacia un lado: no hay un laberinto sano que la compense. Sin signos de cerebelo ni de pares.
+
+:::imagen figuras/salida/cap32_bilateral_nistagmo.svg ancho=75% Nistagmo espontáneo de Isabel en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
+
+**Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo: una pérdida de los dos lados no deja un desbalance que mostrar.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **2 °/s** | (+) | No | No |
+| OD 44 °C | → | **3 °/s** | (+) | No | No |
+| OI 30 °C | → | **2 °/s** | (+) | No | No |
+| OD 30 °C | ← | **2 °/s** | (+) | No | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,54**, sacadas manifiestas | 0,62 | 0,66 |
+| **Izquierdo** | **0,52**, sacadas manifiestas | 0,60 | 0,64 |
+:::
+
+:::imagen figuras/salida/cap32_bilateral_mariposa.svg ancho=62% Gráfico de mariposa de Isabel: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las cuatro curvas apenas se separan de la línea.
+:::
+
+Hipoexcitabilidad izquierda: (3 + 2 − 2 − 2) / 9 = 11 %. Dirección preponderante hacia la derecha: 11 %. Los dos valores quedan **bajo los cortes**, pero **no sirven aquí**: la asimetría mide un lado contra el otro y los dos lados están caídos (→ cap. 24). Lo que informa es la **suma de cada oído**: **5 °/s** en el OD y **4 °/s** en el OI, bajo los 6 °/s de la Sociedad Bárány.
+
+:::imagen figuras/salida/cap32_bilateral_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de **374 µV** en el OD y **209 µV** en el OI (7,23 y 4,08 corregidas por el EMG): asimetría de **28 %**, bajo el corte de 35 %. oVEMP de **17** y **19 µV** (0,41 y 0,45): asimetría de **5 %**. Hay respuestas de los dos sáculos y utrículos; los VEMP no suman a la hipofunción de los canales.
+
+:::imagen figuras/salida/cap32_bilateral_audiosupra.svg ancho=80% Audiometría de Isabel: caída de agudos suave y simétrica, con discriminación de 88 % en los dos oídos.
+:::
+
+Caída de agudos suave y simétrica: **40 dB** en 2 kHz y **55** en 4 kHz en los dos oídos; **70 dB** en 8 kHz en el OD y **75** en el OI. En el habla, 25 dB. SRT de 15 dB. Discriminación de **88 %** en los dos, buena y simétrica: nada retrococlear.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 75 dB en 500 Hz a 35 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::ayuda-ancho Lo que entrega Isabel de la evaluación (→ H16 a H20)
 | Prueba | Resultado |
 |---|---|
 | Neurología (informe) | polineuropatía sensitiva distal simétrica; **sin sensibilidad** al monofilamento ni a la vibración en ambos pies; reflejos aquíleos ausentes; sin dismetría, sin disartria; resonancia sin atrofia cerebelosa |
-| Calórica bitérmica, tibia + fría | OD **5 °/s**, OI **4 °/s** |
-| vHIT lateral | OD **0,54**, OI **0,52**, con sacadas manifiestas |
 | DVA, giro horizontal a 3 Hz | pierde **4 líneas** |
-| Posicional | Dix-Hallpike y giro supino **negativos** |
 | Presión arterial | acostada **134/76**; de pie al minuto **130/76** y a los 3 minutos **128/74**: sin caída |
 | Marcha | 6 m en 9 s: **0,67 m/s**. TUG **16 s**. DGI de 4 ítems **5/12** |
-| Batería de H20 | apoyo en un pie **0 s**; alcance funcional **14 cm** |
+| Batería de H20 | apoyo en un pie **0 s**; Berg, recoger un objeto del suelo, **2**: llega a 2-5 cm; alcance funcional **14 cm** |
 | mCTSIB | sostiene las tres primeras (más balanceo sobre espuma con ojos abiertos); **se cae** con ojos cerrados sobre espuma |
 | Cuestionarios | ABC **44 %**; DHI **58** (moderado) |
 :::
 
-:::imagen ilustraciones/cap32-mctsib-perfiles.svg ancho=100% El mCTSIB de cuatro perfiles. El tercero es el de Isabel, con neuropatía y pérdida vestibular bilateral: se sostiene mientras ve y se cae al cerrar los ojos sobre espuma, porque la vista es su último apoyo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @85.8,21.6 | **Referencia, sin déficit.** Con ojos cerrados sobre espuma el balanceo es el mayor de todas las condiciones, pero se sostiene.
-- @85.8,42.6 | **Solo neuropatía.** Se sostiene, con más balanceo: con los pies caídos le quedan la vista y el vestíbulo.
-- @63.2,63.6 | **Neuropatía y pérdida vestibular.** Con ojos abiertos sobre espuma se sostiene: **la vista la está sosteniendo**.
-- @85.8,63.6 | Sin la vista no queda ningún sentido confiable y **se cae**. Es el baño de noche.
-- @63.2,84.5 | **Y mala vista además.** Ya con los ojos abiertos sobre espuma se balancea mucho más: se le acaba el último apoyo.
+:::imagen ilustraciones/cap32-mctsib-perfiles.svg ancho=100% El mCTSIB de cuatro perfiles. El tercero es el de Isabel, con neuropatía y pérdida vestibular bilateral: se sostiene mientras ve y se cae al cerrar los ojos sobre espuma, porque la vista es su último apoyo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares). Referencia: con ojos cerrados sobre espuma el balanceo es el mayor, pero se sostiene. Solo neuropatía: se sostiene con más balanceo, porque le quedan la vista y el vestíbulo. Neuropatía y pérdida vestibular: con ojos abiertos sobre espuma se sostiene, la vista la está sosteniendo; sin la vista no queda ningún sentido confiable y se cae, es el baño de noche. Y mala vista además: ya con los ojos abiertos se balancea mucho más, se le acaba el último apoyo.
 :::
 
 :::docente Guía del caso
@@ -338,6 +493,18 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 Las dos caídas y los mareos sin caída tienen lo mismo en común: un **movimiento de la cabeza**, hacia atrás, al levantarse, al agacharse o al girar en la cama. Dura segundos, no la marea sentada ni caminando y no hay palpitaciones ni síncope. Ella dice que "no es vértigo", y es la manera en que lo cuenta una persona mayor: la guía mundial advierte que en los mayores los síntomas son más variables y que el vértigo no siempre se reconoce por la historia (Montero-Odasso y cols., 2022; Oghalai y cols., 2000). La presión de pie es normal, la marcha está sobre el corte y la audición no explica una caída de esas características. Quedaba probar la posición: el Dix-Hallpike **izquierdo** da vértigo y el nistagmo del canal posterior, con latencia, crecimiento y calma sola, y se invierte al sentarse. El derecho es negativo.
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg, Romberg sensibilizado, brazos extendidos, Unterberger y marcha sin alteraciones; tándem con vacilación. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: sin nistagmo. **Posicional:** Dix-Hallpike derecho sin nistagmo; Dix-Hallpike izquierdo (E-CCI) con nistagmo vertical superior y torsional hacia el OI, latencia de 4 s, duración de 20 s, paroxístico y fatigable, con vértigo moderado; al sentarse (CCI-E), nistagmo débil en sentido contrario. Giro supino sin nistagmo.
+>
+> **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,92, izquierdo 0,93), sin sacadas. **Audiometría:** hipoacusia sensorioneural bilateral de agudos, simétrica; SRT de 20 dB y discriminación máxima de 92 % en los dos oídos. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Evaluación de equilibrio:** presión sin caída de pie; marcha 0,86 m/s; TUG 12 s; apoyo monopodal 6 s; Berg (recoger un objeto del suelo) 3; DGI de 4 ítems 10/12; alcance funcional 21 cm; DVA con pérdida de 1 línea; ABC 52 %.
+>
+> **Conclusión:** examen compatible con **vértigo posicional paroxístico benigno del canal posterior izquierdo**, con riesgo alto de caída. Sin hipofunción vestibular.
+
 #### Diagnóstico y qué sigue
 
 **VPPB del canal posterior izquierdo**, canalitiasis. Se hace la maniobra hacia el lado izquierdo (→ H19, cap. 22; Bhattacharyya y cols., 2017) y se vuelve a controlar a la semana con las pruebas de provocación. Lo que no se hace es dar el caso por cerrado: se cayó dos veces, una con **fractura**, y por eso entra en la caja de **riesgo alto** de la guía. Lo que sigue es lo que se hace con cualquier persona con ese riesgo: una evaluación multifactorial (la vista y los lentes, la casa, la fuerza y los fármacos con su médico, que ya trata una osteoporosis) y un **programa de fuerza y equilibrio** de varias sesiones por semana que progrese durante al menos 12 semanas y continúe después (Montero-Odasso y cols., 2022; → Patología). Se repite la ABC al terminar: su 52 % dice que el miedo también hay que tratarlo, y lo hace la misma recuperación de lo que teme.
@@ -351,6 +518,16 @@ Es el caso del "es la edad". Una maniobra de pocos minutos le quitó una causa d
 #### Razonamiento
 
 Hugo cae de **pie**, de mañana y de noche, con la vista que se nubla y las piernas que se van: la descripción del mareo por falta de sangre al ponerse de pie. La presión lo confirma: bajó **30 y 16 mmHg** a los 3 minutos y cumple el criterio de hipotensión ortostática (Freeman y cols., 2011), con síntomas. Y toma cinco fármacos que pueden contribuir: dos hipotensores (amlodipino, enalapril), un diurético de asa (la furosemida), un alfabloqueante para la próstata y un benzodiazepínico de noche. Los metaanálisis asocian con caídas a los diuréticos de asa y a las benzodiazepinas (de Vries y cols., 2018; Seppala y cols., 2018); para el resto no hay una cifra, pero juntos pueden explicar una presión que cae al ponerse de pie: eso lo decide el médico. El examen vestibular no muestra nada que explique el cuadro: sin vértigo, Dix-Hallpike y giro supino negativos, vHIT normal, y una DVA que pierde 2 líneas, poco para una hipofunción y difícil de leer con cataratas. Lo que sí hay es una **marcha lenta** (0,55 m/s, TUG de 21 s), una neuropatía leve, cataratas, fragilidad y mucho miedo (FES-I corta de 22 de 28; ABC de 31 %). Al no poder levantarse del suelo por dos horas, entra en la caja de riesgo alto sin discusión.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con oscilación con ojos abiertos y mayor con ojos cerrados, sin lado definido; sin desvío de brazos ni giro en Unterberger; marcha lenta con bastón y base ancha; no logra tándem. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en el Dix-Hallpike ni en el giro supino. **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,82, izquierdo 0,80), sin sacadas. **VEMP:** cVEMP con asimetría de 29 % y oVEMP con asimetría de 0 % (valores no significativos). **Audiometría:** hipoacusia sensorioneural bilateral moderada a profunda de agudos, simétrica; SRT de 25 dB y discriminación máxima de 64 % en el OD y de 68 % en el OI. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Evaluación de equilibrio:** presión de 142/84 acostado y 112/68 de pie a los 3 minutos, con síntomas; marcha 0,55 m/s; TUG 21 s; apoyo monopodal menor de 2 s; Berg (recoger un objeto del suelo) 1; DGI de 4 ítems 5/12; alcance funcional 12 cm; DVA con pérdida de 2 líneas; mCTSIB con caída sobre espuma con ojos cerrados; agudeza visual 0,3 y 0,4; sensibilidad de los pies disminuida; FES-I corta 22/28; ABC 31 %.
+>
+> **Conclusión:** examen sin hallazgos vestibulares que expliquen el cuadro, con riesgo alto de caída y caída de la presión al ponerse de pie con síntomas. Se avisa al médico tratante.
 
 #### Diagnóstico y qué sigue
 
@@ -370,6 +547,18 @@ La guía mundial recomienda, para quien tiene un riesgo alto, una evaluación mu
 #### Razonamiento
 
 Isabel cae de noche y a oscuras, ve bien con sus lentes y tiene la presión normal: los dos sentidos que le sostenían el equilibrio sin luz están caídos. Los **pies**, por una neuropatía que el neurólogo ya documentó: sin sensibilidad al monofilamento ni a la vibración, sin reflejos aquíleos. Y el **laberinto de los dos lados**: la calórica suma 5 y 4 °/s, bajo el límite de 6 de la Sociedad Bárány, y el vHIT da 0,54 y 0,52, bajo 0,6 (Strupp y cols., 2017; → cap. 24); la DVA pierde 4 líneas, y la oscilopsia en la micro lo confirma. Con los dos sentidos fuera, **queda la vista**: por eso se sostiene en el mCTSIB con ojos abiertos sobre espuma, se cae con ojos cerrados y se cae en la vida diaria cuando falta luz. Un tercer detalle: no hay disartria, dismetría ni atrofia en la resonancia, y la audición es la de su edad. No es el caso 24.4: allí había signos cerebelosos y una neuropatía que cambiaban el cuadro.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg estable con ojos abiertos; con ojos cerrados oscila y cae, sin lado definido; sin desvío de brazos ni giro en Unterberger; marcha lenta de base ancha; no logra tándem. **Neocerebelo:** sin alteraciones; sin disartria. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en el Dix-Hallpike ni en el giro supino.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 11 % (valor no significativo) y dirección preponderante hacia derecha de 11 % (valor no significativo); la suma de las respuestas de cada oído es de 5 °/s en el OD y de 4 °/s en el OI, bajo 6 °/s: hipofunción vestibular bilateral. **vHIT:** ganancia disminuida en los canales laterales (derecho 0,54, izquierdo 0,52, con sacadas manifiestas), y también en los anteriores y posteriores. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 5 % (valores no significativos), con respuestas presentes en los dos oídos. **Audiometría:** hipoacusia sensorioneural bilateral leve a moderada de agudos, simétrica; SRT de 15 dB y discriminación máxima de 88 % en los dos oídos. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Evaluación de equilibrio:** DVA con pérdida de 4 líneas; presión sin caída; marcha 0,67 m/s; TUG 16 s; apoyo monopodal 0 s; Berg (recoger un objeto del suelo) 2; DGI de 4 ítems 5/12; alcance funcional 14 cm; mCTSIB con caída sobre espuma con ojos cerrados; ABC 44 %; DHI 58.
+>
+> **Conclusión:** examen compatible con hipofunción vestibular bilateral de los canales semicirculares, con riesgo alto de caída.
 
 #### Diagnóstico y qué sigue
 

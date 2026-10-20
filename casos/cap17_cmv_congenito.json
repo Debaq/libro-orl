@@ -44,6 +44,7 @@
     {
       "tipo": "abr",
       "niveles": [
+        80,
         60,
         40,
         20
@@ -51,7 +52,8 @@
       "marcar": [
         "V"
       ],
-      "estimulo": "Burst 500 Hz"
+      "estimulo": "Burst 500 Hz",
+      "promediaciones": 3000
     },
     {
       "tipo": "abr",

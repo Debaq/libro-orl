@@ -1,77 +1,107 @@
 
+### `capitulos/09-hidrops.md`
+
+- **L294**: - @OD PA \| El OD tiene un PA profundo y un PS chico: razón [-**0,31**,-]{+**0,25**,+} bajo el 0,40 del electrodo timpánico, y razón de áreas [-**1,19**,-]{+**1,17**,+} bajo 1,94. Es la referencia.
+- **L295**: - @OI PS \| En el OI el PS es casi tan grande como el PA: razón [-**0,60**.-]{+**0,63**.+}
+- **L296**: - @OI PA \| Después del PA el trazo no vu …  dentro de la figura: el retorno está a [-7,3-]{+8,8+} ms. Esa cola es el PS prolongado, y lleva la razón de áreas a [-**3,61**.-]{+**3,87**.+}
+- **L373**: - @OI PS \| En el OI el PS es grande frente al PA: razón PS/PA [-**0,45**,-]{+**0,64**,+} sobre el límite de 0,40 del electrodo timpánico.
+- **L374**: - @OI PA \| La razón de áreas es [-**2,88**,-]{+**1,95**, apenas+} sobre 1,94. Latencia del PA, [-**1,43-]{+**1,60+} ms**.
+- **L404**: Hipoacusia sensorioneural del OI, ascend … ococleografía del OI con razón PS/PA de [-0,60-]{+0,63+} y razón de áreas de [-3,61,-]{+3,87,+} sobre los límites. VEMP cervical del OI …  crisis, para documentar la fluctuación.
+- **L418**: OD: hipoacusia sensorioneural profunda,  … ococleografía del OI con razón PS/PA de [-0,45-]{+0,64+} y razón de áreas de [-2,88,-]{+1,95,+} sobre los límites; sin respuesta en el  … la audición del OI empeora (→ Parte IX).
+
+### `capitulos/11-asimetria-que-no-cierra.md`
+
+- **L284**: - @OD 80 V \| La V del OD llega [-cerca de **1-]{+**0,8+} ms más tarde** que la del OI al mismo nivel. La diferencia interaural [-supera-]{+duplica el límite+} de[-lejos los-] 0,4 ms.
+
 ### `capitulos/12-el-tronco.md`
 
-- **L203**: - @OD 80 I \| La onda I del OD llega a [-1,4-]{+1,2+} ms y la III a [-3,5:-]{+3,3:+} **I-III de [-2,2-]{+2,1+} ms**, normal (límite 2,6).
-- **L204**: - @OD 80 V \| La V llega a [-6,0-]{+5,9+} ms: **III-V de [-2,4-]{+2,6+} ms** (límite 2,3) e I-V de [-4,6-]{+4,7+} ms, [-en-]{+sobre+} el límite (4,6). El tramo alto del tronco es el que se alarga.
-- **L205**: - @OI 80 V \| En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de [-2,7-]{+2,6+} ms** e I-V de 4,8, sobre el límite. Es  … *el retraso empieza después de la III**.
-- **L209**: - @OD 80 V \| A 81,1 estímulos por segundo la V del OD llega a [-7,1-]{+7,2+} ms: **se atrasó [-1,2-]{+1,3+} ms**, más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
-- **L251**: - @OD 80 III \| En el OD **no hay onda I**. La III llega a [-4,3-]{+4,0+} ms.
-- **L252**: - @OD 80 V \| La V llega a [-6,2-]{+6,1+} ms, de buen tamaño: **III-V de [-1,9-]{+2,1+} ms**, normal. El tronco conduce bien.
-- **L253**: - @OI 80 V \| El OI tiene las tres ondas: I a 1,9, III a [-4,0-]{+4,1+} y V a 5,9 ms. La V del OD llega [-**0,3-]{+**0,2+} ms** después, por debajo del límite de 0,4.
-- **L257**: - @OD 80 V \| A 81,1 estímulos por segundo la V del OD llega a [-6,6-]{+6,7+} ms: [-**0,4-]{+**0,6+} ms más tarde**, un alargamiento esperable. La vía central aguanta.
-- **L258**: - @OI 80 V \| La V del OI llega a 6,4 ms: se atrasó [-0,5-]{+0,6+} ms, [-parecido-]{+lo+} [-al-]{+mismo que el+} OD.
-- **L298**: - @OD 80 V \| La V del OD llega a 6,1 ms, …  la tabla del niño (5,5 ms), con I-V de [-4,4-]{+4,6+} ms. Las ondas miden [-menos de-]0,2 [-µV.-]{+µV o menos.+}
-- **L300**: - @OD 60 V \| A 60 dB quedan solo la III y la V; a 40 [-dB-]{+dB,+} [-no-]{+apenas+} [-queda-]{+una+} [-nada.-]{+V a 7,7 ms.+}
-- **L303**: - @OD 80 V \| A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a [-6,9-]{+7,1+} ms con menos de 0,2 µV.
-- **L304**: - @OI 80 V \| En el OI la V llega a [-7,1-]{+6,9+} ms y mide 0,08 µV. Una respuesta tan ch …  una vía que **no aguanta el esfuerzo**.
-- **L392**: - @OD 80 V \| La V es de 0,25 µV, menor que la I [-(0,42-]{+(0,44+} µV): V/I alrededor de 0,6.
-- **L395**: - @OD 80 V \| A 81,1 estímulos por segundo la V del OD llega a [-7,0-]{+6,9+} ms: **se atrasó [-0,7-]{+0,6+} ms** [-(11-]{+(10+} %), dentro del alargamiento de una V sana.
-
-### `capitulos/13-oye-pero-no-entiende.md`
-
-- **L237**: - @OD 80 I \| Aquí **sí hay ondas**, pero tardías: la I a [-unos 1,5-]{+1,4+} ms, la III [-cerca-]{+a+} [-de 4,3-]{+4,2+} y la V [-en torno-]a [-6,6.-]{+6,7.+}
-- **L282**: - @OD 80 V \| A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 [-ms;-]{+ms. La marca de la III cae sobre un trazo que no se separa del ruido:+} no hay I ni III identificables.
-- **L322**: - @OD 80 I \| Las ondas están, pero tardí … erca de 1,7 ms, la III de 4,2 y la V de [-6,8.-]{+6,7.+}
-- **L323**: - @OD 80 V \| El I-V [-pasa-]{+llega+} [-de-]{+a+} **5 ms**; el OI es [-parecido.-]{+parecido (4,9).+} La conducción central está enlentecida con una cóclea sana.
-
-### `capitulos/14-lo-que-mueve-el-abr-sin-ser-el-oido.md`
-
-- **L190**: - @OI 90 III \| La III llega a [-3,7-]{+3,5+} ms: I-III de [-2,4-]{+2,3+} ms, bajo el límite de 2,6 de la mujer adulta.
-- **L192**: - @OD 80 V \| En el OD, a 80 dB, la V llega a [-5,7-]{+5,8+} ms y la III a [-3,9.-]{+3,7.+} Ambas bajo los límites de la mujer adul … 80 dB le llega con poca sobreintensidad.
-- **L193**: - @OD 60 V \| La V sigue visible a 60 dB, a [-6,5-]{+6,4+} ms; el umbral de click de los dos oídos es de [-50-]{+45+} dB nHL.
-- **L194**: - No hay diferencia interaural: la V del OD y la del OI difieren en 0,1 ms a 80 dB y [-no-]{+en+} [-difieren-]{+0,2+} a [-90.-]{+90, bajo el límite de 0,4.+}
-- **L226**: - @OD 80 III \| La III llega a [-4,8-]{+4,7+} ms y la V, a 7,2 ms (el hombre adulto de referencia: 3,75 y 5,68; límite de la V: 6,2).
-- **L227**: - @OD 80 V \| I-III de [-2,8-]{+2,7+} ms, III-V de [-2,4-]{+2,5+} ms e **I-V de [-5,2-]{+5,3+} ms**, contra 4,2 de la media (límite 4,7). Los interpicos también están largos.
-- **L228**: - @OD 60 V \| Con cada 20 dB menos el tra …  60 dB la V llega a 7,6 ms y a 40 dB, a [-8,4-]{+8,5+} ms; la I, a [-3,4-]{+3,3+} ms.
-- **L237**: - **Para discutir:** La temperatura está en la historia. El I-V de [-5,2-]{+5,3+} ms calza con la regla de Markand (4,2 ms × 1,07³ ≈ [-5,2-]{+5,1+} ms).
-- **L260**: - @OD 80 I \| A 80 dB hay **solo onda I**, a [-1,5-]{+1,4+} ms: latencia de adulto normal, bien formada.
-- **L261**: - @OD 60 I \| Sigue la I a 60 dB [-(1,9-]{+(2,0+} ms) y a 40 dB [-(2,9-]{+(3,1+} ms): sube su latencia al bajar la inten … un oído sano. El umbral de la I es bajo.
-- **L324**: - OD y OI: a 90 y 80 dB nHL se registran las ondas III y V;[-en el OI-] a 90 dB también la I. Latencias absolut …  para mujer adulta; interpicos medibles [-(OI, a-]{+(a+} 90 dB) dentro del límite. Sin diferencia interaural de la onda V. Umbral de click de [-50-]{+45+} dB nHL en ambos oídos.
-- **L337**: Todas las ondas están atrasadas, la I in … o por 7 % por cada grado que baja de 36 [-es-]{+da+} [-5,2-]{+5,1+} ms, [-que es lo que-]{+y+} se [-midió.-]{+midieron 5,3.+} Los fármacos no son la explicación: las …  la sedación habitual casi no toca la V.
-- **L343**: - OD y OI: a 80 dB nHL se registran las  …  I-III, III-V e I-V prolongados (I-V de [-5,2-]{+5,3+} ms). Sin diferencia interaural. Se registra la respuesta hasta 40 dB nHL.
+- **L343**: - @OD 80 III \| Las ondas apenas sobresal … menos de 0,2 µV). En el OD la I está en [-1,6-]{+1,7+} ms y la III en 4,6: **I-III de [-3,0-]{+2,9+} ms**, sobre el límite de 2,7.
+- **L344**: - @OD 80 V \| La V llega a [-6,6-]{+6,7+} ms: I-V de 5,0 ms (límite 4,7).
+- **L345**: - @OI 80 I \| En el OI la marca de la I cae en [-1,1-]{+1,3+} ms, antes de lo que [-llega-]{+suele llegar+} una onda I [-normal:-]{+normal (cerca de 1,5):+} es ruido y no se mide con ella. Hay **q … te con un registro de ondas tan bajas**.
+- **L346**: - @OD 60 V \| A 60 dB quedan III y V a [-5,2-]{+5,1+} y [-7,5-]{+6,9+} ms; a 40 [-dB-]{+dB, apenas una marca de V a 7,6 ms que+} no [-queda-]{+se+} [-nada.-]{+separa del ruido.+}
+- **L349**: - @OD 80 V \| A 81,1 estímulos por segundo la V del OD llega a [-7,6-]{+7,1+} ms [-(1,1-]{+(0,5+} ms más tarde) y mide 0,10 µV.
+- **L350**: - @OI 80 V \| La V del OI llega a [-7,0-]{+7,4+} ms{+(1,3 ms más tarde)+} con 0,09 µV. Las ondas casi se pierden en el [-ruido.-]{+ruido, y con marcas tan inestables el atraso de cada oído no se mide con confianza.+}
 
 ### `capitulos/15-cuando-tambien-cae-la-osea.md`
 
-- **L166**: - @OD 60 \| A 60 dB no hay respuesta. El umbral por aire del click está en [-**70-]{+**65+} dB nHL**.
-- **L169**: - @OI 50 V \| Por **vía ósea**, el OI san …  hay nada: su umbral óseo está cerca de [-30-]{+25+} dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
-- **L351**: La aérea de 55 a 65 dB con un gap de 25  … ire, la V llega tarde y el umbral es de [-70-]{+65+} dB nHL. El ABR óseo no agrega nada en u … mbral queda sobre el techo del vibrador.
+- **L245**: - @OD 80 V \| En el OD la V llega tarde,  … ión: el umbral por aire del click es de [-**60-]{+**55+} dB nHL**.
+- **L248**: - @OD 50{+V+} \| Por vía ósea, {+a 50 dB+}el OD [-**no-]{+**apenas+} [-alcanza-]{+muestra una V**, chica y tardía,+} a [-mostrar-]{+9,1+} [-una V a 50 dB**. Su umbral óseo-]{+ms:+} está en [-55,-]{+su+} [-en-]{+umbral+} [-el-]{+óseo, a 5 dB del+} último escalón del [-vibrador.-]{+vibrador (55).+}
 
 ### `capitulos/17-el-lactante-que-se-estudia.md`
 
-- **L198**: - @OD 80 V \| A 80 dB nHL aparece la V del OD a [-**6,66-]{+**6,37+} ms**, con la I a [-2,46-]{+2,17+} y la III a [-4,56:-]{+4,23:+} todas las ondas **llegan tarde**, la I incluida.
-- **L199**: - @OD 60 V \| La V sigue a 60 dB [-(7,64-]{+(7,07+} ms): cada 20 dB que baja el estímulo, l … esperable de una pérdida de transmisión.
-- **L200**: - @OD 40 V \| A 40 dB nHL todavía hay una V pequeña, a [-8,63-]{+8,13+} ms: **umbral del OD de 40 dB nHL con cl …  el click no se corrige: unos 40 dB eHL.
-- **L201**: - @OI [-60-]{+40+} V \| El OI responde igual: V a [-7,74-]{+7,20+} ms con 60 dB [-nHL,-]{+nHL+} y a [-40-]{+8,03+} [-dB-]{+ms+} [-ya-]{+con+} [-no se distingue de ruido.-]{+40.+}
-- **L205**: - @OD 55 V \| Por **vía ósea**, a 55 dB nHL la V del OD llega a [-6,56-]{+6,53+} ms.
-- **L206**: - @OD 40 V \| A 40 dB nHL, [-7,41-]{+7,33+} ms.
-- **L207**: - @OD 20 V \| A **20 dB nHL** todavía hay V [-(8,53-]{+(8,47+} ms): la cóclea responde en el nivel más … ncia es de **20 dB o más**: transmisión.
-- **L208**: - @OI 20 V \| El OI da lo mismo: V a [-8,64-]{+8,63+} ms con 20 dB nHL por hueso.
-- **L290**: - @OD [-100-]{+90+} V \| Con click, [-solo-]{+la V del OD aparece recién+} a [-**100-]{+**90+} dB nHL** [-aparece-]{+(6,50+} [-una-]{+ms),+} [-V-]{+chica,+} [-pequeña-]{+y+} [-en-]{+a+} [-el-]{+100+} [-OD (6,25-]{+(6,00+} ms). A[-90 y-] 80 dB no hay onda.
-- **L291**: - @OI [-100-]{+90+} V \| El OI es igual: V a [-6,18-]{+6,37+} ms a [-100-]{+90+} dB nHL y {+a 5,83 a 100, y+}nada [-abajo.-]{+a 80.+}
-- **L295**: - @OD 100 V \| Con **burst de 500 Hz**, la V solo aparece a 100 dB nHL [-(8,97-]{+(9,17+} ms). 100 − 20 = **80 dB eHL**.
-- **L296**: - @OI 100 V \| Igual en el OI [-(8,99-]{+(9,03+} ms): 80 dB eHL, el **umbral está en el tope** del equipo.
-- **L363**: La curva plana de 1.000 Hz y las emision … ck el umbral aéreo está en 40 dB nHL en [-el-]{+los+} [-OD-]{+dos+} [-y cerca de 60 en el OI,-]{+oídos,+} y por vía ósea hay respuesta a 20 dB nH …  el sello de una pérdida de transmisión.
-- **L391**: Sin emisiones y con el oído medio sano, la pérdida es coclear en los dos lados. [-La-]{+Con click la+} V [-solo-]{+aparece+} [-aparece-]{+recién+} a [-100-]{+90+} dB nHL,[-con click-] y con burst de 500 [-Hz:-]{+Hz solo a 100:+} **el umbral está en el tope del equipo* … Hz, 100 − 20 = 80 dB eHL; con el click, [-unos-]{+que a esta edad no se corrige,+} 90. Por vía ósea no hay respuesta ni a  … ás, coherente con una rubéola congénita.
+- **L243**: - @OD 80 V \| Con click a 80 dB nHL, la V del OD llega a [-**6,25-]{+**6,00+} ms**, [-casi-]{+0,3+} [-medio milisegundo-]{+ms+} más tarde que la del OI: la pérdida obl … ivel efectivo, la vía no es la culpable.
+- **L244**: - @OD 60 V \| La V sigue a 60 dB nHL [-(6,99-]{+(6,77+} ms).
+- **L246**: - @OI 80 V \| El OI responde con I, III y V bien formadas: V a [-5,76-]{+5,70+} ms e interpico **I-V de [-4,2-]{+4,0+} ms**, normal para su edad (→ cap. 14).
+- **L247**: - @OI 20 V \| Y mantiene la V hasta **20 dB nHL** [-(7,92-]{+(7,77+} ms): el oído sano al lado sirve de comparación.
+- **L250**: - @OD 60 V \| Con **burst de 500 Hz** el OD [-solo-]tiene V a [-60-]{+80+} dB nHL [-(9,84-]{+(9,00+} [-ms,-]{+ms;+} el tone burst grave llega más tarde que el [-click);-]{+click) y una V chica a 60 (10,03 ms);+} a 40 no hay respuesta. 60 − 20 = **40 dB eHL**.{+Cerca del umbral la V del grave es tan chica que se promedió más: 3.000 barridos.+}
+- **L251**: - @OI 20 V \| El OI responde hasta 20 dB nHL (V a [-10,57-]{+10,60+} ms).
+- **L254**: - @OD 60 V \| Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL [-(7,57-]{+(7,73+} ms) y no a 40: umbral de 60 dB nHL. 60  … 0 Hz, una pérdida levemente descendente.
+- **L255**: - @OI 40 V \| El OI responde a 40 dB nHL (V a [-7,48-]{+7,57+} ms).
+
+### `capitulos/18-el-abr-que-engana.md`
+
+- **L152**: - @OD 40 V \| A 40 dB la V está a [-6,9-]{+6,8+} ms: ahí coincide con lo que anotó el alumno.
+- **L154**: - @OD 10 V \| A 10 dB la V sigue ahí, a u …  dos réplicas: el **umbral del paciente [-es-]{+está en+} 10 dB [-nHL**,-]{+nHL+} [-tal-]{+o más abajo**,+} como dice su audiograma.
+- **L158**: - @92,13 \| **250 barridos:** FSP [-cerca-]de [-1-]{+1,6+} y las dos mitades no se parecen. Los pi … ecir ni que hay ni que no hay respuesta.
+- **L159**: - @92,40 \| **1.000 barridos:** el ruido residual [-ya-]{+bajó+} [-es-]{+de+} [-la-]{+111+} [-mitad,-]{+a 66 nV y el FSP llega justo al criterio de 3,1,+} pero las mitades todavía no se pegan.
+- **L160**: - @92,77 \| **4.000 barridos:** el FSP pasa el [-criterio.-]{+criterio con holgura (16,7).+} La onda de 8 ms está en las dos mitades.
+- **L192**: - @OD 100 I \| Con fono de inserción y polaridad alternada, la I llega a [-1,3-]{+1,2+} ms.
+- **L193**: - @OD 100 V \| Y la V, a 5,5 ms. Interpico I-V de [-4,2-]{+4,3+} ms.
+- **L229**: - @OD 90 V \| Con la ventana de rutina, a 90 dB la V del OD llega a [-6,0-]{+5,8+} ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
+- **L230**: - @OD 70 V \| A 70 dB la V se atrasa a 6,5 [-ms y se achica.-]{+ms.+}
+- **L306**: - @OI 50 V \| A 50 dB está a [-6,7-]{+6,5+} ms. Con una ventana de 6 ms **queda afuera**.
+- **L307**: - @OI 30{+V+} \| A 30 dB, a [-8,0-]{+7,7+} ms, [-muy-]{+en+} [-cerca del-]{+el+} umbral. Un umbral buscado con la ventan … ene en el nivel donde la V todavía cabe.
+- **L345**: ABR normal con [-umbral de la-]onda V [-en-]{+presente hasta+} 10 dB [-nHL.-]{+nHL, el nivel más bajo registrado.+} El registro anterior no se informa como pérdida: se rehace con más barridos.
+- **L359**: El intervalo I-V "acortado" no es un hal … a. Con el registro limpio, la I llega a [-1,3-]{+1,2+} ms y la V a 5,5 ms, sin alteración neural.
+- **L397**: El oído del paciente es el de una hipoac … s la que más pesa: la V a 50 dB llega a [-casi 7-]{+6,5+} ms y a 30 dB, a{+casi+} 8 ms, de modo que **no cabe** y el equi … , además, achican y redondean las ondas.
+- **L401**: ABR del oído izquierdo con umbral de la onda V [-cerca de-]{+en+} 30[-a 35-] dB nHL con la configuración de rutina.  … de 100 a 3.000 Hz y polaridad alternada.
+- **L419**: 2. Con 250 barridos el FSP vale [-1,1-]{+1,6+} y el ruido residual es alto; con 4.000, … "con 250 ya se ve que no hay respuesta"?
+
+### `capitulos/23-crisis-que-vuelven.md`
+
+- **L213**: - @OD PA \| El OD casi no tiene respuesta … que no se separa del ruido. La razón de [-**0,24**-]{+**0,43**+} y la de áreas de [-**1,98**-]{+**4,64** pasan los límites, pero+} salen de un trazo casi plano y **no se pueden leer**.
+- **L214**: - @OI PA \| El OI es la referencia: PA claro, razón de [-**0,17**-]{+**0,09**+} y de áreas de [-**1,14**,-]{+**1,04**,+} bajo los límites de 0,40 y 1,94 (→ cap. 9).
+- **L264**: - @OD PS \| El OD tiene un PS grande: razón [-**0,65**,-]{+**0,71**,+} sobre el límite de 0,40 del electrodo timpánico, aunque su razón de áreas es de [-**1,65**,-]{+**1,76**,+} bajo el 1,94.
+- **L265**: - @OI PS \| El OI tiene la razón en [-**0,43**,-]{+**0,45**,+} apenas sobre el límite, y la razón de áreas en [-**2,84**,-]{+**2,43**,+} por encima de 1,94: los **dos** oídos tienen huella de hidrops, con un perfil distinto.
+- **L311**: - @OD PS \| Los dos oídos tienen la razón PS/PA bajo el límite: [-**0,17**-]{+**0,15**+} en el OD y [-**0,28**-]{+**0,25**+} en el OI, y de áreas [-**1,11**-]{+**1,13**+} y [-**1,19**.-]{+**1,18**.+} Ninguna huella de hidrops.
+- **L355**: - @OD max \| El OD llega a 100 [-%.-]{+% ya a 30 dB.+}
+- **L356**: - @OI max \| El OI llega a {+su máximo,+}**96 %**,{+recién+} a 60 dB: la [-discriminación-]{+curva+} [-se-]{+está+} [-conserva,-]{+corrida+} [-como-]{+unos+} [-en-]{+30+} [-una-]{+dB+} [-cóclea.-]{+a la derecha, lo que corresponde a su pérdida de graves (SRT de 25 dB).+}
+- **L357**: {+- @OI 100 \| Pasados los 60 dB la curva del OI **cae**: 84 % a 80 dB y 83 % a 100 dB. Es un roll-over leve, con índice (96 − 83) / 96 = 0,14, lejos del 0,45 que sugiere una lesión del nervio (Jerger y Jerger, 1971; → cap. 11). Una caída así se ve en oídos cocleares y, con el reclutamiento de este oído, es la palabra fuerte que llega distorsionada.+}
+- **L360**: - @OD PS \| El OD es normal: razón [-**0,33**-]{+**0,27**+} y de áreas [-**1,20**.-]{+**1,21**.+}
+- **L361**: - @OI PS \| El OI tiene un PS grande: razón [-**0,53**-]{+**0,64**,+} [-y-]{+sobre el límite de 0,40. La+} razón de [-áreas-]{+áreas,+} [-**2,60**,-]{+**1,83**,+} [-las-]{+queda+} [-dos-]{+bajo+} [-sobre los límites (0,40 y 1,94).-]{+1,94.+}
 
 ### `capitulos/34-el-caso-medico-legal.md`
 
-- **L267**: \| **OD**, burst (nHL) \| 30 \| 30 \| 45 \| [-75-]{+80+} \|
-- **L268**: \| **OD**, estimado (eHL) \| 10 \| 15 \| 35 \| [-65-]{+70+} \|
-- **L269**: \| **OI**, burst (nHL) \| 30 \| 30 \| 45 \| [-70-]{+75+} \|
-- **L270**: \| **OI**, estimado (eHL) \| 10 \| 15 \| 35 \| [-60-]{+65+} \|
-- **L272**: Falta 3.000 Hz. Se interpola entre 2.000 y 4.000 Hz: [-50-]{+unos 52+} dB en el OD y [-unos 48-]{+50+} en el OI. Con eso:
-- **L279**: \| Umbral estimado \| [-27,5-]{+28+} / [-26,9-]{+27,5+} \| [-3,8-]{+4,7+} / [-2,8-]{+3,8+} \| [-**3,0-]{+**3,9+} %** \|
-- **L281**: El informe dice la segunda fila, y dice  … do, el porcentaje de cada uno va de 0 a [-11-]{+12+} %.
-- **L423**: > *Los umbrales conductuales obtenidos n …  edición), el porcentaje binaural es de [-3,0-]{+3,9+} %, con un rango de 0 a unos [-11-]{+12+} % por oído según la dispersión del méto …  corresponde al médico y a la comisión.*
+- **L325**: - @OI PS \| En el OI el PS es grande frente al PA: razón PS/PA de [-**0,46**,-]{+**0,40**,+} [-sobre-]{+justo en+} el límite del electrodo [-timpánico-]{+timpánico, y razón de áreas de **2,93**, sobre el 1,94+} (→ capítulo 9, H11). En el OD {+la razón+}es de [-0,20.-]{+0,08.+}
+- **L328**: - @OI 80 V \| En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, [-55-]{+50+} dB nHL (unos [-50-]{+45+} dB eHL), corresponde a la zona de 2 a 4 … ran lesión retrococlear (→ capítulo 11).
 
-_57 líneas cambiadas en 6 archivos._
+### `capitulos/H10-potenciales-evocados-auditivos-de-tronco.md`
+
+- **L197**: - @OD 80 I \| A 80 dB nHL la **onda I** llega a [-1,4-]{+1,5+} ms, la **III** a [-3,8-]{+3,7+} y la **V** a 5,7. Interpicos: I-III [-2,4-]{+2,2+} ms, III-V 1,9 e I-V [-4,3.-]{+4,1.+} Todo dentro de lo normal.
+- **L198**: - @OD 40 V \| A 40 dB la V llega a [-6,9-]{+6,8+} ms y es más chica. La I y la III se achicaron mucho más que la V.
+- **L199**: - @OD 20 V \| A 20 dB queda solo una III mínima y la **V**, a [-7,9-]{+7,7+} ms.
+- **L200**: - @OD 10 V \| A 10 dB la V es chica, a [-8,3-]{+8,1+} ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
+- **L203**: - Mira cómo se corre la V: 0,4 ms de 80 a 60, pero [-1,0-]{+0,9+} ms de 40 a 20. Esa es la **función late … lana arriba y empinada cerca del umbral.
+- **L260**: - @OD 60 V \| A 60 dB la V sigue presente [-(6,9-]{+(6,7+} ms). A 50 (no se muestra) ya no hay una … repita: **umbral con click, 60 dB nHL**.
+- **L376**: - @OI 80 V \| El **OI** es normal: I a 1,5 ms, III a 3,6 y V a [-5,6.-]{+5,5.+} I-V de 4,1 ms.
+- **L377**: - @OD 80 I \| En el **OD** la onda I llega a [-2,9-]{+2,6+} ms: [-1,4-]{+1,1+} ms tarde. La señal ya sale atrasada de la cóclea.
+- **L378**: - @OD 80 V \| La V llega a [-6,8-]{+6,5+} ms. Pero los interpicos son normales (I-III [-2,3,-]{+2,2,+} III-V [-1,7,-]{+1,8,+} I-V 3,9 ms): la vía conduce bien; lo que se atrasó fue la llegada del sonido.
+- **L379**: - @OD 60 V \| A 60 dB [-ya solo-]queda la V, a 7,7 [-ms.-]{+ms, y apenas una III.+}
+- **L380**: - Compara con Tomás a 40 dB nHL (caso H10.1): I a [-3,0,-]{+2,8,+} III a [-5,2-]{+5,1+} y V a [-6,9-]{+6,8+} ms. El OD de Carolina a 80 se parece a  … lea responde como a un sonido más suave.
+- **L381**: - La diferencia interaural de la V es de [-**1,2-]{+**1,0+} ms**. Una conductiva la fabrica sola: a … , mira el audiograma y la timpanometría.
+- **L387**: - @OI 80 V \| El **OI** es normal: I a [-1,5-]{+1,6+} ms, III a 3,8 y V a [-5,6.-]{+5,7.+} I-V de 4,1 ms.
+- **L388**: - @OD 80 I \| En el **OD** la onda I llega a [-1,4-]{+1,6+} ms, en su lugar: la cóclea entrega la señal a tiempo.
+- **L389**: - @OD 80 III \| La III llega a 4,2 ms: [-**I-III-]{+I-III+} de [-2,8-]{+2,6+} [-ms**,-]{+ms,+} [-sobre-]{+justo bajo+} el límite de 2,7.
+- **L390**: - @OD 80 V \| La V llega a [-6,7-]{+6,5+} ms: III-V de [-2,5-]{+2,3+} (límite [-2,4)-]{+2,4).+} [-e-]{+Cada tramo queda en el borde, pero sumados dan un+} **I-V de [-5,2-]{+5,0+} ms** (límite 4,7). La diferencia interaural de la V es de [-**1,0-]{+**0,8+} ms**.
+- **L460**: 3. Carolina tiene una diferencia interaural de la onda V de [-1,2-]{+1,0+} ms y Raúl de [-1,0-]{+0,8+} ms. ¿Por qué una es conductiva y la otr … ear? ¿Qué número de la figura lo decide?
+
+### `capitulos/H11-electrococleografia.md`
+
+- **L276**: - @OD PA \| El OD tiene un PA profundo y un PS chico: razón [-**0,31**,-]{+**0,25**,+} bajo el 0,40 del electrodo timpánico, y razón de áreas [-**1,19**,-]{+**1,17**,+} bajo 1,94. La latencia del PA es de 1,37 ms.
+- **L278**: - @OI PS \| En el OI el PS es casi tan grande como el PA: razón [-**0,60**,-]{+**0,63**,+} sobre el límite.
+- **L279**: - @OI PA \| El PA del OI llega a 1,50 ms  …  dentro de la figura: el retorno está a [-7,3-]{+8,8+} ms. Esa cola es el PS prolongado, y lleva la razón de áreas a [-**3,61**.-]{+**3,87**.+}
+- **L289**: > **OD**: complejo PS-PA de buena morfología y replicabilidad. Razón de amplitudes PS/PA [-0,31-]{+0,25+} y razón de áreas [-1,19,-]{+1,17,+} bajo los límites del electrodo (0,40 y 1,94). Latencia del PA 1,37 ms.
+- **L291**: > **OI**: PA ensanchado, con PS prolongado que [-no-]vuelve a la línea de base [-dentro-]{+recién+} [-de-]{+a+} [-la-]{+los+} [-ventana-]{+8,8+} [-de análisis.-]{+ms.+} Razón de amplitudes PS/PA [-0,60-]{+0,63+} y razón de áreas [-3,61,-]{+3,87,+} sobre los límites. Latencia del PA 1,50 ms.
+- **L334**: 6. Patricia tiene una razón de [-0,60-]{+0,63+} en el OI y de [-0,31-]{+0,25+} en el OD. Si le registraras el OI otra  … al médico si solo tuvieras ese registro?
+
+_75 líneas cambiadas en 10 archivos._

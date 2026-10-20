@@ -19,10 +19,18 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "nistagmo",
+      "con_fijacion": {
+        "izquierda": -8,
+        "derecha": 8
+      },
+      "sin_fijacion": {
+        "izquierda": -8,
+        "derecha": 8
+      }
     }
   ]
 }

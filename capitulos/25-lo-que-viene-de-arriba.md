@@ -254,36 +254,89 @@ La audición es la de su edad. Además del examen del cerebelo, ¿qué mirarías
 
 #### Paso 4 · Los resultados
 
-:::ayuda-ancho Lo que se vio (→ H16, H17, H18)
-| Examen | Lo que se vio |
-|---|---|
-| Equilibrio | Romberg con balanceo desde los ojos abiertos y caída al cerrarlos; marcha de base ancha; no logra la marcha en tándem |
-| Examen neurocerebeloso | dismetría leve en el dedo-nariz y disdiadococinesia; sin temblor intencional |
-| Nistagmo espontáneo, con y sin fijación | sin nistagmo horizontal mirando al frente |
-| Mirada excéntrica | nistagmo hacia donde mira, a los dos lados, que **sigue con luz** (figura) |
-| Seguimiento | ganancia baja con sacadas de alcance (figura) |
-| Sacadas | latencia y precisión sin hallazgos para el equipo |
-| Impulso cefálico (vHIT) | ganancia horizontal de 0,15 a la derecha y 0,12 a la izquierda, con sacadas manifiestas |
-| Calórica bitermal | sin respuesta a 30 y a 44 °C en los dos oídos, y sin respuesta a 17 °C: **arreflexia vestibular bilateral** |
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg | Balanceo desde los ojos abiertos y caída al cerrarlos, sin lado definido |
+| | Brazos extendidos / Unterberger | Sin desvío ni giro hacia un lado |
+| | Marcha | **De base ancha** |
+| | Tándem | **No lo logra** |
+| **Cerebelo** | Metría, diadococinesia | **Dismetría leve** en el dedo-nariz y **disdiadococinesia**, en los dos lados |
+| | Temblor intencional | Sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen ilustraciones/cap25-caso1-canvas.svg ancho=100% VNG de Rafael: mirada excéntrica y seguimiento. Lo que hay que ver es el cerebelo en los ojos: un nistagmo evocado por la mirada que la luz no frena y un seguimiento sacádico. Unos laberintos perdidos no explican ninguna de las dos cosas. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @82,15 | Mirando a la derecha, el ojo se va hacia el centro (**fase lenta de 1 a 2 °/s**) y vuelve de un salto: nistagmo evocado por la mirada.
-- @20,31 | Con luz (gris ancho) el nistagmo **sigue igual**: la fijación no lo frena.
-- @51,20 | Mirando al frente no hay nistagmo horizontal.
-- @71,67 | **Seguimiento sacádico**: ganancia de 0,55 y 1,7 sacadas de alcance por segundo.
-- @29,66 | Un seguimiento sin lesión, en la misma escala, tiene ganancia 0,91 y casi ninguna sacada de alcance.
+:::imagen figuras/salida/cap25_canvas_nistagmo.svg ancho=75% Nistagmo de Rafael en la hoja del campo clínico. Mirando al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.
 :::
-:::figura cap25_canvas audiograma
-- @OD 4000 | Pérdida descendente en agudos, **simétrica**: 55 dB en 4 kHz en los dos oídos. Es la forma de una presbiacusia.
-- @OI 500 | Los graves están casi normales, 10 dB.
-- Nada del audiograma explica los ojos ni la marcha.
+
+Mirando al frente no hay nistagmo horizontal, ni con fijación ni sin ella. Al mirar a los lados aparece un nistagmo **evocado por la mirada**: bate hacia donde mira, de **2 °/s** a cada lado, y la fijación **no lo frena (OFI −)**. Con *head-shaking* no aparece nistagmo.
+
+:::imagen ilustraciones/cap25-caso1-canvas.svg ancho=100% VNG de Rafael: mirada excéntrica y seguimiento. Mirando a la derecha, el ojo se va hacia el centro (fase lenta de 1 a 2 °/s) y vuelve de un salto, y con luz (gris ancho) el nistagmo sigue igual: la fijación no lo frena. El seguimiento es sacádico, con ganancia de 0,55 y 1,7 sacadas de alcance por segundo; uno sin lesión, en la misma escala, tiene ganancia de 0,91 y casi ninguna. Es el cerebelo en los ojos: unos laberintos perdidos no explican ninguna de las dos cosas. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
+
+Seguimiento con **ganancia baja y sacadas de alcance**. Sacadas: latencia y precisión sin hallazgos para el equipo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | — | **0 °/s** | — | No | No |
+| OD 44 °C | — | **0 °/s** | — | No | No |
+| OI 30 °C | — | **0 °/s** | — | No | No |
+| OD 30 °C | — | **0 °/s** | — | No | No |
+| OI 17 °C | — | **0 °/s** | — | No | No |
+| OD 17 °C | — | **0 °/s** | — | No | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | **0,15**, sacadas manifiestas | **0,25**, sacadas manifiestas | **0,30**, sacadas manifiestas |
+| **Izquierdo** | **0,12**, sacadas manifiestas | **0,22**, sacadas manifiestas | **0,28**, sacadas manifiestas |
+:::
+
+:::imagen figuras/salida/cap25_canvas_mariposa.svg ancho=62% Gráfico de mariposa de Rafael: las cuatro irrigaciones se quedan sobre la línea.
+:::
+
+Sin respuesta a 44 °C, a 30 °C ni a 17 °C, en los dos oídos: **arreflexia vestibular bilateral**. En el vHIT caen los tres canales de los dos lados.
+
+:::imagen figuras/salida/cap25_canvas_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+Los dos VEMP están **muy bajos y son simétricos**: cVEMP de 21 µV en el OD y 23 µV en el OI (5 %), y oVEMP de 6 µV en los dos (2 %). Es lo que se espera de dos laberintos que no responden.
+
+:::imagen figuras/salida/cap25_canvas_audiosupra.svg ancho=80% Audiometría de Rafael: pérdida descendente y simétrica, de 55 dB en 4 kHz en los dos oídos, la forma de una presbiacusia; discriminación de 92 % en el OD y de 96 % en el OI.
+:::
+
+En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB. Nada del audiograma explica los ojos ni la marcha.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 40 a 45 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** inestabilidad de cinco años, peor sin luz y en terreno irregular, oscilopsia al caminar, hormigueo de los pies, **tos seca de veinte años**, hermano con trastorno de la marcha; audición de la edad.
 - **Hipótesis esperables:** vestibulopatía bilateral por ototóxicos (no hay antecedente), presbiataxia, degeneración cerebelosa, **CANVAS**. Lo que separa a las dos primeras es que en los ojos hay **cerebelo**: nistagmo evocado por la mirada y seguimiento sacádico.
-- **Qué pedir:** audiometría, VNG con mirada excéntrica, seguimiento y sacadas, examen neurocerebeloso, calórica y vHIT (→ H3, H16, H17, H18).
+- **Qué pedir:** la ficha vestibular completa: equilibrio, cerebelo, pares craneales, nistagmo con y sin fijación y por la mirada, posicionales, seguimiento y sacadas, calórica, vHIT, VEMP y audiometría (→ H3, H12, H16, H17, H18). Ante un signo central, se avisa.
 - **Errores esperables:** informar "arreflexia vestibular bilateral" y cerrar; atribuir todo a los laberintos; no preguntar por la tos ni por los pies.
 :::
 
@@ -303,30 +356,82 @@ No hay síntomas auditivos. ¿Pedirías igual la audiometría? ¿Qué cuidado te
 
 #### Paso 4 · Los resultados
 
-:::ayuda-ancho Lo que se vio (→ H16)
-| Examen | Lo que se vio |
-|---|---|
-| Conjugación de los ojos | mirando a la derecha, el ojo izquierdo **se queda atrás** y la paciente ve doble |
-| Nistagmo espontáneo, con y sin fijación | sin nistagmo |
-| Sacadas horizontales, **los dos ojos registrados** | hacia la izquierda, los dos ojos llegan; hacia la derecha, el ojo izquierdo **se queda a la mitad** (figura) |
-| Seguimiento | sin hallazgos |
-| Impulso cefálico y calórica | sin hallazgos |
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha y tándem | Sin alteraciones |
+| **Cerebelo** | Metría, diadococinesia, sinergia | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Mirando a la derecha, el ojo izquierdo **se queda atrás** y la paciente ve doble; oclusión alternada sin desviación vertical |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen ilustraciones/cap25-caso2-ino.svg ancho=100% Sacadas de 20° en cada ojo de Inés. Mira los dos ojos por separado: hacia la derecha, el ojo derecho llega al blanco y el izquierdo se queda a mitad de camino. Un equipo que registra un solo ojo no lo ve. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @30,32 | El **ojo derecho**, el que registran muchos equipos, llega a donde está el blanco hacia los dos lados: precisión 1,00. Con solo este ojo, el examen sale normal.
-- @70,24 | El **ojo izquierdo** hacia la derecha se queda en 0° y el blanco está en 10°: sale a tiempo, pero no llega.
-- @72,63 | Precisión de 0,50 hacia la derecha: la mitad del camino. Hacia la izquierda es 1,00.
+:::imagen figuras/salida/cap25_esclerosis_nistagmo.svg ancho=75% Nistagmo espontáneo de Inés en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
-:::figura cap25_esclerosis audiograma
-- @OD 4000 | La audición es **normal** en los dos oídos: 0 dB en 4 kHz. No es lo que se esperaba de un cuadro de ojos, pero la esclerosis múltiple casi no da hipoacusia.
-- @OI 4000 | El OI tiene el mismo valor.
+
+Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
+
+:::imagen ilustraciones/cap25-caso2-ino.svg ancho=100% Sacadas de 20° en cada ojo de Inés. Mira los dos ojos por separado: hacia la derecha, el ojo derecho llega al blanco y el izquierdo se queda en 0° con el blanco en 10°, a mitad de camino. La precisión del ojo izquierdo es de 0,50 hacia la derecha y de 1,00 hacia la izquierda; la del derecho, de 1,00 hacia los dos lados. Un equipo que registra solo el ojo derecho, como hacen muchos, da el examen por normal. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
+
+Hacia la izquierda los dos ojos llegan; hacia la derecha, el ojo izquierdo **se queda a la mitad**. Seguimiento sin hallazgos.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **22 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **21 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **21 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **19 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 1,02 | 0,96 | 0,97 |
+| **Izquierdo** | 0,99 | 0,95 | 0,98 |
+:::
+
+:::imagen figuras/salida/cap25_esclerosis_mariposa.svg ancho=62% Gráfico de mariposa de Inés: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal en los seis canales.
+
+:::imagen figuras/salida/cap25_esclerosis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 342 µV en el OD y de 348 µV en el OI (**0 %**); oVEMP de 26 µV en los dos (**0 %**): simétricos.
+
+:::imagen figuras/salida/cap25_esclerosis_audiosupra.svg ancho=80% Audiometría de Inés: audición normal en los dos oídos y discriminación de 100 %.
+:::
+
+La audición es **normal**: 0 dB en 4 kHz, SDT de −5 dB y SRT de 0 dB en los dos oídos, con discriminación máxima de 100 % a 30 dB. No es lo que se esperaba de un cuadro de ojos, pero la esclerosis múltiple casi no da hipoacusia.
 
 :::docente Guía del caso
 - **Datos clave:** visión doble solo al mirar a la derecha, **neuritis óptica** a los 27 años, hormigueo de la mano; mujer joven; **audición normal**.
 - **Hipótesis esperables:** parálisis del VI, miastenia, **oftalmoplejía internuclear** por esclerosis múltiple. La doble imagen solo en una mirada y el ojo que no aduce apuntan a lo último.
-- **Qué pedir:** conjugación a la cabecera; VNG con **los dos ojos**; audiometría y, si se pide, ABR (→ H3, H10, H16, cap. 12).
+- **Qué pedir:** conjugación a la cabecera; VNG con **los dos ojos**; el resto de la ficha vestibular y audiometría; ABR solo si se pide (→ H3, H10, H12, H16, cap. 12).
 - **Errores esperables:** registrar solo el ojo derecho y concluir "sin hallazgos"; no mirar el paso de la conjugación; buscar en el audiograma lo que no está.
 :::
 
@@ -346,31 +451,83 @@ La VNG anterior salió normal. ¿Qué tendrías que preguntar sobre cómo se hiz
 
 #### Paso 4 · Los resultados
 
-:::ayuda-ancho Lo que se vio (→ H16, H17)
-| Examen | Lo que se vio |
-|---|---|
-| Nistagmo espontáneo, canal **horizontal** | sin nistagmo, con y sin fijación |
-| Nistagmo espontáneo, canal **vertical** | bate **hacia abajo** mirando al frente, a oscuras y con luz |
-| Mirada hacia abajo y hacia la derecha | el nistagmo hacia abajo **aumenta** (figura) |
-| Calórica bitermal | respuestas simétricas |
-| Marcha | de base ancha; la marcha en tándem es difícil |
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha | **De base ancha** |
+| | Tándem | **Difícil** |
+| **Cerebelo** | Metría, diadococinesia, sinergia | Normales en los dos lados; sin temblor intencional |
+| **Pares craneales** | III, IV y VI | Motilidad completa y conjugada, sin diplopía; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen ilustraciones/cap25-caso3-chiari.svg ancho=100% VNG de Silvia: canal horizontal y canal vertical. El canal horizontal está plano; el nistagmo hacia abajo solo aparece en el vertical, y crece al mirar abajo y a los lados. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @29,17 | El canal horizontal está **plano**: con este registro solo, la paciente sale "sin nistagmo".
-- @80,30 | El canal vertical bate hacia abajo, de 2,2 °/s, y la luz (gris ancho) casi no cambia.
-- @29,68 | Mirando 20° abajo, la fase lenta sube a 5,8 °/s.
-- @74,68 | Mirando 20° a la derecha, a 3,4 °/s.
+:::imagen figuras/salida/cap25_chiari_nistagmo.svg ancho=75% Nistagmo de Silvia en la hoja del campo clínico. Todas las flechas apuntan hacia abajo: al frente, a los lados y, más grande, mirando abajo. Es un nistagmo vertical, que bate hacia abajo.
 :::
-:::figura cap25_chiari audiograma
-- @OI 4000 | Pérdida del **oído izquierdo** de 50 dB en 4 kHz; el derecho está en 0.
-- @OI 500 | En 500 Hz la pérdida del OI es leve, de 20 dB. El Weber lateraliza al oído sano.
+
+En el canal **horizontal** no hay nistagmo, con ni sin fijación. En el canal **vertical** hay un nistagmo que **bate hacia abajo** mirando al frente (**2,2 °/s** sin fijación y **2 °/s** con fijación: OFI −) y que **aumenta** mirando abajo (**5,8 °/s**) y a los lados (**3,4 °/s**). Con *head-shaking* no cambia.
+
+:::imagen ilustraciones/cap25-caso3-chiari.svg ancho=100% VNG de Silvia: canal horizontal y canal vertical. El canal horizontal está plano: con este registro solo, la paciente sale "sin nistagmo". El nistagmo hacia abajo solo aparece en el vertical, de 2,2 °/s mirando al frente (la luz, gris ancho, casi no lo cambia), y crece a 5,8 °/s mirando 20° abajo y a 3,4 °/s mirando 20° a la derecha. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | ↓ | Pers. | 0 s | No | No | No | No |
+| **S–D** | ↓ | Pers. | 0 s | No | No | No | No |
+| **D–S** | ↓ | Pers. | 0 s | No | No | No | No |
+| **S–I** | ↓ | Pers. | 0 s | No | No | No | No |
+| **I–S** | ↓ | Pers. | 0 s | No | No | No | No |
+| **S–E** | ↓ | Pers. | 0 s | No | No | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | ↓ mayor | Pers. | 0 s | No | No | Leve | No |
+| **CC–E** | ↓ | Pers. | 0 s | No | No | No | No |
+| **E–CCD** | ↓ mayor | Pers. | 0 s | No | No | Leve | No |
+| **CCD–E** | ↓ | Pers. | 0 s | No | No | No | No |
+| **E–CCI** | ↓ mayor | Pers. | 0 s | No | No | Leve | No |
+| **CCI–E** | ↓ | Pers. | 0 s | No | No | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo. El nistagmo hacia abajo está en todas las posiciones y **aumenta con la cabeza colgando**; no tiene latencia ni paroxismo ni se fatiga: no es un VPPB.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **19 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **20 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **21 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **18 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,97 | 0,93 | 0,92 |
+| **Izquierdo** | 0,95 | 0,94 | 0,94 |
+:::
+
+:::imagen figuras/salida/cap25_chiari_mariposa.svg ancho=62% Gráfico de mariposa de Silvia: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (20 + 18 − 19 − 21) / 78 = **3 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos: la calórica simétrica del otro servicio era cierta, y no descarta nada de lo central.
+
+:::imagen figuras/salida/cap25_chiari_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 352 µV en el OD y de 610 µV en el OI, con asimetría de **28 %** (menor del 35 %, no significativa); oVEMP de 24 µV en el OD y de 23 µV en el OI (**4 %**).
+
+:::imagen figuras/salida/cap25_chiari_audiosupra.svg ancho=80% Audiometría de Silvia: el OD es normal; el OI tiene una pérdida de 50 dB en 4 kHz y leve en los graves (20 dB en 500 Hz). La discriminación del OI llega a 92 %.
+:::
+
+En el OD, SDT de −5 dB, SRT de 0 dB y discriminación de 100 %. En el OI, SDT de 15 dB, SRT de 20 dB y discriminación máxima de **92 %**, a 60 dB, con ruido de habla al OD.
+
+Las supraliminares del OI no son de cóclea: SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 1 kHz y **reflejos ausentes**. La discriminación es buena, pero la pérdida no recluta y se cansa: es retrococlear, y el tronco está comprimido en la unión craneocervical.
 
 :::docente Guía del caso
 - **Datos clave:** cefalea occipital con la tos, inestabilidad al bajar escaleras y al leer, hipoacusia izquierda, **VNG anterior "sin hallazgos"** de la que no se sabe qué canales registró.
 - **Hipótesis esperables:** cuadro del oído interno (hipoacusia unilateral), migraña, **Chiari**, compresión del tronco. La cefalea con la maniobra de Valsalva y la VNG horizontal sin nistagmo son el hallazgo.
-- **Qué pedir:** audiometría, VNG con canal vertical y mirada abajo, arriba y a los lados; sugerir al médico la resonancia de la unión craneocervical (→ H3, H16, cap. 12).
+- **Qué pedir:** la ficha vestibular completa, con VNG de canal vertical y mirada abajo, arriba y a los lados; sugerir al médico la resonancia de la unión craneocervical (→ H3, H12, H16, cap. 12).
 - **Errores esperables:** repetir la VNG con un solo canal; atribuir el mareo a la hipoacusia; concluir "normal" por una calórica simétrica.
 :::
 
@@ -390,33 +547,86 @@ El protocolo pide suspender los ansiolíticos 48 horas antes del examen. ¿Qué 
 
 #### Paso 4 · Los resultados
 
-:::ayuda-ancho Lo que se vio (→ H16, H18)
-| Examen | Lo que se vio |
-|---|---|
-| Equilibrio y examen neurocerebeloso | marcha de base ancha, dismetría leve |
-| Nistagmo espontáneo, con y sin fijación | sin nistagmo mirando al frente; **sin nistagmo vertical** |
-| Mirada excéntrica | nistagmo evocado por la mirada, simétrico, que **sigue con luz** (figura) |
-| Seguimiento | ganancia 0,89 con 0,8 sacadas de alcance por segundo (figura) |
-| Sacadas | latencia y precisión sin hallazgos para el equipo (figura) |
-| Impulso cefálico | ganancia de 0,98 a la derecha y de 1,01 a la izquierda, sin sacadas |
-| Calórica bitermal | respuestas simétricas |
+:::ayuda-ancho Examen de cabecera
+| | Prueba | Resultado |
+|---|---|---|
+| **Otoscopía** | | Normal en los dos oídos |
+| **Equilibrio** | Romberg, brazos extendidos, Unterberger | Sin alteraciones |
+| | Marcha | **De base ancha** |
+| | Tándem | **Difícil** |
+| **Cerebelo** | Metría | **Dismetría leve** en el dedo-nariz, en los dos lados |
+| | Diadococinesia, sinergia, temblor intencional | Sin alteraciones |
+| **Pares craneales** | III, IV y VI | Motilidad completa; ve doble o borroso al mirar a los lados; oclusión alternada **sin desviación vertical** |
+| | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen ilustraciones/cap25-caso4-farmaco.svg ancho=100% VNG de Álvaro: mirada excéntrica, seguimiento y sacadas. Compara los dos lados: el nistagmo evocado por la mirada es simétrico, y el seguimiento y las sacadas están casi normales. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @82,15 | Mirando a la derecha, el ojo se va hacia el centro a **3 a 5 °/s** y vuelve de un salto. A la izquierda es igual: **simétrico**.
-- @20,31 | Con luz (gris ancho) sigue.
-- @29,67 | El seguimiento es casi normal: ganancia de 0,89.
-- @80,67 | Las sacadas llegan a donde está el blanco, con precisión 1,00.
+:::imagen figuras/salida/cap25_farmaco_nistagmo.svg ancho=75% Nistagmo de Álvaro en la hoja del campo clínico. Mirando al frente no hay nistagmo; en las miradas extremas bate hacia donde mira, con la misma intensidad a los dos lados, y no cambia con la fijación.
 :::
-:::figura cap25_farmaco audiograma
-- @OD 4000 | Pérdida en agudos de 50 dB, de la edad.
-- @OI 4000 | El OI está en 45 dB: audiograma **simétrico**.
+
+Mirando al frente no hay nistagmo, tampoco vertical. En las miradas extremas hay un nistagmo **evocado por la mirada**, simétrico, que bate hacia donde mira: **4 °/s** a la izquierda y a la derecha, y **2 °/s** arriba y abajo. La luz **no lo frena (OFI −)**. Con *head-shaking* no cambia.
+
+:::imagen ilustraciones/cap25-caso4-farmaco.svg ancho=100% VNG de Álvaro: mirada excéntrica, seguimiento y sacadas. Mirando a la derecha, el ojo se va hacia el centro a 3 a 5 °/s y vuelve de un salto; a la izquierda es igual, simétrico, y con luz (gris ancho) sigue. El seguimiento es casi normal, con ganancia de 0,89, y las sacadas llegan a donde está el blanco, con precisión de 1,00. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
+
+Seguimiento con ganancia de 0,89 y 0,8 sacadas de alcance por segundo. Sacadas: latencia y precisión sin hallazgos para el equipo.
+
+:::ayuda-ancho Nistagmo posicional (VNG)
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–S** | (−) | — | — | — | — | No | No |
+| **S–D** | (−) | — | — | — | — | No | No |
+| **D–S** | (−) | — | — | — | — | No | No |
+| **S–I** | (−) | — | — | — | — | No | No |
+| **I–S** | (−) | — | — | — | — | No | No |
+| **S–E** | (−) | — | — | — | — | No | No |
+
+| | Dir. | Dur. | Lat. | Parox. | Fatiga | Vért. | Náus. |
+|---|---|---|---|---|---|---|---|
+| **E–CC** | (−) | — | — | — | — | No | No |
+| **CC–E** | (−) | — | — | — | — | No | No |
+| **E–CCD** | (−) | — | — | — | — | No | No |
+| **CCD–E** | (−) | — | — | — | — | No | No |
+| **E–CCI** | (−) | — | — | — | — | No | No |
+| **CCI–E** | (−) | — | — | — | — | No | No |
+:::
+
+E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
+
+:::ayuda-ancho Prueba calórica bitermal alternada (VNG) y vHIT
+| Irrigación | Dirección | VCL máx. | OFI | Vértigo | Náuseas |
+|---|---|---|---|---|---|
+| OI 44 °C | ← | **18 °/s** | (+) | Moderado | No |
+| OD 44 °C | → | **19 °/s** | (+) | Moderado | No |
+| OI 30 °C | → | **20 °/s** | (+) | Leve | No |
+| OD 30 °C | ← | **17 °/s** | (+) | Leve | No |
+
+| vHIT | Lateral | Anterior | Posterior |
+|---|---|---|---|
+| **Derecho** | 0,98, sin sacadas | 0,96 | 0,94 |
+| **Izquierdo** | 1,01, sin sacadas | 0,95 | 0,96 |
+:::
+
+:::imagen figuras/salida/cap25_farmaco_mariposa.svg ancho=62% Gráfico de mariposa de Álvaro: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+
+Hipoexcitabilidad derecha: (19 + 17 − 18 − 20) / 74 = **3 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos: el reflejo vestíbulo-ocular está intacto.
+
+:::imagen figuras/salida/cap25_farmaco_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
+:::
+
+cVEMP de 364 µV en el OD y de 198 µV en el OI, con asimetría de **29 %** (menor del 35 %, no significativa); oVEMP de 17 µV en los dos oídos (**1 %**).
+
+:::imagen figuras/salida/cap25_farmaco_audiosupra.svg ancho=80% Audiometría de Álvaro: pérdida descendente y simétrica, de 50 dB en 4 kHz en el OD y de 45 dB en el OI, la de la edad; discriminación de 92 % y de 96 %.
+:::
+
+En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB.
+
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 40 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** epilepsia, **aumento reciente** de la fenitoína, clonazepam, vino a diario; inestabilidad sin giro, visión doble al mirar a los lados; audición de la edad; **impulso cefálico y calórica normales**.
 - **Hipótesis esperables:** causa del oído interno (se descarta: el reflejo está intacto), degeneración cerebelosa, **fármacos y alcohol**.
-- **Qué pedir:** VNG con mirada excéntrica, seguimiento y sacadas, y vHIT (→ H16, H18); **avisar al médico tratante** de lo que se vio.
+- **Qué pedir:** la ficha vestibular completa, con mirada excéntrica, seguimiento y sacadas, calórica y vHIT (→ H16, H17, H18); **avisar al médico tratante** de lo que se vio.
 - **Errores esperables:** tratar el cuadro con un antivertiginoso; suspender los fármacos por seguir el protocolo; informar "alteración vestibular".
 :::
 
@@ -429,6 +639,16 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 #### Razonamiento
 
 Dos laberintos que faltan y una audición de la edad explican la oscilopsia y la inestabilidad en la oscuridad. No explican **lo que hacen los ojos**: un nistagmo evocado por la mirada que la luz no frena y un seguimiento con ganancia baja y sacadas de alcance, con sacadas normales. Eso es cerebelo, y en particular el flóculo (Zee y cols., 1981). Los laberintos perdidos con el cerebelo que falla, el hormigueo de los pies, la tos y el hermano con trastorno de la marcha son el perfil del **CANVAS** (Szmulewicz y cols., 2011; Cortese y cols., 2020).
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg con balanceo con ojos abiertos y caída al cerrarlos, sin lado definido; marcha de base ancha; no logra tándem. **Neocerebelo:** dismetría leve dedo-nariz y disdiadococinesia bilaterales; sin temblor intencional. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** sin nistagmo al frente, con y sin fijación. **Nistagmo evocado por la mirada:** horizontal, bate hacia el lado de la mirada, de 2 °/s a derecha y a izquierda, que no se reduce con la fijación (OFI −). *Head-shaking* y posicional: sin nistagmo. **Seguimiento:** ganancia baja (0,55) con sacadas de alcance (1,7 por segundo). **Sacadas:** sin alteraciones.
+>
+> **Calórica bitermal:** sin respuesta a 44 °C, 30 °C ni 17 °C: arreflexia vestibular bilateral. **vHIT:** ganancia disminuida en los tres canales de los dos lados, con sacadas manifiestas (lateral 0,15 derecho y 0,12 izquierdo). **VEMP:** cVEMP de 21 µV a derecha y 23 µV a izquierda (asimetría de 5 %) y oVEMP de 6 µV en los dos oídos (asimetría de 2 %): examen compatible con hipofunción vestibular bilateral para las estructuras estudiadas (sáculo y/o nervio vestibular inferior; utrículo y/o nervio vestibular superior). **Audiometría:** hipoacusia sensorioneural descendente y simétrica, con 55 dB en 4 kHz; SRT de 10 dB y discriminación máxima de 92 % a derecha y 96 % a izquierda. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Conclusión:** examen con arreflexia vestibular bilateral y **signos de compromiso central** (nistagmo evocado por la mirada que no se frena con la fijación, seguimiento sacádico, dismetría y ataxia de marcha). Se avisa al médico tratante.
 
 #### Diagnóstico y qué sigue
 
@@ -444,6 +664,16 @@ Es un caso en que el "diagnóstico del oído" (arreflexia bilateral) es **verdad
 
 Una mujer joven, una neuritis óptica antigua, una visión doble solo al mirar a la derecha y un ojo izquierdo que no aduce con la abducción del derecho normal: es una **oftalmoplejía internuclear izquierda**, la lesión del fascículo longitudinal medial del lado izquierdo (Strupp y cols., 2014). La audición normal era lo esperable. Con una esclerosis múltiple en la historia, lo más probable es una placa del tronco (Keane, 2005; Frohman y cols., 2005).
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** sin alteraciones. **Neocerebelo:** sin alteraciones. **Pares craneales:** al mirar a derecha, el ojo izquierdo queda atrás y hay diplopía; sin desviación vertical a la oclusión alternada; resto sin alteraciones.
+>
+> **Nistagmo espontáneo:** sin nistagmo, con y sin fijación, en ninguna mirada. *Head-shaking* y posicional: sin nistagmo. **Sacadas horizontales, con registro de los dos ojos:** a izquierda, los dos ojos llegan al blanco (precisión 1,00); a derecha, el ojo derecho llega (1,00) y el izquierdo se queda a la mitad (0,50). **Seguimiento:** sin alteraciones.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 4 % (valor no significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP y oVEMP simétricos (0 % y 0 %): examen compatible con simetría vestibular. **Audiometría:** normal bilateral; SRT de 0 dB y discriminación de 100 %.
+>
+> **Conclusión:** examen con **signos de compromiso central** (aducción incompleta del ojo izquierdo en la mirada hacia la derecha, con sacadas del ojo izquierdo que no llegan al blanco, compatible con una oftalmoplejía internuclear izquierda), con función vestibular periférica y audición normales. Se avisa al médico tratante.
+
 #### Diagnóstico y qué sigue
 
 Oftalmoplejía internuclear izquierda, con audición normal. Se informa lo que se vio en cada ojo, y se sugiere evaluación por neurología y oftalmología, con la resonancia ya solicitada. El ABR (→ cap. 12) puede completar la imagen de un tronco comprometido, pero **no hace falta para el hallazgo**.
@@ -458,6 +688,16 @@ Si la VNG hubiera registrado **solo el ojo derecho**, el informe habría dicho "
 
 La cefalea que sube con la tos, la inestabilidad al bajar escaleras y al leer, y las manos que hormiguean orientan a la unión craneocervical. En los ojos, un nistagmo vertical hacia abajo que crece al mirar abajo y a un lado, y que la luz no frena: el patrón del vestibulocerebelo (Eggers y cols., 2019). La VNG anterior no lo vio porque **un canal horizontal no lo ve**. La hipoacusia izquierda es una de las que acompaña al Chiari I: 22 de 32 con pérdida la tenían de un solo lado (Kumar y cols., 2002).
 
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg y Unterberger sin alteraciones; marcha de base ancha; tándem difícil. **Neocerebelo:** sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** en el canal horizontal, sin nistagmo con y sin fijación. En el canal vertical, nistagmo que bate hacia abajo, de 2,2 °/s al frente sin fijación y de 2 °/s con fijación (OFI −); aumenta a 5,8 °/s en la mirada abajo y a 3,4 °/s en las miradas laterales. *Head-shaking:* sin cambios. **Posicional:** el nistagmo hacia abajo persiste en todas las posiciones y aumenta con la cabeza colgando, sin latencia ni paroxismo ni fatiga.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 5 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 4 % (valores no significativos): examen compatible con asimetría leve no significativa. **Audiometría:** hipoacusia sensorioneural del OI, con 50 dB en 4 kHz; SRT de 20 dB y discriminación máxima de 92 %. OD normal. **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
+>
+> **Conclusión:** examen con **signos de compromiso central** (nistagmo vertical hacia abajo que no se frena con la fijación y aumenta con la mirada abajo y a los lados, y marcha de base ancha), con función vestibular periférica sin alteración. Se avisa al médico tratante.
+
 #### Diagnóstico y qué sigue
 
 Nistagmo central hacia abajo, con hipoacusia neurosensorial leve del oído izquierdo y cefalea occipital con la maniobra de Valsalva. Se informa lo que se vio en cada canal y se **deriva** al médico con la sospecha de un compromiso de la unión craneocervical. El diagnóstico de Chiari lo hace la resonancia.
@@ -471,6 +711,16 @@ Si el nistagmo hacia abajo estuviera presente y la VNG se hubiera hecho con luz,
 #### Razonamiento
 
 El reflejo vestíbulo-ocular está intacto (el impulso es normal y la calórica es simétrica), así que **no es del oído**. Los ojos tienen un nistagmo evocado por la mirada, simétrico y sin nistagmo vertical, con el seguimiento y las sacadas casi normales: un integrador que filtra y un cerebelo que, por lo demás, calibra. El nistagmo evocado por la mirada en todas las direcciones apunta al cerebelo y tiene muchas causas, entre ellas los fármacos y el alcohol crónico (Strupp y cols., 2014), y los anticonvulsivantes alteran los movimientos de los ojos (Remler y cols., 1990); el momento coincide con el aumento de la fenitoína.
+
+#### Informe
+
+> **Examen vestibular con videonistagmografía.** **Equilibrio:** Romberg y Unterberger sin alteraciones; marcha de base ancha; tándem difícil. **Neocerebelo:** dismetría leve dedo-nariz bilateral; resto sin alteraciones. **Pares craneales:** sin alteraciones; sin desviación vertical a la oclusión alternada.
+>
+> **Nistagmo espontáneo:** sin nistagmo al frente, sin nistagmo vertical. **Nistagmo evocado por la mirada:** simétrico, bate hacia el lado de la mirada, de 4 °/s a derecha y a izquierda y de 2 °/s arriba y abajo, que no se reduce con la fijación (OFI −). *Head-shaking* y posicional: sin nistagmo. **Seguimiento:** ganancia de 0,89, con 0,8 sacadas de alcance por segundo. **Sacadas:** sin alteraciones.
+>
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 5 % (valor no significativo). **vHIT:** ganancia normal en los seis canales (lateral 0,98 a derecha y 1,01 a izquierda, sin sacadas). **VEMP:** cVEMP con asimetría de 29 % y oVEMP con asimetría de 1 % (valores no significativos): examen compatible con asimetría leve no significativa. **Audiometría:** hipoacusia sensorioneural descendente y simétrica, con 50 dB en 4 kHz a derecha y 45 dB a izquierda; SRT de 10 dB y discriminación máxima de 92 % a derecha y 96 % a izquierda. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo en agudos.
+>
+> **Conclusión:** examen con **signos de compromiso central** (nistagmo evocado por la mirada en todas las direcciones que no se frena con la fijación, con dismetría y marcha de base ancha), con reflejo vestíbulo-ocular normal. Se avisa al médico tratante.
 
 #### Diagnóstico y qué sigue
 
