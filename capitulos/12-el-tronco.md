@@ -16,7 +16,7 @@ La técnica del PEAT está en el H10, y la latencia-intensidad y la diferencia i
 
 ### La razón de amplitud V/I
 
-Se mide el tamaño de la onda I y el de la onda V, **del pico al valle que sigue**, y se divide V entre I. En un adulto con la vía sana la V es la onda más grande y la más estable, por eso el cociente da más de 1: un cociente bajo 1 casi no aparece en oídos normales ni cocleares, y sí en el 44 % de los retrococleares (Musiek y cols., 1984). El equipo de LabSim lo calcula solo y lo marca cuando es menor que 1 (→ H10). Una V proporcionalmente chica quiere decir que la señal sale bien del oído, porque la I es normal, y **se dispersa o se pierde en el camino**.
+Se mide el tamaño de la onda I y el de la onda V, **del pico al valle que sigue**, y se divide V entre I. En un adulto con la vía sana la V es la onda más grande y la más estable, por eso el cociente da más de 1: un cociente bajo 1 casi no aparece en oídos normales ni cocleares, y sí en el 44 % de los retrococleares (Musiek y cols., 1984). Una V proporcionalmente chica quiere decir que la señal sale bien del oído, porque la I es normal, y **se dispersa o se pierde en el camino**.
 
 :::ayuda Cómo se lee la razón V/I
 - **V/I sobre 1**: lo esperable en el adulto.
@@ -216,7 +216,6 @@ Ella dice que oye bien. ¿Qué te dice eso sobre el audiograma que esperas? ¿Qu
 - **Qué pedir:** audiometría, timpanometría con reflejos y ABR a 21,1 y a 81,1 estímulos por segundo (→ H3, H5, H10). El ABR es **una de varias** pruebas de potenciales; la imagen manda.
 - **Errores esperables:** concluir "audición normal" y cerrar el caso con el audiograma; leer la V sin mirar el interpico III-V; olvidar el registro a tasa alta.
 - **Decisión docente:** el generador muestra siempre la forma alterada. En la realidad el ABR es normal en una parte de los pacientes: en la serie de Robinson y Rudge (1977) la V fue anormal en el 79 % de los que tenían signos de lesión del tronco y en el 51 % de los que no.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *esclerosis múltiple* en los dos oídos.
 :::
 
 {{caso cap12_infarto_aica}}
@@ -269,7 +268,6 @@ Una sordera súbita con vértigo puede ser viral, de oído interno o vascular. �
 - **Qué pedir:** audiometría con logoaudiometría, impedanciometría con reflejos, VEMP y ABR a 21,1 y 81,1 (→ H3, H10, H12).
 - **La trampa:** una hipoacusia súbita coclear, con reclutamiento y VEMP caído, se parece a una laberintitis. Lo que cambia la conducta es la **historia vascular y los signos del tronco**, no el audiograma.
 - **Errores esperables:** llamar "coclear" y cerrar sin avisar; interpretar la falta de la onda I como un tumor; olvidar que un ABR con III y V conservadas dice que el tronco conduce.
-- **En LabSim:** cuadro *infarto de la AICA* en el OD, grado moderado.
 :::
 
 {{caso cap12_glioma_tronco}}
@@ -312,7 +310,6 @@ La resonancia tiene lista de espera. ¿Qué parte de la evaluación auditiva se 
 - **Qué pedir:** ABR con la tabla de niño de 7 años, reflejos y emisiones (→ H10). La resonancia la decide el médico y se adelanta con la historia.
 - **Errores esperables:** quedarse con la hipoacusia leve y recomendar controles; usar la tabla del adulto; esperar la resonancia para informar.
 - **Para discutir en clases:** el audiólogo no diagnostica el tumor, pero **sí tiene que decir que el ABR no es normal** y pedir que la derivación no espere. Cómo se redacta ese aviso a la médica tratante.
-- **En LabSim:** cuadro *glioma de tronco* en los dos oídos y grado leve.
 :::
 
 {{caso cap12_siderosis}}
@@ -363,7 +360,6 @@ Los dos oídos están afectados y no hay oído testigo. ¿Qué pruebas agregarí
 - **Qué pedir:** audiometría con logoaudiometría, VEMP y ABR (→ H3, H10, H12), y avisar al médico.
 - **La limitación:** con ondas tan bajas el ABR **no mide con confianza**; el cuadro se apoya en la suma de las pruebas, no en el interpico.
 - **Errores esperables:** atribuir todo a la edad; tomar los marcadores del ABR por mediciones; no registrar el antecedente neuroquirúrgico.
-- **En LabSim:** cuadro *siderosis* en los dos oídos, grado leve; el generador muestra la siderosis de larga evolución, con el VEMP caído (decisión docente).
 :::
 
 {{caso cap12_hic_idiopatica}}
@@ -406,7 +402,6 @@ El médico pensó en Ménière. ¿Qué dato de la historia no calza con un hidro
 - **Qué pedir:** audiometría, reflejos, emisiones y ABR (→ H3, H5, H10). El registro de esfuerzo a 81,1 no puede ser el criterio para dar de alta.
 - **Errores esperables:** tratarla como Ménière; leer el ABR "casi normal" como "sin causa neurológica"; no preguntar si el zumbido late con el pulso.
 - **Para discutir en clases:** por qué la presión del líquido cefalorraquídeo llega al oído interno (por el acueducto coclear, según Sismanis, 1987) <!-- verificar: el mecanismo por el acueducto coclear no está en el resumen de Sismanis 1987; no se leyó el texto completo. --> y cómo el médico confirma el diagnóstico.
-- **En LabSim:** cuadro *hipertensión intracraneal idiopática* en los dos oídos.
 :::
 
 ## Resolución de los casos

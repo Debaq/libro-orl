@@ -153,7 +153,7 @@ En el caso 2, la fosa derecha da 0,61 al inspirar y 0,36 al espirar. Si el exame
 
 ## Casos
 
-Los tres pacientes son de audición normal: la nariz no se estudia con LabSim. El valor de referencia es el de trabajo del libro (0,4 Pa/(cm³/s) a 150 Pa, → H26; Ren y cols., 2018; Vogt y cols., 2016).
+Los tres pacientes son de audición normal. El valor de referencia es el de trabajo del libro (0,4 Pa/(cm³/s) a 150 Pa, → H26; Ren y cols., 2018; Vogt y cols., 2016).
 
 {{caso cap35_desviacion}}
 

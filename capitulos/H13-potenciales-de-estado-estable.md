@@ -76,7 +76,7 @@ La amplitud de la respuesta crece con la intensidad y con la profundidad de la m
 
 ### Conoce el examen: la pantalla de un ASSR
 
-LabSim no simula este examen (→ "En LabSim"). Estas son las partes de la pantalla de un equipo real, que son prácticamente las mismas en todos:
+Estas son las partes de la pantalla de un equipo de ASSR, que son prácticamente las mismas en todos:
 
 :::ayuda-ancho Qué muestra la pantalla de un ASSR
 | Parte | Qué es | Cómo se lee |
@@ -294,21 +294,7 @@ Un ASSR con respuestas a niveles bajos en las cuatro frecuencias **no basta** pa
 
 Para saber si una respuesta es del oído o del equipo, se repite el registro al **mismo nivel** pero **sin que el sonido llegue al oído**: se tapa la salida del fono (con masilla adhesiva) o se pinza el tubo del fono de inserción, o, con el vibrador, se lo separa unos milímetros de la piel. Si la respuesta persiste, es artefacto (BSA, 2023). Es la misma maniobra de **pinzar el tubo** del ABR (→ H10).
 
-## En LabSim
-
-**LabSim no simula el ASSR.** El combo de pruebas de la ventana del ABR nombra el ASSR junto con otros potenciales que se planean, pero está **deshabilitado**: no genera una respuesta y no se puede registrar. Lo que aquí se describe lo vas a ver recién en un equipo real.
-
-Lo que sí practica LabSim y que sirve directamente para este examen:
-
-- **El mismo montaje y la misma preparación**: otoscopía, anamnesis de electrofisiología, limpieza de la piel, electrodos en el vértex y las mastoides, impedancias bajas y parecidas, y el EEG en vivo como termómetro de la calidad del registro (→ H10).
-- **El umbral por frecuencia con el ABR por tono breve y *chirp* de banda estrecha**, con su corrección de dB nHL a dB eHL (→ H10, "Umbral por frecuencia"): es el mismo razonamiento de "el examen sobreestima el umbral y se corrige en promedio", con otras cifras.
-- **Los criterios de parada**: el FSP y el ruido residual del ABR son el equivalente de la confianza estadística y del ruido residual del ASSR (→ H10).
-- **El control con estímulo bloqueado**: pinzar el tubo, en el ABR.
-- **Casos para comparar**: Hernán (pérdida coclear de agudos) y Tomás (audición normal) del capítulo del ABR permiten hacer el ejercicio de pasar de un umbral por frecuencia a un audiograma estimado.
-
-:::comentario Lo que el simulador no tiene
-No hay sueño que conseguir, ni modulación, ni análisis en frecuencia, ni la estrategia de niveles de un equipo real; tampoco el aviso de "no concluyente". Y sin ASSR, LabSim no puede mostrar lo más característico del examen: **ocho umbrales apareciendo a la vez**.
-:::
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. ¿Por qué un tono de 1.000 Hz modulado a 90 Hz produce una respuesta cerebral a 90 Hz y no a 1.000?

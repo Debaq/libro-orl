@@ -93,10 +93,10 @@ La norma define un **campo cuasi libre**: un parlante a 1 m o más y un nivel qu
 
 ### Conoce tu equipo: el audiómetro en campo libre
 
-El audiómetro de LabSim tiene los mismos controles que uno clínico con campo libre. Para pasar de fonos a parlantes se cambia el **transductor** del canal; la **salida** elige entonces el parlante en vez del oído. En la figura, los dos controles propios del campo libre están en gris: el simulador todavía no los tiene.
+Para pasar de fonos a parlantes se cambia el **transductor** del canal; la **salida** elige entonces el parlante en vez del oído.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro de LabSim: los controles del campo libre
-- @36.5,50.5 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos. En gris: en LabSim todavía no se practica.
+:::imagen /docs/manual/img/estudiante/audiometro.png Los controles del campo libre en el audiómetro
+- @36.5,50.5 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos.
 - @15.5,50.5 | **Simultáneo.** Hace sonar los dos lados a la vez; en campo libre, los dos parlantes. También en gris.
 - @10,30 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.
 - @26,59 | **Estímulo.** En campo libre, **FM** (tono modulado, *warble*) o **NBN**. Nunca *Tono*: el tono puro forma ondas estacionarias en la sala.
@@ -303,7 +303,6 @@ El informe de un niño es más largo que el de un adulto, porque el lector neces
 - @OD 1000 | Cada símbolo es un umbral por juego: el nivel más bajo en que Benjamín guardó un juguete en 2 de 3 presentaciones. 25 dB en 1 kHz en el OD.
 - @OI 2000 | El OI está en 35 dB en 2 kHz, con un umbral por oído: a los 5 años, con fonos, ya se separan los oídos.
 - @OD osea 1000 | Ósea enmascarada en 0 dB. Exige que el niño ignore el ruido y solo juegue con el pito: se le explica antes, y si no lo logra se anota.
-- @OI 125 | A esta edad se mide de 250 a 4.000 Hz. Los puntos de 125, 6.000 y 8.000 Hz están porque el simulador guarda la curva completa.
 - **Informe:** *audiometría condicionada por juego, con fonos; confiabilidad buena. Hipoacusia conductiva leve bilateral, de configuración plana, con vía ósea enmascarada normal.* Se correlaciona con la impedanciometría (→ H7).
 :::
 
@@ -317,17 +316,7 @@ El informe de un niño es más largo que el de un adulto, porque el lector neces
 - **Informe:** *audiometría condicionada por juego, con fonos; confiabilidad buena. Audición normal en OD; hipoacusia sensorioneural severa en OI.* Se agrega que el campo libre previo reflejaba el oído derecho.
 :::
 
-## En LabSim
-
-LabSim tiene pacientes pediátricos que llegan con un acompañante. La entrevista se le hace al adulto en la conversación: en el caso de Benjamín (★, 5 años), su mamá. Ahí se practica lo que más pesa en un niño: preguntar por el embarazo, el tamizaje, el desarrollo y cómo responde en la casa, antes de decidir la batería.
-
-- El audiómetro tiene **FM** y **NBN**, los estímulos del campo libre.
-- **C. libre** y **Simultáneo** aparecen en gris: el campo libre todavía no se practica.
-- Las pruebas objetivas sí están: impedanciometría (→ H7), emisiones (→ H9) y PEAT (→ H10). Con ellas se hace la prueba cruzada de un niño.
-
-:::comentario Lo que el simulador no tiene
-El niño de LabSim responde al audiómetro como un adulto colaborador: levanta la mano en su umbral, sin juego, sin habituarse y sin respuestas falsas, tenga la edad que tenga. No hay observación conductual, ni refuerzo visual, ni canasta, ni audífonos. Si atiendes en el simulador a un niño más chico que Benjamín, recuerda que en la vida real **no te daría ese audiograma**: elige el método por su edad de desarrollo y piensa qué resultados podrías obtener de verdad.
-:::
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Una niña de 14 meses gira la cabeza en 25 dB HL en campo libre en 500, 1.000, 2.000 y 4.000 Hz. ¿Qué escribes en el informe? ¿Qué puedes decir de cada oído?

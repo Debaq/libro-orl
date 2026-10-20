@@ -221,7 +221,7 @@ Además del audiograma, ¿qué mirarías para decidir si es candidata a evaluaci
 - **Hipótesis esperables:** hipoacusia sensorioneural autoinmune, genética tardía, ototóxica; en el alumno aparece el reflejo de "subirle la ganancia", y la respuesta es que el problema ya no es de volumen.
 - **Qué pedir:** logoaudiometría por oído, discriminación con audífono por oído y bilateral, emisiones y reflejos, y derivación a un equipo de implantes con la batería (→ H3, H5, H9, H21).
 - **Errores esperables:** decir que "no es candidata" porque tiene resto auditivo en graves; leer el campo libre con audífono sin mirar la discriminación; pedir ABR como si fuera sospechosa de tumor.
-- **En LabSim:** no está en la práctica del curso; el docente lo crea con el cuadro *autoinmune* severa bilateral, edad 58, mujer. La discriminación con audífono la declara el caso; LabSim no la mide todavía.
+- **Para discutir:** La discriminación con audífono es un dato del caso.
 :::
 
 {{caso cap29_aun_no}}
@@ -267,7 +267,7 @@ Dice que el audífono "no le sirve" a los tres meses. ¿Cómo se adaptaron? ¿Cu
 - **Hipótesis esperables:** pérdida demasiado grande para el audífono (error: no lo es), ajuste insuficiente, expectativas frente al ruido, falta de tiempo de adaptación.
 - **Qué pedir:** medición en oído real, discriminación con y sin audífono, cuestionarios (→ H21, COSI), consejería sobre ruido. **No** derivar a implante.
 - **Errores esperables:** responder "ya no hay nada más" sin verificar; derivar por la queja y no por los datos; confundir "no sirve" con "no alcanza".
-- **En LabSim:** no está en la práctica del curso; el docente lo crea con el cuadro *coclear plana* moderada, edad 74, hombre. La discriminación con audífono la declara el caso.
+- **Para discutir:** La discriminación con audífono es un dato del caso.
 :::
 
 {{caso cap29_p41}}
@@ -303,7 +303,6 @@ Con un oído que supura de forma recurrente, ¿qué pasaría con un audífono co
 - **Hipótesis esperables:** otitis crónica mixta con perforación o colesteatoma (→ cap. 15). Primero lo médico: control de la infección y evaluación quirúrgica.
 - **Qué pedir:** audiometría con vía ósea enmascarada, logoaudiometría, timpanometría, y el informe al otorrinolaringólogo. El audiólogo **no** elige el dispositivo: informa el umbral óseo y la brecha.
 - **Errores esperables:** proponer un audífono con molde cerrado en un oído que supura; mirar solo la aérea; olvidar que la decisión es médica.
-- **En LabSim:** es el paciente de práctica 41; se atiende desde "Práctica libre".
 :::
 
 {{caso cap29_p42}}
@@ -341,7 +340,6 @@ Perdió el oído derecho a los 6 años, después de las paperas, y "se acostumbr
 - **Hipótesis esperables:** cófosis unilateral posparotiditis. No hay nada que amplificar en el OD.
 - **Qué pedir:** audiometría con enmascaramiento (la vía ósea del OD "responde" por el oído sano si no se enmascara; → H3), Rinne falso negativo, Weber lateralizado al OI, y una conversación sobre qué situaciones le pesan.
 - **Errores esperables:** informar la ósea del OD sin enmascarar; prometer que el dispositivo "le devolverá" el oído; olvidar mencionar el implante como opción para sordera unilateral.
-- **En LabSim:** es el paciente de práctica 42; se atiende desde "Práctica libre".
 :::
 
 ## Resolución de los casos

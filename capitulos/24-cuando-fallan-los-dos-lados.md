@@ -26,6 +26,13 @@ Este capítulo no pide pruebas nuevas. Pide **leer con otra pregunta** las de si
 - Esta pérdida **no da vértigo**: da inestabilidad y oscilopsia.
 :::
 
+:::imagen ilustraciones/cap24-vhit-bilateral.svg ancho=100% Impulsos del canal lateral de un paciente con los dos lados caídos: hacia la derecha y hacia la izquierda, con la cabeza en azul y el ojo, invertido, en naranja. No hay un lado bueno con el que comparar: el déficit se lee en el tamaño de cada ganancia, no en la asimetría. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).
+- @16,52 | **Ojo**: llega a menos de la mitad de la velocidad de la cabeza. Si el reflejo funcionara, las dos curvas se superpondrían.
+- @37,30 | **Sacadas manifiestas** (triángulos): el ojo corrige a saltos, cuando la cabeza ya se detuvo. Hacia los dos lados.
+- @4,87 | **Ganancia derecha** de 0,45, con cinco impulsos aceptados.
+- @53,87 | **Ganancia izquierda** de 0,46: bajo 0,6 de los dos lados.
+:::
+
 ### Por qué la fórmula de asimetría no la ve
 
 La paresia canalicular es un cociente: la diferencia entre lo que responde un oído y el otro, dividida por la suma de las dos respuestas (→ H17). Cuando los dos oídos responden igual de poco, el numerador es casi cero y el resultado es "sin paresia", **sea cual sea** la altura a la que están los dos. Con velocidades pequeñas, además, el cociente se mueve mucho por una diferencia de un solo grado por segundo: la misma suma de 7 °/s da 14 % si un oído lee 3 y el otro 4, y daría 43 % si leyeran 2 y 5.
@@ -51,18 +58,7 @@ Entre las dos fuentes hay una diferencia de criterio. La herramienta H20 de este
 
 ### Lo que no hace el protocolo de este libro
 
-La silla rotatoria, que es la tercera forma que reconoce el consenso, no está en el protocolo ni en LabSim. El VEMP (→ H12), que sí está, mide los otolitos y sirve de **complemento**: el consenso lo menciona como prueba adicional sin incluirlo en la definición (Strupp y cols., 2017). Un VEMP caído en una persona con reflejo canalicular caído sugiere que el daño llegó también al utrículo y al sáculo.
-
-## En LabSim
-
-LabSim no hace examen vestibular, salvo el VEMP. Del lado auditivo entrega el audiograma, la logoaudiometría y las emisiones de estos pacientes. Lo vestibular de cada caso, la calórica, el vHIT y la agudeza dinámica, está **escrito** en la ficha de resultados del caso. La figura muestra cómo se ve en el vHIT una ganancia baja de los dos lados.
-
-:::imagen ilustraciones/cap24-vhit-bilateral.svg ancho=100% Impulsos del canal lateral de un paciente con los dos lados caídos: hacia la derecha y hacia la izquierda, con la cabeza en azul y el ojo, invertido, en naranja. No hay un lado bueno con el que comparar: el déficit se lee en el tamaño de cada ganancia, no en la asimetría. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).
-- @16,52 | **Ojo**: llega a menos de la mitad de la velocidad de la cabeza. Si el reflejo funcionara, las dos curvas se superpondrían.
-- @37,30 | **Sacadas manifiestas** (triángulos): el ojo corrige a saltos, cuando la cabeza ya se detuvo. Hacia los dos lados.
-- @4,87 | **Ganancia derecha** de 0,45, con cinco impulsos aceptados.
-- @53,87 | **Ganancia izquierda** de 0,46: bajo 0,6 de los dos lados.
-:::
+La silla rotatoria, que es la tercera forma que reconoce el consenso, no está en el protocolo de este libro. El VEMP (→ H12), que sí está, mide los otolitos y sirve de **complemento**: el consenso lo menciona como prueba adicional sin incluirlo en la definición (Strupp y cols., 2017). Un VEMP caído en una persona con reflejo canalicular caído sugiere que el daño llegó también al utrículo y al sáculo.
 
 ## Fisiología
 
@@ -215,7 +211,6 @@ El paciente oye "igual que siempre". ¿Pedirías el audiograma? ¿Qué pruebas d
 - **Qué pedir:** audiometría (puede ser normal), calórica mínima y, como las dos velocidades son bajas, la bitérmica; vHIT de los dos lados; DVA (→ H3, H17, H18, H20).
 - **Lo que enseña:** el "no significativo" de la mínima que, leído solo, cierra el caso en falso; y que **el audiograma normal no resta nada**.
 - **Errores esperables:** cerrar con "calórica sin asimetría"; pedir solo el audiograma por tratarse de "ototoxicidad"; no preguntar por el antibiótico porque el paciente no lo recuerda: hay que mirar la epicrisis.
-- **En LabSim:** cuadro *Normal* en los dos oídos; la audición y la logoaudiometría salen normales, y lo vestibular se entrega con la tabla de resultados.
 :::
 
 {{caso cap24_tuberculosis}}
@@ -264,7 +259,7 @@ Además del estudio auditivo, ¿qué pruebas vestibulares agregarías aunque el 
 - **La trampa:** la **mínima** da 25 %, "significativo" a la izquierda, y lleva a informar una hipofunción **izquierda**. El oído derecho está a 5 °/s: con una respuesta tan baja no es "el lado sano". La bitérmica (OI 5, **OD 8 °/s**) y sobre todo el vHIT (**las dos ganancias bajo 0,6**) completan el cuadro.
 - **Lo que enseña:** que la queja auditiva **y** la vestibular pueden venir juntas y que la paciente solo menciona una. Y que el consenso admite que se cumpla **una** de las pruebas: aquí la calórica la cumple solo el OI (suma 5), y el vHIT los dos lados.
 - **Errores esperables:** informar una "paresia izquierda"; no preguntar por el equilibrio a quien consulta por acúfeno; creer que el vHIT bilateral "contradice" la mínima.
-- **En LabSim:** cuadro *Ototóxica* en los dos oídos. El vHIT de la sección "En LabSim" es de un paciente con las mismas ganancias de la ficha.
+- **Para discutir:** El vHIT de la figura de la Técnica en foco tiene las mismas ganancias de la ficha.
 :::
 
 {{caso cap24_sin_causa}}
@@ -304,7 +299,6 @@ Con ese informe previo y la audición normal, ¿repetirías las pruebas? ¿Cuál
 - **Qué pedir:** repetir la calórica con la bitérmica, vHIT de los dos lados y DVA.
 - **Lo que enseña:** que el informe anterior **no estaba equivocado en lo que decía** (la asimetría es de 11 %), sino en lo que **no decía**. Una calórica con velocidades de 4 y 5 °/s es baja con cualquier criterio; y que la causa quede sin explicar es lo más frecuente.
 - **Errores esperables:** repetir "sin alteración vestibular"; buscar la causa en las pruebas auditivas; dar de alta con un "normal".
-- **En LabSim:** cuadro *Normal* en los dos oídos; lo vestibular se entrega con la tabla de resultados.
 :::
 
 {{caso cap24_canvas}}
@@ -350,7 +344,6 @@ Pide la hoja de resultados de la neurología. ¿Qué parte del estudio vestibula
 - **Qué pedir:** audiometría, calórica y vHIT; DVA; y la parte que corresponde al neurólogo, la video-oculografía del reflejo potenciado visualmente.
 - **Lo que enseña:** qué **no** se atribuye al oído. La hipoacusia es la de la edad y el acúfeno también; lo vestibular es bilateral y la clínica apunta al sistema nervioso. El audiólogo informa el **patrón** y **la discordancia con la audición**.
 - **Errores esperables:** explicar la inestabilidad por la presbiacusia; informar "hipofunción vestibular bilateral" como si fuera un diagnóstico; decir que el cerebelo "se compensa" y que la rehabilitación va a resolverlo.
-- **En LabSim:** cuadro *Presbiacusia*, grado leve, en los dos oídos. El simulador no modela la neuropatía ni la ataxia: van en el relato del caso.
 :::
 
 ## Resolución de los casos

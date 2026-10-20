@@ -22,23 +22,15 @@ Un sonido intenso contrae el músculo del estribo de los dos lados, y la contrac
 2. **Contralateral** después, en las mismas frecuencias más un ruido: el tono entra por un fono en el otro oído y la sonda registra en este.
 3. Se parte en **80 dB** y se sube de **5 en 5** hasta ver una deflexión de al menos 0,02 mL que **crece** al subir 5 dB más. La menor intensidad con una deflexión repetible es el **umbral del reflejo**.
 
-En LabSim, como en este libro, el umbral se anota en **dB SPL**. Un oído sano da el ipsilateral en **90, 85, 90 y 90 dB SPL** (500 a 4000 Hz) y el contralateral en **95, 90, 95 y 95**, con el ruido contralateral en 95 (→ H7, "El reflejo: umbral y Metz").
+En este libro el umbral se anota en **dB SPL**. Un oído sano da el ipsilateral en **90, 85, 90 y 90 dB SPL** (500 a 4000 Hz) y el contralateral en **95, 90, 95 y 95**, con el ruido contralateral en 95 (→ H7, "El reflejo: umbral y Metz").
 
 :::comentario Lo que dicen las normas
-La BSA prefiere expresar el estímulo del reflejo en **dB HL** y acepta dB SPL si se corrige antes de comparar con los valores normales, que están en HL (BSA, 2024; Wiley y cols., 1987). También recomienda no pasar de **105 dB HL** con tonos. En dB SPL eso equivale a 105-110 en el ipsilateral y a 112-117 en el contralateral, según la frecuencia. El dial de LabSim llega a 120 dB SPL: el tope lo pones tú.
-:::
-
-:::imagen /docs/manual/img/estudiante/impedanciometro-reflejos.png ancho=80% La pantalla de reflejos de LabSim
-- @50,7 | Arriba, el **oído de la sonda** (OD) y el **modo** (IPSI). Con IPSI/CONTRA, abajo a la derecha, cambias de modo.
-- @45,37 | La **deflexión**: la curva baja cuando empieza el tono, se queda abajo mientras suena y vuelve al terminar. Es la forma normal.
-- @95,22 | La tabla *Threshold* anota el umbral de cada frecuencia en que encontraste reflejo.
-- @6,59 | Las teclas bajo la pantalla: la primera elige la **frecuencia** (NBN solo existe en CONTRA) e **Inicio** lanza el tono a la intensidad que se lee al lado.
-- @50,75 | La **perilla** sube y baja la intensidad de 5 en 5 dB.
+La BSA prefiere expresar el estímulo del reflejo en **dB HL** y acepta dB SPL si se corrige antes de comparar con los valores normales, que están en HL (BSA, 2024; Wiley y cols., 1987). También recomienda no pasar de **105 dB HL** con tonos. En dB SPL eso equivale a 105-110 en el ipsilateral y a 112-117 en el contralateral, según la frecuencia.
 :::
 
 La tabla de reflejos se lee por **oído con sonda** y por **oído estimulado** (Jerger y Jerger, 1977). Un oído medio rígido falla de dos maneras, y cada una deja su huella en una casilla distinta (Jerger y cols., 1974):
 
-- **Con la sonda en el oído rígido** no se registra nada. El estapedio se contrae, pero un sistema que ya casi no se mueve no deja ver el cambio. Basta un gap chico: en LabSim, desde **10 dB** de gap en el oído de la sonda, o con una curva As, el reflejo queda ausente.
+- **Con la sonda en el oído rígido** no se registra nada. El estapedio se contrae, pero un sistema que ya casi no se mueve no deja ver el cambio. Basta un gap chico, o una curva As, para que el reflejo quede ausente.
 - **Con el tono en el oído rígido** el reflejo aparece **más alto**, o no aparece: el tono pierde en el camino lo que mide el gap, y a veces no alcanza el nivel del reflejo antes del tope del equipo.
 
 Si solo un oído es rígido, el resultado son tres filas alteradas en torno a ese oído: sus dos registros y el contralateral con el tono en él. Es el patrón de **L invertida**. Si los dos oídos son rígidos, no queda ningún reflejo.
@@ -63,23 +55,19 @@ El reflejo invertido no es exclusivo de la otoesclerosis, y su origen se discute
 :::imagen ilustraciones/04-formas-reflejo.svg ancho=92% Las cuatro formas de la curva del reflejo, con el tono encendido durante 1 s (franja). Normal: la admitancia baja al empezar el tono, se queda abajo y vuelve al terminar. ON-OFF: baja solo al encender y al apagar. OFF: no se mueve mientras suena y baja recién al apagarlo. Invertido: sube en vez de bajar. La línea punteada roja marca los 0,02 mL que debe pasar una deflexión para contar.
 :::
 
-:::comentario En LabSim
-La forma de la curva **no la decide el simulador**: la elige tu docente para cada oído al armar el caso (normal, ON-OFF, OFF o invertido), porque un mismo cuadro puede dar cualquiera de ellas (Debruyne, 1992). Para verla, el reflejo tiene que estar presente con la sonda en ese oído, como en una otoesclerosis que recién empieza. LabSim ofrece también la forma **OFF**, con la deflexión solo al apagar el tono; en las fuentes revisadas no encontramos una descripción del OFF aislado, sin la deflexión del comienzo.
-:::
-
 ### El timpanograma: As, pero no siempre
 
-En un oído rígido, el pico del timpanograma queda en su lugar (la presión del oído medio es normal) pero **bajo**: es la curva **As** de Jerger, con una compliancia bajo 0,3 mL en el adulto, el límite inferior del 90 % de los adultos sanos (BSA, 2024). LabSim, cuando arma una otoesclerosis, la dibuja así.
+En un oído rígido, el pico del timpanograma queda en su lugar (la presión del oído medio es normal) pero **bajo**: es la curva **As** de Jerger, con una compliancia bajo 0,3 mL en el adulto, el límite inferior del 90 % de los adultos sanos (BSA, 2024).
 
 :::comentario Lo que dice la literatura
-La curva As es la **forma típica** de la otoesclerosis, y por eso es la que LabSim muestra cuando el docente arma ese cuadro: el ejercicio es reconocer el hallazgo alterado. Pero en la clínica **la mayoría de las otoesclerosis tiene una curva A**. En una serie quirúrgica de 80 oídos, el timpanograma fue A en el 80 % y As en el 20 % (Xue y Sun, 2025). Y aunque la compliancia media de los oídos con otoesclerosis es más baja que la de los sanos, los rangos se superponen tanto que, con un corte que solo marca como anormal al 10 % de los oídos sanos, el 72 % de las otoesclerosis queda dentro de lo normal (Browning y cols., 1985). El timpanograma no confirma ni descarta una otoesclerosis: lo hacen el gap con tímpano normal, la forma de la ósea, los reflejos y la historia. Un caso con curva A se arma a mano en el editor.
+La curva As es la **forma típica** de la otoesclerosis, pero en la clínica **la mayoría de las otoesclerosis tiene una curva A**. En una serie quirúrgica de 80 oídos, el timpanograma fue A en el 80 % y As en el 20 % (Xue y Sun, 2025). Y aunque la compliancia media de los oídos con otoesclerosis es más baja que la de los sanos, los rangos se superponen tanto que, con un corte que solo marca como anormal al 10 % de los oídos sanos, el 72 % de las otoesclerosis queda dentro de lo normal (Browning y cols., 1985). El timpanograma no confirma ni descarta una otoesclerosis: lo hacen el gap con tímpano normal, la forma de la ósea, los reflejos y la historia.
 :::
 
 ### El gap y el diapasón
 
 En la audiometría (→ H3) la rigidez da una pérdida **conductiva** con una forma propia: el gap es **mayor en los graves**, se achica en 2 kHz y vuelve a abrirse un poco en 4 kHz. En una serie de otoesclerosis, el gap promedio fue de 38 dB en 500 Hz, 33 dB en 1 kHz, 18 dB en 2 kHz y 25 dB en 4 kHz (Xue y Sun, 2025). Ese gap chico en 2 kHz no es porque la aérea mejore, sino porque la ósea **cae** ahí: es la **muesca de Carhart**. Un gap de 15 dB o menos en 2 kHz separó la fijación del estribo de una disyunción de cadena con una especificidad del 89 % (Cheon y cols., 2023).
 
-En la acumetría (→ H2), el **Weber** se va al oído con más gap y el **Rinne** se hace negativo en el oído rígido. En LabSim el Rinne sale negativo con un gap de 15 dB o más.
+En la acumetría (→ H2), el **Weber** se va al oído con más gap y el **Rinne** se hace negativo en el oído rígido.
 
 :::ayuda Ayuda memoria
 **Tímpano normal + gap mayor en graves + ósea que cae en 2 kHz** = piensa en un estribo fijo. **Sonda en el oído rígido = no hay reflejo.** Una curva A no lo descarta.
@@ -110,7 +98,7 @@ Después de una estapedotomía, la vía ósea suele **mejorar**: en esa misma se
 
 Es una enfermedad del hueso de la **cápsula ótica**, el hueso que rodea el oído interno: el hueso compacto se reabsorbe y se reemplaza por hueso esponjoso, que crece y termina por **fijar la platina del estribo** en la ventana oval (Toscano y cols., 2025). Su causa no está aclarada; hay factores genéticos y ambientales, y en muchas familias se hereda en forma autosómica dominante con penetrancia incompleta (Markou y Goudakos, 2009).
 
-El perfil clásico calza con Carolina, la paciente de práctica 34. En una cohorte británica de 657 pacientes operados, el 65 % eran mujeres, el 40 % tenía otro caso en la familia y la enfermedad empezaba en el adulto joven; las mujeres que relacionaban su hipoacusia con un embarazo la habían notado antes que las demás (Crompton y cols., 2019). Es bilateral en dos de cada tres pacientes (Xue y Sun, 2025), aunque muchas veces un oído va adelante.
+El perfil clásico calza con Carolina (caso 4.1). En una cohorte británica de 657 pacientes operados, el 65 % eran mujeres, el 40 % tenía otro caso en la familia y la enfermedad empezaba en el adulto joven; las mujeres que relacionaban su hipoacusia con un embarazo la habían notado antes que las demás (Crompton y cols., 2019). Es bilateral en dos de cada tres pacientes (Xue y Sun, 2025), aunque muchas veces un oído va adelante.
 
 La pérdida es conductiva y progresiva, de los graves primero. Dos síntomas ayudan:
 
@@ -150,7 +138,7 @@ Cuando toma el hueso temporal, la hipoacusia es lenta y progresiva, casi siempre
 :::
 
 :::comentario Lo que dice la literatura
-En la serie de Deep y cols. (2017), la forma **sensorioneural pura** fue la más frecuente. LabSim, cuando el docente arma una enfermedad de Paget, muestra la forma **mixta**, que es la que se enseña: es la que obliga a separar los dos componentes. Un Paget sensorioneural se arma eligiendo un cuadro coclear.
+En la serie de Deep y cols. (2017), la forma **sensorioneural pura** fue la más frecuente. El caso de este capítulo muestra la forma **mixta**, la que obliga a separar los dos componentes.
 :::
 
 :::sabias ¿Sabías que?
@@ -242,7 +230,6 @@ Carolina teme que le pase lo de su mamá. ¿Qué enfermedades pueden dar una pé
 - **Hipótesis esperables:** otoesclerosis del OD; otra fijación o una disyunción (sin trauma ni otitis); sensorioneural (la descarta la ósea).
 - **Qué pedir:** audiometría con ósea enmascarada, acumetría, impedanciometría con reflejos y logoaudiometría (→ H3, H4, H5, H7).
 - **Errores esperables:** no enmascarar la ósea; leer la muesca como daño coclear; anotar los contralaterales sin decir qué oído tenía la sonda.
-- **En LabSim:** paciente de práctica 34, en "Práctica libre". Con la sonda en el OD no hay reflejo y la forma de la curva no se ve: para el ON-OFF el docente arma una otoesclerosis incipiente con curva A y gap chico.
 :::
 
 {{caso cap04_fijacion_congenita_estribo}}
@@ -285,7 +272,7 @@ En un niño de 9 años que no pasó el control del colegio, ¿qué causas de hip
 - **Hipótesis esperables:** fijación congénita del estribo o malformación de la cadena; otoesclerosis juvenil (la historia de no progresión la hace menos probable); otitis media con efusión (la descarta la otoscopía y que haya pico); hipoacusia sensorioneural (la descarta la ósea).
 - **Qué pedir:** audiometría con ósea enmascarada (gap bilateral: → H4), acumetría e impedanciometría. Las emisiones otoacústicas no sirven para la cóclea con un gap así: no pasan el oído medio.
 - **Errores esperables:** leer el As del OI como normal o como anormal sin considerar la edad; no enmascarar la ósea; atribuir la muesca de 2 kHz a la cóclea; no preguntar por la evolución.
-- **En LabSim:** cuadro *fijación congénita del estribo* en los dos oídos (moderada en el OD, leve en el OI). Para discutir: qué se le recomienda al colegio mientras el otorrino decide (ubicarlo adelante, hablarle de frente).
+- **Para discutir:** Qué se le recomienda al colegio mientras el otorrino decide (ubicarlo adelante, hablarle de frente).
 :::
 
 {{caso cap04_paget}}
@@ -324,7 +311,7 @@ Si la pérdida tiene un componente conductivo, ¿esperas una curva As? ¿Qué es
 - **Hipótesis esperables:** hipoacusia mixta por Paget del hueso temporal; presbiacusia (no explica el gap); otoesclerosis avanzada (no calza con la edad de inicio ni con la historia).
 - **Qué pedir:** audiometría con ósea enmascarada, impedanciometría con reflejos y logoaudiometría (→ H3, H5, H7).
 - **Errores esperables:** atribuirlo todo a la edad; pasar por alto un gap de 10 a 15 dB porque "es chico"; esperar una curva As para aceptar un componente conductivo; no preguntar por signos de nervios craneales.
-- **En LabSim:** cuadro *enfermedad de Paget* en los dos oídos. La logoaudiometría máxima sale en 84 % en los dos oídos, más baja que la de Carolina: el componente coclear se nota.
+- **Para discutir:** La logoaudiometría máxima sale en 84 % en los dos oídos, más baja que la de Carolina: el componente coclear se nota.
 :::
 
 ## Resolución de los casos

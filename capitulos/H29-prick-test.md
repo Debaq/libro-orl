@@ -225,9 +225,7 @@ El prick test es un procedimiento seguro, y su seguridad depende de cuatro cosas
 Una prueba cutánea no se informa sola. Una pápula de 3 mm en un paciente sin síntomas, o una prueba negativa en alguien cuya historia sugiere mucho una alergia, no son contradicciones que el examen deba resolver: son datos que el médico integra. Lo que sí es responsabilidad de quien hace el examen es que el dato esté bien tomado: controles válidos, lectura a tiempo, medida correcta y fármacos anotados.
 :::
 
-## En LabSim
-
-LabSim no simula el prick test: no hay pantalla ni tutorial para este examen. Las figuras de este capítulo son esquemas propios para practicar la lectura de la pápula y la hoja de registro.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un paciente llega con la histamina sin pápula y el negativo sin pápula. ¿Qué significa, qué le preguntas y qué haces con el resultado?

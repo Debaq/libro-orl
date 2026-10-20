@@ -9,7 +9,7 @@
 - Reconocer los artefactos que se disfrazan de onda, incluida la falsa onda V.
 :::
 
-Los potenciales evocados auditivos de tronco (PEAT, PEATC o BERA; en inglés *auditory brainstem response*, **ABR**, que es como lo llama LabSim) son la respuesta eléctrica del nervio auditivo y del tronco cerebral a un sonido breve. No piden nada al paciente: puede estar dormido, sedado o ser un recién nacido. Por eso son el examen que responde cuando la audiometría no puede, y el que mira más allá de la cóclea cuando la audiometría no alcanza. A cambio, exigen técnica: la respuesta es tan chica que, mal registrada, cualquier ruido parece una onda.
+Los potenciales evocados auditivos de tronco (PEAT, PEATC o BERA; en inglés *auditory brainstem response*, **ABR**) son la respuesta eléctrica del nervio auditivo y del tronco cerebral a un sonido breve. No piden nada al paciente: puede estar dormido, sedado o ser un recién nacido. Por eso son el examen que responde cuando la audiometría no puede, y el que mira más allá de la cóclea cuando la audiometría no alcanza. A cambio, exigen técnica: la respuesta es tan chica que, mal registrada, cualquier ruido parece una onda.
 
 ## Para qué sirve
 
@@ -94,11 +94,11 @@ El ABR no cambia con el sueño, con la sedación habitual ni con la atención de
 
 Con fonos de inserción el sonido demora cerca de 1 ms en recorrer el tubo. Algunos equipos lo descuentan y otros no. Da lo mismo cómo lo haga el tuyo, siempre que los valores normales que uses se hayan medido con **el mismo transductor**: cada laboratorio debe construir su norma con el mismo equipo y protocolo que usa en la clínica (Sanfins y cols., 2026; ACNS, 2008).
 
-### Conoce tu equipo: el ABR de LabSim
+### Conoce tu equipo: el ABR
 
-El ABR de LabSim tiene la lógica de cualquier equipo clínico: los parámetros a la izquierda, las curvas de cada oído al centro, los valores que mides a la derecha y, abajo, lo que está pasando mientras registras. La figura muestra un examen en curso: el OD ya está registrado de 80 a 20 dB nHL y el OI va en 40.
+Todo equipo de ABR tiene la misma lógica: los parámetros a la izquierda, las curvas de cada oído al centro, los valores que mides a la derecha y, abajo, lo que está pasando mientras registras. La figura muestra un examen en curso: el OD ya está registrado de 80 a 20 dB nHL y el OI va en 40.
 
-:::imagen /docs/manual/img/estudiante/abr.png El ABR de LabSim durante una búsqueda de umbral
+:::imagen /docs/manual/img/estudiante/abr.png Pantalla de un equipo de ABR durante una búsqueda de umbral
 - @-2.5,11 | **Estímulo y polaridad.** *Click*, *CE-Chirp* y *CE-Chirp LS* (de banda ancha), y los de frecuencia: *NB CE-Chirp LS* y *Burst* de 500 Hz a 4 kHz. La polaridad: alternada, condensación o rarefacción.
 - @-2.5,17.5 | **Intensidad** en dB nHL y, debajo, el **Masking**: el ruido que va al oído contrario.
 - @-2.5,26.5 | **Tasa** (estímulos por segundo) y **filtros**: *Pasa bajo* y *Pasa alto* fijan la banda de registro.
@@ -143,7 +143,7 @@ Con el paciente acostado de espalda:
 4. **Pon los fonos de inserción**: rojo en el OD, azul en el OI, con la oliva del tamaño del conducto.
 5. Apaga la luz, abriga al paciente y espera que se duerma.
 
-:::imagen /docs/manual/img/estudiante/abr-avanzados-2.png ancho=50% Parámetros avanzados de LabSim: la pestaña Registro
+:::imagen /docs/manual/img/estudiante/abr-avanzados-2.png ancho=50% Parámetros de registro de un equipo de ABR
 - @80,14 | **Transductor**: fono de inserción, supraaural o vibrador óseo. Elegir el vibrador es lo que convierte el examen en un ABR por vía ósea.
 - @88,19.7 | **Montaje**: Cz o Fz contra mastoides, o Cz contra lóbulo.
 - @75,25.5 | **Ventana**: cuántos milisegundos se registran después del estímulo.
@@ -164,7 +164,7 @@ Con el paciente acostado de espalda:
 | Intensidad inicial | 80 dB nHL | En un oído normal se ven todas las ondas |
 | Tasa | 21,1 estímulos/s | Rápida sin degradar las ondas; el decimal evita que el estímulo quede en fase con la red eléctrica |
 | Filtros | 100 a 3.000 Hz | Deja pasar la energía del ABR; saca el EEG lento y parte del músculo |
-| Ventana | 10 a 12 ms | Lo que tarda en llegar la onda V cerca del umbral (12 ms en LabSim) |
+| Ventana | 10 a 12 ms | Lo que tarda en llegar la onda V cerca del umbral |
 | Barridos | 2.000 por curva | Lo que hace falta para bajar el ruido residual (ver el paso 4) |
 | Transductor | Fonos de inserción | Más aislación, menos artefacto |
 :::
@@ -181,7 +181,7 @@ Antes de apretar Iniciar, mira el EEG en vivo. Tiene que estar **tranquilo**: si
 
 ### 2. Empieza a 80 dB nHL y reconoce las ondas
 
-Registra el primer oído a **80 dB nHL**. Ahí, en un oído normal, se ven las ondas I a V. Antes de marcar nada, **repite la curva**: una onda que no está en las dos curvas no es una onda. Lo mismo dicen los **subpromedios A y B** (el botón **AB** de LabSim): el equipo reparte los barridos en dos mitades, y una respuesta real aparece en las dos.
+Registra el primer oído a **80 dB nHL**. Ahí, en un oído normal, se ven las ondas I a V. Antes de marcar nada, **repite la curva**: una onda que no está en las dos curvas no es una onda. Lo mismo dicen los **subpromedios A y B**: el equipo reparte los barridos en dos mitades, y una respuesta real aparece en las dos.
 
 Para reconocer las ondas sirve el **canal contralateral** (el botón **C**), el que registra con la referencia del otro lado. Ahí la onda I falta o es mínima y la V sigue presente. Si dudas cuál es la I, la que desaparece en el contralateral lo es.
 
@@ -203,7 +203,7 @@ Ese esquema deja siempre un **escalón bajo el umbral sin onda V**. No es un reg
 - Mira cómo se corre la V: 0,4 ms de 80 a 60, pero 1,0 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
 :::
 
-Si a 80 dB nHL no hay onda V, se sube a **90 o 100 dB nHL** antes de concluir que no hay respuesta. Más arriba los fonos no entregan sin distorsión (en LabSim, la vía aérea llega hasta 100 dB nHL).
+Si a 80 dB nHL no hay onda V, se sube a **90 o 100 dB nHL** antes de concluir que no hay respuesta. Más arriba los fonos no entregan sin distorsión.
 
 ### 4. Cuántos barridos: el FSP y el ruido residual
 
@@ -212,15 +212,11 @@ Decidir "hay onda" a ojo cerca del umbral es la fuente de error más común del 
 - El **ruido residual**: cuánto ruido queda en el promedio, en nanovoltios. Mientras sea comparable con la onda que buscas, no puedes decidir nada.
 - El **FSP** (*F single point*): la razón entre la varianza de la señal promediada y la del ruido de fondo (Elberling y Don, 1984). Si no hay respuesta, vale alrededor de 1. Un FSP de **3,1** o más equivale a una detección con un 99 % de confianza.
 
-En LabSim los dos están en la pestaña *Promediación* de los parámetros avanzados, junto al **rechazo de artefactos** (±25 µV: el barrido que lo supera, por un movimiento o un músculo, no entra al promedio). Los dos sirven para decidir **cuándo parar**: se sigue promediando hasta que el FSP cruza el criterio o hasta que el ruido residual es tan bajo que, si hubiera una respuesta del tamaño esperable, ya se vería (Don y Elberling, 1996). Parar antes es la forma más rápida de inventar una pérdida.
-
-:::ojo Barridos y umbral
-En LabSim el umbral de cada caso está definido **con 2.000 barridos**. Si promedias menos, la respuesta cerca del umbral no alcanza a salir del ruido: **cada vez que partes los barridos a la mitad, el umbral que encuentras sube unos 6 dB** (así lo modela el simulador; el ruido residual, en cambio, sube solo 3 dB al partir los barridos a la mitad: → B4). Si promedias más, puedes encontrar respuesta algo por debajo del umbral del caso, y eso también es correcto: es lo que pasa en la clínica.
-:::
+Los dos sirven para decidir **cuándo parar**: se sigue promediando hasta que el FSP cruza el criterio o hasta que el ruido residual es tan bajo que, si hubiera una respuesta del tamaño esperable, ya se vería (Don y Elberling, 1996). Parar antes es la forma más rápida de inventar una pérdida.
 
 ### 5. Enmascara cuando el otro oído puede contestar
 
-El sonido que entra por un oído también llega, más débil, a la cóclea del otro. Con fonos de inserción pierde unos 60 a 70 dB en el camino (LabSim usa 65); por vía ósea, casi nada.<!-- verificar: 60 a 70 dB de atenuación interaural del click con fono de inserción. Munro y Agnew (1999, doi:10.3109/03005369909090106) miden tonos puros con ER-3A: 15 a 20 dB más que el supraaural (mediana ~60) con inserción profunda, y proponen enmascarar desde 55 dB. No se encontró una serie con click de ABR; el 60-70 viene de decisiones.md (aporte del docente, 2026-09-21) sin fuente. --> Si el oído que estudias oye mucho peor que el otro, la respuesta que ves puede ser del oído bueno: es la misma **curva sombra** de la audiometría (→ H4). La regla es la misma: si la intensidad del estímulo, menos lo que se pierde al cruzar, alcanza el umbral óseo del otro oído, se enmascara con ruido en el otro oído (el **Masking** del panel).
+El sonido que entra por un oído también llega, más débil, a la cóclea del otro. Con fonos de inserción pierde unos 60 a 70 dB en el camino; por vía ósea, casi nada.<!-- verificar: 60 a 70 dB de atenuación interaural del click con fono de inserción. Munro y Agnew (1999, doi:10.3109/03005369909090106) miden tonos puros con ER-3A: 15 a 20 dB más que el supraaural (mediana ~60) con inserción profunda, y proponen enmascarar desde 55 dB. No se encontró una serie con click de ABR; el 60-70 viene de decisiones.md (aporte del docente, 2026-09-21) sin fuente. --> Si el oído que estudias oye mucho peor que el otro, la respuesta que ves puede ser del oído bueno: es la misma **curva sombra** de la audiometría (→ H4). La regla es la misma: si la intensidad del estímulo, menos lo que se pierde al cruzar, alcanza el umbral óseo del otro oído, se enmascara con ruido en el otro oído (el **Masking** del panel).
 
 ### 6. Si sospechas compromiso neural, sube la tasa
 
@@ -241,16 +237,16 @@ El click estima la audición entre 2 y 4 kHz. Para un audiograma completo, sobre
 
 El umbral del ABR queda por encima del umbral tonal del mismo oído. Para estimar el audiograma se le **resta una corrección** por estímulo y frecuencia, y el resultado se escribe en **dB eHL** (*estimated hearing level*). Las correcciones salen de comparar umbrales de ABR con audiometrías en los mismos sujetos (Stapells, 2000), y cada programa las publica en su propia tabla, con valores algo distintos según el equipo y la edad del niño (BSA, 2025; Ontario Infant Hearing Program, 2020; Hatton y cols., 2022).
 
-:::ayuda Corrección nHL → eHL que usa LabSim
-| Estímulo | Se resta |
-|---|---|
-| Burst 500 Hz | 20 dB |
-| Burst 1 kHz | 15 dB |
-| Burst 2 kHz | 10 dB |
-| Burst 4 kHz | 5 dB |
-| NB CE-Chirp LS 500 Hz / 1 kHz / 2 kHz / 4 kHz | 15 / 10 / 5 / 5 dB |
-| Click | 10 dB |
-| CE-Chirp y CE-Chirp LS | 5 dB |
+:::ayuda Corrección nHL → eHL (BSA, 2019)
+Valores en dB que se **restan** al umbral en dB nHL, con fonos de inserción, en 500 / 1.000 / 2.000 / 4.000 Hz.
+
+| Estímulo | Mayores de 2 años y adultos | Lactantes de 12 a 24 semanas |
+|---|---|---|
+| Burst | 20 / 15 / 10 / 10 | 20 / 15 / 10 / 5 |
+| Chirp por frecuencia | 15 / 10 / 5 / 5 | 15 / 10 / 5 / 0 |
+| Click | 5 | 0 |
+
+Un estímulo de banda ancha (click o CE-Chirp) no estima el umbral por frecuencia, y para el CE-Chirp de banda ancha no hay corrección publicada. Cada corrección vale para el protocolo con que se obtuvo: los programas de Ontario y de Columbia Británica, con sus propios estímulos, restan menos (→ cap. 17). En adultos chilenos con NB CE-Chirp, Fuentes y cols. (2024) obtuvieron 15 / 10 / 10 / 5.
 
 En Tomás: 20 dB nHL con burst de 500 Hz − 20 = **0 dB eHL**, lo mismo que su audiograma en 500 Hz.
 :::
@@ -262,7 +258,7 @@ En Tomás: 20 dB nHL con burst de 500 Hz − 20 = **0 dB eHL**, lo mismo que su 
 - @OD 80 V | Con click, a 80 dB nHL, la V llega a 6,3 ms: todavía dentro de lo normal para sus 74 años.
 - @OD 80 III | **No hay onda I.** La I depende de la base de la cóclea, que es justo la zona dañada: es la primera onda que se pierde en una pérdida de agudos.
 - @OD 60 V | A 60 dB la V sigue presente (6,9 ms). A 50 (no se muestra) ya no hay una V que se repita: **umbral con click, 60 dB nHL**.
-- 60 dB nHL − 10 = **50 dB eHL**: un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 40 a 60 dB HL.
+- 60 dB nHL − 5 = **55 dB eHL**: un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 40 a 60 dB HL.
 :::
 
 :::figura h10_p36 abr 2
@@ -275,18 +271,14 @@ En Tomás: 20 dB nHL con burst de 500 Hz − 20 = **0 dB eHL**, lo mismo que su 
 
 Cuando el ABR por vía aérea sale elevado, la vía ósea responde lo mismo que en la audiometría: **¿es transmisión o es la cóclea?** Es clave en el lactante con otitis media o con una malformación del oído (→ cap. 15 y 17).
 
-- **Cómo**: el **vibrador** en la mastoides, el mismo montaje, y en LabSim el transductor *vibrador óseo* en Parámetros avanzados. El cráneo vibra entero, así que en el adulto el estímulo llega casi igual a las dos cócleas: hay que **enmascarar** el oído contrario. En el lactante el cráneo transmite peor de un lado al otro y el enmascaramiento pesa menos (Yang y cols., 1987).
-- **Hasta dónde**: el vibrador entrega poco. Los equipos llegan a unos **45 a 55 dB nHL** (Seo y cols., 2018); en LabSim, **55**. Y cada vía tiene su propia referencia: en el adulto normoyente el umbral del click por vía ósea queda unos **15 dB más arriba** que por vía aérea, mientras que en el lactante quedan casi iguales (Stuart y cols., 1993).<!-- Pasada de fundamentos 2026-10-18: la cita era Cobb y Stuart (2016). Esos trabajos usan CE-Chirp, no click, y en el de umbrales (J Speech Lang Hear Res 2016;59(4):853-9) la diferencia ósea-aérea del adulto es de 4 dB (13,8 contra 9,8 dB nHL). Los 15 dB con click salen de Stuart y cols. (1993): adultos 3,75 dB nHL aérea y 18,75 ósea; neonatos 3,75 y 1,25. --> Al adulto le sobra poco margen: con una pérdida sensorioneural de 35 dB HL, la respuesta ósea ya se sale del alcance del vibrador.
+- **Cómo**: el **vibrador** en la mastoides, el mismo montaje. El cráneo vibra entero, así que en el adulto el estímulo llega casi igual a las dos cócleas: hay que **enmascarar** el oído contrario. En el lactante el cráneo transmite peor de un lado al otro y el enmascaramiento pesa menos (Yang y cols., 1987).
+- **Hasta dónde**: el vibrador entrega poco. Los equipos llegan a unos **45 a 55 dB nHL** (Seo y cols., 2018). Y cada vía tiene su propia referencia: en el adulto normoyente el umbral del click por vía ósea queda unos **15 dB más arriba** que por vía aérea, mientras que en el lactante quedan casi iguales (Stuart y cols., 1993).<!-- Pasada de fundamentos 2026-10-18: la cita era Cobb y Stuart (2016). Esos trabajos usan CE-Chirp, no click, y en el de umbrales (J Speech Lang Hear Res 2016;59(4):853-9) la diferencia ósea-aérea del adulto es de 4 dB (13,8 contra 9,8 dB nHL). Los 15 dB con click salen de Stuart y cols. (1993): adultos 3,75 dB nHL aérea y 18,75 ósea; neonatos 3,75 y 1,25. --> Al adulto le sobra poco margen: con una pérdida sensorioneural de 35 dB HL, la respuesta ósea ya se sale del alcance del vibrador.
 - **Qué se lee**: **solo la onda V**. La I y la III rara vez se identifican por vía ósea (Seo y cols., 2018): el estímulo trae poca energía aguda y el artefacto del vibrador, apoyado a centímetros del electrodo, tapa los primeros milisegundos. Buscar interpicos en un registro óseo es un error.
 - **El lactante es distinto**: su onda V por vía ósea llega **antes** que por vía aérea, al revés que en el adulto (Seo y cols., 2018).
 
-:::comentario Por qué 55 dB en LabSim
-El tope del vibrador no es un error del simulador: es el límite físico del transductor. La revisión de Seo y cols. (2018) lo ubica entre 45 y 55 dB nHL según el equipo, y hay series normativas que solo miden hasta 50 dB nHL porque su vibrador no entrega más. LabSim toma el extremo alto, 55 dB nHL. Si tu equipo llega solo a 45 o 50, la ventana útil de la vía ósea es todavía más angosta: un ABR óseo "sin respuesta" a su tope no es lo mismo que una cóclea sin función.
-:::
-
 ### 9. Mide y revisa la función latencia-intensidad
 
-Con todas las curvas registradas, marca en cada una las ondas que se repiten: la latencia en el pico y la amplitud del pico al valle que lo sigue. Revisa la tabla de latencias e interpicos y el gráfico **latencia-intensidad** de las ondas I, III y V, que en LabSim está en su propia pestaña, sobre la banda normal para la edad del paciente.
+Con todas las curvas registradas, marca en cada una las ondas que se repiten: la latencia en el pico y la amplitud del pico al valle que lo sigue. Revisa la tabla de latencias e interpicos y el gráfico **latencia-intensidad** de las ondas I, III y V sobre la banda normal para la edad del paciente.
 
 :::ayuda Ayuda memoria
 - Paciente dormido, piel bien limpia, impedancias **bajo 5 kΩ** y parecidas.
@@ -296,7 +288,7 @@ Con todas las curvas registradas, marca en cada una las ondas que se repiten: la
 - Repite siempre el máximo y el umbral.
 - Promedia hasta FSP ≥ 3,1 o ruido residual bajo; nunca menos por apuro.
 - Sospecha neural: **tasa a 81,1/s**. Frecuencias: **burst o NB chirp** y corrección a dB eHL.
-- Vía ósea: tope de **55 dB nHL** en LabSim, **solo la V**.
+- Vía ósea: tope de **45 a 55 dB nHL**, **solo la V**.
 :::
 
 ### El AABR de tamizaje
@@ -318,14 +310,14 @@ Leer bien el resultado es la mitad del examen:
 - **REFIERE no es hipoacusia.** En las primeras horas de vida, el vérnix en el conducto y el líquido en el oído medio hacen referir a muchos oídos sanos (→ cap. 16). Refiere también el bebé que se movió. Lo que sigue es un nuevo tamizaje o un ABR diagnóstico.
 - El AABR **detecta la neuropatía auditiva** y las emisiones otoacústicas no: en la neuropatía las emisiones pasan y el AABR refiere. Por eso a los recién nacidos con más de 5 días en UCI neonatal se les tamiza con AABR (JCIH, 2019).
 
-:::imagen /docs/manual/img/estudiante/aabr.png ancho=75% El AABR de LabSim después de tamizar el OD
+:::imagen /docs/manual/img/estudiante/aabr.png ancho=75% Pantalla de un AABR después de tamizar el OD
 - @25,21.8 | **Estímulo**: CE-Chirp, el de fábrica.
 - @29,26.5 | **Nivel**: 35 dB nHL.
 - @25,31.1 | **Tasa**: los equipos de tamizaje estimulan rápido para terminar antes.
 - @29,40.2 | **Criterio FSP** (3,1) y, arriba, los barridos máximos (6.000): lo que el equipo exige antes de decir PASA.
 - @29.5,63 | **Restaurar valores de fábrica** devuelve el protocolo de tamizaje.
 - @97.5,9.7 | Los **cuatro pasos** que el equipo hace solo: sonda, impedancias, registro y resultado.
-- @89.5,32.3 | **Impedancias**: en el tamizaje el límite es amplio (≤ 20 kΩ en LabSim).
+- @89.5,32.3 | **Impedancias**: en el tamizaje el límite es más amplio que en el diagnóstico.
 - @80,36.8 | **Barridos**: 1.882 de 6.000. Se detuvo antes porque cruzó el criterio.
 - @41,45 | **FSP 3,13**: sobre 3,1.
 - @80,53 | **PASA**.
@@ -343,8 +335,8 @@ El nivel del tamizaje es fijo por una razón: 35 dB nHL separa un oído que oye 
 
 - **Latencias absolutas** de las ondas I, III y V a 80 dB nHL, por oído.
 - **Interpicos** I-III, III-V e I-V.
-- **Diferencia interaural de la onda V** al mismo nivel. En normoyentes es de apenas 0,08 ms en promedio (Sanfins y cols., 2026); según el centro, se considera anormal sobre 0,2 a 0,4 ms (Selters y Brackmann, 1977). LabSim usa 0,4 ms.
-- **Razón de amplitudes V/I**. En un oído normal la V es más grande que la I (Musiek y cols., 1984). Una V proporcionalmente chica (en LabSim, V/I menor que 1) es un hallazgo retrococlear.
+- **Diferencia interaural de la onda V** al mismo nivel. En normoyentes es de apenas 0,08 ms en promedio (Sanfins y cols., 2026); según el centro, se considera anormal sobre 0,2 a 0,4 ms (Selters y Brackmann, 1977).
+- **Razón de amplitudes V/I**. En un oído normal la V es más grande que la I (Musiek y cols., 1984). Una V proporcionalmente chica (V/I menor que 1) es un hallazgo retrococlear.
 - **Morfología y replicabilidad**: si las ondas son claras y se repiten.
 - **Umbral de la onda V** por estímulo, en dB nHL, y su estimación en dB eHL.
 
@@ -352,7 +344,7 @@ El nivel del tamizaje es fijo por una razón: 35 dB nHL separa un oído que oye 
 
 Cada laboratorio debe tener su propia norma, medida con su equipo, su transductor y su protocolo, estratificada por sexo y edad (Sanfins y cols., 2026; ACNS, 2008). En las mujeres las ondas III y V llegan 0,08 a 0,19 ms antes que en los hombres, y los interpicos son 0,07 a 0,15 ms más cortos (Jerger y Hall, 1980; Sanfins y cols., 2026). Con la edad adulta la V se alarga unos 0,2 ms entre los 25 y los 55 años y su amplitud cae cerca de un 10 % (Jerger y Hall, 1980). El recién nacido tiene la onda I algo más tardía que la del adulto y un I-V largo (Rosa y cols., 2014). La onda V, y con ella los interpicos, se acorta rápido hasta los 18 meses mientras la I casi no cambia (Gorga y cols., 1989), y después de los 3 años sigue acortándose más lento (Sharma y cols., 2016).<!-- Pasada de fundamentos 2026-10-18: decía "la onda I casi de adulto" y que el I-V llega "a valores de adulto entre los 9 meses y los 3 años". Rosa y cols. (2014) dan la onda I del término en 1,79 ms (adulto ~1,47); Gorga y cols. (1989) ven acortarse la V al menos hasta los 18 meses, y Sharma y cols. (2016) la ven madurar del todo recién a los 12 años. --> La temperatura también cuenta: la hipotermia alarga el I-V (→ cap. 14).
 
-:::ayuda-ancho Valores de referencia que usa LabSim en el adulto (click a 80 dB nHL, en ms)
+:::ayuda-ancho Valores de referencia en el adulto (click a 80 dB nHL, en ms)
 | | Hombre: media | Hombre: límite | Mujer: media | Mujer: límite |
 |---|---|---|---|---|
 | Onda I | 1,47 | 1,87 | 1,46 | 1,86 |
@@ -362,7 +354,7 @@ Cada laboratorio debe tener su propia norma, medida con su equipo, su transducto
 | III-V | 1,93 | 2,37 | 1,89 | 2,33 |
 | I-V | 4,21 | 4,71 | 4,08 | 4,58 |
 
-Medias de la serie de Sanfins y cols. (2026), con fonos de inserción. El límite es la media más 2 desviaciones estándar. LabSim tiene tablas propias para el recién nacido, el niño de 1 a 3 años, el niño mayor y el adulto mayor, y elige la del paciente por su edad y su sexo.
+Medias de la serie de Sanfins y cols. (2026), con fonos de inserción. El límite es la media más 2 desviaciones estándar.
 :::
 
 ### Cuatro patrones
@@ -460,23 +452,7 @@ La **falsa onda V** merece una mención aparte porque engaña justo donde más i
 Antes de informar un ABR, pregúntate si **calza con lo demás**: con el audiograma, con la timpanometría, con las emisiones y con cómo conversó el paciente. Un umbral de ABR peor que la audiometría hace sospechar un registro malo antes que una pérdida; uno mucho mejor hace sospechar una pérdida no orgánica (→ cap. 19). Y un ABR plano con emisiones presentes no es una sordera: es una neuropatía hasta que se demuestre lo contrario.
 :::
 
-## En LabSim
-
-El ABR de LabSim se maneja como un equipo real, y por eso se puede equivocar como uno real.
-
-- **El equipo no viene configurado.** La tasa y las promediaciones arrancan al azar y los filtros abiertos. Configurarlo es parte del examen, y nada en la pantalla te avisa qué está mal: lo ves en el trazo.
-- **El paciente responde según su caso**: su audiograma, su tipo de pérdida y, si lo tiene, su patrón retrococlear. La población normativa (recién nacido, niño, adulto, adulto mayor; hombre o mujer) la elige el equipo por la edad y el sexo del paciente.
-- **El umbral del caso está referido a 2.000 barridos.** Con menos, encuentras un umbral más alto; con más, puedes bajar un poco.
-- **Los artefactos están**: el de estímulo (y la maniobra de pinzar el tubo), la red eléctrica sin tierra, el paciente inquieto, la respuesta postauricular y la falsa onda V, según lo que el docente haya puesto en el caso.
-- **El AABR** es un equipo aparte, en el mismo grupo, y la **electrococleografía** está dentro del ABR, en el combo *Prueba* (→ H11).
-
-El informe se guarda solo, con las curvas y sus marcas. Si el paciente tiene un ABR de una atención anterior, aparece en *Sesión* para mirarlo, pero no se puede editar.
-
-:::comentario Lo que el simulador no tiene
-En LabSim el paciente ya está acostado, con los electrodos puestos y casi siempre dormido cuando abres el equipo. En la clínica, conseguir ese sueño es la mitad del examen. Además, los filtros de LabSim no corren las ondas: los filtros de un equipo real, sobre todo con el pasa alto subido, pueden cambiar un poco las latencias y agregar oscilaciones (Picton, 2010). Por eso tu norma tiene que estar medida con los mismos filtros.
-:::
-
-Para practicar, los pacientes de este capítulo están entre los de práctica (★): Tomás, Hernán, Carolina, Raúl y Valentina.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. En el caso de Tomás, ¿qué intensidades registrarías si a 20 dB nHL **no** hubiera onda V? ¿Cuál sería su umbral si a 30 sí la hay?
@@ -525,6 +501,8 @@ Para practicar, los pacientes de este capítulo están entre los de práctica (�
 
 ### Umbral por frecuencia y tamizaje
 
+1. British Society of Audiology. Recommended procedure: auditory brainstem response (ABR) testing for post-newborn and adult (OD104-84). BSA; 2019. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2022/09/ABR-post-newborn-and-Adult.pdf
+1. Fuentes M, Barrientos R, Bravo S. Estimated thresholds (est dBHL) for auditory evoked potentials with narrowband CE-Chirp® stimuli. Rev CEFAC. 2024;26(6). doi:10.1590/1982-0216/202426614423
 1. British Society of Audiology. Recommended procedure: auditory brainstem response (ABR) testing in newborns (OD100). BSA; 2025, enmienda 2026. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2026/06/OD100-Auditory-Brainstem-Response-ABR-Testing-in-Newborns-March-2026.pdf
 1. Ontario Infant Hearing Program. Protocol for auditory brainstem response-based audiological assessment (ABRA). Version 2018.02. Toronto; 2020. Disponible en: https://www.uwo.ca/nca/pdfs/clinical_protocols/2018.02%20ABRA%20Protocol_Oct%202020.pdf
 1. Hatton JL, Van Maanen A, Stapells DR. British Columbia Early Hearing Program: auditory brainstem response protocol. Vancouver: BC Early Hearing Program; 2022. Disponible en: https://ehdi-pals.org/HostedMaterials/British%20Columbia%20ABR%20Protocol.pdf

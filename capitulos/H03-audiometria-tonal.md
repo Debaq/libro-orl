@@ -170,9 +170,9 @@ Eso tiene dos consecuencias prácticas. La primera: una diferencia de 5 dB entre
 
 ### Conoce tu equipo: el audiómetro
 
-Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes, cada uno con su pantalla y sus controles, y un **centro** con lo que comparten los dos (la frecuencia, el paso, el cronómetro). Uno lleva el tono al oído que estás midiendo; el otro, cuando hace falta, lleva el ruido que enmascara al oído contrario. La figura muestra el audiómetro de LabSim armado justo así: tono por el canal 1 al oído derecho y ruido de banda estrecha por el canal 2 al izquierdo.
+Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes, cada uno con su pantalla y sus controles, y un **centro** con lo que comparten los dos (la frecuencia, el paso, el cronómetro). Uno lleva el tono al oído que estás midiendo; el otro, cuando hace falta, lleva el ruido que enmascara al oído contrario. La figura muestra un audiómetro armado justo así: tono por el canal 1 al oído derecho y ruido de banda estrecha por el canal 2 al izquierdo.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro de LabSim, listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar.
+:::imagen /docs/manual/img/estudiante/audiometro.png Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar.
 - @4,13 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aérea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.
 - @40,10 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de abajo.
 - @51,22 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.
@@ -273,7 +273,7 @@ Se empieza en 1 kHz porque es la frecuencia más estable y la más fácil de oí
 
 ### 4. Vía ósea
 
-En este libro la vía ósea va **al final de la batería**: después de la vía aérea, la logoaudiometría, la acufenometría y las pruebas supraliminares. Es el orden que espera LabSim.
+En este libro la vía ósea va **al final de la batería**: después de la vía aérea, la logoaudiometría, la acufenometría y las pruebas supraliminares.
 
 **Por qué este orden.** Todo lo que se hace con fonos va primero y el cambio al vibrador se hace **una sola vez**. Cada cambio de transductor obliga a entrar a la cabina, sacar y volver a poner los fonos, mover al paciente y recolocar el vibrador. Eso son minutos de examen, fatiga del paciente y oportunidades de dejar un fono corrido. Con un solo cambio, la batería es más corta y más estable.
 
@@ -467,7 +467,7 @@ El grado se calcula **por oído** con el promedio de 500, 1.000, 2.000 y 4.000 H
 En el caso de Hernán (caso H3.4): el OD promedia (20 + 25 + 40 + 60) / 4 = **36 dB, leve**; el OI promedia (25 + 30 + 45 + 65) / 4 = **41 dB, moderada**. Dos oídos casi iguales quedan en grados distintos por un decibel. El grado resume, pero no reemplaza mirar la curva.
 
 :::comentario Otras escalas de grado
-La escala BIAP es la que usa este libro y la que calcula LabSim, pero no es la única. La Organización Mundial de la Salud (2021) usa el mismo promedio de 500 a 4.000 Hz, calculado en el **oído mejor**, con cortes distintos: audición normal bajo 20 dB HL; leve de 20 a menos de 35; moderada de 35 a menos de 50; moderadamente severa de 50 a menos de 65; severa de 65 a menos de 80; profunda de 80 a menos de 95, y completa desde 95. <!-- Pasada de fundamentos 2026-10-18: cortes cotejados con la tabla 1.3 del World report on hearing reproducida por Holube y cols., HNO 2024;72(8):561-4, doi:10.1007/s00106-024-01494-z. -->
+La escala BIAP es la que usa este libro, pero no es la única. La Organización Mundial de la Salud (2021) usa el mismo promedio de 500 a 4.000 Hz, calculado en el **oído mejor**, con cortes distintos: audición normal bajo 20 dB HL; leve de 20 a menos de 35; moderada de 35 a menos de 50; moderadamente severa de 50 a menos de 65; severa de 65 a menos de 80; profunda de 80 a menos de 95, y completa desde 95. <!-- Pasada de fundamentos 2026-10-18: cortes cotejados con la tabla 1.3 del World report on hearing reproducida por Holube y cols., HNO 2024;72(8):561-4, doi:10.1007/s00106-024-01494-z. -->
 
 La OMS clasifica a la **persona** para estudios de población; la BIAP clasifica **cada oído**, que es lo que necesita un informe clínico. Un mismo promedio puede caer en grados distintos según la escala: por eso el informe dice cuál usó y da el número, no solo el nombre del grado.
 :::
@@ -601,22 +601,7 @@ El primero es el de Hernán (caso H3.4) y el segundo el de Carolina (caso H3.3).
 Antes de informar, pregúntate si el audiograma **calza con todo lo demás**: con la otoscopía, con los diapasones, con cómo conversó el paciente en la entrevista. Un Weber que lateraliza al oído "bueno" en una pérdida que parece conductiva, o un paciente que conversa sin problemas con una curva de 60 dB, obligan a repetir antes de escribir.
 :::
 
-## En LabSim
-
-El audiómetro de LabSim se maneja como uno real: elijes oído, transductor, frecuencia e intensidad, presentas el tono y miras si el paciente levanta la mano. Antes de cada prueba tienes que **darle la instrucción**: sin ella el paciente no sabe qué hacer.
-
-- El paciente responde según sus umbrales verdaderos. Si no enmascaras cuando hace falta, contesta el otro oído y obtienes la **curva sombra**, igual que en la clínica.
-- La vía ósea tiene los topes de un vibrador real: llega a 70 dB de 1 a 4 kHz y a menos en los graves. Si al tope no hay respuesta, se anota "sin respuesta".
-- El **efecto de oclusión** también está: al poner el fono de enmascaramiento sobre un oído con el oído medio sano, su ósea mejora en los graves.
-- Los casos guardan umbrales de 125 a 8.000 Hz: la alta frecuencia todavía no se practica en el simulador.
-
-El **indicador de técnica** revisa cómo buscaste cada umbral: si diste la instrucción, por qué oído partiste, si terminaste un oído antes de pasar al otro, cuánto duró cada tono, si bajaste 10 y subiste 5, y si tus umbrales coinciden con la audición del paciente.
-
-:::comentario Lo que el simulador no tiene
-El paciente de LabSim no se distrae ni responde al azar: en su umbral contesta siempre. Un paciente real no. Practica igual el criterio de 2 de 3, porque es lo que vas a necesitar con personas.
-:::
-
-Para practicar, los pacientes de este capítulo están entre los de práctica (★): Tomás, Carolina, Hernán, Luis, Matías y Jorge.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un paciente responde a 30, no a 20, sí a 25, no a 15, no a 20 y sí a 25. ¿Cuántos ascensos llevas? ¿Te alcanza para dar 25 dB como umbral con el criterio de 2 de 3?

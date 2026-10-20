@@ -323,9 +323,7 @@ Casi todos los errores se ven en la curva, y la curva se mira **durante** el exa
 Un FEV1 o un PEF reducidos con una curva de mala forma son más probablemente un problema de la maniobra que del paciente. Lo mismo vale para el paciente con un «asma» que no responde: la guía de asma recuerda que la falta de esfuerzo o la obstrucción laríngea inducible pueden dar el mismo resultado (Global Initiative for Asthma, 2024). La responsabilidad de quien hace el examen es que el dato esté bien tomado: equipo verificado, talla correcta, maniobras aceptables y repetibles, y la curva a la vista.
 :::
 
-## En LabSim
-
-LabSim no simula la espirometría: no hay pantalla ni tutorial para este examen. Las figuras de este capítulo son esquemas propios, calculados con un modelo sencillo, para practicar la lectura de las curvas.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. ¿Por qué el espirómetro no puede medir el volumen residual ni la TLC? ¿Qué se necesita para confirmar una sospecha de restricción?

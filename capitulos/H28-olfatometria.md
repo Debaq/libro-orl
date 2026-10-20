@@ -210,9 +210,7 @@ Esto es contexto: lo decide el médico, y la herramienta se usa para ver si func
 Una prueba de elección forzada **tiene un piso**: quien no huele nada acierta por azar un tercio o un cuarto de las veces. Un puntaje **por debajo del azar**, de forma significativa, no es mala suerte: sugiere que el paciente percibió el olor y eligió otra opción adrede. El UPSIT detectó a la mayoría de quienes simulaban anosmia (Doty y cols., 1984). <!-- verificar: que esa detección se base en puntajes por debajo del azar; el resumen de Doty 1984 no lo dice. --> Eso no se escribe en el informe como una acusación: se anota el puntaje, se avisa al médico, y es él quien decide cómo seguir (sobre todo en una evaluación medicolegal, donde se prefiere la olfatometría objetiva; Whitcroft y cols., 2023).
 :::
 
-## En LabSim
-
-LabSim no simula la olfatometría: no hay pantalla ni caso para este examen. Las figuras de este capítulo son esquemas propios, y la escalera de umbral se calculó con la regla de la propia prueba.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un paciente dice que "huele perfecto", pero su TDI es 27. ¿Qué categoría es? ¿Qué tendrías que saber de él para decidir si ese puntaje es bajo para su edad?

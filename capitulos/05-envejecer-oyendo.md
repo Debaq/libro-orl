@@ -94,10 +94,6 @@ Cuando el paciente con presbiacusia dice "oigo, pero no entiendo", está describ
 
 La norma da la **mediana** y la **dispersión** para cada edad. La mediana no es el límite de lo normal: la mitad de las personas sanas de esa edad está peor que ella. Pero un audiograma muy por debajo de la mediana de su edad y su sexo pide preguntarse qué más hay: ruido, fármacos, una enfermedad o una causa familiar. El detalle de la fisiología del envejecimiento coclear está en B2.
 
-:::comentario En LabSim
-El generador de casos suma a todo paciente la **mediana de ISO 7029** para su edad y su sexo, sea cual sea su cuadro: un señor de 70 años con una otitis tiene la otitis **y** sus agudos de 70 años. Un joven sano da 0 dB HL en todas las frecuencias; un adulto mayor sano, no.
-:::
-
 ## Patología
 
 ### Presbiacusia
@@ -223,7 +219,7 @@ Además de la audiometría tonal, ¿qué pedirías? ¿Le medirías el LDL? ¿Est
 - **Hipótesis esperables:** presbiacusia; daño por ruido sumado a la edad; un tapón de cerumen, que se descarta con la otoscopía antes de medir (→ cap. 1).
 - **Qué pedir:** audiometría con vía ósea, logoaudiometría y LDL (→ H3, H5). Emisiones si se quiere confirmar el origen coclear (→ H9). Las supraliminares **no están indicadas**: no hay asimetría ni acúfeno unilateral, y la discriminación calza (→ H6). El STAT, además, no se puede hacer: su LDL es de 100 dB HL y le molestaría el nivel de la prueba.
 - **Errores esperables:** dar como máximo el 84 % de la primera lista; buscar el roll-over sin enmascarar; no medir el LDL; informar "presbiacusia" sin mirar la simetría ni la discriminación.
-- **En LabSim:** es el paciente de práctica 36; se atiende desde "Práctica libre". Viene con su señora, Gladys, que interrumpe e insiste: es buena ocasión para practicar cómo se le habla a un paciente que minimiza y a una acompañante que exagera.
+- **Para discutir:** Viene con su señora, Gladys, que interrumpe e insiste: es buena ocasión para practicar cómo se le habla a un paciente que minimiza y a una acompañante que exagera.
 :::
 
 {{caso cap05_metabolica}}
@@ -273,7 +269,7 @@ Su mamá usó audífonos desde los 80. ¿Pesa ese dato? Plantea al menos tres ca
 - **Hipótesis esperables:** "presbiacusia precoz"; hipoacusia asociada a la diabetes y a la enfermedad renal; ototoxicidad (hay que preguntar); causa familiar (la mamá con audífonos a los 80 tuvo, con toda probabilidad, una presbiacusia, que no es un antecedente familiar de peso).
 - **Qué pedir:** audiometría con vía ósea, logoaudiometría con enmascaramiento al buscar el roll-over, LDL y emisiones (→ H3, H5, H9). Preguntar por diuréticos, antibióticos inyectados y hospitalizaciones.
 - **Errores esperables:** informar "presbiacusia" sin comparar con la edad y el sexo; buscar el roll-over sin enmascarar y concluir que no hay; leer como asimetría los 8 puntos de diferencia en la discriminación.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Diabetes / insuficiencia renal* en los dos oídos, grado leve, en una mujer de 56 años. Es el caso para practicar la curva sombra al buscar el roll-over.
+- **Para discutir:** Es el caso para practicar la curva sombra al buscar el roll-over.
 :::
 
 ## Resolución de los casos

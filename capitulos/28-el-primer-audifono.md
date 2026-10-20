@@ -235,7 +235,7 @@ Además de la audiometría, ¿qué logoaudiometría y qué LDL? ¿Qué pruebas h
 - **Hipótesis:** presbiacusia bilateral simétrica; sin banderas rojas, no hay por qué demorar la prueba.
 - **Qué pedir:** audiometría con enmascaramiento, logoaudiometría en varios niveles, LDL y la prueba de audífonos con las cuatro tareas (→ H3, H5, H21). El COSI antes de entregar nada.
 - **Errores esperables:** quedarse con la comodidad como criterio de ajuste; prometer que "volverá a oír como antes"; no averiguar por qué su hermana abandonó el suyo.
-- **En LabSim:** cuadro *presbiacusia* moderada. El simulador no tiene audífono: la curva con audífono de la figura es un ejemplo, no una medición.
+- **Para discutir:** La curva con audífono de la figura es un ejemplo, no una medición.
 :::
 
 {{caso cap28_reacio}}
@@ -269,7 +269,7 @@ Hablar de audífonos con alguien que no los quiere, ¿por dónde empiezas? ¿Qu�
 - **Hipótesis:** presbiacusia con componente de ruido; campo dinámico estrecho en agudos.
 - **Qué pedir:** audiometría, logoaudiometría y **LDL** (→ H5); en la prueba de audífonos, mirar con atención la molestia ante lo fuerte (→ H21).
 - **Errores esperables:** discutir con él en vez de preguntarle por qué piensa así; empezar por el modelo; dar mucha ganancia en agudos para "que oiga", sin mirar el techo; negarle que el pitido existe.
-- **En LabSim:** cuadro *presbiacusia* moderada. El LDL es del paciente (se sortea entre 90 y 120 dB): en este caso es de 110.
+- **Para discutir:** El LDL de este paciente es de 110 dB.
 :::
 
 {{caso cap28_leve}}
@@ -303,7 +303,6 @@ Con una queja leve y situacional, ¿qué es lo que decide si le ofreces un audí
 - **Qué pedir:** audiometría y logoaudiometría; si hay duda sobre el ruido, discriminación con ruido (→ H5).
 - **Errores esperables:** indicar un audífono porque "hay pérdida"; decirle "no tiene nada" por el promedio normal.
 - **Para discutir en clases:** una pérdida leve con dificultad real no se descarta por el promedio; y una pérdida moderada sin dificultad tampoco obliga a un audífono. La decisión es compartida (NICE, 2018).
-- **En LabSim:** cuadro *presbiacusia* leve.
 :::
 
 {{caso cap28_un_oido}}
@@ -342,7 +341,6 @@ Una pérdida unilateral de décadas con causa conocida: ¿qué tendrías que des
 - **Qué pedir:** audiometría con enmascaramiento, logoaudiometría y LDL del oído que oye, y revisión del especialista (→ H3, H5).
 - **Errores esperables:** probar un audífono convencional en el OD; leer el campo libre como "oído normal"; prometer que el CROS devuelve la localización.
 - **Para discutir en clases:** la prueba de audífonos del protocolo asume un audífono en "el oído a adaptar"; para un CROS o un audífono óseo hay que decidir cómo probarlo (→ cap. 29).
-- **En LabSim:** cuadro *parotiditis* profunda en el OD.
 :::
 
 ## Resolución de los casos

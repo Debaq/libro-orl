@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Libro completo por partes, con caché: solo se compone lo que cambió.
+También arma una parte suelta (armar(caps=..., con_frente=False)), que es lo
+que usa hacer_libro.py parte III.
 
     python3 docs/libro/herramientas/armado_incremental.py          # libro.pdf
     python3 docs/libro/herramientas/armado_incremental.py --todo   # ignora la caché
     python3 docs/libro/herramientas/armado_incremental.py --tomo I # libro-tomo-I.pdf (o II)
+    ... --solo-frente     # solo portada, índice y contraportada (ver armar)
 
 Antes, cada armado componía las ~490 páginas dos veces (la primera solo para
 saber en qué página cae cada capítulo). Ahora:
@@ -92,10 +95,22 @@ def componer(clave, doc, destino):
     return clave, {'paginas': paginas, 'anclas': anclas}
 
 
-def segmentos(tomo=None):
+ARCHIVO = {}      # clave del capítulo -> su .md (lo llena segmentos())
+
+
+def cambio_real(clave, doc, info):
+    """Archivos del capítulo (su .md y las imágenes que pide) más nuevos que su
+    caché: un cambio de verdad, que solo_frente no debe tapar."""
+    t = info.stat().st_mtime
+    rutas = [ARCHIVO.get(clave)] + [pathlib.Path(urllib.parse.unquote(u))
+                                    for u in set(re.findall(r'file://([^"\')\s]+)', doc))]
+    return [r.name for r in rutas if r and r.exists() and r.stat().st_mtime > t]
+
+
+def segmentos(tomo=None, caps=None):
     """[(clave, html del segmento, tiene_separador)] en el orden del libro
-    (solo los del tomo, si se pide uno), y la lista (cap, título, parte) de la
-    obra entera para el índice."""
+    (solo los del tomo o los de caps, si se piden), y la lista (cap, título,
+    parte) de la obra entera para el índice."""
     archivos = sorted(H.CAPITULOS.glob('*.md'),
                       key=lambda a: ({'B': 0, 'H': 1}.get(a.name[:1].upper(), 2), a.name))
     partes = H.partes_del_indice()
@@ -104,9 +119,10 @@ def segmentos(tomo=None):
         md = a.read_text(encoding='utf-8')
         m = re.match(r'#\s+([A-Z]?\d+)\.\s*(.+)', md)
         cap, titulo = (m[1], m[2].strip()) if m else (a.stem, a.stem)
+        ARCHIVO[cap] = a
         parte = partes.get(cap)
         capitulos.append((cap, titulo, parte))
-        if tomo and H.tomo_de(cap) != tomo:
+        if (tomo and H.tomo_de(cap) != tomo) or (caps and cap not in caps):
             continue
         sep = ''
         if parte and parte != parte_actual:
@@ -149,38 +165,75 @@ def copiar_marcadores(writer, reader, desplazamiento, padre=None, raices=None):
     return creados
 
 
-def armar(forzar=False, destino=None, tomo=None):
+def armar(forzar=False, destino=None, tomo=None, solo_frente=False, caps=None, con_frente=True, sufijo=None,
+          solo_cache=False):
+    """solo_frente: el cambio fue solo de las páginas iniciales o la
+    contraportada (p. ej. el color de una portada). Como la huella lleva el
+    CSS entero, eso recompondría todos los capítulos: así se dan por buenos
+    los que están en caché y se les pone la huella nueva.
+    caps y con_frente=False: una parte suelta (hacer_libro.py parte III),
+    solo esos capítulos, sin portada ni contraportada, numerada desde 1.
+    solo_cache: no compone ningún capítulo; pega los de la caché tal como
+    están, aunque hayan cambiado (hacer_libro.py frente: solo preliminares y
+    portadas, para no mezclar con lo que se está maquetando). No toca las
+    huellas, así que el próximo armado normal compone lo pendiente."""
     from pypdf import PdfReader, PdfWriter
     from pypdf.generic import ArrayObject, DictionaryObject, NameObject
     t0 = time.time()
     CACHE.mkdir(parents=True, exist_ok=True)
-    segs, capitulos = segmentos(tomo)
+    segs, capitulos = segmentos(tomo, caps)
+    if not segs:
+        sys.exit('No hay capítulos que armar')
 
     # 1. Segmentos: los que cambiaron, en paralelo
-    meta, pendientes = {}, []
+    meta, pendientes, desfasados = {}, [], []
     for clave, cuerpo, _ in segs:
         doc = documento(cuerpo, SIN_NUMERO)
         h = huella(doc)
+        # huella del capítulo sin el CSS: distingue "cambió el estilo de las
+        # portadas" (solo_frente lo deja pasar) de "cambió el capítulo" (firma,
+        # texto, imágenes), que siempre se recompone
+        hc = huella(cuerpo)
         info = CACHE / f'{clave}.json'
         pdf = CACHE / f'{clave}.pdf'
+        if solo_cache and info.exists() and pdf.exists():
+            guardado = json.loads(info.read_text(encoding='utf-8'))
+            meta[clave] = guardado
+            if guardado.get('huella_cuerpo') != hc:
+                desfasados.append(clave)
+            continue
         if not forzar and info.exists() and pdf.exists():
             guardado = json.loads(info.read_text(encoding='utf-8'))
+            if guardado.get('huella') == h and guardado.get('huella_cuerpo') != hc:
+                guardado['huella_cuerpo'] = hc          # cachés de antes de la huella_cuerpo
+                info.write_text(json.dumps(guardado), encoding='utf-8')
+            if solo_frente and guardado.get('huella') != h:
+                if guardado.get('huella_cuerpo', hc) != hc or cambio_real(clave, doc, info):
+                    print(f'{clave} cambió: se recompone', flush=True)
+                    pendientes.append((clave, doc, pdf, h, hc))
+                    continue
+                guardado['huella'] = h
+                guardado['huella_cuerpo'] = hc
+                info.write_text(json.dumps(guardado), encoding='utf-8')
             if guardado.get('huella') == h:
                 meta[clave] = guardado
                 continue
-        pendientes.append((clave, doc, pdf, h))
+        pendientes.append((clave, doc, pdf, h, hc))
+    if desfasados:
+        print(f'{len(desfasados)} capítulos con cambios quedan como estaban (sin componer): '
+              + ', '.join(desfasados), flush=True)
     if pendientes:
         print(f'Componiendo {len(pendientes)} de {len(segs)} capítulos: '
               + ', '.join(p[0] for p in pendientes), flush=True)
         with cf.ProcessPoolExecutor(max_workers=min(len(pendientes), os.cpu_count() or 4, 8)) as ex:
-            futuros = {ex.submit(componer, c, d, p): (c, h) for c, d, p, h in pendientes}
+            futuros = {ex.submit(componer, c, d, p): (c, h, hc) for c, d, p, h, hc in pendientes}
             for fut in cf.as_completed(futuros):
-                c, h = futuros[fut]
+                c, h, hc = futuros[fut]
                 _, m = fut.result()
-                m['huella'] = h
+                m['huella'], m['huella_cuerpo'] = h, hc
                 (CACHE / f'{c}.json').write_text(json.dumps(m), encoding='utf-8')
                 meta[c] = m
-    else:
+    elif not desfasados:
         print('Ningún capítulo cambió', flush=True)
 
     # 2. Paginado del cuerpo: cada segmento empieza en página derecha (impar)
@@ -201,26 +254,32 @@ def armar(forzar=False, destino=None, tomo=None):
 
     # 3. Páginas iniciales con el índice ya numerado, y la contraportada
     from weasyprint import HTML
-    iniciales = H.paginas_iniciales(capitulos, tomo)
-    iniciales = re.sub(r'@@PAG-([A-Z]?\d+)@@', lambda m: str(pagina_cap.get(m[1], '')), iniciales)
-    iniciales = re.sub(r'href="#cap-([A-Z]?\d+)"', r'href="libro://cap-\1"', iniciales)
-    sufijo = f'-tomo-{tomo}' if tomo else ''      # dos armados a la vez no se pisan
+    if sufijo is None:
+        sufijo = f'-tomo-{tomo}' if tomo else ''  # dos armados a la vez no se pisan
     frente_pdf, contra_pdf, capa_pdf = (CACHE / f'_frente{sufijo}.pdf', CACHE / f'_contraportada{sufijo}.pdf',
                                         CACHE / f'_numeros{sufijo}.pdf')
-    HTML(string=documento(iniciales), base_url=BASE_URL).write_pdf(str(frente_pdf))
-    HTML(string=documento(H.contraportada(tomo)), base_url=BASE_URL).write_pdf(str(contra_pdf))
+    if con_frente:
+        iniciales = H.paginas_iniciales(capitulos, tomo)
+        iniciales = re.sub(r'@@PAG-([A-Z]?\d+)@@', lambda m: str(pagina_cap.get(m[1], '')), iniciales)
+        iniciales = re.sub(r'href="#cap-([A-Z]?\d+)"', r'href="libro://cap-\1"', iniciales)
+        HTML(string=documento(iniciales), base_url=BASE_URL).write_pdf(str(frente_pdf))
+        HTML(string=documento(H.contraportada(tomo)), base_url=BASE_URL).write_pdf(str(contra_pdf))
     capa_de_numeros(numerada, capa_pdf)
 
     # 4. Pegado
     writer = PdfWriter()
-    frente = PdfReader(str(frente_pdf))
-    for pag in frente.pages:
-        writer.add_page(pag)
-    ancho, alto = frente.pages[0].mediabox.width, frente.pages[0].mediabox.height
-    if len(writer.pages) % 2 == 1:
-        writer.add_blank_page(ancho, alto)           # el cuerpo empieza en derecha
+    if con_frente:
+        frente = PdfReader(str(frente_pdf))
+        for pag in frente.pages:
+            writer.add_page(pag)
+        ancho, alto = frente.pages[0].mediabox.width, frente.pages[0].mediabox.height
+        if len(writer.pages) % 2 == 1:
+            writer.add_blank_page(ancho, alto)       # el cuerpo empieza en derecha
+        copiar_marcadores(writer, frente, 0)
+    else:
+        caja = PdfReader(str(CACHE / f'{segs[0][0]}.pdf')).pages[0].mediabox
+        ancho, alto = caja.width, caja.height
     base_cuerpo = len(writer.pages)
-    copiar_marcadores(writer, frente, 0)
 
     capa = PdfReader(str(capa_pdf))
     k = 0                                           # página del cuerpo
@@ -242,10 +301,11 @@ def armar(forzar=False, destino=None, tomo=None):
         else:
             copiar_marcadores(writer, lector, base_cuerpo + inicio[clave], padre_parte)
 
-    if len(writer.pages) % 2 == 0:
-        writer.add_blank_page(ancho, alto)           # la contraportada va en izquierda
-    for pag in PdfReader(str(contra_pdf)).pages:
-        writer.add_page(pag)
+    if con_frente:
+        if len(writer.pages) % 2 == 0:
+            writer.add_blank_page(ancho, alto)       # la contraportada va en izquierda
+        for pag in PdfReader(str(contra_pdf)).pages:
+            writer.add_page(pag)
 
     # 5. Enlaces del índice impreso -> página del capítulo
     for pag in writer.pages[:base_cuerpo]:
@@ -274,4 +334,4 @@ def armar(forzar=False, destino=None, tomo=None):
 if __name__ == '__main__':
     a = sys.argv[1:]
     armar(forzar='--todo' in a, destino=a[a.index('--salida') + 1] if '--salida' in a else None,
-          tomo=a[a.index('--tomo') + 1].upper() if '--tomo' in a else None)
+          tomo=a[a.index('--tomo') + 1].upper() if '--tomo' in a else None, solo_frente='--solo-frente' in a)

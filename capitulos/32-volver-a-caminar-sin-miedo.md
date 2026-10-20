@@ -34,10 +34,6 @@ Este capítulo no agrega ninguna prueba nueva. Usa las de siempre, con otra preg
 - **El examen vestibular previo.** H20 pide un examen vestibular de menos de 6 meses antes de rehabilitar. Eso vale para un **programa de rehabilitación vestibular**. Un programa general de fuerza y equilibrio para prevenir caídas es otra cosa: la guía mundial lo recomienda a todos los mayores, sin tener en cuenta su riesgo ni su edad, y no pide examen vestibular para ofrecerlo (Montero-Odasso y cols., 2022).
 :::
 
-## En LabSim
-
-LabSim da el **lado auditivo** de estos pacientes: el audiograma y la logoaudiometría, que salen del cuadro *Presbiacusia*. **No** hace examen vestibular, postural ni rehabilitación, y no tiene tensiómetro ni cuestionarios. Lo vestibular, lo funcional, la presión y los cuestionarios de cada caso están **escritos** en la ficha de resultados.
-
 ## Fisiología
 
 ### Tres entradas y un reparto
@@ -223,7 +219,6 @@ Piensa en el lado del vértigo, en la presión, en la marcha y en el miedo. ¿Qu
 - **Qué pedir:** Dix-Hallpike a los dos lados y giro supino; presión acostada y de pie; batería de H20; ABC; audiometría y logoaudiometría para la audición (→ H3, H5, H19, H20).
 - **Lo que enseña:** que el diagnóstico aparece con la **posición**, no con la palabra "vértigo"; y que tratar la causa **no termina** el caso: tiene una fractura reciente y un riesgo que no se agotó.
 - **Errores esperables:** no hacer el Dix-Hallpike porque "no gira"; hacerlo solo del lado derecho; atribuirlo a la presbiacusia; dar el caso por cerrado después de la maniobra.
-- **En LabSim:** cuadro *Presbiacusia* leve en los dos oídos; el simulador no modela el vértigo posicional. El nombre de la paciente lo sortea el editor.
 :::
 
 {{caso cap32_fragil}}
@@ -276,7 +271,6 @@ Agrupa lo que podría explicar sus caídas por sistemas: cardiovascular, sensori
 - **Qué pedir:** presión acostado y de pie; la lista de remedios para el médico; batería de H20; mCTSIB; Dix-Hallpike; ABC o FES-I; audiometría y logoaudiometría (→ H3, H6, H20).
 - **Lo que enseña:** que el caso **no es vestibular** y que la mayor parte de lo que se arregla está fuera del oído; que un laberinto "normal para la edad" no cierra nada; y que la audición es parte de las condiciones de la evaluación.
 - **Errores esperables:** pedirle una calórica; empezar el entrenamiento sin que el médico vea la presión y los fármacos; cambiar los anteojos sin pensar en la cirugía de cataratas; dar la consigna sin comprobar que entendió.
-- **En LabSim:** cuadro *Presbiacusia* moderada en los dos oídos, con acúfeno. El nombre del paciente lo sortea el editor.
 :::
 
 {{caso cap32_bilateral}}
@@ -332,7 +326,6 @@ Elige las pruebas que separan una pérdida de los pies, una del laberinto y una 
 - **Qué pedir:** calórica bitérmica y vHIT de los dos lados; DVA; batería de H20 con mCTSIB; presión de pie; sensibilidad de los pies; ABC y DHI (→ H16 a H20, cap. 24).
 - **Lo que enseña:** que **dos sentidos caídos no se compensan** y que el tercero tiene que alcanzar solo, con luz; que el caso no se explica con una sola enfermedad; y que su miedo es **realista**.
 - **Errores esperables:** quedarse con la neuropatía y no pedir el examen vestibular; informar "calórica sin asimetría" (→ cap. 24); suponer que es un PPPD por el miedo; dejar el programa sin cambios en la casa.
-- **En LabSim:** cuadro *Presbiacusia* leve en los dos oídos, sin acúfeno. El nombre de la paciente lo sortea el editor.
 :::
 
 ## Resolución de los casos

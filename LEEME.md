@@ -1,7 +1,8 @@
 # Evaluación y rehabilitación en otorrinolaringología (libro de casos)
 
-**El compilado es `libro.pdf`** (en esta carpeta). Se rearma solo cada vez
-que se arma un capítulo, así que siempre está al día.
+**El compilado es `libro.pdf`** (en esta carpeta). Ya no se rearma solo:
+se trabaja por piezas (capítulo, parte, preliminares, portadas) en `salida/`
+y el libro entero se arma solo cuando se pide con `--completo`.
 
 ## Qué hay en cada carpeta
 
@@ -22,14 +23,24 @@ que se arma un capítulo, así que siempre está al día.
 ## Comandos
 
 ```bash
-# Un capítulo: casos + figuras + su PDF (salida/capitulo-11.pdf) + libro.pdf completo
+# Un capítulo: casos + figuras + su PDF (salida/capitulo-11.pdf)
 python3 capitulos/11-asimetria-que-no-cierra.py
 python3 capitulos/11-asimetria-que-no-cierra.py --solo-pdf   # sin rehacer figuras
 
-# Solo armar PDF
-python3 herramientas/hacer_libro.py            # libro.pdf completo
-python3 herramientas/hacer_libro.py 11         # capítulo 11 y después libro.pdf
-python3 herramientas/hacer_libro.py 11 --sin-completo   # solo el capítulo (rápido)
+# Piezas sueltas (todo sale a salida/, en segundos)
+python3 herramientas/hacer_libro.py 11                 # solo el capítulo 11 (o H4, B2...)
+python3 herramientas/hacer_libro.py parte III          # una parte: separador y sus capítulos
+python3 herramientas/hacer_libro.py parte nariz        # también por nombre: bases, herramientas...
+python3 herramientas/hacer_libro.py prelim             # todas las preliminares
+python3 herramientas/hacer_libro.py prelim prologo     # una o varias (prologo, como-usar, 04...)
+python3 herramientas/hacer_libro.py portadas           # portada, interior, créditos, autores, contraportada
+python3 herramientas/hacer_libro.py portadas --tomo II # las del tomo II
+python3 herramientas/hacer_libro.py indice             # el índice, sin números de página
+python3 herramientas/hacer_libro.py frente             # preliminares y portadas nuevas en los 3 PDF, sin recomponer capítulos
+
+# El libro entero, solo cuando se pide
+python3 herramientas/hacer_libro.py --completo         # libro.pdf
+python3 herramientas/hacer_libro.py --completo --tomos # libro-tomo-I.pdf y -II.pdf
 
 # Esqueleto de un capítulo nuevo desde indice.md
 python3 herramientas/nuevo_capitulo.py H8

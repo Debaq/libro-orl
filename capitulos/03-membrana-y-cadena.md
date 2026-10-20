@@ -33,23 +33,20 @@ En el capítulo 2 la pregunta era si la caja tenía aire. Aquí es **cuánto se 
 - **B con volumen alto**: la sonda mide el conducto **más** la caja y la mastoides. Hay una **perforación** (o un tubo permeable). En el adulto, un volumen de 3,6 mL o más, distinto del otro oído, sugiere perforación (BSA, 2024).
 
 :::ojo Ojo clínico
-Una **perforación seca se mide**: da su B con volumen alto y su función tubaria. Lo que no se hace es meter la sonda en un oído **con secreción**: es impedanciometría **no realizable** (NR) y, en LabSim, intentarla es una falta grave que deja el equipo fuera de uso el resto de la atención. Lo decide la otoscopía, no la curva.
+Una **perforación seca se mide**: da su B con volumen alto y su función tubaria. Lo que no se hace es meter la sonda en un oído **con secreción**: es impedanciometría **no realizable** (NR). Lo decide la otoscopía, no la curva.
 :::
 
 :::comentario Lo que dicen las normas
-La BSA (2024) no recomienda hacer timpanometría cuando la perforación se ve en la otoscopía: no agrega nada al diagnóstico, y su utilidad está en los oídos donde la membrana no se ve bien. En este libro y en LabSim **se hace igual**, a propósito: el volumen alto de una perforación que sí ves es lo que te va a permitir reconocerla el día que no la veas, y con esa misma sonda se hace la función tubaria de membrana perforada, que el otorrino pide antes de operar.
+La BSA (2024) no recomienda hacer timpanometría cuando la perforación se ve en la otoscopía: no agrega nada al diagnóstico, y su utilidad está en los oídos donde la membrana no se ve bien. En este libro **se hace igual**, a propósito: el volumen alto de una perforación que sí ves es lo que te va a permitir reconocerla el día que no la veas, y con esa misma sonda se hace la función tubaria de membrana perforada, que el otorrino pide antes de operar.
 :::
 
 ### La función tubaria con membrana perforada
 
-Con una perforación no hay timpanograma que correr: el conducto y la caja son una sola cavidad. Se lleva esa cavidad a una presión (en LabSim, por ejemplo, −200 daPa) y el paciente traga tres veces. Si la trompa abre, cada deglución deja escapar parte de la presión y el trazo sube por escalones hacia 0; si no abre, queda plano. Es la prueba de inflación-deflación (Smith y Tysome, 2015). En 192 oídos perforados, 117 tenían la trompa normal (Lee y cols., 2026): la mayoría de las perforaciones ventilan bien.
+Con una perforación no hay timpanograma que correr: el conducto y la caja son una sola cavidad. Se lleva esa cavidad a una presión (por ejemplo, −200 daPa) y el paciente traga tres veces. Si la trompa abre, cada deglución deja escapar parte de la presión y el trazo sube por escalones hacia 0; si no abre, queda plano. Es la prueba de inflación-deflación (Smith y Tysome, 2015). En 192 oídos perforados, 117 tenían la trompa normal (Lee y cols., 2026): la mayoría de las perforaciones ventilan bien.
 
 <!-- Protocolo ORL 2019: llamaba a esta prueba "Test de Bortnick". No se encontró fuente con ese nombre; el procedimiento descrito (presurizar a -200 y +200 daPa, tragar, Valsalva o Toynbee si no compensa) es la prueba de inflación-deflación (Smith y Tysome 2015; Lee y cols. 2026). Mismo criterio que el capítulo 2. -->
 
-:::imagen /docs/manual/img/estudiante/impedanciometro-etf-perforada.png ancho=60% La función tubaria con membrana perforada en LabSim
-- @62,40 | **Cada deglución sube la presión un escalón**, de −200 daPa hacia 0: la trompa se abrió y dejó salir parte de la presión.
-- @86,24 | **Inicial y final**: −200 y −10 daPa. Si la trompa no abre, la presión no se mueve.
-- @22,70 | **ETF** abre la pantalla; **Prueba** cambia a membrana perforada; la **perilla** elige la presión e **Inicio** lanza los 10 segundos.
+:::imagen ilustraciones/h7-etf-perforada.svg ancho=92% Función tubaria con membrana perforada: la presión del conducto, llevada a −200 daPa, durante 10 s con tres degluciones. Si la trompa abre, cada deglución deja escapar parte de la presión y el trazo sube por escalones hacia 0; si no abre, queda plano.
 :::
 
 ### Los reflejos
@@ -78,7 +75,6 @@ Eso explica las dos lesiones extremas:
 
 - **Cadena cortada con la membrana entera**: no hay transformador y la membrana además tapa el paso directo del sonido a las ventanas. Es la pérdida máxima, de 50 a 60 dB (Merchant y cols., 1998).
 - **Perforación**: lo que se pierde no es tanto superficie como **diferencia de presión** entre las dos caras de la membrana, porque el sonido entra también a la caja por el agujero. Por eso el gap crece con el **tamaño** de la perforación, es mayor en los **graves**, es 10 a 20 dB mayor cuando la caja y la mastoides tienen poco aire, y casi no depende de **dónde** está el agujero (Mehta y cols., 2006).
-
 
 ### Rigidez y masa
 
@@ -132,7 +128,6 @@ Un colesteatoma puede abrir el laberinto (**fístula**), el canal del nervio fac
 
 Es un **paraganglioma**: un tumor benigno, muy vascular, que nace sobre el promontorio. Da **acúfeno pulsátil**, al ritmo del corazón, e hipoacusia conductiva; en la otoscopía se ve una **masa rojiza** detrás de la membrana íntegra, que puede latir. En 213 paragangliomas timpanomastoideos, el 80 % consultó por hipoacusia y el 77 % por acúfeno pulsátil (Yilala y cols., 2024). La masa rigidiza la membrana o la cadena: gap moderado, curva As o B; si crece, puede bajar la ósea (Baguley y cols., 1994). Todo **acúfeno pulsátil** se deriva para buscar su causa.
 
-
 ### Otitis media crónica y el oído operado
 
 Una otitis crónica con años de otorrea no se queda siempre en el oído medio. En los estudios que lo comparan, la ósea del oído enfermo queda peor que la del sano, con más diferencia en los agudos; se atribuye al paso de toxinas de la inflamación por la ventana redonda, aunque esos estudios tienen sesgos que impiden asegurar la relación (Elzinga y cols., 2021).<!-- Pasada de fundamentos 2026-10-18: decía "La ósea cae, más en los agudos (Elzinga y cols., 2021), probablemente porque la inflamación pasa al oído interno por la ventana redonda", con un verificar. Elzinga 2021 (texto completo, PMC8362691): ósea 1,19-32,21 dB peor en el oído enfermo; "Four out of seven of our included studies ... show a larger difference in HL in the higher frequencies"; "toxins can initiate damage to the round window membrane"; conclusión: "no conclusion on the correlation between OM and SNHL can be made". --> La pérdida se vuelve **mixta**. Después de una cirugía, el audiograma depende de lo que quedó: una timpanoplastia con un injerto laxo puede dar Ad, una cavidad abierta (mastoidectomía radical) un B con volumen alto, y en el colesteatoma la audición queda mejor cuando se conserva la pared del conducto (Stankovic, 2008), aunque en la otitis crónica sin colesteatoma la técnica no cambió el resultado (Kim y cols., 2010).<!-- Pasada de fundamentos 2026-10-18: decía "la audición suele quedar mejor cuando se conserva la pared del conducto (Kim y cols., 2010)". Kim 2010 (abstract) dice lo contrario: "The type of mastoid surgery (CWUM and CWDM) did not affect the hearing results of CSOM patients". Stankovic 2008 (abstract): "CWD tympanoplasty ... associated with reduced gains in hearing". -->
@@ -157,7 +152,6 @@ Una otitis crónica con años de otorrea no se queda siempre en el oído medio. 
 | **Colesteatoma** | crece con la erosión: 50 dB o más | bastante plano | B | normal si no hay perforación abierta | costra o bolsa en el ático |
 | **Glomus timpánico** | moderado | parejo | As o B | normal | masa roja que late |
 :::
-
 
 ### Cuándo derivar
 
@@ -204,14 +198,14 @@ Dos pacientes tienen un timpanograma Ad. Uno tiene un gap de 50 dB y el otro un 
 - @ipsi OI 1000 | El ipsilateral del OI es normal: 85 dB SPL en 1 kHz.
 :::
 
-En LabSim, la **función tubaria de membrana perforada** de Lucía es permeable: con cada deglución la presión del conducto se acerca a 0.
+La **función tubaria de membrana perforada** de Lucía es permeable: con cada deglución la presión del conducto se acerca a 0.
 
 :::docente Guía del caso
 - **Datos clave:** otitis de niña, otorrea solo cuando entra agua, seca hace más de un año, sin acúfeno ni vértigo; perforación central amplia y seca en el OD.
 - **Hipótesis esperables:** perforación timpánica crónica simple; colesteatoma (lo descarta el otorrino en la otoscopía); daño de cadena asociado (el gap no lo sugiere).
 - **Qué pedir:** audiometría con ósea enmascarada, impedanciometría con reflejos y función tubaria de **membrana perforada** (→ H3, H4, H7).
 - **Errores esperables:** informar "curva B" sin el volumen; hacer la prueba de membrana íntegra; no meter la sonda "por si acaso" en un oído seco que sí se puede medir.
-- **En LabSim:** cuadro *perforación timpánica* en el OD. La paciente pregunta si podrá nadar: la respuesta es del otorrino.
+- **Para discutir:** La paciente pregunta si podrá nadar: la respuesta es del otorrino.
 :::
 
 {{caso cap03_timpanoesclerosis}}
@@ -247,7 +241,6 @@ Las placas blancas de la membrana, ¿alcanzan para explicar una pérdida? ¿Qué
 - **Datos clave:** otitis y tubos de niña; pérdida izquierda lenta, sin otorrea; placa blanca extensa en una membrana íntegra.
 - **Hipótesis:** timpanoesclerosis; miringoesclerosis sola (no explica el gap); otoesclerosis (no calza con la historia).
 - **Errores esperables:** atribuir el gap solo a la membrana; no buscar la muesca de Carhart; confundir As con B.
-- **En LabSim:** cuadro *timpanoesclerosis / miringoesclerosis* en el OI.
 :::
 
 {{caso cap03_disyuncion_cadena}}
@@ -283,7 +276,6 @@ La sangre ya se reabsorbió y la membrana se ve normal. ¿Qué puede seguir impi
 - **Datos clave:** fractura del temporal que respeta la cápsula, hace cuatro meses; la sangre se fue y la pérdida quedó; sin vértigo ni parálisis facial.
 - **Hipótesis:** disyunción; fractura parcial de cadena; hemotímpano residual (lo descarta la otoscopía); daño coclear (lo descarta la ósea).
 - **Errores esperables:** dar por normal un Ad "porque tiene pico"; seguir esperando; no enmascarar la ósea con 50 dB de gap.
-- **En LabSim:** cuadro *disyunción de cadena osicular* en el OD, grado moderado; la fractura está en la historia.
 :::
 
 {{caso cap03_colesteatoma}}
@@ -318,7 +310,6 @@ El oído está seco desde hace tres semanas. ¿Puedes poner la sonda? ¿Qué hab
 - **Datos clave:** otorrea **fétida** a repetición, pérdida progresiva, seco hoy; costra y material blanco en el ático; sin vértigo ni debilidad facial.
 - **Hipótesis:** colesteatoma del ático; otitis media crónica simple (el olor, el ático y el gap apuntan a lo primero).
 - **Errores esperables:** meter la sonda sin mirar si hay secreción; leer el B como "líquido"; dejarlo "en control" con un gap que crece.
-- **En LabSim:** cuadro *colesteatoma (sin daño coclear)* en el OI. Con otorrea activa, la impedanciometría del OI pasa a NR.
 :::
 
 {{caso cap03_p41}}
@@ -355,7 +346,7 @@ Un oído con otorrea de años y una pérdida que crece. ¿Esperas una conductiva
 - **Hipótesis esperables:** otitis media crónica con daño coclear; colesteatoma (la otorrea fétida obliga a pensarlo: lo descarta el otorrino); hipoacusia por ruido de chofer (no explica el gap).
 - **Qué pedir:** audiometría con ósea y logoaudiometría enmascaradas, impedanciometría solo si el oído está seco (→ H3, H4, H5, H7).
 - **Errores esperables:** informar "conductiva" sin mirar que la ósea cayó; meter la sonda un día con otorrea; leer el B con volumen normal como si fuera una perforación.
-- **En LabSim:** es el paciente de práctica 41; se atiende desde "Práctica libre". El mismo Luis aparece en H3, H4 y H5: aquí se mira el oído medio. Le preocupa perder días de trabajo si lo operan.
+- **Para discutir:** El mismo Luis aparece en H3, H4 y H5: aquí se mira el oído medio. Le preocupa perder días de trabajo si lo operan.
 :::
 
 ## Resolución de los casos

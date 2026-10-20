@@ -249,9 +249,7 @@ El informe del audiólogo describe el acúfeno y su impacto; no da un diagnósti
 Dos pacientes con el mismo audiograma y el mismo tono de acúfeno pueden tener un THI de 10 y uno de 80. Lo que decide el manejo no es la forma del sonido, sino la reacción del paciente. Por eso el cuestionario va antes de cualquier terapia, y por eso el mejor resultado de una consulta suele ser que el paciente entienda qué tiene y deje de temerle.
 :::
 
-## En LabSim
-
-LabSim no simula el manejo del acúfeno: no hay cuestionarios ni terapias sonoras en el simulador. Los casos pueden traer acúfeno en la anamnesis (→ H1), y la acufenometría con el audiómetro se explica en H6 (→ H6). Los esquemas de este capítulo son imágenes propias para estudiar el modelo y el flujo del manejo.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Una paciente de 34 años con un zumbido de 3 semanas, sin otros síntomas, dice que "no le molesta, pero quiere saber". ¿Qué haces, y qué no haces?

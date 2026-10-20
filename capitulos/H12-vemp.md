@@ -73,7 +73,7 @@ Con esta misma figura se entiende por qué la neuritis de una rama deja normal e
 El ABR es una respuesta eléctrica de las neuronas (→ H10). El VEMP es otra cosa: es lo que **un músculo hace** después del estímulo, y lo que se ve en el electrodo es la actividad de ese músculo.
 
 - El **cVEMP es una inhibición.** El estímulo hace que las unidades motoras del ECM **se detengan unos milisegundos** (Rosengren y cols., 2019). Eso se ve como una onda positiva a los 13 ms (**P13**) y una negativa a los 23 ms (**N23**) cuando el registro se dibuja con la polaridad habitual de este libro. La polaridad con que se dibuja depende del equipo (la convención neurofisiológica deja las negatividades hacia arriba): guíate por la latencia, que no cambia con la forma de dibujar, y no por el sentido de la onda. <!-- Pasada de fundamentos 2026-10-18: decía "la latencia, que es siempre la misma". La latencia depende de la forma del estímulo y de su tiempo de subida (Rosengren y cols., 2019); lo que no la cambia es la polaridad del dibujo. -->
-- El **oVEMP es una excitación.** El estímulo hace que el oblicuo inferior se contraiga un instante. Se ve como una onda negativa a los 10 ms (**n10**) y una positiva a los 15 a 16 ms (**p16**). En la literatura se las llama también n10 y p15; LabSim usa p16.
+- El **oVEMP es una excitación.** El estímulo hace que el oblicuo inferior se contraiga un instante. Se ve como una onda negativa a los 10 ms (**n10**) y una positiva a los 15 a 16 ms (**p16**). En la literatura se las llama también n10 y p15; aquí, p16.
 
 Por eso las ondas del cVEMP se escriben con mayúscula inicial en las figuras del libro (P13, N23) y las del oVEMP con minúscula (n10, p16), como el equipo.
 
@@ -136,11 +136,11 @@ El estímulo del VEMP se acerca al límite de lo que una cóclea tolera, porque 
 El VEMP se hace a niveles que en una audiometría serían dolorosos. Si el paciente tiene tinnitus, hiperacusia o una cóclea ya dañada, pregúntale antes y vuelve a preguntarle durante el examen. Y no subas el nivel más allá del tope del equipo.
 :::
 
-### Conoce tu equipo: el VEMP de LabSim
+### Conoce tu equipo: el VEMP
 
-La pantalla de LabSim tiene a la izquierda lo que configuras (la prueba, el estímulo, el registro) y lo que pasa en el paciente (el EMG), al centro las curvas de cada oído y abajo las medidas y la asimetría. La figura muestra un cVEMP en curso: los dos oídos están registrados y marcados.
+La pantalla del equipo tiene a la izquierda lo que configuras (la prueba, el estímulo, el registro) y lo que pasa en el paciente (el EMG), al centro las curvas de cada oído y abajo las medidas y la asimetría. La figura muestra un cVEMP en curso: los dos oídos están registrados y marcados.
 
-:::imagen /docs/manual/img/estudiante/vemp.png El VEMP de LabSim con los dos oídos de un cVEMP registrados
+:::imagen /docs/manual/img/estudiante/vemp.png Pantalla de VEMP con los dos oídos de un cVEMP registrados
 - @-2.5,18 | **Prueba.** El tipo de VEMP (cVEMP, oVEMP o mVEMP) y el **oído estimulado**. Cambiar de tipo cambia el músculo donde se registra.
 - @-2.5,25.6 | **Maniobra.** Cómo contrae el paciente: relajado, girando la cabeza, empujando contra la mano o levantando la cabeza. Debajo dice el músculo y el lado del registro.
 - @-2.5,41 | **Estímulo.** Transductor (inserto o vibrador), frecuencia del tone burst, polaridad, intensidad y tasa.
@@ -154,7 +154,7 @@ La pantalla de LabSim tiene a la izquierda lo que configuras (la prueba, el est�
 - @93,83.5 | **Asimetría.** La razón entre los dos oídos, calculada con las amplitudes **corregidas**: aquí 57 %.
 :::
 
-Lo demás está en las pestañas **Análisis** (crecimiento con la intensidad, sintonía y latencias) e **Informe**. Hay también un **mVEMP** (masetérico), que LabSim trae como experimental y este libro no trata.
+Lo demás está en las pestañas **Análisis** (crecimiento con la intensidad, sintonía y latencias) e **Informe**.
 
 ### Montaje de electrodos: cVEMP
 
@@ -204,7 +204,7 @@ El montaje clásico del oVEMP pone el electrodo de registro justo bajo el ojo y 
 | Parámetro | cVEMP | oVEMP | Por qué |
 |---|---|---|---|
 | Estímulo | Tone burst 500 Hz, ventana de Blackman | Tone burst 1.000 o 500 Hz, Blackman | El sáculo responde mejor entre 500 y 1.000 Hz; el burst, a diferencia del click, concentra la energía en una banda |
-| Polaridad | Rarefacción | Rarefacción | La del protocolo; LabSim ofrece también condensación y alternante |
+| Polaridad | Rarefacción | Rarefacción | La del protocolo |
 | Intensidad | 100 dB nHL | 100 dB nHL | El más alto que la cóclea tolera: el umbral del VEMP es alto |
 | Tasa | 5,1 estímulos/s | 5,1 estímulos/s | Sobre 10/s la amplitud del cVEMP cae (Rosengren y cols., 2019); el decimal evita la red eléctrica (→ H10) |
 | Filtros | 3 Hz a 1,5 kHz | 1 Hz a 1 kHz | Dejan pasar la respuesta (su energía está hacia los 40 Hz en el cuello y los 100 Hz bajo el ojo; Rosengren y cols., 2019) y sacan la deriva |
@@ -245,9 +245,9 @@ Montaje y impedancias como en "Antes de empezar". Coloca los fonos. **Antes de r
 
 El paciente va **semisentado** en la camilla (con el respaldo unos **30° sobre la horizontal**: Rosengren y cols., 2019 recomiendan entre 20° y 40°). Se le pide **anteroflexión de la cabeza y giro hacia el lado contrario al oído que se estimula**: para evaluar el OD, gira hacia la izquierda. Con ese giro el ECM del OD se contrae con fuerza y el del OI se relaja, así que cada oído se registra **por separado**, uno después del otro.
 
-Lo que buscas es una contracción **moderada y pareja en los dos lados**, y no la máxima. Una contracción máxima cansa, tiembla y, al revés de lo que parece, deja residuos de EMG que se confunden con una respuesta chica (Rosengren y cols., 2019). Si el equipo mide el EMG, sírvete de él: LabSim acepta barridos solo cuando el EMG rectificado queda **dentro de una banda** (30 a 150 µV en el cVEMP), y descarta los que quedan fuera.
+Lo que buscas es una contracción **moderada y pareja en los dos lados**, y no la máxima. Una contracción máxima cansa, tiembla y, al revés de lo que parece, deja residuos de EMG que se confunden con una respuesta chica (Rosengren y cols., 2019). Si el equipo mide el EMG, sírvete de él: que acepte solo los barridos con el EMG rectificado **dentro de una banda**.
 
-El ECM se **cansa**, y cada maniobra se cansa a su ritmo. En LabSim, levantar la cabeza desde la posición acostada da el EMG más alto y es la que más rápido se agota; la rotación sostenida de la cabeza da menos EMG y aguanta más tiempo. Por eso se registra por tandas cortas y se **descansa entre curvas**: en el simulador, el músculo recupera la fuerza al doble de la velocidad con que la pierde.
+El ECM se **cansa**. Levantar la cabeza acostado da más EMG pero se agota antes; la rotación sostenida da menos y aguanta más. Por eso se registra por tandas cortas y se **descansa entre curvas**.
 
 ### 4. Registra y repite
 
@@ -283,7 +283,7 @@ Medir la contracción en la curva ya promediada da un valor casi cero, porque el
 :::comentario Lo que dicen las normas
 **Sin medidor de EMG.** Medir y vigilar la contracción es parte de las recomendaciones internacionales (Papathanasiou y cols., 2014), pero muchos equipos no lo tienen. En ese caso es más importante usar siempre **la misma maniobra** en los dos oídos y fijar los límites de asimetría con una norma hecha **en las mismas condiciones** (Rosengren y cols., 2019).
 
-**La contracción mínima.** Rosengren (2015, citado en Rosengren y cols., 2019) sugirió un mínimo de unos **80 µV de EMG rectificado**, y aclara que depende de la maniobra y de cómo se mida. La banda de LabSim (30 a 150 µV) es la del simulador: no es un valor normativo.
+**La contracción mínima.** Rosengren (2015, citado en Rosengren y cols., 2019) sugirió un mínimo de unos **80 µV de EMG rectificado**, y aclara que depende de la maniobra y de cómo se mida.
 
 **Contracciones débiles y fuertes.** Una contracción muy débil da respuestas de menos de 20 µV o ausentes, o con picos tardíos. En un ejemplo publicado, un cVEMP ausente con 61 µV apareció, pequeño y normal, con 127 µV (Rosengren y cols., 2019).
 :::
@@ -302,7 +302,7 @@ El paciente está **sentado** en la camilla. Se le pide que **mire hacia arriba,
 
 Se registra a 100 dB nHL y se repite para comprobar la replicabilidad. Luego, el oído contrario. El protocolo de este libro no busca umbral en el oVEMP: se registra al nivel máximo del equipo desde el principio, porque el oVEMP es más difícil de provocar que el cVEMP.
 
-Mide la **n10** (la primera onda, negativa, hacia los 10 ms) y la **p16** (la positiva que le sigue, hacia los 16 ms), la **amplitud pico a pico** y la **amplitud corregida**. En el oVEMP no hay una corrección tan estandarizada como en el cVEMP; en LabSim se usa el EMG de referencia del oVEMP (40 µV).
+Mide la **n10** (la primera onda, negativa, hacia los 10 ms) y la **p16** (la positiva que le sigue, hacia los 16 ms), la **amplitud pico a pico** y la **amplitud corregida**. En el oVEMP no hay una corrección tan estandarizada como en el cVEMP.
 
 :::figura h12_p33 vemp 2
 - @OD n10 | El oVEMP del **OD** de Tomás se registra bajo el **ojo izquierdo**. La **n10** llega a **10,4 ms**.
@@ -321,13 +321,13 @@ Mide la **n10** (la primera onda, negativa, hacia los 10 ms) y la **p16** (la po
 
 ### Vía aérea u ósea
 
-El protocolo del libro registra el VEMP por **vía aérea**, con fonos de inserción, y excluye a quien tiene una **hipoacusia de conducción**. La razón es simple: el sonido que no llega al vestíbulo no activa el sáculo, y la respuesta cae o se apaga aunque el órgano esté sano. Zhou y cols. (2012) hallaron el VEMP aéreo ausente en los 50 pacientes con patología de oído medio de su serie. En LabSim, el umbral del VEMP aéreo sube del orden del gap del audiograma.
+El protocolo del libro registra el VEMP por **vía aérea**, con fonos de inserción, y excluye a quien tiene una **hipoacusia de conducción**. La razón es simple: el sonido que no llega al vestíbulo no activa el sáculo, y la respuesta cae o se apaga aunque el órgano esté sano. Zhou y cols. (2012) hallaron el VEMP aéreo ausente en los 50 pacientes con patología de oído medio de su serie.
 
 La alternativa es la **vía ósea**: un vibrador en la mastoides (o en la frente) que hace vibrar el cráneo y llega al vestíbulo **sin pasar por el oído medio**. Con el vibrador, el VEMP se recupera aunque el oído esté conductivamente sordo. Pero cambian varias cosas:
 
 - **El estímulo es bilateral**: el cráneo entero vibra, así que los dos oídos reciben la señal. La lateralidad se lee por el **músculo**, no por el estímulo: la respuesta del ECM del lado enfermo falta aunque se estimulen los dos oídos a la vez.
 - **No es específico del sáculo**: la vibración activa sáculo y utrículo casi por igual. Una ausencia de cVEMP por vía ósea dice "otolitos", no "sáculo".
-- **Se calibra en fuerza**, no en SPL (dB FL). Un vibrador B-71 en la mastoides con 500 Hz es efectivo alrededor de los 135 dB pkFL (Rosengren y cols., 2019). En LabSim la escala ósea es propia, de 20 a 75 dB FL, y se le declara al vibrador una ventaja de 15 dB sobre el sonido.
+- **Se calibra en fuerza**, no en SPL (dB FL). Un vibrador B-71 en la mastoides con 500 Hz es efectivo alrededor de los 135 dB pkFL (Rosengren y cols., 2019).
 - **Para el oVEMP, la vía ósea da respuestas más robustas** que el sonido, y es mejor para detectar una pérdida vestibular; el sonido, en cambio, es mejor para detectar una tercera ventana (Rosengren y cols., 2019).
 
 ### Patrones: cómo se lee un VEMP
@@ -357,32 +357,30 @@ Hay una trampa en la tabla. En una asimetría de amplitud, **el lado más chico 
 
 **Asimetría (%) = | A(OD) − A(OI) | ÷ ( A(OD) + A(OI) ) × 100**
 
-La fórmula con el signo, sin el valor absoluto, indica **de qué lado** está la diferencia (positivo si el OD es mayor); con el valor absoluto el resultado es siempre positivo y el límite normal es otro (Rosengren y cols., 2019). Aquí se usa el valor absoluto, como LabSim, y la amplitud que se compara es la **corregida** por el EMG. Si tu equipo no mide el EMG, se usa la amplitud cruda, con un límite que sea de ese método.
+La fórmula con el signo, sin el valor absoluto, indica **de qué lado** está la diferencia (positivo si el OD es mayor); con el valor absoluto el resultado es siempre positivo y el límite normal es otro (Rosengren y cols., 2019). Aquí se usa el valor absoluto, y la amplitud que se compara es la **corregida** por el EMG. Si tu equipo no mide el EMG, se usa la amplitud cruda, con un límite que sea de ese método.
 
 **Valor significativo:** **35 %** o más en el cVEMP y **33 %** o más en el oVEMP.
 
 :::comentario Lo que dicen las normas
 **Por qué se corrige.** Un ejemplo publicado: en un voluntario sano, el ECM derecho se contrajo con 46 µV y el izquierdo con 156 µV. Las amplitudes crudas fueron de 109 y 320 µV, una asimetría de **49 %**; corregidas por el EMG, la asimetría fue de **6,7 %** (Rosengren y cols., 2019). Sin corregir, un sano parece enfermo. McCaslin y cols. (2014) mostraron lo mismo en una serie de sujetos normales: la normalización reduce las asimetrías.
 
-**Los límites.** Los 35 % del protocolo coinciden con el límite del cVEMP corregido que dan Rosengren y cols. (2019), citando a Welgampola y Colebatch (2001): **35 %** con amplitud corregida y **46 %** con amplitud cruda. McCaslin y cols. (2014) dan 43 % con amplitud cruda y cerca de 30 % con la corregida. Un límite depende de cómo se midió, y por eso cada centro debe tener el suyo. Para el oVEMP aéreo, Piker y cols. (2011) dan un límite de **34 %** (media más dos desviaciones estándar, con tone burst de 500 Hz a 95 dB nHL), cerca del 33 % del protocolo.
+**Los límites.** Los 35 % del protocolo coinciden con el límite del cVEMP corregido que dan Rosengren y cols. (2019), citando a Welgampola y Colebatch (2001), que lo midieron con clics: **35 %** con amplitud corregida y **46 %** con amplitud cruda. McCaslin y cols. (2014) dan 43 % con amplitud cruda y cerca de 30 % con la corregida. Un límite depende de cómo se midió, y por eso cada centro debe tener el suyo. Para el oVEMP aéreo, Piker y cols. (2011) dan un límite de **34 %** (media más dos desviaciones estándar, con tone burst de 500 Hz a 95 dB nHL), cerca del 33 % del protocolo.
 :::
 
 ### Contra qué se compara
 
 Los valores normales dependen del estímulo, de la contracción y del montaje. La **latencia** depende mucho de la forma del estímulo y de su tiempo de subida (Rosengren y cols., 2019); la **amplitud** y el **umbral**, de la edad. Con los años el cVEMP se achica y su umbral sube, y entre el 5 y el 15 % de las personas mayores de 60 años no tiene cVEMP aéreo; el oVEMP aéreo falta con más frecuencia aún. Por eso se compara contra una norma **de la edad del paciente** y, con un oVEMP aéreo ausente en un adulto mayor, se tiene cautela (Rosengren y cols., 2019).
 
-:::ayuda-ancho Valores de referencia que usa LabSim (tone burst de 500 Hz, vía aérea)
-| Población | cVEMP: P13 (ms) | cVEMP: N23 (ms) | cVEMP: p-p (µV) | oVEMP: n10 (ms) | oVEMP: p16 (ms) | oVEMP: p-p (µV) |
+:::ayuda-ancho Valores de referencia (tone burst de 500 Hz, vía aérea; media y desviación estándar)
+| Grupo | cVEMP: P13 (ms) | cVEMP: N23 (ms) | cVEMP: amplitud corregida | oVEMP: n10 (ms) | oVEMP: p16 (ms) | oVEMP: p-p (µV) |
 |---|---|---|---|---|---|---|
-| Niño (6 a 17 años) | 11,5 | 21,0 | 360 | 8,8 | 14,5 | 23 |
-| Hombre adulto | 13,0 | 23,0 | 290 | 10,0 | 16,0 | 19 |
-| Mujer adulta | 12,8 | 22,5 | 320 | 9,8 | 15,8 | 20 |
-| Adulto mayor (65 o más) | 14,5 | 24,5 | 205 | 11,5 | 17,5 | 13,5 |
+| Niños de 4 a 9 años (n = 10) | 12,3 (1,5) | 19,3 (2,4) | 0,68 (0,25) | 10,6 (1,6) | 15,3 (2,4) | 12,1 (8,4) |
+| Adolescentes de 10 a 19 años (n = 10) | 13,8 (1,2) | 20,9 (2,1) | 0,78 (0,32) | 10,1 (1,7) | 15,7 (1,6) | 14,6 (9,6) |
+| Adultos de 20 a 29 años (n = 10) | 13,9 (1,1) | 22,2 (1,8) | 1,27 (0,50) | 10,1 (1,0) | 14,6 (1,2) | 16,6 (7,6) |
+| Adultos mayores, media de 73 años (n = 250) | 13,8 (1,0) | — | 1,25 (0,72) | 7,7 (0,6)* | — | 13,9 (8,9) |
 
-Son valores medios, sin desviación estándar. La amplitud del cVEMP está referida a un EMG de 50 µV y la del oVEMP a uno de 40 µV. LabSim elige la tabla por la edad y el sexo del paciente.
+Las tres primeras filas son de Rodriguez y cols. (2019), con el estímulo a 125 dB SPL; la última, de Li y cols. (2015). La amplitud corregida es la pico a pico dividida por el EMG rectificado, y no tiene unidad. \* Li marcó el n10 con otros filtros y otro criterio: esa diferencia es de laboratorio, no de edad. Las amplitudes bajan con los años (Piker y cols., 2013; Li y cols., 2015), y en Li el P13 de los hombres fue 0,4 ms más largo que el de las mujeres. Son series chicas o de un solo laboratorio: cada centro debe tener sus propias normas (Rosengren y cols., 2019).
 :::
-
-<!-- verificar: el origen de los valores de la tabla de LabSim (resources/vemp/normative_data.json) no está documentado en el repositorio; no hay desviación estándar. Declarar la fuente o reemplazarla por una serie publicada. -->
 
 ### Un ejemplo de informe
 
@@ -435,7 +433,7 @@ Carolina tiene una otoesclerosis del OD (→ H3 y H7). Su cVEMP **también** est
 :::figura h12_p34 vemp
 - @OD P13 | El cVEMP del **OD** es mucho menor: **109 µV**, **2,15** corregidos.
 - @OI P13 | El **OI** tiene 340 µV, **6,81** corregidos.
-- La razón de asimetría es de **52 %**, sobre el corte. Si la leyeras sola, dirías "hipofunción sacular del OD". Pero el umbral del OD es **30 dB más alto** que el del OI (90 contra 60 en la escala de LabSim), del tamaño del gap. El sonido llega atenuado al vestíbulo: la que falla es la **transmisión**, no el sáculo. Con el vibrador, en LabSim, la respuesta se recupera.
+- La razón de asimetría es de **52 %**, sobre el corte. Si la leyeras sola, dirías "hipofunción sacular del OD". Pero el umbral del OD es **30 dB más alto** que el del OI, del tamaño del gap. El sonido llega atenuado al vestíbulo: la que falla es la **transmisión**, no el sáculo. Con el vibrador, la respuesta se recupera.
 :::
 
 {{caso h12_p42}}
@@ -473,26 +471,10 @@ Dos puntos para tener presentes:
 Antes de informar un VEMP, pregúntate si **calza con lo demás**: con el audiograma y el timpanograma del mismo oído, con las crisis de vértigo y con el cVEMP junto al oVEMP. Un VEMP no es una prueba de la audición ni de los conductos, y un resultado aislado se interpreta junto con las otras pruebas del equilibrio (→ H16 a H18).
 :::
 
-## En LabSim
-
-El VEMP de LabSim está hecho para equivocarse como uno real:
-
-- **Se promedian barridos de verdad.** Cada tick el equipo genera barridos, acepta o rechaza cada uno según el EMG, y la curva es el promedio de los aceptados. El ruido baja con la raíz de los barridos.
-- **El paciente parte relajado.** La primera maniobra de cada tipo es la **posición sin contracción**: con el EMG fuera de banda el equipo **no acepta barridos** y el registro se corta solo. Elegir la maniobra es parte del examen.
-- **El EMG se mide por registro**, y la asimetría se calcula con la amplitud **corregida**.
-- **Los parámetros del registro arrancan al azar**, como en el ABR.
-- **La intensidad del cVEMP aéreo está en dB SPL**, en una escala propia de 50 a 125. No es la de dB nHL de este capítulo: no mezcles los números de la pantalla con los 100 dB nHL del protocolo.
-- **El vibrador óseo** está en la escala de dB FL (20 a 75). Si el oído tiene un gap en el audiograma del mismo caso, la vía aérea cae y el vibrador la recupera.
-- **La sintonía** (500, 750 y 1.000 Hz) cambia la amplitud, y un umbral muy bajo invierte la sintonía y sube la amplitud: es lo que el simulador usa como firma de la tercera ventana. En la literatura la tercera ventana tiene una sintonía más ancha, y el Ménière responde más a 1.000 que a 500 Hz (Rosengren y cols., 2019).
-
-:::comentario Lo que el simulador no tiene
-LabSim **no controla la impedancia de los electrodos**: un electrodo mal puesto no empeora el registro, y tampoco hay posición de los electrodos que equivocar. La contracción y la mirada son maniobras de una lista, y cada caso guarda **un solo umbral** por tipo de VEMP. El cansancio del músculo sí está. Y el VEMP del simulador no distingue entre el sáculo y su nervio, igual que el examen real.
-:::
-
-Para practicar, los pacientes de este capítulo están entre los de práctica (★): Tomás (33), Carolina (34), Patricia (38) y Matías (42).
+## Para practicar
 
 :::pregunta Preguntas para practicar
-1. En el cVEMP de LabSim, el OD midió 420,7 µV con un EMG de 60 µV, y el OI 116,5 µV con 60 µV. Calcula las amplitudes corregidas y la razón de asimetría. ¿Qué habría pasado con la asimetría si el EMG del OD hubiera sido de 120 µV, con la misma amplitud?
+1. En un cVEMP, el OD midió 420,7 µV con un EMG de 60 µV, y el OI 116,5 µV con 60 µV. Calcula las amplitudes corregidas y la razón de asimetría. ¿Qué habría pasado con la asimetría si el EMG del OD hubiera sido de 120 µV, con la misma amplitud?
 2. Un cVEMP del OD no sale del ruido con 100 dB nHL. Enumera, en orden, qué comprobarías antes de decir que el sáculo no funciona.
 3. Carolina tiene una razón de asimetría de 52 %. ¿Qué dos datos de su audiograma y de su umbral te impiden leerla como hipofunción sacular? ¿Qué examen repetirías?
 4. Patricia tiene un cVEMP del OI alterado y un oVEMP simétrico. ¿Qué rama del nervio vestibular está comprometida? ¿Qué cambiaría si fuera el oVEMP el alterado y el cVEMP el simétrico?
@@ -513,6 +495,12 @@ Para practicar, los pacientes de este capítulo están entre los de práctica (�
 1. Todd NP, Rosengren SM, Aw ST, Colebatch JG. Ocular vestibular evoked myogenic potentials (OVEMPs) produced by air- and bone-conducted sound. Clin Neurophysiol. 2007;118(2):381-90. doi:10.1016/j.clinph.2006.09.025
 1. Iwasaki S, McGarvie LA, Halmagyi GM, Burgess AM, Kim J, Colebatch JG, et al. Head taps evoke a crossed vestibulo-ocular reflex. Neurology. 2007;68(15):1227-9. doi:10.1212/01.wnl.0000259064.80564.21
 1. Piker EG, Jacobson GP, McCaslin DL, Hood LJ. Normal characteristics of the ocular vestibular evoked myogenic potential. J Am Acad Audiol. 2011;22(4):222-30. doi:10.3766/jaaa.22.4.5
+
+### Valores de referencia
+
+1. Rodriguez AI, Thomas MLA, Janky KL. Air-conducted vestibular evoked myogenic potential testing in children, adolescents, and young adults: thresholds, frequency tuning, and effects of sound exposure. Ear Hear. 2019;40(1):192-203. doi:10.1097/AUD.0000000000000607
+1. Li C, Layman AJ, Carey JP, Agrawal Y. Epidemiology of vestibular evoked myogenic potentials: data from the Baltimore Longitudinal Study of Aging. Clin Neurophysiol. 2015;126(11):2207-15. doi:10.1016/j.clinph.2015.01.008
+1. Piker EG, Jacobson GP, Burkard RF, McCaslin DL, Hood LJ. Effects of age on the tuning of the cVEMP and oVEMP. Ear Hear. 2013;34(6):e65-73. doi:10.1097/AUD.0b013e31828fc9f2
 
 ### Contracción del músculo y amplitud corregida
 

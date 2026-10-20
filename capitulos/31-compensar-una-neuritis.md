@@ -58,10 +58,6 @@ El eje oculomotor con la cabeza quieta (seguir una luz con los ojos) se puede co
 - **Cuánto.** La dosis mínima por día y por semana está en H20; según el tiempo desde el inicio, el paciente con neuritis cae en el grupo de hipofunción **aguda o subaguda** o en el de **crónica**, y la guía da una dosis distinta para cada uno (Hall y cols., 2022).
 :::
 
-## En LabSim
-
-LabSim da el lado auditivo de estos pacientes (audiograma y VEMP) y **no hace examen vestibular, postural ni rehabilitación**. Lo vestibular de cada caso, es decir el vHIT, el DHI y la batería funcional, está en **tablas** y en **hojas de seguimiento** con impulsos como los de H18.
-
 ## Fisiología
 
 ### Lo que compensa solo y lo que no
@@ -109,7 +105,6 @@ La edad **no** es un freno por sí misma: la guía dice que los mayores mejoran 
 Quien evalúa a un paciente con vértigo casi siempre recibe una lista de remedios. Conocer qué hace cada uno ayuda a leer el examen, porque un fármaco que deprime la respuesta del laberinto o del tronco cerebral cambia la calórica, el nistagmo y el rendimiento en la batería de equilibrio, y a interpretar por qué un paciente no avanza en la rehabilitación. Esta sección es informativa. **Indicar, ajustar y retirar un fármaco es decisión del médico**; lo que le corresponde a quien evalúa es registrar qué toma el paciente, desde cuándo y con qué horarios, y avisarlo (→ H20).
 
 El criterio que ordena las clases es qué hacen sobre la actividad de los núcleos vestibulares. Los **supresores vestibulares** reducen la respuesta del sistema vestibular y con ella el vértigo y el nistagmo, pero también reducen la señal de error que alimenta la compensación (Hall y cols., 2022; Rascol y cols., 1995). Los **antieméticos** calman las náuseas y el vómito sin tocar necesariamente el reflejo. Un tercer grupo, los **fármacos "de fondo"** (betahistina, cinarizina y flunarizina), se plantea como tratamiento de las crisis recurrentes, no del vértigo agudo.
-
 
 :::ayuda-ancho Fármacos de uso frecuente en vértigo, por clase
 | Clase y ejemplos | Mecanismo | Para qué se usa | Qué hay sobre la compensación |
@@ -193,10 +188,6 @@ Una paciente de 63 años tiene una neuritis de hace cinco semanas, toma un antih
 
 ## Casos
 
-:::comentario Lo vestibular de los casos
-LabSim no tiene vértigo, nistagmo ni vHIT: la ficha, la anamnesis, el audiograma y el VEMP de cada paciente salen del editor de casos. El **vHIT, el DHI y la batería funcional** están en tablas y en **hojas de seguimiento** propias. Cada hoja muestra las tres visitas: lo que llega el paciente, y cómo sigue.
-:::
-
 {{caso cap31_buena}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
@@ -251,7 +242,6 @@ Con eso se arma el programa (fase 1 y 2 de la Técnica en foco, con el desafío 
 - **Qué pedir:** DHI, DVA, batería funcional de H20 y el vHIT que ya tiene del examen; repetir a la semana 6 y al tercer mes (→ H18, H20).
 - **Qué enseña:** el curso típico de una neuritis que compensa, con una ganancia que sube pero **no se normaliza** y un alta por función.
 - **Errores esperables:** dar el alta por llevar la ganancia a 1; empezar el VOR x2 antes de que el x1 se haga sin síntomas; no pedir el registro de ejercicios en la casa.
-- **En LabSim:** audición normal y VEMP normal. El nombre del paciente lo sortea el editor.
 :::
 
 {{caso cap31_lenta}}
@@ -304,7 +294,6 @@ El médico que la deriva acuerda con ella **retirar el antihistamínico de a poc
 - **Qué pedir:** batería completa, y **un aviso al médico** con los datos: el fármaco retrasa la compensación y hay una caída; el retiro lo decide él.
 - **Qué enseña:** que **lento no es fracaso**: la curva va en el mismo sentido que la de Martín, con unas semanas más. Y quién hace qué.
 - **Errores esperables:** suspender el fármaco por cuenta propia; dar un programa largo y exigente a alguien con miedo a caerse; no medir el riesgo de caída.
-- **En LabSim:** audición simétrica propia de la edad; hipertensión controlada en la ficha.
 :::
 
 {{caso cap31_meseta}}
@@ -359,7 +348,7 @@ Esta es la hoja de sus tres visitas:
 - **Qué pedir:** repetir el vHIT y la batería, preguntar lo que dejó de hacer, y **avisar al médico**: para la guía, la meseta es un motivo para detener la rehabilitación, y la ansiedad y la depresión son comorbilidades que empeoran el resultado y que llevan a derivar a otros profesionales (Hall y cols., 2022). <!-- Pasada de fundamentos 2026-10-18: decía "la meseta con la función recuperada es un motivo de derivación en la guía". Se corrigió: Hall y cols. (2022) dan la meseta como motivo para parar la terapia (AS 8), y la derivación la recomiendan ante comorbilidades como ansiedad y depresión (AS 9). -->
 - **Qué enseña:** que **más ejercicio de VOR no lo arregla** y que la función normal no es la misma cosa que "estar bien". La historia ya era la de Cousins y cols. (2017): evitación, miedo y dependencia visual.
 - **Errores esperables:** subir la dosis; decir "su examen está normal"; ponerle nombre de PPPD a las diez semanas, cuando el criterio de tiempo todavía no se cumple.
-- **En LabSim:** audición normal en los dos oídos. Es el mismo camino del paciente del cap. 27, **antes** de los nueve meses.
+- **Para discutir:** Es el mismo camino del paciente del cap. 27, **antes** de los nueve meses.
 :::
 
 ## Resolución de los casos

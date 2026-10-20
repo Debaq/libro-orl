@@ -65,10 +65,6 @@ Muchos de estos niños ya usan audífonos. El campo libre con audífono (A) fren
 En la audiometría por juego, este libro mide un oído completo y luego el otro, siempre en el mismo orden (→ H8). La guía de la AAA (2020) propone, en los niños de 2 a 3 años, alternar los oídos frecuencia por frecuencia, para tener datos de ambos aunque el niño se canse a mitad de camino. En un niño que se controla por una hipoacusia que puede progresar, el orden fijo del libro tiene una ventaja: cada control se compara con el anterior en las mismas condiciones.
 :::
 
-:::comentario Lo que el simulador no tiene
-El niño de LabSim responde al audiómetro como un adulto colaborador, a cualquier edad, y el campo libre todavía no se practica (→ H8). En los casos de este capítulo, el audiograma de un niño de 3 o 6 años muestra lo que la audiometría por juego **podría** obtener; el de una lactante de 8 meses no se obtendría nunca, y por eso su caso se resuelve con pruebas objetivas.
-:::
-
 :::ayuda Ayuda memoria
 - Familia: **quién**, de **qué lado**, **desde cuándo** y **qué más tiene**. Y mirar al paciente.
 - "Nadie es sordo en la familia" no descarta una herencia recesiva.
@@ -166,7 +162,7 @@ El síndrome de Pendred tiene peor audición que el acueducto dilatado aislado (
 
 ### Las formas sindrómicas
 
-El resto de los cuadros de este capítulo se reconocen por lo que hay **fuera del oído**. Cada uno tiene una forma típica de audiograma, que es la que muestra el simulador; en la clínica, el grado varía mucho, también dentro de una misma familia.
+El resto de los cuadros de este capítulo se reconocen por lo que hay **fuera del oído**. Cada uno tiene una forma típica de audiograma, que es la que muestran los casos; en la clínica, el grado varía mucho, también dentro de una misma familia.
 
 **Waardenburg.** Es uno de los síndromes con hipoacusia y alteración del pigmento más frecuentes (Toriello, 2011). <!-- Pasada de fundamentos 2026-10-18: decía "Es el más frecuente"; Toriello 2011: "One of the most common of these". --> En 417 pacientes, el 71 % tenía hipoacusia sensorioneural, el 91,6 % en el tipo 2; era bilateral en el 89,4 % y estable en el 91,9 %, y el grado más común fue el profundo (Song y cols., 2016). El grado varía mucho dentro de una misma familia (Newton, 1990): un padre con el mechón blanco puede oír bien y tener una hija sorda.
 
@@ -260,7 +256,6 @@ Adrián se condicionó al juego con el pito en 1 kHz y guardó juguetes en la ca
 - @OD 1000 | Umbral por juego: 80 dB en 1 kHz. El OD es plano, de 75 a 90 dB. Promedio BIAP (80 + 80 + 80 + 90) / 4 = 82,5 dB: **severa**.
 - @OI 4000 | El OI es igual, con 90 dB en 4 kHz y un promedio de 84 dB: severa, bilateral y **simétrica**.
 - @OD osea 2000 | La ósea no responde al tope del vibrador (las flechas). No sirve para saber el tipo: eso lo dicen el timpanograma y las emisiones.
-- @OI 125 | A esta edad se mide de 250 a 4.000 Hz; 125, 6.000 y 8.000 Hz están porque el simulador guarda la curva completa.
 :::
 
 Hace un año, la VRA con insertos dio niveles mínimos de 60 a 65 dB. El nivel mínimo queda **por encima** del umbral verdadero, así que el umbral de entonces era de 60 a 65 dB o mejor. Hoy está en 80: Adrián perdió **al menos 15 dB**. No es la maduración: la maduración solo puede hacer que un control salga mejor.
@@ -287,7 +282,6 @@ Hace un año, la VRA con insertos dio niveles mínimos de 60 a 65 dB. El nivel m
 - **Hipótesis esperables:** progresión de la hipoacusia (Kenna y cols., 2010); otitis media con efusión sumada; audífono con falla, tubo tapado o ajuste insuficiente; menos atención o cambio de conducta.
 - **Qué pedir:** otoscopía, timpanograma, audiometría condicionada por juego con fonos o insertos, ósea, emisiones como prueba cruzada; revisión del audífono y campo libre con audífono (→ H7, H8, H9).
 - **Errores esperables:** comparar el nivel mínimo de la VRA con el umbral por juego como si fueran iguales; atribuir la baja a la conducta sin medir; responderle a la mamá el riesgo del embarazo en vez de derivar a genética.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *No sindrómica GJB2 (conexina 26)*, grado severo, en los dos oídos. El niño responde como un adulto y el campo libre no se practica.
 :::
 
 {{caso cap10_waardenburg}}
@@ -333,7 +327,6 @@ Tiene 8 meses y se sienta sola. ¿Qué método conductual le corresponde? ¿Qué
 - **Hipótesis esperables:** hipoacusia sensorioneural profunda bilateral congénita, sindrómica (Waardenburg); otitis media con efusión (descartada por el timpanograma); neuropatía auditiva (descartada por las emisiones ausentes).
 - **Qué pedir:** VRA en campo libre y, si no condiciona, con vibrador; timpanograma y reflejos; emisiones; PEAT con click y por frecuencia (→ H7, H8, H9, H10, H13). Interconsulta a genética.
 - **Errores esperables:** insistir con el mismo estímulo sin subir ni cambiarlo; dar por "no colaboradora" a una niña que no oye; anotar niveles mínimos que no se obtuvieron; no registrar los signos de la cara en la anamnesis.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Waardenburg (profunda congénita)*, grado profundo, en los dos oídos, con edad de 8 meses. En el simulador el audiómetro le daría un audiograma; a los 8 meses, en la vida real, no.
 :::
 
 {{caso cap10_pendred}}
@@ -377,7 +370,6 @@ Andrés sostuvo la instrucción convencional (levantar la mano) en la aérea; pa
 - **Hipótesis esperables:** acueducto vestibular dilatado o Pendred; CMV congénito (también pasa el tamizaje y progresa; → cap. 17); otitis media con efusión sumada; conmoción laberíntica por el golpe.
 - **Qué pedir:** otoscopía, timpanograma y reflejos, audiometría con ósea enmascarada, logoaudiometría si el lenguaje lo permite; comparar con la audiometría anterior. Sugerir imágenes de oído interno (las pide el otorrinolaringólogo) y, más adelante, VEMP (→ H4, H7, H12).
 - **Errores esperables:** leer el gap con timpanograma A como error de técnica, como hace tres años; leerlo como otitis; no comparar con el examen anterior; no preguntar por golpes y resfríos.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Pendred / acueducto vestibular dilatado*, grado moderado, en los dos oídos. El simulador todavía no reproduce dos rasgos de la tercera ventana: la ósea **mejor que lo normal** en graves y el reflejo presente justo en la frecuencia del gap.
 :::
 
 {{caso cap10_alport}}
@@ -419,7 +411,7 @@ Un adolescente con sangre en la orina, un tío materno dializado que usa audífo
 - **Hipótesis esperables:** síndrome de Alport; ototoxicidad por fármacos recibidos (→ cap. 8); hipoacusia por ruido (sin exposición).
 - **Qué pedir:** audiometría, logoaudiometría, impedanciometría, DPOAE, acufenometría si el acúfeno está presente (→ H3, H5, H7, H9, cap. 6); los fármacos recibidos según la ficha de nefrología.
 - **Errores esperables:** no preguntar por el riñón ni por la familia de la mamá; llamar "plana" o "descendente" a una cubeta; informar solo el grado.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Alport (en surco de frecuencias medias, adolescencia)*, grado moderado, en los dos oídos. Su acúfeno queda en la ficha (pitido de 2 kHz, bilateral, intermitente).
+- **Para discutir:** Su acúfeno (pitido de 2 kHz, bilateral, intermitente) se conversa en la entrevista.
 :::
 
 {{caso cap10_usher}}
@@ -461,7 +453,6 @@ Hipoacusia desde chica, ceguera nocturna desde la adolescencia y una marcha norm
 - **Hipótesis esperables:** Usher tipo 2; Usher tipo 1 (descartado por la marcha, el grado y el VEMP); otro síndrome con ojos y oído (Stickler, Alport).
 - **Qué pedir:** audiometría, logoaudiometría con material grabado o sin que vea la cara del examinador, impedanciometría, VEMP (→ H3, H5, H7, H12). Genética y oftalmología.
 - **Errores esperables:** tomar la logoaudiometría con voz en vivo y la cara a la vista: mide la lectura labial, no el oído; no preguntar por la vista a un adulto joven con hipoacusia congénita; no informar que la lectura labial se va a perder con la luz y con los años.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Usher tipo 2 (descendente + retinosis)*, grado moderado, en los dos oídos.
 :::
 
 ## Resolución de los casos

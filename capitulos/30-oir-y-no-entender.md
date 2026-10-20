@@ -228,7 +228,7 @@ Un niño de 8 años tiene un rendimiento muy bajo en una prueba dicótica de dí
 
 ## Casos
 
-Las pruebas centrales de estos casos (dígitos dicóticos, patrones, gaps, habla en ruido) **no las genera LabSim**: van en tablas y gráficos propios. Se informan en la unidad de la prueba y como desviaciones estándar respecto de una norma de su versión y de su edad que aquí no se da. La parte periférica sí sale del simulador.
+Las pruebas centrales de estos casos (dígitos dicóticos, patrones, gaps, habla en ruido) se informan en la unidad de la prueba y como desviaciones estándar respecto de una norma de su versión y de su edad que aquí no se da.
 
 {{caso cap30_nino_tpa}}
 
@@ -285,7 +285,6 @@ Durante la prueba, atendió bien las cuatro, sin cansarse. Las evaluaciones de o
 - **Lo que enseña:** es el caso **limpio**, el que cumple los criterios de las guías (rendimiento bajo en dos pruebas, con queja documentada y periferia normal). Aun así el perfil es **parcial** (un oído, una prueba de secuencia) y la conciencia fonológica algo baja impide separar "procesamiento auditivo" de "procesamiento fonológico". Es el caso en que se escribe con cuidado.
 - **Qué pedir:** lo periférico, cuestionario de conducta de escucha a la familia y al docente, batería corta que cubra procesos distintos (→ H15).
 - **Errores esperables:** llamarlo "trastorno de procesamiento auditivo" con una causa; olvidar escribir lo que no se pudo descartar; prometer que el entrenamiento lo resolverá.
-- **En LabSim:** la parte periférica se puede armar como cuadro *normal* de 9 años; las pruebas centrales no están en el simulador (→ H15).
 :::
 
 {{caso cap30_mayor_ruido}}
@@ -343,7 +342,6 @@ El médico de cabecera, al que se derivó para un tamizaje cognitivo, aún no ti
 - **Lo que enseña:** un audiograma "leve" no es "normal". La caída en agudos y la distorsión coclear explican una parte; el resultado en ruido está más bajo que lo que predice el audiograma, y el oído izquierdo en lo dicótico y el tamizaje cognitivo pendiente dejan abierto el componente central y cognitivo. **No** es un caso de sinaptopatía: tiene pérdida en agudos que explica la caída, y esa hipótesis requiere audiograma normal y no tiene prueba clínica.
 - **Qué pedir:** logoaudiometría, emisiones, habla en ruido con material en español (→ H15), una prueba dicótica con normas de su edad y tamizaje cognitivo con el médico.
 - **Errores esperables:** "es solo la edad"; atribuir el cuadro a "pérdida oculta"; omitir el audífono con micrófono direccional y las estrategias; aplicar normas de adulto joven.
-- **En LabSim:** cuadro *presbiacusia* leve de 71 años; el habla en ruido y las pruebas centrales no están en el simulador.
 :::
 
 {{caso cap30_nino_otitis}}
@@ -395,7 +393,6 @@ Observaciones durante la prueba: se fatigó y perdió la atención hacia el fina
 - **Lo que enseña:** el puntaje bajo **en todas las pruebas, en los dos oídos**, con falsas alarmas y fatiga al final, es lo que da una pérdida conductiva y una atención corta, no un perfil de procesamiento. Con curva C y gap de graves, la batería no se interpreta (→ H15). Primero se trata o se controla el oído medio, se repite el audiograma y se reevalúa.
 - **Qué pedir:** derivación a otorrinolaringología; control audiométrico y timpanométrico en semanas a meses; cuestionario de atención y lenguaje; si el cuadro persiste con el oído medio normal, recién ahí una batería, con edad de desarrollo suficiente.
 - **Errores esperables:** hacer la batería y llamar "central" al resultado; dar de alta por "audición normal en agudos"; olvidar mirar atención y lenguaje cuando el oído medio ya esté normal.
-- **En LabSim:** cuadro *disfunción tubaria* de 7 años, en los dos oídos, grado leve.
 :::
 
 ## Resolución de los casos

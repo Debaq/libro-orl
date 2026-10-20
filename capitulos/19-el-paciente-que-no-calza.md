@@ -46,7 +46,7 @@ Hay dos maneras de verificar un umbral dudoso: **volver a pedirlo con trampa** (
 
 **PEAT.** Es la prueba que más se acerca al umbral por una vía que el paciente no controla: el umbral de la onda V al click informa sobre todo de la zona de 2 a 4 kHz, y con tonos puros (*tone burst*) se estima por frecuencia (Stapells y Oates, 1997; → H10). Cuando el umbral objetivo es mucho mejor que el audiograma, el audiograma no es el umbral real. Dos precauciones: el PEAT exige que el paciente esté relajado (la tensión muscular ensucia el registro, y quien no quiere colaborar puede dificultarlo, de modo que un registro ruidoso no es un hallazgo) y se expresa en dB nHL, que no se resta directamente de un audiograma en dB HL (→ H10, Apéndice A).
 
-**Estado estable (ASSR).** Cuando se necesita el umbral por frecuencia en un paciente que no colabora, el estado estable lo detecta en el espectro con un criterio estadístico, sin que el examinador lea ondas (→ H13). No está en LabSim.
+**Estado estable (ASSR).** Cuando se necesita el umbral por frecuencia en un paciente que no colabora, el estado estable lo detecta en el espectro con un criterio estadístico, sin que el examinador lea ondas (→ H13).
 
 :::ojo Ojo clínico
 Lo objetivo **no** descarta una pérdida real: sirve para saber cuánto oye el paciente de verdad. Si el estudio objetivo muestra una pérdida de 25 dB en agudos y el paciente dice 80 dB, tiene una pérdida y una exageración, y el informe debe decir las dos cosas.
@@ -141,13 +141,9 @@ Frente a un paciente que no calza, el orden de las preguntas importa:
 Un paciente tiene emisiones presentes, reflejos a 90 dB SPL y un PEAT con onda V a 40 dB nHL, pero dice 70 dB en el audiograma. ¿Cuál escribirías como su mejor estimación de la audición y por qué? ¿Qué le dirías a él?
 :::
 
-## En LabSim
-
-LabSim arma cada paciente con su **audición verdadera**: sus emisiones, sus reflejos y su PEAT salen de ella. Lo que no puede hacer hoy es cargar encima un audiograma **informado** distinto del verdadero, ni el umbral verdadero de un oído que el paciente dice tener sordo: el caso que fuera de verdad no orgánico (una pérdida que se informa y un oído que oye) no se puede armar completo. Lo que el docente sí puede hacer es marcar un oído con la casilla **Stenger** del caso: sus umbrales serán los que el paciente entrega y el verdadero se supone igual al del otro oído, como en alguien que oye parejo y dice una pérdida de un solo lado. El paciente simulado tampoco se cansa ni se confunde, así que no reproduce las variaciones de un paciente real (→ H6).
-
-Por eso los casos de este capítulo muestran la **audición verdadera** del paciente con las pruebas que no dependen de su mano, y lo que el paciente informó va en una tabla, dato por dato, como un registro de la consulta.
-
 ## Casos
+
+Los casos de este capítulo muestran la **audición verdadera** del paciente con las pruebas que no dependen de su mano; lo que el paciente informó va en una tabla, dato por dato, como un registro de la consulta.
 
 {{caso cap19_unilateral}}
 
@@ -206,7 +202,6 @@ Lo que sigue son las pruebas que Felipe no gobierna: lo que miden de su oído de
 - **Qué pedir:** audiometría con instrucción cuidadosa y repeticiones, SRT, logoaudiometría; sin enmascarar y enmascarado; **reflejos, emisiones, PEAT**; Stenger si hay asimetría (→ H3, H5, H6, H7, H9, H10).
 - **Errores esperables:** escribir "simulación" en el informe; informar los 80 dB como umbral; enmascarar el OI con ruido antes de ver cómo responde sin enmascarar.
 - **Para discutir en clases:** qué aporta el reflejo a 5 dB del umbral informado y qué diría del oído un Stenger positivo; cuál es la mejor frase de informe.
-- **En LabSim:** cuadro *normal* con la casilla Stenger marcada en el OD (el umbral verdadero se supone igual al del OI).
 :::
 
 {{caso cap19_sobre_real}}
@@ -265,7 +260,6 @@ Y esto es lo que miden de su oído real las pruebas que no dependen de su mano:
 - **Qué pedir:** audiometría con repeticiones, SRT y su comparación con el promedio tonal, reflejos, emisiones, **PEAT con click y tono puro**, estado estable si hay duda (→ H10, H13).
 - **Errores esperables:** concluir que "no tiene nada" por las emisiones presentes (en 3 y 4 kHz no pasan); comparar los 60 dB nHL del PEAT con los 85 dB HL del audiograma sin pasar por la corrección; no distinguir lo real de lo exagerado.
 - **Para discutir en clases:** cómo se escribe un informe cuando el paciente tiene una pérdida real y una exageración; qué parte de la conclusión pertenece al audiólogo y cuál al médico (→ capítulo 34).
-- **En LabSim:** cuadro *pérdida por ruido crónica*, grado leve en los dos oídos; lo informado por el paciente va en el texto.
 :::
 
 {{caso cap19_nina}}
@@ -316,7 +310,6 @@ Con la voz, repite palabras desde los **15 dB**, unos 37 dB mejor que su promedi
 - **Qué pedir:** audiometría con juego e instrucción repetida, SRT, timpanometría, reflejos, emisiones; el PEAT solo si lo anterior no alcanza (→ H8, H7, H9).
 - **Errores esperables:** confrontar a la niña o a los padres; informar "audición normal" sin explicar qué se hizo y por qué; pedir un PEAT con sedación sin necesidad.
 - **Para discutir en clases:** cómo se le dice a los padres; qué se deriva y a quién (pediatría, psicología escolar); qué pasa si se informa mal.
-- **En LabSim:** cuadro *normal*, 11 años.
 :::
 
 {{caso cap19_p42}}
@@ -368,7 +361,6 @@ Un Stenger en este paciente sería **negativo**: el tono de 10 dB sobre el umbra
 - **Qué pedir:** audiometría con y sin enmascarar, logoaudiometría, reflejos, emisiones, PEAT (→ H3, H4, H5, H7, H9, H10).
 - **Qué enseña:** es el contraste. Todo lo que en la pérdida no orgánica no calza aquí calza: curva sombra, SRT coherente con el promedio tonal, reflejo ausente al estimular ese oído, emisiones ausentes, PEAT sin respuesta y Stenger negativo.
 - **Errores esperables:** querer buscar simulación donde no la hay solo por ser unilateral y total; olvidar enmascarar.
-- **En LabSim:** es el paciente de práctica 42; se atiende desde "Práctica libre".
 :::
 
 ## Resolución de los casos

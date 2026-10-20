@@ -62,7 +62,7 @@ Lo que cambia con el inserto es el **contacto**: el fono supraaural apoya una ca
 
 ### La curva sombra
 
-Si no enmascaras, el oído peor dibuja una **curva sombra**: una copia del oído mejor, desplazada hacia abajo en la cantidad que atenúa el cráneo (BSA, 2018). El paciente de práctica 42 lo muestra en su forma más pura.
+Si no enmascaras, el oído peor dibuja una **curva sombra**: una copia del oído mejor, desplazada hacia abajo en la cantidad que atenúa el cráneo (BSA, 2018). El caso H4.1 lo muestra en su forma más pura.
 
 {{caso h4_p42}}
 
@@ -182,7 +182,7 @@ Cada término tiene una razón:
 
 <!-- Protocolo ORL 2019: para la vía ósea, "Máximo = umbral óseo del oído estudiado + atenuación interaural de la vía ósea" (0 dB), lo que deja el máximo igual al umbral óseo y vuelve imposible casi cualquier enmascaramiento óseo. Se corrigió a UO evaluado + AI del fono que entrega el ruido: el ruido va por fono y cruza con la atenuación del fono (BSA 2018, sección 8.9.4: el sobreenmascaramiento depende de la ósea del oído evaluado y es menor con inserto; Studebaker 1964). Es el mismo error que se corrigió en el simulador (docs/decisiones.md, "la IA del ruido es la del fono"). -->
 
-**Un ejemplo con el paciente 41** (otitis crónica del OI, más adelante en este capítulo). En 1.000 Hz el OD tiene 0 dB aéreo y óseo; el OI, 50 dB aéreo y 25 dB óseo. Con supraaural y banda estrecha:
+**Un ejemplo con el caso H4.2** (otitis crónica del OI). En 1.000 Hz el OD tiene 0 dB aéreo y óseo; el OI, 50 dB aéreo y 25 dB óseo. Con supraaural y banda estrecha:
 
 - Aérea del OI: mínimo = 50 − 40 − 0 + 0 = **10 dB**; máximo = 25 + 40 = **65 dB**. Un ruido de unos 40 dB EM en el OD está holgado.
 - Ósea del OI: mínimo = 25 − 0 + 0 + 10 (oclusión, porque el OD es normal) = **35 dB**; máximo = 25 + 40 = **65 dB**. El ruido tiene que ir entre 35 y 65.
@@ -312,34 +312,17 @@ Con gaps iguales en los dos oídos, el dilema aparece cuando el gap **supera la 
 Antes de firmar un audiograma con una asimetría o un gap, haz una sola pregunta por cada símbolo: **¿pudo contestar el otro oído?** Si la respuesta es sí y el símbolo no está enmascarado, el audiograma no está terminado.
 :::
 
-## En LabSim
-
-El audiómetro del simulador tiene dos canales. Para enmascarar, deja el tono en el canal del oído evaluado y en el otro canal elige un ruido (banda estrecha, blanco, rosa o de habla) y el oído no evaluado como salida. El paciente simulado contesta según de dónde le llegue el tono:
-
-- Con el ruido **bajo el mínimo**, contesta por el otro oído: la curva sombra, que **sube dB a dB** a medida que subes el ruido. Es el tramo inclinado del gráfico del plateau.
-- Con el ruido **dentro de la ventana** (entre el mínimo y el máximo), contesta su umbral verdadero y deja de moverse aunque subas el ruido: la **meseta**.
-- Con el ruido **sobre el máximo**, el umbral vuelve a **subir dB a dB**: el ruido cruzó y está tapando el oído que evalúas. Lo sobreenmascaraste.
-
-Por eso el método del plateau funciona igual que con un paciente real: sube el ruido de a 10 dB y mira si el umbral se mueve.
-
-Lo que usa el simulador para calcular:
-
-- **Atenuación interaural aérea**, fono supraaural: 35 dB en 125 Hz, 40 dB de 250 a 2.000 Hz, 45 dB en 3 y 4 kHz y 50 dB en 6 y 8 kHz. **Ósea**: 0 dB. **Habla**: 45 dB. La audiometría tonal no tiene todavía fono de inserción.
-- **Coeficiente de enmascaramiento** para tonos: banda estrecha 0, rosa 5, blanco y ruido de habla 10 dB. Para habla: ruido de habla 0, blanco y rosa 5, banda estrecha 20 dB. Con el ruido equivocado el paciente sigue oyendo hasta que subes la diferencia.
-- **Efecto de oclusión** en la ósea: 15 dB de 125 a 500 Hz y 10 dB en 1.000 Hz, solo si el oído no evaluado no tiene gap.
-- En la **logoaudiometría**, el sobreenmascaramiento corre la curva de a poco, no de golpe.
-
-Los audiogramas del libro que dicen "sin enmascarar" están calculados con la misma regla: aérea = la ósea del otro oído más la atenuación de la frecuencia; ósea = la mejor de las dos.
+## Para practicar
 
 :::ojo Ojo con el dilema
-Cuando el mínimo queda sobre el máximo, el simulador se comporta como el paciente real: **no hay meseta**. El umbral sigue subiendo con el ruido y, como mucho, pasa una vez por el valor verdadero sin quedarse ahí. Si no encuentras tres niveles seguidos con el mismo umbral, haz la cuenta: un mínimo mayor que el máximo es el dilema, y eso es lo que se informa.
+Cuando el mínimo queda sobre el máximo, **no hay meseta**. El umbral sigue subiendo con el ruido y, como mucho, pasa una vez por el valor verdadero sin quedarse ahí. Si no encuentras tres niveles seguidos con el mismo umbral, haz la cuenta: un mínimo mayor que el máximo es el dilema, y eso es lo que se informa.
 :::
 
 :::pregunta Preguntas para practicar
-1. En el paciente 42, calcula el ruido mínimo en el OI para confirmar que el OD no responde a 110 dB en 1 kHz. ¿Cabe en un audiómetro clínico? ¿Qué cambia con un inserto?
-2. En el paciente 41, mide la ósea del OI en 500 Hz con la técnica por pasos. ¿Con qué ruido partes? ¿Por qué sumas el efecto de oclusión?
-3. En el paciente 34 (otoesclerosis del OD), la ósea sin enmascarar sale casi normal en todas las frecuencias. ¿De qué oído es? Calcula la ventana de ruido para la ósea del OD en 1 kHz.
-4. Arma en LabSim un caso de otoesclerosis bilateral y busca una frecuencia con dilema. ¿Qué harías en el box real?
+1. En el caso H4.1, calcula el ruido mínimo en el OI para confirmar que el OD no responde a 110 dB en 1 kHz. ¿Cabe en un audiómetro clínico? ¿Qué cambia con un inserto?
+2. En el caso H4.2, mide la ósea del OI en 500 Hz con la técnica por pasos. ¿Con qué ruido partes? ¿Por qué sumas el efecto de oclusión?
+3. En Carolina (otoesclerosis del OD), la ósea sin enmascarar sale casi normal en todas las frecuencias. ¿De qué oído es? Calcula la ventana de ruido para la ósea del OD en 1 kHz.
+4. En una otoesclerosis bilateral, ¿en qué frecuencias esperas un dilema? ¿Qué harías en el box?
 :::
 
 ## Referencias

@@ -40,10 +40,10 @@ El protocolo del programa de Columbia Británica (Hatton y cols., 2022) formaliz
 
 El click estima la audición entre 2 y 4 kHz. Con eso se puede decir si hay una pérdida, pero un bebé al que se le va a pensar un audífono necesita saber **qué frecuencias están afectadas y cuánto**. Para eso se repite la búsqueda con un **tone burst** de 500, 1.000, 2.000 y 4.000 Hz o con el **NB CE-Chirp LS** de la misma banda (→ H10, "Umbral por frecuencia"). Estos estímulos sincronizan peor que el click y la onda V es lo único que se reconoce; por eso se marca solo la V y no se buscan interpicos.
 
-El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En LabSim las correcciones son las de H10: burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; click, 10.
+El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En este capítulo se usan las de la BSA (2019) para lactantes de 12 a 24 semanas con fonos de inserción (→ H10): burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; el click no se corrige.
 
 :::comentario-ancho Lo que dicen las normas
-Las correcciones **no son universales**. Cada programa publica las suyas, calculadas a partir de comparar umbrales de ABR con umbrales de refuerzo visual en grupos de lactantes con su propio equipo, su propio estímulo y su propia forma de registrar. El protocolo de Columbia Británica, por ejemplo, usa para la vía aérea −10 dB en 500 y 1.000 Hz, −5 dB en 2.000 Hz y 0 dB en 4.000 Hz, y para la vía ósea +5 en 500 Hz, −5 en 2.000 Hz y una cifra preliminar de −5 en 4.000 Hz; en 1.000 Hz por vía ósea no hay corrección confiable (Hatton y cols., 2022). Esas cifras son más chicas que las de LabSim y valen **solo** para los parámetros de ese protocolo. Sus autores avisan que se debe esperar una desviación de 5 a 10 dB respecto del umbral conductual y, en una de cada veinte veces, de 15 a 20 dB. La consecuencia práctica es la misma en cualquier tabla: un umbral por ABR es un **rango**, no un número. Cuando se informa, se escribe qué tabla se usó. Otros programas publican las suyas (BSA, 2025; Ontario Infant Hearing Program, 2020) y los datos de base de casi todas son los de Stapells (2000).
+Las correcciones **no son universales**. Cada programa publica las suyas, calculadas a partir de comparar umbrales de ABR con umbrales de refuerzo visual en grupos de lactantes con su propio equipo, su propio estímulo y su propia forma de registrar. El protocolo de Columbia Británica, por ejemplo, usa para la vía aérea −10 dB en 500 y 1.000 Hz, −5 dB en 2.000 Hz y 0 dB en 4.000 Hz, y para la vía ósea +5 en 500 Hz, −5 en 2.000 Hz y una cifra preliminar de −5 en 4.000 Hz; en 1.000 Hz por vía ósea no hay corrección confiable (Hatton y cols., 2022). Esas cifras son más chicas que las de este libro (→ H10) y valen **solo** para los parámetros de ese protocolo. Sus autores avisan que se debe esperar una desviación de 5 a 10 dB respecto del umbral conductual y, en una de cada veinte veces, de 15 a 20 dB. La consecuencia práctica es la misma en cualquier tabla: un umbral por ABR es un **rango**, no un número. Cuando se informa, se escribe qué tabla se usó. Otros programas publican las suyas (BSA, 2025; Ontario Infant Hearing Program, 2020) y los datos de base de casi todas son los de Stapells (2000).
 :::
 
 Hay un hecho que hay que saber leer en el registro: los umbrales de la V de un bebé **normal** no son cero. En lactantes con audición normal, el tone burst de 500 Hz da respuesta a 20 dB nHL en solo la mitad de los casos y a 30 en el 92 %; el de 2.000 Hz, a 20 dB nHL en el 96 % (Stapells y cols., 1995, citado en Hatton y cols., 2022). Por eso los programas fijan un **nivel mínimo de normalidad** por frecuencia y, cuando hay respuesta en ese nivel, no buscan más abajo.
@@ -52,8 +52,8 @@ Hay un hecho que hay que saber leer en el registro: los umbrales de la V de un b
 
 Una pérdida de transmisión y una pérdida de cóclea dan el mismo ABR por vía aérea: el umbral queda elevado. Lo que las separa es la vía ósea, que salta el conducto y el oído medio y estimula directamente la cóclea. Si el umbral óseo está **normal** y el aéreo elevado, la pérdida es de transmisión; si los dos están elevados, hay un componente sensorineural (Hatton y cols., 2012). La técnica está en H10 (§ 8); aquí importan tres cosas del lactante:
 
-- **La referencia de cero es otra.** El 0 dB nHL del vibrador se define sobre cráneo adulto. En adultos normoyentes, el umbral del ABR por vía ósea queda unos 15 dB más arriba que por vía aérea; en lactantes quedan casi iguales (Stuart y cols., 1993). <!-- Corregido 2026-10-18: la cita era Cobb y Stuart (2016), que con CE-Chirp dan 4 dB en el adulto; las cifras con click (adultos 3,75 aéreo y 18,75 óseo; neonatos 3,75 y 1,25 dB nHL) son de Stuart y cols. 1993, verificadas en PubMed. --> LabSim lo modela: el desfase es completo bajo los 6 meses de edad y se va perdiendo hasta desaparecer a los 24, con el cierre de las suturas. En el lactante, por tanto, **no se resta una "diferencia normal" entre las dos vías**: aire elevado y hueso normal es un gap real.
-- **El vibrador entrega poco.** Los equipos llegan a unos 45 a 55 dB nHL (Seo y cols., 2018); LabSim llega a 55. Con una pérdida sensorioneural de grado moderado a severo, el umbral óseo queda **fuera de alcance**: "sin respuesta por hueso" no quiere decir "sin cóclea". El ABR óseo sirve donde la ventana alcanza, que es justo la de los casos de transmisión.
+- **La referencia de cero es otra.** El 0 dB nHL del vibrador se define sobre cráneo adulto. En adultos normoyentes, el umbral del ABR por vía ósea queda unos 15 dB más arriba que por vía aérea; en lactantes quedan casi iguales (Stuart y cols., 1993). <!-- Corregido 2026-10-18: la cita era Cobb y Stuart (2016), que con CE-Chirp dan 4 dB en el adulto; las cifras con click (adultos 3,75 aéreo y 18,75 óseo; neonatos 3,75 y 1,25 dB nHL) son de Stuart y cols. 1993, verificadas en PubMed. --> En los casos de este libro el desfase es completo bajo los 6 meses de edad y se va perdiendo hasta desaparecer a los 24, con el cierre de las suturas. En el lactante, por tanto, **no se resta una "diferencia normal" entre las dos vías**: aire elevado y hueso normal es un gap real.
+- **El vibrador entrega poco.** Los equipos llegan a unos 45 a 55 dB nHL (Seo y cols., 2018). Con una pérdida sensorioneural de grado moderado a severo, el umbral óseo queda **fuera de alcance**: "sin respuesta por hueso" no quiere decir "sin cóclea". El ABR óseo sirve donde la ventana alcanza, que es justo la de los casos de transmisión.
 - **Se lee solo la onda V**, y los umbrales de la vía ósea tienen su propia tabla.
 
 :::ayuda Ayuda memoria
@@ -197,7 +197,7 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 :::figura cap17_efusion_neonatal abr
 - @OD 80 V | A 80 dB nHL aparece la V del OD a **6,66 ms**, con la I a 2,46 y la III a 4,56: todas las ondas **llegan tarde**, la I incluida.
 - @OD 60 V | La V sigue a 60 dB (7,64 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
-- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,63 ms: **umbral del OD de 40 dB nHL con click**; menos la corrección de 10 dB del click da unos 30 dB eHL.
+- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,63 ms: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: unos 40 dB eHL.
 - @OI 60 V | El OI responde igual: V a 7,74 ms con 60 dB nHL, y a 40 dB ya no se distingue de ruido.
 - @OD 20 | A 20 dB nHL no hay respuesta en ninguno de los dos oídos.
 :::
@@ -213,7 +213,7 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 - **Hipótesis esperables:** oído medio ocupado (lo más probable), hipoacusia sensorioneural bilateral, neuropatía auditiva, infección congénita. Sin factores de riesgo, el primer sospechoso es el oído medio.
 - **Qué pedir:** otoscopía y timpanometría de 1.000 Hz mientras está despierta; ABR con click en los dos oídos; **vía ósea apenas el aéreo salga elevado**; emisiones al final (→ H7, H9, H10).
 - **Errores esperables:** pedir 226 Hz; creer que "plano" equivale a hipoacusia; afinar el umbral por frecuencia en vía aérea antes de hacer el ABR óseo; informar un número de eHL como si fuera un audiograma.
-- **En LabSim:** cuadro *efusión neonatal*, 4 meses. Con sonda de 226 Hz el simulador entrega una curva normal y deja cometer el error. El ABR óseo se pide cambiando el transductor a *vibrador óseo* en Parámetros avanzados.
+- **Para discutir:** Con sonda de 226 Hz sale una curva normal: elegir la sonda correcta es parte del ejercicio.
 :::
 
 {{caso cap17_cmv_congenito}}
@@ -242,7 +242,7 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 :::figura cap17_cmv_congenito abr
 - @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,25 ms**, casi medio milisegundo más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
 - @OD 60 V | La V sigue a 60 dB nHL (6,99 ms).
-- @OD 40 | A 40 dB nHL no hay ninguna onda: **umbral con click del OD de 60 dB nHL**, unos 50 dB eHL.
+- @OD 40 | A 40 dB nHL no hay ninguna onda: **umbral con click del OD de 60 dB nHL**, unos 60 dB eHL.
 - @OI 80 V | El OI responde con I, III y V bien formadas: V a 5,76 ms e interpico **I-V de 4,2 ms**, normal para su edad (→ cap. 14).
 - @OI 20 V | Y mantiene la V hasta **20 dB nHL** (7,92 ms): el oído sano al lado sirve de comparación.
 :::
@@ -260,7 +260,7 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 - **Hipótesis esperables:** hipoacusia unilateral por CMV, pérdida de transmisión, tamizaje falso negativo, pérdida bilateral.
 - **Qué pedir:** ABR por click en ambos oídos, umbral por frecuencia con burst o NB chirp en el oído afectado y en el sano, timpanometría de 1.000 Hz y emisiones. Lo que no cambia es el plan: **seguimiento repetido**, porque el oído sano de hoy puede dejar de serlo (→ H10, H13).
 - **Errores esperables:** tranquilizar a la familia porque el tamizaje pasó; dar de alta tras una evaluación normal; no repetir el control; concluir que "el sano" es normal sin mirar sus umbrales por frecuencia.
-- **En LabSim:** cuadro *CMV congénito* en el OD, grado moderado; el OI se deja normal a propósito. El caso muestra un momento de esa historia.
+- **Para discutir:** El OI se deja normal a propósito; el caso muestra un momento de esa historia.
 :::
 
 {{caso cap17_rubeola_congenita}}
@@ -305,7 +305,7 @@ Con un bebé que no reacciona a los portazos, ¿hasta qué nivel de estímulo si
 - **Hipótesis esperables:** hipoacusia sensorioneural bilateral severa a profunda (rubéola, CMV, toxoplasmosis), efusión de oído medio añadida, neuropatía auditiva.
 - **Qué pedir:** ABR hasta el nivel máximo del equipo, tone burst por frecuencia, emisiones, ASSR para buscar resto auditivo (→ H13), y **derivación temprana** al equipo de rehabilitación y de implante coclear. Los umbrales conductuales llegan después, con refuerzo visual (→ H21).
 - **Errores esperables:** detenerse en 80 dB nHL y escribir "sin respuesta"; no agregar la corrección a dB eHL; leer la vía ósea sin respuesta como diagnóstico; no avisar a la familia que el cuadro sigue y que hay otras necesidades (visión y corazón).
-- **En LabSim:** cuadro *rubéola congénita*, grado severo en los dos oídos. La vía ósea sin respuesta es consecuencia del tope del vibrador y no un error del simulador.
+- **Para discutir:** La vía ósea sin respuesta es por el tope del vibrador.
 :::
 
 {{caso cap17_asfixia_perinatal}}
@@ -349,7 +349,7 @@ El tamizaje con AABR refirió y las emisiones se pueden registrar. ¿Qué agrega
 - **Hipótesis esperables:** pérdida coclear por ototóxicos, pérdida neural por la asfixia, efusión, retraso de maduración. Con emisiones presentes, la cóclea queda al margen.
 - **Qué pedir:** ABR con polaridades separadas para ver la microfónica; emisiones; timpanometría de 1.000 Hz. **No** estimar umbrales con tone burst ni con ASSR (→ cap. 13, H13). Seguimiento con conducta y reevaluaciones.
 - **Errores esperables:** concluir "sordera profunda" porque no hay ondas; adaptar audífonos con un umbral estimado; creer que la gentamicina explica el cuadro; dar el diagnóstico definitivo en la primera sesión.
-- **En LabSim:** cuadro *asfixia perinatal*, grado moderado en los dos oídos: la secuela permanente con ABR desarmado. La normalización del tronco en el primer mes, que es lo que ocurre en la mayoría, se enseña aparte (→ cap. 14).
+- **Para discutir:** La secuela permanente con ABR desarmado. La normalización del tronco en el primer mes, que es lo que ocurre en la mayoría, se enseña aparte (→ cap. 14).
 :::
 
 ## Resolución de los casos

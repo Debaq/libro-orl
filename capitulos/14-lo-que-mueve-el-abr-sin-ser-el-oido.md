@@ -47,7 +47,7 @@ Los números de la tabla son **órdenes de magnitud** de estudios con grupos peq
 
 ### Qué tabla usar
 
-LabSim elige la fila de referencia por la edad del paciente (y por el sexo desde los 18 años): hasta los 3 meses de vida, la del recién nacido; de 3 meses a 3 años, la del lactante; de 3 a 17 años, la del niño; desde los 18, adulto por sexo, y desde los 60, adulto mayor por sexo. Las filas completas están en el Apéndice A; aquí solo las de los casos.
+La fila de referencia se elige por la edad del paciente (y por el sexo desde los 18 años): hasta los 3 meses de vida, la del recién nacido; de 3 meses a 3 años, la del lactante; de 3 a 17 años, la del niño; desde los 18, adulto por sexo, y desde los 60, adulto mayor por sexo. Las filas completas están en el Apéndice A; aquí solo las de los casos.
 
 :::ayuda-ancho Las tres filas que usan los casos (click a 80 dB nHL, en ms)
 | | Onda I | Onda III | Onda V | I-III | III-V | I-V |
@@ -58,12 +58,12 @@ LabSim elige la fila de referencia por la edad del paciente (y por el sexo desde
 | Adulto, hombre | 1,47 | 3,75 | 5,68 | 2,28 | 1,93 | 4,21 |
 :::
 
-La fila del recién nacido sale de una serie por edad **posconcepcional** (35-36, 37-38 y 39-40 semanas, y 6 meses; Rosa y cols., 2014); la del adulto, de Sanfins y cols. (2026). La del lactante la deriva LabSim de las series vecinas. <!-- verificar: a qué grupo de edad de Rosa y cols. (2014) corresponde la fila de recién nacido de LabSim, y la procedencia exacta de la fila del lactante de 1 a 3 años (la planilla la marca como derivada). Pasada de fundamentos 2026-10-18: el resumen de Rosa 2014 da, a 39-40 semanas, I 1,79, III 4,56 y V 6,90 ms; a 37-38 semanas, V 7,05. La I y la III de la fila coinciden con 39-40 semanas, pero la V de la fila (7,00) no coincide con ningún grupo, y los interpicos de la fila son restas de I, III y V. Va al autor (dato de LabSim, no se tocó). -->
+La fila del recién nacido sale de una serie por edad **posconcepcional** (35-36, 37-38 y 39-40 semanas, y 6 meses; Rosa y cols., 2014); la del adulto, de Sanfins y cols. (2026). La del lactante se deriva de las series vecinas. <!-- verificar: a qué grupo de edad de Rosa y cols. (2014) corresponde la fila de recién nacido de LabSim, y la procedencia exacta de la fila del lactante de 1 a 3 años (la planilla la marca como derivada). Pasada de fundamentos 2026-10-18: el resumen de Rosa 2014 da, a 39-40 semanas, I 1,79, III 4,56 y V 6,90 ms; a 37-38 semanas, V 7,05. La I y la III de la fila coinciden con 39-40 semanas, pero la V de la fila (7,00) no coincide con ningún grupo, y los interpicos de la fila son restas de I, III y V. Va al autor (dato de LabSim, no se tocó). -->
 
 La consecuencia práctica es la que enseña el cuarto caso: un **prematuro se compara por su edad corregida**, no por los días que lleva de vida. La edad corregida (o posconcepcional) es la edad gestacional con que nació más las semanas que lleva viviendo; un niño nacido a las 32 semanas y evaluado a las 8 semanas de vida tiene 40 semanas corregidas, es decir, la edad de un recién nacido de término.
 
 :::comentario-ancho Lo que dicen las normas
-LabSim, como la mayoría de las planillas, separa por tramos de edad y no por semanas: el cambio de fila ocurre a los 3 meses. Una tabla que parte por edad posconcepcional, como la de Rosa y cols. (2014), es la que mejor calza con un prematuro. En el adulto, la recomendación general es que cada servicio construya su propia norma con su equipo, su transductor y su protocolo, estratificada por sexo y edad (→ H10). Mientras no la tenga, la tabla publicada se cita con su fuente en el informe.
+La mayoría de las planillas separa por tramos de edad y no por semanas. Una tabla que parte por edad posconcepcional, como la de Rosa y cols. (2014), es la que mejor calza con un prematuro. En el adulto, la recomendación general es que cada servicio construya su propia norma con su equipo, su transductor y su protocolo, estratificada por sexo y edad (→ H10). Mientras no la tenga, la tabla publicada se cita con su fuente en el informe.
 :::
 
 ### El sueño, la sedación y el paciente que no duerme
@@ -199,7 +199,7 @@ Además de la audiometría, ¿qué pruebas de oído medio y de cóclea agregarí
 - **Hipótesis esperables:** presbiacusia (a los 45 sería precoz), ruido (sin exposición), genética (sin familia), causa sistémica: **hipotiroidismo**, diabetes, ototóxicos; y, solo si hubiera asimetría, retrococlear.
 - **Qué pedir:** audiometría, impedanciometría (descarta oído medio), emisiones (confirman lo coclear) y un ABR de tronco: **no para el hipotiroidismo** sino para dejar documentado que no hay asimetría ni signos retrococleares. Y avisar al médico.
 - **Errores esperables:** leer una V a 5,7 ms como "retrococlear" sin mirar los interpicos; creer que un ABR dentro de límites descarta el hipotiroidismo; atribuir la pérdida a la edad.
-- **En LabSim:** cuadro *Hipotiroidismo* en grado leve en los dos oídos, mujer de 45 años. En LabSim las latencias del cuadro quedan en el límite superior: es un cuadro sutil a propósito (Anand y cols., 1989 muestran el efecto en el grupo, no en cada paciente).
+- **Para discutir:** Las latencias quedan en el límite superior: es un cuadro sutil a propósito (Anand y cols., 1989 muestran el efecto en el grupo, no en cada paciente).
 :::
 
 {{caso cap14_hipotermia_farmacos}}
@@ -234,7 +234,7 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 - **Hipótesis esperables:** lesión del tronco por la hipoxia, efecto de fármacos, **efecto de la temperatura**. Con la I atrasada y los interpicos largos en los dos oídos, la hipotermia es la explicación que cierra.
 - **Qué pedir:** la **temperatura central** (y la hora), la lista de fármacos y la hora de la última dosis, emisiones para confirmar la cóclea y, cuando se recaliente, **repetir el ABR** en normotermia.
 - **Errores esperables:** informar "lesión del tronco" por el I-V largo; "corregir" las latencias con una fórmula en vez de anotar la temperatura; atribuirlo al propofol.
-- **En LabSim:** cuadro *Hipotermia / depresores del SNC* (valores de unos 33 °C). LabSim no tiene un campo de temperatura: la temperatura está en la historia y el cuadro la representa en el ABR. El I-V de 5,2 ms calza con la regla de Markand (4,2 ms × 1,07³ ≈ 5,2 ms).
+- **Para discutir:** La temperatura está en la historia. El I-V de 5,2 ms calza con la regla de Markand (4,2 ms × 1,07³ ≈ 5,2 ms).
 :::
 
 {{caso cap14_bloqueo_proximal}}
@@ -268,7 +268,6 @@ Si el ABR muestra solo una onda, ¿qué te dice cada posibilidad: sordera, lesi�
 - **Hipótesis esperables:** el trazo con una onda puede ser una **sordera**, un **error de registro** o la **lesión proximal del tronco**. Lo que decide es que la **I existe, tiene su latencia y su amplitud**, y que hay emisiones: el oído funciona y la vía no responde después.
 - **Qué pedir:** descartar temperatura y fármacos, emisiones, ABR a 80 dB y varios niveles, y si no aparece la I, la ECochG para ver si la cóclea responde (→ H11).
 - **Errores esperables:** leer "sin ondas" como "tronco muerto" cuando no se vio la I; no preguntar por sedantes ni temperatura; dar un diagnóstico que no es del audiólogo.
-- **En LabSim:** cuadro *Bloqueo proximal del VIII (coma)*. LabSim no atrasa la I (en la serie de Starr, 1976, cuando la I estaba venía con latencia prolongada).
 :::
 
 {{caso cap14_prematuro}}
@@ -306,7 +305,6 @@ Antes de mirar los valores, ¿con qué fila los compararás? ¿Qué pasaría si 
 - **Hipótesis esperables:** pérdida de transmisión (efusión), coclear, neural o **maduración propia de la prematurez**. El timpanograma de 1.000 Hz y las emisiones descartan lo conductivo y lo coclear.
 - **Qué pedir:** edad corregida, timpanometría con sonda de 1.000 Hz, emisiones y ABR con **la fila que corresponde a su edad corregida** (→ cap. 16, cap. 17 para el umbral por frecuencia).
 - **Errores esperables:** comparar con la tabla del adulto; usar los días de vida y no la edad corregida; informar el I-V levemente largo como un problema neural.
-- **En LabSim:** cuadro *Retraso madurativo del prematuro* y edad de 1.344 horas (56 días). LabSim elige la fila por la **edad cronológica**: por eso aquí cae en la de recién nacido (menos de 3 meses). El cuadro corre toda la curva unos 0,6 ms y suma 0,1 ms al III-V (Stipdonk y cols., 2016); la literatura describe el alargamiento sobre todo en el III-V y atribuye parte del retraso de la I y la V al oído medio (Eggermont y Salamy, 1988). El cuadro no guarda las semanas de gestación: están en el relato.
 :::
 
 ## Resolución de los casos

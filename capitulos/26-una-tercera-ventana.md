@@ -79,15 +79,11 @@ La dehiscencia **se confirma con la tomografía** de alta resolución de los hue
 - RT y LT: oído derecho e izquierdo.
 :::
 
-:::ojo Ojo clínico
-LabSim todavía **no simula una dehiscencia**: recorta la vía ósea en 0 dB y apaga el reflejo cuando hay un gap. Por eso el caso 26.1 se resuelve con un esquema con las cifras de la literatura, no con registros del simulador.
-:::
-
 ### Otras terceras ventanas
 
 La dehiscencia del conducto superior es la más conocida, pero no es la única. Merchant y Rosowski (2008) agrupan las lesiones del laberinto que actúan así: dehiscencia del conducto **superior, lateral o posterior**, del **vestíbulo óseo** (acueducto vestibular dilatado y otras malformaciones del oído interno), de la **cóclea** (comunicación entre la carótida y la cóclea, sordera ligada al X con *stapes gusher*) y lesiones **difusas**, como la enfermedad de Paget.
 
-El **acueducto vestibular dilatado**, que en LabSim es el cuadro *Pendred / acueducto vestibular dilatado* (→ cap. 10, donde está su tomografía), es la tercera ventana de los niños. En 25 niños con 37 oídos y acueducto dilatado, 36 oídos tenían hipoacusia, todas las pérdidas tenían gap con el oído medio normal y el **VEMP salió con umbral anormalmente bajo en 34 de 37 oídos**, con amplitudes altas; en tres, que tenían síntomas vestibulares, el VEMP faltaba de un lado (Zhou y Gopen, 2011). En 98 oídos de pacientes con síndrome de Pendred, 60 tenían gap en graves, y los acueductos más anchos tenían más gap (Seo y cols., 2016).
+El **acueducto vestibular dilatado** (→ cap. 10, donde está su tomografía), es la tercera ventana de los niños. En 25 niños con 37 oídos y acueducto dilatado, 36 oídos tenían hipoacusia, todas las pérdidas tenían gap con el oído medio normal y el **VEMP salió con umbral anormalmente bajo en 34 de 37 oídos**, con amplitudes altas; en tres, que tenían síntomas vestibulares, el VEMP faltaba de un lado (Zhou y Gopen, 2011). En 98 oídos de pacientes con síndrome de Pendred, 60 tenían gap en graves, y los acueductos más anchos tenían más gap (Seo y cols., 2016).
 
 Tabla: Tres oídos con gap aéreo-óseo y tímpano normal a la otoscopía
 
@@ -179,7 +175,7 @@ Antes de la estapedotomía, el médico pidió impedanciometría con reflejos y V
 
 #### Paso 4 · Los resultados
 
-Los resultados de esta paciente **no están en LabSim**, porque el simulador no puede escribir una dehiscencia. El esquema usa las cifras de la literatura de la sección anterior: son promedios, no valores de un paciente.
+El esquema usa las cifras de la literatura de la sección anterior: son promedios, no valores de un paciente.
 
 :::imagen ilustraciones/cap26-dehiscencia.svg ancho=95% La dehiscencia del conducto superior derecho en tres pruebas. La combinación que la delata: ósea mejor que lo normal en graves, reflejo presente a pesar del gap y un cVEMP de umbral bajo. Cifras promedio de la literatura (Minor, 2005; Zhou y cols., 2007), no de un paciente.
 - @10,24 | **La ósea baja de 0 dB HL** en graves: el oído oye por hueso mejor que lo normal.
@@ -193,7 +189,7 @@ Los resultados de esta paciente **no están en LabSim**, porque el simulador no 
 - **Hipótesis esperables:** otoesclerosis (por el gap), trompa abierta (por la autofonía), dehiscencia del conducto superior.
 - **Qué pedir:** impedanciometría con reflejos, VEMP con búsqueda de umbral, y una tomografía de huesos temporales que pide el médico (→ H3, H7, H12).
 - **Errores esperables:** operar sin mirar el reflejo; leer el VEMP por la razón de asimetría de amplitud; redondear la ósea a 0.
-- **En LabSim:** la paciente se crea con oídos normales, solo para la entrevista y el rostro; el audiograma, el reflejo y el VEMP del caso no salen del simulador. El simulador todavía no escribe una ósea bajo 0 dB ni un reflejo presente con gap. <!-- docs/decisiones.md: "Reflejo presente con gap" y "Ósea supranormal". -->
+- **Para discutir:** El audiograma, el reflejo y el VEMP del caso son un esquema con las cifras de la literatura.
 :::
 
 {{caso cap26_otoesclerosis}}
@@ -214,7 +210,7 @@ Con un gap de 30 a 60 dB en un oído, ¿harías un VEMP aéreo? ¿Qué te diría
 
 :::figura cap26_otoesclerosis audiograma
 - @OD 250 | El OD tiene **60 dB** por vía aérea en 250 Hz...
-- @OD osea 250 | ...y **0 dB** por vía ósea: un gap de 60 dB, **sin ósea bajo cero**: en LabSim la ósea no baja de 0 dB.
+- @OD osea 250 | ...y **0 dB** por vía ósea: un gap de 60 dB, **sin ósea bajo cero**.
 - @OD osea 2000 | La ósea sube a **25 dB** en 2 kHz: es la **muesca de Carhart**, el artefacto mecánico del estribo fijo.
 - @OI 1000 | El OI es normal.
 :::
@@ -236,7 +232,6 @@ Con un gap de 30 a 60 dB en un oído, ¿harías un VEMP aéreo? ¿Qué te diría
 - **Hipótesis:** otoesclerosis, fijación del estribo por otra causa, tercera ventana (por el gap). Reflejo ausente y timpanograma As empujan a la primera.
 - **Qué pedir:** audiometría con vía ósea, impedanciometría con reflejos (→ H3, H7). El VEMP aéreo en este oído **no es informativo del vestíbulo** y, si se quiere saber algo de él, se usa la vía ósea (→ cap. 20).
 - **Errores esperables:** leer el VEMP caído como hipofunción del sáculo; decir "tercera ventana" porque hay gap; olvidar mirar el reflejo.
-- **En LabSim:** cuadro *otoesclerosis* solo en el OD.
 :::
 
 {{caso cap26_pendred}}
@@ -266,17 +261,15 @@ Un niño de 11 años con una pérdida bilateral que se nota más en la escuela. 
 :::
 :::figura cap26_pendred reflejos
 - @ipsi OD 1000 | **Reflejos presentes** de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.
-- @ipsi OI 500 | El único que falta es el de 500 Hz del OI, donde el gap ya es de 10 dB: es un límite de LabSim, que apaga el reflejo con ese gap.
 :::
 
-El simulador da en este cuadro una acumetría con Rinne positivo en 500 y 1.000 Hz: el diapasón no encuentra el gap, que está en 125 y 250 Hz. Por eso el diapasón no reemplaza a la audiometría con vía ósea.
+En este cuadro la acumetría da Rinne positivo en 500 y 1.000 Hz: el diapasón no encuentra el gap, que está en 125 y 250 Hz. Por eso el diapasón no reemplaza a la audiometría con vía ósea.
 
 :::docente Guía del caso
 - **Datos clave:** pérdida bilateral que se nota en la escuela, sin otitis ni otorrea, **tubos sin cambio**, sin mareos ni zumbido.
 - **Hipótesis:** efusión crónica (no: timpanograma A), pérdida sensorioneural genética (en parte), **tercera ventana por acueducto dilatado**.
 - **Qué pedir:** audiometría con vía ósea y mirar los graves (→ H3), impedanciometría con reflejos (→ H7), y derivar para imagen del oído interno y estudio genético (→ cap. 10). La tomografía o resonancia la decide el médico.
 - **Errores esperables:** repetir el procedimiento sobre el oído medio; informarlo como "mixta" a secas; olvidar que el gap está en 125 y 250 Hz y que el Rinne de 500 no lo ve.
-- **En LabSim:** cuadro *Pendred / acueducto vestibular dilatado*, grado moderado, en los dos oídos. **El VEMP de este cuadro no sale con umbral bajo**: sale en el rango de un oído normal. Por eso este caso no lo muestra; la literatura espera lo contrario (Zhou y Gopen, 2011). La ósea tampoco queda mejor que lo normal, porque el simulador no escribe valores bajo 0 dB.
 :::
 
 ## Resolución de los casos

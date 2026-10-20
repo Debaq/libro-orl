@@ -42,10 +42,6 @@ La mínima del protocolo, con agua a 2 °C, compara los dos oídos con una sola 
 
 El VEMP de este libro se hace con una sola frecuencia, la de 500 Hz (→ H12). En el Ménière, el sáculo afectado tiene además una **sintonía alterada**: los umbrales del VEMP suben en todas las frecuencias y se pierde la ventaja que el estímulo de 500 Hz tiene en el oído sano (Rauch y cols., 2004). Un VEMP de una sola frecuencia no puede ver ese cambio de sintonía; hace falta comparar frecuencias. <!-- Pasada de fundamentos 2026-10-18: decía "responde peor a 500 Hz y relativamente mejor a frecuencias más altas, con lo cual un VEMP de 500 Hz subestima el problema". Se corrigió a lo que dice el resumen: umbrales más altos en todas las frecuencias y menos sintonía en 500 Hz (Rauch y cols., 2004). -->
 
-## En LabSim
-
-LabSim da el lado auditivo de estos pacientes: audiograma, logoaudiometría, electrococleografía y VEMP. **No hace** examen vestibular. Lo que cada caso entrega de VNG, calórica y vHIT está **escrito** en la ficha de resultados del caso.
-
 ## Fisiología
 
 ### Por qué la calórica y el vHIT pueden discrepar
@@ -219,7 +215,7 @@ Tienes tres audiogramas de la historia. ¿Qué te falta para decidir si el vest�
 :::
 :::figura cap23_meniere_avanzado vemp
 - @OD P13 | El cVEMP del OD mide **294 µV** (5,80 corregida por el EMG).
-- @OI P13 | El del OI mide **511 µV** (10,20 corregida). La asimetría es de **28 %**, bajo el corte de 35 % de LabSim (→ H12): **el sáculo del OD responde**.
+- @OI P13 | El del OI mide **511 µV** (10,20 corregida). La asimetría es de **28 %**, bajo el corte de 35 % (→ H12): **el sáculo del OD responde**.
 :::
 
 :::ayuda-ancho Lo que entrega Ignacio del examen vestibular (→ H16, H17, H18)
@@ -237,7 +233,6 @@ Tienes tres audiogramas de la historia. ¿Qué te falta para decidir si el vest�
 - **Qué pedir:** audiometría con fecha y relación con la última crisis, logoaudiometría, cVEMP, calórica y vHIT. La ECochG sirve poco en este oído.
 - **Lo que enseña:** la calórica caída con el vHIT normal, en un oído con la audición ya fija; y que el cVEMP normal no cambia el diagnóstico.
 - **Errores esperables:** repetir "audición ascendente" cuando la curva hoy desciende; leer la ECochG de un oído sin respuesta; informar la asimetría de 28 % del cVEMP como alterada.
-- **En LabSim:** cuadro *Coclear plana* moderado en el OD (LabSim no modela el hidrops en esa etapa: la ECochG y el VEMP son los de un oído coclear sin patrón propio). La historia lleva las dos audiometrías anteriores.
 :::
 
 {{caso cap23_meniere_bilateral}}
@@ -288,7 +283,6 @@ Se plantea apagar el laberinto izquierdo. ¿Qué necesitas saber del derecho ant
 - **Qué pedir:** audiograma seriado de los dos oídos, ECochG, cVEMP, calórica y vHIT. Lo que importa es lo que el OD **todavía hace**.
 - **Lo que enseña:** una calórica con asimetría pequeña no es normal si los **dos** oídos responden poco; hay que mirar las velocidades. Y un cVEMP muy asimétrico puede estar en el oído que mejor oye.
 - **Errores esperables:** informar la calórica de 12 % como "normal"; asumir que el oído de peor audiograma tiene el peor sáculo; opinar sobre el tratamiento: el informe describe el estado del otro laberinto, la decisión es médica.
-- **En LabSim:** cuadro *Ménière* leve en el OD y *Coclear plana* moderado en el OI.
 :::
 
 {{caso cap23_migrana_vestibular}}
@@ -335,7 +329,6 @@ No hay síntomas del oído. ¿Para qué sirve el audiograma, entonces? ¿Qué es
 - **Qué pedir:** audiometría y emisiones para documentar el oído sano, VEMP y calórica entre crisis. Todo normal es **lo esperable**; el diagnóstico es clínico.
 - **Lo que enseña:** un estudio normal no cierra el caso ni lo niega; y una asimetría pequeña del VEMP no hace un diagnóstico.
 - **Errores esperables:** repetir antivertiginosos; interpretar la asimetría de 29 % del cVEMP; informar "estudio normal, sin patología vestibular" sin decir que el diagnóstico es clínico.
-- **En LabSim:** audición normal en los dos oídos (LabSim no tiene un cuadro de migraña vestibular). El nombre de la paciente lo sortea el editor de casos.
 :::
 
 {{caso cap23_meniere_migrana}}
@@ -385,7 +378,6 @@ Tiene un oído sano para comparar. ¿Qué te aporta eso para el criterio audiom�
 - **Qué pedir:** audiometría con fecha de la última crisis, ECochG, cVEMP, calórica y vHIT.
 - **Lo que enseña:** cada crisis se clasifica por lo que trae; los hallazgos del oído (curva ascendente, ECochG, cVEMP, calórica con vHIT normal) apoyan el Ménière, y no dicen nada sobre las crisis largas.
 - **Errores esperables:** quedarse con un solo diagnóstico; atribuir todas las crisis al oído porque el estudio del oído salió alterado.
-- **En LabSim:** cuadro *Ménière* leve en el OI y audición normal en el OD; el OI sale con el aspecto del Ménière típico de las primeras etapas.
 :::
 
 ## Resolución de los casos

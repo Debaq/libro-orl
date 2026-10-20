@@ -159,10 +159,6 @@ Un paciente tiene vértigo agudo, un nistagmo que bate a la izquierda sin cambia
 
 ## Casos
 
-:::comentario Lo vestibular de los casos
-LabSim no tiene vértigo, nistagmo ni vHIT: la ficha, la anamnesis, el audiograma y el VEMP de cada paciente son los del simulador, y **la hoja de cabecera** (nistagmo, impulso cefálico y oclusión alternada) va con las cifras del paciente.
-:::
-
 {{caso cap21_neuritis}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
@@ -242,7 +238,6 @@ Además del examen del reflejo y del nistagmo, ¿qué agregarías para saber si 
 - **Qué pedir:** audiometría, impedanciometría (curva A, sin otitis), HINTS, VEMP de los dos tipos, vHIT (→ H3, H5, H12, H18).
 - **La trampa:** el audiograma de este paciente sería idéntico en una AICA. Se descarta con el examen del tronco, el contexto y la imagen del médico, **no** con la audiometría.
 - **Errores esperables:** llamarlo "neuritis" sin explicar la hipoacusia; leer un VEMP caído como lesión del tronco (es del laberinto).
-- **En LabSim:** cuadro *laberintitis* en el OD, grado severo.
 :::
 
 {{caso cap21_pseudoneuritis}}

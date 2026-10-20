@@ -176,6 +176,5 @@ class Capitulo:
                 print('Figuras:', ', '.join(nombres))
                 subprocess.run([*python_figuras(), str(LIBRO / 'figuras' / 'hacer_figuras.py'),
                                 *nombres], check=True, cwd=RAIZ, env=dict(os.environ, QT_QPA_PLATFORM='offscreen'))
-        # --sin-completo (o LIBRO_SIN_COMPLETO=1, para agentes en paralelo): solo el capítulo
-        completo = [] if '--sin-completo' not in argv and not os.environ.get('LIBRO_SIN_COMPLETO') else ['--sin-completo']
-        subprocess.run([sys.executable, str(AQUI / 'hacer_libro.py'), str(self.numero), *completo], check=True, cwd=RAIZ)
+        # solo el capítulo: el libro entero se arma aparte (hacer_libro.py --completo)
+        subprocess.run([sys.executable, str(AQUI / 'hacer_libro.py'), str(self.numero)], check=True, cwd=RAIZ)

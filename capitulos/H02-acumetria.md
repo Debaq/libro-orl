@@ -185,13 +185,7 @@ En 17 estudios con 3.158 participantes, la sensibilidad del Rinne de 512 Hz para
 **Weber al oído que oye peor** es conductiva hasta que se demuestre lo contrario. **Weber al oído bueno con Rinne negativo en el malo** no es conductiva: es el falso negativo de una sensorioneural severa, y ese oído no tiene nada que operar.
 :::
 
-## En LabSim
-
-El botón **AC** del Box Audiología abre la acumetría, con diapasones de **500 y 1.000 Hz**. En **Rinne** eliges diapasón y oído, pruebas **mastoides** y **pabellón** y recién entonces puedes **preguntar dónde lo escucha más fuerte**. En **Weber** apoyas el diapasón en la frente y el paciente dice dónde lo escucha.
-
-LabSim no te dice "positivo" ni "negativo": la conclusión es tuya. Escucha lo que dice el paciente en cada posición: con un falso negativo contesta "en la mastoides", igual que una conductiva, pero frente al pabellón **no oye nada**.
-
-Las respuestas salen del audiograma del caso, con umbrales que tu docente puede ajustar. De fábrica, el Rinne es negativo con un gap de **15 dB**; es falso negativo cuando la aérea llega a **70 dB** y la ósea del otro oído es mejor; y el Weber lateraliza con **10 dB** de asimetría, sumando la diferencia de gap (empuja al oído con más gap) y la de vía ósea (empuja al de mejor cóclea). Son reglas de libro: en la clínica las respuestas son menos limpias (Stankiewicz y Mowry, 1979).
+## Casos
 
 {{caso h2_p34}}
 
@@ -245,6 +239,8 @@ El Rinne del OD sale negativo. Si te quedaras solo con eso, ¿qué pérdida info
 :::
 
 Es una cófosis del OD, sin componente conductivo. Con el Rinne solo, se habría informado una conductiva.
+
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Weber al OI y Rinne positivo en los dos oídos. Nombra dos tipos de pérdida compatibles.

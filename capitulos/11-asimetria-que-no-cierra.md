@@ -291,7 +291,7 @@ Al nivel del STAT a su OD le sobran 70 a 85 dB sobre el umbral, y aun así no so
 - **Hipótesis esperables:** coclear unilateral (ruido, súbita antigua), hidrops, **retrococlear**. Sin exposición a ruido ni crisis de vértigo, la asimetría + acúfeno + mala discriminación deben hacer pensar en el VIII par.
 - **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, supraliminares (deterioro tonal, STAT, SISI), impedanciometría con reflejos y su deterioro, emisiones y PEAT (→ H3, H5, H6, H7, H9, H10).
 - **Errores esperables:** atribuirlo a la edad; no enmascarar el OD; leer la latencia de V sin el audiograma.
-- **En LabSim:** es el paciente de práctica 39; se atiende desde "Práctica libre". Unos 45 minutos con toda la batería.
+- **Para discutir:** Unos 45 minutos con toda la batería.
 :::
 
 {{caso cap11_schwannoma}}
@@ -338,7 +338,6 @@ La pérdida del OD es mayor que en el caso anterior y no hay acúfeno. ¿Cambia 
 - **Hipótesis:** coclear unilateral contra **retrococlear**. El mareo posicional breve puede ser un VPPB que coexiste, no tiene por qué ser el tumor; que no haya acúfeno no descarta nada.
 - **Qué pedir:** lo mismo que en el caso anterior, más **VEMP**: con una pérdida severa en agudos el PEAT pierde poder y el VEMP no depende de la audición (→ H12).
 - **Errores esperables:** concluir "coclear" porque el PEAT no muestra I ni III, cuando la causa es la pérdida.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *schwannoma* moderado en el OD.
 :::
 
 {{caso cap11_nf2}}

@@ -15,7 +15,7 @@ La técnica completa, paso a paso, está en la herramienta H19; aquí solo se re
 
 - **Dix-Hallpike hacia cada lado** (→ H19): examina los canales verticales. Aquí importa lo que sale en el primer segundo y en el último: cuánto tarda en empezar, hacia dónde bate, cuánto dura y qué pasa al sentarse.
 - **Giro supino** (→ H19): se hace cuando el Dix-Hallpike dio un nistagmo horizontal o ninguno. Examina el canal lateral: la dirección (hacia el suelo o hacia el techo) dice el tipo, y **cuál de los dos lados da más nistagmo** dice el lado afectado.
-- **Maniobras**: una por hallazgo, cada una un protocolo cerrado (Epley, 1992; Semont y cols., 1988; Lempert y Tiel-Wilck, 1996; Gufoni y cols., 1998; → H19). Se enseñan en H19. LabSim no hace pruebas vestibulares.
+- **Maniobras**: una por hallazgo, cada una un protocolo cerrado (Epley, 1992; Semont y cols., 1988; Lempert y Tiel-Wilck, 1996; Gufoni y cols., 1998; → H19). Se enseñan en H19.
 
 :::ayuda Ayuda memoria
 **Se lee siempre en el mismo orden**: ¿hay nistagmo? → ¿en qué postura salió? → ¿hacia dónde bate? → ¿cómo se comporta en el tiempo (latencia, duración, fatiga, inversión)?
@@ -132,7 +132,6 @@ Plantea al menos tres causas posibles de un vértigo que aparece al girar en la 
 - **Hipótesis esperables:** VPPB del canal posterior (la más probable); vértigo central (se descarta con la entrevista y los ojos); hipotensión ortostática (da mareo al pararse, no al acostarse); neuritis vestibular y enfermedad de Ménière (crisis más largas, no posicionales).
 - **Qué pedir:** Dix-Hallpike a los dos lados, y giro supino si el primero da horizontal o nada (→ H19). **No** audiometría, imágenes ni VNG para el vértigo (Bhattacharyya y cols., 2017).
 - **Errores esperables:** pedir audiometría "porque es vértigo"; leer la torsión al revés; no examinar el otro lado; atribuir el acúfeno al vértigo.
-- **En LabSim:** cuadro de audición *presbiacusia*; el examen posicional no se hace en LabSim (→ H19).
 :::
 
 {{caso cap22_geotropico}}
@@ -174,7 +173,6 @@ Si el Dix-Hallpike del lado ya tratado ya no da el nistagmo de antes, ¿qué pru
 - **Hipótesis:** VPPB del canal lateral (geotrópico) del mismo oído tratado; recaída del posterior; VPPB del otro oído.
 - **Qué pedir:** giro supino a los dos lados (→ H19). Con nistagmo horizontal en el Dix-Hallpike, la guía recomienda el giro supino.
 - **Errores esperables:** llamarlo "bilateral" por el nistagmo hacia los dos lados; tratar el lado de menor nistagmo; repetir el Epley.
-- **En LabSim:** el cuadro de audición es normal; el giro supino y el Gufoni no se hacen en LabSim (→ H19).
 :::
 
 {{caso cap22_apogeotropico}}
@@ -221,7 +219,6 @@ Con estos antecedentes, ¿qué prueba harías? ¿Y qué verías si las partícul
 - **Hipótesis:** VPPB lateral apogeotrópico (cupulolitiasis o partículas cerca de la ampolla); VPPB geotrópico (se descarta por la dirección); causa central si el nistagmo no calza o no responde.
 - **Qué pedir:** giro supino a los dos lados, y comparar intensidades (→ H19).
 - **Errores esperables:** aplicar la regla del geotrópico y tratar el lado equivocado; tomar el lado donde la paciente se siente peor como el afectado; hacer un Epley.
-- **En LabSim:** cuadro de audición *presbiacusia*; el giro supino no se hace en LabSim (→ H19).
 :::
 
 {{caso cap22_central}}
@@ -264,7 +261,6 @@ Hay tres datos en su relato que **no** son de un VPPB. ¿Cuáles son? ¿Qué sig
 - **Hipótesis:** nistagmo posicional central (cerebelo, tronco o IV ventrículo) hasta que se pruebe lo contrario; VPPB del canal anterior (no explica la marcha ni la cefalea).
 - **Qué pedir:** Dix-Hallpike y examen neurológico mínimo; derivar. **No** se hace una maniobra de reposición (Büttner y cols., 1999; Macdonald y cols., 2017).
 - **Errores esperables:** hacer un Yacovino "porque es el anterior"; explicar la marcha por la diabetes; pedir audiometría.
-- **En LabSim:** el cuadro de audición es normal; el examen posicional no se hace en LabSim.
 :::
 
 ## Resolución de los casos

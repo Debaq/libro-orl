@@ -183,7 +183,7 @@ Tabla: Las referencias de los decibeles
 
 | Escala | El cero es | Quién la "mide" | Se usa en |
 |---|---|---|---|
-| dB SPL | 20 µPa | un micrófono | calibración, ruido, audífonos, reflejos en LabSim |
+| dB SPL | 20 µPa | un micrófono | calibración, ruido, audífonos, reflejos en este libro |
 | dB HL | umbral normal de ese transductor | el audiómetro, por calibración | audiometría tonal y logoaudiometría |
 | dB SL | umbral del paciente | el audiómetro, con el umbral anotado | logoaudiometría, supraliminares |
 | dB nHL | umbral normal de ese estímulo breve | el equipo de potenciales | PEAT, ECochG, ASSR |
@@ -353,7 +353,7 @@ El numerador incluye la señal y el ruido. El denominador se estima **en un solo
 Con 5 µV de ruido por barrido y 2.000 barridos, la varianza del ruido en el promedio es 5² / 2.000 = **0,0125 µV²** (0,11 µV RMS). Supón una respuesta cuya potencia en la ventana equivale a 0,2 µV RMS (0,04 µV²). El FSP es (0,04 + 0,0125) / 0,0125 = **4,2**: sobre el criterio de 3,1, hay respuesta. Con una respuesta de 0,1 µV RMS (0,01 µV²) el FSP baja a (0,01 + 0,0125) / 0,0125 = **1,8**: no alcanza, y la salida correcta es seguir promediando. Con 8.000 barridos el denominador baja a 0,0031 µV², y el mismo 0,01 µV² da (0,01 + 0,0031) / 0,0031 = 4,2: ahora sí se detecta.
 :::
 
-**Partir los barridos a la mitad.** Con la mitad de los barridos el ruido sube √2, o sea 3 dB. Para mantener la misma SNR hace falta una respuesta 3 dB más grande. Cuántos dB de intensidad del estímulo hay que subir para ganar esos 3 dB de amplitud depende de la pendiente con que crece la onda V con el nivel; en LabSim el efecto es de unos 6 dB de umbral por cada mitad de barridos (→ H10).
+**Partir los barridos a la mitad.** Con la mitad de los barridos el ruido sube √2, o sea 3 dB. Para mantener la misma SNR hace falta una respuesta 3 dB más grande. Cuántos dB de intensidad del estímulo hay que subir para ganar esos 3 dB de amplitud depende de la pendiente con que crece la onda V con el nivel (→ H10).
 
 ## Acústica de sala
 

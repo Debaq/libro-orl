@@ -164,19 +164,6 @@ En este libro la batería sigue un orden fijo: vía aérea, logoaudiometría, ac
 
 Las supraliminares no necesitan un equipo especial: usan los controles del audiómetro (→ H3) de otra manera. El **paso de 1 dB** es para el SISI y para igualar el acúfeno; el de 5 dB, para todo lo demás. Para el deterioro tonal, el canal en *Continuo* (Pulsado apagado) y el tono encendido con **Invertir**, sin sostener el botón un minuto; el **cronómetro** (Iniciar, Detener, Borrar) mide ese minuto, y el **indicador de respuesta** queda lila mientras el paciente sostiene la mano. El Fowler usa **Alternado**, con un canal en cada oído, y el STAT, **ruido blanco (WN)** en el canal 2. La acufenometría usa el tipo de estímulo (tono, banda estrecha o ruido blanco) y la frecuencia.
 
-En LabSim el paciente responde según la **última instrucción** que le diste. Cada prueba tiene la suya en la ventana *Comandos de voz*.
-
-:::imagen /docs/manual/img/estudiante/comandos-de-voz.png Las instrucciones de las pruebas supraliminares en LabSim
-- @-3,15 | **Colocar fonos.** La de los umbrales, y también la del Stenger: al paciente no se le anuncia otra prueba.
-- @-3,70 | **Pitos fuertes.** El umbral de molestia (LDL), antes de cualquier supraliminar (→ H5).
-- @32.8,48 | **Dos pitos.** El Fowler. Después, *¿Sonidos iguales?* o *¿En qué oído?* para preguntar en cada comparación.
-- @32.8,81 | **Cambie de volumen.** El SISI: el paciente dice "sí" cada vez que nota la subida.
-- @103,15 | **Mano levantada.** El Carhart.
-- @103,81 | **Rosemberg bilateral.** El Rosenberg (así se escribe en el botón).
-- @103,70 | **Ruido blanco contralateral.** El STAT: tono fuerte en un oído y ruido en el otro.
-- @103,26 | **Mano levantada en ruido.** El Carhart avisando el ruido en el otro oído.
-:::
-
 ## Paso a paso
 
 ### Acufenometría
@@ -475,23 +462,7 @@ Lo de Patricia y Raúl se resume así, junto con lo que agrega el reflejo:
 Las supraliminares ubican la lesión **en el oído que estás estudiando**, pero no la explican. Un oído coclear puede tener además un tumor, y un tumor que daña la irrigación de la cóclea puede dar algo de reclutamiento. Cuando los hallazgos se contradicen, la respuesta no la da otra prueba supraliminar: la dan el PEAT y la imagen (→ H10, cap. 11).
 :::
 
-## En LabSim
-
-Cada prueba se hace con su instrucción de la figura H6.3, dada con *Talkback*, y el paciente responde como uno real:
-
-- **SISI**: con el tono sonando, sube un clic de 1 dB y vuelve a bajarlo. Las subidas de 5 dB las nota siempre; con el portador bajo el umbral no nota ninguna.
-- **Fowler**: en una frecuencia que no cumple los requisitos, el paciente contesta como un oído sin reclutamiento.
-- **Deterioro tonal**: en el Carhart cada subida reinicia el minuto; en el Rosenberg el minuto es uno solo. El minuto es real: cronométralo. El Carhart se instruye con *Mano levantada* o, si quieres avisarle del ruido en el otro oído, con *Mano levantada en ruido*: es la misma prueba.
-- **STAT**: el tono va a 100 dB HL en 500 y 2.000 Hz y a 105 dB HL en 1.000 Hz, con ruido blanco a 90 dB en el otro oído. A otro nivel, o sin el ruido, no hay resultado. Si el nivel llega a su LDL, el paciente dice "molesta" y en esa frecuencia tampoco. Un oído retrococlear baja la mano antes del minuto aunque le sobre margen sobre su umbral; uno coclear lo sostiene.
-- **Stenger**: se instruye con *Colocar fonos*, como los umbrales. El paciente lo reconoce por el estímulo: el mismo tono, por vía aérea, en los dos oídos a la vez. Percibe el tono con más nivel de sensación sobre sus umbrales **verdaderos**, no sobre los que te dio.
-- **Acufenometría**: todavía no está. El caso trae el acúfeno en su ficha (lado, tipo de sonido, si es permanente o pulsátil y una frecuencia aproximada) y el paciente lo cuenta en la anamnesis, pero no hay un acúfeno simulado que igualar con el audiómetro.
-- **Orden**: el indicador de técnica espera las supraliminares entre la logoaudiometría y la vía ósea. Como la acufenometría no existe, revisa el orden sin ella.
-
-:::comentario Lo que el simulador todavía no tiene
-La IWA y la acufenometría no se practican en LabSim, y entre los pacientes de práctica no hay ninguno con pérdida no orgánica. El docente puede crear uno marcando el oído fingido (casilla Stenger del caso): sus umbrales son los que el paciente entrega, y el verdadero se supone igual al del otro oído, como en alguien que oye parejo y finge una pérdida de un lado. Lo que todavía no se puede es cargar el umbral verdadero del oído fingido, así que una pérdida real que el paciente exagera no se puede armar. El paciente simulado tampoco se cansa ni se confunde; uno real sí.
-:::
-
-Para practicar, Patricia y Raúl están entre los pacientes de práctica (★).
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. En Patricia, ¿por qué no puedes hacer el Fowler en 500 Hz? ¿En qué frecuencias sí, y cuál elegirías primero?

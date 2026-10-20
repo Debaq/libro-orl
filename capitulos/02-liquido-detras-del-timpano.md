@@ -16,7 +16,7 @@ Las dos herramientas de este capítulo son la **impedanciometría** (→ H7) y l
 
 ### El timpanograma, número por número
 
-El timpanograma muestra cuánto se deja mover el sistema tímpano-cadena (la **compliancia**, en mL) mientras el equipo cambia la presión del conducto de +200 a −400 daPa. El sistema se mueve más cuando la presión del conducto es igual a la de la caja: por eso el pico de la curva marca la **presión del oído medio**. En LabSim, como en el equipo, debajo de la curva quedan cuatro números:
+El timpanograma muestra cuánto se deja mover el sistema tímpano-cadena (la **compliancia**, en mL) mientras el equipo cambia la presión del conducto de +200 a −400 daPa. El sistema se mueve más cuando la presión del conducto es igual a la de la caja: por eso el pico de la curva marca la **presión del oído medio**. Debajo de la curva el equipo deja cuatro números:
 
 - **Vol.**: el volumen del conducto entre la sonda y el tímpano. Es lo primero que se mira, porque dice dónde está midiendo la sonda.
 - **Compl.**: la altura del pico. Dice cuánto se mueve el sistema.
@@ -36,7 +36,7 @@ El timpanograma muestra cuánto se deja mover el sistema tímpano-cadena (la **c
 | **B** | sin pico | plana | caja ocupada, perforación o sonda tapada: **lo decide el volumen** |
 :::
 
-La clasificación es la de Jerger (1970). El tipo **Cs** no es de Jerger: es la curva C de baja compliancia que usan este libro y LabSim. Los rangos de compliancia del A son los del adulto; en un niño de 5 a 7 años el rango normal es más bajo, de 0,2 a 1,0 mL (BSA, 2024). El corte de presión del tipo C también varía entre autores (−100 a −150 daPa), y los equipos y las poblaciones dan normas distintas (Shahnaz y Davies, 2006).
+La clasificación es la de Jerger (1970). El tipo **Cs** no es de Jerger: es la curva C de baja compliancia que usa este libro. Los rangos de compliancia del A son los del adulto; en un niño de 5 a 7 años el rango normal es más bajo, de 0,2 a 1,0 mL (BSA, 2024). El corte de presión del tipo C también varía entre autores (−100 a −150 daPa), y los equipos y las poblaciones dan normas distintas (Shahnaz y Davies, 2006).
 
 ### Tres tipos B que no son lo mismo
 
@@ -56,7 +56,7 @@ Un B con volumen normal y otro con volumen alto se dibujan igual. Si informas "c
 
 ### La gradiente
 
-La gradiente describe qué tan en punta es el pico. Se unen con una recta los puntos de la curva que están a 50 daPa de cada lado del pico y se mide cuánto **sobresale el pico** por encima de esa recta, como fracción de su altura (Brooks, 1968). **Cerca de 1, la curva es angosta y en punta; cerca de 0, ancha y redondeada**, y una curva plana da 0. En LabSim, un A da 0,58, un C 0,50 y un Cs 0,35 (caso 2.3): una gradiente que baja es la de una curva que se redondea y se ensancha, como la de un oído medio que empieza a ocuparse.
+La gradiente describe qué tan en punta es el pico. Se unen con una recta los puntos de la curva que están a 50 daPa de cada lado del pico y se mide cuánto **sobresale el pico** por encima de esa recta, como fracción de su altura (Brooks, 1968). **Cerca de 1, la curva es angosta y en punta; cerca de 0, ancha y redondeada**, y una curva plana da 0. Una gradiente que baja es la de una curva que se redondea y se ensancha, como la de un oído medio que empieza a ocuparse (caso 2.3).
 
 :::comentario Lo que dicen las normas
 No todos los equipos calculan la gradiente igual, así que antes de comparar con una tabla hay que saber cómo la calcula el tuyo. Las guías actuales prefieren el **ancho timpanométrico**: el ancho de la curva, en daPa, a la mitad de su altura. Es el mejor indicador timpanométrico de efusión en niños (Nozza y cols., 1994), y un ancho sobre unos 200 a 235 daPa es criterio de derivación (ASHA, 1997).
@@ -79,25 +79,21 @@ En una otitis unilateral eso deja un patrón característico: faltan todos los r
 
 Se mide **solo cuando sirve**: con un tímpano entero que tiene pico (A o C), o con una perforación o un tubo. Con un B de volumen normal no hay pico que mover ni aire que dejar salir: la prueba no informa nada.
 
-**Membrana íntegra.** LabSim usa la prueba de presión-deglución de Williams (1975), la del módulo de función tubaria de los equipos. Se registra un timpanograma de reposo; después el equipo lleva el conducto a +400 daPa, el paciente traga y se registra otro; lo mismo con −400 daPa. Si la trompa se abrió al tragar, la caja quedó a otra presión y **el pico se corre al lado contrario** de la presión aplicada. En oídos sanos la diferencia entre los dos picos fue de 11 daPa (mediana), y la mitad de ellos quedó entre 6 y 17 daPa (Lu y Wang, 2026). Con disfunción, los picos casi no se mueven (figura 2.1).
+**Membrana íntegra.** Se usa la prueba de presión-deglución de Williams (1975), la del módulo de función tubaria de los equipos. Se registra un timpanograma de reposo; después el equipo lleva el conducto a +400 daPa, el paciente traga y se registra otro; lo mismo con −400 daPa. Si la trompa se abrió al tragar, la caja quedó a otra presión y **el pico se corre al lado contrario** de la presión aplicada. En oídos sanos la diferencia entre los dos picos fue de 11 daPa (mediana), y la mitad de ellos quedó entre 6 y 17 daPa (Lu y Wang, 2026). Con disfunción, los picos casi no se mueven (figura 2.1).
 
 **Membrana perforada o con tubo.** Aquí no hay timpanograma: el conducto y la caja forman una sola cavidad. Se lleva esa cavidad a una presión (por ejemplo, −200 daPa) y se le pide al paciente que trague tres veces. Si la trompa abre, cada deglución deja escapar parte de la presión y el trazo sube por escalones hacia 0. Si no abre, la presión se mantiene plana. Es la prueba de inflación-deflación (Smith y Tysome, 2015).
 
 <!-- Protocolo ORL 2019: la llamaba "Test de Bortnick". No se encontró fuente con ese nombre; el procedimiento descrito (presurizar a -200 y +200 daPa, tragar, Valsalva o Toynbee si no compensa) es la prueba de inflación-deflación (Smith y Tysome 2015; Lee y cols. 2026). -->
 
-
 :::comentario Toynbee y Valsalva
-Existen también las maniobras clásicas: **Toynbee** (tragar con la nariz tapada, que corre el pico a presión negativa) y **Valsalva** (soplar con la nariz y la boca cerradas, que lo corre a positiva). Se repite el timpanograma después de cada una: si vuelve solo al de reposo, la función es buena; si vuelve tras tragar varias veces, regular; si no vuelve, mala. Como dependen de que el paciente sepa hacer la maniobra, LabSim usa la de presión-deglución, que hace el equipo y tiene valores de referencia.
+Existen también las maniobras clásicas: **Toynbee** (tragar con la nariz tapada, que corre el pico a presión negativa) y **Valsalva** (soplar con la nariz y la boca cerradas, que lo corre a positiva). Se repite el timpanograma después de cada una: si vuelve solo al de reposo, la función es buena; si vuelve tras tragar varias veces, regular; si no vuelve, mala. Dependen de que el paciente sepa hacer la maniobra; la de presión-deglución la hace el equipo y tiene valores de referencia.
 :::
 
 :::comentario Lo que dice la literatura
 Ninguna prueba de función tubaria tiene un patrón de oro con qué compararse, y todas fallan en un porcentaje de oídos sanos (Smith y Tysome, 2015). El diagnóstico de disfunción tubaria es **clínico**: síntomas de oído tapado más signos de presión negativa, como un tímpano retraído o una curva C (Schilder y cols., 2015). La prueba de función tubaria suma información, pero no diagnostica sola.
 :::
 
-:::imagen /docs/manual/img/estudiante/impedanciometro-etf.png La función tubaria con membrana íntegra en LabSim
-- @50,30 | **Tres timpanogramas superpuestos**: reposo (blanco), después de tragar con +400 daPa (amarillo) y después de tragar con −400 daPa (verde).
-- @80,24 | **La presión de cada pico.** De −18 en reposo pasa a −23 después de +400 y a −11 después de −400: el pico se corrió al lado contrario y la diferencia es de 12 daPa. La trompa se abrió.
-- @20,62 | **Prueba** cambia entre membrana íntegra y perforada; **Reposo**, **+400 trag** y **−400 trag** lanzan cada timpanograma.
+:::imagen ilustraciones/h7-etf-integra.svg ancho=92% Función tubaria con membrana íntegra: tres timpanogramas, en reposo y después de tragar con +400 y con −400 daPa en el conducto. A: la trompa abre y el pico se corre al lado contrario de la presión aplicada (de −18 a −23 y a −11 daPa). B: la trompa no abre y los tres picos quedan en el mismo lugar.
 :::
 
 ### El gap y la acumetría
@@ -252,7 +248,7 @@ La mamá teme que "se esté quedando sordo" porque un primo usa audífono. ¿Qu�
 - **Hipótesis esperables:** otitis media con efusión bilateral; hipoacusia sensorioneural de aparición tardía (el miedo de la mamá); problema de atención. El tamizaje normal y la otoscopía inclinan con fuerza a lo primero.
 - **Qué pedir:** audiometría con vía ósea enmascarada, impedanciometría con reflejos (→ H3, H4, H7). La función tubaria no aporta con un B.
 - **Errores esperables:** no enmascarar la ósea en una conductiva bilateral; leer la muesca de 2 kHz como sensorioneural; informar "B" sin el volumen; calmar a la mamá con un "es solo líquido" sin decirle que la duración importa.
-- **En LabSim:** es el paciente de práctica 35; se atiende desde "Práctica libre". La mamá (Daniela) trae las fechas anotadas: vale la pena que el estudiante le pregunte desde cuándo.
+- **Para discutir:** La mamá (Daniela) trae las fechas anotadas: vale la pena que el estudiante le pregunte desde cuándo.
 :::
 
 {{caso cap02_otitis_media_aguda}}
@@ -298,7 +294,7 @@ El dolor ya pasó. ¿Qué esperas de la vía ósea del OD en esta fase? Si sale 
 - **Hipótesis esperables:** otitis media aguda derecha en resolución (con el líquido todavía en la caja); efusión residual. Lo agudo de la historia y el abombamiento hablan de la aguda.
 - **Qué pedir:** audiometría con vía ósea y impedanciometría (→ H3, H7). Si el oído todavía doliera, la impedanciometría se pospone.
 - **Errores esperables:** pasar por alto la diferencia de ósea entre los dos oídos (está en rango normal) o, al revés, informarla como una hipoacusia sensorioneural; dar el alta sin control; hacer la función tubaria con un B.
-- **En LabSim:** cuadro *otitis media aguda* en el OD. La mamá pregunta por la prueba del lunes: es buena ocasión para practicar qué se le dice a un acompañante sin dar un diagnóstico médico.
+- **Para discutir:** La mamá pregunta por la prueba del lunes: es buena ocasión para practicar qué se le dice a un acompañante sin dar un diagnóstico médico.
 :::
 
 {{caso cap02_disfuncion_tubaria}}
@@ -332,14 +328,13 @@ El otorrino pidió función tubaria. ¿Qué prueba de función tubaria correspon
 - Un C sin reflejos hace sospechar que ya hay algo de líquido.
 :::
 
-En LabSim, la **función tubaria de membrana íntegra** de Irene muestra los tres picos casi en el mismo lugar en los dos oídos: tragar con el conducto presurizado no cambia la presión de la caja.
+La **función tubaria de membrana íntegra** de Irene muestra los tres picos casi en el mismo lugar en los dos oídos: tragar con el conducto presurizado no cambia la presión de la caja.
 
 :::docente Guía del caso
 - **Datos clave:** rinitis alérgica, oídos tapados de cuatro meses tras un resfrío, crujidos al tragar, alivio breve con Valsalva, **sin autofonía**; tímpanos retraídos sin líquido visible.
 - **Hipótesis esperables:** disfunción tubaria dilatadora bilateral; trompa patulosa (se descarta por la falta de autofonía y porque el tímpano está retraído, no móvil con la respiración); efusión incipiente.
 - **Qué pedir:** audiometría, impedanciometría con reflejos y **función tubaria de membrana íntegra** (presión-deglución): los tímpanos están enteros y tienen pico.
 - **Errores esperables:** elegir la prueba de membrana perforada; leer la ósea de 10 dB en graves como sensorioneural; no ver que el OD (Cs) está más cerca de la efusión que el OI.
-- **En LabSim:** cuadro *disfunción tubaria* en los dos oídos. Es el caso para practicar la pantalla ETF.
 :::
 
 {{caso cap02_barotrauma}}
@@ -378,7 +373,7 @@ El tímpano izquierdo está violáceo, con sangre detrás. ¿Qué curva esperas?
 - **Hipótesis esperables:** barotrauma de oído medio izquierdo con hemotímpano; barotrauma de oído interno (se descarta con la ósea normal y la falta de vértigo).
 - **Qué pedir:** audiometría con vía ósea (lo más urgente: descartar el componente sensorioneural) e impedanciometría sin función tubaria (→ H3, H7).
 - **Errores esperables:** presurizar el oído para probar la trompa; no preguntar por vértigo; leer el B como si fuera una efusión de meses.
-- **En LabSim:** cuadro *barotrauma* en el OI. Para discutir: qué se le aconseja antes del próximo vuelo de su turno (lo decide el médico).
+- **Para discutir:** Qué se le aconseja antes del próximo vuelo de su turno (lo decide el médico).
 :::
 
 ## Resolución de los casos

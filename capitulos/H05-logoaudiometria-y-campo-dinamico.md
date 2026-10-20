@@ -86,9 +86,9 @@ Cuando la cóclea pierde sus células ciliadas externas, el umbral sube y el LDL
 
 ### Conoce tu equipo: el audiómetro en logoaudiometría
 
-Es el mismo audiómetro de la audiometría tonal (→ H3). Cambian el estímulo del canal 1, que pasa a ser la voz, y el ruido del canal 2, que pasa a ser ruido de habla. En LabSim las palabras se eligen en una ventana aparte.
+Es el mismo audiómetro de la audiometría tonal (→ H3). Cambian el estímulo del canal 1, que pasa a ser la voz, y el ruido del canal 2, que pasa a ser ruido de habla.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro de LabSim: lo que se usa en la logoaudiometría
+:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro: lo que se usa en la logoaudiometría
 - @4,13 | **Pantalla del canal 1.** Con *Habla*, el nivel de la voz en dB HL y el oído al que va.
 - @36,17 | **Prueba.** Al elegir *Habla* cambia de *Umbrales* a *Logoaudiometría* y muestra los aciertos, por ejemplo *0/25 : 0%*.
 - @10,30 | **Salida.** La voz va al oído evaluado; el ruido, al otro.
@@ -96,12 +96,6 @@ Es el mismo audiómetro de la audiometría tonal (→ H3). Cambian el estímulo 
 - @74,59 | **SN, ruido de habla.** En el canal 2, al oído contrario y con *Invertir* para que quede sonando: el enmascarante de la logoaudiometría (→ H4).
 - @32.3,75 | **+1 · Limpiar · -1.** Cuentan los aciertos: un +1 por palabra bien repetida; *Limpiar* antes de cada lista.
 - @32.5,82 | **Talkback.** La instrucción: *Escuche mi voz* para el SDT, *Pitos fuertes* para el LDL.
-:::
-
-:::imagen /docs/manual/img/estudiante/listas-de-palabras.png Las listas de palabras de LabSim
-- @72,12 | **Lista abierta.** Arriba, las pestañas: *Disilabos (Palacios)* y, con las flechas, *Terminos Conocidos*.
-- @68,20.4 | **Cada botón es una palabra.** Suena por el canal de habla y el paciente la repite, o dice otra cosa si no la entendió.
-- @72,87.2 | **Lista 2 y Lista 3.** Una lista nueva en cada nivel: con la misma, el paciente acierta por memoria.
 :::
 
 ## Paso a paso
@@ -158,7 +152,7 @@ La voz cruza el cráneo igual que un tono, y la discriminación se mide 20 a 40 
 Cada nivel de la curva tiene su cálculo, porque el mínimo sube con la voz. El SDT y el SRT se enmascaran si cumplen la regla. El efecto de no hacerlo está en el caso de Luis, más adelante.
 
 :::comentario Lo que dicen las normas
-Este libro y LabSim usan **45 dB** de atenuación interaural para la voz con fono supraaural. ASHA (1988) pide enmascarar cuando el SRT de un oído supera en **40 dB** o más al SRT del otro o a cualquiera de sus umbrales óseos de 500 a 4.000 Hz. El laboratorio usa 45 dB porque la voz, que reparte su energía en un rango ancho de frecuencias, cruza el cráneo con más pérdida que un tono aislado con el mismo fono, y comparar contra el promedio del oído no evaluado sigue la misma lógica con que se lee el SRT. <!-- verificar: cifra de atenuación interaural del habla con fono supraaural (rango publicado ~45-55 dB) con fuente primaria. Búsqueda 2026-10-18: Snyder (1973, Laryngoscope) y Smith y Markides (1981, Br J Audiol 15) existen pero no se leyeron sus cifras; Ramos y cols. (2009, Rev Soc Bras Fonoaudiol 14(4), doi:10.1590/S1516-80342009000400012) solo dan en el resumen que la de inserción atenúa más, también para la voz. -->
+Este libro usa **45 dB** de atenuación interaural para la voz con fono supraaural. ASHA (1988) pide enmascarar cuando el SRT de un oído supera en **40 dB** o más al SRT del otro o a cualquiera de sus umbrales óseos de 500 a 4.000 Hz. Se usan 45 dB porque la voz, que reparte su energía en un rango ancho de frecuencias, cruza el cráneo con más pérdida que un tono aislado con el mismo fono, y comparar contra el promedio del oído no evaluado sigue la misma lógica con que se lee el SRT. <!-- verificar: cifra de atenuación interaural del habla con fono supraaural (rango publicado ~45-55 dB) con fuente primaria. Búsqueda 2026-10-18: Snyder (1973, Laryngoscope) y Smith y Markides (1981, Br J Audiol 15) existen pero no se leyeron sus cifras; Ramos y cols. (2009, Rev Soc Bras Fonoaudiol 14(4), doi:10.1590/S1516-80342009000400012) solo dan en el resumen que la de inserción atenúa más, también para la voz. -->
 :::
 
 ### 6. Umbral de molestia (LDL)
@@ -242,10 +236,6 @@ En la **retrococlear** el paciente entiende mucho menos de lo que oye: el máxim
 - Sin enmascarar, desde 55 dB el OI contesta por el OD y la curva "mejora" hasta el 100 % a 85 dB: el máximo bajo y el roll-over desaparecen. Raúl ya lo había dicho: por el derecho "escucha la voz pero no entiende". Se estudia como retrococlear hasta demostrar lo contrario (→ capítulo 11).
 :::
 
-:::comentario El roll-over en LabSim
-En el simulador la caída pasado el máximo sale del **componente retrococlear** del caso, no del reclutamiento: un oído coclear baja poco (Hernán, índice 0,13) y uno retrococlear mucho (Raúl, 0,62), como describe la literatura (Jerger y Jerger, 1971; Gang, 1976). La caída se completa unos 25 dB sobre el máximo, o en los 100 dB del canal de habla, y la curva nunca llega a 0. Ningún índice decide solo: lo que orienta a una lesión retrococlear es una **discriminación pobre para el PTP**, asimétrica, con el resto de la batería (reflejos, deterioro tonal, PEAT) apuntando al mismo lado.
-:::
-
 ### Sin enmascarar: la curva prestada
 
 Cuando el oído peor no se enmascara, su curva copia la del oído mejor desde que la voz cruza el cráneo: es la **curva sombra** de la logoaudiometría (→ H4).
@@ -281,21 +271,7 @@ Cuando el oído peor no se enmascara, su curva copia la del oído mejor desde qu
 Antes de firmar, pregúntate si la discriminación **calza con el audiograma**. Mucho mejor de lo que predice, con un SRT bueno y un PTP malo, hace pensar en una pérdida no orgánica (→ H6). Mucho peor, sobre todo en un solo oído, en una lesión del nervio o del tronco (→ capítulo 11). Mala en los dos oídos con un audiograma leve, en un joven, en una neuropatía auditiva (→ capítulo 13).
 :::
 
-## En LabSim
-
-1. Elige **Habla** en el canal 1, la salida y el nivel, y activa **Invertir** para dejar el canal abierto.
-2. **SDT:** elige *pa pa pa* en *Comandos de voz*, da la instrucción **Escuche mi voz** con *Talkback* y presenta: el paciente levanta la mano cuando oye la voz. En los pacientes de práctica la levanta **5 dB bajo su SRT**.
-3. **Palabras:** abre **Listas de Palabras** y haz clic en cada palabra. Anota cada acierto con **+1**; **Limpiar** antes de cada lista.
-4. **Enmascarar:** **SN** en el canal 2, al otro oído, con *Invertir*.
-5. **LDL:** vuelve a **Tono**, da la instrucción **Pitos fuertes** y presenta: el paciente dice "molesta" al llegar a su umbral de molestia.
-
-El paciente simulado repite bien, en cada nivel, una cantidad fija de las 25 palabras, la que le corresponde según su curva: los porcentajes son siempre **múltiplos de 4**, y cuáles acierta cambia de una lista a otra. Su curva pasa la **mitad de su máximo en el SRT** del caso, que en los pacientes de práctica es el promedio de los dos mejores umbrales de 500, 1.000 y 2.000 Hz: el SRT que midas con palabras concuerda con el PTP. Arranca unos 10 dB bajo el SRT, a 20 dB sobre él ya está cerca de su máximo y lo alcanza en el nivel que fija el caso. Si no enmascaras, la voz cruza con 45 dB menos y contesta con el oído que mejor entienda; si enmascaras de más, el ruido cruza de vuelta y la curva se corre de a poco a la derecha. Con un ruido que no es de habla, el enmascaramiento rinde menos. Para el SDT, el ruido mínimo es unos 5 dB más que el de la fórmula: el oído no evaluado detecta la voz 5 dB antes de reconocerla.
-
-:::comentario Lo que el simulador no tiene
-Las palabras de LabSim están **grabadas**, con una sola voz: la voz viva no se practica. Las palabras desactivadas todavía no tienen grabación.
-:::
-
-Los pacientes de este capítulo están entre los de práctica (★): Carolina, Hernán, Raúl y Luis.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. En Hernán, si partes la discriminación del OD a 40 dB, ¿qué porcentaje esperas según su curva? ¿Llegas a su máximo con tres listas? ¿Qué haces entonces?

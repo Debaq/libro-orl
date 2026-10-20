@@ -396,25 +396,7 @@ Se registra el **oído**, el **motivo**, que se **revisaron las contraindicacion
 - **Lavar cerumen que no molesta**, o lavar sin haber visto la membrana ni preguntado por perforación o cirugía.
 - **Agua fría, punta que ocluye el conducto o no mirar al terminar.** Sin otoscopía de control no sabes si sacaste el tapón ni si la membrana quedó sana.
 
-## En LabSim
-
-### La anamnesis: hablar con el paciente
-
-Con la atención abierta, **Hablar con el paciente** abre la entrevista. El paciente contesta como lo haría en la consulta: según lo que sabe de sí mismo y **cuánta conciencia tiene de su problema**. Puede no saber que oye mal o no relacionar un fármaco con su acúfeno: si no preguntas, no te lo cuenta.
-
-- Si viene **acompañado**, el encabezado dice a quiénes atiendes. No eliges a quién le hablas: **nómbralo al escribir** y contesta quien corresponda. A Benjamín puedes preguntarle si le duele el oído; las fechas de las otitis las sabe su mamá.
-- **Ver ficha** muestra el **historial** del paciente, con lo que dijeron otros profesionales. Léelo antes de entrar, como en un box real.
-- La conversación queda guardada con la atención y tu docente la lee. En **Cómo vas** se cuentan las preguntas que haces en la anamnesis.
-
-### La otoscopía
-
-El botón **OT** abre el otoscopio, con un visor para cada oído. Al pasar el mouse sobre el visor ves un círculo de luz que sigue al cursor, como el campo real: **recorre toda la membrana** y el conducto antes de decidir. **Cono pediátrico** y **Cono adulto** cambian el tamaño del campo.
-
-En la pestaña **Informe** eliges el **hallazgo** (retracción, perforación, efusión, timpanoesclerosis, colesteatoma, inflamación, tubo, miringitis) y haces clic en el **cuadrante** donde lo viste: AS, AI, PI, PS o la pars flácida (PF). Después marcas el **conducto** (normal, cerumen, edema, otorrea, exostosis) y escribes tus **observaciones**. El esquema es el de la Figura H1.2: piensa en qué oído estás antes de marcar anterior o posterior.
-
-### El lavado
-
-LabSim no simula el lavado. Lo que practicas es **la decisión**: si ves cerumen u otorrea, márcalo en el informe, decide si corresponde seguir con los exámenes y deja escrita tu conducta en la evolución.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un adulto de 60 años consulta porque "siente el oído tapado" desde que se bañó en el mar. En la otoscopía el OD tiene un tapón oclusivo. ¿Qué tres preguntas haces antes de decidir si lo lavas?

@@ -236,7 +236,7 @@ Sofía (36.1) y Álvaro (36.2) dan casi la misma respuesta al vasoconstrictor: l
 
 ## Casos
 
-Los tres pacientes son de audición normal: la nariz no se estudia con LabSim. El valor de referencia es el de trabajo del libro (0,4 Pa/(cm³/s) a 150 Pa, → H26). La sensación de obstrucción se anota con el cuestionario NOSE, que va de 0 a 100 y se agrupa en leve (5 a 25), moderada (30 a 50), grave (55 a 75) y extrema (80 a 100) (Stewart y cols., 2004; Lipan y Most, 2013; → H25). Hay dos límites del modelo que importan aquí: el vasoconstrictor **actúa entero e instantáneamente** (no tiene curso en el tiempo, ni rebote, ni taquifilaxia) y el modelo **no mide la sensación** de obstrucción. En el caso 36.2 eso se dice cuando importa.
+Los tres pacientes son de audición normal. El valor de referencia es el de trabajo del libro (0,4 Pa/(cm³/s) a 150 Pa, → H26). La sensación de obstrucción se anota con el cuestionario NOSE, que va de 0 a 100 y se agrupa en leve (5 a 25), moderada (30 a 50), grave (55 a 75) y extrema (80 a 100) (Stewart y cols., 2004; Lipan y Most, 2013; → H25). Hay dos límites del modelo que importan aquí: el vasoconstrictor **actúa entero e instantáneamente** (no tiene curso en el tiempo, ni rebote, ni taquifilaxia) y el modelo **no mide la sensación** de obstrucción. En el caso 36.2 eso se dice cuando importa.
 
 {{caso cap36_alergica}}
 

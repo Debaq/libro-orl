@@ -42,7 +42,6 @@ Cada uno mira algo distinto. Ninguno diagnostica; juntos arman el perfil.
 
 Cómo se puntúan y se leen la VSS y el ABC está en H20.
 
-
 La lectura útil no es el número solo, sino el **perfil**. Un DHI alto con mucho **emocional** y una VVAS alta, con la audición y el vestíbulo sanos, es el perfil de un mareo que se ha vuelto visual y de vigilancia. Un DHI moderado con una VVAS **baja** y un empeoramiento a oscuras apunta a otro sitio. El ABC dice qué ha dejado de hacer el paciente por miedo: una confianza baja con una función normal es justo la brecha que el tratamiento va a trabajar.
 
 :::ojo Ojo clínico
@@ -54,10 +53,6 @@ Los cuestionarios sirven para **seguir** al paciente, no para diagnosticar. Un N
 - **La batería de H20 se diseñó para la hipofunción.** Sus pruebas buscan un déficit de función; en el PPPD lo normal es que salgan bien, y lo que se pierde es la **confianza**. Se aplican igual, porque ese resultado normal es el dato.
 - **Los cuestionarios.** El DHI es el que lleva este libro (→ H20). Los otros se agregan solo cuando se sospecha un componente visual o de miedo a caer; con el DHI basta para partir.
 :::
-
-## En LabSim
-
-LabSim da el lado auditivo de estos pacientes (audiograma, logoaudiometría, reflejos, PEAT y VEMP) y **no hace examen vestibular, postural ni rehabilitación**. Lo que cada caso entrega de calórica, vHIT, equilibrio y cuestionarios está **escrito** en la ficha de resultados.
 
 ## Fisiología
 
@@ -250,7 +245,6 @@ Ya tiene una resonancia de cerebro normal. ¿Qué agregarías para ver si el lab
 - **Qué pedir:** audiometría, calórica y vHIT para medir lo que quedó del laberinto, VEMP, batería funcional y DHI, VVAS y ABC.
 - **Lo que enseña:** que el laberinto compensó (la calórica baja del corte y el vHIT es normal), que **el déficit residual no alcanza a explicar** lo que cuenta, y que la historia, no el examen, hace el diagnóstico.
 - **Errores esperables:** decir "tu examen está normal" sin más; buscar el daño en el laberinto cuando el criterio es que no hay uno que lo explique.
-- **En LabSim:** audición normal en los dos oídos. El nombre de la paciente lo sortea el editor.
 :::
 
 {{caso cap27_vppb}}
@@ -300,7 +294,6 @@ La paciente dice que la llamaron "ansiosa" y que no está de acuerdo. ¿Qué har
 - **Qué pedir:** audiometría y logoaudiometría, pruebas posicionales repetidas (→ cap. 22), calórica, vHIT, la presión de pie y la lista de remedios; DHI, VVAS y ABC.
 - **Lo que enseña:** que se **repite** lo que se descartó antes (la posicional ya estaba tratada); que la ansiedad que aparece **después** del mareo no lo explica ni lo contradice; y que una hipoacusia de la edad suma dificultad sin ser la causa.
 - **Errores esperables:** cerrarlo como "ansiedad" sin mirar el vestíbulo; dar por curada la posicional sin repetirla; olvidar que el ansiolítico se suspende 48 horas antes de la calórica (→ H17).
-- **En LabSim:** presbiacusia leve en los dos oídos. El nombre de la paciente lo sortea el editor.
 :::
 
 {{caso cap27_schwannoma}}
@@ -340,7 +333,7 @@ Tiene un pitido en el oído izquierdo y dificultad para oír por teléfono con e
 :::
 :::figura cap27_schwannoma vemp
 - @OD P13 | El cVEMP del OD mide **286 µV** (5,67 corregida por el EMG).
-- @OI P13 | El del OI mide **38 µV** (0,75 corregida). La asimetría es de **76 %**, sobre el corte de 35 % de LabSim (→ H12): el sáculo del OI responde muy poco.
+- @OI P13 | El del OI mide **38 µV** (0,75 corregida). La asimetría es de **76 %**, sobre el corte de 35 % (→ H12): el sáculo del OI responde muy poco.
 :::
 
 :::ayuda-ancho Lo que entrega Joaquín del examen vestibular y de los cuestionarios (→ H16 a H20)
@@ -365,7 +358,6 @@ Tiene un pitido en el oído izquierdo y dificultad para oír por teléfono con e
 - **Qué pedir:** audiometría, logoaudiometría, reflejos, deterioro tonal, PEAT y VEMP (→ cap. 11); calórica y vHIT; VVAS.
 - **Lo que enseña:** el **criterio E**. Aun con ansiedad, aun con mareo crónico, la asimetría auditiva y los reflejos obligan a seguir estudiando. Y que un cuestionario **bajo** en lo visual es una señal en sí mismo.
 - **Errores esperables:** quedarse con el "mareo funcional" por el relato; no leer el audiograma; creer que la ansiedad del paciente confirma el diagnóstico.
-- **En LabSim:** cuadro *Schwannoma* leve en el OI. El nombre del paciente lo sortea el editor.
 :::
 
 ## Resolución de los casos

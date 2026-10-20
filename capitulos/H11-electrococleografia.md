@@ -19,7 +19,7 @@ La ECochG responde, sobre todo, una pregunta:
 
 - **¿La cóclea de este oído tiene un potencial de sumación desproporcionado para su potencial de acción?** Una razón PS/PA alta apoya el diagnóstico de hidrops endolinfático, la lesión de la enfermedad de Ménière (Coats, 1981; Ferraro y Durrant, 2006). Se pide, junto con la audiometría, el reclutamiento y el VEMP cervical (→ H12), cuando hay crisis de vértigo con plenitud y acúfeno, o una pérdida que fluctúa.
 
-También ayuda a ubicar **dónde** falla una respuesta ausente: una microfónica presente con un PA ausente o desorganizado apunta a la sincronía del nervio y no a las células ciliadas (→ H10 y cap. 13). Se usa además para vigilar la cóclea durante la cirugía de implante coclear y para registrar desde el propio implante (Simpson y cols., 2020), cosas que LabSim no practica.<!-- Pasada de fundamentos 2026-10-18: decía "en el monitoreo durante cirugías del oído y en el estudio de pacientes con implante coclear (Hall, 2007)"; Hall no se consultó. Simpson y cols. (2020, texto completo) describen el registro intraoperatorio en la cirugía de implante y la ECochG intracoclear por el implante. -->
+También ayuda a ubicar **dónde** falla una respuesta ausente: una microfónica presente con un PA ausente o desorganizado apunta a la sincronía del nervio y no a las células ciliadas (→ H10 y cap. 13). Se usa además para vigilar la cóclea durante la cirugía de implante coclear y para registrar desde el propio implante (Simpson y cols., 2020).<!-- Pasada de fundamentos 2026-10-18: decía "en el monitoreo durante cirugías del oído y en el estudio de pacientes con implante coclear (Hall, 2007)"; Hall no se consultó. Simpson y cols. (2020, texto completo) describen el registro intraoperatorio en la cirugía de implante y la ECochG intracoclear por el implante. -->
 
 Hay que tener claros sus límites desde el principio:
 
@@ -41,7 +41,7 @@ Cuando llega un click a la cóclea, el electrodo del oído recoge la suma de tre
 - **Potencial de sumación (PS).** Es un **desplazamiento lento de la línea de base** que dura mientras dura el estímulo. Tiene un origen mixto, en la respuesta no lineal de las células ciliadas (Dallos y cols., 1970; Durrant y cols., 1998). **No se invierte con la polaridad**, y por eso sobrevive cuando se alterna. Con un click se ve como un **hombro** en la bajada hacia el PA, porque es muy breve y se superpone con él; con un tone burst largo se ve como una **meseta**.
 - **Potencial de acción (PA).** Es la suma de las descargas de miles de fibras del nervio auditivo al comienzo del estímulo: la misma **onda I del PEAT**, vista desde mucho más cerca (Ferraro y Durrant, 2006). Se ve como una espiga, y su pico negativo se llama **N1**. Después del N1 vienen una positividad y un segundo valle más chico, que el equipo usa para saber dónde termina el complejo.
 
-La polaridad merece una advertencia. En el PEAT las ondas se dibujan hacia arriba porque el electrodo activo está en el vértex. En la ECochG el activo está en el oído y la negatividad del PA queda **hacia abajo**. No es un error del equipo: es el montaje (→ cap. 9). LabSim trae un botón para invertir el eje.
+La polaridad merece una advertencia. En el PEAT las ondas se dibujan hacia arriba porque el electrodo activo está en el vértex. En la ECochG el activo está en el oído y la negatividad del PA queda **hacia abajo**. No es un error del equipo: es el montaje (→ cap. 9).
 
 ### Por qué el hidrops agranda el PS
 
@@ -82,11 +82,11 @@ El **tone burst** es un tono breve, de 1 kHz por ejemplo, con subida y bajada su
 - **Otoscopio**, para ver el conducto antes y para poner el electrodo del tímpano.
 - Una **silla o camilla** cómoda. A diferencia del PEAT, aquí el paciente puede estar despierto.
 
-### Conoce tu equipo: la ECochG de LabSim
+### Conoce tu equipo: la ECochG
 
-La ECochG de LabSim vive **dentro del equipo de PEAT**: en el combo **Prueba** se elige *ECochG*. El equipo cambia a un montaje de oído y la tabla de valores pasa a ser la del ECochG. La pantalla es la misma que la del PEAT (→ H10): parámetros a la izquierda, curvas de cada oído al centro, valores a la derecha y, abajo, lo que está pasando mientras registras.
+La ECochG se registra con el mismo equipo del PEAT, con un montaje de oído y su propia tabla de valores. La pantalla tiene la misma lógica (→ H10): parámetros a la izquierda, curvas de cada oído al centro, valores a la derecha y, abajo, lo que está pasando mientras registras.
 
-:::imagen /docs/manual/img/estudiante/ecochg.png La ECochG de LabSim con el OI registrado y marcado
+:::imagen /docs/manual/img/estudiante/ecochg.png Pantalla de ECochG con el OI registrado y marcado
 - @-2.5,8.4 | **Prueba: ECochG.** Cambia el montaje, la ventana y la tabla. Cambiar de prueba no borra el PEAT.
 - @-2.5,14.5 | **Estímulo y polaridad.** *Click* o *Burst*. La alternada cancela la MC; para medir la diferencia rarefacción-condensación hacen falta dos curvas, una de cada polaridad.
 - @-2.5,20 | **Intensidad**: 90 dB nHL. El PS se mide entero solo a nivel alto.
@@ -134,7 +134,7 @@ En la literatura, "extratimpánico" suele agrupar todo lo que no atraviesa el t�
 Con el paciente sentado o semirrecostado:
 
 1. **Limpia la piel** con alcohol y gel abrasivo en los puntos de superficie, como en el PEAT (→ H10).
-2. **Pon la referencia y la tierra.** La tierra va en la frente (Fpz en LabSim) y la referencia en el mastoides o en el lóbulo. En LabSim las posiciones de referencia son A1 (izquierda) y A2 (derecha) y se eligen en los parámetros avanzados.
+2. **Pon la referencia y la tierra.** La tierra va en la frente y la referencia en el mastoides o en el lóbulo.
 3. **Coloca el electrodo de oído.** Con el de conducto, el tapón se comprime entre los dedos, se inserta y se deja expandir, de modo que selle; el gel va sobre la lámina de oro. Con el timpánico, bajo el otoscopio, la punta, humedecida con solución salina o gel, se lleva hasta apoyarla suavemente sobre la membrana.
 4. **Revisa las impedancias**: bajas y parecidas entre sí, como en el PEAT. Una impedancia alta en el electrodo de oído se paga en ruido y en un PA chico.
 5. **Pon el fono de inserción** (si el electrodo no lleva el tubo) y comprueba que el estímulo llega.
@@ -157,14 +157,18 @@ Con el paciente sentado o semirrecostado:
 
 Cada parámetro tiene su razón, y se puede cometer el error de olvidarla:
 
-1. **El pasa-alto va muy bajo.** Un pasa-alto de 100 Hz, el del PEAT, deja pasar la espiga del PA pero se come el PS: en LabSim un oído con una razón de 0,55 se mide en 0,38 con el filtro en 100 Hz y 0,08 en 200 Hz. El hidrops desaparece por el filtro, no por el oído.
+1. **El pasa-alto va muy bajo.** Un pasa-alto de 100 Hz, el del PEAT, deja pasar la espiga del PA pero se come el PS: el hidrops desaparece por el filtro, no por el oído.
 2. **El nivel va alto.** El PA aparece desde cerca del umbral, pero el PS necesita nivel para hacerse medible. Una razón medida a nivel bajo sale chica aunque haya hidrops, y el equipo no avisa.
 3. **La polaridad va alternada.** La MC, que se invierte con la polaridad, se cancela al alternar y deja el PS y el PA limpios. En una sola polaridad la MC se suma al PS y al PA y corre sus picos.
 4. **La ventana va en 10 ms con click.** La razón de áreas se integra hasta que el complejo vuelve a la línea de base, y en un hidrops marcado eso ocurre bien después de los 5 ms. Con burst largo hace falta abrirla a 20 ms.
 5. **La tasa baja y los barridos son menos.** Con 11,1 por segundo, 1.500 barridos toman algo más de dos minutos por curva.
 
+:::simulador
+Caso 9.1: registra el OI con el pasa-alto en 5, 100 y 200 Hz y mira cómo se achica la razón PS/PA.
+:::
+
 :::comentario Lo que dicen las normas
-No hay un protocolo único de ECochG. Las revisiones describen ajustes distintos de filtros, tasa, nivel y número de promediaciones, con estímulos de click o de tone burst y con distintas polaridades (Wuyts y cols., 1997; Ferraro y Durrant, 2006; Simpson y cols., 2020). Margolis y cols. (1995) registraron en condensación, rarefacción y alternado, y recomendaron mirar la diferencia entre polaridades; con aguja transtimpánica, Ge y Shea (2002) la encontraron prolongada en el 62 % de los oídos con Ménière; en la serie de Satar y cols. (2003) esa diferencia no mejoró el diagnóstico. En este libro se usa el estándar de la tabla, con el que están calculados los límites de LabSim.
+No hay un protocolo único de ECochG. Las revisiones describen ajustes distintos de filtros, tasa, nivel y número de promediaciones, con estímulos de click o de tone burst y con distintas polaridades (Wuyts y cols., 1997; Ferraro y Durrant, 2006; Simpson y cols., 2020). Margolis y cols. (1995) registraron en condensación, rarefacción y alternado, y recomendaron mirar la diferencia entre polaridades; con aguja transtimpánica, Ge y Shea (2002) la encontraron prolongada en el 62 % de los oídos con Ménière; en la serie de Satar y cols. (2003) esa diferencia no mejoró el diagnóstico. En este libro se usa el estándar de la tabla.
 :::
 
 ## Paso a paso
@@ -201,7 +205,7 @@ Lo que sale del límite del electrodo se pinta en rojo. Compara con los límites
 
 ### 5. Si pide la diferencia rarefacción-condensación
 
-Registra una curva en **rarefacción** y otra en **condensación**, al mismo nivel, estímulo y oído. La tabla compara el PA de las dos y mide cuánto se corre una respecto de la otra. Es una medida de **separación**, que se informa en valor absoluto: LabSim toma 0,38 ms como límite (Satar y cols., 2003).
+Registra una curva en **rarefacción** y otra en **condensación**, al mismo nivel, estímulo y oído. La tabla compara el PA de las dos y mide cuánto se corre una respecto de la otra. Es una medida de **separación**, que se informa en valor absoluto: El límite es de 0,38 ms (Satar y cols., 2003).
 
 ### 6. Con tone burst: el PS en la meseta
 
@@ -210,17 +214,17 @@ Si cambias a *Burst* en el estímulo, cambia lo que mides. En los parámetros av
 :::imagen ilustraciones/h11-burst-filtro.svg ancho=100% El PS con click y con tone burst, y lo que le hace el pasa-alto. Con click, el PS es apenas un hombro antes del PA; con un burst de 1-10-1 ms es una meseta que dura lo que dura el estímulo. Un pasa-alto de 5 Hz la deja casi entera; uno de 100 Hz, el del PEAT, la borra.
 :::
 
-El PS se mide **en la mitad de la meseta**, donde ya no llega la espiga del PA, y el retorno se busca después. Con burst, el PA es mucho más chico que con click, y la razón de un oído sano sale muy por encima de los límites publicados, que son de click. Por eso LabSim, con burst, mide las razones pero **no las pinta en rojo**: no tienen un límite que aplicarles.
+El PS se mide **en la mitad de la meseta**, donde ya no llega la espiga del PA, y el retorno se busca después. Con burst, el PA es mucho más chico que con click, y la razón de un oído sano sale muy por encima de los límites publicados, que son de click. Por eso, con burst, las razones se miden pero no se comparan con un límite: no hay uno publicado.
 
 ### 7. El otro oído, y la tasa
 
-Repite en el otro oído: sirve de **referencia dentro del mismo paciente** y de control de que el equipo está bien configurado. Si el examen pide la medida de tasa, registra una segunda curva del mismo oído a una tasa mucho más alta (por ejemplo, 91 por segundo): la tabla calcula cuánto se corre el PA entre las dos. El límite que usa LabSim, 0,20 ms, sale del modelo y no de una serie publicada.
+Repite en el otro oído: sirve de **referencia dentro del mismo paciente** y de control de que el equipo está bien configurado. Si el examen pide la medida de tasa, registra una segunda curva del mismo oído a una tasa mucho más alta (por ejemplo, 91 por segundo): la tabla calcula cuánto se corre el PA entre las dos.
 
 <!-- verificar: el corrimiento del PA por tasa (11,1 a 91/s, límite 0,20 ms) es "calculado" en EcochgReferences.php: sin cita primaria. Se dejó con la advertencia en el texto. -->
 
 ### 8. Si el médico pide un control con glicerol
 
-El glicerol por boca saca agua del oído interno y, en un oído con hidrops, puede **achicar el PS negativo** (Moffat y cols., 1978, con electrodo transtimpánico en 13 pacientes). Por eso a veces se pide una ECochG antes y después de la toma. El procedimiento del glicerol está en el cap. 9. LabSim no lo hace: sus pacientes no cambian dentro de una atención.
+El glicerol por boca saca agua del oído interno y, en un oído con hidrops, puede **achicar el PS negativo** (Moffat y cols., 1978, con electrodo transtimpánico en 13 pacientes). Por eso a veces se pide una ECochG antes y después de la toma. El procedimiento del glicerol está en el cap. 9.
 
 :::ayuda Ayuda memoria
 - Electrodo **timpánico** en el oído estudiado; tierra en la frente; impedancias bajas y parecidas.
@@ -238,15 +242,15 @@ El glicerol por boca saca agua del oído interno y, en un oído con hidrops, pue
 
 - **Amplitud del PS y del PA**, en microvoltios, desde la línea de base.
 - **Razón PS/PA** y **razón de áreas**, por oído.
-- **Latencia del PA** (el N1): alrededor de 1,4 a 1,5 ms con click a 90 dB nHL en LabSim.
-- **Ancho del PA** y **duración del complejo**: en los casos de hidrops de LabSim el PA sale más ancho y el complejo tarda más en volver a la base.
+- **Latencia del PA** (el N1): alrededor de 1,4 a 1,5 ms con click a 90 dB nHL.
+- **Ancho del PA** y **duración del complejo**: en el hidrops el PA sale más ancho y el complejo tarda más en volver a la base.
 - **Diferencia de latencia del PA entre rarefacción y condensación**, si se registraron las dos.
 - **Medida de tasa**, si se registró.
 - **Morfología y replicabilidad**: si el complejo es claro y se repite.
 
 ### Contra qué se compara
 
-El límite normal depende del **electrodo**. Estos son los de LabSim, con click alternado a 90 dB nHL:
+El límite normal depende del **electrodo**. Estos son los de este libro, con click alternado a 90 dB nHL:
 
 Tabla: Límites de la ECochG con click, según el electrodo
 
@@ -259,12 +263,12 @@ Tabla: Límites de la ECochG con click, según el electrodo
 Sobre el límite, la razón es compatible con hidrops. La separación del PA entre polaridades se considera alterada sobre **0,38 ms**. Los valores son los mismos del cap. 9, que además trae la discusión de cada uno (Margolis y cols., 1995; Roland y cols., 1993; Wuyts y cols., 1997; Devaiah y cols., 2003; Satar y cols., 2003). Los datos normativos completos por población están en el Apéndice A (→ Apéndice A).
 
 :::comentario Lo que dicen las normas
-Los límites cambian de una serie a otra. Con electrodo timpánico, Margolis y cols. (1995) fijaron el criterio para un 95 % de especificidad; Satar y cols. (2003), con 12 controles, llegaron a un límite más bajo, de 0,32. Con electrodo de conducto, 0,50 es el valor más alto observado en sanos (Roland y cols., 1993), no un corte estadístico. La razón de áreas (1,94) se publicó con electrodo timpánico (Devaiah y cols., 2003); con aguja en el promontorio no fue más sensible que la de amplitudes (Baba y cols., 2009), y LabSim aplica el mismo límite a los tres electrodos. Cada centro debería construir los suyos, con su equipo y su electrodo.
+Los límites cambian de una serie a otra. Con electrodo timpánico, Margolis y cols. (1995) fijaron el criterio para un 95 % de especificidad; Satar y cols. (2003), con 12 controles, llegaron a un límite más bajo, de 0,32. Con electrodo de conducto, 0,50 es el valor más alto observado en sanos (Roland y cols., 1993), no un corte estadístico. La razón de áreas (1,94) se publicó con electrodo timpánico (Devaiah y cols., 2003); con aguja en el promontorio no fue más sensible que la de amplitudes (Baba y cols., 2009). Este libro aplica el mismo límite a los tres electrodos. Cada centro debería construir los suyos, con su equipo y su electrodo.
 :::
 
 ### Un caso: Patricia
 
-Patricia (paciente de práctica 38) tiene 46 años y una historia de Ménière del oído izquierdo: crisis de vértigo de horas, plenitud y zumbido grave antes de cada una, y una audición que fluctúa. Su ECochG se registró con electrodo timpánico, click alternado a 90 dB nHL, 5 a 3.000 Hz y ventana de 10 ms. El OD es la referencia.
+Patricia tiene 46 años y una historia de Ménière del oído izquierdo: crisis de vértigo de horas, plenitud y zumbido grave antes de cada una, y una audición que fluctúa. Su ECochG se registró con electrodo timpánico, click alternado a 90 dB nHL, 5 a 3.000 Hz y ventana de 10 ms. El OD es la referencia.
 
 {{caso h11_p38}}
 
@@ -319,18 +323,7 @@ La conclusión **no le pone nombre de enfermedad**: "compatible con hidrops endo
 Una razón PS/PA alta **apoya** el hidrops pero no lo prueba, y una normal **no lo descarta**. Antes de informar, pregúntate si **calza con lo demás**: con el audiograma (una pérdida coclear de graves, ascendente, fluctuante), con el reclutamiento y con la historia. Y si es normal en un paciente con la historia completa, no es una contradicción: puede estar en un buen día, o su cóclea puede no mostrarlo (→ cap. 9).
 :::
 
-## En LabSim
-
-La ECochG de LabSim se maneja como un equipo real, y por eso se puede equivocar como uno real.
-
-- **Está dentro del PEAT**, en el combo *Prueba*. Cada prueba es un registro aparte: cambiar de una a otra no borra nada, y las dos se guardan, cada una con su informe (el PEAT y la ECochG).
-- **El equipo no viene configurado.** La tasa y las promediaciones arrancan al azar, y dejar bien el estímulo, la polaridad, el nivel, los filtros y la ventana es parte del examen. Quien enseña con LabSim encuentra el equipo ya en el estándar al elegir *ECochG*; el alumno no.
-- **El paciente responde según su caso.** Su ECochG sale del perfil que se le asignó: un Ménière típico trae el PS agrandado y la cola prolongada en el oído enfermo. Los casos de Ménière de LabSim muestran siempre el hidrops **alterado**: el que tiene la ECochG normal, que existe en la clínica, se arma a mano.
-- **Los errores se pueden cometer**: el pasa-alto del PEAT, el nivel bajo, la ventana corta, la polaridad equivocada, un montaje de PEAT con la prueba en ECochG.
-- **La ficha del paciente** viene con las curvas y sus marcas, y el informe se sube como *electrococleografía*.
-- **No hay glicerol**: los pacientes no cambian dentro de una atención.
-
-Para practicar, el paciente de este capítulo está entre los de práctica (★): **Patricia**, la 38.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Registras la ECochG de un oído con historia de Ménière con el pasa-alto en 100 Hz y la razón PS/PA sale 0,30. ¿Qué harías antes de informarla como normal?
@@ -341,8 +334,6 @@ Para practicar, el paciente de este capítulo está entre los de práctica (★)
 6. Patricia tiene una razón de 0,60 en el OI y de 0,31 en el OD. Si le registraras el OI otra vez con 60 dB nHL, ¿qué esperarías? ¿Qué le dirías al médico si solo tuvieras ese registro?
 7. Un paciente con la historia completa de Ménière tiene la ECochG normal. ¿Descarta eso el diagnóstico?
 :::
-
-<!-- Pasada de fundamentos 2026-10-18: se resolvieron los cinco verificar que había aquí. (1) Hall 2007 se reemplazó por Simpson y cols. 2020 (texto completo). (2) Las "decenas de microvoltios" del transtimpánico se reemplazaron por la razón de 5 a 10 veces de Simpson y cols. 2020; la anestesia local se quitó. (3) Hornibrook 2017 describe el mecanismo del punto de trabajo (lo atribuye a Gibson 1978); Gibson y cols. 1977 queda solo para la relación PS grande-hidrops, que es lo que dice su abstract. (4) Simpson y cols. 2020, leído completo: el contacto y la colocación bajo visión cambian la amplitud del PA. (5) Ferraro 2010, abstract: el electrodo de conducto para mejorar el PEAT del recién nacido; se quitó "por su comodidad". -->
 
 ## Referencias
 

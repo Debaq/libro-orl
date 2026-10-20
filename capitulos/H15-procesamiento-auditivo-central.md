@@ -416,9 +416,7 @@ Esta herramienta **no entrega valores de corte**. Hay tres razones:
 Un mal resultado en estas pruebas **no dice dónde está el problema**. Dice que el rendimiento fue bajo en una tarea. Si el paciente es un adulto con una lesión neurológica sospechada, la conducta es la derivación y la imagen (→ H10, cap. 13), no esperar a "completar la batería". Si es un niño, el paso siguiente es el trabajo conjunto con lenguaje, psicopedagogía y atención, no solo un entrenamiento auditivo.
 :::
 
-## En LabSim
-
-**LabSim no tiene módulo de procesamiento central**: no hay pacientes simulados con rendimiento alterado en gaps, patrones o dígitos dicóticos, ni pruebas centrales dentro del simulador. Lo que sí hace LabSim es la parte **periférica** que esta herramienta exige primero: audiometría tonal (→ H3), logoaudiometría (→ H5), impedanciometría (→ H7), emisiones (→ H9) y PEAT (→ H10).
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un adulto de 50 años con audiograma normal dice que no entiende en reuniones ruidosas. ¿Qué pruebas periféricas necesitas antes de hacer una batería central y por qué?

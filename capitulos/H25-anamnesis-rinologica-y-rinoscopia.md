@@ -356,18 +356,7 @@ Fuera de la tabla quedan las señales que obligan a derivar: **los hallazgos de 
 Una nariz **tapada de un solo lado y siempre del mismo**, sobre todo si hay sangrado, secreción con sangre o pérdida del olfato de ese lado, **no es el ciclo nasal ni una alergia**: puede ser una desviación grande, un cuerpo extraño (en un niño) o una masa. La rinoscopía anterior no lo descarta y la rinomanometría, tampoco. Es una derivación.
 :::
 
-## En LabSim
-
-**LabSim no tiene simulador nasal.** No hay rinoscopio, ni nariz virtual, ni paciente con síntomas nasales, y por eso esta herramienta no tiene casos para atender. Lo que sí puedes practicar es la **conversación y la mano**, y para eso no hace falta un programa:
-
-- **La anamnesis con un compañero.** Uno hace de paciente con un guion corto (por ejemplo, "obstrucción bilateral hace 3 años, usa un descongestionante, última dosis ayer") y el otro recorre la lista. Cambien de papel y de guion. La pregunta que casi todos olvidan es la del descongestionante.
-- **La rinoscopía con un compañero**, con guantes y con el material de verdad, y con la supervisión del docente. Una persona sana ya tiene tabique, cornetes y ciclo nasal que mirar, y las dos fosas no se ven iguales.
-- **Una lista de cotejo**, hecha por quien observa, con los ocho pasos de la rinoscopía y los ítems de la anamnesis. Es más útil que cualquier simulador para encontrar **dónde** te saltas algo.
-- **La destreza del espéculo y la luz** se parece a la de la otoscopía de H1: luz en el eje de la mirada, mano apoyada en la cara del paciente, avisar antes de tocar. Si la dominas allí, esto sale más rápido.
-
-:::comentario Lo que el simulador no tiene
-LabSim no genera datos nasales, y lo que registra de la anamnesis auditiva no incluye los ítems rinológicos. Tampoco hay dibujo de la fosa, ni modelo de la mucosa. Lo que vimos aquí se aprende en el compañero y en el aula, con el docente al lado.
-:::
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un paciente cuenta que la nariz se le tapa un día de un lado y otro día del otro. ¿Qué fisiología lo explica y qué cambia en lo que ves en la rinoscopía?

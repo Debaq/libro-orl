@@ -273,7 +273,7 @@ Para la vigilancia, la guía 3.0 pide que la verificación objetiva de la calibr
 
 El audiómetro es el de H3 (dos canales y un centro con lo común). En la vigilancia ocupacional solo se usa **un canal**, con tono por **vía aérea**, y todo lo demás queda apagado. La figura marca lo que se revisa en el chequeo del día y lo que no se toca.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro de LabSim, con el canal 1 armado para una audiometría de vigilancia
+:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro, con el canal 1 armado para una audiometría de vigilancia
 - @4,13 | **Pantalla del canal 1.** Aquí se lee lo que va a sonar: nivel, transductor (*Aérea*), salida y estímulo. En el chequeo del día se recorre con un oyente de audición conocida, de nivel bajo a nivel alto, buscando ruidos extraños.
 - @40,10 | **Frecuencia.** El chequeo la recorre de 250 a 8.000 Hz; la vigilancia usa 500 a 8.000 (250 solo en confirmación y egreso).
 - @10,30 | **Salida.** A qué oído va el tono. Un error aquí invierte el audiograma, y como es un control contra una base, **inventa un cambio** que no existe.
@@ -452,7 +452,7 @@ Un ejercicio con los datos de Jorge (caso 6.2) muestra cuánto pesa. Si a los 25
 | Cambio corregido | 15 | 31 | 43 | 29,7 dB |
 :::
 
-La edad explica unos **9 dB** del promedio, y el cambio corregido sigue siendo casi tres veces el criterio de OSHA. Con una pérdida así, la corrección **no cambia la conclusión**: cambia solo el decimal. Donde sí podría cambiar la decisión es en un cambio que ronde el criterio, y ahí NIOSH prefiere confirmar y no corregir. Las tablas de OSHA no son las de ISO 7029:2017, que es lo que usa LabSim para la audición de los pacientes (→ H3). <!-- verificar: la base de Jorge es supuesta; no se conoce su historia real. Las correcciones se transcribieron de la tabla F-1 de OSHA publicada en eCFR. -->
+La edad explica unos **9 dB** del promedio, y el cambio corregido sigue siendo casi tres veces el criterio de OSHA. Con una pérdida así, la corrección **no cambia la conclusión**: cambia solo el decimal. Donde sí podría cambiar la decisión es en un cambio que ronde el criterio, y ahí NIOSH prefiere confirmar y no corregir. Las tablas de OSHA no son las de ISO 7029:2017, que es la que usa este libro (→ H3). <!-- verificar: la base de Jorge es supuesta; no se conoce su historia real. Las correcciones se transcribieron de la tabla F-1 de OSHA publicada en eCFR. -->
 
 :::comentario Lo que dicen las normas
 **Chile.** El protocolo de MINSAL (2013) fija como alterado un incremento del umbral **de 15 dB HL o más que implique hipoacusia** en al menos una frecuencia de cualquiera de los dos oídos, y **no** corrige por edad. Si el control se hizo en terreno, va a una audiometría de confirmación en cámara dentro de 30 días; si ya se hizo en cámara, pasa de inmediato a la evaluación médica. Las audiometrías de base alteradas o con perfil de pérdida no laboral o mixta siguen el mismo camino. La guía técnica (ISP, 2026) define **cómo** se toma la audiometría y deja los criterios de alteración a ese protocolo "o el que lo reemplace".
@@ -523,11 +523,7 @@ OSHA exige que los protectores bajen la exposición al menos hasta **90 dB(A)** 
 Antes de decir "ruido", pregúntate **si el cambio calza con la exposición**: bilateral y casi simétrico, con el fondo entre 3 y 6 kHz, recuperación en 8 kHz y los graves intactos, y una historia de ruido con tiempo y niveles que lo expliquen (→ cap. 6). Si lo que ves es asimétrico, plano, ascendente o con gap, el ruido no es toda la explicación, y el trabajador necesita otro examen y otro médico.
 :::
 
-## En LabSim
-
-LabSim tiene el **audiómetro** completo de H3 y los dos pacientes del capítulo 6 en la práctica libre: **Tomás (paciente 33)**, que es la audiometría de base ideal, y **Jorge (paciente 37)**, que tiene la muesca de veintidós años de chancador. La técnica se practica igual que en H3: el indicador de técnica revisa la instrucción, el oído de partida, el 10 abajo-5 arriba y los umbrales que coinciden con los del paciente.
-
-**Lo que LabSim no tiene.** No simula el **reposo** ni el desplazamiento temporal: el paciente responde con su audición permanente, sin importar cuándo fue su última exposición. No mide el ruido de la sala ni el estado de calibración, y no guarda una audiometría **de base** para comparar con un control posterior: hay que llevar los números de una a la otra. Ni el protocolo de seguimiento ni los niveles de periodicidad están modelados. Lo que sí permite practicar es tomar umbrales **bien** en 3, 4 y 6 kHz y mirar la forma de un oído expuesto.
+## Casos
 
 {{caso h24_p33}}
 
@@ -545,6 +541,8 @@ LabSim tiene el **audiómetro** completo de H3 y los dos pacientes del capítulo
 - @OD 8000 | En 8 kHz el OD vuelve a 30 dB: la recuperación de la muesca.
 - @OI 4000 | El OI llega a 60 dB: la misma forma en los dos oídos. El promedio de 2, 3 y 4 kHz del OD es 38,3 dB y el del OI, 43,3 dB. Nada de esto se puede llamar "cambio" sin una base: la de Jorge, de hace 22 años, es la que se necesita.
 :::
+
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un trabajador pasa 4 horas a 91 dB(A) y 4 horas a 82 dB(A). Con la tabla chilena (91 dB(A): 2 horas; 82: 16 horas), ¿cuál es su dosis y su nivel para 8 horas? ¿Y si la tasa fuera de 5 dB?

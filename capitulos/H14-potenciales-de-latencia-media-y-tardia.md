@@ -284,15 +284,7 @@ Lo conductual (→ H15) y lo electrofisiológico se interpretan **juntos**, nunc
 Estas respuestas **no diagnostican** un trastorno del procesamiento auditivo. La AAA (2010) subraya que pueden ser normales en muchos casos y que, cuando están alteradas, aportan poco, más allá de la conducta, sobre las dificultades funcionales de la persona. Se usan para responder una pregunta concreta (¿llega el sonido a la corteza?, ¿responden igual los dos hemisferios?) y siempre junto con la conducta.
 :::
 
-## En LabSim
-
-**LabSim no simula la latencia media, los corticales, la MMN ni la P300.** El selector de pruebas de la ventana del ABR nombra varios de estos potenciales entre los que se planean, pero no se pueden registrar: no generan respuesta. Lo que aquí se describe lo vas a ver recién en un equipo real.
-
-Sí practica LabSim cosas que sirven de base para estas respuestas: la otoscopía previa, la preparación de la piel y el montaje de electrodos, las impedancias bajas y parejas, y el EEG en vivo como termómetro del estado del paciente y del ruido (→ H10).
-
-:::comentario Lo que el simulador no tiene
-No hay paradigmas con estímulos estándar y desviante, ni tareas que el paciente deba cumplir, ni cambios de la respuesta con el sueño, la atención o la edad. Tampoco hay niños ni lactantes cuya respuesta madure.
-:::
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un niño de 6 años con audición normal y queja de no entender en el aula no muestra una MLR clara en el hemisferio izquierdo. ¿Qué dos cosas debes considerar antes de leerlo como alteración? ¿Qué compararías?

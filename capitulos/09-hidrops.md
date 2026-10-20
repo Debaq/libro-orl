@@ -37,7 +37,7 @@ Cuanto más cerca de la cóclea, más grande la respuesta y menos promedios hace
 - **Timpánico**: un electrodo blando que se apoya sobre la membrana timpánica. Da un PA de unos pocos microvoltios y es el que se usa en este libro.
 - **De conducto** (TIPtrode): un tapón con lámina conductora en el conducto. Es el más cómodo y el que da la respuesta más chica.
 
-El electrodo cambia también el **límite normal** de la razón, porque cambia cuánto PS se capta respecto del PA. Los límites de LabSim son estos (Margolis y cols., 1995; Roland y cols., 1993; Wuyts y cols., 1997; Devaiah y cols., 2003):
+El electrodo cambia también el **límite normal** de la razón, porque cambia cuánto PS se capta respecto del PA. Los límites son estos (Margolis y cols., 1995; Roland y cols., 1993; Wuyts y cols., 1997; Devaiah y cols., 2003):
 
 Tabla: Límites de la electrococleografía con click, según el electrodo
 
@@ -58,7 +58,7 @@ Sobre el límite, la razón es compatible con hidrops. La separación del PA ent
 
 Cada parámetro tiene su razón:
 
-1. **El pasa-alto va muy bajo.** El PS es un desplazamiento lento de la línea de base, casi continuo. Un pasa-alto de 100 Hz, el del PEAT, se come buena parte de él: en LabSim, un oído con una razón de 0,55 se mide 0,38 con el pasa-alto en 100 Hz y 0,08 en 200 Hz. El hidrops desaparece por el filtro, no por el oído.
+1. **El pasa-alto va muy bajo.** El PS es un desplazamiento lento de la línea de base, casi continuo. Un pasa-alto de 100 Hz, el del PEAT, se come buena parte de él, y el hidrops desaparece por el filtro, no por el oído.
 2. **El nivel va alto.** El PA aparece desde cerca del umbral, pero el PS solo se hace medible con la cóclea bien empujada. Una razón medida a nivel bajo sale chica aunque haya hidrops, y el equipo no avisa.
 3. **La polaridad va alternada.** La MC se invierte con la polaridad: al alternar se cancela y deja ver el PS y el PA. Para medir la diferencia entre rarefacción y condensación se registra además una curva con cada una.
 4. **La ventana va en 10 ms.** La razón de áreas se integra hasta que el complejo vuelve a la línea de base, y en un hidrops marcado eso puede pasar después de los 5 ms. Con burst largo, el PS dura lo que el estímulo y hace falta una ventana de 20 ms.
@@ -71,23 +71,7 @@ En el PEAT las ondas se dibujan hacia arriba porque el electrodo activo está en
 
 Se marca primero la **línea de base** (BL), antes de que llegue la respuesta. Después, el **PS**, en el hombro de la bajada, y el **PA**, en el fondo del valle. La amplitud de cada uno se mide desde la línea de base. Para la razón de áreas se marcan también el **inicio** del complejo y su **retorno** a la base. El hombro del PS no tiene un punto exacto con click, porque el PS y el PA se superponen; por eso conviene mirar las dos razones juntas.
 
-#### Conoce tu equipo: la electrococleografía en LabSim
-
-En LabSim la ECochG está dentro del equipo de PEAT: se elige en **Prueba**. El equipo pasa a un montaje timpánico con ventana de 10 ms y la tabla de valores cambia a la del ECochG. El electrodo, la ventana y la ganancia se eligen en *Archivo → Parámetros avanzados*, pestaña *Registro* (→ H10).
-
-:::imagen /docs/manual/img/estudiante/ecochg.png La electrococleografía en LabSim, con el OI registrado y marcado
-- @-2.5,8 | **Prueba: ECochG.** Cambia el montaje, la ventana y la tabla. Cambiar de prueba no borra el PEAT.
-- @-2.5,15.6 | **Polaridad** alternada para medir las razones. Para la diferencia de latencia hace falta una curva en rarefacción y otra en condensación, al mismo nivel.
-- @-2.5,31.3 | **Pasa alto** en 5 Hz. Con el corte del PEAT el PS se achica.
-- @-2.5,37 | **Promediación.** Como en el PEAT, la tasa y los barridos parten al azar: configurarlos es parte del examen.
-- @23,22.5 | La escala del gráfico sigue al electrodo. El botón **↕** invierte el eje si prefieres ver el PA hacia arriba.
-- @57,51 | El PS y el PA marcados sobre el trazo. El PA va hacia abajo.
-- @66,34 | La **línea de base** punteada, desde la marca BL.
-- @102,34 | Las marcas: **BL**, **Ini**, **PS**, **PA**, **Fin** y **MC**. **Auto** marca la curva elegida, pero la marca se revisa.
-- @102,44 | La **razón PS/PA**: 0,562, sobre el 0,40 del electrodo timpánico. La razón de áreas se calcula cuando están el inicio y el retorno.
-:::
-
-Las marcas automáticas de LabSim se apoyan en el trazo, no en el caso: si el filtro o el nivel están mal, marcan igual y la medida sale mal. Las medidas de tasa necesitan dos curvas del mismo oído a distinta tasa. El detalle de la técnica estará en H11.
+La pantalla del equipo, marca por marca, está en H11.
 
 :::comentario Lo que dicen las normas
 El límite de la razón de amplitudes cambia de una serie a otra. Con electrodo timpánico, Margolis y cols. (1995) fijaron el criterio para un 95 % de especificidad, y las revisiones que los citan lo sitúan entre 0,40 y 0,49 según el nivel; con solo 12 controles, Satar y cols. (2003) llegaron a 0,32. Con electrodo de conducto, 0,50 es el valor más alto observado en sanos (Roland y cols., 1993), no un corte estadístico. Wuyts y cols. (1997) proponen 0,35 para el transtimpánico y 0,42 para el "extratimpánico", pero agrupan bajo ese nombre el tímpano y el conducto. La razón de áreas (límite 1,94) se publicó con electrodo timpánico (Devaiah y cols., 2003); con aguja en el promontorio no resultó más sensible que la de amplitudes (Baba y cols., 2009). La diferencia entre polaridades la recomiendan Margolis y cols. (1995), pero en la serie de Satar y cols. (2003) los Ménière definidos tuvieron un promedio normal y agregarla no mejoró el diagnóstico. En este libro se usan los límites de la tabla anterior.
@@ -100,7 +84,7 @@ El límite de la razón de amplitudes cambia de una serie a otra. Con electrodo 
 Un hidrops es una lesión de la **cóclea** y, como toda lesión coclear, recluta: el umbral sube y la molestia no (→ H6). Las pruebas supraliminares lo muestran, y cuál se usa depende del oído contrario:
 
 - **Fowler.** Compara la sonoridad del oído enfermo con la del sano en la misma frecuencia. Necesita un oído de **referencia normal** en esa frecuencia y una diferencia de 20 a 40 dB entre los dos (→ H6). En un Ménière de un lado suele poder hacerse; en un paciente sin oído sano, no.
-- **SISI.** Mide si el oído nota aumentos de 1 dB sobre un tono 20 dB por encima del umbral. **No necesita un oído sano**: se hace en cada oído. En LabSim, como en el audiómetro, se hace **a mano**: el tono portador sonando, un giro de la perilla de 1 dB hacia arriba y de vuelta al portador, veinte veces (→ H6).
+- **SISI.** Mide si el oído nota aumentos de 1 dB sobre un tono 20 dB por encima del umbral. **No necesita un oído sano**: se hace en cada oído (→ H6).
 - **Fenómeno de Metz.** En el impedanciómetro, el reflejo estapedial aparece **a menos de 60 dB sobre el umbral tonal**. Es un signo de reclutamiento que no depende de la respuesta del paciente (→ H7). Recuerda pasar el reflejo a dB HL antes de restar.
 
 El **LDL** completa la lectura: en el oído que recluta queda cerca del del oído sano aunque el umbral sea peor, y el **campo dinámico se estrecha** (→ H5). Es lo que el paciente describe cuando dice que los ruidos fuertes le molestan por el oído que oye menos.
@@ -131,8 +115,6 @@ No hay un criterio único de positividad, y los que se han propuesto difieren mu
 :::
 
 <!-- Pasada de fundamentos 2026-10-18: la dosis de 1,2 mL/kg es la que usa la serie de 347 pacientes de Basel y Lütkenhöner (2013, resumen: "glycerol (1.2 mL/kg body weight) was orally administered"); ahí el mayor efecto fue a las 4 horas y casi igual a las 3. El resumen también dice "there is no consensus as to the definition of positive" y "a negative test result is of little diagnostic value". verificar: la frase del recuadro sobre qué criterios usa la literatura (10 dB en varias frecuencias graves, discriminación, síntomas no aceptados) no se pudo confirmar en un texto leído; Klockhoff y Lindblom 1966 no tiene resumen y no se leyó. -->
-
-LabSim no tiene la prueba de glicerol: sus pacientes no cambian dentro de una atención.
 
 :::ayuda Ayuda memoria
 - ECochG: electrodo **timpánico**, click **alternado a 90 dB nHL**, **5-3.000 Hz**, ventana de **10 ms**.
@@ -213,7 +195,7 @@ El hidrops también se puede ver en vivo, con una resonancia hecha horas despué
 :::
 
 :::comentario Lo que dicen las normas
-Los casos de LabSim muestran el Ménière **típico**: el de la etapa ascendente, con la ECochG y el VEMP alterados. En la clínica no siempre es así. Entre un cuarto y la mitad de los Ménière tienen la ECochG **normal** (Lamounier y cols., 2014); con electrodo extratimpánico, la sensibilidad fue de alrededor de 48 % y la especificidad de 84 % (Ayub y cols., 2019). En el hidrops retardado, el VEMP cervical salió normal en casi la mitad de los pacientes (Young y cols., 2002). Una ECochG o un VEMP normales **no descartan** el hidrops; uno alterado lo apoya.
+En la clínica el Ménière no siempre es el **típico**, con la ECochG y el VEMP alterados. Entre un cuarto y la mitad de los Ménière tienen la ECochG **normal** (Lamounier y cols., 2014); con electrodo extratimpánico, la sensibilidad fue de alrededor de 48 % y la especificidad de 84 % (Ayub y cols., 2019). En el hidrops retardado, el VEMP cervical salió normal en casi la mitad de los pacientes (Young y cols., 2002). Una ECochG o un VEMP normales **no descartan** el hidrops; uno alterado lo apoya.
 :::
 
 ### Hidrops retardado
@@ -332,7 +314,6 @@ Sobre el umbral, Patricia entrega lo que se vio en H6: **Fowler** en 1 kHz con r
 - **Hipótesis esperables:** enfermedad de Ménière del OI; migraña vestibular; schwannoma vestibular (menos probable con crisis de horas, pero hay que descartarlo).
 - **Qué pedir:** audiometría con enmascaramiento, LDL, logoaudiometría, Fowler y SISI, deterioro tonal, impedanciometría con reflejos, ECochG y VEMP cervical (→ H3, H5, H6, H7, H11, H12). Emisiones como complemento.
 - **Errores esperables:** registrar la ECochG con el pasa-alto del PEAT; no buscar el Metz; dar por normal la DPOAE del OI porque "pasa".
-- **En LabSim:** es el paciente de práctica 38; se atiende desde "Práctica libre". El ECochG está dentro del PEAT; el VEMP, en el box de electrofisiología.
 :::
 
 {{caso cap09_hidrops_retardado}}
@@ -406,7 +387,6 @@ La electrococleografía, con el mismo protocolo del caso anterior, da:
 - **Hipótesis esperables:** hidrops endolinfático retardado contralateral; Ménière del OI (sin el antecedente, sería el diagnóstico); hipoacusia súbita del único oído; schwannoma del OI.
 - **Qué pedir:** audiometría con enmascaramiento de los dos lados, logoaudiometría, SISI y deterioro tonal en el OI, impedanciometría con reflejos, ECochG y VEMP cervical (→ H3, H4, H6, H7, H11, H12). Controles seriados.
 - **Errores esperables:** intentar el Fowler; anotar el Rinne del OD como conductivo; leer el VEMP como normal por la asimetría baja; tranquilizar al paciente porque el audiograma de hoy está "casi normal".
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Hidrops endolinfático retardado (contralateral)* en el OI. El editor propone solo el oído contrario, entre parotiditis, laberintitis y fractura transversal: para este caso, *Parotiditis* en el OD.
 :::
 
 ## Resolución de los casos
@@ -421,7 +401,7 @@ Patricia cumple la historia completa del Ménière: crisis de vértigo de horas,
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,60 y razón de áreas de 3,61, sobre los límites. VEMP cervical del OI con amplitud muy reducida. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa, que no se hace en LabSim, se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
+Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,60 y razón de áreas de 3,61, sobre los límites. VEMP cervical del OI con amplitud muy reducida. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
 
 :::comentario Comentario
 El DP-grama del OI dice "pasa" con 4 de 7. Si solo se hubiera mirado el resultado global, se habría informado normal una cóclea que no amplifica los graves. Como en el ruido (→ cap. 6), las emisiones se leen frecuencia por frecuencia.

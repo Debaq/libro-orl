@@ -18,8 +18,8 @@ Este capítulo usa tres herramientas: las **emisiones otoacústicas** (→ H9), 
 
 En el tamizaje neonatal la pregunta de las emisiones es una sola: ¿pasa o refiere? En un oído expuesto a ruido la pregunta es otra: **dónde** dejó de funcionar el amplificador. El daño por ruido empieza en una zona acotada de la cóclea, alrededor de 3 a 6 kHz, y deja sanos los graves. Un criterio global de "pasa" puede quedar satisfecho por las frecuencias sanas aunque haya una muesca al lado.
 
-- **TEOAE.** Mira cinco bandas, de 1 a 4 kHz. En LabSim, como en muchos equipos, pasa con 3 de 5 bandas sobre el criterio (→ H9). Un oído con 1, 1,5 y 2 kHz sanos y una muesca en 3 y 4 kHz **puede pasar** (caso 6.2).
-- **DPOAE.** El DP-grama llega a 6 y 8 kHz, justo donde está la muesca y su recuperación. Es la emisión que más dice en el ruido. También tiene un criterio de conteo (4 de 7 en LabSim), y también puede engañar.
+- **TEOAE.** Mira cinco bandas, de 1 a 4 kHz. Muchos equipos dan **pasa** con 3 de 5 bandas sobre el criterio (→ H9). Un oído con 1, 1,5 y 2 kHz sanos y una muesca en 3 y 4 kHz **puede pasar** (caso 6.2).
+- **DPOAE.** El DP-grama llega a 6 y 8 kHz, justo donde está la muesca y su recuperación. Es la emisión que más dice en el ruido. También tiene un criterio de conteo, y también puede engañar.
 - **Se lee la forma, no el conteo.** Un DP-grama que cae desde 3 kHz y se queda pegado al ruido dibuja la misma muesca que el audiograma, aunque el equipo diga "pasa".
 
 :::ojo Ojo clínico
@@ -215,7 +215,6 @@ Es un examen para la empresa. ¿Te basta la audiometría o agregarías algo pens
 - **Hipótesis esperables:** audición normal. El episodio del concierto fue un desplazamiento temporal del umbral.
 - **Qué pedir:** otoscopía, audiometría con 12 horas de reposo auditivo, y emisiones (TEOAE y DPOAE) como base (→ H3, H9).
 - **Errores esperables:** pensar que si es normal "no hay nada que informar". La base se informa con el mismo detalle que un examen alterado, porque es contra lo que se va a leer todo lo que venga.
-- **En LabSim:** es el paciente de práctica 33; se atiende desde "Práctica libre".
 :::
 
 {{caso cap06_p37}}
@@ -263,7 +262,7 @@ Hace ocho años su audiometría de la empresa salió "dentro de rangos", y hace 
 - **Hipótesis esperables:** hipoacusia por ruido crónica; presbiacusia (no a los 47 y no con recuperación en 8 kHz); algo más si hubiera asimetría o mala discriminación.
 - **Qué pedir:** audiometría con reposo de 12 horas, logoaudiometría, acufenometría, emisiones; las audiometrías anteriores de la empresa para comparar (→ H3, H5, H9).
 - **Errores esperables:** quedarse con el "pasa" de la TEOAE del OD o de la DPOAE del OI; leer como asimetría 5 dB de diferencia.
-- **En LabSim:** es el paciente de práctica 37; se atiende desde "Práctica libre". Su acúfeno queda en la ficha (pitido de 4 kHz, mayor en el OI) para conversarlo en la entrevista.
+- **Para discutir:** Su acúfeno (pitido de 4 kHz, mayor en el OI) se conversa en la entrevista.
 :::
 
 {{caso cap06_trauma_acustico_agudo}}
@@ -311,7 +310,6 @@ El oído derecho no tuvo nada. ¿Qué cuidado de técnica vas a necesitar para m
 - **Hipótesis esperables:** trauma acústico agudo del OI; perforación traumática del tímpano (con componente conductivo); desplazamiento temporal que todavía no se recupera.
 - **Qué pedir:** otoscopía, audiometría con enmascaramiento (la diferencia entre oídos lo exige), logoaudiometría, emisiones y acufenometría (→ H1, H3, H4, H9). La impedanciometría confirma el oído medio sano.
 - **Errores esperables:** no enmascarar y anotar la curva sombra del OI; dar por normal la acumetría; no dejar escrito que esta audiometría es la base del seguimiento.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Trauma acústico agudo (explosión)* en el OI y el OD normal.
 :::
 
 {{caso cap06_muesca_4k}}
@@ -351,7 +349,6 @@ Las marcas de molestia (LDL) están en 90 dB HL en todas las frecuencias. En 4 k
 - **Hipótesis esperables:** hipoacusia por ruido (muesca); en una mujer joven que no trabaja en industria, muchos no piensan en el ruido. La historia laboral es la clave.
 - **Qué pedir:** audiometría (el reposo se cumple de sobra), acufenometría, DPOAE para ver de 3 a 8 kHz (→ H3, H9). La TEOAE agrega poco: no llega a 6 y 8 kHz.
 - **Errores esperables:** informar "hipoacusia leve" (BIAP) sin describir la muesca; no preguntar el último turno; pensar que el ruido laboral es solo de la industria.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Muesca en 4 kHz (trauma acústico)* en los dos oídos.
 :::
 
 ## Resolución de los casos

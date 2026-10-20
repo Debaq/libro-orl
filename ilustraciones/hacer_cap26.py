@@ -155,7 +155,7 @@ def dehiscencia():
             pts.append((bx + j, ty + 40 - v))
         c.poli(pts, col, 1.8)
         c.t(bx + 47, ty + 100, nom, 8, col, 'middle', 700)
-    c.t(14, 410, 'Cifras: Minor (2005), 65 pacientes; Zhou y cols. (2007), 26 con dehiscencia. En LabSim el motor recorta la ósea en 0 dB y apaga el reflejo con gap.', 7.5, TENUE, 'start')
+    c.t(14, 410, 'Cifras: Minor (2005), 65 pacientes; Zhou y cols. (2007), 26 con dehiscencia.', 7.5, TENUE, 'start')
     c.guardar('cap26-dehiscencia.svg', punta('p-a', TINTA))
 
 

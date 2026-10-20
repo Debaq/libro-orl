@@ -31,8 +31,8 @@ La audiometría de **screening** de un operativo (7 minutos, un solo nivel de 20
 
 Cuando lo conductual no es confiable, la estimación sale de pruebas que dependen de la fisiología y no de la mano (→ capítulo 19, tabla de lo que depende de la mano):
 
-- **PEAT con burst** por frecuencia: el umbral de la onda V, menos la corrección a dB eHL de cada frecuencia (→ H10). Es lo más cercano al audiograma que se puede obtener sin la colaboración del paciente. Las correcciones de H10 restan unos 20 dB al umbral del burst de 500 Hz y unos 5 al de 4.000 Hz. En el metaanálisis de Stapells (2000), los umbrales del PEAT con tonos de adultos con pérdida sensorioneural quedaron, en promedio, entre 5 y 13 dB sobre los conductuales. <!-- Pasada de fundamentos 2026-10-18: decía "Las correcciones de H10, que se apoyan en la revisión de Stapells (2000), parten de que el umbral del burst de 500 Hz queda unos 20 dB sobre el conductual y el de 4.000 Hz, unos 5". Las cifras 20/5 son la tabla de LabSim (H10), no de Stapells; se separó la práctica del dato de la fuente (resumen de Stapells, 2000, en el ASHA Evidence Map: "ABR thresholds are, on average, 5.2 to 13.4 dB higher than their pure-tone behavioural thresholds in adults with SNHL"). -->
-- **Estado estable** (ASSR): un umbral por frecuencia y por oído sin lectura de ondas (→ H13). En adultos con pérdida sensorioneural, los umbrales del ASSR múltiple quedaron, en promedio, 14, 8, 10 y 3 dB sobre los conductuales en 500, 1.000, 2.000 y 4.000 Hz, con desviaciones de 9 a 13 dB (Herdman y Stapells, 2003). LabSim no tiene ASSR.
+- **PEAT con burst** por frecuencia: el umbral de la onda V, menos la corrección a dB eHL de cada frecuencia (→ H10). Es lo más cercano al audiograma que se puede obtener sin la colaboración del paciente. Las correcciones de H10 restan unos 20 dB al umbral del burst de 500 Hz y unos 10 al de 4.000 Hz. En el metaanálisis de Stapells (2000), los umbrales del PEAT con tonos de adultos con pérdida sensorioneural quedaron, en promedio, entre 5 y 13 dB sobre los conductuales. <!-- Pasada de fundamentos 2026-10-18: decía "Las correcciones de H10, que se apoyan en la revisión de Stapells (2000), parten de que el umbral del burst de 500 Hz queda unos 20 dB sobre el conductual y el de 4.000 Hz, unos 5". Las cifras 20/5 son la tabla de LabSim (H10), no de Stapells; se separó la práctica del dato de la fuente (resumen de Stapells, 2000, en el ASHA Evidence Map: "ABR thresholds are, on average, 5.2 to 13.4 dB higher than their pure-tone behavioural thresholds in adults with SNHL"). -->
+- **Estado estable** (ASSR): un umbral por frecuencia y por oído sin lectura de ondas (→ H13). En adultos con pérdida sensorioneural, los umbrales del ASSR múltiple quedaron, en promedio, 14, 8, 10 y 3 dB sobre los conductuales en 500, 1.000, 2.000 y 4.000 Hz, con desviaciones de 9 a 13 dB (Herdman y Stapells, 2003).
 - **Emisiones y reflejos** no entregan un umbral, pero acotan: una emisión presente en una banda descarta una pérdida coclear grande en esa banda, y el reflejo estapedial aparece muy por encima del umbral de un oído real, no pegado a él (→ H7, H9).
 
 Dos consecuencias para el informe. Primera: **un umbral estimado es un rango, no un punto**. Una desviación de 10 dB entre el método objetivo y lo conductual es lo habitual, y en el porcentaje de daño pesa (más abajo). Segunda: **lo estimado no reemplaza lo conductual cuando este fue confiable**. Si el paciente repitió a ±5 dB y su SRT calza con su promedio, el audiograma es su umbral.
@@ -195,11 +195,9 @@ Ante un paciente con un reclamo, el orden de las preguntas es el siguiente:
 El umbral conductual de un trabajador es de 70 dB en todas las frecuencias y el del PEAT, corregido, está en 35 a 45 dB. ¿Con cuál de los dos calculas el porcentaje y qué escribes en el informe sobre el otro? ¿Qué le dices al trabajador cuando te pregunta qué salió?
 :::
 
-## En LabSim
-
-LabSim arma cada paciente con su **audición verdadera**, y de ella salen sus emisiones, sus reflejos y sus umbrales con burst. No puede cargar encima el audiograma que el paciente **informa**: por eso, en el caso 34.1, lo que él entrega va en una tabla, dato por dato, como un registro de la consulta. Tampoco existe en LabSim el estado estable (→ H13), ni cálculo de porcentajes de daño: las cuentas de este capítulo están hechas a mano con las fórmulas de arriba, y puedes rehacerlas con los umbrales de cada figura.
-
 ## Casos
+
+En el caso 34.1, lo que el paciente entrega va en una tabla, dato por dato, como un registro de la consulta.
 
 {{caso cap34_exagera}}
 
@@ -236,7 +234,7 @@ Tabla: Stenger de Ismael (dB HL)
 | OD (malo), tono 10 dB bajo lo informado | 85 | 85 | 90 |
 | Respuesta | no responde | no responde | no responde |
 
-Con los dos tonos a la vez, el paciente dejó de responder en las tres frecuencias: el tono del OD, que dice no oír, era el más fuerte sobre su umbral verdadero y se lo tragó. **Stenger positivo** (Kinstler y cols., 1972). Esto es lo que mide el simulador de su oído real, sin su mano:
+Con los dos tonos a la vez, el paciente dejó de responder en las tres frecuencias: el tono del OD, que dice no oír, era el más fuerte sobre su umbral verdadero y se lo tragó. **Stenger positivo** (Kinstler y cols., 1972). Esto es lo que dicen de su oído real las pruebas que no dependen de él:
 
 :::figura cap34_exagera audiograma
 - @OD 500 | La audición verdadera: **10 dB en 500 Hz**, donde Ismael entregó 95. A 1 kHz, 15 dB.
@@ -254,7 +252,7 @@ Con los dos tonos a la vez, el paciente dejó de responder en las tres frecuenci
 - @OI 1000 | El OI pasa 1.000 y 1.500 Hz. La reproducibilidad global del OD es baja (11 %): aquí vale la banda de 1 kHz, no el total.
 :::
 :::figura cap34_exagera abr
-- @OD 60 V | Con click hay onda V a **60 dB nHL** en el OD y no a 40: umbral de 60 dB nHL, unos 50 dB eHL con la corrección de 10 dB del click (→ H10). Es un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 35 a 70.
+- @OD 60 V | Con click hay onda V a **60 dB nHL** en el OD y no a 40: umbral de 60 dB nHL, unos 55 dB eHL con la corrección de 5 dB del click (→ H10). Es un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 35 a 70.
 - @OI 60 V | El OI responde igual a 60 dB.
 :::
 :::figura cap34_exagera abr 2
@@ -267,20 +265,20 @@ Tabla: Umbrales del PEAT con burst por frecuencia (→ H10) y audiograma estimad
 | | 500 | 1.000 | 2.000 | 4.000 |
 |---|---|---|---|---|
 | **OD**, burst (nHL) | 30 | 30 | 45 | 75 |
-| **OD**, estimado (eHL) | 10 | 15 | 35 | 70 |
+| **OD**, estimado (eHL) | 10 | 15 | 35 | 65 |
 | **OI**, burst (nHL) | 30 | 30 | 45 | 70 |
-| **OI**, estimado (eHL) | 10 | 15 | 35 | 65 |
+| **OI**, estimado (eHL) | 10 | 15 | 35 | 60 |
 
-Falta 3.000 Hz, que no tiene burst en LabSim. Se interpola entre 2.000 y 4.000 Hz: unos 52 dB en el OD y 50 en el OI. Con eso:
+Falta 3.000 Hz. Se interpola entre 2.000 y 4.000 Hz: 50 dB en el OD y unos 48 en el OI. Con eso:
 
 Tabla: Cálculo con la fórmula de la AMA según qué umbral se use: el que informa Ismael o el estimado con el PEAT
 
 | | Promedio 500-3.000 Hz | % monoaural (OD / OI) | % binaural |
 |---|---|---|---|
 | Umbrales informados | 97,5 / 60 | 100 / 52,5 | **60,4 %** |
-| Umbral estimado | 28 / 27,5 | 4,7 / 3,8 | **3,9 %** |
+| Umbral estimado | 27,5 / 26,9 | 3,8 / 2,8 | **3,0 %** |
 
-El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el promedio de cada oído, el porcentaje de cada uno va de 0 a 12 %.
+El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el promedio de cada oído, el porcentaje de cada uno va de 0 a 11 %.
 
 :::docente Guía del caso
 - **Datos clave:** 24 años de cantera, audiometría de ingreso con caída de agudos, tronadura hace tres meses con otoscopía normal, trámite en curso, atiende a quien lo llama de espaldas.
@@ -288,7 +286,6 @@ El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el
 - **Qué pedir:** audiometría con repeticiones y SRT; Stenger; reflejos; emisiones; PEAT con click y con burst; ASSR si hay. Aquí se pasa el umbral estimado al cálculo (→ H10, H13).
 - **Errores esperables:** calcular el 60 % con lo informado; informar "normal" por las emisiones (en 3 y 4 kHz no pasan y hay pérdida real); escribir "simula".
 - **Para discutir en clases:** el informe en el apartado de resultados y en el de límites; qué se le dice a Ismael y qué a la mutual.
-- **En LabSim:** cuadro *pérdida por ruido crónica* leve en los dos oídos. Lo que el paciente entrega no sale del simulador: va en las tablas.
 :::
 
 {{caso cap34_hidrops}}
@@ -328,7 +325,7 @@ Con una pérdida unilateral, ¿qué pruebas agregarías a la audiometría para s
 - @OI PS | En el OI el PS es grande frente al PA: razón PS/PA de **0,46**, sobre el límite del electrodo timpánico (→ capítulo 9, H11). En el OD es de 0,20.
 :::
 :::figura cap34_hidrops abr
-- @OI 80 V | En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, 55 dB nHL (unos 45 dB eHL), corresponde a la zona de 2 a 4 kHz del audiograma (40 a 45 dB). La vía responde y la batería no muestra signos que sugieran lesión retrococlear (→ capítulo 11).
+- @OI 80 V | En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, 55 dB nHL (unos 50 dB eHL), corresponde a la zona de 2 a 4 kHz del audiograma (40 a 45 dB). La vía responde y la batería no muestra signos que sugieran lesión retrococlear (→ capítulo 11).
 - @OD 40 V | El OD tiene ondas III y V a 40 dB, normal.
 :::
 
@@ -340,7 +337,6 @@ Con el criterio chileno, el promedio de 1.000, 2.000, 3.000, 4.000 y 6.000 Hz es
 - **Hipótesis:** hidrops endolinfático (Ménière), pérdida por ruido, lesión retrococlear.
 - **Qué pedir:** audiometría con ósea y logo, emisiones, ECochG, PEAT; el estudio de oído medio descarta lo conductivo (→ H3, H5, H9, H10, H11).
 - **Errores esperables:** calcular el porcentaje y entregarlo como "daño laboral"; concluir "no es del trabajo" sin decir qué sí es; no mencionar la fluctuación.
-- **En LabSim:** OD normal, OI *Ménière* moderada.
 :::
 
 {{caso cap34_honesto}}
@@ -408,7 +404,6 @@ La misma audiometría da **0,3 %** con la AMA y un promedio de **42 y 45 dB** co
 - **Qué pedir:** audiometría con ósea y logo, impedanciometría, emisiones; **no** se necesita PEAT, porque colabora y sus respuestas son confiables.
 - **Errores esperables:** decir que "no tiene nada" por el 0,3 %; calcular solo con la AMA; escribir que "empeoró" sin comparar con el egreso.
 - **Para discutir en clases:** qué le dices sobre el audífono y qué sobre la reevaluación; qué parte de su pérdida actual es del ruido.
-- **En LabSim:** cuadro *pérdida por ruido crónica* leve en los dos oídos, a los 63 años. La audiometría de egreso no sale del simulador: es un dato del caso.
 :::
 
 ## Resolución de los casos
@@ -425,7 +420,7 @@ Ismael tiene una pérdida real: la muesca de 70 dB en 4 kHz, bilateral y simétr
 
 Pérdida sensorioneural bilateral en agudos, compatible con exposición crónica a ruido, con respuestas conductuales mayores que el umbral objetivo. Se informa:
 
-> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 3,9 %, con un rango de 0 a unos 12 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
+> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 3,0 %, con un rango de 0 a unos 11 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
 
 :::comentario Comentario
 Un informe que diga "60 %" por lo entregado es un error, y uno que diga "normal" por las emisiones también. Escribir los dos hechos, la pérdida real y la discordancia, y dejar el cálculo con lo estimado, es más largo y es lo correcto.

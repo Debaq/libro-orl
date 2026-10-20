@@ -238,7 +238,7 @@ El OD oye bien. ¿Qué vas a tener que hacer en el OI para que su audiograma sea
 - **Hipótesis esperables:** hipoacusia súbita del OI; tapón de cera u otitis media con efusión (descartadas por la otoscopía y el Weber); un tumor del VIII par que debuta como súbita (→ cap. 11).
 - **Qué pedir:** otoscopía, acumetría, audiometría con enmascaramiento, logoaudiometría enmascarada e impedanciometría (→ H2, H3, H4, H5, H7). Acufenometría si el pitido sigue.
 - **Errores esperables:** informar la curva sin enmascarar como una conductiva; olvidar la oclusión al enmascarar la ósea grave; no tratar el examen como la base del seguimiento.
-- **En LabSim:** no está entre los pacientes de práctica; se crea con el cuadro *Hipoacusia súbita* en el OI, grado severa, y el OD normal. El audiómetro responde con la curva sombra hasta que el ruido alcance el mínimo.
+- **Para discutir:** Sin enmascaramiento suficiente aparece la curva sombra.
 :::
 
 {{caso cap07_laberintitis}}
@@ -279,7 +279,7 @@ Además de medir la audición, ¿qué prueba de las que tienes en el box te dice
 - **Hipótesis esperables:** laberintitis viral del OD; neuritis vestibular (no explica la pérdida auditiva); infarto de la arteria cerebelosa anteroinferior (vértigo + pérdida brusca, Lee 2012); súbita con vértigo.
 - **Qué pedir:** audiometría con enmascaramiento, impedanciometría, VEMP (→ H3, H4, H7, H12). La evaluación vestibular completa (→ cap. 21) la pide el médico.
 - **Errores esperables:** quedarse con "neuritis" porque el vértigo domina el relato; no enmascarar el OD; no preguntar por síntomas neurológicos.
-- **En LabSim:** cuadro *Laberintitis (viral / bacteriana)* en el OD y el OI normal. La evaluación vestibular de pasillo (nistagmo, impulso cefálico) no está en LabSim: se discute aparte.
+- **Para discutir:** La evaluación vestibular de pasillo (nistagmo, impulso cefálico).
 :::
 
 {{caso cap07_conmocion_laberintica}}
@@ -322,7 +322,6 @@ Un golpe en la cabeza y los dos oídos "apagados". Plantea una causa conductiva 
 - **Hipótesis esperables:** conmoción laberíntica bilateral; hemotímpano o luxación de la cadena (conductivas, descartadas por la otoscopía y el timpanograma); hipoacusia por ruido (la descarta la historia y la audiometría previa).
 - **Qué pedir:** audiometría, impedanciometría con reflejos, emisiones (→ H3, H7, H9); la audiometría del año pasado para compararla. Acufenometría.
 - **Errores esperables:** ver la muesca y concluir "ruido"; olvidar que un accidente puede terminar en un juicio y que la base anterior vale oro (→ cap. 34).
-- **En LabSim:** cuadro *Conmoción laberíntica (TEC sin fractura)* en los dos oídos.
 :::
 
 {{caso cap07_p42}}
@@ -370,7 +369,7 @@ Quiere saber si le sirven "audífonos que pasan el sonido al otro oído". ¿Qué
 - **Hipótesis esperables:** cófosis del OD por parotiditis; menos probable, un problema retrococlear que nunca se estudió.
 - **Qué pedir:** acumetría, audiometría con enmascaramiento (también la ósea), logoaudiometría enmascarada, impedanciometría con reflejos, emisiones y VEMP (→ H2, H4, H5, H7, H9, H12). Para hablar de CROS o de implante, el estudio completo del oído bueno.
 - **Errores esperables:** informar la curva sombra del OD; ver el Rinne negativo y pensar en una conductiva; olvidar al oído bueno.
-- **En LabSim:** es el paciente de práctica 42; se atiende desde "Práctica libre". El mismo paciente se usa en H4 para mostrar la curva sombra en tonos y en palabras.
+- **Para discutir:** El mismo paciente se usa en H4 para mostrar la curva sombra en tonos y en palabras.
 :::
 
 {{caso cap07_autoinmune}}
@@ -411,7 +410,7 @@ Tiene una audiometría de hace dos meses. ¿Qué tiene que tener la de hoy para 
 - **Hipótesis esperables:** enfermedad autoinmune del oído interno; otosífilis; menos probable, un Ménière bilateral (→ cap. 9) o un proceso retrococlear bilateral.
 - **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, impedanciometría, emisiones (→ H3, H4, H5, H7, H9), con la misma técnica que la anterior para poder comparar. Audiometrías seriadas durante el tratamiento.
 - **Errores esperables:** tratarla como una "súbita del OD" y no ver que el OI también cae; no comparar con la audiometría anterior; no enmascarar el OD.
-- **En LabSim:** cuadro *Autoinmune del oído interno / otosífilis* en los dos oídos, grado severa en el OD. El simulador guarda una foto: la progresión y la fluctuación están en la historia, no en el audiómetro, y la asimetría depende del grado que se elija en cada oído.
+- **Para discutir:** La progresión y la fluctuación están en la historia.
 :::
 
 ## Resolución de los casos

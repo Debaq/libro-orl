@@ -351,7 +351,7 @@ Tabla: Estación que genera cada onda del PEAT
 
 Es un mapa útil pero no literal: cada onda recibe aportes de varias estaciones y una misma estación contribuye a más de una onda (Melcher y Kiang, 1996), y el PEAT recibe aporte de estructuras cruzadas y no cruzadas del tronco (Møller y cols., 1995; → H10, cap. 12). El geniculado y la corteza no generan ondas del PEAT: sus respuestas son las de latencia media y tardía (→ H14). Por eso un PEAT normal no descarta una lesión por encima del mesencéfalo.<!-- verificar: la última frase es la lectura habitual del PEAT (sus ondas terminan en el mesencéfalo); no se encontró una cita puntual en las fuentes ya verificadas del libro. -->
 
-:::imagen ilustraciones/b1-lam-peat.svg ancho=100% El PEAT que calcula el simulador para los mismos casos (clic a 80 dB, oído derecho arriba e izquierdo abajo). A: ondas I a V del oído sano. B: schwannoma izquierdo; la I queda y las ondas siguientes se atrasan y bajan, como en una lesión retrococlear (→ H10, cap. 11). C: complejo olivar izquierdo; baja la IV, la onda que se asigna a esa estación. D: colículo inferior izquierdo; el modelo no cambia las ondas. Compara cada trazo del oído izquierdo con el derecho de la misma lámina. Las cifras del eje son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
+:::imagen ilustraciones/b1-lam-peat.svg ancho=100% El PEAT de los mismos casos (clic a 80 dB, oído derecho arriba e izquierdo abajo). A: ondas I a V del oído sano. B: schwannoma izquierdo; la I queda y las ondas siguientes se atrasan y bajan, como en una lesión retrococlear (→ H10, cap. 11). C: complejo olivar izquierdo; baja la IV, la onda que se asigna a esa estación. D: colículo inferior izquierdo; el modelo no cambia las ondas. Compara cada trazo del oído izquierdo con el derecho de la misma lámina. Las cifras del eje son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
 
 **Lo que mide la batería de procesamiento central.** Cada prueba de la batería explora una parte de esta cadena: las que comparan los dos oídos y la localización dependen del tronco, y las que exigen reconocer patrones en el tiempo o combinar lo que llega por cada oído dependen de la corteza y del cuerpo calloso (→ H15).
@@ -392,7 +392,6 @@ Cada canal activa dos músculos, uno de cada ojo, que juntos mueven la mirada en
 :::imagen ilustraciones/b1-lam-vor.svg ancho=100% Los tres arcos del reflejo vestíbulo-ocular, con un impulso de la cabeza a mitad de camino. A y B: el canal lateral derecho, excitado cuando la cabeza gira a la derecha (A) e inhibido cuando gira a la izquierda (B). C y D: los canales verticales por pares coplanares, LARP (anterior izquierdo y posterior derecho) y RALP (anterior derecho y posterior izquierdo). Mira que en cada par un canal se excita y el otro se inhibe, que el núcleo vestibular excitado recibe del compañero inhibido, y qué músculos de cada ojo se encienden: en C, el recto superior izquierdo y el oblicuo inferior derecho, los de la tabla de arriba. Rojo, excitado; azul, inhibido. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
 
-
 #### Las vías otolíticas
 
 Por el mismo nervio vestibular van el **utrículo** (rama superior) y el **sáculo** (rama inferior). Cada uno tiene su vía de reflejo, y son las que exploran los potenciales evocados miogénicos vestibulares (→ H12):
@@ -414,7 +413,7 @@ Por el mismo nervio vestibular van el **utrículo** (rama superior) y el **sácu
 
 Dos haces llevan el tono postural desde los núcleos vestibulares. El **vestibuloespinal lateral**, desde el núcleo vestibular lateral, baja por el mismo lado y activa los músculos que sostienen el cuerpo contra la gravedad, los extensores de las piernas y del tronco. El **vestibuloespinal medial**, desde el núcleo medial, baja por el fascículo longitudinal medial hasta el cuello y actúa sobre los músculos que mantienen estable la cabeza (Cullen, 2012; → H16 "El reflejo vestíbulo-espinal", H20).<!-- verificar: la distinción lateral/medial es la clásica de los textos; la revisión de Cullen (2012) la trata, pero no se cotejó la página. -->
 
-:::imagen ilustraciones/b1-lam-esp.svg ancho=100% Las vías vestibuloespinales y las que las acompañan en el control postural, del módulo Postural del simulador. A y B: la capa vestibular con el cuerpo inclinado a un lado (A) y adelante y atrás (B); desde los canales y los otolitos, los núcleos vestibulares (Deiters, medial e inferior) llegan a la médula cervical, hacia los músculos del cuello, y a la lumbar, hacia los extensores de las piernas y los tibiales. C: la vía propioceptiva, del tobillo y de la planta a la médula, al cerebelo y a la corteza. D: lo que las junta, con la visión y las áreas de la corteza. Mira qué fibras se calientan y cuáles se enfrían cuando cambia la inclinación, y compara A con B. Rojo, la vía dispara más que en reposo; azul, menos. Las cifras que escribe el esquema son del modelo, no valores de referencia (→ H16 "El reflejo vestíbulo-espinal", H20). Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
+:::imagen ilustraciones/b1-lam-esp.svg ancho=100% Las vías vestibuloespinales y las que las acompañan en el control postural. A y B: la capa vestibular con el cuerpo inclinado a un lado (A) y adelante y atrás (B); desde los canales y los otolitos, los núcleos vestibulares (Deiters, medial e inferior) llegan a la médula cervical, hacia los músculos del cuello, y a la lumbar, hacia los extensores de las piernas y los tibiales. C: la vía propioceptiva, del tobillo y de la planta a la médula, al cerebelo y a la corteza. D: lo que las junta, con la visión y las áreas de la corteza. Mira qué fibras se calientan y cuáles se enfrían cuando cambia la inclinación, y compara A con B. Rojo, la vía dispara más que en reposo; azul, menos. Las cifras que escribe el esquema son del modelo, no valores de referencia (→ H16 "El reflejo vestíbulo-espinal", H20). Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
 
 #### Hacia el cerebelo
@@ -491,7 +490,7 @@ Los ojos se mueven de cuatro maneras: saltar a un blanco (**sacadas**), acompañ
 
 ### Dónde está la lesión
 
-Cada sitio que viste tiene su signo. La tabla une el sitio con lo que se ve y con dónde se aprende a leerlo; las láminas siguientes muestran, sobre el mismo esquema, cada lesión armada en el simulador y cómo cambia con los días.
+Cada sitio que viste tiene su signo. La tabla une el sitio con lo que se ve y con dónde se aprende a leerlo; las láminas siguientes muestran, sobre el mismo esquema, cada lesión y cómo cambia con los días.
 
 Tabla: Sitio de la lesión y el signo que deja
 

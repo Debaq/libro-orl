@@ -52,7 +52,11 @@ Una inversión del trazo **no basta**: lo que invierte con la polaridad puede se
 
 Con fono de inserción, el sonido viaja por un tubo de silicona. Si **pinzas el tubo** mientras el equipo está promediando, el sonido deja de llegar a la cóclea: la microfónica **desaparece**. El artefacto eléctrico, en cambio, no depende del tubo, porque la corriente al transductor sigue circulando: **persiste** (BSA, 2019). Lo que se cae al pinzar era microfónica; lo que queda, artefacto.
 
-En LabSim la casilla **Pinzar tubo** se puede marcar en plena promediación: la deflexión de la microfónica desaparece y queda solo la deriva y el artefacto eléctrico, si lo hay (→ H10, "Conoce tu equipo"). Solo tiene sentido con fonos de inserción: el supraaural y el vibrador no tienen tubo.
+Solo tiene sentido con fonos de inserción: el supraaural y el vibrador no tienen tubo.
+
+:::simulador
+Caso 13.1: repite la rarefacción con el tubo pinzado en plena promediación y mira qué se cae.
+:::
 
 <!-- Protocolo ORL 2019: "En el caso de sospecha de neuropatía, es necesario aumentar la tasa de estimulación a 81,1 estímulos/segundo." Se mantiene como prueba de esfuerzo de la vía neural, pero para el diagnóstico de neuropatía se agrega la maniobra que define el cuadro: polaridades separadas y tubo pinzado (Berlin y cols., 1998; BSA, 2019). Mismo comentario que en H10. -->
 
@@ -188,7 +192,7 @@ Además del audiograma, ¿qué pruebas separan una causa coclear de una neural? 
 :::
 :::figura cap13_p40 abr 3
 - @OD 90 | En **condensación** la deflexión sale **hacia arriba**: el mismo potencial, invertido. Es la microfónica coclear, que la alternada había cancelado.
-- Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado (en LabSim, la casilla de la ventana del ABR).
+- Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado.
 :::
 
 :::docente Guía del caso
@@ -196,7 +200,7 @@ Además del audiograma, ¿qué pruebas separan una causa coclear de una neural? 
 - **Hipótesis esperables:** coclear leve a moderada, problema atencional ("distraída"), central, **neuropatía auditiva**. Los antecedentes (prematurez, bilirrubina) y la discrepancia entre audiograma y discriminación apuntan a la última.
 - **Qué pedir:** logoaudiometría completa, reflejos, emisiones, ABR de alto nivel con **dos polaridades** y tubo pinzado (→ H5, H9, H10).
 - **Errores esperables:** llamarla sorda por el ABR plano; ofrecer audífono sin ver la discriminación; quedarse en "es distraída".
-- **En LabSim:** es el paciente de práctica 40; se atiende desde "Práctica libre". En el ABR cambia la polaridad en el combo y marca **Pinzar tubo** durante la promediación.
+- **Para discutir:** Para ver la microfónica, cambiar la polaridad y pinzar el tubo durante la promediación.
 :::
 
 {{caso cap13_neuropatia_hereditaria}}
@@ -243,7 +247,6 @@ Si el audiograma saliera normal, ¿darías de alta? ¿Qué agregarías para cuan
 - **Hipótesis esperables:** coclear leve (no: audiograma normal), problema de procesamiento central (→ H15), **neuropatía periférica con compromiso del VIII par**.
 - **Qué pedir:** logoaudiometría, reflejos, emisiones, ABR y, si hay equipo, logoaudiometría en ruido y VEMP. Coordinar con neurología.
 - **Errores esperables:** dar de alta por audiograma normal; llamarla "fingida"; no relacionarlo con el cuadro neurológico.
-- **En LabSim:** cuadro *neuropatía hereditaria*, sin grado (audiograma normal).
 :::
 
 {{caso cap13_kernicterus}}
@@ -285,7 +288,6 @@ No se le puede pedir que levante la mano de forma fiable durante una hora. ¿Qu�
 - **Hipótesis esperables:** hipoacusia coclear profunda (no: emisiones presentes), **neuropatía auditiva por bilirrubina**, trastorno global del lenguaje.
 - **Qué pedir:** emisiones, reflejos, microfónica en dos polaridades, ABR a alto nivel; logoaudiometría o lista adaptada a su edad.
 - **Errores esperables:** poner un audífono por el audiograma sin saber que la discriminación es 0 %; llamarlo "sordo coclear" por el ABR; no registrar la microfónica.
-- **En LabSim:** cuadro *kernícterus* en grado moderado en los dos oídos.
 :::
 
 {{caso cap13_leucodistrofia}}
@@ -328,7 +330,7 @@ Si el audiograma sale normal, ¿qué prueba objetiva te dice si el problema est�
 - **Qué pedir:** audiometría, logoaudiometría, emisiones, reflejos, ABR. Y, de inmediato, **derivación a neurología pediátrica**.
 - **Errores esperables:** llamarlo "distraído"; concluir "oído normal" y cerrar; no ver que un ABR alterado con audiograma normal es una alarma.
 - **Para discutir en clases:** el audiólogo no hace el diagnóstico etiológico, pero puede ser quien lo sospeche primero. El caso muestra que la neuropatía auditiva del niño en edad escolar es un signo, no un diagnóstico.
-- **En LabSim:** cuadro *leucodistrofia*, sin grado (audiograma normal). Electrofisiológicamente es parecido al caso anterior: lo que separa los casos es la historia.
+- **Para discutir:** Electrofisiológicamente es parecido al caso anterior: lo que separa los casos es la historia.
 :::
 
 ## Resolución de los casos

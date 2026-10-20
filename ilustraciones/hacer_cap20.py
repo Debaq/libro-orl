@@ -148,7 +148,7 @@ def oseo():
     columnas = [('CVEMP', 'OD'), ('CVEMP', 'OI'), ('OVEMP', 'OD'), ('OVEMP', 'OI')]
     cab = [('cVEMP · OD', 'cuello derecho'), ('cVEMP · OI', 'cuello izquierdo'),
            ('oVEMP · OD', 'bajo el ojo izquierdo'), ('oVEMP · OI', 'bajo el ojo derecho')]
-    filas = [['Vía aérea', '100 dB SPL (LabSim)'], ['Vía ósea', '70 dB FL (LabSim)']]
+    filas = [['Vía aérea', 'fonos de inserción'], ['Vía ósea', 'vibrador en la mastoides']]
     regs = {}
     for j, (clave, lado) in enumerate(columnas):
         regs[(0, j)] = registrar(d, lado, clave, 'aereo', 100, etiqueta='oseo')

@@ -73,9 +73,9 @@ Tabla: Tipos de impedanciómetro según su uso
 
 ### Conoce tu equipo: el impedanciómetro
 
-Todos los impedanciómetros tienen la misma lógica: una pantalla que cambia según la prueba, unas **teclas bajo la pantalla** cuya función aparece rotulada en la última línea, y unos controles fijos para elegir el oído, la sonda y la intensidad. La figura muestra el de LabSim con un timpanograma recién hecho en el oído derecho de Carolina, la paciente con otoesclerosis que vas a ver más abajo.
+Todos los impedanciómetros tienen la misma lógica: una pantalla que cambia según la prueba, unas **teclas bajo la pantalla** cuya función aparece rotulada en la última línea, y unos controles fijos para elegir el oído, la sonda y la intensidad. La figura muestra uno con un timpanograma recién hecho en el oído derecho de Carolina, la paciente con otoesclerosis que vas a ver más abajo.
 
-:::imagen /docs/manual/img/estudiante/impedanciometro-timpanograma.png El impedanciómetro de LabSim en la pantalla de timpanograma. Antes de mirar la curva, lee los tres números de la derecha: compliancia, presión y volumen.
+:::imagen /docs/manual/img/estudiante/impedanciometro-timpanograma.png Un impedanciómetro en la pantalla de timpanograma. Antes de mirar la curva, lee los tres números de la derecha: compliancia, presión y volumen.
 - @55.7,34 | **La curva.** Un pico muy bajo, apenas sobre la línea de base: un oído medio rígido.
 - @89.8,11 | **Compliancia** (*Compliance*): la altura del pico, ya descontado el conducto. Aquí 0,18 mL.
 - @89.8,18 | **Presión** (*Pressure*): dónde cae el pico. Aquí 18 daPa, prácticamente cero.
@@ -87,7 +87,6 @@ Todos los impedanciómetros tienen la misma lógica: una pantalla que cambia seg
 - @49.7,92.9 | **Estímulo.** Inicia el barrido; otro clic lo detiene.
 - @77.5,67.5 | **Control.** El oído (*OD/OI*) y la sonda (*226 Hz* o *1000 Hz*).
 :::
-
 
 ### Paciente
 
@@ -128,10 +127,10 @@ Se empieza por el **oído derecho**. Se elige una oliva que selle sin entrar a p
 
 Con la timpanometría lista, sin sacar la sonda, se buscan los reflejos **a la presión del pico**, que es donde el tímpano se mueve mejor.
 
-- **Ipsilateral primero**, en 500, 1000, 2000 y 4000 Hz; luego **contralateral** en las mismas frecuencias más un **ruido** (de banda ancha en muchos equipos; en LabSim, NBN).
+- **Ipsilateral primero**, en 500, 1000, 2000 y 4000 Hz; luego **contralateral** en las mismas frecuencias más un **ruido** (de banda ancha en muchos equipos).
 - Se parte en **80 dB** y se sube de **5 en 5** hasta ver la deflexión.
 - **Criterio de presencia**: una deflexión de al menos **0,02 mL**, con la forma típica (baja al empezar el tono, vuelve al terminar). Se sube 5 dB para confirmar que **crece**, y se baja 10 para comprobar que el umbral se repite (BSA, 2024).
-- **Tope**: no pasar de 105 dB HL con tonos, por riesgo para la audición que queda (BSA, 2024). En un equipo que muestra dB SPL, como el de LabSim, eso es algo más: entre 105 y 117 dB SPL según la frecuencia y el transductor (ver "El reflejo: umbral y Metz").
+- **Tope**: no pasar de 105 dB HL con tonos, por riesgo para la audición que queda (BSA, 2024). En un equipo que muestra dB SPL, eso es algo más: entre 105 y 117 dB SPL según la frecuencia y el transductor (ver "El reflejo: umbral y Metz").
 
 El **umbral del reflejo** es la menor intensidad que da una deflexión repetible.
 
@@ -157,10 +156,7 @@ Pregunta si el reflejo **se sostiene**. Una fibra del VIII par comprimida no man
 
 En los tumores del VIII lo más frecuente es que el reflejo esté **elevado o ausente**; el deterioro completa el cuadro: 95 de 97 oídos con tumor tenían una de las dos alteraciones (Hirsch, 1983).
 
-:::imagen /docs/manual/img/estudiante/impedanciometro-decay.png Deterioro del reflejo sin decaimiento: la contracción se sostiene plana los 10 segundos del tono, como en un nervio sano.
-- @46.4,40 | **La contracción**: empieza en el segundo 1, cuando arranca el tono, y se mantiene plana hasta el 11.
-- @88.8,20 | **Lo que queda de la amplitud inicial**: 97 % a los 5 s y 94 % a los 10 s. Perdió 6 %: **negativo**.
-- @24.6,59 | **Teclas**: 500 o 1000 Hz, *Inicio*, intensidad (aquí 95 dB) e *IPSI/CONTRA*. Aquí, un ipsilateral del OI; la prueba clásica es contralateral, y el equipo permite las dos.
+:::imagen ilustraciones/h7-decay.svg ancho=92% Deterioro del reflejo con un tono de 10 s, 10 dB sobre el umbral del reflejo. Negativo: la contracción se sostiene (94 % de la amplitud inicial a los 10 s). Positivo: cae a menos de la mitad (línea roja).
 :::
 
 ### 6. Función tubaria
@@ -174,13 +170,13 @@ La trompa de Eustaquio ventila el oído medio: se abre un instante al tragar o b
 - **Valsalva**: con la nariz tapada y la boca cerrada, sopla como para inflar las mejillas. El pico se corre hacia **presiones positivas**.
 - Después de cada maniobra se hace un timpanograma de control. Si **vuelve a la presión inicial**, la función es **buena** (+). Si no vuelve, se le pide **tragar** varias veces (saliva o agua): si entonces vuelve, la función es **regular** (+/−); si no se mueve, es **mala** (−).
 
-La **prueba de presión y deglución de Williams** hace lo mismo con la bomba del equipo: timpanograma de base, luego el conducto a **+400 daPa** mientras el paciente traga y timpanograma; después a **−400 daPa** y lo mismo (Williams, 1975). Si la trompa abre, el pico se corre **al lado contrario** de la presión aplicada. Los corrimientos son chicos: en sanos, la diferencia máxima entre picos tuvo una mediana de 11 daPa (rango intercuartil 6 a 17), y con disfunción tubaria de 0 daPa (0 a 2) (Lu y Wang, 2026).
+La **prueba de presión y deglución de Williams** hace lo mismo con la bomba del equipo: timpanograma de base, luego el conducto a **+400 daPa** mientras el paciente traga y timpanograma; después a **−400 daPa** y lo mismo (Williams, 1975). Si la trompa abre, el pico se corre **al lado contrario** de la presión aplicada. Los corrimientos son chicos: en sanos, la diferencia máxima entre picos tuvo una mediana de 11 daPa (rango intercuartil 6 a 17), y con disfunción tubaria de 0 daPa (0 a 2) (Lu y Wang, 2026). La figura está en el cap. 2.
 
 **Membrana perforada o con tubo.** Ya no hay pico que mirar: la presión del conducto **es** la del oído medio. Se presuriza el conducto y se mira si la trompa la libera (**prueba de inflación-deflación**; en la práctica en español, de **insuflación y aspiración**: insuflar es llevar el conducto a presión positiva y aspirar, a presión negativa):
 
 - Se lleva el conducto a **−200 daPa** y se le pide tragar al menos 3 veces. Si no compensa, se pide un Valsalva.
 - Luego a **+200 daPa**. Una trompa buena puede liberarla sola; si no, 3 degluciones y, si tampoco, un Toynbee.
-- Se informa la presión inicial y la final en cada caso, y la conclusión: buena, regular o mala.
+- Se informa la presión inicial y la final en cada caso, y la conclusión: buena, regular o mala. La figura está en el cap. 3.
 
 <!-- Protocolo ORL 2019: la llamaba "Test de Bortnick". No se encontró fuente con ese nombre; el procedimiento descrito (presión en el conducto, degluciones, Valsalva/Toynbee) es la prueba de inflación-deflación (Smith y Tysome 2015; Lee y cols. 2026). -->
 
@@ -197,12 +193,6 @@ Bajo los **6 meses de edad corregida** se usa la sonda de **1000 Hz** (BSA, 2024
 - **El volumen del conducto no se lee** con 1000 Hz: no es exacto. Solo sirve para sospechar una sonda tapada (BSA, 2024).
 - **Clasificación** (Baldwin, 2006, a partir de Marchant y cols., 1986): se traza una línea de base entre los extremos del barrido y se mira el pico principal. **Sobre la línea, positivo: normal. Bajo la línea o plano: anormal.** Si hay un pico positivo y uno negativo, se clasifica como normal (BSA, 2024).
 - **Repetir** el trazo y comprobar que cae en la misma categoría (BSA, 2024).
-
-:::imagen /docs/manual/img/estudiante/impedanciometro-etf.png Función tubaria con membrana íntegra: si la trompa abre, el pico se corre hacia el lado contrario de la presión que se aplicó.
-- @57.5,30 | **Tres timpanogramas superpuestos**: reposo (blanco), después de tragar a +400 (amarillo) y a −400 daPa (verde).
-- @89.8,21 | **La presión de cada pico**: −18, −23 y −11 daPa. Tras +400 el pico se fue a lo negativo y tras −400 a lo positivo: la trompa **abre**. Entre −23 y −11 hay 12 daPa.
-- @24.6,59 | **Teclas**: *Prueba* (íntegra o perforada), *Reposo*, *+400 trag* y *−400 trag*.
-:::
 
 ### En operativos
 
@@ -232,7 +222,7 @@ En Chile el timpanograma se clasifica con las letras de Jerger (1970). La letra 
 | **C** | desplazado | normal | más negativa que −100 daPa | presión negativa, disfunción tubaria |
 | **B** | **no hay pico** | — | — | efusión, perforación, sonda tapada |
 
-La compliancia normal es la del 90 % de los adultos (BSA, 2024); en niños de 5 a 7 años va de 0,2 a 1,0 mL. En adultos, presiones hasta −100 daPa tienen poca importancia por sí solas, y en niños hasta −150 daPa (BSA, 2024). LabSim agrega el **Cs**: pico bajo y negativo, la rigidez de una retracción con líquido incipiente.
+La compliancia normal es la del 90 % de los adultos (BSA, 2024); en niños de 5 a 7 años va de 0,2 a 1,0 mL. En adultos, presiones hasta −100 daPa tienen poca importancia por sí solas, y en niños hasta −150 daPa (BSA, 2024). Este libro agrega el **Cs**: pico bajo y negativo, la rigidez de una retracción con líquido incipiente.
 :::
 
 <!-- Protocolo ORL 2019: "Curva B: peak entre -600 y -200 daPa y menor a 0,3 cc". La curva B no tiene pico: es plana (Jerger 1970; BSA 2024). Un pico bajo y muy negativo se informa como C (o Cs) con su presión. -->
@@ -249,7 +239,7 @@ El rango del volumen en adultos es de 0,6 a 2,2 mL; en niños de 5 a 7 años, de
 
 ### La gradiente
 
-La gradiente es un número para la forma del pico. Se unen con una recta los dos puntos de la curva que están a 50 daPa de cada lado del pico, y se mide cuánto **sobresale el pico** por encima de esa recta, como fracción de su altura (Brooks, 1968): **cerca de 1, la curva es en punta; cerca de 0, ancha y redondeada**, y una curva plana da 0. En LabSim, el recuadro amarillo que el equipo dibuja sobre el pico mide 100 daPa de ancho y lo que el pico tiene de alto: la gradiente es la parte de su altura que queda por encima de la curva en los bordes del recuadro. En las figuras de este capítulo, el Ad da 0,68, la A 0,58 y la C 0,50.
+La gradiente es un número para la forma del pico. Se unen con una recta los dos puntos de la curva que están a 50 daPa de cada lado del pico, y se mide cuánto **sobresale el pico** por encima de esa recta, como fracción de su altura (Brooks, 1968): **cerca de 1, la curva es en punta; cerca de 0, ancha y redondeada**, y una curva plana da 0. En las figuras de este capítulo, el Ad da 0,68, la A 0,58 y la C 0,50.
 
 <!-- Brooks 1968: datos verificados en Crossref; el texto completo no se leyó. La fórmula (pico sobre la recta a ±50 daPa, dividida por la altura) es la forma de cociente con que se enseña (ver Bibliografia.php, BROOKS1968). -->
 
@@ -263,7 +253,7 @@ En una **hipoacusia coclear** el reflejo no sube en proporción a la pérdida: s
 
 <!-- Protocolo ORL 2019: Metz "a intensidades iguales o menores a 60 dB sobre el umbral". La BSA 2024 dice "menos de 60 dB SL"; se dejó el criterio de la guía. -->
 
-En este libro, el umbral del reflejo se **anota en dB SPL**, y así lo muestran el equipo y la ficha de LabSim. La razón es que el reflejo responde a la energía que realmente llega al oído, y lo que el equipo controla dentro de un conducto sellado, sobre todo en el ipsilateral, donde el tono sale de la misma sonda, es una presión sonora.
+En este libro, el umbral del reflejo se **anota en dB SPL**. La razón es que el reflejo responde a la energía que realmente llega al oído, y lo que el equipo controla dentro de un conducto sellado, sobre todo en el ipsilateral, donde el tono sale de la misma sonda, es una presión sonora.
 
 Para pasar de dB HL a dB SPL se suma la **corrección del transductor** que suena (su nivel de referencia, el RETSPL). En el ipsilateral el tono sale de la sonda; en el contralateral, de un fono supraaural, que necesita más presión para el mismo dB HL (Interacoustics, AT235):
 
@@ -272,10 +262,10 @@ Para pasar de dB HL a dB SPL se suma la **corrección del transductor** que suen
 | Ipsilateral (sonda) | 5,5 | 0 | 3 | 5,5 |
 | Contralateral (fono TDH39) | 11,5 | 7 | 9 | 9,5 |
 
-Por eso un oído sano de LabSim da el ipsilateral en **90, 85, 90 y 90 dB SPL** y el contralateral en **95, 90, 95 y 95 dB SPL**, y el ruido contralateral en 95: es el mismo reflejo de unos 85 dB HL, con la corrección de cada transductor y redondeado a 5 dB, el paso del dial. Para el **Metz**, resta primero la corrección: un contralateral a 95 dB SPL en 500 Hz son 83,5 dB HL, y es ese número el que se compara con el umbral tonal.
+Por eso un oído sano da el ipsilateral en **90, 85, 90 y 90 dB SPL** y el contralateral en **95, 90, 95 y 95 dB SPL**, y el ruido contralateral en 95: es el mismo reflejo de unos 85 dB HL, con la corrección de cada transductor y redondeado a 5 dB, el paso del dial. Para el **Metz**, resta primero la corrección: un contralateral a 95 dB SPL en 500 Hz son 83,5 dB HL, y es ese número el que se compara con el umbral tonal.
 
 :::comentario Lo que dicen las normas
-La BSA prefiere expresar el estímulo del reflejo en **dB HL** y acepta dB SPL, siempre que se apliquen las correcciones para comparar con los valores normales (BSA, 2024). Las tablas de normalidad que se citan arriba (Wiley y cols., 1987; Gelfand y cols., 1990) y el cálculo de Metz están en dB HL: el umbral del reflejo se resta del umbral tonal, y los dos tienen que estar en la misma escala. El tope de 105 dB HL que recomienda equivale, con las correcciones de la tabla, a 105 a 110,5 dB SPL en el ipsilateral y a 112 a 116,5 dB SPL en el contralateral. El dial de LabSim llega a 120 dB SPL: el tope lo pones tú.
+La BSA prefiere expresar el estímulo del reflejo en **dB HL** y acepta dB SPL, siempre que se apliquen las correcciones para comparar con los valores normales (BSA, 2024). Las tablas de normalidad que se citan arriba (Wiley y cols., 1987; Gelfand y cols., 1990) y el cálculo de Metz están en dB HL: el umbral del reflejo se resta del umbral tonal, y los dos tienen que estar en la misma escala. El tope de 105 dB HL que recomienda equivale, con las correcciones de la tabla, a 105 a 110,5 dB SPL en el ipsilateral y a 112 a 116,5 dB SPL en el contralateral.
 :::
 
 ### Patrones de reflejo
@@ -299,12 +289,11 @@ Un oído medio enfermo **borra el reflejo cuando tiene la sonda**, aun con una p
 
 ## Lectura en pacientes
 
-El **patrón diagonal** es el de Raúl, el paciente con schwannoma del capítulo 11 (paciente de práctica 39): falla todo lo que se estimula por el OD, mientras que con el tono en el OI y la sonda en el OD el reflejo aparece a su nivel normal (90 a 95 dB SPL). Con solo 15 dB de pérdida en 1 kHz, no es la cóclea: es el VIII par. Una cófosis derecha (paciente de práctica 42) da el mismo patrón.
+El **patrón diagonal** es el de Raúl, el paciente con schwannoma del capítulo 11: falla todo lo que se estimula por el OD, mientras que con el tono en el OI y la sonda en el OD el reflejo aparece a su nivel normal (90 a 95 dB SPL). Con solo 15 dB de pérdida en 1 kHz, no es la cóclea: es el VIII par. Una cófosis derecha da el mismo patrón.
 
 ### La forma de la curva del reflejo
 
 Además del umbral, mira la **forma** de la deflexión. La normal baja al empezar el tono y se mantiene hasta que termina. En el efecto **ON-OFF** aparece una deflexión breve al **comienzo** y otra al **final** del tono, en sentido contrario o sin la meseta del medio. Es muy frecuente en la **otoesclerosis incipiente** (Camicas, 1992) y se ve también en la disyunción de cadena y en algunas sensorioneurales, como la enfermedad de Ménière (Debruyne, 1992). Puede ser parcial o completo y, al avanzar la otoesclerosis, el reflejo termina por desaparecer (Colletti y Fiorino, 1987).
-
 
 {{caso h7_p34}}
 
@@ -378,29 +367,7 @@ El informe describe; el diagnóstico lo hace el médico. En el formulario se dib
 Antes de informar, haz calzar la impedanciometría con el audiograma. Un oído con reflejo ipsilateral presente **no debería tener un gap** importante: si lo tiene, revisa la vía ósea o piensa en una tercera ventana, como la dehiscencia del canal semicircular superior, que da gap con el reflejo conservado (BSA, 2024). Y un timpanograma normal no explica una hipoacusia conductiva.
 :::
 
-## En LabSim
-
-El impedanciómetro se abre con la tecla **Z**. Tiene las cuatro pantallas de este capítulo: timpanograma (sonda de 226 o 1000 Hz), reflejos ipsi y contra, *Tone Decay* y *ETF*.
-
-- El **timpanograma** quiebra en el pico, como uno real, y su ancho depende del tipo: el Ad es el más en punta y el Cs el más redondeado.
-- El **volumen del conducto** dice dónde mide la sonda. Una perforación da una curva plana con volumen **alto**, porque la sonda suma el aire del oído medio, y en ella la prueba de membrana perforada muestra si la trompa es permeable. Un tapón de cerumen da una curva plana con volumen **bajo**: la sonda solo mide el poco aire que queda hasta el cerumen.
-- Los **reflejos** siguen la audición del paciente: aparecen a su nivel normal en un oído sano, se acercan al umbral tonal en uno coclear, suben con el gap de un oído conductivo y faltan cuando la sonda está en un oído medio rígido o lleno. El dial y la ficha están en **dB SPL**.
-- La **forma de la curva** del reflejo (normal, ON-OFF) la elige el docente para cada caso, y el **deterioro** depende de si el oído estimulado tiene un componente retrococlear.
-- Si la otoscopía del caso no permite poner nada en el conducto (otitis externa, cuerpo extraño, conducto ausente; el docente puede marcar cualquier otro oído, como uno con otorrea), el caso trae ese oído como **no realizable**. El equipo no te avisa al elegir el oído: decidir no medir es parte del ejercicio, y sale de la otoscopía y la entrevista. Se informa "No realizable" con el motivo.
-- Intentar medir en ese oído (con la sonda, o con el fono de un contralateral) es una **falta grave**. El equipo no mide, lo avisa en rojo, queda registrado en tu atención y el impedanciómetro queda **fuera de uso el resto de la atención, en los dos oídos**: la sonda que entró a un oído con secreción no puede ir al otro. Con el paciente siguiente el equipo vuelve limpio. La falta se muestra aparte y no cambia tu porcentaje de técnica.
-- Una **perforación seca no es "no realizable"**: se mide, da su volumen alto y su función tubaria se hace con la prueba de membrana perforada. Lo que no entra es la sonda en un oído con secreción.
-- En **ETF** eliges tú la prueba (membrana íntegra o perforada) según lo que viste en la otoscopía y el timpanograma.
-- Si a un **lactante** le pones la sonda de 226 Hz, el equipo te deja hacerlo y dibuja un pico aunque el oído medio esté lleno. El simulador te deja cometer el error, como el equipo real.
-
-:::comentario Lo que dicen las normas
-La BSA no recomienda la timpanometría cuando la perforación se ve en la otoscopía, porque no agrega nada; sirve cuando la membrana no se ve bien (BSA, 2024). LabSim la deja hacer a propósito: el volumen alto es lo que tienes que aprender a reconocer, para cuando la perforación no se vea.
-:::
-
-:::comentario Lo que el simulador no tiene
-Las pruebas de función tubaria salen siempre "de libro", sin la variabilidad de un paciente real. Y la fila de **ruido** (NBN) del contralateral se calcula con el promedio de los tonos: no sale más baja que ellos, como saldría con un ruido de verdad.
-:::
-
-Para practicar, los pacientes de práctica (★) de este capítulo son Carolina y Benjamín; Tomás (33) para ver un oído normal, con el ipsilateral en 90, 85, 90 y 90 dB SPL y el contralateral en 95, 90, 95 y 95; para el patrón diagonal, Raúl (39) y el paciente con cófosis (42).
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un adulto tiene un timpanograma plano en el OI con un volumen de 4,2 mL, y en el OD un tipo A con 1,1 mL. ¿Qué esperas ver en la otoscopía? ¿Qué prueba de función tubaria le harías?

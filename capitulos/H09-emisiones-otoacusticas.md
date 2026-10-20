@@ -87,9 +87,9 @@ Se le explica al paciente (o a sus padres) en qué consiste: "Te voy a poner est
 
 ### Conoce tu equipo: TEOAE
 
-Todo equipo de OEA diagnóstico tiene las mismas piezas: un **chequeo de sonda** antes de medir, los **parámetros** del estímulo, la **respuesta** a medida que se promedia, una medida de **calidad** del registro y el **resultado por banda**. La figura muestra la pantalla de TEOAE de LabSim al terminar un oído izquierdo normal.
+Todo equipo de OEA diagnóstico tiene las mismas piezas: un **chequeo de sonda** antes de medir, los **parámetros** del estímulo, la **respuesta** a medida que se promedia, una medida de **calidad** del registro y el **resultado por banda**. La figura muestra la pantalla de TEOAE al terminar un oído izquierdo normal.
 
-:::imagen /docs/manual/img/estudiante/eoa-teoae.png La pantalla de TEOAE de LabSim al terminar un registro. Lee primero la calidad (sonda, reproducibilidad, estabilidad) y recién después el resultado por banda: si la calidad está en rojo, el registro no es confiable, diga PASS o REFER.
+:::imagen /docs/manual/img/estudiante/eoa-teoae.png Pantalla de TEOAE al terminar un registro. Lee primero la calidad (sonda, reproducibilidad, estabilidad) y recién después el resultado por banda: si la calidad está en rojo, el registro no es confiable, diga PASS o REFER.
 - @11,28 | **Chequeo de sonda.** Antes de medir, el equipo dispara clicks y muestra cómo los recoge el micrófono. Un click limpio y repetido es una sonda bien puesta.
 - @22.5,57 | **Sello.** Qué tan bien cierra la oliva. Con la sonda floja entra menos estímulo y el registro sale peor sin que la cóclea tenga nada.
 - @22.5,68 | **Parámetros.** Nivel del click (en dB SPL) y número de promedios (barridos).
@@ -107,7 +107,7 @@ Todo equipo de OEA diagnóstico tiene las mismas piezas: un **chequeo de sonda**
 
 La DPOAE se mide punto por punto: el equipo presenta dos tonos (f1 y f2) a la vez y busca el producto de distorsión en 2f1−f2. Al terminar arma el **DP-grama**, con el nivel del producto de distorsión en cada f2.
 
-:::imagen /docs/manual/img/estudiante/eoa-dpoae.png La pantalla de DPOAE de LabSim, con los dos oídos superpuestos: el OI dentro de la franja normal y el OD pegado al piso de ruido. La comparación entre los dos oídos se ve de un vistazo.
+:::imagen /docs/manual/img/estudiante/eoa-dpoae.png Pantalla de DPOAE, con los dos oídos superpuestos: el OI dentro de la franja normal y el OD pegado al piso de ruido. La comparación entre los dos oídos se ve de un vistazo.
 - @92,18 | **Rango normal.** La franja verde es donde cae la DPOAE de un oído normal en cada f2.
 - @68,22 | **DP del OI.** Dentro de la franja y muy por encima del ruido en todas las frecuencias: presente.
 - @45,31 | **DP del OD.** Pegado al piso de ruido (NF, la zona gris) en todas las frecuencias: ausente.
@@ -205,7 +205,7 @@ Se repite cuando el **registro** no fue confiable: el niño se movió, lloró o 
 
 ### Los criterios
 
-Cada equipo trae su criterio de presencia, y hay que saberlo antes de informar. El que usa LabSim es:
+Cada equipo trae su criterio de presencia, y hay que saberlo antes de informar. El de este libro es:
 
 | | Por banda o frecuencia | Para decir "pasa" |
 |---|---|---|
@@ -239,7 +239,6 @@ Cinco pacientes, cinco lecturas: un oído normal, una cóclea dañada, un oído 
 - La reproducibilidad es de 91 % en el OD y de 89 % en el OI: las dos memorias se parecen, lo que hay es respuesta.
 - Su DPOAE también está presente en los dos oídos, de 1 a 8 kHz y dentro del rango normal: 7 de 7. Es el informe de ejemplo de arriba. Para la minera, esta es su **línea de base**: si algún día el ruido le daña la cóclea, la DPOAE de agudos va a ser de lo primero en caer.
 :::
-
 
 {{caso h9_p36}}
 
@@ -299,21 +298,7 @@ Mira su historia: nació prematura, estuvo 20 días en la UCI neonatal y le hici
 - **Concluir sobre el sistema eferente con una supresión de pocos dB** en un solo registro: la medida varía entre sesiones y el reflejo estapedial puede falsearla.
 - **Leer OEA presentes como audición normal.** La neuropatía auditiva pasa las OEA. Una pérdida leve también puede dejar emisiones.
 
-
-## En LabSim
-
-El emisor otoacústico (**EOAS**) tiene una pestaña por prueba: **TEOAE**, **DPOAE**, **SOAE**, **SFOAE** e **Informe**. Todas se usan igual: eliges el oído y los parámetros, aprietas **Iniciar**, el equipo chequea la sonda y registra, y al final muestra el resultado. En **Informe** escribes la descripción y la conclusión; las pruebas capturadas se adjuntan solas.
-
-- Las emisiones siguen la **cóclea del paciente**: se achican con un daño de las células ciliadas externas, se apagan con una pérdida de transmisión (porque el sonido cruza el oído medio de ida y de vuelta) y **se conservan en una pérdida neural**, aunque el umbral esté elevado.
-- El **sello de la sonda** y el **ruido del paciente** los fija el caso. Con un sello flojo, el estímulo y la emisión bajan; con un paciente inquieto, sube el piso de ruido. En los dos casos puede referir con una cóclea sana.
-- En el **recién nacido**, mientras menos horas de vida, más probable es que la TEOAE refiera, con las tasas de la bibliografía.
-- Las **SOAE** aparecen en cerca de la mitad de los oídos normales, por sorteo. Si el docente necesita un resultado fijo, las deja **presentes** o **ausentes** y puede cargar los picos a mano.
-
-:::comentario Lo que el simulador no tiene
-La TEOAE no tiene modo lineal o no lineal, y el tamaño de la emisión no depende del nivel del click (viene en 60 dB SPL; súbelo al del protocolo igual). Tampoco hay rechazo de barridos: el ruido se ve en la reproducibilidad y el piso. La supresión contralateral no está simulada.
-:::
-
-Pacientes de práctica (★): Tomás, Hernán, Benjamín y Valentina. A Benjamín, mídele antes el timpanograma; a Valentina, después el ABR.
+## Para practicar
 
 :::pregunta-ancho Preguntas para practicar
 1. ¿Por qué un timpanograma B apaga las OEA y no apaga el ABR por vía ósea?

@@ -1,13 +1,31 @@
 #!/usr/bin/env python3
-"""Arma el PDF del libro desde capitulos/*.md.
+"""Arma el PDF del libro desde capitulos/*.md, por piezas.
 
-    python3 docs/libro/herramientas/hacer_libro.py      -> docs/libro/libro.pdf (el libro completo,
-                                                           la edición de tapa dura en un tomo)
-    ... --tomo I (o II), --tomos                        -> docs/libro/libro-tomo-I.pdf, -II.pdf
-    python3 docs/libro/herramientas/hacer_libro.py 11   -> salida/capitulo-11.pdf y DESPUÉS el
-                                                           libro completo, para que libro.pdf
-                                                           quede siempre al día
-    ... 11 --sin-completo                               -> solo el capítulo (pruebas rápidas)
+Lo normal es armar solo lo que cambió (todo sale a salida/):
+
+    python3 herramientas/hacer_libro.py 11              -> salida/capitulo-11.pdf (también H4, B2...)
+    python3 herramientas/hacer_libro.py prelim          -> salida/prelim.pdf (todas las preliminares)
+    python3 herramientas/hacer_libro.py prelim prologo  -> salida/prelim-prologo.pdf (una o varias)
+    python3 herramientas/hacer_libro.py portadas        -> salida/portadas.pdf (portada, portadilla,
+                                                           portada interior, créditos, autores y
+                                                           contraportada); con --tomo I o II, las del tomo
+    python3 herramientas/hacer_libro.py indice          -> salida/indice.pdf (sin números de página)
+    python3 herramientas/hacer_libro.py parte III       -> salida/parte-III.pdf (separador y sus
+                                                           capítulos, con la caché del armado
+                                                           incremental); también: parte bases,
+                                                           parte herramientas
+    python3 herramientas/hacer_libro.py frente          -> cambia preliminares y portadas en libro.pdf,
+                                                           libro-tomo-I.pdf y -II.pdf; los capítulos
+                                                           van como estén en la caché, sin componer
+                                                           ninguno aunque hayan cambiado
+
+El libro entero solo se arma si se pide (él, 2026-10-19: "no quiero que
+estemos haciendo libros completos sino por capítulos y partes"):
+
+    ... --completo                                      -> libro.pdf (la edición de tapa dura en un tomo)
+    ... --completo --tomo I (o II), --completo --tomos  -> libro-tomo-I.pdf, -II.pdf
+    ... --completo --solo-frente                        -> solo portada, índice y contraportada, sin
+                                                           recomponer capítulos (un cambio de portada)
 
 Cada {{caso <nombre>}} del capítulo se expande a la ficha del paciente:
 encabezado, antecedentes del caso, otoscopía y las figuras del motor
@@ -79,27 +97,31 @@ BAJADA = 'Un libro de casos clínicos'
 # Títulos (él, 2026-10-17: "todos tecnólogos médicos"); grados y afiliación
 # leídos de cada ORCID público. falta = lo que todavía no se sabe.
 UACH_PM = 'Escuela de Tecnología Médica, Universidad Austral de Chile, Sede Puerto Montt'
+TECMEDHUB = 'TecMedHub'   # segunda afiliación (él, 2026-10-19): Baier, López, Uribe, Catipillán, Vargas
 AUTORES = {
     'baier': dict(nombre='Nicolás', apellidos='Baier-Quezada', rol='Editor',
                   areas='Electrofisiología, física acústica y salud ocupacional',
                   titulo=['Tecnólogo Médico', 'Magíster en Neurociencias Cognitivas', 'Doctor (c) en Bioingeniería'],
-                  afiliacion=UACH_PM, orcid='0000-0003-2818-0990'),
+                  afiliacion=[UACH_PM, TECMEDHUB], orcid='0000-0003-2818-0990'),
     'casanova': dict(nombre='Geovana', apellidos='Casanova-Torres', areas='Audífonos y procesamiento auditivo central',
                      titulo=['Tecnóloga Médica'], afiliacion=UACH_PM, orcid='0009-0009-7163-8099'),
     'catipillan': dict(nombre='Benjamín', apellidos='Catipillán-Ulloa', rol='Revisor general de los casos clínicos',
-                       titulo=['Tecnólogo Médico'], orcid='0009-0007-1411-3638', falta='afiliación'),
+                       titulo=['Tecnólogo Médico'], orcid='0009-0007-1411-3638',
+                       afiliacion=['Independiente. Trabaja en un proyecto ANID adjudicado a la Universidad Austral de Chile', TECMEDHUB]),
     'lopez': dict(nombre='Fernanda', apellidos='López-Moncada', areas='Fisiología e histología',
                   titulo=['Tecnóloga Médica', 'Doctora en Ciencias Biomédicas'],
-                  afiliacion=UACH_PM, orcid='0000-0002-0810-7684'),
+                  afiliacion=[UACH_PM, TECMEDHUB], orcid='0000-0002-0810-7684'),
     'poza': dict(nombre='Pablo', apellidos='Poza-Nauto', areas='Evaluación y rehabilitación vestibular',
                  titulo=['Tecnólogo Médico'], afiliacion=UACH_PM, orcid='0009-0006-1364-4990'),
     'uribe': dict(nombre='Vanessa', apellidos='Uribe-Hernández', areas='Audiología y rinología',
-                  titulo=['Tecnóloga Médica', 'Magíster'], afiliacion=UACH_PM, orcid='0009-0003-0795-7921',
-                  falta='área del magíster'),
+                  titulo=['Tecnóloga Médica', 'Máster en Inteligencia Artificial en Salud'],
+                  afiliacion=[UACH_PM, TECMEDHUB], orcid='0009-0003-0795-7921'),
     'vargas': dict(nombre='Cristina', apellidos='Vargas-Bustamante', areas='Audiología y electrofisiología',
-                   titulo=['Tecnóloga Médica'], falta='afiliación y ORCID'),
+                   titulo=['Tecnóloga Médica', 'Máster MBA en Gestión Clínica, Dirección Médica y Asistencial (TECh, España)'],
+                   afiliacion=[UACH_PM, TECMEDHUB], falta='ORCID'),
     'moreira': dict(nombre='Carlos', apellidos='Moreira-Quichahual', areas='Espirometría, sueño y salud ocupacional',
-                    titulo=['Tecnólogo Médico'], falta='afiliación y ORCID'),
+                    titulo=['Licenciado en Tecnología Médica'], orcid='0009-0000-8205-726X',
+                    afiliacion='Cesfam Piedra del Águila, Municipalidad de Angol'),
 }
 EDITOR = 'baier'
 REVISOR_CASOS = 'catipillan'   # firma la revisión de los casos de los capítulos clínicos
@@ -107,7 +129,7 @@ REVISOR_CASOS = 'catipillan'   # firma la revisión de los casos de los capítul
 
 def _autoria():
     """Capítulo -> autores, según en qué es experto cada uno (él, 2026-10-17)."""
-    a = {'B1': ['catipillan', 'uribe'], 'B2': ['lopez'], 'B3': ['lopez'], 'B4': ['baier'], 'B5': ['casanova'],
+    a = {'B1': ['baier', 'catipillan', 'uribe'], 'B2': ['lopez'], 'B3': ['lopez'], 'B4': ['baier'], 'B5': ['casanova'],
          'H12': ['poza', 'baier'], 'H15': ['casanova'], 'H24': ['baier', 'moreira']}
     for n in range(1, 9):
         a[f'H{n}'] = ['uribe', 'vargas']                 # audiología
@@ -135,7 +157,24 @@ def _autoria():
         a[str(n)] = ['baier', 'moreira']                 # salud ocupacional (él, 2026-10-19)
     for n in (35, 36):
         a[str(n)] = ['uribe']
-    return a
+    return {cap: firma_ordenada(aut) for cap, aut in a.items()}
+
+
+# Quién va primero en la firma de un capítulo cuando están los dos (él,
+# 2026-10-19). No cambiarlo sin preguntarle.
+PRIMERO = [('baier', 'vargas'), ('vargas', 'uribe'), ('moreira', 'uribe')]
+
+
+def firma_ordenada(autores):
+    autores = list(autores)
+    cambio = True
+    while cambio:
+        cambio = False
+        for x, y in PRIMERO:
+            if x in autores and y in autores and autores.index(x) > autores.index(y):
+                autores.insert(autores.index(y), autores.pop(autores.index(x)))   # x justo antes de y
+                cambio = True
+    return autores
 
 
 AUTORIA = _autoria()
@@ -145,14 +184,28 @@ def nombre_completo(clave):
     return f"{AUTORES[clave]['nombre']} {AUTORES[clave]['apellidos']}"
 
 
+# Orden de los autores en las preliminares (él, 2026-10-19: "esto es
+# importante"): fijo, no alfabético. No cambiarlo sin preguntarle.
+ORDEN_AUTORES = ['baier', 'vargas', 'casanova', 'poza', 'lopez', 'uribe', 'moreira', 'catipillan']
+assert sorted(ORDEN_AUTORES) == sorted(AUTORES), 'ORDEN_AUTORES y AUTORES no calzan'
+
+
 def orden_autores():
-    """El editor primero; el resto por apellido."""
-    return [EDITOR] + sorted((k for k in AUTORES if k != EDITOR), key=lambda k: AUTORES[k]['apellidos'])
+    """Portada interior, créditos y página de autores: en ORDEN_AUTORES."""
+    return list(ORDEN_AUTORES)
 
 
 def alfabetico():
     """Todos por apellido, sin destacar al editor (portada y contraportada)."""
     return sorted(AUTORES, key=lambda k: AUTORES[k]['apellidos'])
+
+
+def lista_alfabetica():
+    """'Apellidos, Nombre' en orden alfabético: el apellido primero deja ver
+    que el orden es por apellido (él, 2026-10-19)."""
+    # cada nombre entero en su línea: la partición cortaba "Ló-pez-Moncada"
+    return ' · '.join(f'<span style="white-space: nowrap">{AUTORES[k]["apellidos"]}, {AUTORES[k]["nombre"]}</span>'
+                      for k in alfabetico())
 
 
 def cita_vancouver(clave):
@@ -282,7 +335,7 @@ def clave_rostro(nombre, spec):
     return nombre
 
 
-def ficha(nombre, numero, cap):
+def ficha(nombre, numero, cap, labsim=True):
     spec, d = cargar(nombre)
     pac = d.get('paciente_snapshot') or {}
     quien = ' '.join(x for x in (pac.get('nombre', '').split(' ')[0], pac.get('apellido', '').split(' ')[0]) if x) or nombre
@@ -308,8 +361,10 @@ def ficha(nombre, numero, cap):
     foto = next((p for p in (ROSTROS / f'{rostro_de}.png', ROSTROS / f'{rostro_de}.jpg') if p.exists()), None)
     rostro = (f'<img class="rostro" src="{foto.as_uri()}">' if foto
               else f'<div class="rostro vacio">{html.escape(iniciales)}</div>')
-    es_demo = isinstance(spec['caso'], str) and spec['caso'].startswith('demo:')
-    practica = ' <span class="estrella">★ paciente de práctica</span>' if es_demo else ''
+    if labsim:
+        # el caso se puede atender en LabSim (él, 2026-10-19): sello al lado de la foto
+        rostro = (f'<div class="rostro-marco">{rostro}'
+                  f'<img class="sello-labsim" src="{(LOGOS / "labsim.png").as_uri()}"></div>')
 
     an = d.get('Anamnesis') or {}
     marcados = [v for k, v in ANTECEDENTES.items() if (an.get('antecedentes') or {}).get(k)]
@@ -335,7 +390,7 @@ def ficha(nombre, numero, cap):
                     else f'<div class="oto vacia">Otoscopía {lado.upper()}</div>')
 
     cab = f'''<section class="caso">
-<div class="caso-cab">{rostro}<div><p class="caso-num">Caso {cap}.{numero}{practica}</p>
+<div class="caso-cab">{rostro}<div><p class="caso-num">Caso {cap}.{numero}</p>
 <p class="caso-quien">{html.escape(quien)}</p><p class="caso-datos">{edad_txt} · {sexo}</p></div></div>
 <div class="anamnesis">{anamnesis}</div>
 {f'<div class="otoscopia">{"".join(otos)}</div>' if hay_otoscopia else ''}
@@ -369,11 +424,11 @@ CAJA_LARGA = 1100
 CAJAS = {
     'objetivos': 'En este capítulo', 'ayuda': 'Ayuda memoria', 'sabias': '¿Sabías que?',
     'ojo': 'Ojo clínico', 'pregunta': 'Pregunta abierta', 'comentario': 'Comentario',
-    'docente': 'Para el docente', 'truco': 'Truco del oficio',
+    'docente': 'Para el docente', 'truco': 'Truco del oficio', 'simulador': 'Simulador',
 }
 SECCIONES_DOS_COLUMNAS = ('Técnica', 'Técnica en foco', 'Fisiología', 'Patología', 'Razonamiento',
                           'Para qué sirve', 'Fundamento', 'Antes de empezar', 'Paso a paso',
-                          'Cómo se informa', 'Errores frecuentes', 'En LabSim')
+                          'Cómo se informa', 'Errores frecuentes', 'En LabSim', 'Para practicar')
 
 
 GRILLAS = ('#e7e5e0', '#cfccc5', '#f4f2ee')
@@ -525,6 +580,11 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
             f'<img src="{archivo.as_uri()}">{"".join(globos)}</div></div><figcaption>{ia}Figura {numero}. {html.escape(titulo)}</figcaption></figure>{lista}</div>')
 
 
+# Capítulos vestibulares y nasales: sus casos llevan el sello de LabSim solo si
+# tienen VEMP, que es lo único de ellos que se hace en el simulador
+CAPS_SIN_LABSIM = {'21', '22', '23', '24', '25', '26', '27', '31', '32', '35', '36'}
+
+
 def capitulo(md_texto):
     cap = re.match(r'#\s+([A-Z]?\d+)\.', md_texto)
     cap = cap[1] if cap else '0'
@@ -541,8 +601,10 @@ def capitulo(md_texto):
     def caso(nombre):
         contador[0] += 1
         actual[nombre] = contador[0]
+        # Lo vestibular y lo nasal no se hacen en LabSim; el VEMP sí
+        labsim = cap not in CAPS_SIN_LABSIM or re.search(rf':::figura {re.escape(nombre)} vemp\b', md_texto)
         try:
-            return guardar(ficha(nombre, contador[0], cap))
+            return guardar(ficha(nombre, contador[0], cap, bool(labsim)))
         except CasoPendiente:
             return pendiente(nombre)
 
@@ -701,6 +763,16 @@ def capitulo(md_texto):
     m = re.search(r'<h1>\s*(?:[A-Z]?\d+\.\s*)?(.*?)</h1>', cuerpo, re.S)
     if m and cap == '0':                       # preliminares: Prólogo, Cómo usar...
         cuerpo = cuerpo.replace(m[0], f'<h1 class="prelim">{m[1]}</h1>', 1)
+        # Los recuadros de muestra de "Cómo usar", como cards en una grilla
+        # (él, 2026-10-19: apilados ocupaban una página)
+        cuerpo = re.sub(r'(?:<aside class="caja [^"]*">.*?</aside>\s*){3,}',
+                        lambda g: f'<div class="cards">{g[0].strip()}</div>\n', cuerpo, flags=re.S)
+        # Las siglas, en dos columnas y letra chica en vez de una tabla
+        if m[1].strip() == 'Abreviaturas':
+            filas = re.findall(r'<tr>\s*<td>(.*?)</td>\s*<td>(.*?)</td>\s*</tr>', cuerpo, re.S)
+            siglas = ''.join(f'<p><strong>{a}</strong> {b}</p>' for a, b in filas)
+            cuerpo = re.sub(r'(?:<p class="tabla-n">.*?</p>\s*)?<table>.*?</table>',
+                            lambda _: f'<div class="siglas">{siglas}</div>', cuerpo, count=1, flags=re.S)
         return f'<section class="preliminar">{cuerpo}</section>'
     if m:
         tipo = {'H': 'Herramienta', 'B': 'Bases'}.get(cap[:1], 'Capítulo')
@@ -779,7 +851,7 @@ body {{ margin: 0; }}
 .pt-ed {{ font: 700 17pt/1.2 Fraunces, serif; margin: 0 0 3mm; }}
 .pt-ed span, .in-ed span {{ display: block; font: 700 7pt 'Plus Jakarta Sans'; letter-spacing: 2.5pt; text-transform: uppercase;
                            color: #E7A7BA; margin-bottom: 1.2mm; }}
-.pt-aut {{ font: 600 10.5pt/1.7 'Plus Jakarta Sans'; letter-spacing: .5pt; color: #F1DCE3; margin: 0; }}
+.pt-aut {{ font: 600 10.5pt/1.7 'Plus Jakarta Sans'; letter-spacing: .5pt; color: #F1DCE3; margin: 0; text-align: left; }}
 .pt-logos, .cp-logos {{ position: absolute; left: 22mm; right: 22mm; bottom: 16mm; display: flex; align-items: center; gap: 10mm; }}
 .pt-logos .logo, .cp-logos .logo {{ height: 13mm; }}
 .pt-logos .logo.tm, .cp-logos .logo.tm {{ height: 17mm; }}
@@ -834,7 +906,7 @@ h1.prelim {{ font: 700 24pt Fraunces, serif; color: #24101a; margin: 0 0 6mm; pa
 .contraportada {{ page: portada; break-before: left; position: relative; height: 297mm; color: #F8F1F3; }}
 .cp-titulo {{ position: absolute; top: 40mm; left: 25mm; right: 25mm; margin: 0; font: 700 22pt/1.15 Fraunces, serif; }}
 .cp-texto {{ position: absolute; top: 80mm; left: 25mm; right: 25mm; margin: 0; font: 11pt/1.6 'Plus Jakarta Sans'; color: #E9D6DD; }}
-.cp-autores {{ position: absolute; left: 25mm; right: 25mm; bottom: 50mm; margin: 0; font: 600 10pt/1.6 'Plus Jakarta Sans'; }}
+.cp-autores {{ position: absolute; left: 25mm; right: 25mm; bottom: 50mm; margin: 0; font: 600 10pt/1.6 'Plus Jakarta Sans'; text-align: left; }}
 .cp-licencia {{ position: absolute; right: 25mm; bottom: 20mm; margin: 0; font: 8pt 'Plus Jakarta Sans'; color: #A68F98; }}
 .portadilla {{ padding-top: 80mm; text-align: center; }}
 .pd-titulo {{ font: 700 24pt/1.15 Fraunces, serif; color: #24101a; margin: 0 20mm 4mm; }}
@@ -926,6 +998,9 @@ li {{ margin-bottom: .8mm; }}
 .caso {{ border-top: 1.2pt solid #8e2a4a; margin: 8mm 0 3mm; padding-top: 4mm; }}
 .caso-cab {{ display: flex; align-items: center; gap: 5mm; }}
 .rostro {{ width: 24mm; height: 24mm; border-radius: 50%; object-fit: cover; flex: none; }}
+.rostro-marco {{ position: relative; flex: none; width: 24mm; height: 24mm; }}
+.sello-labsim {{ position: absolute; right: -1.2mm; bottom: -1.2mm; width: 8.5mm; height: 8.5mm;
+                 border: .6mm solid #fff; border-radius: 50%; }}
 .rostro.vacio {{ background: #f1e4e9; color: #8e2a4a; font: 700 15pt Fraunces, serif; display: flex;
                  align-items: center; justify-content: center; }}
 .caso-num {{ font: 700 8pt 'Plus Jakarta Sans'; letter-spacing: 1pt; text-transform: uppercase; color: #8e2a4a; margin: 0; }}
@@ -992,11 +1067,22 @@ table caption {{ caption-side: top; text-align: left; font-size: 8pt; color: #5c
 .pasos {{ display: flex; gap: 3mm; align-items: stretch; margin: 2mm 0 4mm; break-inside: avoid; }}
 .pasos .caja {{ flex: 1 1 0; margin: 0; font-size: 8.2pt; line-height: 1.38; padding: 2mm 2.6mm 1mm; }}
 .pasos .caja-titulo {{ font-size: 6.8pt; letter-spacing: .6pt; }}
+/* preliminares: recuadros de muestra en cards y siglas a dos columnas */
+.cards {{ display: flex; flex-wrap: wrap; gap: 3mm; margin: 2mm 0 4mm; }}
+.cards .caja {{ flex: 1 1 30%; margin: 0; font-size: 8.4pt; line-height: 1.38; }}
+.siglas {{ column-count: 2; column-gap: 7mm; font-size: 8pt; line-height: 1.35; text-align: left; hyphens: none; }}
+.siglas p {{ break-inside: avoid; margin: 0 0 1.1mm; padding-left: 3mm; text-indent: -3mm; text-align: left !important; hyphens: none; }}
+.siglas strong {{ color: #8e2a4a; }}
 .caja-truco {{ background: #f0f7f2; border: 1pt solid #2e8540; border-radius: 2mm; }}
 .caja-truco .caja-titulo {{ color: #2e8540; }}
 .caja-truco .caja-titulo::before {{ content: '✦ '; }}
 .caja-comentario {{ background: #f3f3f1; border-left: 2.4pt solid #8a8a90; font-style: italic; }}
 .caja-comentario .caja-titulo {{ color: #55555b; font-style: normal; }}
+/* LabSim es una herramienta, no el tema (él, 2026-10-19): una o dos líneas,
+   qué caso usar y qué hacer para ver el resultado */
+.caja-simulador {{ background: #f1f5f6; border-left: 2.4pt solid #3d7a8a; font-size: 8.4pt; }}
+.caja-simulador .caja-titulo {{ color: #3d7a8a; }}
+.caja-simulador .caja-titulo::before {{ content: '▶ '; }}
 .figobs {{ margin: 3mm 0 5mm; }}
 .figobs .fig {{ margin: 0 0 1mm; }}
 ol.obs {{ list-style: none; padding: 2.4mm 3mm 1mm; margin: 0; background: #f7f3f4; border-radius: 2mm;
@@ -1068,13 +1154,14 @@ def logo(nombre, clase=''):
     return f'<img class="logo {clase}" src="{(LOGOS / nombre).as_uri()}">'
 
 
-def paginas_iniciales(capitulos, tomo=None):
+def paginas_iniciales(capitulos, tomo=None, piezas=False):
     """Portada, portadilla, portada interior, créditos, autores, prólogo,
     presentación, índice, cómo usar y abreviaturas. Cada una empieza en
     página derecha; las hojas blancas de por medio las pone el paginado.
     tomo: 'I' o 'II' para un tomo suelto (None, el libro en un tomo): el
     prólogo y la presentación van solo en el I y el índice es el de la obra
-    entera, con lo del otro tomo rotulado y sin número."""
+    entera, con lo del otro tomo rotulado y sin número.
+    piezas: devuelve cada página por su nombre, para armarlas sueltas."""
     anio = __import__('datetime').date.today().year
     rotulo = f'Tomo {tomo} · {TOMOS[tomo]}' if tomo else ''
     acento = f' style="--acento: {ACENTO[tomo]}"'
@@ -1082,7 +1169,7 @@ def paginas_iniciales(capitulos, tomo=None):
                f'<div class="pt-centro"><h1>{TITULO}</h1><p class="bajada">{BAJADA}</p>'
                + (f'<p class="pt-tomo">{rotulo}</p>' if tomo else '') + '</div>'
                f'{trazos_portada(ACENTO[tomo])}'
-               + f'<div class="autores"><p class="pt-aut">{" · ".join(AUTORES[k]["apellidos"] for k in alfabetico())}</p></div>' +
+               + f'<div class="autores"><p class="pt-aut">{lista_alfabetica()}</p></div>' +
                f'<div class="pt-logos">{logo("uach-pm-blanco.png")}{logo("tecmedhub-blanco.png", "tm")}</div></section>')
     portadilla = (f'<section class="portadilla"><p class="pd-titulo">{TITULO}</p>'
                   + (f'<p class="pd-bajada">Tomo {tomo}</p>' if tomo else '') + '</section>')
@@ -1129,7 +1216,9 @@ def paginas_iniciales(capitulos, tomo=None):
         caps = capitulos_de(k)
         return (f'<div class="autor"><p class="autor-n">{a["nombre"]} <span>{a["apellidos"]}</span></p>'
                 + f'<p class="autor-t">{". ".join(a.get("titulo", []))}</p>'
-                + (f'<p class="autor-a">{a["afiliacion"]}</p>' if a.get('afiliacion') else '')
+                # afiliacion: una o varias (lista), cada una en su línea
+                + ''.join(f'<p class="autor-a">{x}</p>' for x in ([a['afiliacion']] if isinstance(a.get('afiliacion'), str)
+                                                                   else a.get('afiliacion', [])))
                 + ''.join(f'<p class="autor-d">{x}</p>' for x in datos)
                 + (f'<p class="autor-c">Capítulos: {caps}</p>' if caps else '')
                 + (f'<p class="autor-c">Revisó los casos de los capítulos 1 a 36</p>' if k == REVISOR_CASOS else '')
@@ -1156,6 +1245,9 @@ def paginas_iniciales(capitulos, tomo=None):
         if AUTORIA.get(cap):
             filas.append(f'<p class="toc-aut">{", ".join(AUTORES[k]["apellidos"] for k in AUTORIA[cap])}</p>')
     indice = f'<section class="indice"><h1 class="titulo-indice">Índice</h1>{"".join(filas)}</section>'
+    if piezas:
+        return dict(portada=portada, portadilla=portadilla, interior=interior, creditos=creditos,
+                    autores=autores, indice=indice)
     return portada + portadilla + interior + creditos + autores + antes + indice + despues
 
 
@@ -1167,7 +1259,7 @@ def contraportada(tomo=None):
             f'anamnesis hasta el diagnóstico, con los exámenes relatados sobre sus gráficos. Los simuladores de '
             f'apoyo generan los pacientes y sus resultados, así que muchos casos se pueden atender en el '
             f'simulador.</p>'
-            + f'<p class="cp-autores">{" · ".join(AUTORES[k]["apellidos"] for k in alfabetico())}</p>' +
+            + f'<p class="cp-autores">{lista_alfabetica()}</p>' +
             f'<div class="cp-logos">{logo("uach-pm-blanco.png")}{logo("tecmedhub-blanco.png", "tm")}</div>'
             f'<p class="cp-licencia">{LICENCIA}</p></section>')
 
@@ -1207,12 +1299,99 @@ def escribir_con_indice(doc, destino):
     HTML(string=doc, base_url=str(LIBRO) + '/').write_pdf(str(destino))
 
 
+PIEZAS = ('prelim', 'portadas', 'indice', 'parte', 'frente')
+
+
+def sin_tildes(s):
+    import unicodedata
+    return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
+
+
+def lista_capitulos():
+    """[(cap, título, parte)] en el orden del libro, sin componer nada (para el índice)."""
+    partes = partes_del_indice()
+    out = []
+    for a in sorted(CAPITULOS.glob('*.md'), key=lambda a: ({'B': 0, 'H': 1}.get(a.name[:1].upper(), 2), a.name)):
+        m = re.match(r'#\s+([A-Z]?\d+)\.\s*(.+)', a.read_text(encoding='utf-8'))
+        cap, titulo = (m[1], m[2].strip()) if m else ('', a.stem)
+        out.append((cap, titulo, partes.get(cap)))
+    return out
+
+
+def escribir_suelto(cuerpo, destino):
+    """Una pieza suelta (preliminares, portadas, índice) en salida/, de una pasada."""
+    doc = (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>{TITULO}</title>'
+           f'<style>{css()}</style></head><body>{cuerpo}</body></html>')
+    SALIDA.mkdir(exist_ok=True)
+    weasy = shutil.which('weasyprint') or str(pathlib.Path.home() / '.local' / 'bin' / 'weasyprint')
+    with tempfile.NamedTemporaryFile('w', suffix='.html', encoding='utf-8', delete=False) as f:
+        f.write(doc)
+    temporal = destino.with_name(f'.{destino.stem}.{os.getpid()}.pdf')
+    try:
+        subprocess.run([weasy, '-u', str(LIBRO) + '/', f.name, str(temporal)], check=True)
+        os.replace(temporal, destino)
+    finally:
+        pathlib.Path(f.name).unlink()
+        temporal.unlink(missing_ok=True)
+    print(destino)
+
+
+def armar_pieza(pieza, nombres, tomo=None):
+    sufijo = f'-tomo-{tomo}' if tomo else ''
+    if pieza == 'frente':
+        # preliminares y portadas nuevas en libro.pdf y los dos tomos, a la vez:
+        # los capítulos salen de la caché (un capítulo que sí cambió se recompone)
+        # solo preliminares y portadas (él, 2026-10-19: "ahora maquetearé y
+        # podemos confundirnos"): los capítulos van tal como están en la caché,
+        # sin componer ninguno; los tres PDF a la vez
+        orden = [sys.executable, __file__, '--completo', '--solo-cache']
+        procesos = [subprocess.Popen([*orden, *t]) for t in ([], ['--tomo', 'I'], ['--tomo', 'II'])]
+        if any(p.wait() for p in procesos):
+            sys.exit('Falló el armado de alguno de los tres PDF')
+        return
+    if pieza == 'prelim':
+        todos = sorted(PRELIMINARES.glob('*.md'))
+        archivos = [f for f in todos if not nombres or any(sin_tildes(n) in sin_tildes(f.stem) for n in nombres)]
+        if not archivos:
+            sys.exit(f'No hay preliminares con "{" ".join(nombres)}". Hay: {", ".join(f.stem for f in todos)}')
+        cuerpo = ''.join(capitulo(f.read_text(encoding='utf-8')) for f in archivos)
+        escribir_suelto(cuerpo, SALIDA / ('prelim' + ''.join(f'-{sin_tildes(n)}' for n in nombres) + '.pdf'))
+    elif pieza == 'portadas':
+        p = paginas_iniciales([], tomo, piezas=True)
+        cuerpo = p['portada'] + p['portadilla'] + p['interior'] + p['creditos'] + p['autores'] + contraportada(tomo)
+        escribir_suelto(cuerpo, SALIDA / f'portadas{sufijo}.pdf')
+    elif pieza == 'indice':
+        # los números de página y los enlaces solo existen con el libro entero
+        indice = paginas_iniciales(lista_capitulos(), tomo, piezas=True)['indice']
+        indice = re.sub(r'@@PAG-[A-Z]?\d+@@| href="#cap-[A-Z]?\d+"', '', indice)
+        escribir_suelto(indice, SALIDA / f'indice{sufijo}.pdf')
+    else:
+        # una parte: su separador y sus capítulos, con la misma caché que el libro
+        import armado_incremental
+        if not nombres:
+            sys.exit('Falta la parte: parte III, parte bases, parte herramientas...')
+        partes = partes_del_indice()
+        for n in nombres:
+            romano = re.fullmatch(r'[IVXivx]+', n)
+            caps = {c for c, p in partes.items()
+                    if (p[0] == f'Parte {n.upper()}' if romano else sin_tildes(n) in sin_tildes(' '.join(p)))}
+            halladas = {partes[c] for c in caps}
+            if len(halladas) != 1:
+                sys.exit(f'"{n}" no calza con una sola parte: '
+                         + (', '.join(' · '.join(x for x in p if x) for p in halladas) or 'ninguna'))
+            nombre = n.upper() if romano else re.sub(r'\W+', '-', sin_tildes(n))
+            armado_incremental.armar(caps=caps, con_frente=False, destino=SALIDA / f'parte-{nombre}.pdf',
+                                     sufijo=f'-parte-{nombre}')
+
+
 def main():
     global FORMATO
     args = sys.argv[1:]
-    completo_despues = '--sin-completo' not in args
-    if not completo_despues:
+    if '--sin-completo' in args:      # ya es lo normal; se acepta por quien todavía lo pase
         args.remove('--sin-completo')
+    completo = '--completo' in args
+    if completo:
+        args.remove('--completo')
     if '--formato' in args:
         i = args.index('--formato')
         FORMATO = FORMATOS[args[i + 1]]
@@ -1220,6 +1399,12 @@ def main():
     una_pieza = '--de-una-pieza' in args
     if una_pieza:
         args.remove('--de-una-pieza')
+    solo_frente = '--solo-frente' in args
+    if solo_frente:
+        args.remove('--solo-frente')
+    solo_cache = '--solo-cache' in args
+    if solo_cache:
+        args.remove('--solo-cache')
     tomos = []
     if '--tomos' in args:
         args.remove('--tomos')
@@ -1231,17 +1416,23 @@ def main():
         if tomos[0] not in TOMOS:
             sys.exit(f'Tomo desconocido: {tomos[0]} (hay {", ".join(TOMOS)})')
     pedido = args
+    if pedido and pedido[0] in PIEZAS:
+        armar_pieza(pedido[0], pedido[1:], tomos[0] if len(tomos) == 1 else None)
+        return
+    if (tomos or una_pieza or not pedido) and not completo:
+        print(__doc__)
+        sys.exit('El libro entero (o un tomo) se arma solo con --completo.')
     if tomos:
         # libro-tomo-I.pdf / libro-tomo-II.pdf, con la misma caché que libro.pdf
         import armado_incremental
         for t in tomos:
-            armado_incremental.armar(tomo=t)
+            armado_incremental.armar(tomo=t, solo_frente=solo_frente, solo_cache=solo_cache)
         return
     if not pedido and not una_pieza:
         # Libro completo: por capítulos con caché (armado_incremental.py).
         # --de-una-pieza compone las ~500 páginas juntas, en dos pasadas.
         import armado_incremental
-        armado_incremental.armar()
+        armado_incremental.armar(solo_frente=solo_frente, solo_cache=solo_cache)
         return
 
     def clave(x):
@@ -1294,11 +1485,6 @@ def main():
         pathlib.Path(f.name).unlink()
         temporal.unlink(missing_ok=True)
     print(destino)
-    if pedido and completo_despues:
-        # El libro completo se rearma después de cada capítulo: libro.pdf es
-        # el compilado de referencia y tiene que estar siempre al día.
-        formato = sys.argv[sys.argv.index('--formato'):sys.argv.index('--formato') + 2] if '--formato' in sys.argv else []
-        subprocess.run([sys.executable, __file__, *formato], check=True)
 
 
 if __name__ == '__main__':

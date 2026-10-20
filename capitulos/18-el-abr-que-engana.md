@@ -67,13 +67,13 @@ Los tiempos son el cociente entre los barridos y la tasa; el ruido relativo es 1
 
 ### Rechazo de artefactos
 
-Algunos barridos son tan ruidosos (el paciente tragó, se movió, se tensó) que llevan el promedio al desastre. Por eso el equipo **rechaza** cualquier barrido cuyo voltaje supera un límite y no lo suma. El límite es un parámetro del equipo (en LabSim, ±25 µV). Si es muy estricto, casi ningún barrido entra y el examen no avanza; si es muy laxo, entran barridos sucios y el promedio se contamina. Rechazar protege, pero no hace milagros: un paciente que se mueve sigue siendo un registro lento. El remedio es antes del examen: dormido, acostado, con el cuello suelto (→ H10).
+Algunos barridos son tan ruidosos (el paciente tragó, se movió, se tensó) que llevan el promedio al desastre. Por eso el equipo **rechaza** cualquier barrido cuyo voltaje supera un límite y no lo suma. El límite es un parámetro del equipo. Si es muy estricto, casi ningún barrido entra y el examen no avanza; si es muy laxo, entran barridos sucios y el promedio se contamina. Rechazar protege, pero no hace milagros: un paciente que se mueve sigue siendo un registro lento. El remedio es antes del examen: dormido, acostado, con el cuello suelto (→ H10).
 
 ### Filtros, polaridad y ventana: lo que el equipo hace antes de dibujar
 
 Tres decisiones del equipo modifican lo que se ve, y cada una tiene un costo.
 
-- **Los filtros** dejan pasar la banda donde está la energía del ABR y sacan el resto: el pasa alto elimina el EEG lento y la deriva; el pasa bajo, el ruido eléctrico y muscular de frecuencia alta. La rutina del libro es **100 a 3.000 Hz**. Un pasa alto demasiado alto le quita parte de la energía a la respuesta misma y la achica; uno demasiado bajo deja pasar la deriva y el ruido lento; un pasa bajo muy bajo redondea y funde las ondas (Picton, 2010). Con **filtros analógicos o causales** de un equipo real, el filtrado además **corre las latencias**: frente a un filtro de fase cero, el pasa alto convencional achica más las ondas y adelanta la V, con más variabilidad entre registros (Kavanagh y Franks, 1989). Los filtros de LabSim son de fase cero y no las corren, y esa diferencia es una limitación del simulador que conviene tener presente.
+- **Los filtros** dejan pasar la banda donde está la energía del ABR y sacan el resto: el pasa alto elimina el EEG lento y la deriva; el pasa bajo, el ruido eléctrico y muscular de frecuencia alta. La rutina del libro es **100 a 3.000 Hz**. Un pasa alto demasiado alto le quita parte de la energía a la respuesta misma y la achica; uno demasiado bajo deja pasar la deriva y el ruido lento; un pasa bajo muy bajo redondea y funde las ondas (Picton, 2010). Con **filtros analógicos o causales** de un equipo real, el filtrado además **corre las latencias**: frente a un filtro de fase cero, el pasa alto convencional achica más las ondas y adelanta la V, con más variabilidad entre registros (Kavanagh y Franks, 1989). Las figuras de este libro usan filtros de fase cero, que no las corren.
 - **La polaridad** del estímulo (rarefacción, condensación o alternada) cambia el sentido en que se mueve el tímpano. El artefacto eléctrico del transductor y la microfónica coclear **invierten su signo** con la polaridad; la respuesta neural, en lo esencial, no. Al **alternar**, esas dos cancelan al promediar y la respuesta neural queda. El precio: se promedian dos respuestas de latencia apenas distinta y las ondas se ensanchan un poco. En rarefacción la onda I sale antes y más clara (Stockard y cols., 1979; → H10).
 - **La ventana** es el tramo de tiempo que se registra después de cada estímulo. La rutina del libro es de 10 a 12 ms. Hay que cubrir la V incluso cuando está atrasada: cerca del umbral, en un oído con pérdida, en un lactante. Una ventana corta la deja afuera. Una ventana larga muestra componentes tardíos que la rutina no ve, entre ellos el que sigue.
 
@@ -82,7 +82,7 @@ Tres decisiones del equipo modifican lo que se ve, y cada una tiene un costo.
 Detrás de la oreja está el músculo auricular posterior. Con sonidos intensos se contrae de forma refleja y da una respuesta que los electrodos del mastoides o del lóbulo recogen sin querer: la **respuesta postauricular** (PAMR), una onda ancha de latencia cercana a **12 a 15 ms** (O'Beirne y Patuzzi, 1999). Es una respuesta real al sonido, pero no es auditiva de tronco: es muscular. Su amplitud varía con la tensión del paciente y con la posición de los ojos (Patuzzi y O'Beirne, 1999a), y por eso aparece y desaparece entre registros. En una ventana de rutina de 12 ms solo asoma su comienzo; si se abre la ventana, se ve entera. El PAMR se ha estudiado también como una respuesta útil por sí misma (Purdy y cols., 2005), pero en un ABR es un contaminante.
 
 :::comentario Lo que dicen las normas
-En personas reales el primer pico de la PAMR está entre 12,5 y 15 ms según la intensidad y el tono del músculo, y puede registrarse a menos de 20 dB del umbral subjetivo (O'Beirne y Patuzzi, 1999); al bajar el estímulo su amplitud cae y su latencia se alarga (Purdy y cols., 2005). La onda muscular de LabSim mantiene la latencia fija y desaparece al bajar el nivel. En un registro real lo que la separa de la V es la latencia absoluta, el tamaño, el ancho y su dependencia del tono muscular y de la mirada.
+En personas reales el primer pico de la PAMR está entre 12,5 y 15 ms según la intensidad y el tono del músculo, y puede registrarse a menos de 20 dB del umbral subjetivo (O'Beirne y Patuzzi, 1999); al bajar el estímulo su amplitud cae y su latencia se alarga (Purdy y cols., 2005). En un registro real lo que la separa de la V es la latencia absoluta, el tamaño, el ancho y su dependencia del tono muscular y de la mirada.
 :::
 
 ## Patología
@@ -129,7 +129,7 @@ Obtienes un trazo con una onda perfecta a 5,6 ms a 40 dB nHL en un oído que el 
 
 ## Casos
 
-Los pacientes son de práctica corriente: sus oídos son los de siempre. En cada caso hay dos tipos de figura. El **ABR limpio** del paciente, tal como lo toma el equipo bien puesto, es la referencia. El **registro que engaña** es el mismo oído con el artefacto o el ajuste equivocado, simulado en LabSim: no es el registro de un paciente real.
+Los pacientes son de práctica corriente: sus oídos son los de siempre. En cada caso hay dos tipos de figura. El **ABR limpio** del paciente, tal como lo toma el equipo bien puesto, es la referencia. El **registro que engaña** es el mismo oído con el artefacto o el ajuste equivocado, simulado: no es el registro de un paciente real.
 
 {{caso cap18_p33}}
 
@@ -165,7 +165,7 @@ Antes de repetir nada, ¿qué dos números del equipo te dirían si el registro 
 - **Hipótesis:** pérdida leve oculta, oído medio (descartado por la timpanometría), **registro insuficiente**. La tercera es la más probable y la que más veces se comete.
 - **Qué pedir:** los barridos aceptados, el FSP y el **ruido residual** de la curva de 20 dB; y, sobre todo, seguir promediando.
 - **Errores esperables:** pasar de "sin respuesta" a "umbral 40" sin mirar el ruido; contentarse con el FSP bajo sin mirar el ruido residual.
-- **En LabSim:** es el paciente de práctica 33. Con el umbral del caso referido a 2.000 barridos, cada vez que se parte el promedio a la mitad el umbral encontrado sube unos 6 dB (→ H10, paso 4); sirve para repetir el ejercicio con 500, 1.000 y 2.000 barridos.
+- **Para discutir:** Repetir el ejercicio con 500, 1.000 y 2.000 barridos y ver cómo sube el umbral (→ H10, paso 4).
 :::
 
 {{caso cap18_p37}}
@@ -206,7 +206,7 @@ Un operador de chancador de 47 años, con acúfeno bilateral y un audiograma con
 - **Hipótesis:** onda I con latencia anormal (no existe una I a 0,6 ms con ese estímulo), **artefacto de estímulo**.
 - **Qué pedir:** repetir con **fono de inserción** y polaridad **alternada**; si no hay otro transductor, **pinzar el tubo** (con inserción) o comparar polaridades; mirar si la deflexión crece con la intensidad.
 - **Errores esperables:** medir interpicos sobre una onda que es el estímulo; comparar las latencias absolutas con una norma hecha con fonos de inserción.
-- **En LabSim:** es el paciente de práctica 37. En *Archivo → Parámetros avanzados* se cambia el transductor y en el panel se elige la polaridad y *Pinzar tubo* (→ H10). El artefacto del transductor se ve con claridad con el supraaural y el vibrador.
+- **Para discutir:** El artefacto del transductor se ve con claridad con el supraaural y el vibrador.
 :::
 
 {{caso cap18_p36}}
@@ -242,7 +242,7 @@ Sin cambiar de paciente, ¿qué mirarías al bajar la intensidad para saber si e
 - **Hipótesis:** lesión retrococlear (no: la pérdida es simétrica y no hay otros signos), **respuesta postauricular** de un paciente tenso con sonido intenso.
 - **Qué pedir:** volver a la ventana de rutina; registrar a un nivel menor y comparar: la V se achica y se atrasa; la onda muscular no se atrasa, cambia de tamaño o desaparece <!-- Pasada de fundamentos 2026-10-18: decía "la respuesta muscular suele caer antes que la V" con un verificar. O'Beirne y Patuzzi 1999 la registran a menos de 20 dB del umbral subjetivo y Purdy 2005 la obtuvo con clicks de 20 dB nHL en la mitad de los normoyentes en la condición menos favorable: no cae de forma fiable antes que la V; la literatura sobre su latencia está en el recuadro de Fisiología. -->; relajar al paciente, **cuello suelto y cabeza apoyada**; revisar la posición de los electrodos.
 - **Errores esperables:** marcar V en el máximo más grande de la pantalla; "interpretar" interpicos con un componente muscular.
-- **En LabSim:** es el paciente de práctica 36. La respuesta postauricular depende de la configuración del caso: la activa el docente en el perfil del oído; en la ventana de 12 ms asoma solo su comienzo, y el alumno la ve entera al abrir la ventana.
+- **Para discutir:** Con la ventana de 12 ms asoma solo el comienzo de la respuesta postauricular; se ve entera al abrir la ventana.
 :::
 
 {{caso cap18_p42}}
@@ -282,7 +282,7 @@ Mira solo la latencia de esa onda en cuatro niveles seguidos. ¿Qué esperarías
 - **Dos trampas distintas:** a nivel **alto** (100 dB) lo que aparece en el oído sordo es la **curva sombra**, una respuesta real del oído sano; a nivel **bajo** (70 a 40 dB) lo que aparece es una **falsa onda V**, un artefacto que quedó en una parte de los barridos y no se mueve con la intensidad.
 - **Qué pedir:** enmascarar el oído sano; mirar las dos mitades del promedio; comparar latencias entre niveles; contrastar con el audiograma y la historia.
 - **Errores esperables:** concluir audición residual por una sola onda bonita; no preguntar qué dicen las otras pruebas.
-- **En LabSim:** es el paciente de práctica 42. La falsa onda V no viene en el caso base: el docente la activa en el perfil del oído (amplitud, latencia, rango de intensidades, mitad donde vive). Es el ejercicio para aprender a pedir los subpromedios A y B.
+- **Para discutir:** Es el ejercicio para aprender a pedir los subpromedios A y B.
 :::
 
 {{caso cap18_p38}}
@@ -327,7 +327,7 @@ Sin cambiar de oído, ¿qué parámetros del equipo pudieron esconder una onda q
 - **Hipótesis:** pérdida del oído medio o neural (no: no hay datos), **registro mal configurado**. Se revisa antes que el paciente.
 - **Qué pedir:** ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz, polaridad alternada y repetir la serie.
 - **Errores esperables:** informar un umbral que sale de la ventana y no del oído; comparar con la norma de rutina sin igualar los ajustes.
-- **En LabSim:** es el paciente de práctica 38. El equipo no viene configurado: la tasa, los filtros y la ventana se ajustan en el panel y en *Archivo → Parámetros avanzados*, y nada en la pantalla avisa qué está mal.
+- **Para discutir:** El equipo viene sin configurar (tasa, filtros y ventana) y nada avisa qué está mal.
 :::
 
 ## Resolución de los casos
@@ -401,7 +401,7 @@ El oído del paciente es el de una hipoacusia leve en agudos con graves caídos;
 ABR del oído izquierdo con umbral de la onda V cerca de 30 a 35 dB nHL con la configuración de rutina. El registro anterior no se usa para informar: se repite con ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz y polaridad alternada.
 
 :::comentario Comentario
-El oído estaba bien: lo que estaba mal era el equipo. Por eso H10 insiste en que el equipo del simulador **no viene configurado**, y en que la norma que uses tiene que estar medida con los mismos filtros, polaridad, tasa y transductor.
+El oído estaba bien: lo que estaba mal era el equipo. Por eso la configuración se revisa antes de registrar, y la norma que uses tiene que estar medida con los mismos filtros, polaridad, tasa y transductor (→ H10).
 :::
 
 :::comentario Prevención

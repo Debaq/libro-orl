@@ -61,12 +61,10 @@ Es el examen de ABR más corto y más simple del libro, porque casi todo lo deci
 :::comentario Lo que dicen las normas
 **Dormido o quieto.** En este libro el AABR se hace con el bebé dormido. Los equipos, además, miden el EEG y rechazan los registros con demasiado ruido, así que un bebé que se mueve no da un resultado: da un registro que no termina o un "refiere" falso. En la práctica se aprovecha el sueño que sigue a la mamada. La privación de sueño que se indica a los lactantes mayores para el ABR diagnóstico (→ cap. 17) no se usa en el tamizaje del recién nacido, que duerme casi todo el día.
 
-**Impedancias.** Cada fabricante da su límite: 12 kΩ en un equipo de tamizaje y 5 kΩ en otro son valores que se siguen tal como los pide el manual del equipo. En LabSim se muestran con un límite más amplio (20 kΩ) y no frenan la prueba, porque el ejercicio del AABR no es el montaje.
+**Impedancias.** Cada fabricante da su límite: 12 kΩ en un equipo de tamizaje y 5 kΩ en otro son valores que se siguen tal como los pide el manual del equipo.
 :::
 
-### Qué tiene LabSim y qué no
-
-LabSim tiene el AABR como **equipo aparte** del ABR: nivel fijo, una sola curva mientras promedia, resultado **PASA** o **REFIERE** y un informe que se puede editar. A propósito **no deja marcar ondas ni buscar umbrales**: un equipo de tamizaje no lo hace, y el alumno no debe poder "diagnosticar" con él. Los pasos, los parámetros y la pantalla están en H10 (→ H10, "El AABR de tamizaje"). En los casos de este capítulo, la **curva a 35 dB nHL** de las figuras es lo que el equipo "ve" por dentro; lo que el equipo informa es una sola palabra.
+En los casos de este capítulo, la **curva a 35 dB nHL** de las figuras es lo que el equipo "ve" por dentro; lo que informa es una sola palabra: **PASA** o **REFIERE**.
 
 ## Fisiología
 
@@ -193,7 +191,7 @@ Con diez horas de vida, ¿harías TEOAE, AABR o las dos? ¿Qué harías si un o�
 - **Hipótesis esperables:** transitorio del oído medio (vérnix, líquido), sonda mal sellada, pérdida real unilateral. Con tan pocas horas, la primera pesa mucho más que la tercera.
 - **Qué pedir:** TEOAE como primera prueba en sala cuna (→ H9). Si refiere en un oído, repetir **los dos** más tarde, y considerar AABR si el alta es muy temprana.
 - **Errores esperables:** llamar "hipoacusia" al oído derecho; informar a la familia con la palabra "sordera"; derivar a diagnóstico sin rescreening; repetir solo el oído que refirió.
-- **En LabSim:** el caso es un recién nacido de 10 horas; el resultado de cada oído depende de un percentil que se sortea una vez y queda guardado. Con el AABR (35 dB nHL) se ve que el oído que refirió en las emisiones sí responde.
+- **Para discutir:** Con el AABR (35 dB nHL) se ve que el oído que refirió en las emisiones sí responde.
 :::
 
 {{caso cap16_uci}}
@@ -227,7 +225,6 @@ Está a dos días del alta. ¿Qué examen de tamizaje usarías? ¿Qué harías s
 - **Hipótesis esperables:** coclear por ototoxicidad, neural por bilirrubina, transitorio del oído medio. Con emisiones presentes y ABR ausente a 80 dB, pesa lo neural.
 - **Qué pedir:** AABR (no TEOAE sola) por estar más de 5 días en la UCI (→ H10). Si refiere, derivación directa a diagnóstico con ABR y microfónica coclear (→ H11, cap. 13 y cap. 17).
 - **Errores esperables:** quedarse tranquilo con las emisiones presentes; repetir el AABR "otro día" en vez de derivar; subir el nivel del AABR para ver si "algo responde".
-- **En LabSim:** cuadro *kernícterus* en los dos oídos con grado moderado. Los campos del parto (semanas, peso, días de UCI) se pueden cargar en la ficha del paciente para que el docente vea los indicadores en su hoja.
 :::
 
 {{caso cap16_riesgo}}
@@ -261,7 +258,6 @@ Pasa el tamizaje y está listo para el alta. ¿Qué le dices a la familia y qué
 - **Hipótesis esperables:** audición normal; pérdida de aparición tardía si la infección fue congénita; ninguna si la PCR resulta negativa.
 - **Qué pedir:** esperar la PCR; si es positiva, evaluación audiológica a los 3 meses como máximo y control cada 12 meses hasta los 3 años (JCIH, 2019).
 - **Errores esperables:** dar de alta sin seguimiento porque "pasó"; olvidar la PCR; decirle a la familia que "su hijo oye perfecto".
-- **En LabSim:** recién nacido sano de 50 horas; los datos de TORCH se pueden cargar en la ficha y van a la hoja del docente como indicador de riesgo, sin cambiar el resultado del tamizaje.
 :::
 
 {{caso cap16_efusion}}
@@ -298,7 +294,7 @@ Con tres semanas de vida y un "refiere" repetido, ¿ya se puede hablar de hipoac
 - **Hipótesis esperables:** efusión neonatal del oído medio; hipoacusia sensorioneural; neural. Con ABR de ondas normales a 80 dB y timpanograma plano, pesa la conductiva.
 - **Qué pedir:** timpanometría con sonda de 1000 Hz (→ H8), TEOAE y derivación a diagnóstico con ABR por vía aérea **y ósea** (→ cap. 17); el ABR ósea no depende del oído medio.
 - **Errores esperables:** timpanograma con 226 Hz (sale "normal" y se descarta el problema); tranquilizar a la familia sin derivar; llamarla hipoacusia permanente antes de la ósea.
-- **En LabSim:** cuadro *efusión neonatal* en los dos oídos. En LabSim, con sonda de 226 Hz un oído cargado de esta edad se dibuja como A: la sonda correcta es parte del ejercicio.
+- **Para discutir:** Con sonda de 226 Hz el oído cargado sale como A: elegir la sonda correcta es parte del ejercicio.
 :::
 
 ## Resolución de los casos

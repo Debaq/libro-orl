@@ -26,7 +26,7 @@ Se pide al paciente con una pérdida sensorioneural o mixta que le dificulta la 
 
 Dos límites hay que tenerlos presentes desde el comienzo. Lo que se mide es **conductual y funcional**: qué detecta y qué repite el paciente en una sala con un audífono de prueba. No es una **verificación**: no dice si el audífono entrega lo que la pérdida necesita (→ *Lo que dicen las normas*, más abajo). Y el audífono de prueba no es el que se va a entregar: es uno del mismo tipo, ajustado con rapidez, y lo mejor que puede decir es "con amplificación esto mejora".
 
-Para ver cómo se lee, el capítulo parte con un paciente de práctica con presbiacusia, y con el campo libre que se dibuja para su prueba.
+Para ver cómo se lee, el capítulo parte con un paciente con presbiacusia, y con el campo libre que se dibuja para su prueba.
 
 {{caso h21_p36}}
 
@@ -227,7 +227,6 @@ Al molde se le agregan **modificaciones acústicas** que cambian la curva de res
 - **Ventilación.** Según su diámetro, afecta la ganancia grave y la salida máxima, y puede causar retroalimentación; los tapones de ventilación permiten cambiarla sin rehacer el molde (Pirzanski, 2006b). Un orificio de apenas 0,5 mm ya iguala la presión del conducto con el exterior.
 - **Manejo de la oclusión.** Además de ensanchar la ventilación se puede acortar o adelgazar el conducto del molde, o alargarlo hasta la zona ósea, o repetir la impresión con la boca abierta para un sello más ajustado. Ensanchar la ventilación tiene efectos poco predecibles sobre la oclusión (Pirzanski, 2006b).
 
-
 ### Los estilos de audífono
 
 El estilo cambia dónde está cada pieza, y con eso la potencia posible, el tamaño del molde y la facilidad de manejo. Todos tienen los mismos elementos: micrófono, procesador, receptor (el altavoz) y pila.
@@ -275,17 +274,7 @@ La prueba con software parte de datos que ya existen: se ingresan en el programa
 
 Mantén separadas las **áreas limpias y sucias**: lo que ya entró en un oído no vuelve a la bandeja de lo limpio hasta limpiarlo con alcohol.
 
-### Conoce tu equipo: el audiómetro en campo libre
-
-La prueba de este capítulo se hace en una sala, con la voz del examinador, y no necesita el audiómetro. Pero el campo libre sí lo usa cuando se quieren **umbrales con audífono** (→ H8, donde se explica la técnica completa). El audiómetro de LabSim tiene los controles del campo libre, pero **todavía no se practican**: aparecen en gris.
-
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro de LabSim: los controles del campo libre
-- @36.5,50.5 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos. Con el audífono puesto, el parlante es lo que se usa. En gris: en LabSim todavía no se practica.
-- @15.5,50.5 | **Simultáneo.** Hace sonar los dos parlantes a la vez. También en gris.
-- @10,30 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.
-- @26,59 | **Estímulo.** En campo libre solo **FM** (tono modulado, *warble*) o **NBN**. Nunca *Tono*: el tono puro forma ondas estacionarias en la sala.
-- @32.5,82 | **Talkback.** Para darle al paciente la instrucción antes de empezar y para hablarle durante la prueba.
-:::
+Los umbrales con audífono en campo libre se buscan con el audiómetro (→ H8).
 
 ### El paciente
 
@@ -375,7 +364,7 @@ Es un dato útil para mostrarle al paciente y a su familia, en el mismo gráfico
 - @S 2000 | Sin audífono (S), el campo libre es el del oído mejor: 40 dB en 2 kHz.
 - @A 2000 | Con audífono (A), 10 dB en 2 kHz: una ganancia funcional de **30 dB**.
 - @A 250 | En 250 Hz el audífono casi no le da: es lo esperable en una presbiacusia, donde los graves están cerca de lo normal.
-- LabSim no mide ni simula audífonos.
+- La curva con audífono es un ejemplo, no una medición.
 :::
 
 :::comentario Lo que dicen las normas
@@ -467,21 +456,7 @@ Los tres miden lo que la logoaudiometría no puede: si el paciente **vive mejor*
 - **Volver a poner en el oído una impresión que salió incompleta.** Se repite con material nuevo.
 - **Entregar el informe sin decir que es una prueba**, y que quien indica es el médico.
 
-## En LabSim
-
-LabSim **no tiene un módulo de audífonos**: no hay software de adaptación, ni interfaz, ni audífono de prueba, ni cuestionarios. Lo que sí hay en el simulador sirve para practicar **las partes de esta herramienta que no son el audífono**:
-
-- La **otoscopía** y el lavado del conducto (→ H1).
-- La **logoaudiometría**, con listas de bisílabos, para el porcentaje de discriminación, y el **LDL** para el umbral de molestia (→ H5).
-- La **conversación con el paciente**: la anamnesis de la prueba, qué le cuesta, qué espera, qué piensa de los audífonos.
-
-La figura de campo libre con audífono del caso parte de los umbrales del paciente con una **ganancia de ejemplo**, no una que el simulador mida: el campo libre todavía no se practica en el audiómetro, y el audífono no existe.
-
-:::comentario Lo que el simulador no tiene
-El paciente de LabSim no usa un audífono ni responde con uno: el audiograma que ves es siempre sin amplificación. La curva con audífono de la figura sale de restar a los umbrales del paciente una ganancia de ejemplo, que **no es una prescripción**. Para una adaptación real hay que usar el programa del fabricante, los objetivos de un método prescriptivo y la medición en oído real.
-:::
-
-El paciente de este capítulo (★, el 36 de la práctica) llega diciendo que oye bien y que la gente "habla para adentro". Lo que se aprende con él es la **candidatura**: oye casi normal los graves y pierde los agudos, no quiere audífonos "porque son para viejos", y hay una esposa que lo trajo. Antes de hablar de modelos, hay que escuchar qué le cuesta y qué le gustaría poder hacer.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un paciente con pérdida en los agudos y los graves casi normales se queja de que "se escucha a sí mismo hueco" con el audífono nuevo. ¿Qué efecto es y qué cambio de molde lo mejora? ¿Qué se arriesga con ese cambio?

@@ -361,9 +361,7 @@ Los errores de un estudio de sueño están en el montaje y en el informe.
 Un Epworth normal no descarta una apnea: la somnolencia es una de varias manifestaciones y el cuestionario tiene muchos falsos negativos (Kapur y cols., 2017). Un STOP-Bang alto no la confirma. Lo que decide es el estudio, y el estudio debe estar bien tomado: la cánula en la nariz, las bandas apretadas y el oxímetro con señal. Ante un registro con poco sueño o canales perdidos, la salida es repetirlo, no informarlo.
 :::
 
-## En LabSim
-
-LabSim no simula polisomnografías ni poligrafías: no hay pantalla ni tutorial para este examen. Las figuras de este capítulo son esquemas propios, calculados con un modelo sencillo, para practicar la lectura de los trazos y del informe.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. En un registro, el flujo oronasal y la presión nasal desaparecen durante 20 s, y las bandas de tórax y abdomen se mueven en sentido opuesto. ¿Qué tipo de apnea es? ¿Qué cambiaría si las bandas estuvieran planas?

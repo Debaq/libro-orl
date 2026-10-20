@@ -36,11 +36,11 @@ Los resultados nunca van solos. Cada figura viene **relatada con globos**: un n�
 
 El libro se puede usar sin ningún simulador: todo lo que necesitas para razonar un caso está en sus páginas. Los simuladores sirven para **practicar y entender**: hacer el examen tú mismo, equivocarte sin consecuencias y ver qué cambia cuando cambia el paciente.
 
-- **LabSim**: audiometría, impedanciometría, emisiones, potenciales evocados, electrococleografía y VEMP. Las herramientas que se practican en él terminan con un apartado *En LabSim*; las demás dicen en una línea que el examen no se simula.
+- **LabSim**: audiometría, impedanciometría, emisiones, potenciales evocados, electrococleografía y VEMP. Cómo se maneja está en su manual del estudiante (github.com/Debaq/LabSim).
 - **labyrinthus3d**: el laberinto, sus reflejos y sus vías centrales, sanas y enfermas; de ahí salen las láminas de vías de B1 y muchas figuras de equilibrio.
 - **trainHIT**, **RinoSim** y **AudioPAC**: el impulso cefálico, la nariz y el procesamiento central.
 
-Las figuras de estos simuladores son imágenes propias, sin la interfaz: las cifras que el simulador escribe en ellas son de su modelo, no valores de referencia. Dónde descargarlos está en la página **Simuladores**, al final de estas preliminares.
+Las figuras de estos simuladores son imágenes propias: las cifras que el simulador escribe en ellas son de su modelo, no valores de referencia. Las pantallas de LabSim de los apartados «Conoce tu equipo» están para mostrar cómo se organiza un equipo, no cómo se maneja el simulador. Dónde descargarlos está en la página **Simuladores**, al final de estas preliminares.
 
 ## Los recuadros
 
@@ -74,7 +74,7 @@ Lo que la experiencia agrega a la técnica. Tres llevan siempre el mismo título
 
 ## Para el docente
 
-Cada caso trae su **guía para el docente** en un recuadro verde, «Para el docente»: los datos clave de la entrevista, las hipótesis esperables, qué debería pedir el estudiante, los errores más frecuentes y cómo usar el caso en LabSim. Si trabajas el caso en clase con aprendizaje basado en problemas, pide a tus estudiantes que no lo lean antes de resolverlo.
+Cada caso trae su **guía para el docente** en un recuadro verde, «Para el docente»: los datos clave de la entrevista, las hipótesis esperables, qué debería pedir el estudiante y los errores más frecuentes. Si trabajas el caso en clase con aprendizaje basado en problemas, pide a tus estudiantes que no lo lean antes de resolverlo.
 
 ## Las referencias
 

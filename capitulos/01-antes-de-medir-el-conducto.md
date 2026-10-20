@@ -18,13 +18,19 @@ La otoscopía va **antes** de cualquier examen que use el conducto, y se registr
 1. **¿Está libre?** Cerumen, cuerpo extraño, descamación, secreción.
 2. **¿Cómo está la piel?** Enrojecida, hinchada, con costras, con tejido que sangra.
 3. **¿Tiene su forma?** Estrecho, ciego, con una masa o con exostosis.
-4. **¿Se ve la membrana entera?** Si no se ve, se informa "no visible", nunca "normal".
+4. **¿Se ve la membrana entera?** Si no se ve, se informa "no visible"\*, nunca "normal".
+
+\* Los autores recomiendan usar videootoscopio y OtoReport para el informe. Ver github.com/Debaq/otoreport.
 
 Antes de entrar, **tracciona el pabellón y presiona el trago**. Si eso duele, el conducto está inflamado y lo sabes antes de mirar.
 
 La idea que ordena todo el capítulo es una sola: **nada entra a un conducto que no está sano**. La sonda del impedanciómetro, el fono de inserción y la sonda de emisiones empujan lo que haya, se tapan, lastiman una piel inflamada o llevan una infección de un oído al otro.
 
-LabSim lo toma en serio. Cuando el caso trae un oído como **no realizable** (otitis externa, cuerpo extraño, conducto ausente, o el que marque tu docente), intentar la timpanometría o los reflejos con la sonda o el fono en ese oído es una **falta grave**: el equipo no mide, lo avisa en rojo, queda registrado en tu atención y el impedanciómetro queda fuera de uso el resto de la atención, **en los dos oídos**, porque una sonda que entró a un oído con secreción no puede ir al otro. El equipo no te avisa antes: decidir no medir es parte del ejercicio (→ H7). El tapón de cerumen es distinto: el equipo mide, y lo que mide es el tapón (caso 1.1).
+El tapón de cerumen es distinto: se puede medir, y lo que se mide es el tapón (caso 1.1).
+
+:::simulador
+Caso por crear (otitis externa del OD): intenta la timpanometría en ese oído y mira qué hace el equipo (→ H7).
+:::
 
 ### El diapasón no entra al conducto (→ H2)
 
@@ -34,7 +40,7 @@ El diapasón se apoya en la frente, en la mastoides o frente al pabellón. Por e
 - **Rinne.** Sale **negativo** en el oído ocluido si el componente conductivo alcanza el umbral del diapasón. Con gaps chicos sigue positivo (BSA, 2022).
 
 :::comentario Lo que dicen las normas
-En LabSim el Rinne se da vuelta con **15 dB** de gap: es el umbral que usa LabSim, y tu docente puede calibrarlo. La guía británica pone el límite entre **17,5 y 30 dB** con el diapasón de 512 Hz (BSA, 2022), y entre estudios va de 13 a 40 dB (Kelly y cols., 2018). LabSim usa un umbral bajo para que el diapasón se dé vuelta en las conductivas leves, que son justamente las del conducto. En la clínica no esperes esa nitidez: un Rinne positivo **no descarta** una conductiva leve (→ H2).
+La guía británica pone el límite entre **17,5 y 30 dB** con el diapasón de 512 Hz (BSA, 2022), y entre estudios va de 13 a 40 dB (Kelly y cols., 2018). En la clínica no esperes nitidez: un Rinne positivo **no descarta** una conductiva leve (→ H2).
 :::
 
 ### Por qué no se mide a través de un tapón
@@ -191,7 +197,7 @@ Un paciente con tapón de cerumen en los dos oídos necesita una audiometría pa
 - **Hipótesis esperables:** tapón de cerumen (la foto lo muestra); conductiva de oído medio detrás del tapón (no se puede descartar sin ver la membrana); pérdida por edad bilateral.
 - **Qué pedir:** acumetría hoy; revisar contraindicaciones del lavado; lavado y otoscopía de control; recién entonces audiometría e impedanciometría (→ H1, H2, H3, H7).
 - **Errores esperables:** aceptar la audiometría que trae; hacer la timpanometría con el tapón; olvidar preguntar por perforación o cirugía antes de lavar.
-- **En LabSim:** cuadro *Tapón de cerumen* en el OD, con la foto cargada en la ficha Otoscopia. El tapón no es "no realizable": si el alumno hace la timpanometría, el equipo mide y da la curva del tapón (plana, con volumen bajo), que no sirve para informar el oído medio. No cuenta como falta grave; el error es haberla hecho y, peor, informarla como un tipo B.
+- **Para discutir:** Si el alumno hace la timpanometría, mide el tapón: el error es haberla hecho y, peor, informarla como un tipo B.
 :::
 
 {{caso cap01_cuerpo_extrano_cae}}
@@ -230,7 +236,6 @@ Expuesto a ruido y con el OI alterado en la audiometría anual: ¿qué causas pl
 - **Hipótesis esperables:** cuerpo extraño (resto de tapón), tapón de cerumen empujado por el cotonito, daño por ruido (no explica un gap ni la sensación de oído lleno).
 - **Qué pedir:** otoscopía; acumetría; derivación a otorrinolaringología para extracción bajo visión; audiometría completa cuando el conducto esté libre.
 - **Errores esperables:** lavar (el agua puede empujar el objeto hacia la membrana); poner la sonda; informar una "hipoacusia conductiva del OI" en un examen laboral.
-- **En LabSim:** cuadro *Cuerpo extraño en CAE* en el OI. El informe de otoscopía no tiene una opción para cuerpo extraño: el alumno lo escribe en las observaciones y deja su conducta en la evolución. El OI viene como no realizable: intentar medir en él (sonda, o fono de un contralateral) es una falta grave y deja el impedanciómetro fuera de uso en los dos oídos el resto de la atención.
 :::
 
 {{caso cap01_otitis_externa}}
@@ -262,7 +267,6 @@ Es todo lo que se hace hoy.
 - **Hipótesis esperables:** otitis externa difusa (dolor a la tracción y al trago), otitis media aguda con otorrea (dolor previo, fiebre, sin dolor a la tracción), forúnculo del conducto.
 - **Qué pedir:** otoscopía cuidadosa, acumetría y nada más. Sin sonda ni fonos de inserción. La audiometría se reprograma para cuando la piel esté sana, después del control médico.
 - **Errores esperables:** hacer la audiometría "porque ya vino"; poner la sonda en un conducto con secreción; usar el mismo espéculo en el otro oído.
-- **En LabSim:** cuadro *Otitis externa difusa* en el OD. Marcar edema y otorrea en el informe de otoscopía. El OD viene como no realizable: intentar medir en él es una falta grave, y como el impedanciómetro queda fuera de uso en los dos oídos, el alumno pierde también la impedanciometría del OI sano.
 :::
 
 {{caso cap01_estenosis_atresia_cae}}
@@ -304,7 +308,6 @@ Sin conducto, ¿qué tipo de pérdida esperas en el OD? ¿Qué podría hacer que
 - **Hipótesis esperables:** conductiva máxima del OD por atresia; malformación del oído medio asociada; menos probable, compromiso coclear (por eso importa la ósea).
 - **Qué pedir:** acumetría, audiometría con vía ósea **enmascarada** (→ H4) e impedanciometría solo del OI. En el lactante, el mismo dato lo da el PEAT por vía ósea (cap. 17).
 - **Errores esperables:** no enmascarar la ósea; intentar timpanometría en el OD; informar "hipoacusia moderada" sin decir que la cóclea está sana.
-- **En LabSim:** cuadro *Estenosis / atresia congénita de CAE* moderado en el OD, que viene como no realizable: intentar la timpanometría o un contralateral por el OD es una falta grave y deja el impedanciómetro fuera de uso, también para el OI.
 - **Para discutir en clases:** por qué un niño con un oído normal igual puede necesitar apoyo en la sala de clases.
 :::
 
@@ -345,7 +348,6 @@ Plantea al menos tres causas para una otorrea con sangre que no mejora con gotas
 - **Hipótesis esperables:** otitis externa resistente, otitis externa necrotizante, otitis media crónica con colesteatoma, **carcinoma del conducto**. No le toca al estudiante decidir entre ellas: le toca reconocer que no es una otitis externa común.
 - **Qué pedir:** otoscopía sin manipular, acumetría y audiometría con fonos supraaurales y ósea enmascarada; ninguna sonda. La derivación no espera el examen.
 - **Errores esperables:** limpiar o aspirar el conducto; hacer timpanometría; informar "otitis externa" y citar a control.
-- **En LabSim:** cuadro *Carcinoma de CAE / tumor temporal* moderado en el OI. Ese cuadro no nace como no realizable: para que meter la sonda en el OI cuente como falta grave, el docente elige **NR** (no realizable) en el timpanograma del OI, en la ficha Timpanometría, al crear el caso.
 :::
 
 ## Resolución de los casos

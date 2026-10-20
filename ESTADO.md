@@ -21,8 +21,12 @@ Para retomar en una conversación nueva: leer este archivo, `LEEME.md`
   interior, créditos y página de autores con nombre completo, áreas y
   capítulos; firma bajo el título de cada capítulo, autores en el índice y
   "Cómo citar este capítulo" al final. Falta: título profesional y afiliación
-  sacados de los ORCID (2026-10-17). Faltan: afiliación de Catipillán-Ulloa, afiliación
-  y ORCID de Vargas-Bustamante, área del magíster de Uribe-Hernández.
+  sacados de los ORCID (2026-10-17). Actualizado 2026-10-19: Catipillán-Ulloa independiente
+  (proyecto ANID de la UACh); Uribe-Hernández, Máster en IA en Salud;
+  Vargas-Bustamante, Máster MBA en Gestión Clínica, Dirección Médica y
+  Asistencial (TECh, España); Moreira-Quichahual, Licenciado en Tecnología
+  Médica, Cesfam Piedra del Águila (Municipalidad de Angol), ORCID
+  0009-0000-8205-726X. Falta: afiliación y ORCID de Vargas-Bustamante.
 - **Una sola edición:** la guía del docente (`:::docente`) va dentro de cada
   caso.
 - **Simuladores de apoyo:** LabSim (audición, VEMP); trainHIT y labyrinthus3d
@@ -162,7 +166,30 @@ no se rehicieron: un capítulo que se vuelva a armar puede cambiar de curva
   números de página estampados, índice y marcadores rehechos. Desde cero
   ~2,5 min; sin cambios ~1,3 min. `--de-una-pieza` = el armado viejo.
 
-- **Tomos** (2026-10-19): `hacer_libro.py --tomos` arma libro-tomo-I.pdf
+- **Por piezas** (2026-10-19, él: "no quiero que estemos haciendo libros
+  completos sino por capítulos y partes"): un capítulo ya NO rearma libro.pdf.
+  `hacer_libro.py parte III | prelim [nombre] | portadas [--tomo II] | indice`
+  sale a salida/ en segundos (la parte usa la caché del armado incremental).
+  El libro entero y los tomos solo con `--completo`.
+- **`hacer_libro.py frente`** (2026-10-19): rehace preliminares y portadas en
+  los 3 PDF (~90 s) y pega los capítulos TAL COMO ESTÁN en la caché, sin
+  componer ninguno (`--solo-cache`), para no mezclar con lo que él maquetea.
+  La caché guarda `huella_cuerpo` (el capítulo sin CSS): un cambio de estilo
+  de portadas no recompone nada, un cambio de firma/texto/imágenes sí.
+- **Orden de autores** (él, 2026-10-19, "esto es importante"): en preliminares
+  `ORDEN_AUTORES` (Baier, Vargas, Casanova, Poza, López, Uribe, Moreira,
+  Catipillán); portada y contraportada por apellido, "Apellidos, Nombre".
+  Firmas de capítulo: `PRIMERO` (Baier antes que Vargas, Vargas antes que
+  Uribe, Moreira antes que Uribe) y B1 = Baier, Catipillán, Uribe. No cambiar
+  sin preguntarle. TecMedHub es 2.ª afiliación de Baier, Vargas, López, Uribe
+  y Catipillán. Falta el ORCID de Vargas (el aviso queda a propósito).
+- **PENDIENTE: 36 capítulos con la firma vieja en el PDF** (B1, H1-H11, H13,
+  H14, H30-H32, 1-19): se arreglan solos al armar cada capítulo o con
+  `--completo`. El frente (índice, autores) ya tiene las nuevas.
+- **Prólogo** (`preliminares/01-prologo.md`) escrito con él: es su voz, frases
+  cortas; no "mejorarlo". Sin nombrar a Claude (decisión suya: "no le damos
+  créditos a IAs"); LabSim usa DeepSeek.
+- **Tomos** (2026-10-19): `hacer_libro.py --completo --tomos` arma libro-tomo-I.pdf
   (B y H) y libro-tomo-II.pdf (capítulos clínicos); libro.pdf es la edición
   de tapa dura en un tomo. Misma caché.
 - **Pasada de huecos** (2026-10-19): 1428 -> 1352 págs.; páginas con >=25 %

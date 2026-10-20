@@ -256,13 +256,7 @@ En este libro, la conclusión de la medición se cierra diciendo si la ganancia 
 Cuando un usuario dice que "el audífono ya no sirve", antes de cambiar nada pregúntate si **cambió el audífono o cambió el oído**. Estetoclip limpio y medición dentro de tolerancia, con un paciente que oye peor, obligan a repetir la audiometría (→ H3) y la otoscopía (→ H1). Un audífono sano no corrige una pérdida que subió.
 :::
 
-## En LabSim
-
-:::comentario Lo que el simulador no tiene
-LabSim **no simula audífonos ni cámaras de medida**: no hay estetoclip, ni acoplador, ni analizador.
-:::
-
-Lo que sí puedes practicar en LabSim es lo que rodea a estas revisiones: la otoscopía previa (→ H1), la audiometría tonal y la logoaudiometría que dicen cuánta ganancia necesita el paciente (→ H3, H5) y la audiometría en campo libre, donde se compara al paciente con y sin audífono (→ H8, H21). La adaptación completa se trabaja en los capítulos 28 y 29 del libro.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Un usuario dice que su audífono "no suena". Ordena de lo más simple a lo más grave cinco cosas que revisarías antes de mandarlo a reparación.

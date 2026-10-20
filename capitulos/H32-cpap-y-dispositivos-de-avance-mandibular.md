@@ -295,9 +295,7 @@ Las noches con uso inferior a 4 horas no son un fallo del paciente: cada una tie
 Un paciente con uso bajo, IAH residual alto o fuga elevada tiene un problema que hay que buscar, no una falta de voluntad. Se informa al médico sin esperar al próximo control cuando la **somnolencia persiste pese a un buen uso y un IAH residual bajo**, o cuando el **IAH residual sigue alto con la fuga controlada**: el equipo no resuelve esos cuadros y la decisión de reestudiar es del médico.
 :::
 
-## En LabSim
-
-LabSim no simula este tratamiento: no hay pantalla de equipo, descarga ni titulación. Las figuras de este capítulo son esquemas propios, con datos de ejemplo, para practicar la lectura de una titulación y de una descarga.
+## Para practicar
 
 :::pregunta Preguntas para practicar
 1. Explica con tus palabras por qué una presión positiva mantiene abierta la faringe, y por qué se habla de «férula neumática». ¿Por qué la presión útil es distinta en cada paciente?

@@ -30,7 +30,7 @@ Antes de decir "la ósea cae", comprueba tres cosas:
 El ABR por aire entrega un umbral que mezcla el oído medio y la cóclea. Si el umbral sale alto, el ABR por vía ósea pregunta lo mismo que la audiometría: **¿es transmisión o es cóclea?** Es el recurso para el paciente que no puede responder, sobre todo el lactante (→ cap. 17). En el adulto, que contesta con la mano, casi siempre conviene la ósea conductual. La técnica está en H10 (paso 8); acá solo lo que decide su utilidad:
 
 - **Montaje.** El mismo del ABR por aire; el vibrador va en la mastoides, y el artefacto de estímulo, a pocos centímetros del electrodo, tapa el primer o los dos primeros milisegundos, sobre todo a 50 dB nHL o más y en las ondas tempranas, como la I (Seo y cols., 2018). Por eso se lee **solo la onda V**, no la I ni la III. <!-- Pasada de fundamentos 2026-10-18: la cita a Seo y cols. (2018) sostenía "se lee solo la onda V". El texto completo (PMC5894486) dice que el artefacto "can obscure the first 1 to 2 ms of the ABR waveforms", "especially at high intensities with 50 dB above normal hearing level (nHL) and also at earlier waves such as Wave I", y su tabla 3 da latencias óseas normativas de I, III y V. Leer solo la V queda como criterio del libro, sin cita. -->
-- **Techo.** El vibrador entrega poco: de 45 a 55 dB nHL según el equipo (Seo y cols., 2018). En LabSim llega a 55. Y el cero óseo está referenciado más alto que el aéreo: en el adulto con audición normal el umbral del click por hueso queda unos 15 dB sobre el aéreo (→ H10). Una cóclea con 30 dB de pérdida ósea ya no cabe en la ventana.
+- **Techo.** El vibrador entrega poco: de 45 a 55 dB nHL según el equipo (Seo y cols., 2018). Y el cero óseo está referenciado más alto que el aéreo: en el adulto con audición normal el umbral del click por hueso queda unos 15 dB sobre el aéreo (→ H10). Una cóclea con 30 dB de pérdida ósea ya no cabe en la ventana.
 - **Enmascaramiento.** En el adulto la atenuación interaural por vía ósea es casi nula, de modo que ambas cócleas reciben lo mismo y hay que enmascarar **siempre** el oído contrario. En el lactante el cráneo transmite peor de un lado al otro y el enmascaramiento pesa menos (→ H10).
 - **Por aire, también.** Con fonos de inserción el estímulo pierde unos 60 a 70 dB al cruzar. <!-- verificar: 60 a 70 dB de atenuación interaural del click con inserto (LabSim usa 65); mismo verificar que en H10. Munro y Agnew (1999) miden tonos puros con ER-3A: 15 a 20 dB más que el supraaural (mediana ~60 dB), con 55 dB como regla para enmascarar. --> A 100 dB nHL, lo que llega a la otra cóclea son 30 a 40 dB: sobra para que responda un oído sano. Mientras el oído estudiado oiga menos que el contrario, hay que enmascarar o desconfiar de la V (→ H10, paso 5); por eso conviene mirar siempre el canal contralateral.
 
@@ -175,7 +175,6 @@ Además de la audiometría con ósea enmascarada, ¿qué más agregarías? Piens
 - **Hipótesis esperables:** mixta por otitis crónica contra conductiva pura de una perforación. La respuesta separa la **ósea**: normal en una conductiva pura, caída en una mixta.
 - **Qué pedir:** audiometría con ósea enmascarada en el OD y acumetría; timpanograma, con el oído seco (→ H2, H3, H4, H7). No hay razón para un ABR óseo en un adulto que contesta.
 - **Errores esperables:** anotar una ósea sin enmascarar y concluir "conductiva pura"; leer el ABR óseo sin respuesta como cóclea muerta.
-- **En LabSim:** cuadro *mixta_otitis_cronica*, grado moderado en el OD. El ABR óseo se elige en Parámetros avanzados, con el vibrador.
 :::
 
 {{caso cap15_mixta_otoesclerosis}}
@@ -218,7 +217,6 @@ Los dos oídos oyen casi igual. ¿Hace falta enmascarar la ósea? ¿Qué ocurre 
 - **Qué pedir:** audiometría con vía ósea enmascarada en cada oído, impedanciometría con reflejos (→ H3, H4, H7).
 - **Errores esperables:** anotar la ósea sin enmascarar y repetir la misma en los dos oídos; concluir que toda la caída ósea es daño coclear.
 - **Ejercicio de enmascaramiento:** en 1 kHz, para la ósea del OI: mínimo = 40 − 35 + 60 = **65 dB**, sin efecto de oclusión porque el OD tiene gap; máximo = 40 + AI del fono que lleva el ruido: con un supraaural (40 dB) da **80 dB** y con un inserto (55 dB) da **95 dB**. Hay ventana, pero angosta con supraaural (→ H4, "El dilema de enmascaramiento").
-- **En LabSim:** cuadro *mixta_otoesclerosis*, grado moderado en los dos oídos.
 :::
 
 {{caso cap15_colesteatoma_fistula}}
@@ -256,7 +254,6 @@ Otorrea fétida de años y un mareo con la presión: ¿qué estructura puede est
 - **Hipótesis esperables:** otitis crónica colesteatomatosa con **fístula laberíntica**. El vértigo con la presión es la pista.
 - **Qué pedir:** audiometría con ósea enmascarada (→ H3, H4) y derivar el mismo día. **No** se presuriza el oído: la prueba de presión puede provocar el vértigo, y con otorrea la timpanometría no se hace (→ cap. 3). <!-- verificar: la timpanometría como desencadenante de vértigo en fístula; práctica prudente, no se encontró una cifra publicada. -->
 - **Errores esperables:** hacer una timpanometría o una maniobra de Valsalva; leer la ósea como "normal" sin compararla con la del OI; tratar el cuadro como una otitis más.
-- **En LabSim:** cuadro *colesteatoma_fistula*, grado moderado en el OD.
 :::
 
 {{caso cap15_trauma_craneal_completo}}
@@ -294,7 +291,7 @@ Un golpe en la cabeza puede dañar el oído medio y el interno. ¿Cómo se verí
 - **Hipótesis esperables:** hemotímpano o cadena luxada (gap) y conmoción laberíntica (caída coclear en agudos); ambos en el mismo oído.
 - **Qué pedir:** audiometría con ósea enmascarada, acumetría, timpanometría y repetir la audiometría a las semanas, cuando el hemotímpano se resuelva (→ H3, H4, H7).
 - **Errores esperables:** quedarse con "conductiva por hemotímpano" sin mirar que la ósea cae en los agudos.
-- **En LabSim:** cuadro *trauma_craneal_completo*, grado moderado en el OD. La ósea en 4 kHz es la que dice si hay conmoción.
+- **Para discutir:** La ósea en 4 kHz es la que dice si hay conmoción.
 :::
 
 {{caso cap15_fractura_transversal}}
@@ -341,7 +338,6 @@ Un oído sin audición no contesta ningún tono. ¿Cómo sabes que no estás mid
 - **Hipótesis esperables:** fractura de peñasco que atraviesa el laberinto, laberintitis, conmoción grave. La TAC dice si hay violación de la cápsula ótica; la audiometría solo dice que no hay cóclea.
 - **Qué pedir:** audiometría con ósea enmascarada (→ H4), acumetría, reflejos y ABR con **enmascaramiento al oído contrario** (→ H10, paso 5). Para el pronóstico vestibular, el VEMP (→ cap. 20).
 - **Errores esperables:** leer la aérea sombra como umbral y la ósea sin enmascarar como cóclea normal, es decir, informar una conductiva de 40 dB operable; leer la onda del OI como V del OD en el ABR.
-- **En LabSim:** cuadro *fractura_transversal*, grado profundo en el OD.
 :::
 
 ## Resolución de los casos
