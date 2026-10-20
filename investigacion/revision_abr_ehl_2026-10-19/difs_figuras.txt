@@ -1,0 +1,70 @@
+== cap09_hidrops_retardado_ecochg.svg | -Sin respuesta identificable +PS +PA +PS/PA +-5,24 +Razón de áreas +— +Latencia PA +1,57 ms -0,45 +0,64 -2,88 +1,95 -1,43 ms +1,60 ms
+== cap09_p38_ecochg.svg | -0,31 +0,25 -1,19 +1,17 -0,60 +0,58 -3,61 +1,59
+== cap10_waardenburg_abr.svg | 
+== cap11_angulo_abr.svg | +V
+== cap11_microvascular_abr.svg | +I
+== cap11_nf2_abr.svg | +III
+== cap11_p39_abr.svg | 
+== cap11_retrococlear_abr.svg | +III
+== cap11_schwannoma_abr.svg | +I
+== cap12_esclerosis_multiple_abr.svg | +III
+== cap12_esclerosis_multiple_abr_2.svg | 
+== cap12_glioma_tronco_abr.svg | +V
+== cap12_glioma_tronco_abr_2.svg | 
+== cap12_hic_idiopatica_abr.svg | 
+== cap12_hic_idiopatica_abr_2.svg | 
+== cap12_infarto_aica_abr.svg | 
+== cap12_infarto_aica_abr_2.svg | 
+== cap12_siderosis_abr.svg | +V +III
+== cap12_siderosis_abr_2.svg | 
+== cap13_kernicterus_abr.svg | +III
+== cap13_leucodistrofia_abr.svg | +I
+== cap13_neuropatia_hereditaria_abr.svg | 
+== cap13_p40_abr.svg | 
+== cap13_p40_abr_2.svg | 
+== cap13_p40_abr_3.svg | 
+== cap14_bloqueo_proximal_abr.svg | 
+== cap14_hipotermia_farmacos_abr.svg | 
+== cap14_toxico_metabolico_abr.svg | +I
+== cap15_colesteatoma_fistula_abr.svg | +I
+== cap15_colesteatoma_fistula_abr_2.svg | +V
+== cap15_fractura_transversal_abr.svg | 
+== cap15_mixta_otitis_cronica_abr.svg | +I
+== cap15_mixta_otitis_cronica_abr_2.svg | 
+== cap17_asfixia_perinatal_abr.svg | 
+== cap17_asfixia_perinatal_abr_2.svg | 
+== cap17_asfixia_perinatal_abr_3.svg | 
+== cap17_cmv_congenito_abr.svg | +III +III
+== cap17_cmv_congenito_abr_2.svg | -V
+== cap17_cmv_congenito_abr_3.svg | 
+== cap17_efusion_neonatal_abr.svg | +I +V
+== cap17_efusion_neonatal_abr_2.svg | 
+== cap17_rubeola_congenita_abr.svg | +V +III +V
+== cap17_rubeola_congenita_abr_2.svg | 
+== cap17_rubeola_congenita_abr_3.svg | 
+== cap18_p33_abr.svg | +III
+== cap18_p36_abr.svg | +III
+== cap18_p37_abr.svg | +III
+== cap18_p38_abr.svg | +III +V
+== cap18_p42_abr.svg | 
+== cap19_p42_abr.svg | 
+== cap19_sobre_real_abr.svg | 
+== cap19_unilateral_abr.svg | +I
+== cap23_meniere_avanzado_ecochg.svg | -0,24 +0,43 -1,98 +4,64 -1,17 ms +2,10 ms -0,17 +0,09 -1,14 +1,04
+== cap23_meniere_bilateral_ecochg.svg | -0,65 +0,71 -1,65 +1,76 -1,37 ms +1,40 ms -0,43 +0,17 -2,84 +1,06 -1,60 ms +1,43 ms
+== cap23_meniere_migrana_ecochg.svg | -0,33 +0,27 -1,20 +1,21 -0,53 +0,64 -2,60 +1,83 -1,40 ms +1,43 ms
+== cap23_migrana_vestibular_ecochg.svg | -0,17 +0,15 -1,11 +1,13 -0,28 +0,25 -1,19 +1,18
+== cap27_schwannoma_abr.svg | 
+== cap34_exagera_abr.svg | 
+== cap34_exagera_abr_2.svg | 
+== cap34_hidrops_abr.svg | 
+== cap34_hidrops_ecochg.svg | -0,20 +0,08 -1,15 +1,07 -1,37 ms +1,33 ms -0,46 +0,40 -1,26 +2,93 -1,70 ms +1,43 ms
+== h10_p33_abr.svg | +III
+== h10_p34_abr.svg | +III
+== h10_p36_abr.svg | +III +V
+== h10_p36_abr_2.svg | 
+== h10_p39_abr.svg | 
+== h10_p40_abr.svg | 
+== h11_p33_ecochg.svg | -0,25 +0,34 -1,81 +1,22 -0,18 +0,26
+== h11_p38_ecochg.svg | -0,31 +0,25 -1,19 +1,17 -0,60 +0,58 -3,61 +1,59
+== h9_p40_abr.svg | 

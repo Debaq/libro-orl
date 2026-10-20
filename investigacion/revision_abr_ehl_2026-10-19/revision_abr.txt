@@ -1,0 +1,365 @@
+
+## 10- cap10_waardenburg_abr.svg
+   cambios: {}
+    - @OD 90 | PEAT con click a 90 dB nHL, dormida: **sin onda V** en el OD. Las dos memorias no se parecen: es solo ruido.
+    - @OI 90 | Lo mismo en el OI. Sin respuesta al máximo útil del equipo en ninguno de los dos oídos.
+    - El siguiente paso es buscar audición residual por frecuencia, con tone burst o estado estable (→ H10, H13).
+
+## 11- cap11_p39_abr.svg
+   cambios: {'OD 60 V': (6.7, 6.73), 'OD 80 I': (1.43, 1.57), 'OD 80 V': (6.67, 6.53), 'OI 20 V': (7.77, 7.93), 'OI 40 III': (4.97, 4.93), 'OI 40 V': (6.97, 6.9), 'OI 60 I': (1.97, 1.9), 'OI 60 III': (4.3, 4.2), 'OI 60 V': (6.07, 6.1), 'OI 80 I': (1.5, 1.6), 'OI 80 V': (5.63, 5.7)}
+    - @OI 80 V | La onda V del OI aparece en su lugar, con I y III bien formadas.
+    - @OD 80 V | La V del OD llega cerca de **1 ms más tarde** que la del OI al mismo nivel. La diferencia interaural supera de lejos los 0,4 ms.
+    - @OD 80 I | La onda I del OD existe y está en su lugar: la señal sale bien de la cóclea y se atrasa en el camino.
+    - @OD 40 | A 40 dB el OD ya no responde, aunque su umbral en 2 kHz es de 30 dB.
+
+## 11- cap11_schwannoma_abr.svg
+   cambios: {'OI 40 I': ('—', 2.8), 'OI 40 III': (4.6, 5.0), 'OI 40 V': (6.73, 6.8), 'OI 60 I': (2.0, 2.07), 'OI 60 III': (4.0, 4.03), 'OI 80 I': (1.47, 1.53)}
+    - @OD 80 | A 80 dB el OD no muestra ninguna onda que se separe del ruido: ni I ni III, y tampoco una V que se pueda marcar.
+    - @OI 80 V | El OI tiene todas sus ondas bien formadas.
+    - Ojo con la lectura: con 70 a 95 dB de pérdida entre 2 y 4 kHz, un click a 80 dB queda casi en el umbral de las frecuencias que usa. Un PEAT sin ondas **no basta solo** para hablar de nervio.
+
+## 11- cap11_nf2_abr.svg
+   cambios: {'OI 60 III': ('—', 4.43), 'OI 60 V': (6.63, 6.8), 'OI 80 I': (1.3, 1.37), 'OI 80 III': (4.0, 4.03), 'OI 80 V': (6.43, 6.13)}
+    - @OD 80 | El OD no tiene respuesta a 80 dB.
+    - @OI 80 V | El OI muestra ondas de mala morfología y una V tardía para su umbral.
+
+## 11- cap11_angulo_abr.svg
+   cambios: {'OD 40 III': (5.57, 5.5), 'OD 40 V': (6.93, 6.77), 'OD 60 I': (2.4, 2.3), 'OD 60 III': (4.6, 4.5), 'OD 60 V': (6.27, 6.2), 'OD 80 I': (1.93, 1.87), 'OD 80 V': (5.8, 5.87), 'OI 40 V': ('—', 7.97), 'OI 60 III': (4.87, 5.2), 'OI 80 I': (2.07, 2.03), 'OI 80 V': (6.57, 6.53)}
+    - @OD 80 V | La V del OD llega en su lugar.
+    - @OI 80 V | La V del OI llega más tarde y con amplitud baja, aunque su pérdida a esa altura es leve.
+
+## 11- cap11_microvascular_abr.svg
+   cambios: {'OD 60 V': (6.13, 6.2), 'OD 80 I': (1.63, 1.6), 'OD 80 III': (4.0, 4.03), 'OD 80 V': (5.87, 6.0), 'OI 40 I': ('—', 2.83), 'OI 40 III': (4.8, 4.93), 'OI 40 V': (6.87, 6.73), 'OI 60 I': (1.97, 1.8), 'OI 60 III': (3.93, 4.03), 'OI 80 I': (1.47, 1.5), 'OI 80 III': (3.63, 3.57), 'OI 80 V': (5.57, 5.53)}
+    - @OD 80 I | La onda I del OD está en su lugar.
+    - @OD 80 III | La III ya llega tarde: el interpico **I-III** está alargado. Es el tramo del nervio dentro del conducto y el ángulo.
+    - @OI 80 V | La V del OI marca lo normal para comparar.
+
+## 11- cap11_retrococlear_abr.svg
+   cambios: {'OD 40 III': ('—', 5.57), 'OD 40 V': (7.0, 7.1), 'OD 60 I': (2.5, 2.53), 'OD 60 III': (4.47, 4.2), 'OD 60 V': (6.1, 6.23), 'OD 80 I': (1.9, 1.83), 'OD 80 III': (4.03, 3.9), 'OD 80 V': (5.87, 5.8), 'OI 80 III': (4.77, 4.5), 'OI 80 V': (6.33, 6.37)}
+    - @OI 80 V | A 80 dB el OI apenas muestra III y V.
+    - @OI 60 | A 60 dB el OI ya no responde.
+    - @OD 80 V | El OD responde bien.
+
+## 12- cap12_esclerosis_multiple_abr.svg
+   cambios: {'OD 40 I': (2.73, 3.3), 'OD 40 III': ('—', 5.1), 'OD 40 V': (7.43, 7.4), 'OD 60 I': (2.17, 2.33), 'OD 60 III': (4.53, 4.33), 'OD 60 V': (6.73, 6.77), 'OD 80 I': (1.37, 1.2), 'OD 80 III': (3.53, 3.33), 'OD 80 V': (5.97, 5.9), 'OI 40 I': (3.23, 3.13), 'OI 40 III': (4.97, 4.83), 'OI 40 V': (7.4, 7.6), 'OI 60 I': (1.73, 1.77), 'OI 60 III': (3.9, 4.03), 'OI 60 V': (6.53, 6.5), 'OI 80 V': (6.53, 6.5)}
+    - @OD 80 I | La onda I del OD llega a 1,4 ms y la III a 3,5: **I-III de 2,2 ms**, normal (límite 2,6).
+    - @OD 80 V | La V llega a 6,0 ms: **III-V de 2,4 ms** (límite 2,3) e I-V de 4,6 ms, en el límite (4,6). El tramo alto del tronco es el que se alarga.
+    - @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,7 ms** e I-V de 4,8, sobre el límite. Es lo mismo que en el OD: **el retraso empieza después de la III**.
+    - Con la tasa de rutina, la V mide cerca de la mitad de la I: V/I alrededor de 0,5 en los dos oídos.
+
+## 12- cap12_esclerosis_multiple_abr_2.svg
+   cambios: {'OD 80 I': (1.73, 1.8), 'OD 80 III': (4.2, 4.23), 'OD 80 V': (7.13, 7.17), 'OI 80 I': (1.63, 1.7), 'OI 80 III': (4.07, 4.23)}
+    - @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms: **se atrasó 1,2 ms**, más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
+    - @OI 80 V | En el OI la V también llega a 7,1 ms. En los dos oídos la V pierde cerca de un tercio de su amplitud (de 0,24 a 0,15 µV en el OD y de 0,22 a 0,14 en el OI): **la vía no aguanta el esfuerzo**.
+
+## 12- cap12_infarto_aica_abr.svg
+   cambios: {'OD 60 V': (6.6, 6.67), 'OD 80 III': (4.33, 4.03), 'OD 80 V': (6.2, 6.1), 'OI 40 III': (5.4, 5.2), 'OI 40 V': (7.13, 6.9), 'OI 60 I': (2.17, 2.4), 'OI 60 V': (6.23, 6.3), 'OI 80 III': (4.0, 4.07), 'OI 80 V': (5.9, 5.87)}
+    - @OD 80 III | En el OD **no hay onda I**. La III llega a 4,3 ms.
+    - @OD 80 V | La V llega a 6,2 ms, de buen tamaño: **III-V de 1,9 ms**, normal. El tronco conduce bien.
+    - @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,0 y V a 5,9 ms. La V del OD llega **0,3 ms** después, por debajo del límite de 0,4.
+    - @OD 60 V | A 60 dB el OD conserva solo la V y a 40 dB ya no queda nada.
+
+## 12- cap12_infarto_aica_abr_2.svg
+   cambios: {'OD 80 III': (4.7, 4.67), 'OD 80 V': (6.63, 6.73), 'OI 80 I': (2.0, 1.97)}
+    - @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,6 ms: **0,4 ms más tarde**, un alargamiento esperable. La vía central aguanta.
+    - @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,5 ms, parecido al OD.
+
+## 12- cap12_glioma_tronco_abr.svg
+   cambios: {'OD 40 V': ('—', 7.67), 'OD 60 III': (4.03, 4.17), 'OD 60 V': (6.83, 6.47), 'OD 80 I': (1.73, 1.43), 'OD 80 III': (3.27, 3.6), 'OD 80 V': (6.1, 6.07), 'OI 60 III': (4.3, 3.97), 'OI 60 V': (6.7, 6.77), 'OI 80 I': (1.57, 1.6), 'OI 80 III': (3.23, 3.27)}
+    - @OD 80 V | La V del OD llega a 6,1 ms, **0,6 ms después** de lo que marca la tabla del niño (5,5 ms), con I-V de 4,4 ms. Las ondas miden menos de 0,2 µV.
+    - @OI 80 V | En el OI la V también llega a 6,1 ms (I-V de 4,5): el patrón se repite en los dos oídos, y **no hay un oído testigo**.
+    - @OD 60 V | A 60 dB quedan solo la III y la V; a 40 dB no queda nada.
+
+## 12- cap12_glioma_tronco_abr_2.svg
+   cambios: {'OD 80 I': (1.73, 1.67), 'OD 80 III': (4.0, 3.67), 'OD 80 V': (6.9, 7.07), 'OI 80 I': (1.77, 1.73), 'OI 80 III': (3.9, 3.67), 'OI 80 V': (7.07, 6.9)}
+    - @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 6,9 ms con menos de 0,2 µV.
+    - @OI 80 V | En el OI la V llega a 7,1 ms y mide 0,08 µV. Una respuesta tan chica a tasa alta es lo que se espera de una vía que **no aguanta el esfuerzo**.
+
+## 12- cap12_siderosis_abr.svg
+   cambios: {'OD 40 V': ('—', 7.6), 'OD 60 III': (5.2, 5.07), 'OD 60 V': (7.47, 6.93), 'OD 80 I': (1.6, 1.67), 'OD 80 V': (6.57, 6.67), 'OI 60 III': ('—', 4.8), 'OI 60 V': (7.33, 7.0), 'OI 80 I': (1.07, 1.33), 'OI 80 III': (4.2, 3.87), 'OI 80 V': (6.43, 6.13)}
+    - @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,6 ms y la III en 4,6: **I-III de 3,0 ms**, sobre el límite de 2,7.
+    - @OD 80 V | La V llega a 6,6 ms: I-V de 5,0 ms (límite 4,7).
+    - @OI 80 I | En el OI la marca de la I cae en 1,1 ms, antes de lo que llega una onda I normal: es ruido y no se mide con ella. Hay **que ser prudente con un registro de ondas tan bajas**.
+    - @OD 60 V | A 60 dB quedan III y V a 5,2 y 7,5 ms; a 40 dB no queda nada.
+
+## 12- cap12_siderosis_abr_2.svg
+   cambios: {'OD 80 I': (1.73, 1.67), 'OD 80 III': (4.67, 4.77), 'OD 80 V': (7.63, 7.13), 'OI 80 I': (1.13, 1.63), 'OI 80 III': (4.53, 4.4), 'OI 80 V': (7.03, 7.43)}
+    - @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,6 ms (1,1 ms más tarde) y mide 0,10 µV.
+    - @OI 80 V | La V del OI llega a 7,0 ms con 0,09 µV. Las ondas casi se pierden en el ruido.
+
+## 12- cap12_hic_idiopatica_abr.svg
+   cambios: {'OD 40 III': (5.2, 5.47), 'OD 60 I': (2.13, 2.2), 'OD 60 III': (4.23, 4.33), 'OD 60 V': (6.4, 6.57), 'OD 80 I': (1.57, 1.6), 'OD 80 III': (3.97, 4.0), 'OD 80 V': (6.27, 6.3), 'OI 40 III': (5.1, 5.0), 'OI 60 I': (1.97, 2.1), 'OI 60 III': (4.13, 4.2), 'OI 60 V': (6.7, 6.63), 'OI 80 I': (1.6, 1.53), 'OI 80 III': (3.9, 3.87), 'OI 80 V': (6.27, 6.23)}
+    - @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4** y **III-V de 2,3 ms**, bajo el límite; **I-V de 4,7 ms**, apenas sobre el límite de 4,58.
+    - @OI 80 V | El OI es igual: I-V de 4,7 ms. La diferencia entre los dos oídos es mínima, así que **no hay testigo ni asimetría que leer**.
+    - @OD 80 V | La V es de 0,25 µV, menor que la I (0,42 µV): V/I alrededor de 0,6.
+
+## 12- cap12_hic_idiopatica_abr_2.svg
+   cambios: {'OD 80 I': (1.67, 1.7), 'OD 80 III': (4.3, 4.23), 'OD 80 V': (7.0, 6.93), 'OI 80 I': (1.7, 1.63), 'OI 80 III': (4.23, 4.17), 'OI 80 V': (6.97, 7.0)}
+    - @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,0 ms: **se atrasó 0,7 ms** (11 %), dentro del alargamiento de una V sana.
+    - @OI 80 V | En el OI llega a 7,0 ms: lo mismo. **La tasa alta no destapa nada**: el registro de esfuerzo sale como el de un oído sano.
+
+## 13- cap13_p40_abr.svg
+   cambios: {}
+    - @OD 80 | A 80 dB nHL, con polaridad **alternada**, no hay ondas en el OD.
+    - @OI 80 | Tampoco en el OI. Y a 60 y 40 dB, lo mismo. No es un umbral: es la falta de sincronía.
+
+## 13- cap13_p40_abr_2.svg
+   cambios: {}
+    - @OD 90 | En **rarefacción**, a 90 dB nHL, aparece una deflexión hacia abajo en el primer milisegundo, y después nada.
+
+## 13- cap13_p40_abr_3.svg
+   cambios: {}
+    - @OD 90 | En **condensación** la deflexión sale **hacia arriba**: el mismo potencial, invertido. Es la microfónica coclear, que la alternada había cancelado.
+    - Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado.
+
+## 13- cap13_neuropatia_hereditaria_abr.svg
+   cambios: {'OD 40 I': (2.93, 2.87), 'OD 40 III': (5.57, 5.6), 'OD 40 V': (7.6, 7.73), 'OD 60 V': (7.03, 6.9), 'OD 80 I': (1.47, 1.43), 'OD 80 III': (4.3, 4.23), 'OI 40 I': (2.87, 2.83), 'OI 40 III': (5.37, 5.47), 'OI 40 V': (7.7, 7.5), 'OI 60 I': (1.93, 2.07), 'OI 60 III': (4.77, 4.8), 'OI 60 V': (6.83, 6.9), 'OI 80 III': (4.5, 4.43), 'OI 80 V': (6.67, 6.77)}
+    - @OD 80 I | Aquí **sí hay ondas**, pero tardías: la I a unos 1,5 ms, la III cerca de 4,3 y la V en torno a 6,6.
+    - @OD 80 V | El interpico I-V es de alrededor de **5 ms**, contra los cerca de 4 esperables (→ H10): la conducción es lenta, no ausente.
+    - @OD 40 | Las ondas siguen hasta 40 dB y más abajo: la **sensibilidad** es normal; lo alterado es la sincronía.
+
+## 13- cap13_kernicterus_abr.svg
+   cambios: {'OD 80 III': ('—', 3.67), 'OD 80 V': (6.03, 6.1), 'OI 80 V': (6.23, 6.43)}
+    - @OD 80 V | A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 ms; no hay I ni III identificables.
+    - @OD 60 | A 60 y 40 dB, nada. El ABR casi plano **no es** una prueba de que la audición sea 60 dB: con la sincronía perdida, no se puede usar el umbral del ABR para fijar la audición.
+
+## 13- cap13_leucodistrofia_abr.svg
+   cambios: {'OD 40 I': (2.77, 3.03), 'OD 40 III': (5.4, 5.67), 'OD 40 V': (7.63, 7.8), 'OD 60 I': (2.33, 2.27), 'OD 60 III': (4.73, 4.83), 'OD 60 V': (7.27, 7.33), 'OD 80 I': (1.73, 1.7), 'OD 80 V': (6.9, 6.7), 'OI 40 I': ('—', 3.1), 'OI 40 III': (5.2, 5.53), 'OI 40 V': (7.63, 7.73), 'OI 60 I': (1.87, 2.07), 'OI 60 III': (4.43, 4.37), 'OI 60 V': (7.0, 6.93), 'OI 80 I': (2.17, 2.0), 'OI 80 III': (4.7, 4.77), 'OI 80 V': (7.07, 6.93)}
+    - @OD 80 I | Las ondas están, pero tardías y con los interpicos largos: la I cerca de 1,7 ms, la III de 4,2 y la V de 6,8.
+    - @OD 80 V | El I-V pasa de **5 ms**; el OI es parecido. La conducción central está enlentecida con una cóclea sana.
+    - @OI 80 V | Con audición normal, lo esperable sería un I-V cerca de 4 ms (→ H10).
+
+## 14- cap14_toxico_metabolico_abr.svg
+   cambios: {'OD 60 V': (6.53, 6.37), 'OD 80 III': (3.9, 3.7), 'OD 80 V': (5.7, 5.77), 'OD 90 I': ('—', 1.6), 'OD 90 III': (3.63, 3.57), 'OD 90 V': (5.43, 5.6), 'OI 60 V': (6.57, 6.37), 'OI 80 III': (3.87, 3.77), 'OI 80 V': (5.8, 5.7), 'OI 90 III': (3.67, 3.5), 'OI 90 V': (5.43, 5.4)}
+    - @OI 90 I | A 90 dB el OI muestra la onda I a 1,2 ms.
+    - @OI 90 III | La III llega a 3,7 ms: I-III de 2,4 ms, bajo el límite de 2,6 de la mujer adulta.
+    - @OI 90 V | La V llega a 5,4 ms: I-V de 4,2 ms, bajo el límite de 4,6.
+    - @OD 80 V | En el OD, a 80 dB, la V llega a 5,7 ms y la III a 3,9. Ambas bajo los límites de la mujer adulta (V 6,0; III 4,1). La onda I no se alcanza a marcar: con 30 a 45 dB de pérdida el click a 80 dB le llega con poca sobreintensidad.
+    - @OD 60 V | La V sigue visible a 60 dB, a 6,5 ms; el umbral de click de los dos oídos es de 50 dB nHL.
+    - No hay diferencia interaural: la V del OD y la del OI difieren en 0,1 ms a 80 dB y no difieren a 90.
+
+## 14- cap14_hipotermia_farmacos_abr.svg
+   cambios: {'OD 40 I': (3.4, 3.3), 'OD 40 III': (6.03, 5.9), 'OD 40 V': (8.37, 8.47), 'OD 60 I': (2.5, 2.47), 'OD 60 V': (7.63, 7.6), 'OD 80 I': (2.0, 1.97), 'OD 80 III': (4.77, 4.7), 'OD 80 V': (7.17, 7.23), 'OI 40 I': (3.33, 3.57), 'OI 40 III': (5.97, 5.73), 'OI 60 III': (5.23, 5.07), 'OI 60 V': (7.53, 7.57), 'OI 80 I': (1.97, 1.93), 'OI 80 III': (4.77, 4.7)}
+    - @OD 80 I | A 80 dB las tres ondas están claras y la **onda I llega a 2,0 ms**: 0,5 ms más tarde que en un hombre adulto (1,5 ms).
+    - @OD 80 III | La III llega a 4,8 ms y la V, a 7,2 ms (el hombre adulto de referencia: 3,75 y 5,68; límite de la V: 6,2).
+    - @OD 80 V | I-III de 2,8 ms, III-V de 2,4 ms e **I-V de 5,2 ms**, contra 4,2 de la media (límite 4,7). Los interpicos también están largos.
+    - @OD 60 V | Con cada 20 dB menos el trazo se atrasa más: a 60 dB la V llega a 7,6 ms y a 40 dB, a 8,4 ms; la I, a 3,4 ms.
+    - @OI 80 V | El OI replica al OD: no hay diferencia interaural; es el cuerpo entero el que va lento.
+
+## 14- cap14_bloqueo_proximal_abr.svg
+   cambios: {'OD 40 I': (2.93, 3.13), 'OD 60 I': (1.93, 2.03), 'OD 80 I': (1.53, 1.4), 'OI 40 I': (2.9, 2.83), 'OI 60 I': (2.0, 1.83), 'OI 80 I': (1.5, 1.53)}
+    - @OD 80 I | A 80 dB hay **solo onda I**, a 1,5 ms: latencia de adulto normal, bien formada.
+    - @OD 60 I | Sigue la I a 60 dB (1,9 ms) y a 40 dB (2,9 ms): sube su latencia al bajar la intensidad, como en un oído sano. El umbral de la I es bajo.
+    - @OD 80 | No hay III ni V a ningún nivel: no es un trazo sin ruido, es un trazo sin respuesta central.
+    - @OI 80 I | El OI repite lo mismo: la señal sale de las dos cócleas y no pasa de ahí.
+
+## 15- cap15_mixta_otitis_cronica_abr.svg
+   cambios: {'OD 80 V': (7.83, 7.67), 'OI 40 I': ('—', 3.1), 'OI 40 III': (4.93, 4.9), 'OI 40 V': (6.83, 6.73), 'OI 60 I': (1.97, 1.87), 'OI 60 III': (4.1, 4.17), 'OI 60 V': (6.03, 6.0), 'OI 80 I': (1.5, 1.43), 'OI 80 III': (3.73, 3.67)}
+    - @OI 80 V | El OI tiene sus ondas I, III y V en el lugar.
+    - @OD 80 V | La V del OD llega **cerca de 2 ms más tarde** y es la única onda que se ve: el oído medio atenúa el estímulo y todo se corre.
+    - @OD 60 | A 60 dB no hay respuesta. El umbral por aire del click está en **70 dB nHL**.
+
+## 15- cap15_mixta_otitis_cronica_abr_2.svg
+   cambios: {'OI 30 V': (7.77, 7.67), 'OI 50 III': (4.77, 4.87), 'OI 50 V': (6.53, 6.6)}
+    - @OI 50 V | Por **vía ósea**, el OI sano responde a 50 dB con una V cerca de 6,5 ms, y todavía a 30 dB, más tarde. A 10 no hay nada: su umbral óseo está cerca de 30 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
+    - @OD 50 | El OD **no responde a 50 dB**. Con una ósea conductual de 30 a 45 dB, su umbral óseo en el ABR queda más arriba de lo que el vibrador entrega: la pregunta no se puede contestar con este examen.
+
+## 15- cap15_colesteatoma_fistula_abr.svg
+   cambios: {'OD 60 V': (8.53, 8.33), 'OD 80 III': (5.87, 5.63), 'OD 80 V': (7.6, 7.17), 'OI 40 I': ('—', 2.9), 'OI 40 III': (4.67, 4.93), 'OI 40 V': (6.77, 6.9), 'OI 60 I': (1.9, 1.97), 'OI 60 III': (4.17, 4.07), 'OI 60 V': (6.1, 6.03), 'OI 80 I': (1.43, 1.47), 'OI 80 III': (3.73, 3.8)}
+    - @OI 80 V | El OI tiene su V en el lugar.
+    - @OD 80 V | En el OD la V llega tarde, a la manera de una transmisión: el umbral por aire del click es de **60 dB nHL**.
+
+## 15- cap15_colesteatoma_fistula_abr_2.svg
+   cambios: {'OD 50 V': ('—', 9.07), 'OI 30 V': (8.17, 8.13), 'OI 50 III': (4.77, 4.6), 'OI 50 V': (6.47, 6.6)}
+    - @OD 50 | Por vía ósea, el OD **no alcanza a mostrar una V a 50 dB**. Su umbral óseo está en 55, en el último escalón del vibrador.
+    - @OI 50 V | El OI sano responde a 50 y a 30 dB. La diferencia es de pocos decibeles: el ABR óseo apenas separa a un oído con 20 a 30 dB de ósea caída de uno normal.
+
+## 15- cap15_fractura_transversal_abr.svg
+   cambios: {'OI 100 I': (1.3, 1.27), 'OI 100 III': (3.47, 3.4), 'OI 100 V': (5.53, 5.5), 'OI 60 I': (2.2, 2.07), 'OI 60 III': (4.07, 4.03), 'OI 60 V': (6.13, 6.03), 'OI 80 I': (1.63, 1.57), 'OI 80 III': (3.77, 3.7), 'OI 80 V': (5.7, 5.77)}
+    - @OD 100 | Con el click a 100 dB nHL, el OD no muestra ninguna onda reconocible. Hacia los 7 ms se ve una ondulación pequeña: es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 dB de atenuación). No se rotula 
+    - @OI 80 V | El OI tiene sus ondas I, III y V.
+
+## 17- cap17_efusion_neonatal_abr.svg
+   cambios: {'OD 40 V': (8.87, 8.13), 'OD 60 I': ('—', 3.0), 'OD 60 III': (5.6, 5.33), 'OD 60 V': (7.63, 7.07), 'OD 80 I': (2.53, 2.17), 'OD 80 III': (4.57, 4.23), 'OD 80 V': (6.67, 6.37), 'OI 40 V': ('—', 8.03), 'OI 60 III': (5.33, 5.17), 'OI 60 V': (7.67, 7.2), 'OI 80 I': (2.63, 2.23), 'OI 80 III': (4.67, 4.3), 'OI 80 V': (6.73, 6.43)}
+    - @OD 80 V | A 80 dB nHL aparece la V del OD a **6,66 ms**, con la I a 2,46 y la III a 4,56: todas las ondas **llegan tarde**, la I incluida.
+    - @OD 60 V | La V sigue a 60 dB (7,64 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
+    - @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,63 ms: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: unos 40 dB eHL.
+    - @OI 60 V | El OI responde igual: V a 7,74 ms con 60 dB nHL, y a 40 dB ya no se distingue de ruido.
+    - @OD 20 | A 20 dB nHL no hay respuesta en ninguno de los dos oídos.
+
+## 17- cap17_efusion_neonatal_abr_2.svg
+   cambios: {'OD 20 V': (8.43, 8.47), 'OD 40 V': (7.4, 7.33), 'OD 55 V': (6.5, 6.53), 'OI 20 V': (8.83, 8.63), 'OI 40 V': (7.5, 7.47)}
+    - @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 6,56 ms.
+    - @OD 40 V | A 40 dB nHL, 7,41 ms.
+    - @OD 20 V | A **20 dB nHL** todavía hay V (8,53 ms): la cóclea responde en el nivel más bajo que se probó. Con un umbral aéreo de 40 y uno óseo de 20 o menos, la diferencia es de **20 dB o más**: transmisión.
+    - @OI 20 V | El OI da lo mismo: V a 8,64 ms con 20 dB nHL por hueso.
+
+## 17- cap17_cmv_congenito_abr.svg
+   cambios: {'OD 60 V': (6.9, 6.77), 'OD 80 III': ('—', 4.03), 'OD 80 V': (6.23, 6.0), 'OI 20 III': ('—', 5.93), 'OI 20 V': (8.03, 7.77), 'OI 40 I': (2.9, 2.97), 'OI 40 III': (5.07, 4.97), 'OI 40 V': (6.9, 6.93), 'OI 60 I': (2.3, 2.13), 'OI 60 III': (4.07, 4.2), 'OI 60 V': (6.13, 6.17), 'OI 80 I': (1.6, 1.7), 'OI 80 V': (5.77, 5.7)}
+    - @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,25 ms**, casi medio milisegundo más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
+    - @OD 60 V | La V sigue a 60 dB nHL (6,99 ms).
+    - @OD 40 | A 40 dB nHL no hay ninguna onda: **umbral con click del OD de 60 dB nHL**, unos 60 dB eHL.
+    - @OI 80 V | El OI responde con I, III y V bien formadas: V a 5,76 ms e interpico **I-V de 4,2 ms**, normal para su edad (→ cap. 14).
+    - @OI 20 V | Y mantiene la V hasta **20 dB nHL** (7,92 ms): el oído sano al lado sirve de comparación.
+
+## 17- cap17_cmv_congenito_abr_2.svg
+   cambios: {'OD 60 V': (9.8, '—'), 'OI 20 V': (10.5, 10.77), 'OI 40 V': (9.6, 9.53), 'OI 60 V': (8.8, 8.63)}
+    - @OD 60 V | Con **burst de 500 Hz** el OD solo tiene V a 60 dB nHL (9,84 ms, el tone burst grave llega más tarde que el click); a 40 no hay respuesta. 60 − 20 = **40 dB eHL**.
+    - @OI 20 V | El OI responde hasta 20 dB nHL (V a 10,57 ms).
+
+## 17- cap17_cmv_congenito_abr_3.svg
+   cambios: {'OD 60 V': (7.5, 7.73), 'OD 80 V': (6.7, 6.87), 'OI 40 V': (7.5, 7.57), 'OI 80 V': (6.33, 6.27)}
+    - @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (7,57 ms) y no a 40: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**: algo más que en 500 Hz, una pérdida levemente descendente.
+    - @OI 40 V | El OI responde a 40 dB nHL (V a 7,48 ms).
+
+## 17- cap17_rubeola_congenita_abr.svg
+   cambios: {'OD 100 V': (6.4, 6.0), 'OD 90 V': ('—', 6.5), 'OI 100 III': ('—', 3.7), 'OI 100 V': (6.13, 5.83), 'OI 90 V': ('—', 6.37)}
+    - @OD 100 V | Con click, solo a **100 dB nHL** aparece una V pequeña en el OD (6,25 ms). A 90 y 80 dB no hay onda.
+    - @OI 100 V | El OI es igual: V a 6,18 ms a 100 dB nHL y nada abajo.
+    - @OD 80 | Nada a 80 dB nHL, el nivel con el que parte el examen: sin el nivel máximo, este bebé habría salido "sin respuesta".
+
+## 17- cap17_rubeola_congenita_abr_2.svg
+   cambios: {'OD 100 V': (8.87, 9.17), 'OI 100 V': (9.23, 9.03)}
+    - @OD 100 V | Con **burst de 500 Hz**, la V solo aparece a 100 dB nHL (8,97 ms). 100 − 20 = **80 dB eHL**.
+    - @OI 100 V | Igual en el OI (8,99 ms): 80 dB eHL, el **umbral está en el tope** del equipo.
+
+## 17- cap17_rubeola_congenita_abr_3.svg
+   cambios: {}
+    - @OD 55 | Por **vía ósea**, ni a 55 ni a 40 dB nHL hay respuesta en el OD.
+    - @OI 55 | Igual en el OI. El vibrador ya no alcanza: este resultado **no distingue** una cóclea sin función de una pérdida muy grande.
+
+## 17- cap17_asfixia_perinatal_abr.svg
+   cambios: {}
+    - @OD 80 | Con click alternado, a 80 dB nHL **no hay ondas**: ni I, ni III, ni V, en ninguno de los tres niveles (90, 80 y 60 dB nHL).
+    - @OI 80 | Lo mismo en el OI. Con emisiones presentes, un ABR plano **no es una pérdida coclear**.
+
+## 17- cap17_asfixia_perinatal_abr_2.svg
+   cambios: {}
+    - @OD 80 | Registrando solo en **condensación**, aparece una deflexión en el primer milisegundo: no es una onda neural, es la **microfónica coclear**.
+    - @OI 80 | En el OI, igual.
+
+## 17- cap17_asfixia_perinatal_abr_3.svg
+   cambios: {}
+    - @OD 80 | En **rarefacción** la deflexión se invierte: sigue la fase del estímulo. Con polaridad alternada la microfónica se promedia y se cancela, por eso la primera figura quedó plana. Esa inversión es lo que la separa de un artefacto.
+    - @OI 80 | Igual en el OI: la cóclea transduce, la señal no sale del nervio o no llega sincrónica al tronco.
+
+## 18- cap18_p33_abr.svg
+   cambios: {'OD 10 V': (8.3, 8.23), 'OD 20 V': (7.8, 7.87), 'OD 40 I': (2.93, 2.9), 'OD 40 V': (6.7, 6.83), 'OD 80 I': (1.4, 1.53), 'OD 80 III': (3.8, 3.73), 'OI 10 V': (8.57, 8.3), 'OI 20 III': ('—', 6.1), 'OI 20 V': (7.87, 7.73), 'OI 40 I': (2.9, 2.87), 'OI 40 III': (5.1, 4.9), 'OI 40 V': (6.83, 6.87), 'OI 80 I': (1.57, 1.47), 'OI 80 III': (3.73, 3.83), 'OI 80 V': (5.67, 5.7)}
+    - @OD 80 V | La V llega a 5,7 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.
+    - @OD 40 V | A 40 dB la V está a 6,9 ms: ahí coincide con lo que anotó el alumno.
+    - @OD 20 V | A 20 dB la V existe y se ve, a 7,9 ms. Es la curva que el alumno declaró "sin respuesta".
+    - @OD 10 V | A 10 dB la V sigue ahí, a unos 8 ms, en las dos réplicas: el **umbral del paciente es 10 dB nHL**, tal como dice su audiograma.
+
+## 18- cap18_p37_abr.svg
+   cambios: {'OD 100 I': (1.1, 1.2), 'OD 100 III': (3.67, 3.47), 'OD 100 V': (5.53, 5.5), 'OD 60 III': ('—', 4.7), 'OD 60 V': (6.53, 6.57), 'OD 80 III': (3.97, 3.9), 'OD 80 V': (5.97, 5.73), 'OI 100 I': (1.47, 1.2), 'OI 100 III': (3.43, 3.63), 'OI 60 V': (6.53, 6.57), 'OI 80 III': (4.13, 3.77)}
+    - @OD 100 I | Con fono de inserción y polaridad alternada, la I llega a 1,3 ms.
+    - @OD 100 V | Y la V, a 5,5 ms. Interpico I-V de 4,2 ms.
+    - @OD 60 V | A 60 dB la V sigue ahí, más tarde (6,6 ms): la V migra.
+
+## 18- cap18_p36_abr.svg
+   cambios: {'OD 70 III': ('—', 4.7), 'OD 70 V': (6.33, 6.5), 'OD 90 III': (4.13, 4.23), 'OD 90 V': (6.0, 5.83), 'OI 70 V': (6.83, 6.5), 'OI 90 III': (4.43, 4.1), 'OI 90 V': (6.03, 5.77)}
+    - @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 6,0 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
+    - @OD 70 V | A 70 dB la V se atrasa a 6,5 ms y se achica.
+
+## 18- cap18_p42_abr.svg
+   cambios: {'OI 100 I': (1.3, 1.2), 'OI 100 III': (3.47, 3.5), 'OI 100 V': (5.47, 5.43), 'OI 80 I': (1.5, 1.53), 'OI 80 III': (3.7, 3.8), 'OI 80 V': (5.67, 5.7)}
+    - @OI 100 V | El oído izquierdo es normal: I, III y V a lo esperable (V a 5,4 ms).
+    - @OD 100 | A 100 dB el trazo del **oído derecho** muestra una onda con réplicas, hacia los 7 ms: es real, pero **no es del derecho**. Es la respuesta del oído izquierdo, que el estímulo alcanza por vía ósea a través del cráneo (la curva sombra; → H10 y H4). S
+
+## 18- cap18_p38_abr.svg
+   cambios: {'OD 30 III': (5.43, 5.57), 'OD 30 V': (7.3, 7.13), 'OD 50 I': (2.13, 2.33), 'OD 50 III': (4.4, 4.33), 'OD 50 V': (6.17, 6.2), 'OD 80 I': (1.43, 1.6), 'OD 80 V': (5.53, 5.5), 'OI 30 V': ('—', 7.77), 'OI 50 III': ('—', 4.9), 'OI 50 V': (6.57, 6.5), 'OI 80 III': (3.8, 3.77), 'OI 80 V': (5.7, 5.67)}
+    - @OI 80 V | A 80 dB la V del oído izquierdo llega a 5,6 ms.
+    - @OI 50 V | A 50 dB está a 6,7 ms. Con una ventana de 6 ms **queda afuera**.
+    - @OI 30 | A 30 dB, a 8,0 ms, muy cerca del umbral. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.
+
+## 19- cap19_unilateral_abr.svg
+   cambios: {'OD 20 V': (7.87, 8.0), 'OD 40 I': ('—', 2.5), 'OD 40 III': (4.97, 5.23), 'OD 40 V': (6.9, 6.8), 'OD 60 III': (4.23, 4.07), 'OD 80 III': (3.73, 3.67), 'OD 80 V': (5.7, 5.67), 'OI 20 V': (8.1, 7.97), 'OI 40 I': (2.77, 2.87), 'OI 40 III': (5.13, 5.0), 'OI 40 V': (6.73, 6.8), 'OI 60 III': (4.23, 4.2), 'OI 80 I': (1.5, 1.47), 'OI 80 III': (3.77, 3.73), 'OI 80 V': (5.7, 5.67)}
+    - @OD 80 V | La onda V del OD está en su lugar a 80 dB, con I y III bien formadas.
+    - @OD 20 V | A **20 dB nHL** el OD todavía muestra onda V, en una latencia alargada, como se espera cerca del umbral (→ H10). La respuesta se repite en las dos réplicas, finas, del registro.
+    - @OI 20 V | El OI se comporta igual: ambos oídos tienen el mismo umbral objetivo, bien por debajo de lo que dijo el OD.
+
+## 19- cap19_sobre_real_abr.svg
+   cambios: {'OD 60 V': (6.93, 6.73), 'OD 80 III': (4.17, 4.37), 'OI 60 V': (6.67, 6.3), 'OI 80 III': (4.37, 4.17), 'OI 80 V': (5.97, 5.83)}
+    - @OD 60 V | El umbral de la V al click está en **60 dB nHL**; a 40 dB ya no hay respuesta. El click se parece al umbral de 2 a 4 kHz, que acá es la zona caída.
+    - @OI 60 V | El OI responde a 60 y no a 40: umbral objetivo parecido al del otro lado.
+    - Ese umbral es bastante mejor que los 80 a 85 dB que dijo (sin restar nHL de HL, → H10), pero **no es normal**: Enrique tiene una pérdida real.
+
+## 19- cap19_p42_abr.svg
+   cambios: {'OI 80 I': (1.5, 1.53), 'OI 80 III': (3.7, 3.8), 'OI 80 V': (5.67, 5.7), 'OI 90 I': (1.27, 1.37), 'OI 90 III': (3.6, 3.63), 'OI 90 V': (5.6, 5.53)}
+    - @OD 90 | Sin ondas a 90 dB: solo una deriva lenta de la línea de base. No hay respuesta del tronco.
+    - @OI 80 V | El OI con I, III y V claras.
+
+## 27- cap27_schwannoma_abr.svg
+   cambios: {'OD 40 III': (4.9, 4.87), 'OD 40 V': (6.6, 6.7), 'OD 60 I': (1.93, 1.97), 'OD 60 III': (4.0, 4.23), 'OD 60 V': (6.17, 6.0), 'OD 80 I': (1.53, 1.67), 'OD 80 III': (3.7, 3.67), 'OD 80 V': (5.7, 5.67), 'OI 60 III': (4.5, 4.67), 'OI 60 V': (6.6, 6.73), 'OI 80 I': (1.5, 1.57), 'OI 80 III': (4.47, 4.6), 'OI 80 V': (6.7, 6.6)}
+    - @OD 80 V | La V del OD llega en su lugar.
+    - @OI 80 V | La V del OI llega cerca de **1 ms más tarde** y de menor amplitud, aunque la pérdida del OI en esa zona es leve.
+    - @OI 40 | A 40 dB el OI ya no responde.
+
+## 34- cap34_exagera_abr.svg
+   cambios: {'OD 80 III': (4.03, 4.17), 'OD 80 V': (6.1, 5.63), 'OI 60 V': (6.5, 6.57), 'OI 80 III': (4.07, 3.83), 'OI 80 V': (5.93, 6.0)}
+    - @OD 60 V | Con click hay onda V a **60 dB nHL** en el OD y no a 40: umbral de 60 dB nHL, unos 55 dB eHL con la corrección de 5 dB del click (→ H10). Es un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 35 a 70.
+    - @OI 60 V | El OI responde igual a 60 dB.
+
+## 34- cap34_exagera_abr_2.svg
+   cambios: {'OD 40 V': (9.7, 9.6), 'OD 60 III': (6.37, 6.07), 'OD 60 V': (8.83, 8.8), 'OI 40 V': (9.83, 9.97), 'OI 60 III': (5.97, 6.03), 'OI 60 V': (8.93, 8.87)}
+    - @OD 40 V | Con burst de 500 Hz el OD tiene onda V a 40 dB nHL y no a 20: el umbral queda entre 20 y 40 dB nHL. Con la corrección de 20 dB de ese estímulo, queda entre 0 y 20 dB eHL: **audición normal en 500 Hz**, y no 95 dB.
+    - @OI 40 V | El OI da lo mismo.
+
+## 34- cap34_hidrops_abr.svg
+   cambios: {'OD 40 III': (4.7, 5.27), 'OD 40 V': (6.77, 6.73), 'OD 60 I': (1.9, 1.93), 'OD 60 III': (4.23, 4.17), 'OD 80 I': (1.5, 1.4), 'OD 80 V': (5.73, 5.7), 'OI 60 V': (6.63, 6.7), 'OI 80 III': (4.33, 4.1), 'OI 80 V': (6.13, 6.0)}
+    - @OI 80 V | En el OI la onda V aparece a 80 y 60 dB y no a 40. El umbral del click, 55 dB nHL (unos 50 dB eHL), corresponde a la zona de 2 a 4 kHz del audiograma (40 a 45 dB). La vía responde y la batería no muestra signos que sugieran lesión retrococlear (→ 
+    - @OD 40 V | El OD tiene ondas III y V a 40 dB, normal.
+
+## H09 h9_p40_abr.svg
+   cambios: {}
+    - @OD 80 | Sin ondas a 80 dB en el OD. A 60 tampoco.
+    - @OI 80 | El OI es igual: **ABR ausente** a intensidades altas.
+    - OEA presentes con ABR ausente: **neuropatía auditiva**. Las células ciliadas externas funcionan; lo que falla está después: la célula ciliada interna, la sinapsis o el nervio (Starr y cols., 1996). → H10, cap. 13.
+
+## H10 h10_p33_abr.svg
+   cambios: {'OD 10 V': (8.33, 8.13), 'OD 20 III': ('—', 6.07), 'OD 20 V': (7.9, 7.73), 'OD 40 I': (3.03, 2.8), 'OD 40 III': (5.17, 5.07), 'OD 40 V': (6.93, 6.8), 'OD 60 I': (1.97, 1.9), 'OD 60 V': (6.1, 6.07), 'OD 80 I': (1.4, 1.53), 'OD 80 III': (3.8, 3.73), 'OI 10 V': (8.27, 8.63), 'OI 20 III': (5.77, 6.33), 'OI 20 V': (7.77, 7.83), 'OI 40 I': (2.97, 2.77), 'OI 40 III': (4.97, 4.93), 'OI 40 V': (6.87, 6.9), 'OI 60 I': (2.0, 2.03), 'OI 60 III': (4.07, 4.17), 'OI 60 V': (6.13, 6.1), 'OI 80 I': (1.57, 1.47), 'OI 80 III': (3.73, 3.83), 'OI 80 V': (5.67, 5.7)}
+    - @OD 80 I | A 80 dB nHL la **onda I** llega a 1,4 ms, la **III** a 3,8 y la **V** a 5,7. Interpicos: I-III 2,4 ms, III-V 1,9 e I-V 4,3. Todo dentro de lo normal.
+    - @OD 40 V | A 40 dB la V llega a 6,9 ms y es más chica. La I y la III se achicaron mucho más que la V.
+    - @OD 20 V | A 20 dB queda solo una III mínima y la **V**, a 7,9 ms.
+    - @OD 10 V | A 10 dB la V es chica, a 8,3 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
+    - @OD 0 | A 0 dB no hay nada que se repita.
+    - El orden de registro fue **80, 60, 40, 20, 0** (sin V) y, subiendo 10, **10** (con V). **Umbral de la onda V: 10 dB nHL**.
+    - Mira cómo se corre la V: 0,4 ms de 80 a 60, pero 1,0 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
+
+## H10 h10_p36_abr.svg
+   cambios: {'OD 60 V': (6.93, 6.73), 'OD 80 III': (4.4, 4.03), 'OI 60 V': ('—', 6.93), 'OI 80 III': ('—', 4.43), 'OI 80 V': (5.97, 6.17)}
+    - Hernán tiene una pérdida sensorioneural de agudos: en el OD, 25 dB HL en 1 kHz, 40 en 2 kHz, 50 en 3 kHz y 60 en 4 kHz (su audiograma está en H3).
+    - @OD 80 V | Con click, a 80 dB nHL, la V llega a 6,3 ms: todavía dentro de lo normal para sus 74 años.
+    - @OD 80 III | **No hay onda I.** La I depende de la base de la cóclea, que es justo la zona dañada: es la primera onda que se pierde en una pérdida de agudos.
+    - @OD 60 V | A 60 dB la V sigue presente (6,9 ms). A 50 (no se muestra) ya no hay una V que se repita: **umbral con click, 60 dB nHL**.
+    - 60 dB nHL − 5 = **55 dB eHL**: un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 40 a 60 dB HL.
+
+## H10 h10_p36_abr_2.svg
+   cambios: {'OD 40 V': (9.23, 9.2), 'OD 60 V': (8.1, 7.77), 'OI 60 V': (8.0, 7.97)}
+    - @OD 40 V | Con **burst de 1 kHz** la V aparece hasta 40 dB nHL (9,2 ms).
+    - @OD 20 | A 20 dB no hay nada: **umbral con burst de 1 kHz, 40 dB nHL**.
+    - 40 dB nHL − 15 = **25 dB eHL**: lo mismo que su audiograma en 1 kHz. El click solo habría dicho "50 dB" y escondido que los graves están casi normales.
+
+## H10 h10_p34_abr.svg
+   cambios: {'OD 60 III': ('—', 5.5), 'OD 60 V': (7.67, 7.7), 'OD 80 I': (2.87, 2.6), 'OD 80 III': (5.13, 4.77), 'OD 80 V': (6.8, 6.53), 'OI 60 I': (1.97, 1.83), 'OI 60 III': (4.07, 4.1), 'OI 60 V': (6.0, 5.9), 'OI 80 III': (3.6, 3.63), 'OI 80 V': (5.57, 5.53)}
+    - @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,6 y V a 5,6. I-V de 4,1 ms.
+    - @OD 80 I | En el **OD** la onda I llega a 2,9 ms: 1,4 ms tarde. La señal ya sale atrasada de la cóclea.
+    - @OD 80 V | La V llega a 6,8 ms. Pero los interpicos son normales (I-III 2,3, III-V 1,7, I-V 3,9 ms): la vía conduce bien; lo que se atrasó fue la llegada del sonido.
+    - @OD 60 V | A 60 dB ya solo queda la V, a 7,7 ms.
+    - Compara con Tomás a 40 dB nHL (caso H10.1): I a 3,0, III a 5,2 y V a 6,9 ms. El OD de Carolina a 80 se parece a un oído normal a 40: la otoesclerosis le **resta intensidad** al click antes de que llegue a la cóclea, y la cóclea responde como a un sonido más 
+    - La diferencia interaural de la V es de **1,2 ms**. Una conductiva la fabrica sola: antes de leerla como retrococlear, mira el audiograma y la timpanometría.
+
+## H10 h10_p39_abr.svg
+   cambios: {'OD 60 V': (6.7, 6.73), 'OD 80 I': (1.43, 1.57), 'OD 80 V': (6.67, 6.53), 'OI 60 I': (1.97, 1.9), 'OI 60 III': (4.3, 4.2), 'OI 60 V': (6.07, 6.1), 'OI 80 I': (1.5, 1.6), 'OI 80 V': (5.63, 5.7)}
+    - @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,8 y V a 5,6. I-V de 4,1 ms.
+    - @OD 80 I | En el **OD** la onda I llega a 1,4 ms, en su lugar: la cóclea entrega la señal a tiempo.
+    - @OD 80 III | La III llega a 4,2 ms: **I-III de 2,8 ms**, sobre el límite de 2,7.
+    - @OD 80 V | La V llega a 6,7 ms: III-V de 2,5 (límite 2,4) e **I-V de 5,2 ms** (límite 4,7). La diferencia interaural de la V es de **1,0 ms**.
+    - @OD 60 V | A 60 dB solo queda una V chica; la I y la III desaparecen.
+    - Raúl tiene 30 a 55 dB de pérdida entre 2 y 4 kHz en el OD. Una pérdida coclear así puede atrasar algo la V, pero **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio. Es un **patrón retrococlear** (→ cap. 11).
+
+## H10 h10_p40_abr.svg
+   cambios: {}
+    - @OD 80 | A 80 dB nHL el OD no tiene ondas.
+    - @OI 80 | El OI tampoco. Valentina tiene un audiograma de 30 a 45 dB HL: con esa pérdida, un oído coclear daría una V clara a 80 dB.
+    - La falta de ondas no se explica por el umbral: la vía no descarga en sincronía.

@@ -1,0 +1,1077 @@
+{
+ "casos/generados/cap01_carcinoma_cae.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 30→25",
+  "OD oseo tone_burst_4000Hz: 50→55",
+  "OD oseo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 75→70"
+ ],
+ "casos/generados/cap01_cuerpo_extrano_cae.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 35→40",
+  "OI mulo click: 40→35",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap01_estenosis_atresia_cae.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 55→50",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap01_otitis_externa.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 40→35",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap01_tapon_cerumen.json": [
+  "OD mulo tone_burst_4000Hz: 45→50",
+  "OD mulo click: 45→40",
+  "OD oseo tone_burst_4000Hz: 40→45",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 25→30",
+  "OI mulo click: 25→20",
+  "OI oseo tone_burst_4000Hz: 40→45",
+  "OI oseo click: 40→35"
+ ],
+ "casos/generados/cap02_barotrauma.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 25→30",
+  "OI mulo click: 35→30",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap02_disfuncion_tubaria.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 30→25",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 20→25",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap02_otitis_media_aguda.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 40→35",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap03_colesteatoma.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 55→50",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap03_disyuncion_cadena.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 55→50",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap03_perforacion.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 35→30",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap03_timpanoesclerosis.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 35→30",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap04_fijacion_congenita_estribo.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 65→60",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 40→35",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap04_paget.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 75→70",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap05_metabolica.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap06_muesca_4k.json": [
+  "OD mulo tone_burst_4000Hz: 80→85",
+  "OD mulo click: 65→60",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap06_trauma_acustico_agudo.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 95→100",
+  "OI mulo click: 80→75"
+ ],
+ "casos/generados/cap07_autoinmune.json": [
+  "OD mulo tone_burst_4000Hz: 100→105",
+  "OD mulo click: 100→95",
+  "OI mulo tone_burst_4000Hz: 45→50",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap07_conmocion_laberintica.json": [
+  "OD mulo tone_burst_4000Hz: 70→75",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap07_laberintitis.json": [
+  "OD mulo tone_burst_4000Hz: 105→110",
+  "OD mulo click: 110→105",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap07_subita.json": [
+  "OD mulo tone_burst_4000Hz: 15→20",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 30→35",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 95→100",
+  "OI mulo click: 90→85"
+ ],
+ "casos/generados/cap08_ototoxica.json": [
+  "OD mulo tone_burst_4000Hz: 80→85",
+  "OD mulo click: 65→60",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap08_post_radioterapia.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 75→70",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 45→50",
+  "OI oseo click: 45→40"
+ ],
+ "casos/generados/cap08_salicilatos.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 40→35",
+  "OD oseo tone_burst_4000Hz: 50→55",
+  "OD oseo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 40→45",
+  "OI mulo click: 40→35",
+  "OI oseo tone_burst_4000Hz: 55→None",
+  "OI oseo click: None→50"
+ ],
+ "casos/generados/cap09_hidrops_retardado.json": [
+  "OD mulo tone_burst_4000Hz: 110→115",
+  "OD mulo click: 110→105",
+  "OI mulo tone_burst_4000Hz: 35→40",
+  "OI mulo click: 35→30",
+  "OI oseo tone_burst_4000Hz: 50→55",
+  "OI oseo click: 50→45"
+ ],
+ "casos/generados/cap10_alport.json": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 75→70"
+ ],
+ "casos/generados/cap10_gjb2.json": [
+  "OD mulo tone_burst_4000Hz: 95→100",
+  "OD mulo click: 95→90",
+  "OI mulo tone_burst_4000Hz: 95→100",
+  "OI mulo click: 95→90"
+ ],
+ "casos/generados/cap10_pendred.json": [
+  "OD mulo tone_burst_4000Hz: 70→75",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 80→75"
+ ],
+ "casos/generados/cap10_usher.json": [
+  "OD mulo tone_burst_4000Hz: 90→95",
+  "OD mulo click: 90→85",
+  "OI mulo tone_burst_4000Hz: 85→90",
+  "OI mulo click: 85→80"
+ ],
+ "casos/generados/cap10_waardenburg.json": [
+  "OD mulo tone_burst_4000Hz: 100→105",
+  "OD mulo click: 105→100",
+  "OI mulo tone_burst_4000Hz: 110→115",
+  "OI mulo click: 115→110"
+ ],
+ "casos/generados/cap11_angulo.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 25→20",
+  "OD oseo tone_burst_4000Hz: 40→45",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 45→40"
+ ],
+ "casos/generados/cap11_microvascular.json": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap11_nf2.json": [
+  "OD mulo tone_burst_4000Hz: 95→100",
+  "OD mulo click: 90→85",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap11_retrococlear.json": [
+  "OD mulo tone_burst_4000Hz: 30→35",
+  "OD mulo click: 30→25",
+  "OD oseo tone_burst_4000Hz: 45→50",
+  "OD oseo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap11_schwannoma.json": [
+  "OD mulo tone_burst_4000Hz: 100→105",
+  "OD mulo click: 95→90",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap12_esclerosis_multiple.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap12_glioma_tronco.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 45→50",
+  "OI mulo click: 45→40"
+ ],
+ "casos/generados/cap12_hic_idiopatica.json": [
+  "OD mulo tone_burst_4000Hz: 30→35",
+  "OD mulo click: 30→25",
+  "OD oseo tone_burst_4000Hz: 45→50",
+  "OD oseo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 25→30",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 40→45",
+  "OI oseo click: 45→40"
+ ],
+ "casos/generados/cap12_infarto_aica.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 60→55",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 45→50",
+  "OI oseo click: 45→40"
+ ],
+ "casos/generados/cap12_siderosis.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 55→60",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap13_kernicterus.json": [
+  "OD mulo tone_burst_4000Hz: 70→75",
+  "OD mulo click: 75→70",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 75→70"
+ ],
+ "casos/generados/cap13_leucodistrofia.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap13_neuropatia_hereditaria.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap14_bloqueo_proximal.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap14_hipotermia_farmacos.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap14_toxico_metabolico.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap15_colesteatoma_fistula.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 60→55",
+  "OD oseo tone_burst_4000Hz: 50→55",
+  "OD oseo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap15_fractura_transversal.json": [
+  "OD mulo tone_burst_4000Hz: 105→110",
+  "OD mulo click: 110→105",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap15_mixta_otitis_cronica.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 15→20",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 30→35",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap15_mixta_otoesclerosis.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 65→60",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap15_trauma_craneal_completo.json": [
+  "OD mulo tone_burst_4000Hz: 100→105",
+  "OD mulo click: 90→85",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap17_asfixia_perinatal.json": [
+  "OD mulo nb_ce_chirp_ls_4000Hz: 55→50",
+  "OD mulo click: 60→50",
+  "OD oseo nb_ce_chirp_ls_4000Hz: 55→50",
+  "OD oseo click: None→50",
+  "OI mulo nb_ce_chirp_ls_4000Hz: 60→55",
+  "OI mulo click: 65→55",
+  "OI oseo nb_ce_chirp_ls_4000Hz: None→55",
+  "OI oseo click: None→55"
+ ],
+ "casos/generados/cap17_cmv_congenito.json": [
+  "OD mulo nb_ce_chirp_ls_4000Hz: 55→50",
+  "OD mulo click: 60→50",
+  "OD oseo nb_ce_chirp_ls_4000Hz: 55→50",
+  "OD oseo click: None→50",
+  "OI mulo nb_ce_chirp_ls_4000Hz: 5→0",
+  "OI mulo click: 10→0",
+  "OI oseo nb_ce_chirp_ls_4000Hz: 5→0",
+  "OI oseo click: 10→0"
+ ],
+ "casos/generados/cap17_efusion_neonatal.json": [
+  "OD mulo nb_ce_chirp_ls_4000Hz: 25→20",
+  "OD mulo click: 40→30",
+  "OD oseo nb_ce_chirp_ls_4000Hz: 5→0",
+  "OD oseo click: 10→0",
+  "OI mulo nb_ce_chirp_ls_4000Hz: 30→25",
+  "OI mulo click: 40→30",
+  "OI oseo nb_ce_chirp_ls_4000Hz: 5→0",
+  "OI oseo click: 10→0"
+ ],
+ "casos/generados/cap17_rubeola_congenita.json": [
+  "OD mulo nb_ce_chirp_ls_4000Hz: 100→95",
+  "OD mulo click: 100→90",
+  "OI mulo nb_ce_chirp_ls_4000Hz: 95→90",
+  "OI mulo click: 95→85"
+ ],
+ "casos/generados/cap19_nina.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap19_sobre_real.json": [
+  "OD mulo tone_burst_4000Hz: 70→75",
+  "OD mulo click: 60→55",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap19_unilateral.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap20_laberintitis.json": [
+  "OD mulo tone_burst_4000Hz: 90→95",
+  "OD mulo click: 95→90",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap20_meniere.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 35→30",
+  "OD oseo tone_burst_4000Hz: 40→45",
+  "OD oseo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap20_otoesclerosis.json": [
+  "OD mulo tone_burst_4000Hz: 45→50",
+  "OD mulo click: 50→45",
+  "OD oseo tone_burst_4000Hz: 30→35",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 45→50",
+  "OI mulo click: 55→50",
+  "OI oseo tone_burst_4000Hz: 30→35",
+  "OI oseo click: 40→35"
+ ],
+ "casos/generados/cap20_schwannoma.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap21_aica.json": [
+  "OD mulo tone_burst_4000Hz: 20→25",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 65→60"
+ ],
+ "casos/generados/cap21_laberintitis.json": [
+  "OD mulo tone_burst_4000Hz: 85→90",
+  "OD mulo click: 90→85",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap21_neuritis.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap21_pseudoneuritis.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 35→30",
+  "OD oseo tone_burst_4000Hz: 50→55",
+  "OD oseo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 35→40",
+  "OI mulo click: 35→30",
+  "OI oseo tone_burst_4000Hz: 50→55",
+  "OI oseo click: 50→45"
+ ],
+ "casos/generados/cap22_apogeotropico.json": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap22_central.json": [
+  "OD mulo tone_burst_4000Hz: 20→25",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 20→25",
+  "OI mulo click: 20→15",
+  "OI oseo tone_burst_4000Hz: 35→40",
+  "OI oseo click: 35→30"
+ ],
+ "casos/generados/cap22_geotropico.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap22_posterior.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 60→55",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap23_meniere_avanzado.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 45→50",
+  "OI oseo click: 45→40"
+ ],
+ "casos/generados/cap23_meniere_bilateral.json": [
+  "OD mulo tone_burst_4000Hz: 35→40",
+  "OD mulo click: 40→35",
+  "OD oseo tone_burst_4000Hz: 50→55",
+  "OD oseo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap23_meniere_migrana.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 25→30",
+  "OI mulo click: 30→25",
+  "OI oseo tone_burst_4000Hz: 40→45",
+  "OI oseo click: 45→40"
+ ],
+ "casos/generados/cap23_migrana_vestibular.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap24_canvas.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 55→60",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap24_gentamicina.json": [
+  "OD mulo tone_burst_4000Hz: 15→20",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 30→35",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 15→20",
+  "OI mulo click: 20→15",
+  "OI oseo tone_burst_4000Hz: 30→35",
+  "OI oseo click: 35→30"
+ ],
+ "casos/generados/cap24_sin_causa.json": [
+  "OD mulo tone_burst_4000Hz: 20→25",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 20→25",
+  "OI mulo click: 20→15",
+  "OI oseo tone_burst_4000Hz: 35→40",
+  "OI oseo click: 35→30"
+ ],
+ "casos/generados/cap24_tuberculosis.json": [
+  "OD mulo tone_burst_4000Hz: 85→90",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 90→95",
+  "OI mulo click: 75→70"
+ ],
+ "casos/generados/cap25_canvas.json": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap25_chiari.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 55→60",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap25_esclerosis.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap25_farmaco.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 45→40"
+ ],
+ "casos/generados/cap26_dehiscencia.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap26_otoesclerosis.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 60→55",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap26_pendred.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 80→75",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 65→60"
+ ],
+ "casos/generados/cap27_neuritis.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap27_schwannoma.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 25→20",
+  "OD oseo tone_burst_4000Hz: 40→45",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap27_vppb.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 55→60",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap28_leve.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap28_primera_vez.json": [
+  "OD mulo tone_burst_4000Hz: 95→100",
+  "OD mulo click: 85→80",
+  "OI mulo tone_burst_4000Hz: 100→105",
+  "OI mulo click: 90→85"
+ ],
+ "casos/generados/cap28_reacio.json": [
+  "OD mulo tone_burst_4000Hz: 105→110",
+  "OD mulo click: 90→85",
+  "OI mulo tone_burst_4000Hz: 105→110",
+  "OI mulo click: 90→85"
+ ],
+ "casos/generados/cap28_un_oido.json": [
+  "OD mulo tone_burst_4000Hz: 105→110",
+  "OD mulo click: 105→100",
+  "OI mulo tone_burst_4000Hz: 15→20",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 30→35",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap29_aun_no.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 70→65",
+  "OI mulo tone_burst_4000Hz: 75→80",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap29_autoinmune.json": [
+  "OD mulo tone_burst_4000Hz: 100→105",
+  "OD mulo click: 100→95",
+  "OI mulo tone_burst_4000Hz: 100→105",
+  "OI mulo click: 95→90"
+ ],
+ "casos/generados/cap30_mayor_ruido.json": [
+  "OD mulo tone_burst_4000Hz: 45→50",
+  "OD mulo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 50→45"
+ ],
+ "casos/generados/cap30_nino_otitis.json": [
+  "OD mulo tone_burst_4000Hz: 15→20",
+  "OD mulo click: 25→20",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 15→20",
+  "OI mulo click: 25→20",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap30_nino_tpa.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap31_buena.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap31_lenta.json": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 25→20",
+  "OD oseo tone_burst_4000Hz: 40→45",
+  "OD oseo click: 40→35",
+  "OI mulo tone_burst_4000Hz: 25→30",
+  "OI mulo click: 25→20",
+  "OI oseo tone_burst_4000Hz: 40→45",
+  "OI oseo click: 40→35"
+ ],
+ "casos/generados/cap31_meseta.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap32_bilateral.json": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 60→65",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap32_fragil.json": [
+  "OD mulo tone_burst_4000Hz: 115→120",
+  "OD mulo click: 95→90",
+  "OI mulo tone_burst_4000Hz: 110→115",
+  "OI mulo click: 95→90"
+ ],
+ "casos/generados/cap32_vppb.json": [
+  "OD mulo tone_burst_4000Hz: 50→55",
+  "OD mulo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 45→40"
+ ],
+ "casos/generados/cap33_base.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap33_control.json": [
+  "OD mulo tone_burst_4000Hz: 85→90",
+  "OD mulo click: 65→60",
+  "OI mulo tone_burst_4000Hz: 90→95",
+  "OI mulo click: 65→60"
+ ],
+ "casos/generados/cap33_ingreso.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 100→105",
+  "OI mulo click: 70→65"
+ ],
+ "casos/generados/cap33_reposo.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap34_exagera.json": [
+  "OD mulo tone_burst_4000Hz: 75→80",
+  "OD mulo click: 60→55",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap34_hidrops.json": [
+  "OD mulo tone_burst_4000Hz: 20→25",
+  "OD mulo click: 20→15",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 50→55",
+  "OI mulo click: 55→50"
+ ],
+ "casos/generados/cap34_honesto.json": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 60→55"
+ ],
+ "casos/generados/cap35_desviacion.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap35_discordancia.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap35_valvula.json": [
+  "OD mulo tone_burst_4000Hz: 15→20",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 30→35",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 15→20",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 30→35",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/cap36_alergica.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap36_medicamentosa.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/cap36_mixta.json": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 15→10",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 30→25"
+ ],
+ "casos/generados/h4_dilema.json": [
+  "OD mulo tone_burst_4000Hz: 45→50",
+  "OD mulo click: 50→45",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 35→30",
+  "OI mulo tone_burst_4000Hz: 40→45",
+  "OI mulo click: 50→45",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 35→30"
+ ],
+ "casos/generados/h7_disyuncion.json": [
+  "OD mulo tone_burst_4000Hz: 55→60",
+  "OD mulo click: 65→60",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 10→15",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 25→30",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/h7_retraccion.json": [
+  "OD mulo tone_burst_4000Hz: 20→25",
+  "OD mulo click: 30→25",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "casos/generados/h8_unilateral.json": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 95→100",
+  "OI mulo click: 95→90"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#33": [
+  "OD mulo tone_burst_4000Hz: 5→10",
+  "OD mulo click: 10→5",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 25→20",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#34": [
+  "OD mulo tone_burst_4000Hz: 45→50",
+  "OD mulo click: 50→45",
+  "OD oseo tone_burst_4000Hz: 35→40",
+  "OD oseo click: 45→40",
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#35": [
+  "OD mulo tone_burst_4000Hz: 25→30",
+  "OD mulo click: 35→30",
+  "OD oseo tone_burst_4000Hz: 20→25",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 40→35",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 30→25"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#36": [
+  "OD mulo tone_burst_4000Hz: 65→70",
+  "OD mulo click: 60→55",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 65→60"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#37": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 50→45",
+  "OI mulo tone_burst_4000Hz: 65→70",
+  "OI mulo click: 55→50"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#38": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 30→35",
+  "OI mulo click: 35→30",
+  "OI oseo tone_burst_4000Hz: 45→50",
+  "OI oseo click: 50→45"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#39": [
+  "OD mulo tone_burst_4000Hz: 60→65",
+  "OD mulo click: 55→50",
+  "OI mulo tone_burst_4000Hz: 20→25",
+  "OI mulo click: 20→15",
+  "OI oseo tone_burst_4000Hz: 35→40",
+  "OI oseo click: 35→30"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#40": [
+  "OD mulo tone_burst_4000Hz: 40→45",
+  "OD mulo click: 45→40",
+  "OD oseo tone_burst_4000Hz: 55→None",
+  "OI mulo tone_burst_4000Hz: 40→45",
+  "OI mulo click: 45→40",
+  "OI oseo tone_burst_4000Hz: 55→None",
+  "OI oseo click: None→55"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#41": [
+  "OD mulo tone_burst_4000Hz: 10→15",
+  "OD mulo click: 15→10",
+  "OD oseo tone_burst_4000Hz: 25→30",
+  "OD oseo click: 30→25",
+  "OI mulo tone_burst_4000Hz: 70→75",
+  "OI mulo click: 70→65"
+ ],
+ "/home/nick/Escritorio/Proyectos/LabSim/docs/manual/capturas/casos_demo.json#42": [
+  "OI mulo tone_burst_4000Hz: 5→10",
+  "OI mulo click: 10→5",
+  "OI oseo tone_burst_4000Hz: 20→25",
+  "OI oseo click: 25→20"
+ ]
+}

@@ -520,7 +520,7 @@
   "ABR": {
    "OD": {
     "type": "neural",
-    "umbral": 60,
+    "umbral": 50,
     "umbral_por_estimulo": {
      "tone_burst_500Hz": 65,
      "tone_burst_1000Hz": 65,
@@ -529,8 +529,8 @@
      "nb_ce_chirp_ls_500Hz": 60,
      "nb_ce_chirp_ls_1000Hz": 60,
      "nb_ce_chirp_ls_2000Hz": 55,
-     "nb_ce_chirp_ls_4000Hz": 55,
-     "click": 60,
+     "nb_ce_chirp_ls_4000Hz": 50,
+     "click": 50,
      "ce_chirp": 55,
      "ce_chirp_ls": 55
     },
@@ -542,8 +542,8 @@
      "nb_ce_chirp_ls_500Hz": null,
      "nb_ce_chirp_ls_1000Hz": null,
      "nb_ce_chirp_ls_2000Hz": 55,
-     "nb_ce_chirp_ls_4000Hz": 55,
-     "click": null,
+     "nb_ce_chirp_ls_4000Hz": 50,
+     "click": 50,
      "ce_chirp": 50,
      "ce_chirp_ls": 50
     },
@@ -600,7 +600,7 @@
    },
    "OI": {
     "type": "neural",
-    "umbral": 65,
+    "umbral": 55,
     "umbral_por_estimulo": {
      "tone_burst_500Hz": 65,
      "tone_burst_1000Hz": 65,
@@ -609,8 +609,8 @@
      "nb_ce_chirp_ls_500Hz": 60,
      "nb_ce_chirp_ls_1000Hz": 60,
      "nb_ce_chirp_ls_2000Hz": 60,
-     "nb_ce_chirp_ls_4000Hz": 60,
-     "click": 65,
+     "nb_ce_chirp_ls_4000Hz": 55,
+     "click": 55,
      "ce_chirp": 60,
      "ce_chirp_ls": 60
     },
@@ -622,8 +622,8 @@
      "nb_ce_chirp_ls_500Hz": null,
      "nb_ce_chirp_ls_1000Hz": null,
      "nb_ce_chirp_ls_2000Hz": null,
-     "nb_ce_chirp_ls_4000Hz": null,
-     "click": null,
+     "nb_ce_chirp_ls_4000Hz": 55,
+     "click": 55,
      "ce_chirp": 55,
      "ce_chirp_ls": 55
     },

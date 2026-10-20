@@ -482,17 +482,17 @@
   "ABR": {
    "OD": {
     "type": "coclear",
-    "umbral": 100,
+    "umbral": 95,
     "umbral_por_estimulo": {
      "tone_burst_500Hz": 90,
      "tone_burst_1000Hz": 95,
      "tone_burst_2000Hz": 95,
-     "tone_burst_4000Hz": 100,
+     "tone_burst_4000Hz": 105,
      "nb_ce_chirp_ls_500Hz": 85,
      "nb_ce_chirp_ls_1000Hz": 90,
      "nb_ce_chirp_ls_2000Hz": 90,
      "nb_ce_chirp_ls_4000Hz": 100,
-     "click": 100,
+     "click": 95,
      "ce_chirp": 90,
      "ce_chirp_ls": 90
     },
@@ -562,17 +562,17 @@
    },
    "OI": {
     "type": "coclear",
-    "umbral": 50,
+    "umbral": 45,
     "umbral_por_estimulo": {
      "tone_burst_500Hz": 45,
      "tone_burst_1000Hz": 45,
      "tone_burst_2000Hz": 50,
-     "tone_burst_4000Hz": 45,
+     "tone_burst_4000Hz": 50,
      "nb_ce_chirp_ls_500Hz": 40,
      "nb_ce_chirp_ls_1000Hz": 40,
      "nb_ce_chirp_ls_2000Hz": 45,
      "nb_ce_chirp_ls_4000Hz": 45,
-     "click": 50,
+     "click": 45,
      "ce_chirp": 40,
      "ce_chirp_ls": 40
     },
