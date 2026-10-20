@@ -215,15 +215,11 @@ Además de la audiometría, ¿qué logoaudiometría y qué LDL? ¿Qué pruebas h
 
 #### Paso 4 · Los resultados
 
-:::figura cap28_primera_vez audiograma
-- @OD 500 | En 500 Hz está en 20 dB: los graves están casi normales.
-- @OD 2000 | En 2 kHz cae a 60 dB y en 4 kHz a 90: una pérdida **descendente**, como la presbiacusia del cap. 5.
-- @OI 4000 | El OI está en 95 dB, a 5 dB del OD: es **simétrica**, y eso la distingue de lo que se estudia en el cap. 11.
-- @OD 3000 | Los triángulos del fondo son el LDL: no hay molestia hasta los 120 dB, el tope del equipo. El campo dinámico no está estrecho: en 3 kHz quedan al menos 45 dB.
+:::imagen figuras/salida/cap28_primera_vez_audiosupra.svg ancho=80% Audiometría de la paciente de 73 años: pérdida descendente simétrica; discriminación de 76 % y 72 % a 60 dB.
 :::
-:::figura cap28_primera_vez logoaudiometria
-- @OD max | El máximo del OD es el **76 %** y el del OI el 72 %. Aun a un nivel cómodo no llega al 100 %: anuncia que oír no será entender todo.
-:::
+
+En 500 Hz el OD está en 20 dB: los graves están casi normales. En 2 kHz cae a 60 dB y en 4 kHz a 90: una pérdida **descendente**, como la presbiacusia del cap. 5. El OI está en 95 dB en 4 kHz, a 5 dB del OD: es **simétrica**, y eso la distingue de lo que se estudia en el cap. 11. Los triángulos del fondo son el LDL: no hay molestia hasta los 120 dB, el tope del equipo, así que el campo dinámico no está estrecho (en 3 kHz quedan al menos 45 dB). SDT y SRT de 20 y 25 dB; el máximo del OD es **76 %** y el del OI 72 %, los dos a 60 dB: aun a un nivel cómodo no llega al 100 %, y eso anuncia que oír no será entender todo. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 27 a 32 dB en 2 kHz: recluta, es coclear.
+
 :::figura cap28_primera_vez campo_libre
 - @S 2000 | Sin audífono, el campo libre (el oído mejor) está en 60 dB en 2 kHz.
 - @A 2000 | Con una ganancia funcional de **30 dB**, queda en 30.
@@ -254,15 +250,10 @@ Hablar de audífonos con alguien que no los quiere, ¿por dónde empiezas? ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap28_reacio audiograma
-- @OD 1000 | Graves y medios casi normales: 25 dB en 1 kHz.
-- @OD 3000 | A 80 dB en 3 kHz y 100 en 4 kHz: la caída es **abrupta**.
-- @OD 3000 | El LDL (triángulos del fondo) está en 110 dB: queda un campo dinámico de **30 dB**, la misma amplitud del habla, sin margen.
-- @OI 3000 | El OI es parecido: 75 dB en 3 kHz y LDL de 110.
+:::imagen figuras/salida/cap28_reacio_audiosupra.svg ancho=80% Audiometría del paciente de 68 años: caída abrupta en agudos, LDL de 110 dB y discriminación de 80 % y 76 %.
 :::
-:::figura cap28_reacio logoaudiometria
-- @OD max | El **80 %** del OD y el 76 % del OI: lo esperable en una pérdida de agudos de este grado. El audífono no los llevará a 100.
-:::
+
+Graves y medios casi normales: 25 dB en 1 kHz. A 80 dB en 3 kHz y 100 en 4 kHz la caída es **abrupta**. El LDL (triángulos del fondo) está en 110 dB: queda un campo dinámico de **30 dB**, la misma amplitud del habla, sin margen. El OI es parecido: 75 dB en 3 kHz y LDL de 110. La discriminación máxima es **80 %** en el OD y 76 % en el OI, los dos a 60 dB, lo esperable en una pérdida de agudos de este grado: el audífono no los llevará a 100. SISI de 90 %, Carhart con deterioro de 20 dB en 4 kHz y Metz de 9,5 dB en 4 kHz: recluta, es coclear.
 
 :::docente Guía del caso
 - **Datos clave:** 68 años, mecánico jubilado, lo trajo su señora, dice que oye bien y que los audífonos "son para viejos" y "suenan a lata", ruidos fuertes que le "clavan" el oído, pitido agudo bilateral intermitente, teme que algo en el oído lo empeore.
@@ -288,14 +279,10 @@ Con una queja leve y situacional, ¿qué es lo que decide si le ofreces un audí
 
 #### Paso 4 · Los resultados
 
-:::figura cap28_leve audiograma
-- @OD 1000 | Hasta 1 kHz está en 15 dB: el promedio de las frecuencias del habla es **normal**.
-- @OD 4000 | Desde 2 kHz la curva baja: 45 dB en 4 kHz y 60 en 8 kHz. Es una presbiacusia **leve**, solo en agudos.
-- @OI 2000 | El OI es simétrico: 35 dB en 2 kHz.
+:::imagen figuras/salida/cap28_leve_audiosupra.svg ancho=80% Audiometría de la profesora de 64 años: normal hasta 1 kHz, caída leve en agudos, discriminación de 96 % y 92 %.
 :::
-:::figura cap28_leve logoaudiometria
-- @OD max | Discrimina el **96 %** con el OD y el 92 % con el OI: en silencio no pierde palabras. Su dificultad aparece donde las consonantes compiten con el ruido.
-:::
+
+Hasta 1 kHz está en 15 dB: el promedio de las frecuencias del habla es **normal** (SDT de 5 dB y SRT de 10 dB). Desde 2 kHz la curva baja: 45 dB en 4 kHz y 60 en 8 kHz. Es una presbiacusia **leve**, solo en agudos, y el OI es simétrico (35 dB en 2 kHz). Discrimina el **96 %** con el OD y el 92 % con el OI: en silencio no pierde palabras. Su dificultad aparece donde las consonantes compiten con el ruido. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 y 39,5 dB en 4 kHz: recluta, es coclear.
 
 :::docente Guía del caso
 - **Datos clave:** 64 años, profesora en ejercicio, dificultad en el restaurante y con el alumno del fondo, nada en casa, la pareja es quien insiste.
@@ -321,15 +308,16 @@ Una pérdida unilateral de décadas con causa conocida: ¿qué tendrías que des
 
 #### Paso 4 · Los resultados
 
-:::figura cap28_un_oido audiograma
-- @OD 500 | El OD está en **90 dB** en 500 Hz y empeora hasta 110 dB en los agudos.
-- @OD osea 1000 | La ósea del OD **no responde** (símbolo de sin respuesta), con el otro oído enmascarado: la pérdida es **sensorioneural**, sin nada que operar.
-- @OI 1000 | El OI es normal: 5 dB en 1 kHz.
+:::imagen figuras/salida/cap28_un_oido_audiosupra.svg ancho=80% Audiometría del taxista de 47 años: OD en 90 dB o más y sin respuesta ósea; OI normal.
 :::
-:::figura cap28_un_oido logoaudiometria
-- @OD max | El OD no discrimina nada hasta 80 dB y llega al **35 %** solo con 100 dB.
-- @OI max | El OI llega al 100 % a 30 dB: es el oído con el que vive.
+
+El OD está en **90 dB** en 500 Hz y empeora hasta 110 dB en los agudos. La ósea del OD **no responde** (símbolo de sin respuesta), con el otro oído enmascarado: la pérdida es **sensorioneural**, sin nada que operar. El OI es normal: 5 dB en 1 kHz. En el OD el SDT es de 85 dB y el SRT de 90; discrimina 20 % a 90 dB y llega al **35 %** solo con 100 dB. El OI llega al 100 % a 40 dB: es el oído con el que vive.
+
+:::imagen figuras/salida/cap28_un_oido_impedancia.svg ancho=80% Impedanciometría del taxista.
 :::
+
+Timpanograma A en los dos oídos, con compliancia de 1,45 mL en el OD y de 1,19 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo: el oído medio está sano y la sordera es sensorioneural.
+
 :::figura cap28_un_oido campo_libre
 - @S 2000 | En campo libre, sin audífono, el umbral es de 5 dB: **normal**.
 - @S 4000 | En 4 kHz, 10 dB. El parlante contesta el oído mejor: esta figura **esconde** la pérdida del OD y no sirve para decidir nada sobre ese oído.

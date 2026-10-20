@@ -252,18 +252,17 @@ Tiene 3 años. ¿Con qué método y con qué transductor lo evalúas? ¿Cómo va
 
 Adrián se condicionó al juego con el pito en 1 kHz y guardó juguetes en la canasta durante todo el examen. Confiabilidad buena.
 
-:::figura cap10_gjb2 audiograma
-- @OD 1000 | Umbral por juego: 80 dB en 1 kHz. El OD es plano, de 75 a 90 dB. Promedio BIAP (80 + 80 + 80 + 90) / 4 = 82,5 dB: **severa**.
-- @OI 4000 | El OI es igual, con 90 dB en 4 kHz y un promedio de 84 dB: severa, bilateral y **simétrica**.
-- @OD osea 2000 | La ósea no responde al tope del vibrador (las flechas). No sirve para saber el tipo: eso lo dicen el timpanograma y las emisiones.
+:::imagen figuras/salida/cap10_gjb2_audiosupra.svg ancho=80% Audiometría de Adrián por juego: pérdida sensorioneural severa, plana, bilateral y simétrica, con la ósea sin respuesta al tope del vibrador.
 :::
+
+El umbral por juego es de 80 dB en 1 kHz. El OD es plano, de 75 a 90 dB. Promedio BIAP (80 + 80 + 80 + 90) / 4 = 82,5 dB: **severa**. El OI es igual, con 90 dB en 4 kHz y un promedio de 84 dB: severa, bilateral y **simétrica**. La ósea no responde al tope del vibrador. No sirve para saber el tipo: eso lo dicen el timpanograma y las emisiones.
 
 Hace un año, la VRA con insertos dio niveles mínimos de 60 a 65 dB. El nivel mínimo queda **por encima** del umbral verdadero, así que el umbral de entonces era de 60 a 65 dB o mejor. Hoy está en 80: Adrián perdió **al menos 15 dB**. No es la maduración: la maduración solo puede hacer que un control salga mejor.
 
-:::figura cap10_gjb2 timpanograma
-- @OD pico | Tipo A en el OD: 0,38 mL con el pico en 0 daPa.
-- @OI pico | Tipo A en el OI, con el pico en −51 daPa. No hay líquido: la caída no es una otitis con efusión sumada.
+:::imagen figuras/salida/cap10_gjb2_impedancia.svg ancho=80% Impedanciometría de Adrián por juego.
 :::
+
+Los dos timpanogramas son tipo A: el OD con 0,38 mL y el pico en 0 daPa, el OI con el pico en −51 daPa. No hay líquido: la caída no es una otitis con efusión sumada. Los reflejos están presentes solo hasta 2 kHz, entre 100 y 115 dB SPL, en las dos sondas y en las dos modalidades; en 4 kHz faltan.
 
 :::figura cap10_gjb2 teoae
 - @OD 2000 | Sin emisiones en ninguna banda del OD (0 de 5; reproducibilidad 5 %).
@@ -302,14 +301,12 @@ Tiene 8 meses y se sienta sola. ¿Qué método conductual le corresponde? ¿Qué
 
 **VRA en campo libre.** Lorena no giró la cabeza con un tono modulado de 1 kHz a 65 dB HL, ni subiendo de 10 en 10 hasta el máximo de los parlantes, ni con ruido de banda estrecha. Con el **vibrador** en 250 Hz se condicionó al tercer intento y giró cada vez que lo sintió. La tarea es para su edad; lo que falta es el sonido (→ H8). Quedó escrito así, sin niveles mínimos de respuesta.
 
-:::figura cap10_waardenburg timpanograma
-- @OD pico | Tipo A en el OD, con el pico en −26 daPa.
-- @OI pico | Tipo A en el OI. No hay líquido: el oído medio no explica ni el tamizaje ni la conducta.
+:::imagen figuras/salida/cap10_waardenburg_impedancia.svg ancho=80% Impedanciometría.
 :::
 
-:::figura cap10_waardenburg reflejos
-- @ipsi OD 1000 | Reflejos **ausentes** en todas las frecuencias, ipsi y contralaterales, en los dos oídos. Con oído medio normal, falta la vía: el sonido no llega a disparar el reflejo.
-:::
+Los dos timpanogramas son tipo A: el OD con el pico en −26 daPa y el OI en 2 daPa. No hay líquido: el oído medio no explica ni el tamizaje ni la conducta.
+
+Los reflejos están **ausentes** en todas las frecuencias, con la sonda en el OD y con la sonda en el OI, ipsi y contralaterales. Con oído medio normal, falta la vía: el sonido no llega a disparar el reflejo.
 
 :::figura cap10_waardenburg teoae
 - @OD 2000 | Sin emisiones en el OD: 0 de 5 bandas.
@@ -347,23 +344,17 @@ Tiene 6 años. ¿Qué método usas? ¿Qué vas a medir con especial cuidado, y q
 
 Andrés sostuvo la instrucción convencional (levantar la mano) en la aérea; para la ósea con enmascaramiento se volvió al juego, con un juguete por cada pito. Confiabilidad buena.
 
-:::figura cap10_pendred audiograma
-- @OD 250 | En el OD la aérea está en 80 dB en 250 Hz y sube a 55 dB en 1 kHz: pierde **más en los graves**.
-- @OD osea 250 | La ósea enmascarada de 250 Hz está en 50 dB: un **gap de 30 dB**. En 500 Hz el gap ya es de 10 dB.
-- @OD 2000 | Desde 1 kHz la ósea va con la aérea: sensorioneural, de 55 a 70 dB.
-- @OI osea 250 | El OI repite la forma: 85 dB de aérea y 55 de ósea en 250 Hz.
-- Promedio BIAP: 60 dB en el OD y 65 en el OI, **moderada**. Hace tres años estaba entre 40 y 55: bajó.
+:::imagen figuras/salida/cap10_pendred_audiosupra.svg ancho=80% Audiometría de Andrés: pérdida moderada de los dos oídos con gap de 30 dB en 250 Hz que se cierra desde 1 kHz. Discriminación de 72 % en el OD y 68 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
-:::figura cap10_pendred timpanograma
-- @OD pico | Tipo A en el OD: 0,85 mL, pico en −6 daPa.
-- @OI pico | Tipo A en el OI. El oído medio está sano: el gap de los graves no viene de ahí.
+En el OD la aérea está en 80 dB en 250 Hz y sube a 55 dB en 1 kHz: pierde **más en los graves**. La ósea enmascarada de 250 Hz está en 50 dB: un **gap de 30 dB**. En 500 Hz el gap ya es de 10 dB. Desde 1 kHz la ósea va con la aérea: sensorioneural, de 55 a 70 dB. El OI repite la forma: 85 dB de aérea y 55 de ósea en 250 Hz. Promedio BIAP: 60 dB en el OD y 65 en el OI, **moderada**. Hace tres años estaba entre 40 y 55: bajó. En el OD el SDT es de 50 dB y el SRT de 55 dB, y la discriminación llega al 72 % a 90 dB; en el OI son 55 dB, 60 dB y 68 %. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 35 dB en el OD y de 19,5 a 30 dB en el OI desde 1 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap10_pendred_impedancia.svg ancho=80% Impedanciometría de Andrés.
 :::
 
-:::figura cap10_pendred reflejos
-- @ipsi OD 1000 | Reflejos **presentes** en 1, 2 y 4 kHz, ipsi y contralaterales, en los dos oídos. Una conductiva real, aun pequeña, suele borrarlos.
-- @ipsi OD 500 | En 500 Hz faltan en los dos oídos. Con 60 a 65 dB de pérdida en esa frecuencia, pueden faltar por la cóclea sola.
-:::
+Los dos timpanogramas son tipo A: el OD con 0,85 mL y el pico en −6 daPa. El oído medio está sano: el gap de los graves no viene de ahí.
+
+Los reflejos están **presentes** en 1, 2 y 4 kHz, con la sonda en el OD y con la sonda en el OI, ipsi y contralaterales. Una conductiva real, aun pequeña, suele borrarlos. En 500 Hz faltan en los dos oídos: con 60 a 65 dB de pérdida en esa frecuencia, pueden faltar por la cóclea sola.
 
 :::docente Guía del caso
 - **Datos clave:** pasó el tamizaje; hipoacusia detectada a los 3 años; caídas después de un resfrío (con recuperación parcial) y de un golpe en la cabeza; gap en 250 Hz con timpanograma A ya hace tres años; sin familiares sordos (recesiva).
@@ -388,18 +379,10 @@ Un adolescente con sangre en la orina, un tío materno dializado que usa audífo
 
 #### Paso 4 · Los resultados
 
-:::figura cap10_alport audiograma
-- @OD 250 | Graves casi normales: 15 dB en 250 Hz.
-- @OD 2000 | El fondo está en **2 kHz**, con 65 dB.
-- @OD 8000 | Y en 8 kHz vuelve a 40 dB: la curva cae en los medios y se recupera en los extremos. Es una curva **en cubeta**.
-- @OI 3000 | El OI tiene la misma forma, con 65 dB en 2 y 3 kHz. Ninguna frecuencia difiere en más de 10 dB del OD: simétrica.
-- @OD osea 1000 | La ósea va con la aérea: sensorioneural. Promedio BIAP: 47,5 dB en el OD y 52,5 en el OI, **moderada**.
+:::imagen figuras/salida/cap10_alport_audiosupra.svg ancho=80% Audiometría de Javier: pérdida sensorioneural bilateral simétrica en cubeta, con fondo en 2 kHz. Discriminación de 76 % en el OD y 72 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
-:::figura cap10_alport logoaudiometria
-- @OD max | El OD llega al **76 %** a 70 dB; el OI, al 72 % a 80 dB.
-- @OI 100 | A 100 dB los dos bajan un poco, sin la caída que haría pensar en el nervio. Es una discriminación acorde a una pérdida coclear moderada (→ cap. 11).
-:::
+Los graves están casi normales: 15 dB en 250 Hz. El fondo está en **2 kHz**, con 65 dB, y en 8 kHz el OD vuelve a 40 dB: la curva cae en los medios y se recupera en los extremos. Es una curva **en cubeta**. El OI tiene la misma forma, con 65 dB en 2 y 3 kHz. Ninguna frecuencia difiere en más de 10 dB del OD: simétrica. La ósea va con la aérea: sensorioneural. Promedio BIAP: 47,5 dB en el OD y 52,5 en el OI, **moderada**. El SDT es de 30 dB en el OD y 35 en el OI, el SRT de 35 y 40 dB, y la discriminación llega al **76 %** a 70 dB en el OD y al 72 % a 80 dB en el OI: es la de una pérdida coclear moderada, sin la caída que haría pensar en el nervio (→ cap. 11). SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 22 a 40 dB desde 1 kHz en el OD y de 24,5 a 30 dB en el OI: recluta, es coclear.
 
 :::figura cap10_alport dpoae
 - @OD 2000 | Sin DP en ninguna frecuencia del OD (0 de 7).
@@ -430,18 +413,10 @@ Hipoacusia desde chica, ceguera nocturna desde la adolescencia y una marcha norm
 
 #### Paso 4 · Los resultados
 
-:::figura cap10_usher audiograma
-- @OD 250 | Los graves están en 30 dB en el OD.
-- @OD 1000 | Desde 1 kHz cae a 65 dB, y sigue bajando hasta 95 dB en 8 kHz: **descendente**.
-- @OI 2000 | El OI tiene la misma forma, con 75 dB en 2 kHz. Promedio BIAP: 65 dB en el OD y 64 en el OI, **moderada**, simétrica.
-- @OD osea 2000 | La ósea va con la aérea: sensorioneural.
-- Hace doce años se describió "moderada, descendente". La pérdida cambió poco, como se espera en el tipo 2.
+:::imagen figuras/salida/cap10_usher_audiosupra.svg ancho=80% Audiometría de Carmen: pérdida sensorioneural descendente, bilateral y simétrica. SDT de 45 dB, SRT de 50 dB y discriminación máxima de 68 % con voz grabada, SISI de 90 % y Carhart sin deterioro.
 :::
 
-:::figura cap10_usher logoaudiometria
-- @OD max | Con voz grabada, sin verte la cara, llega al **68 %** a 80 y 90 dB, en los dos oídos.
-- @OD 100 | A 100 dB baja a 58 %. Sin labios que leer, esto es lo que entiende solo con el oído.
-:::
+Los graves están en 30 dB en el OD. Desde 1 kHz cae a 65 dB, y sigue bajando hasta 95 dB en 8 kHz: **descendente**. El OI tiene la misma forma, con 75 dB en 2 kHz. Promedio BIAP: 65 dB en el OD y 64 en el OI, **moderada**, simétrica. La ósea va con la aérea: sensorioneural. Hace doce años se describió "moderada, descendente": la pérdida cambió poco, como se espera en el tipo 2. Con voz grabada, sin verte la cara, el SDT es de 45 dB, el SRT de 50 dB y la discriminación llega al **68 %** a 80 dB en los dos oídos. Sin labios que leer, esto es lo que entiende solo con el oído. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 14,5 a 25 dB desde 1 kHz: recluta, es coclear.
 
 :::figura cap10_usher vemp
 - @OD P13 | cVEMP presente en el OD, con P13 y N23 bien formadas.
@@ -497,7 +472,7 @@ La historia de Andrés tiene la firma del acueducto vestibular dilatado: **pasó
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural moderada bilateral (promedio BIAP 60 dB en OD y 65 dB en OI), con gap aéreo-óseo de 30 dB en 250 Hz y oído medio normal (timpanograma A y reflejos presentes), con caída respecto de la audiometría de hace tres años. Los hallazgos son compatibles con una tercera ventana del oído interno; se sugiere estudio de imágenes de oído interno y evaluación genética y de la tiroides, que decide el médico. Se reajustan los audífonos y se controla de cerca: si la audición sigue cayendo, corresponde evaluar un implante coclear (→ cap. 29).
+Hipoacusia sensorioneural moderada bilateral (promedio BIAP 60 dB en OD y 65 dB en OI), con gap aéreo-óseo de 30 dB en 250 Hz y oído medio normal (timpanograma A y reflejos presentes), con caída respecto de la audiometría de hace tres años. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 25 a 35 dB. Los hallazgos son compatibles con una tercera ventana del oído interno; se sugiere estudio de imágenes de oído interno y evaluación genética y de la tiroides, que decide el médico. Se reajustan los audífonos y se controla de cerca: si la audición sigue cayendo, corresponde evaluar un implante coclear (→ cap. 29).
 
 :::comentario Comentario
 En este caso el gap no es de transmisión, aunque se mida igual. Por eso se informa el gap **y** el estado del oído medio, sin llamarlo "mixta" a secas: quien lea el informe tiene que ver que el oído medio está sano. Como Andrés ya tuvo una caída después de un golpe, se le sugiere además evitar los deportes de contacto: es el consejo que se reserva para quienes tienen una audición fluctuante o caídas previas tras un golpe (Noordman y cols., 2015).
@@ -511,7 +486,7 @@ Tres datos fuera del oído orientan: la **hematuria** desde chico con proteinuri
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural moderada bilateral, simétrica, de configuración **en cubeta**, con el máximo en 2 y 3 kHz (promedio BIAP 47,5 dB en OD y 52,5 dB en OI), de características cocleares; discriminación máxima de 76 % en OD y 72 % en OI. Compatible con la hipoacusia del síndrome de Alport sospechado por nefrología. Se sugiere evaluación médica, adaptación de audífonos (→ cap. 28) y control audiológico periódico, porque progresa en la adolescencia. Se informa también a nefrología: si un día necesita fármacos ototóxicos, la audiometría de hoy es su base (→ cap. 8).
+Hipoacusia sensorioneural moderada bilateral, simétrica, de configuración **en cubeta**, con el máximo en 2 y 3 kHz (promedio BIAP 47,5 dB en OD y 52,5 dB en OI), de características cocleares; discriminación máxima de 76 % en OD y 72 % en OI. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 25 a 40 dB. Compatible con la hipoacusia del síndrome de Alport sospechado por nefrología. Se sugiere evaluación médica, adaptación de audífonos (→ cap. 28) y control audiológico periódico, porque progresa en la adolescencia. Se informa también a nefrología: si un día necesita fármacos ototóxicos, la audiometría de hoy es su base (→ cap. 8).
 
 ### Caso 10.5
 
@@ -521,7 +496,7 @@ Una hipoacusia sensorioneural **congénita y descendente**, que cambió poco en 
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural moderada bilateral, simétrica, de configuración descendente (promedio BIAP 65 dB en OD y 64 dB en OI), de características cocleares; discriminación máxima de 68 % en ambos oídos, con material grabado y sin lectura labial. cVEMP presente y simétrico. Compatible con síndrome de Usher tipo 2; el estudio genético lo confirma. Se sugiere optimizar los audífonos y controlar la audición con regularidad.
+Hipoacusia sensorioneural moderada bilateral, simétrica, de configuración descendente (promedio BIAP 65 dB en OD y 64 dB en OI), de características cocleares; discriminación máxima de 68 % en ambos oídos, con material grabado y sin lectura labial. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 20 a 25 dB. cVEMP presente y simétrico. Compatible con síndrome de Usher tipo 2; el estudio genético lo confirma. Se sugiere optimizar los audífonos y controlar la audición con regularidad.
 
 :::comentario Comentario
 Carmen entiende hoy con el oído **y** con los labios. La retinosis le va a quitar primero la lectura labial en la penumbra y en la periferia, y con los años más. Cada decibel de audición que se le cuide vale más en ella que en otro paciente con el mismo audiograma: el informe lo dice, para que quien la siga lo tenga presente.

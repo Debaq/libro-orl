@@ -147,6 +147,11 @@ Antes de repetir nada, ¿qué dos números del equipo te dirían si el registro 
 
 #### Paso 4 · Los resultados
 
+:::imagen figuras/salida/cap18_p33_impedancia.svg ancho=80% Impedanciometría del técnico.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 1,54 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. El oído medio está sano: lo que falló fue el registro.
+
 :::figura cap18_p33 abr
 - @OD 80 V | La V llega a 5,7 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.
 - @OD 40 V | A 40 dB la V está a 6,8 ms: ahí coincide con lo que anotó el alumno.
@@ -184,9 +189,10 @@ Un operador de chancador de 47 años, con acúfeno bilateral y un audiograma con
 
 #### Paso 4 · Los resultados
 
-:::figura cap18_p37 audiograma
-- @OD 4000 | Muesca en 4 kHz, de daño por ruido. No hay nada en el audiograma que acorte los intervalos del ABR.
+:::imagen figuras/salida/cap18_p37_audiosupra.svg ancho=80% Audiometría del paciente de este caso: muesca en 4 kHz en los dos oídos, con la voz normal.
 :::
+
+Muesca en 4 kHz, de daño por ruido, de 55 dB en el OD y 60 en el OI. SDT de 0 dB y SRT de 5 dB en los dos oídos; discriminación de 100 % a 40 dB en el OD y 96 % en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 34,5 dB en 4 kHz: recluta, es coclear. No hay nada en el audiograma que acorte los intervalos del ABR.
 
 :::figura cap18_p37 abr
 - @OD 100 I | Con fono de inserción y polaridad alternada, la I llega a 1,2 ms.
@@ -261,9 +267,15 @@ Mira solo la latencia de esa onda en cuatro niveles seguidos. ¿Qué esperarías
 
 #### Paso 4 · Los resultados
 
-:::figura cap18_p42 audiograma
-- @OD 1000 | Sin respuesta en el oído derecho a ninguna frecuencia: es una **cofosis**, y coincide con lo que cuenta el paciente.
+:::imagen figuras/salida/cap18_p42_audiosupra.svg ancho=80% Audiometría del paciente de este caso: oído derecho sin respuesta, oído izquierdo normal.
 :::
+
+Sin respuesta en el oído derecho a ninguna frecuencia, ni a 130 dB con el OI enmascarado: es una **cofosis**, y coincide con lo que cuenta el paciente. El OI tiene SDT de −5 dB, SRT de 0 dB y discrimina 100 % a 40 dB.
+
+:::imagen figuras/salida/cap18_p42_impedancia.svg ancho=80% Impedanciometría del estudiante.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,31 mL en el OD y de 1,13 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra, porque ese oído no lo recibe. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
 
 :::figura cap18_p42 abr
 - @OI 100 V | El oído izquierdo es normal: I, III y V a lo esperable (V a 5,4 ms).
@@ -300,6 +312,11 @@ Sin cambiar de oído, ¿qué parámetros del equipo pudieron esconder una onda q
 :::
 
 #### Paso 4 · Los resultados
+
+:::imagen figuras/salida/cap18_p38_impedancia.svg ancho=80% Impedanciometría de la profesora.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 0,49 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. Ni el oído medio ni el reflejo explican un umbral de 80 dB.
 
 :::figura cap18_p38 abr
 - @OI 80 V | A 80 dB la V del oído izquierdo llega a 5,6 ms.

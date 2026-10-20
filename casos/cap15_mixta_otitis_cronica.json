@@ -21,17 +21,8 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
-    },
-    {
-      "tipo": "acumetria"
-    },
-    {
-      "tipo": "timpanograma",
-      "sonda": 226
     },
     {
       "tipo": "abr",

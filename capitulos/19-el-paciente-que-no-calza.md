@@ -177,18 +177,20 @@ Sin enmascarar, con el OI en 0 dB, un OD realmente sordo habría respondido por 
 
 Lo que sigue son las pruebas que Felipe no gobierna: lo que miden de su oído derecho real.
 
-:::figura cap19_unilateral timpanograma
-- @OD pico | Curva A en los dos oídos: el oído medio está sano y los reflejos y las emisiones se pueden leer sin más.
+:::imagen figuras/salida/cap19_unilateral_impedancia.svg ancho=80% Impedanciometría.
 :::
-:::figura cap19_unilateral reflejos
-- @ipsi OD 1000 | El reflejo ipsilateral del OD aparece a **85 dB SPL** (en 1.000 Hz, lo mismo en dB HL), a 5 dB del umbral que dijo (80). Un oído con 80 dB de pérdida no dispara el estapedio a 5 dB de su umbral.
-- @contra OI 1000 | Con el tono en el OD y la sonda en el OI, el reflejo aparece a 90 dB SPL (unos 83 dB HL): el arco entero, desde el OD, funciona.
-:::
+
+Curva A en los dos oídos: el oído medio está sano y los reflejos y las emisiones se pueden leer sin más.
+
+Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 Hz (lo mismo en dB HL), a 5 dB del umbral que dijo (80). Un oído con 80 dB de pérdida no dispara el estapedio a 5 dB de su umbral. Con el tono en el OD y la sonda en el OI, el reflejo aparece a 90 dB SPL (unos 83 dB HL): el arco entero, desde el OD, funciona.
+
+:::lado
 :::figura cap19_unilateral teoae
 - @OD 2000 | Las emisiones del OD están **presentes y reproducibles en las cinco bandas** (95 %): las células ciliadas externas funcionan. Con una pérdida coclear de 80 dB no habría nada.
 :::
 :::figura cap19_unilateral dpoae
 - @OD 4000 | Los productos de distorsión pasan en las 7 frecuencias, también en 4 kHz, donde dijo 75 dB.
+:::
 :::
 :::figura cap19_unilateral abr
 - @OD 80 V | La onda V del OD está en su lugar a 80 dB, con I y III bien formadas.
@@ -233,17 +235,18 @@ Su SRT es de **50 dB en el OD** y de **45 en el OI**, contra promedios tonales d
 
 Y esto es lo que miden de su oído real las pruebas que no dependen de su mano:
 
-:::figura cap19_sobre_real audiograma
-- @OD 1000 | Esta es la audición verdadera: normal hasta 1 kHz (10 dB), con la caída típica del ruido desde 2 kHz.
-- @OD 4000 | En 4 kHz el OD está en **65 dB** y el OI en 60. Hay una pérdida real, de 55 a 65 dB entre 3 y 6 kHz.
-- @OI 1000 | El OI es parecido: la historia de ruido es bilateral.
+:::imagen figuras/salida/cap19_sobre_real_audiosupra.svg ancho=80% Audiometría verdadera del paciente: normal hasta 1 kHz y caída por ruido desde 2 kHz.
 :::
-:::figura cap19_sobre_real timpanograma
-- @OD pico | Curva A: el oído medio no interviene.
+
+Esta es la audición verdadera: normal hasta 1 kHz (10 dB), con la caída típica del ruido desde 2 kHz. En 4 kHz el OD está en **65 dB** y el OI en 60; hay una pérdida real de 55 a 65 dB entre 3 y 6 kHz, y la historia de ruido es bilateral. SDT de 5 dB y SRT de 10 dB en los dos oídos, con discriminación de 91 % a 50 dB en el OD y 96 % a 40 dB en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 y 29,5 dB en 4 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap19_sobre_real_impedancia.svg ancho=80% Impedanciometría.
 :::
-:::figura cap19_sobre_real reflejos
-- @ipsi OD 1000 | Los reflejos aparecen a 85 a 95 dB SPL, muy por debajo de lo que implicarían 85 dB de pérdida.
-:::
+
+Curva A en los dos oídos: el oído medio no interviene.
+
+Los reflejos ipsilaterales aparecen de 85 a 95 dB SPL en los dos oídos, muy por debajo de lo que implicarían 85 dB de pérdida.
+
 :::figura cap19_sobre_real teoae
 - @OD 1000 | En el OD pasan **1.000, 1.500 y 2.000 Hz** y no pasan 3.000 y 4.000: justo donde cae el umbral real. Las emisiones respetan la pérdida de agudos y contradicen la de graves.
 - @OI 1000 | El OI muestra lo mismo.
@@ -290,18 +293,20 @@ Tabla: Umbrales aéreos que entrega Marta Sofía (dB HL)
 
 Con la voz, repite palabras desde los **15 dB**, unos 37 dB mejor que su promedio tonal (52 dB en el OD). Nunca tuvo una pérdida de ese tamaño; llegó a la consulta convencida de que sí oye mal.
 
-:::figura cap19_nina timpanograma
-- @OD pico | Curva A en los dos oídos: oído medio sano.
+:::imagen figuras/salida/cap19_nina_impedancia.svg ancho=80% Impedanciometría.
 :::
-:::figura cap19_nina reflejos
-- @ipsi OD 1000 | Los reflejos aparecen a 85 dB SPL en 1.000 Hz. Con 50 dB de pérdida coclear un reflejo así sería posible (el reclutamiento lo adelanta): aquí **no deciden**; las emisiones sí.
-- @contra OI 1000 | Contralaterales presentes a 90 dB.
-:::
+
+Curva A en los dos oídos: oído medio sano.
+
+El reflejo ipsilateral del OD aparece a 85 dB SPL en 1.000 Hz. Con 50 dB de pérdida coclear un reflejo así sería posible (el reclutamiento lo adelanta): aquí **no deciden**; las emisiones sí. Con la sonda en el OI, el reflejo contralateral está presente a 90 dB.
+
+:::lado
 :::figura cap19_nina teoae
 - @OD 2000 | Emisiones presentes y reproducibles en las cinco bandas (91 % y 88 % de reproducibilidad): ninguna pérdida coclear mayor.
 :::
 :::figura cap19_nina dpoae
 - @OD 4000 | Los productos de distorsión pasan en todas las frecuencias de los dos oídos.
+:::
 :::
 
 :::docente Guía del caso
@@ -328,22 +333,19 @@ Si fuera el caso de Felipe, ¿qué esperarías encontrar distinto? Anota cinco d
 
 #### Paso 4 · Los resultados
 
-:::figura cap19_p42 audiograma
-- @OD 1000 | Sin enmascarar, el OD responde a **40 dB**: la curva sombra, el oído sano oyendo por el otro lado. La respuesta no es del OD.
-- @OI 1000 | El OI es normal.
+:::imagen figuras/salida/cap19_p42_audiosupra_2.svg ancho=80% Lo que anota quien no enmascara: el OD responde a 40 dB, con SRT de 45 dB y discriminación de 100 % a 80 dB. Es la curva sombra.
 :::
-:::figura cap19_p42 audiograma 2
-- @OD osea 1000 | Al enmascarar el OI, el OD **no responde ni a la ósea** en el tope del vibrador: es una cófosis verdadera (→ H4).
+
+:::imagen figuras/salida/cap19_p42_audiosupra.svg ancho=80% Audiometría con el OI enmascarado: el OD no responde ni a 130 dB y no discrimina nada.
 :::
-:::figura cap19_p42 logoaudiometria
-- @OD max | El OD no repite ninguna palabra a ninguna intensidad: el SRT y el promedio tonal **coinciden** en que no hay audición.
-- @OI max | El OI llega al 100 % desde los 30 dB.
+
+Sin enmascarar, el OD responde a **40 dB** (SRT de 45 dB y 100 % de discriminación a 80 dB): es la curva sombra, el oído sano oyendo por el otro lado, y la respuesta no es del OD. El OI es normal (SDT de −5 dB, SRT de 0 dB). Al enmascarar el OI, el OD **no responde ni a la ósea** en el tope del vibrador, ni a 130 dB de voz, y la discriminación es 0 %: es una cófosis verdadera (→ H4), y el SRT y el promedio tonal **coinciden** en que no hay audición.
+
+:::imagen figuras/salida/cap19_p42_impedancia.svg ancho=80% Impedanciometría.
 :::
-:::figura cap19_p42 reflejos
-- @ipsi OD 1000 | Sin reflejo ipsilateral en el OD.
-- @contra OI 1000 | Tampoco con el tono en el OD y la sonda en el OI: **todo lo que se estimula por el OD falla**, el patrón aferente.
-- @contra OD 1000 | Con el tono en el OI y la sonda en el OD el reflejo aparece (90 dB SPL): el estapedio del OD funciona.
-:::
+
+Curva A en los dos oídos. No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: **todo lo que se estimula por el OD falla**, el patrón aferente. Con el tono en el OI y la sonda en el OD el reflejo aparece (90 dB SPL): el estapedio del OD funciona.
+
 :::figura cap19_p42 teoae
 - @OD 2000 | **Sin emisiones**: no pasa ninguna banda. La cóclea del OD no amplifica nada.
 - @OI 2000 | Emisiones presentes en las cinco bandas.

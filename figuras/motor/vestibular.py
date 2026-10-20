@@ -240,3 +240,64 @@ def vng(paneles):
     s.texto(ml + 384, yl, 'Un punto por batida. En la posición del ojo, el salto brusco es la fase rápida.',
             E.T_CHICO, E.TENUE, 'start')
     return s.svg()
+
+
+# --- vHIT ---------------------------------------------------------------------
+def _impulso(t, pico=220, dur=150):
+    """Velocidad de la cabeza en un impulso (°/s), campana de ~150 ms."""
+    if t < 0 or t > dur:
+        return 0.0
+    return pico * math.sin(math.pi * t / dur) ** 2
+
+
+def vhit(der, izq):
+    """vHIT del canal lateral: un gráfico por oído (él, 2026-10-20). En cada
+    uno la cabeza (gris) y el ojo (color del lado) van en sentidos opuestos,
+    porque el ojo compensa. Oído derecho: el ojo hacia arriba y la cabeza
+    hacia abajo; oído izquierdo: la cabeza hacia arriba y el ojo hacia abajo. La ganancia es lo que
+    alcanza el ojo respecto de la cabeza; las sacadas van hacia donde va el ojo.
+    der / izq = {'ganancia': 0.95, 'sacadas': None|'covert'|'overt'|'ambas'}."""
+    import random
+    pw, ph, ml, mt, gap = 230, 170, 40, 30, 34
+    s = Svg(ml + 2 * pw + gap + 10, mt + ph + 34)
+    for k, (lado, d, col, signo) in enumerate((('derecha', der, E.OD, 1), ('izquierda', izq, E.OI, -1))):
+        x0 = ml + k * (pw + gap)
+
+        def X(t):
+            return x0 + t / 400 * pw
+
+        def Y(v):
+            return mt + ph / 2 - v / 300 * (ph / 2)
+        s.texto(x0 + pw / 2, 14, f"Oído {'derecho' if signo > 0 else 'izquierdo'}: impulsos hacia la {lado}",
+                E.T_TITULO, E.TINTA, 'middle', 600)
+        for v in range(-300, 301, 100):
+            s.linea(x0, Y(v), x0 + pw, Y(v), E.GRILLA_FUERTE if v == 0 else E.GRILLA, 1)
+            if k == 0:
+                s.texto(x0 - 6, Y(v) + 3, v, E.T_EJE, E.TENUE, 'end')
+        for t in range(0, 401, 100):
+            s.texto(X(t), mt + ph + 13, t, E.T_EJE, E.TENUE)
+        g = float(d.get('ganancia', 1.0))
+        sac = d.get('sacadas')
+        r = random.Random(11 + k)
+        for n in range(8):                                   # varios impulsos superpuestos
+            pico = 190 + r.random() * 60
+            off = r.uniform(-6, 6)
+            s.trazo([(X(t), Y(-signo * _impulso(t - 20 - off, pico))) for t in range(0, 401, 4)], E.TENUE, 0.8, opacidad=0.6)
+            ojo = []
+            for t in range(0, 401, 4):
+                v = g * _impulso(t - 24 - off, pico)
+                if sac in ('covert', 'ambas'):                # dentro del impulso
+                    v += 160 * math.exp(-((t - 120 - off) / 14) ** 2) * (0.8 + 0.4 * r.random())
+                if sac in ('overt', 'ambas'):                 # después del impulso
+                    v += 170 * math.exp(-((t - 230 - off) / 16) ** 2) * (0.8 + 0.4 * r.random())
+                ojo.append((X(t), Y(signo * v)))             # el ojo, al revés que la cabeza
+            s.trazo(ojo, col, 1.0, opacidad=0.8)
+        # rótulos en la mitad donde va el ojo
+        yr = mt + 14 if signo > 0 else mt + ph - 26
+        s.texto(x0 + pw - 6, yr, f'ganancia {g:.2f}'.replace('.', ','), E.T_ROTULO + 1, col, 'end', 700)
+        if sac:
+            s.texto(x0 + pw - 6, yr + 13, {'covert': 'sacadas covert', 'overt': 'sacadas overt',
+                                           'ambas': 'sacadas covert y overt'}[sac], E.T_ROTULO, col, 'end', 600)
+    s.texto(ml + pw + gap / 2, mt + ph + 28, 'Tiempo (ms). Gris: cabeza; color: ojo.', E.T_CHICO, E.TENUE)
+    s.texto(12, mt + ph / 2, '°/s', E.T_EJE, E.TENUE)
+    return s.svg()

@@ -192,7 +192,7 @@ Antes de la estapedotomía, el médico pidió impedanciometría con reflejos y V
 
 El nistagmo de las tres pruebas va en el plano del conducto superior, vertical y torsional (Minor y cols., 1998). Es lo que esperaba la entrevista.
 
-:::imagen figuras/salida/cap26_dehiscencia_nistagmo.svg ancho=75% Nistagmo espontáneo de Marta en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap26_dehiscencia_nistagmo.svg ancho=55% Nistagmo espontáneo de Marta en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
@@ -233,7 +233,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,98 | 0,95 | 0,96 |
 :::
 
-:::imagen figuras/salida/cap26_dehiscencia_mariposa.svg ancho=62% Gráfico de mariposa de Marta: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap26_dehiscencia_mariposa.svg Gráfico de mariposa de Marta: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap26_dehiscencia_vhit.svg vHIT de Marta: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (20 + 18 − 20 − 19) / 77 = **1 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal.
@@ -248,13 +252,10 @@ El cVEMP del OD es de **605 µV** y el del OI, de 350 µV (asimetría de 27 %); 
 
 En el OD, SDT de 5 dB y SRT de 15 dB; en el OI, de −5 y 0 dB.
 
-:::imagen figuras/salida/cap26_dehiscencia_timpanograma.svg ancho=80% Timpanograma de Marta: curva A en los dos oídos, con compliancia de 0,86 mL en el OD y de 1,38 mL en el OI.
+:::imagen figuras/salida/cap26_dehiscencia_impedancia.svg ancho=80% Impedanciometría de Marta.
 :::
 
-:::imagen figuras/salida/cap26_dehiscencia_reflejos.svg ancho=80% Reflejos estapediales de Marta: presentes en los dos oídos, también en el OD con su gap.
-:::
-
-El reflejo ipsilateral del OD está **presente** (90, 85, 90 y 90 dB SPL de 500 a 4.000 Hz), a pesar del gap: la cadena se mueve.
+Curva A en los dos oídos, con compliancia de 0,86 mL en el OD y de 1,38 mL en el OI. El reflejo ipsilateral del OD está **presente** (90, 85, 90 y 90 dB SPL de 500 a 4.000 Hz), a pesar del gap: la cadena se mueve. Los contralaterales también aparecen, de 90 a 95 dB SPL.
 
 :::imagen figuras/salida/cap26_dehiscencia_ecochg.svg ancho=80% ECochG a 90 dB con click alternado, electrodo timpánico. El OD tiene la razón PS/PA de 0,64 y la razón de áreas de 2,90; el OI, de 0,33 y 1,65.
 :::
@@ -296,7 +297,7 @@ Con un gap de 30 a 60 dB en un oído, ¿harías un VEMP aéreo? ¿Qué te diría
 | **Sonido y presión** | Tullio, Valsalva y presión en el trago | Sin nistagmo ni vértigo, a los dos lados |
 :::
 
-:::imagen figuras/salida/cap26_otoesclerosis_nistagmo.svg ancho=75% Nistagmo espontáneo de Lourdes en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap26_otoesclerosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Lourdes en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
@@ -337,7 +338,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,98 | 0,95 | 0,96 |
 :::
 
-:::imagen figuras/salida/cap26_otoesclerosis_mariposa.svg ancho=62% Gráfico de mariposa de Lourdes: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap26_otoesclerosis_mariposa.svg Gráfico de mariposa de Lourdes: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap26_otoesclerosis_vhit.svg vHIT de Lourdes: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal.
@@ -347,13 +352,12 @@ Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección pr
 
 En el OD, SDT de 50 dB y SRT de 55 dB, con discriminación de 100 % desde los 80 dB; en el OI, de −5 y 0 dB.
 
-:::imagen figuras/salida/cap26_otoesclerosis_timpanograma.svg ancho=80% Timpanograma de Lourdes: tipo As en el OD, de pico bajo y chato (compliancia de 0,19 mL); el OI es normal (0,85 mL). La paciente anterior habría dado una curva A normal.
+:::imagen figuras/salida/cap26_otoesclerosis_impedancia.svg ancho=80% Impedanciometría de Lourdes.
 :::
 
-:::imagen figuras/salida/cap26_otoesclerosis_reflejos.svg ancho=80% Reflejos estapediales de Lourdes: faltan en el OD, ipsilaterales y contralaterales; el OI tiene los suyos.
-:::
+Tipo As en el OD, de pico bajo y chato (compliancia de 0,19 mL); el OI es normal (0,85 mL). La paciente anterior habría dado una curva A normal.
 
-Sin reflejo ipsilateral en el OD, en ninguna frecuencia. También faltan los contralaterales de los dos lados que involucran al OD: el tono no llega bien con el estribo fijo, y con la sonda en ese oído la contracción no se registra. El OI tiene sus reflejos en su sitio: 90, 85, 90 y 90 dB SPL.
+No hay reflejo ipsilateral en el OD, en ninguna frecuencia. Tampoco los contralaterales que involucran al OD: con el estribo fijo el tono no llega bien, y con la sonda en ese oído no se registra la contracción. El OI tiene su reflejo ipsilateral en su sitio: 90, 85, 90 y 90 dB SPL.
 
 :::imagen figuras/salida/cap26_otoesclerosis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.
 :::
@@ -395,7 +399,7 @@ Un niño de 11 años con una pérdida bilateral que se nota más en la escuela. 
 | **Sonido y presión** | Tullio, Valsalva y presión en el trago | Sin nistagmo ni vértigo, a los dos lados |
 :::
 
-:::imagen figuras/salida/cap26_pendred_nistagmo.svg ancho=75% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap26_pendred_nistagmo.svg ancho=55% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
@@ -436,7 +440,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,98 | 0,95 | 0,96 |
 :::
 
-:::imagen figuras/salida/cap26_pendred_mariposa.svg ancho=62% Gráfico de mariposa de Joaquín: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap26_pendred_mariposa.svg Gráfico de mariposa de Joaquín: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap26_pendred_vhit.svg vHIT de Joaquín: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (22 + 20 − 21 − 23) / 86 = **2 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos, y el vHIT es normal.
@@ -451,13 +459,12 @@ cVEMP de 639 µV en el OD y de 643 µV en el OI (**0 %**); oVEMP de 45 µV y de 
 
 En el OD, SDT de 50 dB, SRT de 55 dB y discriminación máxima de 68 % a 90 dB; en el OI, SDT de 40 dB, SRT de 45 dB y discriminación máxima de 76 % a 80 dB.
 
-Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 25 a 40 dB. En 500 Hz el reflejo del OI no aparece: el gap de los graves (la ventana del acueducto) le quita el estímulo.
+Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 19,5 a 40 dB. En 500 Hz el reflejo del OI no aparece: el gap de los graves (la ventana del acueducto) le quita el estímulo.
 
-:::imagen figuras/salida/cap26_pendred_timpanograma.svg ancho=80% Timpanograma de Joaquín: curva A en los dos oídos. El oído medio se mueve, y el tubo no tenía nada que arreglar.
+:::imagen figuras/salida/cap26_pendred_impedancia.svg ancho=80% Impedanciometría de Joaquín.
 :::
 
-:::imagen figuras/salida/cap26_pendred_reflejos.svg ancho=80% Reflejos estapediales de Joaquín: presentes de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.
-:::
+Curva A en los dos oídos, con compliancia de 0,68 mL en el OD y de 0,97 mL en el OI: el oído medio se mueve, y el tubo no tenía nada que arreglar. Los reflejos están presentes de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.
 
 En este cuadro la acumetría da Rinne positivo en 500 y 1.000 Hz: el diapasón no encuentra el gap, que está en 125 y 250 Hz. Por eso el diapasón no reemplaza a la audiometría con vía ósea.
 

@@ -27,7 +27,7 @@ GANANCIA_ADRIAN = {250: 25, 500: 35, 1000: 40, 2000: 45, 3000: 45, 4000: 50, 600
 CASOS = [
     # Adrián, 3 años: GJB2 35delG conocido, con audífonos; control por juego
     # condicionado que muestra progresión; la mamá embarazada pregunta
-    cuadro('gjb2', [fig.audiograma(ldl=False), fig.timpanograma(), fig.teoae(),
+    cuadro('gjb2', [fig.audiosupra(), fig.impedancia(), fig.teoae(),
                     fig.campo_libre(ganancia=GANANCIA_ADRIAN)],
            od='gjb2', oi='gjb2', grado_od='severa', grado_oi='severa', edad=3, sexo='hombre',
            anamnesis="""Adrián tiene 3 años y viene con su mamá a su control de audición. Al nacer no pasó el
@@ -53,7 +53,7 @@ CASOS = [
            antecedentes=['hipoacusia_familiar']),
     # Lorena, 8 meses: Waardenburg (mechón blanco y heterocromía, como el
     # papá); refirió el tamizaje y llega tarde; la VRA no condiciona con sonido
-    cuadro('waardenburg', [fig.timpanograma(), fig.reflejos(), fig.teoae(), fig.abr(niveles=(90,))],
+    cuadro('waardenburg', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.abr(niveles=(90,))],
            od='waardenburg', oi='waardenburg', grado_od='profunda', grado_oi='profunda', edad_meses=8,
            sexo='mujer',
            anamnesis="""Lorena tiene 8 meses y la trae su mamá. Nació de término, por parto normal, sin
@@ -73,7 +73,7 @@ CASOS = [
            antecedentes=['hipoacusia_familiar']),
     # Andrés, 6 años: acueducto vestibular dilatado; pasó el tamizaje, cae a
     # saltos (resfrío, golpe en la cabeza); gap en graves con timpanograma A
-    cuadro('pendred', [fig.audiograma(ldl=False), fig.timpanograma(), fig.reflejos()],
+    cuadro('pendred', [fig.audiosupra(), fig.impedancia(), fig.impedancia()],
            od='pendred', oi='pendred', grado_od='moderada', grado_oi='moderada', edad=6, sexo='hombre',
            anamnesis="""Andrés tiene 6 años y está en primero básico. Lo trae su mamá porque hace diez días se cayó
            de espaldas en el patio del colegio, se golpeó la cabeza, vomitó una vez y estuvo mareado esa tarde;
@@ -96,7 +96,7 @@ CASOS = [
            antecedentes=['tce']),
     # Javier, 15 años: Alport ligado al X; curva en cubeta; el tío materno se
     # dializa y usa audífonos
-    cuadro('alport', [fig.audiograma(), fig.logo(), fig.dpoae()],
+    cuadro('alport', [fig.audiosupra(), fig.dpoae()],
            od='alport', oi='alport', grado_od='moderada', grado_oi='moderada', edad=15, sexo='hombre', semilla=7,
            anamnesis="""Javier tiene 15 años y está en segundo medio. Viene con su mamá porque desde hace un año le
            cuesta seguir las clases: entiende al profesor cuando está adelante, pero no a los compañeros que
@@ -115,7 +115,7 @@ CASOS = [
            medicamentos='Enalapril, indicado por nefrología'),
     # Carmen, 17 años: Usher tipo 2; audífonos desde los 5, ahora no ve de
     # noche; marcha y equilibrio normales desde chica (VEMP presentes)
-    cuadro('usher', [fig.audiograma(), fig.logo(), fig.vemp()],
+    cuadro('usher', [fig.audiosupra(), fig.vemp()],
            od='usher', oi='usher', grado_od='moderada', grado_oi='moderada', edad=17, sexo='mujer',
            anamnesis="""Carmen tiene 17 años y está en cuarto medio. Usa audífonos en los dos oídos desde los 5 años,
            cuando en el jardín notaron que no oía bien; donde nació no se hacía tamizaje auditivo. Le va bien en

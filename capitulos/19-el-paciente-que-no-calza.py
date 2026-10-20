@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Objetivas: lo que no depende de que el paciente levante la mano
-OBJETIVAS = [fig.timpanograma(), fig.reflejos(), fig.teoae(), fig.dpoae(),
+OBJETIVAS = [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
              fig.abr(niveles=(80, 60, 40, 20))]
 
 CASOS = [
@@ -31,7 +31,7 @@ CASOS = [
            historia=[(21, 'Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.'),
                      (7, 'Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.')],
            antecedentes=['tce']),
-    cuadro('sobre_real', [fig.audiograma(), fig.timpanograma(), fig.reflejos(), fig.teoae(),
+    cuadro('sobre_real', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(),
                           fig.abr(niveles=(80, 60, 40, 20))],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=52, sexo='hombre',
            anamnesis="""Tiene 52 años y desde hace 25 maneja una grúa horquilla en una planta de aserrío, sin
@@ -42,7 +42,7 @@ CASOS = [
            historia=[(2200, 'Audiometría de ingreso a la empresa: caída en agudos bilateral compatible con ruido.'),
                      (60, 'Médico laboral: refiere empeoramiento rápido de la audición bilateral; se solicita audiometría y estudio objetivo.')],
            antecedentes=['trauma_acustico']),
-    cuadro('nina', [fig.timpanograma(), fig.reflejos(), fig.teoae(), fig.dpoae()], od='normal', oi='normal',
+    cuadro('nina', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae()], od='normal', oi='normal',
            edad=11, sexo='mujer',
            anamnesis="""Tiene 11 años y va en sexto básico. La profesora jefe avisó a los padres que "no oye" en la
            sala: no responde cuando le hablan desde atrás y pide repetir todo. En el tamizaje del colegio no
@@ -52,7 +52,7 @@ CASOS = [
            pitido.""",
            historia=[(25, 'Tamizaje escolar de audición: sin respuesta bilateral.'),
                      (10, 'Pediatra: otoscopía normal, sin fiebre ni otitis; se deriva a evaluación auditiva.')]),
-    demo(42, [fig.audiograma(sin_enmascarar=True), fig.audiograma(), fig.logo(), fig.reflejos(), fig.teoae(),
+    demo(42, [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.teoae(),
               fig.abr(niveles=(90, 80))]),
 ]
 

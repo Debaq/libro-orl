@@ -246,16 +246,16 @@ Antes de cualquier prueba central, ¿qué debe estar cerrado? Y si lo está, ¿q
 
 #### Paso 4 · Los resultados
 
-:::figura cap30_nino_tpa audiograma
-- @OD 1000 | Umbrales en **0 dB** en todas las frecuencias, en los dos oídos. La queja no se explica por el umbral.
-- @OI 4000 | El OI es igual de bueno en agudos: sin pérdida de agudos que quite consonantes.
+:::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=80% Audiometría de Alejandro: umbrales en 0 dB y discriminación de 100 %.
 :::
-:::figura cap30_nino_tpa logoaudiometria
-- @OD max | La discriminación llega a **100 %** desde los 30 dB HL. En silencio, entiende.
+
+Umbrales en **0 dB** en todas las frecuencias, en los dos oídos, sin pérdida de agudos que quite consonantes: la queja no se explica por el umbral. SDT de −5 dB y SRT de 0 dB, y la discriminación llega a **100 %** desde los 30 dB HL. En silencio, entiende.
+
+:::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=80% Impedanciometría de Alejandro.
 :::
-:::figura cap30_nino_tpa timpanograma
-- @OD pico | Curva A en los dos oídos: el oído medio está sano.
-:::
+
+Curva A en los dos oídos: el oído medio está sano, y los reflejos están presentes de 85 a 95 dB SPL.
+
 :::figura cap30_nino_tpa dpoae
 - @OD 2000 | Productos de distorsión presentes en todas las bandas: las células ciliadas externas funcionan.
 :::
@@ -303,20 +303,18 @@ Con la queja de ruido y un audiograma que no parece suficiente para explicarla, 
 
 #### Paso 4 · Los resultados
 
-:::figura cap30_mayor_ruido audiograma
-- @OD 1000 | En las frecuencias de la voz la pérdida es **leve**: 20 dB en 1 kHz.
-- @OD 4000 | **Caída en agudos**: 40 dB en 4 kHz y 55 dB en 8 kHz. Ahí están las consonantes.
-- @OI 4000 | El OI es parecido, 45 dB en 4 kHz: bilateral y simétrica.
+:::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=80% Audiometría de Daniela: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.
 :::
-:::figura cap30_mayor_ruido logoaudiometria
-- @OD max | En silencio, a nivel cómodo, entiende **92 %** (OD) y 96 % (OI). El silencio no revela el problema.
-:::
+
+En las frecuencias de la voz la pérdida es **leve**: 20 dB en 1 kHz. Hay una **caída en agudos**: 40 dB en 4 kHz y 55 dB en 8 kHz, donde están las consonantes. El OI es parecido, 45 dB en 4 kHz: bilateral y simétrica. SDT de 10 dB y SRT de 15 dB. En silencio, a nivel cómodo, entiende **92 %** (OD) y 96 % (OI): el silencio no revela el problema. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 dB en 4 kHz: recluta, es coclear.
+
 :::figura cap30_mayor_ruido dpoae
 - @OD 4000 | Las emisiones bajan donde baja el audiograma: la cóclea explica la caída de agudos y no hace falta otra causa para ella.
 :::
-:::figura cap30_mayor_ruido reflejos
-- @ipsi OD 1000 | Reflejos presentes en niveles esperables: sin signos de lesión retrococlear.
+:::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=80% Impedanciometría de Daniela.
 :::
+
+Los reflejos están presentes en los dos oídos, en niveles esperables: sin signos de lesión retrococlear.
 
 Se completa con pruebas de la lengua y de la edad de la paciente.
 
@@ -360,20 +358,17 @@ Plantea al menos tres causas posibles para una niña de 7 años que parece distr
 
 #### Paso 4 · Los resultados
 
-:::figura cap30_nino_otitis audiograma
-- @OD 500 | Aérea en **40 dB** en 500 Hz con la ósea en 15 dB: un **gap de 25 dB** en graves. Pérdida conductiva.
-- @OD 4000 | En agudos está normal (10 dB). La niña oye los agudos y pierde los graves.
-- @OI 500 | El OI tiene el mismo patrón y algo más: 55 dB por aérea y 25 por ósea, un **gap de 30 dB**.
+:::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=80% Audiometría de Pilar: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.
 :::
-:::figura cap30_nino_otitis logoaudiometria
-- @OD max | La discriminación llega a **100 %**, pero recién hacia los 50 dB en el OD y los 60 dB en el OI: necesita más volumen para entender, no tiene un problema de claridad.
+
+La aérea está en **40 dB** en 500 Hz con la ósea en 15 dB: un **gap de 25 dB** en graves, pérdida conductiva. En agudos está normal (10 dB): la niña oye los agudos y pierde los graves. El OI tiene el mismo patrón y algo más: 55 dB por aérea y 25 por ósea, un **gap de 30 dB**. SDT de 15 y 20 dB y SRT de 20 y 25 dB. La discriminación llega a **100 %**, pero recién a los 60 dB en el OD y los 70 en el OI: necesita más volumen para entender, no tiene un problema de claridad.
+
+:::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=80% Impedanciometría de Pilar.
 :::
-:::figura cap30_nino_otitis timpanograma
-- @OD pico | Curva **C** en los dos oídos: presión negativa en el oído medio (−188 daPa en el OD, muy aplanada, y −161 en el OI).
-:::
-:::figura cap30_nino_otitis reflejos
-- @ipsi OD 1000 | Sin reflejos en ninguna combinación: coherente con una conducción alterada.
-:::
+
+Curva **C** en los dos oídos, con presión negativa en el oído medio: −188 daPa en el OD, muy aplanada, y −161 en el OI.
+
+No hay reflejos en ninguna combinación, ipsi ni contra: es lo esperable con una conducción alterada.
 
 Si se hubiera hecho la batería central igual, ese día los resultados habrían sido estos.
 

@@ -18,7 +18,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en los casos: el PEAT a la tasa de rutina y, aparte, a tasa alta
 TASA_ALTA = fig.abr(niveles=(80,), tasa=81.1)
-BASE = [fig.audiograma(), fig.reflejos(), fig.abr(niveles=(80, 60, 40)), TASA_ALTA]
+BASE = [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 60, 40)), TASA_ALTA]
 
 CASOS = [
     cuadro('esclerosis_multiple', BASE, od='esclerosis_multiple', oi='esclerosis_multiple', edad=34, sexo='mujer',
@@ -31,7 +31,7 @@ CASOS = [
            de espera de varios meses.""",
            historia=[(240, 'Urgencia: visión doble y adormecimiento de la pierna izquierda; se indica observación y control.'),
                      (45, 'Neurología: examen con signos piramidales leves; solicita resonancia y potenciales evocados visuales, auditivos de tronco y somatosensoriales.')]),
-    cuadro('infarto_aica', BASE + [fig.logo(), fig.vemp()], od='infarto_aica', grado_od='moderada', edad=63,
+    cuadro('infarto_aica', BASE + [fig.vemp()], od='infarto_aica', grado_od='moderada', edad=63,
            antecedentes=['hta', 'diabetes'], medicamentos='Enalapril 10 mg cada 12 horas; metformina 850 mg cada 12 horas',
            anamnesis="""Tiene 63 años y es taxista. Hace seis días, al levantarse, sintió que la pieza giraba, vomitó
            varias veces y notó que el oído derecho "se había apagado". Se agarraba de las paredes para caminar y la
@@ -46,7 +46,7 @@ CASOS = [
            un ojo hacia adentro". En la sala la profesora dice que "no escucha cuando la llaman". La pediatra pidió
            una resonancia, que está en lista de espera porque necesita sedación, y adelantó la evaluación auditiva.""",
            historia=[(40, 'Pediatría: torpeza progresiva, cefalea matinal y desviación ocular intermitente; solicita resonancia con sedación y evaluación auditiva.')]),
-    cuadro('siderosis', BASE + [fig.logo(), fig.vemp()], od='siderosis', oi='siderosis', grado_od='leve', grado_oi='leve', edad=58,
+    cuadro('siderosis', BASE + [fig.vemp()], od='siderosis', oi='siderosis', grado_od='leve', grado_oi='leve', edad=58,
            antecedentes=['tce'], cirugias='Drenaje de hematoma subdural hace 24 años',
            anamnesis="""Tiene 58 años y es contador. Hace unos tres años nota que oye menos por los dos oídos y que en
            las reuniones "oye pero no entiende". Tiene un zumbido agudo permanente en ambos oídos. Su señora dice que

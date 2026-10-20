@@ -204,7 +204,7 @@ El paciente oye "igual que siempre". ¿Pedirías el audiograma? ¿Qué pruebas d
 
 La inestabilidad aparece cuando le quitan la vista y no tiene lado: no cae hacia ninguno. Los dos laberintos aportan menos, no uno solo. El cerebelo y los pares están sin hallazgos.
 
-:::imagen figuras/salida/cap24_gentamicina_nistagmo.svg ancho=75% Nistagmo espontáneo de Enrique en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap24_gentamicina_nistagmo.svg ancho=55% Nistagmo espontáneo de Enrique en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo: con los dos lados caídos no hay asimetría que lo genere.
@@ -250,7 +250,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | Agudeza visual dinámica, giro horizontal a 3 Hz | pierde **5 líneas** | |
 :::
 
-:::imagen figuras/salida/cap24_gentamicina_mariposa.svg ancho=62% Gráfico de mariposa de Enrique. Las cuatro irrigaciones apenas se separan de la línea: ninguno de los dos oídos responde.
+:::lado
+:::imagen figuras/salida/cap24_gentamicina_mariposa.svg Gráfico de mariposa de Enrique. Las cuatro irrigaciones apenas se separan de la línea: ninguno de los dos oídos responde.
+:::
+:::imagen figuras/salida/cap24_gentamicina_vhit.svg vHIT de Enrique: ganancia de 0,15 hacia la derecha, con sacadas overt y de 0,20 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad derecha: (1 + 2 − 1 − 3) / 7 = **14 %** (valor no significativo). Dirección preponderante hacia la derecha: **14 %** (valor no significativo). Pero la suma tibia + fría de cada oído es de **3 °/s en el OD y 4 °/s en el OI**, bajo 6: el porcentaje no dice nada de lo que importa.
@@ -304,7 +308,7 @@ Además del estudio auditivo, ¿qué pruebas vestibulares agregarías aunque el 
 
 Lo que ella llama "debilidad de piernas" es inestabilidad: la oscilación aparece al cerrar los ojos, sin lado. El cerebelo y los pares están sin hallazgos.
 
-:::imagen figuras/salida/cap24_tuberculosis_nistagmo.svg ancho=75% Nistagmo espontáneo de Verónica en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap24_tuberculosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Verónica en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -350,7 +354,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | Agudeza visual dinámica, giro horizontal a 3 Hz | pierde **4 líneas** | |
 :::
 
-:::imagen figuras/salida/cap24_tuberculosis_mariposa.svg ancho=62% Gráfico de mariposa de Verónica. Las curvas del OI (azules) son las más bajas, pero las del OD (rojas) tampoco se despegan mucho de la línea.
+:::lado
+:::imagen figuras/salida/cap24_tuberculosis_mariposa.svg Gráfico de mariposa de Verónica. Las curvas del OI (azules) son las más bajas, pero las del OD (rojas) tampoco se despegan mucho de la línea.
+:::
+:::imagen figuras/salida/cap24_tuberculosis_vhit.svg vHIT de Verónica: ganancia de 0,45 hacia la derecha, con sacadas overt y de 0,46 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (3 + 5 − 2 − 3) / 13 = **23 %** (valor no significativo). Dirección preponderante hacia la izquierda: **8 %** (valor no significativo). Las sumas tibia + fría son de **8 °/s en el OD y 5 °/s en el OI**: solo el OI está bajo 6.
@@ -365,7 +373,7 @@ cVEMP de 348 µV en los dos oídos (7,03 y 6,92 corregida por el EMG): asimetrí
 
 SDT de −5 dB y SRT de 0 dB en los dos oídos. La curva cae desde 2 kHz (30 dB el OD, 40 el OI), con **80 dB** en 4 kHz el OD y **85** el OI, y **105 dB** en 8 kHz de los dos lados: la caída bilateral y simétrica de los agudos que deja un aminoglucósido (→ cap. 8). La discriminación llega a **92 %** en el OD y a **88 %** en el OI, a 40 dB: es la que la pérdida permite, y su queja con ruido de fondo es de la cóclea.
 
-Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja a **20 y 25 dB** en 4 kHz, donde el aminoglucósido dañó más.
+Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja a **19,5 y 14,5 dB** en 4 kHz, donde el aminoglucósido dañó más.
 
 :::docente Guía del caso
 - **Datos clave:** tuberculosis multirresistente tratada 18 meses con kanamicina inyectable los primeros seis, **acúfeno bilateral agudo**, dificultad con ruido, y, sin que lo relacione, "debilidad de piernas", miedo a soltar el pasamanos, caídas a oscuras y **carteles movidos al caminar** que los lentes no arreglaron.
@@ -408,7 +416,7 @@ Con ese informe previo y la audición normal, ¿repetirías las pruebas? ¿Cuál
 
 La inestabilidad aparece sobre piso blando y sin vista, y no tiene lado. El cerebelo y los pares están sin hallazgos.
 
-:::imagen figuras/salida/cap24_sin_causa_nistagmo.svg ancho=75% Nistagmo espontáneo de Pilar en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap24_sin_causa_nistagmo.svg ancho=55% Nistagmo espontáneo de Pilar en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -454,7 +462,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | Agudeza visual dinámica, giro horizontal a 3 Hz | pierde **4 líneas** | |
 :::
 
-:::imagen figuras/salida/cap24_sin_causa_mariposa.svg ancho=62% Gráfico de mariposa de Pilar. Las cuatro irrigaciones quedan casi sobre la línea.
+:::lado
+:::imagen figuras/salida/cap24_sin_causa_mariposa.svg Gráfico de mariposa de Pilar. Las cuatro irrigaciones quedan casi sobre la línea.
+:::
+:::imagen figuras/salida/cap24_sin_causa_vhit.svg vHIT de Pilar: ganancia de 0,30 hacia la derecha, con sacadas overt y de 0,35 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad derecha: (1 + 3 − 2 − 3) / 9 = **11 %** (valor no significativo). Dirección preponderante hacia la izquierda: **11 %** (valor no significativo). Las sumas tibia + fría son de **4 °/s en el OD y 5 °/s en el OI**, bajo 6 en los dos oídos.
@@ -509,7 +521,7 @@ Pide la hoja de resultados de la neurología. ¿Qué parte del estudio vestibula
 
 Ya con los ojos abiertos la marcha es de base ancha y atáxica, y empeora al cerrarlos: aquí hay más que un reflejo perdido. La inestabilidad con la vista abierta y el habla arrastrada apuntan al cerebelo.
 
-:::imagen figuras/salida/cap24_canvas_nistagmo.svg ancho=75% Nistagmo espontáneo de Jorge en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap24_canvas_nistagmo.svg ancho=55% Nistagmo espontáneo de Jorge en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. El seguimiento es fragmentado, con sacadas; los sacádicos son normales. Con *head-shaking* no aparece nistagmo.
@@ -556,7 +568,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | VOR potenciado visualmente (lo mide el neurólogo) | ausente | |
 :::
 
-:::imagen figuras/salida/cap24_canvas_mariposa.svg ancho=62% Gráfico de mariposa de Jorge. Las cuatro irrigaciones quedan sobre la línea.
+:::lado
+:::imagen figuras/salida/cap24_canvas_mariposa.svg Gráfico de mariposa de Jorge. Las cuatro irrigaciones quedan sobre la línea.
+:::
+:::imagen figuras/salida/cap24_canvas_vhit.svg vHIT de Jorge: ganancia de 0,22 hacia la derecha, con sacadas overt y de 0,25 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad derecha: (1 + 1 − 1 − 2) / 5 = **20 %** (valor no significativo). Dirección preponderante hacia la derecha: **20 %** (valor no significativo). Las sumas tibia + fría son de **2 °/s en el OD y 3 °/s en el OI**, bajo 6 en los dos oídos.
@@ -571,7 +587,7 @@ cVEMP de 214 µV en el OD (4,27 corregida por el EMG) y de 210 µV en el OI (4,1
 
 SDT de 5 dB y SRT de 10 dB en los dos oídos, con 15 dB en 1 kHz. La caída de agudos es **simétrica**: 50 dB en 4 kHz de los dos lados y 75 y 70 dB en 8 kHz. Es la curva de la edad, **no** la de un fármaco ni la de una lesión retrococlear. La discriminación llega a **92 %** en el OD y a **96 %** en el OI, a 50 dB, acorde a la curva: el oído se explica por sí solo.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 45 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 74,5 dB en 500 Hz a 39,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** marcha atáxica de cuatro años, peor a oscuras, **neuropatía sensitiva con electromiografía alterada**, **atrofia del vermis** en la resonancia, habla "arrastrada" según la hija, oscilopsia, y una hipoacusia que **explica la edad**.

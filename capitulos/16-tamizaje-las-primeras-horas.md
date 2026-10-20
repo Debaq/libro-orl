@@ -280,9 +280,11 @@ Con tres semanas de vida y un "refiere" repetido, ¿ya se puede hablar de hipoac
 - @OD 2000 | **Ninguna banda** pasa en el oído derecho (0 de 5): reproducibilidad 0 %.
 - @OI 2000 | Tampoco en el izquierdo. El tamizaje a esta edad refiere en los dos oídos.
 :::
-:::figura cap16_efusion timpanograma
-- @OD pico | Con la sonda de **1000 Hz**, la curva es **plana en los dos oídos**: sin pico, 0,00 mL de compliancia. Es oído medio ocupado. Con 226 Hz la pared blanda de su conducto dibujaría un pico falso y esta niña parecería normal.
+:::imagen figuras/salida/cap16_efusion_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con la sonda de **1000 Hz**, la curva es **plana en los dos oídos**: sin pico, 0,00 mL de compliancia. Es oído medio ocupado, y los reflejos faltan, ipsi y contra, con la sonda en cada oído. Con 226 Hz la pared blanda de su conducto dibujaría un pico falso y esta niña parecería normal.
+
 :::figura cap16_efusion abr
 - @OD 80 V | A 80 dB nHL el oído derecho tiene ondas I, III y V bien formadas: el nervio y el tronco conducen. La V cae alrededor de los 8 ms.
 - @OD 35 | A 35 dB nHL no hay respuesta: el AABR diría REFIERE.

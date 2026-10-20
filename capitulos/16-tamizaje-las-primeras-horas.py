@@ -43,7 +43,7 @@ CASOS = [
            documentada con una seroconversión en los exámenes del embarazo. A él se le tomó hoy una muestra de
            saliva para buscar el virus; el resultado todavía no llega. Está tranquilo y mamó hace una hora.""",
            historia=[(0, 'Muestra de saliva para PCR de citomegalovirus, resultado pendiente.')]),
-    cuadro('efusion', TAMIZ_Y_ABR + [fig.timpanograma(sonda=1000)], od='efusion_neonatal', oi='efusion_neonatal',
+    cuadro('efusion', TAMIZ_Y_ABR + [fig.impedancia(sonda=1000)], od='efusion_neonatal', oi='efusion_neonatal',
            edad_horas=480, sexo='mujer',
            anamnesis="""Lactante de 20 días que viene de su casa con su madre. Nació a las 38 semanas por cesárea, sin
            complicaciones, y se fue de alta a los dos días. En la maternidad el tamizaje con emisiones

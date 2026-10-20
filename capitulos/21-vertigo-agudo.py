@@ -22,7 +22,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # logoaudiometría y el VEMP de cada caso. Ana tiene un caso propio (casos/propios/): el oVEMP del OD
 # con el umbral en 90, la hipofunción utricular de su neuritis superior.
 CASOS = [
-    cuadro('neuritis', [fig.audiosupra(),
+    cuadro('neuritis', [fig.vhit(0.38, 0.96, 'ambas', None), fig.audiosupra(),
                         fig.nistagmo(con_fijacion={'izquierda': -3, 'centro': -1},
                                      sin_fijacion={'izquierda': -9, 'arriba': -6, 'centro': -6, 'abajo': -6, 'derecha': -3}),
                         fig.mariposa(6, 8, 26, 18), fig.vemps()],
@@ -35,7 +35,7 @@ CASOS = [
            piernas. Nunca había tenido un episodio así.""",
            historia=[(2, 'Servicio de urgencia: examen neurológico sin focalidad, antiemético. Se indica reposo y evaluación vestibular.'),
                      (9, 'Resfrío con tos y fiebre baja, sin tratamiento.')]),
-    cuadro('laberintitis', [fig.audiosupra(),
+    cuadro('laberintitis', [fig.vhit(0.3, 0.98, 'ambas', None), fig.audiosupra(), fig.impedancia(),
                             fig.nistagmo(con_fijacion={'izquierda': -4, 'centro': -2},
                                          sin_fijacion={'izquierda': -10, 'arriba': -7, 'centro': -7, 'abajo': -7, 'derecha': -4}),
                             fig.mariposa(3, 4, 24, 19), fig.vemps()], od='laberintitis',
@@ -60,7 +60,7 @@ CASOS = [
            historia=[(1, 'Mareo súbito con vómitos, sin pérdida de conciencia ni traumatismo.')],
            antecedentes=['hta', 'diabetes'],
            medicamentos='Losartán 50 mg cada 12 horas; metformina 850 mg cada 12 horas; atorvastatina 20 mg en la noche'),
-    cuadro('aica', [fig.audiosupra(),
+    cuadro('aica', [fig.audiosupra(), fig.impedancia(),
                     fig.nistagmo(con_fijacion={'centro': 2, 'derecha': 4},
                                  sin_fijacion={'izquierda': 3, 'arriba': 5, 'centro': 5, 'abajo': 5, 'derecha': 8}),
                     fig.vemps()], oi='infarto_aica', grado_oi='moderada', edad=58,

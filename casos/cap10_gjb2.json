@@ -22,13 +22,11 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": false,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 226
     },
     {

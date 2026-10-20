@@ -22,6 +22,17 @@
   },
   "figuras": [
     {
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.95,
+        "sacadas": null
+      },
+      "izq": {
+        "ganancia": 0.96,
+        "sacadas": null
+      }
+    },
+    {
       "tipo": "nistagmo",
       "con_fijacion": {},
       "sin_fijacion": {}
@@ -52,7 +63,8 @@
       ]
     },
     {
-      "tipo": "audiosupra"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     }
   ]
 }

@@ -17,8 +17,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Un oído rígido se mira con el gap, el diapasón, la curva y los reflejos
-RIGIDEZ = [fig.audiograma(), fig.acumetria(), fig.timpanograma(), fig.reflejos()]
-SIN_ACUMETRIA = [fig.audiograma(), fig.timpanograma(), fig.reflejos()]
+RIGIDEZ = [fig.audiosupra(), fig.impedancia(), fig.impedancia()]
+SIN_ACUMETRIA = [fig.audiosupra(), fig.impedancia(), fig.impedancia()]
 
 CASOS = [
     demo(34, RIGIDEZ),

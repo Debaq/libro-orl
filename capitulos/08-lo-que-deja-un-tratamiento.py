@@ -23,7 +23,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 CASOS = [
     # Semilla 3: la más suave de seis (todas caen fuerte desde 2 kHz porque el
     # cuadro es solo 'leve' con 500 y 1000 en 0) y con acúfeno (siseo).
-    cuadro('ototoxica', [fig.audiograma(), fig.teoae(), fig.dpoae()],
+    cuadro('ototoxica', [fig.audiosupra(), fig.teoae(), fig.dpoae()],
            od='ototoxica', oi='ototoxica', edad=31, semilla=3,
            anamnesis="""Tiene 31 años y es profesor de educación física. Hace cinco meses le encontraron un tumor
            en el testículo izquierdo; lo operaron y después recibió cuatro ciclos de quimioterapia, uno cada tres
@@ -47,7 +47,7 @@ CASOS = [
            cirugias='Orquiectomía izquierda hace cinco meses'),
     # Aspirina en dosis altas por dolor de rodillas: plana, leve, con silbido;
     # la última dosis fue ayer. El motor no modela la recuperación (TODO 41).
-    cuadro('salicilatos', [fig.audiograma(), fig.logo(), fig.teoae(), fig.dpoae()],
+    cuadro('salicilatos', [fig.audiosupra(), fig.teoae(), fig.dpoae()],
            od='salicilatos', oi='salicilatos', edad=57, sexo='mujer',
            anamnesis="""Tiene 57 años y es dueña de un almacén de barrio, donde pasa el día de pie. Tiene artrosis en
            las dos rodillas. Hace tres semanas el dolor empeoró y, como el antiinflamatorio que le habían dado le
@@ -65,7 +65,7 @@ CASOS = [
            medicamentos='Ácido acetilsalicílico 500 mg, dos comprimidos cada 6 horas por tres semanas, por su cuenta (suspendido ayer); losartán 50 mg al día'),
     # Semilla 5: mixta franca del OD (gap de 20-30 dB en graves sobre una caída
     # coclear de agudos) con curva B; las otras dejaban un gap de 5 dB con una B.
-    cuadro('post_radioterapia', [fig.audiograma(), fig.timpanograma(), fig.reflejos(), fig.dpoae()],
+    cuadro('post_radioterapia', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.dpoae()],
            od='post_radioterapia', edad=63, semilla=5,
            anamnesis="""Tiene 63 años y es jubilado; trabajó como chofer de micro. Hace dos años le operaron un cáncer
            de la parótida derecha y después recibió seis semanas de radioterapia en ese lado de la cara y el

@@ -183,20 +183,17 @@ Dos pacientes tienen un timpanograma Ad. Uno tiene un gap de 50 dB y el otro un 
 
 #### Paso 4 · Los resultados
 
-:::figura cap03_perforacion audiograma
-- @OD 250 | La aérea del OD está en 50 dB en 125 y 250 Hz, con la ósea en 0: un gap de 50 dB en los graves.
-- @OD 2000 | Hacia los agudos mejora: 25 dB en 2 kHz y 20 en 4 kHz. Es una conductiva **ascendente**, de grado **leve** (promedio BIAP de 31 dB).
-- @OI 1000 | El OI es normal.
+:::imagen figuras/salida/cap03_perforacion_audiosupra.svg ancho=80% Audiometría de Lucía: conductiva ascendente del OD, de grado leve; OI normal.
 :::
-:::figura cap03_perforacion timpanograma
-- @OD pico | Plana, sin pico: **B**. Pero el volumen es de 3,70 mL, más del doble que el del OI: la sonda está midiendo el conducto **y** la caja.
-- @OI pico | **A**, con el pico en −54 daPa, 0,87 mL de compliancia y 1,53 mL de volumen.
+
+La aérea del OD está en 50 dB en 125 y 250 Hz, con la ósea en 0: un gap de 50 dB en los graves. Hacia los agudos mejora: 25 dB en 2 kHz y 20 en 4 kHz. Es una conductiva **ascendente**, de grado **leve** (promedio BIAP de 31 dB). El OI es normal. SDT de 25 dB y SRT de 30 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 70 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
+
+:::imagen figuras/salida/cap03_perforacion_impedancia.svg ancho=80% Impedanciometría de Lucía.
 :::
-:::figura cap03_perforacion reflejos
-- @ipsi OD 1000 | Con la sonda en el OD no hay reflejo: la membrana perforada no deja registrarlo.
-- @contra OI 2000 | Con la sonda en el OI y el tono en el OD aparece solo en 2 kHz (120 dB SPL) y 4 kHz (115), donde el gap es menor.
-- @ipsi OI 1000 | El ipsilateral del OI es normal: 85 dB SPL en 1 kHz.
-:::
+
+El OD es plano, sin pico: **B**. Pero el volumen es de 3,70 mL, más del doble que el del OI: la sonda mide el conducto **y** la caja. El OI es **A**, con el pico en −54 daPa, 0,87 mL de compliancia y 1,53 mL de volumen. **Reflejos:** con la sonda en el OD no hay ninguno. Con la sonda en el OI, el ipsilateral está en 85 a 90 dB, con decay negativo, y el contralateral, que estimula el OD, solo aparece en 2 y 4 kHz (115 a 120 dB).
+
+Con la sonda en el OD no hay reflejo: la membrana perforada no deja registrarlo. Con la sonda en el OI y el tono en el OD aparece solo en 2 kHz (120 dB SPL) y 4 kHz (115), donde el gap es menor. El ipsilateral del OI es normal: 85 dB SPL en 1 kHz.
 
 La **función tubaria de membrana perforada** de Lucía es permeable: con cada deglución la presión del conducto se acerca a 0.
 
@@ -226,16 +223,15 @@ Las placas blancas de la membrana, ¿alcanzan para explicar una pérdida? ¿Qué
 
 #### Paso 4 · Los resultados
 
-:::figura cap03_timpanoesclerosis audiograma
-- @OI 250 | La aérea del OI está en 40 dB en 125 y 250 Hz, con la ósea en 0: el gap es mayor en los graves.
-- @OI 2000 | Desde 500 Hz la aérea queda entre 25 y 30 dB. Conductiva **leve** (promedio BIAP de 29 dB), sin muesca en la ósea.
-- @OD 1000 | El OD es normal.
+:::imagen figuras/salida/cap03_timpanoesclerosis_audiosupra.svg ancho=80% Audiometría de Daniela: conductiva leve del OI, mayor en los graves y sin muesca en la ósea; OD normal.
 :::
-:::figura cap03_timpanoesclerosis timpanograma
-- @OI pico | El pico está en su lugar (−12 daPa), pero mide solo 0,13 mL: **As**. El sistema se mueve poco.
-- @OD pico | **A**, con 0,96 mL en −15 daPa. Volúmenes normales: membranas enteras.
-- **Reflejos:** ausentes con la sonda en el OI; con el tono en el OI, solo en 4 kHz (120 dB SPL).
+
+La aérea del OI está en 40 dB en 125 y 250 Hz, con la ósea en 0: el gap es mayor en los graves. Desde 500 Hz la aérea queda entre 25 y 30 dB. Conductiva **leve** (promedio BIAP de 29 dB), sin muesca en la ósea. El OD es normal. SDT de −5 dB y SRT de 0 dB en el OD, y de 25 y 30 dB en el OI; la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
+
+:::imagen figuras/salida/cap03_timpanoesclerosis_impedancia.svg ancho=80% Impedanciometría de Daniela.
 :::
+
+El OI tiene el pico en su lugar (−12 daPa), pero mide solo 0,13 mL: **As**. El sistema se mueve poco. El OD es **A**, con 0,96 mL en −15 daPa. Los volúmenes son normales: las membranas están enteras. **Reflejos:** con la sonda en el OI no hay ninguno. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OI, solo aparece en 4 kHz (120 dB SPL).
 
 :::docente Guía del caso
 - **Datos clave:** otitis y tubos de niña; pérdida izquierda lenta, sin otorrea; placa blanca extensa en una membrana íntegra.
@@ -261,16 +257,15 @@ La sangre ya se reabsorbió y la membrana se ve normal. ¿Qué puede seguir impi
 
 #### Paso 4 · Los resultados
 
-:::figura cap03_disyuncion_cadena audiograma
-- @OD 500 | La aérea del OD está entre 45 y 55 dB en todas las frecuencias, con la ósea en 0: un gap de 45 a 55 dB.
-- @OD 4000 | En 4 kHz el gap es casi el mismo que en los graves: es **plano**. Grado **moderado** (promedio BIAP de 49 dB).
-- @OI 1000 | El OI es normal.
+:::imagen figuras/salida/cap03_disyuncion_cadena_audiosupra.svg ancho=80% Audiometría de Diego: conductiva plana y moderada del OD; OI normal.
 :::
-:::figura cap03_disyuncion_cadena timpanograma
-- @OD pico | Pico en −80 daPa con 2,92 mL, fuera de escala: **Ad**. Volumen normal (1,96 mL): membrana entera.
-- @OI pico | **A**, con 0,47 mL en −52 daPa.
-- **Reflejos:** solo el ipsilateral del OI. Ni con la sonda ni con el tono en el OD: el gap de 50 dB se come el estímulo.
+
+La aérea del OD está entre 45 y 55 dB en todas las frecuencias, con la ósea en 0: un gap de 45 a 55 dB. En 4 kHz el gap es casi el mismo que en los graves: es **plano**. Grado **moderado** (promedio BIAP de 49 dB). El OI es normal. SDT de 40 dB y SRT de 45 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 80 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
+
+:::imagen figuras/salida/cap03_disyuncion_cadena_impedancia.svg ancho=80% Impedanciometría de Diego.
 :::
+
+El OD tiene el pico en −80 daPa con 2,92 mL, fuera de escala: **Ad**. El volumen es normal (1,96 mL): la membrana está entera. El OI es **A**, con 0,47 mL en −52 daPa. **Reflejos:** solo el ipsilateral de la sonda en el OI (85 a 90 dB). Con la sonda en el OD no hay ninguno, y el contralateral desde el OI, que estimula el OD, tampoco aparece: el gap de 50 dB se come el estímulo.
 
 :::docente Guía del caso
 - **Datos clave:** fractura del temporal que respeta la cápsula, hace cuatro meses; la sangre se fue y la pérdida quedó; sin vértigo ni parálisis facial.
@@ -296,15 +291,15 @@ El oído está seco desde hace tres semanas. ¿Puedes poner la sonda? ¿Qué hab
 
 #### Paso 4 · Los resultados
 
-:::figura cap03_colesteatoma audiograma
-- @OI 125 | La aérea del OI está en 55 dB en 125 Hz y entre 40 y 50 en el resto, con la ósea en 0: un gap de 40 a 55 dB, bastante plano.
-- @OI osea 2000 | La ósea está normal en todas las frecuencias: la cóclea todavía está a salvo. Grado **moderado** (promedio BIAP de 46 dB).
+:::imagen figuras/salida/cap03_colesteatoma_audiosupra.svg ancho=80% Audiometría de Sergio: conductiva moderada y bastante plana del OI, con la ósea normal; OD normal.
 :::
-:::figura cap03_colesteatoma timpanograma
-- @OI pico | **B**, con un volumen de 1,56 mL, normal y parecido al del OD (1,23 mL): la sonda mide un conducto cerrado. No hay una perforación abierta.
-- @OD pico | **A**, con el pico en −59 daPa y 1,06 mL.
-- **Reflejos:** solo el ipsilateral del OD. Ni con la sonda ni con el tono en el OI: el gap se lleva el estímulo.
+
+La aérea del OI está en 55 dB en 125 Hz y entre 40 y 50 en el resto, con la ósea en 0: un gap de 40 a 55 dB, bastante plano. La ósea está normal en todas las frecuencias: la cóclea todavía está a salvo. Grado **moderado** (promedio BIAP de 46 dB). SDT de −5 dB y SRT de 0 dB en el OD, y de 40 y 45 dB en el OI; la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 80 dB en el OI, con ruido en el OD).
+
+:::imagen figuras/salida/cap03_colesteatoma_impedancia.svg ancho=80% Impedanciometría de Sergio.
 :::
+
+El OI es **B**, con un volumen de 1,56 mL, normal y parecido al del OD (1,23 mL): la sonda mide un conducto cerrado. No hay una perforación abierta. El OD es **A**, con el pico en −59 daPa y 1,06 mL. **Reflejos:** solo el ipsilateral de la sonda en el OD (85 a 90 dB). Con la sonda en el OI no hay ninguno, y el contralateral desde el OD, que estimula el OI, tampoco aparece: el gap se lleva el estímulo.
 
 :::docente Guía del caso
 - **Datos clave:** otorrea **fétida** a repetición, pérdida progresiva, seco hoy; costra y material blanco en el ático; sin vértigo ni debilidad facial.
@@ -330,16 +325,15 @@ Un oído con otorrea de años y una pérdida que crece. ¿Esperas una conductiva
 
 #### Paso 4 · Los resultados
 
-:::figura cap03_p41 audiograma
-- @OI 1000 | La aérea del OI está en 50 dB en 1 kHz y baja a 65 en 4 kHz y 70 en 8 kHz.
-- @OI osea 1000 | La ósea del OI está en 25 dB en 500 y 1.000 Hz: hay gap (25 a 30 dB), pero la ósea **tampoco es normal**.
-- @OI osea 4000 | La ósea cae hacia los agudos: 35 dB en 2 kHz y 45 en 4 kHz. Pérdida **mixta**, grado **moderado** (promedio BIAP de 56 dB).
+:::imagen figuras/salida/cap03_p41_audiosupra.svg ancho=80% Audiometría de Luis: pérdida mixta moderada del OI, con la ósea que cae hacia los agudos; OD normal.
 :::
-:::figura cap03_p41 timpanograma
-- @OI pico | **B**, con 1,91 mL de volumen, normal y parecido al del OD (1,73 mL): hoy la sonda no está viendo la caja. La membrana está cerrada.
-- @OD pico | **A**, con el pico en −86 daPa y 0,97 mL.
-- **Reflejos:** ausentes con la sonda en el OI; con el tono en el OI, solo en 2 y 4 kHz (115 dB SPL).
+
+La aérea del OI está en 50 dB en 1 kHz y baja a 65 en 4 kHz y 70 en 8 kHz. La ósea del OI está en 25 dB en 500 y 1.000 Hz: hay gap (25 a 30 dB), pero la ósea **tampoco es normal**. Cae hacia los agudos: 35 dB en 2 kHz y 45 en 4 kHz. Pérdida **mixta**, grado **moderado** (promedio BIAP de 56 dB). SDT de −5 dB y SRT de 0 dB en el OD, y de 45 y 50 dB en el OI. El OD discrimina 100 % a 40 dB; el OI llega a **92 % a 90 dB**, con ruido de habla de 55 dB en el OD: la cóclea izquierda ya no entrega todo lo que recibe.
+
+:::imagen figuras/salida/cap03_p41_impedancia.svg ancho=80% Impedanciometría de Luis.
 :::
+
+El OI es **B**, con 1,91 mL de volumen, normal y parecido al del OD (1,73 mL): hoy la sonda no está viendo la caja. La membrana está cerrada. El OD es **A**, con el pico en −86 daPa y 0,97 mL. **Reflejos:** con la sonda en el OI no hay ninguno. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OI, solo aparece en 2 y 4 kHz (115 dB SPL).
 
 :::docente Guía del caso
 - **Datos clave:** otitis y tubos de niño; otorrea amarilla y fétida del OI desde hace cinco años, que aparece con los resfríos y se seca con gotas (el último episodio, hace cuatro meses); pérdida progresiva y zumbido intermitente; sin vértigo; hoy el oído está seco.

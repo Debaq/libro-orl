@@ -19,19 +19,28 @@
   },
   "figuras": [
     {
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 1.0,
+        "sacadas": null
+      },
+      "izq": {
+        "ganancia": 0.98,
+        "sacadas": null
+      }
+    },
+    {
       "tipo": "nistagmo",
       "con_fijacion": {},
       "sin_fijacion": {}
     },
     {
-      "tipo": "audiosupra"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 226
-    },
-    {
-      "tipo": "reflejos"
     },
     {
       "tipo": "mariposa",

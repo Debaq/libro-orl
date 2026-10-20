@@ -24,7 +24,7 @@ GANANCIA_AUN_NO = {250: 15, 500: 25, 1000: 30, 2000: 30, 3000: 25, 4000: 20, 600
 
 CASOS = [
     # Candidata a implante: severa bilateral con discriminación tope de 56-60 %
-    cuadro('autoinmune', [fig.audiograma(), fig.logo(), fig.reflejos(), fig.teoae(),
+    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia(), fig.teoae(),
                           fig.campo_libre(ganancia=GANANCIA_AUTOINMUNE)],
            od='autoinmune', oi='autoinmune', grado_od='severa', grado_oi='severa', edad=58, sexo='mujer',
            anamnesis="""Tiene 58 años y era profesora de enseñanza básica; hoy está con licencia. Hace tres años notó
@@ -40,7 +40,7 @@ CASOS = [
                      (420, 'Adaptación de audífonos retroauriculares bilaterales, con verificación en oído real.')],
            medicamentos='Levotiroxina 75 mcg al día'),
     # El caso del "aún no": moderada-severa con muy buen rendimiento con audífono
-    cuadro('aun_no', [fig.audiograma(), fig.logo(), fig.campo_libre(ganancia=GANANCIA_AUN_NO)],
+    cuadro('aun_no', [fig.audiosupra(), fig.campo_libre(ganancia=GANANCIA_AUN_NO)],
            od='coclear_plana', oi='coclear_plana', grado_od='moderada', grado_oi='moderada', edad=74, sexo='hombre',
            anamnesis="""Tiene 74 años y es jubilado de la minería. Hace unos diez años le dijeron que oía menos y
            hace tres meses se compró un par de audífonos en una óptica. Dice que "no le sirven": en casa, con su
@@ -51,9 +51,9 @@ CASOS = [
            historia=[(90, 'Adaptación de audífonos retroauriculares bilaterales en un comercio; ajuste por comodidad, sin medición en oído real.')],
            medicamentos='Atorvastatina 20 mg al día'),
     # Otitis crónica mixta del OI (paciente 41): dispositivo de conducción ósea
-    demo(41, [fig.audiograma(), fig.logo(), fig.timpanograma()]),
+    demo(41, [fig.audiosupra(), fig.impedancia()]),
     # Cófosis del OD tras paperas (paciente 42): sordera unilateral
-    demo(42, [fig.audiograma(), fig.logo(), fig.reflejos(), fig.teoae()]),
+    demo(42, [fig.audiosupra(), fig.impedancia(), fig.teoae()]),
 ]
 
 if __name__ == '__main__':

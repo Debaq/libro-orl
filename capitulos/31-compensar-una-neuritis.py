@@ -22,7 +22,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # el VEMP. Martín y Lucía tienen caso propio (casos/propios/): el oVEMP del lado enfermo con el umbral en 90,
 # la hipofunción utricular de su neuritis superior.
 CASOS = [
-    cuadro('buena', [fig.audiosupra(), fig.nistagmo(sin_fijacion={'izquierda': -3, 'arriba': -2, 'centro': -2, 'abajo': -2}),
+    cuadro('buena', [fig.vhit(0.45, 0.98, 'overt', None), fig.audiosupra(), fig.nistagmo(sin_fijacion={'izquierda': -3, 'arriba': -2, 'centro': -2, 'abajo': -2}),
                      fig.mariposa(5, 3, 20, 14), fig.vemps()], od='normal', oi='normal', edad=41, sexo='hombre',
            anamnesis="""Tiene 41 años y es conductor de un camión de reparto de bebidas. Hace dos semanas despertó con la pieza
            girando, vomitó cuatro veces y no pudo ponerse de pie sin agarrarse. En urgencia le dijeron que era un cuadro del
@@ -34,7 +34,7 @@ CASOS = [
            historia=[(14, 'Servicio de urgencia: vértigo con vómitos, nistagmo hacia la izquierda; diagnóstico de neuritis vestibular derecha. Antiemético por tres días.'),
                      (4, 'Otorrinolaringólogo: confirma la hipofunción vestibular derecha con el examen y lo deriva a rehabilitación vestibular.')],
            medicamentos='Ninguno (el antiemético lo terminó a los tres días)'),
-    cuadro('lenta', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(19, 15, 3, 3), fig.vemps()], od='normal', oi='normal', edad=63, sexo='mujer',
+    cuadro('lenta', [fig.vhit(1.0, 0.3, None, 'overt'), fig.nistagmo(), fig.audiosupra(), fig.mariposa(19, 15, 3, 3), fig.vemps()], od='normal', oi='normal', edad=63, sexo='mujer',
            anamnesis="""Tiene 63 años y es costurera jubilada. Hace cinco semanas despertó con la pieza girando y vomitando; en
            urgencia le dijeron que era un problema del nervio del equilibrio del lado izquierdo, le dieron unas pastillas
            para el mareo y le recomendaron reposo. Las sigue tomando tres veces al día "porque si no, me marea", y casi no
@@ -46,7 +46,7 @@ CASOS = [
                      (10, 'Caída nocturna sin lesión.'),
                      (5, 'Médico de familia: persiste inestabilidad; solicita examen vestibular y deriva a rehabilitación vestibular.')],
            medicamentos='Dimenhidrinato 50 mg cada 8 horas (desde hace cinco semanas); losartán 50 mg al día', antecedentes=['hta']),
-    cuadro('meseta', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(14, 11, 20, 16), fig.vemps()], od='normal', oi='normal', edad=33, sexo='hombre',
+    cuadro('meseta', [fig.vhit(0.9, 1.0, None, None), fig.nistagmo(), fig.audiosupra(), fig.mariposa(14, 11, 20, 16), fig.vemps()], od='normal', oi='normal', edad=33, sexo='hombre',
            anamnesis="""Tiene 33 años y es diseñador de software; trabaja frente a dos pantallas. Hace diez semanas tuvo un vértigo
            muy intenso con vómitos, que le diagnosticaron como neuritis vestibular derecha. Empezó los ejercicios a las dos
            semanas y al principio mejoró bastante. Pero desde hace unas cuatro semanas siente que no avanza: un mareo suave

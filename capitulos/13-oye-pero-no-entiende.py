@@ -17,10 +17,10 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en todos los casos: lo tonal, lo suprasliminar y lo electrofisiológico
-BASE = [fig.audiograma(), fig.logo(), fig.reflejos(), fig.teoae()]
+BASE = [fig.audiosupra(), fig.impedancia(), fig.teoae()]
 
 CASOS = [
-    demo(40, BASE + [fig.abr(niveles=(80, 60, 40)),                        # alternada: la microfónica se cancela
+    demo(40, BASE + [fig.logo(), fig.abr(niveles=(80, 60, 40)),                      # alternada: la microfónica se cancela
                      fig.abr(niveles=(90,), polaridad='rarefaccion', marcar=()),
                      fig.abr(niveles=(90,), polaridad='condensacion', marcar=())]),
     cuadro('neuropatia_hereditaria', BASE + [fig.abr(niveles=(80, 60, 40)), fig.vemp()],

@@ -19,7 +19,19 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.99,
+        "sacadas": null
+      },
+      "izq": {
+        "ganancia": 0.97,
+        "sacadas": null
+      }
+    },
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
       "tipo": "vemp",

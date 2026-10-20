@@ -166,20 +166,21 @@ Además del audiograma, ¿qué pruebas separan una causa coclear de una neural? 
 
 #### Paso 4 · Los resultados
 
-:::figura cap13_p40 audiograma
-- @OD 1000 | La pérdida del OD es de **40 dB** en 1 kHz y de 35 a 45 en el resto: leve a moderada y casi plana.
-- @OD osea 1000 | La ósea sigue a la aérea: no hay componente conductivo.
-- @OI 4000 | El OI es parecido, con 35 dB en 4 kHz.
+:::imagen figuras/salida/cap13_p40_audiosupra.svg ancho=80% Audiometría de Valentina: pérdida leve a moderada y casi plana (40 dB en 1 kHz en el OD y 35 en 4 kHz en el OI), con la ósea pegada a la aérea: no hay componente conductivo.
 :::
-:::figura cap13_p40 logoaudiometria
-- @OD max | El OD llega solo al **32 %**, a 70 dB. Con 35 a 45 dB de pérdida, un oído coclear no debería bajar de cerca del 60 %.
-- @OI max | El OI llega al **36 %**.
-- @OD 100 | A 100 dB la curva **cae** al 8 %: subir el volumen no ayuda.
+
+SDT de 30 dB y SRT de 35 en los dos oídos. La discriminación llega al 32 % en el OD y al 36 % en el OI, a 60 y 70 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap13_p40_logoaudiometria.svg ancho=100% Logoaudiometría de Valentina: el OD llega al 32 % a 70 dB y a 100 dB cae al 8 %; el OI llega al 36 %.
 :::
-:::figura cap13_p40 reflejos
-- @ipsi OD 1000 | **Ausente**, con la sonda en el OD.
-- @contra OI 1000 | Y ausente con el tono en el OD. Con un oído medio normal, un reflejo ausente en los cuatro arreglos y en las dos frecuencias dice que el arco no recibe una señal sincrónica.
+
+Con 35 a 45 dB de pérdida, un oído coclear no debería bajar de cerca del 60 %. A 100 dB la curva **cae** al 8 %: subir el volumen no ayuda.
+
+:::imagen figuras/salida/cap13_p40_impedancia.svg ancho=80% Impedanciometría de Valentina.
 :::
+
+El reflejo está **ausente** en los cuatro arreglos: ipsilateral y contralateral, con la sonda en el OD y con la sonda en el OI. Con un oído medio normal, un reflejo ausente en todas las frecuencias dice que el arco no recibe una señal sincrónica.
+
 :::figura cap13_p40 teoae
 - @OD 2000 | Las emisiones transitorias pasan **5 de 5 bandas**, con reproducibilidad de 93 % en el OD y 92 % en el OI. Las células ciliadas externas funcionan, aunque el audiograma marque 35 a 45 dB.
 :::
@@ -219,17 +220,16 @@ Si el audiograma saliera normal, ¿darías de alta? ¿Qué agregarías para cuan
 
 #### Paso 4 · Los resultados
 
-:::figura cap13_neuropatia_hereditaria audiograma
-- @OD 1000 | El audiograma es **normal**: 5 dB en 1 kHz, 0 dB en graves.
-- @OI 4000 | Igual en el OI. Por el audiograma sola, no habría nada.
+:::imagen figuras/salida/cap13_neuropatia_hereditaria_audiosupra.svg ancho=80% Audiometría de Carmen: normal en los dos oídos (5 dB en 1 kHz, 0 dB en graves).
 :::
-:::figura cap13_neuropatia_hereditaria logoaudiometria
-- @OD max | El máximo es del **80 %**, en 20 a 30 dB, lejos del 100 % de un oído normal.
-- @OD 100 | Y **desciende al 60 %** a partir de 50 dB: más volumen la empeora.
+
+Por el audiograma solo, no habría nada: SDT de −5 dB y SRT de 0 dB. Pero la discriminación llega a un máximo del **80 %**, a 30 dB, lejos del 100 % de un oído normal, y **desciende** a 73 % a 40 dB y a 60 % a partir de 50: más volumen la empeora.
+
+:::imagen figuras/salida/cap13_neuropatia_hereditaria_impedancia.svg ancho=80% Impedanciometría de Carmen.
 :::
-:::figura cap13_neuropatia_hereditaria reflejos
-- @ipsi OD 1000 | **Ausentes** en los cuatro arreglos, con un oído medio normal y umbrales de 0 dB.
-:::
+
+Los reflejos están **ausentes** en los cuatro arreglos, ipsi y contra con cada sonda, con un oído medio normal y umbrales de 0 dB.
+
 :::figura cap13_neuropatia_hereditaria teoae
 - @OD 2000 | Emisiones presentes en 5 de 5 bandas, con reproducibilidad de 89 % y 88 %.
 :::
@@ -265,16 +265,16 @@ No se le puede pedir que levante la mano de forma fiable durante una hora. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap13_kernicterus audiograma
-- @OD 1000 | Umbral tonal de unos **60 dB** en graves y medios, con ligera caída hacia 65 dB en agudos.
-- @OD osea 1000 | La ósea coincide: no hay componente conductivo.
+:::imagen figuras/salida/cap13_kernicterus_audiosupra.svg ancho=80% Audiometría de Josué: umbral tonal de unos 60 dB en graves y medios, con ligera caída a 65 dB en agudos, y la ósea coincidiendo con la aérea.
 :::
-:::figura cap13_kernicterus logoaudiometria
-- @OD max | La discriminación es de **0 % a todos los niveles**: sin importar el volumen, no reconoce palabras. Es mucho menos de lo que predice un umbral de 60 dB.
+
+No hay componente conductivo. El SDT es de 55 dB y el SRT de 60 en los dos oídos, y la discriminación es de **0 % a todos los niveles**: sin importar el volumen, no reconoce palabras. Es mucho menos de lo que predice un umbral de 60 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap13_kernicterus_impedancia.svg ancho=80% Impedanciometría de Josué.
 :::
-:::figura cap13_kernicterus reflejos
-- @ipsi OD 1000 | Reflejos **ausentes** en todos los arreglos.
-:::
+
+Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
+
 :::figura cap13_kernicterus teoae
 - @OD 2000 | Las emisiones están **presentes** en 5 de 5 bandas (reproducibilidad 86 % en el OD y 95 % en el OI): con 60 dB de umbral, no es una pérdida coclear.
 :::
@@ -306,15 +306,16 @@ Si el audiograma sale normal, ¿qué prueba objetiva te dice si el problema est�
 
 #### Paso 4 · Los resultados
 
-:::figura cap13_leucodistrofia audiograma
-- @OD 1000 | **Normal**: 10 dB o menos en todo el rango, en los dos oídos. El niño no es hipoacúsico.
+:::imagen figuras/salida/cap13_leucodistrofia_audiosupra.svg ancho=80% Audiometría de Óscar: normal en los dos oídos, con 10 dB o menos en todo el rango.
 :::
-:::figura cap13_leucodistrofia logoaudiometria
-- @OD max | Con umbrales normales llega solo al **80 %**, y a partir de 50 dB desciende al **60 %**.
+
+El niño no es hipoacúsico: SDT de −5 dB y SRT de 0 dB. Con umbrales normales, la discriminación llega solo al **80 %**, a 30 dB, y baja a 73 % a 40 dB y a 60 % a partir de 50.
+
+:::imagen figuras/salida/cap13_leucodistrofia_impedancia.svg ancho=80% Impedanciometría de Óscar.
 :::
-:::figura cap13_leucodistrofia reflejos
-- @ipsi OD 1000 | **Ausentes** en todos los arreglos.
-:::
+
+Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
+
 :::figura cap13_leucodistrofia teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas.
 :::

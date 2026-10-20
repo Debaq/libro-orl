@@ -17,8 +17,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en todo oído medio: el umbral con su gap, la curva y los reflejos
-OIDO_MEDIO = [fig.audiograma(), fig.acumetria(), fig.timpanograma(), fig.reflejos()]
-SIN_ACUMETRIA = [fig.audiograma(), fig.timpanograma(), fig.reflejos()]
+OIDO_MEDIO = [fig.audiosupra(), fig.impedancia(), fig.impedancia()]
+SIN_ACUMETRIA = [fig.audiosupra(), fig.impedancia(), fig.impedancia()]
 
 CASOS = [
     demo(35, OIDO_MEDIO),

@@ -209,29 +209,22 @@ El OD oye bien. ¿Qué vas a tener que hacer en el OI para que su audiograma sea
 
 #### Paso 4 · Los resultados
 
-:::figura cap07_subita acumetria
-- @weber 500 | El Weber se va al **OD**, el oído que oye bien, en 500 y 1.000 Hz.
-- @rinne OI 500 | En el OI el Rinne es **falso negativo**: frente al pabellón no oye, y lo que oye en la mastoides le llega a la cóclea del OD.
-- Weber al sano y Rinne negativo en el enfermo: el problema del OI es **sensorioneural** (→ H2). Antes de entrar a la cabina, la cera y la otitis ya quedaron atrás.
+:::imagen figuras/salida/cap07_subita_audiosupra_2.svg ancho=80% Audiometría de Pablo sin enmascarar, lo que anota quien no enmascara: el OI parece una conductiva moderada, 40 a 50 dB bajo el OD en cada frecuencia, con SDT de 45 dB, SRT de 50 dB y discriminación de 100 % a 80 dB. Es la curva sombra del OD.
 :::
 
-:::figura cap07_subita audiograma
-- @OI 1000 | Sin enmascarar, el OI marca **45 dB** de 250 a 2.000 Hz. No es el OI: es el tono que cruza el cráneo y oye la cóclea del OD.
-- @OI 8000 | La curva baja hacia los agudos igual que el OD, siempre 40 a 50 dB más abajo: 55 dB en 3 y 4 kHz, 70 en 8 kHz. Es la **curva sombra**.
-- @OI osea 1000 | La ósea sin enmascarar sale en **5 dB**: es la de la mejor cóclea, la del OD.
-- Leído así sería una **conductiva moderada** del OI, con 40 dB de gap. Pero una conductiva habría llevado el Weber al OI, y se fue al OD.
+:::imagen figuras/salida/cap07_subita_audiosupra.svg ancho=80% Audiometría de Pablo enmascarada: OD normal y OI con pérdida sensorioneural severa, SDT de 70 dB, SRT de 75 dB y discriminación de 52 % a 100 dB. SISI de 90 %, Carhart sin deterioro y Metz de 24,5 a 27 dB.
 :::
 
-:::figura cap07_subita audiograma 2
-- @OI 1000 | Con ruido en el OD, el OI está en **75 dB** de 500 a 2.000 Hz, con 65 dB en 125 Hz y 95 en 8 kHz. El promedio es de 79 dB: **severa**.
-- @OI osea 1000 | La ósea enmascarada no responde al tope del vibrador desde 500 Hz: va con la aérea. Es **sensorioneural**.
-- @OD 1000 | El OD está entre 0 y 20 dB, normal. Comparado con él, el OI perdió más de 30 dB en todas las frecuencias.
+El Weber se va al **OD**, el oído que oye bien, en 500 y 1.000 Hz. En el OI el Rinne es **falso negativo**: frente al pabellón no oye, y lo que oye en la mastoides le llega a la cóclea del OD. Weber al sano y Rinne negativo en el enfermo: el problema del OI es **sensorioneural** (→ H2). Antes de entrar a la cabina, la cera y la otitis ya quedaron atrás.
+
+Sin enmascarar, el OI marca **45 dB** de 250 a 2.000 Hz. No es el OI: es el tono que cruza el cráneo y oye la cóclea del OD. La curva baja hacia los agudos igual que el OD, siempre 40 a 50 dB más abajo: 55 dB en 3 y 4 kHz, 70 en 8 kHz. Es la **curva sombra**. La ósea sin enmascarar sale en **5 dB**: es la de la mejor cóclea, la del OD. Leído así sería una **conductiva moderada** del OI, con 40 dB de gap. Pero una conductiva habría llevado el Weber al OI, y se fue al OD. La logoaudiometría sin enmascarar tiene la misma trampa: SDT de 45 dB, SRT de 50 dB y 100 % de discriminación, porque lo que se mide es la cóclea del OD.
+
+Con ruido en el OD, el OI está en **75 dB** de 500 a 2.000 Hz, con 65 dB en 125 Hz y 95 en 8 kHz. El promedio es de 79 dB: **severa**. La ósea enmascarada no responde al tope del vibrador desde 500 Hz: va con la aérea. Es **sensorioneural**. El OD está entre 0 y 20 dB, normal; comparado con él, el OI perdió más de 30 dB en todas las frecuencias. Enmascarada, la logoaudiometría del OI tiene un SDT de 70 dB y un SRT de 75 dB, y la discriminación llega apenas al **52 %** a 100 dB (el OD llega al 100 % desde 40 dB). Esa cifra es la base para saber si recupera la comprensión, no solo el umbral. En los supraliminares, el SISI es de 90 %, el Carhart no tiene deterioro en 2 ni en 4 kHz y el Metz es de 24,5 a 27 dB: recluta, es coclear.
+
+:::imagen figuras/salida/cap07_subita_impedancia.svg ancho=80% Impedanciometría de Pablo.
 :::
 
-:::figura cap07_subita logoaudiometria
-- @OD max | El OD llega al **100 %** desde 30 dB.
-- @OI max | El OI, con ruido de habla en el OD, llega apenas al **52 %** a 100 dB. Esta curva es la base para saber si recupera la comprensión, no solo el umbral.
-:::
+El timpanograma es **A** en los dos oídos, con decay negativo. Los reflejos siguen al oído que oye mal. Con la sonda en el OD, el ipsilateral es normal (90, 85, 90 y 90 dB SPL), pero el contralateral, que estimula el OI, sube a 110, 105 y 110 dB SPL y falta en 4 kHz. Con la sonda en el OI, el ipsilateral está elevado (105, 100 y 105 dB SPL) y falta en 4 kHz, y el contralateral, que estimula el OD, es normal (95, 90 y 95 dB SPL). Con el oído medio sano, la causa es coclear.
 
 :::docente Guía del caso
 - **Datos clave:** 52 años; despertó con el OI tapado y un pitido, **hace cuatro días**; sin dolor ni secreción; resfrío la semana anterior; hipertenso. Las gotas no cambiaron nada. Ya está con corticoides indicados por el otorrinolaringólogo.
@@ -257,16 +250,15 @@ Además de medir la audición, ¿qué prueba de las que tienes en el box te dice
 
 #### Paso 4 · Los resultados
 
-:::figura cap07_laberintitis audiograma
-- @OD 1000 | El OD está en **95 dB** en 1 kHz, y entre 85 y 105 dB en todo el rango. El promedio es de 96 dB: **profunda**.
-- @OD osea 1000 | La ósea enmascarada no responde al tope del vibrador. Sensorioneural.
-- @OI 1000 | El OI está en 0 dB en todas las frecuencias. Con más de 80 dB de diferencia, cada umbral del OD se midió con ruido en el OI (los triángulos).
+:::imagen figuras/salida/cap07_laberintitis_audiosupra.svg ancho=80% Audiometría de Irene: OD con pérdida sensorioneural profunda medida con ruido en el OI, y OI normal. SDT de 85 dB y SRT de 90 dB en el OD, con discriminación de 38 % a 100 dB.
 :::
 
-:::figura cap07_laberintitis timpanograma
-- @OD pico | Curva **A** en el OD: pico en 0 daPa, con 0,32 mL. El oído medio está sano: no hay una otitis detrás de este laberinto.
-- @OI pico | El OI también es A (1,44 mL en −27 daPa).
+El OD está en **95 dB** en 1 kHz, y entre 85 y 105 dB en todo el rango. El promedio es de 96 dB: **profunda**. La ósea enmascarada no responde al tope del vibrador: sensorioneural. El OI está en 0 dB en todas las frecuencias. Con más de 80 dB de diferencia, cada umbral del OD se midió con ruido en el OI. En el OD el SDT es de 85 dB, el SRT de 90 dB y la discriminación llega solo al 38 % a 100 dB; el OI discrimina 100 % a 30 dB. Los supraliminares del OD dan SISI de 90 % y Carhart sin deterioro, y el reflejo falta en las cuatro frecuencias.
+
+:::imagen figuras/salida/cap07_laberintitis_impedancia.svg ancho=80% Impedanciometría de Irene.
 :::
+
+Los dos timpanogramas son **A**: el OD con pico en 0 daPa y 0,32 mL, el OI con 1,44 mL en −27 daPa. El oído medio está sano: no hay una otitis detrás de este laberinto. Con la sonda en el OD no hay reflejo ipsilateral, porque la cóclea no oye; el contralateral, con el tono en el OI, aparece a 95, 90 y 95 dB SPL. Con la sonda en el OI es al revés: el ipsilateral está normal (90, 85 y 90 dB SPL) y el contralateral, que estimula el OD, falta.
 
 :::figura cap07_laberintitis vemp
 - @OD P13 | El VEMP cervical del OD apenas se separa del ruido: 46 µV, **0,90** corregido por el EMG.
@@ -298,18 +290,15 @@ Un golpe en la cabeza y los dos oídos "apagados". Plantea una causa conductiva 
 
 #### Paso 4 · Los resultados
 
-:::figura cap07_conmocion_laberintica audiograma
-- @OD 500 | Hasta 500 Hz, 0 dB en los dos oídos; en 1 kHz, 15.
-- @OD 2000 | Desde 2 kHz cae de golpe: **55 dB** en el OD y 50 en el OI.
-- @OD 6000 | El fondo está en 6 kHz, con **70 dB**, y en 8 kHz el OD vuelve a 55: una **muesca** con recuperación.
-- @OI 8000 | El OI tiene la misma forma, con 20 dB de recuperación en 8 kHz: **bilateral y simétrica**.
-- @OD osea 3000 | La ósea va con la aérea. Sensorioneural. Con los dos oídos casi iguales, aquí no hizo falta enmascarar.
+:::imagen figuras/salida/cap07_conmocion_laberintica_audiosupra.svg ancho=80% Audiometría de Juan: muesca bilateral simétrica con fondo en 6 kHz y recuperación en 8 kHz. Discriminación de 84 % en el OD y 88 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.
 :::
 
-:::figura cap07_conmocion_laberintica timpanograma
-- @OD pico | Curva **A** en el OD: 1,52 mL en −80 daPa, dentro de lo normal.
-- @OI pico | Curva A en el OI: 0,47 mL en −52 daPa. Ni sangre en el oído medio (sería plana) ni cadena desarticulada (sería muy alta): el golpe no pasó por ahí.
+Hasta 500 Hz hay 0 dB en los dos oídos; en 1 kHz, 15. Desde 2 kHz cae de golpe: **55 dB** en el OD y 50 en el OI. El fondo está en 6 kHz, con **70 dB**, y en 8 kHz el OD vuelve a 55: una **muesca** con recuperación. El OI tiene la misma forma, con 20 dB de recuperación en 8 kHz: **bilateral y simétrica**. La ósea va con la aérea. Sensorioneural. Con los dos oídos casi iguales, aquí no hizo falta enmascarar. El SDT es de 0 dB, el SRT de 5 dB y la discriminación llega a 84 % en el OD y 88 % en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB en 4 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap07_conmocion_laberintica_impedancia.svg ancho=80% Impedanciometría de Juan.
 :::
+
+Los dos timpanogramas son **A**: el OD con 1,52 mL en −80 daPa, dentro de lo normal, y el OI con 0,47 mL en −52 daPa. No hay sangre en el oído medio (la curva sería plana) ni cadena desarticulada (sería muy alta): el golpe no pasó por ahí. Los reflejos están presentes en los dos oídos, ipsi y contralaterales, entre 85 y 100 dB SPL.
 
 :::figura cap07_conmocion_laberintica dpoae
 - @OD 1000 | En los dos oídos el DP pasa solo en 1 kHz.
@@ -340,23 +329,15 @@ Quiere saber si le sirven "audífonos que pasan el sonido al otro oído". ¿Qué
 
 #### Paso 4 · Los resultados
 
-:::figura cap07_p42 acumetria
-- @weber 500 | El Weber se va al **OI** en 500 y 1.000 Hz.
-- @rinne OD 500 | En el OD el Rinne es **falso negativo**: frente al pabellón no lo oye y en la mastoides lo oye la cóclea del OI.
-- La acumetría ya dice lo esencial: el OD no tiene cóclea que oiga.
+:::imagen figuras/salida/cap07_p42_audiosupra.svg ancho=80% Audiometría de Matías: OD sin respuesta, medido con el OI enmascarado, y OI en 0 dB de 125 a 8.000 Hz. Rinne falso negativo en el OD y discriminación nula en ese oído.
 :::
 
-:::figura cap07_p42 audiograma
-- @OD 1000 | Con el OI enmascarado, el OD no responde al máximo del audiómetro en ninguna frecuencia.
-- @OD osea 1000 | La ósea enmascarada tampoco responde al tope del vibrador: **cófosis** del OD.
-- @OI 1000 | El OI está en 0 dB de 125 a 8.000 Hz. Sin ruido, este mismo audiograma muestra una conductiva del OD que no existe (→ H4, la curva sombra de este paciente).
+El Weber se va al **OI** en 500 y 1.000 Hz. En el OD el Rinne es **falso negativo**: frente al pabellón no lo oye y en la mastoides lo oye la cóclea del OI. La acumetría ya dice lo esencial: el OD no tiene cóclea que oiga. Con el OI enmascarado, el OD no responde al máximo del audiómetro en ninguna frecuencia. La ósea enmascarada tampoco responde al tope del vibrador: **cófosis** del OD. La discriminación del OD es de 0 %. El OI está en 0 dB de 125 a 8.000 Hz, con SDT de −5 dB, SRT de 0 dB y 100 % de discriminación a 40 dB. Sin ruido, este mismo audiograma muestra una conductiva del OD que no existe (→ H4, la curva sombra de este paciente).
+
+:::imagen figuras/salida/cap07_p42_impedancia.svg ancho=80% Impedanciometría de Matías.
 :::
 
-:::figura cap07_p42 reflejos
-- @ipsi OD 1000 | Sin reflejo ipsilateral en el OD.
-- @contra OI 1000 | Tampoco hay reflejo con el tono en el OD y la sonda en el OI: nada que entre por el OD dispara el arco.
-- @contra OD 1000 | Con el tono en el OI y la sonda en el OD, el reflejo aparece a **90 dB** en 1 kHz: el músculo del estribo del OD funciona. Es el **patrón diagonal** de una vía que no conduce desde el OD, y aquí lo que falta es la cóclea.
-:::
+Los dos timpanogramas son A. Con la sonda en el OD no hay reflejo ipsilateral. Con la sonda en el OI tampoco hay reflejo contralateral, es decir, con el tono en el OD: nada que entre por el OD dispara el arco. En cambio, con la sonda en el OD y el tono en el OI, el reflejo aparece a **90 dB SPL** en 1 kHz: el músculo del estribo del OD funciona. Es el **patrón diagonal** de una vía que no conduce desde el OD, y aquí lo que falta es la cóclea.
 
 :::figura cap07_p42 vemp
 - @OD P13 | El VEMP cervical del OD es casi plano: 19 µV, **0,38** corregido por el EMG.
@@ -388,17 +369,15 @@ Tiene una audiometría de hace dos meses. ¿Qué tiene que tener la de hoy para 
 
 #### Paso 4 · Los resultados
 
-:::figura cap07_autoinmune audiograma
-- @OD 1000 | El OD está en **80 dB** en 1 kHz y cae desde 60 dB en 125 Hz hasta 100 en 6 y 8 kHz: promedio de 82,5 dB, **severa**. Se midió enmascarado.
-- @OD osea 500 | La ósea enmascarada del OD va con la aérea: 65 dB en 250 Hz y 70 en 500. Desde 1 kHz no responde al tope del vibrador.
-- @OI 2000 | El OI está entre 25 y 45 dB, con un promedio de 34: **leve**.
-- @OI osea 1000 | La ósea del OI va con la aérea. Es **sensorioneural, bilateral y asimétrica**, con casi 50 dB de diferencia entre los promedios.
+:::imagen figuras/salida/cap07_autoinmune_audiosupra.svg ancho=80% Audiometría de Pilar: pérdida sensorioneural bilateral asimétrica, severa en el OD y leve en el OI. Discriminación de 51 % en el OD y 92 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 9,5 a 24,5 dB en el OD.
 :::
 
-:::figura cap07_autoinmune logoaudiometria
-- @OI max | El OI llega al **92 %** a 60 dB y después baja un poco, hasta 79 %.
-- @OD max | El OD, con ruido de habla en el OI, llega solo al **51 %** a 100 dB.
+El OD está en **80 dB** en 1 kHz y cae desde 60 dB en 125 Hz hasta 100 en 6 y 8 kHz: promedio de 82,5 dB, **severa**. Se midió enmascarado. La ósea enmascarada del OD va con la aérea: 65 dB en 250 Hz y 70 en 500. Desde 1 kHz no responde al tope del vibrador. El OI está entre 25 y 45 dB, con un promedio de 34: **leve**, y su ósea va con la aérea. Es **sensorioneural, bilateral y asimétrica**, con casi 50 dB de diferencia entre los promedios. El OD tiene un SDT de 70 dB y un SRT de 75 dB, y su discriminación llega solo al **51 %** a 100 dB. El OI tiene un SDT de 20 dB y un SRT de 25 dB, y discrimina **92 %** a 60 dB. SISI de 90 % en los dos, Carhart sin deterioro y reflejos con Metz de 9,5 a 15 dB en el OD en 1, 2 y 4 kHz (47 a 64,5 dB en el OI): recluta, es coclear.
+
+:::imagen figuras/salida/cap07_autoinmune_impedancia.svg ancho=80% Impedanciometría de Pilar.
 :::
+
+El timpanograma es **A** en los dos oídos y el decay es negativo. Con la sonda en el OD, el ipsilateral aparece en 100, 95, 100 y 110 dB SPL, y el contralateral, que estimula el OI, en 100, 95, 100 y 100 dB SPL. Con la sonda en el OI, el ipsilateral es de 95, 90, 90 y 95 dB SPL, y el contralateral, que estimula el OD, de 105, 105, 105 y 115 dB SPL. Hay reflejos en los dos oídos: la asimetría no viene del oído medio, y ningún reflejo se deteriora durante el decay.
 
 :::figura cap07_autoinmune dpoae
 - @OD 2000 | En el OD no hay DP en ninguna frecuencia: **0 de 7**.
@@ -427,7 +406,7 @@ Las cuentas del enmascaramiento muestran por qué no hubo dilema. En 1 kHz, para
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural severa del OI, de instalación brusca, con discriminación de 52 % enmascarada; OD con audición normal. Compatible con hipoacusia súbita. Esta audiometría es la **base**: se sugiere control audiométrico al terminar el tratamiento y dentro de seis meses, con la misma técnica (Chandrasekhar y cols., 2019). Queda pendiente el estudio retrococlear que pidió el médico (→ cap. 11).
+Hipoacusia sensorioneural severa del OI, de instalación brusca, con discriminación de 52 % enmascarada; OD con audición normal. Compatible con hipoacusia súbita. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 25 a 30 dB, de características cocleares. **Impedanciometría:** timpanograma A bilateral, con reflejos elevados o ausentes al estimular el OI. Esta audiometría es la **base**: se sugiere control audiométrico al terminar el tratamiento y dentro de seis meses, con la misma técnica (Chandrasekhar y cols., 2019). Queda pendiente el estudio retrococlear que pidió el médico (→ cap. 11).
 
 :::comentario Comentario
 Si esta audiometría se hubiera informado sin enmascarar, el informe habría dicho "hipoacusia de conducción moderada del OI" en un paciente que en ese momento estaba dentro de la ventana para tratarse. Un audiograma mal enmascarado no es un detalle técnico: cambia lo que le pasa al paciente.
@@ -441,7 +420,7 @@ Vértigo intenso de días y pérdida auditiva brusca del mismo lado, **el mismo 
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural profunda del OD, con timpanograma A y VEMP cervical del OD muy disminuido (asimetría de 77 %); OI normal. Compatible con laberintitis del OD. Se sugiere control audiométrico y la evaluación vestibular completa que indique el médico (→ cap. 21). Si la audición no vuelve, que es lo más frecuente (Oussoren y cols., 2023), tiene un solo oído útil, y su rehabilitación es la de Matías (→ cap. 28 y 29).
+Hipoacusia sensorioneural profunda del OD, con timpanograma A y VEMP cervical del OD muy disminuido (asimetría de 77 %); OI normal. **Supraliminares:** SISI de 90 % y Carhart sin deterioro en el OD, reflejo ausente. Compatible con laberintitis del OD. Se sugiere control audiométrico y la evaluación vestibular completa que indique el médico (→ cap. 21). Si la audición no vuelve, que es lo más frecuente (Oussoren y cols., 2023), tiene un solo oído útil, y su rehabilitación es la de Matías (→ cap. 28 y 29).
 
 ### Caso 7.3
 
@@ -451,7 +430,7 @@ Una pérdida sensorioneural **bilateral y simétrica**, descendente desde 1 kHz,
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural bilateral simétrica, de leve a moderada en agudos, con muesca en 6 kHz, de características cocleares, compatible con conmoción laberíntica. Se sugiere control audiométrico, acufenometría y conservar la audiometría anterior junto con esta.
+Hipoacusia sensorioneural bilateral simétrica, de leve a moderada en agudos, con muesca en 6 kHz, de características cocleares, compatible con conmoción laberíntica. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz. Se sugiere control audiométrico, acufenometría y conservar la audiometría anterior junto con esta.
 
 :::ojo Ojo clínico
 Un accidente puede terminar en un seguro o en un juicio. Ahí la pregunta no es solo qué tiene, sino desde cuándo, y la única forma de contestarla es una audiometría anterior. Se pide, se adjunta y se compara frecuencia por frecuencia (→ cap. 34).
@@ -479,7 +458,7 @@ Lo que hace sospechar es la **velocidad**: un OD que en dos meses pasó de moder
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural bilateral asimétrica: severa en el OD y leve en el OI, de características cocleares, con progresión documentada respecto de la audiometría anterior. Compatible con una enfermedad del oído interno de evolución rápida; el estudio de la causa es médico. Se sugieren audiometrías seriadas durante el tratamiento, con la misma técnica, para medir la respuesta de cada oído.
+Hipoacusia sensorioneural bilateral asimétrica: severa en el OD y leve en el OI, de características cocleares, con progresión documentada respecto de la audiometría anterior. Compatible con una enfermedad del oído interno de evolución rápida; el estudio de la causa es médico. **Supraliminares:** SISI de 90 %, Carhart sin deterioro y Metz de 9,5 a 24,5 dB en el OD. **Impedanciometría:** timpanograma A bilateral, con reflejos presentes en los dos oídos. Se sugieren audiometrías seriadas durante el tratamiento, con la misma técnica, para medir la respuesta de cada oído.
 
 :::comentario Comentario
 En este caso la audiología no pone el nombre del cuadro: pone la **curva en el tiempo**. Dos audiometrías bien hechas y comparables muestran la velocidad de la pérdida mejor que cualquier relato, y de esa velocidad depende la decisión de tratar.

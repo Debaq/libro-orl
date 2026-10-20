@@ -17,20 +17,12 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "acumetria"
-    },
-    {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
-    },
-    {
-      "tipo": "reflejos"
+      "tipo": "impedancia",
+      "sonda": 226
     },
     {
       "tipo": "ecochg",

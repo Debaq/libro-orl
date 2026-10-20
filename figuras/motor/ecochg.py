@@ -38,8 +38,18 @@ def registrar(caso, lado, nivel=90):
             return None
         t, y = np.asarray(t, float), np.asarray(y, float)
         marcas = ecochg.auto_marks(t, y)
-        medida = ecochg.measure_complex(t, y, {k: (v, float(np.interp(v, t, y))) for k, v in marcas.items()})
-    return {'t': t.tolist(), 'y': y.tolist(), 'marcas': marcas, 'medida': medida, 'nivel': nivel}
+        con_y = {k: (v, float(np.interp(v, t, y))) for k, v in marcas.items()}
+        medida = ecochg.measure_complex(t, y, con_y)
+        # lo que se integra en cada área, de las mismas cuentas que la razón
+        # de áreas (ecochg.area_shading): el área PS y, dentro, el área PA
+        zonas = None
+        try:
+            sh = ecochg.area_shading(t, y, con_y)
+            if sh:
+                zonas = {k: (list(map(float, x)), list(map(float, yt))) for k, (x, _b, yt) in sh.items()}
+        except Exception:
+            zonas = None
+    return {'t': t.tolist(), 'y': y.tolist(), 'marcas': marcas, 'medida': medida, 'nivel': nivel, 'zonas': zonas}
 
 
 def dibujar(caso, oidos=('OD', 'OI'), nivel=90, ms_max=5.0):
@@ -73,17 +83,38 @@ def dibujar(caso, oidos=('OD', 'OI'), nivel=90, ms_max=5.0):
             s.texto(x0 + pw / 2, mt + ph + 48, 'Sin respuesta identificable', E.T_ROTULO, E.TENUE)
             continue
         base = m['base']
+        # áreas (él, 2026-10-20): el área PS, clara, y dentro el área PA, más oscura
+        for clave, opac in (('ps', 0.16), ('pa', 0.38)):
+            z = (r.get('zonas') or {}).get(clave)
+            if not z:
+                continue
+            xs, ys = z
+            pts = [(X(a), Y(b)) for a, b in zip(xs, ys) if a <= ms_max]
+            if len(pts) < 2:
+                continue
+            borde = ' '.join(f'{x:.1f},{y:.1f}' for x, y in pts)
+            s.crudo(f'<polygon points="{pts[0][0]:.1f},{Y(base):.1f} {borde} {pts[-1][0]:.1f},{Y(base):.1f}" '
+                    f'fill="{col}" fill-opacity="{opac}" stroke="none"/>')
         s.linea(x0, Y(base), x0 + pw, Y(base), E.TINTA_2, 0.8, 'stroke-dasharray="3 3"')
         s.trazo([(X(t), Y(v)) for t, v in zip(r['t'], r['y']) if t <= ms_max], col, E.LINEA)
+        # rótulos que no se tapen: el PS a la izquierda de su marca, el PA bajo el valle
         for clave, rot in (('PS', 'PS'), ('PA', 'PA')):
             lat = r['marcas'].get(clave)
             if lat is None or lat > ms_max:
                 continue
             v = _interp(lat, r['t'], r['y'])
-            arriba = v >= base
             s.linea(X(lat), Y(base), X(lat), Y(v), E.TINTA_2, 0.8)
             s.ancla(f'{lado} {clave}', X(lat), Y(v))
-            s.texto(X(lat) + 4, Y(v) + (-6 if arriba else 12), rot, E.T_CHICO, E.TINTA, 'start', 600)
+            if clave == 'PS':
+                s.texto(X(lat) - 4, Y(base) - 5, rot, E.T_CHICO, E.TINTA, 'end', 700)
+            else:
+                s.texto(X(lat), Y(v) + 12, rot, E.T_CHICO, E.TINTA, 'middle', 700)
+        if r.get('zonas'):
+            yl = mt + 10
+            s.rect(x0 + pw - 74, yl - 7, 9, 7, col, extra=f'fill-opacity="0.16"')
+            s.texto(x0 + pw - 62, yl, 'área PS', E.T_CHICO, E.TINTA_2, 'start')
+            s.rect(x0 + pw - 74, yl + 4, 9, 7, col, extra=f'fill-opacity="0.38"')
+            s.texto(x0 + pw - 62, yl + 11, 'área PA', E.T_CHICO, E.TINTA_2, 'start')
         def num(v):
             # sin FIN (el marcado automático no encontró el retorno) no hay área
             return '—' if v is None else f'{v:.2f}'.replace('.', ',')

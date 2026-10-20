@@ -129,7 +129,29 @@ def segmentos(tomo=None, caps=None):
             sep = H.separador(parte)
             parte_actual = parte
         out.append((cap, f'<div class="cuerpo">{sep}{H.capitulo(md)}</div>', bool(sep)))
+    # Créditos de las imágenes del tomo II, al final (H.CREDITOS lo llenó capitulo())
+    if (tomo in (None, 'II')) and not caps:
+        creditos = creditos_html()
+        if creditos:
+            out.append(('creditos', f'<div class="cuerpo">{creditos}</div>', False))
     return out, capitulos
+
+
+def creditos_html():
+    """Índice de créditos de las imágenes del tomo II: por capítulo, el número
+    de la figura y su fuente, autores y licencia (sacados del pie)."""
+    import html as html_mod
+    bloques = []
+    for cap in sorted((c for c in H.CREDITOS if H.CREDITOS[c] and H.tomo_de(c) == 'II'), key=lambda c: int(c)):
+        filas = ''.join(f'<p><strong>Figura {html_mod.escape(n)}.</strong> '
+                        f'{html_mod.escape(re.sub(r"^Imagen:[ ]*", "", cr))}</p>'
+                        for n, cr in H.CREDITOS[cap])
+        bloques.append(f'<h3>Capítulo {cap}</h3>{filas}')
+    if not bloques:
+        return ''
+    return ('<section class="creditos" id="creditos-imagenes"><h1 class="prelim">Créditos de las imágenes</h1>'
+            '<p class="creditos-intro">Fuente, autores y licencia de cada imagen, por capítulo y número de figura.</p>'
+            f'<div class="referencias">{"".join(bloques)}</div></section>')
 
 
 def capa_de_numeros(numerada, destino):

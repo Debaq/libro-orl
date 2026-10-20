@@ -194,19 +194,20 @@ Además de la audiometría tonal, ¿qué pedirías? ¿Le medirías el LDL? ¿Est
 
 #### Paso 4 · Los resultados
 
-:::figura cap05_p36 audiograma
-- @OD 500 | Los graves están casi normales (15 a 20 dB) y la pérdida crece hacia los agudos: **descendente**.
-- @OD 4000 | En 4 kHz el OD llega a 60 dB, con la ósea en 55: sin gap, **sensorioneural**.
-- @OI 4000 | El OI va 5 dB peor en casi todas las frecuencias (65 dB en 4 kHz): **simétrica**.
-- @OI 250 | Los triángulos son el **LDL**: 100 dB hasta 2 kHz y 105 dB en 3 y 4 kHz, igual en los dos oídos. En 250 Hz le quedan 80 dB de campo dinámico; en 4 kHz, solo **45 dB en el OD y 40 en el OI**.
+:::imagen figuras/salida/cap05_p36_audiosupra.svg ancho=80% Audiometría de Hernán: sensorioneural descendente y simétrica, con LDL de 100 a 105 dB.
 :::
 
-:::figura cap05_p36 logoaudiometria
-- @OD 20 | El SRT del OD es **20 dB**: concuerda con el promedio de sus dos mejores umbrales entre 500 y 2.000 Hz (20 y 25 dB). El del OI es 25 dB, también concordante.
-- @OD 40 | A 40 dB, 20 sobre el SRT, el OD repite el **84 %**. La curva sigue subiendo: ese no es su máximo.
-- @OD max | Su máximo es **92 %**, y lo alcanza recién desde unos 55 dB. El OI llega a **88 % a 70 dB**. Las dos cifras calzan con su pérdida.
-- @OD 90 | Pasado el máximo la curva baja poco: 80 % a 90 dB, un índice de roll-over de (92 − 80) / 92 = **0,13**. En un adulto mayor es esperable (Gang, 1976).
+Los graves están casi normales (15 a 20 dB) y la pérdida crece hacia los agudos: **descendente**. En 4 kHz el OD llega a 60 dB, con la ósea en 55: sin gap, **sensorioneural**. El OI va 5 dB peor en casi todas las frecuencias (65 dB en 4 kHz): **simétrica**. El LDL es de 100 dB hasta 2 kHz y de 105 dB en 3 y 4 kHz, igual en los dos oídos: en 250 Hz le quedan 80 dB de campo dinámico y en 4 kHz, solo **45 dB en el OD y 40 en el OI**. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 69,5 dB en 500 Hz que baja a 39,5 dB en 4 kHz en el OD (de 64,5 a 34,5 dB en el OI), con decay del reflejo negativo: recluta, es coclear.
+
+:::imagen figuras/salida/cap05_p36_impedancia.svg ancho=80% Impedanciometría de Hernán.
 :::
+
+Los dos oídos tienen curva A, con volumen de 1,91 mL en el OD y de 1,74 mL en el OI, y presión cercana a cero (-36 y -16 daPa). Con la sonda en cualquiera de los dos oídos, el reflejo ipsilateral está entre 90 y 105 dB y el contralateral entre 95 y 110 dB, y el decay es negativo en ambos: el reflejo se conserva y no se fatiga, lo que apoya una lesión coclear.
+
+:::imagen figuras/salida/cap05_p36_logoaudiometria.svg ancho=100% Curva de discriminación de Hernán: sube despacio, llega a su máximo y baja poco.
+:::
+
+El SDT es de 15 dB en el OD y de 20 en el OI. El SRT del OD es **20 dB**: concuerda con el promedio de sus dos mejores umbrales entre 500 y 2.000 Hz (20 y 25 dB). El del OI es 25 dB, también concordante. A 40 dB, 20 sobre el SRT, el OD repite el **84 %**; la curva sigue subiendo, así que ese no es su máximo. La UMD es de **92 % a 60 dB** en el OD, y la alcanza recién desde unos 55 dB; el OI llega a **88 % a 60 dB**. Las dos cifras calzan con su pérdida. Pasado el máximo la curva baja poco: 80 % a 90 dB en el OD, un índice de roll-over de (92 − 80) / 92 = **0,13**. En un adulto mayor es esperable (Gang, 1976).
 
 :::figura cap05_p36 dpoae
 - @OD 1000 | En el OD quedan productos de distorsión en 1, 1,5 y 2 kHz, donde la audición todavía es leve.
@@ -217,7 +218,7 @@ Además de la audiometría tonal, ¿qué pedirías? ¿Le medirías el LDL? ¿Est
 :::docente Guía del caso
 - **Datos clave:** 74 años, consulta empujado por la señora; "escucha bien" pero no entiende a los nietos ni en los almuerzos; tele fuerte; siseo bilateral de dos años; **sierra y lijadora toda la vida sin protección**; hipertensión. Rechaza el audífono "porque es para viejos".
 - **Hipótesis esperables:** presbiacusia; daño por ruido sumado a la edad; un tapón de cerumen, que se descarta con la otoscopía antes de medir (→ cap. 1).
-- **Qué pedir:** audiometría con vía ósea, logoaudiometría y LDL (→ H3, H5). Emisiones si se quiere confirmar el origen coclear (→ H9). Las supraliminares **no están indicadas**: no hay asimetría ni acúfeno unilateral, y la discriminación calza (→ H6). El STAT, además, no se puede hacer: su LDL es de 100 dB HL y le molestaría el nivel de la prueba.
+- **Qué pedir:** audiometría con vía ósea, logoaudiometría y LDL (→ H3, H5). Emisiones si se quiere confirmar el origen coclear (→ H9). Las supraliminares **no están indicadas para decidir nada**: no hay asimetría ni acúfeno unilateral, y la discriminación calza (→ H6); los de la hoja solo confirman un origen coclear. El STAT, además, no se puede hacer: su LDL es de 100 dB HL y le molestaría el nivel de la prueba.
 - **Errores esperables:** dar como máximo el 84 % de la primera lista; buscar el roll-over sin enmascarar; no medir el LDL; informar "presbiacusia" sin mirar la simetría ni la discriminación.
 - **Para discutir:** Viene con su señora, Gladys, que interrumpe e insiste: es buena ocasión para practicar cómo se le habla a un paciente que minimiza y a una acompañante que exagera.
 :::
@@ -238,26 +239,25 @@ Su mamá usó audífonos desde los 80. ¿Pesa ese dato? Plantea al menos tres ca
 
 #### Paso 4 · Los resultados
 
-:::figura cap05_metabolica audiograma
-- @OD 1000 | Los graves están normales (5 a 15 dB), y el OD sigue en 15 dB en 1 kHz; el OI, en 25.
-- @OD 4000 | La pérdida empieza en 2 kHz y llega a 50 dB en 4 kHz en el OD y a 55 en el OI. La ósea va con la aérea: **sensorioneural**.
-- @OI 8000 | En 8 kHz, 65 y 75 dB. Es casi la curva de Hernán, que tiene 74 años: Clara tiene 56 y es mujer.
-- @OI 1000 | Las diferencias entre los oídos no pasan de 10 dB: **simétrica**.
-- Su **LDL es de 95 dB** en todas las frecuencias, 5 a 10 dB más bajo que el de Hernán: es su tolerancia, no un efecto de la pérdida. En 4 kHz le quedan 45 dB de campo en el OD y 40 en el OI.
+:::imagen figuras/salida/cap05_metabolica_audiosupra.svg ancho=80% Audiometría de Clara: sensorioneural descendente y simétrica, casi la curva de Hernán, con LDL de 95 dB.
 :::
 
-:::figura cap05_metabolica logoaudiometria
-- @OD 15 | SRT de **15 dB** en el OD y de 20 en el OI: concuerdan con el promedio de los dos mejores umbrales entre 500 y 2.000 Hz.
-- @OD max | El OD llega a **96 % a 50 dB**; el OI, a **88 % a 55 dB**. Son dos palabras de diferencia: con listas de 25, no es una asimetría (Thornton y Raffin, 1978).
-- @OI 80 | Pasado el máximo el OI baja a 76 % desde 80 dB: índice (88 − 76) / 88 = **0,14**. El OD baja a 84 % (0,13). Un roll-over leve, como el de Hernán.
+Los graves están normales (5 a 15 dB), y el OD sigue en 15 dB en 1 kHz; el OI, en 25. La pérdida empieza en 2 kHz y llega a 50 dB en 4 kHz en el OD y a 55 en el OI. La ósea va con la aérea: **sensorioneural**. En 8 kHz son 65 y 75 dB: es casi la curva de Hernán, que tiene 74 años, y Clara tiene 56 y es mujer. Las diferencias entre los oídos no pasan de 10 dB: **simétrica**. Su **LDL es de 95 dB** en todas las frecuencias, 5 a 10 dB más bajo que el de Hernán: es su tolerancia, no un efecto de la pérdida. En 4 kHz le quedan 45 dB de campo en el OD y 40 en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 74,5 dB en 500 Hz que baja a 44,5 dB en 4 kHz en el OD (de 69,5 a 34,5 dB en el OI), con decay negativo: recluta, es coclear.
+
+:::imagen figuras/salida/cap05_metabolica_impedancia.svg ancho=80% Impedanciometría de Clara.
 :::
 
-:::figura cap05_metabolica logoaudiometria 2
-- @OI 70 | Así queda la misma búsqueda del roll-over **sin enmascarar**. Hasta 70 dB las dos curvas son iguales a las de arriba.
-- @OI 80 | A 80 dB el OI "repite" el **92 %**, y a 90, el 96 %: más que su máximo. No es el OI: al OD le llegan 45 dB menos, unos 35 dB, y el OD entiende eso.
-- @OD 100 | El OD también "sube" a 88 % desde 95 dB, prestado del OI.
-- Desde 70 dB la voz menos el promedio óseo del OD (22 dB) supera los 45 dB: había que enmascarar. Para el OI a 80 dB, ruido de habla en el OD entre 80 − 45 − 22 + 22 = **35 dB** y 27 + 45 = **72 dB** (27 es el promedio óseo del OI).
+Los dos oídos tienen curva A: volumen de 1,10 mL en el OD y de 1,58 mL en el OI, con presión de -87 y 14 daPa. Los reflejos ipsilaterales están entre 85 y 100 dB con la sonda en el OD y entre 85 y 95 dB con la sonda en el OI. Los contralaterales están entre 95 y 100 dB en ambos lados y el decay es negativo: reflejos presentes, sin fatiga, como corresponde a una pérdida coclear.
+
+:::imagen figuras/salida/cap05_metabolica_logoaudiometria.svg ancho=100% Curva de discriminación de Clara, con el oído contrario enmascarado.
 :::
+
+SDT de 10 dB en el OD y de 15 en el OI. SRT de **15 dB** en el OD y de 20 en el OI: concuerdan con el promedio de los dos mejores umbrales entre 500 y 2.000 Hz. La UMD del OD es de **96 % a 50 dB**; la del OI, de **88 % a 50 dB**. Son dos palabras de diferencia: con listas de 25, no es una asimetría (Thornton y Raffin, 1978). Pasado el máximo el OI baja a 76 % desde 80 dB: índice (88 − 76) / 88 = **0,14**. El OD baja a 84 % (0,13). Un roll-over leve, como el de Hernán.
+
+:::imagen figuras/salida/cap05_metabolica_logoaudiometria_2.svg ancho=100% La misma búsqueda del roll-over, sin enmascarar el oído contrario.
+:::
+
+Así queda la misma búsqueda del roll-over **sin enmascarar**. Hasta 70 dB las dos curvas son iguales a las anteriores. A 80 dB el OI "repite" el **92 %**, y a 90, el 96 %: más que su máximo. No es el OI: al OD le llegan 45 dB menos, unos 35 dB, y el OD entiende eso. El OD también "sube" a 88 % desde 95 dB, prestado del OI. Desde 70 dB la voz menos el promedio óseo del OD (22 dB) supera los 45 dB: había que enmascarar. Para el OI a 80 dB, ruido de habla en el OD entre 80 − 45 − 22 + 22 = **35 dB** y 27 + 45 = **72 dB** (27 es el promedio óseo del OI).
 
 :::figura cap05_metabolica dpoae
 - @OD 2000 | En el OD pasan 1, 1,5 y 2 kHz; desde 3 kHz, nada.

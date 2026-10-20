@@ -22,13 +22,12 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "reflejos"
+      "tipo": "impedancia",
+      "sonda": 226
     },
     {
       "tipo": "abr",
@@ -54,10 +53,6 @@
         "V"
       ],
       "tasa": 81.1
-    },
-    {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
     },
     {
       "tipo": "vemp",

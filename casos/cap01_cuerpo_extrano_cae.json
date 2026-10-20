@@ -16,13 +16,12 @@
   },
   "figuras": [
     {
-      "tipo": "acumetria"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": false
+      "tipo": "impedancia",
+      "sonda": 226
     }
   ]
 }

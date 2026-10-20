@@ -16,7 +16,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-TIMP = fig.timpanograma(sonda=1000)
+TIMP = fig.impedancia(sonda=1000)
 
 CASOS = [
     cuadro('efusion_neonatal', [TIMP, fig.teoae(), fig.abr(niveles=(80, 60, 40, 20)),
@@ -32,7 +32,7 @@ CASOS = [
            historia=[(115, 'Alta de la maternidad: AABR refiere OD y OI.'),
                      (90, 'Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.')]),
     cuadro('cmv_congenito', [TIMP, fig.teoae(), fig.abr(niveles=(80, 60, 40, 20)),
-                             fig.abr(niveles=(60, 40, 20), estimulo='Burst 500 Hz', marcar=('V',)),
+                             fig.abr(niveles=(80, 60, 40, 20), estimulo='Burst 500 Hz', marcar=('V',), promediaciones=3000),
                              fig.abr(niveles=(80, 60, 40), estimulo='Burst 2 kHz', marcar=('V',))],
            od='cmv_congenito', grado_od='moderada', edad_meses=4,
            anamnesis="""Tiene 4 meses y viene con su papá y su mamá. Nació a las 38 semanas, con 3.100 g, sin

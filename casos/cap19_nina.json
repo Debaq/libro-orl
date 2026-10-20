@@ -16,11 +16,8 @@
   },
   "figuras": [
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 226
-    },
-    {
-      "tipo": "reflejos"
     },
     {
       "tipo": "teoae"

@@ -17,14 +17,14 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # La cóclea que envejece: el umbral con su LDL, la palabra y lo que queda de las CCE
-COCLEA = [fig.audiograma(), fig.logo(), fig.dpoae()]
+COCLEA = [fig.audiosupra(), fig.impedancia(), fig.logo(), fig.dpoae()]
 
 CASOS = [
     demo(36, COCLEA),
     # Semilla 1: la curva sale casi igual a la de Hernán (74 años) en una mujer
     # de 56, simétrica (diferencias de 10 dB como máximo) y con roll-over leve.
     # El logo sin enmascarar muestra la curva sombra al buscar el roll-over.
-    cuadro('metabolica', [fig.audiograma(), fig.logo(), fig.logo(enmascarado=False), fig.dpoae()],
+    cuadro('metabolica', [fig.audiosupra(), fig.impedancia(), fig.logo(), fig.logo(enmascarado=False), fig.dpoae()],
            od='metabolica', oi='metabolica', grado_od='leve', grado_oi='leve',
            edad=56, sexo='mujer', semilla=1,
            anamnesis="""Tiene 56 años y es secretaria en la oficina de un colegio. Tiene diabetes tipo 2 desde

@@ -23,8 +23,8 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # con un cuerpo extraño, sin conducto o con una masa). El tapón sí lleva su
 # timpanograma: es lo que se obtiene si igual se mide (plano con volumen
 # bajo), y enseña a leer el volumen antes que la letra.
-ACU_AUDIO = [fig.acumetria(), fig.audiograma()]
-TAPON = ACU_AUDIO + [fig.timpanograma(sonda='226')]
+ACU_AUDIO = [fig.audiosupra()]
+TAPON = ACU_AUDIO + [fig.impedancia(sonda='226')]
 
 CASOS = [
     cuadro('tapon_cerumen', TAPON, od='tapon_cerumen', edad=58,
@@ -36,7 +36,7 @@ CASOS = [
            historia=[(18, 'Tienda de audífonos: audiometría "hipoacusia OD, se sugiere adaptación de audífono". No registra otoscopía.'),
                      (6, 'Médico general: deriva a evaluación auditiva antes de adaptar un audífono.')],
            antecedentes=['hta'], medicamentos='Losartán 50 mg al día'),
-    cuadro('cuerpo_extrano_cae', ACU_AUDIO, oi='cuerpo_extrano_cae', edad=31,
+    cuadro('cuerpo_extrano_cae', ACU_AUDIO + [fig.impedancia()], oi='cuerpo_extrano_cae', edad=31,
            anamnesis="""Tiene 31 años y trabaja en el aserradero de una planta de paneles. En la faena usa tapones de
            espuma. Hace una semana, al sacárselos después del turno, sintió que en el oído izquierdo "quedó algo";
            desde entonces lo siente lleno, como con agua, y al masticar le cruje. Intentó sacárselo con un cotonito y
@@ -51,7 +51,7 @@ CASOS = [
            urgencia.""",
            historia=[(2, 'Servicio de urgencia: otalgia OD. Se indican gotas óticas antibióticas e ibuprofeno; se deja hora de audiometría por "oído tapado".')],
            medicamentos='Gotas óticas antibióticas (desde hace dos días); ibuprofeno si duele'),
-    cuadro('estenosis_atresia_cae', ACU_AUDIO, od='estenosis_atresia_cae', grado_od='moderada', edad=8,
+    cuadro('estenosis_atresia_cae', ACU_AUDIO + [fig.impedancia()], od='estenosis_atresia_cae', grado_od='moderada', edad=8,
            anamnesis="""Ramón tiene 8 años y viene con su mamá, Rocío. Nació con la oreja derecha pequeña y sin el
            agujero del oído. El tamizaje auditivo lo pasó por el izquierdo; por el derecho no se pudo hacer. Habla
            bien y le va bien en el colegio, pero se sienta con el oído izquierdo hacia la profesora y en el patio no

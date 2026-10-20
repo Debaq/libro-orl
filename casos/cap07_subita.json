@@ -21,23 +21,16 @@
   },
   "figuras": [
     {
-      "tipo": "acumetria"
-    },
-    {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
-      "sin_enmascarar": true
-    },
-    {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": true
     }
   ]
 }

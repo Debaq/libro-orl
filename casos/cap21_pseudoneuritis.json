@@ -19,7 +19,8 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
       "tipo": "nistagmo",

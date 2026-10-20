@@ -219,7 +219,7 @@ El vértigo ya pasó y sigue con síntomas al mover la cabeza. ¿Qué parte de l
 
 Se desvía hacia el lado enfermo, el **derecho**, y solo cuando le falta la vista. No hay signos de cerebelo ni de pares.
 
-:::imagen figuras/salida/cap31_buena_nistagmo.svg ancho=75% Nistagmo de Martín en la hoja del campo clínico. Con fijación no se ve. Sin fijación bate a la izquierda en todas las miradas menos a la derecha, donde se apaga.
+:::imagen figuras/salida/cap31_buena_nistagmo.svg ancho=55% Nistagmo de Martín en la hoja del campo clínico. Con fijación no se ve. Sin fijación bate a la izquierda en todas las miradas menos a la derecha, donde se apaga.
 :::
 
 Con fijación **no hay nistagmo** (OFI +). Sin fijación, el nistagmo bate **a la izquierda**: **2 °/s** al frente, arriba y abajo, y **3 °/s** a la izquierda; a la derecha desaparece. Está casi apagado. Con *head-shaking* **aumenta** a 4 °/s, siempre hacia la izquierda. Sacadas y seguimiento sin otro hallazgo.
@@ -262,7 +262,11 @@ En todas las posiciones solo persiste el nistagmo espontáneo, sin paroxismo ni 
 | **Izquierdo** | 0,98 | 0,95 | 0,97 |
 :::
 
-:::imagen figuras/salida/cap31_buena_mariposa.svg ancho=62% Gráfico de mariposa de Martín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.
+:::lado
+:::imagen figuras/salida/cap31_buena_mariposa.svg Gráfico de mariposa de Martín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.
+:::
+:::imagen figuras/salida/cap31_buena_vhit.svg vHIT de Martín: ganancia de 0,45 hacia la derecha, con sacadas overt y de 0,98 hacia la izquierda.
+:::
 :::
 
 Hipoexcitabilidad derecha: (5 + 3 − 20 − 14) / 42 = **62 %**. Dirección preponderante hacia la izquierda: **10 %**, no significativa. En el vHIT caen el lateral y el anterior derechos y el posterior se conserva: el territorio del **nervio vestibular superior**.
@@ -336,7 +340,7 @@ Por indicación médica, suspendió el dimenhidrinato 48 horas antes del examen,
 
 Se desvía y cae hacia la **izquierda**, el lado enfermo, aun con los ojos abiertos. El cerebelo y los pares están sin hallazgos.
 
-:::imagen figuras/salida/cap31_lenta_nistagmo.svg ancho=75% Nistagmo espontáneo de Lucía en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap31_lenta_nistagmo.svg ancho=55% Nistagmo espontáneo de Lucía en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* aparece un nistagmo débil, de **3 °/s**, que bate hacia la **derecha**: el lado enfermo sigue desbalanceado aunque en reposo no se note.
@@ -377,7 +381,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | **0,30**, sacadas manifiestas | **0,48**, sacadas manifiestas | 0,92 |
 :::
 
-:::imagen figuras/salida/cap31_lenta_mariposa.svg ancho=62% Gráfico de mariposa de Lucía: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) apenas se separan de la línea.
+:::lado
+:::imagen figuras/salida/cap31_lenta_mariposa.svg Gráfico de mariposa de Lucía: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) apenas se separan de la línea.
+:::
+:::imagen figuras/salida/cap31_lenta_vhit.svg vHIT de Lucía: ganancia de 1,00 hacia la derecha y de 0,30 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (19 + 15 − 3 − 3) / 40 = **70 %**. Dirección preponderante hacia la derecha: **10 %**, no significativa. En el vHIT caen el lateral y el anterior izquierdos: el territorio del **nervio vestibular superior**.
@@ -449,7 +457,7 @@ Si el reflejo ya volvió, ¿qué más puede explicar el mareo? Separa lo que dep
 
 El equilibrio estático y el dinámico son normales, sin lado hacia el que se desvíe. Cerebelo y pares, sin hallazgos.
 
-:::imagen figuras/salida/cap31_meseta_nistagmo.svg ancho=75% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap31_meseta_nistagmo.svg ancho=55% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
@@ -490,7 +498,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 1,00 | 0,97 | 0,98 |
 :::
 
-:::imagen figuras/salida/cap31_meseta_mariposa.svg ancho=62% Gráfico de mariposa de Ignacio: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son parecidas, algo menores las del OD.
+:::lado
+:::imagen figuras/salida/cap31_meseta_mariposa.svg Gráfico de mariposa de Ignacio: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son parecidas, algo menores las del OD.
+:::
+:::imagen figuras/salida/cap31_meseta_vhit.svg vHIT de Ignacio: ganancia de 0,90 hacia la derecha y de 1,00 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (14 + 11 − 20 − 16) / 61 = **18 %**, bajo el corte de 25 %. Dirección preponderante hacia la izquierda: **2 %**. El vHIT está casi en lo normal, sin sacadas.

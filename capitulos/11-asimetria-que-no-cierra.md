@@ -242,25 +242,22 @@ Con una asimetría de agudos y un acúfeno de dos años en el mismo oído, ¿qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_p39 audiograma
-- @OD 4000 | En 4 kHz el OD está en 55 dB y el OI en 15: **40 dB de asimetría**, muy por encima de los 15 que obligan a estudiar.
-- @OD osea 2000 | La ósea va pegada a la aérea: no hay gap, la pérdida es **sensorioneural**.
-- @OI 4000 | El OI es normal para la edad. Con un oído sano al lado, cualquier hallazgo del OD se compara contra él.
+:::imagen figuras/salida/cap11_p39_audiosupra.svg ancho=80% Audiometría de Raúl: en 4 kHz el OD está en 55 dB y el OI en 15; la ósea va pegada a la aérea, así que la pérdida es sensorioneural. El OI es normal para la edad.
 :::
-:::figura cap11_p39 logoaudiometria
-- @OD max | El OD no pasa del **52 %**, aunque en las frecuencias del habla su pérdida es leve. Un oído coclear con esa curva suele llegar al 90 % o más.
-- @OI max | El OI llega al 100 % a 40 dB: es la referencia de lo esperable.
-- @OD 80 | Pasado el máximo, la curva del OD **cae**: a 80 dB entiende el 20 %. Es el **roll-over**: (52 − 20) / 52 da un índice de 0,62, por encima del corte de 0,45 que sugiere lesión retrococlear (Jerger y Jerger, 1971).
+
+**40 dB de asimetría** en 4 kHz, muy por encima de los 15 que obligan a estudiar. Sin gap: la pérdida es **sensorioneural**. Con un oído sano al lado, cualquier hallazgo del OD se compara contra él. En el OD el SDT es de 10 dB y el SRT de 15 (0 y 5 en el OI). SISI de 10 %, Carhart con deterioro de 30 dB y Metz ausente: no recluta y el tono se apaga (el detalle, en la tabla de abajo).
+
+:::imagen figuras/salida/cap11_p39_logoaudiometria.svg ancho=100% Logoaudiometría de Raúl: el OD no pasa del 52 % y, pasado el máximo, cae al 20 % a 80 dB (roll-over); el OI llega al 100 % a 40 dB.
 :::
-:::figura cap11_p39 timpanograma
-- @OD pico | Curva A en los dos oídos: el oído medio está sano y no explica nada de lo que sigue. Sin este dato, los reflejos no se pueden leer.
+
+El OD no pasa del **52 %**, a 50 dB, aunque en las frecuencias del habla su pérdida es leve: un oído coclear con esa curva suele llegar al 90 % o más. Pasado el máximo la curva **cae**: a 80 dB entiende el 20 %. Es el **roll-over**: (52 − 20) / 52 da un índice de 0,62, por encima del corte de 0,45 que sugiere lesión retrococlear (Jerger y Jerger, 1971). El OI llega al 100 % a 40 dB: es la referencia de lo esperable.
+
+:::imagen figuras/salida/cap11_p39_impedancia.svg ancho=80% Impedanciometría de Raúl.
 :::
-:::figura cap11_p39 reflejos
-- @ipsi OD 1000 | El ipsilateral del OD falta en todas las frecuencias.
-- @contra OI 1000 | También falta el contralateral con el **tono en el OD** (sonda en el OI).
-- @contra OD 1000 | En cambio, con el tono en el OI y la sonda en el OD, el reflejo aparece a 90 dB en 1 kHz: el músculo y el facial del OD funcionan.
-- Falla **todo lo que se estimula por el OD**: es el patrón diagonal, aferente.
-:::
+
+Los dos oídos tienen curva A: el oído medio está sano y no explica nada de lo que sigue. Sin este dato, los reflejos no se pueden leer.
+
+Con la sonda en el OD, el ipsilateral (tono por el OD) falta en todas las frecuencias. Con la sonda en el OI, el contralateral también falta: ahí el tono también entra por el OD. En cambio, con el tono por el OI el reflejo aparece. Con la sonda en el OD, ese contralateral está presente a 90 dB en 1 kHz: el músculo y el facial del OD funcionan. Falla **todo lo que se estimula por el OD**: es el patrón diagonal, aferente.
 
 :::ayuda-ancho Lo que entrega Raúl sobre el umbral (→ H6)
 | Prueba | OD | OI |
@@ -272,12 +269,15 @@ Con una asimetría de agudos y un acúfeno de dos años en el mismo oído, ¿qu�
 :::
 
 Al nivel del STAT a su OD le sobran 70 a 85 dB sobre el umbral, y aun así no sostiene el tono: eso es lo que busca el STAT.
+
+:::lado
 :::figura cap11_p39 teoae
 - @OD 2000 | Las emisiones del OD están **presentes** en las cinco bandas, con reproducibilidad alta.
 - Un oído con 30 a 55 dB de pérdida en esas frecuencias y emisiones presentes: **las células ciliadas externas funcionan**. El problema está después de la cóclea.
 :::
 :::figura cap11_p39 dpoae
 - @OD 4000 | Los productos de distorsión confirman lo mismo: pasan en todas las frecuencias del OD, incluso donde el audiograma marca la mayor pérdida.
+:::
 :::
 :::figura cap11_p39 abr
 - @OI 80 V | La onda V del OI aparece en su lugar, con I y III bien formadas.
@@ -310,18 +310,16 @@ La pérdida del OD es mayor que en el caso anterior y no hay acúfeno. ¿Cambia 
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_schwannoma audiograma
-- @OD 4000 | Pérdida **severa en agudos**: 95 dB en 4 kHz.
-- @OD 1000 | En las frecuencias del habla la pérdida es moderada (45 dB en 1 kHz).
-- @OD osea 2000 | La ósea coincide con la aérea: sensorioneural.
+:::imagen figuras/salida/cap11_schwannoma_audiosupra.svg ancho=80% Audiometría de Lourdes: pérdida severa en agudos del OD (95 dB en 4 kHz) y moderada en el habla (45 dB en 1 kHz), con la ósea pegada a la aérea; el OI es normal.
 :::
-:::figura cap11_schwannoma logoaudiometria
-- @OD max | El OD no pasa del **20 %**, que alcanza recién a 70-80 dB, y más arriba cae. Con 45 dB en 1 kHz, un oído coclear entendería bastante más.
+
+En el OD el SDT y el SRT son de 40 dB, pero la discriminación no pasa del **20 %** (19 % a 60 dB y 20 % a 70 y 80 dB): con 45 dB en 1 kHz, un oído coclear entendería bastante más. El OI llega al 100 % a 40 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
+
+:::imagen figuras/salida/cap11_schwannoma_impedancia.svg ancho=80% Impedanciometría de Lourdes.
 :::
-:::figura cap11_schwannoma reflejos
-- @ipsi OD 1000 | Sin reflejo ipsilateral en el OD.
-- @contra OI 1000 | Sin reflejo con el tono en el OD: otra vez el **patrón diagonal**.
-:::
+
+Con la sonda en el OD, no hay reflejo ipsilateral. Con la sonda en el OI, tampoco aparece el contralateral, que se estimula por el OD. Cuando el tono entra por el OI, el reflejo está presente: 90 dB en 1 kHz con la sonda en el OD (contralateral) y 85 dB con la sonda en el OI (ipsilateral). Otra vez el **patrón diagonal**: falla lo que se estimula por el OD.
+
 :::figura cap11_schwannoma abr
 - @OD 80 | A 80 dB el OD no muestra ninguna onda que se separe del ruido: ni I ni III, y tampoco una V que se pueda marcar.
 - @OI 80 V | El OI tiene todas sus ondas bien formadas.
@@ -356,18 +354,16 @@ Un hombre de 24 años con pérdida en **los dos oídos**, peor a la derecha y co
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_nf2 audiograma
-- @OD 4000 | El OD llega a 90 dB en 4 kHz.
-- @OI 4000 | El OI llega a 55 dB en 4 kHz: los dos oídos están afectados, pero **de forma muy asimétrica**.
+:::imagen figuras/salida/cap11_nf2_audiosupra.svg ancho=80% Audiometría de Víctor: los dos oídos están afectados, pero de forma muy asimétrica: el OD llega a 90 dB en 4 kHz y el OI a 55.
 :::
-:::figura cap11_nf2 logoaudiometria
-- @OD max | El OD no pasa del 16 %.
-- @OI max | El OI llega al 52 %, aunque su pérdida en el habla es leve. Los **dos** oídos entienden menos de lo que oyen.
+
+El SDT es de 35 dB en el OD y de 20 en el OI. La discriminación no pasa del **16 %** en el OD ni del **52 %** en el OI, aunque la pérdida del OI en el habla es leve: los **dos** oídos entienden menos de lo que oyen. SISI de 10 % en los dos, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap11_nf2_impedancia.svg ancho=80% Impedanciometría de Víctor.
 :::
-:::figura cap11_nf2 reflejos
-- @ipsi OD 1000 | No hay reflejos en ninguna combinación.
-- @contra OD 1000 | Tampoco en los contralaterales. Con dos nervios afectados, ningún estímulo dispara el arco.
-:::
+
+No hay reflejos en ninguna combinación: ni ipsilaterales ni contralaterales, con la sonda en el OD y con la sonda en el OI. Con dos nervios afectados, ningún estímulo dispara el arco.
+
 :::figura cap11_nf2 abr
 - @OD 80 | El OD no tiene respuesta a 80 dB.
 - @OI 80 V | El OI muestra ondas de mala morfología y una V tardía para su umbral.
@@ -397,18 +393,16 @@ La asimetría es moderada, la pérdida del OI no pasa de moderada y el paciente 
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_angulo audiograma
-- @OI 4000 | El OI está en 45 dB en 4 kHz.
-- @OD 4000 | El OD está en 20 dB en 4 kHz. Una presbiacusia sería **simétrica**: esta diferencia no la explica la edad.
+:::imagen figuras/salida/cap11_angulo_audiosupra.svg ancho=80% Audiometría de Manuel: el OI está en 45 dB en 4 kHz y el OD en 20; la asimetría no la explica la edad.
 :::
-:::figura cap11_angulo logoaudiometria
-- @OI max | El OI llega al 68 %, menos de lo esperable para su curva, y pasados los 50 dB cae.
+
+Una presbiacusia sería **simétrica**. En el OI el SDT y el SRT son de 15 dB, pero la discriminación llega solo al **68 %**, a 50 dB, menos de lo esperable para su curva; el OD llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz, Metz de 94,5 y 95 dB en 500 y 1.000 Hz (ausente en 2 y 4 kHz) y decay del reflejo positivo.
+
+:::imagen figuras/salida/cap11_angulo_impedancia.svg ancho=80% Impedanciometría de Manuel.
 :::
-:::figura cap11_angulo reflejos
-- @ipsi OI 500 | Con tono en el OI, el reflejo aparece recién a 115 dB en 500 Hz, 25 dB más arriba que en el OD: **elevado**.
-- @ipsi OI 2000 | En los agudos ya no aparece.
-- @contra OD 500 | Con el tono en el OI y la sonda en el OD pasa lo mismo: 120 dB, contra 95 en el sentido opuesto. El problema está en el oído que recibe el tono.
-:::
+
+Con el tono por el OI, el reflejo aparece recién a 115 dB en 500 Hz (sonda en el OI, ipsilateral), 25 dB más arriba que con el tono por el OD, que lo dispara a 90 dB: **elevado**. En los agudos ya no aparece. Con la sonda en el OD, el contralateral del mismo oído muestra lo mismo: 120 dB en 500 Hz, contra 95 cuando el tono entra por el OD. El problema está en el oído que recibe el tono.
+
 :::figura cap11_angulo abr
 - @OD 80 V | La V del OD llega en su lugar.
 - @OI 80 V | La V del OI llega más tarde y con amplitud baja, aunque su pérdida a esa altura es leve.
@@ -437,17 +431,16 @@ Una mujer de 47 años con zumbido en el OD y una pérdida leve en agudos de ese 
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_microvascular audiograma
-- @OD 500 | Los **graves están conservados**: 10 dB en 500 Hz. Por eso el Weber no lateraliza en esa frecuencia.
-- @OD 4000 | La pérdida aparece desde 2 kHz y llega a 55 dB en 4 kHz: es **de frecuencia específica**.
+:::imagen figuras/salida/cap11_microvascular_audiosupra.svg ancho=80% Audiometría de Lourdes: los graves del OD están conservados (10 dB en 500 Hz) y la pérdida aparece desde 2 kHz hasta 55 dB en 4 kHz; el OI es normal.
 :::
-:::figura cap11_microvascular logoaudiometria
-- @OD max | El OD llega al 60 %, poco para una pérdida que respeta los graves, y sobre 50 dB cae.
+
+Los **graves conservados** explican que el Weber no lateralice en 500 Hz: la pérdida es **de frecuencia específica**. En el OD el SDT y el SRT son de 15 dB, pero la discriminación llega solo al **60 %**, a 50 dB, poco para una pérdida que respeta los graves; el OI llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz, Metz de 94,5 dB en 500 Hz (ausente desde 1 kHz) y decay del reflejo positivo.
+
+:::imagen figuras/salida/cap11_microvascular_impedancia.svg ancho=80% Impedanciometría de Lourdes.
 :::
-:::figura cap11_microvascular reflejos
-- @ipsi OD 500 | Con tono en el OD, el reflejo aparece en 500 Hz pero elevado: 110 dB, contra 90 en el OI.
-- @ipsi OD 2000 | Desde 1 kHz desaparece, con umbrales de 20 a 55 dB: una pérdida coclear de ese grado lo conservaría.
-:::
+
+Con el tono por el OD, el reflejo aparece en 500 Hz pero elevado: 110 dB (sonda en el OD, ipsilateral), contra 90 dB con el tono por el OI. Desde 1 kHz desaparece, y el contralateral que se estimula por el OD (sonda en el OI) llega solo a 120 dB en 500 Hz. Con umbrales de 20 a 55 dB, una pérdida coclear de ese grado lo conservaría.
+
 :::figura cap11_microvascular abr
 - @OD 80 I | La onda I del OD está en su lugar.
 - @OD 80 III | La III ya llega tarde: el interpico **I-III** está alargado. Es el tramo del nervio dentro del conducto y el ángulo.
@@ -477,18 +470,16 @@ Un hombre de 66 años con pérdida moderada del OI y acúfeno de ese lado. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap11_retrococlear audiograma
-- @OI 1000 | Pérdida moderada del OI, plana hasta 2 kHz (40 dB en 1 kHz).
-- @OI 4000 | Más pérdida en agudos: 70 dB en 4 kHz.
-- @OD 4000 | El OD tiene solo la caída de agudos esperable a su edad.
+:::imagen figuras/salida/cap11_retrococlear_audiosupra.svg ancho=80% Audiometría de Ramón: pérdida moderada del OI, plana hasta 2 kHz (40 dB en 1 kHz) y de 70 dB en 4 kHz; el OD solo tiene la caída de agudos esperable a su edad.
 :::
-:::figura cap11_retrococlear logoaudiometria
-- @OI max | Con esa curva, una lesión solo coclear daría 80 % o más. El OI **no pasa del 36 %**, y sobre 70 dB cae.
+
+En el OI el SDT y el SRT son de 35 dB, pero la discriminación **no pasa del 36 %** (a 60 y 70 dB): con esa curva, una lesión solo coclear daría 80 % o más. El OD llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
+
+:::imagen figuras/salida/cap11_retrococlear_impedancia.svg ancho=80% Impedanciometría de Ramón.
 :::
-:::figura cap11_retrococlear reflejos
-- @ipsi OI 1000 | Sin reflejo al estimular el OI, ni ipsi ni contralateral.
-- @contra OD 1000 | Con el tono en el OI y la sonda en el OD, tampoco: patrón diagonal desde el OI.
-:::
+
+Sin reflejo al estimular el OI: no aparece el ipsilateral (sonda en el OI) ni el contralateral (sonda en el OD). Con el tono por el OD, en cambio, hay reflejo, ipsi con la sonda en el OD y contra con la sonda en el OI, a 85-95 dB. Es un patrón diagonal que parte del OI.
+
 :::figura cap11_retrococlear abr
 - @OI 80 V | A 80 dB el OI apenas muestra III y V.
 - @OI 60 | A 60 dB el OI ya no responde.
@@ -589,7 +580,6 @@ Hipoacusia sensorioneural del OI con componente retrococlear. Se sugiere resonan
 :::comentario Comentario
 Es el paciente que vuelve molesto porque "el audífono no le sirve". La discriminación del 36 % lo anunciaba desde el primer día.
 :::
-
 
 :::comentario Prevención
 - **Secundaria:** el schwannoma y los demás tumores del ángulo se detectan antes por la sospecha clínica: la pérdida sensorioneural asimétrica, el acúfeno unilateral y persistente, y la súbita. La guía de acúfeno pide una audiometría completa y pronta cuando el acúfeno es unilateral, dura seis meses o más o se acompaña de dificultad para oír (Tunkel y cols., 2014); la de súbita pide estudiar la patología retrococlear con resonancia o PEAT (Chandrasekhar y cols., 2019). Una audición normal no descarta el tumor (Chiarovano y cols., 2014).

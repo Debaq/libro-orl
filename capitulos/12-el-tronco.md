@@ -191,14 +191,16 @@ Ella dice que oye bien. ¿Qué te dice eso sobre el audiograma que esperas? ¿Qu
 
 #### Paso 4 · Los resultados
 
-:::figura cap12_esclerosis_multiple audiograma
-- @OD 1000 | Los umbrales del OD están en 0 dB en todas las frecuencias: **audiograma normal**. Lo que se busca no está en los umbrales.
-- @OI 1000 | El OI también es normal. Con esta historia, un audiograma sano no tranquiliza.
+:::imagen figuras/salida/cap12_esclerosis_multiple_audiosupra.svg ancho=80% Audiometría de Rocío: umbrales de 0 dB en todas las frecuencias, en los dos oídos.
 :::
-:::figura cap12_esclerosis_multiple reflejos
-- @ipsi OD 1000 | Los reflejos están **ausentes en los cuatro registros**, con umbrales normales y oído medio sano (timpanograma A).
-- @contra OD 1000 | Ausentes también los contralaterales. El arco del reflejo cruza el tronco: si falla desde los dos oídos, el problema no está en la cóclea.
+
+**Audiograma normal**: lo que se busca no está en los umbrales. SDT de −5 dB y SRT de 0 dB en los dos oídos, con una discriminación máxima de 80 %, a 30 dB. Con esta historia, un audiograma sano no tranquiliza.
+
+:::imagen figuras/salida/cap12_esclerosis_multiple_impedancia.svg ancho=80% Impedanciometría de Rocío.
 :::
+
+Los reflejos están **ausentes en los cuatro registros**: el ipsilateral y el contralateral con la sonda en el OD, y los dos con la sonda en el OI. Los umbrales son normales y el oído medio está sano (timpanograma A). El arco del reflejo cruza el tronco: si falla estimulando los dos oídos, el problema no está en la cóclea.
+
 :::figura cap12_esclerosis_multiple abr
 - @OD 80 I | La onda I del OD llega a 1,2 ms y la III a 3,3: **I-III de 2,1 ms**, normal (límite 2,6).
 - @OD 80 V | La V llega a 5,9 ms: **III-V de 2,6 ms** (límite 2,3) e I-V de 4,7 ms, sobre el límite (4,6). El tramo alto del tronco es el que se alarga.
@@ -234,19 +236,16 @@ Una sordera súbita con vértigo puede ser viral, de oído interno o vascular. �
 
 #### Paso 4 · Los resultados
 
-:::figura cap12_infarto_aica audiograma
-- @OD 4000 | El OD tiene una pérdida **sensorioneural moderada**, de 30 dB en graves y 60 dB en 4 kHz, sin gap.
-- @OI 4000 | El OI está en 25 dB en 4 kHz, lo esperable a los 63 años: es el oído testigo.
+:::imagen figuras/salida/cap12_infarto_aica_audiosupra.svg ancho=80% Audiometría de Iván: el OD tiene una pérdida sensorioneural moderada (30 dB en graves, 60 dB en 4 kHz), sin gap; el OI, de 25 dB en 4 kHz, es el oído testigo.
 :::
-:::figura cap12_infarto_aica logoaudiometria
-- @OD max | La discriminación del OD llega solo al **56 %**.
-- @OD 100 | A 100 dB baja al 25 %: **roll-over**. El OI llega al 100 %.
+
+En el OD el SDT es de 35 dB y el SRT de 40. La discriminación llega solo al **56 %**, a 70 dB, y a 100 dB baja al 25 %: **roll-over**. El OI llega al 100 %. SISI de 50 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
+
+:::imagen figuras/salida/cap12_infarto_aica_impedancia.svg ancho=80% Impedanciometría de Iván.
 :::
-:::figura cap12_infarto_aica reflejos
-- @ipsi OD 1000 | El reflejo ipsilateral del OD **falta**.
-- @contra OI 1000 | También falta con el tono en el OD y la sonda en el OI: falla todo lo que se estimula por el OD, patrón **diagonal** (aferente).
-- @ipsi OI 1000 | Estimulando el OI el reflejo aparece a 85 dB: el músculo y el facial funcionan.
-:::
+
+Con la sonda en el OD, el reflejo ipsilateral **falta**. También falta el contralateral con la sonda en el OI, que se estimula por el OD: falla todo lo que entra por el OD, patrón **diagonal** (aferente). Con el tono por el OI el reflejo aparece, a 85 dB con la sonda en el OI (ipsilateral) y a 90 dB con la sonda en el OD (contralateral): el músculo y el facial funcionan.
+
 :::figura cap12_infarto_aica abr
 - @OD 80 III | En el OD **no hay onda I**. La III llega a 4,0 ms.
 - @OD 80 V | La V llega a 6,1 ms, de buen tamaño: **III-V de 2,1 ms**, normal. El tronco conduce bien.
@@ -286,14 +285,16 @@ La resonancia tiene lista de espera. ¿Qué parte de la evaluación auditiva se 
 
 #### Paso 4 · Los resultados
 
-:::figura cap12_glioma_tronco audiograma
-- @OD 4000 | Los dos oídos tienen una pérdida **leve y descendente**: el OD llega a 45 dB en 4 kHz y el OI a 40.
-- @OI 4000 | Es simétrica y sensorioneural, de un grado que no alcanza para explicar ni la torpeza, ni la cefalea, ni el ojo.
+:::imagen figuras/salida/cap12_glioma_tronco_audiosupra.svg ancho=80% Audiometría de Julia: pérdida leve, descendente y simétrica (45 dB en 4 kHz en el OD y 40 en el OI), sensorioneural.
 :::
-:::figura cap12_glioma_tronco reflejos
-- @ipsi OD 1000 | Los reflejos están **ausentes en los cuatro registros**, con umbrales de 20 a 35 dB entre 500 y 2.000 Hz.
-- @contra OI 1000 | Con esa audición y un timpanograma A, un oído coclear tendría reflejos presentes (Gelfand y cols., 1990); su ausencia bilateral apunta al arco del reflejo en el tronco.
+
+Es de un grado que no alcanza para explicar ni la torpeza, ni la cefalea, ni el ojo. El SDT es de 20 dB en el OD y de 15 en el OI, y el SRT de 25 y 20; la discriminación no pasa del 56 % en ninguno. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap12_glioma_tronco_impedancia.svg ancho=80% Impedanciometría de Julia.
 :::
+
+Los reflejos están **ausentes en los cuatro registros**, ipsi y contra con cada sonda, con umbrales de 20 a 35 dB entre 500 y 2.000 Hz. Con esa audición y un timpanograma A, un oído coclear tendría reflejos presentes (Gelfand y cols., 1990). Su ausencia bilateral apunta al arco del reflejo en el tronco.
+
 :::figura cap12_glioma_tronco abr
 - @OD 80 V | La V del OD llega a 6,1 ms, **0,6 ms después** de lo que marca la tabla del niño (5,5 ms), con I-V de 4,6 ms. Las ondas miden 0,2 µV o menos.
 - @OI 80 V | En el OI la V también llega a 6,1 ms (I-V de 4,5): el patrón se repite en los dos oídos, y **no hay un oído testigo**.
@@ -328,17 +329,16 @@ Los dos oídos están afectados y no hay oído testigo. ¿Qué pruebas agregarí
 
 #### Paso 4 · Los resultados
 
-:::figura cap12_siderosis audiograma
-- @OD 4000 | Pérdida **bilateral y descendente**: el OD llega a 45 dB en 4 kHz y el OI a 50.
-- @OI 8000 | El OI cae a 65 dB en 8 kHz. Es casi simétrica (hasta 10 dB de diferencia) y excede lo esperable para su edad.
+:::imagen figuras/salida/cap12_siderosis_audiosupra.svg ancho=80% Audiometría de Fernando: pérdida bilateral y descendente, casi simétrica (45 dB en 4 kHz en el OD y 50 en el OI, que cae a 65 dB en 8 kHz), por sobre lo esperable a los 58 años.
 :::
-:::figura cap12_siderosis logoaudiometria
-- @OD max | Con umbrales de 20 a 35 dB en el habla, el OD llega solo al **64 %** y sobre 60 dB cae.
-- @OI max | El OI llega al **60 %**. Los dos oídos entienden menos de lo que oyen.
+
+Con un SDT de 15 dB en el OD y de 20 en el OI, y un SRT de 20 y 25, el OD llega solo al **64 %**, a 50 dB, y el OI al **60 %**, a 60 dB: los dos oídos entienden menos de lo que oyen. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap12_siderosis_impedancia.svg ancho=80% Impedanciometría de Fernando.
 :::
-:::figura cap12_siderosis reflejos
-- @ipsi OD 1000 | Reflejos ausentes en los cuatro registros.
-:::
+
+Reflejos ausentes en los cuatro registros: ipsilateral y contralateral, con la sonda en el OD y con la sonda en el OI.
+
 :::figura cap12_siderosis abr
 - @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,7 ms y la III en 4,6: **I-III de 2,9 ms**, sobre el límite de 2,7.
 - @OD 80 V | La V llega a 6,7 ms: I-V de 5,0 ms (límite 4,7).
@@ -378,14 +378,16 @@ El médico pensó en Ménière. ¿Qué dato de la historia no calza con un hidro
 
 #### Paso 4 · Los resultados
 
-:::figura cap12_hic_idiopatica audiograma
-- @OD 125 | La pérdida es de **graves**: el OD está en 55 dB en 125 Hz, 40 en 500 y 15 a 25 dB desde 2.000 Hz.
-- @OI 125 | El OI es parecido, 55 dB en 125 y 250 Hz. Es una pérdida **neurosensorial ascendente**, como la de un hidrops.
+:::imagen figuras/salida/cap12_hic_idiopatica_audiosupra.svg ancho=80% Audiometría de Laura: pérdida de graves en los dos oídos (55 dB en 125 Hz y 40 en 500 Hz en el OD; 55 dB en 125 y 250 Hz en el OI), ascendente, como la de un hidrops.
 :::
-:::figura cap12_hic_idiopatica reflejos
-- @ipsi OD 1000 | Los reflejos están **ausentes** en los cuatro registros, con 15 a 30 dB en 1.000 a 4.000 Hz.
-- @contra OI 1000 | Un oído coclear con esa audición en las frecuencias medias y agudas tendría reflejos (Gelfand y cols., 1990): su ausencia no encaja con la cóclea sola.
+
+Es una pérdida **neurosensorial ascendente**, con 15 a 25 dB desde 2.000 Hz. El SDT es de 15 dB en el OD y de 20 en el OI, y el SRT de 20 y 25; la discriminación llega al 64 % en el OD y al 72 % en el OI. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+
+:::imagen figuras/salida/cap12_hic_idiopatica_impedancia.svg ancho=80% Impedanciometría de Laura.
 :::
+
+Los reflejos están **ausentes** en los cuatro registros, ipsi y contra con cada sonda, con 15 a 30 dB en 1.000 a 4.000 Hz. Un oído coclear con esa audición en las frecuencias medias y agudas tendría reflejos (Gelfand y cols., 1990): su ausencia no encaja con la cóclea sola.
+
 :::figura cap12_hic_idiopatica abr
 - @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4** y **III-V de 2,3 ms**, bajo el límite; **I-V de 4,7 ms**, apenas sobre el límite de 4,58.
 - @OI 80 V | El OI es igual: I-V de 4,7 ms. La diferencia entre los dos oídos es mínima, así que **no hay testigo ni asimetría que leer**.

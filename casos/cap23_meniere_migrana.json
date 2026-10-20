@@ -24,7 +24,12 @@
       "sin_fijacion": {}
     },
     {
-      "tipo": "audiosupra"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
     },
     {
       "tipo": "mariposa",
@@ -32,6 +37,17 @@
       "OD30": 22,
       "OI44": 13,
       "OI30": 11
+    },
+    {
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 1.01,
+        "sacadas": null
+      },
+      "izq": {
+        "ganancia": 0.97,
+        "sacadas": null
+      }
     },
     {
       "tipo": "vemp",

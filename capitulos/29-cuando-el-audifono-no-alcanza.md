@@ -186,21 +186,19 @@ Además del audiograma, ¿qué mirarías para decidir si es candidata a evaluaci
 
 #### Paso 4 · Los resultados
 
-:::figura cap29_autoinmune audiograma
-- @OD 1000 | El OD está en **70 dB** en 1 kHz y en **80 dB** en 2 kHz; el OI, en 65 y 80. Promedio de 500, 1.000 y 2.000 Hz: **72 dB HL en el OD y 68 en el OI**, sobre el corte de 60.
-- @OD osea 2000 | La ósea va sobre la aérea: pérdida **sensorioneural pura**.
-- @OD 4000 | En 4 kHz está en **95 dB**: la zona donde viven las consonantes casi no tiene señal.
+:::imagen figuras/salida/cap29_autoinmune_audiosupra.svg ancho=80% Audiometría de la paciente: pérdida severa bilateral con discriminación que no pasa de 56 % y 60 %.
 :::
-:::figura cap29_autoinmune logoaudiometria
-- @OD max | El OD llega solo al **56 %** y el OI al **60 %**, y eso a 100 dB HL, un nivel que el audífono no puede entregar de forma sostenida.
-- @OD 80 | A 80 dB el OD entiende alrededor de 50 %: la curva sube tarde y se **aplana** lejos del 100 %.
-:::
+
+El OD está en **70 dB** en 1 kHz y en **80 dB** en 2 kHz; el OI, en 65 y 80. Promedio de 500, 1.000 y 2.000 Hz: **72 dB HL en el OD y 68 en el OI**, sobre el corte de 60. La ósea va sobre la aérea: pérdida **sensorioneural pura**. En 4 kHz el OD está en **95 dB**: la zona donde viven las consonantes casi no tiene señal. El OD llega solo al **56 %** y el OI al **60 %**, y eso a 100 dB HL, un nivel que el audífono no puede entregar de forma sostenida: el OD marca 51 % a 80 dB y 55 a 90, la curva sube tarde y se **aplana** lejos del 100 %. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 9,5 a 34,5 dB: recluta, es coclear.
+
 :::figura cap29_autoinmune teoae
 - @OD 2000 | Emisiones **ausentes** (0 de 5 bandas) en los dos oídos, como corresponde a una cóclea con las células ciliadas externas dañadas. No es el patrón de neuropatía (→ cap. 13), que tiene emisiones presentes.
 :::
-:::figura cap29_autoinmune reflejos
-- @ipsi OD 1000 | El reflejo existe a **90 dB**, que con un umbral de 70 deja solo 20 dB de margen: es el **reclutamiento** de una cóclea dañada (→ H6). El arco reflejo, y con él el VIII par, se comporta.
+:::imagen figuras/salida/cap29_autoinmune_impedancia.svg ancho=80% Impedanciometría de la paciente.
 :::
+
+Con la sonda en el OD, el reflejo ipsilateral existe a **90 dB SPL** en 1.000 Hz, que con un umbral de 70 deja solo 20 dB de margen: es el **reclutamiento** de una cóclea dañada (→ H6). El arco reflejo, y con él el VIII par, se comporta.
+
 :::figura cap29_autoinmune campo_libre
 - @S 2000 | Sin audífono, el mejor oído está en **80 dB** en 2 kHz.
 - @A 250 | Con el audífono baja a **25 dB** en los graves: llega sonido.
@@ -240,13 +238,11 @@ Dice que el audífono "no le sirve" a los tres meses. ¿Cómo se adaptaron? ¿Cu
 
 #### Paso 4 · Los resultados
 
-:::figura cap29_aun_no audiograma
-- @OD 1000 | Pérdida moderada de **45 dB** en 1 kHz y **55 dB** en 2 kHz; promedio de 500, 1.000 y 2.000 Hz de **48 dB en el OD y 45 en el OI**, bajo el corte de 60.
-- @OI osea 2000 | La ósea sigue a la aérea: es sensorioneural.
+:::imagen figuras/salida/cap29_aun_no_audiosupra.svg ancho=80% Audiometría del paciente: pérdida moderada sensorioneural, con discriminación de 72 % y 76 %.
 :::
-:::figura cap29_aun_no logoaudiometria
-- @OD max | El OD llega al **72 %** y el OI al **76 %**: buena discriminación, con curva que sube sin caída.
-:::
+
+Pérdida moderada de **45 dB** en 1 kHz y **55 dB** en 2 kHz; promedio de 500, 1.000 y 2.000 Hz de **48 dB en el OD y 45 en el OI**, bajo el corte de 60. La ósea sigue a la aérea: es sensorioneural. El OD llega al **72 %** (a 80 dB) y el OI al **76 %** (a 70 dB): buena discriminación, sin caída al subir la intensidad. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 19,5 a 54,5 dB: recluta, es coclear.
+
 :::figura cap29_aun_no campo_libre
 - @S 1000 | Sin audífono, el mejor oído está en **45 dB** en 1 kHz.
 - @A 1000 | Con audífono está en **15 dB**: queda dentro de lo normal en las frecuencias del habla.
@@ -286,17 +282,15 @@ Con un oído que supura de forma recurrente, ¿qué pasaría con un audífono co
 
 #### Paso 4 · Los resultados
 
-:::figura cap29_p41 audiograma
-- @OI 1000 | La vía aérea del OI está en **50 dB** en 1 kHz; la ósea, en **25**: una brecha de 25 dB.
-- @OI osea 2000 | La ósea de 2 kHz está en **35 dB**: el promedio óseo de 500 a 3.000 Hz es de unos **31 dB**, por debajo de los topes habituales de estos dispositivos.
-- @OD 1000 | El OD es normal: el dispositivo tiene un oído sano al lado.
+:::imagen figuras/salida/cap29_p41_audiosupra.svg ancho=80% Audiometría del paciente: OI con brecha aéreo-ósea de 25 dB; OD normal.
 :::
-:::figura cap29_p41 logoaudiometria
-- @OI max | El OI alcanza el **92 %**, pero necesita **90 dB**: la cóclea discrimina bien cuando recibe suficiente señal.
+
+La vía aérea del OI está en **50 dB** en 1 kHz; la ósea, en **25**: una brecha de 25 dB. La ósea de 2 kHz está en **35 dB**: el promedio óseo de 500 a 3.000 Hz es de unos **31 dB**, por debajo de los topes habituales de estos dispositivos. El OD es normal: el dispositivo tiene un oído sano al lado. En el OI el SDT es de 45 dB y el SRT de 50; discrimina **92 %**, pero necesita **90 dB**: la cóclea discrimina bien cuando recibe suficiente señal.
+
+:::imagen figuras/salida/cap29_p41_impedancia.svg ancho=80% Impedanciometría del paciente.
 :::
-:::figura cap29_p41 timpanograma
-- @OI pico | Curva **B** en el OI: el oído medio no transmite, que es la razón de la brecha.
-:::
+
+Curva **B** en el OI: el oído medio no transmite, que es la razón de la brecha. Con la sonda en ese oído no hay reflejo en ninguna combinación: el oído medio ocupado impide registrarlo.
 
 :::docente Guía del caso
 - **Datos clave:** otitis crónica con supuración recurrente, cirugía de tubos de niño, pérdida del OI que avanza, OD normal; miedo a perder días de trabajo.
@@ -321,15 +315,16 @@ Perdió el oído derecho a los 6 años, después de las paperas, y "se acostumbr
 
 #### Paso 4 · Los resultados
 
-:::figura cap29_p42 audiograma
-- @OD 1000 | El OD no responde: umbral en el **máximo del equipo (120 dB)** en el aéreo, y tampoco en ósea.
-- @OI 1000 | El OI está en **0 dB**, normal en todas las frecuencias.
+:::imagen figuras/salida/cap29_p42_audiosupra.svg ancho=80% Audiometría del paciente: OD sin respuesta, OI normal.
 :::
-:::figura cap29_p42 reflejos
-- @ipsi OD 1000 | Sin reflejo ipsilateral en el OD.
-- @contra OI 1000 | Sin reflejo al estimular el OD (sonda en el OI): coherente con un oído sin audición.
-- @contra OD 1000 | Con el tono en el OI y la sonda en el OD, el reflejo aparece: **el arco del OD funciona**; lo que falta es la entrada.
+
+El OD no responde: umbral en el **máximo del equipo (120 dB)** en el aéreo, y tampoco en ósea. El OI está en **0 dB**, normal en todas las frecuencias.
+
+:::imagen figuras/salida/cap29_p42_impedancia.svg ancho=80% Impedanciometría del paciente.
 :::
+
+No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: es lo esperable en un oído sin audición. Con el tono en el OI y la sonda en el OD, el reflejo aparece: **el arco del OD funciona**; lo que falta es la entrada.
+
 :::figura cap29_p42 teoae
 - @OD 2000 | En el OD no hay emisiones: la cóclea no responde.
 - @OI 2000 | En el OI están **presentes**.

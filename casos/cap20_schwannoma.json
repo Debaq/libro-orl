@@ -19,10 +19,22 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.74,
+        "sacadas": "covert"
+      },
+      "izq": {
+        "ganancia": 0.98,
+        "sacadas": null
+      }
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
       "sonda": 226
     },
     {

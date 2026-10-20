@@ -226,22 +226,17 @@ La mamá teme que "se esté quedando sordo" porque un primo usa audífono. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::figura cap02_p35 audiograma
-- @OD 500 | La aérea del OD está en 30 dB entre 125 y 500 Hz, con la ósea en 0: un gap de 30 dB.
-- @OI 2000 | El OI está unos 5 dB peor que el OD en casi todas las frecuencias (35 dB en 2 kHz). Es una pérdida conductiva **leve y bilateral**.
-- @OD osea 2000 | La ósea baja a 10 dB justo en 2 kHz, en los dos oídos: es la **muesca de Carhart** de la efusión, no un daño de la cóclea.
+:::imagen figuras/salida/cap02_p35_audiosupra.svg ancho=80% Audiometría de Benjamín: conductiva leve y bilateral, con la muesca de Carhart en 2 kHz en la ósea.
 :::
-:::figura cap02_p35 acumetria
-- @weber 500 | El Weber no lateraliza: los dos oídos tienen gaps parecidos.
-- @rinne OD 500 | Rinne negativo en los dos oídos: oye mejor el diapasón apoyado en la mastoides que frente al oído.
+
+La aérea del OD está en 30 dB entre 125 y 500 Hz, con la ósea en 0: un gap de 30 dB. El OI está unos 5 dB peor que el OD en casi todas las frecuencias (35 dB en 2 kHz): es una pérdida conductiva **leve y bilateral**. La ósea baja a 10 dB justo en 2 kHz, en los dos oídos: es la **muesca de Carhart** de la efusión, no un daño de la cóclea. El Weber no lateraliza, porque los dos oídos tienen gaps parecidos, y el Rinne es negativo en los dos: oye mejor el diapasón apoyado en la mastoides que frente al oído. La palabra acompaña: SDT de 20 dB en el OD y de 25 en el OI, SRT de 25 y 30 dB, y discriminación de 100 % en los dos (a 70 dB, con ruido de habla en el oído contrario).
+
+:::imagen figuras/salida/cap02_p35_impedancia.svg ancho=80% Impedanciometría de Benjamín.
 :::
-:::figura cap02_p35 timpanograma
-- @OD pico | Curva plana, sin pico: **tipo B**. El volumen es de 0,42 mL.
-- @OI pico | También B, con 0,70 mL. Los dos volúmenes son normales para un niño de 5 años: la sonda mide un conducto cerrado por un tímpano que no se mueve.
-:::
-:::figura cap02_p35 reflejos
-- @ipsi OD 1000 | No hay reflejo en ninguna combinación. Con las dos cajas ocupadas, ninguna sonda puede registrar la contracción.
-:::
+
+El OD tiene una curva plana, sin pico: **tipo B**, con un volumen de 0,42 mL. El OI también es B, con 0,70 mL. Los dos volúmenes son normales para un niño de 5 años: la sonda mide un conducto cerrado por un tímpano que no se mueve. No hay reflejos con la sonda en ninguno de los dos oídos, y la función tubaria sale con disfunción en ambos.
+
+Con la sonda en el OD, en el ipsilateral, no hay reflejo en ninguna combinación. Con las dos cajas ocupadas, ninguna sonda puede registrar la contracción.
 
 :::docente Guía del caso
 - **Datos clave:** 5 años, resfríos a repetición, dos otitis agudas en el año, **ronca y respira por la boca** (adenoides), "no responde cuando lo llaman", sube el volumen de la tele, tamizaje neonatal normal. Otoscopía: tímpanos opacos y ámbar, con burbujas y niveles en el OI; el otorrino ya vio líquido hace casi tres meses.
@@ -269,25 +264,17 @@ El dolor ya pasó. ¿Qué esperas de la vía ósea del OD en esta fase? Si sale 
 
 #### Paso 4 · Los resultados
 
-:::figura cap02_otitis_media_aguda audiograma
-- @OD 1000 | La aérea del OD está entre 25 y 35 dB en todas las frecuencias: pérdida leve y plana.
-- @OD osea 1000 | La ósea del OD **no está en 0**: queda entre 10 y 15 dB de 1 a 4 kHz, cuando la del OI está en 0. Todavía es normal, pero bajó: en la fase aguda también cae la ósea.
-- @OI 1000 | El OI está en 0 dB: es la referencia de lo normal para Aurora.
+:::imagen figuras/salida/cap02_otitis_media_aguda_audiosupra.svg ancho=80% Audiometría de Aurora: conductiva leve y plana del OD, con la ósea del OD algo bajo 0; OI normal.
 :::
-:::figura cap02_otitis_media_aguda acumetria
-- @weber 500 | En 500 Hz el Weber se va al OD, el oído con gap.
-- @weber 1000 | En 1 kHz no lateraliza: la ósea del OD también bajó (15 dB) y compensa el gap.
-- @rinne OD 500 | Rinne negativo en el OD y positivo en el OI.
+
+La aérea del OD está entre 25 y 35 dB en todas las frecuencias: pérdida leve y plana. La ósea del OD **no está en 0**: queda entre 10 y 15 dB de 1 a 4 kHz, cuando la del OI está en 0. Todavía es normal, pero bajó: en la fase aguda también cae la ósea. El OI está en 0 dB y es la referencia de lo normal para Aurora. En 500 Hz el Weber se va al OD, el oído con gap; en 1 kHz no lateraliza, porque la ósea del OD también bajó (15 dB) y compensa el gap. El Rinne es negativo en el OD y positivo en el OI. SDT y SRT son de 30 dB en el OD y de 0 en el OI, y la discriminación llega a 100 % en los dos oídos (a 60 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
+
+:::imagen figuras/salida/cap02_otitis_media_aguda_impedancia.svg ancho=80% Impedanciometría de Aurora.
 :::
-:::figura cap02_otitis_media_aguda timpanograma
-- @OD pico | **B** con un volumen de 0,85 mL, normal: tímpano entero y caja ocupada.
-- @OI pico | **A**, con el pico en 16 daPa.
-:::
-:::figura cap02_otitis_media_aguda reflejos
-- @ipsi OD 1000 | Con la sonda en el OD no hay reflejo, ni ipsi ni contralateral.
-- @contra OI 1000 | Con la sonda en el OI y el tono en el OD aparece a 110 dB SPL en 1 kHz (110 a 120 en todas): llega, pero tarde, porque el tono tiene que cruzar el gap del OD.
-- @ipsi OI 1000 | El ipsilateral del OI está en 85 dB SPL en 1 kHz (90 en las demás), normal.
-:::
+
+El OD es **B**, con un volumen de 0,85 mL, normal: tímpano entero y caja ocupada. El OI es **A**, con el pico en 16 daPa. Con la sonda en el OD no hay reflejos. Con la sonda en el OI, el ipsilateral aparece en 85 a 90 dB y el contralateral, que estimula el OD enfermo, en 110 a 120 dB.
+
+Con la sonda en el OD no hay reflejo, ni ipsi ni contralateral. Con la sonda en el OI y el tono en el OD aparece a 110 dB SPL en 1 kHz (110 a 120 en todas): llega, pero tarde, porque el tono tiene que cruzar el gap del OD. El ipsilateral del OI está en 85 dB SPL en 1 kHz (90 en las demás), normal.
 
 :::docente Guía del caso
 - **Datos clave:** 8 años, primera otitis, inicio brusco con dolor y fiebre hace cinco días, ya sin dolor con antibiótico; oye "como dentro de una pecera" por el OD. Otoscopía: tímpano derecho abombado y opaco; izquierdo normal.
@@ -313,20 +300,17 @@ El otorrino pidió función tubaria. ¿Qué prueba de función tubaria correspon
 
 #### Paso 4 · Los resultados
 
-:::figura cap02_disfuncion_tubaria audiograma
-- @OD 250 | Pérdida de graves: 45 dB en 250 Hz en el OD.
-- @OD osea 500 | La ósea está en 10 dB en los graves, en los dos oídos. La presión negativa también la baja un poco.
-- @OD 4000 | Desde 3 kHz los dos oídos están casi normales (15 a 20 dB): el gap es **de graves**.
+:::imagen figuras/salida/cap02_disfuncion_tubaria_audiosupra.svg ancho=80% Audiometría de la paciente: pérdida de graves en los dos oídos, con los agudos casi normales.
 :::
-:::figura cap02_disfuncion_tubaria timpanograma
-- @OD pico | Pico en −114 daPa con solo 0,29 mL de compliancia: **Cs**. La caja está a presión negativa y el sistema, rígido; la curva es la más redondeada (gradiente 0,35).
-- @OI pico | Pico en −196 daPa con 1,03 mL: **C** con compliancia normal (gradiente 0,50).
-- Los volúmenes (1,66 y 1,52 mL) son de un conducto cerrado: los tímpanos están enteros.
+
+La pérdida es de graves: 45 dB en 250 Hz en el OD. La ósea está en 10 dB en los graves, en los dos oídos, porque la presión negativa también la baja un poco. Desde 3 kHz los dos oídos están casi normales (15 a 20 dB): el gap es **de graves**. SDT y SRT son de 25 dB en los dos oídos y la discriminación llega a 100 % a 60 dB, con ruido de habla en el oído contrario.
+
+:::imagen figuras/salida/cap02_disfuncion_tubaria_impedancia.svg ancho=80% Impedanciometría de la paciente.
 :::
-:::figura cap02_disfuncion_tubaria reflejos
-- @ipsi OI 1000 | No hay reflejos en ninguna combinación, ni siquiera con la sonda en el OI, que tiene compliancia normal.
-- Un C sin reflejos hace sospechar que ya hay algo de líquido.
-:::
+
+El OD tiene el pico en −114 daPa con solo 0,29 mL de compliancia: **Cs**. La caja está a presión negativa y el sistema, rígido; la curva es la más redondeada (gradiente 0,35). El OI tiene el pico en −196 daPa con 1,03 mL: **C**, con compliancia normal (gradiente 0,50). Los volúmenes (1,66 y 1,52 mL) son de un conducto cerrado: los tímpanos están enteros. No hay reflejos con la sonda en ninguno de los dos oídos.
+
+Con la sonda en el OI, en el ipsilateral, no hay reflejos en ninguna combinación, ni siquiera con la sonda en el OI, que tiene compliancia normal. Un C sin reflejos hace sospechar que ya hay algo de líquido.
 
 La **función tubaria de membrana íntegra** de Irene muestra los tres picos casi en el mismo lugar en los dos oídos: tragar con el conducto presurizado no cambia la presión de la caja.
 
@@ -353,20 +337,17 @@ El tímpano izquierdo está violáceo, con sangre detrás. ¿Qué curva esperas?
 
 #### Paso 4 · Los resultados
 
-:::figura cap02_barotrauma audiograma
-- @OI 250 | El OI está en 35 dB en los graves y mejora hacia los agudos.
-- @OI osea 1000 | La ósea del OI está en 0 en todas las frecuencias: **conductiva pura**. La cóclea no se dañó.
-- @OD 1000 | El OD es normal.
+:::imagen figuras/salida/cap02_barotrauma_audiosupra.svg ancho=80% Audiometría del paciente: conductiva pura del OI, mayor en los graves; OD normal.
 :::
-:::figura cap02_barotrauma timpanograma
-- @OI pico | **B** con 1,30 mL, un volumen normal y parecido al del OD (1,44 mL): el tímpano está entero y la caja, ocupada por sangre.
-- @OD pico | **A**, con el pico en −75 daPa.
+
+El OI está en 35 dB en los graves y mejora hacia los agudos. Su ósea está en 0 en todas las frecuencias: **conductiva pura**; la cóclea no se dañó. El OD es normal. SDT y SRT son de 0 dB en el OD y de 25 dB en el OI, y la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
+
+:::imagen figuras/salida/cap02_barotrauma_impedancia.svg ancho=80% Impedanciometría del paciente.
 :::
-:::figura cap02_barotrauma reflejos
-- @ipsi OD 1000 | El ipsilateral del OD está en 85 dB SPL en 1 kHz (90 en las demás), normal.
-- @contra OD 2000 | Con la sonda en el OD y el tono en el OI, el reflejo aparece solo en 2 y 4 kHz (120 y 115 dB SPL), donde el gap del OI es menor.
-- @ipsi OI 1000 | Con la sonda en el OI no hay reflejo: la caja está ocupada.
-:::
+
+El OI es **B**, con 1,30 mL, un volumen normal y parecido al del OD (1,44 mL): el tímpano está entero y la caja, ocupada por sangre. El OD es **A**, con el pico en −75 daPa. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB, con decay negativo, y el contralateral, que estimula el OI, solo aparece en 2 y 4 kHz (115 a 120 dB). Con la sonda en el OI no hay reflejos.
+
+El ipsilateral del OD está en 85 dB SPL en 1 kHz (90 en las demás), normal. Con la sonda en el OD y el tono en el OI, el reflejo aparece solo en 2 y 4 kHz (120 y 115 dB SPL), donde el gap del OI es menor. Con la sonda en el OI no hay reflejo: la caja está ocupada.
 
 :::docente Guía del caso
 - **Datos clave:** inicio con fecha y hora (descenso de un vuelo, resfriado), dolor fuerte que no cedió con maniobras, oído tapado, zumbido grave intermitente; **sin vértigo**; hemotímpano izquierdo sin perforación.

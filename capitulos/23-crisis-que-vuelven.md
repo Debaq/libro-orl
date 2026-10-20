@@ -213,7 +213,7 @@ Tienes tres audiogramas de la historia. ¿Qué te falta para decidir si el vest�
 
 Entre crisis, el examen de cabecera es normal: no se desvía hacia ningún lado y no hay signos de cerebelo ni de pares. Una hipofunción de seis años está compensada y no se nota de pie.
 
-:::imagen figuras/salida/cap23_meniere_avanzado_nistagmo.svg ancho=75% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap23_meniere_avanzado_nistagmo.svg ancho=55% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -254,7 +254,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 1,02, sin sacadas |
 :::
 
-:::imagen figuras/salida/cap23_meniere_avanzado_mariposa.svg ancho=62% Gráfico de mariposa de Ignacio. Las dos irrigaciones del OD (rojas) quedan cerca de la línea; las del OI (azules) responden bien.
+:::lado
+:::imagen figuras/salida/cap23_meniere_avanzado_mariposa.svg Gráfico de mariposa de Ignacio. Las dos irrigaciones del OD (rojas) quedan cerca de la línea; las del OI (azules) responden bien.
+:::
+:::imagen figuras/salida/cap23_meniere_avanzado_vhit.svg vHIT de Ignacio: ganancia de 0,95 hacia la derecha y de 1,02 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (6 + 5 − 22 − 16) / 49 = **55 %** (valor significativo). Dirección preponderante hacia la izquierda: **10 %** (valor no significativo). El vHIT lateral es normal en los dos lados y sin sacadas: la calórica cae y el reflejo rápido no, que es la **disociación** del hidrops.
@@ -269,7 +273,12 @@ cVEMP de 294 µV en el OD (5,80 corregida por el EMG) y de 511 µV en el OI (10,
 
 En el OD el SDT es de 45 dB y el SRT de 50 dB. La discriminación llega a **70 %** a 70 dB y baja a 65 % a 90 dB, con ruido de habla al OI; el umbral del habla permitiría más. El OI tiene SDT de 0 dB, SRT de 5 dB y 100 %.
 
-En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 30 a 40 dB: recluta y no se deteriora, aun con la pérdida avanzada.
+En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 34,5 dB: recluta y no se deteriora, aun con la pérdida avanzada.
+
+:::imagen figuras/salida/cap23_meniere_avanzado_impedancia.svg ancho=80% Impedanciometría de Ignacio.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 0,78 mL en el OD y de 0,69 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, salvo en 4 kHz cuando el sonido va al OD (100 ipsi y 105 contra), donde la pérdida es mayor. Decay negativo.
 
 :::imagen figuras/salida/cap23_meniere_avanzado_ecochg.svg ancho=80% Electrococleografía de Ignacio. El OD casi no tiene respuesta; el OI es la referencia.
 :::
@@ -314,7 +323,7 @@ Se plantea apagar el laberinto izquierdo. ¿Qué necesitas saber del derecho ant
 
 Entre crisis, el examen de cabecera es normal, aunque Clara ya cayó una vez al suelo. Nada de lo que se ve de pie avisa que los dos laberintos responden menos.
 
-:::imagen figuras/salida/cap23_meniere_bilateral_nistagmo.svg ancho=75% Nistagmo espontáneo de Clara en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap23_meniere_bilateral_nistagmo.svg ancho=55% Nistagmo espontáneo de Clara en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -355,7 +364,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | **0,82**, sin sacadas |
 :::
 
-:::imagen figuras/salida/cap23_meniere_bilateral_mariposa.svg ancho=62% Gráfico de mariposa de Clara. Las curvas de los dos oídos son parecidas, y bajas.
+:::lado
+:::imagen figuras/salida/cap23_meniere_bilateral_mariposa.svg Gráfico de mariposa de Clara. Las curvas de los dos oídos son parecidas, y bajas.
+:::
+:::imagen figuras/salida/cap23_meniere_bilateral_vhit.svg vHIT de Clara: ganancia de 0,88 hacia la derecha y de 0,82 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (15 + 13 − 12 − 10) / 50 = **12 %** (valor no significativo). Dirección preponderante: **0 %**. La fórmula no ve nada, y sin embargo las sumas tibia + fría de cada oído son de **28 °/s en el OD y 22 °/s en el OI**, menores que las de los lados sanos de los otros casos del capítulo (38 a 47 °/s). Están sobre el límite de 6 °/s, pero los **dos** oídos responden poco. El vHIT del OI (0,82) está cerca del límite habitual.
@@ -370,7 +383,12 @@ cVEMP de 73 µV en el OD (1,46 corregida por el EMG) y de 346 µV en el OI (6,84
 
 En el OD el SDT es de 25 dB y el SRT de 30 dB; la discriminación llega a **92 %** a 60 dB. En el OI el SDT es de 40 dB y el SRT de 45 dB; llega a **76 %** a 80 dB y baja a 71 % a 90 dB. Los dos son los de una cóclea con reclutamiento: el SISI es de 90 % en ambos oídos (→ H6). El Weber no lateraliza a 500 Hz, porque los dos oídos pierden parecido.
 
-Los dos oídos reclutan: SISI de **90 %** a cada lado, Carhart sin deterioro en 2 y 4 kHz y Metz de 55 a 60 dB en el OD y de 40 a 50 dB en el OI. Con los dos oídos enfermos no hay un oído sano con que balancear: el Fowler no se hace.
+Los dos oídos reclutan: SISI de **90 %** a cada lado, Carhart sin deterioro en 2 y 4 kHz y Metz de 49,5 a 57 dB en el OD y de 34,5 a 44,5 dB en el OI. Con los dos oídos enfermos no hay un oído sano con que balancear: el Fowler no se hace.
+
+:::imagen figuras/salida/cap23_meniere_bilateral_impedancia.svg ancho=80% Impedanciometría de Clara.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 0,55 mL en el OD y de 0,70 mL en el OI. Los reflejos están presentes en los dos oídos, de 85 a 100 dB SPL, con los valores más altos en 500 Hz. El decay es negativo.
 
 :::imagen figuras/salida/cap23_meniere_bilateral_ecochg.svg ancho=80% Electrococleografía de Clara. Los dos oídos tienen un PS grande.
 :::
@@ -415,7 +433,7 @@ No hay síntomas del oído. ¿Para qué sirve el audiograma, entonces? ¿Qué es
 
 Entre crisis, el examen de cabecera es normal.
 
-:::imagen figuras/salida/cap23_migrana_vestibular_nistagmo.svg ancho=75% Nistagmo espontáneo de Patricia en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap23_migrana_vestibular_nistagmo.svg ancho=55% Nistagmo espontáneo de Patricia en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -456,7 +474,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,99, sin sacadas |
 :::
 
-:::imagen figuras/salida/cap23_migrana_vestibular_mariposa.svg ancho=62% Gráfico de mariposa de Patricia. Las cuatro curvas son parecidas entre sí: la respuesta es simétrica.
+:::lado
+:::imagen figuras/salida/cap23_migrana_vestibular_mariposa.svg Gráfico de mariposa de Patricia. Las cuatro curvas son parecidas entre sí: la respuesta es simétrica.
+:::
+:::imagen figuras/salida/cap23_migrana_vestibular_vhit.svg vHIT de Patricia: ganancia de 1,03 hacia la derecha y de 0,99 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (23 + 21 − 25 − 22) / 91 = **3 %** (valor no significativo). Dirección preponderante hacia la derecha: **1 %** (valor no significativo). El vHIT lateral es normal y sin sacadas.
@@ -509,7 +531,7 @@ Tiene un oído sano para comparar. ¿Qué te aporta eso para el criterio audiom�
 
 Entre crisis, el examen de cabecera es normal.
 
-:::imagen figuras/salida/cap23_meniere_migrana_nistagmo.svg ancho=75% Nistagmo espontáneo de Marina en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap23_meniere_migrana_nistagmo.svg ancho=55% Nistagmo espontáneo de Marina en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 No hay nistagmo espontáneo, con ni sin fijación, ni evocado por la mirada. Sacadas y seguimiento sin hallazgos. Con *head-shaking* no aparece nistagmo.
@@ -550,7 +572,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | **0,97**, sin sacadas |
 :::
 
-:::imagen figuras/salida/cap23_meniere_migrana_mariposa.svg ancho=62% Gráfico de mariposa de Marina. Las dos irrigaciones del OI (azules) quedan más bajas que las del OD (rojas).
+:::lado
+:::imagen figuras/salida/cap23_meniere_migrana_mariposa.svg Gráfico de mariposa de Marina. Las dos irrigaciones del OI (azules) quedan más bajas que las del OD (rojas).
+:::
+:::imagen figuras/salida/cap23_meniere_migrana_vhit.svg vHIT de Marina: ganancia de 1,01 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (25 + 22 − 13 − 11) / 71 = **32 %** (valor significativo). Dirección preponderante hacia la derecha: **1 %** (valor no significativo). El vHIT lateral es normal en los dos lados: calórica caída con vHIT normal, la disociación del hidrops.
@@ -565,7 +591,12 @@ cVEMP de 345 µV en el OD (6,81 corregida por el EMG) y de 80 µV en el OI (1,57
 
 El OI tiene **40 dB** en 125 y 250 Hz, **30** en 500 y 1.000 Hz y baja a 20 dB en 3 y 4 kHz: es la curva **ascendente**, con un promedio de 500 a 3.000 Hz de **26 dB** (etapa 2). El OD está en 0 dB; la diferencia es de 40 dB en 125 y 250 Hz y de 30 en 500 y 1.000 Hz: cumple el criterio audiométrico de **30 dB** en dos frecuencias contiguas bajo 2.000 Hz. En el OD el SDT es de −5 dB, el SRT de 0 dB y la discriminación de 100 %. En el OI el SDT es de 20 dB, el SRT de 25 dB y la discriminación llega a **96 %** a 60 dB, con ruido de habla al OD. Pasados los 60 dB **cae**: 84 % a 80 dB y 83 % a 100 dB, un roll-over leve, de índice 0,14, lejos del 0,45 que sugiere una lesión del nervio (Jerger y Jerger, 1971; → cap. 11); con el reclutamiento de este oído, es la palabra fuerte que llega distorsionada.
 
-En el OI, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 55 dB en 1 kHz: la pérdida de graves es coclear.
+En el OI, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 54,5 dB en 500 Hz y 55 dB en 1 kHz: la pérdida de graves es coclear.
+
+:::imagen figuras/salida/cap23_meniere_migrana_impedancia.svg ancho=80% Impedanciometría de Marina.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 0,80 mL en el OD y de 1,42 mL en el OI. Los reflejos están presentes, ipsi y contra, de 85 a 100 dB SPL; el valor más alto, 100 dB, es el de 500 Hz cuando el sonido va al OI. Decay negativo.
 
 :::imagen figuras/salida/cap23_meniere_migrana_ecochg.svg ancho=80% Electrococleografía de Marina. El OI tiene un PS grande; el OD es normal.
 :::
@@ -596,7 +627,7 @@ La historia es la de un Ménière que dejó la etapa de las crisis y entró a la
 >
 > **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 55 % (valor significativo) y dirección preponderante hacia izquierda de 10 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,95 a derecha y 1,02 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 5 % (valores no significativos). **Audiometría:** hipoacusia sensorioneural moderada del OD con promedio de 55 dB, SRT 50 dB y discriminación máxima de 70 %; OI con audición normal para la edad. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OD, sin deterioro tonal; Metz positivo. **Electrococleografía:** OD sin respuesta legible; OI con razón PS/PA de 0,09 y de áreas de 1,04.
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 55 % (valor significativo) y dirección preponderante hacia izquierda de 10 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,95 a derecha y 1,02 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 5 % (valores no significativos). **Audiometría:** hipoacusia sensorioneural moderada del OD con promedio de 55 dB, SRT 50 dB y discriminación máxima de 70 %; OI con audición normal para la edad. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OD, sin deterioro tonal; Metz positivo. **Impedanciometría:** timpanograma A bilateral y reflejos presentes de 85 a 95 dB SPL, salvo en 4 kHz cuando el sonido va al OD (100 a 105 dB SPL); sin decay.  OD sin respuesta legible; OI con razón PS/PA de 0,09 y de áreas de 1,04.
 >
 > **Conclusión:** examen sugiere hipofunción vestibular derecha del canal semicircular lateral por la calórica, con vHIT y VEMP simétricos, e hipoacusia sensorioneural coclear del OD.
 
@@ -620,7 +651,7 @@ Los dos oídos están comprometidos: etapa 3 en el OI y etapa 2 en el OD, con zu
 >
 > **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 12 % (valor no significativo) y dirección preponderante de 0 % (valor no significativo). Velocidades de la fase lenta: OD 15 °/s a 44 °C y 13 °/s a 30 °C; OI 12 °/s a 44 °C y 10 °/s a 30 °C; la suma de cada oído es de 28 y 22 °/s, menor que la de oídos sanos. **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,88 a derecha y 0,82 a izquierda, esta última en el límite inferior, sin sacadas. **VEMP:** cVEMP con asimetría de 65 % (valor significativo), menor en el OD; oVEMP con asimetría de 1 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural bilateral asimétrica, con promedio de 31 dB en el OD y de 49 dB en el OI; SRT 30 y 45 dB; discriminación máxima de 92 % en el OD y de 76 % en el OI. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo bilateral. **Electrococleografía:** razón PS/PA de 0,71 en el OD y de 0,45 en el OI (razón de áreas de 1,76 y 2,43).
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 12 % (valor no significativo) y dirección preponderante de 0 % (valor no significativo). Velocidades de la fase lenta: OD 15 °/s a 44 °C y 13 °/s a 30 °C; OI 12 °/s a 44 °C y 10 °/s a 30 °C; la suma de cada oído es de 28 y 22 °/s, menor que la de oídos sanos. **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 0,88 a derecha y 0,82 a izquierda, esta última en el límite inferior, sin sacadas. **VEMP:** cVEMP con asimetría de 65 % (valor significativo), menor en el OD; oVEMP con asimetría de 1 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural bilateral asimétrica, con promedio de 31 dB en el OD y de 49 dB en el OI; SRT 30 y 45 dB; discriminación máxima de 92 % en el OD y de 76 % en el OI. **Supraliminares:** SISI de 90 % bilateral, sin deterioro tonal; Metz positivo bilateral. **Impedanciometría:** timpanograma A bilateral y reflejos presentes en los dos oídos, de 85 a 100 dB SPL; sin decay.  razón PS/PA de 0,71 en el OD y de 0,45 en el OI (razón de áreas de 1,76 y 2,43).
 >
 > **Conclusión:** examen sugiere hipofunción vestibular leve y simétrica por la calórica, con la asimetría de 12 % que no la refleja, hipofunción del sáculo del OD y hallazgos de hidrops en los dos oídos.
 
@@ -668,7 +699,7 @@ Dos clases de crisis, dos explicaciones. Las **cuatro** crisis cortas, con el o�
 >
 > **Nistagmo espontáneo:** ausente, con y sin fijación, y por la mirada. *Head-shaking*: sin nistagmo. **Posicional:** sin nistagmo en Dix-Hallpike ni en McClure.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 32 % (valor significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 1,01 a derecha y 0,97 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 62 % (valor significativo), menor en el OI; oVEMP con asimetría de 5 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural del OI de graves, con promedio de 26 dB, SRT 25 dB y discriminación máxima de 96 %; OD normal. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OI, sin deterioro tonal. **Electrococleografía:** OD con razón PS/PA de 0,27 y de áreas de 1,21; OI con razón de 0,64 y de áreas de 1,83.
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 32 % (valor significativo) y dirección preponderante hacia derecha de 1 % (valor no significativo). **vHIT:** ganancia del VOR simétrica para canales semicirculares laterales: 1,01 a derecha y 0,97 a izquierda, dentro de la normalidad, sin sacadas. **VEMP:** cVEMP con asimetría de 62 % (valor significativo), menor en el OI; oVEMP con asimetría de 5 % (valor no significativo). **Audiometría:** hipoacusia sensorioneural del OI de graves, con promedio de 26 dB, SRT 25 dB y discriminación máxima de 96 %; OD normal. **Supraliminares:** SISI de 90 % y reclutamiento completo en el Fowler del OI, sin deterioro tonal. **Impedanciometría:** timpanograma A bilateral y reflejos presentes de 85 a 100 dB SPL; sin decay.  OD con razón PS/PA de 0,27 y de áreas de 1,21; OI con razón de 0,64 y de áreas de 1,83.
 >
 > **Conclusión:** examen sugiere hipofunción vestibular izquierda del canal lateral por la calórica, con vHIT normal, hipofunción del sáculo izquierdo y hallazgos de hidrops en el OI.
 

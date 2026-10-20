@@ -21,7 +21,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402
 
 # Lo que se mira en un hidrops: la curva, la palabra, el reflejo (Metz),
 # la electrococleografía y el sáculo
-HIDROPS = [fig.audiograma(), fig.logo(), fig.reflejos(), fig.ecochg(), fig.vemp()]
+HIDROPS = [fig.audiosupra(), fig.impedancia(), fig.ecochg(), fig.vemp()]
 
 CASOS = [
     # Patricia: Ménière del OI con el OD sano para comparar (Fowler, Metz,
@@ -29,7 +29,7 @@ CASOS = [
     demo(38, HIDROPS + [fig.dpoae()]),
     # Samuel: sordo del OD desde las paperas; años después el hidrops toma el
     # único oído que oye. La ECochG del OD cofótico sale como trazo sin complejo.
-    cuadro('hidrops_retardado', [fig.audiograma(), fig.acumetria(), fig.logo(), fig.reflejos(), fig.ecochg(), fig.vemp()],
+    cuadro('hidrops_retardado', [fig.audiosupra(), fig.impedancia(), fig.ecochg(), fig.vemp()],
            od='parotiditis', oi='hidrops_retardado', edad=54, semilla=3,
            anamnesis="""Tiene 54 años y atiende el mesón de una ferretería. Por el oído derecho no oye desde los seis
            años, cuando tuvo paperas; siempre se las arregló con el izquierdo y nunca usó audífono. Hace unos ocho

@@ -30,7 +30,7 @@ import sys
 AQUI = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI))
 
-from motor import abr, acumetria, audio_supra, audiograma, campo_libre, ecochg, impedancia, logo, oae, supraliminares, vemp, vestibular  # noqa: E402
+from motor import abr, acumetria, audio_supra, audiograma, campo_libre, ecochg, impedancia, impedancia_hoja, logo, oae, supraliminares, vemp, vestibular  # noqa: E402
 from motor.datos import cargar_caso  # noqa: E402
 
 CASOS = AQUI.parent / 'casos'
@@ -43,7 +43,8 @@ def figura(caso, f):
     if tipo == 'audiograma':
         return audiograma.dibujar(caso, estudio=f.get('estudio', True), ldl=f.get('ldl', True),
                                   oidos=tuple(f.get('oidos', ('OD', 'OI'))),
-                                  sin_enmascarar=f.get('sin_enmascarar', False))
+                                  sin_enmascarar=f.get('sin_enmascarar', False),
+                                  clinico=f.get('clinico', False))
     if tipo == 'acumetria':
         return acumetria.dibujar(caso)
     if tipo == 'timpanograma':
@@ -51,6 +52,8 @@ def figura(caso, f):
                                        escala_ml=f.get('escala_ml', 2.0), sonda=f.get('sonda', 226))
     if tipo == 'reflejos':
         return impedancia.reflejos(caso)
+    if tipo == 'impedancia':
+        return impedancia_hoja.dibujar(caso, sonda=f.get('sonda', 226))
     if tipo == 'abr':
         curvas = abr.capturar(caso, f.get('oidos', ['OD', 'OI']), f.get('niveles', [80, 60, 40]),
                               estimulo=f.get('estimulo'), promediaciones=f.get('promediaciones', 2000),
@@ -76,9 +79,11 @@ def figura(caso, f):
     if tipo == 'nistagmo':
         return vestibular.nistagmo(f.get('con_fijacion'), f.get('sin_fijacion'))
     if tipo == 'audiosupra':
-        return audio_supra.dibujar(caso)
+        return audio_supra.dibujar(caso, sin_enmascarar=f.get('sin_enmascarar', False))
     if tipo == 'supraliminares':
         return supraliminares.dibujar(caso)
+    if tipo == 'vhit':
+        return vestibular.vhit(f['der'], f['izq'])
     if tipo == 'vng':
         return vestibular.vng(f['paneles'])
     if tipo == 'mariposa':
@@ -122,7 +127,7 @@ def main(patrones):
 
 
 TIPOS = ('audiograma', 'acumetria', 'timpanograma', 'reflejos', 'abr', 'logoaudiometria',
-         'teoae', 'dpoae', 'ecochg', 'vemp', 'campo_libre', 'audiologo', 'nistagmo', 'mariposa', 'vng', 'supraliminares', 'audiosupra')
+         'teoae', 'dpoae', 'ecochg', 'vemp', 'campo_libre', 'audiologo', 'nistagmo', 'mariposa', 'vng', 'supraliminares', 'audiosupra', 'impedancia', 'vhit')
 
 
 def _hoja():

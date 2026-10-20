@@ -22,7 +22,7 @@ ABR_OSEO = fig.abr(niveles=(50, 30, 10), transductor='oseo')
 
 CASOS = [
     cuadro('mixta_otitis_cronica',
-           [fig.audiograma(), fig.acumetria(), fig.timpanograma(), ABR_AEREO, ABR_OSEO],
+           [fig.audiosupra(), ABR_AEREO, ABR_OSEO],
            od='mixta_otitis_cronica', grado_od='moderada', edad=52, sexo='mujer',
            anamnesis="""Tiene 52 años y trabaja de costurera. Desde niña le supura el oído derecho cada vez que se
            resfría; hace tres años la secreción no se ha cortado del todo. Con ese oído casi no oye: habla por
@@ -33,7 +33,7 @@ CASOS = [
                      (60, 'Control: otoscopía con perforación seca y oído medio húmedo. Se solicita audiometría e impedanciometría antes de decidir una timpanoplastia.')],
            antecedentes=['otitis']),
     cuadro('mixta_otoesclerosis',
-           [fig.audiograma(), fig.audiograma(sin_enmascarar=True), fig.timpanograma(), fig.reflejos()],
+           [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.impedancia()],
            od='mixta_otoesclerosis', oi='mixta_otoesclerosis', grado_od='moderada', grado_oi='moderada',
            edad=48, sexo='mujer',
            anamnesis="""Tiene 48 años y es profesora de básica. Hace unos quince años empezó a oír menos, primero por
@@ -44,7 +44,7 @@ CASOS = [
                      (45, 'Otorrinolaringólogo: otoscopía normal bilateral y Rinne negativo en los dos oídos. Se solicita audiometría con vía ósea e impedanciometría para decidir entre cirugía y audífonos.')],
            antecedentes=['hipoacusia_familiar']),
     cuadro('colesteatoma_fistula',
-           [fig.audiograma(), ABR_AEREO, ABR_OSEO],
+           [fig.audiosupra(), fig.impedancia(), ABR_AEREO, ABR_OSEO],
            od='colesteatoma_fistula', grado_od='moderada', edad=38,
            anamnesis="""Tiene 38 años y es técnico en refrigeración. Desde los quince le sale pus de mal olor por el
            oído derecho de vez en cuando, y nunca se lo siguió. Hace dos semanas, al sonarse con fuerza, sintió que la
@@ -54,7 +54,7 @@ CASOS = [
                      (10, 'Servicio de urgencia: vértigo breve al sonarse la nariz y al presionar el trago. Otoscopía con secreción fétida y masa blanquecina en el cuadrante posterosuperior derecho. Se deriva a otorrinolaringología con audiometría.')],
            antecedentes=['otitis']),
     cuadro('trauma_craneal_completo',
-           [fig.audiograma(), fig.acumetria(), fig.timpanograma()],
+           [fig.audiosupra(), fig.impedancia()],
            od='trauma_craneal_completo', grado_od='moderada', edad=29,
            anamnesis="""Tiene 29 años y es repartidor en moto. Hace seis semanas chocó, sin casco, y se golpeó el lado
            derecho de la cabeza. Estuvo dos días hospitalizado; le sangró el oído derecho y desde entonces oye mucho
@@ -64,7 +64,7 @@ CASOS = [
                      (10, 'Control otorrinolaringológico: hemotímpano residual derecho. Se solicita audiometría.')],
            antecedentes=['tce']),
     cuadro('fractura_transversal',
-           [fig.audiograma(), fig.audiograma(sin_enmascarar=True), fig.acumetria(), fig.reflejos(), fig.abr(niveles=(100, 80, 60))],
+           [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.abr(niveles=(100, 80, 60))],
            od='fractura_transversal', grado_od='profunda', edad=34,
            anamnesis="""Tiene 34 años y es pintor de edificios. Hace tres semanas cayó de un andamio de unos tres metros y se
            golpeó la parte de atrás de la cabeza. Desde ese día no oye nada por el oído derecho. Los primeros cinco días

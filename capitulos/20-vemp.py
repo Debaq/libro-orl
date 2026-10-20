@@ -24,7 +24,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # vestibular (nistagmo, calórica, vHIT) lo declara este archivo; de LabSim salen el
 # audiograma con la logoaudiometría y los VEMP.
 CASOS = [
-    cuadro('meniere', [fig.nistagmo(), fig.audiosupra(), fig.mariposa(20, 17, 24, 21), fig.vemps(), fig.ecochg()], od='meniere', edad=45, semilla=3,
+    cuadro('meniere', [fig.vhit(0.92, 0.95, None, None), fig.nistagmo(), fig.audiosupra(), fig.impedancia(), fig.mariposa(20, 17, 24, 21), fig.vemps(), fig.ecochg()], od='meniere', edad=45, semilla=3,
            anamnesis="""Tiene 45 años y es chofer de buses interurbanos. Hace cinco meses empezó con crisis: primero
            siente el oído derecho "tapado" y un zumbido grave, como de motor; después todo gira, con náuseas y
            vómitos, durante unas tres horas. Al terminar queda agotado y el oído derecho oye menos; en los días
@@ -34,7 +34,7 @@ CASOS = [
            historia=[(150, 'Primera crisis: tapazón y zumbido del oído derecho, giro de unas tres horas con vómitos.'),
                      (21, 'Cuarta crisis, la última; el oído derecho quedó más sordo unos días.'),
                      (14, 'Otorrinolaringólogo: otoscopía normal; se piden audiometría y VEMP entre crisis.')]),
-    cuadro('laberintitis', [fig.audiosupra(),
+    cuadro('laberintitis', [fig.vhit(0.34, 0.97, 'ambas', None), fig.audiosupra(), fig.impedancia(),
                             fig.nistagmo(con_fijacion={'izquierda': -1},
                                          sin_fijacion={'izquierda': -4, 'arriba': -2, 'centro': -2, 'abajo': -2}),
                             fig.mariposa(3, 4, 23, 19), fig.vemps()], od='laberintitis', grado_od='severa',
@@ -48,7 +48,7 @@ CASOS = [
            historia=[(12, 'Resfrío con fiebre baja durante tres días.'),
                      (7, 'Servicio de urgencia: vértigo intenso con vómitos y sordera del oído derecho; se trata el síntoma y se indica reposo.'),
                      (3, 'Control: persiste la sordera; se deriva a otorrinolaringología con audiometría y VEMP.')]),
-    cuadro('schwannoma', [fig.audiosupra(), fig.timpanograma(), fig.nistagmo(sin_fijacion={'centro': -2, 'izquierda': -3}),
+    cuadro('schwannoma', [fig.vhit(0.74, 0.98, 'covert', None), fig.audiosupra(), fig.impedancia(), fig.nistagmo(sin_fijacion={'centro': -2, 'izquierda': -3}),
                           fig.mariposa(10, 9, 24, 20), fig.vemps()], od='schwannoma', grado_od='leve',
            edad=41, sexo='mujer',
            anamnesis="""Tiene 41 años y es profesora de enseñanza básica. Hace más de un año nota que por el oído
@@ -57,7 +57,7 @@ CASOS = [
            plenitud, ni dolor de oídos. Nunca ha tenido crisis de vértigo, golpes en la cabeza ni exposición a ruido.""",
            historia=[(400, 'Primera vez que nota la voz menos nítida por el oído derecho.'),
                      (45, 'Médico general: otoscopía normal; se solicita audiometría.')]),
-    cuadro('otoesclerosis', [fig.nistagmo(), fig.audiosupra(), fig.timpanograma(), fig.mariposa(22, 20, 21, 20), fig.vemps()], od='otoesclerosis', oi='otoesclerosis',
+    cuadro('otoesclerosis', [fig.vhit(0.96, 0.97, None, None), fig.nistagmo(), fig.audiosupra(), fig.impedancia(), fig.mariposa(22, 20, 21, 20), fig.vemps()], od='otoesclerosis', oi='otoesclerosis',
            edad=38, sexo='mujer', antecedentes=['hipoacusia_familiar'],
            anamnesis="""Tiene 38 años y es cajera de supermercado. Hace unos cuatro años, poco después de su segundo
            embarazo, empezó a oír menos por los dos oídos, un poco más por el derecho; con ruido de fondo se defiende

@@ -81,8 +81,6 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
     rotulos_ldl = []
     for k, lado in enumerate(oidos):
         col = E.COLOR_LADO[lado]
-        if not combinado:
-            rotulos_ldl = []
         x0 = ml + (0 if combinado else k) * (pw + sep)
 
         def X(f):
@@ -137,14 +135,15 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
                    for i, f in enumerate(FRECUENCIAS)]
             for tramo in _tramos(pts):
                 s.trazo(tramo, col, 0.9, guiones='4 3')
-            # rótulo "LDL" subrayado a la izquierda del primer LDL (uno solo si
-            # los dos oídos quedan a la misma altura en el combinado)
+            # rótulo "LDL:" en negrita y subrayado, a la izquierda del primer LDL
             primero = next(((X(f), Y(min(l[i], NIVEL_MAXIMO))) for i, f in enumerate(FRECUENCIAS)
                             if f in FRECUENCIAS_OSEA and l[i] is not None), None)
-            if clinico and primero and all(abs(primero[1] - yy) > 8 for yy in rotulos_ldl):
+            # un solo "LDL:" por audiograma, aunque los dos oídos tengan LDL (él, 2026-10-20)
+            if clinico and primero and not rotulos_ldl:
                 rotulos_ldl.append(primero[1])
-                s.texto(primero[0] - 12, primero[1] + 3, 'LDL:', E.T_CHICO, E.TINTA_2, 'end', 600,
-                        'text-decoration="underline"')
+                xd, yb = primero[0] - 12, primero[1] + 3
+                s.texto(xd, yb, 'LDL:', E.T_CHICO + 0.5, E.TINTA, 'end', 700)
+                s.linea(xd - 17, yb + 1.6, xd, yb + 1.6, E.TINTA, 0.8)     # subrayado
             for i, f in enumerate(FRECUENCIAS):
                 if f in FRECUENCIAS_OSEA and l[i] is not None:
                     y = Y(min(l[i], NIVEL_MAXIMO))

@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo periférico que se cierra antes de cualquier batería central (→ H15)
-PERIFERIA = [fig.audiograma(), fig.logo(), fig.timpanograma(), fig.dpoae()]
+PERIFERIA = [fig.audiosupra(), fig.impedancia(), fig.dpoae()]
 
 CASOS = [
     cuadro('nino_tpa', PERIFERIA, od='normal', oi='normal', edad=9, sexo='hombre', semilla=3,
@@ -31,7 +31,7 @@ CASOS = [
                      (200, 'Psicóloga: capacidad cognitiva en rango medio; atención sin hallazgos importantes.'),
                      (30, 'Médico general: otoscopía normal bilateral. Se deriva a audiología por sospecha de trastorno de procesamiento auditivo.')],
            antecedentes=['otitis'], medicamentos='', cirugias=''),
-    cuadro('mayor_ruido', [fig.audiograma(), fig.logo(), fig.dpoae(), fig.reflejos()],
+    cuadro('mayor_ruido', [fig.audiosupra(), fig.dpoae(), fig.impedancia()],
            od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=71, sexo='mujer', semilla=2,
            anamnesis="""Tiene 71 años, es profesora jubilada y vive con su marido. Desde hace unos tres años le cuesta
            seguir las conversaciones en los almuerzos familiares y en el almacén. En silencio, en una conversación
@@ -41,7 +41,7 @@ CASOS = [
            aunque ella lo atribuye a la edad.""",
            historia=[(90, 'Médico general: otoscopía normal; audiometría de pesquisa con "audición casi normal". Se deriva a evaluación audiológica completa.')],
            antecedentes=['hta'], medicamentos='Losartán 50 mg al día'),
-    cuadro('nino_otitis', [fig.audiograma(), fig.logo(), fig.timpanograma(), fig.reflejos()],
+    cuadro('nino_otitis', [fig.audiosupra(), fig.impedancia(), fig.impedancia()],
            od='disfuncion_tubaria', oi='disfuncion_tubaria', grado_od='leve', grado_oi='leve', edad=7, sexo='mujer', semilla=7,
            anamnesis="""Tiene 7 años y está en segundo básico. La profesora jefe la describe como "en las nubes": no
            responde cuando se le habla desde lejos, pide repetir y se distrae en las clases. Sugiere evaluar si tiene un

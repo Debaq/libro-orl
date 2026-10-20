@@ -135,15 +135,15 @@ El examen de hoy ya es una confirmación en cámara. ¿Qué más necesitas para 
 
 #### Paso 4 · Los resultados
 
-:::figura cap33_control audiograma
-- @OD 1000 | Hasta 1 kHz el OD está en 0 dB HL, igual que en su base: los graves no cambiaron.
-- @OD 4000 | El fondo está en 4 kHz: 80 dB en el OD, 80 dB más que su base de 0.
-- @OD 8000 | En 8 kHz sube de nuevo a 45 dB: la **recuperación** de la muesca, característica del ruido.
-- @OI 4000 | El OI hace lo mismo, con 85 dB en 4 kHz: **bilateral y casi simétrico**.
+:::imagen figuras/salida/cap33_control_audiosupra.svg ancho=80% Audiometría de control del trabajador: muesca de 4 kHz en los dos oídos, con recuperación en 8 kHz.
 :::
-:::figura cap33_control timpanograma
-- @OD pico | Curva A en los dos oídos: el oído medio está sano, así que el cambio no es conductivo.
+
+Hasta 1 kHz el OD está en 0 dB HL, igual que en su base: los graves no cambiaron. El fondo está en 4 kHz: 80 dB en el OD, 80 dB más que su base de 0, y en 8 kHz sube de nuevo a 45 dB, la **recuperación** de la muesca, característica del ruido. El OI hace lo mismo, con 85 dB en 4 kHz: **bilateral y casi simétrico**. SDT de −5 dB y SRT de 0 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 y 19,5 dB en 4 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap33_control_impedancia.svg ancho=80% Impedanciometría de control del trabajador.
 :::
+
+Curva A en los dos oídos: el oído medio está sano, así que el cambio no es conductivo.
 
 :::imagen ilustraciones/cap33-cambio.svg ancho=100% El control de hoy contra la base de la ficha, oído por oído: el cambio pasa de 15 dB desde 2 kHz hacia arriba, y los tres criterios lo declaran positivo en los dos oídos.
 :::
@@ -180,11 +180,10 @@ La ficha del control de fin de turno y el resultado de la confirmación en cáma
 :::imagen ilustraciones/cap33-reposo.svg ancho=100% El control del final del turno y la confirmación tras 14 horas de reposo, contra la base: el cambio que en la tarde cumplía los criterios ya no está en la mañana.
 :::
 
-:::figura cap33_reposo audiograma
-- @OD 4000 | En la cámara, 14 horas después del último turno, el OD está en **0 dB HL**: es la base. El cambio de 30 dB del final del turno desapareció.
-- @OI 4000 | El OI también vuelve a la base. En 3 y 6 kHz, donde el control de la tarde tenía 15 a 25 dB de cambio, hoy hay 0.
-- @OD 8000 | Sin muesca: este audiograma, solo, no muestra nada de lo que le pasa en el turno.
+:::imagen figuras/salida/cap33_reposo_audiosupra.svg ancho=80% Audiometría en cámara tras 14 horas de reposo: de vuelta en la base.
 :::
+
+En la cámara, 14 horas después del último turno, el OD está en **0 dB HL** en 4 kHz: es la base. El cambio de 30 dB del final del turno desapareció, y el OI también vuelve a la base: en 3 y 6 kHz, donde el control de la tarde tenía 15 a 25 dB de cambio, hoy hay 0. Sin muesca en 8 kHz: este audiograma, solo, no muestra nada de lo que le pasa en el turno.
 
 El control del final del turno cumplía los criterios de OSHA (promedios de 16,7 dB en el OD y 15 dB en el OI) y de NIOSH (15 a 30 dB en 3, 4 y 6 kHz), y PREXOR en el OD; la confirmación no cumple ninguno. **El cambio no se confirmó.**
 
@@ -212,14 +211,17 @@ Es una audiometría de cribado por vía aérea y sin enmascarar. ¿Sirve para es
 
 #### Paso 4 · Los resultados
 
-:::figura cap33_ingreso audiograma
-- @OD 4000 | El OD está en 0 dB HL en todas las frecuencias: normal.
-- @OI 2000 | En el OI la pérdida empieza en 2 kHz con 30 dB.
-- @OI 4000 | El fondo está en 4 kHz con **95 dB**: 95 dB de diferencia con el otro oído.
-- @OI 8000 | En 8 kHz recupera a 40 dB: la forma de la muesca, pero muy profunda y de un solo lado.
+:::imagen figuras/salida/cap33_ingreso_audiosupra.svg ancho=80% Audiometría de ingreso: OD normal y OI con una muesca profunda en 4 kHz.
 :::
 
+El OD está en 0 dB HL en todas las frecuencias: normal. En el OI la pérdida empieza en 2 kHz con 30 dB y el fondo está en 4 kHz con **95 dB**, 95 dB de diferencia con el otro oído; en 8 kHz recupera a 40 dB: la forma de la muesca, pero muy profunda y de un solo lado. La discriminación del OI es de 88 % a 40 dB contra 100 % del OD, con SDT de −5 dB y SRT de 0 dB en los dos. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 84,5, 85 y 57 dB de 500 a 2.000 Hz en el OI: recluta, es coclear.
+
 Una diferencia de 95 dB entre los oídos sobrepasa los 40 dB desde los cuales, según la guía chilena, aumenta la probabilidad de que el tono cruce al otro oído (ISP, 2026). <!-- Pasada de fundamentos 2026-10-18: decía "el límite de 40 dB desde el cual la guía chilena indica no usar el cribado". La guía solo advierte: "en casos de asimetrías iguales o superiores a 40 dB entre ambos oídos aumenta la probabilidad de que ocurra la transmisión cruzada del estímulo". --> El OI debe estudiarse con vía ósea y enmascaramiento (→ H3, H4).
+
+:::imagen figuras/salida/cap33_ingreso_impedancia.svg ancho=80% Impedanciometría del trabajador.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,46 mL en el OD y de 0,66 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, salvo en 4 kHz cuando el sonido va al OI: ahí no hay reflejo, ni ipsi ni contra, porque el oído tiene 95 dB. Decay negativo.
 
 :::docente Guía del caso
 - **Datos clave:** 10 años de tiro y caza sin protección fiable, diestro (con rifle o escopeta, la cabeza le hace sombra al oído derecho y el izquierdo recibe más: Meinke y cols., 2014), pitido unilateral izquierdo de cinco años, entiende bien en conversación, nunca consultó.

@@ -204,26 +204,17 @@ Carolina teme que le pase lo de su mamá. ¿Qué enfermedades pueden dar una pé
 
 #### Paso 4 · Los resultados
 
-:::figura cap04_p34 audiograma
-- @OD 250 | La aérea del OD está en 55 dB en 250 Hz y la ósea en 10: un gap de **45 dB**, el mayor del audiograma.
-- @OD osea 2000 | La ósea baja a 25 dB en 2 kHz y vuelve a 15 en 4 kHz: la **muesca de Carhart**. El gap en 2 kHz es de solo 15 dB.
-- @OD 4000 | Desde 2 kHz la aérea queda plana en 40 dB. El PTP del OD es de 45 dB.
-- @OI 1000 | El OI está en 0 dB: es normal.
+:::imagen figuras/salida/cap04_p34_audiosupra.svg ancho=80% Audiometría de Carolina: conductiva del OD con muesca de Carhart en 2 kHz; OI normal.
 :::
-:::figura cap04_p34 acumetria
-- @weber 500 | El Weber se va al **OD**, el oído que oye peor.
-- @rinne OD 500 | Rinne negativo en el OD en 500 y 1000 Hz; positivo en el OI.
+
+La aérea del OD está en 55 dB en 250 Hz y la ósea en 10: un gap de **45 dB**, el mayor del audiograma. La ósea baja a 25 dB en 2 kHz y vuelve a 15 en 4 kHz: es la **muesca de Carhart**, y el gap en 2 kHz es de solo 15 dB. Desde 2 kHz la aérea queda plana en 40 dB; el PTP del OD es de 45 dB. El OI está en 0 dB: es normal. El Weber se va al **OD**, el oído que oye peor, y el Rinne es negativo en el OD en 500 y 1.000 Hz y positivo en el OI. SDT de 35 dB y SRT de 40 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 80 dB en el OD, con ruido en el OI, y a 40 dB en el OI).
+
+:::imagen figuras/salida/cap04_p34_impedancia.svg ancho=80% Impedanciometría de Carolina.
 :::
-:::figura cap04_p34 timpanograma
-- @OD pico | Pico en su lugar (18 daPa) pero de solo **0,18 mL**: **As**. El volumen, 1,24 mL, es de un conducto cerrado por un tímpano entero.
-- @OI pico | El OI es A, con 1,41 mL. La diferencia entre los dos oídos es el hallazgo.
-- La gradiente es la misma en los dos (0,58): la forma del pico no distingue el As del A, lo hace la altura.
-:::
-:::figura cap04_p34 reflejos
-- @ipsi OD 1000 | Con la sonda en el OD no hay reflejo: ni el ipsilateral ni el contralateral, aunque en ese caso el tono entra por el OI sano.
-- @contra OI 2000 | Con la sonda en el OI y el **tono en el OD**, el reflejo aparece solo en 2 kHz (110 dB SPL) y 4 kHz (120), donde el gap es menor. En 500 y 1000 Hz, con gaps de 40 y 30 dB, no alcanza.
-- @ipsi OI 1000 | El ipsilateral del OI es normal: 90, 85, 90 y 90 dB SPL. Tres filas alteradas en torno al OD: **L invertida**.
-:::
+
+El OD tiene el pico en su lugar (18 daPa) pero de solo **0,18 mL**: **As**. El volumen, 1,03 mL en el OI y 1,24 mL en el OD, es de un conducto cerrado por un tímpano entero. El OI es **A**, con 1,41 mL. La diferencia entre los dos oídos es el hallazgo. La gradiente es la misma en los dos (0,58): la forma del pico no distingue el As del A, lo distingue la altura. **Reflejos:** con la sonda en el OD no hay ninguno. Con la sonda en el OI, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OD, solo aparece en 2 y 4 kHz (110 y 120 dB).
+
+Con la sonda en el OD no hay reflejo: ni el ipsilateral ni el contralateral, aunque en ese caso el tono entra por el OI sano. Con la sonda en el OI y el **tono en el OD**, el reflejo aparece solo en 2 kHz (110 dB SPL) y 4 kHz (120), donde el gap es menor. En 500 y 1000 Hz, con gaps de 40 y 30 dB, no alcanza. El ipsilateral del OI es normal: 90, 85, 90 y 90 dB SPL. Tres filas alteradas en torno al OD: **L invertida**.
 
 :::docente Guía del caso
 - **Datos clave:** 34 años; pérdida progresiva del OD desde el segundo embarazo; **entiende mejor con ruido**; acúfeno grave del OD; madre operada de un oído. Otoscopía normal.
@@ -250,22 +241,17 @@ En un niño de 9 años que no pasó el control del colegio, ¿qué causas de hip
 
 #### Paso 4 · Los resultados
 
-:::figura cap04_fijacion_congenita_estribo audiograma
-- @OD 1000 | La aérea del OD está entre 50 y 65 dB de 250 a 3000 Hz: una pérdida **moderada**.
-- @OD osea 2000 | La ósea del OD está casi normal, con una caída a 15 dB en 2 kHz: la **muesca de Carhart**, también en una fijación congénita. El gap es de 40 a 50 dB.
-- @OI 2000 | El OI tiene una pérdida leve (25 a 35 dB) con un gap de 20 a 25 dB: los **dos** oídos son conductivos.
+:::imagen figuras/salida/cap04_fijacion_congenita_estribo_audiosupra.svg ancho=80% Audiometría de Pepe: conductiva moderada del OD y leve del OI, con la muesca de Carhart en el OD.
 :::
-:::figura cap04_fijacion_congenita_estribo acumetria
-- @weber 500 | El Weber se va al **OD**, el oído con más gap.
-- @rinne OI 500 | Rinne negativo en los **dos** oídos: los dos tienen gaps sobre 15 dB.
+
+La aérea del OD está entre 50 y 65 dB de 250 a 3.000 Hz: una pérdida **moderada**. La ósea del OD está casi normal, con una caída a 15 dB en 2 kHz: la **muesca de Carhart**, también en una fijación congénita. El gap es de 40 a 50 dB. El OI tiene una pérdida leve (25 a 35 dB) con un gap de 20 a 25 dB: los **dos** oídos son conductivos. El Weber se va al **OD**, el oído con más gap, y el Rinne es negativo en los **dos** oídos, porque los dos tienen gaps sobre 15 dB. SDT de 45 dB y SRT de 50 dB en el OD, y de 20 y 25 dB en el OI; la discriminación llega a 100 % en los dos oídos (a 80 dB en el OD y a 60 dB en el OI, con ruido en el oído contrario).
+
+:::imagen figuras/salida/cap04_fijacion_congenita_estribo_impedancia.svg ancho=80% Impedanciometría de Pepe.
 :::
-:::figura cap04_fijacion_congenita_estribo timpanograma
-- @OD pico | Pico bajo (0,14 mL) cerca de la presión normal (−45 daPa).
-- @OI pico | También bajo: 0,23 mL, a −88 daPa. Con el criterio del adulto los dos son **As**; para un niño, el rango normal es más bajo (de 0,2 a 1,0 mL entre los 5 y los 7 años; BSA, 2024) y el OI queda en el borde.
-:::
-:::figura cap04_fijacion_congenita_estribo reflejos
-- @ipsi OD 1000 | No hay reflejo en ninguna casilla: con los dos oídos rígidos, ninguna sonda puede registrar la contracción.
-:::
+
+El OD tiene el pico bajo (0,14 mL) cerca de la presión normal (−45 daPa). El OI también lo tiene bajo: 0,23 mL, a −88 daPa. Con el criterio del adulto los dos son **As**; para un niño, el rango normal es más bajo (de 0,2 a 1,0 mL entre los 5 y los 7 años; BSA, 2024) y el OI queda en el borde. No hay reflejos con la sonda en ninguno de los dos oídos.
+
+Con la sonda en el OD, en el ipsilateral, no hay reflejo en ninguna casilla: con los dos oídos rígidos, ninguna sonda puede registrar la contracción.
 
 :::docente Guía del caso
 - **Datos clave:** 9 años; dificultad **desde siempre**, que no ha empeorado; fonoaudiólogo en el kínder por la articulación; sin otitis, sin acúfeno ni mareos; sin antecedentes familiares. Otoscopía normal en los dos lados.
@@ -293,18 +279,17 @@ Si la pérdida tiene un componente conductivo, ¿esperas una curva As? ¿Qué es
 
 #### Paso 4 · Los resultados
 
-:::figura cap04_paget audiograma
-- @OD osea 500 | La ósea del OD está en 30 dB en los graves y baja hasta 60 dB en 4 kHz: hay daño **coclear**, mayor en agudos.
-- @OD 500 | La aérea va 10 a 15 dB por debajo de la ósea en todas las frecuencias: un gap **chico pero constante**. Es una hipoacusia **mixta**.
-- @OI osea 250 | El OI es parecido: ósea de 20 a 60 dB y un gap de 10 a 15 dB. Los dos oídos van casi parejos.
+:::imagen figuras/salida/cap04_paget_audiosupra.svg ancho=80% Audiometría de Adrián: pérdida mixta bilateral y simétrica, con la ósea que cae de 20 o 30 dB en los graves a 60 dB en 4 kHz y un gap chico y constante.
 :::
-:::figura cap04_paget timpanograma
-- @OD pico | **A**: 0,80 mL a 18 daPa.
-- @OI pico | También **A**: 0,65 mL a −31 daPa. Con un gap en los dos oídos, las curvas son normales.
+
+La ósea del OD está en 30 dB en los graves y baja hasta 60 dB en 4 kHz: hay daño **coclear**, mayor en agudos. La aérea va 10 a 15 dB por debajo de la ósea en todas las frecuencias: un gap **chico pero constante**. Es una hipoacusia **mixta**. El OI es parecido: ósea de 20 a 60 dB y un gap de 10 a 15 dB; los dos oídos van casi parejos. SDT de 40 dB y SRT de 45 dB en el OD, y de 35 y 40 dB en el OI. La discriminación máxima es de **84 %** en los dos oídos (a 80 dB en el OD y a 70 dB en el OI, con ruido de habla en el contrario). Supraliminares: SISI de 90 % y Carhart sin deterioro en 2 y 4 kHz en los dos oídos; el Metz no se puede medir, porque el reflejo está ausente.
+
+:::imagen figuras/salida/cap04_paget_impedancia.svg ancho=80% Impedanciometría de Adrián.
 :::
-:::figura cap04_paget reflejos
-- @ipsi OD 1000 | No hay reflejo en ninguna casilla, con curvas A en los dos lados. El gap de 10 a 15 dB en cada oído alcanza para que la sonda no registre la contracción.
-:::
+
+El OD es **A**: 0,80 mL a 18 daPa. El OI también es **A**: 0,65 mL a −31 daPa. Con un gap en los dos oídos, las curvas son normales. No hay reflejos con la sonda en ninguno de los dos oídos.
+
+Con la sonda en el OD, en el ipsilateral, no hay reflejo en ninguna casilla, con curvas A en los dos lados. El gap de 10 a 15 dB en cada oído alcanza para que la sonda no registre la contracción.
 
 :::docente Guía del caso
 - **Datos clave:** 71 años; pérdida bilateral lenta de unos diez años; acúfeno grave bilateral intermitente; **enfermedad de Paget** de pelvis y cráneo, con el cráneo agrandado (el sombrero); sin ruido laboral; otoscopía normal.

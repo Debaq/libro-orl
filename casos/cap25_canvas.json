@@ -21,7 +21,19 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.15,
+        "sacadas": "overt"
+      },
+      "izq": {
+        "ganancia": 0.12,
+        "sacadas": "overt"
+      }
+    },
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
       "tipo": "nistagmo",

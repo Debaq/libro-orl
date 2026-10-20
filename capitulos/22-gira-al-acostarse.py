@@ -19,7 +19,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 AUDIO = [fig.audiosupra()]
 
 CASOS = [
-    cuadro('posterior', [fig.nistagmo(), fig.vng({'titulo': 'Dix-Hallpike derecho (E–CCD)', 'seg': 40, 'v': {'dir': 1, 'lat': 4, 'pico': 24, 'dur': 22}},
+    cuadro('posterior', [fig.vhit(0.97, 0.98, None, None), fig.nistagmo(), fig.vng({'titulo': 'Dix-Hallpike derecho (E–CCD)', 'seg': 40, 'v': {'dir': 1, 'lat': 4, 'pico': 24, 'dur': 22}},
                                  {'titulo': 'Al sentarse (CCD–E)', 'seg': 20, 'v': {'dir': -1, 'lat': 2, 'pico': 6, 'dur': 6}},
                                  {'titulo': 'Dix-Hallpike izquierdo (E–CCI)', 'seg': 40})] + AUDIO, od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=58, sexo='mujer',
            anamnesis="""Tiene 58 años y es profesora de básica. Hace seis días, al acostarse en la noche y girar hacia
@@ -31,7 +31,7 @@ CASOS = [
            recoger cosas del suelo "por si acaso".""",
            historia=[(6, 'Primer episodio de giro al acostarse sobre el lado derecho.')],
            antecedentes=['hta'], medicamentos='Enalapril 10 mg al día'),
-    cuadro('geotropico', [fig.nistagmo(), fig.vng({'titulo': 'Giro supino a la derecha (S–D)', 'seg': 40, 'h': {'dir': 1, 'lat': 3, 'pico': 8, 'dur': 12}},
+    cuadro('geotropico', [fig.vhit(0.98, 0.97, None, None), fig.nistagmo(), fig.vng({'titulo': 'Giro supino a la derecha (S–D)', 'seg': 40, 'h': {'dir': 1, 'lat': 3, 'pico': 8, 'dur': 12}},
                                   {'titulo': 'Giro supino a la izquierda (S–I)', 'seg': 40, 'h': {'dir': -1, 'lat': 4, 'pico': 18, 'dur': 25}})] + AUDIO, edad=44, sexo='hombre',
            anamnesis="""Tiene 44 años y trabaja como técnico de refrigeración. Hace diez días lo trataron en un
            centro por un vértigo posicional "de oído izquierdo" con una maniobra de acostarlo y girarlo; esa noche
@@ -40,7 +40,7 @@ CASOS = [
            minuto con náuseas, aunque ahora no vomitó. Sentado está bien. No oye menos ni tiene pitido.""",
            historia=[(10, 'Vértigo posicional del oído izquierdo; tratado con una maniobra de reposición, mejoría esa noche.'),
                      (3, 'Reaparece el vértigo al darse vuelta en la cama, sobre todo hacia la izquierda.')]),
-    cuadro('apogeotropico', [fig.nistagmo(), fig.vng({'titulo': 'Giro supino a la derecha (S–D)', 'seg': 60, 'h': {'dir': -1, 'lat': 0, 'pico': 5, 'tipo': 'persistente'}},
+    cuadro('apogeotropico', [fig.vhit(0.95, 0.96, None, None), fig.nistagmo(), fig.vng({'titulo': 'Giro supino a la derecha (S–D)', 'seg': 60, 'h': {'dir': -1, 'lat': 0, 'pico': 5, 'tipo': 'persistente'}},
                                      {'titulo': 'Giro supino a la izquierda (S–I)', 'seg': 60, 'h': {'dir': 1, 'lat': 0, 'pico': 12, 'tipo': 'persistente'}})] + AUDIO, od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=67, sexo='mujer',
            anamnesis="""Tiene 67 años y es dueña de casa. Hace dos semanas, al darse vuelta en la cama, empezó a
            sentir que todo gira y le dura todo el tiempo que se queda de lado: si se queda mirando hacia la
@@ -49,7 +49,7 @@ CASOS = [
            dos oídos que no ha cambiado con el mareo. Se levanta con cuidado y ya no duerme de costado.""",
            historia=[(14, 'Primer episodio al darse vuelta en la cama.')],
            antecedentes=['hta'], medicamentos='Losartán 50 mg al día'),
-    cuadro('central', AUDIO + [fig.vemps(), fig.vng({'titulo': 'Cabeza colgando (E–CC)', 'seg': 60, 'v': {'dir': -1, 'lat': 0, 'pico': 7, 'tipo': 'persistente'}},
+    cuadro('central', [fig.vhit(0.99, 0.97, None, None)] + AUDIO + [fig.vemps(), fig.vng({'titulo': 'Cabeza colgando (E–CC)', 'seg': 60, 'v': {'dir': -1, 'lat': 0, 'pico': 7, 'tipo': 'persistente'}},
                                {'titulo': 'Al sentarse (CC–E)', 'seg': 20},
                                {'titulo': 'Cabeza colgando, repetida', 'seg': 60, 'v': {'dir': -1, 'lat': 0, 'pico': 7, 'tipo': 'persistente'}}),
                                fig.nistagmo(con_fijacion={'izquierda': -3, 'derecha': 3},

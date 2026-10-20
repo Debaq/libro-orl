@@ -272,6 +272,26 @@ ACENTO = {None: '#E7A7BA', 'I': '#E7A7BA', 'II': '#9fd6c9'}
 def tomo_de(cap):
     return 'I' if cap[:1] in ('B', 'H') else 'II'
 
+
+# Créditos de las imágenes del tomo II (él, 2026-10-20): la fuente, los autores
+# y la licencia salen del pie de la figura ("Imagen: ...", "Imagen propia ...")
+# y van a un índice al final del tomo. {capítulo: [(número de figura, crédito)]},
+# lo llena capitulo() y lo usa armado_incremental.segmentos().
+CREDITOS = {}
+CREDITO = re.compile(r'\s*(Imagen(?: propia)?\b[:\s].*)$', re.S)
+
+
+def separar_credito(cap, numero, titulo):
+    """(título sin crédito, crédito). Solo en el tomo II; en el I no cambia."""
+    if tomo_de(cap) != 'II':
+        return titulo, None
+    m = CREDITO.search(titulo or '')
+    if not m:
+        return titulo, None
+    credito = m[1].strip()
+    CREDITOS.setdefault(cap, []).append((numero, credito))
+    return titulo[:m.start()].rstrip(), credito
+
 NOMBRE_FIGURA = {
     'audiograma': 'Audiometría tonal', 'acumetria': 'Acumetría', 'logoaudiometria': 'Logoaudiometría', 'timpanograma': 'Timpanometría',
     'reflejos': 'Reflejos estapediales', 'teoae': 'Emisiones otoacústicas transitorias',
@@ -489,6 +509,21 @@ def ubicar_globo(x, y, pts, puestos, ancho, alto):
     return (mejor[1], mejor[2]) if mejor else (x + 13, y - 15)
 
 
+def leyenda_globos(obs, numero):
+    """Lo que dice cada número de una figura. Tomo II: en el pie, en letra
+    chica (él, 2026-10-20: los cuadros bajo la figura ocupaban espacio y
+    cortaban el texto). Tomo I: el cuadro de siempre, abajo.
+    obs: [(número o None, html)]. Devuelve (para el pie, para abajo)."""
+    if not obs:
+        return '', ''
+    if tomo_de(str(numero).split('.')[0]) == 'II':
+        partes = [f'<span class="ley">' + (f'<span class="globo-mini">{k}</span> ' if k else '') + f'{h}</span>'
+                  for k, h in obs]
+        return f'<span class="leyenda">{" ".join(partes)}</span>', ''
+    items = [(f'<li><span class="globo">{k}</span>{h}</li>' if k else f'<li class="sin-globo">{h}</li>') for k, h in obs]
+    return '', f'<ol class="obs">{"".join(items)}</ol>'
+
+
 def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     """Una figura del motor con globos numerados y las observaciones abajo.
 
@@ -531,9 +566,9 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
                           f'<circle cx="{gx}" cy="{gy}" r="7.5" fill="#24101a" stroke="#ffffff" stroke-width="1.5"/>'
                           f'<text x="{gx}" y="{gy + 3.2}" font-size="9" font-weight="700" fill="#ffffff" '
                           f'text-anchor="middle">{k}</text>')
-            obs.append(f'<li><span class="globo">{k}</span>{markdown.markdown(texto.strip())[3:-4]}</li>')
+            obs.append((k, markdown.markdown(texto.strip())[3:-4]))
         else:
-            obs.append(f'<li class="sin-globo">{markdown.markdown(linea)[3:-4]}</li>')
+            obs.append((None, markdown.markdown(linea)[3:-4]))
     svg = re.sub(r'<metadata id="anclas">.*?</metadata>', '', svg)   # ya se usaron; ids repetidos en la página
     svg = svg.replace('</svg>', ''.join(globos) + '</svg>')
     svg = re.sub(r'<svg ', '<svg class="grafico" ', svg, count=1)
@@ -544,8 +579,9 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     rot = NOMBRE_FIGURA.get(tipo, tipo)
     if 'sin enmascarar' in svg and 'sin enmascarar' not in rot:
         rot += ' sin enmascarar'
-    return (f'<div class="figobs figobs-motor"><figure class="fig">{svg}<figcaption>Figura {numero_fig}. {rot}.</figcaption></figure>'
-            f'<ol class="obs">{"".join(obs)}</ol></div>')
+    leyenda, lista = leyenda_globos(obs, numero_fig)
+    return (f'<div class="figobs figobs-motor"><figure class="fig">{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
+            f'{lista}</div>')
 
 
 def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
@@ -568,16 +604,16 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
         if m:
             k += 1
             globos.append(f'<span class="globo-img" style="left:{m[1]}%;top:{m[2]}%">{k}</span>')
-            obs.append(f'<li><span class="globo">{k}</span>{markdown.markdown(m[3].strip())[3:-4]}</li>')
+            obs.append((k, markdown.markdown(m[3].strip())[3:-4]))
         else:
-            obs.append(f'<li class="sin-globo">{markdown.markdown(linea)[3:-4]}</li>')
-    lista = f'<ol class="obs">{"".join(obs)}</ol>' if obs else ''
+            obs.append((None, markdown.markdown(linea)[3:-4]))
+    leyenda, lista = leyenda_globos(obs, numero)
     # El contenedor de los globos es inline-block: mide lo que la imagen y no
     # lo que la columna, así los % de los globos son de la imagen (WeasyPrint
     # no entiende width: fit-content).
     estilo = f' style="width:{ancho}"' if ancho else ''
     return (f'<div class="figobs"><figure class="fig"><div class="img-centro"><div class="img-globos"{estilo}>'
-            f'<img src="{archivo.as_uri()}">{"".join(globos)}</div></div><figcaption>{ia}Figura {numero}. {html.escape(titulo)}</figcaption></figure>{lista}</div>')
+            f'<img src="{archivo.as_uri()}">{"".join(globos)}</div></div><figcaption>{ia}Figura {numero}. {html.escape(titulo)}{leyenda}</figcaption></figure>{lista}</div>')
 
 
 # Capítulos vestibulares y nasales: sus casos llevan el sello de LabSim solo si
@@ -588,6 +624,7 @@ CAPS_SIN_LABSIM = {'21', '22', '23', '24', '25', '26', '27', '31', '32', '35', '
 def capitulo(md_texto):
     cap = re.match(r'#\s+([A-Z]?\d+)\.', md_texto)
     cap = cap[1] if cap else '0'
+    CREDITOS[cap] = []
     marcas, contador, actual, nfig = {}, [0], {}, {}
 
     def guardar(h):
@@ -628,6 +665,19 @@ def capitulo(md_texto):
 
     def caja(m):
         tipo, titulo, dentro = m[1], (m[2] or '').strip(), m[3]
+        if tipo == 'lado':
+            # ':::lado' con una figura y una tabla: en una fila, la figura a la
+            # izquierda y la tabla a la derecha (él, 2026-10-20: la mariposa con
+            # el vHIT al lado). La figura ya viene como marca: se resuelve aquí.
+            html_lado = markdown.markdown(dentro, extensions=['tables'])
+            figs = re.findall(r'<p>(@@BLOQUE\d+@@)</p>', html_lado)
+            tablas = re.findall(r'<table>.*?</table>', html_lado, re.S)
+            tit = f'<p class="caja-titulo">{html.escape(titulo)}</p>' if titulo else ''
+            # sin pop: guardar() numera por len(marcas)
+            celdas = [f'<div class="fila-fig">{marcas[f]}</div>' for f in figs]
+            if tablas:
+                celdas.append(f'<div class="fila-tab">{tit}{"".join(tablas)}</div>')
+            return guardar(f'<div class="fila">{"".join(celdas)}</div>')
         # Un solo libro (decisión 2026-10-15): la guía del docente va
         # dentro de cada caso, en su recuadro verde, no en otra edición.
         ancho = tipo.endswith('-ancho')
@@ -650,8 +700,9 @@ def capitulo(md_texto):
         paso = tipo == 'pregunta' and titulo.startswith('Paso ')
         if paso or lado:
             largo = False
+        # Tomo II: la letra de los recuadros, como la de la bibliografía (él, 2026-10-20)
         return guardar(f'<aside class="caja caja-{tipo}{" ancho" if ancho else ""}{" larga" if largo else ""}'
-                       f'{" paso" if paso else ""}">'
+                       f'{" paso" if paso else ""}{" t2" if tomo_de(cap) == "II" else ""}">'
                        f'<p class="caja-titulo">{html.escape(titulo)}</p>{cuerpo_caja}</aside>')
 
     # En orden de aparición: la ficha numera el caso y sus figuras toman ese número
@@ -664,6 +715,7 @@ def capitulo(md_texto):
         # ':::imagen ruta ancho=60% Título': el tamaño va antes del título
         m = re.match(r'ancho=(\d+(?:\.\d+)?(?:%|mm))\s*(.*)', titulo or '')
         ancho, titulo = (m[1], m[2]) if m else (None, titulo)
+        titulo, _ = separar_credito(cap, f'{cap}.{nfig["img"]}', titulo or '')
         return guardar(imagen_con_globos(ruta, titulo or '', cuerpo_img.splitlines(), f'{cap}.{nfig["img"]}', ancho))
 
     texto_img = re.compile(r'^:::imagen\s+(\S+)(?:[ \t]+(.*?))?\s*\n(.*?)^:::\s*$', re.M | re.S)
@@ -693,9 +745,16 @@ def capitulo(md_texto):
     # a todo el ancho (fichas de caso, figuras relatadas, recuadros -ancho)
     # CORTA las columnas en vez de usar column-span: WeasyPrint perdía todo lo
     # que seguía cuando un column-span caía justo en un salto de página.
+    tomo2 = tomo_de(cap) == 'II'
+
     def es_ancho(h):
-        # 'figobs' con o sin 'figobs-motor' (la figura al lado de los globos)
-        return (h.startswith(('<section class="caso"', '<div class="figobs"', '<div class="figobs '))
+        # Tomo II: las figuras ya no cortan las columnas (él, 2026-10-20: "se
+        # lee super mal" con un bloque de dos columnas tras otro en la misma
+        # página): van dentro de la columna, a su ancho, y el texto fluye de
+        # una columna a la otra. Solo cortan las fichas de caso y los
+        # recuadros -ancho. El tomo I sigue como estaba.
+        figura = h.startswith(('<div class="figobs"', '<div class="figobs '))
+        return (h.startswith('<section class="caso"') or (figura and not tomo2)
                 or re.match(r'<aside class="caja [^"]*\bancho\b', h) is not None)
 
     def dos_columnas(seccion):
@@ -715,21 +774,42 @@ def capitulo(md_texto):
 
     es_base = re.match(r'\s*#\s*B\d', md_texto) is not None
     partes = re.split(r'(<h2>.*?</h2>)', cuerpo)
+    # Las secciones a dos columnas que van seguidas se componen como UN solo
+    # texto que corre de columna en columna, con su título (h2) dentro de la
+    # columna (él, 2026-10-20): cerrar cada sección como bloque dejaba en una
+    # misma página dos bloques de dos columnas, uno sobre otro, y se leía mal.
+    salida, corrido = [partes[0]], []
+
+    def soltar():
+        if corrido:
+            salida.append(dos_columnas(''.join(corrido)))
+            corrido.clear()
     for i in range(1, len(partes) - 1, 2):
         titulo = re.sub(r'<.*?>', '', partes[i]).strip()
         # Las Bases (B1-B4) son texto de consulta: todas sus secciones van
         # a dos columnas, como las de las herramientas.
         if titulo in SECCIONES_DOS_COLUMNAS or (es_base and titulo not in ('Referencias', 'Ayuda memoria')):
-            partes[i + 1] = dos_columnas(partes[i + 1])
-        elif titulo == 'Referencias':
+            if tomo2:
+                corrido.append(partes[i].replace('<h2>', '<h2 class="en-columna">', 1) + partes[i + 1])
+                continue
+            soltar()
+            salida.append(partes[i] + dos_columnas(partes[i + 1]))
+            continue
+        soltar()
+        if titulo == 'Referencias':
             # a dos columnas y en letra más chica que el texto: ocupaban
             # páginas enteras
-            partes[i + 1] = f'<div class="referencias">{partes[i + 1]}</div>'
-    cuerpo = ''.join(partes)
+            salida.append(partes[i] + f'<div class="referencias">{partes[i + 1]}</div>')
+        else:
+            salida.append(partes[i] + partes[i + 1])
+    soltar()
+    if len(partes) % 2 == 0:
+        salida.append(partes[-1])
+    cuerpo = ''.join(salida)
     for clave, h in marcas.items():
         cuerpo = cuerpo.replace(f'<p>{clave}</p>', h)
     # Pasos seguidos de un caso: en una fila (apilados ocupaban media página)
-    cuerpo = re.sub(r'(?:<aside class="caja caja-pregunta paso">.*?</aside>\s*){2,}',
+    cuerpo = re.sub(r'(?:<aside class="caja caja-pregunta paso(?: t2)?">.*?</aside>\s*){2,}',
                     lambda m: f'<div class="pasos">{m[0].strip()}</div>\n', cuerpo, flags=re.S)
     # Ilustraciones (dibujos tipo BioRender): ![descripción](ilustraciones/x.png).
     # Si el archivo todavía no existe sale un recuadro con la descripción,
@@ -740,6 +820,7 @@ def capitulo(md_texto):
         alt, ia = aviso_ia(alt)
         n = numeros['ilu'].pop(0) if numeros['ilu'] else 0
         ruta = LIBRO / src
+        alt, _ = separar_credito(cap, f'{cap}.{n}', alt)
         pie = f'<figcaption>{ia}Figura {cap}.{n}. {html.escape(alt)}</figcaption>'
         if ruta.exists():
             return f'<figure class="ilustracion"><img src="{ruta.as_uri()}">{pie}</figure>'
@@ -763,7 +844,9 @@ def capitulo(md_texto):
             ntab[0] += 1
             titulo = (m[1] or '').strip()
             pie = f'<span class="tabla-n">Tabla {cap}.{ntab[0]}</span>' + (f' {titulo}' if titulo else '')
-            return f'<table><caption>{pie}</caption>'
+            # Tomo II: la letra de las tablas, como la de la bibliografía (él, 2026-10-20)
+            clase = ' class="t2"' if tomo_de(cap) == 'II' else ''
+            return f'<table{clase}><caption>{pie}</caption>'
         cuerpo = re.sub(r'(?:<p>Tabla:\s*(.*?)</p>\s*)?<table>', tabla, cuerpo, flags=re.S)
 
     # Apertura del capítulo: bloque con el número y el título (estilo de libro de texto)
@@ -789,6 +872,9 @@ def capitulo(md_texto):
                     f'<span class="ap-n">{cap}</span></div><div class="ap-tit"><h1 class="capitulo" data-marca="{marca}">'
                     f'{m[1]}</h1>{firma_capitulo(cap)}</div></header>')
         cuerpo = cuerpo[:m.start()] + apertura + cuerpo[m.end():]
+    if tomo_de(cap) == 'II':
+        # la letra del tomo II (él, 2026-10-20): ver TOMO2_CSS
+        return f'<div class="tomo2">{cuerpo}</div>'
     return cuerpo
 
 
@@ -816,6 +902,37 @@ def tipo_css():
             f".dos-col {{ column-gap: {TIPO['gap']}; }}\n"
             "p, li { text-align: justify; hyphens: auto; }\n"
             ".caja p, .caja li, td p, figcaption, ol.obs li { text-align: left; hyphens: manual; }\n" + orden)
+
+
+# Letra del tomo II (él, 2026-10-20): texto corrido en 8,5 pt y todo lo demás un
+# punto menos que en el tomo I, sin bajar de 7,2 pt. El tomo I no cambia.
+TOMO2_CSS = """
+div.tomo2 { font-size: 8.5pt; }
+div.tomo2 h1.capitulo { font-size: 25pt; }
+div.tomo2 h2 { font-size: 14pt; }
+div.tomo2 h3 { font-size: 11pt; }
+div.tomo2 .caja, div.tomo2 .caja.t2, div.tomo2 .pasos .caja.t2, div.tomo2 .cards .caja { font-size: 7.2pt; }
+div.tomo2 table, div.tomo2 table.t2, div.tomo2 .caja table.t2 { font-size: 7.2pt; }
+div.tomo2 .referencias { font-size: 7.2pt; }
+div.tomo2 .referencias h3 { font-size: 8pt; }
+div.tomo2 figcaption { font-size: 7.2pt; }
+div.tomo2 .leyenda { font-size: 7.2pt; }
+div.tomo2 .caja-titulo { font-size: 7.2pt; }
+div.tomo2 .rotulo-chico { font-size: 7.2pt; }
+.fila { display: flex; gap: 4mm; align-items: flex-start; break-inside: avoid; margin: 2mm 0 3mm; }
+.fila-fig { flex: 1.7 1 0; }
+.fila-tab { flex: 1 1 0; }
+.fila .figobs, .fila .fig { margin: 0; }
+/* las dos figuras de la fila, a la misma altura (la de la menor) y sin el
+   alto intrínseco del SVG, que en una fila dejaba un hueco grande debajo */
+.fila .img-globos { width: auto !important; }
+.fila .img-globos img { height: 38mm; width: auto; max-width: 100%; }
+.fila .fig { margin: 0; }
+.fila figcaption { margin-top: 1mm; }
+.fila table { margin: 0; }
+/* figuras del motor en una fila (TEOAE y DPOAE): al ancho de su celda */
+.fila svg.grafico { width: 100%; height: auto; }
+"""
 
 
 def css():
@@ -1035,11 +1152,20 @@ li {{ margin-bottom: .8mm; }}
 .referencias.apretada {{ font-size: 7.3pt; line-height: 1.3; }}
 .referencias.apretada li {{ margin-bottom: 0; }}
 .dos-col h3 {{ break-after: avoid; }}
+.dos-col h2.en-columna {{ break-after: avoid; margin-top: 4mm; }}
+.dos-col h2.en-columna:first-child {{ margin-top: 0; }}
 .dos-col .ancho, .dos-col table.ancho {{ column-span: all; }}
 /* fichas y figuras relatadas van siempre a todo el ancho, aunque caigan en una sección a dos columnas */
-.dos-col .caso, .dos-col .figobs, .dos-col .caja-pregunta.ancho {{ column-span: all; }}
+.dos-col .caso, .dos-col .caja-pregunta.ancho {{ column-span: all; }}
+/* dentro de las columnas, la figura va al ancho de la columna */
+.dos-col .figobs {{ break-inside: avoid; margin: 2mm 0 3mm; }}
+.dos-col .figobs .img-globos {{ width: 100% !important; }}
 .caja {{ break-inside: avoid; border-radius: 2mm; padding: 2.6mm 3.4mm 1.4mm; margin: 2mm 0 4mm; font-size: 8.9pt; line-height: 1.45; }}
 .caja p, .caja li {{ margin-bottom: 1.2mm; }}
+.caja.t2 {{ font-size: 7.6pt; line-height: 1.38; }}
+table.t2, .caja table.t2 {{ font-size: 7.6pt; line-height: 1.32; }}
+table.t2 td, table.t2 th {{ padding: .7mm 1.3mm; }}
+.caja.t2 p, .caja.t2 li {{ margin-bottom: .9mm; }}
 .caja ul, .caja ol {{ padding-left: 4.5mm; }}
 .caja-titulo {{ font: 700 7.6pt 'Plus Jakarta Sans'; letter-spacing: 1pt; text-transform: uppercase; margin: 0 0 1.5mm !important; }}
 /* Tablas con grilla: sin líneas no se leían las filas ni las columnas. */
@@ -1079,6 +1205,7 @@ table caption {{ caption-side: top; text-align: left; font-size: 8pt; color: #5c
 /* los pasos 1-3 de un caso, en una fila y en letra más chica */
 .pasos {{ display: flex; gap: 3mm; align-items: stretch; margin: 2mm 0 4mm; break-inside: avoid; }}
 .pasos .caja {{ flex: 1 1 0; margin: 0; font-size: 8.2pt; line-height: 1.38; padding: 2mm 2.6mm 1mm; }}
+.pasos .caja.t2 {{ font-size: 7.6pt; }}
 .pasos .caja-titulo {{ font-size: 6.8pt; letter-spacing: .6pt; }}
 /* preliminares: recuadros de muestra en cards y siglas a dos columnas */
 .cards {{ display: flex; flex-wrap: wrap; gap: 3mm; margin: 2mm 0 4mm; }}
@@ -1098,6 +1225,10 @@ table caption {{ caption-side: top; text-align: left; font-size: 8pt; color: #5c
 .caja-simulador .caja-titulo::before {{ content: '▶ '; }}
 .figobs {{ margin: 3mm 0 5mm; }}
 .figobs .fig {{ margin: 0 0 1mm; }}
+.leyenda {{ display: block; font-size: 7.2pt; line-height: 1.38; margin-top: 1mm; color: #4a3a41; }}
+.leyenda .ley {{ margin-right: 1.2mm; }}
+.globo-mini {{ display: inline-block; width: 3.4mm; height: 3.4mm; line-height: 3.4mm; border-radius: 50%; background: #24101a;
+               color: #fff; font: 700 6pt 'Plus Jakarta Sans'; text-align: center; vertical-align: .2mm; }}
 ol.obs {{ list-style: none; padding: 2.4mm 3mm 1mm; margin: 0; background: #f7f3f4; border-radius: 2mm;
           column-count: 2; column-gap: 6mm; font-size: 8.7pt; line-height: 1.42; }}
 ol.obs li {{ break-inside: avoid; margin: 0 0 1.8mm; padding-left: 6.5mm; position: relative; }}
@@ -1122,6 +1253,7 @@ ol.obs li.sin-globo {{ padding-left: 0; }}
 figcaption {{ font-size: 7.8pt; color: #7d6670; margin-top: 1.2mm; text-align: center; }}
 strong {{ color: #24101a; }}
 {tipo_css()}
+{TOMO2_CSS}
 """
 
 
@@ -1489,7 +1621,13 @@ def main():
     # abierto (o dos armados a la vez) nunca ve un PDF a medio escribir.
     temporal = destino.with_name(f'.{destino.stem}.{os.getpid()}.pdf')
     try:
-        if pedido:
+        if pedido and all(tomo_de(clave(x)) == 'II' for x in pedido):
+            # Tomo II: con el acomodo (acomodar.py), para que la prueba de un
+            # capítulo salga como en el tomo: el texto sube a los huecos de las
+            # columnas y las figuras se achican si hace falta
+            import acomodar
+            acomodar.componer(doc, str(LIBRO) + '/').write_pdf(str(temporal))
+        elif pedido:
             subprocess.run([weasy, '-u', str(LIBRO) + '/', f.name, str(temporal)], check=True)
         else:
             escribir_con_indice(doc, temporal)

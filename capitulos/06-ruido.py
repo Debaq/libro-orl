@@ -20,15 +20,15 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402
 
 # Lo que se mira en todos: el audiograma y las dos emisiones evocadas
-OEA = [fig.audiograma(), fig.teoae(), fig.dpoae()]
+OEA = [fig.audiosupra(), fig.teoae(), fig.dpoae()]
 
 CASOS = [
     # Tomás: audiometría y emisiones de base antes de entrar a la mina
     demo(33, OEA),
     # Jorge: muesca ensanchada de 22 años de chancador; la TEOAE "pasa" igual
-    demo(37, [fig.audiograma(), fig.logo(), fig.teoae(), fig.dpoae()]),
+    demo(37, [fig.audiosupra(), fig.teoae(), fig.dpoae()]),
     # Un disparo a la izquierda: muesca profunda de un solo oído; Weber mudo
-    cuadro('trauma_acustico_agudo', [fig.audiograma(), fig.acumetria(), fig.teoae(), fig.dpoae()],
+    cuadro('trauma_acustico_agudo', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()],
            oi='trauma_acustico_agudo', edad=19,
            anamnesis="""Tiene 19 años y está haciendo el servicio militar. Hace cuatro días, en una práctica de
            tiro, un compañero disparó a su izquierda justo cuando él se estaba acomodando el protector auditivo.
@@ -41,7 +41,7 @@ CASOS = [
            antecedentes=['trauma_acustico'],
            medicamentos='Prednisona oral desde hace dos días, indicada por el otorrinolaringólogo'),
     # Diez años de barra en una discoteca: muesca bilateral profunda con recuperación en 8 kHz
-    cuadro('muesca_4k', [fig.audiograma(), fig.dpoae()], od='muesca_4k', oi='muesca_4k', edad=32, sexo='mujer',
+    cuadro('muesca_4k', [fig.audiosupra(), fig.dpoae()], od='muesca_4k', oi='muesca_4k', edad=32, sexo='mujer',
            anamnesis="""Tiene 32 años y hace diez trabaja en la barra de una discoteca, cuatro noches por semana. No
            usa protección auditiva porque "tiene que escuchar los pedidos". Desde hace años sale del turno con
            los oídos silbando, pero antes se le pasaba al día siguiente. Hace como un año el silbido de los dos

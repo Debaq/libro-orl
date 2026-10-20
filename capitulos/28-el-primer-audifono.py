@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en todo candidato: audiograma con LDL y discriminacion
-BASE = [fig.audiograma(), fig.logo()]
+BASE = [fig.audiosupra()]
 
 # Ganancia funcional ILUSTRATIVA que declara el libro (no es una prescripcion ni un audifono real).
 GANANCIA = {250: 5, 500: 10, 1000: 20, 2000: 30, 3000: 35, 4000: 30, 6000: 15}
@@ -52,7 +52,7 @@ CASOS = [
            restaurantes con mucho ruido y cuando un alumno habla bajito al fondo de la sala. En casa no se pierde
            las conversaciones ni sube la tele. No tiene pitidos ni mareos, y nunca ha tenido infecciones de oído.""",
            historia=[(60, 'Médico general, control de salud: dificultad referida en ambientes ruidosos; otoscopía normal. Se solicita audiometría.')]),
-    cuadro('un_oido', BASE + [fig.campo_libre()], od='parotiditis', grado_od='profunda', edad=47, sexo='hombre',
+    cuadro('un_oido', BASE + [fig.impedancia(), fig.campo_libre()], od='parotiditis', grado_od='profunda', edad=47, sexo='hombre',
            semilla=1263824184,
            anamnesis="""Tiene 47 años y maneja un taxi. A los nueve años tuvo paperas con fiebre alta y desde entonces
            no oye por el oído derecho: "siempre fue así". Con el izquierdo la vida en casa no le cuesta. Lo que sí le

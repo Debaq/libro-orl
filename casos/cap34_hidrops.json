@@ -21,9 +21,7 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
@@ -31,7 +29,7 @@
       "enmascarado": true
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 226
     },
     {

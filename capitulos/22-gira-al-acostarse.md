@@ -117,7 +117,7 @@ Plantea al menos tres causas posibles de un vértigo que aparece al girar en la 
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap22_posterior_nistagmo.svg ancho=75% Nistagmo espontáneo de Luisa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap22_posterior_nistagmo.svg ancho=55% Nistagmo espontáneo de Luisa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Entre las crisis el equilibrio es normal, y no hay signos de cerebelo ni de pares. No hay nistagmo espontáneo con ni sin fijación, ni con *head-shaking*.
@@ -147,7 +147,10 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 :::imagen figuras/salida/cap22_posterior_vng.svg ancho=100% VNG del Dix-Hallpike de Luisa, un punto por batida. A la derecha, el nistagmo vertical que bate hacia arriba empieza a los 4 s de llegar a la posición (**latencia**), sube a **24 °/s** y se apaga solo antes de los 30 s (**crescendo-decrescendo**). Al sentarse se invierte, hacia abajo y más débil. A la izquierda no hay nistagmo. La torsión hacia el OD se ve en el video: una VNG de dos canales no la registra.
 :::
 
-:::ayuda-ancho vHIT
+:::lado
+:::imagen figuras/salida/cap22_posterior_vhit.svg vHIT de Luisa: ganancia de 0,97 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.
+:::
+
 | vHIT | Lateral | Anterior | Posterior |
 |---|---|---|---|
 | **Derecho** | 0,97 | 0,93 | 0,92 |
@@ -161,7 +164,7 @@ El reflejo es simétrico en los seis canales.
 
 Presbiacusia **sensorioneural descendente y simétrica**, la que explica que oiga menos en lugares con ruido. SDT de 5 dB y SRT de 10 dB en los dos oídos, y discriminación de 92 %, a 50 dB.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 35 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 74,5 dB en 500 Hz a 29,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** episodios de unos 20 segundos desencadenados por postura (acostarse y girar a la derecha, mirar hacia arriba), sin síntomas entre las crisis, sin signos neurológicos, sin golpe de cabeza. Hipertensión tratada y una presbiacusia estable, con acúfeno simétrico de años.
@@ -197,7 +200,7 @@ Si el Dix-Hallpike del lado ya tratado ya no da el nistagmo de antes, ¿qué pru
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap22_geotropico_nistagmo.svg ancho=75% Nistagmo espontáneo de Rafael en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap22_geotropico_nistagmo.svg ancho=55% Nistagmo espontáneo de Rafael en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo con ni sin fijación, ni con *head-shaking*.
@@ -227,7 +230,10 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 :::imagen figuras/salida/cap22_geotropico_vng.svg ancho=100% VNG del giro supino de Rafael. A los dos lados el nistagmo es horizontal y bate hacia el suelo: hacia la derecha con **8 °/s** y hacia la izquierda con **18 °/s**, con latencia de 3 a 4 s, y se apaga antes del minuto. El lado afectado es el que da el más fuerte, el izquierdo.
 :::
 
-:::ayuda-ancho vHIT
+:::lado
+:::imagen figuras/salida/cap22_geotropico_vhit.svg vHIT de Rafael: ganancia de 0,98 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.
+:::
+
 | vHIT | Lateral | Anterior | Posterior |
 |---|---|---|---|
 | **Derecho** | 0,98 | 0,94 | 0,93 |
@@ -275,7 +281,7 @@ Con estos antecedentes, ¿qué prueba harías? ¿Y qué verías si las partícul
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap22_apogeotropico_nistagmo.svg ancho=75% Nistagmo espontáneo de Rosa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap22_apogeotropico_nistagmo.svg ancho=55% Nistagmo espontáneo de Rosa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo con ni sin fijación, ni con *head-shaking*.
@@ -308,7 +314,10 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 :::imagen figuras/salida/cap22_apogeotropico_vng.svg ancho=100% VNG del giro supino de Rosa. A los dos lados el nistagmo es horizontal y bate hacia el techo, sin latencia, y sigue los 60 s del registro: hacia la izquierda con **5 °/s** (cabeza a la derecha) y hacia la derecha con **12 °/s** (cabeza a la izquierda). En el apogeotrópico el lado del más fuerte es el sano; el afectado es el derecho.
 :::
 
-:::ayuda-ancho vHIT
+:::lado
+:::imagen figuras/salida/cap22_apogeotropico_vhit.svg vHIT de Rosa: ganancia de 0,95 hacia la derecha y de 0,96 hacia la izquierda, sin sacadas.
+:::
+
 | vHIT | Lateral | Anterior | Posterior |
 |---|---|---|---|
 | **Derecho** | 0,95 | 0,9 | 0,88 |
@@ -322,7 +331,7 @@ El reflejo es simétrico en los seis canales.
 
 SDT de 10 dB y SRT de 15 dB en los dos oídos, con discriminación de 92 % en el OI y 88 % en el OD, a 40-60 dB.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 75 a 80 dB en 500 Hz a 35 a 45 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 69,5 a 74,5 dB en 500 Hz a 29,5 a 39,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** el vértigo dura **mientras se mantiene la postura** (uno o dos minutos), sin latencia aparente, y la paciente señala como "el peor" el lado izquierdo. Presbiacusia simétrica con acúfeno de años.
@@ -362,7 +371,7 @@ Hay tres datos en su relato que **no** son de un VPPB. ¿Cuáles son? ¿Qué sig
 
 Con los ojos abiertos ya se tambalea y el tándem está muy alterado: es el cerebelo (→ H16). No cae hacia un lado fijo.
 
-:::imagen figuras/salida/cap22_central_nistagmo.svg ancho=75% Nistagmo del paciente en la hoja del campo clínico. Las flechas laterales apuntan hacia donde se mira, y son iguales con y sin fijación.
+:::imagen figuras/salida/cap22_central_nistagmo.svg ancho=55% Nistagmo del paciente en la hoja del campo clínico. Las flechas laterales apuntan hacia donde se mira, y son iguales con y sin fijación.
 :::
 
 No hay nistagmo espontáneo al frente. Hay un **nistagmo evocado por la mirada**: bate hacia donde mira, **3 °/s** a la izquierda y **3 °/s** a la derecha, y **cambia de sentido** con la mirada. Con fijación **no disminuye** (**OFI −**). Sin *head-shaking*.
@@ -406,7 +415,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,97 | 0,94 | 0,92 |
 :::
 
-:::imagen figuras/salida/cap22_central_mariposa.svg ancho=62% Gráfico de mariposa del paciente: las cuatro curvas son simétricas.
+:::lado
+:::imagen figuras/salida/cap22_central_mariposa.svg Gráfico de mariposa del paciente: las cuatro curvas son simétricas.
+:::
+:::imagen figuras/salida/cap22_central_vhit.svg vHIT de Felipe: ganancia de 0,99 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Según parámetro de VCL: hipoexcitabilidad vestibular de **1 %** y dirección preponderante de **1 %** (valores no significativos): el laberinto responde. Lo que falla es la **supresión por la fijación** (OFI −), un signo central que no localiza y se lee con los demás (→ H17). El vHIT es normal en los seis canales.

@@ -190,7 +190,7 @@ Además del audiograma, ¿qué mirarías de cabecera y con qué equipo? ¿Qué e
 
 Todo cae hacia el mismo lado, el **derecho**, que es el lado enfermo (Strupp y cols., 2022). Con los ojos abiertos se sostiene, y el cerebelo y los pares están sin hallazgos: no hay signo central (Huh y Kim, 2013).
 
-:::imagen figuras/salida/cap21_neuritis_nistagmo.svg ancho=75% Nistagmo espontáneo de Ana en la hoja del campo clínico. Triángulos: mirada a la izquierda y a la derecha; franjas: arriba, al frente y abajo. Cada flecha apunta hacia donde bate la fase rápida, y su número da la intensidad.
+:::imagen figuras/salida/cap21_neuritis_nistagmo.svg ancho=55% Nistagmo espontáneo de Ana en la hoja del campo clínico. Triángulos: mirada a la izquierda y a la derecha; franjas: arriba, al frente y abajo. Cada flecha apunta hacia donde bate la fase rápida, y su número da la intensidad.
 :::
 
 Sin fijación, el nistagmo es **horizontal-torsional y bate a la izquierda** en todas las miradas, sin cambiar de dirección: **9 °/s** a la izquierda, **6 °/s** al frente y **3 °/s** a la derecha (Alexander III). Con fijación baja a 1 °/s (**OFI +**). Sacadas y seguimiento sin otro hallazgo. Con *head-shaking* el nistagmo **aumenta**, siempre hacia la izquierda.
@@ -234,7 +234,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,96 | 0,92 | 0,90 |
 :::
 
-:::imagen figuras/salida/cap21_neuritis_mariposa.svg ancho=62% Gráfico de mariposa: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.
+:::lado
+:::imagen figuras/salida/cap21_neuritis_mariposa.svg Gráfico de mariposa: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.
+:::
+:::imagen figuras/salida/cap21_neuritis_vhit.svg vHIT de Ana: ganancia de 0,38 hacia la derecha, con sacadas covert y overt y de 0,96 hacia la izquierda.
+:::
 :::
 
 Hipoexcitabilidad derecha: (6 + 8 − 26 − 18) / 58 = **52 %**. Dirección preponderante hacia la izquierda: **17 %**; es la huella del nistagmo espontáneo. En el vHIT caen el lateral y el anterior derechos y el posterior se conserva: es el territorio del **nervio vestibular superior**.
@@ -285,7 +289,7 @@ Además del examen del reflejo y del nistagmo, ¿qué agregarías para saber si 
 
 El cuerpo se va hacia la derecha y no hay ningún signo de tronco ni de cerebelo: hasta aquí, lo mismo que Ana.
 
-:::imagen figuras/salida/cap21_laberintitis_nistagmo.svg ancho=75% Nistagmo espontáneo de Javier en la hoja del campo clínico.
+:::imagen figuras/salida/cap21_laberintitis_nistagmo.svg ancho=55% Nistagmo espontáneo de Javier en la hoja del campo clínico.
 :::
 
 Sin fijación, el nistagmo es **horizontal-torsional y bate a la izquierda** en todas las miradas, sin cambiar de dirección: **10 °/s** a la izquierda, **7 °/s** al frente y **4 °/s** a la derecha (Alexander III). Con fijación baja a 2 °/s (**OFI +**). Con *head-shaking* **aumenta**, siempre hacia la izquierda.
@@ -329,7 +333,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,98 | 0,93 | 0,91 |
 :::
 
-:::imagen figuras/salida/cap21_laberintitis_mariposa.svg ancho=62% Gráfico de mariposa de Javier: las dos irrigaciones del OD casi no se separan de la línea.
+:::lado
+:::imagen figuras/salida/cap21_laberintitis_mariposa.svg Gráfico de mariposa de Javier: las dos irrigaciones del OD casi no se separan de la línea.
+:::
+:::imagen figuras/salida/cap21_laberintitis_vhit.svg vHIT de Javier: ganancia de 0,30 hacia la derecha, con sacadas covert y overt y de 0,98 hacia la izquierda.
+:::
 :::
 
 Hipoexcitabilidad derecha: (3 + 4 − 24 − 19) / 50 = **72 %**. Dirección preponderante hacia la izquierda: **12 %**. A diferencia de Ana, en el vHIT caen **los tres canales** del lado derecho, también el posterior.
@@ -344,7 +352,12 @@ Caen los dos VEMP del OD: cVEMP de 45 contra 292 µV (**73 %**) y oVEMP de 5 con
 
 En el OD el SRT es de 70 dB y la discriminación no pasa del **60 %**, a 100 dB, con ruido de habla al OI.
 
-Las supraliminares del OD son de cóclea: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 20 a 25 dB.
+Las supraliminares del OD son de cóclea: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 17 a 20 dB.
+
+:::imagen figuras/salida/cap21_laberintitis_impedancia.svg ancho=80% Impedanciometría de Javier.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,52 mL en el OD y de 0,49 mL en el OI. Los reflejos están presentes y algo más altos cuando el sonido va al OD: de 90 a 105 dB SPL ipsi y de 100 a 105 desde la sonda del OI. Cuando va al OI aparecen de 85 a 95. Decay negativo.
 
 :::docente Guía del caso
 - **Datos clave:** vértigo agudo tras un resfrío, oído derecho "tapado" con hipoacusia que no vuelve, zumbido a ratos, otoscopía normal, sin signos neurológicos.
@@ -383,7 +396,7 @@ El paciente no puede sentarse sin caerse. ¿Cuál es la prioridad: completar el 
 
 No poder sentarse sin apoyo, con los ojos abiertos, no es lo que da una neuritis: es una **ataxia de tronco**. Los miembros están bien, lo que es frecuente cuando la lesión está en la línea media del cerebelo (→ H16).
 
-:::imagen figuras/salida/cap21_pseudoneuritis_nistagmo.svg ancho=75% Nistagmo de Martín en la hoja del campo clínico. Al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.
+:::imagen figuras/salida/cap21_pseudoneuritis_nistagmo.svg ancho=55% Nistagmo de Martín en la hoja del campo clínico. Al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.
 :::
 
 El nistagmo **cambia de sentido con la mirada**: 8 °/s hacia la izquierda al mirar a la izquierda y 8 °/s hacia la derecha al mirar a la derecha, sin nistagmo al frente. Es un **nistagmo evocado por la mirada** y la fijación no lo frena (**OFI −**). Los dos rasgos son centrales.
@@ -431,7 +444,7 @@ Si el impulso cefálico sale anormal y el nistagmo es unidireccional, ¿estás t
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap21_aica_nistagmo.svg ancho=75% Nistagmo espontáneo de Inés en la hoja del campo clínico.
+:::imagen figuras/salida/cap21_aica_nistagmo.svg ancho=55% Nistagmo espontáneo de Inés en la hoja del campo clínico.
 :::
 
 Sin fijación, el nistagmo es **horizontal-torsional y bate a la derecha** en todas las miradas, sin cambiar de dirección: **8 °/s** a la derecha, **5 °/s** al frente y **3 °/s** a la izquierda (Alexander III). Con fijación baja a 2 °/s (**OFI +**). Parece el de una neuritis izquierda.
@@ -452,6 +465,11 @@ Caen los dos VEMP del OI: cVEMP de 52 contra 351 µV (**75 %**) y oVEMP de 6 con
 En el OI el SRT es de 50 dB y la discriminación llega solo al **60 %**, a 80 dB; a 100 dB baja a 37 %: **roll-over** de 0,38 (→ cap. 11).
 
 El OI tiene de las dos cosas. SISI de **90 %** y Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, que son de cóclea; pero también **Carhart con deterioro de 30 dB** en 2 y 4 kHz y **reflejos ausentes**, que son del nervio. Con el roll-over, la lesión toca la cóclea y el nervio: la AICA irriga los dos.
+
+:::imagen figuras/salida/cap21_aica_impedancia.svg ancho=80% Impedanciometría de Inés.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 1,55 mL en el OD y de 1,00 mL en el OI. Cuando el sonido va al OI no hay reflejo, ni ipsi ni contra. Cuando va al OD aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
 
 :::docente Guía del caso
 - **Datos clave:** 58 años, hipertensión mal controlada y tabaquismo, vértigo súbito con vómitos, **pérdida auditiva del oído izquierdo de golpe**, no puede caminar sin que la sostengan (cae hacia la izquierda), sin pitido.
@@ -501,7 +519,7 @@ La hoja de cabecera es igual a la del caso anterior: periférica. Lo nuevo es la
 >
 > **Nistagmo espontáneo:** sin fijación, horizontal-torsional que bate a izquierda, VFL 7 °/s al centro, 10 °/s a izquierda y 4 °/s a derecha, sin cambio de dirección (Alexander III); con fijación, 2 °/s (OFI +). **Posicional:** persiste el espontáneo, sin nistagmo paroxístico.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 72 % (valor significativo) y dirección preponderante hacia izquierda de 12 % (valor no significativo). **vHIT:** ganancia disminuida en los tres canales derechos (lateral 0,30, anterior 0,48, posterior 0,42), con sacadas. **VEMP:** cVEMP con asimetría de 73 % y oVEMP con asimetría de 65 % (valores significativos), menores en el OD. **Audiometría:** hipoacusia sensorioneural severa del OD; SRT 70 dB y discriminación máxima de 60 %. OI normal. **Supraliminares:** OD con SISI de 90 %, sin deterioro tonal y Metz positivo.
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 72 % (valor significativo) y dirección preponderante hacia izquierda de 12 % (valor no significativo). **vHIT:** ganancia disminuida en los tres canales derechos (lateral 0,30, anterior 0,48, posterior 0,42), con sacadas. **VEMP:** cVEMP con asimetría de 73 % y oVEMP con asimetría de 65 % (valores significativos), menores en el OD. **Audiometría:** hipoacusia sensorioneural severa del OD; SRT 70 dB y discriminación máxima de 60 %. OI normal. **Supraliminares:** OD con SISI de 90 %, sin deterioro tonal y Metz positivo. **Impedanciometría:** timpanograma A bilateral; reflejos presentes, algo más altos cuando el sonido va al OD (90 a 105 dB SPL) que al OI (85 a 95); sin decay.
 >
 > **Conclusión:** examen compatible con hipofunción vestibular derecha aguda de los tres canales, el sáculo y el utrículo, con hipoacusia sensorioneural severa del mismo lado y sin signos de compromiso central.
 
@@ -547,7 +565,7 @@ Dos de los tres pasos del HINTS parecen una neuritis izquierda: impulso anormal 
 >
 > **Nistagmo espontáneo:** sin fijación, horizontal-torsional que bate a derecha, VFL 5 °/s al centro, 8 °/s a derecha y 3 °/s a izquierda, sin cambio de dirección; con fijación, 2 °/s (OFI +). **Impulso cefálico:** ganancia disminuida hacia la izquierda (0,45, con sacada); normal hacia la derecha (0,97).
 >
-> **VEMP:** cVEMP con asimetría de 75 % y oVEMP con asimetría de 61 % (valores significativos), menores en el OI. **Audiometría:** hipoacusia sensorioneural moderada del OI; SRT 50 dB, discriminación máxima de 60 % con roll-over. OD normal. **Supraliminares:** OI con SISI de 90 % y reclutamiento completo en el Fowler, pero deterioro tonal de 30 dB y reflejos ausentes: patrón mixto, coclear y retrococlear.
+> **VEMP:** cVEMP con asimetría de 75 % y oVEMP con asimetría de 61 % (valores significativos), menores en el OI. **Audiometría:** hipoacusia sensorioneural moderada del OI; SRT 50 dB, discriminación máxima de 60 % con roll-over. OD normal. **Supraliminares:** OI con SISI de 90 % y reclutamiento completo en el Fowler, pero deterioro tonal de 30 dB y reflejos ausentes: patrón mixto, coclear y retrococlear. **Impedanciometría:** timpanograma A bilateral; sin reflejo, ipsi ni contra, cuando el sonido va al OI; con el sonido al OD hay reflejo en los dos oídos (85 a 95 dB SPL).
 >
 > **Conclusión:** examen con hipofunción vestibular y coclear izquierda **y un signo de compromiso central** (desviación vertical), con ataxia de tronco. Se avisa al médico tratante sin demora.
 

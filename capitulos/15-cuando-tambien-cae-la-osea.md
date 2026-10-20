@@ -147,19 +147,16 @@ Además de la audiometría con ósea enmascarada, ¿qué más agregarías? Piens
 
 #### Paso 4 · Los resultados
 
-:::figura cap15_mixta_otitis_cronica audiograma
-- @OD 1000 | La aérea del OD está en 55 dB en 1 kHz; la ósea, en 30. El **gap es de 25 dB**, y la ósea **no es normal**.
-- @OD osea 250 | Ya en 250 Hz la ósea está en 25 dB y desde ahí baja a 45 dB en 4 kHz: la cóclea acompaña al oído medio.
-- @OD osea 4000 | En 4 kHz el gap se achica a 15 dB: la ósea se parece más a la aérea hacia los agudos.
-- @OI 1000 | El OI es normal: en 5 dB. Es la referencia contra la que se lee el OD.
+:::imagen figuras/salida/cap15_mixta_otitis_cronica_audiosupra.svg ancho=80% Audiometría de Verónica: en el OD la aérea está en 55 dB en 1 kHz y la ósea en 30 (gap de 25 dB), con la ósea ya en 25 dB en 250 Hz y en 45 dB en 4 kHz; el OI es normal.
 :::
-:::figura cap15_mixta_otitis_cronica acumetria
-- @weber 500 | El Weber **no lateraliza**. Con un OD que suma gap (lateraliza hacia él) y una ósea peor (lo aleja), los dos efectos se compensan y el diapasón queda centrado.
-- @rinne OD 1000 | El Rinne del OD es negativo: la vía aérea oye menos que la ósea.
+
+El gap es de 25 dB y la ósea **no es normal**: la cóclea acompaña al oído medio. En 4 kHz el gap se achica a 15 dB. En el OD el SDT es de 50 dB y el SRT de 55, y la discriminación llega al 88 %, a 90 dB, con ruido al OI; el OI llega al 100 %. El Weber **no lateraliza**: el gap lo llevaría al OD y la ósea peor lo aleja, y los dos efectos se compensan. El Rinne del OD es negativo.
+
+:::imagen figuras/salida/cap15_mixta_otitis_cronica_impedancia.svg ancho=80% Impedanciometría de Verónica.
 :::
-:::figura cap15_mixta_otitis_cronica timpanograma
-- @OD pico | Curva B en el OD: no hay pico. La otoscopía, con la perforación, explica por qué (→ H7).
-:::
+
+La curva del OD es **B**: no hay pico, y el volumen es de 1,37 mL, mayor que el del OI (1,12 mL, curva A). La otoscopía, con la perforación, explica por qué (→ H7). Con la sonda en el OD no hay reflejos, ni ipsi ni contra. Con la sonda en el OI, el ipsi aparece entre 85 y 90 dB; el contra, que estimula el OD, falta en 500 a 2.000 Hz y solo se ve a 110 dB en 4 kHz y a 120 dB con el ruido de banda angosta.
+
 :::figura cap15_mixta_otitis_cronica abr
 - @OI 80 V | El OI tiene sus ondas I, III y V en el lugar.
 - @OD 80 V | La V del OD llega **cerca de 2 ms más tarde** y es la única onda que se ve: el oído medio atenúa el estímulo y todo se corre.
@@ -193,23 +190,22 @@ Los dos oídos oyen casi igual. ¿Hace falta enmascarar la ósea? ¿Qué ocurre 
 
 #### Paso 4 · Los resultados
 
-:::figura cap15_mixta_otoesclerosis audiograma
-- @OD 500 | La aérea del OD está en 55 dB y la ósea en 35: **gap de 20 dB**.
-- @OD 2000 | En 2 kHz el gap se achica a 10 dB. Es la forma típica de la otoesclerosis: el gap es mayor en graves y mínimo en 2 kHz (Xue y Sun, 2025).
-- @OI osea 1000 | **Enmascarada**, la ósea del OI está en 40 dB en 1 kHz, 5 dB peor que la del OD.
-- @OI osea 3000 | En 3 kHz el OI llega a 50 dB, contra 45 del OD: la cóclea del OI está algo más dañada. La ósea sin enmascarar lo escondía.
+:::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra_2.svg ancho=80% Audiometría de Verónica sin enmascarar, lo que anota quien no enmascara: la ósea del OD marca 35 dB en 1 kHz y la del OI marca la misma.
 :::
-:::figura cap15_mixta_otoesclerosis audiograma 2
-- @OD osea 1000 | **Sin enmascarar**, la ósea del OD está en 35 dB en 1 kHz y la del OI marca la **misma**: no sabes de qué cóclea es cada una.
-- @OI osea 3000 | Aquí la ósea del OI marca unos 45 dB en 3 kHz, donde enmascarada llega a 50. Con oídos tan parecidos la diferencia es pequeña; con oídos distintos, sería grande.
+
+**Sin enmascarar**, no sabes de qué cóclea es cada una de las dos óseas: en 1 kHz marcan lo mismo. En 3 kHz la ósea del OI marca unos 45 dB, donde enmascarada llega a 50: con oídos tan parecidos la diferencia es pequeña; con oídos distintos, sería grande.
+
+:::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra.svg ancho=80% Audiometría de Verónica enmascarada: en el OD la aérea está en 55 dB y la ósea en 35 en 500 Hz (gap de 20 dB), que se achica a 10 dB en 2 kHz; la ósea del OI está en 40 dB en 1 kHz y en 50 en 3 kHz.
 :::
-:::figura cap15_mixta_otoesclerosis timpanograma
-- @OD pico | La curva del OD es **As**: baja y rígida, de pico bajo.
-- @OI pico | El OI es igual: la rigidez es bilateral.
+
+**Enmascarada**, la ósea del OI está en 40 dB en 1 kHz, 5 dB peor que la del OD, y en 3 kHz llega a 50, contra 45 del OD: la cóclea del OI está algo más dañada. El gap es mayor en graves y mínimo en 2 kHz, la forma típica de la otoesclerosis (Xue y Sun, 2025). El SDT es de 45 dB en el OD y de 50 en el OI, y el SRT de 50 y 55; la discriminación llega al 92 % en el OD y al 84 % en el OI, a 80 dB. SISI de 90 % en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y Metz ausente.
+
+:::imagen figuras/salida/cap15_mixta_otoesclerosis_impedancia.svg ancho=80% Impedanciometría de Verónica enmascarada.
 :::
-:::figura cap15_mixta_otoesclerosis reflejos
-- @ipsi OD 1000 | Los reflejos están **ausentes** en todas las combinaciones. Con una cadena fija, el músculo no logra mover el estribo.
-:::
+
+La curva del OD es **As**: baja y rígida, de pico bajo (0,29 mL). El OI es igual (0,18 mL): la rigidez es bilateral.
+
+Los reflejos están **ausentes** en todas las combinaciones: ipsi y contra, con la sonda en cada oído. Con una cadena fija, el músculo no logra mover el estribo.
 
 :::docente Guía del caso
 - **Datos clave:** pérdida bilateral lenta, empeoró con los embarazos, madre y tía con audífono, mejor entendimiento con ruido, zumbido grave bilateral, tímpanos normales.
@@ -235,11 +231,11 @@ Otorrea fétida de años y un mareo con la presión: ¿qué estructura puede est
 
 #### Paso 4 · Los resultados
 
-:::figura cap15_colesteatoma_fistula audiograma
-- @OD 1000 | La aérea del OD está en 50 dB en 1 kHz y la ósea en 20: **gap de 30 dB**, el esperable de un colesteatoma.
-- @OD osea 500 | La ósea cae a 25 dB en 500 Hz y a 30 en 4 kHz: **la cóclea ya no está intacta**.
-- @OI 1000 | El OI es normal. Es la referencia para saber cuánto perdió el oído enfermo.
+:::imagen figuras/salida/cap15_colesteatoma_fistula_audiosupra.svg ancho=80% Audiometría de Francisco: en el OD la aérea está en 50 dB en 1 kHz y la ósea en 20 (gap de 30 dB), y la ósea cae a 25 dB en 500 Hz y a 30 en 4 kHz; el OI es normal.
 :::
+
+El gap de 30 dB es el esperable de un colesteatoma, pero la ósea cae: **la cóclea ya no está intacta**. En el OD el SDT es de 45 dB y el SRT de 50, y la discriminación llega al 96 %, a 80 dB, con ruido al OI; el OI llega al 100 %. El OI es la referencia para saber cuánto perdió el oído enfermo.
+
 :::figura cap15_colesteatoma_fistula abr
 - @OI 80 V | El OI tiene su V en el lugar.
 - @OD 80 V | En el OD la V llega tarde, a la manera de una transmisión: el umbral por aire del click es de **55 dB nHL**.
@@ -272,19 +268,15 @@ Un golpe en la cabeza puede dañar el oído medio y el interno. ¿Cómo se verí
 
 #### Paso 4 · Los resultados
 
-:::figura cap15_trauma_craneal_completo audiograma
-- @OD 250 | En 250 Hz la aérea del OD está en 45 dB y la ósea en 0: **gap de 45 dB** y cóclea normal en los graves.
-- @OD osea 4000 | En 4 kHz la ósea cae a **60 dB**, con la aérea en 95: ahí hay un gap de 35 dB **y** una cóclea dañada.
-- @OD osea 2000 | La ósea baja a 35 dB en 2 kHz: la caída coclear empieza en los agudos medios. Y el gap, de 20 dB, está en su valle.
-- @OI 4000 | El OI es normal: 0 dB en todas las frecuencias.
+:::imagen figuras/salida/cap15_trauma_craneal_completo_audiosupra.svg ancho=80% Audiometría de Manuel: en el OD, en 250 Hz la aérea está en 45 dB y la ósea en 0 (gap de 45 dB); en 4 kHz la ósea cae a 60 dB con la aérea en 95; el OI es normal.
 :::
-:::figura cap15_trauma_craneal_completo acumetria
-- @weber 500 | El Weber lateraliza al **OD**, el oído con gap: en graves manda la transmisión.
-- @rinne OD 500 | El Rinne del OD es negativo en 500 Hz, donde el gap es grande.
+
+En graves hay **gap** y cóclea normal; en 4 kHz hay un gap de 35 dB **y** una cóclea dañada. En 2 kHz la ósea baja a 35 dB: la caída coclear empieza en los agudos medios, y el gap, de 20 dB, está en su valle. El Weber lateraliza al **OD**, el oído con gap, y el Rinne del OD es negativo en 500 Hz, donde el gap es grande. En el OD el SDT es de 35 dB y el SRT de 40, y la discriminación llega al 92 %, a 70 dB, con ruido al OI; el OI llega al 100 %.
+
+:::imagen figuras/salida/cap15_trauma_craneal_completo_impedancia.svg ancho=80% Impedanciometría de Manuel.
 :::
-:::figura cap15_trauma_craneal_completo timpanograma
-- @OD pico | Curva B en el OD, con el hemotímpano que todavía no se resuelve.
-:::
+
+La curva del OD es **B**, sin pico, con el hemotímpano que todavía no se resuelve; el OI tiene curva A. Con la sonda en el OD no hay reflejos, ni ipsi ni contra. Con la sonda en el OI, el ipsi aparece entre 85 y 90 dB; el contra, que estimula el OD, solo se ve a 115 dB en 2 kHz.
 
 :::docente Guía del caso
 - **Datos clave:** choque de moto sin casco hace seis semanas, fractura del temporal derecho, otorragia, "como algodón", dificultad con voces agudas, sin parálisis facial.
@@ -310,24 +302,21 @@ Un oído sin audición no contesta ningún tono. ¿Cómo sabes que no estás mid
 
 #### Paso 4 · Los resultados
 
-:::figura cap15_fractura_transversal audiograma 2
-- @OD 1000 | **Sin enmascarar**, el OD "oye" 40 dB en 1 kHz: es la curva sombra del OI, que es normal. Con un supraaural, el tono pierde unos 40 dB al cruzar el cráneo y la cóclea sana lo oye.
-- @OD osea 1000 | La ósea sin enmascarar marca **0 dB**: es la del OI, la que oye el vibrador.
-- Leído así, el OD tendría una **conductiva pura de unos 40 dB**, con tímpano normal y curva A: un cuadro que parece de cirugía. Lo que debe hacerte desconfiar es la historia: un golpe violento y una sordera total que el paciente cuenta no calzan con un oído que "oye" 40 dB.
+:::imagen figuras/salida/cap15_fractura_transversal_audiosupra_2.svg ancho=80% Audiometría de Hugo sin enmascarar, lo que anota quien no enmascara: el OD "oye" 40 dB en 1 kHz y la ósea marca 0 dB.
 :::
-:::figura cap15_fractura_transversal audiograma
-- @OD 1000 | **Enmascarado**, el aéreo del OD está en 95 dB.
-- @OD osea 1000 | La ósea enmascarada **coincide con la aérea**, también en 95 dB: no hay gap. Es una pérdida sensorioneural profunda, y el oído medio está sano.
-- @OI 1000 | El OI es normal.
+
+**Sin enmascarar**, el OD "oye" 40 dB en 1 kHz: es la curva sombra del OI, que es normal. Con un supraaural, el tono pierde unos 40 dB al cruzar el cráneo y la cóclea sana lo oye. La ósea marca **0 dB**: es la del OI, la que oye el vibrador. El SDT sale de 40 dB, el SRT de 45 y la discriminación de 100 %, a 90 dB: todo es el OI. Leído así, el OD tendría una **conductiva pura de unos 40 dB**, con tímpano normal y curva A: un cuadro que parece de cirugía. Lo que debe hacerte desconfiar es la historia: un golpe violento y una sordera total que el paciente cuenta no calzan con un oído que "oye" 40 dB.
+
+:::imagen figuras/salida/cap15_fractura_transversal_audiosupra.svg ancho=80% Audiometría de Hugo enmascarada: el OD está en 95 dB, con la ósea coincidiendo con la aérea; el OI es normal.
 :::
-:::figura cap15_fractura_transversal acumetria
-- @rinne OD 1000 | El Rinne del OD sale negativo, pero es un **falso negativo**: lo que se oye en la mastoides lo oye la otra cóclea (→ H2).
-- @weber 500 | El Weber lateraliza al **OI**, el oído sano: en una pérdida sensorioneural el diapasón se oye en el mejor oído.
+
+**Enmascarado**, el aéreo del OD está en 95 dB y la ósea **coincide con la aérea**: no hay gap. Es una pérdida sensorioneural profunda, y el oído medio está sano. El SDT es de 90 dB y el SRT de 95, con ruido al OI, y la discriminación no pasa del 30 %, a 100 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz ausente. El Rinne del OD sale negativo, pero es un **falso negativo**: lo que se oye en la mastoides lo oye la otra cóclea (→ H2). El Weber lateraliza al **OI**, el oído sano.
+
+:::imagen figuras/salida/cap15_fractura_transversal_impedancia.svg ancho=80% Impedanciometría de Hugo enmascarada.
 :::
-:::figura cap15_fractura_transversal reflejos
-- @ipsi OD 1000 | No hay reflejo ipsilateral en el OD: la cóclea no lo transmite.
-- @contra OI 1000 | Con el tono en el OI y la sonda en el OD el reflejo **existe**, a 90 dB: el estapedio del OD y su nervio facial funcionan. Es un patrón de lesión **aferente**.
-:::
+
+Con la sonda en el OD no hay reflejo ipsilateral: la cóclea no lo transmite. Con la sonda en el OI tampoco aparece el contralateral, porque también se estimula por el OD. Cuando el tono entra por el OI el reflejo **existe**: a 90 dB con la sonda en el OD (contralateral) y a 85 dB con la sonda en el OI (ipsilateral). El estapedio del OD y su nervio facial funcionan. Es un patrón de lesión **aferente**.
+
 :::figura cap15_fractura_transversal abr
 - @OD 100 | Con el click a 100 dB nHL, el OD no muestra ninguna onda reconocible. Hacia los 7 ms se ve una ondulación pequeña: es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 dB de atenuación). No se rotula como V: no es del oído que se estudia.
 - @OI 80 V | El OI tiene sus ondas I, III y V.

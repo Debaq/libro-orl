@@ -20,7 +20,7 @@ ABR_X = fig.abr(niveles=(80, 60, 40))
 
 
 CASOS = [
-    cuadro('toxico_metabolico', [fig.audiograma(), fig.timpanograma(), fig.teoae(), fig.abr(niveles=(90, 80, 60))],
+    cuadro('toxico_metabolico', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.abr(niveles=(90, 80, 60))],
            od='toxico_metabolico', oi='toxico_metabolico', grado_od='leve', grado_oi='leve', edad=45, sexo='mujer',
            anamnesis="""Tiene 45 años y es profesora de enseñanza básica. Hace como un año que oye menos por los dos
            oídos, parejo: dice que es "como tener algodón" y que en el recreo le cuesta entender a los niños. No
@@ -52,7 +52,7 @@ CASOS = [
            historia=[(4, 'Ingreso por hemorragia intracerebral masiva; intubado en UCI.'),
                      (1, 'Sedación suspendida; temperatura central 36,8 °C.')],
            antecedentes=['hta'], medicamentos='Ninguno (dejó el enalapril)'),
-    cuadro('prematuro', [fig.timpanograma(sonda=1000), fig.teoae(), fig.abr(niveles=(80, 60, 40))],
+    cuadro('prematuro', [fig.impedancia(sonda=1000), fig.teoae(), fig.abr(niveles=(80, 60, 40))],
            od='prematuro', oi='prematuro', edad_horas=1344,
            anamnesis="""Tiene 8 semanas de vida y viene con su mamá. Nació a las 32 semanas, con 1.700 g, tras un
            trabajo de parto prematuro; el embarazo había sido normal y la mamá no tuvo infecciones ni tomó

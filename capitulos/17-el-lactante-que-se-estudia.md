@@ -187,10 +187,11 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 
 #### Paso 4 · Los resultados
 
-:::figura cap17_efusion_neonatal timpanograma
-- @OD pico | Con la sonda de **1.000 Hz** la curva es **plana** en los dos oídos: sin pico, compliancia 0,00 mL. El volumen (0,78 mL) no se interpreta con esta sonda.
-- @OI pico | El oído izquierdo es igual de plano. Hay un problema de transmisión en los dos, pero esta curva no dice **cuánta** pérdida hay ni si hay otra detrás.
+:::imagen figuras/salida/cap17_efusion_neonatal_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con la sonda de **1.000 Hz** la curva es **plana** en los dos oídos: sin pico, compliancia 0,00 mL. El volumen (0,58 mL en el OD y 0,45 en el OI) no se interpreta con esta sonda. Los reflejos faltan, ipsi y contra, con la sonda en cada oído. Hay un problema de transmisión en los dos, pero esta curva no dice **cuánta** pérdida hay ni si hay otra detrás.
+
 :::figura cap17_efusion_neonatal teoae
 - @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 0 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.
 :::
@@ -232,9 +233,11 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 
 #### Paso 4 · Los resultados
 
-:::figura cap17_cmv_congenito timpanograma
-- @OD pico | Con 1.000 Hz hay **pico claro** sobre la línea de base en los dos oídos: el oído medio no explica nada.
+:::imagen figuras/salida/cap17_cmv_congenito_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con 1.000 Hz hay **pico claro** sobre la línea de base en los dos oídos: el oído medio no explica nada. Los reflejos están presentes en los dos lados, ipsi y contra, a 85-95 dB.
+
 :::figura cap17_cmv_congenito teoae
 - @OD 2000 | El OD **no tiene emisiones**: 0 de 5 bandas y reproducibilidad de 5 %, con el oído medio sano. Las células ciliadas externas de ese oído no responden.
 - @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 93 %.
@@ -279,9 +282,11 @@ Con un bebé que no reacciona a los portazos, ¿hasta qué nivel de estímulo si
 
 #### Paso 4 · Los resultados
 
-:::figura cap17_rubeola_congenita timpanograma
-- @OD pico | En 1.000 Hz los dos oídos tienen **pico**: el oído medio está sano.
+:::imagen figuras/salida/cap17_rubeola_congenita_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con 1.000 Hz los dos oídos tienen **pico**: el oído medio está sano. Los reflejos aparecen elevados, entre 95 y 115 dB, y en los agudos faltan cuando se estimula el OD: en 2 y 4 kHz no hay reflejo ipsi (sonda en el OD) ni contra (sonda en el OI).
+
 :::figura cap17_rubeola_congenita teoae
 - @OD 2000 | Sin emisiones en el OD (0 de 5 bandas, reproducibilidad 0 %).
 - @OI 2000 | Tampoco en el OI (0 de 5, 18 %). Con el oído medio sano, es una pérdida **coclear bilateral**.
@@ -324,9 +329,11 @@ El tamizaje con AABR refirió y las emisiones se pueden registrar. ¿Qué agrega
 
 #### Paso 4 · Los resultados
 
-:::figura cap17_asfixia_perinatal timpanograma
-- @OD pico | Los dos oídos tienen **pico** con 1.000 Hz: no es un problema de oído medio.
+:::imagen figuras/salida/cap17_asfixia_perinatal_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con 1.000 Hz los dos oídos tienen **pico**: no es un problema de oído medio. Aun así, los reflejos **faltan** en los cuatro registros, ipsi y contra con cada sonda.
+
 :::figura cap17_asfixia_perinatal teoae
 - @OD 2000 | **Emisiones presentes** en el OD: 5 de 5 bandas, reproducibilidad de 93 %.
 - @OI 2000 | Y en el OI, también 5 de 5 (92 %). Las células ciliadas externas **funcionan**, a pesar de la gentamicina, que si hubiera dañado la cóclea las habría apagado.

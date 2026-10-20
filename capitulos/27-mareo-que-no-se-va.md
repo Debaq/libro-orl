@@ -230,7 +230,7 @@ Ya tiene una resonancia de cerebro normal. ¿Qué agregarías para ver si el lab
 
 No cae ni se desvía hacia ningún lado: el equilibrio estático y el dinámico son normales, y el cerebelo y los pares están sin hallazgos. Es lo que se espera de un laberinto que ya compensó.
 
-:::imagen figuras/salida/cap27_neuritis_nistagmo.svg ancho=75% Nistagmo espontáneo de Victoria en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap27_neuritis_nistagmo.svg ancho=55% Nistagmo espontáneo de Victoria en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* tampoco aparece nistagmo.
@@ -271,7 +271,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,93 | 0,92 | 0,94 |
 :::
 
-:::imagen figuras/salida/cap27_neuritis_mariposa.svg ancho=62% Gráfico de mariposa de Victoria: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas del OD y del OI son casi iguales.
+:::lado
+:::imagen figuras/salida/cap27_neuritis_mariposa.svg Gráfico de mariposa de Victoria: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas del OD y del OI son casi iguales.
+:::
+:::imagen figuras/salida/cap27_neuritis_vhit.svg vHIT de Victoria: ganancia de 0,98 hacia la derecha y de 0,93 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (11 + 9 − 9 − 7) / 36 = **11 %**, bajo el corte de 25 %. Dirección preponderante: **0 %**. El vHIT es simétrico y sin sacadas en los seis canales: el laberinto izquierdo, el de la neuritis, **compensó**.
@@ -334,7 +338,7 @@ La paciente dice que la llamaron "ansiosa" y que no está de acuerdo. ¿Qué har
 
 Sin lado hacia el que se desvíe. Solo el tándem la hace vacilar.
 
-:::imagen figuras/salida/cap27_vppb_nistagmo.svg ancho=75% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap27_vppb_nistagmo.svg ancho=55% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* tampoco aparece nistagmo.
@@ -377,7 +381,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,97 | 0,93 | 0,96 |
 :::
 
-:::imagen figuras/salida/cap27_vppb_mariposa.svg ancho=62% Gráfico de mariposa de Eva: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son casi iguales.
+:::lado
+:::imagen figuras/salida/cap27_vppb_mariposa.svg Gráfico de mariposa de Eva: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son casi iguales.
+:::
+:::imagen figuras/salida/cap27_vppb_vhit.svg vHIT de Eva: ganancia de 0,96 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (11 + 8 − 11 − 9) / 39 = **3 %**. Dirección preponderante hacia la derecha: **3 %**. Los dos valores quedan muy bajo los cortes de 25 % y de 30 %. El vHIT es simétrico y sin sacadas.
@@ -392,7 +400,7 @@ cVEMP de **348 µV** en el OD y **334 µV** en el OI (6,87 y 6,72 corregidas), a
 
 Caída de agudos de los dos lados, casi igual, la propia de la edad: el OD tiene **15 dB** en 1 kHz, **60 dB** en 4 kHz y 75 dB en 8 kHz; el OI, 15, **50** y 70 dB. La ósea sigue a la aérea: es **sensorioneural**. SRT de 10 dB en los dos oídos. Discriminación máxima de **92 %** en el OD y **96 %** en el OI: buena, acorde con la pérdida y casi igual en los dos. No hay nada asimétrico ni retrococlear.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 35 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 74,5 dB en 500 Hz a 29,5 a 44,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::ayuda-ancho Presión arterial, batería funcional y cuestionarios (→ H20)
 | Prueba | Resultado |
@@ -444,7 +452,7 @@ Tiene un pitido en el oído izquierdo y dificultad para oír por teléfono con e
 
 Se desvía hacia la **izquierda**, el lado del oído enfermo, y **solo cuando le falta la vista**. No hay signos de cerebelo ni de pares.
 
-:::imagen figuras/salida/cap27_schwannoma_nistagmo.svg ancho=75% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap27_schwannoma_nistagmo.svg ancho=55% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Seguimiento y sacadas sin otro hallazgo. Con *head-shaking* aparece un nistagmo **débil, de 2 °/s, que bate a la derecha**.
@@ -485,7 +493,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,86 | 0,88 | 0,90 |
 :::
 
-:::imagen figuras/salida/cap27_schwannoma_mariposa.svg ancho=62% Gráfico de mariposa de Joaquín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) quedan mucho más cerca de la línea que las del OD.
+:::lado
+:::imagen figuras/salida/cap27_schwannoma_mariposa.svg Gráfico de mariposa de Joaquín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) quedan mucho más cerca de la línea que las del OD.
+:::
+:::imagen figuras/salida/cap27_schwannoma_vhit.svg vHIT de Joaquín: ganancia de 0,99 hacia la derecha y de 0,86 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (15 + 11 − 6 − 4) / 36 = **44 %**. Dirección preponderante hacia la derecha: **6 %**, no significativa. El vHIT, en cambio, queda en lo normal en los seis canales, sin sacadas: la calórica ve la pérdida y el impulso no.
@@ -502,10 +514,10 @@ El OD tiene **20 dB** en 4 kHz: la caída suave de la edad. El OI tiene **45 dB*
 
 En el OI, SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 2 kHz y **reflejos ausentes**: la pérdida, aunque leve, no recluta y se cansa (→ H6).
 
-:::imagen figuras/salida/cap27_schwannoma_reflejos.svg ancho=80% Reflejos estapediales de Joaquín: ausentes al estimular el OI, ipsilateral y contralateral.
+:::imagen figuras/salida/cap27_schwannoma_impedancia.svg ancho=80% Impedanciometría de Joaquín.
 :::
 
-El OD tiene reflejo ipsilateral a **85 dB**. El OI **no tiene** reflejo ipsilateral, y tampoco aparece con el tono en el OI y la sonda en el OD: falla todo lo que se estimula por el OI, el patrón aferente (→ cap. 11).
+Curva A en los dos oídos, con compliancia de 0,69 mL en el OD y de 0,42 mL en el OI. El OD tiene reflejo ipsilateral desde **85 dB SPL**. El OI **no tiene** reflejo ipsilateral, y tampoco aparece con el tono en el OI y la sonda en el OD: falla todo lo que se estimula por el OI, el patrón aferente (→ cap. 11).
 
 :::imagen figuras/salida/cap27_schwannoma_abr.svg ancho=90% ABR de Joaquín a 80, 60 y 40 dB. La onda V del OI llega más tarde y más chica.
 :::

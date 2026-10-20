@@ -20,12 +20,24 @@
   },
   "figuras": [
     {
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.22,
+        "sacadas": "overt"
+      },
+      "izq": {
+        "ganancia": 0.25,
+        "sacadas": "overt"
+      }
+    },
+    {
       "tipo": "nistagmo",
       "con_fijacion": {},
       "sin_fijacion": {}
     },
     {
-      "tipo": "audiosupra"
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
       "tipo": "mariposa",

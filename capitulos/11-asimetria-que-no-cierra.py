@@ -14,10 +14,10 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402
 
 # Lo que se mira en todos los casos retrococleares del capítulo
-RETRO = [fig.audiograma(), fig.logo(), fig.reflejos(), fig.abr(niveles=(80, 60, 40))]
+RETRO = [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 60, 40))]
 
 CASOS = [
-    demo(39, [fig.audiograma(), fig.logo(), fig.timpanograma(), fig.reflejos(),
+    demo(39, [fig.audiosupra(), fig.logo(), fig.impedancia(), fig.impedancia(),
               fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40, 20))]),
     cuadro('schwannoma', RETRO + [fig.vemp()], od='schwannoma', grado_od='moderada', edad=52, sexo='mujer',
            anamnesis="""Tiene 52 años y es secretaria en un juzgado. Hace unos dos años nota que por el oído

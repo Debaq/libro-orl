@@ -16,7 +16,19 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.38,
+        "sacadas": "ambas"
+      },
+      "izq": {
+        "ganancia": 0.96,
+        "sacadas": null
+      }
+    },
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
     },
     {
       "tipo": "nistagmo",

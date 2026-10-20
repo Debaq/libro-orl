@@ -18,7 +18,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 CASOS = [
     # Control atrasado: la base (0 dB HL a los 33 años) está en la ficha, no en el motor
-    cuadro('control', [fig.audiograma(), fig.timpanograma()], od='muesca_4k', oi='muesca_4k', edad=41, semilla=3301,
+    cuadro('control', [fig.audiosupra(), fig.impedancia()], od='muesca_4k', oi='muesca_4k', edad=41, semilla=3301,
            anamnesis="""Tiene 41 años y hace ocho trabaja de operario en un aserradero, en la línea de corte. Entró a los 33
            y su audiometría de ingreso fue normal. El primer año lo controlaron, pero después cambió de empresa
            contratista y de turno, y nadie más le pidió el examen hasta ahora. Usa tapones de espuma, "cuando se
@@ -31,7 +31,7 @@ CASOS = [
                      (30, 'Control periódico en terreno: cambio en 3, 4 y 6 kHz de los dos oídos; se cita a confirmación en cámara.')],
            antecedentes=['trauma_acustico']),
     # Cambio al final del turno que desaparece con el reposo: el motor solo muestra el reposo
-    cuadro('reposo', [fig.audiograma()], edad=29, semilla=3302,
+    cuadro('reposo', [fig.audiosupra()], edad=29, semilla=3302,
            anamnesis="""Tiene 29 años y hace tres es operador de un molino de bolas en una planta de molienda. Su
            audiometría de ingreso fue normal. Usa orejeras y tapones juntos "cuando el jefe pasa", y a veces solo
            las orejeras. En el control de este mes, tomado en la sala de la planta al terminar el turno, salió con
@@ -45,7 +45,7 @@ CASOS = [
                      (14, 'Control en terreno al final del turno: cambio en 2, 3, 4 y 6 kHz de los dos oídos; se repite y persiste. Se cita a confirmación en cámara con reposo.')],
            antecedentes=['trauma_acustico']),
     # Ingreso con la audiometría alterada y asimétrica
-    cuadro('ingreso', [fig.audiograma()], oi='muesca_4k', edad=27, semilla=3303,
+    cuadro('ingreso', [fig.audiosupra(), fig.impedancia()], oi='muesca_4k', edad=27, semilla=3303,
            anamnesis="""Tiene 27 años y postula a un puesto de mecánico en una faena minera. Es tirador deportivo desde
            los 17 y sale a cazar con escopeta un par de veces al año; durante años disparó sin protección, y
            ahora usa tapones "a veces". Es diestro. Hace cinco años, tras una temporada de tiro, quedó con un

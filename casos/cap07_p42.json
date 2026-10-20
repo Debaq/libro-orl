@@ -2,16 +2,12 @@
   "caso": "demo:42",
   "figuras": [
     {
-      "tipo": "acumetria"
-    },
-    {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "reflejos"
+      "tipo": "impedancia",
+      "sonda": 226
     },
     {
       "tipo": "vemp",

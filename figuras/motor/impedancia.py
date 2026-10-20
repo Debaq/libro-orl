@@ -36,7 +36,7 @@ def _curva(caso, lado, sonda=226):
                                  forzado=z1000_del_caso(caso, lado))
     fijar_azar('timpanograma', caso.get('id'), lado, sonda)
     x, y, c, p, g, v, _ = Z_225(letter=letra, vol=vol, seed_key=clave).getDataSet()
-    return {'x': x, 'y': y, 'compliancia': c, 'presion': p, 'gradiente': g, 'volumen': v}
+    return {'x': x, 'y': y, 'compliancia': c, 'presion': p, 'gradiente': g, 'volumen': v, 'letra': letra}
 
 
 def timpanograma(caso, oidos=('OD', 'OI'), escala_ml=2.0, sonda=226):

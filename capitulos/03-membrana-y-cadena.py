@@ -23,10 +23,10 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en todo oído medio: el gap y la curva con su volumen. Los
 # reflejos van como figura solo en la perforación; en el resto, en el texto.
-OIDO_MEDIO = [fig.audiograma(), fig.timpanograma()]
+OIDO_MEDIO = [fig.audiosupra(), fig.impedancia()]
 
 CASOS = [
-    cuadro('perforacion', OIDO_MEDIO + [fig.reflejos()], od='perforacion', edad=36, sexo='mujer', semilla=11,
+    cuadro('perforacion', OIDO_MEDIO + [fig.impedancia()], od='perforacion', edad=36, sexo='mujer', semilla=11,
            anamnesis="""Lucía tiene 36 años y es técnica en enfermería en un CESFAM. De niña tuvo muchas otitis y
            el oído derecho le "supuraba" cada invierno. De adulta le ha supurado tres o cuatro veces, siempre
            después de que le entra agua; la última fue hace más de un año y se le pasó con gotas. Desde entonces

@@ -18,16 +18,11 @@
   },
   "figuras": [
     {
-      "tipo": "acumetria"
-    },
-    {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": "226"
     }
   ]

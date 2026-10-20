@@ -172,25 +172,15 @@ Un paciente con tapón de cerumen en los dos oídos necesita una audiometría pa
 
 **Otoscopía.** OD: tapón de cerumen oscuro que ocupa toda la luz; membrana no visible. Sin dolor a la tracción del pabellón. OI: conducto libre, membrana íntegra y translúcida.
 
-:::figura cap01_tapon_cerumen acumetria
-- @weber 500 | El Weber se va al **OD**, el oído del tapón.
-- @rinne OD 500 | Rinne **negativo** en el OD: lo oye más fuerte apoyado en la mastoides.
-- @rinne OI 500 | Positivo en el OI.
+:::imagen figuras/salida/cap01_tapon_cerumen_audiosupra.svg ancho=80% Audiometría del profesor: la que trae de la tienda, hecha con el tapón puesto. Conductiva del OD de 25 dB y caída leve en agudos en los dos oídos.
 :::
 
-:::figura cap01_tapon_cerumen audiograma
-- La audiometría que trae de la tienda, hecha con el tapón puesto.
-- @OD 500 | La aérea del OD está en 30 a 35 dB en todos los graves y medios (30 dB en 500 Hz).
-- @OD osea 500 | La ósea del OD está en 5 dB: **25 dB de gap**, todo de transmisión.
-- @OD osea 4000 | En los agudos la ósea baja a 20 dB, igual que la aérea del OI: es la edad, y la tienen los dos oídos.
-- @OI 4000 | El OI tiene esa misma caída leve en agudos, y nada más.
+La aérea del OD está en 30 a 35 dB en graves y medios (30 dB en 500 Hz) y la ósea en 5 dB: **25 dB de gap**, todo de transmisión. En los agudos la ósea baja a 20 dB, igual que la aérea del OI: es la edad, y la tienen los dos oídos. El Weber se va al **OD**, el oído del tapón; el Rinne es **negativo** en el OD y positivo en el OI. La logoaudiometría confirma que la cóclea está sana: SDT y SRT de 30 dB en el OD y de 5 dB en el OI, y discriminación de 100 % en los dos (a 70 dB en el OD, con ruido de habla en el OI, y a 40 dB en el OI).
+
+:::imagen figuras/salida/cap01_tapon_cerumen_impedancia.svg ancho=80% Impedanciometría del profesor.
 :::
 
-:::figura cap01_tapon_cerumen timpanograma
-- La timpanometría del OD no corresponde con el tapón puesto. Si igual se hace, esto es lo que sale, y conviene saber reconocerlo.
-- @OD pico | Curva **plana**, sin pico, con un volumen de solo 0,44 mL: menos que el mínimo normal de un adulto (0,6 mL; BSA, 2024). La sonda mide el poco aire que hay hasta el cerumen.
-- @OI pico | El OI es A, con 1,17 mL de volumen. Un plano con volumen bajo, distinto del otro oído, es el **tapón**, no el oído medio: no se informa como tipo B.
-:::
+La timpanometría del OD no corresponde con el tapón puesto. Si igual se hace, esto es lo que sale, y conviene saber reconocerlo. El OD da una curva **plana**, sin pico, con un volumen de solo 0,44 mL: menos que el mínimo normal de un adulto (0,6 mL; BSA, 2024). La sonda mide el poco aire que hay hasta el cerumen. El OI es A, con 1,17 mL de volumen. Un plano con volumen bajo, distinto del otro oído, es el **tapón**, no el oído medio: no se informa como tipo B. Con la sonda en el OD no hay reflejos. Con la sonda en el OI, el ipsilateral aparece en 85 a 90 dB y el contralateral, que estimula el OD tapado, solo con 115 a 120 dB.
 
 :::docente Guía del caso
 - **Datos clave:** inicio brusco después de la ducha, cotonito diario, autofonía, sin dolor ni secreción ni cirugía; audiometría de una tienda sin otoscopía.
@@ -218,18 +208,15 @@ Expuesto a ruido y con el OI alterado en la audiometría anual: ¿qué causas pl
 
 **Otoscopía.** OD: normal. OI: un cuerpo amarillento y esponjoso, como de espuma, en la parte ósea del conducto; membrana no visible; un rasguño reciente en la entrada. No se lava, no se intenta sacar y no se pone sonda.
 
-:::figura cap01_cuerpo_extrano_cae acumetria
-- @weber 500 | El Weber se va al **OI**, el oído ocluido.
-- @rinne OI 500 | Rinne **negativo** en el OI, en las dos frecuencias.
-- @rinne OD 500 | Positivo en el OD.
+:::imagen figuras/salida/cap01_cuerpo_extrano_cae_audiosupra.svg ancho=80% Audiometría de la empresa, con el objeto en el conducto: conductiva leve del OI que crece hacia los agudos; OD normal.
 :::
 
-:::figura cap01_cuerpo_extrano_cae audiograma
-- @OI 250 | La audiometría de la empresa, con el objeto en el conducto. En 250 Hz la aérea del OI está en 15 dB: la oclusión casi no toca los graves.
-- @OI 2000 | Desde 500 Hz baja a 25 a 30 dB (30 en 2 kHz): la oclusión pesa en los medios y agudos.
-- @OI 4000 | Con la ósea en 0 dB, son 30 dB de gap: una conductiva leve que **crece hacia los agudos**.
-- @OD 4000 | El OD está en 0 dB. Para un trabajador expuesto a ruido, esa audición es lo que se espera ver en el OI cuando el conducto quede libre.
+En 250 Hz la aérea del OI está en 15 dB: la oclusión casi no toca los graves. Desde 500 Hz baja a 25 a 30 dB (30 en 2 kHz) y, con la ósea en 0 dB, son 30 dB de gap en los agudos: una conductiva leve que **crece hacia los agudos**. El OD está en 0 dB; esa audición es la que se espera en el OI cuando el conducto quede libre. El Weber se va al **OI**, el oído ocluido, y el Rinne es **negativo** en el OI en las dos frecuencias y positivo en el OD. La palabra lo confirma: SDT de 0 dB en el OD y de 25 dB en el OI, SRT igual, y discriminación de 100 % en los dos oídos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
+
+:::imagen figuras/salida/cap01_cuerpo_extrano_cae_impedancia.svg ancho=80% Impedanciometría de la empresa.
 :::
+
+La sonda solo va en el OD, porque en el OI el conducto está ocluido y el timpanograma no es realizable. El OD tiene una curva A, con volumen de 0,94 mL, compliancia de 1,46 mL y pico en -54 daPa. Sus reflejos ipsilaterales están en 85 a 90 dB, con decay negativo. El contralateral, que estimula el OI, no aparece (NR): el estímulo no pasa por el oído ocluido.
 
 :::docente Guía del caso
 - **Datos clave:** tapones de espuma en la faena, oído lleno desde que se los sacó, crujido al masticar, intentos de extracción con cotonito y clip; audiometría laboral sin otoscopía.
@@ -291,17 +278,15 @@ Sin conducto, ¿qué tipo de pérdida esperas en el OD? ¿Qué podría hacer que
 - @20,28 | **Microtia**: a la derecha del globo, un pabellón pequeño y malformado, sin entrada al conducto. Es lo que se ve en el OD de Ramón.
 :::
 
-:::figura cap01_estenosis_atresia_cae acumetria
-- @weber 500 | El Weber se va al **OD**, el oído sin conducto.
-- @rinne OD 500 | Rinne **negativo** en el OD: frente al pabellón casi no lo oye; en la mastoides, sí.
+:::imagen figuras/salida/cap01_estenosis_atresia_cae_audiosupra.svg ancho=80% Audiometría de Ramón: aérea del OD en 45 a 55 dB con ósea enmascarada en 0 dB, un gap plano de unos 50 dB; OI normal.
 :::
 
-:::figura cap01_estenosis_atresia_cae audiograma
-- @OD 1000 | La aérea del OD está entre 45 y 55 dB en todas las frecuencias (55 en 1 kHz), con enmascaramiento en el OI.
-- @OD osea 1000 | La ósea enmascarada del OD está en **0 dB**: la cóclea derecha es normal.
-- @OD osea 500 | Son unos 50 dB de gap, **planos**: es la pérdida de un conducto que no existe, sin muesca.
-- @OI 1000 | El OI es normal. Es el oído con el que Ramón ha oído siempre.
+La aérea del OD está entre 45 y 55 dB en todas las frecuencias (55 en 1 kHz), con enmascaramiento en el OI. La ósea enmascarada del OD está en **0 dB**: la cóclea derecha es normal. Son unos 50 dB de gap, **planos**: es la pérdida de un conducto que no existe, sin muesca. El OI es normal; es el oído con el que Ramón ha oído siempre. El Weber se va al **OD**, el oído sin conducto, y el Rinne es **negativo** en el OD: frente al pabellón casi no lo oye; en la mastoides, sí. La palabra calza: SDT y SRT de 45 dB en el OD y de 0 dB en el OI, y discriminación de 100 % en los dos (en el OD a 80 dB, con ruido en el OI).
+
+:::imagen figuras/salida/cap01_estenosis_atresia_cae_impedancia.svg ancho=80% Impedanciometría de Ramón.
 :::
+
+La sonda solo va en el OI: en el OD no hay conducto y el timpanograma no es realizable. El OI tiene una curva A, con volumen de 0,67 mL, compliancia de 0,68 mL y pico en -73 daPa. Sus reflejos ipsilaterales están en 85 a 90 dB, con decay negativo. El contralateral, que estimula el OD, no aparece (NR): con 50 dB de gap el estímulo no llega a la cóclea derecha.
 
 :::docente Guía del caso
 - **Datos clave:** microtia y conducto ausente desde el nacimiento; tamizaje no evaluable del OD; buen lenguaje; dificultad para localizar sonidos.
@@ -329,19 +314,10 @@ Plantea al menos tres causas para una otorrea con sangre que no mejora con gotas
 
 **Otoscopía.** OD: conducto libre, membrana normal. OI: secreción con sangre y mal olor; en la pared del conducto, tejido rojo y friable que sangra al roce del espéculo y no deja ver la membrana. Se retira el otoscopio sin seguir avanzando. No se pone sonda en el OI.
 
-:::figura cap01_carcinoma_cae acumetria
-- @weber 500 | El Weber **no lateraliza**, aunque el OI oye mucho peor.
-- @rinne OI 500 | Rinne **negativo** en el OI: hay un componente conductivo.
-- @rinne OD 500 | Positivo en el OD.
-- Un Weber centrado con un oído claramente peor sugiere una pérdida **mixta**: el gap tira hacia el OI y la cóclea más dañada tira hacia el OD.
+:::imagen figuras/salida/cap01_carcinoma_cae_audiosupra.svg ancho=80% Audiometría del agricultor: pérdida mixta del OI, con aérea de 45 a 70 dB y ósea que cae hasta 55 dB; OD con la caída leve en agudos propia de la edad.
 :::
 
-:::figura cap01_carcinoma_cae audiograma
-- @OI 1000 | La aérea del OI está en 45 dB en 1 kHz y cae a 70 dB en 4 kHz.
-- @OI osea 1000 | La ósea enmascarada del OI está en 25 dB en 1 kHz: hay un gap de unos 20 dB…
-- @OI osea 4000 | …y la ósea también cae, a 55 dB en 4 kHz. La cóclea izquierda está dañada.
-- @OD 4000 | El OD tiene solo la caída en agudos esperable a su edad (30 dB en 4 kHz). La ósea del OI está muy por debajo de eso.
-:::
+La aérea del OI está en 45 dB en 1 kHz y cae a 70 dB en 4 kHz. La ósea enmascarada del OI está en 25 dB en 1 kHz: hay un gap de unos 20 dB, y la ósea también cae, a 55 dB en 4 kHz. La cóclea izquierda está dañada. El OD tiene solo la caída en agudos esperable a su edad (30 dB en 4 kHz); la ósea del OI está muy por debajo de eso. El Weber **no lateraliza**, aunque el OI oye mucho peor: el gap tira hacia el OI y la cóclea más dañada tira hacia el OD, lo que sugiere una pérdida **mixta**. El Rinne es **negativo** en el OI y positivo en el OD. SDT y SRT son de 10 dB en el OD y de 45 dB en el OI; la discriminación llega a 100 % a 40 dB en el OD y solo a **88 % a 80 dB** en el OI, y baja a 82 % a 90 dB. En el OD, los supraliminares dan SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 54,5 a 75 dB, con decay del reflejo negativo.
 
 :::docente Guía del caso
 - **Datos clave:** otorrea crónica antigua que cambió (sangre, mal olor), dolor progresivo y nocturno, dos tratamientos sin respuesta, diabetes, 69 años.

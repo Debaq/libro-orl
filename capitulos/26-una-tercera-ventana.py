@@ -24,10 +24,10 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # SP/AP de 0,45 en el OD. El 26.2 (otoesclerosis, el patrón contrario) sale del motor tal cual. El 26.3
 # (Pendred, acueducto dilatado) tiene también un caso propio: umbrales bajos del VEMP en los dos oídos.
 # El nistagmo (hoja del campo clínico) y la calórica (mariposa) se declaran aquí; los casos sin nistagmo espontáneo no llevan la hoja.
-OIDO = [fig.audiosupra(), fig.timpanograma(), fig.reflejos()]
+OIDO = [fig.audiosupra(), fig.impedancia(), fig.impedancia()]
 
 CASOS = [
-    cuadro('dehiscencia', [fig.nistagmo()] + OIDO + [fig.mariposa(20, 18, 20, 19), fig.vemps(), fig.ecochg()], od='normal', oi='normal', edad=41, sexo='mujer', semilla=27,
+    cuadro('dehiscencia', [fig.vhit(1.0, 0.98, None, None), fig.nistagmo()] + OIDO + [fig.mariposa(20, 18, 20, 19), fig.vemps(), fig.ecochg()], od='normal', oi='normal', edad=41, sexo='mujer', semilla=27,
            anamnesis="""Tiene 41 años y es diseñadora gráfica. Hace dos años, después de una gripe fuerte, empezó a sentir
            el oído derecho "tapado" y a oír su propia voz demasiado fuerte, "como hablar dentro de un tambor". Al masticar
            una manzana el ruido le retumba en la cabeza y, de noche, con la oreja en la almohada, oye los latidos del
@@ -38,7 +38,7 @@ CASOS = [
            historia=[(700, 'Gripe fuerte; desde entonces, sensación de oído derecho tapado y autofonía.'),
                      (120, 'Otorrinolaringólogo: audiometría con gap aéreo-óseo en los graves del OD y otoscopía normal; se plantea otoesclerosis y se agenda una estapedotomía.'),
                      (10, 'Antes de la cirugía, el mismo médico pide impedanciometría con reflejos y VEMP.')]),
-    cuadro('otoesclerosis', [fig.nistagmo()] + OIDO + [fig.mariposa(21, 19, 22, 21), fig.vemps()], od='otoesclerosis', edad=47, sexo='mujer', semilla=26,
+    cuadro('otoesclerosis', [fig.vhit(1.0, 0.98, None, None), fig.nistagmo()] + OIDO + [fig.mariposa(21, 19, 22, 21), fig.vemps()], od='otoesclerosis', edad=47, sexo='mujer', semilla=26,
            antecedentes=['hipoacusia_familiar'],
            anamnesis="""Tiene 47 años y es asistente de párvulos. Hace unos tres años nota que por el oído derecho oye
            menos: pasa el teléfono al otro lado y en la sala de clases se sienta de modo que su oído izquierdo mire al
@@ -47,7 +47,7 @@ CASOS = [
            secreción ni dolor de oídos ni golpes en la cabeza. Su hermana mayor usa audífono desde los 40 años.""",
            historia=[(1100, 'Primera vez que nota que oye menos por el oído derecho.'),
                      (60, 'Otorrinolaringólogo: otoscopía normal; se piden audiometría, impedanciometría y VEMP antes de decidir tratamiento.')]),
-    cuadro('pendred', [fig.nistagmo()] + OIDO + [fig.mariposa(22, 20, 21, 23), fig.vemps()], od='pendred', oi='pendred', grado_od='moderada', grado_oi='moderada',
+    cuadro('pendred', [fig.vhit(1.0, 0.98, None, None), fig.nistagmo()] + OIDO + [fig.mariposa(22, 20, 21, 23), fig.vemps()], od='pendred', oi='pendred', grado_od='moderada', grado_oi='moderada',
            edad=11, sexo='hombre', semilla=26,
            anamnesis="""Tiene 11 años y está en sexto básico. Su mamá lo trae porque la profesora dice que "no escucha" y
            porque en el último año le pide que repita más. A los seis años

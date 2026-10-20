@@ -20,14 +20,8 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
-    },
-    {
-      "tipo": "logoaudiometria",
-      "enmascarado": true
     },
     {
       "tipo": "vemp",

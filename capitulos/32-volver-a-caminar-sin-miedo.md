@@ -207,7 +207,7 @@ Piensa en el lado del vértigo, en la presión, en la marcha y en el miedo. ¿Qu
 
 Sentada y de pie, sin movimientos de la cabeza, el equilibrio está en lo esperable. Cerebelo y pares, sin hallazgos.
 
-:::imagen figuras/salida/cap32_vppb_nistagmo.svg ancho=75% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap32_vppb_nistagmo.svg ancho=55% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
@@ -234,7 +234,10 @@ Sentada y de pie, sin movimientos de la cabeza, el equilibrio está en lo espera
 
 E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo. El Dix-Hallpike **derecho** es negativo y el **izquierdo** da, tras unos **4 s**, vértigo y nistagmo hacia **arriba** con el polo superior del ojo girando hacia el oído **izquierdo**; crece y se apaga solo en unos **20 s**, y se agota si se repite. Al sentarla, un nistagmo débil en sentido contrario. El giro supino es negativo.
 
-:::ayuda-ancho vHIT
+:::lado
+:::imagen figuras/salida/cap32_vppb_vhit.svg vHIT de Eva: ganancia de 0,92 hacia la derecha y de 0,93 hacia la izquierda, sin sacadas.
+:::
+
 | vHIT | Lateral | Anterior | Posterior |
 |---|---|---|---|
 | **Derecho** | 0,92 | 0,90 | 0,94 |
@@ -248,7 +251,7 @@ Ganancia del VOR simétrica y normal en los seis canales, sin sacadas.
 
 **45 dB** en 4 kHz y 60 en 8 kHz en los dos oídos: caída de agudos, la de la edad. En las frecuencias del habla, 25 dB. **Simétrica**: no hay nada retrococlear que perseguir (→ cap. 11). SRT de 20 dB y discriminación máxima de **92 %** en los dos oídos, acorde con la pérdida.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 70 a 75 dB en 500 Hz a 45 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 64,5 a 69,5 dB en 500 Hz a 39,5 a 44,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::ayuda-ancho Lo que entrega Eva del equilibrio y de las posturas (→ H19, H20)
 | Prueba | Resultado |
@@ -299,7 +302,7 @@ Agrupa lo que podría explicar sus caídas por sistemas: cardiovascular, sensori
 
 Oscila con los ojos abiertos y no se desvía hacia un lado: no es el patrón de una pérdida de un laberinto. Cerebelo y pares, sin hallazgos.
 
-:::imagen figuras/salida/cap32_fragil_nistagmo.svg ancho=75% Nistagmo espontáneo de Hugo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap32_fragil_nistagmo.svg ancho=55% Nistagmo espontáneo de Hugo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo.
@@ -326,7 +329,10 @@ Oscila con los ojos abiertos y no se desvía hacia un lado: no es el patrón de 
 
 E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando (D, a la derecha; I, a la izquierda). Dir.: dirección de la fase rápida; Dur.: duración; Lat.: latencia; Parox.: paroxismo; Vért.: vértigo; Náus.: náuseas; Pers.: persiste; (−): sin nistagmo.
 
-:::ayuda-ancho vHIT
+:::lado
+:::imagen figuras/salida/cap32_fragil_vhit.svg vHIT de Hugo: ganancia de 0,82 hacia la derecha y de 0,80 hacia la izquierda, sin sacadas.
+:::
+
 | vHIT | Lateral | Anterior | Posterior |
 |---|---|---|---|
 | **Derecho** | 0,82 | 0,80 | 0,81 |
@@ -345,7 +351,7 @@ cVEMP de **204 µV** en el OD y **363 µV** en el OI (4,07 y 7,33 corregidas por
 
 Pérdida moderada en el habla, con una caída fuerte de agudos: **35 dB** en 1 kHz, **65** en 2 kHz y **110 dB** en 4 kHz en el OD, sin respuesta (120) más arriba. En el OI, 105 dB en 4 kHz: **simétrica**, la forma de una presbiacusia. SRT de 25 dB. Discriminación máxima del **64 %** en el OD y del **68 %** en el OI, a 70 dB: baja, pero parecida entre los dos oídos y acorde con una pérdida de agudos tan grande.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 70 dB en 500 Hz a 30 dB en 2 kHz; en 4 kHz la pérdida ya no deja ver el reflejo.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 64,5 dB en 500 Hz a 27 dB en 2 kHz; en 4 kHz la pérdida ya no deja ver el reflejo.
 
 :::ayuda-ancho Lo que entrega Hugo de la evaluación (→ H16, H19, H20)
 | Prueba | Resultado |
@@ -402,7 +408,7 @@ Elige las pruebas que separan una pérdida de los pies, una del laberinto y una 
 
 Se sostiene mientras ve y se cae cuando cierra los ojos, sin irse hacia un lado: no hay un laberinto sano que la compense. Sin signos de cerebelo ni de pares.
 
-:::imagen figuras/salida/cap32_bilateral_nistagmo.svg ancho=75% Nistagmo espontáneo de Isabel en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap32_bilateral_nistagmo.svg ancho=55% Nistagmo espontáneo de Isabel en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 **Sin nistagmo espontáneo**, con y sin fijación y en todas las miradas. Con *head-shaking* tampoco aparece nistagmo: una pérdida de los dos lados no deja un desbalance que mostrar.
@@ -443,7 +449,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | **0,52**, sacadas manifiestas | 0,60 | 0,64 |
 :::
 
-:::imagen figuras/salida/cap32_bilateral_mariposa.svg ancho=62% Gráfico de mariposa de Isabel: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las cuatro curvas apenas se separan de la línea.
+:::lado
+:::imagen figuras/salida/cap32_bilateral_mariposa.svg Gráfico de mariposa de Isabel: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las cuatro curvas apenas se separan de la línea.
+:::
+:::imagen figuras/salida/cap32_bilateral_vhit.svg vHIT de Isabel: ganancia de 0,54 hacia la derecha, con sacadas overt y de 0,52 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Hipoexcitabilidad izquierda: (3 + 2 − 2 − 2) / 9 = 11 %. Dirección preponderante hacia la derecha: 11 %. Los dos valores quedan **bajo los cortes**, pero **no sirven aquí**: la asimetría mide un lado contra el otro y los dos lados están caídos (→ cap. 24). Lo que informa es la **suma de cada oído**: **5 °/s** en el OD y **4 °/s** en el OI, bajo los 6 °/s de la Sociedad Bárány.
@@ -458,7 +468,7 @@ cVEMP de **374 µV** en el OD y **209 µV** en el OI (7,23 y 4,08 corregidas por
 
 Caída de agudos suave y simétrica: **40 dB** en 2 kHz y **55** en 4 kHz en los dos oídos; **70 dB** en 8 kHz en el OD y **75** en el OI. En el habla, 25 dB. SRT de 15 dB. Discriminación de **88 %** en los dos, buena y simétrica: nada retrococlear.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 75 dB en 500 Hz a 35 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 69,5 dB en 500 Hz a 29,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::ayuda-ancho Lo que entrega Isabel de la evaluación (→ H16 a H20)
 | Prueba | Resultado |

@@ -33,9 +33,11 @@ class fig:
     """Las figuras que sabe hacer el motor (figuras/motor/), con sus opciones."""
 
     @staticmethod
-    def audiograma(estudio=True, ldl=True, sin_enmascarar=False):
-        """estudio: ósea solo donde la aérea es anormal; sin_enmascarar: la curva sombra."""
-        return {'tipo': 'audiograma', 'estudio': estudio, 'ldl': ldl, 'sin_enmascarar': sin_enmascarar}
+    def audiograma(estudio=True, ldl=True, sin_enmascarar=False, clinico=False):
+        """estudio: ósea solo donde la aérea es anormal; sin_enmascarar: la curva sombra;
+        clinico: la forma de la hoja del tomo II (frecuencias arriba, ósea completa, LDL:)."""
+        return {'tipo': 'audiograma', 'estudio': estudio, 'ldl': ldl, 'sin_enmascarar': sin_enmascarar,
+                'clinico': clinico}
 
     @staticmethod
     def acumetria():
@@ -54,6 +56,13 @@ class fig:
         return {'tipo': 'reflejos'}
 
     @staticmethod
+    def impedancia(sonda=226):
+        """Hoja de impedanciometría de los casos del tomo II (motor/impedancia_hoja.py):
+        un timpanograma con las dos curvas, sus datos, los reflejos por sonda,
+        el decay del reflejo y la función tubaria."""
+        return {'tipo': 'impedancia', 'sonda': sonda}
+
+    @staticmethod
     def teoae():
         return {'tipo': 'teoae'}
 
@@ -63,7 +72,7 @@ class fig:
 
     @staticmethod
     def abr(niveles=(80, 60, 40), estimulo=None, marcar=('I', 'III', 'V'),
-            transductor='insercion', polaridad='alternada', tasa=21.1):
+            transductor='insercion', polaridad='alternada', tasa=21.1, promediaciones=None):
         """transductor: insercion/copa/oseo; polaridad: alternada/condensacion/
         rarefaccion; tasa en estímulos/s. Lo que no cambia no entra al JSON,
         así los casos ya armados no se rehacen."""
@@ -76,6 +85,8 @@ class fig:
             f['polaridad'] = polaridad
         if tasa != 21.1:
             f['tasa'] = tasa
+        if promediaciones:
+            f['promediaciones'] = promediaciones     # cerca del umbral, para que la V se vea
         return f
 
     @staticmethod
@@ -114,11 +125,11 @@ class fig:
         return {'tipo': 'nistagmo', 'con_fijacion': con_fijacion or {}, 'sin_fijacion': sin_fijacion or {}}
 
     @staticmethod
-    def audiosupra():
+    def audiosupra(sin_enmascarar=False):
         """Hoja auditiva de los casos vestibulares (motor/audio_supra.py):
         audiograma clínico con el Fowler y, al lado, logoaudiometría y
         supraliminares en una tabla OD | OI."""
-        return {'tipo': 'audiosupra'}
+        return {'tipo': 'audiosupra', 'sin_enmascarar': sin_enmascarar}
 
     @staticmethod
     def supraliminares():
@@ -126,6 +137,13 @@ class fig:
         la tiene, y SISI, Carhart, Metz y decay del reflejo de cada oído con
         pérdida sensorioneural."""
         return {'tipo': 'supraliminares'}
+
+    @staticmethod
+    def vhit(der=1.0, izq=1.0, sacadas_der=None, sacadas_izq=None):
+        """vHIT del canal lateral (motor/vestibular.vhit): ganancia de cada lado y
+        sacadas None|'covert'|'overt'|'ambas'."""
+        return {'tipo': 'vhit', 'der': {'ganancia': der, 'sacadas': sacadas_der},
+                'izq': {'ganancia': izq, 'sacadas': sacadas_izq}}
 
     @staticmethod
     def vng(*paneles):
@@ -141,9 +159,22 @@ class fig:
         return {'tipo': 'mariposa', 'OD44': od44, 'OD30': od30, 'OI44': oi44, 'OI30': oi30}
 
 
+def _figuras(figuras):
+    """La lista de figuras del caso, con una sola hoja de impedanciometría: el
+    timpanograma y los reflejos van juntos en ella (él, 2026-10-20)."""
+    out, hay = [], False
+    for f in figuras:
+        if f.get('tipo') == 'impedancia':
+            if hay:
+                continue
+            hay = True
+        out.append(f)
+    return out
+
+
 def demo(numero, figuras, nombre=None):
     """Un paciente de práctica (docs/manual/capturas/casos_demo.json)."""
-    return {'nombre': nombre or f'p{numero}', 'caso': f'demo:{numero}', 'figuras': list(figuras)}
+    return {'nombre': nombre or f'p{numero}', 'caso': f'demo:{numero}', 'figuras': _figuras(figuras)}
 
 
 def cuadro(nombre, figuras, od='normal', oi='normal', grado_od=None, grado_oi=None,
@@ -172,7 +203,7 @@ def cuadro(nombre, figuras, od='normal', oi='normal', grado_od=None, grado_oi=No
             'historia': '\n'.join(f'{{{{-{d}}}}} {txt}' for d, txt in (historia or [])),
             'hist': list(antecedentes), 'medicamentos': medicamentos, 'cirugias': cirugias,
         }
-    return {'nombre': nombre, 'caso': pedido, 'figuras': list(figuras)}
+    return {'nombre': nombre, 'caso': pedido, 'figuras': _figuras(figuras)}
 
 
 def python_figuras():

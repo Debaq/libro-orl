@@ -22,23 +22,16 @@
   },
   "figuras": [
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": false
     },
     {
-      "tipo": "audiograma",
-      "estudio": true,
-      "ldl": true,
+      "tipo": "audiosupra",
       "sin_enmascarar": true
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 226
-    },
-    {
-      "tipo": "reflejos"
     }
   ]
 }

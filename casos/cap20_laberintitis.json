@@ -19,7 +19,23 @@
   },
   "figuras": [
     {
-      "tipo": "audiosupra"
+      "tipo": "vhit",
+      "der": {
+        "ganancia": 0.34,
+        "sacadas": "ambas"
+      },
+      "izq": {
+        "ganancia": 0.97,
+        "sacadas": null
+      }
+    },
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
     },
     {
       "tipo": "nistagmo",

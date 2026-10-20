@@ -15,6 +15,12 @@ corta la página: el primer trozo termina en "continúa →" y el segundo repite
 el título con "(continuación)". Partirla llena el pie de la página en vez de
 mandarla entera a la siguiente.
 
+Después achica figuras para cerrar huecos (él, 2026-10-20): si un bloque
+salta a la página siguiente y deja un hueco, prueba achicar la figura que
+saltó para que quepa en la anterior o, si el que saltó es una tabla o un
+recuadro, achicar la figura de la página anterior para que suba. Nunca bajo
+FACTOR_MIN del tamaño que tenía, y solo si el capítulo no gana páginas.
+
 Al final revisa que ninguna ficha de caso quede con la cabecera (cara y
 nombre) sola al pie: si la anamnesis empieza en la página siguiente, la
 ficha entera pasa a esa página. Y si el capítulo termina en una página casi
@@ -29,8 +35,11 @@ from weasyprint import HTML
 HUECO_MAX = 0.30        # fracción de página vacía al pie que ya se considera hueco
 ULTIMA_MIN = 0.25       # la última página con menos de esto lleno se intenta ahorrar
 ARRIBA_PX = 40          # la figura "salta" si empieza en los primeros px del contenido
-VUELTAS = 20            # 8 dejaba huecos en los capítulos con muchas figuras
+VUELTAS = 40            # el texto sube unidad a unidad hasta llenar los huecos de las columnas
 MOVIBLES = ('p', 'ul', 'ol')
+HUECO_COL = 0.08       # hueco al pie de una columna que se intenta llenar con el texto que sigue
+HUECO_ACHICAR = 0.06    # hueco mínimo (fracción de página) que vale la pena cerrar achicando
+FACTOR_MIN = 0.6        # una figura no queda bajo este factor de su tamaño (él: "estás exagerando")
 
 
 def _es_figura(el):
@@ -63,6 +72,48 @@ def _hueco(pagina):
         if nombre in ('LineBox', 'InlineReplacedBox', 'BlockReplacedBox', 'TableBox') and c.height:
             fondo = max(fondo, c.position_y + c.height)
     return max(0.0, (arriba + alto - fondo) / alto) if alto else 0.0
+
+
+def _fondos(pagina):
+    """Fondo (y más baja ocupada) de cada columna de la página: (izquierda,
+    derecha). En una página a una columna, las dos son iguales."""
+    pb = pagina._page_box
+    x0, ancho = pb.content_box_x(), pb.width
+    mitad = x0 + ancho / 2
+    arriba = pb.content_box_y()
+    izq = der = arriba
+    hay_der = False
+    for c in _cajas(pb):
+        nombre = type(c).__name__
+        if nombre in ('PageBox', 'MarginBox') or not hasattr(c, 'position_y'):
+            continue
+        if nombre in ('LineBox', 'InlineReplacedBox', 'BlockReplacedBox', 'TableBox') and c.height:
+            fondo = c.position_y + c.height
+            if c.position_x >= mitad - 2:
+                der, hay_der = max(der, fondo), True
+            elif c.position_x + c.width > mitad + 20:       # algo a todo el ancho
+                izq, der = max(izq, fondo), max(der, fondo)
+            else:
+                izq = max(izq, fondo)
+    return izq, (der if hay_der else izq)
+
+
+def _hueco_columna(render, p, x):
+    """Hueco al pie de la columna que viene ANTES de un bloque que empieza
+    arriba en la página p, en la posición x: si el bloque está en la columna
+    derecha, la izquierda de la misma página; si está en la izquierda, la
+    última columna de la página anterior. En fracción del alto."""
+    pag = render.pages[p]
+    pb = pag._page_box
+    alto, fondo_pag = pb.height, pb.content_box_y() + pb.height
+    if x >= pb.content_box_x() + pb.width / 2 - 2:
+        izq, _ = _fondos(pag)
+        return max(0.0, (fondo_pag - izq) / alto)
+    if p == 0:
+        return 0.0
+    prev = render.pages[p - 1]._page_box
+    _, der = _fondos(render.pages[p - 1])
+    return max(0.0, (prev.content_box_y() + prev.height - der) / prev.height)
 
 
 def _unidad(el):
@@ -119,9 +170,19 @@ def _subir_siguiente(fig):
 
 
 def _puntaje(render):
-    """Cuánto hueco grande hay (sin contar la última página, que termina el
-    capítulo donde le toca)."""
-    return sum(h for h in (_hueco(p) for p in render.pages[:-1]) if h >= HUECO_MAX)
+    """Cuánto hueco hay al pie de las columnas (sin contar la última página,
+    que termina el capítulo donde le toca): el de la columna derecha (o de la
+    página, si va a una columna) y el de la izquierda cuando quedó corta y la
+    derecha sigue."""
+    total = 0.0
+    for pag in render.pages[:-1]:
+        pb = pag._page_box
+        fondo = pb.content_box_y() + pb.height
+        izq, der = _fondos(pag)
+        gr = (fondo - der) / pb.height
+        gl = (fondo - izq) / pb.height if der > izq + 5 else 0.0
+        total += sum(g for g in (gl, gr) if g >= HUECO_COL)
+    return total
 
 
 def componer(doc, base_url):
@@ -137,6 +198,10 @@ def componer(doc, base_url):
             for hijo in caso:
                 if 'anamnesis' in _clases(hijo):
                     hijo.set('id', f'ficha-{i}-a')
+            # los Pasos 1-3 que siguen a la ficha: la ficha no queda sola sin ellos
+            sig = caso.getnext()
+            if sig is not None and 'pasos' in _clases(sig):
+                sig.set('id', f'ficha-{i}-p')
     bloques = [el for el in raiz.iter() if isinstance(el.tag, str) and _es_figura(el)]
     if not bloques and not raiz.find_class('caso'):
         return HTML(string=doc, base_url=base_url).render()
@@ -157,12 +222,14 @@ def componer(doc, base_url):
         if puntaje == 0:
             break
         candidata = None
-        for p, pagina in enumerate(mejor.pages[1:], start=1):
-            if _hueco(mejor.pages[p - 1]) < HUECO_MAX:
-                continue
+        for p, pagina in enumerate(mejor.pages):
             arriba = pagina._page_box.content_box_y()
             for ancla, (x, y, *_r) in pagina.anchors.items():
-                if ancla.startswith('acomodo-') and ancla not in intentadas and y - arriba <= ARRIBA_PX:
+                if not ancla.startswith('acomodo-') or ancla in intentadas or y - arriba > ARRIBA_PX:
+                    continue
+                # hueco de la página anterior o, con texto a dos columnas, de la columna anterior
+                h = max(_hueco(mejor.pages[p - 1]) if p else 0.0, _hueco_columna(mejor, p, x))
+                if h >= HUECO_COL:
                     candidata = ancla
                     break
             if candidata:
@@ -178,6 +245,7 @@ def componer(doc, base_url):
         if nuevo < puntaje:
             raiz, mejor, puntaje = prueba, render, nuevo
             intentadas.discard(candidata)      # puede necesitar otro párrafo más
+    raiz, mejor = _achicar_figuras(raiz, mejor, render_de)
     raiz, mejor = _fichas_enteras(raiz, mejor, render_de)
     raiz, mejor = _partir_guias(raiz, mejor, render_de)
     raiz, mejor = _fichas_enteras(raiz, mejor, render_de)
@@ -207,7 +275,8 @@ def _fichas_enteras(raiz, render, render_de):
     for _ in range(3):
         pagina = _pagina_de(render)
         huerfanas = [c for c in raiz.find_class('caso') if c.tag == 'section' and c.get('id') in pagina
-                     and pagina.get(c.get('id') + '-a', pagina[c.get('id')]) > pagina[c.get('id')]]
+                     and max(pagina.get(c.get('id') + '-a', pagina[c.get('id')]),
+                             pagina.get(c.get('id') + '-p', pagina[c.get('id')])) > pagina[c.get('id')]]
         if not huerfanas:
             break
         for c in huerfanas:
@@ -300,6 +369,112 @@ def _partir_guias(raiz, render, render_de):
                     break
             if cambio:
                 break                         # el árbol cambió: se recorre de nuevo
+        if not cambio:
+            break
+    return raiz, render
+
+
+FIJAS = ('_audiosupra', '_impedancia')    # audiometría e impedanciometría: tamaño acordado, no se tocan
+FACTOR_MIN_CASO = 0.75                    # las demás figuras de los casos, poco
+
+
+def _es_imagen(el):
+    """Figura que se puede achicar: un bloque .figobs con una imagen, salvo la
+    audiometría y la impedanciometría de los casos, que tienen su tamaño
+    acordado (él, 2026-10-20)."""
+    if el is None or 'figobs' not in _clases(el):
+        return False
+    img = el.find('.//img')
+    return img is not None and not any(f in (img.get('src') or '') for f in FIJAS)
+
+
+def _factor_min(el):
+    """Cuánto se puede achicar: las figuras del texto de teoría, hasta
+    FACTOR_MIN; las de los casos, solo hasta FACTOR_MIN_CASO."""
+    return FACTOR_MIN if any('dos-col' in _clases(a) for a in el.iterancestors()) else FACTOR_MIN_CASO
+
+
+def _medidas(render):
+    """{id: [página, alto, ancho de la imagen, ancho del contenido, alto de la imagen]} de los
+    bloques acomodables, desde las cajas de la composición."""
+    out = {}
+    for i, pag in enumerate(render.pages):
+        pb = pag._page_box
+        for c in _cajas(pb):
+            el = getattr(c, 'element', None)
+            ident = el.get('id') if el is not None and hasattr(el, 'get') else None
+            if not ident or not ident.startswith('acomodo-') or ident in out:
+                continue
+            img = next((h for h in _cajas(c) if type(h).__name__ in ('InlineReplacedBox', 'BlockReplacedBox')), None)
+            out[ident] = [i, c.margin_height(), img.width if img is not None else None, pb.width,
+                          img.height if img is not None else None]
+    return out
+
+
+def _achicar(el, factor, medidas):
+    """Pone la imagen del bloque al `factor` de su ancho compuesto."""
+    _, _, ancho_img, ancho_contenido, _ = medidas
+    caja = el.find('.//div[@class="img-globos"]')
+    if caja is None or not ancho_img or not ancho_contenido:
+        return False
+    pct = 100 * ancho_img / ancho_contenido * factor
+    caja.set('style', f'width:{pct:.1f}%')
+    return True
+
+
+def _achicar_figuras(raiz, render, render_de):
+    import copy
+    intentadas = set()
+    for _ in range(VUELTAS):
+        med = _medidas(render)
+        cambio = False
+        for p in range(1, len(render.pages)):
+            hueco_px = _hueco(render.pages[p - 1]) * render.pages[p - 1]._page_box.height
+            if hueco_px < HUECO_ACHICAR * render.pages[p - 1]._page_box.height:
+                continue
+            pagina = render.pages[p]
+            arriba = pagina._page_box.content_box_y()
+            saltos = [a for a, (x, y, *_r) in pagina.anchors.items()
+                      if a.startswith('acomodo-') and y - arriba <= ARRIBA_PX and a not in intentadas
+                      and a in med and med[a][0] == p]
+            logging.getLogger('acomodar').debug('pág %d hueco %.0f px, saltan %s', p, hueco_px, saltos)
+            for ancla in saltos:
+                intentadas.add(ancla)
+                el = raiz.get_element_by_id(ancla)
+                alto = med[ancla][1]
+                faltan = alto - hueco_px + 6
+                objetivos = []
+                # lo que se achica es la imagen (el pie no cambia): el factor sale de su alto
+                if _es_imagen(el) and med[ancla][2]:
+                    objetivos.append(([ancla], 1 - faltan / med[ancla][4]))
+                previas = sorted((a for a, m in med.items() if m[0] == p - 1 and m[2]
+                                  and _es_imagen(raiz.get_element_by_id(a))), key=lambda a: -med[a][4])
+                for a in previas:
+                    objetivos.append(([a], 1 - faltan / med[a][4]))
+                if len(previas) > 1:            # todas las de la página anterior, un poco cada una
+                    objetivos.append((previas, 1 - faltan / sum(med[a][4] for a in previas)))
+                logging.getLogger('acomodar').debug('  %s alto %.0f faltan %.0f objetivos %s', ancla, alto, faltan,
+                                                    [(o, round(f, 2)) for o, f in objetivos])
+                for objetivo, factor in objetivos:
+                    minimo = max(_factor_min(raiz.get_element_by_id(o)) for o in objetivo)
+                    for f in (factor, factor - 0.04):
+                        if f < minimo or f >= 0.995:
+                            continue
+                        prueba = copy.deepcopy(raiz)
+                        if not all(_achicar(prueba.get_element_by_id(o), f, med[o]) for o in objetivo):
+                            continue
+                        nuevo = render_de(prueba)
+                        if (len(nuevo.pages) <= len(render.pages)
+                                and _pagina_de(nuevo).get(ancla, p) <= p - 1):
+                            raiz, render, cambio = prueba, nuevo, True
+                            logging.getLogger('acomodar').info('achicada %s al %.0f %% (sube %s)', objetivo, f * 100, ancla)
+                            break
+                    if cambio:
+                        break
+                if cambio:
+                    break
+            if cambio:
+                break
         if not cambio:
             break
     return raiz, render

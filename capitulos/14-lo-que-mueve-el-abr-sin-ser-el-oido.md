@@ -174,14 +174,16 @@ Además de la audiometría, ¿qué pruebas de oído medio y de cóclea agregarí
 
 #### Paso 4 · Los resultados
 
-:::figura cap14_toxico_metabolico audiograma
-- @OD 1000 | Pérdida **sensorioneural, pareja y suave**: 30 dB en 1 kHz.
-- @OD 4000 | Baja a 45 dB en 4 kHz, sin muesca. En el OI llega a 50 dB en 8 kHz.
-- @OD osea 2000 | La ósea coincide con la aérea: no hay gap.
+:::imagen figuras/salida/cap14_toxico_metabolico_audiosupra.svg ancho=80% Audiometría de Carla: pérdida sensorioneural pareja y suave (30 dB en 1 kHz y 45 dB en 4 kHz en el OD, sin muesca; el OI llega a 50 dB en 8 kHz), con la ósea pegada a la aérea.
 :::
-:::figura cap14_toxico_metabolico timpanograma
-- @OD pico | Curva A en los dos oídos: el oído medio está sano.
+
+No hay gap. El SDT es de 25 dB en el OD y de 20 en el OI, y el SRT de 30 y 25; la discriminación llega al 72 % en los dos oídos, a 60 dB. SISI de 90 % en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y Metz de 59,5 dB en 4 kHz: recluta, como se espera de una pérdida coclear.
+
+:::imagen figuras/salida/cap14_toxico_metabolico_impedancia.svg ancho=80% Impedanciometría de Carla.
 :::
+
+Los dos oídos tienen curva A: el oído medio está sano. Los reflejos están presentes en los dos lados, ipsi y contra, entre 105 y 115 dB, sin diferencia entre un oído y otro.
+
 :::figura cap14_toxico_metabolico teoae
 - @OD 2000 | Las emisiones están **ausentes** en las cinco bandas, en los dos oídos: con 30 a 45 dB de pérdida es lo esperable de una pérdida coclear (→ H9).
 :::
@@ -286,9 +288,11 @@ Antes de mirar los valores, ¿con qué fila los compararás? ¿Qué pasaría si 
 
 #### Paso 4 · Los resultados
 
-:::figura cap14_prematuro timpanograma
-- @OD pico | Con la sonda de 1.000 Hz, una curva con **un solo pico** en cada oído, cerca de 0 daPa: el oído medio responde con normalidad. El volumen del conducto es pequeño (0,52 y 0,86 mL), como en un lactante.
+:::imagen figuras/salida/cap14_prematuro_impedancia.svg ancho=80% Impedanciometría.
 :::
+
+Con la sonda de 1.000 Hz, cada oído muestra una curva con **un solo pico**, cerca de 0 daPa: el oído medio responde con normalidad. El volumen del conducto es pequeño (0,52 mL en el OD y 0,86 en el OI), como en un lactante. Los reflejos están presentes, ipsi y contra con la sonda en cada oído, entre 100 y 110 dB.
+
 :::figura cap14_prematuro teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas, en los dos oídos.
 :::

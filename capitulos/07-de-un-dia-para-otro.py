@@ -25,7 +25,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402
 
 CASOS = [
     # Pablo: súbita severa del OI; sin ruido parece una conductiva (curva sombra)
-    cuadro('subita', [fig.acumetria(), fig.audiograma(sin_enmascarar=True), fig.audiograma(), fig.logo()],
+    cuadro('subita', [fig.audiosupra(), fig.impedancia(), fig.audiosupra(sin_enmascarar=True)],
            oi='subita', grado_oi='severa', edad=52,
            anamnesis="""Tiene 52 años y es profesor de historia en un liceo. Hace cuatro días despertó con el oído
            izquierdo tapado, "como con agua", y con un pitido agudo de ese lado que no se le ha quitado. Pensó que
@@ -38,7 +38,7 @@ CASOS = [
            antecedentes=['hta'],
            medicamentos='Losartán 50 mg al día. Prednisona oral desde ayer, indicada por el otorrinolaringólogo.'),
     # Irene: vértigo y pérdida profunda del OD el mismo día; VEMP del OD casi ausente
-    cuadro('laberintitis', [fig.audiograma(), fig.timpanograma(), fig.vemp()],
+    cuadro('laberintitis', [fig.audiosupra(), fig.impedancia(), fig.vemp()],
            od='laberintitis', edad=34, sexo='mujer',
            anamnesis="""Tiene 34 años y es enfermera en un hospital. Hace tres semanas, unos días después de un
            resfrío fuerte, despertó con todo girando a su alrededor: no se podía levantar de la cama, vomitó toda la
@@ -52,7 +52,7 @@ CASOS = [
                      (12, 'Otorrinolaringólogo: probable laberintitis viral del OD. Indica tratamiento y solicita audiometría, impedanciometría y VEMP; evaluación vestibular completa en el control.')],
            medicamentos='Tomó un medicamento para el mareo los primeros días; ya no lo usa.'),
     # Juan: golpe en bicicleta, pérdida bilateral simétrica con muesca; audiometría previa normal
-    cuadro('conmocion_laberintica', [fig.audiograma(), fig.timpanograma(), fig.dpoae()],
+    cuadro('conmocion_laberintica', [fig.audiosupra(), fig.impedancia(), fig.dpoae()],
            od='conmocion_laberintica', oi='conmocion_laberintica', edad=19,
            anamnesis="""Tiene 19 años y estudia diseño. Hace tres semanas se cayó de la bicicleta de montaña bajando un
            cerro y se golpeó fuerte la cabeza contra una roca, con el casco puesto. Perdió el conocimiento unos
@@ -66,9 +66,9 @@ CASOS = [
                      (2, 'Otorrinolaringólogo: probable conmoción laberíntica bilateral. Solicita audiometría, impedanciometría y emisiones otoacústicas, y la audiometría del año pasado para comparar.')],
            antecedentes=['tce']),
     # Matías: cófosis del OD por paperas a los 6 años; reflejos diagonales y VEMP del OD ausente
-    demo(42, [fig.acumetria(), fig.audiograma(), fig.reflejos(), fig.vemp()]),
+    demo(42, [fig.audiosupra(), fig.impedancia(), fig.vemp()]),
     # Pilar: bilateral asimétrica que avanza en semanas y responde a corticoides
-    cuadro('autoinmune', [fig.audiograma(), fig.logo(), fig.dpoae()],
+    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia(), fig.dpoae()],
            od='autoinmune', oi='autoinmune', grado_od='severa', edad=41, sexo='mujer',
            anamnesis="""Tiene 41 años y es contadora. Hace unos tres meses empezó a sentir el oído derecho tapado, con
            días mejores y días peores, y pensó que era por un resfrío. En pocas semanas dejó de oír el teléfono por

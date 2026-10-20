@@ -22,7 +22,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 # De LabSim salen la ficha, la anamnesis, el audiograma con la logoaudiometría y el VEMP de cada caso.
 # Rafael (CANVAS) tiene un caso propio (casos/propios/): sus VEMP caídos, como sus laberintos.
 CASOS = [
-    cuadro('canvas', [fig.audiosupra(),
+    cuadro('canvas', [fig.vhit(0.15, 0.12, 'overt', 'overt'), fig.audiosupra(),
                       fig.nistagmo(con_fijacion={'izquierda': -2, 'derecha': 2},
                                    sin_fijacion={'izquierda': -2, 'derecha': 2}),
                       fig.mariposa(0, 0, 0, 0), fig.vemps()], od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve',
@@ -38,7 +38,7 @@ CASOS = [
            historia=[(1100, 'Médico general: "mareo del adulto mayor"; betahistina por tres meses, sin mejoría.'),
                      (200, 'Neurología: marcha atáxica y reflejos aquilianos ausentes; solicita resonancia y estudio vestibular.')],
            medicamentos='Ninguno de forma permanente'),
-    cuadro('esclerosis', [fig.nistagmo(), fig.audiosupra(),
+    cuadro('esclerosis', [fig.vhit(1.02, 0.99, None, None), fig.nistagmo(), fig.audiosupra(),
                           fig.mariposa(21, 19, 22, 21), fig.vemps()], od='esclerosis_multiple', oi='esclerosis_multiple', edad=31, sexo='mujer',
            semilla=26,
            anamnesis="""Tiene 31 años y es cajera en una farmacia. Hace tres semanas, al mirar hacia el lado derecho,
@@ -50,7 +50,7 @@ CASOS = [
            los movimientos de los ojos mientras llega la resonancia.""",
            historia=[(1500, 'Oftalmología: neuritis óptica del ojo derecho, corticoide endovenoso con recuperación.'),
                      (25, 'Neurología: diplopía horizontal a la derecha y hormigueo de la mano izquierda; solicita resonancia y registro de movimientos oculares de los dos ojos.')]),
-    cuadro('chiari', [fig.audiosupra(),
+    cuadro('chiari', [fig.vhit(0.97, 0.95, None, None), fig.audiosupra(), fig.impedancia(),
                       fig.nistagmo(con_fijacion={'centro': {'dir': 'abajo', 'vfl': 2}, 'abajo': {'dir': 'abajo', 'vfl': 5.5},
                                                  'izquierda': {'dir': 'abajo', 'vfl': 3}, 'derecha': {'dir': 'abajo', 'vfl': 3}},
                                    sin_fijacion={'centro': {'dir': 'abajo', 'vfl': 2.2}, 'abajo': {'dir': 'abajo', 'vfl': 5.8},
@@ -64,7 +64,7 @@ CASOS = [
            nistagmo, calórica simétrica". Le hormiguean a veces las manos.""",
            historia=[(180, 'Otorrinolaringología (otro servicio): mareo inespecífico y videonistagmografía sin hallazgos. Se indica observación.'),
                      (30, 'Neurología: cefalea occipital con maniobra de Valsalva; solicita resonancia y repetir el estudio vestibular con registro vertical.')]),
-    cuadro('farmaco', [fig.audiosupra(),
+    cuadro('farmaco', [fig.vhit(0.98, 1.01, None, None), fig.audiosupra(),
                        fig.nistagmo(con_fijacion={'izquierda': -4, 'derecha': 4, 'arriba': {'dir': 'arriba', 'vfl': 2},
                                                   'abajo': {'dir': 'abajo', 'vfl': 2}},
                                     sin_fijacion={'izquierda': -4, 'derecha': 4, 'arriba': {'dir': 'arriba', 'vfl': 2},

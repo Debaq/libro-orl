@@ -33,7 +33,7 @@
       ]
     },
     {
-      "tipo": "timpanograma",
+      "tipo": "impedancia",
       "sonda": 1000
     }
   ]

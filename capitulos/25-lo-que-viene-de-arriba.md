@@ -268,7 +268,7 @@ La audición es la de su edad. Además del examen del cerebelo, ¿qué mirarías
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap25_canvas_nistagmo.svg ancho=75% Nistagmo de Rafael en la hoja del campo clínico. Mirando al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.
+:::imagen figuras/salida/cap25_canvas_nistagmo.svg ancho=55% Nistagmo de Rafael en la hoja del campo clínico. Mirando al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.
 :::
 
 Mirando al frente no hay nistagmo horizontal, ni con fijación ni sin ella. Al mirar a los lados aparece un nistagmo **evocado por la mirada**: bate hacia donde mira, de **2 °/s** a cada lado, y la fijación **no lo frena (OFI −)**. Con *head-shaking* no aparece nistagmo.
@@ -316,7 +316,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | **0,12**, sacadas manifiestas | **0,22**, sacadas manifiestas | **0,28**, sacadas manifiestas |
 :::
 
-:::imagen figuras/salida/cap25_canvas_mariposa.svg ancho=62% Gráfico de mariposa de Rafael: las cuatro irrigaciones se quedan sobre la línea.
+:::lado
+:::imagen figuras/salida/cap25_canvas_mariposa.svg Gráfico de mariposa de Rafael: las cuatro irrigaciones se quedan sobre la línea.
+:::
+:::imagen figuras/salida/cap25_canvas_vhit.svg vHIT de Rafael: ganancia de 0,15 hacia la derecha, con sacadas overt y de 0,12 hacia la izquierda, con sacadas overt.
+:::
 :::
 
 Sin respuesta a 44 °C, a 30 °C ni a 17 °C, en los dos oídos: **arreflexia vestibular bilateral**. En el vHIT caen los tres canales de los dos lados.
@@ -331,7 +335,7 @@ Los dos VEMP están **muy bajos y son simétricos**: cVEMP de 21 µV en el OD y 
 
 En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB. Nada del audiograma explica los ojos ni la marcha.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 40 a 45 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 74,5 dB en 500 Hz a 34,5 a 39,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** inestabilidad de cinco años, peor sin luz y en terreno irregular, oscilopsia al caminar, hormigueo de los pies, **tos seca de veinte años**, hermano con trastorno de la marcha; audición de la edad.
@@ -367,7 +371,7 @@ No hay síntomas auditivos. ¿Pedirías igual la audiometría? ¿Qué cuidado te
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap25_esclerosis_nistagmo.svg ancho=75% Nistagmo espontáneo de Inés en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
+:::imagen figuras/salida/cap25_esclerosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Inés en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.
 :::
 
 Sin nistagmo espontáneo, con ni sin fijación. Con *head-shaking* tampoco aparece.
@@ -413,7 +417,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,99 | 0,95 | 0,98 |
 :::
 
-:::imagen figuras/salida/cap25_esclerosis_mariposa.svg ancho=62% Gráfico de mariposa de Inés: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap25_esclerosis_mariposa.svg Gráfico de mariposa de Inés: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap25_esclerosis_vhit.svg vHIT de Inés: ganancia de 1,02 hacia la derecha y de 0,99 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal en los seis canales.
@@ -463,7 +471,7 @@ La VNG anterior salió normal. ¿Qué tendrías que preguntar sobre cómo se hiz
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap25_chiari_nistagmo.svg ancho=75% Nistagmo de Silvia en la hoja del campo clínico. Todas las flechas apuntan hacia abajo: al frente, a los lados y, más grande, mirando abajo. Es un nistagmo vertical, que bate hacia abajo.
+:::imagen figuras/salida/cap25_chiari_nistagmo.svg ancho=55% Nistagmo de Silvia en la hoja del campo clínico. Todas las flechas apuntan hacia abajo: al frente, a los lados y, más grande, mirando abajo. Es un nistagmo vertical, que bate hacia abajo.
 :::
 
 En el canal **horizontal** no hay nistagmo, con ni sin fijación. En el canal **vertical** hay un nistagmo que **bate hacia abajo** mirando al frente (**2,2 °/s** sin fijación y **2 °/s** con fijación: OFI −) y que **aumenta** mirando abajo (**5,8 °/s**) y a los lados (**3,4 °/s**). Con *head-shaking* no cambia.
@@ -507,7 +515,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 0,95 | 0,94 | 0,94 |
 :::
 
-:::imagen figuras/salida/cap25_chiari_mariposa.svg ancho=62% Gráfico de mariposa de Silvia: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap25_chiari_mariposa.svg Gráfico de mariposa de Silvia: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap25_chiari_vhit.svg vHIT de Silvia: ganancia de 0,97 hacia la derecha y de 0,95 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (20 + 18 − 19 − 21) / 78 = **3 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos: la calórica simétrica del otro servicio era cierta, y no descarta nada de lo central.
@@ -523,6 +535,11 @@ cVEMP de 352 µV en el OD y de 610 µV en el OI, con asimetría de **28 %** (men
 En el OD, SDT de −5 dB, SRT de 0 dB y discriminación de 100 %. En el OI, SDT de 15 dB, SRT de 20 dB y discriminación máxima de **92 %**, a 60 dB, con ruido de habla al OD.
 
 Las supraliminares del OI no son de cóclea: SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 1 kHz y **reflejos ausentes**. La discriminación es buena, pero la pérdida no recluta y se cansa: es retrococlear, y el tronco está comprimido en la unión craneocervical.
+
+:::imagen figuras/salida/cap25_chiari_impedancia.svg ancho=80% Impedanciometría de Silvia.
+:::
+
+Timpanograma A en los dos oídos, con compliancia de 0,65 mL en el OD y de 1,37 mL en el OI. Cuando el sonido va al OI no hay reflejo, ni ipsi ni contra. Cuando va al OD aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
 
 :::docente Guía del caso
 - **Datos clave:** cefalea occipital con la tos, inestabilidad al bajar escaleras y al leer, hipoacusia izquierda, **VNG anterior "sin hallazgos"** de la que no se sabe qué canales registró.
@@ -560,7 +577,7 @@ El protocolo pide suspender los ansiolíticos 48 horas antes del examen. ¿Qué 
 | | V, VII, IX, X y XII | Sin alteraciones |
 :::
 
-:::imagen figuras/salida/cap25_farmaco_nistagmo.svg ancho=75% Nistagmo de Álvaro en la hoja del campo clínico. Mirando al frente no hay nistagmo; en las miradas extremas bate hacia donde mira, con la misma intensidad a los dos lados, y no cambia con la fijación.
+:::imagen figuras/salida/cap25_farmaco_nistagmo.svg ancho=55% Nistagmo de Álvaro en la hoja del campo clínico. Mirando al frente no hay nistagmo; en las miradas extremas bate hacia donde mira, con la misma intensidad a los dos lados, y no cambia con la fijación.
 :::
 
 Mirando al frente no hay nistagmo, tampoco vertical. En las miradas extremas hay un nistagmo **evocado por la mirada**, simétrico, que bate hacia donde mira: **4 °/s** a la izquierda y a la derecha, y **2 °/s** arriba y abajo. La luz **no lo frena (OFI −)**. Con *head-shaking* no cambia.
@@ -606,7 +623,11 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 | **Izquierdo** | 1,01, sin sacadas | 0,95 | 0,96 |
 :::
 
-:::imagen figuras/salida/cap25_farmaco_mariposa.svg ancho=62% Gráfico de mariposa de Álvaro: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::lado
+:::imagen figuras/salida/cap25_farmaco_mariposa.svg Gráfico de mariposa de Álvaro: las cuatro irrigaciones son parecidas entre los dos oídos.
+:::
+:::imagen figuras/salida/cap25_farmaco_vhit.svg vHIT de Álvaro: ganancia de 0,98 hacia la derecha y de 1,01 hacia la izquierda, sin sacadas.
+:::
 :::
 
 Hipoexcitabilidad derecha: (19 + 17 − 18 − 20) / 74 = **3 %**. Dirección preponderante hacia la derecha: **5 %**. Los dos valores son no significativos: el reflejo vestíbulo-ocular está intacto.
@@ -621,7 +642,7 @@ cVEMP de 364 µV en el OD y de 198 µV en el OI, con asimetría de **29 %** (men
 
 En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB.
 
-Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 80 dB en 500 Hz a 40 a 50 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
+Las supraliminares son las de una presbiacusia: SISI de **90 %** en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y un Metz que baja de 74,5 dB en 500 Hz a 34,5 a 44,5 dB en 4 kHz, donde la pérdida es mayor: recluta en los agudos.
 
 :::docente Guía del caso
 - **Datos clave:** epilepsia, **aumento reciente** de la fenitoína, clonazepam, vino a diario; inestabilidad sin giro, visión doble al mirar a los lados; audición de la edad; **impulso cefálico y calórica normales**.
@@ -694,7 +715,7 @@ La cefalea que sube con la tos, la inestabilidad al bajar escaleras y al leer, y
 >
 > **Nistagmo espontáneo:** en el canal horizontal, sin nistagmo con y sin fijación. En el canal vertical, nistagmo que bate hacia abajo, de 2,2 °/s al frente sin fijación y de 2 °/s con fijación (OFI −); aumenta a 5,8 °/s en la mirada abajo y a 3,4 °/s en las miradas laterales. *Head-shaking:* sin cambios. **Posicional:** el nistagmo hacia abajo persiste en todas las posiciones y aumenta con la cabeza colgando, sin latencia ni paroxismo ni fatiga.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 5 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 4 % (valores no significativos): examen compatible con asimetría leve no significativa. **Audiometría:** hipoacusia sensorioneural del OI, con 50 dB en 4 kHz; SRT de 20 dB y discriminación máxima de 92 %. OD normal. **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular derecha de 3 % (valor no significativo) y dirección preponderante hacia derecha de 5 % (valor no significativo). **vHIT:** ganancia normal en los seis canales. **VEMP:** cVEMP con asimetría de 28 % y oVEMP con asimetría de 4 % (valores no significativos): examen compatible con asimetría leve no significativa. **Audiometría:** hipoacusia sensorioneural del OI, con 50 dB en 4 kHz; SRT de 20 dB y discriminación máxima de 92 %. OD normal. **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear. **Impedanciometría:** timpanograma A bilateral; sin reflejo, ipsi ni contra, cuando el sonido va al OI; con el sonido al OD hay reflejo en los dos oídos (85 a 95 dB SPL).
 >
 > **Conclusión:** examen con **signos de compromiso central** (nistagmo vertical hacia abajo que no se frena con la fijación y aumenta con la mirada abajo y a los lados, y marcha de base ancha), con función vestibular periférica sin alteración. Se avisa al médico tratante.
 

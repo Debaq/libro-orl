@@ -268,27 +268,17 @@ El otorrinolaringólogo pidió evaluación auditiva y electrococleografía. ¿Qu
 
 #### Paso 4 · Los resultados
 
-:::figura cap09_p38 audiograma
-- @OI 500 | En los graves el OI está en **50 dB**, enmascarado (los cuadrados): la diferencia con el OD es de 45 dB.
-- @OI 2000 | Hacia los agudos mejora: 30 dB en 2 kHz y 25 en 3, 4 y 6 kHz. Es una curva **ascendente**.
-- @OI osea 1000 | La ósea va con la aérea: sensorioneural.
-- @OD 1000 | El OD está entre 0 y 10 dB: es la referencia para el Fowler.
-- Los triángulos son el LDL: **110 dB** en los dos oídos. El OI oye 45 dB peor en los graves y se molesta al mismo nivel: el campo dinámico se estrecha.
+:::imagen figuras/salida/cap09_p38_audiosupra.svg ancho=80% Audiometría de Patricia: OD normal y OI con pérdida sensorioneural ascendente, con LDL de 110 dB en los dos oídos y Fowler. Discriminación de 88 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
-:::figura cap09_p38 logoaudiometria
-- @OD max | El OD llega al 100 % a 40 dB.
-- @OI max | El OI llega al **88 %** a 70 dB y baja un poco, a 75 %, a 100 dB. Es algo menos que el OD, acorde a una pérdida coclear leve a moderada.
+En los graves el OI está en **50 dB**, enmascarado: la diferencia con el OD es de 45 dB. Hacia los agudos mejora: 30 dB en 2 kHz y 25 en 3, 4 y 6 kHz. Es una curva **ascendente**. La ósea va con la aérea: sensorioneural. El OD está entre 0 y 10 dB y es la referencia para el Fowler. El LDL es de **110 dB** en los dos oídos: el OI oye 45 dB peor en los graves y se molesta al mismo nivel, así que el campo dinámico se estrecha. El OD tiene un SDT de 0 dB, un SRT de 5 dB y llega al 100 % de discriminación a 40 dB. El OI tiene un SDT de 30 dB y un SRT de 35 dB, y llega al **88 %** a 70 dB: algo menos que el OD, acorde a una pérdida coclear leve a moderada.
+
+Sobre el umbral, Patricia entrega lo que se vio en H6: **Fowler** en 1 kHz con reclutamiento completo (los dos oídos suenan igual a 70 dB HL), **SISI** de 90 % en el OI, **Carhart** sin deterioro en 2 ni en 4 kHz, y **STAT** negativo en los dos oídos. Recluta, es coclear.
+
+:::imagen figuras/salida/cap09_p38_impedancia.svg ancho=80% Impedanciometría de Patricia.
 :::
 
-Sobre el umbral, Patricia entrega lo que se vio en H6: **Fowler** en 1 kHz con reclutamiento completo (los dos oídos suenan igual a 70 dB HL), **SISI** de alrededor de 90 % en 1 y 2 kHz en el OI y de 0 % en el OD, **Carhart** con deterioro de 5 dB en el OI y sin deterioro en el OD, y **STAT** negativo en los dos oídos.
-
-:::figura cap09_p38 reflejos
-- @ipsi OI 500 | Con la sonda en el OI, el reflejo aparece a 90 dB SPL en 500 Hz, que son 84,5 dB HL: solo **34,5 dB sobre su umbral** de 50 dB. Es **Metz**.
-- @ipsi OI 1000 | En 1 kHz, 85 dB HL contra un umbral de 40: 45 dB. También Metz.
-- @ipsi OD 1000 | El OD tiene el reflejo en el mismo nivel, pero con un umbral de 5 dB: 80 dB de distancia, lo normal.
-- Que los reflejos del OI salgan donde los de un oído sano, con 40 a 45 dB de pérdida, es el reclutamiento visto sin preguntarle nada a la paciente.
-:::
+Los dos timpanogramas son A. Con la sonda en el OI, el reflejo ipsilateral aparece a 90 dB SPL en 500 Hz, que son 84,5 dB HL: solo **34,5 dB sobre su umbral** de 50 dB. Es **Metz**. En 1 kHz aparece a 85 dB HL, contra un umbral de 40: 45 dB sobre el umbral, también Metz. El OD tiene los reflejos en el mismo nivel, pero con un umbral de 5 dB: 80 dB de distancia, lo normal. Que los reflejos del OI salgan donde los de un oído sano, con 40 a 45 dB de pérdida, es el reclutamiento visto sin preguntarle nada a la paciente.
 
 :::figura cap09_p38 ecochg
 - @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,25**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,17**, bajo 1,94. Es la referencia.
@@ -332,24 +322,12 @@ El OD no oye desde los seis años. ¿Qué vas a tener que enmascarar, y dónde? 
 
 #### Paso 4 · Los resultados
 
-:::figura cap09_hidrops_retardado audiograma
-- @OD 1000 | El OD está entre 90 y 115 dB, con enmascaramiento en el OI (los triángulos). Sin enmascarar, habría respondido el OI.
-- La ósea del OD, enmascarada, no responde al máximo del vibrador (los corchetes con flecha).
-- @OI 500 | El OI está en **30 dB** de 125 a 500 Hz.
-- @OI 1000 | En 1 y 2 kHz mejora a 20 dB: los graves están 10 dB peor que los medios, una curva **ascendente** leve.
-- @OI 8000 | De 3 a 8 kHz baja de 25 a 35 dB: es la caída de la edad, a los 54 años (→ cap. 5).
-- Este es el audiograma de **un día**: lleva un mes y medio sin crisis.
+:::imagen figuras/salida/cap09_hidrops_retardado_audiosupra.svg ancho=80% Audiometría de Samuel, de un día sin crisis: OD con pérdida profunda medida con ruido en el OI, y OI con pérdida leve ascendente. Discriminación de 96 % en el OI y 27 % en el OD.
 :::
 
-:::figura cap09_hidrops_retardado acumetria
-- @weber 500 | El Weber se va al **OI**, el que oye. En una pérdida sensorioneural el Weber va al oído mejor.
-- @rinne OD 500 | El Rinne del OD sale negativo: el diapasón en la mastoides se oye mejor que frente al conducto. No es una pérdida conductiva: el vibrador derecho lo oye la cóclea izquierda. Es un **falso negativo**, y el audiograma enmascarado lo confirma.
-:::
+El OD está entre 90 y 115 dB, con enmascaramiento en el OI; sin enmascarar, habría respondido el OI. La ósea del OD, enmascarada, no responde al máximo del vibrador. El Weber se va al **OI**, el que oye: en una pérdida sensorioneural va al oído mejor. El Rinne del OD sale negativo en 500 y 1.000 Hz, porque el vibrador derecho lo oye la cóclea izquierda: es un **falso negativo**, y el audiograma enmascarado lo confirma. El OI está en **30 dB** de 125 a 500 Hz y mejora a 20 dB en 1 y 2 kHz: los graves están 10 dB peor que los medios, una curva **ascendente** leve. De 3 a 8 kHz baja de 25 a 35 dB: es la caída de la edad, a los 54 años (→ cap. 5). Este es el audiograma de **un día**: lleva un mes y medio sin crisis.
 
-:::figura cap09_hidrops_retardado logoaudiometria
-- @OI max | El OI llega al **96 %** a 50 dB y baja a 82 % desde 80 dB.
-- @OD max | El OD, enmascarado, no pasa del 27 % a 100 dB: no le sirve para entender.
-:::
+En el OI el SDT es de 15 dB, el SRT de 20 dB y la discriminación llega al **96 %** a 50 dB. El OD, enmascarado, tiene un SDT de 90 dB, un SRT de 95 dB y no pasa del 27 % a 100 dB: no le sirve para entender.
 
 Sobre el umbral, el **Fowler no se puede hacer**: no hay un oído de referencia normal y, donde el OI está en 20 dB, la diferencia con el OD es de 75 dB. En el OD no se puede hacer ninguna prueba supraliminar: su umbral está demasiado cerca del máximo del audiómetro y de su molestia.
 
@@ -357,15 +335,14 @@ Sobre el umbral, el **Fowler no se puede hacer**: no hay un oído de referencia 
 | Prueba | OI |
 |---|---|
 | SISI, 500 y 1.000 Hz | **90 %**: reclutamiento |
-| Carhart, 500 a 4.000 Hz | deterioro de 0 a 5 dB |
+| Carhart, 2 y 4 kHz | sin deterioro |
 | STAT, 500, 1.000 y 2.000 Hz | (−) |
 :::
 
-:::figura cap09_hidrops_retardado reflejos
-- @ipsi OI 500 | Con la sonda en el OI, el reflejo aparece a 90 dB SPL en 500 Hz, 84,5 dB HL: **54,5 dB sobre su umbral** de 30. Metz, por poco.
-- @ipsi OD 1000 | Con la sonda en el OD no hay reflejo ipsilateral: el tono no llega a ninguna cóclea que lo oiga.
-- @contra OI 1000 | Tampoco con el tono en el OD y la sonda en el OI. En cambio, con el tono en el OI y la sonda en el OD, el reflejo está a su nivel normal: el oído medio derecho está sano. Falla todo lo que se estimula por el OD.
+:::imagen figuras/salida/cap09_hidrops_retardado_impedancia.svg ancho=80% Impedanciometría de Samuel, de un día sin crisis.
 :::
+
+Los dos timpanogramas son A. Con la sonda en el OI, el reflejo ipsilateral aparece a 90 dB SPL en 500 Hz, 84,5 dB HL: **54,5 dB sobre su umbral** de 30. Es Metz, por poco. Con la sonda en el OD no hay reflejo ipsilateral: el tono no llega a ninguna cóclea que lo oiga. Con la sonda en el OI tampoco hay reflejo contralateral, es decir, con el tono en el OD. En cambio, con la sonda en el OD y el tono en el OI, el reflejo aparece en su nivel normal: el oído medio derecho está sano. Falla todo lo que se estimula por el OD.
 
 La electrococleografía, con el mismo protocolo del caso anterior, da:
 
@@ -401,7 +378,7 @@ Patricia cumple la historia completa del Ménière: crisis de vértigo de horas,
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,63 y razón de áreas de 3,87, sobre los límites. VEMP cervical del OI con amplitud muy reducida. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
+Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,63 y razón de áreas de 3,87, sobre los límites. VEMP cervical del OI con amplitud muy reducida. **Supraliminares:** Fowler con reclutamiento completo, SISI de 90 % y Carhart sin deterioro. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
 
 :::comentario Comentario
 El DP-grama del OI dice "pasa" con 4 de 7. Si solo se hubiera mirado el resultado global, se habría informado normal una cóclea que no amplifica los graves. Como en el ruido (→ cap. 6), las emisiones se leen frecuencia por frecuencia.
@@ -415,7 +392,7 @@ La clave está en el antecedente: un oído **sordo desde la infancia por paperas
 
 #### Diagnóstico y qué sigue
 
-OD: hipoacusia sensorioneural profunda, antigua. OI: hipoacusia sensorioneural leve, con graves 10 dB peor que los medios y caída de agudos acorde a la edad, de características cocleares, con buena discriminación. Electrococleografía del OI con razón PS/PA de 0,64 y razón de áreas de 1,95, sobre los límites; sin respuesta en el OD. VEMP cervical de amplitud reducida en ambos lados. Compatible con un hidrops endolinfático del OI en un paciente con cofosis derecha. Como es su **único oído útil**, se sugiere control audiométrico seriado y consulta precoz ante cualquier baja de audición, y conversar desde ya las opciones de rehabilitación si la audición del OI empeora (→ Parte IX).
+OD: hipoacusia sensorioneural profunda, antigua. OI: hipoacusia sensorioneural leve, con graves 10 dB peor que los medios y caída de agudos acorde a la edad, de características cocleares, con buena discriminación. **Supraliminares:** SISI de 90 % y Carhart sin deterioro. Electrococleografía del OI con razón PS/PA de 0,64 y razón de áreas de 1,95, sobre los límites; sin respuesta en el OD. VEMP cervical de amplitud reducida en ambos lados. Compatible con un hidrops endolinfático del OI en un paciente con cofosis derecha. Como es su **único oído útil**, se sugiere control audiométrico seriado y consulta precoz ante cualquier baja de audición, y conversar desde ya las opciones de rehabilitación si la audición del OI empeora (→ Parte IX).
 
 :::ojo Ojo clínico
 El audiograma de hoy está casi normal y es fácil tranquilizar al paciente. Pero el hidrops fluctúa: lo que Samuel cuenta de los días en que "no entiende a los clientes" no se ve en un examen hecho un mes y medio después de la última crisis. El informe tiene que decir **cuándo** fue la última crisis.

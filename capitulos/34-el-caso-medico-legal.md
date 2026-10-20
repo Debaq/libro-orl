@@ -236,17 +236,18 @@ Tabla: Stenger de Ismael (dB HL)
 
 Con los dos tonos a la vez, el paciente dejó de responder en las tres frecuencias: el tono del OD, que dice no oír, era el más fuerte sobre su umbral verdadero y se lo tragó. **Stenger positivo** (Kinstler y cols., 1972). Esto es lo que dicen de su oído real las pruebas que no dependen de él:
 
-:::figura cap34_exagera audiograma
-- @OD 500 | La audición verdadera: **10 dB en 500 Hz**, donde Ismael entregó 95. A 1 kHz, 15 dB.
-- @OD 4000 | En 4 kHz el OD tiene **70 dB**, y 50 en 8 kHz: es la muesca típica del ruido, con recuperación.
-- @OI 4000 | El OI es casi igual, con 65 dB en 4 kHz: bilateral y simétrico. Una tronadura que "se llevó" el oído derecho no deja una pérdida igual en el izquierdo.
+:::imagen figuras/salida/cap34_exagera_audiosupra.svg ancho=80% Audiometría verdadera de Ismael: muesca de ruido bilateral y simétrica, con la voz normal.
 :::
-:::figura cap34_exagera timpanograma
-- @OD pico | Curva A: el oído medio no interviene.
+
+La audición verdadera: **10 dB en 500 Hz**, donde Ismael entregó 95. A 1 kHz, 15 dB. En 4 kHz el OD tiene **70 dB**, y 50 en 8 kHz: es la muesca típica del ruido, con recuperación. El OI es casi igual, con 65 dB en 4 kHz: bilateral y simétrico. Una tronadura que "se llevó" el oído derecho no deja una pérdida igual en el izquierdo. SDT de 5 dB y SRT de 10 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 19,5 y 24,5 dB en 4 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap34_exagera_impedancia.svg ancho=80% Impedanciometría.
 :::
-:::figura cap34_exagera reflejos
-- @ipsi OD 1000 | El reflejo ipsilateral del OD aparece a **85 dB SPL**. Un oído con 95 dB de pérdida no puede disparar un reflejo por debajo de su propio umbral.
-:::
+
+Curva A en los dos oídos: el oído medio no interviene.
+
+Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 Hz. Un oído con 95 dB de pérdida no puede disparar un reflejo por debajo de su propio umbral.
+
 :::figura cap34_exagera teoae
 - @OD 1000 | En 1.000 Hz el OD tiene emisión (círculo lleno), donde dice 95 dB de pérdida. No pasan 3.000 y 4.000 Hz, que es donde cae el umbral real.
 - @OI 1000 | El OI pasa 1.000 y 1.500 Hz. La reproducibilidad global del OD es baja (11 %): aquí vale la banda de 1 kHz, no el total.
@@ -304,19 +305,20 @@ Con una pérdida unilateral, ¿qué pruebas agregarías a la audiometría para s
 
 #### Paso 4 · Los resultados
 
-:::figura cap34_hidrops audiograma
-- @OD 4000 | El OD es sano para su edad, con 15 dB en 4 kHz. Un oído expuesto 26 años al mismo ruido que el izquierdo, y normal.
-- @OI 500 | El OI tiene **70 dB en 500 Hz** y 75 a 80 dB en los graves. El ruido no produce eso: ACOEM sitúa su techo en graves en unos 40 dB.
-- @OI 4000 | En 4 kHz el OI está en 45 dB: no hay muesca, la curva sube hacia los agudos. Es la forma del hidrops, no la del ruido.
-- @OI osea 500 | La ósea coincide con la aérea: la pérdida es sensorioneural.
+:::imagen figuras/salida/cap34_hidrops_audiosupra.svg ancho=80% Audiometría de Damián: OD normal para su edad y OI con pérdida en graves y sin muesca.
 :::
+
+El OD es sano para su edad, con 15 dB en 4 kHz: un oído expuesto 26 años al mismo ruido que el izquierdo, y normal. El OI tiene **70 dB en 500 Hz** y 75 a 80 dB en los graves, y el ruido no produce eso: ACOEM sitúa su techo en graves en unos 40 dB. En 4 kHz el OI está en 45 dB: no hay muesca, la curva sube hacia los agudos, la forma del hidrops y no la del ruido. La ósea coincide con la aérea: la pérdida es sensorioneural. En el OI el SDT es de 45 dB y el SRT de 50. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 42 dB: recluta, es coclear.
+
 :::figura cap34_hidrops logoaudiometria
 - @OI max | El OI no entiende nada hasta 40 dB, llega a 76 % a 80 dB y baja a cerca de 65 % a 100 dB: un *roll-over* leve, índice de 0,15, muy lejos del 0,45 que sugiere lesión retrococlear (Jerger y Jerger, 1971).
 - @OD max | El OD llega al 100 % a 30 dB.
 :::
-:::figura cap34_hidrops timpanograma
-- @OD pico | Curva A: el oído medio no explica nada.
+:::imagen figuras/salida/cap34_hidrops_impedancia.svg ancho=80% Impedanciometría de Damián.
 :::
+
+Curva A en los dos oídos: el oído medio no explica nada.
+
 :::figura cap34_hidrops teoae
 - @OD 1000 | El OD tiene emisiones en las cinco bandas.
 - @OI 1000 | El OI no pasa ninguna: con 40 a 75 dB de pérdida en el rango de 500 a 4.000 Hz, las células ciliadas externas no funcionan. Coclear.
@@ -368,22 +370,23 @@ Tabla: Umbrales aéreos de Víctor, egreso (hace 8 años) y hoy (dB HL)
 
 Ninguna diferencia pasa de 5 dB, que es el margen de repetición de la prueba (→ H3).
 
-:::figura cap34_honesto audiograma
-- @OD 4000 | Hoy, el OD está en 60 dB en 4 kHz y en 60 en 8 kHz: la recuperación es mínima. A los 63 años, la edad se suma al ruido.
-- @OI 4000 | El OI es igual, 65 dB en 4 kHz: bilateral y simétrico. El Weber está centrado y la ósea sigue a la aérea.
-- @OD 1000 | Los graves están conservados: 15 dB en 1 kHz.
+:::imagen figuras/salida/cap34_honesto_audiosupra.svg ancho=80% Audiometría de Víctor: caída bilateral y simétrica en agudos, con discriminación de 92 %.
 :::
-:::figura cap34_honesto logoaudiometria
-- @OD max | El OD llega al 92 %: buena discriminación. El problema es de umbral en agudos, no de nervio.
+
+Hoy, el OD está en 60 dB en 4 kHz y en 60 en 8 kHz: la recuperación es mínima, y a los 63 años la edad se suma al ruido. El OI es igual, 65 dB en 4 kHz: bilateral y simétrico. Los graves están conservados: 15 dB en 1 kHz. Con SDT de 5 dB y SRT de 10 dB, el OD llega al 92 % (a 40 dB): el problema es de umbral en agudos, no de nervio. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB en 4 kHz: recluta, es coclear.
+
+:::imagen figuras/salida/cap34_honesto_impedancia.svg ancho=80% Impedanciometría de Víctor.
 :::
-:::figura cap34_honesto timpanograma
-- @OD pico | Curva A: sin componente conductivo.
-:::
+
+Curva A en los dos oídos: sin componente conductivo.
+
+:::lado
 :::figura cap34_honesto teoae
 - @OD 1000 | En el OD pasan 1.000 y 1.500 Hz y no 2.000 a 4.000; en el OI, solo 1.500 Hz. La reproducibilidad es baja (35 % y 24 %): vale la forma por banda, igual que el audiograma.
 :::
 :::figura cap34_honesto dpoae
 - @OD 2000 | Los productos pasan hasta 2 kHz y no más allá: 3 de 7. Coincide con la caída del umbral.
+:::
 :::
 
 Con los umbrales de hoy:
