@@ -234,7 +234,7 @@ Si el audiograma saliera normal, ¿darías de alta? ¿Qué agregarías para cuan
 - @OD 2000 | Emisiones presentes en 5 de 5 bandas, con reproducibilidad de 89 % y 88 %.
 :::
 :::figura cap13_neuropatia_hereditaria abr
-- @OD 80 I | Aquí **sí hay ondas**, pero tardías: la I a unos 1,5 ms, la III cerca de 4,3 y la V en torno a 6,6.
+- @OD 80 I | Aquí **sí hay ondas**, pero tardías: la I a 1,4 ms, la III a 4,2 y la V a 6,7.
 - @OD 80 V | El interpico I-V es de alrededor de **5 ms**, contra los cerca de 4 esperables (→ H10): la conducción es lenta, no ausente.
 - @OD 40 | Las ondas siguen hasta 40 dB y más abajo: la **sensibilidad** es normal; lo alterado es la sincronía.
 :::
@@ -279,7 +279,7 @@ No se le puede pedir que levante la mano de forma fiable durante una hora. ¿Qu�
 - @OD 2000 | Las emisiones están **presentes** en 5 de 5 bandas (reproducibilidad 86 % en el OD y 95 % en el OI): con 60 dB de umbral, no es una pérdida coclear.
 :::
 :::figura cap13_kernicterus abr
-- @OD 80 V | A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 ms; no hay I ni III identificables.
+- @OD 80 V | A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 ms. La marca de la III cae sobre un trazo que no se separa del ruido: no hay I ni III identificables.
 - @OD 60 | A 60 y 40 dB, nada. El ABR casi plano **no es** una prueba de que la audición sea 60 dB: con la sincronía perdida, no se puede usar el umbral del ABR para fijar la audición.
 :::
 
@@ -319,8 +319,8 @@ Si el audiograma sale normal, ¿qué prueba objetiva te dice si el problema est�
 - @OD 2000 | Emisiones presentes en las cinco bandas.
 :::
 :::figura cap13_leucodistrofia abr
-- @OD 80 I | Las ondas están, pero tardías y con los interpicos largos: la I cerca de 1,7 ms, la III de 4,2 y la V de 6,8.
-- @OD 80 V | El I-V pasa de **5 ms**; el OI es parecido. La conducción central está enlentecida con una cóclea sana.
+- @OD 80 I | Las ondas están, pero tardías y con los interpicos largos: la I cerca de 1,7 ms, la III de 4,2 y la V de 6,7.
+- @OD 80 V | El I-V llega a **5 ms**; el OI es parecido (4,9). La conducción central está enlentecida con una cóclea sana.
 - @OI 80 V | Con audición normal, lo esperable sería un I-V cerca de 4 ms (→ H10).
 :::
 

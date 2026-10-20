@@ -12,7 +12,9 @@ import sys
 
 RAIZ = pathlib.Path(os.environ.get('LABSIM', pathlib.Path(__file__).resolve().parents[3] / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
 SRC = RAIZ / 'src'
-CASOS_DEMO = RAIZ / 'docs' / 'manual' / 'capturas' / 'casos_demo.json'
+# Los pacientes demo del libro son una copia propia, ajustada a lo que dice
+# cada capítulo; los cambios se llevan después a LabSim, no al revés.
+CASOS_DEMO = pathlib.Path(__file__).resolve().parents[2] / 'casos' / 'pacientes_demo.json'
 
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))

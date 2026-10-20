@@ -264,21 +264,21 @@ Tabla: Umbrales del PEAT con burst por frecuencia (→ H10) y audiograma estimad
 
 | | 500 | 1.000 | 2.000 | 4.000 |
 |---|---|---|---|---|
-| **OD**, burst (nHL) | 30 | 30 | 45 | 75 |
-| **OD**, estimado (eHL) | 10 | 15 | 35 | 65 |
-| **OI**, burst (nHL) | 30 | 30 | 45 | 70 |
-| **OI**, estimado (eHL) | 10 | 15 | 35 | 60 |
+| **OD**, burst (nHL) | 30 | 30 | 45 | 80 |
+| **OD**, estimado (eHL) | 10 | 15 | 35 | 70 |
+| **OI**, burst (nHL) | 30 | 30 | 45 | 75 |
+| **OI**, estimado (eHL) | 10 | 15 | 35 | 65 |
 
-Falta 3.000 Hz. Se interpola entre 2.000 y 4.000 Hz: 50 dB en el OD y unos 48 en el OI. Con eso:
+Falta 3.000 Hz. Se interpola entre 2.000 y 4.000 Hz: unos 52 dB en el OD y 50 en el OI. Con eso:
 
 Tabla: Cálculo con la fórmula de la AMA según qué umbral se use: el que informa Ismael o el estimado con el PEAT
 
 | | Promedio 500-3.000 Hz | % monoaural (OD / OI) | % binaural |
 |---|---|---|---|
 | Umbrales informados | 97,5 / 60 | 100 / 52,5 | **60,4 %** |
-| Umbral estimado | 27,5 / 26,9 | 3,8 / 2,8 | **3,0 %** |
+| Umbral estimado | 28 / 27,5 | 4,7 / 3,8 | **3,9 %** |
 
-El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el promedio de cada oído, el porcentaje de cada uno va de 0 a 11 %.
+El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el promedio de cada oído, el porcentaje de cada uno va de 0 a 12 %.
 
 :::docente Guía del caso
 - **Datos clave:** 24 años de cantera, audiometría de ingreso con caída de agudos, tronadura hace tres meses con otoscopía normal, trámite en curso, atiende a quien lo llama de espaldas.
@@ -420,7 +420,7 @@ Ismael tiene una pérdida real: la muesca de 70 dB en 4 kHz, bilateral y simétr
 
 Pérdida sensorioneural bilateral en agudos, compatible con exposición crónica a ruido, con respuestas conductuales mayores que el umbral objetivo. Se informa:
 
-> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 3,0 %, con un rango de 0 a unos 11 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
+> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 3,9 %, con un rango de 0 a unos 12 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
 
 :::comentario Comentario
 Un informe que diga "60 %" por lo entregado es un error, y uno que diga "normal" por las emisiones también. Escribir los dos hechos, la pérdida real y la discordancia, y dejar el cálculo con lo estimado, es más largo y es lo correcto.

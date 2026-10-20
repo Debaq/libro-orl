@@ -195,17 +195,17 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 - @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 0 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.
 :::
 :::figura cap17_efusion_neonatal abr
-- @OD 80 V | A 80 dB nHL aparece la V del OD a **6,66 ms**, con la I a 2,46 y la III a 4,56: todas las ondas **llegan tarde**, la I incluida.
-- @OD 60 V | La V sigue a 60 dB (7,64 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
-- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,63 ms: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: unos 40 dB eHL.
-- @OI 60 V | El OI responde igual: V a 7,74 ms con 60 dB nHL, y a 40 dB ya no se distingue de ruido.
+- @OD 80 V | A 80 dB nHL aparece la V del OD a **6,37 ms**, con la I a 2,17 y la III a 4,23: todas las ondas **llegan tarde**, la I incluida.
+- @OD 60 V | La V sigue a 60 dB (7,07 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
+- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,13 ms: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: unos 40 dB eHL.
+- @OI 40 V | El OI responde igual: V a 7,20 ms con 60 dB nHL y a 8,03 ms con 40.
 - @OD 20 | A 20 dB nHL no hay respuesta en ninguno de los dos oídos.
 :::
 :::figura cap17_efusion_neonatal abr 2
-- @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 6,56 ms.
-- @OD 40 V | A 40 dB nHL, 7,41 ms.
-- @OD 20 V | A **20 dB nHL** todavía hay V (8,53 ms): la cóclea responde en el nivel más bajo que se probó. Con un umbral aéreo de 40 y uno óseo de 20 o menos, la diferencia es de **20 dB o más**: transmisión.
-- @OI 20 V | El OI da lo mismo: V a 8,64 ms con 20 dB nHL por hueso.
+- @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 6,53 ms.
+- @OD 40 V | A 40 dB nHL, 7,33 ms.
+- @OD 20 V | A **20 dB nHL** todavía hay V (8,47 ms): la cóclea responde en el nivel más bajo que se probó. Con un umbral aéreo de 40 y uno óseo de 20 o menos, la diferencia es de **20 dB o más**: transmisión.
+- @OI 20 V | El OI da lo mismo: V a 8,63 ms con 20 dB nHL por hueso.
 :::
 
 :::docente Guía del caso
@@ -287,13 +287,13 @@ Con un bebé que no reacciona a los portazos, ¿hasta qué nivel de estímulo si
 - @OI 2000 | Tampoco en el OI (0 de 5, 18 %). Con el oído medio sano, es una pérdida **coclear bilateral**.
 :::
 :::figura cap17_rubeola_congenita abr
-- @OD 100 V | Con click, solo a **100 dB nHL** aparece una V pequeña en el OD (6,25 ms). A 90 y 80 dB no hay onda.
-- @OI 100 V | El OI es igual: V a 6,18 ms a 100 dB nHL y nada abajo.
+- @OD 90 V | Con click, la V del OD aparece recién a **90 dB nHL** (6,50 ms), chica, y a 100 (6,00 ms). A 80 dB no hay onda.
+- @OI 90 V | El OI es igual: V a 6,37 ms a 90 dB nHL y a 5,83 a 100, y nada a 80.
 - @OD 80 | Nada a 80 dB nHL, el nivel con el que parte el examen: sin el nivel máximo, este bebé habría salido "sin respuesta".
 :::
 :::figura cap17_rubeola_congenita abr 2
-- @OD 100 V | Con **burst de 500 Hz**, la V solo aparece a 100 dB nHL (8,97 ms). 100 − 20 = **80 dB eHL**.
-- @OI 100 V | Igual en el OI (8,99 ms): 80 dB eHL, el **umbral está en el tope** del equipo.
+- @OD 100 V | Con **burst de 500 Hz**, la V solo aparece a 100 dB nHL (9,17 ms). 100 − 20 = **80 dB eHL**.
+- @OI 100 V | Igual en el OI (9,03 ms): 80 dB eHL, el **umbral está en el tope** del equipo.
 :::
 :::figura cap17_rubeola_congenita abr 3
 - @OD 55 | Por **vía ósea**, ni a 55 ni a 40 dB nHL hay respuesta en el OD.
@@ -360,7 +360,7 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La curva plana de 1.000 Hz y las emisiones ausentes dicen que hay algo en el oído medio, pero no más: ambas aparecen con una pérdida conductiva mínima. Lo que decide es el ABR. Con click el umbral aéreo está en 40 dB nHL en el OD y cerca de 60 en el OI, y por vía ósea hay respuesta a 20 dB nHL en los dos: **la cóclea oye normal y lo que falta está delante de ella**. Los interpicos son normales (en el OD, I-V de 4,2 ms) y todas las ondas, la I también, llegan tarde, que es el sello de una pérdida de transmisión.
+La curva plana de 1.000 Hz y las emisiones ausentes dicen que hay algo en el oído medio, pero no más: ambas aparecen con una pérdida conductiva mínima. Lo que decide es el ABR. Con click el umbral aéreo está en 40 dB nHL en los dos oídos, y por vía ósea hay respuesta a 20 dB nHL en los dos: **la cóclea oye normal y lo que falta está delante de ella**. Los interpicos son normales (en el OD, I-V de 4,2 ms) y todas las ondas, la I también, llegan tarde, que es el sello de una pérdida de transmisión.
 
 #### Diagnóstico y qué sigue
 
@@ -388,7 +388,7 @@ Hipoacusia sensorioneural unilateral derecha de grado moderado, en un lactante c
 
 #### Razonamiento
 
-Sin emisiones y con el oído medio sano, la pérdida es coclear en los dos lados. La V solo aparece a 100 dB nHL, con click y con burst de 500 Hz: **el umbral está en el tope del equipo**. En 500 Hz, 100 − 20 = 80 dB eHL; con el click, unos 90. Por vía ósea no hay respuesta ni a 55: el vibrador no alcanza. La suma es una hipoacusia sensorioneural bilateral severa o más, coherente con una rubéola congénita.
+Sin emisiones y con el oído medio sano, la pérdida es coclear en los dos lados. Con click la V aparece recién a 90 dB nHL, y con burst de 500 Hz solo a 100: **el umbral está en el tope del equipo**. En 500 Hz, 100 − 20 = 80 dB eHL; con el click, que a esta edad no se corrige, 90. Por vía ósea no hay respuesta ni a 55: el vibrador no alcanza. La suma es una hipoacusia sensorioneural bilateral severa o más, coherente con una rubéola congénita.
 
 #### Diagnóstico y qué sigue
 

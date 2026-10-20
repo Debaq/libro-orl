@@ -20,7 +20,11 @@ Decidido por él el 2026-10-19: se hace la **opción 1** (revisar todo, capítul
 - `figuras/motor/ecochg.py`: muestra "—" cuando no hay razón de áreas. Antes se caía con `KeyError: 'area_ratio'` en el caso `cap09_hidrops_retardado`.
 - Tablas nuevas en H10 (corrección nHL → eHL, BSA 2019) y en H12 (valores de referencia del VEMP: Rodriguez 2019 y Li 2015).
 
-## Lo que falta: la revisión
+## Estado (2026-10-20): revisión hecha, sin commit
+
+Criterio que decidió él: **los casos se ajustan al capítulo, no al revés**. El libro tiene casos propios (`casos/pacientes_demo.json` y `casos/propios/`): los que quedaron mal vuelven a sus valores anteriores y sus figuras son idénticas a las originales; los demás quedan con la corrección nueva y se ajustaron solo las cifras (57 líneas en 6 capítulos). Informe: `investigacion/revision_abr_ehl_2026-10-19/INFORME_revision.md`. Pendiente: llevar los casos propios a LabSim y revisar el marcado automático de la ECochG.
+
+## La revisión (plan original)
 
 Con 5 dB más (o menos) de sensación, las figuras no solo cambian de umbral. **Las latencias se corren entre 0,05 y 0,3 ms**, y algunas ondas aparecen o desaparecen en los niveles bajos. Las notas sobre las figuras (`- @…`) y los textos que citan esas cifras quedaron desactualizados.
 

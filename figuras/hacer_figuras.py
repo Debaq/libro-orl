@@ -89,6 +89,9 @@ def main(patrones):
         if isinstance(origen, dict):
             # Pedido por cuadro: lo arma armar_casos.sh con el editor real
             generado = CASOS / 'generados' / f'{arch.stem}.json'
+            # Un caso propio del libro (ajustado al capítulo) manda sobre el armado
+            if (CASOS / 'propios' / f'{arch.stem}.json').exists():
+                generado = CASOS / 'propios' / f'{arch.stem}.json'
             if not generado.exists():
                 sys.exit(f'{arch.stem}: falta el caso armado; correr docs/libro/figuras/armar_casos.sh {arch.stem}')
             origen = f'archivo:{generado}'

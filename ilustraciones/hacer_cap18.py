@@ -14,6 +14,7 @@ equipo mal puesto o con un artefacto activado, y se dibujan acá en SVG propio.
 Los números rotulados (FSP, ruido residual) son del simulador y solo ilustran; los criterios
 de la literatura se dicen en el texto del capítulo."""
 import json
+import os
 import pathlib
 import sys
 
@@ -21,12 +22,11 @@ import numpy as np
 
 AQUI = pathlib.Path(__file__).resolve().parent
 RAIZ = pathlib.Path(os.environ.get('LABSIM', AQUI.parents[1] / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
-import os
 os.chdir(RAIZ)
 sys.path.insert(0, str(RAIZ / 'src'))
 from abr.ABR_generator import ABR_Curve  # noqa: E402
 
-DEMO = json.loads((RAIZ / 'docs/manual/capturas/casos_demo.json').read_text(encoding='utf-8'))
+DEMO = json.loads((AQUI.parent / 'casos/pacientes_demo.json').read_text(encoding='utf-8'))   # copia propia del libro
 TINTA, TENUE, GRILLA = '#24101a', '#8a8a90', '#e7e5e0'
 AZUL, ROJO, VERDE = '#2a5d9f', '#c62f3a', '#21796c'
 F = "font-family=\"'Plus Jakarta Sans', sans-serif\""

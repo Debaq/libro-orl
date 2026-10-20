@@ -163,10 +163,10 @@ Además de la audiometría con ósea enmascarada, ¿qué más agregarías? Piens
 :::figura cap15_mixta_otitis_cronica abr
 - @OI 80 V | El OI tiene sus ondas I, III y V en el lugar.
 - @OD 80 V | La V del OD llega **cerca de 2 ms más tarde** y es la única onda que se ve: el oído medio atenúa el estímulo y todo se corre.
-- @OD 60 | A 60 dB no hay respuesta. El umbral por aire del click está en **70 dB nHL**.
+- @OD 60 | A 60 dB no hay respuesta. El umbral por aire del click está en **65 dB nHL**.
 :::
 :::figura cap15_mixta_otitis_cronica abr 2
-- @OI 50 V | Por **vía ósea**, el OI sano responde a 50 dB con una V cerca de 6,5 ms, y todavía a 30 dB, más tarde. A 10 no hay nada: su umbral óseo está cerca de 30 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
+- @OI 50 V | Por **vía ósea**, el OI sano responde a 50 dB con una V cerca de 6,5 ms, y todavía a 30 dB, más tarde. A 10 no hay nada: su umbral óseo está cerca de 25 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
 - @OD 50 | El OD **no responde a 50 dB**. Con una ósea conductual de 30 a 45 dB, su umbral óseo en el ABR queda más arriba de lo que el vibrador entrega: la pregunta no se puede contestar con este examen.
 :::
 
@@ -348,7 +348,7 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La aérea de 55 a 65 dB con un gap de 25 en los graves es el de una perforación con la cadena dañada, y eso se esperaba. Lo que no se esperaba es una **ósea de 25 a 45 dB**, que baja a medida que suben los agudos: la cóclea también está tocada. Un Weber centrado, con un solo oído enfermo, es la firma de una mixta: el gap lleva el diapasón hacia el OD y la ósea peor lo aleja. En el ABR por aire, la V llega tarde y el umbral es de 70 dB nHL. El ABR óseo no agrega nada en un adulto que contesta: el OD no responde a 50 dB porque su umbral queda sobre el techo del vibrador.
+La aérea de 55 a 65 dB con un gap de 25 en los graves es el de una perforación con la cadena dañada, y eso se esperaba. Lo que no se esperaba es una **ósea de 25 a 45 dB**, que baja a medida que suben los agudos: la cóclea también está tocada. Un Weber centrado, con un solo oído enfermo, es la firma de una mixta: el gap lleva el diapasón hacia el OD y la ósea peor lo aleja. En el ABR por aire, la V llega tarde y el umbral es de 65 dB nHL. El ABR óseo no agrega nada en un adulto que contesta: el OD no responde a 50 dB porque su umbral queda sobre el techo del vibrador.
 
 #### Diagnóstico y qué sigue
 

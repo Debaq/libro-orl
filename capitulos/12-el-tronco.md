@@ -200,13 +200,13 @@ Ella dice que oye bien. ¿Qué te dice eso sobre el audiograma que esperas? ¿Qu
 - @contra OD 1000 | Ausentes también los contralaterales. El arco del reflejo cruza el tronco: si falla desde los dos oídos, el problema no está en la cóclea.
 :::
 :::figura cap12_esclerosis_multiple abr
-- @OD 80 I | La onda I del OD llega a 1,4 ms y la III a 3,5: **I-III de 2,2 ms**, normal (límite 2,6).
-- @OD 80 V | La V llega a 6,0 ms: **III-V de 2,4 ms** (límite 2,3) e I-V de 4,6 ms, en el límite (4,6). El tramo alto del tronco es el que se alarga.
-- @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,7 ms** e I-V de 4,8, sobre el límite. Es lo mismo que en el OD: **el retraso empieza después de la III**.
+- @OD 80 I | La onda I del OD llega a 1,2 ms y la III a 3,3: **I-III de 2,1 ms**, normal (límite 2,6).
+- @OD 80 V | La V llega a 5,9 ms: **III-V de 2,6 ms** (límite 2,3) e I-V de 4,7 ms, sobre el límite (4,6). El tramo alto del tronco es el que se alarga.
+- @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,6 ms** e I-V de 4,8, sobre el límite. Es lo mismo que en el OD: **el retraso empieza después de la III**.
 - Con la tasa de rutina, la V mide cerca de la mitad de la I: V/I alrededor de 0,5 en los dos oídos.
 :::
 :::figura cap12_esclerosis_multiple abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms: **se atrasó 1,2 ms**, más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,2 ms: **se atrasó 1,3 ms**, más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
 - @OI 80 V | En el OI la V también llega a 7,1 ms. En los dos oídos la V pierde cerca de un tercio de su amplitud (de 0,24 a 0,15 µV en el OD y de 0,22 a 0,14 en el OI): **la vía no aguanta el esfuerzo**.
 :::
 
@@ -248,14 +248,14 @@ Una sordera súbita con vértigo puede ser viral, de oído interno o vascular. �
 - @ipsi OI 1000 | Estimulando el OI el reflejo aparece a 85 dB: el músculo y el facial funcionan.
 :::
 :::figura cap12_infarto_aica abr
-- @OD 80 III | En el OD **no hay onda I**. La III llega a 4,3 ms.
-- @OD 80 V | La V llega a 6,2 ms, de buen tamaño: **III-V de 1,9 ms**, normal. El tronco conduce bien.
-- @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,0 y V a 5,9 ms. La V del OD llega **0,3 ms** después, por debajo del límite de 0,4.
+- @OD 80 III | En el OD **no hay onda I**. La III llega a 4,0 ms.
+- @OD 80 V | La V llega a 6,1 ms, de buen tamaño: **III-V de 2,1 ms**, normal. El tronco conduce bien.
+- @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,1 y V a 5,9 ms. La V del OD llega **0,2 ms** después, por debajo del límite de 0,4.
 - @OD 60 V | A 60 dB el OD conserva solo la V y a 40 dB ya no queda nada.
 :::
 :::figura cap12_infarto_aica abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,6 ms: **0,4 ms más tarde**, un alargamiento esperable. La vía central aguanta.
-- @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,5 ms, parecido al OD.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,7 ms: **0,6 ms más tarde**, un alargamiento esperable. La vía central aguanta.
+- @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,6 ms, lo mismo que el OD.
 :::
 :::figura cap12_infarto_aica vemp
 - @OD P13 | El VEMP cervical del OD tiene 44 µV de amplitud pico a pico (0,85 corregida por el EMG).
@@ -295,13 +295,13 @@ La resonancia tiene lista de espera. ¿Qué parte de la evaluación auditiva se 
 - @contra OI 1000 | Con esa audición y un timpanograma A, un oído coclear tendría reflejos presentes (Gelfand y cols., 1990); su ausencia bilateral apunta al arco del reflejo en el tronco.
 :::
 :::figura cap12_glioma_tronco abr
-- @OD 80 V | La V del OD llega a 6,1 ms, **0,6 ms después** de lo que marca la tabla del niño (5,5 ms), con I-V de 4,4 ms. Las ondas miden menos de 0,2 µV.
+- @OD 80 V | La V del OD llega a 6,1 ms, **0,6 ms después** de lo que marca la tabla del niño (5,5 ms), con I-V de 4,6 ms. Las ondas miden 0,2 µV o menos.
 - @OI 80 V | En el OI la V también llega a 6,1 ms (I-V de 4,5): el patrón se repite en los dos oídos, y **no hay un oído testigo**.
-- @OD 60 V | A 60 dB quedan solo la III y la V; a 40 dB no queda nada.
+- @OD 60 V | A 60 dB quedan solo la III y la V; a 40 dB, apenas una V a 7,7 ms.
 :::
 :::figura cap12_glioma_tronco abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 6,9 ms con menos de 0,2 µV.
-- @OI 80 V | En el OI la V llega a 7,1 ms y mide 0,08 µV. Una respuesta tan chica a tasa alta es lo que se espera de una vía que **no aguanta el esfuerzo**.
+- @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 7,1 ms con menos de 0,2 µV.
+- @OI 80 V | En el OI la V llega a 6,9 ms y mide 0,08 µV. Una respuesta tan chica a tasa alta es lo que se espera de una vía que **no aguanta el esfuerzo**.
 :::
 
 :::docente Guía del caso
@@ -389,10 +389,10 @@ El médico pensó en Ménière. ¿Qué dato de la historia no calza con un hidro
 :::figura cap12_hic_idiopatica abr
 - @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4** y **III-V de 2,3 ms**, bajo el límite; **I-V de 4,7 ms**, apenas sobre el límite de 4,58.
 - @OI 80 V | El OI es igual: I-V de 4,7 ms. La diferencia entre los dos oídos es mínima, así que **no hay testigo ni asimetría que leer**.
-- @OD 80 V | La V es de 0,25 µV, menor que la I (0,42 µV): V/I alrededor de 0,6.
+- @OD 80 V | La V es de 0,25 µV, menor que la I (0,44 µV): V/I alrededor de 0,6.
 :::
 :::figura cap12_hic_idiopatica abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,0 ms: **se atrasó 0,7 ms** (11 %), dentro del alargamiento de una V sana.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,9 ms: **se atrasó 0,6 ms** (10 %), dentro del alargamiento de una V sana.
 - @OI 80 V | En el OI llega a 7,0 ms: lo mismo. **La tasa alta no destapa nada**: el registro de esfuerzo sale como el de un oído sano.
 :::
 

@@ -187,11 +187,11 @@ Además de la audiometría, ¿qué pruebas de oído medio y de cóclea agregarí
 :::
 :::figura cap14_toxico_metabolico abr
 - @OI 90 I | A 90 dB el OI muestra la onda I a 1,2 ms.
-- @OI 90 III | La III llega a 3,7 ms: I-III de 2,4 ms, bajo el límite de 2,6 de la mujer adulta.
+- @OI 90 III | La III llega a 3,5 ms: I-III de 2,3 ms, bajo el límite de 2,6 de la mujer adulta.
 - @OI 90 V | La V llega a 5,4 ms: I-V de 4,2 ms, bajo el límite de 4,6.
-- @OD 80 V | En el OD, a 80 dB, la V llega a 5,7 ms y la III a 3,9. Ambas bajo los límites de la mujer adulta (V 6,0; III 4,1). La onda I no se alcanza a marcar: con 30 a 45 dB de pérdida el click a 80 dB le llega con poca sobreintensidad.
-- @OD 60 V | La V sigue visible a 60 dB, a 6,5 ms; el umbral de click de los dos oídos es de 50 dB nHL.
-- No hay diferencia interaural: la V del OD y la del OI difieren en 0,1 ms a 80 dB y no difieren a 90.
+- @OD 80 V | En el OD, a 80 dB, la V llega a 5,8 ms y la III a 3,7. Ambas bajo los límites de la mujer adulta (V 6,0; III 4,1). La onda I no se alcanza a marcar: con 30 a 45 dB de pérdida el click a 80 dB le llega con poca sobreintensidad.
+- @OD 60 V | La V sigue visible a 60 dB, a 6,4 ms; el umbral de click de los dos oídos es de 45 dB nHL.
+- No hay diferencia interaural: la V del OD y la del OI difieren en 0,1 ms a 80 dB y en 0,2 a 90, bajo el límite de 0,4.
 :::
 
 :::docente Guía del caso
@@ -223,9 +223,9 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 :::
 :::figura cap14_hipotermia_farmacos abr
 - @OD 80 I | A 80 dB las tres ondas están claras y la **onda I llega a 2,0 ms**: 0,5 ms más tarde que en un hombre adulto (1,5 ms).
-- @OD 80 III | La III llega a 4,8 ms y la V, a 7,2 ms (el hombre adulto de referencia: 3,75 y 5,68; límite de la V: 6,2).
-- @OD 80 V | I-III de 2,8 ms, III-V de 2,4 ms e **I-V de 5,2 ms**, contra 4,2 de la media (límite 4,7). Los interpicos también están largos.
-- @OD 60 V | Con cada 20 dB menos el trazo se atrasa más: a 60 dB la V llega a 7,6 ms y a 40 dB, a 8,4 ms; la I, a 3,4 ms.
+- @OD 80 III | La III llega a 4,7 ms y la V, a 7,2 ms (el hombre adulto de referencia: 3,75 y 5,68; límite de la V: 6,2).
+- @OD 80 V | I-III de 2,7 ms, III-V de 2,5 ms e **I-V de 5,3 ms**, contra 4,2 de la media (límite 4,7). Los interpicos también están largos.
+- @OD 60 V | Con cada 20 dB menos el trazo se atrasa más: a 60 dB la V llega a 7,6 ms y a 40 dB, a 8,5 ms; la I, a 3,3 ms.
 - @OI 80 V | El OI replica al OD: no hay diferencia interaural; es el cuerpo entero el que va lento.
 :::
 
@@ -234,7 +234,7 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 - **Hipótesis esperables:** lesión del tronco por la hipoxia, efecto de fármacos, **efecto de la temperatura**. Con la I atrasada y los interpicos largos en los dos oídos, la hipotermia es la explicación que cierra.
 - **Qué pedir:** la **temperatura central** (y la hora), la lista de fármacos y la hora de la última dosis, emisiones para confirmar la cóclea y, cuando se recaliente, **repetir el ABR** en normotermia.
 - **Errores esperables:** informar "lesión del tronco" por el I-V largo; "corregir" las latencias con una fórmula en vez de anotar la temperatura; atribuirlo al propofol.
-- **Para discutir:** La temperatura está en la historia. El I-V de 5,2 ms calza con la regla de Markand (4,2 ms × 1,07³ ≈ 5,2 ms).
+- **Para discutir:** La temperatura está en la historia. El I-V de 5,3 ms calza con la regla de Markand (4,2 ms × 1,07³ ≈ 5,1 ms).
 :::
 
 {{caso cap14_bloqueo_proximal}}
@@ -257,8 +257,8 @@ Si el ABR muestra solo una onda, ¿qué te dice cada posibilidad: sordera, lesi�
 - @OD 2000 | Emisiones presentes en las cinco bandas: las células ciliadas externas funcionan; el oído no es sordo.
 :::
 :::figura cap14_bloqueo_proximal abr
-- @OD 80 I | A 80 dB hay **solo onda I**, a 1,5 ms: latencia de adulto normal, bien formada.
-- @OD 60 I | Sigue la I a 60 dB (1,9 ms) y a 40 dB (2,9 ms): sube su latencia al bajar la intensidad, como en un oído sano. El umbral de la I es bajo.
+- @OD 80 I | A 80 dB hay **solo onda I**, a 1,4 ms: latencia de adulto normal, bien formada.
+- @OD 60 I | Sigue la I a 60 dB (2,0 ms) y a 40 dB (3,1 ms): sube su latencia al bajar la intensidad, como en un oído sano. El umbral de la I es bajo.
 - @OD 80 | No hay III ni V a ningún nivel: no es un trazo sin ruido, es un trazo sin respuesta central.
 - @OI 80 I | El OI repite lo mismo: la señal sale de las dos cócleas y no pasa de ahí.
 :::
@@ -321,7 +321,7 @@ Una pérdida coclear, bilateral y simétrica, con timpanograma normal, emisiones
 
 Informe:
 
-- OD y OI: a 90 y 80 dB nHL se registran las ondas III y V; en el OI a 90 dB también la I. Latencias absolutas dentro de los valores esperados para mujer adulta; interpicos medibles (OI, a 90 dB) dentro del límite. Sin diferencia interaural de la onda V. Umbral de click de 50 dB nHL en ambos oídos.
+- OD y OI: a 90 y 80 dB nHL se registran las ondas III y V; a 90 dB también la I. Latencias absolutas dentro de los valores esperados para mujer adulta; interpicos medibles (a 90 dB) dentro del límite. Sin diferencia interaural de la onda V. Umbral de click de 45 dB nHL en ambos oídos.
 - Conclusión: examen compatible con hipofunción sensorioneural bilateral simétrica de grado leve, sin signos retrococleares. Se adjuntan audiometría, impedanciometría y emisiones. Se sugiere control médico por los síntomas descritos.
 
 El audiólogo no dice "hipotiroidismo": **informa el patrón y avisa**. El diagnóstico lo hace el médico con un perfil tiroideo. Si el diagnóstico se confirma y se trata, hay que anticipar que el audiograma puede mejorar y que el ABR, no necesariamente (Anand y cols., 1989).
@@ -334,13 +334,13 @@ Es el caso que más se parece a la práctica: nadie le dijo a la paciente que su
 
 #### Razonamiento
 
-Todas las ondas están atrasadas, la I incluida, y los interpicos son largos. Una lesión del tronco alarga los interpicos pero deja la I en su lugar; un problema de transmisión atrasa la I pero deja los interpicos normales. Este trazo hace las dos cosas a la vez, y eso solo lo explica la **conducción lenta de toda la vía**: la temperatura de 33 °C. Los números lo confirman: el I-V medio del hombre adulto, 4,2 ms, multiplicado por 7 % por cada grado que baja de 36 es 5,2 ms, que es lo que se midió. Los fármacos no son la explicación: las emisiones están presentes y la literatura muestra que la sedación habitual casi no toca la V.
+Todas las ondas están atrasadas, la I incluida, y los interpicos son largos. Una lesión del tronco alarga los interpicos pero deja la I en su lugar; un problema de transmisión atrasa la I pero deja los interpicos normales. Este trazo hace las dos cosas a la vez, y eso solo lo explica la **conducción lenta de toda la vía**: la temperatura de 33 °C. Los números lo confirman: el I-V medio del hombre adulto, 4,2 ms, multiplicado por 7 % por cada grado que baja de 36 da 5,1 ms, y se midieron 5,3. Los fármacos no son la explicación: las emisiones están presentes y la literatura muestra que la sedación habitual casi no toca la V.
 
 #### Diagnóstico y qué sigue
 
 Informe:
 
-- OD y OI: a 80 dB nHL se registran las ondas I, III y V con buena morfología. Latencias absolutas **todas prolongadas**, la onda I incluida. Interpicos I-III, III-V e I-V prolongados (I-V de 5,2 ms). Sin diferencia interaural. Se registra la respuesta hasta 40 dB nHL.
+- OD y OI: a 80 dB nHL se registran las ondas I, III y V con buena morfología. Latencias absolutas **todas prolongadas**, la onda I incluida. Interpicos I-III, III-V e I-V prolongados (I-V de 5,3 ms). Sin diferencia interaural. Se registra la respuesta hasta 40 dB nHL.
 - Condiciones del registro: temperatura central de 33 °C, sedación con propofol y fentanilo.
 - Conclusión: examen **no interpretable como lesión del tronco** en las condiciones descritas. El patrón es el esperado de la temperatura corporal baja. Se sugiere repetir el ABR con el paciente recalentado a temperatura normal.
 
