@@ -21,6 +21,9 @@
       "tipo": "teoae"
     },
     {
+      "tipo": "dpoae"
+    },
+    {
       "tipo": "abr",
       "niveles": [
         80,

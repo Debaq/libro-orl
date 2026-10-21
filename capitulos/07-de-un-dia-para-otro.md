@@ -285,7 +285,7 @@ Un golpe en la cabeza y los dos oídos "apagados". Plantea una causa conductiva 
 :::
 
 :::pregunta Paso 3 · ¿Qué pedirías y por qué?
-¿Qué esperas del timpanograma si el golpe hubiera llenado de sangre el oído medio o desarticulado la cadena? ¿Qué te agregan las emisiones?
+¿Qué esperas del timpanograma si el golpe hubiera llenado de sangre el oído medio o desarticulado la cadena?
 :::
 
 #### Paso 4 · Los resultados
@@ -300,16 +300,10 @@ Hasta 500 Hz hay 0 dB en los dos oídos; en 1 kHz, 15. Desde 2 kHz cae de golpe:
 
 Los dos timpanogramas son **A**: el OD con 1,52 mL en −80 daPa, dentro de lo normal, y el OI con 0,47 mL en −52 daPa. No hay sangre en el oído medio (la curva sería plana) ni cadena desarticulada (sería muy alta): el golpe no pasó por ahí. Los reflejos están presentes en los dos oídos, ipsi y contralaterales, entre 85 y 100 dB SPL.
 
-:::figura cap07_conmocion_laberintica dpoae
-- @OD 1000 | En los dos oídos el DP pasa solo en 1 kHz.
-- @OD 2000 | Desde 1,5 kHz queda pegado al ruido: **1 de 7** en cada oído. La lesión está en las células ciliadas externas, donde está la pérdida.
-- @OI 8000 | En 8 kHz el umbral se recupera hasta 50 dB, pero no tanto como para que vuelva la emisión.
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 19 años; caída en bicicleta con pérdida de conciencia breve, **hace tres semanas**; tomografía sin fractura; oídos "apagados" y zumbido desde el accidente; mareo de los primeros días ya resuelto; **sin exposición a ruido**; una audiometría **normal** el año pasado.
 - **Hipótesis esperables:** conmoción laberíntica bilateral; hemotímpano o luxación de la cadena (conductivas, descartadas por la otoscopía y el timpanograma); hipoacusia por ruido (la descarta la historia y la audiometría previa).
-- **Qué pedir:** audiometría, impedanciometría con reflejos, emisiones (→ H3, H7, H9); la audiometría del año pasado para compararla. Acufenometría.
+- **Qué pedir:** audiometría, impedanciometría con reflejos (→ H3, H7); la audiometría del año pasado para compararla. Acufenometría.
 - **Errores esperables:** ver la muesca y concluir "ruido"; olvidar que un accidente puede terminar en un juicio y que la base anterior vale oro (→ cap. 34).
 :::
 
@@ -379,15 +373,10 @@ El OD está en **80 dB** en 1 kHz y cae desde 60 dB en 125 Hz hasta 100 en 6 y 8
 
 El timpanograma es **A** en los dos oídos y el decay es negativo. Con la sonda en el OD, el ipsilateral aparece en 100, 95, 100 y 110 dB SPL, y el contralateral, que estimula el OI, en 100, 95, 100 y 100 dB SPL. Con la sonda en el OI, el ipsilateral es de 95, 90, 90 y 95 dB SPL, y el contralateral, que estimula el OD, de 105, 105, 105 y 115 dB SPL. Hay reflejos en los dos oídos: la asimetría no viene del oído medio, y ningún reflejo se deteriora durante el decay.
 
-:::figura cap07_autoinmune dpoae
-- @OD 2000 | En el OD no hay DP en ninguna frecuencia: **0 de 7**.
-- @OI 1000 | En el OI los puntos quedan apenas sobre el ruido y ninguno alcanza el criterio: también **0 de 7**. Con 25 a 45 dB de pérdida coclear, las emisiones ya se apagaron en el oído "bueno".
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 41 años; OD que cayó en **semanas**, con días mejores y peores; mejoría parcial con corticoides y recaída al suspenderlos; el OI empezó a caer hace un mes; plenitud sin acúfeno; inestabilidad leve; tiroiditis de Hashimoto, una enfermedad autoinmune.
 - **Hipótesis esperables:** enfermedad autoinmune del oído interno; otosífilis; menos probable, un Ménière bilateral (→ cap. 9) o un proceso retrococlear bilateral.
-- **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, impedanciometría, emisiones (→ H3, H4, H5, H7, H9), con la misma técnica que la anterior para poder comparar. Audiometrías seriadas durante el tratamiento.
+- **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, impedanciometría (→ H3, H4, H5, H7), con la misma técnica que la anterior para poder comparar. Audiometrías seriadas durante el tratamiento.
 - **Errores esperables:** tratarla como una "súbita del OD" y no ver que el OI también cae; no comparar con la audiometría anterior; no enmascarar el OD.
 - **Para discutir:** La progresión y la fluctuación están en la historia.
 :::
@@ -426,7 +415,7 @@ Hipoacusia sensorioneural profunda del OD, con timpanograma A y VEMP cervical de
 
 #### Razonamiento
 
-Una pérdida sensorioneural **bilateral y simétrica**, descendente desde 1 kHz, con muesca en 6 kHz y recuperación en 8, en un joven que se golpeó la cabeza hace tres semanas. El oído medio está sano en los dos lados, así que el golpe no pasó por la caja timpánica. Las emisiones se apagan justo donde cae el audiograma: el daño está en la cóclea. La forma es la de un ruido, pero Juan no tiene exposición y tenía una audiometría normal hace un año: la pérdida apareció entre esa audiometría y hoy, y lo único que pasó en medio fue el accidente.
+Una pérdida sensorioneural **bilateral y simétrica**, descendente desde 1 kHz, con muesca en 6 kHz y recuperación en 8, en un joven que se golpeó la cabeza hace tres semanas. El oído medio está sano en los dos lados, así que el golpe no pasó por la caja timpánica. La forma es la de un ruido, pero Juan no tiene exposición y tenía una audiometría normal hace un año: la pérdida apareció entre esa audiometría y hoy, y lo único que pasó en medio fue el accidente.
 
 #### Diagnóstico y qué sigue
 
@@ -454,7 +443,7 @@ El oído que hay que cuidar en Matías es el **izquierdo**. Una pérdida en ese 
 
 #### Razonamiento
 
-Lo que hace sospechar es la **velocidad**: un OD que en dos meses pasó de moderado a severo, que respondió a los corticoides y recayó al suspenderlos, y un OI que empezó a caer hace un mes. Es sensorioneural en los dos oídos, asimétrica, de características cocleares (emisiones ausentes en los dos, discriminación acorde a la pérdida). No es una súbita: es una pérdida **bilateral rápidamente progresiva**. Las dos causas tratables que hay que buscar son la autoinmune y la sífilis, y eso lo hace el médico con la serología y los exámenes inmunológicos.
+Lo que hace sospechar es la **velocidad**: un OD que en dos meses pasó de moderado a severo, que respondió a los corticoides y recayó al suspenderlos, y un OI que empezó a caer hace un mes. Es sensorioneural en los dos oídos, asimétrica, de características cocleares (discriminación acorde a la pérdida). No es una súbita: es una pérdida **bilateral rápidamente progresiva**. Las dos causas tratables que hay que buscar son la autoinmune y la sífilis, y eso lo hace el médico con la serología y los exámenes inmunológicos.
 
 #### Diagnóstico y qué sigue
 

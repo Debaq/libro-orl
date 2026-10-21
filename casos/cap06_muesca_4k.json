@@ -22,6 +22,9 @@
       "sin_enmascarar": false
     },
     {
+      "tipo": "teoae"
+    },
+    {
       "tipo": "dpoae"
     }
   ]

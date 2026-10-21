@@ -264,9 +264,15 @@ Hace un año, la VRA con insertos dio niveles mínimos de 60 a 65 dB. El nivel m
 
 Los dos timpanogramas son tipo A: el OD con 0,38 mL y el pico en 0 daPa, el OI con el pico en −51 daPa. No hay líquido: la caída no es una otitis con efusión sumada. Los reflejos están presentes solo hasta 2 kHz, entre 100 y 115 dB SPL, en las dos sondas y en las dos modalidades; en 4 kHz faltan.
 
+:::lado
 :::figura cap10_gjb2 teoae
 - @OD 2000 | Sin emisiones en ninguna banda del OD (0 de 5; reproducibilidad 5 %).
 - @OI 2000 | Tampoco en el OI. Con 80 dB de pérdida es lo esperable: las células ciliadas externas no funcionan. La prueba cruzada cierra: oído medio normal, cóclea sin emisiones.
+:::
+:::figura cap10_gjb2 dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 
 :::figura cap10_gjb2 campo_libre
@@ -308,9 +314,15 @@ Los dos timpanogramas son tipo A: el OD con el pico en −26 daPa y el OI en 2 d
 
 Los reflejos están **ausentes** en todas las frecuencias, con la sonda en el OD y con la sonda en el OI, ipsi y contralaterales. Con oído medio normal, falta la vía: el sonido no llega a disparar el reflejo.
 
+:::lado
 :::figura cap10_waardenburg teoae
 - @OD 2000 | Sin emisiones en el OD: 0 de 5 bandas.
 - @OI 1000 | Tampoco en el OI. Con el timpanograma A, la ausencia es de la cóclea.
+:::
+:::figura cap10_waardenburg dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 
 :::figura cap10_waardenburg abr
@@ -384,15 +396,10 @@ Un adolescente con sangre en la orina, un tío materno dializado que usa audífo
 
 Los graves están casi normales: 15 dB en 250 Hz. El fondo está en **2 kHz**, con 65 dB, y en 8 kHz el OD vuelve a 40 dB: la curva cae en los medios y se recupera en los extremos. Es una curva **en cubeta**. El OI tiene la misma forma, con 65 dB en 2 y 3 kHz. Ninguna frecuencia difiere en más de 10 dB del OD: simétrica. La ósea va con la aérea: sensorioneural. Promedio BIAP: 47,5 dB en el OD y 52,5 en el OI, **moderada**. El SDT es de 30 dB en el OD y 35 en el OI, el SRT de 35 y 40 dB, y la discriminación llega al **76 %** a 70 dB en el OD y al 72 % a 80 dB en el OI: es la de una pérdida coclear moderada, sin la caída que haría pensar en el nervio (→ cap. 11). SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 22 a 40 dB desde 1 kHz en el OD y de 24,5 a 30 dB en el OI: recluta, es coclear.
 
-:::figura cap10_alport dpoae
-- @OD 2000 | Sin DP en ninguna frecuencia del OD (0 de 7).
-- @OI 1000 | Tampoco en el OI, ni siquiera en 1 kHz, donde la pérdida es de 55 dB. La lesión está en la cóclea.
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 15 años; dificultad en clases hace un año (le cuesta más la voz lejana); acúfeno bilateral intermitente; hematuria desde los 5 años y proteinuria; tío materno dializado con audífonos; mamá con hematuria leve y audición normal (ligada al X).
 - **Hipótesis esperables:** síndrome de Alport; ototoxicidad por fármacos recibidos (→ cap. 8); hipoacusia por ruido (sin exposición).
-- **Qué pedir:** audiometría, logoaudiometría, impedanciometría, DPOAE, acufenometría si el acúfeno está presente (→ H3, H5, H7, H9, cap. 6); los fármacos recibidos según la ficha de nefrología.
+- **Qué pedir:** audiometría, logoaudiometría, impedanciometría, acufenometría si el acúfeno está presente (→ H3, H5, H7, cap. 6); los fármacos recibidos según la ficha de nefrología.
 - **Errores esperables:** no preguntar por el riñón ni por la familia de la mamá; llamar "plana" o "descendente" a una cubeta; informar solo el grado.
 - **Para discutir:** Su acúfeno (pitido de 2 kHz, bilateral, intermitente) se conversa en la entrevista.
 :::
@@ -482,7 +489,7 @@ En este caso el gap no es de transmisión, aunque se mida igual. Por eso se info
 
 #### Razonamiento
 
-Tres datos fuera del oído orientan: la **hematuria** desde chico con proteinuria, un **tío materno** dializado con audífonos y una **mamá** con hematuria leve que oye bien. Es una herencia **ligada al X**: los hombres afectados se emparentan por la madre, que es portadora. El audiograma tiene la forma que corresponde: **en cubeta**, con el fondo en 2 a 3 kHz, bilateral y simétrica, coclear, con DPOAE ausentes. Es la forma en que empieza la hipoacusia del Alport en la mayoría de los varones (Zhang y cols., 2018). No hay ruido que la explique, y los fármacos que haya recibido se revisan antes de cerrar.
+Tres datos fuera del oído orientan: la **hematuria** desde chico con proteinuria, un **tío materno** dializado con audífonos y una **mamá** con hematuria leve que oye bien. Es una herencia **ligada al X**: los hombres afectados se emparentan por la madre, que es portadora. El audiograma tiene la forma que corresponde: **en cubeta**, con el fondo en 2 a 3 kHz, bilateral y simétrica, coclear. Es la forma en que empieza la hipoacusia del Alport en la mayoría de los varones (Zhang y cols., 2018). No hay ruido que la explique, y los fármacos que haya recibido se revisan antes de cerrar.
 
 #### Diagnóstico y qué sigue
 

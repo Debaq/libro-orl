@@ -20,7 +20,7 @@ ABR_X = fig.abr(niveles=(80, 60, 40))
 
 
 CASOS = [
-    cuadro('toxico_metabolico', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.abr(niveles=(90, 80, 60))],
+    cuadro('toxico_metabolico', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae(), fig.abr(niveles=(90, 80, 60))],
            od='toxico_metabolico', oi='toxico_metabolico', grado_od='leve', grado_oi='leve', edad=45, sexo='mujer',
            anamnesis="""Tiene 45 años y es profesora de enseñanza básica. Hace como un año que oye menos por los dos
            oídos, parejo: dice que es "como tener algodón" y que en el recreo le cuesta entender a los niños. No
@@ -31,7 +31,7 @@ CASOS = [
            historia=[(400, 'Consulta a médico general por cansancio y aumento de peso; se indican exámenes de sangre que no se retiró.'),
                      (60, 'Médico general: hipoacusia bilateral referida; otoscopía normal. Se deriva a evaluación auditiva.')],
            medicamentos='Ninguno'),
-    cuadro('hipotermia_farmacos', [fig.teoae(), fig.abr(niveles=(80, 60, 40))],
+    cuadro('hipotermia_farmacos', [fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40))],
            od='hipotermia_farmacos', oi='hipotermia_farmacos', edad=45,
            anamnesis="""Tiene 45 años y es chofer de camión. No puede contestar: informa su esposa y la ficha de la
            unidad de cuidados intensivos. Hace 18 horas sufrió un paro cardiorrespiratorio en su casa; su señora
@@ -41,7 +41,7 @@ CASOS = [
            médico pide un ABR en la cama para ver cómo está el tronco.""",
            historia=[(1, 'Ingreso a UCI tras paro cardiorrespiratorio recuperado; inicia enfriamiento controlado a 33 °C y sedoanalgesia continua.')],
            medicamentos='Propofol y fentanilo en infusión (UCI)'),
-    cuadro('bloqueo_proximal', [fig.teoae(), fig.abr(niveles=(80, 60, 40))],
+    cuadro('bloqueo_proximal', [fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40))],
            od='bloqueo_proximal', oi='bloqueo_proximal', edad=45,
            anamnesis="""Tiene 45 años y es soldador. No puede contestar: informa su hermana y la ficha de la unidad de
            cuidados intensivos. Hace cuatro días, en el trabajo, se quejó de un dolor de cabeza "como un golpe" y cayó
@@ -52,7 +52,7 @@ CASOS = [
            historia=[(4, 'Ingreso por hemorragia intracerebral masiva; intubado en UCI.'),
                      (1, 'Sedación suspendida; temperatura central 36,8 °C.')],
            antecedentes=['hta'], medicamentos='Ninguno (dejó el enalapril)'),
-    cuadro('prematuro', [fig.impedancia(sonda=1000), fig.teoae(), fig.abr(niveles=(80, 60, 40))],
+    cuadro('prematuro', [fig.impedancia(sonda=1000), fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40))],
            od='prematuro', oi='prematuro', edad_horas=1344,
            anamnesis="""Tiene 8 semanas de vida y viene con su mamá. Nació a las 32 semanas, con 1.700 g, tras un
            trabajo de parto prematuro; el embarazo había sido normal y la mamá no tuvo infecciones ni tomó

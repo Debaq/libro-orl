@@ -162,12 +162,14 @@ class fig:
 def _figuras(figuras):
     """La lista de figuras del caso, con una sola hoja de impedanciometría: el
     timpanograma y los reflejos van juntos en ella (él, 2026-10-20)."""
-    out, hay = [], False
+    out, vistos = [], set()
     for f in figuras:
-        if f.get('tipo') == 'impedancia':
-            if hay:
+        # una sola hoja de impedancia; y una sola de cada emisión, que en el
+        # tomo II van siempre las dos juntas (él, 2026-10-20)
+        if f.get('tipo') in ('impedancia', 'teoae', 'dpoae'):
+            if f['tipo'] in vistos:
                 continue
-            hay = True
+            vistos.add(f['tipo'])
         out.append(f)
     return out
 

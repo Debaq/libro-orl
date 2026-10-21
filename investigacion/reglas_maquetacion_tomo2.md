@@ -23,11 +23,13 @@ Cada capítulo del tomo II va dentro de `<div class="tomo2">`.
 - **Créditos** (fuente, autores, licencia: "Imagen: …", "Imagen propia …"): salen del pie (`separar_credito`) y van al índice **"Créditos de las imágenes"** al final del tomo (`armado_incremental.creditos_html`).
 - **Tamaños fijos de los casos:** hoja auditiva (`audiosupra`) e impedanciometría (`impedancia`) al 80 %; hexágonos de nistagmo al 55 %.
 - **Calórica y vHIT:** el recuadro lleva la tabla de la calórica y la del vHIT lado a lado (la tabla del vHIT no se quita: trae los canales verticales).
+- **Figuras del motor de los casos** (ABR, reflejos, VEMP, ECochG, emisiones): solas y centradas al 80 % (`div.tomo2 .figobs-motor`); en una fila van al ancho de su celda, pasadas a `<img>` (`caja('lado')`), porque el SVG en línea guardaba su alto y dejaba un hueco.
+- **Emisiones:** solo en los casos donde son obligatorias o indicadas (tamizaje, lactante, neuropatía, cap. 14, pseudohipoacusia y simulación, ototoxicidad, niños que no responden, p39 retrococlear, TPA; y todo el cap. 6 y el cap. 29). Donde van, van las dos, TEOAE y DPOAE, en una fila; `libro._figuras` no repite ninguna. Las retiradas están en `investigacion/emisiones_retiradas.md`, con su generador y su texto.
 - **Fila** (`:::lado` … `:::`): dos figuras, o una figura y una tabla, lado a lado. Las figuras de una fila van a la misma altura (38 mm), sin el alto propio del SVG. Se usa para la **mariposa con el vHIT** y para el **vHIT con su tabla** cuando no hay calórica.
 
 ## 4. Generadores del tomo II (`figuras/motor/`)
 
-- `audio_supra.py` (`fig.audiosupra()`): audiograma clínico (frecuencias arriba, ósea completa de 250 a 4.000 Hz si una frecuencia la pide, "LDL:" en negrita subrayado, Fowler (+)/(−) sobre la frecuencia, el oído sano de 20 en 20 desde su umbral) y, a la derecha, diapasones en espejo y logoaudiometría lado a lado; abajo, supraliminares (SISI, Carhart en 2 y 4 kHz "No det." hasta 5 dB, Metz con el reflejo pasado a dB HL, decay). Sin logo ni supraliminares bajo 6 años ni en un oído sin respuesta. En esta figura se enmascara la voz sobre 45 dB, "80 dB/60 dB" con el ruido en el color del otro oído.
+- `audio_supra.py` (`fig.audiosupra()`): audiograma clínico (frecuencias arriba, ósea completa de 250 a 4.000 Hz si una frecuencia la pide, "LDL:" en negrita subrayado y una sola vez por audiograma, Fowler (+)/(−) sobre la frecuencia, el oído sano de 20 en 20 desde su umbral) y, a la derecha, diapasones en espejo y logoaudiometría lado a lado; abajo, supraliminares (SISI, Carhart en 2 y 4 kHz "No det." hasta 5 dB, Metz con el reflejo pasado a dB HL, decay). Sin logo ni supraliminares bajo 6 años ni en un oído sin respuesta. En esta figura se enmascara la voz sobre 45 dB, "80 dB/60 dB" con el ruido en el color del otro oído.
 - `impedancia_hoja.py` (`fig.impedancia()`): un timpanograma con las dos curvas ("OD curva A" / "OI curva B" en las esquinas), sus datos, reflejos por sonda (ipsi en el color del oído de la sonda, contra en el del otro; N/D sin reflejo), decay y función tubaria. Va en las pérdidas de transmisión o mixtas y donde el caso necesita el reflejo (asimétricas, retrococleares, Ménière); no donde el caso enseña que no se pone sonda.
 - `ecochg.py`: área PS (clara) y área PA (oscura, dentro de la PS) sombreadas con las mismas cuentas de LabSim que la razón de áreas (`ecochg.area_shading`, Devaiah y Ferraro 2003); rótulo PS a la izquierda de su marca sobre la base y PA bajo el valle, para que no se tapen.
 - `vestibular.py`: `nistagmo` (hexágonos con (−)), `mariposa`, `vng` (maniobras), `vhit` (dos gráficos, uno por oído; en cada uno la cabeza (gris) y el ojo (color del lado) van en sentidos opuestos: oído derecho, ojo arriba y cabeza abajo; oído izquierdo, cabeza arriba y ojo abajo; ganancia y sacadas en la mitad del ojo).
@@ -41,3 +43,9 @@ Se usa en el tomo y también en la prueba de un capítulo (`hacer_libro.py NN`),
 3. **Fichas de caso:** la ficha (cara, nombre, anamnesis) no queda separada de sus Pasos 1-3: si no caben juntos, el caso empieza en la página siguiente.
 4. **Guía del docente:** se parte entre páginas con "continúa →".
 5. **Última página casi vacía:** aprieta la bibliografía para ahorrarla.
+
+## 6. Cómo se trabaja
+
+- Cada cambio se prueba primero en UN capítulo (`hacer_libro.py NN`, que ya pasa por el paginador) y la prueba se deja en `investigacion/prueba_paginas/`. Solo cuando el autor lo aprueba se lleva al resto del tomo.
+- El tomo se arma (`hacer_libro.py --completo --tomo II`) solo cuando el autor lo pide.
+- Antes de borrar algo del libro (figuras, generadores, texto), se guarda en `investigacion/`.

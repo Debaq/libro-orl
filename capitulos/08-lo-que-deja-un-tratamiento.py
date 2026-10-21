@@ -65,7 +65,7 @@ CASOS = [
            medicamentos='Ácido acetilsalicílico 500 mg, dos comprimidos cada 6 horas por tres semanas, por su cuenta (suspendido ayer); losartán 50 mg al día'),
     # Semilla 5: mixta franca del OD (gap de 20-30 dB en graves sobre una caída
     # coclear de agudos) con curva B; las otras dejaban un gap de 5 dB con una B.
-    cuadro('post_radioterapia', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.dpoae()],
+    cuadro('post_radioterapia', [fig.audiosupra(), fig.impedancia(), fig.impedancia()],
            od='post_radioterapia', edad=63, semilla=5,
            anamnesis="""Tiene 63 años y es jubilado; trabajó como chofer de micro. Hace dos años le operaron un cáncer
            de la parótida derecha y después recibió seis semanas de radioterapia en ese lado de la cara y el

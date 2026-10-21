@@ -33,6 +33,9 @@
       "tipo": "teoae"
     },
     {
+      "tipo": "dpoae"
+    },
+    {
       "tipo": "campo_libre",
       "ganancia": {
         "250": 25,

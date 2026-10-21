@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo periférico que se cierra antes de cualquier batería central (→ H15)
-PERIFERIA = [fig.audiosupra(), fig.impedancia(), fig.dpoae()]
+PERIFERIA = [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]
 
 CASOS = [
     cuadro('nino_tpa', PERIFERIA, od='normal', oi='normal', edad=9, sexo='hombre', semilla=3,
@@ -31,7 +31,7 @@ CASOS = [
                      (200, 'Psicóloga: capacidad cognitiva en rango medio; atención sin hallazgos importantes.'),
                      (30, 'Médico general: otoscopía normal bilateral. Se deriva a audiología por sospecha de trastorno de procesamiento auditivo.')],
            antecedentes=['otitis'], medicamentos='', cirugias=''),
-    cuadro('mayor_ruido', [fig.audiosupra(), fig.dpoae(), fig.impedancia()],
+    cuadro('mayor_ruido', [fig.audiosupra(), fig.impedancia()],
            od='presbiacusia', oi='presbiacusia', grado_od='leve', grado_oi='leve', edad=71, sexo='mujer', semilla=2,
            anamnesis="""Tiene 71 años, es profesora jubilada y vive con su marido. Desde hace unos tres años le cuesta
            seguir las conversaciones en los almuerzos familiares y en el almacén. En silencio, en una conversación

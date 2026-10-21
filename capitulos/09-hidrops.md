@@ -293,17 +293,11 @@ Los dos timpanogramas son A. Con la sonda en el OI, el reflejo ipsilateral apare
 - La razón de asimetría es de **82 %**: el sáculo del OI responde mucho menos. Es el compromiso sacular del hidrops.
 :::
 
-:::figura cap09_p38 dpoae
-- @OI 1000 | En el OI el DP está ausente en 1 y 1,5 kHz, donde el umbral está en 40 dB o peor.
-- @OI 3000 | Desde 2 kHz aparece, con su máximo en 3 kHz, donde la audiometría es casi normal.
-- Con **4 de 7** el equipo dice "pasa", pero el DP-grama dibuja la curva ascendente: las células ciliadas externas de los graves dejaron de amplificar.
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 46 años; cuatro o cinco crisis de vértigo rotatorio de horas con vómitos en un año; antes de cada una, plenitud del OI y zumbido grave; voces "metálicas" (diploacusia) e hiperacusia por el OI; audición que fluctúa; betahistina y dieta baja en sal.
 - **Hipótesis esperables:** enfermedad de Ménière del OI; migraña vestibular; schwannoma vestibular (menos probable con crisis de horas, pero hay que descartarlo).
-- **Qué pedir:** audiometría con enmascaramiento, LDL, logoaudiometría, Fowler y SISI, deterioro tonal, impedanciometría con reflejos, ECochG y VEMP cervical (→ H3, H5, H6, H7, H11, H12). Emisiones como complemento.
-- **Errores esperables:** registrar la ECochG con el pasa-alto del PEAT; no buscar el Metz; dar por normal la DPOAE del OI porque "pasa".
+- **Qué pedir:** audiometría con enmascaramiento, LDL, logoaudiometría, Fowler y SISI, deterioro tonal, impedanciometría con reflejos, ECochG y VEMP cervical (→ H3, H5, H6, H7, H11, H12).
+- **Errores esperables:** registrar la ECochG con el pasa-alto del PEAT; no buscar el Metz.
 :::
 
 {{caso cap09_hidrops_retardado}}
@@ -379,10 +373,6 @@ Patricia cumple la historia completa del Ménière: crisis de vértigo de horas,
 #### Diagnóstico y qué sigue
 
 Hipoacusia sensorioneural del OI, ascendente, leve a moderada, de características cocleares. Electrococleografía del OI con razón PS/PA de 0,63 y razón de áreas de 3,87, sobre los límites. VEMP cervical del OI con amplitud muy reducida. **Supraliminares:** Fowler con reclutamiento completo, SISI de 90 % y Carhart sin deterioro. El conjunto es compatible con un hidrops endolinfático del OI; con su historia, el médico podrá plantear una enfermedad de Ménière definida. La evaluación vestibular completa se ve en el cap. 23. Se sugiere **control audiométrico seriado**, idealmente también cerca de una crisis, para documentar la fluctuación.
-
-:::comentario Comentario
-El DP-grama del OI dice "pasa" con 4 de 7. Si solo se hubiera mirado el resultado global, se habría informado normal una cóclea que no amplifica los graves. Como en el ruido (→ cap. 6), las emisiones se leen frecuencia por frecuencia.
-:::
 
 ### Caso 9.2
 

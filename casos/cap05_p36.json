@@ -12,9 +12,6 @@
     {
       "tipo": "logoaudiometria",
       "enmascarado": true
-    },
-    {
-      "tipo": "dpoae"
     }
   ]
 }

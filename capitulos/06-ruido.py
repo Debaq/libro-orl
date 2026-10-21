@@ -41,7 +41,7 @@ CASOS = [
            antecedentes=['trauma_acustico'],
            medicamentos='Prednisona oral desde hace dos días, indicada por el otorrinolaringólogo'),
     # Diez años de barra en una discoteca: muesca bilateral profunda con recuperación en 8 kHz
-    cuadro('muesca_4k', [fig.audiosupra(), fig.dpoae()], od='muesca_4k', oi='muesca_4k', edad=32, sexo='mujer',
+    cuadro('muesca_4k', [fig.audiosupra(), fig.teoae(), fig.dpoae()], od='muesca_4k', oi='muesca_4k', edad=32, sexo='mujer',
            anamnesis="""Tiene 32 años y hace diez trabaja en la barra de una discoteca, cuatro noches por semana. No
            usa protección auditiva porque "tiene que escuchar los pedidos". Desde hace años sale del turno con
            los oídos silbando, pero antes se le pasaba al día siguiente. Hace como un año el silbido de los dos

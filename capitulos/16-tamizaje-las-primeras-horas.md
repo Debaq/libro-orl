@@ -176,10 +176,16 @@ Con diez horas de vida, ¿harías TEOAE, AABR o las dos? ¿Qué harías si un o�
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap16_normal teoae
 - @OD 2000 | En el oído derecho **no pasa ninguna banda** (0 de 5) y la reproducibilidad es de 23 %: no hay emisión que se repita.
 - @OI 2000 | El oído izquierdo tiene **las cinco bandas** y 88 % de reproducibilidad: la cóclea de esta niña funciona.
 - Los dos oídos son de la misma niña, con la misma cóclea. Lo que cambia es el oído medio de ese lado en esta hora.
+:::
+:::figura cap16_normal dpoae
+- OD: presentes en 4 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap16_normal abr
 - @OD 35 V | A 35 dB nHL el oído derecho **sí responde**: la onda V aparece cerca de los 8 ms, repetida en las dos réplicas. Un AABR diría PASA.
@@ -210,9 +216,15 @@ Está a dos días del alta. ¿Qué examen de tamizaje usarías? ¿Qué harías s
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap16_uci teoae
 - @OD 2000 | Las emisiones del oído derecho están **presentes** en las cinco bandas, con 89 % de reproducibilidad.
 - @OI 1000 | En el izquierdo pasan cuatro de cinco bandas (la de 1 kHz, abierta, no): 68 % de reproducibilidad. Un equipo de tamizaje con TEOAE habría tendido a decir **pasa** en los dos oídos.
+:::
+:::figura cap16_uci dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap16_uci abr
 - @OD 80 | A **80 dB nHL** no hay ninguna onda en el oído derecho, ni siquiera a un nivel mucho mayor que el del tamizaje.
@@ -243,9 +255,15 @@ Pasa el tamizaje y está listo para el alta. ¿Qué le dices a la familia y qué
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap16_riesgo teoae
 - @OD 2000 | Emisiones **presentes** en las cinco bandas, con 90 % de reproducibilidad.
 - @OI 2000 | También las cinco en el izquierdo, con 86 %: cóclea que responde en los dos lados.
+:::
+:::figura cap16_riesgo dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap16_riesgo abr
 - @OD 35 V | La onda V del oído derecho aparece a 35 dB nHL, cerca de los 8 ms.
@@ -276,9 +294,15 @@ Con tres semanas de vida y un "refiere" repetido, ¿ya se puede hablar de hipoac
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap16_efusion teoae
 - @OD 2000 | **Ninguna banda** pasa en el oído derecho (0 de 5): reproducibilidad 0 %.
 - @OI 2000 | Tampoco en el izquierdo. El tamizaje a esta edad refiere en los dos oídos.
+:::
+:::figura cap16_efusion dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 :::imagen figuras/salida/cap16_efusion_impedancia.svg ancho=80% Impedanciometría.
 :::

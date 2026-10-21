@@ -27,7 +27,7 @@ GANANCIA_ADRIAN = {250: 25, 500: 35, 1000: 40, 2000: 45, 3000: 45, 4000: 50, 600
 CASOS = [
     # Adrián, 3 años: GJB2 35delG conocido, con audífonos; control por juego
     # condicionado que muestra progresión; la mamá embarazada pregunta
-    cuadro('gjb2', [fig.audiosupra(), fig.impedancia(), fig.teoae(),
+    cuadro('gjb2', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae(),
                     fig.campo_libre(ganancia=GANANCIA_ADRIAN)],
            od='gjb2', oi='gjb2', grado_od='severa', grado_oi='severa', edad=3, sexo='hombre',
            anamnesis="""Adrián tiene 3 años y viene con su mamá a su control de audición. Al nacer no pasó el
@@ -53,7 +53,7 @@ CASOS = [
            antecedentes=['hipoacusia_familiar']),
     # Lorena, 8 meses: Waardenburg (mechón blanco y heterocromía, como el
     # papá); refirió el tamizaje y llega tarde; la VRA no condiciona con sonido
-    cuadro('waardenburg', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.abr(niveles=(90,))],
+    cuadro('waardenburg', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(), fig.abr(niveles=(90,))],
            od='waardenburg', oi='waardenburg', grado_od='profunda', grado_oi='profunda', edad_meses=8,
            sexo='mujer',
            anamnesis="""Lorena tiene 8 meses y la trae su mamá. Nació de término, por parto normal, sin
@@ -96,7 +96,7 @@ CASOS = [
            antecedentes=['tce']),
     # Javier, 15 años: Alport ligado al X; curva en cubeta; el tío materno se
     # dializa y usa audífonos
-    cuadro('alport', [fig.audiosupra(), fig.dpoae()],
+    cuadro('alport', [fig.audiosupra()],
            od='alport', oi='alport', grado_od='moderada', grado_oi='moderada', edad=15, sexo='hombre', semilla=7,
            anamnesis="""Javier tiene 15 años y está en segundo medio. Viene con su mamá porque desde hace un año le
            cuesta seguir las clases: entiende al profesor cuando está adelante, pero no a los compañeros que

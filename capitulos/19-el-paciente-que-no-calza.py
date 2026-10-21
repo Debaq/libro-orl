@@ -31,7 +31,7 @@ CASOS = [
            historia=[(21, 'Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.'),
                      (7, 'Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.')],
            antecedentes=['tce']),
-    cuadro('sobre_real', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(),
+    cuadro('sobre_real', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
                           fig.abr(niveles=(80, 60, 40, 20))],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=52, sexo='hombre',
            anamnesis="""Tiene 52 años y desde hace 25 maneja una grúa horquilla en una planta de aserrío, sin
@@ -52,7 +52,7 @@ CASOS = [
            pitido.""",
            historia=[(25, 'Tamizaje escolar de audición: sin respuesta bilateral.'),
                      (10, 'Pediatra: otoscopía normal, sin fiebre ni otitis; se deriva a evaluación auditiva.')]),
-    demo(42, [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.teoae(),
+    demo(42, [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.teoae(), fig.dpoae(),
               fig.abr(niveles=(90, 80))]),
 ]
 

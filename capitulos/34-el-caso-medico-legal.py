@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 CASOS = [
-    cuadro('exagera', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(),
+    cuadro('exagera', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
                        fig.abr(niveles=(80, 60, 40, 20)),
                        fig.abr(niveles=(60, 40, 20), estimulo='Burst 500 Hz')],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=51, sexo='hombre',
@@ -31,7 +31,7 @@ CASOS = [
                      (90, 'Urgencia de la mutual tras una tronadura: otoscopía normal bilateral, sin otorragia; se indica control.'),
                      (20, 'Médico laboral: refiere sordera total derecha; se solicita evaluación audiológica médico-legal.')],
            antecedentes=['trauma_acustico']),
-    cuadro('hidrops', [fig.audiosupra(), fig.logo(), fig.impedancia(), fig.teoae(), fig.ecochg(),
+    cuadro('hidrops', [fig.audiosupra(), fig.logo(), fig.impedancia(), fig.ecochg(),
                        fig.abr(niveles=(80, 60, 40))],
            od='normal', oi='meniere', grado_oi='moderada', edad=54, sexo='hombre',
            anamnesis="""Tiene 54 años y hace 26 trabaja como operador de prensa en una metalmecánica, con protección
@@ -43,7 +43,7 @@ CASOS = [
                      (120, 'Primera crisis de vértigo con náuseas, unas tres horas; urgencia sin focalidad neurológica.'),
                      (30, 'Audiometría de control con pérdida de graves en el OI; se solicita evaluación audiológica médico-legal.')],
            antecedentes=['hta'], medicamentos='Enalapril 10 mg al día'),
-    cuadro('honesto', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()],
+    cuadro('honesto', [fig.audiosupra(), fig.impedancia()],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=63, sexo='hombre',
            anamnesis="""Tiene 63 años y trabajó 31 años en una fundición, junto a los hornos y las moldeadoras, hasta que
            se jubiló hace ocho. Usó protección auditiva de forma irregular. Dice que ahora entiende mal en reuniones

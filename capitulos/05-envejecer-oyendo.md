@@ -209,16 +209,10 @@ Los dos oídos tienen curva A, con volumen de 1,91 mL en el OD y de 1,74 mL en e
 
 El SDT es de 15 dB en el OD y de 20 en el OI. El SRT del OD es **20 dB**: concuerda con el promedio de sus dos mejores umbrales entre 500 y 2.000 Hz (20 y 25 dB). El del OI es 25 dB, también concordante. A 40 dB, 20 sobre el SRT, el OD repite el **84 %**; la curva sigue subiendo, así que ese no es su máximo. La UMD es de **92 % a 60 dB** en el OD, y la alcanza recién desde unos 55 dB; el OI llega a **88 % a 60 dB**. Las dos cifras calzan con su pérdida. Pasado el máximo la curva baja poco: 80 % a 90 dB en el OD, un índice de roll-over de (92 − 80) / 92 = **0,13**. En un adulto mayor es esperable (Gang, 1976).
 
-:::figura cap05_p36 dpoae
-- @OD 1000 | En el OD quedan productos de distorsión en 1, 1,5 y 2 kHz, donde la audición todavía es leve.
-- @OD 4000 | Desde 3 kHz el DP se confunde con el ruido: quedan sin función las células ciliadas externas de la base.
-- @OI 1000 | En el OI, 5 dB peor, no pasa ninguna frecuencia. Las emisiones confirman que el problema es **coclear** (→ H9).
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 74 años, consulta empujado por la señora; "escucha bien" pero no entiende a los nietos ni en los almuerzos; tele fuerte; siseo bilateral de dos años; **sierra y lijadora toda la vida sin protección**; hipertensión. Rechaza el audífono "porque es para viejos".
 - **Hipótesis esperables:** presbiacusia; daño por ruido sumado a la edad; un tapón de cerumen, que se descarta con la otoscopía antes de medir (→ cap. 1).
-- **Qué pedir:** audiometría con vía ósea, logoaudiometría y LDL (→ H3, H5). Emisiones si se quiere confirmar el origen coclear (→ H9). Las supraliminares **no están indicadas para decidir nada**: no hay asimetría ni acúfeno unilateral, y la discriminación calza (→ H6); los de la hoja solo confirman un origen coclear. El STAT, además, no se puede hacer: su LDL es de 100 dB HL y le molestaría el nivel de la prueba.
+- **Qué pedir:** audiometría con vía ósea, logoaudiometría y LDL (→ H3, H5). Las supraliminares **no están indicadas para decidir nada**: no hay asimetría ni acúfeno unilateral, y la discriminación calza (→ H6); los de la hoja solo confirman un origen coclear. El STAT, además, no se puede hacer: su LDL es de 100 dB HL y le molestaría el nivel de la prueba.
 - **Errores esperables:** dar como máximo el 84 % de la primera lista; buscar el roll-over sin enmascarar; no medir el LDL; informar "presbiacusia" sin mirar la simetría ni la discriminación.
 - **Para discutir:** Viene con su señora, Gladys, que interrumpe e insiste: es buena ocasión para practicar cómo se le habla a un paciente que minimiza y a una acompañante que exagera.
 :::
@@ -259,15 +253,10 @@ SDT de 10 dB en el OD y de 15 en el OI. SRT de **15 dB** en el OD y de 20 en el 
 
 Así queda la misma búsqueda del roll-over **sin enmascarar**. Hasta 70 dB las dos curvas son iguales a las anteriores. A 80 dB el OI "repite" el **92 %**, y a 90, el 96 %: más que su máximo. No es el OI: al OD le llegan 45 dB menos, unos 35 dB, y el OD entiende eso. El OD también "sube" a 88 % desde 95 dB, prestado del OI. Desde 70 dB la voz menos el promedio óseo del OD (22 dB) supera los 45 dB: había que enmascarar. Para el OI a 80 dB, ruido de habla en el OD entre 80 − 45 − 22 + 22 = **35 dB** y 27 + 45 = **72 dB** (27 es el promedio óseo del OI).
 
-:::figura cap05_metabolica dpoae
-- @OD 2000 | En el OD pasan 1, 1,5 y 2 kHz; desde 3 kHz, nada.
-- @OI 1000 | En el OI solo pasa 1 kHz. Como en Hernán, las emisiones se apagan donde empieza la pérdida: **coclear**.
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 56 años; **diabetes tipo 2 de 15 años**, mal controlada al comienzo, con **retinopatía** tratada con láser y **enfermedad renal crónica** etapa 3a; hipertensión; siseo bilateral parejo de dos años; dificultad para entender en grupo; sin ruido laboral, sin otitis ni mareos. Ella lo atribuye a la edad y a su mamá.
 - **Hipótesis esperables:** "presbiacusia precoz"; hipoacusia asociada a la diabetes y a la enfermedad renal; ototoxicidad (hay que preguntar); causa familiar (la mamá con audífonos a los 80 tuvo, con toda probabilidad, una presbiacusia, que no es un antecedente familiar de peso).
-- **Qué pedir:** audiometría con vía ósea, logoaudiometría con enmascaramiento al buscar el roll-over, LDL y emisiones (→ H3, H5, H9). Preguntar por diuréticos, antibióticos inyectados y hospitalizaciones.
+- **Qué pedir:** audiometría con vía ósea, logoaudiometría con enmascaramiento al buscar el roll-over, y LDL (→ H3, H5). Preguntar por diuréticos, antibióticos inyectados y hospitalizaciones.
 - **Errores esperables:** informar "presbiacusia" sin comparar con la edad y el sexo; buscar el roll-over sin enmascarar y concluir que no hay; leer como asimetría los 8 puntos de diferencia en la discriminación.
 - **Para discutir:** Es el caso para practicar la curva sombra al buscar el roll-over.
 :::
@@ -280,7 +269,7 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-Todo calza con una cóclea que envejeció. La pérdida es sensorioneural, bilateral, simétrica y descendente; la ósea va con la aérea; las emisiones se apagan justo donde la audición cae. La palabra calza con el tono: el SRT concuerda con el promedio de sus dos mejores umbrales y la discriminación máxima, 92 y 88 %, es la esperable para su pérdida. El roll-over es leve, como en muchos adultos mayores. Y el LDL se quedó en su tolerancia mientras el umbral subía: en 4 kHz le quedan 40 a 45 dB de campo, la mitad que en los graves.
+Todo calza con una cóclea que envejeció. La pérdida es sensorioneural, bilateral, simétrica y descendente; la ósea va con la aérea. La palabra calza con el tono: el SRT concuerda con el promedio de sus dos mejores umbrales y la discriminación máxima, 92 y 88 %, es la esperable para su pérdida. El roll-over es leve, como en muchos adultos mayores. Y el LDL se quedó en su tolerancia mientras el umbral subía: en 4 kHz le quedan 40 a 45 dB de campo, la mitad que en los graves.
 
 Hernán está peor que la mediana de su edad en los agudos. Con una vida entera de sierra y lijadora sin protección, es probable que el ruido haya sumado lo suyo. A los 74 años, el audiograma no permite separar cuánto es de cada uno: no hay una muesca que delate al ruido, y la caída de la edad ocupa justo esas frecuencias (→ cap. 6).
 
@@ -296,7 +285,7 @@ Hernán dice que escucha bien, y en parte tiene razón: oye. Lo que perdió es l
 
 #### Razonamiento
 
-La curva de Clara tiene la forma de una presbiacusia: bilateral, simétrica, sensorioneural y descendente, con emisiones que se apagan donde empieza la pérdida, discriminación acorde y un roll-over leve. Si tuviera 75 años, se informaría como tal. Pero tiene 56 y es mujer, y su audiograma es casi el de Hernán. Está muy por debajo de lo esperable para su edad y su sexo.
+La curva de Clara tiene la forma de una presbiacusia: bilateral, simétrica, sensorioneural y descendente, con discriminación acorde y un roll-over leve. Si tuviera 75 años, se informaría como tal. Pero tiene 56 y es mujer, y su audiograma es casi el de Hernán. Está muy por debajo de lo esperable para su edad y su sexo.
 
 La historia explica la diferencia: quince años de diabetes, con daño ya demostrado en los vasos pequeños de la retina y del riñón. La pérdida tiene el patrón que describen la diabetes y la enfermedad renal crónica: coclear, de agudos y simétrica (Bainbridge y cols., 2008; Lara-Sánchez y cols., 2020). La mamá con audífonos a los 80 no cambia la lectura.
 

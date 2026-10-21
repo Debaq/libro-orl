@@ -248,9 +248,15 @@ Curva A en los dos oídos: el oído medio no interviene.
 
 Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 Hz. Un oído con 95 dB de pérdida no puede disparar un reflejo por debajo de su propio umbral.
 
+:::lado
 :::figura cap34_exagera teoae
 - @OD 1000 | En 1.000 Hz el OD tiene emisión (círculo lleno), donde dice 95 dB de pérdida. No pasan 3.000 y 4.000 Hz, que es donde cae el umbral real.
 - @OI 1000 | El OI pasa 1.000 y 1.500 Hz. La reproducibilidad global del OD es baja (11 %): aquí vale la banda de 1 kHz, no el total.
+:::
+:::figura cap34_exagera dpoae
+- OD: presentes en 2 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en 3 de 7 frecuencias.
+:::
 :::
 :::figura cap34_exagera abr
 - @OD 60 V | Con click hay onda V a **60 dB nHL** en el OD y no a 40: umbral de 60 dB nHL, unos 55 dB eHL con la corrección de 5 dB del click (→ H10). Es un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 35 a 70.
@@ -319,10 +325,6 @@ El OD es sano para su edad, con 15 dB en 4 kHz: un oído expuesto 26 años al mi
 
 Curva A en los dos oídos: el oído medio no explica nada.
 
-:::figura cap34_hidrops teoae
-- @OD 1000 | El OD tiene emisiones en las cinco bandas.
-- @OI 1000 | El OI no pasa ninguna: con 40 a 75 dB de pérdida en el rango de 500 a 4.000 Hz, las células ciliadas externas no funcionan. Coclear.
-:::
 :::figura cap34_hidrops ecochg
 - @OI PS | En el OI el PS es grande frente al PA: razón PS/PA de **0,40**, justo en el límite del electrodo timpánico, y razón de áreas de **2,93**, sobre el 1,94 (→ capítulo 9, H11). En el OD la razón es de 0,08.
 :::
@@ -337,7 +339,7 @@ Con el criterio chileno, el promedio de 1.000, 2.000, 3.000, 4.000 y 6.000 Hz es
 - **Datos clave:** 26 años de prensa, vértigo de horas con plenitud y zumbido grave **solo a la izquierda**, audición que fluctúa, audiometría de vigilancia normal hace tres años, pide calificación como enfermedad profesional.
 - **La trampa:** hay exposición, hay pérdida y la fórmula chilena da daño. Pero la pérdida es unilateral y de graves, con crisis de vértigo; el ruido no hace eso.
 - **Hipótesis:** hidrops endolinfático (Ménière), pérdida por ruido, lesión retrococlear.
-- **Qué pedir:** audiometría con ósea y logo, emisiones, ECochG, PEAT; el estudio de oído medio descarta lo conductivo (→ H3, H5, H9, H10, H11).
+- **Qué pedir:** audiometría con ósea y logo, ECochG, PEAT; el estudio de oído medio descarta lo conductivo (→ H3, H5, H10, H11).
 - **Errores esperables:** calcular el porcentaje y entregarlo como "daño laboral"; concluir "no es del trabajo" sin decir qué sí es; no mencionar la fluctuación.
 :::
 
@@ -380,15 +382,6 @@ Hoy, el OD está en 60 dB en 4 kHz y en 60 en 8 kHz: la recuperación es mínima
 
 Curva A en los dos oídos: sin componente conductivo.
 
-:::lado
-:::figura cap34_honesto teoae
-- @OD 1000 | En el OD pasan 1.000 y 1.500 Hz y no 2.000 a 4.000; en el OI, solo 1.500 Hz. La reproducibilidad es baja (35 % y 24 %): vale la forma por banda, igual que el audiograma.
-:::
-:::figura cap34_honesto dpoae
-- @OD 2000 | Los productos pasan hasta 2 kHz y no más allá: 3 de 7. Coincide con la caída del umbral.
-:::
-:::
-
 Con los umbrales de hoy:
 
 Tabla: Cálculo con los umbrales de hoy de Víctor
@@ -404,7 +397,7 @@ La misma audiometría da **0,3 %** con la AMA y un promedio de **42 y 45 dB** co
 :::docente Guía del caso
 - **Datos clave:** 31 años de fundición, jubilado hace ocho, protección irregular, nunca usó audífonos, trae su egreso y pregunta si hoy es mayor su daño.
 - **Hipótesis:** pérdida por ruido estable más edad; progresión desde el egreso.
-- **Qué pedir:** audiometría con ósea y logo, impedanciometría, emisiones; **no** se necesita PEAT, porque colabora y sus respuestas son confiables.
+- **Qué pedir:** audiometría con ósea y logo, impedanciometría; **no** se necesita PEAT, porque colabora y sus respuestas son confiables.
 - **Errores esperables:** decir que "no tiene nada" por el 0,3 %; calcular solo con la AMA; escribir que "empeoró" sin comparar con el egreso.
 - **Para discutir en clases:** qué le dices sobre el audífono y qué sobre la reevaluación; qué parte de su pérdida actual es del ruido.
 :::
@@ -433,7 +426,7 @@ Un informe que diga "60 %" por lo entregado es un error, y uno que diga "normal"
 
 #### Razonamiento
 
-Damián tiene un OD sano en un hombre expuesto 26 años y un OI con pérdida de graves de 70 a 80 dB, con vértigo de horas, plenitud y fluctuación. Lo único que une su caso con el ruido es la exposición: el patrón no es el de ruido por tres cosas. Es **unilateral**, con el otro oído expuesto igual y normal; es **de graves** y más profunda que lo que el ruido produce en bajas (40 dB, según ACOEM); y **fluctúa**. El PS grande de la ECochG y las emisiones ausentes en el OI, con un PEAT normal en el tronco, dicen que el problema está en la cóclea y que su comportamiento es el del hidrops.
+Damián tiene un OD sano en un hombre expuesto 26 años y un OI con pérdida de graves de 70 a 80 dB, con vértigo de horas, plenitud y fluctuación. Lo único que une su caso con el ruido es la exposición: el patrón no es el de ruido por tres cosas. Es **unilateral**, con el otro oído expuesto igual y normal; es **de graves** y más profunda que lo que el ruido produce en bajas (40 dB, según ACOEM); y **fluctúa**. El PS grande de la ECochG, con un PEAT normal en el tronco, dicen que el problema está en la cóclea y que su comportamiento es el del hidrops.
 
 #### Diagnóstico y qué sigue
 
@@ -447,7 +440,7 @@ Que la fórmula dé daño no significa que el daño sea del trabajo. Una calcula
 
 #### Razonamiento
 
-Víctor es el caso en que todo calza: una muesca bilateral simétrica con 31 años de exposición, una audiometría de egreso casi igual a la de hoy, discriminación buena, oído medio sano, emisiones coherentes con la caída. No hay nada que desconfiar; lo que se necesita es **escribirlo bien**. Sus umbrales no cambiaron más de 5 dB desde el egreso, de modo que no hay progresión que atribuir a nada. Y lo que dice la literatura es que cuando una pérdida por ruido empeora después de terminada la exposición, ese empeoramiento no es del ruido (ACOEM, 2002).
+Víctor es el caso en que todo calza: una muesca bilateral simétrica con 31 años de exposición, una audiometría de egreso casi igual a la de hoy, discriminación buena, oído medio sano. No hay nada que desconfiar; lo que se necesita es **escribirlo bien**. Sus umbrales no cambiaron más de 5 dB desde el egreso, de modo que no hay progresión que atribuir a nada. Y lo que dice la literatura es que cuando una pérdida por ruido empeora después de terminada la exposición, ese empeoramiento no es del ruido (ACOEM, 2002).
 
 #### Diagnóstico y qué sigue
 

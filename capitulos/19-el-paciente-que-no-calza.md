@@ -247,9 +247,15 @@ Curva A en los dos oídos: el oído medio no interviene.
 
 Los reflejos ipsilaterales aparecen de 85 a 95 dB SPL en los dos oídos, muy por debajo de lo que implicarían 85 dB de pérdida.
 
+:::lado
 :::figura cap19_sobre_real teoae
 - @OD 1000 | En el OD pasan **1.000, 1.500 y 2.000 Hz** y no pasan 3.000 y 4.000: justo donde cae el umbral real. Las emisiones respetan la pérdida de agudos y contradicen la de graves.
 - @OI 1000 | El OI muestra lo mismo.
+:::
+:::figura cap19_sobre_real dpoae
+- OD: presentes en 3 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en 3 de 7 frecuencias.
+:::
 :::
 :::figura cap19_sobre_real abr
 - @OD 60 V | El umbral de la V al click está en **60 dB nHL**; a 40 dB ya no hay respuesta. El click se parece al umbral de 2 a 4 kHz, que acá es la zona caída.
@@ -346,9 +352,15 @@ Sin enmascarar, el OD responde a **40 dB** (SRT de 45 dB y 100 % de discriminaci
 
 Curva A en los dos oídos. No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: **todo lo que se estimula por el OD falla**, el patrón aferente. Con el tono en el OI y la sonda en el OD el reflejo aparece (90 dB SPL): el estapedio del OD funciona.
 
+:::lado
 :::figura cap19_p42 teoae
 - @OD 2000 | **Sin emisiones**: no pasa ninguna banda. La cóclea del OD no amplifica nada.
 - @OI 2000 | Emisiones presentes en las cinco bandas.
+:::
+:::figura cap19_p42 dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap19_p42 abr
 - @OD 90 | Sin ondas a 90 dB: solo una deriva lenta de la línea de base. No hay respuesta del tronco.

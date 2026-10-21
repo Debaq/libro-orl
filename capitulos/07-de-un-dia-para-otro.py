@@ -52,7 +52,7 @@ CASOS = [
                      (12, 'Otorrinolaringólogo: probable laberintitis viral del OD. Indica tratamiento y solicita audiometría, impedanciometría y VEMP; evaluación vestibular completa en el control.')],
            medicamentos='Tomó un medicamento para el mareo los primeros días; ya no lo usa.'),
     # Juan: golpe en bicicleta, pérdida bilateral simétrica con muesca; audiometría previa normal
-    cuadro('conmocion_laberintica', [fig.audiosupra(), fig.impedancia(), fig.dpoae()],
+    cuadro('conmocion_laberintica', [fig.audiosupra(), fig.impedancia()],
            od='conmocion_laberintica', oi='conmocion_laberintica', edad=19,
            anamnesis="""Tiene 19 años y estudia diseño. Hace tres semanas se cayó de la bicicleta de montaña bajando un
            cerro y se golpeó fuerte la cabeza contra una roca, con el casco puesto. Perdió el conocimiento unos
@@ -68,7 +68,7 @@ CASOS = [
     # Matías: cófosis del OD por paperas a los 6 años; reflejos diagonales y VEMP del OD ausente
     demo(42, [fig.audiosupra(), fig.impedancia(), fig.vemp()]),
     # Pilar: bilateral asimétrica que avanza en semanas y responde a corticoides
-    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia(), fig.dpoae()],
+    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia()],
            od='autoinmune', oi='autoinmune', grado_od='severa', edad=41, sexo='mujer',
            anamnesis="""Tiene 41 años y es contadora. Hace unos tres meses empezó a sentir el oído derecho tapado, con
            días mejores y días peores, y pensó que era por un resfrío. En pocas semanas dejó de oír el teléfono por

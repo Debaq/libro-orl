@@ -16,8 +16,8 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-TAMIZ = [fig.teoae(), fig.abr(niveles=(35,))]
-TAMIZ_Y_ABR = [fig.teoae(), fig.abr(niveles=(80, 35))]
+TAMIZ = [fig.teoae(), fig.dpoae(), fig.abr(niveles=(35,))]
+TAMIZ_Y_ABR = [fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 35))]
 
 CASOS = [
     cuadro('normal', TAMIZ, od='normal', oi='normal', edad_horas=10, sexo='mujer',

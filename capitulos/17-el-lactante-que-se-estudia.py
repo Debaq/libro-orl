@@ -19,7 +19,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 TIMP = fig.impedancia(sonda=1000)
 
 CASOS = [
-    cuadro('efusion_neonatal', [TIMP, fig.teoae(), fig.abr(niveles=(80, 60, 40, 20)),
+    cuadro('efusion_neonatal', [TIMP, fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40, 20)),
                                 fig.abr(niveles=(55, 40, 20), transductor='oseo', marcar=('V',))],
            od='efusion_neonatal', oi='efusion_neonatal', sexo='mujer', edad_meses=4,
            anamnesis="""Tiene 4 meses y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el
@@ -31,7 +31,7 @@ CASOS = [
            de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.""",
            historia=[(115, 'Alta de la maternidad: AABR refiere OD y OI.'),
                      (90, 'Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.')]),
-    cuadro('cmv_congenito', [TIMP, fig.teoae(), fig.abr(niveles=(80, 60, 40, 20)),
+    cuadro('cmv_congenito', [TIMP, fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 60, 40, 20)),
                              fig.abr(niveles=(80, 60, 40, 20), estimulo='Burst 500 Hz', marcar=('V',), promediaciones=3000),
                              fig.abr(niveles=(80, 60, 40), estimulo='Burst 2 kHz', marcar=('V',))],
            od='cmv_congenito', grado_od='moderada', edad_meses=4,
@@ -44,7 +44,7 @@ CASOS = [
            peor de un lado. Nadie en la familia tiene problemas de audición.""",
            historia=[(115, 'Nacimiento a las 38 semanas; AABR del alta: pasa OD y OI.'),
                      (108, 'PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo.')]),
-    cuadro('rubeola_congenita', [TIMP, fig.teoae(), fig.abr(niveles=(100, 90, 80)),
+    cuadro('rubeola_congenita', [TIMP, fig.teoae(), fig.dpoae(), fig.abr(niveles=(100, 90, 80)),
                                  fig.abr(niveles=(100, 90, 80), estimulo='Burst 500 Hz', marcar=('V',)),
                                  fig.abr(niveles=(55, 40), transductor='oseo', marcar=('V',))],
            od='rubeola_congenita', oi='rubeola_congenita', grado_od='severa', grado_oi='severa',
@@ -58,7 +58,7 @@ CASOS = [
            responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.""",
            historia=[(115, 'Nacimiento a las 37 semanas, 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.'),
                      (105, 'AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica.')]),
-    cuadro('asfixia_perinatal', [TIMP, fig.teoae(), fig.abr(niveles=(90, 80, 60)),
+    cuadro('asfixia_perinatal', [TIMP, fig.teoae(), fig.dpoae(), fig.abr(niveles=(90, 80, 60)),
                                  fig.abr(niveles=(80,), polaridad='condensacion', marcar=('I', 'III', 'V')),
                                  fig.abr(niveles=(80,), polaridad='rarefaccion', marcar=('I', 'III', 'V'))],
            od='asfixia_perinatal', oi='asfixia_perinatal', grado_od='moderada', grado_oi='moderada', edad_meses=4,

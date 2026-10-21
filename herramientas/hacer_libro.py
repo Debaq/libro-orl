@@ -674,7 +674,16 @@ def capitulo(md_texto):
             tablas = re.findall(r'<table>.*?</table>', html_lado, re.S)
             tit = f'<p class="caja-titulo">{html.escape(titulo)}</p>' if titulo else ''
             # sin pop: guardar() numera por len(marcas)
-            celdas = [f'<div class="fila-fig">{marcas[f]}</div>' for f in figs]
+            def como_img(h):
+                # una figura del motor va como SVG en línea, que en una fila
+                # guarda su alto propio y deja un hueco: se pasa a <img> para
+                # que tome la altura de la fila, como las demás
+                def rep(m):
+                    import base64
+                    datos = base64.b64encode(m[0].replace(' class="grafico"', '', 1).encode('utf-8')).decode('ascii')
+                    return f'<img class="grafico-img" src="data:image/svg+xml;base64,{datos}">'
+                return re.sub(r'<svg class="grafico".*?</svg>', rep, h, count=1, flags=re.S)
+            celdas = [f'<div class="fila-fig">{como_img(marcas[f])}</div>' for f in figs]
             if tablas:
                 celdas.append(f'<div class="fila-tab">{tit}{"".join(tablas)}</div>')
             return guardar(f'<div class="fila">{"".join(celdas)}</div>')
@@ -919,6 +928,11 @@ div.tomo2 figcaption { font-size: 7.2pt; }
 div.tomo2 .leyenda { font-size: 7.2pt; }
 div.tomo2 .caja-titulo { font-size: 7.2pt; }
 div.tomo2 .rotulo-chico { font-size: 7.2pt; }
+/* tomo II: las figuras del motor ya no llevan el cuadro de notas al lado
+   (la leyenda va en el pie), así que van solas, centradas, al 80 % */
+div.tomo2 .figobs-motor { display: block; }
+div.tomo2 .figobs-motor .fig { width: 80%; margin: 0 auto; }
+div.tomo2 .fila .figobs-motor .fig { width: 100%; }
 .fila { display: flex; gap: 4mm; align-items: flex-start; break-inside: avoid; margin: 2mm 0 3mm; }
 .fila-fig { flex: 1.7 1 0; }
 .fila-tab { flex: 1 1 0; }
@@ -930,8 +944,8 @@ div.tomo2 .rotulo-chico { font-size: 7.2pt; }
 .fila .fig { margin: 0; }
 .fila figcaption { margin-top: 1mm; }
 .fila table { margin: 0; }
-/* figuras del motor en una fila (TEOAE y DPOAE): al ancho de su celda */
-.fila svg.grafico { width: 100%; height: auto; }
+/* figuras del motor en una fila (TEOAE y DPOAE), pasadas a <img>: la misma altura */
+.fila img.grafico-img { display: block; height: 36mm; width: auto; max-width: 100%; margin: 0 auto; }
 """
 
 

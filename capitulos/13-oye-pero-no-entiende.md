@@ -181,8 +181,14 @@ Con 35 a 45 dB de pérdida, un oído coclear no debería bajar de cerca del 60 %
 
 El reflejo está **ausente** en los cuatro arreglos: ipsilateral y contralateral, con la sonda en el OD y con la sonda en el OI. Con un oído medio normal, un reflejo ausente en todas las frecuencias dice que el arco no recibe una señal sincrónica.
 
+:::lado
 :::figura cap13_p40 teoae
 - @OD 2000 | Las emisiones transitorias pasan **5 de 5 bandas**, con reproducibilidad de 93 % en el OD y 92 % en el OI. Las células ciliadas externas funcionan, aunque el audiograma marque 35 a 45 dB.
+:::
+:::figura cap13_p40 dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap13_p40 abr
 - @OD 80 | A 80 dB nHL, con polaridad **alternada**, no hay ondas en el OD.
@@ -230,8 +236,14 @@ Por el audiograma solo, no habría nada: SDT de −5 dB y SRT de 0 dB. Pero la d
 
 Los reflejos están **ausentes** en los cuatro arreglos, ipsi y contra con cada sonda, con un oído medio normal y umbrales de 0 dB.
 
+:::lado
 :::figura cap13_neuropatia_hereditaria teoae
 - @OD 2000 | Emisiones presentes en 5 de 5 bandas, con reproducibilidad de 89 % y 88 %.
+:::
+:::figura cap13_neuropatia_hereditaria dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap13_neuropatia_hereditaria abr
 - @OD 80 I | Aquí **sí hay ondas**, pero tardías: la I a 1,4 ms, la III a 4,2 y la V a 6,7.
@@ -275,8 +287,14 @@ No hay componente conductivo. El SDT es de 55 dB y el SRT de 60 en los dos oído
 
 Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
 
+:::lado
 :::figura cap13_kernicterus teoae
 - @OD 2000 | Las emisiones están **presentes** en 5 de 5 bandas (reproducibilidad 86 % en el OD y 95 % en el OI): con 60 dB de umbral, no es una pérdida coclear.
+:::
+:::figura cap13_kernicterus dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap13_kernicterus abr
 - @OD 80 V | A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 ms. La marca de la III cae sobre un trazo que no se separa del ruido: no hay I ni III identificables.
@@ -316,8 +334,14 @@ El niño no es hipoacúsico: SDT de −5 dB y SRT de 0 dB. Con umbrales normales
 
 Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
 
+:::lado
 :::figura cap13_leucodistrofia teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas.
+:::
+:::figura cap13_leucodistrofia dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap13_leucodistrofia abr
 - @OD 80 I | Las ondas están, pero tardías y con los interpicos largos: la I cerca de 1,7 ms, la III de 4,2 y la V de 6,7.

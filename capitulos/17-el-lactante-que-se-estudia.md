@@ -192,8 +192,14 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 
 Con la sonda de **1.000 Hz** la curva es **plana** en los dos oídos: sin pico, compliancia 0,00 mL. El volumen (0,58 mL en el OD y 0,45 en el OI) no se interpreta con esta sonda. Los reflejos faltan, ipsi y contra, con la sonda en cada oído. Hay un problema de transmisión en los dos, pero esta curva no dice **cuánta** pérdida hay ni si hay otra detrás.
 
+:::lado
 :::figura cap17_efusion_neonatal teoae
 - @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 0 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.
+:::
+:::figura cap17_efusion_neonatal dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 :::figura cap17_efusion_neonatal abr
 - @OD 80 V | A 80 dB nHL aparece la V del OD a **6,37 ms**, con la I a 2,17 y la III a 4,23: todas las ondas **llegan tarde**, la I incluida.
@@ -238,9 +244,15 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 
 Con 1.000 Hz hay **pico claro** sobre la línea de base en los dos oídos: el oído medio no explica nada. Los reflejos están presentes en los dos lados, ipsi y contra, a 85-95 dB.
 
+:::lado
 :::figura cap17_cmv_congenito teoae
 - @OD 2000 | El OD **no tiene emisiones**: 0 de 5 bandas y reproducibilidad de 5 %, con el oído medio sano. Las células ciliadas externas de ese oído no responden.
 - @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 93 %.
+:::
+:::figura cap17_cmv_congenito dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap17_cmv_congenito abr
 - @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,00 ms**, 0,3 ms más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
@@ -287,9 +299,15 @@ Con un bebé que no reacciona a los portazos, ¿hasta qué nivel de estímulo si
 
 Con 1.000 Hz los dos oídos tienen **pico**: el oído medio está sano. Los reflejos aparecen elevados, entre 95 y 115 dB, y en los agudos faltan cuando se estimula el OD: en 2 y 4 kHz no hay reflejo ipsi (sonda en el OD) ni contra (sonda en el OI).
 
+:::lado
 :::figura cap17_rubeola_congenita teoae
 - @OD 2000 | Sin emisiones en el OD (0 de 5 bandas, reproducibilidad 0 %).
 - @OI 2000 | Tampoco en el OI (0 de 5, 18 %). Con el oído medio sano, es una pérdida **coclear bilateral**.
+:::
+:::figura cap17_rubeola_congenita dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 :::figura cap17_rubeola_congenita abr
 - @OD 90 V | Con click, la V del OD aparece recién a **90 dB nHL** (6,50 ms), chica, y a 100 (6,00 ms). A 80 dB no hay onda.
@@ -334,9 +352,15 @@ El tamizaje con AABR refirió y las emisiones se pueden registrar. ¿Qué agrega
 
 Con 1.000 Hz los dos oídos tienen **pico**: no es un problema de oído medio. Aun así, los reflejos **faltan** en los cuatro registros, ipsi y contra con cada sonda.
 
+:::lado
 :::figura cap17_asfixia_perinatal teoae
 - @OD 2000 | **Emisiones presentes** en el OD: 5 de 5 bandas, reproducibilidad de 93 %.
 - @OI 2000 | Y en el OI, también 5 de 5 (92 %). Las células ciliadas externas **funcionan**, a pesar de la gentamicina, que si hubiera dañado la cóclea las habría apagado.
+:::
+:::figura cap17_asfixia_perinatal dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap17_asfixia_perinatal abr
 - @OD 80 | Con click alternado, a 80 dB nHL **no hay ondas**: ni I, ni III, ni V, en ninguno de los tres niveles (90, 80 y 60 dB nHL).

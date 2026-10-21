@@ -329,10 +329,16 @@ Hasta 1 kHz hay 0 dB en los dos oídos: por eso conversa bien en silencio. El OD
 
 Las marcas de molestia (LDL) están en 90 dB HL en todas las frecuencias. En 4 kHz, entre su umbral y la molestia le quedan **15 dB** en el OD: el campo dinámico estrecho del reclutamiento.
 
+:::lado
+:::figura cap06_muesca_4k teoae
+- OD: ausentes, con reproducibilidad de 32 %.
+- OI: presentes en 2 de 5 bandas, con reproducibilidad de 48 %.
+:::
 :::figura cap06_muesca_4k dpoae
 - @OD 2000 | En el OD el DP pasa en 1; 1,5 y 2 kHz, pero en 2 kHz ya está bajo, en −10 dB SPL.
 - @OD 4000 | Desde 3 kHz se confunde con el ruido. Con **3 de 7**, no pasa.
 - @OI 8000 | El OI es igual, 3 de 7. En 8 kHz el umbral se recupera hasta 30 dB, pero no tanto como para que vuelva el DP: esa zona también perdió células ciliadas externas.
+:::
 :::
 
 :::docente Guía del caso

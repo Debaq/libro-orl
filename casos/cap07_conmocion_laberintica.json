@@ -24,9 +24,6 @@
     {
       "tipo": "impedancia",
       "sonda": 226
-    },
-    {
-      "tipo": "dpoae"
     }
   ]
 }

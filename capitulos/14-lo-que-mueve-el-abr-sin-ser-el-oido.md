@@ -184,8 +184,14 @@ No hay gap. El SDT es de 25 dB en el OD y de 20 en el OI, y el SRT de 30 y 25; l
 
 Los dos oídos tienen curva A: el oído medio está sano. Los reflejos están presentes en los dos lados, ipsi y contra, entre 105 y 115 dB, sin diferencia entre un oído y otro.
 
+:::lado
 :::figura cap14_toxico_metabolico teoae
 - @OD 2000 | Las emisiones están **ausentes** en las cinco bandas, en los dos oídos: con 30 a 45 dB de pérdida es lo esperable de una pérdida coclear (→ H9).
+:::
+:::figura cap14_toxico_metabolico dpoae
+- OD: presentes en 4 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en 2 de 7 frecuencias.
+:::
 :::
 :::figura cap14_toxico_metabolico abr
 - @OI 90 I | A 90 dB el OI muestra la onda I a 1,2 ms.
@@ -220,8 +226,14 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap14_hipotermia_farmacos teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas: la cóclea responde, a pesar del frío y de la sedación.
+:::
+:::figura cap14_hipotermia_farmacos dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap14_hipotermia_farmacos abr
 - @OD 80 I | A 80 dB las tres ondas están claras y la **onda I llega a 2,0 ms**: 0,5 ms más tarde que en un hombre adulto (1,5 ms).
@@ -255,8 +267,14 @@ Si el ABR muestra solo una onda, ¿qué te dice cada posibilidad: sordera, lesi�
 
 #### Paso 4 · Los resultados
 
+:::lado
 :::figura cap14_bloqueo_proximal teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas: las células ciliadas externas funcionan; el oído no es sordo.
+:::
+:::figura cap14_bloqueo_proximal dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap14_bloqueo_proximal abr
 - @OD 80 I | A 80 dB hay **solo onda I**, a 1,4 ms: latencia de adulto normal, bien formada.
@@ -293,8 +311,14 @@ Antes de mirar los valores, ¿con qué fila los compararás? ¿Qué pasaría si 
 
 Con la sonda de 1.000 Hz, cada oído muestra una curva con **un solo pico**, cerca de 0 daPa: el oído medio responde con normalidad. El volumen del conducto es pequeño (0,52 mL en el OD y 0,86 en el OI), como en un lactante. Los reflejos están presentes, ipsi y contra con la sonda en cada oído, entre 100 y 110 dB.
 
+:::lado
 :::figura cap14_prematuro teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas, en los dos oídos.
+:::
+:::figura cap14_prematuro dpoae
+- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 :::figura cap14_prematuro abr
 - @OD 80 I | A 80 dB: I a 2,3 ms, III a 5,0 y V a 7,6 ms; I-V de 5,2 ms y III-V de 2,6 ms.

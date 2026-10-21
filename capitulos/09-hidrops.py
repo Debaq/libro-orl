@@ -26,7 +26,7 @@ HIDROPS = [fig.audiosupra(), fig.impedancia(), fig.ecochg(), fig.vemp()]
 CASOS = [
     # Patricia: Ménière del OI con el OD sano para comparar (Fowler, Metz,
     # electrococleografía y VEMP cervical de los dos lados)
-    demo(38, HIDROPS + [fig.dpoae()]),
+    demo(38, HIDROPS),
     # Samuel: sordo del OD desde las paperas; años después el hidrops toma el
     # único oído que oye. La ECochG del OD cofótico sale como trazo sin complejo.
     cuadro('hidrops_retardado', [fig.audiosupra(), fig.impedancia(), fig.ecochg(), fig.vemp()],

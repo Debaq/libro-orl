@@ -17,7 +17,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Lo que se mira en todos los casos: lo tonal, lo suprasliminar y lo electrofisiológico
-BASE = [fig.audiosupra(), fig.impedancia(), fig.teoae()]
+BASE = [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]
 
 CASOS = [
     demo(40, BASE + [fig.logo(), fig.abr(niveles=(80, 60, 40)),                      # alternada: la microfónica se cancela

@@ -191,8 +191,14 @@ Además del audiograma, ¿qué mirarías para decidir si es candidata a evaluaci
 
 El OD está en **70 dB** en 1 kHz y en **80 dB** en 2 kHz; el OI, en 65 y 80. Promedio de 500, 1.000 y 2.000 Hz: **72 dB HL en el OD y 68 en el OI**, sobre el corte de 60. La ósea va sobre la aérea: pérdida **sensorioneural pura**. En 4 kHz el OD está en **95 dB**: la zona donde viven las consonantes casi no tiene señal. El OD llega solo al **56 %** y el OI al **60 %**, y eso a 100 dB HL, un nivel que el audífono no puede entregar de forma sostenida: el OD marca 51 % a 80 dB y 55 a 90, la curva sube tarde y se **aplana** lejos del 100 %. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 9,5 a 34,5 dB: recluta, es coclear.
 
+:::lado
 :::figura cap29_autoinmune teoae
 - @OD 2000 | Emisiones **ausentes** (0 de 5 bandas) en los dos oídos, como corresponde a una cóclea con las células ciliadas externas dañadas. No es el patrón de neuropatía (→ cap. 13), que tiene emisiones presentes.
+:::
+:::figura cap29_autoinmune dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes.
+:::
 :::
 :::imagen figuras/salida/cap29_autoinmune_impedancia.svg ancho=80% Impedanciometría de la paciente.
 :::
@@ -325,9 +331,15 @@ El OD no responde: umbral en el **máximo del equipo (120 dB)** en el aéreo, y 
 
 No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: es lo esperable en un oído sin audición. Con el tono en el OI y la sonda en el OD, el reflejo aparece: **el arco del OD funciona**; lo que falta es la entrada.
 
+:::lado
 :::figura cap29_p42 teoae
 - @OD 2000 | En el OD no hay emisiones: la cóclea no responde.
 - @OI 2000 | En el OI están **presentes**.
+:::
+:::figura cap29_p42 dpoae
+- OD: ausentes, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en los 7 frecuencias.
+:::
 :::
 
 :::docente Guía del caso

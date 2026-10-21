@@ -24,7 +24,7 @@ GANANCIA_AUN_NO = {250: 15, 500: 25, 1000: 30, 2000: 30, 3000: 25, 4000: 20, 600
 
 CASOS = [
     # Candidata a implante: severa bilateral con discriminación tope de 56-60 %
-    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia(), fig.teoae(),
+    cuadro('autoinmune', [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae(),
                           fig.campo_libre(ganancia=GANANCIA_AUTOINMUNE)],
            od='autoinmune', oi='autoinmune', grado_od='severa', grado_oi='severa', edad=58, sexo='mujer',
            anamnesis="""Tiene 58 años y era profesora de enseñanza básica; hoy está con licencia. Hace tres años notó
@@ -53,7 +53,7 @@ CASOS = [
     # Otitis crónica mixta del OI (paciente 41): dispositivo de conducción ósea
     demo(41, [fig.audiosupra(), fig.impedancia()]),
     # Cófosis del OD tras paperas (paciente 42): sordera unilateral
-    demo(42, [fig.audiosupra(), fig.impedancia(), fig.teoae()]),
+    demo(42, [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]),
 ]
 
 if __name__ == '__main__':

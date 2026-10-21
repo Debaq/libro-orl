@@ -327,16 +327,11 @@ El OD tiene un timpanograma **plano, tipo B**, sin pico y con compliancia de 0,0
 
 Con la sonda en el OD no hay reflejo, ni ipsilateral ni contralateral: con la caja ocupada, la sonda no puede registrar la contracción. Con la sonda en el OI, el ipsilateral es normal (90, 85, 90 y 90 dB SPL). El contralateral, con el tono en el OD, aparece tarde: 120 dB SPL en 500 Hz y entre 105 y 110 en el resto. El tono tiene que cruzar el gap del OD.
 
-:::figura cap08_post_radioterapia dpoae
-- @OD 2000 | En el OD no hay DP en ninguna frecuencia: **0 de 7**. Con la caja ocupada, el estímulo entra mal y la emisión no sale: esta DPOAE no dice nada de la cóclea.
-- @OI 2000 | En el OI el DP está presente de 1 a 4 kHz, entre 0 y 10 dB SPL, y se pierde en 6 y 8 kHz, acorde a su edad: **5 de 7**.
-:::
-
 :::docente Guía del caso
 - **Datos clave:** 63 años; carcinoma de parótida derecha operado e irradiado **solo de ese lado**, sin quimioterapia; oído derecho tapado desde el final de la radioterapia (hace casi dos años) y pérdida que avanza desde hace meses; membrana opaca y retraída; rinofaringe sin lesiones.
 - **Hipótesis esperables:** otitis con efusión por disfunción tubaria posradiación; hipoacusia sensorioneural por radiación; las dos juntas. Diferencial obligado: recidiva del tumor (el otorrino ya miró la rinofaringe y el oncólogo no la encontró).
-- **Qué pedir:** audiometría con enmascaramiento (la diferencia entre oídos lo exige en la aérea y el gap en la ósea), impedanciometría con reflejos, y emisiones solo sabiendo que la efusión las va a borrar (→ H3, H4, H7, H9).
-- **Errores esperables:** llamar conductiva a una pérdida mixta porque hay curva B; leer la DPOAE ausente del OD como daño coclear; no enmascarar la ósea del OD; olvidar que la parte coclear puede seguir avanzando.
+- **Qué pedir:** audiometría con enmascaramiento (la diferencia entre oídos lo exige en la aérea y el gap en la ósea) e impedanciometría con reflejos (→ H3, H4, H7). Las emisiones no: la efusión las borra y no dirían nada de la cóclea (→ H9).
+- **Errores esperables:** llamar conductiva a una pérdida mixta porque hay curva B; pedir emisiones con el oído medio ocupado; no enmascarar la ósea del OD; olvidar que la parte coclear puede seguir avanzando.
 :::
 
 ## Resolución de los casos
@@ -387,7 +382,7 @@ El salicilato de la aspirina es también una herramienta de investigación. Como
 
 Dos molestias con dos relojes, como los dos blancos de la radiación. El oído tapado empezó durante la radioterapia: la **curva B** con volumen normal, el gap de 20 a 30 dB en los graves y los reflejos ausentes con la sonda en el OD son una **otitis con efusión** por una trompa que dejó de ventilar. La pérdida que avanza desde hace meses es la **ósea que cae en los agudos**: 40 a 60 dB de 2 a 4 kHz, en el lado irradiado, casi dos años después, que es la latencia típica del daño coclear por radiación (Bhandare y cols., 2010). El OI, fuera del campo y sin quimioterapia, está normal para la edad.
 
-La DPOAE del OD no sirve para separar las dos cosas: la efusión la borra. Lo que muestra la parte coclear es la **ósea enmascarada**.
+Las emisiones no sirven para separar las dos cosas: la efusión las borra. Lo que muestra la parte coclear es la **ósea enmascarada**.
 
 #### Diagnóstico y qué sigue
 
@@ -415,7 +410,7 @@ Niveles de prevención y su marco: → B5.
 2. Ernesto tenía 0 a 10 dB en su base y hoy tiene 35 dB en 2 kHz en el OD. Si fuera un niño, ¿en qué grado de la escala SIOP Boston quedaría cada oído?
 3. Un paciente con amikacina no tiene audiometría de base y ya lleva dos días de tratamiento. ¿Vale la pena tomarla hoy? ¿Por qué?
 4. En el caso de Natalia, la DPOAE "pasa" y la TEOAE no. ¿Cómo lo explicas? ¿Qué esperas de las dos en el control?
-5. En el caso de Pablo, ¿por qué la DPOAE ausente del OD no prueba daño coclear? ¿Qué prueba sí lo muestra?
+5. En el caso de Pablo, ¿por qué las emisiones no servirían para saber si hay daño coclear? ¿Qué prueba sí lo muestra?
 6. Un paciente recibió cisplatino y radioterapia de la rinofaringe. ¿Qué esperas en cada oído y por qué su seguimiento dura más que el de quien recibió solo cisplatino?
 :::
 

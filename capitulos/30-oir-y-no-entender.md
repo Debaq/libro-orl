@@ -256,8 +256,14 @@ Umbrales en **0 dB** en todas las frecuencias, en los dos oídos, sin pérdida d
 
 Curva A en los dos oídos: el oído medio está sano, y los reflejos están presentes de 85 a 95 dB SPL.
 
+:::lado
+:::figura cap30_nino_tpa teoae
+- OD: presentes en los 5 bandas, con reproducibilidad de 93 %.
+- OI: presentes en los 5 bandas, con reproducibilidad de 93 %.
+:::
 :::figura cap30_nino_tpa dpoae
 - @OD 2000 | Productos de distorsión presentes en todas las bandas: las células ciliadas externas funcionan.
+:::
 :::
 
 Con la periferia cerrada, se hace una batería corta (el z supone una norma de cada versión).
@@ -308,9 +314,6 @@ Con la queja de ruido y un audiograma que no parece suficiente para explicarla, 
 
 En las frecuencias de la voz la pérdida es **leve**: 20 dB en 1 kHz. Hay una **caída en agudos**: 40 dB en 4 kHz y 55 dB en 8 kHz, donde están las consonantes. El OI es parecido, 45 dB en 4 kHz: bilateral y simétrica. SDT de 10 dB y SRT de 15 dB. En silencio, a nivel cómodo, entiende **92 %** (OD) y 96 % (OI): el silencio no revela el problema. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 dB en 4 kHz: recluta, es coclear.
 
-:::figura cap30_mayor_ruido dpoae
-- @OD 4000 | Las emisiones bajan donde baja el audiograma: la cóclea explica la caída de agudos y no hace falta otra causa para ella.
-:::
 :::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=80% Impedanciometría de Daniela.
 :::
 
@@ -338,7 +341,7 @@ El médico de cabecera, al que se derivó para un tamizaje cognitivo, aún no ti
 :::docente Guía del caso
 - **Datos clave:** 71 años, dificultad para entender en grupos y en lugares ruidosos, bien en silencio y por teléfono; empezó gradual; sin vértigo ni asimetría; audiograma con caída en agudos leve a moderada, simétrico.
 - **Lo que enseña:** un audiograma "leve" no es "normal". La caída en agudos y la distorsión coclear explican una parte; el resultado en ruido está más bajo que lo que predice el audiograma, y el oído izquierdo en lo dicótico y el tamizaje cognitivo pendiente dejan abierto el componente central y cognitivo. **No** es un caso de sinaptopatía: tiene pérdida en agudos que explica la caída, y esa hipótesis requiere audiograma normal y no tiene prueba clínica.
-- **Qué pedir:** logoaudiometría, emisiones, habla en ruido con material en español (→ H15), una prueba dicótica con normas de su edad y tamizaje cognitivo con el médico.
+- **Qué pedir:** logoaudiometría, habla en ruido con material en español (→ H15), una prueba dicótica con normas de su edad y tamizaje cognitivo con el médico.
 - **Errores esperables:** "es solo la edad"; atribuir el cuadro a "pérdida oculta"; omitir el audífono con micrófono direccional y las estrategias; aplicar normas de adulto joven.
 :::
 
@@ -414,7 +417,7 @@ Lo que hace honesto este informe es lo que dice de los límites. Si la familia p
 
 #### Razonamiento
 
-El audiograma explica una parte: caída en agudos simétrica, con emisiones que bajan donde baja el umbral, y por eso en silencio entiende bien. No explica todo: el habla en ruido está **2,6 DE bajo** lo esperable para su edad, y el oído izquierdo en dígitos dicóticos también cae. Son varios componentes a la vez: la cóclea que distorsiona, la edad en la vía central y, quizá, la cognición (el tamizaje espera). Con un audiograma que baja en agudos, la sinaptopatía no hace falta para explicar nada y no hay una prueba para demostrarla.
+El audiograma explica una parte: caída en agudos simétrica, y por eso en silencio entiende bien. No explica todo: el habla en ruido está **2,6 DE bajo** lo esperable para su edad, y el oído izquierdo en dígitos dicóticos también cae. Son varios componentes a la vez: la cóclea que distorsiona, la edad en la vía central y, quizá, la cognición (el tamizaje espera). Con un audiograma que baja en agudos, la sinaptopatía no hace falta para explicar nada y no hay una prueba para demostrarla.
 
 #### Diagnóstico y qué sigue
 
