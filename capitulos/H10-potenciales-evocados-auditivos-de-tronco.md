@@ -288,7 +288,7 @@ En Álvaro, de 12 semanas: 10 dB nHL con burst de 4 kHz − 5 = **5 dB eHL**.
 
 :::figura h10_lactante abr 2
 - @OD 20 V | Con **burst de 1 kHz** la V aparece a 20 dB nHL, a 10,87 ms en el OD y 10,63 en el OI, en una ventana de 20 ms; con una de 12 ms habría quedado pegada al borde.
-- 20 dB nHL − 15 (corrección de la BSA para su edad) = **5 dB eHL** o mejor.
+- @OD 10 | A 10 dB ya no hay V en ningún oído: **umbral con burst de 1 kHz, 20 dB nHL**. 20 − 15 (corrección de la BSA para su edad) = **5 dB eHL**.
 :::
 
 :::figura h10_lactante abr 3
@@ -422,7 +422,7 @@ El oído izquierdo de Sofía (caso H10.1) es el patrón retrococlear. Los patron
 - @OI 80 I | En el registro de rutina (21,1 estímulos/s, figura del caso H10.1), el OI tiene la **I a tiempo**, a 1,40 ms, pero la III llega a 4,03 y la V a 6,07. El I-III (2,63 ms) y el I-V (4,67) pasan los límites de una mujer de su edad en ese oído (2,49 y 4,41). La diferencia interaural de la V es de 0,54 ms.
 - Esta figura es el mismo examen a **81,1 estímulos/s**.
 - @OD 80 V | En el OD la V pasa de 5,53 a 6,10 ms: se alarga 0,57 ms.
-- @OI 80 III | En el OI, a esta tasa, la **V no se distingue**: queda la I, la III muy aplanada y nada más. En el registro de rutina estaba en 6,07 ms. Una onda que se pierde con la tasa alta es la fatiga de conducción: la vía del OI conduce mal.
+- @OI 80 V | En el OI, a esta tasa, todo se aplana y la **V llega a 7,37 ms**: se alarga 1,30 ms, más del doble que en el OD. En el registro de rutina estaba en 6,07. Una onda que se atrasa y se achata con la tasa alta es la fatiga de conducción: la vía del OI conduce mal.
 - Sofía tiene 35 a 50 dB HL de 2 a 4 kHz en el OI. Una pérdida coclear así puede atrasar algo la V, pero con la I a tiempo **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio (→ cap. 11).
 :::
 
@@ -507,12 +507,12 @@ Los tres pacientes de este capítulo, informados de principio a fin. En los tres
 | I-V | 5,24 | 5,10 | 5,08 / 5,70 |
 | Diferencia interaural de la V | 0,00 | | hasta 0,4 |
 | Umbral con click (dB nHL → dB eHL) | 20 o menos → 20 o menos | 20 o menos → 20 o menos | hasta 20 dB eHL |
-| Umbral con burst de 1 kHz | 20 o menos → 5 o menos | 20 o menos → 5 o menos | |
+| Umbral con burst de 1 kHz | 20 → 5 | 20 → 5 | |
 | Umbral con burst de 4 kHz | 10 → 5 | 10 → 5 | |
 
 **Morfología**: ondas I, III y V bien definidas y replicables en ambos oídos.
 
-**Interpretación**: latencias absolutas e interpicos dentro de lo esperado para la edad, sin diferencia interaural. Onda V presente hasta 20 dB nHL con click y con burst de 1 kHz, el nivel más bajo registrado, y hasta 10 dB nHL con burst de 4 kHz. Correcciones a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas.
+**Interpretación**: latencias absolutas e interpicos dentro de lo esperado para la edad, sin diferencia interaural. Onda V presente hasta 20 dB nHL con click (el nivel más bajo registrado), hasta 20 dB nHL con burst de 1 kHz (sin respuesta a 10) y hasta 10 dB nHL con burst de 4 kHz (sin respuesta a 0). Correcciones a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas.
 
 **Conclusión**: examen sugiere audición normal en ambos oídos, de 1 a 4 kHz. No se confirma el resultado del tamizaje en el OI.
 
@@ -535,12 +535,12 @@ Los tres pacientes de este capítulo, informados de principio a fin. En los tres
 | III-V | 1,86 | 2,04 | 2,11 / 2,12 |
 | I-V | 4,00 | 4,67 ↑ | 4,33 / 4,41 |
 | Diferencia interaural de la V | 0,54 ↑ | | hasta 0,4 |
-| V a 81,1 estímulos/s | 6,10 (+0,57) | no se distingue ↑ | |
+| V a 81,1 estímulos/s | 6,10 (+0,57) | 7,37 (+1,30) ↑ | |
 | Umbral con click (dB nHL → dB eHL) | 10 → 5 | 50 → 45 | hasta 20 dB eHL |
 
 **Morfología**: OD con ondas I, III y V bien definidas y replicables. OI con ondas I, III y V replicables, de menor amplitud.
 
-**Interpretación**: OD normal. OI anormal: onda I de latencia normal con ondas III y V prolongadas e interpicos I-III e I-V prolongados. Lo apoyan la diferencia interaural de la onda V (0,54 ms) y la pérdida de la V con la tasa alta en el OI (en el OD la V solo se alarga 0,57 ms; Musiek y cols., 2015).
+**Interpretación**: OD normal. OI anormal: onda I de latencia normal con ondas III y V prolongadas e interpicos I-III e I-V prolongados. Lo apoyan la diferencia interaural de la onda V (0,54 ms) y el alargamiento de la V con la tasa alta (1,30 ms en el OI frente a 0,57 en el OD).
 
 **Conclusión**: patrón retrococlear en OI. El umbral sugiere una pérdida de aproximadamente 45 dB HL en OI y audición normal en OD, para el rango de 2 a 4 kHz. Se adjunta audiometría.
 
