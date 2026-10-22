@@ -20,7 +20,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 PERIFERIA = [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]
 
 CASOS = [
-    cuadro('nino_tpa', PERIFERIA + [fig.cortical('MLR'), fig.cortical('P300'), fig.cortical('MMN')], central='tpac', od='normal', oi='normal', edad=9, sexo='hombre', semilla=3,
+    cuadro('nino_tpa', PERIFERIA + [fig.cortical('MLR'), fig.cortical('P300'), fig.cortical('MMN', marcar=False)], central='tpac', od='normal', oi='normal', edad=9, sexo='hombre', semilla=3,
            anamnesis="""Tiene 9 años y está en cuarto básico. La profesora dice que "se va" cuando hay ruido en la sala,
            que pide repetir las instrucciones largas y que en el dictado cambia palabras parecidas. En el recreo y en
            el comedor del colegio casi no entiende lo que le dicen. En la casa, con la tele baja, se las arregla bien.

@@ -35,7 +35,7 @@ VENTANAS = {
 }
 
 # µV de la barra de escala (una fila de trazo mide esto de alto)
-ESCALA_UV = {'MLR': 1.0, 'CAEP': 5.0, 'P300': 8.0, 'MMN': 2.0}
+ESCALA_UV = {'MLR': 1.0, 'CAEP': 5.0, 'P300': 12.0, 'MMN': 2.0}
 
 
 

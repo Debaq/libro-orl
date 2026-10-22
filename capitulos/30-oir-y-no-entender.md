@@ -311,24 +311,24 @@ Con la periferia cerrada y la queja documentada, se agregan los potenciales de l
 
 :::imagen figuras/salida/cap30_nino_tpa_cortical.svg ancho=100% MLR de Juan con click a 70 dB nHL, C3, Cz y C4 (dos réplicas por canal). Mira si la Pa está en las dos réplicas y si el tamaño de Na-Pa es parecido entre C3 y C4.
 - @23.6,10.7 | **Pa** a 29 ms en C3 y a 32 ms en Cz y C4, en las dos réplicas: dentro de la ventana de 25 a 40 ms.
-- @19.6,62.0 | **Na** a 17 ms, la misma en los tres canales. La barra de escala es de 1 µV: por eso los trazos se ven más ruidosos que los tardíos.
+- @19.6,62.0 | **Na** de 17 a 18 ms en los tres canales. La barra de escala es de 1 µV: por eso los trazos se ven más ruidosos que los tardíos.
 - @63.4,29.6 | La Na del OI en C3 es débil (21 ms en una réplica y 14 en la otra): no se mide.
 - @66.0,59.7 | **Na-Pa** de 0,9 µV en C3 y 1,1 µV en C4 con el oído izquierdo: 20 % de diferencia entre lados, sin un patrón de hemisferio.
 :::
 
-El MLR salió dentro de lo esperado y **simétrico**: Na entre 17 y 18 ms y Pa entre 28 y 33 ms (con la Na del OI en C3 débil), Na-Pa de 1,4 µV en C3 y en C4 con el oído derecho y de 0,9 y 1,1 µV con el izquierdo. Sin efecto electrodo; el efecto oído es de 36 % en C3 y de 21 % en C4, sin sostenerse. La vía tálamo-cortical responde, y eso es compatible con un trastorno de procesamiento, porque los déficits suelen ser difusos (AAA, 2010).
+El MLR salió dentro de lo esperado y **simétrico**: Na entre 17 y 18 ms y Pa entre 28 y 33 ms (con la Na del OI en C3 débil), Na-Pa de 1,3 µV en C3 y 1,2 en C4 con el oído derecho y de 0,9 y 1,1 µV con el izquierdo. Sin efecto electrodo; el efecto oído es de 31 % en C3 y de 8 % en C4, sin sostenerse. La vía tálamo-cortical responde, y eso es compatible con un trastorno de procesamiento, porque los déficits suelen ser difusos (AAA, 2010).
 
 :::imagen figuras/salida/cap30_nino_tpa_cortical_2.svg ancho=100% P300 de Juan en Pz, con el estímulo frecuente en gris. Mira si la onda positiva grande aparece en las dos réplicas y en qué milisegundo.
-- @31.5,5.4 | **P3** de 388 ms. La onda es ancha (de 360 a 460 ms), en las dos réplicas.
-- @26.5,34.1 | Solo la P3 se mide: P2 y N2 no se identifican en las dos réplicas.
-- @75.6,4.7 | **P3** de 423 ms sobre el promedio; las réplicas la dan a 431 y a 367 ms. La dispersión (64 ms) es mayor que la diferencia entre oídos.
+- @24.5,10.0 | **P3** de 389 ms. La onda es ancha (de 360 a 460 ms), en las dos réplicas.
+- @20.5,19.0 | Solo la P3 se mide: P2 y N2 no se identifican en las dos réplicas.
+- @68.5,8.5 | **P3** de 423 ms sobre el promedio; las réplicas la dan a 431 y a 368 ms. La dispersión (63 ms) es mayor que la diferencia entre oídos.
 :::
 
-La **P300** aparece en los dos oídos, con amplitud grande (de unos 8 a 13 µV) y latencia de 388 ms (OD) y 423 ms (OI): en el borde alto y sobre el rango típico del adulto de 300 a 400 ms (Duncan y cols., 2009). Para los 9 años no hay en este libro una norma con fuente, así que la latencia se describe y no se gradúa. Hizo bien la tarea (contó los raros).
+La **P300** aparece en los dos oídos, con amplitud grande (de unos 10 a 15 µV) y latencia de 389 ms (OD) y 423 ms (OI): en el borde alto y sobre el rango típico del adulto de 300 a 400 ms (Duncan y cols., 2009). Para los 9 años no hay en este libro una norma con fuente, así que la latencia se describe y no se gradúa. Hizo bien la tarea (contó los raros).
 
 :::imagen figuras/salida/cap30_nino_tpa_cortical_3.svg ancho=100% MMN de Juan en Fz (diferencia raro menos frecuente; los promedios, en gris). Mira si la negatividad entre 150 y 250 ms está en las dos réplicas.
-- @69.2,71.0 | **MMN** a 181 ms, en las dos réplicas (−1,9 y −1,7 µV, a 184 y 178 ms): dentro de los 150 a 250 ms y de 0,5 a 5 µV.
-- @26.5,56.9 | En el OD una réplica tiene la MMN (−4,0 µV a 173 ms) y la otra casi no (−0,7 µV): no se repite, no se rotula y queda no concluyente.
+- @69.2,71.0 | **MMN** a 181 ms, en las dos réplicas (−1,8 y −1,7 µV, a 184 y 178 ms): dentro de los 150 a 250 ms y de 0,5 a 5 µV.
+- @26.5,56.9 | En el OD una réplica tiene la MMN (−3,4 µV a 173 ms) y la otra casi no (−0,9 µV): no se repite y queda no concluyente.
 :::
 
 La **MMN** es repetible en el OI y no concluyente en el OD. Con una confiabilidad individual baja (Bishop, 2007), una MMN dudosa no se usa ni a favor ni en contra: se dice que no se repitió.
@@ -389,20 +389,20 @@ El médico de cabecera, al que se derivó para un tamizaje cognitivo, aún no ti
 Como la queja es de ruido y el médico espera un tamizaje cognitivo, se agregan los potenciales corticales (→ H14) para ver qué hace la edad sola.
 
 :::imagen figuras/salida/cap30_mayor_ruido_cortical.svg ancho=100% CAEP de Sara en Cz con burst de 1 kHz a 70 dB nHL. Mira P1, N1 y P2 en las dos réplicas y compara los dos oídos.
-- @22.0,74.1 | **N1** a 114 ms en el OD y 115 ms en el OI.
+- @22.0,74.1 | **N1** a 114 ms en los dos oídos.
 - @27.6,16.0 | **P2** a 190 ms y 192 ms. La BSA (2022) da de 200 a 250 ms como rango típico del adulto: está 10 ms bajo, y el rango es orientativo, no un límite.
-- @61.4,30.7 | **P1** a 76 ms en el OI, en las dos réplicas. En el OD no se identifica en las dos réplicas y no se rotula.
+- @61.4,30.7 | **P1** a 75 ms en el OI, en las dos réplicas. En el OD no se identifica en las dos réplicas y no se rotula.
 :::
 
-Los **corticales obligatorios** son claros y se repiten: N1 a 114 y 115 ms, P2 a 190 y 192 ms, P1 a 76 ms en el OI (en el OD no se identifica en las dos réplicas), con N1-P2 de unos 9 a 10 µV en el OD y de 7 a 8 µV en el OI. El sonido llega a la corteza y la respuesta tiene la forma y los tiempos de un adulto.
+Los **corticales obligatorios** son claros y se repiten: N1 a 114 ms, P2 a 190 y 192 ms, P1 a 75 ms en el OI (en el OD no se identifica en las dos réplicas), con N1-P2 de unos 9 µV en el OD y de 7 a 8 µV en el OI. El sonido llega a la corteza y la respuesta tiene la forma y los tiempos de un adulto.
 
 :::imagen figuras/salida/cap30_mayor_ruido_cortical_2.svg ancho=100% P300 de Sara en Pz, con el estímulo frecuente en gris. Mira la onda positiva ancha hacia los 350 ms y si se repite en las réplicas.
-- @29.2,12.1 | **P3** a 338 ms, en las dos réplicas (336 y 348 ms).
-- @72.3,25.4 | **P3** a 357 ms, ancha: la réplica baja la tiene a 359 ms y la alta a 318 ms. Los demás componentes del OI no están en las dos réplicas.
+- @29.2,12.1 | **P3** a 342 ms, en las dos réplicas (337 y 349 ms).
+- @72.3,25.4 | **P3** a 359 ms, ancha: la réplica baja la tiene a 359 ms y la alta a 319 ms. Los demás componentes del OI no están en las dos réplicas.
 - @23.9,62.6 | La N2 de 223 ms (OD) es parte de la misma secuencia; no se mide.
 :::
 
-La **P300** está en los dos oídos, con 338 ms (OD) y 357 ms (OI), amplitud de 5 a 8 µV y la tarea bien hecha. Cae dentro del rango típico del adulto (de 300 a 400 ms, Duncan y cols., 2009), y el envejecimiento normal la alarga unos 65 ms entre los 20 y los 70 años (Polich y cols., 1985): a los 71 años, esa latencia es lo que se espera de la edad y no muestra un retardo extra.
+La **P300** está en los dos oídos, con 342 ms (OD) y 359 ms (OI), amplitud de 6 a 10 µV y la tarea bien hecha. Cae dentro del rango típico del adulto (de 300 a 400 ms, Duncan y cols., 2009), y el envejecimiento normal la alarga unos 65 ms entre los 20 y los 70 años (Polich y cols., 1985): a los 71 años, esa latencia es lo que se espera de la edad y no muestra un retardo extra.
 
 :::docente Guía del caso
 - **Datos clave:** 71 años, dificultad para entender en grupos y en lugares ruidosos, bien en silencio y por teléfono; empezó gradual; sin vértigo ni asimetría; audiograma con caída en agudos leve a moderada, simétrico.
@@ -500,19 +500,19 @@ Audición periférica normal y perfil de rendimiento bajo en escucha dicótica (
 
 | | OD C3 | OD Cz | OD C4 | OI C3 | OI Cz | OI C4 |
 |---|---|---|---|---|---|---|
-| Na (ms) | 18,0 | 17,0 | 17,4 | 21,4 (débil) | 17,8 | 18,0 |
-| Pa (ms) | 28,6 | 32,6 | 32,4 | 31,2 | 31,0 | 28,2 |
-| Pb (ms) | 52,0 | 48,8 | 52,2 | 59,2 | 57,2 | 57,4 |
-| Na-Pa (µV) | 1,4 | 1,6 | 1,4 | 0,9 | 1,4 | 1,1 |
+| Na (ms) | 17,8 | 16,8 | 17,0 | 21,2 (débil) | 17,8 | 18,0 |
+| Pa (ms) | 28,6 | 32,6 | 32,4 | 31,0 | 31,0 | 28,4 |
+| Pb (ms) | 52,2 | 51,4 | 52,6 | 59,0 | 57,2 | 57,4 |
+| Na-Pa (µV) | 1,3 | 1,4 | 1,2 | 0,9 | 1,3 | 1,1 |
 
 | | OD | OI | Referencia |
 |---|---|---|---|
-| Efecto electrodo (C3 contra C4) | 0 % | 20 % | sin corte validado |
-| Efecto oído (OI contra OD) | C3 36 %, C4 21 % | | sin corte validado |
-| P300 (Pz, ms) | 388 | 423 | 300 a 400 |
+| Efecto electrodo (C3 contra C4) | 8 % | 20 % | sin corte validado |
+| Efecto oído (OI contra OD) | C3 31 %, C4 8 % | | sin corte validado |
+| P300 (Pz, ms) | 389 | 423 | 300 a 400 |
 | MMN (Fz, ms) | 174, no repetible | 181, repetible (−1,8 µV) | 150 a 250 |
 
-**Morfología y replicabilidad**: Pa presente y repetida en todos los canales de los dos oídos; Na del OI en C3 débil. P300 en los dos oídos, ancha; en el OI las réplicas difieren en 64 ms. MMN repetible en el OI y no concluyente en el OD.
+**Morfología y replicabilidad**: Pa presente y repetida en todos los canales de los dos oídos; Na del OI en C3 débil. P300 en los dos oídos, ancha; en el OI las réplicas difieren en 63 ms. MMN repetible en el OI y no concluyente en el OD.
 
 **Interpretación**: MLR simétrico, sin efecto electrodo ni efecto oído sostenido: no hay signos de compromiso tálamo-cortical focal. La P300 está en el borde alto o sobre el rango del adulto; sin norma de su edad, se describe y no se gradúa. Una MMN que se repite en un oído solo tiene valor limitado por la baja confiabilidad individual de la prueba (Bishop, 2007).
 
@@ -544,15 +544,15 @@ Hipoacusia sensorioneural bilateral simétrica leve a moderada, de agudos, con d
 
 | | OD | OI | Referencia |
 |---|---|---|---|
-| P1 (ms) | no identificada en las dos réplicas | 76 | 50 a 70 |
-| N1 (ms) | 114 | 115 | 100 a 130 |
+| P1 (ms) | no identificada en las dos réplicas | 75 | 50 a 70 |
+| N1 (ms) | 114 | 114 | 100 a 130 |
 | P2 (ms) | 190 | 192 | 200 a 250 |
-| N1-P2 (µV) | 9 a 10 | 7 a 8 | |
-| P3 (ms) | 338 | 357 | 300 a 400 |
+| N1-P2 (µV) | 9 | 7 a 8 | |
+| P3 (ms) | 342 | 359 | 300 a 400 |
 
-**Morfología y replicabilidad**: N1 y P2 claros y repetidos en los dos oídos; P1 repetida solo en el OI. P3 presente y repetida en el OD; en el OI, ancha y con réplicas distintas (318 y 359 ms) en el OI.
+**Morfología y replicabilidad**: N1 y P2 claros y repetidos en los dos oídos; P1 repetida solo en el OI. P3 presente y repetida en el OD; en el OI, ancha y con réplicas distintas (319 y 359 ms).
 
-**Interpretación**: el sonido llega a la corteza con latencias y amplitudes de un adulto. La P3 tiene la latencia que se espera de su edad y no muestra prolongación ni pérdida de amplitud. P1 del OI 6 ms sobre el rango y P2 10 ms bajo el rango, ambos orientativos y sin significado clínico. No hay signos de lesión de la vía en estos registros.
+**Interpretación**: el sonido llega a la corteza con latencias y amplitudes de un adulto. La P3 tiene la latencia que se espera de su edad y no muestra prolongación ni pérdida de amplitud. P1 del OI 5 ms sobre el rango y P2 10 ms bajo el rango, ambos orientativos y sin significado clínico. No hay signos de lesión de la vía en estos registros.
 
 **Conclusión**: potenciales corticales y P300 sin alteración para la edad. No descartan un componente cognitivo leve ni central en la dificultad en ruido.
 

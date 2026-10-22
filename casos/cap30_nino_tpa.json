@@ -52,7 +52,8 @@
       "prueba": "MMN",
       "niveles": [
         70
-      ]
+      ],
+      "marcar": false
     }
   ]
 }

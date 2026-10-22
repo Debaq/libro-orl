@@ -202,16 +202,16 @@ Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 H
 Con el PEAT hay umbral del tronco; falta saber si el sonido llega a la corteza y a qué nivel, por una vía que Felipe tampoco gobierna. Se registra el potencial cortical con tono de 1.000 Hz, que es el umbral objetivo de referencia en el adulto que no colabora (→ H14):
 
 :::figura cap19_unilateral cortical
-- @OD Cz 60 N1 | A 60 dB nHL el OD, el oído que Felipe dice no oír, tiene N1 a 110 ms y P2 a 179 ms. El N1-P2 mide 9 µV en la primera réplica y 10 en la segunda.
-- @OI Cz 60 N1 | El OI es igual: N1 a 108 ms, P2 a 195 ms, 8 µV en las dos réplicas.
-- @OD Cz 40 N1 | A 40 dB el OD responde en las dos réplicas: N1 a 118 ms, P2 a 203 ms, N1-P2 de 6 µV en las dos. Es el **umbral cortical** del OD.
-- @OD Cz 30 | A 30 dB el OD no tiene un complejo N1-P2 que se repita entre las dos réplicas: no concluyente, y por eso el umbral del OD no baja de 40.
-- @OI Cz 30 N1 | El OI sí responde a 30 dB: N1 a 122 ms, P2 a 215 ms, con 5 µV en las dos réplicas. Es el **umbral cortical** del OI.
-- @OI Cz 20 | A 20 dB el OI no tiene respuesta replicable: es el nivel de abajo sin respuesta que confirma el umbral del OI.
-- @OI Cz 10 | A 10 dB no hay respuesta en ningún oído.
+- @OD Cz 60 N1 | A 60 dB nHL el OD, el oído que Felipe dice no oír, tiene N1 a 110 ms y P2 a 181 ms. El N1-P2 mide 9 µV en las dos réplicas.
+- @OI Cz 60 N1 | El OI es igual: N1 a 108 ms, P2 a 193 ms, 8 µV en las dos réplicas.
+- @OD Cz 40 N1 | A 40 dB el OD sigue respondiendo en las dos réplicas: N1 a 118 ms, P2 a 202 ms, N1-P2 de 6 µV. Al bajar el nivel, el N1 se atrasa y el complejo se achica, como debe.
+- @OD Cz 30 N1 | A 30 dB, N1 a 122 ms y P2 a 199 ms, con 4 µV en las dos réplicas.
+- @OD Cz 20 N1 | A 20 dB el OD todavía responde: N1 a 130 ms y P2 a 213 ms, con 2 y 3 µV. Chico, pero está en las dos réplicas. Es el **umbral cortical** del OD.
+- @OI Cz 20 N1 | El OI también responde a 20 dB: N1 a 128 ms, P2 a 200 ms, 3 µV en las dos réplicas. Es el **umbral cortical** del OI.
+- @OI Cz 10 | A 10 dB no hay respuesta en ningún oído: es el nivel de abajo sin respuesta que confirma los dos umbrales.
 :::
 
-La búsqueda baja de 20 en 20 y sube de 10: el OD responde a 60 y 40 dB nHL y no a 30, 20 ni 10; el OI responde a 60, 40 y 30 y no a 20 ni a 10. El umbral cortical con tono de 1.000 Hz es de **40 dB nHL en el OD y 30 en el OI**. Con la corrección de 15 dB del burst de 1.000 Hz (→ H10), son **25 y 15 dB eHL**: audición normal o casi en los dos oídos, y en el OD, que dijo 80 dB en esa frecuencia, 55 dB mejor. La diferencia de 10 dB entre oídos cabe en la variabilidad de la prueba.
+La búsqueda baja de 20 en 20 y sube de 10: los dos oídos responden a 60, 40, 30 y 20 dB nHL y ninguno a 10. El umbral cortical con tono de 1.000 Hz es de **20 dB nHL en los dos oídos**. Con la corrección de 15 dB del burst de 1.000 Hz (→ H10), son **5 dB eHL**: audición normal en los dos oídos, y en el OD, que dijo 80 dB en esa frecuencia, 75 dB mejor.
 
 :::docente Guía del caso
 - **Datos clave:** golpe de zinc en la cabeza sin pérdida de conocimiento ni sangrado, otoscopía normal, hipoacusia total unilateral declarada, **conversa sin dificultad** con el entrevistador por su lado derecho, sin pitido ni mareo, derivación por la mutual.
@@ -397,7 +397,7 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-Los datos propios de Felipe se contradicen entre sí: el umbral del mismo tono cambia hasta 15 dB en una repetición, el SRT es 23 dB mejor que el promedio tonal, no hay curva sombra sin enmascarar y conversa en la consulta con el oído "sordo" hacia el entrevistador. Las pruebas que no controla confirman lo mismo: reflejo a 85 dB, emisiones y productos de distorsión presentes y un PEAT con onda V a 20 dB nHL en los dos oídos (la V a 20 dB nHL es la respuesta de un oído normal) y un umbral cortical de 40 dB nHL (25 dB eHL) con tono de 1.000 Hz en el OD, donde dijo 80 dB. El oído derecho de Felipe no tiene una pérdida de 80 dB; su umbral objetivo es normal.
+Los datos propios de Felipe se contradicen entre sí: el umbral del mismo tono cambia hasta 15 dB en una repetición, el SRT es 23 dB mejor que el promedio tonal, no hay curva sombra sin enmascarar y conversa en la consulta con el oído "sordo" hacia el entrevistador. Las pruebas que no controla confirman lo mismo: reflejo a 85 dB, emisiones y productos de distorsión presentes y un PEAT con onda V a 20 dB nHL en los dos oídos (la V a 20 dB nHL es la respuesta de un oído normal) y un umbral cortical de 20 dB nHL (5 dB eHL) con tono de 1.000 Hz en el OD, donde dijo 80 dB. El oído derecho de Felipe no tiene una pérdida de 80 dB; su umbral objetivo es normal.
 
 #### Diagnóstico y qué sigue
 
@@ -420,15 +420,15 @@ Los umbrales conductuales del oído derecho **no son consistentes ni concordante
 | I-V | 4,17 | 4,20 | 4,49 / 4,52 |
 | Diferencia interaural de la V | 0,00 | | hasta 0,4 |
 | Umbral con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
-| Cortical a 60 dB nHL: N1 / P2 (ms) | 110 / 179 | 108 / 195 | N1 100 a 130 / P2 200 a 250 |
-| Cortical a 60 dB nHL: N1-P2 (µV, dos réplicas) | 9 y 10 | 8 y 8 | |
-| Umbral cortical con burst de 1.000 Hz (dB nHL → dB eHL) | 40 → 25 | 30 → 15 | hasta 20 dB eHL |
+| Cortical a 60 dB nHL: N1 / P2 (ms) | 110 / 181 | 108 / 193 | N1 100 a 130 / P2 200 a 250 |
+| Cortical a 60 dB nHL: N1-P2 (µV, dos réplicas) | 9 y 9 | 8 y 8 | |
+| Umbral cortical con burst de 1.000 Hz (dB nHL → dB eHL) | 20 → 5 | 20 → 5 | hasta 20 dB eHL |
 
-**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta. Cortical: N1 y P2 replicables en el OD a 60 y 40 dB nHL y en el OI a 60, 40 y 30; OD a 30 dB, no concluyente; a 20 y 10 dB, sin respuesta replicable.
+**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta. Cortical: N1 y P2 replicables en los dos oídos a 60, 40, 30 y 20 dB nHL, con el N1 que se atrasa y el complejo que se achica al bajar el nivel; a 10 dB, sin respuesta replicable.
 
-**Interpretación**: latencias e interpicos normales en los dos oídos, sin diferencia interaural. El umbral objetivo del OD es normal, y concuerdan los reflejos (a 5 dB del umbral que dijo), las emisiones y los productos de distorsión presentes. Los umbrales conductuales del OD (75 a 80 dB HL) no son consistentes entre repeticiones (diferencias de 15 dB) ni con el umbral para la voz (23 dB mejor que el promedio tonal), y no concuerdan con los resultados objetivos. El potencial cortical, que no depende de la respuesta del paciente, responde hasta 40 dB nHL en el OD y hasta 30 en el OI con tono de 1.000 Hz: 25 y 15 dB eHL con la corrección del burst del PEAT, y 80 dB en el audiograma que entregó el OD. La P2 a 60 dB queda en 179 ms (OD) y 195 ms (OI), bajo el rango orientativo, que no es una norma; a 40 y 30 dB está entre 196 y 215 ms. Una diferencia de 55 dB entre el audiograma y el umbral cortical está muy fuera de lo que se describe en pérdidas orgánicas, donde solo el 3,2 % pasó de 15 dB (Coles y Mason, 1984).
+**Interpretación**: latencias e interpicos normales en los dos oídos, sin diferencia interaural. El umbral objetivo del OD es normal, y concuerdan los reflejos (a 5 dB del umbral que dijo), las emisiones y los productos de distorsión presentes. Los umbrales conductuales del OD (75 a 80 dB HL) no son consistentes entre repeticiones (diferencias de 15 dB) ni con el umbral para la voz (23 dB mejor que el promedio tonal), y no concuerdan con los resultados objetivos. El potencial cortical, que no depende de la respuesta del paciente, responde hasta 20 dB nHL en los dos oídos con tono de 1.000 Hz: 5 dB eHL con la corrección del burst del PEAT, frente a los 80 dB del audiograma que entregó el OD. La P2 a 60 dB queda en 181 ms (OD) y 193 ms (OI), bajo el rango orientativo, que no es una norma; de 40 a 20 dB está entre 196 y 213 ms. Una diferencia de 75 dB entre el audiograma y el umbral cortical está muy fuera de lo que se describe en pérdidas orgánicas, donde solo el 3,2 % pasó de 15 dB (Coles y Mason, 1984).
 
-**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz, y respuesta cortical hasta 40 dB nHL (25 dB eHL) en el OD y 30 (15 dB eHL) en el OI, en 1.000 Hz. Los umbrales conductuales del OD no son consistentes ni concordantes con los resultados objetivos.
+**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz, y respuesta cortical hasta 20 dB nHL (5 dB eHL) en los dos oídos, en 1.000 Hz. Los umbrales conductuales del OD no son consistentes ni concordantes con los resultados objetivos.
 
 **Recomendación**: evaluación por otorrinolaringología; derivación a la instancia que corresponda si el caso es laboral (→ capítulo 34).
 :::

@@ -334,9 +334,9 @@ Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 H
 
 :::figura cap34_exagera cortical
 - @OD Cz 60 N1 | A 60 dB nHL, N1 a 119 ms y P2 a 193 ms en el OD, el oído que dice no oír nada. El N1-P2 mide 6 µV en las dos réplicas: la respuesta está y se repite.
-- @OI Cz 60 N1 | El OI da lo mismo: N1 a 115 ms, P2 a 201 ms, N1-P2 de 7 µV en las dos réplicas.
-- @OD Cz 40 N1 | A 40 dB el OD conserva N1 (124 ms) y P2 (197 ms) en las dos réplicas, más chicos: 3,0 y 3,5 µV. Es el **umbral cortical**.
-- @OI Cz 40 N1 | El OI también: N1 a 127 ms y P2 a 191 ms, con 2,8 y 3,2 µV.
+- @OI Cz 60 N1 | El OI da lo mismo: N1 a 115 ms, P2 a 200 ms, N1-P2 de 7 µV en las dos réplicas.
+- @OD Cz 40 N1 | A 40 dB el OD conserva N1 (124 ms) y P2 (199 ms) en las dos réplicas, más chicos: 3,0 y 3,5 µV. Es el **umbral cortical**.
+- @OI Cz 40 N1 | El OI también: N1 a 127 ms y P2 a 193 ms, con 2,8 y 3,2 µV.
 - @OD Cz 30 | A 30 dB ninguna onda se repite entre las dos réplicas y las amplitudes (alrededor de 1 µV) están en el nivel del ruido: sin respuesta.
 - @OI Cz 20 | A 20 dB tampoco hay nada en el OI: el nivel de abajo sin respuesta que confirma el umbral.
 :::
@@ -511,13 +511,13 @@ El informe del PEAT y del potencial cortical, con lo que miden y lo que concluye
 | Umbral con burst de 1.000 Hz | 30 → 15 | 30 → 15 | |
 | Umbral con burst de 2.000 Hz | 50 → 40 | 50 → 40 | |
 | Umbral con burst de 4.000 Hz | 80 → 70 | 80 → 70 | |
-| Cortical a 60 dB nHL: N1 / P2 (ms) | 119 / 193 | 115 / 201 | N1 100 a 130 / P2 200 a 250 |
+| Cortical a 60 dB nHL: N1 / P2 (ms) | 119 / 193 | 115 / 200 | N1 100 a 130 / P2 200 a 250 |
 | Cortical a 60 dB nHL: N1-P2 (µV, dos réplicas) | 6 y 6 | 7 y 7 | |
 | Umbral cortical con burst de 1.000 Hz (dB nHL → dB eHL) | 40 → 25 | 40 → 25 | PEAT con el mismo burst: 30 → 15 |
 
 **Morfología**: ondas III y V replicables en los dos oídos a 80 dB nHL; la onda I no se identifica. Cortical: N1 y P2 replicables a 60 y 40 dB nHL en los dos oídos; a 30 y 20 dB, sin onda que se repita.
 
-**Interpretación**: latencias absolutas dentro de la norma, sin retraso del tronco; la III del OD queda a 0,01 ms del límite, menos que el error de lectura (0,05 ms). Sin onda I no se miden I-III ni I-V, y la III-V es normal. La ausencia de la I es lo esperable con una caída de agudos de 70 dB en 4 kHz, que es la zona que genera esa onda. La diferencia interaural de la V (0,37 ms) está en el borde del rango y no se interpreta: los dos oídos tienen la misma pérdida. Los umbrales por frecuencia caen de graves a agudos: casi normales en 500 y 1.000 Hz y 70 dB eHL en 4.000 Hz. Corrección a dB eHL con la tabla de adultos (→ H10); un umbral estimado es un rango de ±10 dB, no un punto. El potencial cortical, que mira la llegada del sonido a la corteza y no depende de la respuesta del paciente, da una segunda estimación independiente en 1.000 Hz: respuesta hasta 40 dB nHL en los dos oídos. La P2 a 60 dB (193 ms en el OD, 201 en el OI) queda en el borde inferior del rango orientativo, que no es una norma. Entre el cortical (25 dB eHL) y el PEAT (15 dB eHL) hay 10 dB, dentro de lo que se describe para ambos métodos (Stapells, 2000; Lightfoot y Kennedy, 2006). La BSA (2022) estima el umbral tonal restando un sesgo de unos 5 dB y da un intervalo de 15 dB hacia abajo; aquí se usó la corrección del burst del PEAT, y con cualquiera de las dos el resultado queda muy lejos de 95 dB.
+**Interpretación**: latencias absolutas dentro de la norma, sin retraso del tronco; la III del OD queda a 0,01 ms del límite, menos que el error de lectura (0,05 ms). Sin onda I no se miden I-III ni I-V, y la III-V es normal. La ausencia de la I es lo esperable con una caída de agudos de 70 dB en 4 kHz, que es la zona que genera esa onda. La diferencia interaural de la V (0,37 ms) está en el borde del rango y no se interpreta: los dos oídos tienen la misma pérdida. Los umbrales por frecuencia caen de graves a agudos: casi normales en 500 y 1.000 Hz y 70 dB eHL en 4.000 Hz. Corrección a dB eHL con la tabla de adultos (→ H10); un umbral estimado es un rango de ±10 dB, no un punto. El potencial cortical, que mira la llegada del sonido a la corteza y no depende de la respuesta del paciente, da una segunda estimación independiente en 1.000 Hz: respuesta hasta 40 dB nHL en los dos oídos. La P2 a 60 dB (193 ms en el OD, 200 en el OI) queda en el borde inferior del rango orientativo, que no es una norma. Entre el cortical (25 dB eHL) y el PEAT (15 dB eHL) hay 10 dB, dentro de lo que se describe para ambos métodos (Stapells, 2000; Lightfoot y Kennedy, 2006). La BSA (2022) estima el umbral tonal restando un sesgo de unos 5 dB y da un intervalo de 15 dB hacia abajo; aquí se usó la corrección del burst del PEAT, y con cualquiera de las dos el resultado queda muy lejos de 95 dB.
 
 **Conclusión**: examen sugiere hipoacusia sensorioneural bilateral y simétrica, de aproximadamente 55 dB HL para el rango de 2 a 4 kHz. Umbrales estimados en dB eHL, con rango de ±10 dB: OD 500 Hz 10 (0 a 20), 1.000 Hz 15 (5 a 25), 2.000 Hz 40 (30 a 50), 4.000 Hz 70 (60 a 80); OI 10, 15, 40 y 70. Estos umbrales no son compatibles con la sordera derecha que refiere: en 500 Hz el PEAT da respuesta a un nivel que equivale a 10 dB eHL, y la audiometría entregó 95. El potencial cortical lo confirma en 1.000 Hz: respuesta hasta 40 dB nHL (25 dB eHL) en los dos oídos, donde el OD entregó 95 dB. Se adjunta audiometría.
 
