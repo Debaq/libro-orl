@@ -254,36 +254,61 @@ def hoja_resumen(wb, filas):
     ws['A1'].font = F_TIT
     ws['A2'] = 'Se calcula solo con lo que cada uno marca en su hoja.'
     ws['A2'].font = F_GRIS
-    cabecera(ws, 4, ['Autor', 'Hoja', 'Capítulos como autor', 'Capítulos de casos que revisa', 'Puntos de protocolo',
-                     'Tareas', 'Listas', 'Avance', 'Observaciones anotadas'])
-    for j, w in enumerate([34, 12, 12, 14, 12, 9, 9, 9, 14], 1):
+    cabecera(ws, 4, ['Autor', 'Hoja', 'Capítulos que revisa como autor', 'Capítulos cuyos casos revisa',
+                     'Puntos de protocolo', 'Páginas a leer (aprox.)', 'Tareas', 'Listas', 'Avance',
+                     'Observaciones anotadas'])
+    for j, w in enumerate([34, 12, 14, 14, 12, 12, 9, 9, 9, 14], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
     f = 5
-    for nombre, hoja, n_aut, n_rev, n_prot, (t0, t1), (o0, o1) in filas:
+    for nombre, hoja, n_aut, n_rev, n_prot, n_pag, (t0, t1), (o0, o1) in filas:
         ref = f"'{hoja}'!"
-        vals = [nombre, hoja, n_aut, n_rev, n_prot,
+        vals = [nombre, hoja, n_aut, n_rev, n_prot, round(n_pag),
                 f'=COUNTA({ref}A{t0}:A{t1})',
                 f'=COUNTIF({ref}H{t0}:H{t1},"Listo")',
-                f'=IF(F{f}=0,0,G{f}/F{f})',
+                f'=IF(G{f}=0,0,H{f}/G{f})',
                 f'=COUNTA({ref}H{o0}:H{o1})']
         for j, v in enumerate(vals, 1):
             c = celda(ws, f, j, v)
-            if j == 8:
+            if j == 9:
                 c.number_format = '0%'
         f += 1
     celda(ws, f, 1, 'Total', fuente=Font(name=FUENTE, size=10, bold=True))
-    for j in range(3, 10):
+    for j in range(3, 11):
         col = get_column_letter(j)
-        c = celda(ws, f, j, f'=SUM({col}5:{col}{f - 1})' if j != 8 else f'=IF(F{f}=0,0,G{f}/F{f})',
+        c = celda(ws, f, j, f'=SUM({col}5:{col}{f - 1})' if j != 9 else f'=IF(G{f}=0,0,H{f}/G{f})',
                   fuente=Font(name=FUENTE, size=10, bold=True))
-        if j == 8:
+        if j == 9:
             c.number_format = '0%'
-    ws.cell(f + 2, 1, 'El editor no tiene hoja: recibe y consolida. Los capítulos que firma con otros aparecen en la hoja '
-                      'del coautor.').font = F_GRIS
+    ws.cell(f + 1, 1, 'Páginas a leer: las de los capítulos que revisa como autor, más la mitad de las páginas de los '
+                      'capítulos cuyos casos revisa (solo lee los casos).').font = F_GRIS
+    ws.cell(f + 2, 1, 'Cada capítulo lo revisa uno solo de sus firmantes, repartido por páginas para que la carga quede '
+                      'pareja; los demás firmantes pueden comentarlo igual.').font = F_GRIS
     ws.freeze_panes = 'A5'
 
 
 # --- armado ----------------------------------------------------------------
+
+def responsables(pags):
+    """Capítulo -> el firmante que lo revisa (él, 2026-10-22: "es una locura").
+    Los de un solo autor van a ese autor; los compartidos, del más largo al más
+    corto, al firmante que lleva menos páginas. A Benjamín y Jocelyn se les
+    cuenta la mitad de las páginas de los capítulos cuyos casos revisan."""
+    carga = {k: 0.0 for k in H.AUTORES}
+    for k, caps in H.REVISORES_CASOS.items():
+        for c in caps:
+            _, a, b = pags[str(c)]
+            carga[k] += (b - a + 1) * 0.5
+    out = {c: aut[0] for c, aut in H.AUTORIA.items() if len(aut) == 1}
+    for c, k in out.items():
+        _, a, b = pags[c]
+        carga[k] += b - a + 1
+    for c in sorted((c for c in H.AUTORIA if c not in out), key=lambda c: (-(pags[c][2] - pags[c][1]), orden_cap(c))):
+        k = min(H.AUTORIA[c], key=lambda x: carga[x])
+        out[c] = k
+        _, a, b = pags[c]
+        carga[k] += b - a + 1
+    return out, carga
+
 
 def main():
     pags_I, autores_I = paginas('I')
@@ -294,9 +319,8 @@ def main():
     wb = openpyxl.Workbook()
     hoja_leeme(wb, 0)
     resumen = []
+    resp, carga = responsables(pags)
     for k in H.orden_autores():
-        if k == H.EDITOR:
-            continue
         a = H.AUTORES[k]
         tareas = []
         datos = 'Revisa tu ficha: nombre, títulos, afiliación, áreas y ORCID.'
@@ -304,7 +328,7 @@ def main():
             datos += f' Falta: {a["falta"]}; envíalo al editor.'
         tareas.append(dict(tomo='I y II', cap='—', titulo='Autoras y autores',
                            pags=f'I: {autores_I}; II: {autores_II}', que=datos, con='—'))
-        mios = sorted((c for c, aut in H.AUTORIA.items() if k in aut), key=orden_cap)
+        mios = sorted((c for c, r in resp.items() if r == k), key=orden_cap)
         for c in mios:
             titulo, p0, p1 = pags.get(c, ('', None, None))
             otros = ', '.join(H.AUTORES[x]['nombre'] for x in H.AUTORIA[c] if x != k) or '—'
@@ -324,7 +348,7 @@ def main():
                    'los globos, las preguntas de cada paso, la guía docente, el informe y la conclusión.')
             tareas.append(dict(tomo='II', cap=c, titulo=titulo, pags=f'{p0}–{p1}', que=que,
                                con=f'Autores: {autores_c}' if autores_c else '—'))
-        puntos = [p for p in prot if any(k in H.AUTORIA.get(c, []) for c in p['caps'])]
+        puntos = [p for p in prot if any(resp.get(c) == k for c in p['caps'])]
         que_hoja = {'Decide tú': 'Opina: ¿el libro vuelve al protocolo, se deja como está o se conversa?',
                     'Actualizaciones': 'Verificación pendiente: si sabes la respuesta o la fuente, anótala.',
                     'Otros avisos': 'Aviso sin cerrar: di qué prefieres.'}
@@ -332,7 +356,7 @@ def main():
             tareas.append(dict(tomo='—', cap=p['cap_txt'], titulo=f'protocolo_vs_libro, hoja "{p["hoja"]}", N.º {p["n"]}: {p["tema"]}',
                                pags='—', que=que_hoja[p['hoja']], con='Lo decide el equipo'))
         hoja, rt, ro = hoja_autor(wb, k, tareas)
-        resumen.append((H.nombre_completo(k), hoja, len(mios), len(revisa), len(puntos), rt, ro))
+        resumen.append((H.nombre_completo(k), hoja, len(mios), len(revisa), len(puntos), carga[k], rt, ro))
     hoja_resumen(wb, resumen)
     for ws in wb.worksheets:       # impresa: horizontal y al ancho de la hoja
         ws.page_setup.orientation = 'landscape'
