@@ -121,7 +121,7 @@ AUTORES = {
     'vargas': dict(nombre='Cristina', apellidos='Vargas-Bustamante', areas='Audiología y electrofisiología',
                    titulo=['Tecnóloga Médica', 'Máster MBA en Gestión Clínica, Dirección Médica y Asistencial (TECh, España)'],
                    afiliacion=[UACH_PM, TECMEDHUB], falta='ORCID'),
-    'vallejos': dict(nombre='Jocelyn Lisamar', apellidos='Vallejos-Sandoval', rol='Revisora de los casos clínicos',
+    'vallejos': dict(nombre='Jocelyn', apellidos='Vallejos-Sandoval', rol='Revisora de los casos clínicos',
                      titulo=['Tecnóloga Médica'], falta='ORCID y afiliación (por confirmar)'),
     'moreira': dict(nombre='Carlos', apellidos='Moreira-Quichahual', areas='Espirometría, sueño y salud ocupacional',
                     titulo=['Licenciado en Tecnología Médica'], orcid='0009-0000-8205-726X',
