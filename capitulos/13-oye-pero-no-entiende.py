@@ -22,7 +22,9 @@ BASE = [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]
 CASOS = [
     cuadro('neuropatia', BASE + [fig.logo(), fig.abr(niveles=(80, 60, 40)),            # alternada: la microfónica se cancela
                                  fig.abr(niveles=(90,), polaridad='rarefaccion', marcar=()),
-                                 fig.abr(niveles=(90,), polaridad='condensacion', marcar=())],
+                                 fig.abr(niveles=(90,), polaridad='condensacion', marcar=()),
+                                 fig.cortical('CAEP', niveles=(70,))],
+           central='central_normal',
            od='neuropatia', oi='neuropatia', grado_od='leve', grado_oi='leve', edad=15, sexo='mujer',
            anamnesis="""Tiene 15 años y viene con su mamá. Nació a las 33 semanas, con 1.900 g, y estuvo en neonatología por
            una ictericia grave que necesitó fototerapia y una exanguinotransfusión. El examen de oído del recién nacido

@@ -22,7 +22,9 @@ CASOS = [
                        fig.abr(niveles=(60, 40, 30, 20), estimulo='Burst 500 Hz', ventana=20),
                        fig.abr(niveles=(60, 40, 30, 20), estimulo='Burst 1 kHz', ventana=15),
                        fig.abr(niveles=(60, 50, 40, 20), estimulo='Burst 2 kHz'),
-                       fig.abr(niveles=(100, 80, 70, 60), estimulo='Burst 4 kHz')],
+                       fig.abr(niveles=(100, 80, 70, 60), estimulo='Burst 4 kHz'),
+                       fig.cortical('CAEP', niveles=(60, 40, 30, 20), promediaciones=500)],
+           central='central_normal',
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=51, sexo='hombre',
            anamnesis="""Tiene 51 años y hace 24 opera una chancadora en una cantera. Hasta hace unos años usó protección
            auditiva solo a ratos. Cuenta que hace tres meses, durante una tronadura, "se le fue el oído derecho" y

@@ -11,6 +11,7 @@
    "OI": "leve"
   },
   "semilla": 7,
+  "central": "central_normal",
   "anamnesis": {
    "otros": "Tiene 7 años y está en segundo básico. La profesora jefe la describe como \"en las nubes\": no responde cuando se le habla desde lejos, pide repetir y se distrae en las clases. Sugiere evaluar si tiene un trastorno de procesamiento auditivo. La madre cuenta que en la casa sube el volumen de la tele, que ronca y duerme con la boca abierta, y que se resfría seguido; en los últimos dos meses está peor. Habla bien, con alguna \"s\" poco clara. Nunca le han hecho una audiometría.",
    "historia": "{{-60}} Consulta por resfrío: tímpanos \"opacos\", sin antibiótico; se indica control que no se hizo.\n{{-20}} Profesora jefe: sugiere evaluación auditiva y de \"procesamiento\".",
@@ -238,8 +239,8 @@
   "edad_horas": null,
   "nacimiento": [],
   "volume": [
-   0.7,
-   0.71,
+   0.49,
+   0.98,
    "N/D"
   ],
   "volume_cae": [
@@ -422,7 +423,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Pilar",
+     "nombre": "Natalia",
      "edad": 7,
      "genero": 1,
      "es_paciente": true,
@@ -435,19 +436,19 @@
      "disposicion": 0
     },
     {
-     "id": "amvbvrx9g3p",
+     "id": "amvjjcyrspd",
      "rol": "madre",
-     "nombre": "Noelia Cortés",
-     "edad": 36,
+     "nombre": "Natalia Sánchez",
+     "edad": 34,
      "genero": 1,
      "es_paciente": false,
      "informante": true,
-     "interrumpe": 36,
+     "interrumpe": 63,
      "conciencia": 80,
-     "confiabilidad": 82,
+     "confiabilidad": 72,
      "version": "",
-     "comportamiento": "cansada, viene de trabajar y quiere terminar rápido",
-     "disposicion": 0
+     "comportamiento": "atenta, contesta corto y espera a que le pregunten",
+     "disposicion": -1
     }
    ]
   },
@@ -555,19 +556,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 2079,
+    "average_objetivo": 1959,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.29,
-      "amp": -0.05
+      "lat": 0.33,
+      "amp": -0.07
      },
      "onda_III": {
-      "lat": 0.29,
-      "amp": -0.06
+      "lat": 0.33,
+      "amp": -0.08
      },
      "onda_V": {
-      "lat": 0.29,
-      "amp": -0.09
+      "lat": 0.33,
+      "amp": -0.12
      }
     },
     "nivel_referencia": null,
@@ -635,19 +636,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 2076,
+    "average_objetivo": 1801,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.3,
-      "amp": -0.05
+      "lat": 0.35,
+      "amp": -0.07
      },
      "onda_III": {
-      "lat": 0.3,
-      "amp": -0.06
+      "lat": 0.35,
+      "amp": -0.08
      },
      "onda_V": {
-      "lat": 0.3,
-      "amp": -0.08
+      "lat": 0.35,
+      "amp": -0.12
      }
     },
     "nivel_referencia": null,
@@ -694,9 +695,9 @@
      "8000": 4
     },
     "atten_db": 0,
-    "ruido_db": 2.6,
-    "sello_pct": 78,
-    "variabilidad_db": 2.6,
+    "ruido_db": 4.6,
+    "sello_pct": 74,
+    "variabilidad_db": 3,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -714,9 +715,9 @@
      "8000": 4
     },
     "atten_db": 0,
-    "ruido_db": 5,
-    "sello_pct": 75,
-    "variabilidad_db": 3.5,
+    "ruido_db": 2.1,
+    "sello_pct": 88,
+    "variabilidad_db": 2.8,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -853,6 +854,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.45,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -867,13 +883,13 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T04:12:44+00:00",
+   "at": "2026-10-22T12:47:21+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Pilar Natalia",
-   "apellido": "Cortés Sánchez",
+   "nombre": "Natalia Silvia",
+   "apellido": "Sánchez González",
    "rut": "26291437",
    "fecha_nac": "23-12-2019"
   },

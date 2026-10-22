@@ -18,10 +18,11 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Objetivas: lo que no depende de que el paciente levante la mano
 OBJETIVAS = [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
-             fig.abr(niveles=(80, 60, 40, 20, 10, 0))]
+             fig.abr(niveles=(80, 60, 40, 20, 10, 0)),
+             fig.cortical('CAEP', niveles=(60, 40, 30, 20, 10), promediaciones=500)]
 
 CASOS = [
-    cuadro('unilateral', OBJETIVAS, od='normal', oi='normal', edad=44, sexo='hombre',
+    cuadro('unilateral', OBJETIVAS, central='central_normal', od='normal', oi='normal', edad=44, sexo='hombre',
            anamnesis="""Tiene 44 años y trabaja de maestro de obra. Hace tres semanas, en la faena, le cayó una
            plancha de zinc desde un andamio y le pegó en el costado derecho de la cabeza; no perdió el conocimiento
            ni sangró por el oído. Desde ese día dice que "no escucha nada" por el oído derecho. Conversa en la

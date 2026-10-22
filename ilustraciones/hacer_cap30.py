@@ -96,14 +96,14 @@ def perfil(nombre, titulo, filas):
 
 if __name__ == '__main__':
     que_mide()
-    perfil('cap30-perfil-nino.svg', 'Alejandro, 9 años · perfil de rendimiento', [
+    perfil('cap30-perfil-nino.svg', 'Juan, 9 años · perfil de rendimiento', [
         ('Dígitos dicóticos · OD', -0.4, RETRO),
         ('Dígitos dicóticos · OI', -2.8, AVISO),
         ('Patrón de frecuencia (nombrado)', -2.4, AVISO),
         ('Patrón de duración (nombrado)', -1.1, RETRO),
         ('GIN (promedio de los dos oídos)', -1.6, RETRO),
         ('Matrix en ruido (SNR)', -0.6, RETRO)])
-    perfil('cap30-perfil-mayor.svg', 'Daniela, 71 años · perfil de rendimiento', [
+    perfil('cap30-perfil-mayor.svg', 'Sara, 71 años · perfil de rendimiento', [
         ('Dígitos dicóticos · OD', -0.9, RETRO),
         ('Dígitos dicóticos · OI', -2.3, AVISO),
         ('GIN (promedio de los dos oídos)', -1.2, RETRO),

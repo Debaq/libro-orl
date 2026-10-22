@@ -7,6 +7,7 @@
   "edad": 9,
   "sexo": "hombre",
   "semilla": 3,
+  "central": "tpac",
   "anamnesis": {
    "otros": "Tiene 9 años y está en cuarto básico. La profesora dice que \"se va\" cuando hay ruido en la sala, que pide repetir las instrucciones largas y que en el dictado cambia palabras parecidas. En el recreo y en el comedor del colegio casi no entiende lo que le dicen. En la casa, con la tele baja, se las arregla bien. Es bueno para armar cosas y para los juegos de mesa. La madre cuenta que \"oye cuando quiere\", pero que en el auto no entiende a quien le habla desde atrás. Lee más lento que sus compañeros. No ha tenido dolor de oídos desde los 3 años.",
    "historia": "{{-300}} Fonoaudióloga: lenguaje comprensivo y expresivo en rango esperado; conciencia fonológica algo baja para la edad.\n{{-200}} Psicóloga: capacidad cognitiva en rango medio; atención sin hallazgos importantes.\n{{-30}} Médico general: otoscopía normal bilateral. Se deriva a audiología por sospecha de trastorno de procesamiento auditivo.",
@@ -234,7 +235,7 @@
   "edad_horas": null,
   "nacimiento": [],
   "volume": [
-   0.61,
+   0.93,
    0.91,
    "N/D"
   ],
@@ -418,7 +419,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Alejandro",
+     "nombre": "Juan",
      "edad": 9,
      "genero": 0,
      "es_paciente": true,
@@ -431,19 +432,19 @@
      "disposicion": 0
     },
     {
-     "id": "amvbvs1fg1",
+     "id": "amvjjd3viiy",
      "rol": "madre",
-     "nombre": "Ana Díaz",
-     "edad": 40,
+     "nombre": "Lorena Zamora",
+     "edad": 42,
      "genero": 1,
      "es_paciente": false,
      "informante": true,
-     "interrumpe": 77,
+     "interrumpe": 60,
      "conciencia": 80,
-     "confiabilidad": 81,
+     "confiabilidad": 62,
      "version": "",
-     "comportamiento": "conversadora, se va por las ramas y hay que traerla de vuelta",
-     "disposicion": -1
+     "comportamiento": "cansada, viene de trabajar y quiere terminar rápido",
+     "disposicion": 1
     }
    ]
   },
@@ -551,19 +552,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1478,
+    "average_objetivo": 1599,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.01,
+      "lat": -0.01,
       "amp": 0
      },
      "onda_III": {
-      "lat": -0.04,
-      "amp": 0.02
+      "lat": 0,
+      "amp": 0.01
      },
      "onda_V": {
-      "lat": -0.01,
-      "amp": -0.01
+      "lat": 0,
+      "amp": 0.02
      }
     },
     "nivel_referencia": null,
@@ -631,18 +632,18 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1435,
+    "average_objetivo": 1650,
     "desviaciones": {
      "onda_I": {
-      "lat": -0.02,
-      "amp": 0
+      "lat": 0.01,
+      "amp": -0.01
      },
      "onda_III": {
-      "lat": 0,
-      "amp": 0
+      "lat": -0.01,
+      "amp": 0.02
      },
      "onda_V": {
-      "lat": -0.02,
+      "lat": 0.03,
       "amp": 0.01
      }
     },
@@ -690,9 +691,9 @@
      "8000": 0
     },
     "atten_db": 0,
-    "ruido_db": 0.1,
-    "sello_pct": 86,
-    "variabilidad_db": 2.6,
+    "ruido_db": 1.1,
+    "sello_pct": 88,
+    "variabilidad_db": 2.4,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -710,9 +711,9 @@
      "8000": 0
     },
     "atten_db": 0,
-    "ruido_db": 1.2,
+    "ruido_db": 1.3,
     "sello_pct": 96,
-    "variabilidad_db": 3.4,
+    "variabilidad_db": 2.3,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -849,6 +850,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.45,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0.3,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 40,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0.4,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -863,13 +879,13 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T04:12:50+00:00",
+   "at": "2026-10-22T12:47:27+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Alejandro Daniel",
-   "apellido": "Díaz Rivas",
+   "nombre": "Juan Raúl",
+   "apellido": "Zamora Guzmán",
    "rut": "25535961",
    "fecha_nac": "16-06-2017"
   },

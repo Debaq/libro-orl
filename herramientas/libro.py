@@ -97,6 +97,28 @@ class fig:
         return f
 
     @staticmethod
+    def cortical(prueba='MLR', niveles=(70,), estimulo=None, canales=None, marcar=True,
+                 promediaciones=None, ventana=None, oidos=None):
+        """Latencia media o tardía en la ventana del ABR: prueba MLR, CAEP, P300
+        o MMN. El caso necesita cuadro central (cuadro(..., central='tpac')).
+        canales: los que se dibujan (por defecto C3/Cz/C4 en el MLR, Cz en el
+        CAEP, Pz en la P300 y Fz en la MMN)."""
+        f = {'tipo': 'cortical', 'prueba': prueba, 'niveles': list(niveles)}
+        if estimulo:
+            f['estimulo'] = estimulo
+        if canales:
+            f['canales'] = list(canales)
+        if not marcar:
+            f['marcar'] = False
+        if promediaciones:
+            f['promediaciones'] = promediaciones
+        if ventana:
+            f['ms_max'] = float(ventana)
+        if oidos:
+            f['oidos'] = list(oidos)
+        return f
+
+    @staticmethod
     def campo_libre(ganancia=None):
         """Campo libre calculado del caso (oído mejor). ganancia: {Hz: dB} de
         ganancia funcional para dibujar también la curva con audífono."""
@@ -188,7 +210,8 @@ def demo(numero, figuras, nombre=None):
 
 def cuadro(nombre, figuras, od='normal', oi='normal', grado_od=None, grado_oi=None,
            edad=40, sexo='hombre', semilla=None, edad_horas=None, edad_meses=None,
-           anamnesis=None, historia=None, antecedentes=(), medicamentos='', cirugias=''):
+           anamnesis=None, historia=None, antecedentes=(), medicamentos='', cirugias='',
+           central=None):
     """Un caso nuevo por cuadro (claves de CaseProfile::SCENARIOS) y grado.
 
     Un recién nacido o lactante va con edad_horas= o edad_meses= (la edad en
@@ -203,6 +226,8 @@ def cuadro(nombre, figuras, od='normal', oi='normal', grado_od=None, grado_oi=No
         pedido['grado'] = grado
     if semilla is not None:
         pedido['semilla'] = semilla
+    if central:
+        pedido['central'] = central   # cuadro de la vía central (CaseProfile::CENTRAL_SCENARIOS)
     # La anamnesis va AL CASO (no solo al libro): queda en la ficha y en el
     # paciente de LabSim, que responde en el chat con esa misma historia.
     # historia: lista de (días hacia atrás, texto) -> líneas '{{-N}} texto'.

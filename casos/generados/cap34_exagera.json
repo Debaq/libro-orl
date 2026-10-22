@@ -10,6 +10,7 @@
    "OD": "leve",
    "OI": "leve"
   },
+  "central": "central_normal",
   "anamnesis": {
    "otros": "Tiene 51 años y hace 24 opera una chancadora en una cantera. Hasta hace unos años usó protección auditiva solo a ratos. Cuenta que hace tres meses, durante una tronadura, \"se le fue el oído derecho\" y desde entonces dice no oír nada por ese lado y muy poco por el izquierdo. En la sala de espera contestó sin dificultad cuando lo llamaron de espaldas y en la entrevista no pide que le repitan las preguntas. Tiene un siseo en los dos oídos, que viene y va desde hace años. No tiene mareo, dolor ni secreción. Su caso está en trámite en la mutual y el médico laboral solicitó una evaluación audiológica médico-legal.",
    "historia": "{{-2200}} Audiometría de ingreso al programa de vigilancia: caída en agudos bilateral compatible con ruido.\n{{-90}} Urgencia de la mutual tras una tronadura: otoscopía normal bilateral, sin otorragia; se indica control.\n{{-20}} Médico laboral: refiere sordera total derecha; se solicita evaluación audiológica médico-legal.",
@@ -858,7 +859,7 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T04:28:29+00:00",
+   "at": "2026-10-22T13:05:35+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
@@ -868,6 +869,21 @@
    "rut": "12982738",
    "fecha_nac": "29-07-1975"
   },
-  "historia_clinica": "{{-2200}} Audiometría de ingreso al programa de vigilancia: caída en agudos bilateral compatible con ruido.\r\n{{-90}} Urgencia de la mutual tras una tronadura: otoscopía normal bilateral, sin otorragia; se indica control.\r\n{{-20}} Médico laboral: refiere sordera total derecha; se solicita evaluación audiológica médico-legal."
+  "historia_clinica": "{{-2200}} Audiometría de ingreso al programa de vigilancia: caída en agudos bilateral compatible con ruido.\r\n{{-90}} Urgencia de la mutual tras una tronadura: otoscopía normal bilateral, sin otorragia; se indica control.\r\n{{-20}} Médico laboral: refiere sordera total derecha; se solicita evaluación audiológica médico-legal.",
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.6,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  }
  }
 }

@@ -42,7 +42,7 @@ El click estima la audición entre 2 y 4 kHz. Con eso se puede decir si hay una 
 
 Para el primer umbral, el rápido, se usa el **CE-Chirp LS** de banda ancha: da una V más grande que el click y ahorra barridos, pero no dice qué frecuencias están afectadas. El orden en este libro: click o CE-Chirp LS para saber si hay pérdida, vía ósea para saber de qué tipo y NB CE-Chirp LS (o burst) por frecuencia para saber cuánto y dónde.
 
-El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En este capítulo se usan las de la BSA (2019) para lactantes de 12 a 24 semanas con fonos de inserción (→ H10): burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; NB CE-Chirp LS de 500 Hz, 15 dB; de 1.000 Hz, 10; de 2.000 Hz, 5; de 4.000 Hz, 0; el click no se corrige. Esa tabla cubre a los lactantes de 12 a 24 semanas: bajo las 12 semanas, o entre los 6 meses y los 2 años, no hay una columna publicada y se informa en dB nHL, diciéndolo.
+El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En este capítulo se usan las de la BSA (2019) para lactantes de 12 a 24 semanas con fonos de inserción (→ H10): burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; NB CE-Chirp LS de 500 Hz, 15 dB; de 1.000 Hz, 10; de 2.000 Hz, 5; de 4.000 Hz, 0; el click no se corrige. Esa tabla cubre a los lactantes de 12 a 24 semanas: bajo las 12 semanas, o entre los 6 meses y los 2 años, no hay una columna publicada y se informa en dB nHL, diciéndolo. Las semanas son de **edad corregida**: en un prematuro se cuentan desde que cumple las 40 semanas de gestación, no desde que nace (→ cap. 14, el caso del prematuro). Los cuatro bebés de este capítulo nacieron de término, así que su edad de vida y su edad corregida son la misma.
 
 :::comentario-ancho Lo que dicen las normas
 Las correcciones **no son universales**. Cada programa publica las suyas, calculadas a partir de comparar umbrales de ABR con umbrales de refuerzo visual en grupos de lactantes con su propio equipo, su propio estímulo y su propia forma de registrar. El protocolo de Columbia Británica, por ejemplo, usa para la vía aérea −10 dB en 500 y 1.000 Hz, −5 dB en 2.000 Hz y 0 dB en 4.000 Hz, y para la vía ósea +5 en 500 Hz, −5 en 2.000 Hz y una cifra preliminar de −5 en 4.000 Hz; en 1.000 Hz por vía ósea no hay corrección confiable (Hatton y cols., 2022). Esas cifras son más chicas que las de este libro (→ H10) y valen **solo** para los parámetros de ese protocolo. Sus autores avisan que se debe esperar una desviación de 5 a 10 dB respecto del umbral conductual y, en una de cada veinte veces, de 15 a 20 dB. La consecuencia práctica es la misma en cualquier tabla: un umbral por ABR es un **rango**, no un número. Cuando se informa, se escribe qué tabla se usó. Otros programas publican las suyas (BSA, 2025; Ontario Infant Hearing Program, 2020) y los datos de base de casi todas son los de Stapells (2000).
@@ -79,7 +79,11 @@ En menores de 6 meses de edad corregida, el protocolo de Columbia Británica pid
 
 ### El ASSR como complemento
 
-El ASSR (→ H13) estima umbrales por frecuencia en ambos oídos a la vez y llega a niveles más altos que el ABR, lo que lo hace útil en pérdidas profundas, cuando el ABR no tiene respuesta al máximo y se quiere saber si queda audición residual (Rance y cols., 1998). También ayuda a completar el audiograma estimado de un bebé que se está durmiendo mal. Dos reglas lo acompañan: **primero un ABR**, porque el ASSR no ve una neuropatía auditiva y en ella no predice el umbral conductual (Rance y cols., 2005); y el ASSR **no reemplaza a la vía ósea**, que es la que dice si la pérdida es de transmisión.
+El ASSR (→ H13) estima el umbral de cuatro frecuencias en ambos oídos a la vez, con un tono modulado que el bebé dormido no necesita atender. En el lactante sirve para lo que el ABR deja a medias: **completar el audiograma estimado** cuando el sueño alcanzó para el click y una o dos frecuencias, y dar umbrales por frecuencia en un bebé al que se le va a adaptar un audífono (→ H21). Con 90 Hz de modulación la respuesta es la de un lactante dormido (→ H13, "Fundamento").
+
+**Cómo decide el equipo.** Nadie lee ondas. El equipo analiza el EEG en frecuencia y pregunta si hay más energía en la frecuencia de modulación que en las vecinas; la respuesta es una prueba estadística (prueba F o coherencia de fase) y entrega un valor de **p** por oído, frecuencia y nivel. Con p < 0,05 hay una respuesta clara; con un p mayor y el ruido residual bajo, la respuesta está ausente; con p mayor y ruido todavía alto, el nivel es no concluyente (→ H13, "Lee los colores"). Con el criterio de 95 % una de cada veinte veces el equipo ve una respuesta que no existe, y por eso el nivel del umbral se **replica**.
+
+**Qué es y qué no es el ASSR del lactante.** Hay dos posturas. Para Rance y cols. (1998), en niños sin ABR con click al nivel máximo el ASSR mostró restos auditivos que el ABR no mostraba, porque el equipo llega a niveles más altos. La BSA (2023) responde que, expresados en las mismas unidades, el nivel disponible de ABR y de ASSR es parecido, que en el ASSR no se ve la forma de onda y no se distingue una respuesta del estímulo o del sistema vestibular, y para el implante coclear indica ABR en los niños pequeños. De ahí las reglas de este libro: **primero un ABR**, porque el ASSR no ve una neuropatía auditiva y en ella no predice el umbral conductual (Rance y cols., 2005); **el ABR manda** si los dos difieren; **sobre 100 dB nHL por vía aérea** una respuesta puede ser vestibular o un artefacto, y no se informa como umbral sin cautela (BSA, 2023); y el ASSR **no reemplaza a la vía ósea**, que es la que dice si la pérdida es de transmisión. En este libro el ASSR se ve en el caso 17.3 (→ Resolución).
 
 :::ayuda Ayuda memoria del orden
 1. Otoscopía y timpanometría de 1.000 Hz con el bebé despierto.
@@ -87,7 +91,7 @@ El ASSR (→ H13) estima umbrales por frecuencia en ambos oídos a la vez y lleg
 3. Si el oído aéreo está elevado: **vía ósea cuanto antes**.
 4. Umbral por frecuencia: 2.000, 500 y 4.000 Hz; 1.000 Hz si el protocolo lo pide.
 5. Emisiones al final. Si el ABR no tiene ondas y hay emisiones: microfónica y polaridades (→ cap. 13).
-6. ASSR solo si hay ABR con morfología normal.
+6. ASSR solo después de un ABR con respuesta y sin sospecha de neuropatía (emisiones ausentes, ondas coherentes con una pérdida coclear). El ABR manda.
 :::
 
 ## Fisiología
@@ -348,7 +352,7 @@ Con 1.000 Hz los dos oídos tienen **pico** (compliancia de 0,33 mL en el OD y 1
 :::docente Guía del caso
 - **Datos clave:** madre migrante sin vacunación, rash a las 9 semanas, cataratas y ductus, IgM positiva, bajo peso. El tamizaje refirió en ambos oídos.
 - **Hipótesis esperables:** hipoacusia sensorioneural bilateral severa a profunda (rubéola, CMV, toxoplasmosis), efusión de oído medio añadida, neuropatía auditiva.
-- **Qué pedir:** ABR hasta el nivel máximo del equipo, tone burst por frecuencia, emisiones, ASSR para buscar resto auditivo (→ H13), y **derivación temprana** al equipo de rehabilitación y de implante coclear. Los umbrales conductuales llegan después, con refuerzo visual (→ H21).
+- **Qué pedir:** ABR hasta el nivel máximo del equipo, tone burst por frecuencia, emisiones, ASSR para completar el audiograma por frecuencia (→ H13), y **derivación temprana** al equipo de rehabilitación y de implante coclear. Los umbrales conductuales llegan después, con refuerzo visual (→ H21).
 - **Errores esperables:** detenerse en 80 dB nHL y escribir "sin respuesta"; no agregar la corrección a dB eHL; leer la vía ósea sin respuesta como diagnóstico; no avisar a la familia que el cuadro sigue y que hay otras necesidades (visión y corazón).
 - **Para discutir:** La vía ósea sin respuesta es por el tope del vibrador.
 :::
@@ -533,10 +537,52 @@ Hipoacusia sensorioneural bilateral severa a profunda. Se informa cada oído con
 
 **Conclusión**: examen sugiere hipoacusia sensorioneural bilateral de grado severo a profundo, de aproximadamente 90 dB HL para el rango de 2 a 4 kHz, y de 80 dB eHL o más en 500 Hz. El umbral está en el tope del equipo.
 
-**Recomendación**: derivación temprana al equipo de rehabilitación y de implante coclear; ASSR y estudios de imagen para completar la evaluación (→ H13). Coordinar con oftalmología y cardiología. Los umbrales conductuales se obtienen después, con refuerzo visual.
+**Recomendación**: derivación temprana al equipo de rehabilitación y de implante coclear; ASSR (informe siguiente) y estudios de imagen para completar la evaluación. Coordinar con oftalmología y cardiología. Los umbrales conductuales se obtienen después, con refuerzo visual.
 :::
 
- Falta saber si hay resto auditivo: el ASSR (→ H13) y los estudios de imagen, dentro de la evaluación para un implante coclear, completan el cuadro. Al mismo tiempo se coordina con oftalmología y cardiología.
+Quedan sin medir 1.000, 2.000 y 4.000 Hz por separado: el ABR de Alba llegó al click y al burst de 500 Hz. Si el bebé sigue dormido, o en una segunda cita, se hace un **ASSR**. En este caso es el examen que corresponde, y por tres razones: el ABR ya mostró ondas coherentes con una pérdida coclear y las emisiones están ausentes, de modo que no hay sospecha de neuropatía; faltan umbrales por frecuencia para planificar la amplificación; y registra los dos oídos a la vez. Lo que **no** hace es llegar más arriba que el ABR: los umbrales que se esperan están cerca de 100 dB nHL, que es justo el límite sobre el que la BSA (2023) pide cautela. Se registra con 90 Hz, cuatro portadoras por oído, fonos de inserción y sueño natural. Las dos figuras muestran lo que entrega el equipo: la detección y el audiograma estimado.
+
+:::imagen ilustraciones/cap17-assr-deteccion.svg ancho=100% Detección del ASSR de Alba por oído, frecuencia y nivel. Cada celda es un nivel probado y su valor de p; las verdes son respuestas claras y el borde grueso marca el umbral, con una celda sin respuesta 5 dB más abajo. Figura propia del libro, de un modelo de detección; no es el registro de un equipo.
+:::
+
+:::imagen ilustraciones/cap17-assr-audiograma.svg ancho=100% Audiograma estimado por ASSR y su comparación con el ABR. Cada frecuencia tiene dos estimaciones, según la corrección usada (BSA con círculo, diferencia de lactantes con cuadrado); la banda es el rango entre ambas. Los triángulos son lo que dio el ABR. Figura propia del libro.
+:::
+
+:::comentario-ancho Informe de ASSR de Alba, 12 semanas (caso 17.3)
+**Motivo**: hipoacusia sensorioneural bilateral severa a profunda por rubéola congénita, con ABR en el tope del equipo. Se piden umbrales por frecuencia para planificar la amplificación y la evaluación para implante coclear.
+
+**Registro**: ASSR, protocolo de 90 Hz de modulación, cuatro portadoras (500, 1.000, 2.000 y 4.000 Hz) en cada oído, parámetros del estímulo del fabricante. Partida en 80 dB nHL en las cuatro frecuencias; sobre 80, una frecuencia por vez, con subida de 20 dB cuando no hay respuesta y bajada de 10 y de 5 dB cuando la hay (BSA, 2023). Fonos de inserción, montaje Cz-mastoides con tierra en la frente, impedancias bajo 3 kΩ, rechazo de artefactos de ±20 µV. Criterio de detección de 95 % con réplica en el umbral. En sueño natural, con EEG tranquilo.
+
+**Referencia**: umbral de ASSR en dB nHL con respuesta ausente 5 dB más abajo. Para dB eHL, dos estimaciones: la tabla provisional de la BSA (2023) para lactantes de hasta 12 semanas de **edad corregida** con fonos de inserción (−20, −20, −15 y −15 dB en 500, 1.000, 2.000 y 4.000 Hz, válida sobre 30 dB eHL; Alba nació de término, así que sus 12 semanas de vida son también 12 de edad corregida y queda en el borde del tramo; la tabla no trae otra fila para más edad) y la diferencia promedio entre ASSR y audiometría en lactantes menores de 2 años (9,2, 7,2, 6,4 y 7,4 dB, redondeadas a 9, 7, 6 y 7; Huang y cols., 2025). Estas diferencias son promedios; la dispersión individual es grande.
+
+| Frecuencia | OD: umbral (dB nHL) | OD: sin respuesta (dB nHL) | OD: estimado (dB eHL) | OI: umbral (dB nHL) | OI: sin respuesta (dB nHL) | OI: estimado (dB eHL) |
+|---|---|---|---|---|---|---|
+| 500 Hz | 90 | 85 | 70 a 80 | 90 | 85 | 70 a 80 |
+| 1.000 Hz | 90 | 85 | 70 a 85 | 85 | 80 | 65 a 80 |
+| 2.000 Hz | 95 | 90 | 80 a 90 | 90 | 85 | 75 a 85 |
+| 4.000 Hz | 100 | 95 | 85 a 95 | 95 | 90 | 80 a 90 |
+
+**Detección y calidad**: respuestas claras (p < 0,001 en casi todos los niveles sobre el umbral) y respuesta ausente, con ruido residual bajo, 5 dB bajo cada umbral. El umbral del OD en 4.000 Hz está en 100 dB nHL, el límite sobre el cual las respuestas aéreas pueden ser vestibulares o del estímulo (BSA, 2023): se confirma con el control de estímulo bloqueado, que descarta el artefacto del estímulo pero no separa una respuesta vestibular. Ningún otro umbral pasa de 100.
+
+**Interpretación**: los dos oídos tienen una pérdida de grado severo a profundo, de configuración descendente suave, con el OI 5 a 10 dB mejor que el OD. Coincide con el ABR: el burst de 500 Hz dio 80 dB eHL en los dos oídos (ASSR: 70 a 80) y el click, 90 dB eHL (ASSR en 2.000 y 4.000 Hz: 75 a 95). Las diferencias caen dentro del rango de un umbral estimado (10 a 15 dB). Con ABR con ondas y emisiones ausentes no hay sospecha de neuropatía auditiva, que es el caso en que el ASSR no sirve. El ASSR no distingue transmisión de sensorioneural: eso lo dicen el timpanograma con pico y las emisiones ausentes.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral de grado severo a profundo, con umbrales estimados de 70 a 95 dB eHL en el OD y de 65 a 90 dB eHL en el OI de 500 a 4.000 Hz, dentro de un rango de 10 a 15 dB según la corrección. Concordante con el ABR. Estimación provisional, que se confirma con la audiometría conductual.
+
+**Recomendación**: entregar el informe al equipo de rehabilitación y de implante coclear junto con el ABR, que manda en el diagnóstico. Probar amplificación con las estimaciones conservadoras (la corrección mayor) y ajustar con la conducta. Audiometría con refuerzo visual cuando la edad lo permita.
+:::
+
+El ABR dio dos datos, uno grave (burst) y uno promedio de agudos (click). El ASSR separó las cuatro frecuencias, mostró que el OI está unos 5 a 10 dB mejor que el OD y aportó el 1.000 Hz. No agregó audición: ninguno de sus umbrales baja de 65 dB eHL. Y no se usó solo: cuando el ABR y el ASSR difieren, **manda el ABR**.
+
+Para compararlos, estas son las estimaciones de cada examen:
+
+Tabla: PEAT y ASSR frente a frente en el caso 17.3 (dB eHL)
+
+| Frecuencia | PEAT (OD y OI) | ASSR OD | ASSR OI |
+|---|---|---|---|
+| 500 Hz | burst: 80 | 70 a 80 | 70 a 80 |
+| 1.000 Hz | no se registró | 70 a 85 | 65 a 80 |
+| 2.000 Hz | click: 90 (promedio de 2 a 4 kHz) | 80 a 90 | 75 a 85 |
+| 4.000 Hz | click: 90 (promedio de 2 a 4 kHz) | 85 a 95 | 80 a 90 |
 
 :::ojo Ojo clínico
 Una V solo a 100 dB nHL no dice que el bebé oiga a 100 dB nHL: dice que el examen llegó a su límite. Un informe que escribe "umbral de 100 dB" sin esa aclaración puede cerrarle puertas a la rehabilitación.
@@ -625,6 +671,8 @@ La prevalencia al nacer de la infección congénita por CMV fue de 0,64 % y cerc
 1. Alaerts J, Luts H, Wouters J. Evaluation of middle ear function in young children: clinical guidelines for the use of 226- and 1,000-Hz tympanometry. Otol Neurotol. 2007;28(6):727-32. doi:10.1097/mao.0b013e3180dca1e5
 1. Rance G, Dowell RC, Rickards FW, Beer DE, Clark GM. Steady-state evoked potential and behavioral hearing thresholds in a group of children with absent click-evoked auditory brain stem response. Ear Hear. 1998;19(1):48-61. doi:10.1097/00003446-199802000-00003
 1. Rance G, Roper R, Symons L, Moody LJ, Poulis C, Dourlay M, et al. Hearing threshold estimation in infants using auditory steady-state responses. J Am Acad Audiol. 2005;16(5):291-300. doi:10.3766/jaaa.16.5.4
+1. British Society of Audiology. Practice guidance: auditory steady state response (ASSR) testing (OD104-115, v3). BSA; 2023. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-115-Practice-Guidance-for-ASSR-Testing-1.pdf
+1. Huang X, Kluk K, Perugia E. The relationship between auditory steady-state response and behavioural audiometry in hearing estimation for infants: a meta-analysis. Syst Rev. 2025;15(1):2. doi:10.1186/s13643-025-03003-x
 1. Knaus V, Mühler R, Verhey JL. Hörschwellenbestimmung bei Kindern mittels Hirnstammaudiometrie: Einfluss von Sedierung und Narkose auf Qualität und Messdauer. HNO. 2019;67(8):584-9. doi:10.1007/s00106-019-0657-z
 1. British Society of Audiology. Recommended procedure: auditory brainstem response (ABR) testing in newborns [Internet]. BSA; 2025 feb, enmienda menor 2026 mar (OD100). Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2026/06/OD100-Auditory-Brainstem-Response-ABR-Testing-in-Newborns-March-2026.pdf
 1. Ontario Infant Hearing Program. Protocol for auditory brainstem response-based audiological assessment (ABRA). Version 2018.02 [Internet]. Toronto: Ministry of Children, Community and Social Services; 2020 oct 6. Disponible en: https://www.uwo.ca/nca/pdfs/clinical_protocols/2018.02%20ABRA%20Protocol_Oct%202020.pdf

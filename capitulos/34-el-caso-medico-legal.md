@@ -32,6 +32,7 @@ La audiometría de **screening** de un operativo (7 minutos, un solo nivel de 20
 Cuando lo conductual no es confiable, la estimación sale de pruebas que dependen de la fisiología y no de la mano (→ capítulo 19, tabla de lo que depende de la mano):
 
 - **PEAT con burst** por frecuencia: el umbral de la onda V, menos la corrección a dB eHL de cada frecuencia (→ H10). Es lo más cercano al audiograma que se puede obtener sin la colaboración del paciente. Las correcciones de H10 restan unos 20 dB al umbral del burst de 500 Hz y unos 10 al de 4.000 Hz. En el metaanálisis de Stapells (2000), los umbrales del PEAT con tonos de adultos con pérdida sensorioneural quedaron, en promedio, entre 5 y 13 dB sobre los conductuales. <!-- Pasada de fundamentos 2026-10-18: decía "Las correcciones de H10, que se apoyan en la revisión de Stapells (2000), parten de que el umbral del burst de 500 Hz queda unos 20 dB sobre el conductual y el de 4.000 Hz, unos 5". Las cifras 20/5 son la tabla de LabSim (H10), no de Stapells; se separó la práctica del dato de la fuente (resumen de Stapells, 2000, en el ASHA Evidence Map: "ABR thresholds are, on average, 5.2 to 13.4 dB higher than their pure-tone behavioural thresholds in adults with SNHL"). -->
+- **Potencial cortical** (P1-N1-P2 con tonos): un umbral por frecuencia en el adulto despierto, que no tiene que responder con la mano, y es el estimador objetivo más cercano a lo conductual (→ H14). En 24 voluntarios el umbral cortical quedó en promedio 6,5 dB sobre el conductual, y tras corregir ese sesgo el 94 % de las estimaciones cayó a 15 dB o menos (Lightfoot y Kennedy, 2006). En 118 casos médico-legales, solo el 3,2 % de las diferencias entre lo que entregaba el paciente y el umbral cortical pasó de 15 dB en los casos orgánicos (Coles y Mason, 1984). La BSA (2022) lo acepta en adultos y niños mayores (no en lactantes) y pide que el paciente esté despierto y que se declare el sesgo que se restó. Su límite aquí: lleva más tiempo que el PEAT (unos 20 minutos para seis umbrales) y exige que el paciente se quede quieto y despierto.
 - **Estado estable** (ASSR): un umbral por frecuencia y por oído sin lectura de ondas (→ H13). En adultos con pérdida sensorioneural, los umbrales del ASSR múltiple quedaron, en promedio, 14, 8, 10 y 3 dB sobre los conductuales en 500, 1.000, 2.000 y 4.000 Hz, con desviaciones de 9 a 13 dB (Herdman y Stapells, 2003).
 - **Emisiones y reflejos** no entregan un umbral, pero acotan: una emisión presente en una banda descarta una pérdida coclear grande en esa banda, y el reflejo estapedial aparece muy por encima del umbral de un oído real, no pegado a él (→ H7, H9).
 
@@ -331,6 +332,17 @@ Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 H
 - @OI 80 V | El OI da lo mismo: la muesca de ruido es simétrica.
 :::
 
+:::figura cap34_exagera cortical
+- @OD Cz 60 N1 | A 60 dB nHL, N1 a 119 ms y P2 a 193 ms en el OD, el oído que dice no oír nada. El N1-P2 mide 6 µV en las dos réplicas: la respuesta está y se repite.
+- @OI Cz 60 N1 | El OI da lo mismo: N1 a 115 ms, P2 a 201 ms, N1-P2 de 7 µV en las dos réplicas.
+- @OD Cz 40 N1 | A 40 dB el OD conserva N1 (124 ms) y P2 (197 ms) en las dos réplicas, más chicos: 3,0 y 3,5 µV. Es el **umbral cortical**.
+- @OI Cz 40 N1 | El OI también: N1 a 127 ms y P2 a 191 ms, con 2,8 y 3,2 µV.
+- @OD Cz 30 | A 30 dB ninguna onda se repite entre las dos réplicas y las amplitudes (alrededor de 1 µV) están en el nivel del ruido: sin respuesta.
+- @OI Cz 20 | A 20 dB tampoco hay nada en el OI: el nivel de abajo sin respuesta que confirma el umbral.
+:::
+
+Con 500 barridos por curva, la búsqueda baja de 20 en 20 y sube de 10 en 10: 60 y 40 dB nHL con respuesta, 20 sin ella, 30 sin ella. El umbral cortical con tono de 1.000 Hz es de **40 dB nHL en los dos oídos**, 10 dB sobre el del PEAT con el mismo burst (30 dB nHL). Con la corrección de 15 dB que se usó para ese burst, 40 dB nHL son **25 dB eHL** (→ H10, H14): esa es la estimación objetiva del OD en 1.000 Hz, donde dijo 95 dB.
+
 Tabla: Umbrales del PEAT con burst por frecuencia (→ H10) y audiograma estimado (dB)
 
 | | 500 | 1.000 | 2.000 | 4.000 |
@@ -354,7 +366,7 @@ El informe dice la segunda fila, y dice por qué no la primera. Con ±5 dB en el
 :::docente Guía del caso
 - **Datos clave:** 24 años de cantera, audiometría de ingreso con caída de agudos, tronadura hace tres meses con otoscopía normal, trámite en curso, atiende a quien lo llama de espaldas.
 - **Hipótesis:** pérdida por ruido crónico con exageración (la más probable), trauma acústico agudo, pérdida inventada.
-- **Qué pedir:** audiometría con repeticiones y SRT; Stenger; reflejos; emisiones; PEAT con click y con burst; ASSR si hay. Aquí se pasa el umbral estimado al cálculo (→ H10, H13).
+- **Qué pedir:** audiometría con repeticiones y SRT; Stenger; reflejos; emisiones; PEAT con click y con burst; potencial cortical con tono (→ H14); ASSR si hay. Aquí se pasa el umbral estimado al cálculo (→ H10, H13).
 - **Errores esperables:** calcular el 60 % con lo informado; informar "normal" por las emisiones (en 3 y 4 kHz no pasan y hay pérdida real); escribir "simula".
 - **Para discutir en clases:** el informe en el apartado de resultados y en el de límites; qué se le dice a Ismael y qué a la mutual.
 :::
@@ -474,18 +486,18 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-Ismael tiene una pérdida real: la muesca de 70 dB en 4 kHz, bilateral y simétrica, con la audiometría de ingreso que ya la mostraba. Pero lo que entrega, 95 a 100 dB en el OD y 60 en el OI, no lo sostiene ninguna prueba objetiva. Las emisiones pasan en 1.000 Hz donde dice 95 dB; el reflejo aparece a 85 dB SPL; el PEAT con burst de 500 Hz tiene onda V a 40 dB nHL; el Stenger es positivo; y sus repeticiones varían 20 dB. Y una pérdida real por la tronadura no explicaría un patrón simétrico previo. El cálculo se hace con lo estimado, no con lo entregado.
+Ismael tiene una pérdida real: la muesca de 70 dB en 4 kHz, bilateral y simétrica, con la audiometría de ingreso que ya la mostraba. Pero lo que entrega, 95 a 100 dB en el OD y 60 en el OI, no lo sostiene ninguna prueba objetiva. Las emisiones pasan en 1.000 Hz donde dice 95 dB; el reflejo aparece a 85 dB SPL; el PEAT con burst de 500 Hz tiene onda V a 40 dB nHL; el potencial cortical con tono de 1.000 Hz responde hasta 40 dB nHL en los dos oídos; el Stenger es positivo; y sus repeticiones varían 20 dB. Y una pérdida real por la tronadura no explicaría un patrón simétrico previo. El cálculo se hace con lo estimado, no con lo entregado.
 
 #### Diagnóstico y qué sigue
 
-El informe del PEAT, con lo que mide y lo que concluye:
+El informe del PEAT y del potencial cortical, con lo que miden y lo que concluyen:
 
 :::comentario-ancho Informe de Ismael, 51 años (caso 34.1)
 **Motivo**: evaluación médico-legal. Refiere sordera total derecha tras una tronadura y poca audición en el izquierdo; sus respuestas en la audiometría no son consistentes (→ Resultados).
 
-**Registro**: click a 80, 60, 50 y 40 dB nHL; tone burst de 500 Hz (60, 40, 30 y 20 dB nHL, ventana de 20 ms), de 1.000 Hz (60, 40, 30 y 20, ventana de 15 ms), de 2.000 Hz (60, 50, 40 y 20) y de 4.000 Hz (100, 80, 70 y 60). Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, sin enmascaramiento contralateral. En reposo, con los ojos cerrados.
+**Registro**: click a 80, 60, 50 y 40 dB nHL; tone burst de 500 Hz (60, 40, 30 y 20 dB nHL, ventana de 20 ms), de 1.000 Hz (60, 40, 30 y 20, ventana de 15 ms), de 2.000 Hz (60, 50, 40 y 20) y de 4.000 Hz (100, 80, 70 y 60). Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, sin enmascaramiento contralateral. En reposo, con los ojos cerrados. Potencial cortical: tone burst de 1.000 Hz a 60, 40, 30 y 20 dB nHL, 1 estímulo/s, filtros de 1 a 30 Hz, 500 barridos por curva con réplica, canal Cz con referencia en el lóbulo, despierto y quieto, fonos de inserción.
 
-**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE). Para el cortical, rangos orientativos del adulto: N1 de 100 a 130 ms y P2 de 200 a 250 ms (BSA, 2022); no hay límites de amplitud fijados.
 
 | | OD | OI | Límite OD / OI |
 |---|---|---|---|
@@ -499,19 +511,22 @@ El informe del PEAT, con lo que mide y lo que concluye:
 | Umbral con burst de 1.000 Hz | 30 → 15 | 30 → 15 | |
 | Umbral con burst de 2.000 Hz | 50 → 40 | 50 → 40 | |
 | Umbral con burst de 4.000 Hz | 80 → 70 | 80 → 70 | |
+| Cortical a 60 dB nHL: N1 / P2 (ms) | 119 / 193 | 115 / 201 | N1 100 a 130 / P2 200 a 250 |
+| Cortical a 60 dB nHL: N1-P2 (µV, dos réplicas) | 6 y 6 | 7 y 7 | |
+| Umbral cortical con burst de 1.000 Hz (dB nHL → dB eHL) | 40 → 25 | 40 → 25 | PEAT con el mismo burst: 30 → 15 |
 
-**Morfología**: ondas III y V replicables en los dos oídos a 80 dB nHL; la onda I no se identifica.
+**Morfología**: ondas III y V replicables en los dos oídos a 80 dB nHL; la onda I no se identifica. Cortical: N1 y P2 replicables a 60 y 40 dB nHL en los dos oídos; a 30 y 20 dB, sin onda que se repita.
 
-**Interpretación**: latencias absolutas dentro de la norma, sin retraso del tronco; la III del OD queda a 0,01 ms del límite, menos que el error de lectura (0,05 ms). Sin onda I no se miden I-III ni I-V, y la III-V es normal. La ausencia de la I es lo esperable con una caída de agudos de 70 dB en 4 kHz, que es la zona que genera esa onda. La diferencia interaural de la V (0,37 ms) está en el borde del rango y no se interpreta: los dos oídos tienen la misma pérdida. Los umbrales por frecuencia caen de graves a agudos: casi normales en 500 y 1.000 Hz y 70 dB eHL en 4.000 Hz. Corrección a dB eHL con la tabla de adultos (→ H10); un umbral estimado es un rango de ±10 dB, no un punto.
+**Interpretación**: latencias absolutas dentro de la norma, sin retraso del tronco; la III del OD queda a 0,01 ms del límite, menos que el error de lectura (0,05 ms). Sin onda I no se miden I-III ni I-V, y la III-V es normal. La ausencia de la I es lo esperable con una caída de agudos de 70 dB en 4 kHz, que es la zona que genera esa onda. La diferencia interaural de la V (0,37 ms) está en el borde del rango y no se interpreta: los dos oídos tienen la misma pérdida. Los umbrales por frecuencia caen de graves a agudos: casi normales en 500 y 1.000 Hz y 70 dB eHL en 4.000 Hz. Corrección a dB eHL con la tabla de adultos (→ H10); un umbral estimado es un rango de ±10 dB, no un punto. El potencial cortical, que mira la llegada del sonido a la corteza y no depende de la respuesta del paciente, da una segunda estimación independiente en 1.000 Hz: respuesta hasta 40 dB nHL en los dos oídos. La P2 a 60 dB (193 ms en el OD, 201 en el OI) queda en el borde inferior del rango orientativo, que no es una norma. Entre el cortical (25 dB eHL) y el PEAT (15 dB eHL) hay 10 dB, dentro de lo que se describe para ambos métodos (Stapells, 2000; Lightfoot y Kennedy, 2006). La BSA (2022) estima el umbral tonal restando un sesgo de unos 5 dB y da un intervalo de 15 dB hacia abajo; aquí se usó la corrección del burst del PEAT, y con cualquiera de las dos el resultado queda muy lejos de 95 dB.
 
-**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral y simétrica, de aproximadamente 55 dB HL para el rango de 2 a 4 kHz. Umbrales estimados en dB eHL, con rango de ±10 dB: OD 500 Hz 10 (0 a 20), 1.000 Hz 15 (5 a 25), 2.000 Hz 40 (30 a 50), 4.000 Hz 70 (60 a 80); OI 10, 15, 40 y 70. Estos umbrales no son compatibles con la sordera derecha que refiere: en 500 Hz el PEAT da respuesta a un nivel que equivale a 10 dB eHL, y la audiometría entregó 95. Se adjunta audiometría.
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral y simétrica, de aproximadamente 55 dB HL para el rango de 2 a 4 kHz. Umbrales estimados en dB eHL, con rango de ±10 dB: OD 500 Hz 10 (0 a 20), 1.000 Hz 15 (5 a 25), 2.000 Hz 40 (30 a 50), 4.000 Hz 70 (60 a 80); OI 10, 15, 40 y 70. Estos umbrales no son compatibles con la sordera derecha que refiere: en 500 Hz el PEAT da respuesta a un nivel que equivale a 10 dB eHL, y la audiometría entregó 95. El potencial cortical lo confirma en 1.000 Hz: respuesta hasta 40 dB nHL (25 dB eHL) en los dos oídos, donde el OD entregó 95 dB. Se adjunta audiometría.
 
-**Recomendación**: para el cálculo del daño se usa el umbral estimado, con su rango (→ Diagnóstico). Se sugiere estado estable si se necesita otra estimación independiente.
+**Recomendación**: para el cálculo del daño se usa el umbral estimado, con su rango (→ Diagnóstico). El potencial cortical solo se midió en 1.000 Hz y confirma al PEAT en esa frecuencia; se sugiere estado estable si se necesita otra estimación independiente en las demás.
 :::
 
 El informe médico-legal incorpora esa estimación. Pérdida sensorioneural bilateral en agudos, compatible con exposición crónica a ruido, con respuestas conductuales mayores que el umbral objetivo. Se informa:
 
-> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 7,5 %, con un rango de 0 a 15 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
+> *Los umbrales conductuales obtenidos no son consistentes entre repeticiones (diferencias de 20 dB) ni con las pruebas objetivas (emisiones presentes en 1.000 Hz, reflejo a 85 dB SPL, umbral del PEAT con burst de 500 Hz entre 0 y 20 dB eHL, umbral cortical con tono de 1.000 Hz en 25 dB eHL) y el Stenger fue positivo en 500, 1.000 y 2.000 Hz. Para el cálculo se usó el umbral estimado por PEAT con burst. Con la fórmula de las Guías de la AMA (5.ª edición), el porcentaje binaural es de 7,5 %, con un rango de 0 a 15 % por oído según la dispersión del método. El patrón del audiograma es compatible con exposición a ruido; la calificación del origen laboral y de la incapacidad corresponde al médico y a la comisión.*
 
 :::comentario Comentario
 Un informe que diga "60 %" por lo entregado es un error, y uno que diga "normal" por las emisiones también. Escribir los dos hechos, la pérdida real y la discordancia, y dejar el cálculo con lo estimado, es más largo y es lo correcto.
@@ -608,6 +623,9 @@ Vigilancia, protección y epidemiología del ruido ocupacional: → cap. 33. Niv
 
 1. Sanfins MD, Santillo MEA, Martins MFP, Silva DLdS, Gos E, Skarzynski PH, Hall JW III. The influence of sex, ear, and age on auditory brainstem responses recorded with the NeuroAudio system. Diagnostics. 2026;16(7):971. doi:10.3390/diagnostics16070971
 1. British Society of Audiology. Recommended procedure: auditory brainstem response (ABR) testing for post-newborn and adult (OD104-84). BSA; 2019. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2022/09/ABR-post-newborn-and-Adult.pdf
+1. British Society of Audiology. Recommended procedure: cortical auditory evoked potential (CAEP) testing (OD104-40, v2). BSA; 2022. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-40-BSA-Recommended-Procedure-CAEP.pdf
+1. Lightfoot G, Kennedy V. Cortical electric response audiometry hearing threshold estimation: accuracy, speed, and the effects of stimulus presentation features. Ear Hear. 2006;27(5):443-56. doi:10.1097/01.aud.0000233902.53432.48. PMID 16957496
+1. Coles RR, Mason SM. The results of cortical electric response audiometry in medico-legal investigations. Br J Audiol. 1984;18(2):71-8. doi:10.3109/03005368409078932. PMID 6733319
 1. American Medical Association. Guides to the evaluation of permanent impairment. 5th ed. Cocchiarella L, Andersson GBJ, editors. Chicago: AMA; 2001. (Citada a través de: U.S. Department of Labor, Employees' Compensation Appeals Board. Decisión 04-0160, 2004. https://www.dol.gov/ecab/decisions/2004/Mar/04-0160.htm)
 1. American Medical Association. Guides to the evaluation of permanent impairment. 6th ed. Chicago: AMA; 2008. (Citada a través de: U.S. Department of Labor, Employees' Compensation Appeals Board. Decisión 17-1723, 20 de marzo de 2018. https://www.dol.gov/sites/dolgov/files/ecab/decisions/2018/Mar/17-1723.pdf)
 1. Superintendencia de Seguridad Social. Compendio de normas del seguro social de accidentes del trabajo y enfermedades profesionales, Libro IV, Título II, Letra F, Capítulo VIII. https://www.suseso.gob.cl/613/alt-propertyvalue-485138.pdf

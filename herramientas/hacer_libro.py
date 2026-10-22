@@ -311,6 +311,7 @@ NOMBRE_FIGURA = {
     'reflejos': 'Reflejos estapediales', 'teoae': 'Emisiones otoacústicas transitorias',
     'dpoae': 'Productos de distorsión', 'abr': 'Potenciales evocados auditivos de tronco',
     'ecochg': 'Electrococleografía', 'vemp': 'VEMP', 'campo_libre': 'Campo libre',
+    'cortical': 'Potenciales de latencia media y tardía',
 }
 ANTECEDENTES = {
     'hipoacusia_familiar': 'hipoacusia familiar', 'ototoxicos': 'ototóxicos', 'trauma_acustico': 'trauma acústico',

@@ -6,6 +6,7 @@
   },
   "edad": 44,
   "sexo": "hombre",
+  "central": "central_normal",
   "anamnesis": {
    "otros": "Tiene 44 años y trabaja de maestro de obra. Hace tres semanas, en la faena, le cayó una plancha de zinc desde un andamio y le pegó en el costado derecho de la cabeza; no perdió el conocimiento ni sangró por el oído. Desde ese día dice que \"no escucha nada\" por el oído derecho. Conversa en la consulta sin acercar la cabeza ni pedir que le repitan, aun cuando el entrevistador le habla a media voz desde su lado derecho. No tiene pitido, mareo ni dolor. Su empleador le pidió un certificado y la mutual lo derivó a evaluación auditiva.",
    "historia": "{{-21}} Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.\n{{-7}} Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.",
@@ -847,7 +848,7 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T01:44:56+00:00",
+   "at": "2026-10-22T12:56:26+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
@@ -857,6 +858,21 @@
    "rut": "14982287",
    "fecha_nac": "31-03-1982"
   },
-  "historia_clinica": "{{-21}} Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.\r\n{{-7}} Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva."
+  "historia_clinica": "{{-21}} Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.\r\n{{-7}} Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.",
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.45,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  }
  }
 }

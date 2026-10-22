@@ -123,6 +123,12 @@ def llenar_js(p):
       fijar(gr, grado[l]);
     }}
   }});
+  var central = {json.dumps(p.get('central'))};
+  if (central) {{
+    var sc = document.getElementById('armado-central');
+    if (!sc || ![].some.call(sc.options, function(o){{ return o.value === central; }})) {{ faltan.push('central:'+central); }}
+    else {{ fijar(sc, central); }}
+  }}
   if (faltan.length) {{ return 'NO: ' + faltan.join(', '); }}
   document.getElementById('perfil-generar').click();
   var an = {json.dumps(p.get('anamnesis') or {})};

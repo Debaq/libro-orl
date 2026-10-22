@@ -6,6 +6,7 @@
     },
     "edad": 44,
     "sexo": "hombre",
+    "central": "central_normal",
     "anamnesis": {
       "otros": "Tiene 44 años y trabaja de maestro de obra. Hace tres semanas, en la faena, le cayó una plancha de zinc desde un andamio y le pegó en el costado derecho de la cabeza; no perdió el conocimiento ni sangró por el oído. Desde ese día dice que \"no escucha nada\" por el oído derecho. Conversa en la consulta sin acercar la cabeza ni pedir que le repitan, aun cuando el entrevistador le habla a media voz desde su lado derecho. No tiene pitido, mareo ni dolor. Su empleador le pidió un certificado y la mutual lo derivó a evaluación auditiva.",
       "historia": "{{-21}} Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.\n{{-7}} Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.",
@@ -42,6 +43,18 @@
         "III",
         "V"
       ]
+    },
+    {
+      "tipo": "cortical",
+      "prueba": "CAEP",
+      "niveles": [
+        60,
+        40,
+        30,
+        20,
+        10
+      ],
+      "promediaciones": 500
     }
   ]
 }

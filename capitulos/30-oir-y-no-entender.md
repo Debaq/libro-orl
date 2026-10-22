@@ -6,6 +6,7 @@
 - Explicar por qué el rendimiento en estas pruebas se confunde con la audición periférica, la atención, la memoria y el lenguaje.
 - Reconocer en el adulto mayor los componentes de la dificultad para entender en ruido, y tratar la sinaptopatía como hipótesis y no como diagnóstico.
 - Decir con honestidad qué se puede esperar del entrenamiento auditivo y del resto del manejo.
+- Leer la latencia media, la P1, la P300 y la MMN contra la edad del paciente y saber qué aportan y qué no a una queja de procesamiento (→ H14).
 :::
 
 Un niño de nueve años al que "se le va" lo que dice la profesora cuando hay ruido en la sala. Una mujer de setenta y uno que dejó de ir a los almuerzos familiares porque "oigo, pero no entiendo". Una niña de siete años a la que la escuela describe como distraída. Los tres llegan con la misma frase y la misma sospecha: un problema de procesamiento auditivo. Es la frase más fácil de pronunciar y la más difícil de sostener. Este capítulo trata de qué se puede afirmar con una batería de pruebas centrales, qué no, y qué hacer cuando la respuesta honesta es "es un perfil, no una causa".
@@ -42,6 +43,26 @@ Esa precaución no es timidez. Una prueba central no mide solo una vía: mide un
 
 :::imagen ilustraciones/cap30-que-mide-el-puntaje.svg ancho=96% El puntaje de una prueba central suma cinco cosas, y solo una es la que se quiere medir. Un puntaje bajo no dice cuál falló: las otras cuatro son confusores que hay que cerrar o describir.
 :::
+
+### Cuando la conducta no alcanza: latencia media y tardía
+
+Los potenciales de latencia media y tardía (→ H14) responden sin que el paciente tenga que repetir una palabra, y por eso sirven cuando la conducta no se puede obtener, no es concluyente o no muestra un patrón. La guía de la AAA (2010) los deja ahí: **no se piden de rutina** en el diagnóstico de un trastorno de procesamiento, y pueden salir normales porque los déficits son difusos. Cómo se registran está en H14; aquí interesa qué se pide y contra qué se lee.
+
+Tabla: Qué pregunta responde cada registro y contra qué se lee
+
+| Registro | Qué mira | Contra qué se lee |
+|---|---|---|
+| **MLR** (Na, Pa, Nb, Pb) en C3, Cz y C4 | Si la vía tálamo-cortical responde igual en los dos hemisferios | Lados entre sí en el mismo paciente: **efecto electrodo** (C3 contra C4) y **efecto oído**; la madurez de la edad, hasta unos 10 años (McGee y Kraus, 1996) |
+| **CAEP** (P1, N1, P2) | Si el sonido llega a la corteza y cuánto ha madurado la vía | La latencia de la **P1 contra la edad**: baja con los años (Sharma y cols., 2002) |
+| **P300** | Que el paciente atienda y clasifique el sonido raro | Latencia de su edad: el envejecimiento normal la alarga unos 65 ms entre los 20 y los 70 años (Polich y cols., 1985) |
+| **MMN** | Si la corteza distingue dos sonidos sin que el paciente atienda | Presencia, latencia (150 a 250 ms) y que se repita en dos registros |
+
+Cuatro reglas para no pedirles lo que no dan:
+
+- **Un registro normal no descarta el trastorno.** Los déficits pueden ser difusos y no alterar la respuesta (AAA, 2010).
+- **Un registro alterado no dice la causa.** Orienta a una región o a un retardo de maduración, y se cruza con la conducta, nunca solo.
+- **La MMN no es confiable en un solo paciente**: en la literatura tiene baja confiabilidad y poco poder estadístico (Bishop, 2007). Se informa solo si se repite.
+- **La P1 de un niño con oído medio alterado se interpreta con cuidado**: el sonido llega atenuado a la cóclea. Se registra con un nivel que supere la pérdida conductiva y se anota.
 
 ### Manejo y entrenamiento auditivo
 
@@ -142,6 +163,8 @@ Por eso cada prueba central "ensucia" al medir: lo que sale es lo que logra esa 
 ### La edad cambia la cadena entera
 
 En el adulto mayor se suman efectos en todas las capas: menos audibilidad en agudos, peor resolución coclear, menor precisión temporal en el tronco (Anderson y cols., 2012), una dificultad en ruido que persiste en el adulto mayor aun con buena audibilidad y buena cognición, y que apunta a la resolución temporal de la vía central (Frisina y Frisina, 1997), y menos recursos cognitivos para compensar. <!-- Pasada de fundamentos 2026-10-18: decía "pérdida de inhibición en la vía central, que se ha relacionado con la caída del habla en ruido (Frisina y Frisina, 1997)". Frisina 1997 no habla de inhibición: "When audibility and cognitive functioning were not affected, the demonstrated speech-recognition in-noise dysfunction remained in old subjects. This implicates auditory brainstem or auditory cortex temporal-resolution dysfunctions". --> Cuánto pesa cada capa en una persona concreta no se puede separar con una sola prueba. Lo que sí se puede es describir qué parte de la dificultad se explica por el audiograma y qué parte queda sin explicar.
+
+**Los potenciales lo muestran.** La latencia de la P1 cortical baja con la edad: la regresión de Sharma y cols. (2002), en 136 normoyentes de 0,1 a 20 años, es 155,6 − 32,746 · ln(edad) ms, que da unos 92 ms a los 7 años y 84 ms a los 9. El Pa del MLR madura hacia los 10 años (Kraus y cols., 1985; McGee y Kraus, 1996). En el otro extremo, la P300 se alarga unos 65 ms entre los 20 y los 70 años (Polich y cols., 1985). Por eso estos registros se leen siempre contra la edad: la misma onda puede ser normal a los 71 años y tardía a los 25.
 
 ## Patología
 
@@ -246,12 +269,12 @@ Antes de cualquier prueba central, ¿qué debe estar cerrado? Y si lo está, ¿q
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=100% Audiometría de Alejandro: umbrales en 0 dB y discriminación de 100 %.
+:::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=100% Audiometría de Juan: umbrales en 0 dB y discriminación de 100 %.
 :::
 
 Umbrales en **0 dB** en todas las frecuencias, en los dos oídos, sin pérdida de agudos que quite consonantes: la queja no se explica por el umbral. SDT de −5 dB y SRT de 0 dB, y la discriminación llega a **100 %** desde los 30 dB HL. En silencio, entiende.
 
-:::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=100% Impedanciometría de Alejandro.
+:::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=100% Impedanciometría de Juan.
 :::
 
 Curva A en los dos oídos: el oído medio está sano, y los reflejos están presentes de 85 a 95 dB SPL.
@@ -266,7 +289,7 @@ Curva A en los dos oídos: el oído medio está sano, y los reflejos están pres
 
 Con la periferia cerrada, se hace una batería corta (el z supone una norma de cada versión).
 
-Tabla: Alejandro · batería de procesamiento central
+Tabla: Juan · batería de procesamiento central
 
 | Proceso | Prueba | Resultado | z |
 |---|---|---|---|
@@ -276,7 +299,7 @@ Tabla: Alejandro · batería de procesamiento central
 | Resolución temporal | GIN | umbral de 7 ms (OD) y 8 ms (OI) | −1,6 |
 | Habla en ruido | Matrix en español, SNR de 50 % | −4,6 dB | −0,6 |
 
-:::imagen ilustraciones/cap30-perfil-nino.svg ancho=96% Perfil de rendimiento de Alejandro, en desviaciones estándar respecto de la norma de cada versión. La banda rosada marca lo que cae bajo 2 DE: fíjate en que no cae todo el perfil, sino el OI en dígitos dicóticos y el patrón de frecuencia.
+:::imagen ilustraciones/cap30-perfil-nino.svg ancho=96% Perfil de rendimiento de Juan, en desviaciones estándar respecto de la norma de cada versión. La banda rosada marca lo que cae bajo 2 DE: fíjate en que no cae todo el perfil, sino el OI en dígitos dicóticos y el patrón de frecuencia.
 - @39,34 | Un solo oído bajo la banda: el **OI en dígitos dicóticos**, con el OD normal. Es una diferencia entre oídos, no una pérdida general.
 - @41,44 | El **patrón de frecuencia** también cae. Cruzar dos pruebas que exigen cosas distintas es lo que da peso.
 - @77,60 | Habla en ruido, gaps y duración dentro de lo esperable: el perfil es **parcial**, no global.
@@ -284,9 +307,36 @@ Tabla: Alejandro · batería de procesamiento central
 
 Durante la prueba, atendió bien las cuatro, sin cansarse. Las evaluaciones de otros profesionales, que trajo la familia, dicen: lenguaje comprensivo y expresivo en rango esperado; conciencia fonológica algo baja para la edad; atención sin hallazgos; capacidad cognitiva en rango medio.
 
+Con la periferia cerrada y la queja documentada, se agregan los potenciales de latencia media y tardía (→ H14). No reemplazan la batería: dan una medida que no depende de que él responda.
+
+:::imagen figuras/salida/cap30_nino_tpa_cortical.svg ancho=100% MLR de Juan con click a 70 dB nHL, C3, Cz y C4 (dos réplicas por canal). Mira si la Pa está en las dos réplicas y si el tamaño de Na-Pa es parecido entre C3 y C4.
+- @23.6,10.7 | **Pa** a 29 ms en C3 y a 32 ms en Cz y C4, en las dos réplicas: dentro de la ventana de 25 a 40 ms.
+- @19.6,62.0 | **Na** a 17 ms, la misma en los tres canales. La barra de escala es de 1 µV: por eso los trazos se ven más ruidosos que los tardíos.
+- @63.4,29.6 | La Na del OI en C3 es débil (21 ms en una réplica y 14 en la otra): no se mide.
+- @66.0,59.7 | **Na-Pa** de 0,9 µV en C3 y 1,1 µV en C4 con el oído izquierdo: 20 % de diferencia entre lados, sin un patrón de hemisferio.
+:::
+
+El MLR salió dentro de lo esperado y **simétrico**: Na entre 17 y 18 ms y Pa entre 28 y 33 ms (con la Na del OI en C3 débil), Na-Pa de 1,4 µV en C3 y en C4 con el oído derecho y de 0,9 y 1,1 µV con el izquierdo. Sin efecto electrodo; el efecto oído es de 36 % en C3 y de 21 % en C4, sin sostenerse. La vía tálamo-cortical responde, y eso es compatible con un trastorno de procesamiento, porque los déficits suelen ser difusos (AAA, 2010).
+
+:::imagen figuras/salida/cap30_nino_tpa_cortical_2.svg ancho=100% P300 de Juan en Pz, con el estímulo frecuente en gris. Mira si la onda positiva grande aparece en las dos réplicas y en qué milisegundo.
+- @31.5,5.4 | **P3** de 388 ms. La onda es ancha (de 360 a 460 ms), en las dos réplicas.
+- @26.5,34.1 | Solo la P3 se mide: P2 y N2 no se identifican en las dos réplicas.
+- @75.6,4.7 | **P3** de 423 ms sobre el promedio; las réplicas la dan a 431 y a 367 ms. La dispersión (64 ms) es mayor que la diferencia entre oídos.
+:::
+
+La **P300** aparece en los dos oídos, con amplitud grande (de unos 8 a 13 µV) y latencia de 388 ms (OD) y 423 ms (OI): en el borde alto y sobre el rango típico del adulto de 300 a 400 ms (Duncan y cols., 2009). Para los 9 años no hay en este libro una norma con fuente, así que la latencia se describe y no se gradúa. Hizo bien la tarea (contó los raros).
+
+:::imagen figuras/salida/cap30_nino_tpa_cortical_3.svg ancho=100% MMN de Juan en Fz (diferencia raro menos frecuente; los promedios, en gris). Mira si la negatividad entre 150 y 250 ms está en las dos réplicas.
+- @69.2,71.0 | **MMN** a 181 ms, en las dos réplicas (−1,9 y −1,7 µV, a 184 y 178 ms): dentro de los 150 a 250 ms y de 0,5 a 5 µV.
+- @26.5,56.9 | En el OD una réplica tiene la MMN (−4,0 µV a 173 ms) y la otra casi no (−0,7 µV): no se repite, no se rotula y queda no concluyente.
+:::
+
+La **MMN** es repetible en el OI y no concluyente en el OD. Con una confiabilidad individual baja (Bishop, 2007), una MMN dudosa no se usa ni a favor ni en contra: se dice que no se repitió.
+
 :::docente Guía del caso
 - **Datos clave:** 9 años, audiometría y oído medio normales, mala escucha en la sala y en el recreo, mejor en lo visual; evaluaciones de lenguaje y atención sin hallazgos importantes.
 - **Lo que enseña:** es el caso **limpio**, el que cumple los criterios de las guías (rendimiento bajo en dos pruebas, con queja documentada y periferia normal). Aun así el perfil es **parcial** (un oído, una prueba de secuencia) y la conciencia fonológica algo baja impide separar "procesamiento auditivo" de "procesamiento fonológico". Es el caso en que se escribe con cuidado.
+- **Potenciales:** MLR simétrico y dentro de lo esperable, P300 en el borde alto y MMN que se repite solo en un oído. Es lo que dice la AAA (2010): normales o apenas alterados en muchos casos, y no deciden el diagnóstico. No se usan para "confirmar" el perfil.
 - **Qué pedir:** lo periférico, cuestionario de conducta de escucha a la familia y al docente, batería corta que cubra procesos distintos (→ H15).
 - **Errores esperables:** llamarlo "trastorno de procesamiento auditivo" con una causa; olvidar escribir lo que no se pudo descartar; prometer que el entrenamiento lo resolverá.
 :::
@@ -307,19 +357,19 @@ Con la queja de ruido y un audiograma que no parece suficiente para explicarla, 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=100% Audiometría de Daniela: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.
+:::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=100% Audiometría de Sara: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.
 :::
 
 En las frecuencias de la voz la pérdida es **leve**: 20 dB en 1 kHz. Hay una **caída en agudos**: 40 dB en 4 kHz y 55 dB en 8 kHz, donde están las consonantes. El OI es parecido, 45 dB en 4 kHz: bilateral y simétrica. SDT de 10 dB y SRT de 15 dB. En silencio, a nivel cómodo, entiende **92 %** (OD) y 96 % (OI): el silencio no revela el problema. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 dB en 4 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=100% Impedanciometría de Daniela.
+:::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=100% Impedanciometría de Sara.
 :::
 
 Los reflejos están presentes en los dos oídos, en niveles esperables: sin signos de lesión retrococlear.
 
 Se completa con pruebas de la lengua y de la edad de la paciente.
 
-Tabla: Daniela · habla en ruido y pruebas centrales
+Tabla: Sara · habla en ruido y pruebas centrales
 
 | Proceso | Prueba | Resultado | z (norma de su edad) |
 |---|---|---|---|
@@ -328,7 +378,7 @@ Tabla: Daniela · habla en ruido y pruebas centrales
 | Resolución temporal | GIN | umbral de 8 ms | −1,2 |
 | Secuencia temporal | Patrón de duración, nombrado | 66 % | −1,4 |
 
-:::imagen ilustraciones/cap30-perfil-mayor.svg ancho=96% Perfil de rendimiento de Daniela contra normas de su edad. Bajo la banda de 2 DE quedan el OI en dígitos dicóticos y el habla en ruido, la prueba más parecida a su queja; lo temporal está dentro de su rango.
+:::imagen ilustraciones/cap30-perfil-mayor.svg ancho=96% Perfil de rendimiento de Sara contra normas de su edad. Bajo la banda de 2 DE quedan el OI en dígitos dicóticos y el habla en ruido, la prueba más parecida a su queja; lo temporal está dentro de su rango.
 - @40,36 | El **oído izquierdo en dígitos dicóticos** queda bajo 2 DE. La ventaja del oído derecho es habitual con la edad; lo que pesa es la distancia respecto de su grupo.
 - @44,73 | El **habla en ruido** también queda bajo la banda: es la prueba más parecida a la queja.
 - @66,50 | Gaps y patrón de duración están dentro del rango de su edad: no hay un déficit temporal global.
@@ -336,9 +386,28 @@ Tabla: Daniela · habla en ruido y pruebas centrales
 
 El médico de cabecera, al que se derivó para un tamizaje cognitivo, aún no tiene el resultado.
 
+Como la queja es de ruido y el médico espera un tamizaje cognitivo, se agregan los potenciales corticales (→ H14) para ver qué hace la edad sola.
+
+:::imagen figuras/salida/cap30_mayor_ruido_cortical.svg ancho=100% CAEP de Sara en Cz con burst de 1 kHz a 70 dB nHL. Mira P1, N1 y P2 en las dos réplicas y compara los dos oídos.
+- @22.0,74.1 | **N1** a 114 ms en el OD y 115 ms en el OI.
+- @27.6,16.0 | **P2** a 190 ms y 192 ms. La BSA (2022) da de 200 a 250 ms como rango típico del adulto: está 10 ms bajo, y el rango es orientativo, no un límite.
+- @61.4,30.7 | **P1** a 76 ms en el OI, en las dos réplicas. En el OD no se identifica en las dos réplicas y no se rotula.
+:::
+
+Los **corticales obligatorios** son claros y se repiten: N1 a 114 y 115 ms, P2 a 190 y 192 ms, P1 a 76 ms en el OI (en el OD no se identifica en las dos réplicas), con N1-P2 de unos 9 a 10 µV en el OD y de 7 a 8 µV en el OI. El sonido llega a la corteza y la respuesta tiene la forma y los tiempos de un adulto.
+
+:::imagen figuras/salida/cap30_mayor_ruido_cortical_2.svg ancho=100% P300 de Sara en Pz, con el estímulo frecuente en gris. Mira la onda positiva ancha hacia los 350 ms y si se repite en las réplicas.
+- @29.2,12.1 | **P3** a 338 ms, en las dos réplicas (336 y 348 ms).
+- @72.3,25.4 | **P3** a 357 ms, ancha: la réplica baja la tiene a 359 ms y la alta a 318 ms. Los demás componentes del OI no están en las dos réplicas.
+- @23.9,62.6 | La N2 de 223 ms (OD) es parte de la misma secuencia; no se mide.
+:::
+
+La **P300** está en los dos oídos, con 338 ms (OD) y 357 ms (OI), amplitud de 5 a 8 µV y la tarea bien hecha. Cae dentro del rango típico del adulto (de 300 a 400 ms, Duncan y cols., 2009), y el envejecimiento normal la alarga unos 65 ms entre los 20 y los 70 años (Polich y cols., 1985): a los 71 años, esa latencia es lo que se espera de la edad y no muestra un retardo extra.
+
 :::docente Guía del caso
 - **Datos clave:** 71 años, dificultad para entender en grupos y en lugares ruidosos, bien en silencio y por teléfono; empezó gradual; sin vértigo ni asimetría; audiograma con caída en agudos leve a moderada, simétrico.
 - **Lo que enseña:** un audiograma "leve" no es "normal". La caída en agudos y la distorsión coclear explican una parte; el resultado en ruido está más bajo que lo que predice el audiograma, y el oído izquierdo en lo dicótico y el tamizaje cognitivo pendiente dejan abierto el componente central y cognitivo. **No** es un caso de sinaptopatía: tiene pérdida en agudos que explica la caída, y esa hipótesis requiere audiograma normal y no tiene prueba clínica.
+- **Potenciales:** corticales y P300 sin lesión de la vía, con la latencia que corresponde a la edad. Se dejan así a propósito: la anamnesis sugiere un posible componente cognitivo, pero el tamizaje está pendiente, y un cuadro de P300 prolongada y de menor amplitud (como el del deterioro cognitivo, Polich, 2007) habría resuelto una pregunta que el caso deja abierta. Una P300 normal para la edad tampoco descarta un problema cognitivo leve.
 - **Qué pedir:** logoaudiometría, habla en ruido con material en español (→ H15), una prueba dicótica con normas de su edad y tamizaje cognitivo con el médico.
 - **Errores esperables:** "es solo la edad"; atribuir el cuadro a "pérdida oculta"; omitir el audífono con micrófono direccional y las estrategias; aplicar normas de adulto joven.
 :::
@@ -359,12 +428,12 @@ Plantea al menos tres causas posibles para una niña de 7 años que parece distr
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=100% Audiometría de Pilar: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.
+:::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=100% Audiometría de Natalia: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.
 :::
 
 La aérea está en **40 dB** en 500 Hz con la ósea en 15 dB: un **gap de 25 dB** en graves, pérdida conductiva. En agudos está normal (10 dB): la niña oye los agudos y pierde los graves. El OI tiene el mismo patrón y algo más: 55 dB por aérea y 25 por ósea, un **gap de 30 dB**. SDT de 15 y 20 dB y SRT de 20 y 25 dB. La discriminación llega a **100 %**, pero recién a los 60 dB en el OD y los 70 en el OI: necesita más volumen para entender, no tiene un problema de claridad.
 
-:::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=100% Impedanciometría de Pilar.
+:::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=100% Impedanciometría de Natalia.
 :::
 
 Curva **C** en los dos oídos, con presión negativa en el oído medio: −188 daPa en el OD, muy aplanada, y −161 en el OI.
@@ -373,7 +442,7 @@ No hay reflejos en ninguna combinación, ipsi ni contra: es lo esperable con una
 
 Si se hubiera hecho la batería central igual, ese día los resultados habrían sido estos.
 
-Tabla: Pilar · batería hecha con el oído medio alterado
+Tabla: Natalia · batería hecha con el oído medio alterado
 
 | Proceso | Prueba | Resultado | z |
 |---|---|---|---|
@@ -384,9 +453,24 @@ Tabla: Pilar · batería hecha con el oído medio alterado
 
 Observaciones durante la prueba: se fatigó y perdió la atención hacia el final de cada prueba; respondió "sí" en 4 de los 10 intervalos sin silencio del GIN.
 
+Lo que sí se puede registrar ese día, sin interpretar la batería, es la respuesta cortical: dice si el sonido llega a la corteza con los tiempos de su edad (→ H14). Se hace con un burst de 1 kHz a 70 dB nHL, un nivel que supera con holgura la pérdida conductiva en esa frecuencia (aérea de 15 a 20 dB, ósea normal).
+
+:::imagen figuras/salida/cap30_nino_otitis_cortical.svg ancho=100% CAEP de Natalia en Cz a 70 dB nHL. Mira la primera positividad (P1) y si está en las dos réplicas de cada oído.
+- @23.2,24.9 | **P1** a 110 ms en las dos réplicas (una tiene además un hombro a 82 ms). La regresión da 92 ms a los 7 años: está 18 ms sobre la media y en el margen alto de su edad.
+- @66.2,28.2 | En el OI la P1 (121 ms) está en una réplica y la otra no la muestra: no se rotula, **no concluyente**, se repite.
+- @35.8,70.8 | La negatividad que sigue, hacia los 310 ms, es la **N2** del niño, en las dos réplicas. A los 7 años la N1 y la P2 del adulto todavía no se separan: la respuesta del niño es P1 y N2 (Sharma y cols., 1997).
+:::
+
+La **P1** del OD está a 110 ms y se repite; la del OI no se puede leer. La media de su edad, 92 ms (Sharma y cols., 2002), deja al OD 18 ms sobre la media. El trabajo de Sharma muestra una dispersión amplia alrededor de la recta a esta edad, y el libro no cuenta con su intervalo numérico, de modo que se la informa como **de la edad, en el margen alto**, no como retardada. Meses de oír mal por el oído medio no dejaron aquí una huella medible en la P1 del OD (el OI no se pudo leer): es lo que se vio, no lo que se esperaba por la historia.
+
+:::comentario Qué habría mostrado una huella
+Una P1 repetible y **claramente tardía** para la edad (muy sobre la recta de Sharma y cols., 2002), sola o con menor amplitud, en un niño con el oído medio ya resuelto. Los niños con implante privados de sonido por 7 años o más tuvieron P1 anormal (Sharma y cols., 2002); esa es una privación completa y no equivale a una otitis fluctuante. Con otitis, la huella publicada es binaural y conductual (Moore y cols., 1999; Hogan y Moore, 2003), no un retardo de la P1.
+:::
+
 :::docente Guía del caso
 - **Datos clave:** 7 años, resfríos frecuentes, ronquido y respiración bucal, empeora en invierno, pide repetir y sube el volumen del televisor; la escuela sospecha un trastorno de procesamiento.
 - **Lo que enseña:** el puntaje bajo **en todas las pruebas, en los dos oídos**, con falsas alarmas y fatiga al final, es lo que da una pérdida conductiva y una atención corta, no un perfil de procesamiento. Con curva C y gap de graves, la batería no se interpreta (→ H15). Primero se trata o se controla el oído medio, se repite el audiograma y se reevalúa.
+- **Potenciales:** la P1 de la edad (en el margen alto en el OD y no concluyente en el OI) muestra que la vía llega a la corteza; no apoya un "problema central" y no justifica la batería. Un registro normal no impide tratar el oído.
 - **Qué pedir:** derivación a otorrinolaringología; control audiométrico y timpanométrico en semanas a meses; cuestionario de atención y lenguaje; si el cuadro persiste con el oído medio normal, recién ahí una batería, con edad de desarrollo suficiente.
 - **Errores esperables:** hacer la batería y llamar "central" al resultado; dar de alta por "audición normal en agudos"; olvidar mirar atención y lenguaje cuando el oído medio ya esté normal.
 :::
@@ -407,6 +491,36 @@ Audición periférica normal y perfil de rendimiento bajo en escucha dicótica (
 
 > Audiometría tonal, logoaudiometría, timpanometría y emisiones normales. En la batería de procesamiento central (versiones y normas indicadas) el rendimiento fue bajo (más de 2 DE bajo la media de su edad) en la escucha dicótica del oído izquierdo y en el patrón de frecuencia; fue esperable en habla en ruido, detección de gaps y patrón de duración. La atención durante las pruebas fue adecuada. El perfil es compatible con una dificultad de procesamiento auditivo; no permite precisar su causa y no se puede separar de la conciencia fonológica algo baja descrita por fonoaudiología. Se sugiere evaluación en equipo (fonoaudiología, psicopedagogía), adaptaciones en el aula (primera fila, instrucciones por escrito, sala con poco ruido) y reevaluación en 6 a 12 meses.
 
+:::comentario-ancho Informe de Juan, 9 años (caso 30.1)
+**Motivo**: queja de escucha en la sala y en el recreo, con audición periférica normal; evaluación de la vía central como complemento de la batería conductual.
+
+**Registro**: MLR con click a 70 dB nHL, 7,1/s, filtro de 10 a 300 Hz, 1.000 barridos, ventana de 100 ms, C3, Cz y C4 con referencia en los lóbulos, cada oído por separado. P300 con burst de 1 kHz frecuente y 2 kHz raro (80/20), 1/s, 0,5 a 30 Hz, 250 barridos, Pz, contando los raros. MMN con el mismo oddball a 1,5/s, 1 a 30 Hz, 2.000 barridos, Fz, viendo un video sin sonido. Despierto y colaborador; fonos de inserción.
+
+**Referencia**: MLR, valores típicos del adulto (Na ~18 ms, Pa de 25 a 40, Pb de 45 a 65) con la salvedad de que la vía madura hasta unos 10 años (McGee y Kraus, 1996); P300 de 300 a 400 ms y MMN de 150 a 250 ms (Duncan y cols., 2009). No hay norma con fuente para P300 a los 9 años.
+
+| | OD C3 | OD Cz | OD C4 | OI C3 | OI Cz | OI C4 |
+|---|---|---|---|---|---|---|
+| Na (ms) | 18,0 | 17,0 | 17,4 | 21,4 (débil) | 17,8 | 18,0 |
+| Pa (ms) | 28,6 | 32,6 | 32,4 | 31,2 | 31,0 | 28,2 |
+| Pb (ms) | 52,0 | 48,8 | 52,2 | 59,2 | 57,2 | 57,4 |
+| Na-Pa (µV) | 1,4 | 1,6 | 1,4 | 0,9 | 1,4 | 1,1 |
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Efecto electrodo (C3 contra C4) | 0 % | 20 % | sin corte validado |
+| Efecto oído (OI contra OD) | C3 36 %, C4 21 % | | sin corte validado |
+| P300 (Pz, ms) | 388 | 423 | 300 a 400 |
+| MMN (Fz, ms) | 174, no repetible | 181, repetible (−1,8 µV) | 150 a 250 |
+
+**Morfología y replicabilidad**: Pa presente y repetida en todos los canales de los dos oídos; Na del OI en C3 débil. P300 en los dos oídos, ancha; en el OI las réplicas difieren en 64 ms. MMN repetible en el OI y no concluyente en el OD.
+
+**Interpretación**: MLR simétrico, sin efecto electrodo ni efecto oído sostenido: no hay signos de compromiso tálamo-cortical focal. La P300 está en el borde alto o sobre el rango del adulto; sin norma de su edad, se describe y no se gradúa. Una MMN que se repite en un oído solo tiene valor limitado por la baja confiabilidad individual de la prueba (Bishop, 2007).
+
+**Conclusión**: potenciales de latencia media sin alteración focal; P300 de latencia en el límite alto; MMN no concluyente. Estos registros no confirman ni descartan un trastorno de procesamiento auditivo (AAA, 2010).
+
+**Recomendación**: interpretar junto con la batería conductual y la evaluación de lenguaje; reevaluar en 6 a 12 meses, con la edad como referencia.
+:::
+
 :::comentario Comentario
 Lo que hace honesto este informe es lo que dice de los límites. Si la familia pregunta "¿se cura?", se responde con lo que se sabe: el entrenamiento mejora lo entrenado; las adaptaciones del aula se aplican desde hoy; y la reevaluación dirá si el perfil madura con la edad.
 :::
@@ -421,6 +535,30 @@ El audiograma explica una parte: caída en agudos simétrica, y por eso en silen
 
 Hipoacusia sensorioneural bilateral simétrica leve a moderada, de agudos, con dificultad para entender habla en ruido mayor que la esperable por el audiograma. Se recomienda evaluar audífonos con micrófono direccional y accesorios de micrófono remoto (→ cap. 28), comunicación (sentarse de frente, reducir el ruido), tamizaje cognitivo con el médico, y reevaluar el habla en ruido ya con la ayuda puesta. Si se ofrece entrenamiento, se explica que mejora la tarea entrenada y que la transferencia a la vida diaria no está demostrada (Henshaw y Ferguson, 2013).
 
+:::comentario-ancho Informe de Sara, 71 años (caso 30.2)
+**Motivo**: dificultad para entender en ruido con audiograma de caída leve en agudos; tamizaje cognitivo pendiente.
+
+**Registro**: CAEP con burst de 1 kHz a 70 dB nHL, 1/s, 1 a 30 Hz, 150 barridos, Cz. P300 con burst de 1 kHz frecuente y 2 kHz raro (80/20), 1/s, 0,5 a 30 Hz, 250 barridos, Pz, contando los raros. Referencia en los lóbulos; fonos de inserción; despierta y colaboradora.
+
+**Referencia**: adulto (BSA, 2022): P1 de 50 a 70 ms, N1 de 100 a 130, P2 de 200 a 250 (orientativos); P300 de 300 a 400 ms (Duncan y cols., 2009), con +65 ms entre los 20 y los 70 años (Polich y cols., 1985).
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| P1 (ms) | no identificada en las dos réplicas | 76 | 50 a 70 |
+| N1 (ms) | 114 | 115 | 100 a 130 |
+| P2 (ms) | 190 | 192 | 200 a 250 |
+| N1-P2 (µV) | 9 a 10 | 7 a 8 | |
+| P3 (ms) | 338 | 357 | 300 a 400 |
+
+**Morfología y replicabilidad**: N1 y P2 claros y repetidos en los dos oídos; P1 repetida solo en el OI. P3 presente y repetida en el OD; en el OI, ancha y con réplicas distintas (318 y 359 ms) en el OI.
+
+**Interpretación**: el sonido llega a la corteza con latencias y amplitudes de un adulto. La P3 tiene la latencia que se espera de su edad y no muestra prolongación ni pérdida de amplitud. P1 del OI 6 ms sobre el rango y P2 10 ms bajo el rango, ambos orientativos y sin significado clínico. No hay signos de lesión de la vía en estos registros.
+
+**Conclusión**: potenciales corticales y P300 sin alteración para la edad. No descartan un componente cognitivo leve ni central en la dificultad en ruido.
+
+**Recomendación**: completar con el tamizaje cognitivo y la evaluación audiológica de habla en ruido; los potenciales no cambian el manejo: audífonos con micrófono direccional y estrategias de comunicación.
+:::
+
 :::ojo Ojo clínico
 "Tiene una pérdida oculta" no se dice. La sinaptopatía es una hipótesis con buena base animal; en una persona, hoy, no hay prueba clínica validada que la separe de las otras causas.
 :::
@@ -434,6 +572,28 @@ La niña **oye menos** en graves (gap de 25 a 30 dB en 500 Hz, con la ósea cerc
 #### Diagnóstico y qué sigue
 
 Hipoacusia conductiva bilateral leve de graves, de origen del oído medio. Se deriva a otorrinolaringología. Las guías de otitis media con efusión proponen vigilar durante tres meses cuando no hay riesgo y considerar tubos de ventilación en los niños con efusión bilateral persistente y dificultades de audición documentadas (Rosenfeld y cols., 2016). Se repite la audiometría y la timpanometría con el oído medio resuelto. Si la dificultad de escucha persiste con el oído medio normal, recién ahí se piensa en la batería (a los 7 años, con cautela), y se pide la evaluación de atención y lenguaje que falta.
+
+:::comentario-ancho Informe de Natalia, 7 años (caso 30.3)
+**Motivo**: sospecha de problema de procesamiento por la escuela; pérdida conductiva documentada en el mismo día.
+
+**Registro**: CAEP con burst de 1 kHz a 70 dB nHL, 1/s, 1 a 30 Hz, 150 barridos, Cz, referencia en los lóbulos; fonos de inserción; despierta. El nivel supera la pérdida conductiva en 1 kHz (aérea de 15 a 20 dB, ósea normal).
+
+**Referencia**: latencia de la P1 por edad, 155,6 − 32,746 · ln(edad) = 92 ms a los 7 años (Sharma y cols., 2002). La N1 como componente separado no se espera a esta edad (Sharma y cols., 1997).
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| P1 (ms) | 110 | 121, no repetible | 92 (media) |
+| N1 | no se mide | no se mide | no se espera |
+| N2 | 309 | no se identifica en las dos réplicas | la respuesta del niño |
+
+**Morfología y replicabilidad**: P1 repetida en las dos réplicas del OD, con un hombro a 82 ms en una; en el OI aparece en una réplica y la otra no la muestra.
+
+**Interpretación**: P1 del OD de la edad, en el margen alto; P1 del OI no concluyente. Sin retardo claro de la maduración de la vía. Hallazgo a mirar con el oído medio ya resuelto: las latencias de un registro con pérdida conductiva pueden alargarse.
+
+**Conclusión**: respuesta cortical presente en el OD con latencia compatible con la edad; OI no concluyente. No hay evidencia de alteración central.
+
+**Recomendación**: tratar o controlar el oído medio, repetir audiometría, timpanometría y CAEP con el oído medio normal, y evaluar atención y lenguaje antes de plantear una batería de procesamiento.
+:::
 
 :::comentario Comentario
 El niño con otitis media con efusión fluctuante, en los años en que la vía se organiza, es un caso donde la periferia puede dejar huellas más allá de la audición (Moore y cols., 1999; Hogan y Moore, 2003). Aun así, ningún estudio justifica hacerle una batería central al niño que tiene el tímpano retraído hoy.
@@ -494,6 +654,15 @@ Niveles de prevención y su marco: → B5.
 1. American National Standards Institute / Acoustical Society of America. ANSI/ASA S12.60-2010/Part 1. Acoustical performance criteria, design requirements, and guidelines for schools, part 1: permanent schools. Melville (NY): ASA; 2010. Disponible en: https://webstore.ansi.org/preview-pages/ASA/preview_ANSI+ASA+S12.60-2010+Part+1.pdf
 1. Acoustical Society of America. Classroom acoustics for architects: a companion booklet for ANSI/ASA S12.60 Parts 1 and 2. Melville (NY): ASA; s. f. Disponible en: https://acousticalsociety.org/wp-content/uploads/2022/01/Classroom_Acoustics_for_Architects_4_18_15.pdf
 1. Thibodeau L. Comparison of speech recognition with adaptive digital and FM remote microphone hearing assistance technology by listeners who use hearing aids. Am J Audiol. 2014;23(2):201-10. doi:10.1044/2014_AJA-13-0065. PMID 24699929
+1. Duncan CC, Barry RJ, Connolly JF, Fischer C, Michie PT, Näätänen R, et al. Event-related potentials in clinical research: guidelines for eliciting, recording, and quantifying mismatch negativity, P300, and N400. Clin Neurophysiol. 2009;120(11):1883-908. doi:10.1016/j.clinph.2009.07.045. PMID 19796989
+1. Polich J, Howard L, Starr A. Effects of age on the P300 component of the event-related potential from auditory stimuli: peak definition, variation, and measurement. J Gerontol. 1985;40(6):721-6. doi:10.1093/geronj/40.6.721. PMID 4056328
+1. Sharma A, Kraus N, McGee TJ, Nicol TG. Developmental changes in P1 and N1 central auditory responses elicited by consonant-vowel syllables. Electroencephalogr Clin Neurophysiol. 1997;104(6):540-5. doi:10.1016/S0168-5597(97)00050-6
+1. Kraus N, Smith DI, Reed NL, Stein LK, Cartee C. Auditory middle latency responses in children: effects of age and diagnostic category. Electroencephalogr Clin Neurophysiol. 1985;62(5):343-51. doi:10.1016/0168-5597(85)90043-7. PMID 2411516
+1. McGee T, Kraus N. Auditory development reflected by middle latency response. Ear Hear. 1996;17(5):419-29. doi:10.1097/00003446-199610000-00008. PMID 8909890
+1. Bishop DVM. Using mismatch negativity to study central auditory processing in developmental language and literacy impairments: where are we, and where should we be going? Psychol Bull. 2007;133(4):651-72. doi:10.1037/0033-2909.133.4.651. PMID 17592960
+1. British Society of Audiology. Recommended procedure: cortical auditory evoked potential (CAEP) testing (OD104-40, v2). BSA; 2022. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-40-BSA-Recommended-Procedure-CAEP.pdf
+1. Polich J. Updating P300: an integrative theory of P3a and P3b. Clin Neurophysiol. 2007;118(10):2128-48. doi:10.1016/j.clinph.2007.04.019. PMID 17573239
+1. Weihing J, Schochat E, Musiek F. Ear and electrode effects reduce within-group variability in middle latency response amplitude measures. Int J Audiol. 2012;51(5):405-12. doi:10.3109/14992027.2012.658970. PMID 22404293
 
 ### Fisiología
 

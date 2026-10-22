@@ -12,8 +12,8 @@
    "OD": "moderada"
   },
   "anamnesis": {
-   "otros": "Tiene 12 semanas y viene con su papá y su mamá. Nació a las 38 semanas, con 3.100 g, sin ningún signo al examen. Durante el embarazo la mamá tuvo, a las 14 semanas, unos días de fiebre y dolor de garganta que se estudiaron con exámenes de sangre compatibles con una infección reciente por citomegalovirus (CMV). En la maternidad se confirmó la infección congénita: PCR de CMV positiva en orina en la primera semana. El tamizaje automático del alta (AABR) pasó en los dos oídos, y por la infección lo citan a un control audiológico a las 12 semanas. Mama bien, sigue la mirada y sonríe. Los papás no han notado que oiga peor de un lado. Nadie en la familia tiene problemas de audición.",
-   "historia": "{{-82}} Nacimiento a las 38 semanas; AABR del alta: pasa OD y OI.\n{{-75}} PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo.",
+   "otros": "Tiene 12 semanas y viene con su papá y su mamá. Nació de término, a las 40 semanas, con 3.100 g, sin ningún signo al examen. Durante el embarazo la mamá tuvo, a las 14 semanas, unos días de fiebre y dolor de garganta que se estudiaron con exámenes de sangre compatibles con una infección reciente por citomegalovirus (CMV). En la maternidad se confirmó la infección congénita: PCR de CMV positiva en orina en la primera semana. El tamizaje automático del alta (AABR) pasó en los dos oídos, y por la infección lo citan a un control audiológico a las 12 semanas. Mama bien, sigue la mirada y sonríe. Los papás no han notado que oiga peor de un lado. Nadie en la familia tiene problemas de audición.",
+   "historia": "{{-82}} Nacimiento de término (40 semanas); AABR del alta: pasa OD y OI.\n{{-75}} PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo.",
    "hist": [],
    "medicamentos": "",
    "cirugias": ""
@@ -257,7 +257,7 @@
   },
   "volume": [
    0.35,
-   0.87,
+   0.56,
    "N/D"
   ],
   "volume_cae": [
@@ -425,7 +425,7 @@
    },
    "medicamentos": "",
    "cirugias": "",
-   "otros": "Tiene 12 semanas y viene con su papá y su mamá. Nació a las 38 semanas, con 3.100 g, sin ningún signo al examen. Durante el embarazo la mamá tuvo, a las 14 semanas, unos días de fiebre y dolor de garganta que se estudiaron con exámenes de sangre compatibles con una infección reciente por citomegalovirus (CMV). En la maternidad se confirmó la infección congénita: PCR de CMV positiva en orina en la primera semana. El tamizaje automático del alta (AABR) pasó en los dos oídos, y por la infección lo citan a un control audiológico a las 12 semanas. Mama bien, sigue la mirada y sonríe. Los papás no han notado que oiga peor de un lado. Nadie en la familia tiene problemas de audición.",
+   "otros": "Tiene 12 semanas y viene con su papá y su mamá. Nació de término, a las 40 semanas, con 3.100 g, sin ningún signo al examen. Durante el embarazo la mamá tuvo, a las 14 semanas, unos días de fiebre y dolor de garganta que se estudiaron con exámenes de sangre compatibles con una infección reciente por citomegalovirus (CMV). En la maternidad se confirmó la infección congénita: PCR de CMV positiva en orina en la primera semana. El tamizaje automático del alta (AABR) pasó en los dos oídos, y por la infección lo citan a un control audiológico a las 12 semanas. Mama bien, sigue la mirada y sonríe. Los papás no han notado que oiga peor de un lado. Nadie en la familia tiene problemas de audición.",
    "ia": {
     "generado": false,
     "verificado": false,
@@ -455,7 +455,7 @@
      "disposicion": 0
     },
     {
-     "id": "amviyv6677y",
+     "id": "amvjt98zm7y",
      "rol": "madre",
      "nombre": "Esther Moreno",
      "edad": 38,
@@ -902,16 +902,16 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-22T03:13:38+00:00",
+   "at": "2026-10-22T17:24:23+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
    "nombre": "Pedro Rafael",
    "apellido": "Moreno Medina",
-   "rut": "28267993",
-   "fecha_nac": "28-07-2026"
+   "rut": "28268814",
+   "fecha_nac": "29-07-2026"
   },
-  "historia_clinica": "{{-82}} Nacimiento a las 38 semanas; AABR del alta: pasa OD y OI.\r\n{{-75}} PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo."
+  "historia_clinica": "{{-82}} Nacimiento de término (40 semanas); AABR del alta: pasa OD y OI.\r\n{{-75}} PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo."
  }
 }

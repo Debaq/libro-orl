@@ -71,6 +71,7 @@ El protocolo, además, cierra el informe con "normal" o con un tipo de hipoacusi
 - **Reflejos con y sin deterioro** (→ H5): en la neuropatía son ausentes; en la retrococlear de adulto suelen estar elevados (→ cap. 11).
 - **Emisiones y ECochG** (→ H9, H11): confirman que la cóclea transduce; con el electrodo en el conducto, el ECochG separa la microfónica del artefacto mejor que el electrodo en la mastoides (Riazi y Ferraro, 2008). <!-- Pasada de fundamentos 2026-10-18: decía "registra la microfónica cerca de la cóclea, con más amplitud que en la mastoides". El resumen de Riazi y Ferraro (2008) dice que la microfónica "is easier to separate from stimulus artifact using an EC electrode"; la amplitud no se pudo confirmar en el texto completo. -->
 - **Logoaudiometría en silencio y en ruido** (→ H4): la queja es el ruido. Un puntaje bajo en silencio ya es patológico; en ruido empeora aún más (Rance, 2005).
+- **Potencial cortical** (→ H14): con el ABR ausente, dice **si el sonido llega a la corteza**. En 18 niños con neuropatía, cerca de la mitad tuvo respuestas corticales de latencia, amplitud y morfología normales; cuando la respuesta estaba presente con latencia normal, había percepción del habla razonable, y cuando faltaba, la percepción era mínima (Rance y cols., 2002). La P1 se correlacionó con las habilidades auditivas en niños con espectro de neuropatía (Sharma y cols., 2011). No diagnostica la neuropatía (la hacen el ABR y las emisiones): anticipa cómo puede rendir la palabra.
 - **VEMP** (→ H12): el nervio vestibular puede estar afectado como el coclear (Hu y cols., 2020).
 
 ## Fisiología
@@ -202,10 +203,18 @@ El reflejo está **ausente** en los cuatro arreglos: ipsilateral y contralateral
 - Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado.
 :::
 
+Con el tronco sin ondas, queda una pregunta que el ABR no contesta: si el sonido llega a la corteza. Se registra el potencial cortical (P1-N1-P2) con un tono de 1.000 Hz a 70 dB nHL (→ H14):
+
+:::figura cap13_neuropatia cortical
+- @OD Cz 70 N1 | El OD tiene N1 a 130 ms y P2 a 198 ms, con un N1-P2 de 7 µV en la primera réplica y 8 en la segunda: la respuesta cortical **está** y se repite, con el ABR sin ondas.
+- @OD Cz 70 P1 | La P1 del OD cae a 87 ms: 20 ms sobre lo que se espera a los 15 años. El tono llega a solo 20 dB sobre su umbral, y cerca del umbral las latencias se alargan.
+- @OI Cz 70 | El OI no muestra un N1-P2 que se repita entre las dos réplicas: no concluyente. La respuesta puede ser asimétrica, como lo es la neuropatía; se repetiría con más nivel y más barridos.
+:::
+
 :::docente Guía del caso
 - **Datos clave:** 15 años, "oye pero no entiende", peor con ruido y de espaldas, fluctuante, mira los labios; prematura, ictericia grave con exanguinotransfusión; tamizaje neonatal "bueno" (el tamizaje de emisiones no detecta neuropatía).
 - **Hipótesis esperables:** coclear leve a moderada, problema atencional ("distraída"), central, **neuropatía auditiva**. Los antecedentes (prematurez, bilirrubina) y la discrepancia entre audiograma y discriminación apuntan a la última.
-- **Qué pedir:** logoaudiometría completa, reflejos, emisiones, ABR de alto nivel con **dos polaridades** y tubo pinzado (→ H5, H9, H10).
+- **Qué pedir:** logoaudiometría completa, reflejos, emisiones, ABR de alto nivel con **dos polaridades** y tubo pinzado, y potencial cortical (→ H5, H9, H10, H14).
 - **Errores esperables:** llamarla sorda por el ABR plano; ofrecer audífono sin ver la discriminación; quedarse en "es distraída".
 - **Para discutir:** Para ver la microfónica, cambiar la polaridad y pinzar el tubo durante la promediación.
 :::
@@ -369,9 +378,9 @@ Patrón de neuropatía auditiva bilateral: emisiones y microfónica presentes, A
 :::comentario-ancho Informe de Esther, 15 años (caso 13.1)
 **Motivo**: dificultad para entender, peor con ruido; prematura con ictericia grave que requirió exanguinotransfusión; discriminación baja en la logoaudiometría.
 
-**Registro**: click a 80, 60 y 40 dB nHL con polaridad alternada; a 90 dB nHL con rarefacción y con condensación. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo.
+**Registro**: click a 80, 60 y 40 dB nHL con polaridad alternada; a 90 dB nHL con rarefacción y con condensación. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo. Potencial cortical: tone burst de 1.000 Hz a 70 dB nHL, 1 estímulo/s, filtros de 1 a 30 Hz, 150 barridos por curva con réplica, canal Cz con referencia en el lóbulo, despierta y quieta, fonos de inserción.
 
-**Referencia**: mujer de 3 a 17 años, por oído (Sanfins y cols., 2026). Sin ondas no hay latencias que comparar.
+**Referencia**: mujer de 3 a 17 años, por oído (Sanfins y cols., 2026). Sin ondas no hay latencias que comparar. Cortical: P1 de unos 67 ms a los 15 años, por la regresión de Sharma y cols. (2002), medida con /ba/; N1 de 100 a 130 ms y P2 de 200 a 250 ms, rangos orientativos del adulto (BSA, 2022).
 
 | | OD | OI | Referencia |
 |---|---|---|---|
@@ -379,14 +388,16 @@ Patrón de neuropatía auditiva bilateral: emisiones y microfónica presentes, A
 | Interpicos | no medibles | no medibles | |
 | Rarefacción y condensación, 90 dB nHL | deflexión en el primer milisegundo que se invierte | ídem | |
 | Umbral del PEAT | no estima la audición | no estima la audición | |
+| Cortical a 70 dB nHL: P1 / N1 / P2 (ms) | 87 / 130 / 198 | no concluyente | P1 67; N1 100 a 130; P2 200 a 250 |
+| Cortical a 70 dB nHL: N1-P2 (µV, dos réplicas) | 7 y 8 | no replicable | |
 
-**Morfología**: sin ondas replicables a 80, 60 y 40 dB nHL en ninguno de los dos oídos. A 90 dB nHL, una deflexión hacia abajo con rarefacción y hacia arriba con condensación, sin ondas neurales detrás.
+**Morfología**: sin ondas replicables a 80, 60 y 40 dB nHL en ninguno de los dos oídos. A 90 dB nHL, una deflexión hacia abajo con rarefacción y hacia arriba con condensación, sin ondas neurales detrás. Cortical: P1, N1 y P2 presentes y replicables a 70 dB nHL en el OD; en el OI, sin complejo replicable (no concluyente).
 
-**Interpretación**: la deflexión que se invierte con la polaridad es la microfónica coclear: las células ciliadas externas responden. Lo apoyan las emisiones transitorias y los productos de distorsión presentes en los dos oídos. Falta lo que viene después: ninguna onda neural, reflejos estapediales ausentes y discriminación de 48 % en el OD y 28 % en el OI, desproporcionada a un umbral de 25 a 45 dB HL. Con el audiograma en 25 a 45 dB HL y sin ondas, el ABR no calza con el umbral tonal: es falta de sincronía, no pérdida de sensibilidad.
+**Interpretación**: la deflexión que se invierte con la polaridad es la microfónica coclear: las células ciliadas externas responden. Lo apoyan las emisiones transitorias y los productos de distorsión presentes en los dos oídos. Falta lo que viene después: ninguna onda neural, reflejos estapediales ausentes y discriminación de 48 % en el OD y 28 % en el OI, desproporcionada a un umbral de 25 a 45 dB HL. Con el audiograma en 25 a 45 dB HL y sin ondas, el ABR no calza con el umbral tonal: es falta de sincronía, no pérdida de sensibilidad. En el OD la corteza sí recibe el sonido: hay P1-N1-P2 a 70 dB nHL con el tronco sin ondas. El OI queda no concluyente: no se informa como ausente, porque con un solo nivel y 150 barridos no basta para declararlo, y la respuesta puede ser asimétrica. La P1 del OD (87 ms) queda 20 ms sobre la regresión de Sharma y cols. (2002), que es con /ba/; el tono está a 20 dB sobre su umbral y a ese nivel las latencias se alargan (BSA, 2022), así que no se lee como retardo de maduración. N1 y P2 del OD caen en los rangos orientativos. Con las respuestas corticales presentes y de latencia razonable, la literatura en niños con neuropatía describe una percepción del habla razonable, y cuando faltan, mínima (Rance y cols., 2002); es una asociación, no una medida de lo que ella entiende, y la discriminación de 48 % y 28 % dice que entiende solo en parte.
 
-**Conclusión**: ausencia de ondas con emisiones otoacústicas presentes: patrón de neuropatía auditiva bilateral. En este patrón el PEAT no estima el umbral auditivo (→ H10).
+**Conclusión**: ausencia de ondas con emisiones otoacústicas presentes: patrón de neuropatía auditiva bilateral. En este patrón el PEAT no estima el umbral auditivo (→ H10). Respuesta cortical presente a 70 dB nHL en el OD (el sonido llega a la corteza) y no concluyente en el OI.
 
-**Recomendación**: repetir la rarefacción con el tubo pinzado para descartar artefacto; derivar a otorrinolaringología y a un equipo de rehabilitación auditiva; no fijar la amplificación con el audiograma. Si el lenguaje no avanza como se espera, volver a evaluar.
+**Recomendación**: repetir la rarefacción con el tubo pinzado para descartar artefacto; derivar a otorrinolaringología y a un equipo de rehabilitación auditiva; no fijar la amplificación con el audiograma. El potencial cortical no reemplaza la logoaudiometría ni la prueba de habla en ruido: orienta la rehabilitación (hay vía por donde entrenar), no fija la amplificación. Si el lenguaje no avanza como se espera, volver a evaluar.
 :::
 
 :::comentario Comentario
@@ -550,6 +561,10 @@ Niveles de prevención y su marco: → B5.
 1. Berlin CI, Hood LJ, Morlet T, Wilensky D, Li L, Mattingly KR, et al. Multi-site diagnosis and management of 260 patients with auditory neuropathy/dys-synchrony (auditory neuropathy spectrum disorder). Int J Audiol. 2010;49(1):30-43. doi:10.3109/14992020903160892
 1. Riazi M, Ferraro JA. Observations on mastoid versus ear canal recorded cochlear microphonic in newborns and adults. J Am Acad Audiol. 2008;19(1):46-55. doi:10.3766/jaaa.19.1.5
 1. Soares ID, Menezes PL, Carnaúba AT, de Andrade KC, Lins OG. Study of cochlear microphonic potentials in auditory neuropathy. Braz J Otorhinolaryngol. 2016;82(6):722-36. doi:10.1016/j.bjorl.2015.11.022
+1. Rance G, Cone-Wesson B, Wunderlich J, Dowell R. Speech perception and cortical event related potentials in children with auditory neuropathy. Ear Hear. 2002;23(3):239-53. doi:10.1097/00003446-200206000-00008. PMID 12072616
+1. Sharma A, Cardon G, Henion K, Roland P. Cortical maturation and behavioral outcomes in children with auditory neuropathy spectrum disorder. Int J Audiol. 2011;50(2):98-106. doi:10.3109/14992027.2010.542492. PMID 21265637
+1. Sharma A, Dorman MF, Spahr AJ. A sensitive period for the development of the central auditory system in children with cochlear implants: implications for age of implantation. Ear Hear. 2002;23(6):532-9. doi:10.1097/00003446-200212000-00004. PMID 12476090
+1. British Society of Audiology. Recommended procedure: cortical auditory evoked potential (CAEP) testing (OD104-40, v2). BSA; 2022. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-40-BSA-Recommended-Procedure-CAEP.pdf
 1. British Society of Audiology. Recommended procedure: cochlear microphonic testing [Internet]. BSA; 2019 (OD104-87). Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-87-Recommended-Procedure-for-Cochlear-Microphonic-Testing.pdf
 1. British Society of Audiology. Recommended procedure: assessment and management of auditory neuropathy spectrum disorder (ANSD) in young infants [Internet]. BSA; 2019 (OD104-85). Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-85-Recommended-Procedure-Assessment-and-Management-of-ANSD-in-Young-Infants.pdf
 1. Dubno JR, Lee FS, Klein AJ, Matthews LJ, Lam CF. Confidence limits for maximum word-recognition scores. J Speech Hear Res. 1995;38(2):490-502. doi:10.1044/jshr.3802.490

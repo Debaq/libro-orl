@@ -30,7 +30,7 @@ import sys
 AQUI = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI))
 
-from motor import abr, acumetria, audio_supra, audiograma, campo_libre, ecochg, impedancia, impedancia_hoja, logo, oae, supraliminares, vemp, vestibular  # noqa: E402
+from motor import abr, cortical, acumetria, audio_supra, audiograma, campo_libre, ecochg, impedancia, impedancia_hoja, logo, oae, supraliminares, vemp, vestibular  # noqa: E402
 from motor.datos import cargar_caso  # noqa: E402
 
 CASOS = AQUI.parent / 'casos'
@@ -63,6 +63,12 @@ def figura(caso, f):
                               ventana=f.get('ms_max', 12.0))
         return abr.dibujar(curvas, marcar=tuple(f.get('marcar', ('I', 'III', 'V'))),
                            ms_max=f.get('ms_max', 12.0))
+    if tipo == 'cortical':
+        curvas = cortical.capturar(caso, f.get('oidos', ['OD', 'OI']), f.get('niveles', [70]),
+                                   prueba=f.get('prueba', 'MLR'), estimulo=f.get('estimulo'),
+                                   promediaciones=f.get('promediaciones'), ventana_ms=f.get('ms_max'))
+        return cortical.dibujar(curvas, prueba=f.get('prueba', 'MLR'), canales=f.get('canales'),
+                                marcar=f.get('marcar', True))
     if tipo == 'logoaudiometria':
         return logo.dibujar(caso, enmascarado=f.get('enmascarado', True), compacto=f.get('tomo2', False))
     if tipo == 'teoae':

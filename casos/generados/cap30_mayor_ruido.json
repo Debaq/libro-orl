@@ -11,6 +11,7 @@
    "OI": "leve"
   },
   "semilla": 2,
+  "central": "central_normal",
   "anamnesis": {
    "otros": "Tiene 71 años, es profesora jubilada y vive con su marido. Desde hace unos tres años le cuesta seguir las conversaciones en los almuerzos familiares y en el almacén. En silencio, en una conversación de a dos y por teléfono se las arregla. Dice: \"oigo, pero no entiendo\", y que sus nietos \"hablan muy rápido\". Se cansa al final del día de tanto esforzarse y ya evita las reuniones. Tiene un pitido leve en los dos oídos, a ratos. No ha tenido mareos ni asimetría. El marido nota que olvida más los nombres, aunque ella lo atribuye a la edad.",
    "historia": "{{-90}} Médico general: otoscopía normal; audiometría de pesquisa con \"audición casi normal\". Se deriva a evaluación audiológica completa.",
@@ -238,8 +239,8 @@
   "edad_horas": null,
   "nacimiento": [],
   "volume": [
-   1.32,
-   1.5,
+   1.73,
+   0.93,
    "N/D"
   ],
   "volume_cae": [
@@ -422,7 +423,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Daniela",
+     "nombre": "Sara",
      "edad": 71,
      "genero": 1,
      "es_paciente": true,
@@ -547,19 +548,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 2480,
+    "average_objetivo": 2339,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.14,
-      "amp": -0.09
+      "lat": 0.12,
+      "amp": -0.19
      },
      "onda_III": {
-      "lat": 0.12,
-      "amp": -0.08
+      "lat": 0.07,
+      "amp": -0.01
      },
      "onda_V": {
-      "lat": 0.07,
-      "amp": 0.05
+      "lat": 0.14,
+      "amp": 0.07
      }
     },
     "nivel_referencia": null,
@@ -627,19 +628,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1705,
+    "average_objetivo": 1779,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.06,
-      "amp": -0.12
+      "lat": 0.03,
+      "amp": -0.11
      },
      "onda_III": {
-      "lat": 0.03,
-      "amp": -0.01
+      "lat": 0.1,
+      "amp": 0.01
      },
      "onda_V": {
-      "lat": 0.1,
-      "amp": 0.07
+      "lat": 0.09,
+      "amp": 0
      }
     },
     "nivel_referencia": null,
@@ -686,9 +687,9 @@
      "8000": 45
     },
     "atten_db": 0,
-    "ruido_db": 1.8,
-    "sello_pct": 88,
-    "variabilidad_db": 3.2,
+    "ruido_db": 3.2,
+    "sello_pct": 89,
+    "variabilidad_db": 3.3,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -706,9 +707,9 @@
      "8000": 45
     },
     "atten_db": 0,
-    "ruido_db": 0.3,
-    "sello_pct": 91,
-    "variabilidad_db": 1.5,
+    "ruido_db": 2.8,
+    "sello_pct": 70,
+    "variabilidad_db": 3,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -845,6 +846,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.35,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -859,13 +875,13 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T04:12:39+00:00",
+   "at": "2026-10-22T12:47:14+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Daniela Sara",
-   "apellido": "Navarro Pérez",
+   "nombre": "Sara Pilar",
+   "apellido": "Pérez Estrada",
    "rut": "6901976",
    "fecha_nac": "15-04-1955"
   },

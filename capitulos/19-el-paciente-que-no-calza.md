@@ -2,7 +2,7 @@
 
 :::objetivos En este capítulo
 - Reconocer las señales de que lo que el paciente responde no calza con lo que su oído puede estar haciendo: umbrales que no se repiten, SRT mejor que el promedio tonal, ausencia de curva sombra, conversación que contradice el audiograma.
-- Separar las pruebas que dependen de la mano del paciente de las que no dependen de ella: Stenger, reflejos, emisiones, PEAT y estado estable.
+- Separar las pruebas que dependen de la mano del paciente de las que no dependen de ella: Stenger, reflejos, emisiones, PEAT, estado estable y potencial cortical.
 - Estimar el umbral real con lo objetivo y distinguir una pérdida inventada de una pérdida real exagerada.
 - Informar sin acusar: describir qué se midió, qué no concuerda y qué dicen las pruebas objetivas, sin nombrar intenciones.
 - Distinguir al niño con pseudohipoacusia del adulto con un interés en juego, y saber cuándo el caso pasa al terreno médico-legal (→ capítulo 34).
@@ -36,6 +36,7 @@ Hay dos maneras de verificar un umbral dudoso: **volver a pedirlo con trampa** (
 | **Emisiones otoacústicas** (→ H9) | las células ciliadas externas | si la cóclea funciona; no mide umbral |
 | **PEAT** (→ H10) | la sincronía del tronco | umbral objetivo, ondas I a V |
 | **Estado estable** (→ H13) | el tronco, frecuencia por frecuencia | umbral por frecuencia, sin lectura por el examinador |
+| **Potencial cortical** (→ H14) | la corteza auditiva, con el paciente despierto | umbral por frecuencia en el adulto, el más cercano al conductual |
 :::
 
 **Stenger.** Cuando suena el mismo tono a los dos oídos a la vez, el paciente percibe **solo el que está más fuerte sobre su umbral verdadero**, y lo oye en ese oído. Si el oído que dice no oír recibe el tono más fuerte, "se lo traga" y el paciente deja de responder: Stenger positivo. La técnica, la instrucción y los niveles están en H6; aquí solo importa por qué sirve: **el paciente no puede saber cuál de los dos tonos es el decisivo** (Kinstler y cols., 1972). Sirve cuando la pérdida informada es de un oído o muy asimétrica.
@@ -47,6 +48,8 @@ Hay dos maneras de verificar un umbral dudoso: **volver a pedirlo con trampa** (
 **PEAT.** Es la prueba que más se acerca al umbral por una vía que el paciente no controla: el umbral de la onda V al click informa sobre todo de la zona de 2 a 4 kHz, y con tonos puros (*tone burst*) se estima por frecuencia (Stapells y Oates, 1997; → H10). Cuando el umbral objetivo es mucho mejor que el audiograma, el audiograma no es el umbral real. Dos precauciones: el PEAT exige que el paciente esté relajado (la tensión muscular ensucia el registro, y quien no quiere colaborar puede dificultarlo, de modo que un registro ruidoso no es un hallazgo) y se expresa en dB nHL, que no se resta directamente de un audiograma en dB HL (→ H10, Apéndice A).
 
 **Estado estable (ASSR).** Cuando se necesita el umbral por frecuencia en un paciente que no colabora, el estado estable lo detecta en el espectro con un criterio estadístico, sin que el examinador lea ondas (→ H13).
+
+**Potencial cortical (P1-N1-P2).** Es la respuesta de la corteza a un tono breve y la que más se parece a lo que el paciente *oye*: el umbral cortical queda cerca del conductual, y por eso en el adulto que no colabora es el umbral objetivo de referencia. Se busca como el del PEAT, bajando de 20 en 20 y subiendo de 10, y se muestra siempre el nivel de abajo sin respuesta. En 24 voluntarios el umbral cortical quedó en promedio 6,5 dB sobre el conductual; tras restar ese sesgo, el 94 % de las estimaciones cayó a 15 dB o menos del umbral tonal (Lightfoot y Kennedy, 2006). En 118 casos médico-legales, las diferencias entre el audiograma y el umbral cortical pasaron de 15 dB solo en el 3,2 % de los casos orgánicos (Coles y Mason, 1984), y en 204 reclamantes el 83,2 % tuvo una diferencia de 10 dB o menos (Tsui y cols., 2002). Tiene dos límites: el paciente tiene que estar **despierto** (dormitando, la respuesta se hace poco confiable y aparece alfa) y la BSA (2022) la acepta en adultos y niños mayores de unos 8 años, no en lactantes. Lo que mide es llegada a la corteza, no comprensión: una respuesta presente dice que el sonido llegó, no que el paciente lo haya entendido (→ H14).
 
 :::ojo Ojo clínico
 Lo objetivo **no** descarta una pérdida real: sirve para saber cuánto oye el paciente de verdad. Si el estudio objetivo muestra una pérdida de 25 dB en agudos y el paciente dice 80 dB, tiene una pérdida y una exageración, y el informe debe decir las dos cosas.
@@ -196,10 +199,24 @@ Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 H
 - @OI 20 V | El OI se comporta igual: ambos oídos tienen el mismo umbral objetivo, bien por debajo de lo que dijo el OD.
 :::
 
+Con el PEAT hay umbral del tronco; falta saber si el sonido llega a la corteza y a qué nivel, por una vía que Felipe tampoco gobierna. Se registra el potencial cortical con tono de 1.000 Hz, que es el umbral objetivo de referencia en el adulto que no colabora (→ H14):
+
+:::figura cap19_unilateral cortical
+- @OD Cz 60 N1 | A 60 dB nHL el OD, el oído que Felipe dice no oír, tiene N1 a 110 ms y P2 a 179 ms. El N1-P2 mide 9 µV en la primera réplica y 10 en la segunda.
+- @OI Cz 60 N1 | El OI es igual: N1 a 108 ms, P2 a 195 ms, 8 µV en las dos réplicas.
+- @OD Cz 40 N1 | A 40 dB el OD responde en las dos réplicas: N1 a 118 ms, P2 a 203 ms, N1-P2 de 6 µV en las dos. Es el **umbral cortical** del OD.
+- @OD Cz 30 | A 30 dB el OD no tiene un complejo N1-P2 que se repita entre las dos réplicas: no concluyente, y por eso el umbral del OD no baja de 40.
+- @OI Cz 30 N1 | El OI sí responde a 30 dB: N1 a 122 ms, P2 a 215 ms, con 5 µV en las dos réplicas. Es el **umbral cortical** del OI.
+- @OI Cz 20 | A 20 dB el OI no tiene respuesta replicable: es el nivel de abajo sin respuesta que confirma el umbral del OI.
+- @OI Cz 10 | A 10 dB no hay respuesta en ningún oído.
+:::
+
+La búsqueda baja de 20 en 20 y sube de 10: el OD responde a 60 y 40 dB nHL y no a 30, 20 ni 10; el OI responde a 60, 40 y 30 y no a 20 ni a 10. El umbral cortical con tono de 1.000 Hz es de **40 dB nHL en el OD y 30 en el OI**. Con la corrección de 15 dB del burst de 1.000 Hz (→ H10), son **25 y 15 dB eHL**: audición normal o casi en los dos oídos, y en el OD, que dijo 80 dB en esa frecuencia, 55 dB mejor. La diferencia de 10 dB entre oídos cabe en la variabilidad de la prueba.
+
 :::docente Guía del caso
 - **Datos clave:** golpe de zinc en la cabeza sin pérdida de conocimiento ni sangrado, otoscopía normal, hipoacusia total unilateral declarada, **conversa sin dificultad** con el entrevistador por su lado derecho, sin pitido ni mareo, derivación por la mutual.
 - **Hipótesis:** fractura de hueso temporal (habría otoscopía anormal, hemotímpano, gap), lesión coclear por trauma (el TAC normal y la otoscopía la hacen poco probable), pérdida no orgánica.
-- **Qué pedir:** audiometría con instrucción cuidadosa y repeticiones, SRT, logoaudiometría; sin enmascarar y enmascarado; **reflejos, emisiones, PEAT**; Stenger si hay asimetría (→ H3, H5, H6, H7, H9, H10).
+- **Qué pedir:** audiometría con instrucción cuidadosa y repeticiones, SRT, logoaudiometría; sin enmascarar y enmascarado; **reflejos, emisiones, PEAT, potencial cortical**; Stenger si hay asimetría (→ H3, H5, H6, H7, H9, H10, H14).
 - **Errores esperables:** escribir "simulación" en el informe; informar los 80 dB como umbral; enmascarar el OI con ruido antes de ver cómo responde sin enmascarar.
 - **Para discutir en clases:** qué aporta el reflejo a 5 dB del umbral informado y qué diría del oído un Stenger positivo; cuál es la mejor frase de informe.
 :::
@@ -380,7 +397,7 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-Los datos propios de Felipe se contradicen entre sí: el umbral del mismo tono cambia hasta 15 dB en una repetición, el SRT es 23 dB mejor que el promedio tonal, no hay curva sombra sin enmascarar y conversa en la consulta con el oído "sordo" hacia el entrevistador. Las pruebas que no controla confirman lo mismo: reflejo a 85 dB, emisiones y productos de distorsión presentes y un PEAT con onda V a 20 dB nHL en los dos oídos (la V a 20 dB nHL es la respuesta de un oído normal). El oído derecho de Felipe no tiene una pérdida de 80 dB; su umbral objetivo es normal.
+Los datos propios de Felipe se contradicen entre sí: el umbral del mismo tono cambia hasta 15 dB en una repetición, el SRT es 23 dB mejor que el promedio tonal, no hay curva sombra sin enmascarar y conversa en la consulta con el oído "sordo" hacia el entrevistador. Las pruebas que no controla confirman lo mismo: reflejo a 85 dB, emisiones y productos de distorsión presentes y un PEAT con onda V a 20 dB nHL en los dos oídos (la V a 20 dB nHL es la respuesta de un oído normal) y un umbral cortical de 40 dB nHL (25 dB eHL) con tono de 1.000 Hz en el OD, donde dijo 80 dB. El oído derecho de Felipe no tiene una pérdida de 80 dB; su umbral objetivo es normal.
 
 #### Diagnóstico y qué sigue
 
@@ -389,9 +406,9 @@ Los umbrales conductuales del oído derecho **no son consistentes ni concordante
 :::comentario-ancho Informe de Felipe, 44 años (caso 19.1)
 **Motivo**: "no escucha nada" por el oído derecho desde un golpe en la cabeza hace tres semanas; evaluación pedida por la mutual.
 
-**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral (el OI oye igual que el OD). En reposo.
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral (el OI oye igual que el OD). En reposo. Potencial cortical: tone burst de 1.000 Hz a 60, 40, 30, 20 y 10 dB nHL, 1 estímulo/s, filtros de 1 a 30 Hz, 500 barridos por curva con réplica, canal Cz con referencia en el lóbulo, despierto y quieto, fonos de inserción.
 
-**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE). Para el cortical, rangos orientativos del adulto: N1 de 100 a 130 ms y P2 de 200 a 250 ms (BSA, 2022); no hay límites de amplitud fijados.
 
 | | OD | OI | Límite OD / OI |
 |---|---|---|---|
@@ -403,12 +420,15 @@ Los umbrales conductuales del oído derecho **no son consistentes ni concordante
 | I-V | 4,17 | 4,20 | 4,49 / 4,52 |
 | Diferencia interaural de la V | 0,00 | | hasta 0,4 |
 | Umbral con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+| Cortical a 60 dB nHL: N1 / P2 (ms) | 110 / 179 | 108 / 195 | N1 100 a 130 / P2 200 a 250 |
+| Cortical a 60 dB nHL: N1-P2 (µV, dos réplicas) | 9 y 10 | 8 y 8 | |
+| Umbral cortical con burst de 1.000 Hz (dB nHL → dB eHL) | 40 → 25 | 30 → 15 | hasta 20 dB eHL |
 
-**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta.
+**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta. Cortical: N1 y P2 replicables en el OD a 60 y 40 dB nHL y en el OI a 60, 40 y 30; OD a 30 dB, no concluyente; a 20 y 10 dB, sin respuesta replicable.
 
-**Interpretación**: latencias e interpicos normales en los dos oídos, sin diferencia interaural. El umbral objetivo del OD es normal, y concuerdan los reflejos (a 5 dB del umbral que dijo), las emisiones y los productos de distorsión presentes. Los umbrales conductuales del OD (75 a 80 dB HL) no son consistentes entre repeticiones (diferencias de 15 dB) ni con el umbral para la voz (23 dB mejor que el promedio tonal), y no concuerdan con los resultados objetivos.
+**Interpretación**: latencias e interpicos normales en los dos oídos, sin diferencia interaural. El umbral objetivo del OD es normal, y concuerdan los reflejos (a 5 dB del umbral que dijo), las emisiones y los productos de distorsión presentes. Los umbrales conductuales del OD (75 a 80 dB HL) no son consistentes entre repeticiones (diferencias de 15 dB) ni con el umbral para la voz (23 dB mejor que el promedio tonal), y no concuerdan con los resultados objetivos. El potencial cortical, que no depende de la respuesta del paciente, responde hasta 40 dB nHL en el OD y hasta 30 en el OI con tono de 1.000 Hz: 25 y 15 dB eHL con la corrección del burst del PEAT, y 80 dB en el audiograma que entregó el OD. La P2 a 60 dB queda en 179 ms (OD) y 195 ms (OI), bajo el rango orientativo, que no es una norma; a 40 y 30 dB está entre 196 y 215 ms. Una diferencia de 55 dB entre el audiograma y el umbral cortical está muy fuera de lo que se describe en pérdidas orgánicas, donde solo el 3,2 % pasó de 15 dB (Coles y Mason, 1984).
 
-**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz. Los umbrales conductuales del OD no son consistentes ni concordantes con los resultados objetivos.
+**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz, y respuesta cortical hasta 40 dB nHL (25 dB eHL) en el OD y 30 (15 dB eHL) en el OI, en 1.000 Hz. Los umbrales conductuales del OD no son consistentes ni concordantes con los resultados objetivos.
 
 **Recomendación**: evaluación por otorrinolaringología; derivación a la instancia que corresponda si el caso es laboral (→ capítulo 34).
 :::
@@ -532,7 +552,7 @@ Niveles de prevención y su marco: → B5.
 :::ayuda Ayuda memoria del capítulo
 - Un audiograma que no calza es un **dato**, no una acusación: se describe, no se interpreta una intención.
 - **Repetición, SRT contra promedio tonal, curva sombra, conversación**: lo primero, y gratis.
-- Lo que el paciente no gobierna: **Stenger, reflejos, emisiones, PEAT, estado estable**.
+- Lo que el paciente no gobierna: **Stenger, reflejos, emisiones, PEAT, estado estable, potencial cortical**.
 - Lo objetivo da el **techo** de lo que el oído puede haber perdido; no descarta una pérdida real.
 - En el niño, **tranquilizar y buscar el motivo**; en el adulto con interés externo, el terreno es el capítulo 34.
 :::
@@ -553,6 +573,10 @@ Niveles de prevención y su marco: → B5.
 1. Stapells DR, Oates P. Estimation of the pure-tone audiogram by the auditory brainstem response: a review. Audiol Neurootol. 1997;2(5):257-80. doi:10.1159/000259252
 1. British Society of Audiology. Recommended procedure: pure-tone air-conduction and bone-conduction threshold audiometry with and without masking [Internet]. BSA; 2018 ago [citado 2026 oct 18]. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2024/01/Recommended-Procedure-Pure-Tone-Audiometry-2018.pdf
 1. Holenweg A, Kompis M. Non-organic hearing loss: new and confirmed findings. Eur Arch Otorhinolaryngol. 2010;267(8):1213-9. doi:10.1007/s00405-010-1218-y
+1. British Society of Audiology. Recommended procedure: cortical auditory evoked potential (CAEP) testing (OD104-40, v2). BSA; 2022. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-40-BSA-Recommended-Procedure-CAEP.pdf
+1. Lightfoot G, Kennedy V. Cortical electric response audiometry hearing threshold estimation: accuracy, speed, and the effects of stimulus presentation features. Ear Hear. 2006;27(5):443-56. doi:10.1097/01.aud.0000233902.53432.48. PMID 16957496
+1. Coles RR, Mason SM. The results of cortical electric response audiometry in medico-legal investigations. Br J Audiol. 1984;18(2):71-8. doi:10.3109/03005368409078932. PMID 6733319
+1. Tsui B, Wong LL, Wong EC. Accuracy of cortical evoked response audiometry in the identification of non-organic hearing loss. Int J Audiol. 2002;41(6):330-3. doi:10.3109/14992020209090407. PMID 12353605
 1. Bell A, Westcott M, Jedrzejczak WW. A critique of the Stenger test. Audiol Res. 2025;15(5):115. doi:10.3390/audiolres15050115
 
 ### Fisiología
