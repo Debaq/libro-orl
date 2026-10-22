@@ -113,7 +113,7 @@ El paciente **no necesita dormir**, pero sí estar **quieto y relajado**: el mú
 Antes de poner el electrodo:
 
 1. **Otoscopía** (→ H1). Un tapón de cerumen aleja el electrodo de la cóclea, y una perforación, una otorrea o una inflamación del conducto cambian lo que se puede apoyar: en esos casos se consulta al médico antes de seguir.
-2. **Revisa el audiograma**. El PS solo se mide entero con la cóclea bien empujada. Si el oído tiene una pérdida marcada, a 90 dB nHL el nivel sobre el umbral es poco y la razón sale chica, aunque haya hidrops (ver "Errores frecuentes").
+2. **Revisa el audiograma**. El PS solo se mide entero con la cóclea bien empujada. Si el oído tiene una pérdida marcada, la pérdida de células ciliadas atenúa el PS y puede enmascarar el hidrops: la razón sale chica aunque lo haya (Santarelli y Arslan, 2015; ver "Errores frecuentes").
 3. **Explica el examen.** Un electrodo apoyado en el tímpano da sensación de cuerpo extraño y a veces de presión, y el click a 90 dB nHL es fuerte. Se le dice que dura unos minutos por oído y que si molesta, se detiene.
 4. **Pregunta por el momento de las crisis.** Un oído en un buen día puede dar una ECochG normal (→ cap. 9). Anota cuándo fue la última crisis.
 
@@ -153,15 +153,30 @@ Con el paciente sentado o semirrecostado:
 | Ventana | 10 ms (20 ms con burst) | El complejo vuelve a la base tarde en el hidrops; la meseta del burst dura 12 ms |
 | Barridos | 1.500 por curva | Con el electrodo cerca de la cóclea la respuesta es grande y bastan menos que en el PEAT |
 | Ganancia | 100.000 | La señal es mayor que la del PEAT |
+| Montaje | Activo en el tímpano, referencia en el lóbulo o el mastoides del mismo lado, tierra en la frente | Un activo cerca de la cóclea y una referencia cercana al oído rechazan mejor el músculo |
+| Rechazo de artefactos | El más bajo con el que el promedio avance | Descarta los barridos sucios antes de que entren al promedio |
+| Filtro de red (notch) | Apagado | Solo si queda zumbido después de revisar impedancias y tierra |
+| Impedancias | Bajo 5 kΩ y parecidas entre sí | Una impedancia alta en el electrodo de oído se paga en ruido |
 :::
+
+<!-- decide el autor: el rechazo "el más bajo con el que avance" y las impedancias bajo 5 kΩ no tienen una cifra de ECochG en las fuentes leídas (Simpson y cols. 2020 y Santarelli y Arslan 2015 no dan un nivel de rechazo; Simpson no da filtros ni ganancia). Los 5 kΩ vienen del protocolo ORL 2019 y de la ACNS (2008) para el PEAT. El pasa-bajo de 3.000 Hz y la tasa de 11,1/s tampoco tienen fuente directa: Santarelli y Arslan (2015) recomiendan 5 a 8.000 Hz. -->
+<!-- verificar: Ferraro y Durrant (2006) y Hall (2007) no se pudieron leer; no hay una guía BSA de ECochG (solo la de microfónica coclear, OD104-87), así que no se cita ninguna para estos valores. -->
 
 Cada parámetro tiene su razón, y se puede cometer el error de olvidarla:
 
 1. **El pasa-alto va muy bajo.** Un pasa-alto de 100 Hz, el del PEAT, deja pasar la espiga del PA pero se come el PS: el hidrops desaparece por el filtro, no por el oído.
-2. **El nivel va alto.** El PA aparece desde cerca del umbral, pero el PS necesita nivel para hacerse medible. Una razón medida a nivel bajo sale chica aunque haya hidrops, y el equipo no avisa.
+2. **El nivel va alto.** El PA aparece desde cerca del umbral, pero el PS necesita nivel para hacerse medible. Las series publicadas usan clicks de unos 90 dB nHL (Santarelli y Arslan, 2015). A un nivel más bajo no hay un corte validado, y el equipo no avisa.
 3. **La polaridad va alternada.** La MC, que se invierte con la polaridad, se cancela al alternar y deja el PS y el PA limpios. En una sola polaridad la MC se suma al PS y al PA y corre sus picos.
 4. **La ventana va en 10 ms con click.** La razón de áreas se integra hasta que el complejo vuelve a la línea de base, y en un hidrops marcado eso ocurre bien después de los 5 ms. Con burst largo hace falta abrirla a 20 ms.
-5. **La tasa baja y los barridos son menos.** Con 11,1 por segundo, 1.500 barridos toman algo más de dos minutos por curva.
+5. **La tasa va en 11,1 por segundo.** Más rápido acorta el examen, pero el nervio se adapta: en el PEAT, sobre unos 30 estímulos por segundo las latencias se alargan y las amplitudes tempranas bajan (Hood, 2015), y se espera lo mismo del PA. Por eso la tasa alta se reserva para la medida de tasa (paso 7). Un múltiplo de 50 Hz deja el estímulo en fase con la red eléctrica.
+6. **Los barridos son 1.500.** El ruido baja con la raíz cuadrada del número de barridos (Burkard y Don, 2015). Con el electrodo transtimpánico bastan 500 por polaridad, y con uno extratimpánico hacen falta al menos 1.000 (Santarelli y Arslan, 2015). Con 11,1 por segundo, 1.500 barridos toman algo más de dos minutos por curva. Si recortas barridos con un electrodo de conducto, el PA se hunde en el ruido y la razón sale mal medida.
+7. **El pasa-bajo va en 3.000 Hz.** El PA es una espiga rápida. Un pasa-bajo más bajo la redondea y la achica, y corre su pico. Santarelli y Arslan (2015) piden el filtro más ancho posible, de 5 a 8.000 Hz, para no distorsionar los componentes rápidos. La ACNS (2008) acepta 1.500 Hz en monitoreo intraoperatorio del PEAT, pero no en ECochG. Subirlo solo suma ruido de alta frecuencia, que se saca después con un filtro digital.
+8. **La ganancia va en 100.000.** La señal tiene que ocupar casi todo el rango del conversor: con poca ganancia, el redondeo se come la señal, y con mucha, un barrido ruidoso satura (Burkard y Don, 2015). Con aguja transtimpánica, Santarelli y Arslan (2015) usan 50.000, y con un electrodo extratimpánico hacen falta ganancias mayores, porque la respuesta es más chica.
+9. **El rechazo va lo más bajo posible.** Descarta cada barrido cuyo voltaje pasa el límite. Muy bajo, descarta casi todo y el promedio no avanza. Alto o apagado, el movimiento y el músculo entran al promedio y suben el ruido residual. La regla es la del PEAT: si duplicas el límite, hacen falta unas cuatro veces más barridos para dejar el mismo ruido (BSA, 2019). Un ruido que el rechazo no saca, como un paciente que no se calma, se arregla con el paciente, no con el equipo.
+10. **El notch va apagado.** Saca los 50 Hz y sus armónicos, pero es un filtro más sobre una señal chica, y es el último recurso. Simpson y cols. (2020) lo usan en la frecuencia de la red y en sus armónicos para sacar el zumbido, y en el PEAT de recién nacidos la BSA (2019) pide no usarlo con 500 Hz. Si lo enciendes, déjalo anotado. Antes, revisa impedancias, tierra y cables.
+11. **Las impedancias van bajas y parecidas.** Con una impedancia alta o desigual, la resta del preamplificador no cancela el zumbido ni el músculo (Picton, 2010). El electrodo de oído suele tener la impedancia más alta del montaje, y un preamplificador de entrada alta lo tolera mejor (ACNS, 2008). Una impedancia alta se nota en el trazo: el PA sale chico y el ruido sube.
+12. **El montaje va con el activo en el tímpano.** Cuanto más cerca de la cóclea, más grande es la respuesta (ver "Los tres electrodos"). Una referencia cercana al oído, como el lóbulo, rechaza mejor el músculo y la actividad del cerebro que no son del estímulo (Simpson y cols., 2020).
+13. **El estímulo es un click.** Da el PA más grande porque activa mucha cóclea a la vez. El tone burst separa mejor el PS, pero achica el PA y obliga a una ventana de 20 ms (paso 6). En el PEAT, los tone burst graves con polaridad alternada pueden promediar respuestas desfasadas (Hood, 2015).
 
 :::simulador
 Caso 9.1: registra el OI con el pasa-alto en 5, 100 y 200 Hz y mira cómo se achica la razón PS/PA.
@@ -297,7 +312,7 @@ La conclusión **no le pone nombre de enfermedad**: "compatible con hidrops endo
 ## Errores frecuentes
 
 - **Registrar con los filtros del PEAT.** Con el pasa-alto en 100 Hz, el PS se achica y el hidrops desaparece del trazo. Es el error más caro: no avisa.
-- **Medir a nivel bajo.** El PS necesita nivel. A 60 dB nHL la razón sale chica en un oído con hidrops, y nada lo avisa.
+- **Medir a nivel bajo.** El PS necesita nivel. A 60 dB nHL no hay un corte validado: una razón normal no descarta hidrops, y nada lo avisa.
 - **Comparar con el límite de otro electrodo.** Una razón de 0,45 es alterada con aguja en el promontorio (0,35) y con electrodo en el tímpano (0,40), pero es normal para el de conducto (0,50).
 - **Ventana corta.** Con 6 ms, el retorno de un complejo prolongado se sale de la pantalla y la razón de áreas no se puede calcular; con burst, la meseta se corta.
 - **Marcar el PS en cualquier parte.** Con click el hombro no tiene un punto único: el PS se marca en el mismo lugar en los dos oídos, y se mira junto a la razón de áreas.
@@ -339,6 +354,12 @@ Una razón PS/PA alta **apoya** el hidrops pero no lo prueba, y una normal **no 
 
 ### Técnica
 
+1. Burkard R, Don M. Introduction to auditory evoked potentials. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 187-205.
+1. Santarelli R, Arslan E. Electrocochleography. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 207-30.
+1. Hood LJ. Auditory brainstem response: estimation of hearing sensitivity. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 249-66.
+1. Picton TW. Human auditory evoked potentials. San Diego: Plural Publishing; 2010.
+1. American Clinical Neurophysiology Society. Guideline 9C: Guidelines on short-latency auditory evoked potentials. ACNS; 2008. Disponible en: https://www.acns.org/pdf/guidelines/Guideline-9C.pdf
+1. British Society of Audiology. Recommended procedure: auditory brainstem response (ABR) testing for post-newborn and adult (OD104-84). BSA; 2019. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2022/09/ABR-post-newborn-and-Adult.pdf
 1. Ferraro JA, Durrant JD. Electrocochleography in the evaluation of patients with Ménière's disease/endolymphatic hydrops. J Am Acad Audiol. 2006;17(1):45-68. doi:10.3766/jaaa.17.1.6
 1. Ferraro JA. Electrocochleography: a review of recording approaches, clinical applications, and new findings in adults and children. J Am Acad Audiol. 2010;21(3):145-52. doi:10.3766/jaaa.21.3.2
 1. Simpson MJ, Jennings SG, Margolis RH. Techniques for obtaining high-quality recordings in electrocochleography. Front Syst Neurosci. 2020;14:18. doi:10.3389/fnsys.2020.00018

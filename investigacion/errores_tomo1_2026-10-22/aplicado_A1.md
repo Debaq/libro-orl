@@ -1,0 +1,30 @@
+# Aplicado A1 (2026-10-22), fuente verificacion_V1_B_H01-H03_H24.md
+Archivos en capitulos/. Líneas: las de la verificación (el reemplazo es en la misma línea).
+- 01-a OMITIDA (FALSO)
+- 01-b APLICADA B01-anatomia.md l.61
+- 01-c APLICADA B01-anatomia.md l.397
+- 01-d OMITIDA (FALSO)
+- 01-e APLICADA B03-histologia.md l.259
+- 01-f APLICADA B03-histologia.md l.175
+- 01-g, 01-h OMITIDAS (FALSO)
+- 02-a APLICADA B04-fisica.md l.373
+- 02-b APLICADA B04-fisica.md l.112
+- 02-c APLICADA B04-fisica.md l.63 (Katz 2015 ya en referencias)
+- 02-d APLICADA B04-fisica.md l.96
+- 02-e APLICADA B04-fisica.md l.404 (ANSI S3.7 "según Katz")
+- 02-f APLICADA B04-fisica.md l.303
+- 02-g APLICADA B04-fisica.md l.223 (marcada discutible en la fuente pero con reemplazo PARCIAL; revisar si se quiere)
+- 02-h OMITIDA (NO VERIFICABLE)
+- 03-a APLICADA H24 l.498
+- 03-b OMITIDA (NO VERIFICABLE)
+- 03-c APLICADA H24 l.106
+- 03-d APLICADA H24 l.183
+- 03-e OMITIDA (no es error)
+- 04-1 APLICADA H03-audiometria-tonal.md l.434 y comentario H03-audiometria-tonal.py l.23
+- 04-2 APLICADA H03 l.134 (Schlauch y Nelson ya en lista)
+- 04-3 APLICADA H03 l.458
+- 04-4 APLICADA H03 l.226 y l.228
+- 04-5 APLICADA H03 l.115 (ISO 389-1:2017 ya en lista)
+- 04-6 APLICADA H03 l.585 (BSA 2018 ya en lista; ISO 8253-1 sigue citada en otros pasajes)
+- 04-7 APLICADA H02-acumetria.md l.140
+- 04-8 a 04-13 OMITIDAS (discutibles)

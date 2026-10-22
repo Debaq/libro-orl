@@ -172,7 +172,7 @@ Tabla: Tejido que daña cada cuadro de la cóclea
 
 Lo que muestra el corte en cada caso:
 
-- **Ruido.** Pérdida de CCE; en el ratón, además, pérdida de sinapsis con las células intactas tras un ruido "temporal" (Kujawa y Liberman, 2009). El mecanismo común es el estrés oxidativo (Henderson y cols., 2006).
+- **Ruido.** Pérdida de CCE; en el ratón, además, pérdida de sinapsis con las células intactas tras un ruido "temporal" (Kujawa y Liberman, 2009). Un mecanismo central es el estrés oxidativo (Henderson y cols., 2006).
 - **Ototóxicos.** Los aminoglucósidos y el cisplatino dañan las CCE de la vuelta basal y dan una pérdida de agudos (Rybak y Ramkumar, 2007; Forge y Schacht, 2000).
 - **Diuréticos de asa.** Edema de la estría y caída del potencial endococlear, con pérdida a menudo reversible (Rybak, 1993).
 - **Presbiacusia.** Una caída abrupta de agudos apunta a la forma sensorial; un umbral plano, a la estrial; la mala discriminación, a la neural; y hay formas mixtas (Schuknecht y Gacek, 1993). En cócleas humanas de más de 60 años, la pérdida de CCE fue de 30 a 40 %, la de CCI casi nunca pasó de 15 %, y la de axones periféricos superó el 60 % en 7 de 11 sujetos (Wu y cols., 2019).
@@ -256,7 +256,7 @@ Sobre el epitelio hay una capa de **moco**, y debajo la **lámina propia** con t
 
 ### El tejido eréctil de los cornetes y el vasoconstrictor
 
-Los senos venosos de los cornetes forman un **tejido eréctil**: se llenan de sangre y el cornete se hincha; se vacían y se encoge. Tienen endotelio fenestrado, y su llenado y vaciado alternados por turno entre las dos fosas explican el **ciclo nasal** (Eccles, 1996). Las fibras **simpáticas** inervan las anastomosis arteriovenosas de esos senos y controlan su calibre; la activación del **parasimpático** dilata los senos y aumenta la secreción de las glándulas, y eso produce los síntomas de la rinitis: congestión, picazón y secreción (Ecevit y cols., 2021).
+Los senos venosos de los cornetes forman un **tejido eréctil**: se llenan de sangre y el cornete se hincha; se vacían y se encoge. Tienen endotelio fenestrado, y su llenado y vaciado alternados por turno entre las dos fosas explican el **ciclo nasal** (Eccles, 1996). Las fibras **simpáticas** inervan las anastomosis arteriovenosas de esos senos y controlan su calibre; la activación del **parasimpático** dilata los senos y aumenta la secreción de las glándulas, y eso produce la congestión y la secreción de la rinitis; la picazón y el estornudo vienen de las terminaciones sensitivas del trigémino, que estimula la histamina (Ecevit y cols., 2021).
 
 Esa es la razón de que un **vasoconstrictor tópico despeje la nariz**: contrae los vasos de los senos, que se vacían, y el cornete se encoge. Es una explicación del libro a partir del control simpático de los senos; las fuentes citadas describen la inervación, no el fármaco. Lo que no se despeja es lo que no es mucosa, como el tabique desviado (→ H26, H27: la respuesta al vasoconstrictor separa lo que es mucosa de lo que es esqueleto).
 

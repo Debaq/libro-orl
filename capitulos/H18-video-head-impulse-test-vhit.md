@@ -92,7 +92,7 @@ El examen dura alrededor de una hora, contando la anamnesis, el montaje y la cal
 - **Sin gafas ni lentes de contacto**, pero debe poder **ver el blanco en la pared sin ellos**. Las gafas del equipo no calzan sobre otras gafas, y un paciente que no ve el punto no fija la mirada. En voluntarios sanos, el tamaño del blanco y la agudeza visual no cambiaron la ganancia en un estudio pequeño (Judge y cols., 2018).
 - **Suspender 48 horas antes** los medicamentos antivertiginosos, antieméticos y ansiolíticos que esté tomando, si el médico lo autoriza. <!-- verificar: efecto de los supresores vestibulares y los sedantes sobre la ganancia del vHIT; el protocolo lo pide por práctica, no hay una fuente que lo cuantifique -->
 
-Y descarta antes de empezar las **contraindicaciones**: ceguera, fractura de nariz o traumatismo de cara, cabeza o cuello, cirugía ocular reciente, ptosis, parpadeo excesivo y maquillaje excesivo. Varias de ellas son de seguridad (el cuello recibe un giro brusco), y las demás, de calidad de registro.
+Y descarta antes de empezar las **contraindicaciones** del protocolo ORL 2019: ceguera, fractura de nariz u otro traumatismo de cara o cabeza, traumatismo de cuello, cirugía ocular reciente, ptosis, parpadeo excesivo y maquillaje excesivo. Varias de ellas son de seguridad (el cuello recibe un giro brusco), y las demás, de calidad de registro. Pregunta además por problemas de columna cervical que hagan peligroso un giro brusco: inestabilidad, estenosis, dolor intenso o cirugía reciente.
 
 ### El material
 

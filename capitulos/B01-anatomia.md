@@ -58,7 +58,7 @@ Tabla: Las dos partes del conducto auditivo externo
 | **Sensibilidad** | poca | **mucha**: el roce duele |
 | **Qué se ve en la clínica** | el cerumen se forma aquí | el tapón empujado hacia adentro se pega a la piel sensible |
 
-Por eso el cerumen se produce afuera y **no debe manipularse adentro** sin ver: el tercio óseo es estrecho, delgado y sangra con facilidad (→ H1).
+Por eso el cerumen se produce afuera y **no debe manipularse adentro** sin ver: la parte ósea (los dos tercios internos) es estrecha, delgada y sangra con facilidad (→ H1).
 
 :::imagen ilustraciones/b1-cae-gray907.png ancho=70% Corte del oído externo y la trompa. Mira dónde termina el cartílago y empieza el hueso del conducto: ahí la piel se vuelve fina y el roce empieza a doler. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 907), dominio público.
 - @16,70 | **Parte cartilaginosa** del conducto (*cartilaginous part of ext. acoustic meatus*): piel con pelos y glándulas.
@@ -239,7 +239,7 @@ Si se la corta en sección, se ven **tres tubos** apilados:
 
 Las neuronas del **ganglio espiral** están dentro del modiolo; sus axones forman el nervio coclear. Casi todas (el 90 % o más) hacen sinapsis con las **células ciliadas internas**; el resto, con las externas (Pickles, 2013; → B3).
 
-**Por qué importa en el examen.** Cada lugar de la cóclea responde a una frecuencia: lo que se mide en la audiometría y en las emisiones es esa **tonotopía** (→ H3, H9). Las rampas llenas de líquido explican también el reclutamiento y la compresión (→ H6). Y la **ventana redonda** es la válvula de escape: sin ella, el líquido no se movería (→ B2).
+**Por qué importa en el examen.** Cada lugar de la cóclea responde a una frecuencia: lo que se mide en la audiometría y en las emisiones es esa **tonotopía** (→ H3, H9). Las células ciliadas externas amplifican más los sonidos débiles que los fuertes: esa **compresión** se pierde con el daño coclear, y su pérdida es la causa principal del **reclutamiento** (Moore, 2007; → B2, B3, H6). Y la **ventana redonda** es la válvula de escape: sin ella, el líquido no se movería (→ B2).
 
 ### El vestíbulo y los canales semicirculares
 
@@ -394,7 +394,7 @@ Cada canal activa dos músculos, uno de cada ojo, que juntos mueven la mirada en
 
 #### Las vías otolíticas
 
-Por el mismo nervio vestibular van el **utrículo** (rama superior) y el **sáculo** (rama inferior). Cada uno tiene su vía de reflejo, y son las que exploran los potenciales evocados miogénicos vestibulares (→ H12):
+Por el mismo nervio vestibular van el **utrículo** (sobre todo por la rama superior) y el **sáculo** (sobre todo por la inferior). Cada uno tiene su vía de reflejo, y son las que exploran los potenciales evocados miogénicos vestibulares (→ H12):
 
 :::imagen ilustraciones/b1-sim-otolitos.png ancho=50% Las vías otolíticas: el utrículo (nervio superior) llega a los músculos de los ojos, y el sáculo (nervio inferior), al esternocleidomastoideo. Con los canales apagados, mira solo los dos órganos marcados abajo y los músculos que se iluminan arriba, en los ojos, y a los lados, en el cuello. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 - @40,92 | **Utrículo** y **sáculo**: los dos otolitos, de cada lado.
@@ -666,6 +666,7 @@ El laberinto membranoso alcanza su tamaño de adulto a mitad del embarazo; lo qu
 1. Luquetti DV, Heike CL, Hing AV, Cunningham ML, Cox TC. Microtia: epidemiology and genetics. Am J Med Genet A. 2012;158A(1):124-39. doi:10.1002/ajmg.a.34352
 1. Truong MT, Liu YC, Kohn J, Chinnadurai S, Zopf DA, Tribble M, et al. Integrated microtia and aural atresia management. Front Surg. 2022;9:944223. doi:10.3389/fsurg.2022.944223
 1. Pickles JO. An introduction to the physiology of hearing. 4.ª ed. Leiden: Brill; 2013. ISBN 978-90-04-24377-4
+1. Moore BCJ. Cochlear hearing loss: physiological, psychological and technical issues. 2.ª ed. Chichester: Wiley; 2007. ISBN 978-0-470-51633-1
 1. Ishijima K, Sando I, Suzuki C, Balaban C, Takasaki K. Length of the Eustachian tube and its postnatal development: computer-aided three-dimensional reconstruction and measurement study. Ann Otol Rhinol Laryngol. 2000;109(6):542-8. doi:10.1177/000348940010900603
 1. Leuwer R. Anatomy of the Eustachian tube. Otolaryngol Clin North Am. 2016;49(5):1097-106. doi:10.1016/j.otc.2016.05.002
 1. Schilder AG, Bhutta MF, Butler CC, Holy C, Levine LH, Kvaerner KJ, et al. Eustachian tube dysfunction: consensus statement on definition, types, clinical presentation and diagnosis. Clin Otolaryngol. 2015;40(5):407-11. doi:10.1111/coa.12475

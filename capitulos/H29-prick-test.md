@@ -39,7 +39,7 @@ La histamina actúa sobre los vasos y los nervios de la piel vecina y produce lo
 - **La pápula (el habón):** los vasos más pequeños se dilatan y se vuelven más permeables, y el plasma sale al tejido. Es edema local, blanquecino y elevado, que se puede medir.
 - **El eritema (la ráfaga):** un enrojecimiento más extenso alrededor de la pápula. Se debe en parte a un reflejo de los nervios de la piel (reflejo axónico) que hace llegar la dilatación más lejos del punto de la punción (Heinzerling y cols., 2013).
 
-Todo esto es la **fase inmediata**: empieza en minutos y es la que se lee. Después de unas horas puede venir una **fase tardía**, con hinchazón y enrojecimiento local que depende de la llegada de otras células y no de la IgE; no se usa para leer la prueba (Bernstein y cols., 2008). <!-- verificar: duración de la fase tardía (la literatura de las clases habla de 2 a 6 horas y resolución a las 24 h); contrastar con Bernstein 2008 (texto completo) y fijar. -->
+Todo esto es la **fase inmediata**: empieza en minutos y es la que se lee. Después de unas horas puede venir una **fase tardía**, con hinchazón y enrojecimiento local que inicia la misma reacción IgE-mastocito y mantiene la llegada de otras células; no se usa para leer la prueba (Bernstein y cols., 2008; Galli y Tsai, 2012). <!-- verificar: duración de la fase tardía (la literatura de las clases habla de 2 a 6 horas y resolución a las 24 h); contrastar con Bernstein 2008 (texto completo) y fijar. -->
 
 :::imagen ilustraciones/h29-curso.svg ancho=100% La reacción inmediata de la piel según el tiempo. La histamina del control positivo da su pápula máxima antes (cerca de los 8 a 10 minutos); la del alérgeno, entre los 15 y 20 minutos, que es la ventana de lectura. La forma de las curvas es un esquema, no son datos de un paciente. Imagen propia.
 :::
@@ -48,7 +48,7 @@ Todo esto es la **fase inmediata**: empieza en minutos y es la que se lee. Despu
 
 Un resultado solo se interpreta frente a lo que hace esa piel ese día. Por eso en cada prueba hay dos controles, y sin ellos no se puede informar (Bernstein y cols., 2008):
 
-- **Control positivo: histamina.** La histamina actúa directamente sobre los vasos, sin pasar por la IgE ni por el mastocito, de modo que **toda piel normal debería reaccionar**. La histamina responde otra pregunta: ¿esta piel puede reaccionar? Si no hay pápula, el problema está en el paciente o en la técnica, no en el alérgeno: típicamente, un antihistamínico que no se suspendió, y entonces la ausencia de reacción a los alérgenos no significa nada (Powrie, 2015). La concentración que recomienda la guía europea es histamina diclorhidrato al 0,1 % (10 mg/mL) (Heinzerling y cols., 2013).
+- **Control positivo: histamina.** La histamina actúa directamente sobre los vasos, sin pasar por la IgE ni por el mastocito, de modo que **toda piel normal debería reaccionar**. La histamina responde otra pregunta: ¿esta piel puede reaccionar? Si no hay pápula, el problema está en el paciente o en la técnica, no en el alérgeno: típicamente, un antihistamínico que no se suspendió, y entonces la ausencia de reacción a los alérgenos no significa nada (Powrie, 2015). La concentración que recomienda la guía europea es histamina diclorhidrato a 10 mg/mL (la guía europea la escribe también como 0,1 %, que no equivale a esa concentración; se usa la que trae el fabricante) (Heinzerling y cols., 2013).
 - **Control negativo: el diluyente del extracto**, que es suero fisiológico al 0,9 % en la propuesta europea (Heinzerling y cols., 2013). <!-- verificar: algunos fabricantes entregan un control negativo glicerinado (solución con glicerina, igual al diluyente de los extractos); confirmar en las instrucciones de un fabricante y en Bernstein 2008 si hay que precisar. --> No lleva alérgeno ni histamina, así que **no debería dar pápula**. Si la da, es la piel la que reacciona a la punción o al roce: es el **dermografismo**, y mientras exista no se pueden distinguir con confianza las pápulas de los alérgenos (Heinzerling y cols., 2013; Powrie, 2015). Además el negativo es la referencia contra la que se mide lo demás.
 
 ### Qué hace que un resultado sea falso
@@ -87,7 +87,7 @@ Tabla: Cuándo no se hace, o no se hace así
 
 | Situación | Qué pasa | Qué se suele hacer |
 |---|---|---|
-| Dermatitis o eccema activo en el lugar de la prueba | La piel enferma no sirve para leer (Bernstein y cols., 2008; Powrie, 2015) | Otra zona sana (la espalda) o IgE específica en sangre |
+| Dermatitis o eccema activo en el lugar de la prueba | La piel enferma no sirve para leer (Bernstein y cols., 2008; Powrie, 2015) | Otra zona sana (la espalda, que reacciona más; anotar la zona) o IgE específica en sangre |
 | Dermografismo marcado | No se pueden separar las pápulas (Heinzerling y cols., 2013) | IgE específica en sangre |
 | Reacción sistémica reciente | Riesgo mayor; se aconseja esperar 4 a 6 semanas, sobre todo tras picaduras de himenópteros (Heinzerling y cols., 2013) | Diferir; decide el médico |
 | Asma no controlada o con flujo espiratorio máximo menor de 70 % (→ H30) | Una reacción sistémica sería más grave (Heinzerling y cols., 2013) | Diferir hasta controlar |
@@ -122,7 +122,7 @@ Entre las dos fuentes principales hay diferencias en los días y en lo que se co
 ### Equipo
 
 - **Extractos de alérgenos estandarizados**, con su fecha de vencimiento y la fecha de apertura (algunos fabricantes piden usarlos dentro de 6 meses desde que se abren) y guardados entre 2 y 8 °C (Powrie, 2015).
-- **Control positivo** (histamina al 0,1 %) y **control negativo** (diluyente) (Heinzerling y cols., 2013).
+- **Control positivo** (histamina 10 mg/mL) y **control negativo** (diluyente) (Heinzerling y cols., 2013).
 - **Lancetas estériles de una punta, de un solo uso**, una por cada punto de la prueba (Heinzerling y cols., 2013; Powrie, 2015).
 - **Regla o plantilla transparente en milímetros**, marcador de piel fino, cronómetro, pañuelos de papel, guantes, contenedor de cortopunzantes y la **hoja de registro**.
 - **Equipo de urgencia con adrenalina** (1 mg/mL, 1:1000) a la mano, y personal que sepa reconocer y tratar una anafilaxia; el médico y el equipamiento de emergencia deben estar disponibles de inmediato (Powrie, 2015; Heinzerling y cols., 2013).
@@ -139,7 +139,7 @@ Antes de empezar, el paciente debe saber qué se le va a hacer y por qué, y dar
 :::
 
 1. **Sentar o acostar al paciente.** Cómodo y con el antebrazo apoyado sobre una superficie firme, con la cara palmar hacia arriba. Si tiene fobia a las agujas o se marea con facilidad, **acostado**: así una reacción vasovagal no termina en una caída (Powrie, 2015).
-2. **Marcar los puntos.** En el **antebrazo volar**, lejos de la muñeca y del pliegue del codo (la guía europea pide al menos 2 a 3 cm). Con el marcador se señalan los sitios con la letra o abreviatura de cada alérgeno, a **2,5 cm entre sí**; la exigencia mínima es de 2 cm (Heinzerling y cols., 2013; Powrie, 2015). La distancia no es un adorno: más cerca, las pápulas se tocan y no se pueden medir. En un lactante, se hace en la espalda.
+2. **Marcar los puntos.** En el **antebrazo volar**, lejos de la muñeca y del pliegue del codo (la guía europea pide al menos 2 a 3 cm). Con el marcador se señalan los sitios con la letra o abreviatura de cada alérgeno, a **2,5 cm entre sí**; la exigencia mínima es de 2 cm (Heinzerling y cols., 2013; Powrie, 2015). La distancia no es un adorno: más cerca, las pápulas se tocan y no se pueden medir. En un lactante, se hace en la espalda, que reacciona más que el antebrazo: se anota la zona porque las pápulas no son comparables con las del antebrazo (Heinzerling y cols., 2013).
 3. **Poner una gota al lado de cada marca.** Una gota pequeña de cada extracto, sin que toque la de al lado. El orden en que se aplica es el de la figura: **primero el control negativo, al final la histamina**. Es una regla práctica: la histamina contamina y es la que reacciona primero, así que el paciente tolera mejor que sea la última y no se arrastra al resto (Powrie, 2015).
 4. **Puncionar a través de la gota.** Con una lanceta nueva por cada gota, perpendicular a la piel (90°), con presión suave y pareja, y sostenida **al menos 1 segundo**; la lanceta debe atravesar la capa superficial de la piel **sin hacerla sangrar** (Heinzerling y cols., 2013; Powrie, 2015). Se descarta la lanceta en el contenedor de cortopunzantes, y se pasa a la siguiente gota. **Nunca se reutiliza una lanceta limpiándola.**
 5. **Secar con cuidado.** Con un pañuelo limpio por sitio, tocando la gota sin arrastrarla, para que ningún alérgeno llegue al sitio de al lado (Powrie, 2015).
@@ -239,6 +239,7 @@ Una prueba cutánea no se informa sola. Una pápula de 3 mm en un paciente sin s
 ## Referencias
 
 1. Heinzerling L, Mari A, Bergmann KC, Bresciani M, Burbach G, Darsow U, et al. The skin prick test - European standards. Clin Transl Allergy. 2013;3(1):3. doi:10.1186/2045-7022-3-3. PMID: 23369181.
+1. Galli SJ, Tsai M. IgE and mast cells in allergic disease. Nat Med. 2012;18(5):693-704. doi:10.1038/nm.2755. PMID: 22561833.
 1. Bousquet J, Heinzerling L, Bachert C, Papadopoulos NG, Bousquet PJ, Burney PG, et al. Practical guide to skin prick tests in allergy to aeroallergens. Allergy. 2012;67(1):18-24. doi:10.1111/j.1398-9995.2011.02728.x. PMID: 22050279.
 1. Bernstein IL, Li JT, Bernstein DI, Hamilton R, Spector SL, Tan R, et al. Allergy diagnostic testing: an updated practice parameter. Ann Allergy Asthma Immunol. 2008;100(3 Suppl 3):S1-148. doi:10.1016/s1081-1206(10)60305-5. PMID: 18431959.
 1. Powrie K. Adult skin prick testing: standard operating procedure. BSACI Nurses in Allergy Group; 2015 (v7).

@@ -48,9 +48,10 @@ La atenuación interaural **varía de una persona a otra y depende del transduct
 | Fono supraaural o circumaural | 40 a 80 dB | **40 dB** |
 | Fono de inserción bien puesto | 55 dB o más; mayor en los graves | **55 dB** |
 | Vibrador óseo | casi 0 dB | **0 dB** |
-| Habla con fono supraaural | similar a la de los tonos de 1 a 2 kHz | **45 dB** |
+| Habla con fono supraaural | 48 a 76 dB; parecida a la de los tonos de 1 a 2 kHz | **45 dB** |
+| Habla con fono de inserción bien puesto | 68 a 84 dB | **60 dB** (Yacullo; el protocolo no lo indica) |
 
-Fuentes: BSA (2018), Munro y Agnew (1999), Sklare y Denenberg (1987), Smith y Markides (1981), Yacullo (2015). Para el habla, Yacullo recoge atenuaciones de 48 a 76 dB con fono supraaural y recomienda 45 dB como estimación conservadora: el 48 redondeado hacia abajo a los pasos de 5 dB.
+Fuentes: BSA (2018), Munro y Agnew (1999), Sklare y Denenberg (1987), Smith y Markides (1981), Yacullo (2015). Para el habla, el protocolo ORL 2019 usa **45 dB**: el mínimo publicado con supraaural, 48 dB, redondeado a los pasos de 5 (Yacullo, 2015). Otros autores bajan ese valor para el SDT y la discriminación, que se miden con otro criterio de acierto: Konkle y Berry, a 35 dB para la discriminación; Yacullo (2015), a **40 dB** para todas las pruebas de habla con supraaural y **60 dB** con inserto profundo (→ H5).
 :::
 
 <!-- Pasada de fundamentos 2026-10-18: la fila del habla decía "similar a la de los tonos graves". Se corrigió a "de 1 a 2 kHz": Sklare y Denenberg (1987) encontraron que la atenuación interaural del habla se aproxima a la de 1 a 2 kHz. -->
@@ -140,12 +141,15 @@ Las reglas se aplican **frecuencia por frecuencia**. El oído evaluado es el que
 | **Aérea (regla 1)** | diferencia entre los umbrales aéreos sin enmascarar de los dos oídos | 40 dB o más | 55 dB o más |
 | **Ósea (regla 2)** | la ósea sin enmascarar es mejor que la aérea de cualquiera de los dos oídos | 10 dB o más | 10 dB o más |
 | **Aérea (regla 3)** | la ósea de un oído es mejor que la aérea sin enmascarar del otro, aunque la regla 1 no se cumpla | 40 dB o más | 55 dB o más |
-| **Logoaudiometría** | nivel de presentación menos el promedio óseo del oído no evaluado | 45 dB o más | — |
+| **Logoaudiometría** | nivel de presentación menos el promedio óseo del oído no evaluado | 45 dB o más | 60 dB o más (Yacullo) |
 :::
 
 La **regla 3** es la que más se olvida: dos oídos con la misma pérdida aérea no necesitan enmascarar por la regla 1, pero si uno tiene la cóclea sana (ósea buena), el tono del otro le llega igual. Recuerda que el cruce lo decide la **cóclea** del oído no evaluado (BSA, 2018).
 
 <!-- Protocolo ORL 2019: en logoaudiometría decía "cuando la diferencia de la intensidad de evaluación supera en al menos una AI de la voz (45 dB)". Se precisó contra qué se compara: el promedio óseo del oído no evaluado, igual que en tonos (BSA 2018, regla 3 y notas). -->
+
+<!-- Revisión de errores 2026-10-22: se pasó a 40 dB contra el mejor óseo (Yacullo 2015) y el mismo día se volvió al protocolo por pedido del autor ("si el protocolo lo indica, va eso; otros autores como observación"). Yacullo 2015 (Katz 7.ª ed., cap. 6, pp. 81-82, 89-90 y 103-105), Konkle y Berry 1983 y ASHA 1988 quedan como observación en H5. -->
+
 
 ### 2. Cuánto ruido: mínimo y máximo
 
@@ -170,6 +174,8 @@ El ruido tiene una ventana. Por debajo del **mínimo**, el oído no evaluado sig
 - Máximo = PTP óseo evaluado + 45
 
 UA: umbral aéreo. UO: umbral óseo. AI: atenuación interaural. CE: coeficiente de enmascaramiento del ruido. PTP: promedio tonal.
+
+Son las fórmulas del protocolo ORL 2019. Yacullo (2015) les agrega márgenes: al mínimo le suma al menos 10 dB, porque el ruido enmascara distinto en cada persona, y al máximo le resta 5 dB para quedar bajo el sobreenmascaramiento. Con ellos la ventana se achica 15 dB. <!-- Revisión de errores 2026-10-22: los márgenes de Katz se pusieron en las fórmulas y el mismo día pasaron a observación, por pedido del autor (el protocolo manda). -->
 :::
 
 Cada término tiene una razón:
@@ -184,6 +190,8 @@ Cada término tiene una razón:
 
 - Aérea del OI: mínimo = 50 − 40 − 0 + 0 = **10 dB**; máximo = 25 + 40 = **65 dB**. Un ruido de unos 40 dB EM en el OD está holgado.
 - Ósea del OI: mínimo = 25 − 0 + 0 + 10 (oclusión, porque el OD es normal) = **35 dB**; máximo = 25 + 40 = **65 dB**. El ruido tiene que ir entre 35 y 65.
+
+Con los márgenes de Yacullo (2015), la aérea quedaría entre 20 y 60 dB, y la ósea entre 45 y 60.
 
 ### 3. El método del plateau
 
@@ -213,7 +221,7 @@ Cómo se lee el gráfico (BSA, 2018):
 
 ### 4. La técnica por pasos
 
-Cuando hay que enmascarar varias frecuencias y el tiempo es poco, se usa una versión abreviada que solo mira si el umbral se mueve con saltos grandes de ruido:
+Cuando hay que enmascarar varias frecuencias y el tiempo es poco, el protocolo ORL 2019 da una versión abreviada, el **step masking**, que solo mira si el umbral se mueve con saltos grandes de ruido. Otras fuentes no la usan: la BSA (2018) no recomienda técnicas distintas del plateau, y Yacullo (2015) parte de otro nivel inicial (umbral aéreo del no evaluado + 10 dB, más el efecto de oclusión en la ósea). Si el resultado es dudoso, vuelve al plateau.
 
 1. **Ruido inicial**: 30 dB sobre el umbral aéreo del oído no evaluado para la vía aérea; 20 dB sobre ese umbral para la ósea, **más el efecto de oclusión** si el oído no evaluado es normal o sensorioneural (no si tiene componente conductivo). El efecto de oclusión se suma solo en este primer nivel.
 2. **Busca el umbral** con ese ruido. Si no cambia, es el umbral verdadero.
@@ -224,7 +232,7 @@ Un corrimiento de 10 dB queda en la zona gris: trátalo como corrimiento y da un
 
 <!-- Protocolo ORL 2019: el corte para subir el ruido era un corrimiento de 15 dB o más, sin decir qué hacer con 10 dB. Se agregó la indicación de la zona gris con el criterio de ±5 dB de la BSA 2018 (8.9.1). -->
 
-<!-- verificar: no se encontró la fuente citable de la "técnica por pasos" (step masking) con ruido inicial de 30 dB (aérea) y 20 dB (ósea) y pasos de 20 dB. La BSA 2018 desaconseja técnicas distintas del plateau. -->
+<!-- Fuente del step masking: protocolo ORL 2019 (solo vía aérea: 30 dB sobre la aérea del no evaluado, corrimiento de 15 dB, pasos de 20 dB). Los 20 dB + oclusión para la ósea no están en el protocolo ni en otra fuente encontrada. La BSA 2018 desaconseja técnicas distintas del plateau. -->
 
 ### 5. La vía ósea
 
@@ -254,12 +262,12 @@ La lógica es la misma, con habla y ruido de habla. El cruce se hace evidente en
 
 :::figura h4_p42 logoaudiometria
 - @OD 40 | Sin enmascarar, el OD anacúsico ya "entiende" el **20 %** a 40 dB, y a 45 dB la mitad: al OI llegan 0 dB, su SRT.
-- @OD 80 | A 80 dB repite el **100 %**. Es la curva del OI corrida 45 dB: lo que llega al OI son 35 dB, y a 35 dB el OI entiende todo.
+- @OD 80 | A 80 dB repite el **100 %**. Es la curva del OI corrida 45 dB, lo que atenúa el cráneo de este paciente: lo que llega al OI son 35 dB, y a 35 dB el OI entiende todo.
 :::
 
 :::figura h4_p42 logoaudiometria 2
 - @OD 80 | Con ruido de habla en el OI, el OD no repite ninguna palabra a 80 dB.
-- @OI 35 | El OI llega al 100 % desde 35 dB. Para medir el OD a 80 dB, el mínimo de ruido en el OI es 80 − 45 − 0 + 0 = **35 dB**.
+- @OI 35 | El OI llega al 100 % desde 35 dB. Para medir el OD a 80 dB, el mínimo de ruido en el OI es 80 − 45 − 0 + 0 = **35 dB**. Se calcula con los 45 dB del protocolo, no con lo que atenúa este paciente, que no se conoce de antemano; con los 40 dB de Yacullo (2015) serían 40 dB.
 :::
 
 El umbral de discriminación (UMD) se mide 20 a 40 dB sobre el SRT. En un oído con pérdida y el otro normal, eso casi siempre cruza: **el UMD del oído peor se enmascara por regla**.
@@ -271,13 +279,13 @@ En una pérdida conductiva **bilateral** con gaps grandes, el mínimo puede qued
 {{caso h4_dilema}}
 
 :::figura h4_dilema audiograma
-- @OD 250 | En 250 Hz el OD está en 50 dB aéreo y 0 óseo. El OI, en 55 y 0. Con supraaural, para medir el OD: mínimo = 50 − 40 − 0 + 55 = **65 dB**; máximo = 0 + 40 = **40 dB**. No hay ventana.
+- @OD 250 | En 250 Hz el OD está en 50 dB aéreo y 0 óseo. El OI, en 55 y 0. Con supraaural, para medir el OD: mínimo = 50 − 40 − 0 + 55 = **65 dB**; máximo = 0 + 40 = **40 dB**. No hay ventana (con los márgenes de Yacullo, 75 y 35: menos aún).
 - @OI 250 | La diferencia aérea entre los oídos es de 5 dB y la regla 1 no se cumple. Pero la ósea del OD (0) está 55 dB mejor que el aéreo del OI: la **regla 3** obliga a enmascarar.
-- @OD osea 500 | En la ósea pasa lo mismo: en 500 Hz el mínimo es 50 y el máximo 45.
-- @OD 1000 | En 1 kHz el gap baja a 35 dB y la ventana se abre apenas: de 45 a 50 dB.
+- @OD osea 500 | En la ósea pasa lo mismo: en 500 Hz el mínimo es 50 y el máximo 45 (con los márgenes de Yacullo, 60 y 40).
+- @OD 1000 | En 1 kHz el gap baja a 35 dB y la ventana se abre apenas: de 45 a 50 dB. Con los márgenes de Yacullo (55 y 45) se cierra.
 :::
 
-La salida es el **inserto**. Con 55 dB de atenuación, en 250 Hz el mínimo baja a 50 − 55 − 0 + 55 = 50 dB y el máximo sube a 0 + 55 = 55 dB: hay ventana, angosta. Al subir la atenuación, el mínimo baja y el máximo sube a la vez. Si ni así se encuentra el plateau, se informa el umbral como **no enmascarable** (BSA, 2018).
+La salida es el **inserto**. Con 55 dB de atenuación, en 250 Hz el mínimo baja a 50 − 55 − 0 + 55 = 50 dB y el máximo sube a 0 + 55 = 55 dB: hay ventana, angosta. Con los márgenes de Yacullo (60 y 50) no la habría; con los 75 dB de atenuación que él usa con inserto hasta 1.000 Hz, el mínimo baja a 30 (40 con margen) y el máximo sube a 70, y sí la hay (Yacullo, 2015). Al subir la atenuación, el mínimo baja y el máximo sube a la vez. Si ni así se encuentra el plateau, se informa el umbral como **no enmascarable** (BSA, 2018).
 
 :::sabias ¿Sabías que?
 Con gaps iguales en los dos oídos, el dilema aparece cuando el gap **supera la atenuación interaural**: con supraaural, sobre unos 40 dB. Por eso las otoesclerosis bilaterales avanzadas y las otitis crónicas bilaterales son los casos clásicos.
@@ -298,7 +306,7 @@ Con gaps iguales en los dos oídos, el dilema aparece cuando el gap **supera la 
 ## Errores frecuentes
 
 - **No enmascarar la ósea** "porque la aérea no lo pedía". La ósea cruza siempre: es el error que convierte una mixta en conductiva (Coles y Priede, 1970).
-- **Comparar con el aéreo del oído no evaluado** en vez de con su óseo. Se pierde el cruce en los casos de la regla 3.
+- **Quedarte con la regla 1** (aéreo contra aéreo). Es solo un atajo para anticipar: el cruce lo decide la cóclea del oído no evaluado, así que hay que revisarla con su óseo (regla 3) (BSA, 2018; Yacullo, 2015).
 - **Usar una atenuación más alta que el mínimo**, "porque el paciente tiene la cabeza grande". La AI no se ve desde afuera.
 - **Enmascarar con un solo nivel de ruido** y no mirar si el umbral cambia. Un nivel fijo puede quedar bajo el mínimo o sobre el máximo sin que lo notes.
 - **Ruido equivocado**: banda estrecha para habla o ruido de habla para tonos sin corregir el CE.

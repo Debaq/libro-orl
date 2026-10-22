@@ -137,7 +137,7 @@ Se anota **siempre la frecuencia** del diapasón, porque el resultado vale solo 
 | Sensorioneural **severa o profunda** de un oído | Al oído **sano** | **Falso negativo** en el enfermo; positivo en el sano |
 | **Mixta** de un oído | Variable: el gap lo lleva al enfermo y la cóclea al sano | Negativo en el enfermo si el gap alcanza |
 
-Según la BSA (2022). Con una sensorioneural de larga data en un oído, el Weber puede salir centrado.
+Según la BSA (2022). Con una sensorioneural de larga data en un oído, el Weber puede salir centrado. La fila de la pérdida mixta es una deducción de este libro.
 :::
 
 <!-- Protocolo ORL 2019: el falso negativo era "en hipoacusia profunda/cofosis unilateral". La BSA 2022 lo describe con una sensorioneural severa del lado examinado, no solo con cófosis. -->

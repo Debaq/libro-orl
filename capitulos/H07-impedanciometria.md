@@ -126,9 +126,9 @@ Se empieza por el **oído derecho**. Se elige una oliva que selle sin entrar a p
 Con la timpanometría lista, sin sacar la sonda, se buscan los reflejos **a la presión del pico**, que es donde el tímpano se mueve mejor.
 
 - **Ipsilateral primero**, en 500, 1000, 2000 y 4000 Hz; luego **contralateral** en las mismas frecuencias más un **ruido** (de banda ancha en muchos equipos).
-- Se parte en **80 dB** y se sube de **5 en 5** hasta ver la deflexión.
+- Se parte en **80 dB** y se sube de **5 en 5** hasta ver la deflexión (protocolo ORL 2019). La BSA (2024) parte más abajo, en 70 dB HL con tonos y 60 dB HL con ruido, y si ya responde en la primera presentación baja 10 dB y reinicia.
 - **Criterio de presencia**: una deflexión de al menos **0,02 mL**, con la forma típica (baja al empezar el tono, vuelve al terminar). Se sube 5 dB para confirmar que **crece**, y se baja 10 para comprobar que el umbral se repite (BSA, 2024).
-- **Tope**: no pasar de 105 dB HL con tonos, por riesgo para la audición que queda (BSA, 2024). En un equipo que muestra dB SPL, eso es algo más: entre 105 y 117 dB SPL según la frecuencia y el transductor (ver "El reflejo: umbral y Metz").
+- **Tope**: no pasar de 105 dB HL con tonos, por riesgo para la audición que queda (BSA, 2024). En un equipo que muestra dB SPL, eso es algo más: entre 105 y 117 dB SPL según la frecuencia y el transductor (ver "El reflejo: umbral y Metz"). El ruido de banda ancha, no más de 95 dB SPL.
 
 El **umbral del reflejo** es la menor intensidad que da una deflexión repetible.
 
@@ -260,7 +260,7 @@ Para pasar de dB HL a dB SPL se suma la **corrección del transductor** que suen
 | Ipsilateral (sonda) | 5,5 | 0 | 3 | 5,5 |
 | Contralateral (fono TDH39) | 11,5 | 7 | 9 | 9,5 |
 
-Por eso un oído sano da el ipsilateral en **90, 85, 90 y 90 dB SPL** y el contralateral en **95, 90, 95 y 95 dB SPL**, y el ruido contralateral en 95: es el mismo reflejo de unos 85 dB HL, con la corrección de cada transductor y redondeado a 5 dB, el paso del dial. Para el **Metz**, resta primero la corrección: un contralateral a 95 dB SPL en 500 Hz son 83,5 dB HL, y es ese número el que se compara con el umbral tonal.
+Por eso un oído sano da el ipsilateral en **90, 85, 90 y 90 dB SPL** y el contralateral en **95, 90, 95 y 95 dB SPL**. El ruido de banda ancha da el reflejo unos 20 dB más abajo que los tonos: 66 dB HL de media y hasta 80 dB HL en el 95 % de los oídos normales, y la BSA limita los estímulos de banda ancha a 95 dB SPL (BSA, 2024; Wiley y cols., 1987). Los valores en dB SPL se redondean a 5 dB, el paso del dial. Para el **Metz**, resta primero la corrección: un contralateral a 95 dB SPL en 500 Hz son 83,5 dB HL, y es ese número el que se compara con el umbral tonal.
 
 :::comentario Lo que dicen las normas
 La BSA prefiere expresar el estímulo del reflejo en **dB HL** y acepta dB SPL, siempre que se apliquen las correcciones para comparar con los valores normales (BSA, 2024). Las tablas de normalidad que se citan arriba (Wiley y cols., 1987; Gelfand y cols., 1990) y el cálculo de Metz están en dB HL: el umbral del reflejo se resta del umbral tonal, y los dos tienen que estar en la misma escala. El tope de 105 dB HL que recomienda equivale, con las correcciones de la tabla, a 105 a 110,5 dB SPL en el ipsilateral y a 112 a 116,5 dB SPL en el contralateral.
@@ -302,7 +302,7 @@ Además del umbral, mira la **forma** de la deflexión. La normal baja al empeza
 
 :::figura h7_p34 reflejos
 - @ipsi OD 1000 | Con la sonda en el OD rígido faltan el ipsilateral y el contralateral que se registra ahí, aunque el tono entre por el OI sano.
-- @contra OI 2000 | Con el **tono en el OD** el reflejo sube lo que pierde en el oído medio: 110 dB SPL en 2 kHz, 120 en 4 kHz, y ausente en 500 y 1000 Hz, donde el gap es de 40 y 30 dB.
+- @contra OI 2000 | Con el **tono en el OD** el reflejo sube lo que pierde en el oído medio: 110 dB SPL en 2 kHz (101 dB HL) y ausente en 500 y 1000 Hz, donde el gap es de 40 y 30 dB. En 4 kHz aparece en 120 dB SPL, 110,5 dB HL, sobre el tope de 105 dB HL: en la clínica la prueba se habría detenido antes, y se deja para ver cuánto sube el reflejo.
 - @ipsi OI 1000 | Solo el ipsilateral del OI sale normal. Tres filas alteradas en torno al OD: **L invertida**, conductivo.
 :::
 
@@ -317,7 +317,7 @@ El informe describe; el diagnóstico lo hace el médico. En el formulario se dib
 :::figura h7_p35 timpanograma
 - @OD pico | **Tipo B** en el OD: no hay pico, la presión es indeterminada.
 - @OI pico | El OI es igual: plano.
-- Los volúmenes son de 0,42 y 0,70 mL, pequeños y propios de un conducto infantil: la sonda está frente a un tímpano cerrado. Plano con volumen normal es **efusión**, lo que calza con los tímpanos opacos con nivel líquido de la otoscopía.
+- Los volúmenes son de 0,42 mL (OD) y 0,70 mL (OI). El del OI está en el límite inferior del rango de 5 a 7 años (0,7 a 1,3 mL) y el del OD bajo él: se repite con la sonda bien sellada para descartar que esté apoyada en la pared (BSA, 2024). Con la sonda bien puesta, plano con volumen normal es **efusión**, lo que calza con los tímpanos opacos con nivel líquido de la otoscopía.
 :::
 
 {{caso h7_retraccion}}

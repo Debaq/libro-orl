@@ -179,7 +179,7 @@ Después, el resultado. Lo que entrega el equipo es la curva de las dos fosas y 
 - @59,62 | **75 y 150 Pa.** Las dos líneas verticales de rayas son las presiones en que se lee la resistencia.
 - @76,77 | **Resistencia según la presión.** El gráfico pequeño es el B de la figura de las curvas, con la raya de referencia (0,4).
 - @75,93.8 | **R 150.** Resistencia a 150 Pa de cada fosa: 150 Pa dividido por el flujo de la columna de al lado. En rojo lo que supera 0,4 (la derecha, 0,81); en verde lo que está dentro (la izquierda, 0,38).
-- @92,94 | **R 150 con VC y cambio.** La derecha baja de 0,81 a 0,46 (−43 %): bajó, pero no llegó a 0,4, así que es **mixta** según la tabla de *Cómo se informa*. La izquierda ya estaba dentro de la referencia y, según el paso 7, no necesitaba la prueba.
+- @92,94 | **R 150 con VC y cambio.** La derecha baja de 0,81 a 0,46 (−43 %): bajó, pero no llegó a 0,4, así que es **mixta** según la tabla de *Cómo se informa*. La izquierda ya estaba dentro de la referencia (0,38) y, según el paso 7, no necesitaba la prueba; aquí se la midió igual y bajó a 0,29, y por eso el total con vasoconstrictor es 0,18.
 - @-2,98.5 | **Total.** Las dos fosas en paralelo, 1 / RT = 1 / RD + 1 / RI: 0,26 en reposo y 0,18 con vasoconstrictor.
 :::
 
@@ -288,7 +288,7 @@ Tabla: Qué indica la resistencia después del vasoconstrictor (PVC)
 | Igual que en reposo | **Mecánica** (estructural) | No había mucosa que quitar |
 | Baja, pero no llega al valor de referencia | **Mixta** | Había mucosa y estructura |
 | Baja del todo, hasta el valor de referencia | **Vasomotora** (mucosa) | Todo era mucosa |
-| Sube respecto del reposo | **Vasomotora**, sin descartar un componente mecánico ("efecto rebote") | Ver el recuadro |
+| Sube respecto del reposo | **Vasomotora**, sin descartar un componente mecánico ("efecto rebote"), según el protocolo ORL 2019. Como observación, antes de interpretar conviene repetir la medición y revisar la técnica | Ver el recuadro |
 
 :::imagen ilustraciones/h26-rs-vasoconstrictor.svg ancho=86% Las tres respuestas al vasoconstrictor en la fosa derecha, como resistencia según la presión: reposo (línea continua) y con vasoconstrictor (discontinua). La raya horizontal punteada es el valor de referencia (0,4) y las verticales, 75 y 150 Pa. A: vasomotora, a 150 Pa baja de 0,57 a 0,29 y queda bajo la referencia. B: mixta, baja de 0,80 a 0,46 sin llegar a la referencia. C: mecánica, 0,53 y 0,48: casi no cambia. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).
 :::

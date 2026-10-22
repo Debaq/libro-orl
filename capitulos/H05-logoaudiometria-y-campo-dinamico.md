@@ -48,7 +48,7 @@ Si presentas listas de palabras a distintos niveles y anotas el porcentaje que e
 {{caso h5_p34}}
 
 :::figura h5_p34 logoaudiometria
-- @OI 0 | El OI es normal: a **0 dB HL**, su SRT, repite la mitad de las palabras. Unos 10 dB más abajo detecta la voz sin entender ninguna.
+- @OI 0 | El OI es normal: a **0 dB HL**, su SRT, repite la mitad de las palabras. Cinco dB más abajo (−5 dB HL) detecta la voz sin entender ninguna; en promedio la diferencia es de 8 a 9 dB (ASHA, 1988).
 - @OI 10 | El tramo empinado: de 0 a 10 dB pasa de 50 a 82 %, unas **8 palabras** de 25.
 - @OI 35 | Desde unos **30 dB HL** repite el 100 %; de ahí en adelante la curva queda plana.
 - @OD 40 | El OD, con su otoesclerosis, no repite ninguna palabra hasta 30 dB y pasa el 50 % a **40 dB**, su SRT: a 5 dB de su PTP de **45 dB**.
@@ -108,7 +108,7 @@ Instrucción: "Levante la mano apenas escuche mi voz, aunque no entienda". Prese
 
 ### 2. Umbral de reconocimiento (SRT)
 
-Desde el SDT, sube de 5 en 5 dB dictando **dos palabras familiares** en cada nivel. El SRT es el primer nivel en que repite una de las dos. Se usan palabras que todos conocen porque el SRT mide intensidad, no vocabulario; si el set es cerrado, se le muestran antes (ASHA, 1988).
+Desde el SDT, sube de 5 en 5 dB dictando **dos palabras familiares** en cada nivel. El SRT es el primer nivel en que repite una de las dos, la mitad de lo dictado (protocolo ORL 2019). En su método ascendente, ASHA (1988) pide las dos palabras correctas; con una de dos el nivel puede salir algo más bajo que el 50 %. Se usan palabras que todos conocen porque el SRT mide intensidad, no vocabulario; si el set es cerrado, se le muestran antes (ASHA, 1988).
 
 :::comentario Lo que dicen las normas
 ASHA (1988) propone un método **descendente**: partir 30 a 40 dB sobre el SRT esperado, bajar en pasos de 2 o 5 dB y calcular el 50 % con una fórmula cuando falla 5 de las 6 últimas palabras. Partir donde el paciente acierta lo orienta. El método ascendente desde el SDT es más corto y sigue la lógica de la tonal; ASHA lo considera más apropiado cuando se sospecha una pérdida no orgánica (→ H6), porque el paciente no sabe de antemano dónde aparece la voz.
@@ -143,7 +143,7 @@ Jerger y Jerger (1971) propusieron 0,45 como corte para sospechar una lesión re
 
 La voz cruza el cráneo igual que un tono, y la discriminación se mide 20 a 40 dB sobre el umbral: en una pérdida asimétrica, el oído bueno termina contestando por el malo. La lógica es la de la vía aérea (→ H4):
 
-- **Cuándo:** si el nivel de la voz menos el PTP óseo del oído no evaluado es de **45 dB o más**.
+- **Cuándo:** si el nivel de la voz menos el PTP óseo del oído no evaluado es de **45 dB o más**, la atenuación interaural de la voz (protocolo ORL 2019).
 - **Mínimo de ruido** = voz − 45 − PTP óseo del no evaluado + PTP aéreo del no evaluado.
 - **Máximo de ruido** = PTP óseo del evaluado + 45.
 - **Con qué:** ruido de habla en el oído no evaluado, sonando durante toda la lista.
@@ -151,7 +151,15 @@ La voz cruza el cráneo igual que un tono, y la discriminación se mide 20 a 40 
 Cada nivel de la curva tiene su cálculo, porque el mínimo sube con la voz. El SDT y el SRT se enmascaran si cumplen la regla. El efecto de no hacerlo está en el caso de Luis, más adelante.
 
 :::comentario Lo que dicen las normas
-Este libro usa **45 dB** de atenuación interaural para la voz con fono supraaural. ASHA (1988) pide enmascarar cuando el SRT de un oído supera en **40 dB** o más al SRT del otro o a cualquiera de sus umbrales óseos de 500 a 4.000 Hz. Se usan 45 dB porque la voz, que reparte su energía en un rango ancho de frecuencias, cruza el cráneo con más pérdida que un tono aislado con el mismo fono, y comparar contra el promedio del oído no evaluado sigue la misma lógica con que se lee el SRT. La atenuación interaural del habla con fono supraaural va de 48 a 76 dB entre personas; con 5 dB de paso en el SRT, el 48 se redondea a 45, que es la estimación conservadora que recomienda Yacullo (2015).
+La atenuación interaural del habla con fono supraaural va de **48 a 76 dB** entre personas. Con 5 dB de paso, el 48 se redondea a **45 dB**, el valor del protocolo; es la estimación conservadora para el SRT (Yacullo, 2015). Las fórmulas con promedios son las de Lidén y cols. (1959).
+
+Otros autores lo hacen distinto:
+
+- **Konkle y Berry (1983)**: el SDT y la discriminación se miden con otro criterio de acierto, y a un nivel igual al SRT ya se reconoce alguna palabra. Para la discriminación bajan la estimación a **35 dB**.
+- **Yacullo (2015)**: un solo valor para todas las pruebas de habla, **40 dB** con supraaural y **60 dB** con inserto profundo. Compara contra el **mejor** umbral óseo de 250 a 4.000 Hz y no contra el promedio, porque la voz es de banda ancha y basta con que una frecuencia del otro oído oiga bien. El mínimo suma el **mayor** gap del no evaluado, y al máximo le resta 5 dB.
+- **ASHA (1988)**: 40 dB, contra el SRT del otro oído o cualquiera de sus umbrales óseos de 500 a 4.000 Hz.
+
+Con estos criterios se enmascara antes que con el del protocolo: hasta 5 a 10 dB antes en la discriminación.
 :::
 
 ### 6. Umbral de molestia (LDL)
@@ -161,10 +169,10 @@ Este libro usa **45 dB** de atenuación interaural para la voz con fono supraaur
 3. Parte en **80 dB HL** y sube de 5 en 5 hasta que avise o hasta la salida máxima del equipo. Mira su cara: si hace un gesto antes de avisar, detente y pregúntale.
 4. Calcula el **campo dinámico**: LDL menos umbral, en cada frecuencia.
 
-El tono corto basta para juzgar la sonoridad sin cansar ni dejar un acúfeno, y los pasos de 5 dB evitan pasarse de golpe.
+Así lo pide el protocolo ORL 2019. El tono corto basta para juzgar la sonoridad sin cansar ni dejar un acúfeno, y los pasos de 5 dB evitan pasarse de golpe.
 
 :::comentario Lo que dicen las normas
-La BSA (2022) coincide en el tono de 1 segundo, los pasos de 5 dB y el método ascendente, pero parte en **60 dB HL** o en el umbral, el que sea mayor, y en pacientes con acúfeno o hiperacusia parte en el umbral. En pérdidas leves a moderadas no sube de **90 dB HL** si solo quiere saber si el campo está reducido, y no lo hace de rutina sino con una indicación clara. Partir en 80 dB acorta la prueba; con acúfeno, hiperacusia o molestia a los ruidos, parte desde el umbral. La frase de la instrucción pesa: preguntar por el nivel que "no escucharía por ningún tiempo" da un LDL 9 dB más alto que por el que "no escucharía por 15 minutos" (BSA, 2022). Usa siempre la misma.
+La BSA (2022) coincide en los pasos de 5 dB y el método ascendente, pero usa tonos de **1 segundo**, seguidos de al menos 1 segundo de silencio, y parte en **60 dB HL** o en el umbral, el que sea mayor; en pacientes con acúfeno o hiperacusia parte en el umbral. En pérdidas leves a moderadas no sube de **90 dB HL** si solo quiere saber si el campo está reducido, y no lo hace de rutina sino con una indicación clara. La frase de la instrucción pesa: preguntar por el nivel que "no escucharía por ningún tiempo" da un LDL 9 dB más alto que por el que "no escucharía por 15 minutos" (BSA, 2022). Usa siempre la misma.
 :::
 
 :::ayuda Ayuda memoria
@@ -229,7 +237,7 @@ En la **retrococlear** el paciente entiende mucho menos de lo que oye: el máxim
 
 :::figura h5_p39 logoaudiometria
 - @OD max | El máximo del OD es **52 % a 55 dB**: 13 de 25 palabras. Con un PTP de 22 dB, es una discriminación **desproporcionadamente mala**.
-- @OD 40 | Con un máximo tan bajo, la curva apenas pasa el 50 % a **40 dB**: el SRT medido con palabras queda unos 18 dB peor que el PTP, y no es un error de medición.
+- @OD 40 | Con un máximo tan bajo, la curva de bisílabos apenas pasa el 50 % a **40 dB**, 18 dB sobre el PTP. El SRT con espondeos sigue concordante (15 dB): lo que falla no es el umbral, es la discriminación (ASHA, 1988).
 - @OD 80 | Subir más empeora: 31 % a 70 dB y **20 % desde 80 dB**. Índice de roll-over (52 − 20) / 52 = **0,62**, sobre el corte de 0,45.
 - @OI 40 | El OI, normal: 100 % a 40 dB.
 - Sin enmascarar, desde 55 dB el OI contesta por el OD y la curva "mejora" hasta el 100 % a 85 dB: el máximo bajo y el roll-over desaparecen. Raúl ya lo había dicho: por el derecho "escucha la voz pero no entiende". Se estudia como retrococlear hasta demostrar lo contrario (→ capítulo 11).
@@ -242,14 +250,14 @@ Cuando el oído peor no se enmascara, su curva copia la del oído mejor desde qu
 {{caso h5_p41}}
 
 :::figura h5_p41 logoaudiometria
-- @OI 45 | A 45 dB el OI ya "repite" la mitad. No es el OI: la voz cruza con 45 dB menos y alcanza el OD a 0 dB, su SRT.
+- @OI 45 | A 45 dB el OI ya "repite" la mitad. No es el OI: en este paciente la voz cruza con 45 dB menos y alcanza el OD a 0 dB, su SRT.
 - @OI 80 | A 80 dB "llega" al **100 %**: al OD llegan 35 dB y el OD normal entiende todo a ese nivel.
 - @OD 35 | La curva del OD: 100 % a 35 dB. Toda la curva del OI sin enmascarar es una copia de ella, corrida 45 dB.
 :::
 
 :::figura h5_p41 logoaudiometria 2
 - @OI 60 | Con ruido de habla en el OD, a 60 dB el OI repite **73 %**; sin enmascarar "repetía" 91 %.
-- @OI 90 | Su máximo real es **92 % a 90 dB**. El ruido en el OD va entre 90 − 45 − 0 + 0 = **45 dB** y 28 + 45 = **73 dB** (28 es el PTP óseo del OI).
+- @OI 90 | Su máximo real es **92 % a 90 dB**. El ruido en el OD va entre 90 − 45 − 0 + 0 = **45 dB** y 28 + 45 = **73 dB** (28 es el PTP óseo del OI). Con los criterios de Yacullo (2015) la ventana es mucho más angosta: de 90 − 40 + 0 = 50 a 20 + 40 − 5 = 55 dB (20 es el mejor óseo del OI, en 250 Hz).
 - @OI 100 | Pasado el máximo baja a **79 %** a 100 dB. Sin enmascarar, la caída tampoco se veía.
 - Toda la curva del OI necesitaba ruido: empieza sobre los 40 dB y el PTP óseo del OD es 0, así que desde 45 dB cada nivel pide enmascarar.
 :::
@@ -286,6 +294,8 @@ Antes de firmar, pregúntate si la discriminación **calza con el audiograma**. 
 ### Técnica
 
 1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 77 y ss.
+1. Konkle DF, Berry GA. Masking in speech audiometry. En: Konkle DF, Rintelmann WF, editores. Principles of speech audiometry. Baltimore: University Park Press; 1983. p. 285-319.
+1. Lidén G, Nilsson G, Anderson H. Masking in clinical audiometry. Acta Otolaryngol. 1959;50:125-36.
 1. Schlauch RS, Nelson P. Puretone evaluation. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 29-48.
 1. American Speech-Language-Hearing Association. Determining threshold level for speech [Guidelines]. Rockville (MD): ASHA; 1988. doi:10.1044/policy.GL1988-00008
 1. International Organization for Standardization. ISO 8253-3:2022. Acoustics — Audiometric test methods — Part 3: Speech audiometry. 3rd ed. Geneva: ISO; 2022.

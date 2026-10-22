@@ -163,15 +163,42 @@ Con el paciente acostado de espalda:
 | Polaridad | Alternada | Cancela el artefacto eléctrico del transductor y la microfónica coclear |
 | Intensidad inicial | 80 dB nHL | En un oído normal se ven todas las ondas |
 | Tasa | 21,1 estímulos/s | Rápida sin degradar las ondas; el decimal evita que el estímulo quede en fase con la red eléctrica |
+| Montaje | Activo en Cz, referencia en el mastoides del oído estudiado, tierra en la frente | Las ondas I a III salen mejor del lado del estímulo; el vértex da la V |
 | Filtros | 100 a 3.000 Hz | Deja pasar la energía del ABR; saca el EEG lento y parte del músculo |
 | Ventana | 10 a 12 ms | Lo que tarda en llegar la onda V cerca del umbral |
 | Barridos | 2.000 por curva | Lo que hace falta para bajar el ruido residual (ver el paso 4) |
+| Rechazo de artefactos | ±10 µV o menos | Descarta los barridos sucios antes de que entren al promedio |
+| Ganancia | 100.000 a 240.000, y baja si subes el rechazo | Llena el rango del conversor sin saturarlo |
+| Filtro de red (notch) | Apagado | Último recurso, después de arreglar impedancias y tierra |
+| Impedancias | Bajo 5 kΩ y parecidas entre sí | Una impedancia alta o desbalanceada deja entrar el zumbido de la red |
 | Transductor | Fonos de inserción | Más aislación, menos artefacto |
 :::
 
+<!-- decide el autor: "Ganancia 10k" y "Ventana 10 s" salen del protocolo ORL 2019 (OtoAccess) y la escala de la ganancia depende del equipo; aquí se dan 100.000 a 240.000 porque BSA (2019) recomienda 240.000 con rechazo de ±10 µV y Burkard y Don (2015) explican la regla. Rechazo ±10 µV: BSA (2019, ABR neurológico: "no más de ±10 µV"; umbral: ±3 a ±10 µV). El protocolo ORL no fija rechazo ni notch; el montaje de mastoides y las impedancias bajo 5 kΩ sí coinciden con el protocolo. -->
+<!-- verificar: Hall 2007 y AAA 2020 no se pudieron leer (no hay copia en ~/Escritorio/Libros); no se citan. -->
 <!-- Protocolo ORL 2019: "Ventana de tiempo: 10 s". Es una errata: la ventana del ABR se mide en milisegundos (10 a 12 ms; Aguilar-Madrid y cols. 2016 registran 10 ms; Delgado Hernández y cols. 2003, 12 ms). Se corrigió a 10 a 12 ms. -->
 
 La polaridad tiene un costo y hay que conocerlo. El click de **rarefacción** adelanta la onda I y la hace más clara que el de condensación; en la III y la V no hay diferencias constantes (Stockard y cols., 1979). En **condensación** las ondas I y III salen más chicas (Da Silva Nunes y Gentile Matas, 2005). Alternar cancela el artefacto, pero promedia dos respuestas de latencia apenas distinta y ensancha un poco las ondas. La norma que uses tiene que estar hecha con la misma polaridad.
+
+Cada parámetro tiene su razón, y cambiarlo tiene un precio. Esto es lo que pasa cuando lo mueves:
+
+1. **Pasa-alto más alto de 100 Hz.** Saca más músculo y EEG, pero también la parte lenta de la onda V y de las respuestas cerca del umbral. Las ondas se achican y adelantan. La ACNS (2008) lo acepta, hasta 100-200 Hz, solo cuando el músculo no se puede reducir, y no lo aconseja en niños. Hood (2015) dice lo contrario para ellos: en lactantes, bajar de 100 a 30 Hz suele aumentar la amplitud, porque su ABR tiene más energía lenta. La BSA (2019) usa 30 Hz en el umbral y no pasa de 50 Hz si el ruido es del paciente.
+2. **Pasa-alto más bajo (30 Hz).** Entra más EEG y más músculo, los picos se redondean y las latencias se alargan (Hood, 2015). Sirve para el umbral. Para medir latencias, los valores normales tienen que haberse hecho con el mismo filtro.
+3. **Pasa-bajo más bajo de 3.000 Hz.** Redondea los picos y alarga las latencias, porque se pierde la parte rápida de la respuesta (Hood, 2015). Con 1.500 Hz la BSA (2019) registra tone bursts, pero para las latencias del ABR neurológico exige 3.000 Hz, justo para no "redondear los bordes". Subirlo más no mejora nada: la energía del ABR está bajo unos 3.000 Hz y arriba solo entra ruido (Burkard y Don, 2015).
+4. **Ventana corta (menos de 10 ms).** La onda V cerca del umbral llega a los 8 ms, y con fonos de inserción sale casi 1 ms más tarde. Una ventana corta la deja fuera y parece que no hay respuesta. En lactantes menores de 18 meses hace falta al menos 15 ms, y con tone burst de 20 a 25 ms (Hood, 2015; ACNS, 2008). Una ventana demasiado larga no daña la respuesta, pero resta resolución para medir (BSA, 2019).
+5. **Pocos barridos.** El ruido baja con la raíz cuadrada del número de barridos: para reducirlo a la mitad hacen falta cuatro veces más (Burkard y Don, 2015). Con pocos barridos cerca del umbral, la onda V no sale del ruido y el umbral queda peor de lo real, o aparece una falsa V. La ACNS (2008) pide de 1.000 a 4.000. No hay un número mágico: manda el FSP y el ruido residual (paso 4).
+6. **Intensidad inicial menor de 80 dB nHL.** Con menos nivel las ondas I y III se achican o desaparecen, y sin ellas no hay intervalos I-III ni I-V para informar. La latencia de la V se alarga 0,2 a 0,3 ms por cada 10 dB, más rápido cerca del umbral (Hood, 2015), y esas latencias ya no se pueden comparar con la norma de 80 dB nHL. La BSA (2019) mide los intervalos con 80 dB nHL o más.
+7. **Tasa distinta de 21,1/s.** Sobre unos 20 a 30 estímulos por segundo la latencia de todas las ondas aumenta y las primeras (I y III) se achican, así que la onda I se pierde (BSA, 2019; Hood, 2015). Es justo lo que usas a propósito con 81,1/s para buscar fatiga neural (paso 6). Una tasa baja, de 8 a 10/s, resuelve mejor la I, la II y la VI (ACNS, 2008), pero el examen se alarga. Y una tasa que sea múltiplo de 50 Hz deja el estímulo en fase con la red: el zumbido se promedia como si fuera respuesta.
+8. **Polaridad.** Alternada cancela el artefacto, pero si el paciente tiene una pérdida aguda de agudos mete en el mismo promedio dos respuestas desfasadas y empeora la resolución. En ese caso, o si no sabes cómo está su audición, la ACNS (2008) y Hood (2015) recomiendan una polaridad sola. Con una sola, aparece la microfónica: no la confundas con la onda I.
+9. **Montaje.** El mastoides ipsilateral muestra mejor las ondas I a III, y un canal contralateral separa mejor la IV de la V. El lóbulo da menos músculo y una onda I más grande que el mastoides. Un electrodo en la nuca agranda la V, pero también el ruido (Hood, 2015, citando a Sininger y cols., 2000). Un activo en la frente alta achica la respuesta y baja la relación señal-ruido (BSA, 2019).
+10. **Rechazo de artefactos.** Descarta cada barrido cuyo voltaje pasa el límite. Si lo pones muy bajo, rechazas casi todo y el promedio no avanza. Si lo subes o lo apagas, entra el movimiento y el músculo, el ruido residual no baja y el FSP no cruza nunca. La BSA (2019) parte de ±5 µV y sube a 7 solo después de revisar impedancias y filtros. Si duplicas el límite, hacen falta cuatro veces más barridos.
+11. **Ganancia.** El conversor analógico-digital tiene un rango fijo, y la ganancia lleva la señal a ocupar casi todo ese rango. Con una ganancia baja, el redondeo del conversor se come una respuesta de 0,5 µV. Con una alta, un barrido ruidoso satura. Por eso la ganancia y el rechazo van juntos: con 240.000 el límite de ±10 µV llena justo el rango, y si subes el límite, hay que bajar la ganancia (BSA, 2019; Burkard y Don, 2015).
+12. **Filtro de red.** El notch saca los 50 Hz. En el ABR de recién nacidos no lo deforma, salvo con tone burst de 500 Hz, donde la BSA (2019) pide no usarlo. Si lo usas, déjalo escrito en el informe. Primero arregla impedancias, cables y tierra.
+13. **Impedancias.** Entre los dos electrodos de cada canal, una impedancia alta o desigual hace que la resta del preamplificador no cancele lo común y entre la red eléctrica y el músculo. La ACNS (2008) y la BSA (2019) piden menos de 5 kΩ; la BSA prefiere menos de 2 kΩ, o menos de 3 kΩ para el estudio neurológico, y balanceadas. Si saltan, reprepara la piel antes de tocar un filtro.
+
+:::simulador
+En Archivo → Parámetros avanzados cambia el pasa-alto, la ventana y el rechazo, y mira cómo se mueve la onda V.
+:::
 
 ## Paso a paso
 
@@ -255,12 +282,12 @@ En Álvaro, de 12 semanas: 10 dB nHL con burst de 4 kHz − 5 = **5 dB eHL**.
 {{caso h10_lactante}}
 
 :::figura h10_lactante abr
-- @OD 80 V | A 80 dB nHL: en el OD, I a 1,73 ms, III a 4,67 y V a 6,97 (I-V 5,24); en el OI, I a 1,87, III a 4,53 y V a 6,97 (I-V 5,10). Son latencias de recién nacido: la V llega 1,4 ms más tarde que en Sofía y está dentro de su fila (hasta 7,56; Rosa y cols., 2014).
+- @OD 80 V | A 80 dB nHL: en el OD, I a 1,73 ms, III a 4,67 y V a 6,97 (I-V 5,24); en el OI, I a 1,87, III a 4,53 y V a 6,97 (I-V 5,10). Son latencias de lactante pequeño: la V llega 1,4 ms más tarde que en Sofía. Queda bajo el límite del recién nacido de término (7,56) y bajo el de los 6 meses (7,04; Rosa y cols., 2014).
 - @OD 20 V | A 20 dB nHL la V sigue (9,27 ms en el OD, 9,30 en el OI). Es el nivel más bajo que se registró con click: alcanza para decir que de 2 a 4 kHz oye normal.
 :::
 
 :::figura h10_lactante abr 2
-- @OD 20 V | Con **burst de 1 kHz** la V aparece a 20 dB nHL, a 10,87 ms en el OD y 10,63 en el OI, cerca del borde de la ventana de 12 ms.
+- @OD 20 V | Con **burst de 1 kHz** la V aparece a 20 dB nHL, a 10,87 ms en el OD y 10,63 en el OI, en una ventana de 20 ms; con una de 12 ms habría quedado pegada al borde.
 - 20 dB nHL − 15 (corrección de la BSA para su edad) = **5 dB eHL** o mejor.
 :::
 
@@ -386,7 +413,7 @@ Media más 2 desviaciones estándar, con fonos de inserción, en 244 personas de
 | **Retrococlear** | La I normal; III y V largas | **Largos** (I-III, I-V) | Corrida desde la I; empeora con tasa alta | Normal o elevado |
 | **Neuropatía auditiva** | Sin ondas, o desorganizadas | No medibles | No medible | No estima la audición |
 
-Una pérdida periférica (conductiva o coclear) alarga las latencias absolutas y deja normales los interpicos. Ese es el dato que separa lo periférico de lo retrococlear.
+Una pérdida conductiva alarga todas las latencias. Una coclear de agudos puede atrasar la V cuando el 4 kHz está entre moderado y moderadamente severo, pero deja normales los interpicos (Musiek y cols., 2015). En las dos, los interpicos normales son el dato que separa lo periférico de lo retrococlear.
 :::
 
 El oído izquierdo de Sofía (caso H10.1) es el patrón retrococlear. Los patrones conductivo y de neuropatía están en los caps. 15 y 13.
@@ -461,14 +488,14 @@ El informe del protocolo de este libro describe cada oído y concluye. Hood (199
 
 ### Informes de ejemplo
 
-Los tres pacientes de este capítulo, informados de principio a fin. En los tres: polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ y sin enmascaramiento contralateral. Los trazos marcados son las figuras de cada caso. En las tablas, ↑ marca lo que pasa el límite.
+Los tres pacientes de este capítulo, informados de principio a fin. En los tres: polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms (20 ms para el burst de 1 kHz de Álvaro), 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ y sin enmascaramiento contralateral. Los trazos marcados son las figuras de cada caso. En las tablas, ↑ marca lo que pasa el límite.
 
 :::comentario-ancho Informe de Álvaro, 12 semanas (caso H10.2)
 **Motivo**: refirió dos veces en el tamizaje con emisiones del OI.
 
-**Registro**: click a 80, 40 y 20 dB nHL; tone burst de 1 kHz a 40 y 20, y de 4 kHz a 40, 20, 10 y 0 dB nHL. En sueño fisiológico.
+**Registro**: click a 80, 40 y 20 dB nHL; tone burst de 1 kHz a 40, 20 y 10 (sin respuesta a 10), y de 4 kHz a 40, 20, 10 y 0 dB nHL. En sueño fisiológico.
 
-**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014): media / límite (media + 2 DE).
+**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014): media / límite (media + 2 DE). Ese estudio no tiene un grupo de 12 semanas; el de 6 meses tiene la V en 6,50 (límite 7,04) y el I-V en 4,81 (límite 5,33).
 
 | | OD | OI | Referencia |
 |---|---|---|---|
@@ -508,12 +535,12 @@ Los tres pacientes de este capítulo, informados de principio a fin. En los tres
 | III-V | 1,86 | 2,04 | 2,11 / 2,12 |
 | I-V | 4,00 | 4,67 ↑ | 4,33 / 4,41 |
 | Diferencia interaural de la V | 0,54 ↑ | | hasta 0,4 |
-| V a 81,1 estímulos/s | 6,10 (+0,57) | 7,37 (+1,30) ↑ | |
+| V a 81,1 estímulos/s | 6,10 (+0,57) | no se distingue ↑ | |
 | Umbral con click (dB nHL → dB eHL) | 10 → 5 | 50 → 45 | hasta 20 dB eHL |
 
 **Morfología**: OD con ondas I, III y V bien definidas y replicables. OI con ondas I, III y V replicables, de menor amplitud.
 
-**Interpretación**: OD normal. OI anormal: onda I de latencia normal con ondas III y V prolongadas e interpicos I-III e I-V prolongados. Lo apoyan la diferencia interaural de la onda V (0,54 ms) y el alargamiento de la V con la tasa alta (1,30 ms en el OI frente a 0,57 en el OD).
+**Interpretación**: OD normal. OI anormal: onda I de latencia normal con ondas III y V prolongadas e interpicos I-III e I-V prolongados. Lo apoyan la diferencia interaural de la onda V (0,54 ms) y la pérdida de la V con la tasa alta en el OI (en el OD la V solo se alarga 0,57 ms; Musiek y cols., 2015).
 
 **Conclusión**: patrón retrococlear en OI. El umbral sugiere una pérdida de aproximadamente 45 dB HL en OI y audición normal en OD, para el rango de 2 a 4 kHz. Se adjunta audiometría.
 
@@ -599,6 +626,7 @@ Antes de informar un ABR, pregúntate si **calza con lo demás**: con el audiogr
 
 1. Hood LJ. Auditory brainstem response: estimation of hearing sensitivity. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 249-66.
 1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 77-111.
+1. Burkard R, Don M. Introduction to auditory evoked potentials. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 187-205.
 1. Picton TW. Human auditory evoked potentials. San Diego: Plural Publishing; 2010 (el editor la fecha en 2011).
 1. Hall JW 3rd. New handbook of auditory evoked responses. Boston: Pearson; 2007.
 1. American Clinical Neurophysiology Society. Guideline 9C: Guidelines on short-latency auditory evoked potentials. ACNS; 2008. Disponible en: https://www.acns.org/pdf/guidelines/Guideline-9C.pdf

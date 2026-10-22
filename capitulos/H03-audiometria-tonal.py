@@ -20,7 +20,7 @@ CASOS = [
     # auditiva del tomo II (él, 2026-10-22); el 33 queda con el audiograma de los símbolos.
     demo(34, [fig.audiosupra()]),
     demo(36, [fig.audiosupra()]),
-    # Luis va primero en el texto: el 2.º audiograma (con LDL) es la "radiografía de un audiograma"
+    # Luis va primero en el texto (caso H3.1); el audiograma con LDL es el de la radiografía, que no es de ningún paciente; la "radiografía de un audiograma"
     demo(41, [fig.audiosupra()]),
     # Sin respuesta y curva sombra (el porqué de H4)
     demo(42, [fig.audiosupra(sin_enmascarar=True)]),

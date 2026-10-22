@@ -55,7 +55,7 @@ Tabla: Etapas del sueño y sus marcadores (reglas de la AASM)
 | **Vigilia (W)** | ritmo alfa (8-13 Hz) en la región occipital en al menos la mitad de la época | parpadeos, movimientos de lectura o movimientos oculares rápidos | tono alto |
 | **N1** | actividad mixta de bajo voltaje de 4-7 Hz en al menos la mitad de la época, que reemplaza al alfa; ondas agudas del vértex | puede haber movimientos oculares lentos | — |
 | **N2** | **husos del sueño** y **complejos K** | — | tono bajo |
-| **N3** | **ondas lentas** de 0,5-2 Hz con 75 µV o más de pico a pico, medidas en la derivación frontal, en más del 20 % de la época (6 s) | — | — |
+| **N3** | **ondas lentas** de 0,5-2 Hz con 75 µV o más de pico a pico, medidas en la derivación frontal, en el 20 % o más de la época (6 s) | — | — |
 | **REM (R)** | actividad mixta de bajo voltaje, sin husos ni complejos K | **movimientos oculares rápidos** | **tono mínimo** (atonía) |
 
 (Lambert y Peter-Derex, 2023; Markun y Sampat, 2020). Las etapas N1, N2 y N3 son el sueño **NREM**. La atonía muscular de la etapa REM tiene una consecuencia respiratoria: los músculos que mantienen abierta la faringe también pierden tono, y por eso los eventos obstructivos suelen ser más frecuentes y más largos en REM (Bonsignore y cols., 2024), como se ve en el informe de ejemplo, más adelante.
@@ -112,7 +112,7 @@ La consulta empieza con la historia y el examen, que deciden **si** conviene el 
 - **Antropometría.** Peso y talla para el índice de masa corporal, y perímetro cervical. Los cuestionarios usan como cortes un IMC mayor de 35 kg/m² y un cuello mayor de 40 cm (Chung y cols., 2016).
 - **Examen de la boca y la orofaringe.** Dos clasificaciones se usan en la consulta de ORL:
   - **Mallampati modificado.** Con el paciente sentado, la boca abierta y la lengua afuera, se observa qué estructuras se ven: cuanto menos se ve, mayor la clase (de I a IV) y más ocupada está la orofaringe por la lengua. Nació para predecir la intubación difícil (Mallampati y cols., 1985; Samsoon y Young, 1987) y en roncadores se correlaciona con la gravedad (Friedman y cols., 1999).
-  - **Estadificación de Friedman.** Combina la **posición del paladar** (equivalente al Mallampati modificado, grados 1 a 4), el **tamaño de las amígdalas** (grados 0 a 4) y el IMC. El estadio I es paladar 1 o 2 con amígdalas 3 o 4; el II, paladar 3 o 4 con amígdalas 3 o 4; el III, paladar 3 o 4 con amígdalas 0, 1 o 2, o IMC mayor de 40 (Friedman y cols., 2002). Sirve para **estimar el éxito de la cirugía de paladar**, no para diagnosticar apnea.
+  - **Estadificación de Friedman.** Combina la **posición del paladar** (equivalente al Mallampati modificado, grados 1 a 4), el **tamaño de las amígdalas** (grados 0 a 4) y el IMC. El estadio I es paladar 1 o 2 con amígdalas 3 o 4; el II, paladar 3 o 4 con amígdalas 3 o 4; el III, paladar 3 o 4 con amígdalas 0, 1 o 2, o IMC mayor de 40 (Friedman y cols., 2002). Sirve para **estimar el éxito de la cirugía de paladar**, no para diagnosticar apnea. La definición original (n = 134) no clasifica el paladar 1 o 2 con amígdalas 0 a 2.
 - **Examen nasal y de la vía aérea alta.** Desviación septal, hipertrofia de cornetes, válvula nasal y rinitis aumentan la resistencia al flujo y se examinan como en → H25 (ver también → cap. 35 y → cap. 36). Una nariz que no deja pasar el aire aumenta la resistencia y obliga a respirar por la boca. La relación entre obstrucción nasal y apnea no es simple y el libro no la da por probada: la nariz se examina porque condiciona la tolerancia de la presión positiva (→ H32).
 
 ### Cuestionarios
@@ -123,8 +123,8 @@ Tabla: Cuestionarios de tamizaje de apnea del sueño
 
 | Cuestionario | Estructura | Puntaje y corte |
 |---|---|---|
-| **STOP-Bang** | 8 preguntas de sí o no, 1 punto cada una: *snoring* (ronquido fuerte), *tiredness* (cansancio diurno), *observed apnea* (apneas observadas), *pressure* (hipertensión), *BMI* > 35, *age* > 50, *neck* > 40 cm, *gender* masculino | 0-2 riesgo bajo; 3-4 intermedio; 5-8 alto. Con 3 o 4 puntos se afina: STOP de 2 o más más IMC > 35 clasifica como riesgo alto (Chung y cols., 2016) |
-| **Epworth** | 8 situaciones cotidianas (leyendo, viendo televisión, conversando, como pasajero en un auto, etc.); la probabilidad de quedarse dormido en cada una se califica de 0 a 3 | total de 0 a 24; más de 10 supera lo observado en los controles; 16 o más indica somnolencia alta (Johns, 1991) |
+| **STOP-Bang** | 8 preguntas de sí o no, 1 punto cada una: *snoring* (ronquido fuerte), *tiredness* (cansancio diurno), *observed apnea* (apneas observadas), *pressure* (hipertensión), *BMI* > 35, *age* > 50, *neck* > 40 cm, *gender* masculino | 0-2 riesgo bajo; 3-4 intermedio; 5-8 alto. Con 3 o 4 puntos se afina: STOP de 2 o más más IMC > 35 (por ejemplo) clasifica como riesgo alto (Chung y cols., 2016) |
+| **Epworth** | 8 situaciones cotidianas (leyendo, viendo televisión, conversando, como pasajero en un auto, etc.); la probabilidad de quedarse dormido en cada una se califica de 0 a 3 | total de 0 a 24; más de 10 supera lo observado en los controles (Johns, 1991); en la práctica clínica, 16 o más se toma como somnolencia alta |
 | **Berlín** | 3 categorías: ronquido y apneas; somnolencia o cansancio; hipertensión u obesidad | alto riesgo con síntomas persistentes y frecuentes en 2 o más categorías (Netzer y cols., 1999) |
 
 Sobre su rendimiento:
@@ -274,7 +274,7 @@ Tabla: Gravedad del síndrome de apnea obstructiva del adulto por IAH
 | 15 a menos de 30 | moderada |
 | 30 o más | grave |
 
-Los cortes de 5, 15 y 30 se proponen por consenso (Lumeng y Chervin, 2008). La Clasificación Internacional de los Trastornos del Sueño (3.ª edición) define el trastorno por un índice obstructivo de **5 o más con síntomas** (somnolencia u otras alteraciones diurnas) o de **15 o más aunque no haya síntomas** (Kapur y cols., 2017). El IAH aislado no es el diagnóstico: se interpreta con la clínica, y la interpretación es del médico.
+Los cortes de 5, 15 y 30 se proponen por consenso (AASM, 1999; Kapur y cols., 2017). La Clasificación Internacional de los Trastornos del Sueño (3.ª edición) define el trastorno por un índice obstructivo de **5 o más con síntomas** (somnolencia u otras alteraciones diurnas) o de **15 o más aunque no haya síntomas** (Kapur y cols., 2017). El IAH aislado no es el diagnóstico: se interpreta con la clínica, y la interpretación es del médico.
 
 ### Arquitectura y eficiencia del sueño
 
@@ -378,6 +378,7 @@ Un Epworth normal no descarta una apnea: la somnolencia es una de varias manifes
 1. Berry RB, Budhiraja R, Gottlieb DJ, Gozal D, Iber C, Kapur VK, et al. Rules for scoring respiratory events in sleep: update of the 2007 AASM Manual for the Scoring of Sleep and Associated Events. J Clin Sleep Med. 2012;8(5):597-619. doi:10.5664/jcsm.2172. PMID: 23066376.
 1. Troester MM, Quan SF, Berry RB, et al. The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications. Version 3. Darien (IL): American Academy of Sleep Medicine; 2023. <!-- verificar: manual de acceso restringido; no se pudo consultar el texto completo. Las cifras del capítulo se tomaron de Berry y cols. (2012) y de las demás fuentes de esta lista. -->
 1. Kapur VK, Auckley DH, Chowdhuri S, Kuhlmann DC, Mehra R, Ramar K, et al. Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2017;13(3):479-504. doi:10.5664/jcsm.6506. PMID: 28162150.
+1. American Academy of Sleep Medicine Task Force. Sleep-related breathing disorders in adults: recommendations for syndrome definition and measurement techniques in clinical research. Sleep. 1999;22(5):667-89. PMID: 10450601.
 1. Chung F, Abdullah HR, Liao P. STOP-Bang questionnaire: a practical approach to screen for obstructive sleep apnea. Chest. 2016;149(3):631-8. doi:10.1378/chest.15-0903. PMID: 26378880.
 1. Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991;14(6):540-5. doi:10.1093/sleep/14.6.540. PMID: 1798888.
 1. Netzer NC, Stoohs RA, Netzer CM, Clark K, Strohl KP. Using the Berlin Questionnaire to identify patients at risk for the sleep apnea syndrome. Ann Intern Med. 1999;131(7):485-91. doi:10.7326/0003-4819-131-7-199910050-00002. PMID: 10507956.

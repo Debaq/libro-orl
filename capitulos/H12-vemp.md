@@ -127,7 +127,7 @@ El examen **no se hace**, o se hace con la vía ósea, en estos casos:
 
 ### Cuánto sonido
 
-El estímulo del VEMP se acerca al límite de lo que una cóclea tolera, porque el umbral promedio del VEMP en normoyentes es de unos **114 dB pkSPL** (Rosengren y cols., 2019). La seguridad se define en SPL, no en dB nHL, y por eso es importante saber cómo calibra el fabricante su nHL. Con la norma ANSI, para un tono de 500 Hz y fonos TDH49, se suman 13,5 dB al valor en HL para llegar al SPL equivalente (Rosengren y cols., 2019). Dos reglas prácticas:
+El estímulo del VEMP se acerca al límite de lo que una cóclea tolera, porque el umbral promedio del VEMP en normoyentes es de unos **114 dB pkSPL** (Rosengren y cols., 2019). La seguridad se define en SPL, no en dB nHL, y por eso es importante saber cómo calibra el fabricante su nHL. Con la norma ANSI, para un tono de 500 Hz se suman 13,5 dB al valor en HL con fonos TDH49 (Rosengren y cols., 2019) y unos 6 dB con fonos de inserción ER-3A, que son los de este libro, para llegar al SPL equivalente. Dos reglas prácticas:
 
 - **No repitas más de lo necesario.** Cuando hay réplica clara, se cierra: cada barrido de más es sonido de más para el oído.
 - **Busca el umbral con pocos niveles**: cada registro de más es otro paquete de sonido fuerte para el mismo oído.
@@ -211,7 +211,14 @@ El montaje clásico del oVEMP pone el electrodo de registro justo bajo el ojo y 
 | Ganancia | 5.000 | 10.000 | El oVEMP es más chico |
 | Ventana | 50 a 100 ms | 50 ms, con 10 ms antes del estímulo | Lo que se alcanza a ver del reflejo y su línea de base |
 | Barridos | 100 a 200 por registro | 100 a 200 por registro | Menos, y la respuesta chica no sale del EMG |
+| Duración del burst | Hasta 6 ms (el protocolo no la fija) | Hasta 6 ms | Más largo da más amplitud pero más sonido a la cóclea (Rosengren y cols., 2019) |
+| Contracción (EMG) | Banda aceptada de 30 a 150 µV rectificados | No se mide | Sin contracción moderada y pareja no hay reflejo que registrar ni cómo corregirlo |
+| Rechazo de artefactos | El que deja pasar el EMG de la banda sin recortar la respuesta | El que deja pasar la respuesta sin recortarla | Descarta el barrido que se sale por movimiento, parpadeo o red |
+| Impedancia máxima | Menos de 5 kΩ, diferencia menor de 2 kΩ | Menos de 3 kΩ, diferencia menor de 1 kΩ | La red eléctrica se confunde con EMG e infla la medida de contracción (Rosengren y cols., 2019) |
 :::
+
+<!-- decide el autor: la banda de EMG de 30 a 150 µV rectificados es la de la pantalla de LabSim; Rosengren y cols. (2019) citan un mínimo de unos 80 µV y aclaran que depende de la maniobra y del método de medida. El protocolo ORL 2019 no trae duración del burst, EMG, rechazo ni impedancia del oVEMP (esa es del libro). -->
+<!-- verificar: Rosengren y cols. (2019) no dan un nivel de rechazo de artefacto en µV para el VEMP; no se inventó una cifra. Tampoco se leyó una fuente sobre el efecto de la polaridad (rarefacción, condensación o alternada) en el VEMP. -->
 
 La **línea de base antes del estímulo** es parte del examen: sirve para medir el EMG de fondo y para saber cuánto ruido hay. Una respuesta confiable es la que supera con claridad lo que hay antes del estímulo (Rosengren y cols., 2019). Por eso el oVEMP lleva un retardo de −10 ms. En el cVEMP el protocolo no fija el retardo: asegúrate de que tu equipo registre al menos 10 a 20 ms antes del estímulo (Rosengren y cols., 2019).
 
@@ -226,6 +233,24 @@ La **línea de base antes del estímulo** es parte del examen: sirve para medir 
 
 **El mismo lado.** Con un estímulo monoaural se evita que el otro oído sume su respuesta: en el cVEMP aparece a veces una respuesta cruzada, invertida, en el ECM contrario.
 :::
+
+Cada parámetro tiene su razón, y esto es lo que pasa cuando se cambia o se deja mal:
+
+1. **El nivel va alto.** Con 95 dB nHL un oído sano puede no responder y, al subir a 100 o 105, aparece el reflejo normal: bajar el nivel crea falsas ausencias (Rosengren y cols., 2019). Subirlo sin medir en SPL sube la exposición de la cóclea, y por eso no se sube más allá del tope del equipo.
+2. **La frecuencia del burst.** Pasar de 500 a 1.000 Hz cambia la amplitud, más en el oVEMP, en el adulto mayor y en la enfermedad de Ménière, donde el 1.000 Hz da respuestas mayores que el 500 Hz (Rosengren y cols., 2019). Cambiarla sin cambiar la norma contra la que comparas lleva a diagnósticos falsos.
+3. **La duración y el tiempo de subida.** Más duración da más amplitud, pero pasados unos 6 a 8 ms el efecto se revierte y la cóclea recibe más energía. Un tiempo de subida corto agranda la respuesta y adelanta su latencia, así que cambiarlo corre las latencias que comparas con la norma (Rosengren y cols., 2019).
+4. **La tasa.** Hasta 10 por segundo el cVEMP se mantiene; sobre eso la amplitud cae (Rosengren y cols., 2019). Más lento alarga el registro: 200 barridos a 5,1 por segundo son unos 40 segundos con el músculo contraído.
+5. **Los filtros.** La energía del cVEMP está hacia los 40 a 60 Hz y la del oVEMP, hacia los 100 Hz (Rosengren y cols., 2019). Un pasa-alto que se acerca a esas frecuencias se come parte del complejo y lo achica; un pasa-bajo que se acerca a ellas hace lo mismo, y es lo más peligroso en el oVEMP. Un pasa-bajo muy alto, a su vez, deja pasar más ruido de músculo y de red. El oVEMP necesita filtros iguales o más anchos que el cVEMP.
+6. **La ganancia.** El oVEMP es de un orden de magnitud más chico que el cVEMP, por eso lleva el doble (Rosengren y cols., 2019). Con ganancia de menos, la respuesta chica queda cerca del ruido del convertidor; con ganancia de más, el EMG fuerte satura y recorta el trazo.
+7. **La ventana.** Termina entre 50 y 100 ms, y debe incluir **10 a 20 ms antes del estímulo** (Rosengren y cols., 2019). Si la acortas, pierdes las ondas tardías; si quitas el tramo previo, pierdes el único dato de ruido y de EMG de fondo que sirve para decir si un pico es respuesta.
+8. **Los barridos.** Con 50 el EMG de fondo puede aparecer como un reflejo que no existe; con 150 a 200 el pico se separa del ruido (Rosengren y cols., 2019). Dos registros largos valen más que muchos cortos.
+9. **La contracción y su banda.** Una contracción floja da respuestas chicas, de menos de 20 µV pico a pico, o ausentes (con 61 µV rectificados un sujeto no tenía cVEMP y con 127 µV sí). Una contracción máxima cansa y deja residuos de EMG que parecen picos (Rosengren y cols., 2019). En el equipo, si la banda aceptada es demasiado ancha, la amplitud cruda mezcla contracciones distintas; si es demasiado angosta, no entra ningún barrido y el registro se corta solo.
+10. **El rechazo de artefactos.** Con el límite muy bajo se descarta justo el barrido con el EMG que necesitas, y el registro no avanza; con el límite muy alto entra el movimiento y el parpadeo. Se ajusta mirando el trazo crudo, no a ciegas.
+11. **La impedancia.** Con los electrodos mal preparados entra la red eléctrica, que se confunde con EMG, **infla la contracción medida** y hace que la amplitud corregida salga más chica de lo que es (Rosengren y cols., 2019). El oVEMP exige más porque su señal es diez veces menor.
+12. **La polaridad.** Se deja en rarefacción, como el protocolo. Cambiarla cambia el estímulo y, como las latencias dependen de la forma del estímulo, hay que usar una norma medida con el mismo ajuste.
+
+<!-- verificar: la ganancia de Rosengren y cols. (2019) es de unas 2.000 veces para el cVEMP y 20.000 para el oVEMP; las del protocolo (5.000 y 10.000) son más altas y más parejas. Se dejaron las del protocolo y se dijo solo que el oVEMP lleva más. Las frases sobre saturación del convertidor, filtros que se comen la respuesta cuando el corte se acerca a su frecuencia y rechazo muy bajo son razonamiento del autor, no de la fuente. -->
+<!-- decide el autor: "12. La polaridad" es inferencia (Rosengren y cols. piden norma con el mismo estímulo y notan que la forma y la subida mueven las latencias, pero no hablan de polaridad). -->
 
 ## Paso a paso
 
@@ -262,7 +287,7 @@ Un registro de 200 barridos a 5,1 por segundo dura unos 40 segundos. Si la respu
 - @OD N23 | La N23 llega a los **23,3 ms**: el complejo P13-N23 tiene la forma de siempre, una subida y una bajada anchas, de unos 15 ms en total. Es un reflejo, no una onda de nervio.
 - @OI P13 | El **OI** tiene la P13 a 12,9 ms y 287 µV, **5,63** corregida.
 - @OI N23 | N23 a 23,1 ms. Los dos oídos se parecen: la **razón de asimetría** es de **0 %**.
-- En estas figuras la contracción es la misma en los dos lados, así que la amplitud cruda y la corregida dicen lo mismo. En un paciente real no siempre pasa (ver el paso 3).
+- En estas figuras la contracción es la misma en los dos lados, así que la amplitud cruda y la corregida dicen lo mismo. El EMG de estas figuras es de unos 50 µV, bajo el mínimo de unos 80 µV (Rosengren y cols., 2019); por eso la corregida sale en 5 o 6 y no en 1 a 3 como en la tabla de referencia. Compara un oído con el otro, no con la tabla. En un paciente real no siempre pasa (ver el paso 3).
 :::
 
 ### 5. Marca y mide
@@ -369,17 +394,17 @@ La fórmula con el signo, sin el valor absoluto, indica **de qué lado** está l
 
 ### Contra qué se compara
 
-Los valores normales dependen del estímulo, de la contracción y del montaje. La **latencia** depende mucho de la forma del estímulo y de su tiempo de subida (Rosengren y cols., 2019); la **amplitud** y el **umbral**, de la edad. Con los años el cVEMP se achica y su umbral sube, y entre el 5 y el 15 % de las personas mayores de 60 años no tiene cVEMP aéreo; el oVEMP aéreo falta con más frecuencia aún. Por eso se compara contra una norma **de la edad del paciente** y, con un oVEMP aéreo ausente en un adulto mayor, se tiene cautela (Rosengren y cols., 2019).
+Los valores normales dependen del estímulo, de la contracción y del montaje. La **latencia** depende mucho de la forma del estímulo y de su tiempo de subida (Rosengren y cols., 2019); la **amplitud** y el **umbral**, de la edad. Con los años el cVEMP se achica y su umbral sube, y entre el 5 y el 15 % de las personas mayores de 60 años no tiene cVEMP aéreo (Rosengren y cols., 2019); en una cohorte de 73 años de media faltó en los dos oídos en el 26 % y en alguno en el 69 % de los mayores de 80 (Li y cols., 2015); el oVEMP aéreo falta con más frecuencia aún. Por eso se compara contra una norma **de la edad del paciente** y, con un oVEMP aéreo ausente en un adulto mayor, se tiene cautela (Rosengren y cols., 2019).
 
-:::ayuda-ancho Valores de referencia (tone burst de 500 Hz, vía aérea; media y desviación estándar)
+:::ayuda-ancho Valores de referencia (tone burst de 500 Hz por vía aérea, salvo el oVEMP de la última fila; media y desviación estándar)
 | Grupo | cVEMP: P13 (ms) | cVEMP: N23 (ms) | cVEMP: amplitud corregida | oVEMP: n10 (ms) | oVEMP: p16 (ms) | oVEMP: p-p (µV) |
 |---|---|---|---|---|---|---|
 | Niños de 4 a 9 años (n = 10) | 12,3 (1,5) | 19,3 (2,4) | 0,68 (0,25) | 10,6 (1,6) | 15,3 (2,4) | 12,1 (8,4) |
 | Adolescentes de 10 a 19 años (n = 10) | 13,8 (1,2) | 20,9 (2,1) | 0,78 (0,32) | 10,1 (1,7) | 15,7 (1,6) | 14,6 (9,6) |
 | Adultos de 20 a 29 años (n = 10) | 13,9 (1,1) | 22,2 (1,8) | 1,27 (0,50) | 10,1 (1,0) | 14,6 (1,2) | 16,6 (7,6) |
-| Adultos mayores, media de 73 años (n = 250) | 13,8 (1,0) | — | 1,25 (0,72) | 7,7 (0,6)* | — | 13,9 (8,9) |
+| Adultos mayores, media de 73 años (n = 250) | 13,8 (1,0) | — | 1,25 (0,72) | 7,7 (0,6)* | — | 13,9 (8,9)* |
 
-Las tres primeras filas son de Rodriguez y cols. (2019), con el estímulo a 125 dB SPL; la última, de Li y cols. (2015). La amplitud corregida es la pico a pico dividida por el EMG rectificado, y no tiene unidad. \* Li marcó el n10 con otros filtros y otro criterio: esa diferencia es de laboratorio, no de edad. Las amplitudes bajan con los años (Piker y cols., 2013; Li y cols., 2015), y en Li el P13 de los hombres fue 0,4 ms más largo que el de las mujeres. Son series chicas o de un solo laboratorio: cada centro debe tener sus propias normas (Rosengren y cols., 2019).
+Las tres primeras filas son de Rodriguez y cols. (2019), con el estímulo a 125 dB SPL; la última, de Li y cols. (2015). La amplitud corregida es la pico a pico dividida por el EMG rectificado, y no tiene unidad. \* El oVEMP de Li no fue con sonido: lo evocó con un golpe de martillo de reflejos en Fz, en la línea media, y filtró de 3 a 500 Hz; solo su cVEMP fue con tone burst aéreo (Li y cols., 2015). Por eso su n10 sale en 7,7 ms y no en los 10 ms de las filas de arriba: es otro estímulo, no otra edad, y esas dos cifras no se comparan con un oVEMP aéreo. Las amplitudes bajan con los años (Piker y cols., 2013; Li y cols., 2015), y en Li el P13 de los hombres fue 0,4 ms más largo que el de las mujeres. Son series chicas o de un solo laboratorio: cada centro debe tener sus propias normas (Rosengren y cols., 2019).
 :::
 
 ### Un ejemplo de informe
@@ -415,8 +440,8 @@ Patricia tiene un Ménière del OI (→ cap. 9). Mira los dos VEMP juntos: el s�
 :::
 
 :::figura h12_p38 vemp 2
-- @OD n10 | El oVEMP de Patricia: **24 µV**, **0,57** corregidos en un oído...
-- @OI n10 | ...y **24 µV**, **0,55** en el otro. La razón de asimetría es de **1 %**.
+- @OD n10 | El oVEMP de Patricia: **24 µV** en un oído (LabSim calcula además una amplitud "corregida", 0,57, que para el oVEMP no se mide en la práctica)...
+- @OI n10 | ...y **24 µV** (0,55) en el otro. La razón de asimetría es de **1 %**.
 - Con el cVEMP del OI alterado y el oVEMP simétrico, el compromiso es **sacular**: la rama inferior, no la superior. Es lo que se espera en un hidrops, donde el sáculo se daña antes que el utrículo (Young, 2013; → cap. 9).
 :::
 
@@ -490,7 +515,7 @@ Antes de informar un VEMP, pregúntate si **calza con lo demás**: con el audiog
 1. Papathanasiou ES, Murofushi T, Akin FW, Colebatch JG. International guidelines for the clinical application of cervical vestibular evoked myogenic potentials: an expert consensus report. Clin Neurophysiol. 2014;125(4):658-66. doi:10.1016/j.clinph.2013.11.042
 1. Rosengren SM, Colebatch JG, Young AS, Govender S, Welgampola MS. Vestibular evoked myogenic potentials in practice: methods, pitfalls and clinical applications. Clin Neurophysiol Pract. 2019;4:47-68. doi:10.1016/j.cnp.2019.01.005
 1. Rosengren SM, Welgampola MS, Colebatch JG. Vestibular evoked myogenic potentials: past, present and future. Clin Neurophysiol. 2010;121(5):636-51. doi:10.1016/j.clinph.2009.10.016
-1. Welgampola MS, Colebatch JG. Characteristics of tone burst-evoked myogenic potentials in the sternocleidomastoid muscles. Otol Neurotol. 2001;22(6):796-802. doi:10.1097/00129492-200111000-00014
+1. Welgampola MS, Colebatch JG. Vestibulocollic reflexes: normal values and the effect of age. Clin Neurophysiol. 2001;112(11):1971-9. doi:10.1016/s1388-2457(01)00645-9
 1. Welgampola MS, Colebatch JG. Characteristics and clinical applications of vestibular-evoked myogenic potentials. Neurology. 2005;64(10):1682-8. doi:10.1212/01.wnl.0000161876.20552.aa
 1. Todd NP, Rosengren SM, Aw ST, Colebatch JG. Ocular vestibular evoked myogenic potentials (OVEMPs) produced by air- and bone-conducted sound. Clin Neurophysiol. 2007;118(2):381-90. doi:10.1016/j.clinph.2006.09.025
 1. Iwasaki S, McGarvie LA, Halmagyi GM, Burgess AM, Kim J, Colebatch JG, et al. Head taps evoke a crossed vestibulo-ocular reflex. Neurology. 2007;68(15):1227-9. doi:10.1212/01.wnl.0000259064.80564.21

@@ -265,7 +265,7 @@ El SISI (*short increment sensitivity index*) mide si el oído nota aumentos de 
 
 1. **Portador.** Un tono continuo **20 dB sobre el umbral** del oído evaluado, en la frecuencia elegida.
 2. **Familiarización.** Ocho a diez incrementos de **5 dB**, que cualquier oído nota. Sirven para que el paciente entienda qué tiene que avisar; sin práctica previa el puntaje es menos confiable (Buus y cols., 1982a).
-3. **Prueba.** Veinte incrementos de **1 dB**, breves, más o menos uno cada cinco segundos, volviendo cada vez al portador. Se cuentan los que el paciente nota.
+3. **Prueba.** Veinte incrementos de **1 dB** y 200 ms (Moore, 2007), más o menos uno cada cinco segundos, volviendo cada vez al portador. Se cuentan los que el paciente nota.
 4. **Puntaje.** Cada incremento vale 5 %: 20 de 20 es 100 %.
 5. Se repite en las frecuencias que interesan y **en cada oído**.
 
@@ -305,7 +305,7 @@ Si se llega al techo sin que el paciente oiga el minuto, se calcula la **velocid
 
 #### Rosenberg: un solo minuto
 
-Igual que el Carhart, pero el reloj **no se reinicia**: la prueba dura un minuto en total desde la primera presentación. Se parte 5 dB sobre el umbral, se sube 5 dB cada vez que el paciente baja la mano y se informa **cuántos dB hubo que subir en ese minuto** (Olsen y Noffsinger, 1974). Es más corta que el Carhart. <!-- Pasada de fundamentos 2026-10-18: decía "y por eso es la más usada en la clínica". No se encontró fuente sobre qué prueba de deterioro tonal se usa más; se quitó. -->
+Igual que el Carhart, pero el reloj **no se reinicia**: la prueba dura un minuto en total desde la primera presentación. Se parte 5 dB sobre el umbral, se sube 5 dB cada vez que el paciente baja la mano y se informa **cuántos dB hubo que subir en ese minuto**. Es la prueba de Rosenberg, que Olsen y Noffsinger (1974) compararon con el Carhart y otras. Es más corta que el Carhart. <!-- Pasada de fundamentos 2026-10-18: decía "y por eso es la más usada en la clínica". No se encontró fuente sobre qué prueba de deterioro tonal se usa más; se quitó. -->
 
 <!-- Protocolo ORL 2019: la llamaba "Maspétiol" (inicio 5 dB SL, +5 dB por cada pérdida, 60 s acumulados, positiva > 30 dB). El procedimiento citable con esa forma es el de Rosenberg (Olsen y Noffsinger 1974); no se encontró fuente verificable para "Maspétiol". -->
 <!-- verificar: nivel de partida del Rosenberg (umbral o 5 dB SL); se dejó 5 dB SL del protocolo. -->
@@ -347,12 +347,12 @@ El umbral de recepción de la palabra (SRT, → H5) y el promedio tonal de 500, 
 Otros datos levantan la sospecha antes de cualquier prueba especial: umbrales que no se repiten, curvas planas o en "platillo" (Chaiklin y cols., 1959) <!-- verificar: Chaiklin 1959 no tiene resumen en PubMed y no se leyó, y hay trabajos posteriores que discuten que la curva en platillo sea un indicador confiable. Confirmar qué patrones describe Chaiklin y con qué frecuencia. -->, un paciente que conversa sin problemas con un audiograma que no se lo permitiría y, sobre todo, **una pérdida unilateral sin curva sombra**.
 
 :::ojo Una cofosis sin curva sombra no existe
-Sin enmascarar, un oído "muerto" responde por el otro alrededor de los 40 a 60 dB (→ H3, H4). Si el paciente niega oír hasta el máximo sin enmascarar, alguien está decidiendo no responder.
+Sin enmascarar, un oído "muerto" responde por el otro desde unos 40 dB con fono supraaural (la atenuación va de 40 a 80 dB según la persona) y desde unos 55 dB con inserto (→ H3, H4). Si el paciente niega oír hasta el máximo sin enmascarar, alguien está decidiendo no responder.
 :::
 
 #### Stenger
 
-Se basa en un efecto que el paciente no controla: si suena el mismo tono en los dos oídos a la vez, **solo se percibe el que está más fuerte**, en el oído donde está más fuerte (Kinstler y cols., 1972). Sirve cuando la pérdida que se informa es de un solo oído o muy asimétrica.
+Se basa en un efecto que el paciente no controla: si suena el mismo tono en los dos oídos a la vez, **solo se percibe el que está más fuerte**, en el oído donde está más fuerte (Kinstler y cols., 1972). Sirve cuando la pérdida que se informa es de un solo oído o muy asimétrica, con al menos 20 dB de diferencia entre los oídos; mientras mayor la diferencia, mejor funciona (Martin y Clark, 2015, p. 622).
 
 1. **Instrucción**: la misma de los umbrales, "cada pito que escuche, levante la mano". No se le anuncia nada distinto: si el paciente sabe que viene otra prueba, aprende a cuidarse.
 1. **Tono al oído bueno** 10 dB sobre su umbral. El paciente responde.
@@ -497,6 +497,7 @@ Las supraliminares ubican la lesión **en el oído que estás estudiando**, pero
 1. Kinstler DB, Phelan JG, Lavender RW. The Stenger and speech Stenger tests in functional hearing loss. Audiology. 1972;11(3-4):187-93. doi:10.3109/00206097209089295
 1. Martin FN, Shipp DB. The effects of sophistication on three threshold tests for subjects with simulated hearing loss. Ear Hear. 1982;3(1):34-6. doi:10.1097/00003446-198201000-00007
 1. American Speech-Language-Hearing Association. Determining threshold level for speech [Guidelines]. Rockville (MD): ASHA; 1988. doi:10.1044/policy.GL1988-00008
+1. Martin FN, Clark JG. Nonorganic hearing loss. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer; 2015. p. 617-29.
 
 ### Fisiología
 

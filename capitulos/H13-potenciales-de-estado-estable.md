@@ -17,7 +17,7 @@ El ASSR responde una pregunta: **¿cuál es el umbral de este oído en cada frec
 
 - **Lactantes y niños pequeños** que ya tienen un ABR con morfología normal y de quienes se necesita un audiograma estimado, sobre todo para **adaptar audífonos**. Para esta tarea los umbrales por frecuencia son los que importan: un lactante con una pérdida de agudos necesita saber cuánta ganancia pedirle a cada banda (→ H21).
 - **Personas que no pueden o no quieren colaborar**: discapacidad cognitiva, pacientes bajo sedación o anestesia, o sospecha de una pérdida no orgánica (→ H3 y cap. 19).
-- **Candidatos a implante coclear**, como alternativa al ABR para estimar cuánta audición residual queda.
+- **Candidatos a implante coclear**, como alternativa al ABR para estimar cuánta audición residual queda, con cautela: a nivel alto aumentan los artefactos, y la BSA (2023) prefiere ABR en niños pequeños y CAEP en mayores.
 
 Dos ideas separan el ASSR de una audiometría:
 
@@ -118,11 +118,52 @@ La preparación de la piel es lo que más pesa en la calidad del registro:
 **Impedancias.** La guía de la BSA pide impedancias **bajo 5 kΩ** y parecidas entre sí, con una diferencia **máxima de 2 kΩ** entre pares de electrodos, porque el artefacto eléctrico es proporcional a esa diferencia; en una sala bien aislada puede tolerarse algo más si son parecidas (BSA, 2023). Aquí se mantiene el límite de 3 kΩ como meta; lo que no cambia es que importa más que sean **bajas y parecidas** que cualquier cifra suelta. **Montaje.** La BSA ubica el positivo en el vértex o, en lactantes, en la frente alta cercana a Cz (evitando la fontanela), la referencia en la mastoides o el lóbulo del mismo lado y el común en el lado contrario o en la frente a más de 4 cm.
 :::
 
+### Los parámetros de configuración
+
+El ASSR tiene fama de examen "cerrado": el equipo elige casi todo. Es verdad a medias. La guía de la BSA pide que **no se modifiquen los valores del estímulo** que trae el fabricante, con una sola excepción: elegir si la modulación va cerca de 90 Hz o cerca de 40 Hz (BSA, 2023). Pero hay otros ajustes que sí son tuyos, y saber qué mueve cada uno es lo que separa un umbral de un número.
+
+:::ayuda-ancho Configuración de un ASSR
+| Parámetro | Valor de rutina | ¿Lo cambias tú? | Por qué |
+|---|---|---|---|
+| Portadoras | 500, 1.000, 2.000 y 4.000 Hz, en los dos oídos a la vez | Solo para omitir una frecuencia | Son las frecuencias del audiograma; separadas por una octava no se pisan (John y cols., 1998) |
+| Ritmo de modulación | Cerca de 90 Hz (lactante, niño, adulto dormido) o cerca de 40 Hz (adulto o niño mayor de 5 años despierto); cada portador con su propio ritmo | Eliges la familia (es el protocolo); el valor exacto lo fija el equipo | Las dos familias nacen en lugares distintos (BSA, 2023) |
+| Tipo y profundidad | Amplitud al 100 %, casi siempre con frecuencia modulada también (mixta) | No | El fabricante lo diseña y las tablas de corrección valen para ese diseño (BSA, 2023) |
+| Nivel de partida y pasos | Partir según el ABR; subir de 20 en 20 dB sin respuesta; bajar de 10 o 20 dB con respuesta; afinar de 5 o 10 dB | Sí: es la estrategia | Llegar al umbral en el menor tiempo posible, sin pasarse en sonido (BSA, 2023) |
+| Criterio de detección | Confianza de 95 % (con repetición en el umbral) o de 99 % | En varios equipos, sí; la prueba estadística, no | Falso positivo de 1 en 20 o de 1 en 100 a cambio de más o menos tiempo (BSA, 2023) |
+| Ruido residual | El que el equipo declara "bajo" para dar respuesta ausente | No: es lo que lees | Sin ruido bajo no se puede decir que no hay respuesta (BSA, 2023) |
+| Filtros | Pasa-alto de 1 a 30 Hz y pasa-bajo de unos 300 Hz | Normalmente no | La energía del ASSR está en la frecuencia de modulación (Dimitrijevic y Cone, 2015) |
+| Rechazo de artefactos | ±20 µV en lactante dormido con 90 Hz; no más de ±40 µV en adulto con 40 Hz | Sí | Tramos con demasiado voltaje se descartan en vez de entrar al promedio (BSA, 2023) |
+| Tiempo máximo | El del equipo (algunos parten en unos 6 minutos) | Sí, se puede alargar | Si el ruido no baja, el nivel queda "no concluyente" (BSA, 2023) |
+| Unidades | Estímulo en dB nHL; informe en dB eHL | La tabla de corrección, sí | Es la forma de pasar de umbral electrofisiológico a audiograma (BSA, 2023) |
+:::
+
+<!-- decide el autor: el protocolo ORL 2019 solo nombra los tres protocolos del equipo (niño 90 Hz, adulto durmiendo 90 Hz, adulto despierto 90 Hz) y no da portadoras, niveles, pasos, filtros, rechazo ni tiempo; todo lo de la tabla sale de BSA 2023 y Dimitrijevic y Cone 2015. "Unos 6 minutos" como tiempo de partida, ampliable hasta 15, sale del manual de instrucciones del fabricante del equipo del protocolo (Eclipse, 2011), no de una guía: queda como ejemplo. -->
+<!-- verificar: los filtros exactos de cada equipo (frecuencias de corte del amplificador) no están en la BSA; Dimitrijevic y Cone (2015) solo dicen que lo común en los estudios es pasa-alto de 1 a 30 Hz y pasa-bajo de 300 Hz. Si el fabricante publica otros, anotar cuáles. -->
+<!-- verificar: ASHA, Hall (2007) y Picton y cols. (2003) no se leyeron para esta sección; no se cita nada de ellos que no esté ya en el capítulo. -->
+
+Cada parámetro tiene su razón, y esto es lo que pasa cuando se cambia o se deja mal:
+
+1. **Las portadoras.** Dejar fuera el 500 Hz ahorra tiempo, porque es la frecuencia que más tarda, pero te quedas sin el dato grave. Acercar dos portadoras a menos de media octava hace que una achique a la otra (John y cols., 1998). Por eso no se mueven: se omiten o se dejan.
+2. **El ritmo de modulación.** Con 40 Hz en un lactante dormido la respuesta es inestable o no está, porque es una respuesta de tipo latencia media y esa no madura hasta la adolescencia. Con 90 Hz en un adulto despierto el examen se puede hacer, pero la respuesta es chica y el músculo la tapa. Y con 40 Hz hay otro problema: no hay un valor de ruido residual validado para decir "respuesta ausente", así que ese resultado nunca pasa de no concluyente (BSA, 2023).
+3. **El tipo de modulación.** La modulación mixta, la exponencial y los chirps dan respuestas más grandes y las detectan antes, sobre todo en 500 Hz. Su costo es un espectro más ancho: la respuesta nace de una región de la cóclea menos acotada (Dimitrijevic y Cone, 2015). Por eso el tipo no se cambia a mano: cambiarlo cambiaría el umbral y haría mentir a la tabla de corrección.
+4. **El nivel de partida y los pasos.** Empezar muy bajo en un oído con pérdida te hace perder minutos en niveles sin respuesta; la BSA aconseja, si a los 2 minutos la curva de detección sigue baja, **subir en vez de insistir**. Pasos de 20 dB acortan el examen, pero el umbral queda menos preciso; es lo que suele hacerse con 40 Hz. Por encima de 80 dB nHL el examen pasa a una frecuencia por vez, y el equipo no deja que las frecuencias de un mismo oído difieran en más de 20 dB (BSA, 2023).
+5. **El criterio de detección.** Con 95 % el examen es más rápido, pero uno de cada 20 niveles sin respuesta real se verá como respuesta: por eso se repite el nivel del umbral. Con 99 % el falso positivo baja a uno de cada 100 y la replicación no hace falta, pero tarda más, y hay niveles cercanos al umbral que no llegan a cruzar y quedan como no concluyentes (BSA, 2023).
+6. **El ruido residual.** No lo mueves, lo lees. Si das por ausente un nivel con el ruido todavía alto, estás informando un silencio que en realidad es una duda. Los fabricantes no lo calculan igual: el valor que la BSA propone como "bajo" va de 5 a 250 nV según el equipo, así que **tu cifra no sirve para el equipo del vecino**.
+7. **Los filtros.** Su corte importa poco, porque el análisis en frecuencia ya funciona como un filtro angosto alrededor de la modulación; solo se vuelven un problema si el corte queda cerca de ese ritmo (atenúa la respuesta) o si el amplificador se satura (Dimitrijevic y Cone, 2015). Por eso en la pantalla no hay un botón de filtros: lo que ves es el EEG crudo y su límite de rechazo.
+8. **El rechazo de artefactos.** Bajarlo descarta más tramos y alarga el examen, pero deja un promedio más limpio. Subirlo "para que avance" mete ruido, el examen se alarga igual, el umbral pierde precisión y se hace difícil llegar a una respuesta ausente (BSA, 2023). Si el lactante está inquieto, la BSA prefiere ±30 µV antes que ±40.
+9. **El tiempo máximo.** Cortarlo antes deja más niveles no concluyentes. Alargarlo se justifica solo cuando ese nivel decide el umbral; si no, es tiempo gastado con un paciente que se puede despertar (BSA, 2023).
+10. **dB nHL y dB eHL.** El estímulo se calibra en dB nHL con la norma de los tonos puros, y el audiograma sale de sumarle una corrección. Cambiar de tabla (adulto, lactante, fono de inserción, vibrador óseo) puede correr el audiograma hasta 30 dB (BSA, 2023). Es de los pocos ajustes que sí cambias a mano, y por eso hay que informar cuál usaste (ver "De dB nHL a dB eHL").
+
+
+:::comentario Lo que dicen las normas
+No hay un protocolo de ASSR único. La BSA (2023) pide dejar el estímulo como lo diseñó el fabricante, porque los equipos difieren en estímulos, detección y estrategia. Lo que sí fija es el **rechazo de artefactos** (±20 µV en lactantes con 90 Hz, hasta ±40 µV en adultos con 40 Hz), los **pasos de nivel** y los criterios de **respuesta clara, ausente y no concluyente**. Los **filtros** no están normados por la BSA: Dimitrijevic y Cone (2015) dan los usuales de los estudios y recuerdan que su corte tiene poca importancia. El **ruido residual** necesario para dar respuesta ausente depende del equipo, y para 40 Hz no hay valor.
+:::
+
 ## Paso a paso
 
 ### 1. Elige el protocolo
 
-Se selecciona el módulo ASSR y el protocolo que corresponde al paciente: **niño**, **adulto dormido** o **adulto despierto**, los tres con modulaciones cercanas a 90 Hz en el protocolo base de este libro. Esa elección fija la familia de respuesta que se va a buscar (ver "Fundamento"). Los parámetros del estímulo vienen fijos por el fabricante y no se modifican; se cambia solo el protocolo.
+Se selecciona el módulo ASSR y el protocolo que corresponde al paciente: **niño**, **adulto dormido** o **adulto despierto**, los tres con modulaciones cercanas a 90 Hz en el protocolo base de este libro. Esa elección fija la familia de respuesta que se va a buscar (ver "Fundamento"). Los parámetros del estímulo vienen fijos por el fabricante y, según la BSA, no se modifican; de ese conjunto se elige solo la familia de modulación (el protocolo). Lo que sí se ajusta está en "Los parámetros de configuración".
 
 :::comentario Lo que dicen las normas
 En el **adulto despierto** la BSA recomienda la familia de **40 Hz**, que es la más grande en vigilia, y reserva los 90 Hz para quien duerme, sea sueño natural, sedación o anestesia general (BSA, 2023). Con 90 Hz en un adulto despierto el examen es posible, pero la respuesta es chica y el músculo tenso la tapa: por eso aquí se cita cansado a quien se va a registrar con ese protocolo. En 40 Hz, además, la guía advierte que no hay evidencia suficiente para fijar un criterio de "respuesta ausente", así que debe interpretarse junto con el resto del cuadro clínico.
@@ -182,7 +223,7 @@ Al terminar se **despierta** al paciente, si corresponde, y se retiran los elect
 El equipo presenta los estímulos en **dB nHL** y el umbral que encuentra queda **por encima** del umbral conductual del mismo oído. Para estimar el audiograma se le **resta una corrección** y el resultado se escribe en **dB eHL** (*estimated hearing level*). Las correcciones salen de comparar umbrales de ASSR con audiometrías en los mismos sujetos, y **no son iguales para todos**:
 
 - Son **mayores en graves** y **en oídos normales o con pérdidas leves**, y **menores y menos variables cuanto mayor es la pérdida** (BSA, 2023, que cita a Lee y cols., 2016).
-- Dependen del **equipo**, del **estímulo** y de la **edad** del paciente. En el recién nacido hay que descontar además el efecto de un conducto pequeño (que sube el nivel real del fono hasta 10 a 20 dB) y de un cráneo liviano con el vibrador, lo que según la BSA puede representar errores de hasta 30 dB (BSA, 2023).
+- Dependen del **equipo**, del **estímulo** y de la **edad** del paciente. En el recién nacido hay que descontar además el efecto de un conducto pequeño (que sube el nivel real del fono entre 10 y 20 dB, más en agudos: unos 24 dB en 4.000 Hz y menos de 10 dB en graves) y de un cráneo liviano con el vibrador, lo que según la BSA puede representar errores de hasta 30 dB (BSA, 2023).
 
 Por eso la regla es: **usar la tabla del fabricante del equipo**, si está respaldada por estudios publicados (BSA, 2023). Cuando no existe, la BSA propone una tabla provisional para recién nacidos:
 
@@ -246,7 +287,7 @@ El informe de ejemplo es de un recién nacido, y es el único contexto en que la
 
 - **El oído normal.** La mayor dispersión está en la audición normal y en las pérdidas leves. En una pérdida coclear hay reclutamiento: un cambio pequeño de nivel lleva el sonido de inaudible a fuerte, y la respuesta aparece cerca del umbral; en el oído normal, sin reclutamiento, la respuesta crece de a poco y el umbral del examen se dispersa más (BSA, 2023). En lactantes normoyentes, la mitad tiene respuesta a 15 a 36 dB HL según la frecuencia y el 90 % recién a 32 a 49 dB HL, y por eso se toman como "normales" las respuestas a 50, 45, 40 y 40 dB HL en 500, 1.000, 2.000 y 4.000 Hz (Van Maanen y Stapells, 2009). Un ASSR **puede confirmar que el umbral está dentro de lo normal**, pero **distingue mal** un oído normal de una pérdida leve. <!-- Pasada de fundamentos 2026-10-18: decía "porque el sistema se recluta: pasar de inaudible a fuerte requiere cambios pequeños de nivel" (la BSA atribuye la menor dispersión de las pérdidas a su reclutamiento, no al oído normal) y "el 90 % ya tiene respuesta a 32 a 49 dB HL ... así que el ASSR de un oído normal no baja de ahí" (la mediana está en 15 a 36 dB HL; Van Maanen y Stapells, 2009). También decía "no distingue un oído normal de una pérdida de 20 a 30 dB", cifra sin fuente. -->
 - **La neuropatía auditiva.** El ASSR **no puede diagnosticarla** y en ella **no predice el umbral conductual**: en 19 niños con pérdida de tipo neuropatía, los umbrales del ASSR no reflejaron el audiograma conductual (Rance y cols., 2005). Hay incluso casos en que el ASSR muestra respuesta a niveles bajos mientras el ABR está ausente, y se piensa que lo que se detecta es actividad previa al nervio (el potencial de suma) y no una respuesta neural (Biagio de Jager y cols., 2026). Una respuesta presente no basta para decir que hay audición.
-- **Las intensidades altas.** La respuesta de varias frecuencias a la vez cae sobre unos 80 dB nHL y los artefactos aumentan; a más de 100 dB nHL por vía aérea las respuestas pueden ser vestibulares o del estímulo (BSA, 2023).
+- **Las intensidades altas.** La respuesta de varias frecuencias a la vez cae sobre unos 80 dB nHL y los artefactos aumentan; a más de 100 dB nHL por vía aérea las respuestas pueden ser vestibulares o del estímulo; por vía ósea el artefacto del vibrador puede aparecer desde unos 40 dB nHL, y en 500 Hz la BSA no recomienda el ASSR óseo (BSA, 2023).
 - **El lactante muy pequeño.** Las respuestas maduran: los umbrales mejoran unos 5 dB en las primeras semanas, y la BSA propone hacer el ASSR entre **2 semanas y 3 meses** de edad corregida y usar estimaciones conservadoras si se hace antes (BSA, 2023).
 
 :::comentario Lo que dicen las normas
@@ -287,12 +328,12 @@ En la práctica, el ABR responde primero (¿hay una vía sana?, ¿qué umbral co
 - **Creerle a una respuesta de lactante normal como si fuera de adulto.** Los umbrales del lactante son más altos que los del adulto aunque oiga normal.
 
 :::ojo Ojo clínico
-Un ASSR con respuestas a niveles bajos en las cuatro frecuencias **no basta** para decir que un lactante oye normal si el ABR no tuvo morfología normal o si faltan las emisiones. Y un ASSR **sin** respuesta no significa que no haya audición residual útil: en niños sin ABR con click a nivel máximo, los modulados pueden mostrar que hay resto auditivo (Rance y cols., 1998). Antes de informar, pregúntate si todo **calza**: ABR, emisiones, timpanometría y conducta.
+Un ASSR con respuestas a niveles bajos en las cuatro frecuencias **no basta** para decir que un lactante oye normal si el ABR no tuvo morfología normal o si faltan las emisiones. Y un ASSR **sin** respuesta no significa que no haya audición residual útil: en niños sin ABR con click a nivel máximo, los modulados pueden mostrar que hay resto auditivo (Rance y cols., 1998). Aun así, la BSA (2023) exige un ABR antes del ASSR; el ASSR de nivel alto es un complemento, no un reemplazo. Antes de informar, pregúntate si todo **calza**: ABR, emisiones, timpanometría y conducta.
 :::
 
 ### Control con estímulo bloqueado
 
-Para saber si una respuesta es del oído o del equipo, se repite el registro al **mismo nivel** pero **sin que el sonido llegue al oído**: se tapa la salida del fono (con masilla adhesiva) o se pinza el tubo del fono de inserción, o, con el vibrador, se lo separa unos milímetros de la piel. Si la respuesta persiste, es artefacto (BSA, 2023). Es la misma maniobra de **pinzar el tubo** del ABR (→ H10).
+Para saber si una respuesta es del oído o del equipo, se repite el registro al **mismo nivel** pero **sin que el sonido llegue al oído**: se tapa la salida del fono (con masilla adhesiva) o se pinza el tubo del fono de inserción, o, con el vibrador, se lo separa unos milímetros de la piel. Si la respuesta persiste, es artefacto. Si desaparece, no queda descartada una respuesta vestibular sobre 100 dB nHL: el bloqueo corta la respuesta del oído y la vestibular por igual (BSA, 2023). Es la misma maniobra de **pinzar el tubo** del ABR (→ H10).
 
 ## Para practicar
 
@@ -313,6 +354,7 @@ Para saber si una respuesta es del oído o del equipo, se repite el registro al 
 1. British Society of Audiology. Practice guidance: auditory steady state response (ASSR) testing (OD104-115, v3). BSA; 2023. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-115-Practice-Guidance-for-ASSR-Testing-1.pdf
 1. Picton TW, John MS, Dimitrijevic A, Purcell D. Human auditory steady-state responses. Int J Audiol. 2003;42(4):177-219. doi:10.3109/14992020309101316
 1. John MS, Lins OG, Boucher BL, Picton TW. Multiple auditory steady-state responses (MASTER): stimulus and recording parameters. Audiology. 1998;37(2):59-82. doi:10.3109/00206099809072962
+1. Dimitrijevic A, Cone B. Auditory steady-state response. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 267-93.
 1. Small SA, Stapells DR. Artifactual responses when recording auditory steady-state responses. Ear Hear. 2004;25(6):611-23. doi:10.1097/00003446-200412000-00009
 1. Joint Committee on Infant Hearing. Year 2019 position statement: principles and guidelines for early hearing detection and intervention programs. J Early Hear Detect Interv. 2019;4(2):1-44. doi:10.15142/fptk-b748
 

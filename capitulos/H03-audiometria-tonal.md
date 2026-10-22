@@ -112,7 +112,7 @@ En ese punto también decide el paciente. Cada persona fija, sin darse cuenta, c
 
 El oído no es igual de sensible en todas las frecuencias. Medido con un micrófono, en **dB SPL** (nivel de presión sonora), un oído joven normal necesita mucha más presión en los graves que en los medios. Con el fono TDH-39, el umbral normal está en 45 dB SPL a 125 Hz, en 25,5 a 250 Hz y en apenas 7 a 1 kHz (ISO 389-1, 2017). <!-- Valores de la tabla ISO 389-1 para el TDH-39, leídos en la hoja técnica del Interacoustics AT235 (la misma que usa Bibliografia.php, clave AT235). --> Si el audiograma se dibujara en dB SPL, un oído normal sería una curva, distinta para cada fono, y habría que memorizarla para saber si un umbral es normal.
 
-El audiómetro resuelve eso trabajando en **dB HL** (*hearing level*, nivel de audición). En cada frecuencia, **0 dB HL** es el nivel que detecta un adulto joven típico, otológicamente normal, entre 18 y 25 años (ISO 389-7, 2019). <!-- verificar: el rango de 18 a 25 años se confirmó en la edición 1996 de la ISO 389-7 (y en la EN ISO 389-7:1998 y la descripción DIN de la serie ISO 389); la vista previa de la 2019 en ANSI e iso.org no se pudo leer (2026-10-18). --> El equipo guarda esa referencia para cada frecuencia y cada transductor, y la resta. Así, un oído normal dibuja una **línea recta cerca de 0**, y lo que el audiograma muestra es directamente cuánto le falta a ese oído respecto de lo normal.
+El audiómetro resuelve eso trabajando en **dB HL** (*hearing level*, nivel de audición). En cada frecuencia, **0 dB HL** es el nivel que detecta un adulto joven típico, otológicamente normal, entre 18 y 25 años (ISO 389-7, 2019, en campo libre; para los fonos, ISO 389-1, 2017). <!-- verificar: el rango de 18 a 25 años se confirmó en la edición 1996 de la ISO 389-7 (y en la EN ISO 389-7:1998 y la descripción DIN de la serie ISO 389); la vista previa de la 2019 en ANSI e iso.org no se pudo leer (2026-10-18). --> El equipo guarda esa referencia para cada frecuencia y cada transductor, y la resta. Así, un oído normal dibuja una **línea recta cerca de 0**, y lo que el audiograma muestra es directamente cuánto le falta a ese oído respecto de lo normal.
 
 :::imagen ilustraciones/h03-hl-spl.svg ancho=96% El mismo oído normal, en dB SPL y en dB HL. En SPL el umbral normal cambia con la frecuencia: los graves necesitan mucha más presión. En HL se resta esa referencia, el oído normal queda en 0 en todas y cualquier pérdida se lee como distancia a esa línea. Imagen propia del libro.
 :::
@@ -131,7 +131,7 @@ Cada detalle del método de búsqueda responde a cómo se comporta el oído cerc
 
 - **En ascenso.** El umbral se toma con tonos que aparecen después de uno que el paciente no oyó. Ya en los años treinta los clínicos notaban que un tono continuo se "apaga" (adaptación) y que las series ascendentes daban umbrales más estables. Hughson y Westlake dejaron por escrito el umbral en ascenso con tonos cortos contra silencio, y Carhart y Jerger (1959) le dieron su base al comparar la búsqueda ascendente con la descendente (Jerger, 2018). Una forma simple de entenderlo: al bajar, el paciente viene de oír el tono y sabe cómo suena, y la expectativa puede hacerlo responder a un nivel que ya no detecta; al subir, cada respuesta es una detección nueva.
 - **Baja 10, sube 5.** Bajar de a 10 lleva rápido bajo el umbral con pocos tonos, y cada tono cuesta tiempo y atención del paciente. Subir de a 5 da la resolución con que se dibuja y se informa el audiograma. Es un compromiso entre precisión y tiempo.
-- **Tonos de 1 a 2 segundos.** El oído suma la energía del tono durante sus primeras décimas de segundo: un tono muy corto necesita más intensidad para detectarse. Esa suma se completa en unos 30 a 70 ms en los agudos y en 125 a 175 ms en los graves (Watson y Gengel, 1969). Un tono de 1 a 2 s la supera con holgura, así que la duración deja de mover el umbral. Más largo tampoco conviene: el tono continuo se adapta y el examen se alarga.
+- **Tonos de 1 a 2 segundos.** El oído suma la energía del tono durante sus primeras décimas de segundo: un tono muy corto necesita más intensidad para detectarse. Con duraciones de unos 200 ms a 1 s o más el umbral casi no cambia; bajo 200 ms sube (Watson y Gengel, 1969, según Schlauch y Nelson, 2015). Un tono de 1 a 2 s la supera con holgura, así que la duración deja de mover el umbral. Más largo tampoco conviene: el tono continuo se adapta y el examen se alarga.
 - **Pulsado o continuo.** Dan el mismo umbral y la misma repetibilidad, pero dos de cada tres pacientes prefieren el pulsado cuando el tono es suave o agudo (Burk y Wiley, 2004). El botón *Pulsado* del audiómetro es para eso.
 - **Silencios irregulares, nunca más cortos que el tono.** Con un ritmo fijo el paciente aprende el compás y aprieta por anticipación. Si el silencio varía, una respuesta sin tono queda a la vista como lo que es: una respuesta falsa (ASHA, 2005; BSA, 2018).
 - **Familiarización y aprendizaje.** La primera vez, el paciente no sabe qué tan suave es "apenas", y sus primeras respuestas tienden a ser peores. Un tono claro le muestra qué tiene que buscar. Repetir 1 kHz al final del primer oído mide si siguió aprendiendo en el camino: si la segunda vez sale mejor, las primeras frecuencias pueden estar subestimadas. La norma ISO pide, ante una mejora de 10 dB o más, volver a medir las demás frecuencias (ISO 8253-1, 1989).
@@ -223,9 +223,9 @@ Los de screening y clínicos pueden ser manuales o automáticos: lo que cambia n
 
 Se explican antes de poner los fonos, con palabras simples:
 
-> "Vas a escuchar unos pititos, primero por un oído y después por el otro. Algunos van a ser muy suaves. Cada vez que escuches uno, aunque sea apenas, aprieta el botón (o levanta la mano) altiro."
+> "Vas a escuchar unos pititos, primero por un oído y después por el otro. Algunos van a ser muy suaves. Cada vez que escuches uno, aunque sea apenas, aprieta el botón (o levanta la mano) altiro. No importa en qué oído lo escuches."
 
-Se le dice por qué oído se parte y se le pregunta si entendió. "Aunque sea apenas" y "altiro" son las dos frases que más cambian el resultado: el paciente que espera a estar seguro da umbrales peores que los reales.
+Se le dice por qué oído se parte y se le pregunta si entendió. "Aunque sea apenas" y "altiro" son las dos frases que más cambian el resultado: el paciente que espera a estar seguro da umbrales peores que los reales. La respuesta que pide el protocolo ORL 2019 es avisar levantando la mano o presionando el pulsador cada vez que escuche el sonido, lo más rápido posible. Como observación, la BSA (2018) pide que el paciente mantenga el botón apretado mientras oye el tono y lo suelte apenas deje de oírlo, lo que permite saber si responde al tono o a la pausa.
 
 ### Fonos
 
@@ -431,7 +431,7 @@ En el OD la aérea enmascarada está en 55 dB en 250 Hz y la ósea enmascarada e
 
 En 4 kHz la aérea del OD está en 60 dB y la ósea en 55: van **juntas**, sin gap. En el OI pasa lo mismo: aérea y ósea en 30 dB en 1 kHz. Los graves están casi normales y la pérdida crece hacia los agudos: configuración **descendente**. Es una **hipoacusia sensorioneural bilateral y simétrica**, y la ósea se midió donde la aérea está alterada.
 
-El OI de Luis, el paciente de la radiografía del comienzo (caso H3.1), es el ejemplo de mixta:
+El OI de Luis (caso H3.1) es el ejemplo de mixta:
 
 :::imagen figuras/salida/h3_p41_audiosupra.svg ancho=100% Hoja auditiva de Luis (caso H3.1): hipoacusia mixta del OI. Imagen propia del libro.
 :::
@@ -455,7 +455,7 @@ El grado se calcula **por oído** con el promedio de 500, 1.000, 2.000 y 4.000 H
 | 120 | cofosis |
 :::
 
-En el caso de Hernán (caso H3.4): el OD promedia (20 + 25 + 40 + 60) / 4 = **36 dB, leve**; el OI promedia (25 + 30 + 45 + 65) / 4 = **41 dB, moderada**. Dos oídos casi iguales quedan en grados distintos por un decibel. El grado resume, pero no reemplaza mirar la curva.
+En el caso de Hernán (caso H3.4): el OD promedia (20 + 25 + 40 + 60) / 4 = **36 dB, leve**; el OI promedia (25 + 30 + 45 + 65) / 4 = **41 dB, moderada**. Dos oídos casi iguales quedan en grados distintos porque el OI pasa por poco (1 dB) el corte de 40 dB. El grado resume, pero no reemplaza mirar la curva.
 
 :::comentario Otras escalas de grado
 La escala BIAP es la que usa este libro, pero no es la única. La Organización Mundial de la Salud (2021) usa el mismo promedio de 500 a 4.000 Hz, calculado en el **oído mejor**, con cortes distintos: audición normal bajo 20 dB HL; leve de 20 a menos de 35; moderada de 35 a menos de 50; moderadamente severa de 50 a menos de 65; severa de 65 a menos de 80; profunda de 80 a menos de 95, y completa desde 95. <!-- Pasada de fundamentos 2026-10-18: cortes cotejados con la tabla 1.3 del World report on hearing reproducida por Holube y cols., HNO 2024;72(8):561-4, doi:10.1007/s00106-024-01494-z. -->
@@ -582,7 +582,7 @@ El primero es el de Hernán (caso H3.4) y el segundo el de Carolina (caso H3.3).
 - **Leer la curva sombra como umbral.** Una pérdida unilateral grande sin enmascarar nunca es la del oído malo (caso H3.5).
 - **Leer la ósea sin enmascarar como de un oído.** Es la mejor cóclea, no la del lado del vibrador.
 - **Saltarse la repetición de 1 kHz.** Es el único control de confiabilidad que tiene la prueba.
-- **Cansancio.** La fiabilidad cae después de unos 20 minutos sin pausa (ISO 8253-1, 2010).
+- **Cansancio.** El cansancio afecta la fiabilidad: si el examen pasa de 20 minutos, conviene una pausa breve (BSA, 2018).
 
 :::ojo Ojo clínico
 Antes de informar, pregúntate si el audiograma **calza con todo lo demás**: con la otoscopía, con los diapasones, con cómo conversó el paciente en la entrevista. Un Weber que lateraliza al oído "bueno" en una pérdida que parece conductiva, o un paciente que conversa sin problemas con una curva de 60 dB, obligan a repetir antes de escribir.

@@ -119,7 +119,7 @@ Después **explica el procedimiento**: se van a mover la cabeza y el cuerpo a ci
 
 ### Contraindicaciones y precauciones
 
-Antes de mover a nadie, **descarta lo que impide hacer las posturas**: artrosis de cuello o de cadera, hipertensión endocraneana u otra alteración que no permita el examen. La guía de la AAO-HNS amplía la lista: estenosis cervical, cifoescoliosis grave, limitación del movimiento cervical, síndrome de Down, artritis reumatoide grave, radiculopatía cervical, enfermedad de Paget, espondilitis anquilosante, patología lumbar, lesiones de la médula y obesidad mórbida; también pide cuidado con la enfermedad vascular importante, aunque no hay informes de que el Dix-Hallpike produzca insuficiencia vertebrobasilar (Bhattacharyya y cols., 2017). Hay un riesgo de provocar una crisis de vértigo en cada maniobra y de que salgan náuseas, vómitos o desmayo.
+Antes de mover a nadie, **descarta lo que impide hacer las posturas**: artrosis de cuello o de cadera, hipertensión endocraneana u otra alteración que no permita el examen. La guía de la AAO-HNS amplía la lista: estenosis cervical, cifoescoliosis grave, limitación del movimiento cervical, síndrome de Down, artritis reumatoide grave, radiculopatía cervical, enfermedad de Paget, espondilitis anquilosante, patología lumbar, lesiones de la médula y obesidad mórbida. Para las maniobras de reposición agrega la estenosis carotídea y el desprendimiento de retina; también pide cuidado con la enfermedad vascular importante, aunque no hay informes de que el Dix-Hallpike produzca insuficiencia vertebrobasilar (Bhattacharyya y cols., 2017). Hay un riesgo de provocar una crisis de vértigo en cada maniobra y de que salgan náuseas, vómitos o desmayo.
 
 En esos pacientes, lo razonable es una **camilla basculante** o derivar a quien la tenga. Si el paciente no puede colgar la cabeza, hay variantes (por ejemplo, acostarlo de lado), pero ya no son el Dix-Hallpike y no se informan como tal (Cohen, 2004).
 
@@ -135,7 +135,7 @@ Tabla: Las pruebas de posición y el canal que cada una pone a prueba
 
 | Prueba | Postura final | Canal que examina |
 |---|---|---|
-| **Dix-Hallpike** | acostado, cabeza girada 45° hacia el lado examinado y colgando unos 20°-30° | posterior (y anterior) del lado hacia el que se giró |
+| **Dix-Hallpike** | acostado, cabeza girada 45° hacia el lado examinado y colgando unos 20°-30° | posterior del lado hacia el que se giró; el anterior puede ser de cualquiera de los dos lados |
 | **Cabeza colgando al frente** | acostado, cabeza colgando al frente, sin girar | anterior de los dos lados |
 | **Giro supino (McClure-Pagnini)** | acostado, cabeza girada 90° a cada lado | lateral |
 
@@ -173,8 +173,8 @@ La guía de la AAO-HNS describe el mismo procedimiento: el paciente pasa de sent
 ### Giro supino (McClure-Pagnini, "roll test")
 
 1. **Acuesta al paciente de espalda**, con la cabeza en el centro. Si lo vas a hacer con la cabeza algo elevada, que quede flexionada unos 30°: el canal lateral está inclinado unos 25° sobre el plano horizontal del cráneo (Blanks y cols., 1975), y esa flexión lo deja casi vertical. La guía de la AAO-HNS describe la prueba con la cabeza en posición neutra (Bhattacharyya y cols., 2017). <!-- Pasada de fundamentos 2026-10-18: decía "así el canal lateral queda vertical y la prueba es más sensible". No se halló respaldo para "más sensible"; se dejó la geometría (Blanks 1975, abstract: canales laterales a 25° del plano horizontal de Reid) y la posición neutra de la guía (AAO-HNS 2017, p. S12). La flexión de 30° no está en el protocolo. -->
-2. Pídele que **mire un punto fijo** y **gíralo 90° hacia la derecha**, con una vuelta rápida de la cabeza. Espera **30 segundos** observando los ojos.
-3. **Vuelve al centro** y espera a que cese lo que haya salido. Después **gira 90° hacia la izquierda** y espera otros **30 segundos**.
+2. Pídele que **mire un punto fijo** y **gíralo 90° hacia la derecha**, con una vuelta rápida de la cabeza. Espera **30 segundos** observando los ojos, como indica el protocolo ORL 2019. La guía de la AAO-HNS no fija un tiempo: el paciente vuelve a la posición supina cuando el nistagmo cede (Bhattacharyya y cols., 2017), y el apogeotrópico puede durar más de 1 minuto.
+3. **Vuelve al centro** y espera a que cese lo que haya salido. Después **gira 90° hacia la izquierda** y espera otros **30 segundos** (protocolo ORL 2019); si el nistagmo sigue, no cortes la observación.
    El orden no cambia la lectura: aquí se parte hacia la derecha, como en esta sección del protocolo, pero otras versiones del protocolo parten hacia la izquierda (por ejemplo, la de videonistagmografía). Lo que importa es girar a **los dos lados** y **comparar sus intensidades**.
 4. Anota en cada lado la **dirección** del nistagmo (hacia el suelo o hacia el techo) y su **intensidad**. Con eso decides el tipo y el lado (tabla siguiente).
 5. Devuelve al paciente a decúbito supino. En el protocolo de evaluación vestibular completa, la calórica se hace en la postura siguiente (→ H17).

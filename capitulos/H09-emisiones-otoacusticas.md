@@ -31,7 +31,7 @@ Parte de esa energía mecánica viaja de vuelta: sale de la cóclea, mueve la ca
 Si las células ciliadas externas de una zona están dañadas, esa zona deja de amplificar **y** deja de emitir. Por eso, con un oído medio normal y un buen registro, unas OEA ausentes sugieren una pérdida coclear de unos 30 a 40 dB HL o más en esa zona (AAA, 2020). La DPOAE aguanta algo más: se achica a medida que crece la pérdida y deja de medirse por encima de unos 50 a 60 dB HL (Gorga y cols., 1997). <!-- Pasada de fundamentos 2026-10-18: decía "las OEA desaparecen cuando la pérdida coclear de esa zona supera unos 30 a 40 dB HL (Probst y cols., 1991)". La cifra 30-40 dB HL está en la AAA (2020) como sugerencia, no como corte; para la DPOAE, Gorga y cols. (1997) dan 50-60 dB HL. -->
 
 :::ojo Ojo clínico
-OEA presentes quieren decir **células ciliadas externas que funcionan**. No dicen que el paciente oiga: la célula ciliada interna, la sinapsis y el nervio quedan fuera de la prueba. Una neuropatía auditiva tiene OEA normales y un ABR ausente (Starr y cols., 1996).
+OEA presentes quieren decir **células ciliadas externas que funcionan**. No dicen que el paciente oiga: la célula ciliada interna, la sinapsis y el nervio quedan fuera de la prueba. Una neuropatía auditiva suele tener OEA presentes, microfónica coclear presente y un ABR ausente o muy alterado (Starr y cols., 1996).
 :::
 
 ### Cuatro tipos de emisión
@@ -119,6 +119,76 @@ La DPOAE se mide punto por punto: el equipo presenta dos tonos (f1 y f2) a la ve
 - @85,60 | **Función de entrada/salida.** El DP crece a medida que sube L2. Donde aparece sobre el ruido está el **umbral del DP**.
 :::
 
+### Los parámetros de rutina
+
+Un equipo diagnóstico deja cambiar casi todo. Los valores de rutina son los que mejor separan un oído normal de uno con pérdida; si los mueves, mueves el resultado. Los de TEOAE primero.
+
+:::ayuda-ancho Configuración de la TEOAE (equipo diagnóstico)
+| Parámetro | Valor de rutina | Por qué |
+|---|---|---|
+| Estímulo | Click de banda ancha | Excita toda la cóclea a la vez y da una respuesta de banda ancha; el tone burst solo sirve en la banda que cubre (Prieve y Fitzgerald, 2015) |
+| Modo | No lineal | Cancela el rebote lineal del conducto y deja la emisión (Kemp y cols., 1990) |
+| Nivel | 80 dB SPL pico equivalente, medido en el conducto (±3 dB) | Con 77 a 83 dB detecta pérdidas de más de 20 dB HL entre 1 y 4 kHz (AAA, 2020) |
+| Ventana de análisis | 20 ms desde el click; 10 a 12,5 ms en el recién nacido | La emisión ocupa unos 20 ms; en el lactante la ventana corta saca el ruido fisiológico grave y acorta el examen (AAA, 2020) <!-- verificar: el protocolo ORL 2019 (Capella) pide "Tiempo: 7.76 ms"; no se sabe a qué parámetro corresponde (ver comentario más abajo) --> |
+| Primeros milisegundos | Se descartan (unos 2,5 ms en el ILO88) | Ahí está el artefacto del propio click (Prieve y Fitzgerald, 2015) |
+| Barridos (promedios) | Hasta que la respuesta quede estable; el equipo del curso, hasta el 100 % <!-- decide el autor: "termina cuando se complete el 100 %" es del protocolo ORL 2019; la AAA (2020) no fija un número de barridos --> | Si hay más ruido, hay que promediar más y el examen se alarga (Prieve y Fitzgerald, 2015; AAA, 2020) |
+| Rechazo de ruido | Activado; pocos rechazos | Cada barrido con ruido se bota; muchos rechazos alargan la prueba <!-- verificar: el umbral de rechazo en dB SPL es del fabricante; no se encontró cifra con fuente --> |
+| Estabilidad del estímulo | 80 % o más <!-- decide el autor: 80 % es del criterio de LabSim; la AAA (2020) pide 70 % o más --> | Dice si la sonda se mantuvo firme durante el registro (AAA, 2020) |
+| Reproducibilidad | 70 % o más <!-- decide el autor: aquí se usa 70 % global; la AAA (2020) lo da para la onda completa --> | Las memorias A y B se parecen si hay respuesta (AAA, 2020) |
+| SNR por banda | 6 dB o más en 1; 1,5; 2; 3 y 4 kHz <!-- decide el autor: la AAA (2020) da un rango de 3 a 6 dB; el 6 y las 5 bandas son del criterio de LabSim --> | La emisión debe estar claramente sobre el ruido en cada banda |
+| Bandas para decir "pasa" | 3 de 5 <!-- decide el autor: criterio de LabSim; la AAA (2020) pide la mayoría de las bandas --> | No todas las bandas discriminan igual: las de 2 a 4 kHz separan mejor que la de 1 kHz (Prieve y cols., 1993; AAA, 2020) |
+:::
+
+Y qué pasa cuando alguno queda mal:
+
+1. **El click va más fuerte.** La TEOAE crece de forma no lineal y se satura entre 50 y 80 dB pico equivalente (Prieve y Fitzgerald, 2015). Con 84 a 86 dB la prueba pasa a ser sensible a pérdidas de más de 30 dB HL (AAA, 2020): oídos con una pérdida leve empiezan a "pasar". Es lo contrario de lo que quieres en un tamizaje.
+2. **El click va más suave.** La emisión se achica, queda cerca del ruido y salen "refiere" en oídos sanos. Con un nivel que se aleja de lo pedido, no se compara con las normas, que se hicieron con 80 dB (AAA, 2020).
+3. **El modo es lineal.** El rebote del click en el conducto entra a la respuesta. Se ve emisión donde no la hay, sobre todo en los primeros milisegundos (Kemp y cols., 1990).
+4. **La ventana va más corta o se corta antes.** Se pierden las bajas frecuencias, que llegan tarde. Si se descarta más del principio, se pierden las altas, que llegan temprano (Prieve y Fitzgerald, 2015). La ventana corta del recién nacido es una decisión a conciencia: pierde graves, pero esos son justo los que más ruido traen.
+5. **Se paran los barridos antes de tiempo.** El ruido no alcanza a bajar, la reproducibilidad cae y el oído "refiere" por ruido, no por la cóclea. Si el ambiente es ruidoso, hay que promediar más, no menos (Prieve y Fitzgerald, 2015). Con más de 50 a 55 dBA de ruido continuo la relación señal-ruido y la reproducibilidad empeoran igual (AAA, 2020).
+6. **El criterio de SNR se relaja.** Con 3 dB en vez de 6, pasan más oídos con emisiones chicas, y también más oídos con pérdida. Con 6 o más, se pierde sensibilidad. La AAA (2020) acepta cualquier valor entre 3 y 6; lo importante es que el equipo del servicio use siempre el mismo.
+7. **Se ignora la estabilidad.** Una estabilidad baja quiere decir que la sonda se movió y el estímulo no fue el mismo en todo el registro; la reproducibilidad puede salir buena igual (AAA, 2020).
+
+Ahora los de DPOAE y SOAE.
+
+:::ayuda-ancho Configuración de la DPOAE (DP-grama)
+| Parámetro | Valor de rutina | Por qué |
+|---|---|---|
+| Producto medido | 2f1−f2 | Es el de mayor nivel y el que mejor predice el estado auditivo; el 2f2−f1 lo hace peor y sumarlo apenas mejora (Prieve y Fitzgerald, 2015) |
+| Razón f2/f1 | 1,22 | El nivel máximo promedio se alcanza con razones de 1,2 a 1,3 (Prieve y Fitzgerald, 2015; AAA, 2020) |
+| L1 / L2 | 65 / 55 dB SPL (±3 dB) | Con L1 mayor que L2 en 10 a 15 dB separa mejor oídos normales de oídos con pérdida de 20 a 30 dB HL (Gorga y cols., 1997; AAA, 2020) |
+| Frecuencias (f2) | 1 a 8 kHz; en neonatos, desde 2 kHz si hay mucho ruido <!-- decide el autor: el rango 1 a 8 kHz es del protocolo ORL 2019 y de LabSim; la AAA (2020) pide 1.500 Hz o más en neonatos --> | Se identifica mejor la pérdida entre 1,5 y 6 kHz, y peor bajo 1 kHz y en 8 kHz (Gorga y cols., 1997; AAA, 2020) |
+| Puntos por octava | 2 a 3 (seis a ocho frecuencias en total) | Alcanza para dibujar el DP-grama sin alargar la prueba (AAA, 2020) |
+| Criterio de presencia | SNR de 6 dB o más en cada f2 <!-- decide el autor: 6 dB y "4 de 7 puntos" son de LabSim; la AAA (2020) da un SNR de 3 a 6 dB en la mayoría de las bandas --> | Compara el DP con el ruido de los puntos vecinos (Prieve y Fitzgerald, 2015) |
+| Nivel del DP | Dentro del rango normal | Un SNR bueno con un DP diminuto no basta (Gorga y cols., 1997) |
+| Función I/O | L2 de a 5 dB a una f2 fija <!-- decide el autor: el paso de 5 dB es de LabSim --> | El umbral del DP es el nivel más bajo con un DP 3 dB sobre el ruido y que sigue creciendo (Prieve y Fitzgerald, 2015) |
+:::
+
+1. **Cambia la razón f2/f1.** Si se separan mucho los tonos, se superponen menos sobre la membrana basilar y el DP baja. Si se acercan mucho, hay cancelaciones y también baja. La forma es de campana y el máximo cambia entre personas, niveles y frecuencias (Prieve y Fitzgerald, 2015). Con 1,22 fijo ganas comparabilidad con las normas, no el máximo de cada oído.
+2. **Bajan L1 y L2.** El DP se achica a medida que bajan los niveles y queda más cerca del ruido, así que sube la chance de un "refiere" falso. A cambio, los niveles bajos reflejan mejor la función del amplificador, según trabajos en animales (Prieve y Fitzgerald, 2015). Un L1 y un L2 a medida para cada oído no mejoraron la identificación de la pérdida (Prieve y Fitzgerald, 2015). <!-- verificar: efecto exacto sobre falsos "refiere" no cuantificado en las fuentes leídas -->
+3. **Suben L1 y L2.** El DP crece, y con niveles altos las primarias iguales dan el DP más grande (Prieve y Fitzgerald, 2015). Pero el DP se mide en pérdidas mayores que la TEOAE (Prieve y Fitzgerald, 2015) y los niveles moderados 65/55 son los que mejor separan oídos normales de oídos con pérdida leve (AAA, 2020): con niveles altos un oído dañado puede dar un DP que se confunde con uno sano.
+4. **Se reducen los puntos.** Con menos de dos por octava, una caída angosta del DP-grama cae entre dos puntos y no se ve. Con más, el examen se alarga, que en un lactante dormido es tiempo que no hay (AAA, 2020).
+5. **Se relaja el SNR o el criterio de puntos.** Pasan oídos con pérdida; se vuelve a la misma ambigüedad de 3 o 6 dB de la TEOAE. Hay que informar con el mismo criterio siempre (AAA, 2020).
+6. **Se baja el rango hasta 500 Hz o se sube a 10 a 16 kHz.** Bajo 1 kHz el ruido fisiológico es mayor y la prueba discrimina peor. Sobre 8 kHz hacen falta parlantes especiales y calibración; sirve para vigilar ototóxicos, no para la rutina (Prieve y Fitzgerald, 2015; Durrant y cols., 2009).
+
+:::ayuda-ancho Configuración de la SOAE y de la supresión contralateral
+| Parámetro | Valor de rutina | Por qué |
+|---|---|---|
+| Estímulo | Ninguno | Se mira el espectro del conducto en silencio (Prieve y Fitzgerald, 2015) |
+| Tiempo de registro | Unos 30 s <!-- decide el autor: el valor es del texto original del capítulo; no se encontró cifra con fuente --> | El espectro se promedia y los picos de verdad se repiten en las dos mitades |
+| Análisis | Espectro (FFT) | Las SOAE aparecen como picos angostos (Prieve y Fitzgerald, 2015) |
+| Supresión: ruido contralateral | Ruido de banda ancha, unos 60 dB SPL (Guinan, 2018) | Es más eficaz que los tonos y debe activar el MOC sin activar el reflejo estapedial |
+| Supresión: condiciones | Alternar sin y con ruido varias veces, en orden al azar | La deriva del registro no debe confundirse con un efecto (Guinan, 2018) |
+:::
+
+1. **El registro de la SOAE dura poco.** El ruido no se alisa y un pico chico se pierde; con ruido alto no se puede concluir, como en todo el capítulo (Prieve y Fitzgerald, 2015).
+2. **Se lee la SOAE como prueba de audición.** Solo la tiene la mitad de los oídos normales, y puede haber en oídos con pérdida de hasta 25 a 30 dB HL (Prieve y Fitzgerald, 2015): su ausencia no dice nada.
+3. **El ruido contralateral sube.** Llega a activar el reflejo estapedial, que baja la emisión por el oído medio y falsea la medida: 10 a 15 dB bajo el umbral clínico del reflejo puede haber contracción (Guinan, 2018). Por eso se comprueba que el click en el conducto no cambia.
+
+:::comentario Lo que dicen las normas
+No hay una configuración única de OEA. La AAA (2020) fija el click en 80 dB pico equivalente (±3 dB), la razón en 1,22 y L1/L2 en 65 con 50 o 55 dB SPL, pero deja a criterio del servicio los barridos, la cantidad de puntos y el rango de frecuencias, y da el SNR como un rango de 3 a 6 dB. Los estudios de referencia sacaron sus percentiles con 65/55 dB SPL y 1.267 oídos (Gorga y cols., 1997; Prieve y cols., 1993). En este libro se usa el estándar de las tablas.
+:::
+
 ## Paso a paso
 
 Las pruebas se hacen en el orden en que menos se estorban: primero las que piden silencio y después las que estimulan más fuerte. Si se van a hacer las tres, **SOAE → TEOAE → DPOAE**, oído por oído.
@@ -144,7 +214,7 @@ Se registra el conducto **en silencio**, sin estímulo, por unos 30 segundos o m
 - **Mientras promedia**, mira que el ajuste de la sonda siga en verde y que los rechazos sean pocos: cada rechazo es un barrido que el equipo botó por ruido.
 - La prueba termina al completar los barridos (el 100 %). Si el registro no es confiable por movimiento, llanto o ruido, se repite.
 
-<!-- Protocolo ORL 2019: en los parámetros de TEOAE aparece "Tiempo: 7.76 ms" junto al modo no lineal y los 80 dB SPL. No se encontró a qué parámetro corresponde (la ventana de análisis habitual es de unos 20 ms); se omitió. -->
+<!-- Protocolo ORL 2019: en los parámetros de TEOAE aparece "Tiempo: 7.76 ms" junto al modo no lineal y los 80 dB SPL. No se encontró a qué parámetro corresponde (la ventana de análisis habitual es de unos 20 ms); se omitió. 2026-10-22: se revisaron AAA (2020) y Prieve y Fitzgerald (2015); ninguna fuente usa 7,76 ms. Ventanas con fuente: 20 ms, y 10 o 12,5 ms en el recién nacido (AAA, 2020). Sigue sin resolver; el programa del curso es Capella OAE. -->
 
 ### 5. DPOAE
 
@@ -183,7 +253,7 @@ Con equipos comerciales, la supresión de la TEOAE tuvo una variabilidad conside
 - **TEOAE**: click no lineal, 80 dB SPL. Reproducibilidad y SNR por banda, de 1 a 4 kHz.
 - **DPOAE**: f2/f1 1,22, L1/L2 65/55. SNR por f2, de 1 a 8 kHz.
 - Las dos memorias (A/B) que se parecen son emisión; las que no, ruido.
-- Ausentes con timpanograma A: cóclea. Ausentes con B: no se sabe. Presentes con ABR ausente: después de la cóclea.
+- Ausentes con timpanograma A: cóclea. Ausentes con B: no se sabe. Presentes con ABR ausente y microfónica presente: después de la cóclea.
 :::
 
 ### Tamizaje
@@ -254,7 +324,7 @@ Hernán tiene una sensorioneural descendente (→ H3): en el OD, 25 dB HL en 1 k
 
 {{caso h9_p35}}
 
-Benjamín tiene timpanogramas tipo B en los dos oídos, con volumen normal: efusión (→ H7). Su cóclea está sana. Su **TEOAE está ausente** en los dos oídos, con una reproducibilidad de 5 % (OD) y 10 % (OI): la emisión se generó, pero no volvió.
+Benjamín tiene timpanogramas tipo B en los dos oídos, con volumen en el límite bajo (0,42 y 0,70 mL; se repite con la sonda bien sellada) y los tímpanos con nivel líquido: efusión (→ H7). Su cóclea está sana. Su **TEOAE está ausente** en los dos oídos, con una reproducibilidad de 5 % (OD) y 10 % (OI): la emisión se generó, pero no volvió.
 
 :::figura h9_p35 dpoae
 - @OD 3000 | En el OD quedan tres puntos sobre el ruido, de 2 a 4 kHz, pero en −11 a −17 dB SPL: muy lejos del rango normal. Con 3 de 7, no pasa.
@@ -283,7 +353,7 @@ Valentina es lo que le puede pasar a Aurora si nadie mira más allá de la TEOAE
 :::figura h9_p40 abr
 - @OD 80 | Sin ondas a 80 dB en el OD. A 60 tampoco.
 - @OI 80 | El OI es igual: **ABR ausente** a intensidades altas.
-- OEA presentes con ABR ausente: **neuropatía auditiva**. Las células ciliadas externas funcionan; lo que falla está después: la célula ciliada interna, la sinapsis o el nervio (Starr y cols., 1996). → H10, cap. 13.
+- OEA presentes con ABR ausente y microfónica coclear presente: **neuropatía auditiva** (si no hay microfónica, primero se revisa el equipo y el estímulo). Las células ciliadas externas funcionan; lo que falla está después: la célula ciliada interna, la sinapsis o el nervio (Starr y cols., 1996). → H10, cap. 13.
 :::
 
 Mira su historia: nació prematura, estuvo 20 días en la UCI neonatal y le hicieron una exanguinotransfusión, y su tamizaje fue **con emisiones otoacústicas**: pasó en los dos oídos. No podía salir de otra forma.
@@ -319,6 +389,7 @@ Mira su historia: nació prematura, estuvo 20 días en la UCI neonatal y le hici
 1. Durrant JD, Campbell K, Fausti S, Guthrie O, Jacobson G, Lonsbury-Martin BL, et al. American Academy of Audiology position statement and clinical practice guidelines: ototoxicity monitoring [Internet]. Reston (VA): AAA; 2009 Oct. Disponible en: https://www.audiology.org/wp-content/uploads/2021/06/AAA_OtoMonGuidelines_2009.pdf
 1. American Academy of Audiology. Clinical guidance document: assessment of hearing in infants and young children [Internet]. Reston (VA): AAA; 2020 Jan 23. Disponible en: https://www.audiology.org/wp-content/uploads/2021/05/Clin-Guid-Doc_Assess_Hear_Infants_Children_1.23.20.pdf
 1. Kemp DT, Ryan S, Bray P. A guide to the effective use of otoacoustic emissions. Ear Hear. 1990;11(2):93-105. doi:10.1097/00003446-199004000-00004
+1. Prieve B, Fitzgerald T. Otoacoustic emissions. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer; 2015. p. 357-80.
 
 ### Tamizaje neonatal
 
