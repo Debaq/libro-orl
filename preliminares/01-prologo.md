@@ -14,7 +14,7 @@ Ordenar todo eso no lo hicimos solos. Escribimos, la IA nos ayudó, revisamos. L
 
 Aun así, este libro es solo un compendio. Una fotografía de este momento. Las clases de nuestros docentes se actualizan y mejoran cada año, y este libro tiene que hacer lo mismo: esperamos darle vida, seguir mejorándolo y expandiéndolo. Si encuentras un error, avísanos en github.com/Debaq/libro-orl.
 
-Detrás de esa fotografía hay gente. Gracias a los colegas con los que trabajo y con los que trabajé: a Cristina, Geovana, Pablo, Fernanda, Vanessa y Carlos, que firman sus capítulos, y a Benjamín, que revisó todos los casos. A todos los estudiantes que probaron LabSim. A Carlos Muñoz y Flor Vargas, los primeros y únicos tesistas de LabSim, que lo lograron en plena pandemia, cuando nada era fácil. Y a los estudiantes que usaron LabSim en 2025, cuando no funcionó para nada. Aguantaron.
+Detrás de esa fotografía hay gente. Gracias a los colegas con los que trabajo y con los que trabajé: a Cristina, Geovana, Pablo, Fernanda, Vanessa y Carlos, que firman sus capítulos, y a Benjamín y a Jocelyn, que revisaron los casos. A todos los estudiantes que probaron LabSim. A Carlos Muñoz y Flor Vargas, los primeros y únicos tesistas de LabSim, que lo lograron en plena pandemia, cuando nada era fácil. Y a los estudiantes que usaron LabSim en 2025, cuando no funcionó para nada. Aguantaron.
 
 ¡Vamos, otorrino!
 

@@ -15,7 +15,7 @@ Es un solo libro que crece por **secciones**: audición, equilibrio, nariz y sue
   - **Rehabilitación auditiva** (H21-H23): prueba de audífonos, medición electroacústica y acúfeno.
   - **Salud ocupacional** (H24): audiometría ocupacional, vigilancia del ruido y el puesto del examinador.
   - **Nariz y sueño** (H25-H32): anamnesis rinológica, rinomanometría, rinometría acústica, olfatometría, prick test, espirometría, polisomnografía y CPAP.
-- **Capítulos clínicos (1 a 36).** Parten de un problema y enseñan a razonar: qué mirar de la técnica en ese problema, el mecanismo, los cuadros y los casos.
+- **Capítulos clínicos (1 a 38).** Parten de un problema y enseñan a razonar: qué mirar de la técnica en ese problema, el mecanismo, los cuadros y los casos.
 
 ## Los casos: aprendizaje basado en problemas
 

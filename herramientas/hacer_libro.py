@@ -121,12 +121,22 @@ AUTORES = {
     'vargas': dict(nombre='Cristina', apellidos='Vargas-Bustamante', areas='Audiología y electrofisiología',
                    titulo=['Tecnóloga Médica', 'Máster MBA en Gestión Clínica, Dirección Médica y Asistencial (TECh, España)'],
                    afiliacion=[UACH_PM, TECMEDHUB], falta='ORCID'),
+    'vallejos': dict(nombre='Jocelyn Lisamar', apellidos='Vallejos-Sandoval', rol='Revisora de los casos clínicos',
+                     titulo=['Tecnóloga Médica'], falta='ORCID y afiliación (por confirmar)'),
     'moreira': dict(nombre='Carlos', apellidos='Moreira-Quichahual', areas='Espirometría, sueño y salud ocupacional',
                     titulo=['Licenciado en Tecnología Médica'], orcid='0009-0000-8205-726X',
                     afiliacion='Cesfam Piedra del Águila, Municipalidad de Angol'),
 }
 EDITOR = 'baier'
-REVISOR_CASOS = 'catipillan'   # firma la revisión de los casos de los capítulos clínicos
+# Revisión de los casos de los capítulos clínicos, mitad y mitad y mezclada
+# (él, 2026-10-22: "que cada uno revise de cada área y no sea tedioso"):
+# alternados dentro de cada parte, 72 casos cada uno.
+REVISORES_CASOS = {'catipillan': [1, 3, 5, 7, 9, 11, 13, 16, 18, 20, 21, 23, 25, 27, 29, 31, 34, 35, 37],
+                   'vallejos': [2, 4, 6, 8, 10, 12, 14, 15, 17, 19, 22, 24, 26, 28, 30, 32, 33, 36, 38]}
+
+
+def revisor_casos(cap):
+    return next(k for k, caps in REVISORES_CASOS.items() if int(cap) in caps)
 
 
 def _autoria():
@@ -159,6 +169,8 @@ def _autoria():
         a[str(n)] = ['baier', 'moreira']                 # salud ocupacional (él, 2026-10-19)
     for n in (35, 36):
         a[str(n)] = ['uribe']
+    for n in (37, 38):
+        a[str(n)] = ['uribe', 'moreira']                 # nariz y pulmón, sueño (él, 2026-10-22)
     return {cap: firma_ordenada(aut) for cap, aut in a.items()}
 
 
@@ -188,7 +200,7 @@ def nombre_completo(clave):
 
 # Orden de los autores en las preliminares (él, 2026-10-19: "esto es
 # importante"): fijo, no alfabético. No cambiarlo sin preguntarle.
-ORDEN_AUTORES = ['baier', 'vargas', 'casanova', 'poza', 'lopez', 'uribe', 'moreira', 'catipillan']
+ORDEN_AUTORES = ['baier', 'vargas', 'casanova', 'poza', 'lopez', 'uribe', 'moreira', 'catipillan', 'vallejos']
 assert sorted(ORDEN_AUTORES) == sorted(AUTORES), 'ORDEN_AUTORES y AUTORES no calzan'
 
 
@@ -222,7 +234,7 @@ def firma_capitulo(cap):
         return ''
     h = f'<p class="ap-autores">{" · ".join(nombre_completo(k) for k in autores)}</p>'
     if cap.isdigit():
-        h += f'<p class="ap-revision">Revisión de los casos: {nombre_completo(REVISOR_CASOS)}</p>'
+        h += f'<p class="ap-revision">Revisión de los casos: {nombre_completo(revisor_casos(cap))}</p>'
     return h
 
 
@@ -1519,7 +1531,7 @@ def paginas_iniciales(capitulos, tomo=None, piezas=False):
                 f'<p>{" · ".join(SELLO)}<br>{CIUDAD}, {anio}</p></div></section>')
     volumen = f'Vol. {"1" if tomo == "I" else "2"}, {TOMOS[tomo]}. ' if tomo else ''
     obra = ('<p>Obra en dos tomos. Tomo I: Bases (B1-B5) y Caja de herramientas (H1-H32). '
-            'Tomo II: capítulos clínicos (1-36). Las remisiones a B y H llevan al tomo I; '
+            'Tomo II: capítulos clínicos (1-38). Las remisiones a B y H llevan al tomo I; '
             'las remisiones a capítulos, al tomo II.</p>')
     creditos = (f'<section class="creditos"><p><strong>{TITULO}</strong><br>{BAJADA}'
                 + (f'<br>{rotulo}' if tomo else '') + '</p>'
@@ -1527,7 +1539,8 @@ def paginas_iniciales(capitulos, tomo=None, piezas=False):
                 + (obra if tomo else '')
                 + f'<p>Editor: {nombre_completo(EDITOR)}.<br>Autoras y autores: '
                 f'{", ".join(nombre_completo(k) for k in orden_autores())}.<br>'
-                f'Revisión general de los casos clínicos: {nombre_completo(REVISOR_CASOS)}.</p>'
+                f'Revisión de los casos clínicos: {" y ".join(nombre_completo(k) for k in REVISORES_CASOS)}, '
+                'mitad cada uno (el revisor de cada capítulo va bajo su título).</p>'
                 f'<p>Cómo citar este libro: {cita_vancouver(EDITOR)}, editor. {TITULO}. {BAJADA}. {volumen}1.ª ed. '
                 f'{CIUDAD}: TecMedHub, Universidad Austral de Chile; {anio}.</p>'
                 # uno solo, acá (él, 2026-10-19): antes iba al final de cada capítulo
@@ -1558,7 +1571,8 @@ def paginas_iniciales(capitulos, tomo=None, piezas=False):
                                                                    else a.get('afiliacion', [])))
                 + ''.join(f'<p class="autor-d">{x}</p>' for x in datos)
                 + (f'<p class="autor-c">Capítulos: {caps}</p>' if caps else '')
-                + (f'<p class="autor-c">Revisó los casos de los capítulos 1 a 36</p>' if k == REVISOR_CASOS else '')
+                + (f'<p class="autor-c">Revisó los casos de los capítulos {", ".join(map(str, REVISORES_CASOS[k][:-1]))} '
+                   f'y {REVISORES_CASOS[k][-1]}</p>' if k in REVISORES_CASOS else '')
                 + (f'<p class="autor-c">ORCID {a["orcid"]}</p>' if a.get('orcid') else '')
                 + (f'<div class="pendiente"><span>Falta texto</span> {a["falta"]}</div>' if a.get('falta') else '')
                 + '</div>')
