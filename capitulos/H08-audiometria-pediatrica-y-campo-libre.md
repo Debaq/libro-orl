@@ -89,13 +89,13 @@ Un parlante no se calibra como un fono. Un fono se acopla a un oído artificial 
 
 La norma define un **campo cuasi libre**: un parlante a 1 m o más y un nivel que se desvía menos de 2 dB de lo que da la ley de la distancia a 15 cm del punto hacia los lados, arriba y abajo, y menos de 1 dB a 10 cm adelante y atrás (ISO 8253-2, 2009, en BSA, 2025b). La BSA advierte que es poco probable que una sala clínica corriente lo cumpla, y por eso exige medir la variación en vez de suponerla (BSA, 2025b). Una calibración completa se hace cada año y es de un técnico; la verificación del día es la de la lista de *Equipo y sala*.
 
-<!-- verificar: la estructura en cinco pasos es una exposición del procedimiento tal como lo describe la BSA (2025b, secciones 3.2, 5.1, 5.3 y 5.4), leída completa en el PDF. La ISO 8253-2 y la ISO 389-7 son de pago y no se leyeron: lo que se atribuye a ellas viene citado por la BSA. -->
+
 
 ### Conoce tu equipo: el audiómetro en campo libre
 
 Para pasar de fonos a parlantes se cambia el **transductor** del canal; la **salida** elige entonces el parlante en vez del oído.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png Los controles del campo libre en el audiómetro
+:::imagen /docs/manual/img/estudiante/audiometro.png Los controles del campo libre en el audiómetro Imagen propia: captura de LabSim.
 - @36.5,50.5 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos.
 - @15.5,50.5 | **Simultáneo.** Hace sonar los dos lados a la vez; en campo libre, los dos parlantes. También en gris.
 - @10,30 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.
@@ -224,7 +224,7 @@ El paciente vuelve a la misma silla, ahora con su audífono:
 
 La comparación entre los umbrales sin audífono (S) y con audífono (A) muestra cuánto le acerca el audífono los sonidos suaves. Se lee contra la **zona del habla**, la "banana" que dibujan en el audiograma los sonidos del habla a intensidad de conversación: las vocales y los sonidos graves, más intensos, arriba a la izquierda; las consonantes agudas y suaves como /s/ y /f/, abajo a la derecha. Un umbral A que queda **por encima de la banana** dice que esos sonidos ahora son audibles.
 
-:::imagen ilustraciones/h08-campo-libre-audifono.svg ancho=55% Campo libre de un niño con audífonos sobre la zona del habla. Sin audífonos (S) los umbrales quedan bajo la zona; con audífonos (A) suben hasta ella. Esa distancia es lo que le aporta el audífono.
+:::imagen ilustraciones/h08-campo-libre-audifono.svg ancho=55% Campo libre de un niño con audífonos sobre la zona del habla. Sin audífonos (S) los umbrales quedan bajo la zona; con audífonos (A) suben hasta ella. Esa distancia es lo que le aporta el audífono. Imagen propia del libro.
 - @104,64 | **S**, sin audífonos: todos los umbrales quedan bajo la zona del habla. La voz conversacional no le llega.
 - @104,39 | **A**, con audífonos: los umbrales suben a la zona del habla o quedan muy cerca. En 2 kHz, de 80 a 35 dB: eso es lo que aporta el audífono.
 - @62,22 | La **zona del habla** es aproximada: un esquema para ubicar los umbrales, no una norma.

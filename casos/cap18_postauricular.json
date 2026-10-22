@@ -1,0 +1,37 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "presbiacusia",
+      "OI": "presbiacusia"
+    },
+    "edad": 74,
+    "sexo": "hombre",
+    "anamnesis": {
+      "otros": "Tiene 74 años; fue carpintero hasta que se jubiló hace diez. Hace años oye menos: le cuesta entender la televisión y las conversaciones con ruido, y dice que \"todos murmuran\". Tiene un pitido agudo permanente en los dos oídos. No tiene mareos, dolor ni secreción. Se hizo la audiometría por consejo de su hija y, por curiosidad, también un ABR.",
+      "historia": "{{-30}} Control con su médico general: hipoacusia bilateral lentamente progresiva; se pide audiometría.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        90,
+        70,
+        60,
+        50
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    }
+  ]
+}

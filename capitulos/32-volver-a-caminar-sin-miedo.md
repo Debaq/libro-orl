@@ -246,7 +246,7 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 
 Ganancia del VOR simétrica y normal en los seis canales, sin sacadas.
 
-:::imagen figuras/salida/cap32_vppb_audiosupra.svg ancho=80% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % en los dos oídos.
+:::imagen figuras/salida/cap32_vppb_audiosupra.svg ancho=100% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % en los dos oídos.
 :::
 
 **45 dB** en 4 kHz y 60 en 8 kHz en los dos oídos: caída de agudos, la de la edad. En las frecuencias del habla, 25 dB. **Simétrica**: no hay nada retrococlear que perseguir (→ cap. 11). SRT de 20 dB y discriminación máxima de **92 %** en los dos oídos, acorde con la pérdida.
@@ -346,7 +346,7 @@ Ganancia del VOR simétrica en los seis canales, sin sacadas.
 
 cVEMP de **204 µV** en el OD y **363 µV** en el OI (4,07 y 7,33 corregidas por el EMG): asimetría de **29 %**, bajo el corte de 35 %. oVEMP de **19 µV** en los dos oídos (0,42 y 0,43), asimetría de **0 %**.
 
-:::imagen figuras/salida/cap32_fragil_audiosupra.svg ancho=80% Audiometría de Hugo: pérdida simétrica con caída fuerte de agudos y discriminación de 64 % y 68 %.
+:::imagen figuras/salida/cap32_fragil_audiosupra.svg ancho=100% Audiometría de Hugo: pérdida simétrica con caída fuerte de agudos y discriminación de 64 % y 68 %.
 :::
 
 Pérdida moderada en el habla, con una caída fuerte de agudos: **35 dB** en 1 kHz, **65** en 2 kHz y **110 dB** en 4 kHz en el OD, sin respuesta (120) más arriba. En el OI, 105 dB en 4 kHz: **simétrica**, la forma de una presbiacusia. SRT de 25 dB. Discriminación máxima del **64 %** en el OD y del **68 %** en el OI, a 70 dB: baja, pero parecida entre los dos oídos y acorde con una pérdida de agudos tan grande.
@@ -463,7 +463,7 @@ Hipoexcitabilidad izquierda: (3 + 2 − 2 − 2) / 9 = 11 %. Dirección preponde
 
 cVEMP de **374 µV** en el OD y **209 µV** en el OI (7,23 y 4,08 corregidas por el EMG): asimetría de **28 %**, bajo el corte de 35 %. oVEMP de **17** y **19 µV** (0,41 y 0,45): asimetría de **5 %**. Hay respuestas de los dos sáculos y utrículos; los VEMP no suman a la hipofunción de los canales.
 
-:::imagen figuras/salida/cap32_bilateral_audiosupra.svg ancho=80% Audiometría de Isabel: caída de agudos suave y simétrica, con discriminación de 88 % en los dos oídos.
+:::imagen figuras/salida/cap32_bilateral_audiosupra.svg ancho=100% Audiometría de Isabel: caída de agudos suave y simétrica, con discriminación de 88 % en los dos oídos.
 :::
 
 Caída de agudos suave y simétrica: **40 dB** en 2 kHz y **55** en 4 kHz en los dos oídos; **70 dB** en 8 kHz en el OD y **75** en el OI. En el habla, 25 dB. SRT de 15 dB. Discriminación de **88 %** en los dos, buena y simétrica: nada retrococlear.

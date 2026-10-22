@@ -1,0 +1,69 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "nihl_cronica"
+    },
+    "edad": 52,
+    "sexo": "hombre",
+    "grado": {
+      "OI": "leve"
+    },
+    "semilla": 5,
+    "anamnesis": {
+      "otros": "Tiene 52 años y es contador. Desde los 22 practica tiro al vuelo con escopeta, dos veces al mes, y en la temporada caza perdices con unos amigos. Dispara con la derecha y casi nunca se ha puesto protección. Después de una tirada le queda un pitido agudo en el oído izquierdo que va y viene, y a veces dura hasta el día siguiente. Hace unos años nota que oye menos por ese lado: en una mesa con ruido pierde lo que dice quien está a su izquierda, pero en silencio entiende bien y nunca le ha costado el teléfono. No ha tenido mareos, dolor ni secreción de oídos. Su médico general vio en una audiometría de control que el oído izquierdo estaba peor y lo deriva para estudiarlo.",
+      "historia": "{{-90}} Médico general: audiometría de control con caída de agudos más marcada en el OI. Se deriva a otorrinolaringología.\n{{-20}} Otorrinolaringólogo: otoscopía normal bilateral. Solicita audiometría completa, impedanciometría, emisiones y potenciales de tronco.",
+      "hist": [
+        "trauma_acustico"
+      ],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "teoae"
+    },
+    {
+      "tipo": "dpoae"
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        50,
+        40,
+        20,
+        10
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "enmascaramiento": 55.0
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "tasa": 81.1,
+      "enmascaramiento": 55.0
+    }
+  ]
+}

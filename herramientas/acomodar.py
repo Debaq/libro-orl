@@ -23,7 +23,9 @@ FACTOR_MIN del tamaño que tenía, y solo si el capítulo no gana páginas.
 
 Al final revisa que ninguna ficha de caso quede con la cabecera (cara y
 nombre) sola al pie: si la anamnesis empieza en la página siguiente, la
-ficha entera pasa a esa página. Y si el capítulo termina en una página casi
+ficha entera pasa a esa página. El primer caso después de un título
+("Casos") empieza en la misma página que el título si caben su cabecera y su
+anamnesis; si no, el título baja con él (nunca queda solo al pie). Y si el capítulo termina en una página casi
 vacía (las últimas líneas de las referencias), aprieta un poco las
 referencias para que quepan en la anterior.
 """
@@ -202,6 +204,10 @@ def componer(doc, base_url):
             sig = caso.getnext()
             if sig is not None and 'pasos' in _clases(sig):
                 sig.set('id', f'ficha-{i}-p')
+            # el título que la precede ("Casos"): no queda solo al pie
+            ant = caso.getprevious()
+            if ant is not None and ant.tag in ('h2', 'h3'):
+                ant.set('id', ant.get('id') or f'ficha-{i}-t')
     bloques = [el for el in raiz.iter() if isinstance(el.tag, str) and _es_figura(el)]
     if not bloques and not raiz.find_class('caso'):
         return HTML(string=doc, base_url=base_url).render()
@@ -269,18 +275,41 @@ def _ahorrar_ultima(raiz, render, render_de):
     return nuevo if len(nuevo.pages) < len(render.pages) else render
 
 
+def _titulo_de(caso):
+    """El título que precede a la ficha (el "Casos" de la sección), o None."""
+    ant = caso.getprevious()
+    return ant if ant is not None and ant.tag in ('h2', 'h3') else None
+
+
 def _fichas_enteras(raiz, render, render_de):
-    """La ficha cuya anamnesis empieza en la página siguiente a su cabecera
-    pasa entera a esa página."""
+    """La ficha cuya anamnesis o cuyos Pasos empiezan en la página siguiente a
+    su cabecera pasa entera a esa página.
+
+    El primer caso después de un título ("Casos") es distinto (él, 2026-10-21:
+    el título quedaba solo al pie con media página en blanco): ahí basta que
+    la cabecera y la anamnesis queden juntas, así el caso empieza en esa
+    página y llena el hueco aunque sus Pasos pasen a la siguiente; y si ni eso
+    cabe, el título baja con el caso."""
     for _ in range(3):
         pagina = _pagina_de(render)
-        huerfanas = [c for c in raiz.find_class('caso') if c.tag == 'section' and c.get('id') in pagina
-                     and max(pagina.get(c.get('id') + '-a', pagina[c.get('id')]),
-                             pagina.get(c.get('id') + '-p', pagina[c.get('id')])) > pagina[c.get('id')]]
-        if not huerfanas:
+        cambios = 0
+        for c in raiz.find_class('caso'):
+            ident = c.get('id')
+            if c.tag != 'section' or ident not in pagina:
+                continue
+            h = pagina[ident]
+            a = pagina.get(ident + '-a', h)
+            p = pagina.get(ident + '-p', h)
+            titulo = _titulo_de(c)
+            if titulo is not None:
+                if a > h and 'break-before' not in (titulo.get('style') or ''):
+                    titulo.set('style', 'break-before: page')
+                    cambios += 1
+            elif max(a, p) > h and 'break-before' not in (c.get('style') or ''):
+                c.set('style', 'break-before: page')
+                cambios += 1
+        if not cambios:
             break
-        for c in huerfanas:
-            c.set('style', 'break-before: page')
         render = render_de(raiz)
     return raiz, render
 

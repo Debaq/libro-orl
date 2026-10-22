@@ -28,7 +28,7 @@ Un oído anacúsico sin enmascarar aparece como una pérdida leve a moderada; un
 
 Un tono presentado por un fono pone a vibrar la caja del fono y, con ella, el cráneo. Esa vibración llega a la cóclea del otro lado **por vía ósea**. La diferencia entre el nivel presentado y el que llega a la cóclea contraria es la **atenuación interaural** (AI), también llamada pérdida de transmisión transcraneal (BSA, 2018).
 
-:::imagen ilustraciones/h04-cruce-craneo.svg ancho=100% Por qué hay que enmascarar. A: el tono de un fono supraaural hace vibrar el cráneo y llega a la otra cóclea por vía ósea, atenuado entre 40 y 80 dB según la persona: es la atenuación interaural. B: con el vibrador óseo la atenuación es casi nula, y las dos cócleas reciben lo mismo. C: el fono de inserción casi no hace vibrar el hueso y atenúa 55 dB o más.
+:::imagen ilustraciones/h04-cruce-craneo.svg ancho=100% Por qué hay que enmascarar. A: el tono de un fono supraaural hace vibrar el cráneo y llega a la otra cóclea por vía ósea, atenuado entre 40 y 80 dB según la persona: es la atenuación interaural. B: con el vibrador óseo la atenuación es casi nula, y las dos cócleas reciben lo mismo. C: el fono de inserción casi no hace vibrar el hueso y atenúa 55 dB o más. Imagen propia del libro.
 :::
 
 De esta idea salen dos consecuencias que ordenan todo el capítulo:
@@ -50,11 +50,10 @@ La atenuación interaural **varía de una persona a otra y depende del transduct
 | Vibrador óseo | casi 0 dB | **0 dB** |
 | Habla con fono supraaural | similar a la de los tonos de 1 a 2 kHz | **45 dB** |
 
-Fuentes: BSA (2018), Munro y Agnew (1999), Sklare y Denenberg (1987), Smith y Markides (1981).
+Fuentes: BSA (2018), Munro y Agnew (1999), Sklare y Denenberg (1987), Smith y Markides (1981), Yacullo (2015). Para el habla, Yacullo recoge atenuaciones de 48 a 76 dB con fono supraaural y recomienda 45 dB como estimación conservadora: el 48 redondeado hacia abajo a los pasos de 5 dB.
 :::
 
 <!-- Pasada de fundamentos 2026-10-18: la fila del habla decía "similar a la de los tonos graves". Se corrigió a "de 1 a 2 kHz": Sklare y Denenberg (1987) encontraron que la atenuación interaural del habla se aproxima a la de 1 a 2 kHz. -->
-<!-- verificar: el valor de 45 dB para el habla con supraaural es la convención de la cátedra y de LabSim (docs/decisiones.md: "suele darse 45-50 dB"); Smith y Markides 1981 no tiene resumen en PubMed y el texto no se pudo leer. -->
 
 <!-- Protocolo ORL 2019: tabla de AI aérea por frecuencia 35/40/40/40/45/45/50/50/50 dB (125 a 8000 Hz). Se presenta como regla el mínimo de 40 dB en todas las frecuencias con supraaural y 55 dB con inserción (BSA 2018, citando a Munro y Agnew 1999); la tabla por frecuencia queda como convención del simulador (sección En LabSim), que además usa 40 en 2000 Hz y 45 en 4000 Hz. -->
 
@@ -103,7 +102,7 @@ Aun con los oídos separados, un ruido fuerte en un oído sube unos pocos dB el 
 Cuando tapas un oído con oído medio sano, su umbral **óseo mejora en los graves**. El conducto abierto deja escapar la energía de baja frecuencia que el hueso irradia hacia el conducto; tapado, esa energía queda atrapada y sube la presión sonora frente al tímpano (Fagelson y Martin, 1998). Es el fenómeno en que se basa la prueba de Bing y el que lleva el Weber al oído tapado (capítulo H2).
 <!-- Pasada de fundamentos 2026-10-18: decía "Es el mismo fenómeno de la prueba de Bing (capítulo H2)" cuando H2 aún no describía el Bing. Pasada de contenidos 2026-10-18: H2 ya describe el Bing (sección "4. Schwabach y Bing"); la remisión quedó correcta. -->
 
-:::imagen ilustraciones/h04-efecto-oclusion.svg ancho=100% El efecto de oclusión. A: con el conducto abierto, la energía de baja frecuencia que el hueso irradia al conducto se escapa por la entrada. B: tapado por la copa de un fono, queda atrapada y sube la presión frente al tímpano: los graves se oyen mejor por vía ósea. C: cuánto mejora la ósea con fono supraaural, según la tabla de este capítulo; desde 2 kHz el efecto desaparece.
+:::imagen ilustraciones/h04-efecto-oclusion.svg ancho=100% El efecto de oclusión. A: con el conducto abierto, la energía de baja frecuencia que el hueso irradia al conducto se escapa por la entrada. B: tapado por la copa de un fono, queda atrapada y sube la presión frente al tímpano: los graves se oyen mejor por vía ósea. C: cuánto mejora la ósea con fono supraaural, según la tabla de este capítulo; desde 2 kHz el efecto desaparece. Imagen propia del libro.
 :::
 
 Importa al enmascarar la ósea: el fono que lleva el ruido **tapa al oído no evaluado**, ese oído oye mejor el tono óseo que cruza, y hace falta más ruido para taparlo. Se suma al mínimo solo cuando:
@@ -116,10 +115,9 @@ Importa al enmascarar la ósea: el fono que lleva el ruido **tapa al oído no ev
 |---|---|---|---|
 | 15 dB | 15 dB | 10 dB | 0 dB |
 
-Con un inserto bien profundo el efecto casi desaparece (Dean y Martin, 2000).
+Con un inserto bien profundo el efecto casi desaparece (Dean y Martin, 2000). Hay otra postura: Yacullo (2015) recomienda para el fono supraaural valores fijos más altos hacia los graves, 30 dB en 250 Hz, 20 dB en 500 Hz y 10 dB en 1.000 Hz, y para el inserto profundo 10 dB en 250 y 500 Hz y 0 dB desde 1.000 Hz. La tabla de este libro es la de la cátedra y la que usa LabSim.
 :::
 
-<!-- verificar: la tabla 15/15/10/0 es la de la cátedra y la que usa LabSim. Otras tablas publicadas para supraaural crecen hacia los graves (del orden de 20 a 30 dB en 250 Hz; Studebaker y Yacullo, según docs/decisiones.md, sin cita completa). -->
 
 ## Antes de empezar
 
@@ -338,4 +336,5 @@ Cuando el mínimo queda sobre el máximo, **no hay meseta**. El umbral sigue sub
 1. Coles RR, Priede VM. On the misdiagnoses resulting from incorrect use of masking. J Laryngol Otol. 1970;84(1):41-63. doi:10.1017/s0022215100071620
 1. Fagelson MA, Martin FN. The occlusion effect and ear canal sound pressure level. Am J Audiol. 1998;7(2):50-4. doi:10.1044/1059-0889(1998/010)
 1. Dean MS, Martin FN. Insert earphone depth and the occlusion effect. Am J Audiol. 2000;9(2):131-4. doi:10.1044/1059-0889(2000/011)
+1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 77 y ss.
 1. Yacullo WS. Clinical masking in speech audiometry: a simplified approach. Am J Audiol. 1999;8(2):106-16. doi:10.1044/1059-0889(1999/019). PMID 10646194.

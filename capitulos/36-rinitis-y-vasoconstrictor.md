@@ -83,7 +83,7 @@ La rinitis alérgica es una reacción de **hipersensibilidad tipo I**, mediada p
 | **Fase tardía** | De 2 a 6 horas después, con máximo hacia las 6 a 9 horas; se resuelve en 1 a 2 días; no aparece en todos | Llegan a la mucosa eosinófilos, basófilos y linfocitos Th2 desde la sangre, y los mastocitos siguen produciendo mediadores (IL-4, IL-5, IL-9, IL-13); las proteínas de los eosinófilos son tóxicas para el epitelio y lo lesionan |
 :::
 
-Con exposición persistente o repetida la inflamación se vuelve **crónica** y deja cambios en la estructura del órgano (Galli y cols., 2008). Los datos de esa tabla vienen de estudios de la reacción en general y de la nariz; las fases se estudiaron en la nariz humana con la provocación con alérgeno, midiendo en las secreciones los mediadores del mastocito (Solé y cols., 2025). <!-- verificar: el texto no atribuye síntomas nasales específicos a la fase tardía; en la bibliografía revisada aparece como estrechamiento de la vía aérea y moco en el pulmón. No se escribió qué síntoma nasal predomina en cada fase. -->
+Con exposición persistente o repetida la inflamación se vuelve **crónica** y deja cambios en la estructura del órgano (Galli y cols., 2008). Los datos de esa tabla vienen de estudios de la reacción en general y de la nariz; la provocación nasal con alérgeno permite estudiar la reacción en la nariz humana y medir los mediadores del mastocito y del eosinófilo (Solé y cols., 2025).
 
 Tres consecuencias para lo que se mide:
 
@@ -139,7 +139,7 @@ Es una rinitis inducida por fármacos asociada al uso prolongado de vasoconstric
 - ¿Despierta de noche a usarlo? ¿Qué pasa si no lo usa?
 - ¿Empezó con un resfrío o con una alergia que "se arregló" con el spray?
 
-La rinoscopía es variable, pero con frecuencia muestra edema, enrojecimiento e hiperemia de la mucosa, y la persona se queja de congestión, muchas veces **sin** estornudos ni secreción (Solé y cols., 2025). <!-- verificar: la diferencia de aspecto de la mucosa (roja y edematosa en la medicamentosa, pálida en la alérgica crónica) viene de una guía brasileña CC BY (Solé 2025); no se encontró un estudio comparativo. -->
+La rinoscopía es variable, pero con frecuencia muestra edema, enrojecimiento e hiperemia de la mucosa, y la persona se queja de congestión, muchas veces **sin** estornudos ni secreción (Solé y cols., 2025).
 
 Los mecanismos propuestos son varios: la vasoconstricción crónica con isquemia y edema, el cambio de la permeabilidad del endotelio y una disminución de la respuesta adrenérgica por regulación a la baja de los receptores α (Solé y cols., 2025; Vaidyanathan y cols., 2010). En el humano, en una serie de 10 pacientes con rinitis medicamentosa que dejaron el vasoconstrictor y recibieron budesonida durante seis semanas, la taquifilaxia se vio como una reducción del efecto descongestionante de la oximetazolina y de la **duración** del fármaco, y los autores concluyeron que el rebote se debe a edema intersticial más que a vasodilatación (Graf y cols., 1995a).
 
@@ -167,10 +167,8 @@ Tabla: Rinosinusitis aguda y crónica, con y sin pólipos
 |---|---|---|
 | Aguda viral y posviral | Daño del epitelio y de los cilios; edema y mucosa que obstruye los senos | Se resuelve sola en la mayoría; una minoría se sobreinfecta |
 | Aguda bacteriana | Depuración mucociliar dañada; sobreinfección | Es poco frecuente |
-| Crónica sin pólipos | Inflamación crónica de la mucosa; barrera alterada; con frecuencia sin predominio tipo 2 | Congestión, secreción, presión facial; el olfato se afecta menos que con pólipos |
+| Crónica sin pólipos | Inflamación crónica de la mucosa; barrera alterada; suele ser neutrofílica o tipo 1, aunque puede ser tipo 2 (EPOS clasifica por endotipo) | Congestión, secreción, presión facial; el olfato se afecta menos que con pólipos |
 | Crónica con pólipos | Inflamación **tipo 2** con remodelación: pólipos, hiperplasia de células caliciformes, barrera más permeable | Obstrucción y pérdida del olfato marcadas; más recaídas |
-
-<!-- verificar: la fila "sin pólipos / sin predominio tipo 2" simplifica la guía: EPOS 2020 clasifica por endotipo y no equipara "sin pólipos" con "no tipo 2". El texto de la tabla describe lo que predomina, no una regla. -->
 
 Otras piezas aparecen en los textos, con un peso menor y discutido:
 
@@ -184,7 +182,7 @@ Esto importa en un capítulo de rinomanometría por tres razones. Primero, **la 
 
 Algunas obstrucciones que parecen de mucosa no se explican por ella y se derivan (→ cap. 35):
 
-- **Pólipos nasales.** Masas blandas que se ven a la rinoscopía o con endoscopia (→ H25). En el modelo de las figuras los pólipos no responden al vasoconstrictor: lo que baja es la mucosa de los cornetes que los rodea, por eso el resultado suele salir mixto. En la tomografía, que pide el médico, la rinosinusitis con pólipos puede llenar los senos y las fosas (figura).
+- **Pólipos nasales.** Masas blandas que se ven a la rinoscopía o con endoscopia (→ H25). En el modelo de las figuras los pólipos no responden al vasoconstrictor: lo que baja es la mucosa de los cornetes que los rodea, por eso el resultado suele salir mixto. En la tomografía, que pide el médico, la rinosinusitis con pólipos puede llenar los senos y las fosas ({{fig tc-polipos}}).
 - **Síntomas de un solo lado, sangrado o pérdida del olfato de un lado.** No se explican por el ciclo ni por una alergia y se derivan (Fokkens y cols., 2020).
 
 :::imagen ilustraciones/cap36-rs-polipos-ra.svg ancho=62% Rinometría acústica de la fosa derecha de una nariz con pólipos. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor. El segundo mínimo cae más atrás que el cornete y casi no se abre con el vasoconstrictor: el pólipo no es mucosa que se retraiga. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).
@@ -192,12 +190,11 @@ Algunas obstrucciones que parecen de mucosa no se explican por ella y se derivan
 - @30,28 | Con vasoconstrictor (rayas) sube solo a 0,68 cm²: lo que se abre es la mucosa de alrededor, no el pólipo.
 :::
 
-:::imagen ilustraciones/cap36-tc-polipos.jpg ancho=80% Tomografías coronales de senos paranasales de dos personas con rinosinusitis crónica con pólipos y asma. Son otras personas, no pacientes de este capítulo. La tomografía la pide y la informa el médico; aquí sirve para ver lo que las curvas miden. El aire se ve negro. Izquierda: compromiso leve (puntaje de Lund-Mackay de 0 a 10 sobre 24). Derecha: opacificación total de todos los senos y de los complejos osteomeatales, 24 sobre 24: donde debería haber aire hay tejido. Imagen: Al-Ahmad M y cols. (2024), J Asthma Allergy, doi:10.2147/JAA.S478040, CC BY-NC 3.0, adaptada.
+:::imagen ilustraciones/cap36-tc-polipos.jpg ancho=80% id=tc-polipos Tomografías coronales de senos paranasales de dos personas con rinosinusitis crónica con pólipos y asma; el aire se ve negro. Izquierda: compromiso leve (puntaje de Lund-Mackay de 0 a 10 sobre 24). Derecha: opacificación total de todos los senos y de los complejos osteomeatales, 24 sobre 24: donde debería haber aire hay tejido. Imagen: Al-Ahmad M y cols. (2024), J Asthma Allergy, doi:10.2147/JAA.S478040, CC BY-NC 3.0, adaptada.
 - @14,58 | **Seno maxilar con aire** y, al medio, los cornetes rodeados de aire.
 - @58,74 | **Seno maxilar lleno**: tiene la misma densidad que los tejidos blandos.
 - @71,66 | **Fosa nasal ocupada**: casi no queda aire entre los cornetes.
 :::
-
 ## Razonamiento
 
 ### De la mucosa a la causa
@@ -447,7 +444,7 @@ Si Álvaro hubiera llegado a la hora con el spray puesto, la mucosa ya estaría 
 :::
 
 :::comentario Lo que dicen las normas
-Quien mide la nariz aplica **dos disparos de un vasoconstrictor una vez**, a un paciente al que no se le ha pedido que lo use más. Eso no es el uso que la bibliografía discute, y no hay estudios que digan que una dosis de este examen reinicie un círculo de rebote. Lo que sí hay: 8 pacientes con una rinitis medicamentosa previa tuvieron congestión de rebote tras **siete días** de reusar el producto 13 a 19 meses después de haberlo dejado (Graf y Hallén, 1997). <!-- verificar: no se encontró un estudio sobre el efecto de una sola dosis de prueba en un paciente con rinitis medicamentosa; la afirmación de que no reinicia el círculo es una inferencia, no un dato. --> Frente a un paciente así, lo prudente es decirle que **la prueba no es un tratamiento**, que lo que sigue lo decide el médico y que no vuelva al producto por su cuenta. Sobre cuánto uso produce la enfermedad y si es una entidad propia, la bibliografía no coincide (ver *Patología*).
+Quien mide la nariz aplica **dos disparos de un vasoconstrictor una vez**, a un paciente al que no se le ha pedido que lo use más. Eso no es el uso que la bibliografía discute, y no hay estudios de una dosis única de prueba en un paciente así: que no reinicie el círculo es una inferencia, no un dato. Lo que sí hay: 8 pacientes con una rinitis medicamentosa previa tuvieron congestión de rebote tras **siete días** de reusar el producto 13 a 19 meses después de haberlo dejado (Graf y Hallén, 1997). Frente a un paciente así, lo prudente es decirle que **la prueba no es un tratamiento**, que lo que sigue lo decide el médico y que no vuelva al producto por su cuenta. Sobre cuánto uso produce la enfermedad y si es una entidad propia, la bibliografía no coincide (ver *Patología*).
 :::
 
 ### Caso 36.3

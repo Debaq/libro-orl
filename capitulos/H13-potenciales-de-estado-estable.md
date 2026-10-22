@@ -32,7 +32,7 @@ Un tono puro de 1.000 Hz es continuo y parejo: el nervio descarga en forma soste
 
 Las neuronas auditivas descargan con más probabilidad en cada subida de la envolvente, de modo que, sumadas, producen una oscilación **al ritmo del latido** y no al del portador. Un electrodo en el cuero cabelludo no puede captar un tono de 1.000 Hz, pero sí esa oscilación lenta de la descarga de miles de neuronas. La respuesta que se registra es entonces una señal **exactamente a la frecuencia de modulación** (Picton y cols., 2003; BSA, 2023). Y como ese tono modulado tiene su energía concentrada en una banda angosta alrededor del portador, la respuesta nace de una región acotada de la cóclea: es **específica por frecuencia**.
 
-:::imagen ilustraciones/h13-modulacion-espectro.svg ancho=96% De un tono modulado a un pico en el espectro. A: el portador sube y baja con una envolvente regular (línea punteada); la respuesta del cerebro sigue la envolvente. B: en el espectro del EEG de un oído hay un pico justo en cada frecuencia de modulación, sobre un piso de ruido que es parejo. Cada pico pertenece a un portador distinto.
+:::imagen ilustraciones/h13-modulacion-espectro.svg ancho=96% De un tono modulado a un pico en el espectro. A: el portador sube y baja con una envolvente regular (línea punteada); la respuesta del cerebro sigue la envolvente. B: en el espectro del EEG de un oído hay un pico justo en cada frecuencia de modulación, sobre un piso de ruido que es parejo. Cada pico pertenece a un portador distinto. Imagen propia del libro.
 :::
 
 ### Dos familias: 80 a 100 Hz y 40 Hz
@@ -196,7 +196,7 @@ Tabla: Corrección provisional de la BSA para recién nacidos (hasta 12 semanas 
 
 Valen **solo para umbrales sobre 30 dB eHL** y son provisionales: la propia guía dice que no se han verificado y que el informe debe señalarlo (BSA, 2023). Con esa tabla, un umbral de 70 dB nHL en 500 Hz con fonos de inserción en un recién nacido queda en **50 dB eHL** (figura siguiente).
 
-:::imagen ilustraciones/h13-correccion.svg ancho=96% De los umbrales del examen al audiograma estimado. Los círculos son los umbrales encontrados (en dB nHL); a cada uno se le resta la corrección de su frecuencia y los cuadrados son el audiograma estimado (en dB eHL).
+:::imagen ilustraciones/h13-correccion.svg ancho=96% De los umbrales del examen al audiograma estimado. Los círculos son los umbrales encontrados (en dB nHL); a cada uno se le resta la corrección de su frecuencia y los cuadrados son el audiograma estimado (en dB eHL). Imagen propia del libro.
 :::
 
 ### Cuánto separan al ASSR de la audiometría

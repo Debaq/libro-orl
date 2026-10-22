@@ -1,0 +1,888 @@
+{
+ "pedido": {
+  "cuadro": {
+   "OD": "normal",
+   "OI": "meniere"
+  },
+  "edad": 46,
+  "sexo": "mujer",
+  "grado": {
+   "OI": "leve"
+  },
+  "anamnesis": {
+   "otros": "Tiene 46 años y es profesora de básica. Desde hace unos ocho meses tiene crisis de vértigo giratorio con náuseas que duran un par de horas, con el oído izquierdo \"tapado\" y un zumbido grave que viene y va con las crisis. Entre una crisis y otra, la audición de ese lado sube y baja. El oído derecho está bien. No tiene dolor ni secreción.",
+   "historia": "{{-240}} Primera crisis de vértigo con náuseas y plenitud del oído izquierdo.\n{{-20}} Otorrinolaringología: sospecha de enfermedad de Ménière; se pide audiometría y ABR.",
+   "hist": [],
+   "medicamentos": "",
+   "cirugias": ""
+  }
+ },
+ "semilla": 3259603791,
+ "data": {
+  "gender": 1,
+  "id": 9791,
+  "Aerea": [
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "Osea": [
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "LDL": [
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ],
+   [
+    115,
+    115
+   ]
+  ],
+  "Aerea_mkg": [
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "Osea_mkg": [
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    45
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "Z_OD": "A",
+  "Z_OI": "A",
+  "Z1000_OD": "auto",
+  "Z1000_OI": "auto",
+  "Rinne": {
+   "500": {
+    "od": "positivo",
+    "oi": "positivo"
+   },
+   "1000": {
+    "od": "positivo",
+    "oi": "positivo"
+   }
+  },
+  "Weber": {
+   "500": "od",
+   "1000": "od"
+  },
+  "sector": "Camara_sono",
+  "edad": 46,
+  "edad_horas": null,
+  "nacimiento": [],
+  "volume": [
+   1.17,
+   1.71,
+   "N/D"
+  ],
+  "volume_cae": [
+   "normal",
+   "normal"
+  ],
+  "UMD": [
+   {
+    "int": 35,
+    "percentage": 100
+   },
+   {
+    "int": 55,
+    "percentage": 96
+   }
+  ],
+  "SDT": [
+   -5,
+   15
+  ],
+  "SRT": [
+   0,
+   20
+  ],
+  "Fowler": {
+   "enabled": true,
+   "patterns": {
+    "2": "complete",
+    "3": "complete"
+   },
+   "diplacusia": false
+  },
+  "Stenger": [
+   false,
+   false
+  ],
+  "SISI": [
+   0,
+   90
+  ],
+  "box": "Box_1",
+  "result": 1,
+  "state_login": 1,
+  "recruit": [
+   false,
+   true
+  ],
+  "decay": [
+   false,
+   false
+  ],
+  "Carhart": [
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "Stat": [
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "Rosemberg": [
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "Reflex": {
+   "ipsi": [
+    [
+     90,
+     90
+    ],
+    [
+     85,
+     85
+    ],
+    [
+     90,
+     90
+    ],
+    [
+     90,
+     90
+    ]
+   ],
+   "contra": [
+    [
+     95,
+     95
+    ],
+    [
+     90,
+     90
+    ],
+    [
+     95,
+     95
+    ],
+    [
+     95,
+     95
+    ],
+    [
+     95,
+     95
+    ]
+   ],
+   "tipo": {
+    "od": "normal",
+    "oi": "normal"
+   },
+   "decay": {
+    "od": false,
+    "oi": false
+   }
+  },
+  "ETF": [
+   "Normal",
+   "Normal"
+  ],
+  "Anamnesis": {
+   "antecedentes": {
+    "hipoacusia_familiar": false,
+    "ototoxicos": false,
+    "trauma_acustico": false,
+    "otitis": false,
+    "meningitis": false,
+    "tce": false,
+    "diabetes": false,
+    "hta": false
+   },
+   "medicamentos": "",
+   "cirugias": "",
+   "otros": "Tiene 46 años y es profesora de básica. Desde hace unos ocho meses tiene crisis de vértigo giratorio con náuseas que duran un par de horas, con el oído izquierdo \"tapado\" y un zumbido grave que viene y va con las crisis. Entre una crisis y otra, la audición de ese lado sube y baja. El oído derecho está bien. No tiene dolor ni secreción.",
+   "ia": {
+    "generado": false,
+    "verificado": false,
+    "generado_en": "",
+    "verificado_por": "",
+    "verificado_en": ""
+   }
+  },
+  "PatientBehavior": "",
+  "PatientDisposition": 0,
+  "Sala": {
+   "version": 1,
+   "personas": [
+    {
+     "id": "p1",
+     "rol": "paciente",
+     "nombre": "Noelia",
+     "edad": 46,
+     "genero": 1,
+     "es_paciente": true,
+     "informante": true,
+     "interrumpe": 20,
+     "conciencia": 75,
+     "confiabilidad": 76,
+     "version": "",
+     "comportamiento": "",
+     "disposicion": 0
+    }
+   ]
+  },
+  "Tinnitus": {
+   "presente": true,
+   "lateralidad": "unilateral",
+   "oido": "oi",
+   "predominio": null,
+   "pulsatil": false,
+   "permanente": false,
+   "ruido": "Zumbido",
+   "frecuencia": 500
+  },
+  "Otoscopia": {
+   "fases": [
+    {
+     "texto": ""
+    }
+   ]
+  },
+  "Perfil": {
+   "version": 1,
+   "OD": {
+    "cce_pct": 100,
+    "retro": {
+     "i_iii_ms": 0.2,
+     "iii_v_ms": 0.2,
+     "global_delay_ms": 0,
+     "bloqueo": "ninguno",
+     "v_i_factor": 0.45,
+     "microfonica": "normal",
+     "desincronia": "ninguna",
+     "sensibilidad_tasa": "severa"
+    }
+   },
+   "OI": {
+    "cce_pct": 100,
+    "retro": {
+     "i_iii_ms": 0.2,
+     "iii_v_ms": 0.2,
+     "global_delay_ms": 0,
+     "bloqueo": "ninguno",
+     "v_i_factor": 0.45,
+     "microfonica": "normal",
+     "desincronia": "ninguna",
+     "sensibilidad_tasa": "severa"
+    }
+   },
+   "auto": {
+    "abr": true,
+    "eoas": true,
+    "reflex": true,
+    "recruit": true,
+    "logo": true
+   },
+   "ldl_tolerancia_db": 115
+  },
+  "ABR": {
+   "OD": {
+    "type": "normal",
+    "umbral": 10,
+    "umbral_por_estimulo": {
+     "tone_burst_500Hz": 20,
+     "tone_burst_1000Hz": 20,
+     "tone_burst_2000Hz": 15,
+     "tone_burst_4000Hz": 15,
+     "nb_ce_chirp_ls_500Hz": 15,
+     "nb_ce_chirp_ls_1000Hz": 15,
+     "nb_ce_chirp_ls_2000Hz": 10,
+     "nb_ce_chirp_ls_4000Hz": 10,
+     "click": 10,
+     "ce_chirp": 10,
+     "ce_chirp_ls": 10
+    },
+    "umbral_por_estimulo_oseo": {
+     "tone_burst_500Hz": 35,
+     "tone_burst_1000Hz": 35,
+     "tone_burst_2000Hz": 30,
+     "tone_burst_4000Hz": 30,
+     "nb_ce_chirp_ls_500Hz": 30,
+     "nb_ce_chirp_ls_1000Hz": 30,
+     "nb_ce_chirp_ls_2000Hz": 25,
+     "nb_ce_chirp_ls_4000Hz": 25,
+     "click": 25,
+     "ce_chirp": 25,
+     "ce_chirp_ls": 25
+    },
+    "neural": {
+     "i_iii_ms": 0.2,
+     "iii_v_ms": 0.2,
+     "global_delay_ms": 0,
+     "bloqueo": "ninguno",
+     "v_i_factor": 0.45,
+     "microfonica": "normal",
+     "desincronia": "ninguna",
+     "sensibilidad_tasa": "severa"
+    },
+    "repro": true,
+    "repro_var": 0,
+    "inquietud": 0,
+    "pam": 0,
+    "falsa_v": {
+     "amp": 0,
+     "lat": 5.6,
+     "int_min": 0,
+     "int_max": 120,
+     "mitad": "auto"
+    },
+    "ecochg": {
+     "sp_ap": 0.24,
+     "tasa": 1,
+     "rar_cond_ms": 0.1,
+     "mc": "normal"
+    },
+    "average_objetivo": 1580,
+    "desviaciones": {
+     "onda_I": {
+      "lat": -0.05,
+      "amp": 0.03
+     },
+     "onda_III": {
+      "lat": 0,
+      "amp": 0.03
+     },
+     "onda_V": {
+      "lat": -0.02,
+      "amp": -0.01
+     }
+    },
+    "nivel_referencia": null,
+    "barridos_criterio": 2000,
+    "respuesta_en_referencia": "presente",
+    "fsp_puntos": {
+     "800": 2.3,
+     "2000": 2.8,
+     "objetivo": 3
+    }
+   },
+   "OI": {
+    "type": "coclear",
+    "umbral": 25,
+    "umbral_por_estimulo": {
+     "tone_burst_500Hz": 55,
+     "tone_burst_1000Hz": 40,
+     "tone_burst_2000Hz": 30,
+     "tone_burst_4000Hz": 30,
+     "nb_ce_chirp_ls_500Hz": 50,
+     "nb_ce_chirp_ls_1000Hz": 35,
+     "nb_ce_chirp_ls_2000Hz": 25,
+     "nb_ce_chirp_ls_4000Hz": 25,
+     "click": 25,
+     "ce_chirp": 30,
+     "ce_chirp_ls": 30
+    },
+    "umbral_por_estimulo_oseo": {
+     "tone_burst_500Hz": null,
+     "tone_burst_1000Hz": 55,
+     "tone_burst_2000Hz": 45,
+     "tone_burst_4000Hz": 45,
+     "nb_ce_chirp_ls_500Hz": null,
+     "nb_ce_chirp_ls_1000Hz": 50,
+     "nb_ce_chirp_ls_2000Hz": 40,
+     "nb_ce_chirp_ls_4000Hz": 40,
+     "click": 40,
+     "ce_chirp": 45,
+     "ce_chirp_ls": 45
+    },
+    "neural": {
+     "i_iii_ms": 0.2,
+     "iii_v_ms": 0.2,
+     "global_delay_ms": 0,
+     "bloqueo": "ninguno",
+     "v_i_factor": 0.45,
+     "microfonica": "normal",
+     "desincronia": "ninguna",
+     "sensibilidad_tasa": "severa"
+    },
+    "repro": true,
+    "repro_var": 0,
+    "inquietud": 0,
+    "pam": 0,
+    "falsa_v": {
+     "amp": 0,
+     "lat": 5.6,
+     "int_min": 0,
+     "int_max": 120,
+     "mitad": "auto"
+    },
+    "ecochg": {
+     "sp_ap": 0.48,
+     "tasa": 2,
+     "rar_cond_ms": 0.31,
+     "mc": "normal"
+    },
+    "average_objetivo": 2108,
+    "desviaciones": {
+     "onda_I": {
+      "lat": 0.02,
+      "amp": -0.16
+     },
+     "onda_III": {
+      "lat": 0.06,
+      "amp": -0.03
+     },
+     "onda_V": {
+      "lat": 0.02,
+      "amp": -0.01
+     }
+    },
+    "nivel_referencia": null,
+    "barridos_criterio": 2000,
+    "respuesta_en_referencia": "presente",
+    "fsp_puntos": {
+     "800": 2.3,
+     "2000": 2.8,
+     "objetivo": 3
+    }
+   },
+   "autor": {
+    "set": "__default__",
+    "label": "LabSim (default)",
+    "poblacion": "adult_female",
+    "baseline": {
+     "I": {
+      "lat": 1.46,
+      "amp": 0.44
+     },
+     "III": {
+      "lat": 3.65,
+      "amp": 0.47
+     },
+     "V": {
+      "lat": 5.54,
+      "amp": 0.54
+     }
+    }
+   }
+  },
+  "EOAS": {
+   "OD": {
+    "type": "normal",
+    "umbral": 0,
+    "desviaciones": {
+     "500": 0,
+     "1000": 0,
+     "1500": 0,
+     "2000": 0,
+     "3000": 0,
+     "4000": 0,
+     "6000": 0,
+     "8000": 0
+    },
+    "atten_db": 0,
+    "ruido_db": 0.7,
+    "sello_pct": 94,
+    "variabilidad_db": 1.6,
+    "soae_mode": "auto",
+    "soae_peaks": []
+   },
+   "OI": {
+    "type": "coclear",
+    "umbral": 0,
+    "desviaciones": {
+     "500": 24,
+     "1000": 12,
+     "1500": 8.5,
+     "2000": 6,
+     "3000": 6,
+     "4000": 6,
+     "6000": 6,
+     "8000": 6
+    },
+    "atten_db": 0,
+    "ruido_db": 1.7,
+    "sello_pct": 85,
+    "variabilidad_db": 2.4,
+    "soae_mode": "auto",
+    "soae_peaks": []
+   }
+  },
+  "VEMP": {
+   "OD": {
+    "type": "normal",
+    "subtipos": {
+     "CVEMP": {
+      "peaks": [
+       "p13",
+       "n23"
+      ],
+      "umbral": 70,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 200,
+      "desviaciones": {
+       "p13": {
+        "lat": 0,
+        "amp": 0
+       },
+       "n23": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     },
+     "OVEMP": {
+      "peaks": [
+       "n10",
+       "p16"
+      ],
+      "umbral": 65,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 300,
+      "desviaciones": {
+       "n10": {
+        "lat": 0,
+        "amp": 0
+       },
+       "p16": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     },
+     "MVEMP": {
+      "peaks": [
+       "p13",
+       "n23"
+      ],
+      "umbral": 80,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 300,
+      "desviaciones": {
+       "p13": {
+        "lat": 0,
+        "amp": 0
+       },
+       "n23": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     }
+    }
+   },
+   "OI": {
+    "type": "sacular",
+    "subtipos": {
+     "CVEMP": {
+      "peaks": [
+       "p13",
+       "n23"
+      ],
+      "umbral": 85,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 200,
+      "desviaciones": {
+       "p13": {
+        "lat": 0,
+        "amp": 0
+       },
+       "n23": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     },
+     "OVEMP": {
+      "peaks": [
+       "n10",
+       "p16"
+      ],
+      "umbral": 65,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 300,
+      "desviaciones": {
+       "n10": {
+        "lat": 0,
+        "amp": 0
+       },
+       "p16": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     },
+     "MVEMP": {
+      "peaks": [
+       "p13",
+       "n23"
+      ],
+      "umbral": 85,
+      "repro": true,
+      "repro_var": 0.2,
+      "average_objetivo": 300,
+      "desviaciones": {
+       "p13": {
+        "lat": 0,
+        "amp": 0
+       },
+       "n23": {
+        "lat": 0,
+        "amp": 0
+       }
+      }
+     }
+    }
+   }
+  },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.55,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
+  "Revision": {
+   "tabs": {
+    "paciente": true,
+    "sala": true,
+    "perfil": true,
+    "audiometria": true,
+    "otoscopia": true,
+    "timpanometria": true,
+    "abr": true,
+    "eoas": true,
+    "vemp": true,
+    "tinnitus": true,
+    "anamnesis": true
+   },
+   "at": "2026-10-22T03:03:35+00:00",
+   "by": "andrea.soto"
+  },
+  "tipo": "normal",
+  "paciente_snapshot": {
+   "nombre": "Noelia Rocío",
+   "apellido": "Moreno Medina",
+   "rut": "14444421",
+   "fecha_nac": "13-06-1980"
+  },
+  "historia_clinica": "{{-240}} Primera crisis de vértigo con náuseas y plenitud del oído izquierdo.\r\n{{-20}} Otorrinolaringología: sospecha de enfermedad de Ménière; se pide audiometría y ABR."
+ }
+}

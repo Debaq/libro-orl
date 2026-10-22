@@ -51,34 +51,54 @@ def timpanograma(p, pico, alto=0.4, ancho=55):
 
 
 def etf_integra():
-    c = Lienzo(760, 300)
-    curvas = (('reposo', TINTA, '4 0'), ('tras +400', COCLEAR, None), ('tras −400', RETRO, None))
+    """Con el dibujo del timpanograma de la hoja de impedanciometría del tomo II
+    (figuras/motor/impedancia_hoja.py: misma grilla de -400 a 200 daPa, letra en
+    negro), en vez del esquema propio (él, 2026-10-21). Letra grande: la figura
+    va a todo el ancho y así impresa no baja de 7 pt."""
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / 'figuras'))
+    from motor import estilo as E
+    from motor.svg import Svg
+    TT, TR = 11, 10
+    pw, ph, ml, mt, sep = 250, 150, 40, 44, 56
+    escala = 0.6
+    x_min, x_max = -400, 200
+    curvas = (('reposo', E.TINTA), ('tras +400', COCLEAR), ('tras −400', RETRO))
     paneles = (('A · La trompa abre', (-18, -23, -11), 'el pico se corre al lado contrario'),
                ('B · La trompa no abre', (-150, -151, -149), 'los tres picos quedan juntos'))
+    s = Svg(ml + 2 * pw + sep + 14, mt + ph + 74)
     for k, (titulo, picos, nota) in enumerate(paneles):
-        x0 = 60 + k * 370
-        x1 = x0 + 300
-        ytop, ybot = 52, 230
-        fx = lambda p, x0=x0, x1=x1: x0 + (p + 300) / 400 * (x1 - x0)
-        fy = lambda v: ybot - v / 0.5 * (ybot - ytop)
-        c.t(x0 - 46, 22, titulo, 10.5, TINTA, 'start', 700)
-        ejes(c, x0, x1, ytop, ybot, (-300, -200, -100, 0, 100), (0, 0.25, 0.5), fx, fy, 'daPa', 'mL')
-        for j, ((nombre, color, _), pico) in enumerate(zip(curvas, picos)):
+        x0 = ml + k * (pw + sep)
+
+        def X(p, x0=x0):
+            return x0 + (p - x_min) / (x_max - x_min) * pw
+
+        def Y(v):
+            return mt + ph - max(0.0, min(escala, v)) / escala * ph
+        s.texto(x0, mt - 26, titulo, TT, E.TINTA, 'start', 700)
+        for p in range(x_min, x_max + 1, 100):
+            s.linea(X(p), mt, X(p), mt + ph, E.GRILLA_FUERTE if p == 0 else E.GRILLA, 1)
+            s.texto(X(p), mt + ph + 13, f'{p}'.replace('-', '−'), TR, E.TINTA)
+        for i in range(0, int(escala * 10) + 1, 2):
+            v = i / 10
+            s.linea(x0, Y(v), x0 + pw, Y(v), E.GRILLA, 1)
+            s.texto(x0 - 5, Y(v) + 3.5, f'{v:.1f}'.replace('.', ','), TR, E.TINTA, 'end')
+        s.texto(x0 + pw / 2, mt + ph + 27, 'Presión (daPa)', TR, E.TINTA)
+        s.texto(x0 - 30, mt + ph / 2, 'mL', TR, E.TINTA, extra=f'transform="rotate(-90 {x0 - 30} {mt + ph / 2:.1f})"')
+        for j, ((nombre, color), pico) in enumerate(zip(curvas, picos)):
             rr = ruido(301, 10 * k + j, 0.004)
-            pts = [(fx(-300 + i * 400 / 300), fy(timpanograma(-300 + i * 400 / 300, pico) + rr[i]))
-                   for i in range(301)]
-            c.poli(pts, color, 1.7)
-            # el pico, con su presión
-            c.l(fx(pico), fy(0.4) - 4, fx(pico), fy(0.4) - 10 - 12 * j, color, 0.8)
-            c.t(fx(pico) + (8 if j != 1 else -8), fy(0.4) - 12 - 12 * j,
-                f'{pico}'.replace('-', '−'), 7.8, color, 'start' if j != 1 else 'end', 700)
-        c.t((x0 + x1) / 2, ybot + 46, nota, 8.4, TINTA, 'middle', 600)
-    # leyenda
-    xl = 230
-    for j, (nombre, color, _) in enumerate(curvas):
-        c.l(xl + j * 120, 288, xl + j * 120 + 22, 288, color, 2.2)
-        c.t(xl + j * 120 + 28, 291, nombre, 8, TINTA, 'start', 600)
-    c.guardar('h7-etf-integra.svg')
+            pts = [(X(-400 + i * 2), Y(timpanograma(-400 + i * 2, pico) + rr[i])) for i in range(301)]
+            s.trazo(pts, color, E.LINEA)
+            # la presión de cada pico, escalonada para que no se monten
+            y = Y(0.4) - 6 - 13 * j
+            s.linea(X(pico), Y(0.4) - 3, X(pico), y + 2, color, 0.8)
+            s.texto(X(pico) + (6 if j != 1 else -6), y, f'{pico}'.replace('-', '−'), TR, color,
+                    'start' if j != 1 else 'end', 700)
+        s.texto(x0 + pw / 2, mt + ph + 45, nota, TR, E.TINTA, 'middle', 600)
+    xl = ml + 60
+    for j, (nombre, color) in enumerate(curvas):
+        s.linea(xl + j * 130, mt + ph + 64, xl + j * 130 + 22, mt + ph + 64, color, 2.2)
+        s.texto(xl + j * 130 + 28, mt + ph + 68, nombre, TR, E.TINTA, 'start', 600)
+    (pathlib.Path(__file__).resolve().parent / 'h7-etf-integra.svg').write_text(s.svg(), encoding='utf-8')
 
 
 def etf_perforada():

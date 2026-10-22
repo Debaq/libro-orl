@@ -84,14 +84,10 @@ Con los años, el cuadro cambia de forma en tres sentidos.
 
 **Aparecen cosas nuevas.** Las **caídas de Tumarkin** y, en una parte de los pacientes, el **otro oído**. La proporción con los dos oídos comprometidos crece con los años de enfermedad: hasta 35 % a los 10 años y hasta 47 % a los 20 (Huppert y cols., 2010). Lo que importa en la sala es que **un paciente con un oído "malo" y uno "bueno" puede tener los dos enfermos**: la comparación entre oídos, que en un Ménière unilateral dice casi todo, deja de servir. Esto pesa en dos decisiones. Para el diagnóstico, porque el criterio audiométrico se escribió comparando con el otro oído: 30 dB de diferencia por vía ósea en dos frecuencias contiguas bajo 2.000 Hz. Cuando la pérdida de graves es de los dos oídos, el consenso pide en cambio umbrales óseos de 35 dB HL o más en dos frecuencias contiguas bajo 2.000 Hz (Lopez-Escamez y cols., 2015). Y para el tratamiento: un procedimiento que apague un laberinto es una decisión médica, y quien evalúa entrega lo que el **otro** laberinto todavía hace.
 
-La resonancia con gadolinio tardío también gradúa el hidrops, oído por oído, por lo que ocupa en el vestíbulo y la cóclea (→ cap. 9). La pide y la informa el médico.
+La resonancia con gadolinio tardío también gradúa el hidrops, oído por oído, por lo que ocupa en el vestíbulo y la cóclea ({{fig rm-hidrops-grados}}; → cap. 9). La pide y la informa el médico.
 
-:::imagen ilustraciones/cap23-rm-hidrops-grados.jpg ancho=58% Resonancia 3D-FLAIR cuatro horas después del gadolinio intravenoso, en oídos de otras personas, con el esquema de cada corte a la derecha. En rojo, la superficie del vestíbulo que se midió. Baja por los grados: el espacio oscuro del sáculo y el utrículo ocupa cada vez más vestíbulo, hasta que ya no se separan. Rótulos en inglés, del original. Imagen: Diorflar S, Guigou C, Daguet E, Bensimon JL, Toupet M, Bozorg-Grayeli A (2023), Front Neurol 14:1105461, doi:10.3389/fneur.2023.1105461, Fig. 2, CC BY 4.0.
-- @46,4 | **Grado 0**: sin hidrops. Sáculo y utrículo chicos y separados.
-- @46,37 | **Grado I**: hidrops moderado del vestíbulo y de la cóclea.
-- @46,70 | **Grado II**: hidrops importante del vestíbulo, que ya no deja separar el sáculo del utrículo, y grado I de la cóclea.
+:::imagen ilustraciones/cap23-rm-hidrops-grados.jpg ancho=58% id=rm-hidrops-grados Resonancia 3D-FLAIR cuatro horas después del gadolinio intravenoso, con el esquema de cada corte a la derecha; en rojo, la superficie del vestíbulo que se midió. A, grado 0: sin hidrops; sáculo y utrículo chicos y separados. B, grado I: hidrops moderado del vestíbulo y de la cóclea. C, grado II: el hidrops del vestíbulo ya no deja separar el sáculo del utrículo, con grado I de la cóclea. Rótulos en inglés, del original. Imagen: Diorflar S, Guigou C, Daguet E, Bensimon JL, Toupet M, Bozorg-Grayeli A (2023), Front Neurol 14:1105461, doi:10.3389/fneur.2023.1105461, Fig. 2, CC BY 4.0.
 :::
-
 ### Migraña vestibular
 
 Los criterios de la Sociedad Bárány y de la Sociedad Internacional de Cefaleas piden (Lempert y cols., 2012, 2022):
@@ -268,14 +264,14 @@ Hipoexcitabilidad derecha: (6 + 5 − 22 − 16) / 49 = **55 %** (valor signific
 
 cVEMP de 294 µV en el OD (5,80 corregida por el EMG) y de 511 µV en el OI (10,20): asimetría de **28 %**, bajo el corte de 35 % (→ H12). El sáculo del OD responde. oVEMP de 23 y 21 µV (0,55 y 0,50): **5 %**, simétrico.
 
-:::imagen figuras/salida/cap23_meniere_avanzado_audiosupra.svg ancho=80% Audiometría de Ignacio: el OD tiene una pérdida sensorioneural moderada, de 55 dB en 1 y 2 kHz y 85 dB en 8 kHz, con la ósea pegada a la aérea; el OI baja a 25 dB en 4 kHz. Discriminación máxima del OD de 70 %.
+:::imagen figuras/salida/cap23_meniere_avanzado_audiosupra.svg ancho=100% Audiometría de Ignacio: el OD tiene una pérdida sensorioneural moderada, de 55 dB en 1 y 2 kHz y 85 dB en 8 kHz, con la ósea pegada a la aérea; el OI baja a 25 dB en 4 kHz. Discriminación máxima del OD de 70 %.
 :::
 
 En el OD el SDT es de 45 dB y el SRT de 50 dB. La discriminación llega a **70 %** a 70 dB y baja a 65 % a 90 dB, con ruido de habla al OI; el umbral del habla permitiría más. El OI tiene SDT de 0 dB, SRT de 5 dB y 100 %.
 
 En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 34,5 dB: recluta y no se deteriora, aun con la pérdida avanzada.
 
-:::imagen figuras/salida/cap23_meniere_avanzado_impedancia.svg ancho=80% Impedanciometría de Ignacio.
+:::imagen figuras/salida/cap23_meniere_avanzado_impedancia.svg ancho=100% Impedanciometría de Ignacio.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,78 mL en el OD y de 0,69 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, salvo en 4 kHz cuando el sonido va al OD (100 ipsi y 105 contra), donde la pérdida es mayor. Decay negativo.
@@ -378,14 +374,14 @@ Hipoexcitabilidad izquierda: (15 + 13 − 12 − 10) / 50 = **12 %** (valor no s
 
 cVEMP de 73 µV en el OD (1,46 corregida por el EMG) y de 346 µV en el OI (6,84): asimetría de **65 %** (valor significativo), con el lado más débil en el OD, **el de mejor audición**. oVEMP de 24 y 25 µV (0,56 y 0,57): **1 %**. El sáculo y la cóclea no caen en paralelo.
 
-:::imagen figuras/salida/cap23_meniere_bilateral_audiosupra.svg ancho=80% Audiometría de Clara: pérdida sensorioneural de los dos oídos, mayor en el OI (55 dB en 4 kHz y 65 dB en 8 kHz); el OD tiene 30 dB en 1 kHz y 40 dB en 500 Hz. Discriminación de 92 % en el OD y de 76 % en el OI.
+:::imagen figuras/salida/cap23_meniere_bilateral_audiosupra.svg ancho=100% Audiometría de Clara: pérdida sensorioneural de los dos oídos, mayor en el OI (55 dB en 4 kHz y 65 dB en 8 kHz); el OD tiene 30 dB en 1 kHz y 40 dB en 500 Hz. Discriminación de 92 % en el OD y de 76 % en el OI.
 :::
 
 En el OD el SDT es de 25 dB y el SRT de 30 dB; la discriminación llega a **92 %** a 60 dB. En el OI el SDT es de 40 dB y el SRT de 45 dB; llega a **76 %** a 80 dB y baja a 71 % a 90 dB. Los dos son los de una cóclea con reclutamiento: el SISI es de 90 % en ambos oídos (→ H6). El Weber no lateraliza a 500 Hz, porque los dos oídos pierden parecido.
 
 Los dos oídos reclutan: SISI de **90 %** a cada lado, Carhart sin deterioro en 2 y 4 kHz y Metz de 49,5 a 57 dB en el OD y de 34,5 a 44,5 dB en el OI. Con los dos oídos enfermos no hay un oído sano con que balancear: el Fowler no se hace.
 
-:::imagen figuras/salida/cap23_meniere_bilateral_impedancia.svg ancho=80% Impedanciometría de Clara.
+:::imagen figuras/salida/cap23_meniere_bilateral_impedancia.svg ancho=100% Impedanciometría de Clara.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,55 mL en el OD y de 0,70 mL en el OI. Los reflejos están presentes en los dos oídos, de 85 a 100 dB SPL, con los valores más altos en 500 Hz. El decay es negativo.
@@ -488,7 +484,7 @@ Hipoexcitabilidad derecha: (23 + 21 − 25 − 22) / 91 = **3 %** (valor no sign
 
 cVEMP de 628 µV en el OD (12,30 corregida por el EMG) y de 336 µV en el OI (6,82): asimetría de **29 %**, bajo el corte de 35 %: una diferencia así es variabilidad, no enfermedad. oVEMP de 26 y 23 µV (0,60 y 0,54): **5 %**.
 
-:::imagen figuras/salida/cap23_migrana_vestibular_audiosupra.svg ancho=80% Audiometría de Patricia: audición normal en los dos oídos en todas las frecuencias, y discriminación de 100 %.
+:::imagen figuras/salida/cap23_migrana_vestibular_audiosupra.svg ancho=100% Audiometría de Patricia: audición normal en los dos oídos en todas las frecuencias, y discriminación de 100 %.
 :::
 
 SDT de −5 dB y SRT de 0 dB en los dos oídos, con discriminación de 100 % desde los 30 dB. Cinco años de crisis y ningún cambio en el audiograma.
@@ -586,14 +582,14 @@ Hipoexcitabilidad izquierda: (25 + 22 − 13 − 11) / 71 = **32 %** (valor sign
 
 cVEMP de 345 µV en el OD (6,81 corregida por el EMG) y de 80 µV en el OI (1,57): asimetría de **62 %** (valor significativo), con el sáculo del lado enfermo reducido. oVEMP de 26 y 25 µV (0,63 y 0,58): **5 %**.
 
-:::imagen figuras/salida/cap23_meniere_migrana_audiosupra.svg ancho=80% Audiometría de Marina: el OI tiene una pérdida sensorioneural de graves (40 dB en 125 y 250 Hz, 30 dB en 500 y 1.000 Hz) y el OD está en 0 dB. Discriminación de 100 % en el OD y de 96 % en el OI.
+:::imagen figuras/salida/cap23_meniere_migrana_audiosupra.svg ancho=100% Audiometría de Marina: el OI tiene una pérdida sensorioneural de graves (40 dB en 125 y 250 Hz, 30 dB en 500 y 1.000 Hz) y el OD está en 0 dB. Discriminación de 100 % en el OD y de 96 % en el OI.
 :::
 
 El OI tiene **40 dB** en 125 y 250 Hz, **30** en 500 y 1.000 Hz y baja a 20 dB en 3 y 4 kHz: es la curva **ascendente**, con un promedio de 500 a 3.000 Hz de **26 dB** (etapa 2). El OD está en 0 dB; la diferencia es de 40 dB en 125 y 250 Hz y de 30 en 500 y 1.000 Hz: cumple el criterio audiométrico de **30 dB** en dos frecuencias contiguas bajo 2.000 Hz. En el OD el SDT es de −5 dB, el SRT de 0 dB y la discriminación de 100 %. En el OI el SDT es de 20 dB, el SRT de 25 dB y la discriminación llega a **96 %** a 60 dB, con ruido de habla al OD. Pasados los 60 dB **cae**: 84 % a 80 dB y 83 % a 100 dB, un roll-over leve, de índice 0,14, lejos del 0,45 que sugiere una lesión del nervio (Jerger y Jerger, 1971; → cap. 11); con el reclutamiento de este oído, es la palabra fuerte que llega distorsionada.
 
 En el OI, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 54,5 dB en 500 Hz y 55 dB en 1 kHz: la pérdida de graves es coclear.
 
-:::imagen figuras/salida/cap23_meniere_migrana_impedancia.svg ancho=80% Impedanciometría de Marina.
+:::imagen figuras/salida/cap23_meniere_migrana_impedancia.svg ancho=100% Impedanciometría de Marina.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,80 mL en el OD y de 1,42 mL en el OI. Los reflejos están presentes, ipsi y contra, de 85 a 100 dB SPL; el valor más alto, 100 dB, es el de 500 Hz cuando el sonido va al OI. Decay negativo.

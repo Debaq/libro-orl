@@ -88,7 +88,7 @@ Cuando la cóclea pierde sus células ciliadas externas, el umbral sube y el LDL
 
 Es el mismo audiómetro de la audiometría tonal (→ H3). Cambian el estímulo del canal 1, que pasa a ser la voz, y el ruido del canal 2, que pasa a ser ruido de habla.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro: lo que se usa en la logoaudiometría
+:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro: lo que se usa en la logoaudiometría Imagen propia: captura de LabSim.
 - @4,13 | **Pantalla del canal 1.** Con *Habla*, el nivel de la voz en dB HL y el oído al que va.
 - @36,17 | **Prueba.** Al elegir *Habla* cambia de *Umbrales* a *Logoaudiometría* y muestra los aciertos, por ejemplo *0/25 : 0%*.
 - @10,30 | **Salida.** La voz va al oído evaluado; el ruido, al otro.
@@ -116,9 +116,8 @@ ASHA (1988) propone un método **descendente**: partir 30 a 40 dB sobre el SRT e
 
 ### 3. Concordancia SRT y PTP
 
-En quien responde con su umbral real, el SRT y el PTP casi coinciden: en el estudio en que se apoya ASHA, las diferencias promedio fueron de 0,3 a 3,1 dB. En una curva **descendente** concuerda mejor con el promedio de los **dos mejores** umbrales de 500, 1.000 y 2.000 Hz (Fletcher), porque la frecuencia más caída casi no aporta (ASHA, 1988). Una diferencia de más de unos 10 dB obliga a revisar antes de seguir: un fono corrido, una instrucción mal entendida o un paciente que no responde con su umbral. Un SRT **mucho mejor** que el PTP es de las primeras señales de una pérdida no orgánica (→ H6).
+En quien responde con su umbral real, el SRT y el PTP casi coinciden: en el estudio en que se apoya ASHA, las diferencias promedio fueron de 0,3 a 3,1 dB. En una curva **descendente** concuerda mejor con el promedio de los **dos mejores** umbrales de 500, 1.000 y 2.000 Hz (Fletcher), porque la frecuencia más caída casi no aporta (ASHA, 1988). En examinados que cooperan, el SRT y un promedio de dos frecuencias casi siempre coinciden dentro de ±10 dB (Schlauch y Nelson, 2015). Una diferencia de más de unos 10 dB obliga a revisar antes de seguir: un fono corrido, una instrucción mal entendida o un paciente que no responde con su umbral. Un SRT **mucho mejor** que el PTP es de las primeras señales de una pérdida no orgánica (→ H6).
 
-<!-- verificar: tolerancia SRT-PTP. ASHA 1988 no da una cifra; los ±10 dB son los que usa el chequeo de coherencia de los casos de LabSim (src/audiometria/DebugMkg.py, _chk_sdt). Búsqueda 2026-10-18: solo fuentes docentes o protocolos (±7 dB en el protocolo del Tinnitus Retraining Therapy Trial; 12 dB atribuido a Ventry y Chaiklin en apuntes universitarios); ninguna primaria leída. Es criterio de la práctica del autor. -->
 
 ### 4. Discriminación (UMD)
 
@@ -152,7 +151,7 @@ La voz cruza el cráneo igual que un tono, y la discriminación se mide 20 a 40 
 Cada nivel de la curva tiene su cálculo, porque el mínimo sube con la voz. El SDT y el SRT se enmascaran si cumplen la regla. El efecto de no hacerlo está en el caso de Luis, más adelante.
 
 :::comentario Lo que dicen las normas
-Este libro usa **45 dB** de atenuación interaural para la voz con fono supraaural. ASHA (1988) pide enmascarar cuando el SRT de un oído supera en **40 dB** o más al SRT del otro o a cualquiera de sus umbrales óseos de 500 a 4.000 Hz. Se usan 45 dB porque la voz, que reparte su energía en un rango ancho de frecuencias, cruza el cráneo con más pérdida que un tono aislado con el mismo fono, y comparar contra el promedio del oído no evaluado sigue la misma lógica con que se lee el SRT. <!-- verificar: cifra de atenuación interaural del habla con fono supraaural (rango publicado ~45-55 dB) con fuente primaria. Búsqueda 2026-10-18: Snyder (1973, Laryngoscope) y Smith y Markides (1981, Br J Audiol 15) existen pero no se leyeron sus cifras; Ramos y cols. (2009, Rev Soc Bras Fonoaudiol 14(4), doi:10.1590/S1516-80342009000400012) solo dan en el resumen que la de inserción atenúa más, también para la voz. -->
+Este libro usa **45 dB** de atenuación interaural para la voz con fono supraaural. ASHA (1988) pide enmascarar cuando el SRT de un oído supera en **40 dB** o más al SRT del otro o a cualquiera de sus umbrales óseos de 500 a 4.000 Hz. Se usan 45 dB porque la voz, que reparte su energía en un rango ancho de frecuencias, cruza el cráneo con más pérdida que un tono aislado con el mismo fono, y comparar contra el promedio del oído no evaluado sigue la misma lógica con que se lee el SRT. La atenuación interaural del habla con fono supraaural va de 48 a 76 dB entre personas; con 5 dB de paso en el SRT, el 48 se redondea a 45, que es la estimación conservadora que recomienda Yacullo (2015).
 :::
 
 ### 6. Umbral de molestia (LDL)
@@ -286,6 +285,8 @@ Antes de firmar, pregúntate si la discriminación **calza con el audiograma**. 
 
 ### Técnica
 
+1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 77 y ss.
+1. Schlauch RS, Nelson P. Puretone evaluation. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 29-48.
 1. American Speech-Language-Hearing Association. Determining threshold level for speech [Guidelines]. Rockville (MD): ASHA; 1988. doi:10.1044/policy.GL1988-00008
 1. International Organization for Standardization. ISO 8253-3:2022. Acoustics — Audiometric test methods — Part 3: Speech audiometry. 3rd ed. Geneva: ISO; 2022.
 1. Thornton AR, Raffin MJ. Speech-discrimination scores modeled as a binomial variable. J Speech Hear Res. 1978;21(3):507-18. doi:10.1044/jshr.2103.507

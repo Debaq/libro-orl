@@ -85,28 +85,20 @@ Es un motivo de consulta frecuente (Guest y cols., 2004).<!-- Pasada de fundamen
 
 En el adulto suele ser un resto de algodón, un trozo de tapón de espuma o una parte de un audífono; en el niño, cualquier cosa que quepa. Da sensación de oído lleno, ruido al masticar o al moverse el objeto y, si se intentó sacar, dolor o sangre. **No se lava ni se intenta extraer**: con agua o con una pinza puede avanzar hacia la membrana (→ H1).
 
-<!-- verificar: no se encontró una serie con audiometría en cuerpos extraños del conducto; el gap ascendente del generador se apoya en la oclusión con el dedo (Reis 2017). -->
-
 ### Otitis externa difusa
 
 Infección de la piel del conducto, favorecida por la humedad (piscina, ducha) y el rascado. Da **otalgia** que aumenta al masticar, al traccionar el pabellón o al presionar el trago, plenitud, hipoacusia y a veces otorrea. Su diagnóstico es clínico (Plum y Wong, 2023). El conducto se ve rojo y edematoso, con restos o secreción, y muchas veces no deja ver la membrana. La hipoacusia es conductiva y viene del edema: se recupera cuando la piel se deshincha.
 
 ### Estenosis y atresia congénita
 
-El conducto no se formó (atresia) o quedó muy estrecho (estenosis). Suele acompañarse de **microtia**, un pabellón pequeño o malformado, y suele ser de un solo lado: lo fue en 67 de 74 niños de una serie (Jensen y cols., 2013). La cóclea es sana y la pérdida es una conductiva grande y estable: en series quirúrgicas el gap ronda los 50 dB antes de operar (Dobratz y cols., 2008), y<!-- Pasada de fundamentos 2026-10-18: los ~50 dB salen del abstract de Dobratz: gap posoperatorio más mejora media = 33,8 + 16,8 = 50,6 dB (osiculoplastía) y 23,8 + 29,9 = 53,7 dB (cadena propia). --> la cirugía mejora la aérea en unos 26 dB, sin normalizarla (Jonas y cols., 2022). La audiometría con **vía ósea enmascarada** es el examen que decide: confirma la reserva coclear antes de cualquier tratamiento. Por fuera, la atresia con microtia salta a la vista; la estenosis, en cambio, puede mostrar la entrada del conducto abierta y estrecharse más adentro, en el hueso. El otorrinolaringólogo estudia el oído con una tomografía, que muestra si el conducto está estrecho o si no existe.
+El conducto no se formó (atresia) o quedó muy estrecho (estenosis). Suele acompañarse de **microtia**, un pabellón pequeño o malformado, y suele ser de un solo lado: lo fue en 67 de 74 niños de una serie (Jensen y cols., 2013). La cóclea es sana y la pérdida es una conductiva grande y estable: en series quirúrgicas el gap ronda los 50 dB antes de operar (Dobratz y cols., 2008), y<!-- Pasada de fundamentos 2026-10-18: los ~50 dB salen del abstract de Dobratz: gap posoperatorio más mejora media = 33,8 + 16,8 = 50,6 dB (osiculoplastía) y 23,8 + 29,9 = 53,7 dB (cadena propia). --> la cirugía mejora la aérea en unos 26 dB, sin normalizarla (Jonas y cols., 2022). La audiometría con **vía ósea enmascarada** es el examen que decide: confirma la reserva coclear antes de cualquier tratamiento. Por fuera, la atresia con microtia salta a la vista; la estenosis, en cambio, puede mostrar la entrada del conducto abierta y estrecharse más adentro, en el hueso ({{fig oreja-estenosis-atresia}}). El otorrinolaringólogo estudia el oído con una tomografía, que muestra si el conducto está estrecho o si no existe ({{fig tc-atresia}}).
 
-:::imagen ilustraciones/cap01-foto-estenosis-atresia.jpg ancho=100% El oído derecho de dos niños, visto por fuera. A: el conducto se abre, pero la tomografía mostró una estenosis ósea severa; mirado desde afuera, no se adivina. B: microtia con atresia completa del conducto. Son otras personas, no los pacientes de este capítulo. Imagen: Truong MT, Liu YC, Kohn J y cols. (2022), Front Surg, doi:10.3389/fsurg.2022.944223, Fig. 2, CC BY 4.0, adaptada.
+:::imagen ilustraciones/cap01-foto-estenosis-atresia.jpg ancho=100% id=oreja-estenosis-atresia El oído derecho de dos niños, visto por fuera. Imagen: Truong MT, Liu YC, Kohn J y cols. (2022), Front Surg, doi:10.3389/fsurg.2022.944223, Fig. 2, CC BY 4.0, adaptada.
 - @23,30 | **A · Estenosis**: el pabellón está formado y el conducto se abre bajo el globo; la estrechez está más adentro, en el hueso, y no se ve por fuera.
 - @88,40 | **B · Atresia**: a la izquierda del globo, un remanente de pabellón (microtia) y ninguna entrada al conducto.
 :::
-
-:::imagen ilustraciones/cap01-tc-atresia.jpg ancho=100% Tomografía axial de tres oídos derechos, en el mismo plano: normal (A), con estenosis (B) y con atresia (C). Es lo que hay detrás de la conductiva que mide la audiometría; la tomografía la pide y la informa el médico. Imagen: Qin FH, Zhang TY, Dai P, Yang L (2015), Clin Exp Otorhinolaryngol, doi:10.3342/ceo.2015.8.4.320, Fig. 2, CC BY-NC 3.0.
-- @5,50 | **Normal**: el conducto, con aire (negro), llega hasta la caja.
-- @36,37 | **Estenosis**: el conducto, bajo el globo, queda reducido a un hilo de aire.
-- @70,47 | **Atresia**: a la derecha del globo, donde debería abrirse el conducto, hay solo hueso.
-- La línea blanca y la punteada son la medida del artículo (el diámetro del conducto en su parte medial); la flecha marca el segmento vertical del nervio facial.
+:::imagen ilustraciones/cap01-tc-atresia.jpg ancho=100% id=tc-atresia Tomografía axial de tres oídos derechos, en el mismo plano. A, normal: el conducto, con aire (negro), llega hasta la caja. B, estenosis: el conducto queda reducido a un hilo de aire. C, atresia: donde debería abrirse el conducto hay solo hueso. La línea blanca y la punteada son la medida del artículo (el diámetro del conducto en su parte medial); la flecha marca el segmento vertical del nervio facial. Imagen: Qin FH, Zhang TY, Dai P, Yang L (2015), Clin Exp Otorhinolaryngol, doi:10.3342/ceo.2015.8.4.320, Fig. 2, CC BY-NC 3.0.
 :::
-
 ### Carcinoma del conducto
 
 Es raro, de adultos mayores, y suele ser un carcinoma escamoso. Se presenta como una "otitis externa que no se cura": otorrea con sangre, **dolor que no calza con lo que se ve** y una masa o tejido de granulación que sangra al tocarlo (Ungar y cols., 2021). Al crecer invade el hueso y el oído medio, y puede alcanzar la cóclea y el nervio facial. En una serie de 9 pacientes, 7 tenían hipoacusia y 5 de ellos severa a profunda (Ungar y cols., 2021). Una **parálisis facial** en un oído con otorrea es una señal de alarma que no espera.
@@ -154,8 +146,6 @@ Un paciente con tapón de cerumen en los dos oídos necesita una audiometría pa
 
 {{caso cap01_tapon_cerumen}}
 
-*Otoscopía: OD, Polat, 2021 (CC BY 4.0); OI, Viscaino y Auat Cheein, 2020 (CC0).*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué del relato explica cuándo empezó? ¿Qué te dice la foto del OD sobre la audiometría que trae?
 :::
@@ -172,12 +162,12 @@ Un paciente con tapón de cerumen en los dos oídos necesita una audiometría pa
 
 **Otoscopía.** OD: tapón de cerumen oscuro que ocupa toda la luz; membrana no visible. Sin dolor a la tracción del pabellón. OI: conducto libre, membrana íntegra y translúcida.
 
-:::imagen figuras/salida/cap01_tapon_cerumen_audiosupra.svg ancho=80% Audiometría del profesor: la que trae de la tienda, hecha con el tapón puesto. Conductiva del OD de 25 dB y caída leve en agudos en los dos oídos.
+:::imagen figuras/salida/cap01_tapon_cerumen_audiosupra.svg ancho=100% Audiometría del profesor: la que trae de la tienda, hecha con el tapón puesto. Conductiva del OD de 25 dB y caída leve en agudos en los dos oídos.
 :::
 
 La aérea del OD está en 30 a 35 dB en graves y medios (30 dB en 500 Hz) y la ósea en 5 dB: **25 dB de gap**, todo de transmisión. En los agudos la ósea baja a 20 dB, igual que la aérea del OI: es la edad, y la tienen los dos oídos. El Weber se va al **OD**, el oído del tapón; el Rinne es **negativo** en el OD y positivo en el OI. La logoaudiometría confirma que la cóclea está sana: SDT y SRT de 30 dB en el OD y de 5 dB en el OI, y discriminación de 100 % en los dos (a 70 dB en el OD, con ruido de habla en el OI, y a 40 dB en el OI).
 
-:::imagen figuras/salida/cap01_tapon_cerumen_impedancia.svg ancho=80% Impedanciometría del profesor.
+:::imagen figuras/salida/cap01_tapon_cerumen_impedancia.svg ancho=100% Impedanciometría del profesor.
 :::
 
 La timpanometría del OD no corresponde con el tapón puesto. Si igual se hace, esto es lo que sale, y conviene saber reconocerlo. El OD da una curva **plana**, sin pico, con un volumen de solo 0,44 mL: menos que el mínimo normal de un adulto (0,6 mL; BSA, 2024). La sonda mide el poco aire que hay hasta el cerumen. El OI es A, con 1,17 mL de volumen. Un plano con volumen bajo, distinto del otro oído, es el **tapón**, no el oído medio: no se informa como tipo B. Con la sonda en el OD no hay reflejos. Con la sonda en el OI, el ipsilateral aparece en 85 a 90 dB y el contralateral, que estimula el OD tapado, solo con 115 a 120 dB.
@@ -208,12 +198,12 @@ Expuesto a ruido y con el OI alterado en la audiometría anual: ¿qué causas pl
 
 **Otoscopía.** OD: normal. OI: un cuerpo amarillento y esponjoso, como de espuma, en la parte ósea del conducto; membrana no visible; un rasguño reciente en la entrada. No se lava, no se intenta sacar y no se pone sonda.
 
-:::imagen figuras/salida/cap01_cuerpo_extrano_cae_audiosupra.svg ancho=80% Audiometría de la empresa, con el objeto en el conducto: conductiva leve del OI que crece hacia los agudos; OD normal.
+:::imagen figuras/salida/cap01_cuerpo_extrano_cae_audiosupra.svg ancho=100% Audiometría de la empresa, con el objeto en el conducto: conductiva leve del OI que crece hacia los agudos; OD normal.
 :::
 
 En 250 Hz la aérea del OI está en 15 dB: la oclusión casi no toca los graves. Desde 500 Hz baja a 25 a 30 dB (30 en 2 kHz) y, con la ósea en 0 dB, son 30 dB de gap en los agudos: una conductiva leve que **crece hacia los agudos**. El OD está en 0 dB; esa audición es la que se espera en el OI cuando el conducto quede libre. El Weber se va al **OI**, el oído ocluido, y el Rinne es **negativo** en el OI en las dos frecuencias y positivo en el OD. La palabra lo confirma: SDT de 0 dB en el OD y de 25 dB en el OI, SRT igual, y discriminación de 100 % en los dos oídos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
 
-:::imagen figuras/salida/cap01_cuerpo_extrano_cae_impedancia.svg ancho=80% Impedanciometría de la empresa.
+:::imagen figuras/salida/cap01_cuerpo_extrano_cae_impedancia.svg ancho=100% Impedanciometría de la empresa.
 :::
 
 La sonda solo va en el OD, porque en el OI el conducto está ocluido y el timpanograma no es realizable. El OD tiene una curva A, con volumen de 0,94 mL, compliancia de 1,46 mL y pico en -54 daPa. Sus reflejos ipsilaterales están en 85 a 90 dB, con decay negativo. El contralateral, que estimula el OI, no aparece (NR): el estímulo no pasa por el oído ocluido.
@@ -226,8 +216,6 @@ La sonda solo va en el OD, porque en el OI el conducto está ocluido y el timpan
 :::
 
 {{caso cap01_otitis_externa}}
-
-*Otoscopía: OD, Polat, 2021 (CC BY 4.0); OI, Viscaino y Auat Cheein, 2020 (CC0).*
 
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué te dicen el dolor al masticar y la almohada manchada? ¿Qué buscas antes de acercar el otoscopio?
@@ -274,16 +262,12 @@ Sin conducto, ¿qué tipo de pérdida esperas en el OD? ¿Qué podría hacer que
 
 **Inspección y otoscopía.** OD: pabellón pequeño y malformado; en lugar del conducto, una depresión ciega de piel. OI: normal. La timpanometría del OD **no es realizable**: no hay dónde sellar la sonda.
 
-:::imagen ilustraciones/cap01-foto-atresia-rn.jpg ancho=45% Un recién nacido con atresia del oído derecho. Es otra persona, no el paciente del caso. Imagen: CDC / Dr. James W. Hanson, Public Health Image Library, vía Wikimedia Commons, dominio público.
-- @20,28 | **Microtia**: a la derecha del globo, un pabellón pequeño y malformado, sin entrada al conducto. Es lo que se ve en el OD de Ramón.
-:::
-
-:::imagen figuras/salida/cap01_estenosis_atresia_cae_audiosupra.svg ancho=80% Audiometría de Ramón: aérea del OD en 45 a 55 dB con ósea enmascarada en 0 dB, un gap plano de unos 50 dB; OI normal.
+:::imagen figuras/salida/cap01_estenosis_atresia_cae_audiosupra.svg ancho=100% Audiometría de Ramón: aérea del OD en 45 a 55 dB con ósea enmascarada en 0 dB, un gap plano de unos 50 dB; OI normal.
 :::
 
 La aérea del OD está entre 45 y 55 dB en todas las frecuencias (55 en 1 kHz), con enmascaramiento en el OI. La ósea enmascarada del OD está en **0 dB**: la cóclea derecha es normal. Son unos 50 dB de gap, **planos**: es la pérdida de un conducto que no existe, sin muesca. El OI es normal; es el oído con el que Ramón ha oído siempre. El Weber se va al **OD**, el oído sin conducto, y el Rinne es **negativo** en el OD: frente al pabellón casi no lo oye; en la mastoides, sí. La palabra calza: SDT y SRT de 45 dB en el OD y de 0 dB en el OI, y discriminación de 100 % en los dos (en el OD a 80 dB, con ruido en el OI).
 
-:::imagen figuras/salida/cap01_estenosis_atresia_cae_impedancia.svg ancho=80% Impedanciometría de Ramón.
+:::imagen figuras/salida/cap01_estenosis_atresia_cae_impedancia.svg ancho=100% Impedanciometría de Ramón.
 :::
 
 La sonda solo va en el OI: en el OD no hay conducto y el timpanograma no es realizable. El OI tiene una curva A, con volumen de 0,67 mL, compliancia de 0,68 mL y pico en -73 daPa. Sus reflejos ipsilaterales están en 85 a 90 dB, con decay negativo. El contralateral, que estimula el OD, no aparece (NR): con 50 dB de gap el estímulo no llega a la cóclea derecha.
@@ -314,7 +298,7 @@ Plantea al menos tres causas para una otorrea con sangre que no mejora con gotas
 
 **Otoscopía.** OD: conducto libre, membrana normal. OI: secreción con sangre y mal olor; en la pared del conducto, tejido rojo y friable que sangra al roce del espéculo y no deja ver la membrana. Se retira el otoscopio sin seguir avanzando. No se pone sonda en el OI.
 
-:::imagen figuras/salida/cap01_carcinoma_cae_audiosupra.svg ancho=80% Audiometría del agricultor: pérdida mixta del OI, con aérea de 45 a 70 dB y ósea que cae hasta 55 dB; OD con la caída leve en agudos propia de la edad.
+:::imagen figuras/salida/cap01_carcinoma_cae_audiosupra.svg ancho=100% Audiometría del agricultor: pérdida mixta del OI, con aérea de 45 a 70 dB y ósea que cae hasta 55 dB; OD con la caída leve en agudos propia de la edad.
 :::
 
 La aérea del OI está en 45 dB en 1 kHz y cae a 70 dB en 4 kHz. La ósea enmascarada del OI está en 25 dB en 1 kHz: hay un gap de unos 20 dB, y la ósea también cae, a 55 dB en 4 kHz. La cóclea izquierda está dañada. El OD tiene solo la caída en agudos esperable a su edad (30 dB en 4 kHz); la ósea del OI está muy por debajo de eso. El Weber **no lateraliza**, aunque el OI oye mucho peor: el gap tira hacia el OI y la cóclea más dañada tira hacia el OD, lo que sugiere una pérdida **mixta**. El Rinne es **negativo** en el OI y positivo en el OD. SDT y SRT son de 10 dB en el OD y de 45 dB en el OI; la discriminación llega a 100 % a 40 dB en el OD y solo a **88 % a 80 dB** en el OI, y baja a 82 % a 90 dB. En el OD, los supraliminares dan SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 54,5 a 75 dB, con decay del reflejo negativo.

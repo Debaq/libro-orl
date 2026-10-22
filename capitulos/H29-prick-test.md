@@ -241,7 +241,7 @@ Una prueba cutánea no se informa sola. Una pápula de 3 mm en un paciente sin s
 1. Heinzerling L, Mari A, Bergmann KC, Bresciani M, Burbach G, Darsow U, et al. The skin prick test - European standards. Clin Transl Allergy. 2013;3(1):3. doi:10.1186/2045-7022-3-3. PMID: 23369181.
 1. Bousquet J, Heinzerling L, Bachert C, Papadopoulos NG, Bousquet PJ, Burney PG, et al. Practical guide to skin prick tests in allergy to aeroallergens. Allergy. 2012;67(1):18-24. doi:10.1111/j.1398-9995.2011.02728.x. PMID: 22050279.
 1. Bernstein IL, Li JT, Bernstein DI, Hamilton R, Spector SL, Tan R, et al. Allergy diagnostic testing: an updated practice parameter. Ann Allergy Asthma Immunol. 2008;100(3 Suppl 3):S1-148. doi:10.1016/s1081-1206(10)60305-5. PMID: 18431959.
-1. Powrie K. Adult skin prick testing: standard operating procedure. BSACI Nurses in Allergy Group; 2015 (v7). <!-- verificar: documento de una sociedad, sin DOI ni PMID; leído completo en https://www.bsaci.org/wp-content/uploads/2019/12/AdultSkinPrickTesting1.pdf. -->
+1. Powrie K. Adult skin prick testing: standard operating procedure. BSACI Nurses in Allergy Group; 2015 (v7).
 1. Nevis IF, Binkley K, Kabali C. Diagnostic accuracy of skin-prick testing for allergic rhinitis: a systematic review and meta-analysis. Allergy Asthma Clin Immunol. 2016;12:20. doi:10.1186/s13223-016-0126-0. PMID: 27127526.
 1. Sellaturay P, Nasser S, Ewan P. The incidence and features of systemic reactions to skin prick tests. Ann Allergy Asthma Immunol. 2015;115(3):229-33. doi:10.1016/j.anai.2015.07.005. PMID: 26254972.
 1. Liccardi G, D'Amato G, Canonica GW, Salzillo A, Piccolo A, Passalacqua G. Systemic reactions from skin testing: literature review. J Investig Allergol Clin Immunol. 2006;16(2):75-8. PMID: 16689179.

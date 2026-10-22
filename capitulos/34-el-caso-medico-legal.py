@@ -18,8 +18,11 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 CASOS = [
     cuadro('exagera', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
-                       fig.abr(niveles=(80, 60, 40, 20)),
-                       fig.abr(niveles=(60, 40, 20), estimulo='Burst 500 Hz')],
+                       fig.abr(niveles=(80, 60, 50, 40)),
+                       fig.abr(niveles=(60, 40, 30, 20), estimulo='Burst 500 Hz', ventana=20),
+                       fig.abr(niveles=(60, 40, 30, 20), estimulo='Burst 1 kHz', ventana=15),
+                       fig.abr(niveles=(60, 50, 40, 20), estimulo='Burst 2 kHz'),
+                       fig.abr(niveles=(100, 80, 70, 60), estimulo='Burst 4 kHz')],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=51, sexo='hombre',
            anamnesis="""Tiene 51 años y hace 24 opera una chancadora en una cantera. Hasta hace unos años usó protección
            auditiva solo a ratos. Cuenta que hace tres meses, durante una tronadura, "se le fue el oído derecho" y
@@ -32,7 +35,7 @@ CASOS = [
                      (20, 'Médico laboral: refiere sordera total derecha; se solicita evaluación audiológica médico-legal.')],
            antecedentes=['trauma_acustico']),
     cuadro('hidrops', [fig.audiosupra(), fig.logo(), fig.impedancia(), fig.ecochg(),
-                       fig.abr(niveles=(80, 60, 40))],
+                       fig.abr(niveles=(80, 60, 50, 40, 20, 10))],
            od='normal', oi='meniere', grado_oi='moderada', edad=54, sexo='hombre',
            anamnesis="""Tiene 54 años y hace 26 trabaja como operador de prensa en una metalmecánica, con protección
            auditiva a ratos. Desde hace año y medio tiene episodios de vértigo con náuseas que duran horas, con

@@ -177,24 +177,22 @@ Sin enmascarar, con el OI en 0 dB, un OD realmente sordo habría respondido por 
 
 Lo que sigue son las pruebas que Felipe no gobierna: lo que miden de su oído derecho real.
 
-:::imagen figuras/salida/cap19_unilateral_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap19_unilateral_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Curva A en los dos oídos: el oído medio está sano y los reflejos y las emisiones se pueden leer sin más.
 
 Con la sonda en el OD, el reflejo ipsilateral aparece a **85 dB SPL** en 1.000 Hz (lo mismo en dB HL), a 5 dB del umbral que dijo (80). Un oído con 80 dB de pérdida no dispara el estapedio a 5 dB de su umbral. Con el tono en el OD y la sonda en el OI, el reflejo aparece a 90 dB SPL (unos 83 dB HL): el arco entero, desde el OD, funciona.
 
-:::lado
 :::figura cap19_unilateral teoae
 - @OD 2000 | Las emisiones del OD están **presentes y reproducibles en las cinco bandas** (95 %): las células ciliadas externas funcionan. Con una pérdida coclear de 80 dB no habría nada.
 :::
 :::figura cap19_unilateral dpoae
 - @OD 4000 | Los productos de distorsión pasan en las 7 frecuencias, también en 4 kHz, donde dijo 75 dB.
 :::
-:::
 :::figura cap19_unilateral abr
 - @OD 80 V | La onda V del OD está en su lugar a 80 dB, con I y III bien formadas.
-- @OD 20 V | A **20 dB nHL** el OD todavía muestra onda V, en una latencia alargada, como se espera cerca del umbral (→ H10). La respuesta se repite en las dos réplicas, finas, del registro.
+- @OD 20 V | A **20 dB nHL** el OD todavía muestra onda V, en una latencia alargada, como se espera cerca del umbral (→ H10). La respuesta se repite en las dos réplicas del registro, y a 10 dB nHL todavía responde; a 0 dB nHL no hay respuesta.
 - @OI 20 V | El OI se comporta igual: ambos oídos tienen el mismo umbral objetivo, bien por debajo de lo que dijo el OD.
 :::
 
@@ -235,19 +233,18 @@ Su SRT es de **50 dB en el OD** y de **45 en el OI**, contra promedios tonales d
 
 Y esto es lo que miden de su oído real las pruebas que no dependen de su mano:
 
-:::imagen figuras/salida/cap19_sobre_real_audiosupra.svg ancho=80% Audiometría verdadera del paciente: normal hasta 1 kHz y caída por ruido desde 2 kHz.
+:::imagen figuras/salida/cap19_sobre_real_audiosupra.svg ancho=100% Audiometría verdadera del paciente: normal hasta 1 kHz y caída por ruido desde 2 kHz.
 :::
 
 Esta es la audición verdadera: normal hasta 1 kHz (10 dB), con la caída típica del ruido desde 2 kHz. En 4 kHz el OD está en **65 dB** y el OI en 60; hay una pérdida real de 55 a 65 dB entre 3 y 6 kHz, y la historia de ruido es bilateral. SDT de 5 dB y SRT de 10 dB en los dos oídos, con discriminación de 91 % a 50 dB en el OD y 96 % a 40 dB en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 y 29,5 dB en 4 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap19_sobre_real_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap19_sobre_real_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Curva A en los dos oídos: el oído medio no interviene.
 
 Los reflejos ipsilaterales aparecen de 85 a 95 dB SPL en los dos oídos, muy por debajo de lo que implicarían 85 dB de pérdida.
 
-:::lado
 :::figura cap19_sobre_real teoae
 - @OD 1000 | En el OD pasan **1.000, 1.500 y 2.000 Hz** y no pasan 3.000 y 4.000: justo donde cae el umbral real. Las emisiones respetan la pérdida de agudos y contradicen la de graves.
 - @OI 1000 | El OI muestra lo mismo.
@@ -256,10 +253,9 @@ Los reflejos ipsilaterales aparecen de 85 a 95 dB SPL en los dos oídos, muy por
 - OD: presentes en 3 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en 3 de 7 frecuencias.
 :::
-:::
 :::figura cap19_sobre_real abr
 - @OD 60 V | El umbral de la V al click está en **60 dB nHL**; a 40 dB ya no hay respuesta. El click se parece al umbral de 2 a 4 kHz, que acá es la zona caída.
-- @OI 60 V | El OI responde a 60 y no a 40: umbral objetivo parecido al del otro lado.
+- @OI 60 V | El OI responde a 60 y a 50 dB, y no a 40: su umbral es 5 a 10 dB mejor que el del OD.
 - Ese umbral es bastante mejor que los 80 a 85 dB que dijo (sin restar nHL de HL, → H10), pero **no es normal**: Enrique tiene una pérdida real.
 :::
 
@@ -299,20 +295,18 @@ Tabla: Umbrales aéreos que entrega Marta Sofía (dB HL)
 
 Con la voz, repite palabras desde los **15 dB**, unos 37 dB mejor que su promedio tonal (52 dB en el OD). Nunca tuvo una pérdida de ese tamaño; llegó a la consulta convencida de que sí oye mal.
 
-:::imagen figuras/salida/cap19_nina_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap19_nina_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Curva A en los dos oídos: oído medio sano.
 
 El reflejo ipsilateral del OD aparece a 85 dB SPL en 1.000 Hz. Con 50 dB de pérdida coclear un reflejo así sería posible (el reclutamiento lo adelanta): aquí **no deciden**; las emisiones sí. Con la sonda en el OI, el reflejo contralateral está presente a 90 dB.
 
-:::lado
 :::figura cap19_nina teoae
 - @OD 2000 | Emisiones presentes y reproducibles en las cinco bandas (91 % y 88 % de reproducibilidad): ninguna pérdida coclear mayor.
 :::
 :::figura cap19_nina dpoae
 - @OD 4000 | Los productos de distorsión pasan en todas las frecuencias de los dos oídos.
-:::
 :::
 
 :::docente Guía del caso
@@ -323,7 +317,7 @@ El reflejo ipsilateral del OD aparece a 85 dB SPL en 1.000 Hz. Con 50 dB de pér
 - **Para discutir en clases:** cómo se le dice a los padres; qué se deriva y a quién (pediatría, psicología escolar); qué pasa si se informa mal.
 :::
 
-{{caso cap19_p42}}
+{{caso cap19_parotiditis}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
 Este joven de 22 años dice que **no oye nada** por el oído derecho. ¿Por qué su historia no levanta ninguna sospecha en este caso?
@@ -339,42 +333,43 @@ Si fuera el caso de Felipe, ¿qué esperarías encontrar distinto? Anota cinco d
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap19_p42_audiosupra_2.svg ancho=80% Lo que anota quien no enmascara: el OD responde a 40 dB, con SRT de 45 dB y discriminación de 100 % a 80 dB. Es la curva sombra.
+:::imagen figuras/salida/cap19_parotiditis_audiosupra_2.svg ancho=80% Lo que anota quien no enmascara: el OD responde entre 35 y 50 dB, con SRT de 45 dB y discriminación de 100 % a 90 dB. Es la curva sombra.
 :::
 
-:::imagen figuras/salida/cap19_p42_audiosupra.svg ancho=80% Audiometría con el OI enmascarado: el OD no responde ni a 130 dB y no discrimina nada.
+:::imagen figuras/salida/cap19_parotiditis_audiosupra.svg ancho=100% Audiometría con el OI enmascarado: el OD está en 95 a 105 dB, con la ósea sin respuesta (flechas), SRT de 95 dB y discriminación de 7 % a 90 dB y 27 % a 100 dB.
 :::
 
-Sin enmascarar, el OD responde a **40 dB** (SRT de 45 dB y 100 % de discriminación a 80 dB): es la curva sombra, el oído sano oyendo por el otro lado, y la respuesta no es del OD. El OI es normal (SDT de −5 dB, SRT de 0 dB). Al enmascarar el OI, el OD **no responde ni a la ósea** en el tope del vibrador, ni a 130 dB de voz, y la discriminación es 0 %: es una cófosis verdadera (→ H4), y el SRT y el promedio tonal **coinciden** en que no hay audición.
+Sin enmascarar, el OD responde a **35 a 50 dB** (SRT de 45 dB y 100 % de discriminación a 90 dB): es la curva sombra, el oído sano oyendo por el otro lado, y la respuesta no es del OD. El OI es normal (SDT de −5 dB, SRT de 0 dB). Al enmascarar el OI, el OD sube a **95 a 105 dB** y la ósea no responde en el tope del vibrador; el SRT (95 dB) y el promedio tonal (unos 100 dB) coinciden, y la discriminación apenas llega al 27 % a 100 dB: es una sordera profunda verdadera con restos mínimos (→ H4).
 
-:::imagen figuras/salida/cap19_p42_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap19_parotiditis_impedancia.svg ancho=100% Impedanciometría.
 :::
 
-Curva A en los dos oídos. No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: **todo lo que se estimula por el OD falla**, el patrón aferente. Con el tono en el OI y la sonda en el OD el reflejo aparece (90 dB SPL): el estapedio del OD funciona.
+Curva A en los dos oídos. No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: **todo lo que se estimula por el OD falla**, el patrón aferente. Con el tono en el OI y la sonda en el OD el reflejo aparece (90 a 95 dB SPL): el estapedio del OD funciona.
 
-:::lado
-:::figura cap19_p42 teoae
-- @OD 2000 | **Sin emisiones**: no pasa ninguna banda. La cóclea del OD no amplifica nada.
+:::figura cap19_parotiditis teoae
+- @OD 2000 | **Sin emisiones**: no pasa ninguna banda en el OD. La cóclea del OD no amplifica nada.
 - @OI 2000 | Emisiones presentes en las cinco bandas.
 :::
-:::figura cap19_p42 dpoae
+:::figura cap19_parotiditis dpoae
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
-- OI: presentes en los 7 frecuencias.
+- OI: presentes en las 7 frecuencias.
 :::
+:::figura cap19_parotiditis abr
+- @OD 100 | **Sin enmascarar**, a 100 dB nHL el OD muestra una ondulación a 7,0 ms en las dos réplicas, y a 90 dB otra a 7,5 ms. Es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 de atenuación del inserto) y por eso llega tarde y chica. No se rotula como V: no es del oído que se estudia.
 :::
-:::figura cap19_p42 abr
-- @OD 90 | Sin ondas a 90 dB: solo una deriva lenta de la línea de base. No hay respuesta del tronco.
-- @OI 80 V | El OI con I, III y V claras.
+:::figura cap19_parotiditis abr 2
+- @OD 100 | Con el **OI enmascarado con 55 dB**, la ondulación desaparece: el OD no tiene ondas a ningún nivel. El cálculo es el de la audiometría (→ H4): al OI llegan 100 − 65 = 35 dB, y el umbral óseo del OI es 0, de modo que el ruido mínimo es de 35 dB; el máximo es el umbral óseo del OD más 65, que está sobre los 100 dB. Con 55 dB se queda dentro.
+- @OI 80 V | El OI, con el OD enmascarado, tiene I a 1,5 ms, III a 3,7 y V a 5,6, y la V se sigue hasta 10 dB nHL (8,2 ms); a 0 dB no hay respuesta.
 :::
 
 Un Stenger en este paciente sería **negativo**: el tono de 10 dB sobre el umbral del OI se sigue oyendo aunque el OD reciba el mismo tono 10 dB bajo lo informado, porque el OD no oye nada y el único que oye es el OI.
 
 :::docente Guía del caso
-- **Datos clave:** 22 años, paperas a los 6, no oye nada por el derecho desde entonces, dice que "se acostumbró"; consulta por dificultad para seguir clases en la universidad, sin interés externo de por medio.
-- **Hipótesis:** cófosis posviral, otras causas congénitas o del desarrollo.
+- **Datos clave:** 22 años, paperas a los 6, no oye por el derecho desde entonces, dice que "se acostumbró"; consulta por dificultad para seguir clases en la universidad, sin interés externo de por medio.
+- **Hipótesis:** sordera profunda posviral, otras causas congénitas o del desarrollo.
 - **Qué pedir:** audiometría con y sin enmascarar, logoaudiometría, reflejos, emisiones, PEAT (→ H3, H4, H5, H7, H9, H10).
-- **Qué enseña:** es el contraste. Todo lo que en la pérdida no orgánica no calza aquí calza: curva sombra, SRT coherente con el promedio tonal, reflejo ausente al estimular ese oído, emisiones ausentes, PEAT sin respuesta y Stenger negativo.
-- **Errores esperables:** querer buscar simulación donde no la hay solo por ser unilateral y total; olvidar enmascarar.
+- **Qué enseña:** es el contraste. Todo lo que en la pérdida no orgánica no calza aquí calza: curva sombra, SRT coherente con el promedio tonal, reflejo ausente al estimular ese oído, emisiones ausentes, PEAT sin respuesta con el OI enmascarado (y una V falsa del OI sin enmascarar) y Stenger negativo.
+- **Errores esperables:** querer buscar simulación donde no la hay solo por ser unilateral y total; olvidar enmascarar, también en el PEAT.
 :::
 
 ## Resolución de los casos
@@ -391,6 +386,33 @@ Los datos propios de Felipe se contradicen entre sí: el umbral del mismo tono c
 
 Los umbrales conductuales del oído derecho **no son consistentes ni concordantes con los resultados objetivos**; el umbral objetivo es normal en ambos oídos. Se informa lo medido, sin nombrar una causa, y se sugiere evaluación por otorrinolaringología, que cierra el tema clínico, y la derivación a la instancia que corresponda si el caso es laboral (→ capítulo 34).
 
+:::comentario-ancho Informe de Felipe, 44 años (caso 19.1)
+**Motivo**: "no escucha nada" por el oído derecho desde un golpe en la cabeza hace tres semanas; evaluación pedida por la mutual.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral (el OI oye igual que el OD). En reposo.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,50 | 1,47 | 1,80 / 1,80 |
+| Onda III | 3,67 | 3,73 | 4,05 / 4,14 |
+| Onda V | 5,67 | 5,67 | 6,03 / 6,05 |
+| I-III | 2,17 | 2,26 | 2,45 / 2,61 |
+| III-V | 2,00 | 1,94 | 2,33 / 2,11 |
+| I-V | 4,17 | 4,20 | 4,49 / 4,52 |
+| Diferencia interaural de la V | 0,00 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta.
+
+**Interpretación**: latencias e interpicos normales en los dos oídos, sin diferencia interaural. El umbral objetivo del OD es normal, y concuerdan los reflejos (a 5 dB del umbral que dijo), las emisiones y los productos de distorsión presentes. Los umbrales conductuales del OD (75 a 80 dB HL) no son consistentes entre repeticiones (diferencias de 15 dB) ni con el umbral para la voz (23 dB mejor que el promedio tonal), y no concuerdan con los resultados objetivos.
+
+**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz. Los umbrales conductuales del OD no son consistentes ni concordantes con los resultados objetivos.
+
+**Recomendación**: evaluación por otorrinolaringología; derivación a la instancia que corresponda si el caso es laboral (→ capítulo 34).
+:::
+
 :::ojo Ojo clínico
 Un traumatismo de cráneo sin hemotímpano, sin gap y con TAC normal no deja un oído mudo sin dejar signos. Si el audiograma lo hace, es el audiograma el que tiene que calzar.
 :::
@@ -404,6 +426,33 @@ Enrique tiene una pérdida de verdad, una caída de agudos compatible con 25 añ
 #### Diagnóstico y qué sigue
 
 Pérdida sensorioneural bilateral en agudos de grado moderado, compatible con trauma acústico crónico, con **respuestas conductuales mayores que el umbral objetivo**. En el informe van los dos hechos: la pérdida de agudos documentada por emisiones y PEAT, y la discordancia con las respuestas conductuales. Si se necesita el umbral por frecuencia, se completa con tone burst o estado estable (→ H10, H13).
+
+:::comentario-ancho Informe de Enrique, 52 años (caso 19.2)
+**Motivo**: "casi nada" de audición en los dos oídos durante una reevaluación del puesto de trabajo; 25 años de ruido.
+
+**Registro**: click a 80, 60, 40 y 20 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | no se identifica | 1,90 / 1,91 |
+| Onda III | 4,37 ↑ | 4,17 | 4,16 / 4,22 |
+| Onda V | 6,00 | 5,83 | 6,16 / 6,24 |
+| I-III | no medible | no medible | 2,54 / 2,53 |
+| III-V | 1,63 | 1,66 | 2,17 / 2,33 |
+| I-V | no medible | no medible | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,17 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 60 → 55 | 50 → 45 | hasta 20 dB eHL |
+
+**Morfología**: ondas III y V replicables a 80 dB nHL, V a 60 dB en los dos oídos y V a 50 dB en el OI; la I no se identifica. A 40 dB no hay respuesta.
+
+**Interpretación**: el umbral objetivo, de 55 dB eHL en el OD y 45 en el OI, es mucho mejor que los 80 a 85 dB HL de los umbrales conductuales, pero no es normal. Lo apoyan las emisiones, que pasan hasta 2.000 Hz y no en 3.000 y 4.000 Hz, la zona del click, y la audiometría de la historia de ruido (caída desde 2 kHz). Los umbrales conductuales no son concordantes con los resultados objetivos (SRT unos 33 dB mejor que el promedio tonal).
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral, de aproximadamente 55 dB HL en OD y 45 dB HL en OI, para el rango frecuencial estudiado de 2 a 4 kHz. Los umbrales conductuales (80 a 85 dB HL) son mayores que el umbral objetivo y no son concordantes con él.
+
+**Recomendación**: completar el umbral por frecuencia con tone burst o estado estable (→ H10, H13); comparar con la audiometría de ingreso.
+:::
 
 :::comentario Comentario
 Un informe que dijera "normal" por las emisiones presentes sería un error, y uno que diga "80 dB" también. Escribir las dos cosas es más difícil y es lo correcto.
@@ -427,11 +476,37 @@ En los niños, el tamizaje escolar que "falla" por no responder a ningún tono e
 
 #### Razonamiento
 
-Todo lo que no calzaba en Felipe calza en Matías: curva sombra a 40 dB que desaparece al enmascarar, ósea enmascarada sin respuesta al tope, logoaudiometría sin respuesta en el oído derecho y SRT y promedio tonal que coinciden, reflejo ausente cuando se estimula el OD, emisiones ausentes y PEAT sin ondas. Un oído que no oye produce todo esto sin que nadie lo decida.
+Todo lo que no calzaba en Felipe calza en Carlos: curva sombra de 35 a 50 dB que desaparece al enmascarar, ósea enmascarada sin respuesta al tope, SRT (95 dB) y promedio tonal (unos 100 dB) que coinciden, reflejo ausente cuando se estimula el OD, emisiones ausentes y PEAT sin ondas con el OI enmascarado. Un oído que no oye produce todo esto sin que nadie lo decida. El PEAT también necesita el ruido: sin enmascarar, a 100 dB nHL el OI responde a 35 dB que cruzan el cráneo y deja en el OD una V falsa, tardía, a 7 ms.
 
 #### Diagnóstico y qué sigue
 
-Cófosis derecha, sensorioneural, probablemente posviral (paperas a los 6 años). No hay nada que no calce. Se informa y se deriva a rehabilitación (opciones de transferencia de señal al oído sano, → capítulos 28 y 29).
+Sordera profunda derecha, sensorioneural, probablemente posviral (paperas a los 6 años). No hay nada que no calce. Se informa y se deriva a rehabilitación (opciones de transferencia de señal al oído sano, → capítulos 28 y 29).
+
+:::comentario-ancho Informe de Carlos, 22 años (caso 19.4)
+**Motivo**: sordera derecha desde las paperas a los 6 años; dificultad para seguir clases cuando el profesor habla por el lado derecho.
+
+**Registro**: click a 100 y 90 dB nHL sin enmascarar, y a 100, 80, 60, 40, 20 y 0 dB nHL con el oído contrario enmascarado con ruido de 55 dB (a 100 dB nHL llegan al otro oído unos 35 dB; el ruido mínimo es de 35 dB). Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, impedancias bajo 5 kΩ. En reposo.
+
+**Referencia**: hombre de 18 a 49 años, OI (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,53 | 1,80 |
+| Onda III | no se identifica | 3,67 | 4,14 |
+| Onda V | no se identifica | 5,63 | 6,05 |
+| I-III | no medible | 2,14 | 2,61 |
+| III-V | no medible | 1,96 | 2,11 |
+| I-V | no medible | 4,10 | 4,52 |
+| Umbral con click, enmascarado (dB nHL → dB eHL) | sin respuesta a 100 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: OI con ondas I, III y V replicables, y V hasta 10 dB nHL. OD sin ondas a ningún nivel con enmascaramiento. Sin enmascarar, a 100 y 90 dB nHL aparece en el OD una ondulación replicable a 7,0 y 7,5 ms: no es una onda del OD.
+
+**Interpretación**: la ondulación del OD sin enmascarar es la respuesta del OI, que llega por el cráneo; desaparece con el ruido en el OI. Con el OI enmascarado el OD no responde hasta 100 dB nHL, el máximo del equipo. El resultado coincide con la audiometría enmascarada (95 a 105 dB HL, ósea sin respuesta), las emisiones y los productos de distorsión ausentes y el reflejo ausente al estimular el OD. OI normal.
+
+**Conclusión**: OD sin ondas reconocibles hasta 100 dB nHL con el oído contrario enmascarado, con emisiones ausentes: examen sugiere hipoacusia de grado profundo en OD, para el rango frecuencial estudiado de 2 a 4 kHz. OI con audición normal, de unos 5 dB eHL.
+
+**Recomendación**: rehabilitación auditiva (→ capítulos 28 y 29); proteger el OI.
+:::
 
 :::comentario Comentario
 Este caso importa por lo que **no** pasa: que una pérdida unilateral total no sea sospechosa por sí sola, y que lo que la hace creíble sea la coherencia entre todas las pruebas.
@@ -449,7 +524,7 @@ Niveles de prevención y su marco: → B5.
 
 :::pregunta Preguntas para discutir
 1. ¿Por qué un SRT mucho mejor que el promedio tonal pesa más que una sola repetición distinta?
-2. ¿En qué se parece y en qué se diferencia un Stenger negativo en una cófosis verdadera de uno negativo en una pérdida exagerada?
+2. ¿En qué se parece y en qué se diferencia un Stenger negativo en una sordera profunda verdadera de uno negativo en una pérdida exagerada?
 3. Si el PEAT da 60 dB nHL y el audiograma 85 dB HL, ¿cuál es el umbral del paciente? ¿Qué falta para poder decirlo?
 4. ¿Qué cambia, en el informe y en lo que se le dice a la familia, entre una niña de 11 años y un adulto con una indemnización en juego?
 :::

@@ -72,9 +72,12 @@ class fig:
 
     @staticmethod
     def abr(niveles=(80, 60, 40), estimulo=None, marcar=('I', 'III', 'V'),
-            transductor='insercion', polaridad='alternada', tasa=21.1, promediaciones=None):
+            transductor='insercion', polaridad='alternada', tasa=21.1, promediaciones=None,
+            ventana=None, enmascaramiento=None):
         """transductor: insercion/copa/oseo; polaridad: alternada/condensacion/
-        rarefaccion; tasa en estímulos/s. Lo que no cambia no entra al JSON,
+        rarefaccion; tasa en estímulos/s; ventana en ms (12 si no se da: el burst
+        grave y el lactante piden 15 a 20); enmascaramiento: dB del ruido en el
+        oído contrario (el MKG del panel). Lo que no cambia no entra al JSON,
         así los casos ya armados no se rehacen."""
         f = {'tipo': 'abr', 'niveles': list(niveles), 'marcar': list(marcar)}
         if estimulo:
@@ -87,6 +90,10 @@ class fig:
             f['tasa'] = tasa
         if promediaciones:
             f['promediaciones'] = promediaciones     # cerca del umbral, para que la V se vea
+        if ventana:
+            f['ms_max'] = float(ventana)
+        if enmascaramiento:
+            f['enmascaramiento'] = float(enmascaramiento)
         return f
 
     @staticmethod

@@ -40,8 +40,8 @@
       "niveles": [
         80,
         60,
-        40,
-        20
+        50,
+        40
       ],
       "marcar": [
         "I",
@@ -54,6 +54,7 @@
       "niveles": [
         60,
         40,
+        30,
         20
       ],
       "marcar": [
@@ -61,7 +62,54 @@
         "III",
         "V"
       ],
-      "estimulo": "Burst 500 Hz"
+      "estimulo": "Burst 500 Hz",
+      "ms_max": 20.0
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        60,
+        40,
+        30,
+        20
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "estimulo": "Burst 1 kHz",
+      "ms_max": 15.0
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        60,
+        50,
+        40,
+        20
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "estimulo": "Burst 2 kHz"
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        100,
+        80,
+        70,
+        60
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "estimulo": "Burst 4 kHz"
     }
   ]
 }

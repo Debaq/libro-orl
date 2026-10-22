@@ -27,7 +27,7 @@ CASOS = [
            La enfermera cuenta que la niña lleva un rato tranquila después de mamar y que el equipo de
            tamizaje está listo en la sala.""",
            antecedentes=[]),
-    cuadro('uci', TAMIZ_Y_ABR, od='kernicterus', oi='kernicterus', grado_od='moderada', grado_oi='moderada',
+    cuadro('uci', [fig.teoae(), fig.dpoae(), fig.abr(niveles=(80, 35), marcar=())], od='kernicterus', oi='kernicterus', grado_od='moderada', grado_oi='moderada',
            edad_horas=168, sexo='hombre',
            anamnesis="""Recién nacido de 7 días, hospitalizado en la unidad de cuidados intensivos neonatales desde
            su segundo día de vida. Nació a las 34 semanas, con 2.280 g. A los tres días tuvo una ictericia muy

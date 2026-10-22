@@ -58,15 +58,17 @@ def figura(caso, f):
         curvas = abr.capturar(caso, f.get('oidos', ['OD', 'OI']), f.get('niveles', [80, 60, 40]),
                               estimulo=f.get('estimulo'), promediaciones=f.get('promediaciones', 2000),
                               transductor=f.get('transductor', 'insercion'),
-                              polaridad=f.get('polaridad', 'alternada'), tasa=f.get('tasa', 21.1))
+                              polaridad=f.get('polaridad', 'alternada'), tasa=f.get('tasa', 21.1),
+                              enmascaramiento=f.get('enmascaramiento', 0.0),
+                              ventana=f.get('ms_max', 12.0))
         return abr.dibujar(curvas, marcar=tuple(f.get('marcar', ('I', 'III', 'V'))),
                            ms_max=f.get('ms_max', 12.0))
     if tipo == 'logoaudiometria':
-        return logo.dibujar(caso, enmascarado=f.get('enmascarado', True))
+        return logo.dibujar(caso, enmascarado=f.get('enmascarado', True), compacto=f.get('tomo2', False))
     if tipo == 'teoae':
-        return oae.dibujar_teoae(caso)
+        return oae.dibujar_teoae(caso, compacto=f.get('tomo2', False))
     if tipo == 'dpoae':
-        return oae.dibujar_dpoae(caso)
+        return oae.dibujar_dpoae(caso, compacto=f.get('tomo2', False))
     if tipo == 'ecochg':
         return ecochg.dibujar(caso, nivel=f.get('nivel', 90), ms_max=f.get('ms_max', 5.0))
     if tipo == 'campo_libre':
@@ -119,7 +121,8 @@ def main(patrones):
         for f in spec['figuras']:
             n = vistos[f['tipo']] = vistos.get(f['tipo'], 0) + 1
             nombre = f"{arch.stem}_{f['tipo']}" + (f'_{n}' if n > 1 else '') + '.svg'
-            (SALIDA / nombre).write_text(figura(caso, f), encoding='utf-8')
+            # los casos del tomo II (cap05_..., no h5_...) llevan la logo compacta
+            (SALIDA / nombre).write_text(figura(caso, {**f, 'tomo2': arch.stem.startswith('cap')}), encoding='utf-8')
             hechas.append((arch.stem, nombre))
             print('  ', nombre)
     _hoja()

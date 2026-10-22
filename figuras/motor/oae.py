@@ -32,7 +32,16 @@ def dpoae(caso, lado):
                           ear=lado, case=caso['EOAS'][lado])
 
 
-def _ejes(s, x0, mt, pw, ph, y_min, y_max, titulo, con_numeros):
+# Letra y medidas: las de siempre y, en el tomo II, la compacta (él, 2026-10-21:
+# a media página no se veían). Va a todo el ancho, más baja y con letra que
+# impresa no baja de 8 pt, en negro como las hojas del tomo II.
+NORMAL = dict(eje=E.T_EJE, chico=E.T_CHICO, rotulo=E.T_ROTULO, titulo=E.T_TITULO,
+              tenue=E.TENUE, tinta_2=E.TINTA_2, ph=150, mt=30, f_y=14, eje_y=28, r1=42, r2=54, mb=66)
+COMPACTO = dict(eje=10, chico=9.5, rotulo=10, titulo=11, tenue=E.TINTA, tinta_2=E.TINTA,
+                ph=100, mt=32, f_y=15, eje_y=30, r1=46, r2=59, mb=66)
+
+
+def _ejes(s, x0, mt, pw, ph, y_min, y_max, titulo, con_numeros, m=NORMAL):
     import math
 
     def X(f):
@@ -43,25 +52,26 @@ def _ejes(s, x0, mt, pw, ph, y_min, y_max, titulo, con_numeros):
 
     for f in (500, 1000, 2000, 4000, 8000):
         s.linea(X(f), mt, X(f), mt + ph, E.GRILLA, 1)
-        s.texto(X(f), mt + ph + 14, {1000: '1k', 2000: '2k', 4000: '4k', 8000: '8k'}.get(f, f), E.T_EJE, E.TENUE)
+        s.texto(X(f), mt + ph + m['f_y'], {1000: '1k', 2000: '2k', 4000: '4k', 8000: '8k'}.get(f, f), m['eje'], m['tenue'])
     for db in range(y_min, y_max + 1, 10):
         s.linea(x0, Y(db), x0 + pw, Y(db), E.GRILLA_FUERTE if db == 0 else E.GRILLA, 1)
         if con_numeros:
-            s.texto(x0 - 7, Y(db) + 3, db, E.T_EJE, E.TENUE, 'end')
-    s.texto(x0, mt - 12, titulo, E.T_TITULO, E.TINTA, 'start', 600)
+            s.texto(x0 - 7, Y(db) + m['eje'] * 0.375, db, m['eje'], m['tenue'], 'end')
+    s.texto(x0, mt - 12, titulo, m['titulo'], E.TINTA, 'start', 600)
     return X, Y
 
 
-def dibujar_teoae(caso, oidos=('OD', 'OI')):
+def dibujar_teoae(caso, oidos=('OD', 'OI'), compacto=False):
     """Respuesta y ruido por frecuencia; bandas que pasan = punto lleno."""
-    pw, ph, ml, mt, sep = 230, 150, 40, 30, 34
-    s = Svg(ml + len(oidos) * pw + (len(oidos) - 1) * sep + 12, mt + ph + 66)
+    m = COMPACTO if compacto else NORMAL
+    pw, ph, ml, mt, sep = 230, m['ph'], 40, m['mt'], 34
+    s = Svg(ml + len(oidos) * pw + (len(oidos) - 1) * sep + 12, mt + ph + m['mb'])
     y_min, y_max = -30, 30
     for k, lado in enumerate(oidos):
         col = E.COLOR_LADO[lado]
         r = teoae(caso, lado)
         x0 = ml + k * (pw + sep)
-        X, Y = _ejes(s, x0, mt, pw, ph, y_min, y_max, E.NOMBRE_LADO[lado], k == 0)
+        X, Y = _ejes(s, x0, mt, pw, ph, y_min, y_max, E.NOMBRE_LADO[lado], k == 0, m)
         fs = [(f, rd, nd) for f, rd, nd in zip(r['freqs'], r['spectrum_db'], r['noise_db']) if F_MIN <= f <= F_MAX]
         # ruido: lavado gris desde el piso; respuesta: línea del oído
         piso = [(X(f), Y(y_min)) for f, _, _ in fs]
@@ -78,23 +88,24 @@ def dibujar_teoae(caso, oidos=('OD', 'OI')):
         res = [('Reproducibilidad', f"{r['reproducibility_pct']:.0f} %"),
                ('Bandas que pasan', f"{r['n_pass']} de {len(r['snr_per_band'])}")]
         for i, (rot, val) in enumerate(res):
-            s.texto(x0 + i * pw / 2, mt + ph + 42, rot, E.T_CHICO, E.TENUE, 'start')
-            s.texto(x0 + i * pw / 2, mt + ph + 54, val, E.T_ROTULO, E.TINTA_2, 'start', 600)
-    s.texto(s.ancho / 2, mt + ph + 28, 'Frecuencia (Hz)', E.T_EJE, E.TENUE)
-    s.texto(12, mt + ph / 2, 'dB SPL', E.T_EJE, E.TENUE, extra=f'transform="rotate(-90 12 {mt + ph / 2:.1f})"')
+            s.texto(x0 + i * pw / 2, mt + ph + m['r1'], rot, m['chico'], m['tenue'], 'start')
+            s.texto(x0 + i * pw / 2, mt + ph + m['r2'], val, m['rotulo'], m['tinta_2'], 'start', 600)
+    s.texto(s.ancho / 2, mt + ph + m['eje_y'], 'Frecuencia (Hz)', m['eje'], m['tenue'])
+    s.texto(12, mt + ph / 2, 'dB SPL', m['eje'], m['tenue'], extra=f'transform="rotate(-90 12 {mt + ph / 2:.1f})"')
     return s.svg()
 
 
-def dibujar_dpoae(caso, oidos=('OD', 'OI')):
+def dibujar_dpoae(caso, oidos=('OD', 'OI'), compacto=False):
     """DP-grama: nivel del producto de distorsión sobre el piso de ruido."""
-    pw, ph, ml, mt, sep = 230, 150, 40, 30, 34
-    s = Svg(ml + len(oidos) * pw + (len(oidos) - 1) * sep + 12, mt + ph + 66)
+    m = COMPACTO if compacto else NORMAL
+    pw, ph, ml, mt, sep = 230, m['ph'], 40, m['mt'], 34
+    s = Svg(ml + len(oidos) * pw + (len(oidos) - 1) * sep + 12, mt + ph + m['mb'])
     y_min, y_max = -30, 20
     for k, lado in enumerate(oidos):
         col = E.COLOR_LADO[lado]
         r = dpoae(caso, lado)
         x0 = ml + k * (pw + sep)
-        X, Y = _ejes(s, x0, mt, pw, ph, y_min, y_max, E.NOMBRE_LADO[lado], k == 0)
+        X, Y = _ejes(s, x0, mt, pw, ph, y_min, y_max, E.NOMBRE_LADO[lado], k == 0, m)
         f2 = [float(f) for f in r['f2_list']]
         piso = [(X(f), Y(nf)) for f, nf in zip(f2, r['noise_floors_db_spl'])]
         d = ('M' + ' L'.join(f'{x:.2f},{y:.2f}' for x, y in piso)
@@ -104,11 +115,11 @@ def dibujar_dpoae(caso, oidos=('OD', 'OI')):
         for p in r['points']:
             s.circulo(X(float(p['f2_hz'])), Y(p['dp_db']), 3.8, col, col if p['passed'] else E.PAPEL, 1.4)
             s.ancla(f"{lado} {int(float(p['f2_hz']))}", X(float(p['f2_hz'])), Y(p['dp_db']))
-        s.texto(x0, mt + ph + 42, 'Frecuencias que pasan', E.T_CHICO, E.TENUE, 'start')
-        s.texto(x0, mt + ph + 54, f"{r['n_pass']} de {r['n_total']}  ·  L1/L2 {r['l1_db']:g}/{r['l2_db']:g} dB SPL",
-                E.T_ROTULO, E.TINTA_2, 'start', 600)
-    s.texto(s.ancho / 2, mt + ph + 28, 'f2 (Hz)', E.T_EJE, E.TENUE)
-    s.texto(12, mt + ph / 2, 'dB SPL', E.T_EJE, E.TENUE, extra=f'transform="rotate(-90 12 {mt + ph / 2:.1f})"')
+        s.texto(x0, mt + ph + m['r1'], 'Frecuencias que pasan', m['chico'], m['tenue'], 'start')
+        s.texto(x0, mt + ph + m['r2'], f"{r['n_pass']} de {r['n_total']}  ·  L1/L2 {r['l1_db']:g}/{r['l2_db']:g} dB SPL",
+                m['rotulo'], m['tinta_2'], 'start', 600)
+    s.texto(s.ancho / 2, mt + ph + m['eje_y'], 'f2 (Hz)', m['eje'], m['tenue'])
+    s.texto(12, mt + ph / 2, 'dB SPL', m['eje'], m['tenue'], extra=f'transform="rotate(-90 12 {mt + ph / 2:.1f})"')
     return s.svg()
 
 

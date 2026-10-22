@@ -41,6 +41,38 @@
         "III",
         "V"
       ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        100,
+        90,
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "enmascaramiento": 55.0,
+      "oidos": [
+        "OD"
+      ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "tasa": 81.1,
+      "oidos": [
+        "OI"
+      ]
     }
   ]
 }

@@ -159,7 +159,7 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 
 El reflejo es simétrico en los seis canales.
 
-:::imagen figuras/salida/cap22_posterior_audiosupra.svg ancho=80% Audiometría de Luisa: pérdida descendente y simétrica en agudos, de 35 dB en 2 kHz a 70 dB en 6 kHz, con la ósea pegada a la aérea. Una audición simétrica no tiene que ver con el vértigo de hoy.
+:::imagen figuras/salida/cap22_posterior_audiosupra.svg ancho=100% Audiometría de Luisa: pérdida descendente y simétrica en agudos, de 35 dB en 2 kHz a 70 dB en 6 kHz, con la ósea pegada a la aérea. Una audición simétrica no tiene que ver con el vértigo de hoy.
 :::
 
 Presbiacusia **sensorioneural descendente y simétrica**, la que explica que oiga menos en lugares con ruido. SDT de 5 dB y SRT de 10 dB en los dos oídos, y discriminación de 92 %, a 50 dB.
@@ -242,7 +242,7 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 
 El reflejo es simétrico en los seis canales.
 
-:::imagen figuras/salida/cap22_geotropico_audiosupra.svg ancho=80% Audiometría de Rafael: audición normal en los dos oídos, y discriminación de 100 %. En un VPPB lateral la audiometría no aporta nada al diagnóstico.
+:::imagen figuras/salida/cap22_geotropico_audiosupra.svg ancho=100% Audiometría de Rafael: audición normal en los dos oídos, y discriminación de 100 %. En un VPPB lateral la audiometría no aporta nada al diagnóstico.
 :::
 
 SDT de −5 dB y SRT de 0 dB en los dos oídos, con discriminación de 100 %.
@@ -326,7 +326,7 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 
 El reflejo es simétrico en los seis canales.
 
-:::imagen figuras/salida/cap22_apogeotropico_audiosupra.svg ancho=80% Audiometría de Rosa: presbiacusia descendente y simétrica, como en el caso 22.1. No explica el vértigo ni cambia la maniobra.
+:::imagen figuras/salida/cap22_apogeotropico_audiosupra.svg ancho=100% Audiometría de Rosa: presbiacusia descendente y simétrica, como en el caso 22.1. No explica el vértigo ni cambia la maniobra.
 :::
 
 SDT de 10 dB y SRT de 15 dB en los dos oídos, con discriminación de 92 % en el OI y 88 % en el OD, a 40-60 dB.
@@ -429,7 +429,7 @@ Según parámetro de VCL: hipoexcitabilidad vestibular de **1 %** y dirección p
 
 cVEMP de **285 µV** (**5,76** corregida) en el OD y **281 µV** (**5,66**) en el OI, asimetría de **1 %**. oVEMP de **22 µV** (**0,51**) y **23 µV** (**0,54**), asimetría de **2 %**. Simétricos y normales.
 
-:::imagen figuras/salida/cap22_central_audiosupra.svg ancho=80% Audiometría de Felipe: audición normal para su edad, con discriminación de 100 %. Un audiograma normal no tranquiliza: el cerebelo y el tronco no se miden con tonos.
+:::imagen figuras/salida/cap22_central_audiosupra.svg ancho=100% Audiometría de Felipe: audición normal para su edad, con discriminación de 100 %. Un audiograma normal no tranquiliza: el cerebelo y el tronco no se miden con tonos.
 :::
 
 SDT de 0 dB y SRT de 5 dB en los dos oídos, con discriminación de 100 %.

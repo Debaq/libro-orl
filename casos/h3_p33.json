@@ -5,7 +5,8 @@
       "tipo": "audiograma",
       "estudio": false,
       "ldl": false,
-      "sin_enmascarar": false
+      "sin_enmascarar": false,
+      "clinico": false
     }
   ]
 }

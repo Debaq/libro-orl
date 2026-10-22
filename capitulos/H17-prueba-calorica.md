@@ -37,7 +37,7 @@ El canal semicircular lateral es un tubo en anillo, lleno de endolinfa, con una 
 
 Aquí empieza la física. La endolinfa que se calienta se dilata y pesa menos, y **sube**; la que se enfría pesa más y **baja**. Si el canal está en un plano **vertical**, esa diferencia de peso entre el lado del oído y el lado interno del anillo mueve el líquido por todo el canal, como una corriente de convección. La cúpula se dobla (Fitzgerald y Hallpike, 1942; Shepard y Jacobson, 2016).
 
-:::imagen ilustraciones/h17-conveccion.svg Convección de la endolinfa en el canal lateral puesto de pie (visto de costado, con el oído a la derecha de cada dibujo). A: con agua tibia, la endolinfa del lado del oído se calienta y sube hacia la ampolla, que está arriba: el estímulo es excitatorio. B: con agua fría baja, se aleja de la ampolla: inhibe.
+:::imagen ilustraciones/h17-conveccion.svg Convección de la endolinfa en el canal lateral puesto de pie (visto de costado, con el oído a la derecha de cada dibujo). A: con agua tibia, la endolinfa del lado del oído se calienta y sube hacia la ampolla, que está arriba: el estímulo es excitatorio. B: con agua fría baja, se aleja de la ampolla: inhibe. Imagen propia del libro.
 :::
 
 El sentido de la corriente tiene una consecuencia: en el canal **lateral**, el movimiento de la endolinfa **hacia la ampolla** (ampulípeto) excita, y el movimiento **alejándose de ella** (ampulífugo) inhibe. Por eso el agua **tibia excita** al canal del oído irrigado y la **fría lo inhibe**.
@@ -163,7 +163,7 @@ La **prueba mínima con agua helada** nació para saber con poca molestia si un 
 Cuando la respuesta horizontal se desorganizó, el protocolo lleva la cabeza a **30° de anteroflexión** para poner en el plano de la estimulación el **canal posterior**, y se espera un nistagmo **rotatorio u oblicuo**. Se anota cuánto dura. Una diferencia de duración de **15 segundos o más** entre los dos oídos se toma como una hipofunción del lado más corto.
 
 :::comentario Lo que dicen las normas
-La calórica **estándar estudia solo el canal lateral**. Los canales verticales no se estimulan de manera fiable con una irrigación, porque su posición y su relación con el hueso no permiten una convección clara. Que un nistagmo calórico del canal posterior pueda medirse y que 15 segundos de diferencia sean un límite de normalidad **no tiene respaldo en la literatura revisada para este capítulo** <!-- verificar: no hay norma publicada del criterio de duración ≥ 15 s ni de la calórica del canal posterior -->. En este libro se enseña como el protocolo: se mide y se anota, pero se informa como **dato complementario**. Para los canales verticales se usa el vHIT (→ H18).
+La calórica **estándar estudia solo el canal lateral**. Los canales verticales no se estimulan de manera fiable con una irrigación, porque su posición y su relación con el hueso no permiten una convección clara. Que un nistagmo calórico del canal posterior pueda medirse y que 15 segundos de diferencia sean un límite de normalidad **no tiene respaldo en la literatura revisada para este capítulo**. En este libro se enseña como el protocolo: se mide y se anota, pero se informa como **dato complementario**. Para los canales verticales se usa el vHIT (→ H18).
 :::
 
 ### 6. Revisa y edita el registro

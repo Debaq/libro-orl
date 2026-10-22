@@ -123,30 +123,54 @@ def segmentos(tomo=None, caps=None):
         parte = partes.get(cap)
         capitulos.append((cap, titulo, parte))
         if (tomo and H.tomo_de(cap) != tomo) or (caps and cap not in caps):
+            if tomo == 'II' and not caps and H.tomo_de(cap) == 'I':
+                _solo_creditos(cap, md)
             continue
         sep = ''
         if parte and parte != parte_actual:
             sep = H.separador(parte)
             parte_actual = parte
         out.append((cap, f'<div class="cuerpo">{sep}{H.capitulo(md)}</div>', bool(sep)))
-    # Créditos de las imágenes del tomo II, al final (H.CREDITOS lo llenó capitulo())
-    if (tomo in (None, 'II')) and not caps:
+    # Créditos de las imágenes, al final del tomo II (H.CREDITOS lo llenó capitulo()).
+    # Los del tomo I van también a ese índice (él, 2026-10-22: "lo mandas al
+    # índice del tomo II"); el tomo I no lleva índice propio.
+    if tomo in (None, 'II') and not caps:
         creditos = creditos_html()
         if creditos:
             out.append(('creditos', f'<div class="cuerpo">{creditos}</div>', False))
     return out, capitulos
 
 
-def creditos_html():
-    """Índice de créditos de las imágenes del tomo II: por capítulo, el número
+def _solo_creditos(cap, md):
+    """Un capítulo del tomo I en un armado del tomo II: solo para que sus créditos
+    entren al índice. Si el capítulo falla, el tomo II no se detiene por él."""
+    try:
+        H.capitulo(md)
+    except BaseException as e:  # SystemExit también (p. ej. un globo sin ancla)
+        print(f'  aviso: créditos de {cap} sin leer ({e})', file=sys.stderr)
+
+
+def _orden_credito(cap):
+    return ({'B': 0, 'H': 1}.get(cap[:1], 2), int(re.sub(r'\D', '', cap) or 0))
+
+
+def _rotulo_credito(cap):
+    return {'B': 'Base ', 'H': 'Herramienta '}.get(cap[:1], 'Capítulo ') + cap
+
+
+def creditos_html(tomo=None):
+    """Índice de créditos de las imágenes (tomo None: de la obra entera, que es el
+    del final del tomo II): por capítulo, el número
     de la figura y su fuente, autores y licencia (sacados del pie)."""
     import html as html_mod
     bloques = []
-    for cap in sorted((c for c in H.CREDITOS if H.CREDITOS[c] and H.tomo_de(c) == 'II'), key=lambda c: int(c)):
-        filas = ''.join(f'<p><strong>Figura {html_mod.escape(n)}.</strong> '
+    for cap in sorted((c for c in H.CREDITOS if H.CREDITOS[c] and (tomo in (None, H.tomo_de(c)))), key=_orden_credito):
+        # n es el número de la figura ("5.3") o, en las otoscopías de las
+        # fichas, el rótulo entero ("Caso 5.1, otoscopía OD")
+        filas = ''.join(f'<p><strong>{"" if n.startswith("Caso") else "Figura "}{html_mod.escape(n)}.</strong> '
                         f'{html_mod.escape(re.sub(r"^Imagen:[ ]*", "", cr))}</p>'
                         for n, cr in H.CREDITOS[cap])
-        bloques.append(f'<h3>Capítulo {cap}</h3>{filas}')
+        bloques.append(f'<h3>{_rotulo_credito(cap)}</h3>{filas}')
     if not bloques:
         return ''
     return ('<section class="creditos" id="creditos-imagenes"><h1 class="prelim">Créditos de las imágenes</h1>'

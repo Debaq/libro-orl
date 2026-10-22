@@ -49,7 +49,7 @@ La nariz tiene una parte externa, de hueso y cartílago, y una cavidad interna d
 
 Pegados a la pared lateral están los **cornetes**, tres láminas curvas de hueso cubiertas de mucosa. Bajo cada uno hay un **meato**, un pasaje por donde circula el aire y por donde desembocan las vías de drenaje: bajo el cornete inferior, el conducto nasolagrimal; bajo el medio, los senos maxilar, frontal y las celdillas etmoidales anteriores; bajo el superior, las celdillas etmoidales posteriores. El cornete **inferior** es el más grande y el más importante para el flujo, y su cabeza es lo primero que se ve al mirar con el espéculo.
 
-:::imagen ilustraciones/h25-fosa-lateral.svg ancho=100% Pared lateral de la fosa nasal derecha, con el tabique imaginariamente retirado. Se ven el vestíbulo, la válvula nasal (línea roja punteada), los tres cornetes con sus meatos, la hendidura olfatoria bajo la lámina cribosa (amarillo), la coana y, ya en la nasofaringe, la boca de la trompa de Eustaquio. Los senos aparecen solo como referencia.
+:::imagen ilustraciones/h25-fosa-lateral.svg ancho=100% Pared lateral de la fosa nasal derecha, con el tabique imaginariamente retirado. Se ven el vestíbulo, la válvula nasal (línea roja punteada), los tres cornetes con sus meatos, la hendidura olfatoria bajo la lámina cribosa (amarillo), la coana y, ya en la nasofaringe, la boca de la trompa de Eustaquio. Los senos aparecen solo como referencia. Imagen propia del libro.
 - @17,55 | **Entrada.** El vestíbulo tiene pelos y piel; la rinoscopía arranca aquí, con la punta del espéculo apenas pasada la narina.
 - @24,55 | **Válvula nasal.** La zona más angosta de la vía aérea. Si el pasaje se estrecha aquí, se nota más que en cualquier otro punto.
 - @34,62 | **Cornete inferior.** Su cabeza es lo primero que ves; su mucosa se hincha y se deshincha (ciclo nasal).
@@ -58,7 +58,7 @@ Pegados a la pared lateral están los **cornetes**, tres láminas curvas de hues
 :::
 
 :::ayuda Qué se ve desde delante
-Con el espéculo, y la cabeza recta, ves el **vestíbulo**, el piso de la fosa, el tercio anterior del tabique y la **cabeza del cornete inferior**. Con la cabeza extendida aparece el **cornete medio** y la entrada del meato medio. El resto de la fosa (meato medio profundo, hendidura olfatoria, coana, nasofaringe) queda fuera de alcance. <!-- verificar: lo que se ve en cada posición varía con la forma de la nariz y del espéculo; la descripción es la habitual de los textos de exploración, no una medida. -->
+Con el espéculo, y la cabeza recta, ves el **vestíbulo**, el piso de la fosa, el tercio anterior del tabique y la **cabeza del cornete inferior**. Con la cabeza extendida aparece el **cornete medio** y la entrada del meato medio. El resto de la fosa (meato medio profundo, hendidura olfatoria, coana, nasofaringe) queda fuera de alcance. Lo que se ve en cada posición varía con la forma de la nariz y del espéculo: es la descripción habitual de los textos de exploración (criterio del libro), no una medida.
 :::
 
 ### La válvula nasal: donde se decide el paso del aire
@@ -70,7 +70,7 @@ La física de ese punto cabe en dos ideas:
 - **El radio manda, y manda mucho.** En un tubo rígido con flujo laminar, la ley de Poiseuille dice que la resistencia crece con la **inversa del radio a la cuarta**: si el radio baja a la mitad, la resistencia se multiplica por 16. La nariz no es un tubo rígido ni su flujo es del todo laminar (en la nariz real, la relación entre presión y flujo tiene un término lineal y otro cuadrático), pero la **tendencia** es la misma: un pasaje que se estrecha un poco cuesta mucho más aire (Cole, 2000). Por eso una desviación pequeña **en la zona valvular** molesta más que una grande al fondo de la fosa.
 - **El aire rápido tira de las paredes blandas.** Cuando un fluido pasa por un estrechamiento, su velocidad sube y su presión lateral baja (efecto Bernoulli o Venturi). En la inspiración forzada, esa presión baja actúa sobre la pared lateral de la nariz: si el cartílago es débil o está debilitado (por una cirugía, un golpe o la edad), la pared se **colapsa hacia dentro** y cierra el pasaje (Rhee y cols., 2010). Es lo que le pasa a algunos pacientes cuando hacen ejercicio o inspiran fuerte.
 
-:::imagen ilustraciones/h25-valvula.svg ancho=100% La válvula nasal en tres miradas. A: el ángulo agudo que forman el tabique y el cartílago lateral superior. B: resistencia contra radio en un tubo rígido de flujo laminar; el punto rojo de la izquierda es el pasaje reducido a la mitad (16 veces más resistencia). C: en un estrechamiento el aire se acelera y su presión lateral baja; si la pared es blanda, se colapsa en la inspiración.
+:::imagen ilustraciones/h25-valvula.svg ancho=100% La válvula nasal en tres miradas. A: el ángulo agudo que forman el tabique y el cartílago lateral superior. B: resistencia contra radio en un tubo rígido de flujo laminar; el punto rojo de la izquierda es el pasaje reducido a la mitad (16 veces más resistencia). C: en un estrechamiento el aire se acelera y su presión lateral baja; si la pared es blanda, se colapsa en la inspiración. Imagen propia del libro.
 :::
 
 Dos consecuencias para el examen:
@@ -86,7 +86,7 @@ La mucosa del cornete inferior no es una película: tiene debajo una red de **si
 - **La nariz se tapa y se destapa sola.** En muchas personas, los cornetes de una fosa se hinchan mientras los de la otra se encogen, y vuelven a cambiar al cabo de unas horas. Es el **ciclo nasal** (Hasegawa y Kern, 1977; Eccles, 1996). La **resistencia total** de las dos fosas juntas cambia mucho menos que la de cada una (Hasegawa y Kern, 1977). Cuánta gente lo tiene depende de cómo se defina: con un criterio amplio fue el 72 % (Hasegawa y Kern, 1977) y con uno estricto de alternancia regular, el 21 % (Flanagan y Eccles, 1997). La duración y la regularidad varían de una persona a otra. <!-- Pasada de fundamentos 2026-10-18: decía "En la mayoría de las personas". Se cambió a "En muchas" y se agregaron las dos cifras, que dependen de la definición (resúmenes de Hasegawa y Kern 1977 y de Flanagan y Eccles 1997). -->
 - **Un lado más hinchado que el otro no es una enfermedad.** En la rinoscopía puedes ver un cornete grande en una fosa y uno chico en la otra, y no por eso hay un problema. Se compara el **conjunto**, se pregunta si la obstrucción cambia de lado y, si de verdad importa, se repite la medida (→ H26).
 
-:::imagen ilustraciones/h25-ciclo-corte.svg ancho=96% El ciclo nasal. Dos cortes frontales de la nariz, vistos desde delante: en A el cornete inferior de la fosa derecha está congestionado y el aire pasa sobre todo por la izquierda; unas horas después, B, se invierte. El flujo de cada lado cambia; la suma de los dos, mucho menos.
+:::imagen ilustraciones/h25-ciclo-corte.svg ancho=96% El ciclo nasal. Dos cortes frontales de la nariz, vistos desde delante: en A el cornete inferior de la fosa derecha está congestionado y el aire pasa sobre todo por la izquierda; unas horas después, B, se invierte. El flujo de cada lado cambia; la suma de los dos, mucho menos. Imagen propia del libro.
 :::
 
 ### Cómo acondiciona el aire la nariz
@@ -182,14 +182,14 @@ La rinoscopía puede partir desde los 10 minutos de aclimatación: la anamnesis 
 :::comentario Lo que dicen las normas
 Para la rinomanometría, el consenso internacional pide medir con el paciente sentado y después de un periodo de **adaptación de 20 a 30 minutos** (Clement y Gordts, 2005), más largo que los 15 minutos de este libro; su efecto sobre la mucosa se trata en H26 y H27. <!-- Pasada de fundamentos 2026-10-18: el verificar decía "se recuerda 15 minutos". El texto completo del consenso (sección Measurement procedure) dice "after an adaptation period of 20-30 minutes". -->
 
-Sobre la **limpieza del espéculo**: las guías de desinfección clasifican como **semicríticos** los instrumentos que tocan mucosa intacta, y para ellos piden, como mínimo, desinfección de alto nivel (Rutala y Weber, 2008). Limpiar con alcohol y algodón, como se hace habitualmente, retira la secreción a la vista pero **no basta** para ese nivel: lo que valga en tu centro lo define su norma de control de infecciones. Una alternativa es usar espéculos desechables. <!-- verificar: la clasificación del espéculo nasal como semicrítico o no crítico depende de la guía local; confirmar en Rutala y Weber 2008 (CDC/HICPAC). -->
+Sobre la **limpieza del espéculo**: las guías de desinfección clasifican como **semicríticos** los instrumentos que tocan mucosa intacta, y para ellos piden, como mínimo, desinfección de alto nivel (Rutala y Weber, 2008). Limpiar con alcohol y algodón, como se hace habitualmente, retira la secreción a la vista pero **no basta** para ese nivel: lo que valga en tu centro lo define su norma de control de infecciones. Una alternativa es usar espéculos desechables.
 :::
 
 ### Conoce tu equipo
 
 El equipo de la rinoscopía anterior son tres elementos, todos de uso manual.
 
-:::imagen ilustraciones/h25-equipo.svg ancho=100% Espéculo nasal bivalvo, espejo frontal y lámpara de cuello flexible. A la izquierda, el espéculo con las valvas abiertas y, abajo, visto de frente. En el centro, el espejo frontal, cóncavo y con un orificio. A la derecha, la lámpara. 
+:::imagen ilustraciones/h25-equipo.svg ancho=100% Espéculo nasal bivalvo, espejo frontal y lámpara de cuello flexible. A la izquierda, el espéculo con las valvas abiertas y, abajo, visto de frente. En el centro, el espejo frontal, cóncavo y con un orificio. A la derecha, la lámpara. Imagen propia del libro.
 - @9,22 | **Valvas.** Entran en el vestíbulo y se abren apenas: lo justo para ver. Si las apoyas en el tabique, duele.
 - @27,31 | **Resorte y mangos.** Quedan en la mano izquierda; al soltar, las valvas se cierran.
 - @47,15 | **Espejo frontal.** Mira por el agujero central; la luz de la lámpara rebota en el espejo y cae en la nariz, en el mismo eje que tu vista.
@@ -231,7 +231,7 @@ La anamnesis de este libro es **cualitativa**: se pregunta si el síntoma existe
 
 - **NOSE** (Nasal Obstruction Symptom Evaluation): cinco ítems (congestión o sensación de nariz llena, bloqueo u obstrucción, dificultad para respirar por la nariz, dificultad para dormir y falta de aire por la nariz al hacer ejercicio), cada uno de 0 a 4; la suma se multiplica por 5 y da un puntaje de 0 a 100 (Stewart y cols., 2004).
 - **SNOT-22** (Sinonasal Outcome Test): mide el efecto de la enfermedad de la nariz y los senos sobre la persona, no solo la obstrucción. Tiene 22 ítems, cada uno de 0 a 5, y el puntaje total va de 0 a 110: más alto es peor. Sus ítems cubren síntomas de la nariz (congestión, secreción espesa, goteo posterior, necesidad de sonarse, disminución del olfato o del gusto), del oído y la cara, del sueño y del ánimo; el análisis por dominios los agrupa en cinco: rinológico, rinológico extranasal, oído y cara, psicológico y sueño (Lang y cols., 2025; Chowdhury y cols., 2019). Se validó en 3.128 adultos que iban a cirugía por rinosinusitis crónica y poliposis; distinguió a los enfermos de los controles sanos, su variación mínima percibida por el paciente fue de 8,9 puntos y el puntaje bajó de forma significativa a los 3 meses de la operación (Hopkins y cols., 2009). Para ubicar un puntaje se usa la estratificación de Toma y Hopkins (2016): **leve** de 8 a 20, **moderado** de más de 20 hasta 50 y **grave** sobre 50; la propusieron en 65 pacientes con rinosinusitis crónica y la ligaron a la clasificación leve-moderada-grave de la guía europea. Sirve para comparar antes y después de un tratamiento y para describir cuánto pesa la enfermedad; no diagnostica por sí solo. Para la obstrucción nasal sola, el NOSE es más corto y más específico.
-- **Escala visual análoga** de obstrucción, de 0 a 10, la más rápida de aplicar. <!-- verificar: sin fuente de validación citada. -->
+- **Escala visual análoga** de obstrucción, de 0 a 10, la más rápida de aplicar; se ha usado para graduar la gravedad de la rinitis (Bousquet PJ y cols., 2007).
 
 En este libro no se exige ninguna. Si tu centro usa una, regístrala; es una forma de que el síntoma quede en un número.
 :::
@@ -248,7 +248,7 @@ Se mira la cara en busca de algo que no esté simétrico: la **órbita, la nariz
 Siempre se **avisa** antes de tocar y se compara con el lado contrario: el dolor es lo que el paciente dice, no lo que tú ves.
 
 :::comentario Lo que dicen las normas
-El dolor a la palpación de los senos tiene **poco valor diagnóstico** por sí solo: las guías basan el diagnóstico de la rinosinusitis en los **síntomas** y no en lo que se siente al presionar (Fokkens y cols., 2020; Rosenfeld y cols., 2015). <!-- verificar: la guía no dice textualmente que la palpación sea de poco valor; es la lectura habitual de sus criterios diagnósticos (síntomas ± endoscopia o imagen). Confirmar en EPOS 2020. --> En este libro la palpación se hace igual, porque es parte del examen físico y porque el dolor focal orienta, pero se anota como un dato más y no como un diagnóstico.
+El dolor a la palpación de los senos tiene **poco valor diagnóstico** por sí solo: las guías basan el diagnóstico de la rinosinusitis en los **síntomas** y no en lo que se siente al presionar (Fokkens y cols., 2020; Rosenfeld y cols., 2015). Que la palpación valga poco es la lectura del libro de esos criterios, que se basan en síntomas. En este libro la palpación se hace igual, porque es parte del examen físico y porque el dolor focal orienta, pero se anota como un dato más y no como un diagnóstico.
 :::
 
 ### 3. Inspección del vestíbulo
@@ -270,7 +270,7 @@ La rinoscopía sigue siempre el mismo orden, y el porqué de cada paso es lo que
 7. **Déjalo en la bandeja sucia**, apaga la lámpara y retira el espejo frontal.
 8. **Informa** al docente lo que viste: el estado de las fosas y de la mucosa. Después se limpia el espéculo (→ "Antes de empezar").
 
-:::imagen ilustraciones/h25-posiciones.svg ancho=100% Hasta dónde llega la mirada. Cabeza recta (0°): el piso de la fosa, la cabeza del cornete inferior y el tabique. A 30° de extensión: el cornete medio y la entrada del meato medio. A 60°: el techo de la fosa y la parte alta del tabique. La luz entra por el vestíbulo, y al extender la cabeza la línea de visión sube dentro de la nariz.
+:::imagen ilustraciones/h25-posiciones.svg ancho=100% Hasta dónde llega la mirada. Cabeza recta (0°): el piso de la fosa, la cabeza del cornete inferior y el tabique. A 30° de extensión: el cornete medio y la entrada del meato medio. A 60°: el techo de la fosa y la parte alta del tabique. La luz entra por el vestíbulo, y al extender la cabeza la línea de visión sube dentro de la nariz. Imagen propia del libro.
 :::
 
 <!-- verificar: la correspondencia posición de la cabeza -> estructuras vistas es la que describe la enseñanza clásica de la rinoscopía anterior; no se encontró una cita primaria que fije qué se ve exactamente a 30° y a 60°. La figura es un esquema. -->
@@ -410,3 +410,4 @@ Una nariz **tapada de un solo lado y siempre del mismo**, sobre todo si hay sang
 1. Keck T, Leiacker R, Heinrich A, Kühnemann S, Rettinger G. Humidity and temperature profile in the nasal cavity. Rhinology. 2000b;38(4):167-71. PMID: 11190750
 1. Fahy JV, Dickey BF. Airway mucus function and dysfunction. N Engl J Med. 2010;363(23):2233-47. doi:10.1056/NEJMra0910061. PMID: 21121836
 1. Solé D, Kuschnir FC, Pastorino AC, Constantino CF, Galvão C, Chong E Silva DC, et al. V Brazilian Consensus on Rhinitis - 2024. Braz J Otorhinolaryngol. 2025;91(1):101500. doi:10.1016/j.bjorl.2024.101500. PMID: 39388827
+1. Bousquet PJ, Combescure C, Neukirch F, Klossek JM, Mechin H, Daures JP, et al. Visual analog scales can assess the severity of rhinitis graded according to ARIA guidelines. Allergy. 2007;62(4):367-72.

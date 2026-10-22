@@ -1,0 +1,61 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 0,
+    "sexo": "hombre",
+    "edad_valor": 2050,
+    "edad_unidad": "horas",
+    "semilla": 31,
+    "anamnesis": {
+      "otros": "Tiene 12 semanas y viene con sus papás. Nació de término, con 3.400 g, sin UCI. En el tamizaje con emisiones, a las 36 horas, el oído izquierdo refirió; al repetirlo antes del alta volvió a referir. La mamá cuenta que se asusta con los portazos y que se calma cuando ella le habla. No hay sordera en la familia. Lo derivan para un PEAT de diagnóstico.",
+      "historia": "{{-84}} Tamizaje con emisiones: OD pasa, OI refiere; se repite antes del alta y vuelve a referir.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        40,
+        20
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        40,
+        20,
+        10
+      ],
+      "marcar": [
+        "V"
+      ],
+      "estimulo": "Burst 1",
+      "ms_max": 20.0
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        40,
+        20,
+        10,
+        0
+      ],
+      "marcar": [
+        "V"
+      ],
+      "estimulo": "Burst 4 kHz"
+    }
+  ]
+}

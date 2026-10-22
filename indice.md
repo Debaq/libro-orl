@@ -502,6 +502,22 @@ Presión positiva continua (CPAP, AutoCPAP, BiPAP): principio, interfaces, titul
   - Rinitis alérgica
   - Hipertrofia de cornetes
 
+### 37. Nariz y pulmón
+- **Técnica en foco** (→ H30): espirometría según el manual SER Chile 2024
+- **Fisiología:** vía aérea única (nariz, bronquios); curva flujo-volumen y dónde se limita el flujo
+- **Casos:**
+  - Rinitis alérgica con asma: obstrucción que responde al broncodilatador
+  - Estenosis de la vía aérea alta: la forma de la curva flujo-volumen
+
+### 38. El que ronca
+- **Técnica en foco** (→ H31, H32): poligrafía respiratoria y polisomnografía
+- **Fisiología:** el colapso de la vía aérea superior durante el sueño; la nariz en el SAOS
+- **Casos:**
+  - Poligrafía: roncador simple
+  - Poligrafía: SAOS moderado con obstrucción nasal
+  - Polisomnografía: SAOS grave
+  - Polisomnografía: cuando la poligrafía no alcanza
+
 ## Parte XIII — Casos integradores
 Los diez pacientes de práctica (33-42) otra vez, sin título ni pistas: la ficha
 de estudio como la ve el alumno, y la resolución al final. Cada resolución remite

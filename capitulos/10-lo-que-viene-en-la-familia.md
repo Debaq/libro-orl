@@ -141,16 +141,10 @@ Como es coclear, las emisiones están ausentes y el oído medio es normal. Una f
 
 ### Pendred y el acueducto vestibular dilatado
 
-El **acueducto vestibular** es un canal óseo fino que lleva el conducto endolinfático desde el vestíbulo hasta el saco endolinfático. Cuando está dilatado, se ve en la tomografía o la resonancia, y es el hallazgo de imagen más frecuente en los niños con hipoacusia sensorioneural congénita (Patel y cols., 2025). <!-- Pasada de fundamentos 2026-10-18: decía "la malformación del oído interno más frecuente en los niños con hipoacusia"; Patel y cols. (2025) lo dicen como "most common radiographic finding in children diagnosed with congenital SNHL". Criterios de Cincinnati (≥1,0 mm en el punto medio o ≥2,0 mm en el opérculo): Boston y cols. (2007), coinciden con el pie de la figura. --> Muchos de estos niños tienen variantes de la **pendrina** (SLC26A4), de herencia recesiva; cuando además desarrollan **bocio**, es el **síndrome de Pendred** (Forli y cols., 2021).
+El **acueducto vestibular** es un canal óseo fino que lleva el conducto endolinfático desde el vestíbulo hasta el saco endolinfático. Cuando está dilatado, se ve en la tomografía o la resonancia ({{fig tc-acueducto}}), y es el hallazgo de imagen más frecuente en los niños con hipoacusia sensorioneural congénita (Patel y cols., 2025). <!-- Pasada de fundamentos 2026-10-18: decía "la malformación del oído interno más frecuente en los niños con hipoacusia"; Patel y cols. (2025) lo dicen como "most common radiographic finding in children diagnosed with congenital SNHL". Criterios de Cincinnati (≥1,0 mm en el punto medio o ≥2,0 mm en el opérculo): Boston y cols. (2007), coinciden con el pie de la figura. --> Muchos de estos niños tienen variantes de la **pendrina** (SLC26A4), de herencia recesiva; cuando además desarrollan **bocio**, es el **síndrome de Pendred** (Forli y cols., 2021).
 
-:::imagen ilustraciones/cap10-tc-acueducto.jpg ancho=78% Tomografía axial de alta resolución del hueso temporal de otras personas (no son pacientes de este capítulo). Izquierda: un oído control. Derecha: un oído con síndrome del acueducto vestibular dilatado. Arriba se mide el ancho del acueducto en su punto medio y abajo en el opérculo, su salida hacia la fosa posterior; son los dos puntos de los criterios de Cincinnati, que lo llaman dilatado con más de 0,9 mm en el punto medio o más de 1,9 mm en el opérculo. La tomografía la pide y la informa el médico; se muestra para que se vea la forma de lo que las pruebas miden. Imagen: Weiss NM y cols. (2023), Eur Arch Otorhinolaryngol, doi:10.1007/s00405-022-07681-4, Fig. 4, CC BY 4.0, adaptada.
-- @11,33 | **Punto medio** del acueducto normal (línea verde): un canal fino.
-- @58,40 | **Punto medio** del oído dilatado: 1,0 mm.
-- @14,82 | **Opérculo** normal (línea celeste).
-- @60,77 | **Opérculo** dilatado: 2,1 mm, una boca ancha hacia la fosa posterior.
-- Rótulos del original: hSCC, conducto semicircular lateral; pSCC, conducto semicircular posterior. La barra blanca mide 5 mm.
+:::imagen ilustraciones/cap10-tc-acueducto.jpg ancho=78% id=tc-acueducto Tomografía axial de alta resolución del hueso temporal: a la izquierda, un oído control; a la derecha, un acueducto vestibular dilatado. Arriba se mide el acueducto en su punto medio (línea verde): un canal fino en el control y 1,0 mm en el dilatado. Abajo, en el opérculo, su salida hacia la fosa posterior (línea celeste): 2,1 mm en el dilatado, una boca ancha. Son los dos puntos de los criterios de Cincinnati, que lo llaman dilatado con más de 0,9 mm en el punto medio o más de 1,9 mm en el opérculo. hSCC y pSCC, conductos semicirculares lateral y posterior; la barra blanca mide 5 mm. Imagen: Weiss NM y cols. (2023), Eur Arch Otorhinolaryngol, doi:10.1007/s00405-022-07681-4, Fig. 4, CC BY 4.0, adaptada.
 :::
-
 Su hipoacusia se reconoce por cómo **se comporta**:
 
 - Puede ser congénita, progresiva, de aparición tardía, a escalones, fluctuante o mixta (Forli y cols., 2021). Un niño puede **pasar el tamizaje** y caerse después.
@@ -252,19 +246,26 @@ Tiene 3 años. ¿Con qué método y con qué transductor lo evalúas? ¿Cómo va
 
 Adrián se condicionó al juego con el pito en 1 kHz y guardó juguetes en la canasta durante todo el examen. Confiabilidad buena.
 
-:::imagen figuras/salida/cap10_gjb2_audiosupra.svg ancho=80% Audiometría de Adrián por juego: pérdida sensorioneural severa, plana, bilateral y simétrica, con la ósea sin respuesta al tope del vibrador.
+:::lado ancho
+:::imagen figuras/salida/cap10_gjb2_audiosupra.svg Audiometría de Adrián por juego: pérdida sensorioneural severa, plana, bilateral y simétrica, con la ósea sin respuesta al tope del vibrador.
+:::
+:::figura cap10_gjb2 campo_libre
+- @S 2000 | Sin audífonos (S), el campo libre es el oído mejor: 80 dB en 2 kHz, como en el audiograma.
+- @A 2000 | Con sus audífonos (A) detecta en 35 dB en 2 kHz: 45 dB de ganancia funcional.
+- @A 250 | En 250 Hz el A queda en 50 dB. Con A de 35 a 50 dB, la voz cercana le llega; la que viene de la cocina, no siempre.
+- Los umbrales con audífono muestran qué detecta, pero no verifican el audífono: para eso está la medición en oído real (→ H8).
+:::
 :::
 
 El umbral por juego es de 80 dB en 1 kHz. El OD es plano, de 75 a 90 dB. Promedio BIAP (80 + 80 + 80 + 90) / 4 = 82,5 dB: **severa**. El OI es igual, con 90 dB en 4 kHz y un promedio de 84 dB: severa, bilateral y **simétrica**. La ósea no responde al tope del vibrador. No sirve para saber el tipo: eso lo dicen el timpanograma y las emisiones.
 
 Hace un año, la VRA con insertos dio niveles mínimos de 60 a 65 dB. El nivel mínimo queda **por encima** del umbral verdadero, así que el umbral de entonces era de 60 a 65 dB o mejor. Hoy está en 80: Adrián perdió **al menos 15 dB**. No es la maduración: la maduración solo puede hacer que un control salga mejor.
 
-:::imagen figuras/salida/cap10_gjb2_impedancia.svg ancho=80% Impedanciometría de Adrián por juego.
+:::imagen figuras/salida/cap10_gjb2_impedancia.svg ancho=100% Impedanciometría de Adrián por juego.
 :::
 
 Los dos timpanogramas son tipo A: el OD con 0,38 mL y el pico en 0 daPa, el OI con el pico en −51 daPa. No hay líquido: la caída no es una otitis con efusión sumada. Los reflejos están presentes solo hasta 2 kHz, entre 100 y 115 dB SPL, en las dos sondas y en las dos modalidades; en 4 kHz faltan.
 
-:::lado
 :::figura cap10_gjb2 teoae
 - @OD 2000 | Sin emisiones en ninguna banda del OD (0 de 5; reproducibilidad 5 %).
 - @OI 2000 | Tampoco en el OI. Con 80 dB de pérdida es lo esperable: las células ciliadas externas no funcionan. La prueba cruzada cierra: oído medio normal, cóclea sin emisiones.
@@ -273,14 +274,7 @@ Los dos timpanogramas son tipo A: el OD con 0,38 mL y el pico en 0 daPa, el OI c
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
 - OI: ausentes.
 :::
-:::
 
-:::figura cap10_gjb2 campo_libre
-- @S 2000 | Sin audífonos (S), el campo libre es el oído mejor: 80 dB en 2 kHz, como en el audiograma.
-- @A 2000 | Con sus audífonos (A) detecta en 35 dB en 2 kHz: 45 dB de ganancia funcional.
-- @A 250 | En 250 Hz el A queda en 50 dB. Con A de 35 a 50 dB, la voz cercana le llega; la que viene de la cocina, no siempre.
-- Los umbrales con audífono muestran qué detecta, pero no verifican el audífono: para eso está la medición en oído real (→ H8).
-:::
 
 :::docente Guía del caso
 - **Datos clave:** GJB2 homocigoto 35delG conocido; audífonos desde los 5 meses; responde menos desde hace dos meses (casa y jardín); sin otitis reciente; VRA de hace un año con niveles mínimos de 60 a 65 dB; mamá embarazada.
@@ -307,14 +301,13 @@ Tiene 8 meses y se sienta sola. ¿Qué método conductual le corresponde? ¿Qué
 
 **VRA en campo libre.** Lorena no giró la cabeza con un tono modulado de 1 kHz a 65 dB HL, ni subiendo de 10 en 10 hasta el máximo de los parlantes, ni con ruido de banda estrecha. Con el **vibrador** en 250 Hz se condicionó al tercer intento y giró cada vez que lo sintió. La tarea es para su edad; lo que falta es el sonido (→ H8). Quedó escrito así, sin niveles mínimos de respuesta.
 
-:::imagen figuras/salida/cap10_waardenburg_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap10_waardenburg_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Los dos timpanogramas son tipo A: el OD con el pico en −26 daPa y el OI en 2 daPa. No hay líquido: el oído medio no explica ni el tamizaje ni la conducta.
 
 Los reflejos están **ausentes** en todas las frecuencias, con la sonda en el OD y con la sonda en el OI, ipsi y contralaterales. Con oído medio normal, falta la vía: el sonido no llega a disparar el reflejo.
 
-:::lado
 :::figura cap10_waardenburg teoae
 - @OD 2000 | Sin emisiones en el OD: 0 de 5 bandas.
 - @OI 1000 | Tampoco en el OI. Con el timpanograma A, la ausencia es de la cóclea.
@@ -323,11 +316,10 @@ Los reflejos están **ausentes** en todas las frecuencias, con la sonda en el OD
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
 - OI: ausentes.
 :::
-:::
 
 :::figura cap10_waardenburg abr
-- @OD 90 | PEAT con click a 90 dB nHL, dormida: **sin onda V** en el OD. Las dos memorias no se parecen: es solo ruido.
-- @OI 90 | Lo mismo en el OI. Sin respuesta al máximo útil del equipo en ninguno de los dos oídos.
+- @OD 100 V | PEAT con click a 100 y 90 dB nHL, dormida. En el OD aparece una **onda V a 6,7 ms** a 100 dB, y a 90 dB nada: **umbral con click, 100 dB nHL**.
+- @OI 100 | En el OI no hay ondas que se repitan ni a 100 dB: sin respuesta al máximo útil del equipo.
 - El siguiente paso es buscar audición residual por frecuencia, con tone burst o estado estable (→ H10, H13).
 :::
 
@@ -356,12 +348,12 @@ Tiene 6 años. ¿Qué método usas? ¿Qué vas a medir con especial cuidado, y q
 
 Andrés sostuvo la instrucción convencional (levantar la mano) en la aérea; para la ósea con enmascaramiento se volvió al juego, con un juguete por cada pito. Confiabilidad buena.
 
-:::imagen figuras/salida/cap10_pendred_audiosupra.svg ancho=80% Audiometría de Andrés: pérdida moderada de los dos oídos con gap de 30 dB en 250 Hz que se cierra desde 1 kHz. Discriminación de 72 % en el OD y 68 % en el OI, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap10_pendred_audiosupra.svg ancho=100% Audiometría de Andrés: pérdida moderada de los dos oídos con gap de 30 dB en 250 Hz que se cierra desde 1 kHz. Discriminación de 72 % en el OD y 68 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
 En el OD la aérea está en 80 dB en 250 Hz y sube a 55 dB en 1 kHz: pierde **más en los graves**. La ósea enmascarada de 250 Hz está en 50 dB: un **gap de 30 dB**. En 500 Hz el gap ya es de 10 dB. Desde 1 kHz la ósea va con la aérea: sensorioneural, de 55 a 70 dB. El OI repite la forma: 85 dB de aérea y 55 de ósea en 250 Hz. Promedio BIAP: 60 dB en el OD y 65 en el OI, **moderada**. Hace tres años estaba entre 40 y 55: bajó. En el OD el SDT es de 50 dB y el SRT de 55 dB, y la discriminación llega al 72 % a 90 dB; en el OI son 55 dB, 60 dB y 68 %. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 35 dB en el OD y de 19,5 a 30 dB en el OI desde 1 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap10_pendred_impedancia.svg ancho=80% Impedanciometría de Andrés.
+:::imagen figuras/salida/cap10_pendred_impedancia.svg ancho=100% Impedanciometría de Andrés.
 :::
 
 Los dos timpanogramas son tipo A: el OD con 0,85 mL y el pico en −6 daPa. El oído medio está sano: el gap de los graves no viene de ahí.
@@ -391,7 +383,7 @@ Un adolescente con sangre en la orina, un tío materno dializado que usa audífo
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap10_alport_audiosupra.svg ancho=80% Audiometría de Javier: pérdida sensorioneural bilateral simétrica en cubeta, con fondo en 2 kHz. Discriminación de 76 % en el OD y 72 % en el OI, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap10_alport_audiosupra.svg ancho=100% Audiometría de Javier: pérdida sensorioneural bilateral simétrica en cubeta, con fondo en 2 kHz. Discriminación de 76 % en el OD y 72 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
 Los graves están casi normales: 15 dB en 250 Hz. El fondo está en **2 kHz**, con 65 dB, y en 8 kHz el OD vuelve a 40 dB: la curva cae en los medios y se recupera en los extremos. Es una curva **en cubeta**. El OI tiene la misma forma, con 65 dB en 2 y 3 kHz. Ninguna frecuencia difiere en más de 10 dB del OD: simétrica. La ósea va con la aérea: sensorioneural. Promedio BIAP: 47,5 dB en el OD y 52,5 en el OI, **moderada**. El SDT es de 30 dB en el OD y 35 en el OI, el SRT de 35 y 40 dB, y la discriminación llega al **76 %** a 70 dB en el OD y al 72 % a 80 dB en el OI: es la de una pérdida coclear moderada, sin la caída que haría pensar en el nervio (→ cap. 11). SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 22 a 40 dB desde 1 kHz en el OD y de 24,5 a 30 dB en el OI: recluta, es coclear.
@@ -420,7 +412,7 @@ Hipoacusia desde chica, ceguera nocturna desde la adolescencia y una marcha norm
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap10_usher_audiosupra.svg ancho=80% Audiometría de Carmen: pérdida sensorioneural descendente, bilateral y simétrica. SDT de 45 dB, SRT de 50 dB y discriminación máxima de 68 % con voz grabada, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap10_usher_audiosupra.svg ancho=100% Audiometría de Carmen: pérdida sensorioneural descendente, bilateral y simétrica. SDT de 45 dB, SRT de 50 dB y discriminación máxima de 68 % con voz grabada, SISI de 90 % y Carhart sin deterioro.
 :::
 
 Los graves están en 30 dB en el OD. Desde 1 kHz cae a 65 dB, y sigue bajando hasta 95 dB en 8 kHz: **descendente**. El OI tiene la misma forma, con 75 dB en 2 kHz. Promedio BIAP: 65 dB en el OD y 64 en el OI, **moderada**, simétrica. La ósea va con la aérea: sensorioneural. Hace doce años se describió "moderada, descendente": la pérdida cambió poco, como se espera en el tipo 2. Con voz grabada, sin verte la cara, el SDT es de 45 dB, el SRT de 50 dB y la discriminación llega al **68 %** a 80 dB en los dos oídos. Sin labios que leer, esto es lo que entiende solo con el oído. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 14,5 a 25 dB desde 1 kHz: recluta, es coclear.
@@ -461,11 +453,33 @@ El hermano que viene tiene que hacerse el tamizaje como cualquier recién nacido
 
 #### Razonamiento
 
-Todo apunta al mismo lado. La conducta: no reacciona a ruidos fuertes y no se condicionó con el sonido, pero sí con la vibración. El oído medio es normal, las emisiones y los reflejos están ausentes, y el PEAT no responde a 90 dB nHL: una hipoacusia **sensorioneural profunda bilateral**, coclear, congénita. La cara completa el diagnóstico: un mechón blanco y un iris de cada color, igual que el papá, que oye bien. Es una herencia **dominante con expresión variable**: el mismo gen le dio al papá solo el mechón y a Lorena la sordera (Newton, 1990). Es un **síndrome de Waardenburg**.
+Todo apunta al mismo lado. La conducta: no reacciona a ruidos fuertes y no se condicionó con el sonido, pero sí con la vibración. El oído medio es normal, las emisiones y los reflejos están ausentes, y el PEAT responde recién a 100 dB nHL en el OD y no responde en el OI: una hipoacusia **sensorioneural profunda bilateral**, coclear, congénita. La cara completa el diagnóstico: un mechón blanco y un iris de cada color, igual que el papá, que oye bien. Es una herencia **dominante con expresión variable**: el mismo gen le dio al papá solo el mechón y a Lorena la sordera (Newton, 1990). Es un **síndrome de Waardenburg**.
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural profunda bilateral: sin respuesta conductual con sonido (VRA condicionada solo con vibrador), PEAT sin onda V a 90 dB nHL, emisiones y reflejos ausentes, timpanograma A en ambos oídos. Por los signos pigmentarios y la historia familiar, es compatible con una causa sindrómica; la confirma genética. Se sugiere evaluación médica urgente, audífonos de prueba de inmediato, búsqueda de audición residual por frecuencia (→ H10, H13) y evaluación para implante coclear (→ cap. 29). Lorena ya perdió meses: el diagnóstico debía estar a los tres meses (JCIH, 2019).
+:::comentario-ancho Informe de Lorena, 8 meses (caso 10.2)
+**Motivo**: refirió dos veces el tamizaje con emisiones, en ambos oídos; no reacciona a ruidos fuertes y no se condiciona con sonido. Mechón blanco frontal y heterocromía del iris.
+
+**Registro**: click a 100 y 90 dB nHL (polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción). En sueño fisiológico.
+
+**Referencia**: lactante de 6 meses (Rosa y cols., 2014): V 6,50 ms (límite 7,04). La V a 100 dB nHL queda dentro; con una sola onda no se miden interpicos. La tabla de correcciones de la BSA (2019) cubre de 12 a 24 semanas y desde los 2 años: a los 8 meses no hay corrección publicada, y el umbral se informa en dB nHL.
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Onda V | 6,73 (a 100 dB) | no se identifica | 6,50 / 7,04 |
+| Ondas I y III, interpicos y diferencia interaural | no medibles | no medibles | |
+| Umbral con click (dB nHL) | 100 | mayor de 100 | |
+
+**Morfología**: OD con una onda V de baja amplitud a 100 dB nHL y sin ondas a 90 dB; OI sin ondas que se repitan en las dos curvas de cada nivel.
+
+**Interpretación**: respuesta solo al nivel más alto que entrega el equipo sin distorsión en el OD, y ninguna en el OI. Con emisiones ausentes (→ H9) y timpanograma A, la falta de ondas es una pérdida de la cóclea y no un patrón de neuropatía (en ese patrón las emisiones estarían presentes; → cap. 13).
+
+**Conclusión**: OD con umbral de onda V en 100 dB nHL y OI sin ondas reconocibles hasta 100 dB nHL, con emisiones ausentes: examen sugiere hipoacusia de grado profundo en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz.
+
+**Recomendación**: búsqueda de audición residual por frecuencia (tone burst o estado estable), audífonos de prueba y evaluación para implante coclear. Si el lenguaje no se desarrolla como se espera, volver a evaluar.
+:::
+
+Hipoacusia sensorioneural profunda bilateral: sin respuesta conductual con sonido (VRA condicionada solo con vibrador), PEAT con umbral de 100 dB nHL en el OD y sin respuesta hasta 100 dB nHL en el OI, emisiones y reflejos ausentes, timpanograma A en ambos oídos. Por los signos pigmentarios y la historia familiar, es compatible con una causa sindrómica; la confirma genética. Se sugiere evaluación médica urgente, audífonos de prueba de inmediato, búsqueda de audición residual por frecuencia (→ H10, H13) y evaluación para implante coclear (→ cap. 29). Lorena ya perdió meses: el diagnóstico debía estar a los tres meses (JCIH, 2019).
 
 :::ojo Ojo clínico
 Si Lorena no tuviera el mechón ni la heterocromía, este mismo resultado sería una sordera profunda congénita sin causa, y habría que sugerir un electrocardiograma por el Jervell-Lange-Nielsen. Lo que la separa del síndrome que mata no es el audiograma: es lo que se ve en la cara.

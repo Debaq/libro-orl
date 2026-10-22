@@ -1,5 +1,7 @@
 """Lienzo SVG mínimo: lo justo para las figuras del libro, sin dependencias."""
 import json
+import re
+from pathlib import Path
 from xml.sax.saxutils import escape
 
 from . import estilo as E
@@ -57,3 +59,38 @@ class Svg:
                 f'<rect width="100%" height="100%" fill="{E.PAPEL}"/>' + ''.join(self.partes)
                 + (f'<metadata id="anclas">{json.dumps(self.anclas, ensure_ascii=False)}</metadata>' if self.anclas else '')
                 + '</svg>')
+
+
+_METRICA = []
+
+
+def ancho_texto(txt, tam, peso=400):
+    """Ancho de un texto con las medidas de la Plus Jakarta Sans (la negrita,
+    un 5 % más ancha); sin la fuente, 0,56 de la letra por carácter."""
+    if not _METRICA:
+        try:
+            from fontTools.ttLib import TTFont
+            f = TTFont(Path(__file__).resolve().parents[2] / 'labsim' / 'docs' / 'manual' / 'fuentes'
+                       / 'plus-jakarta-sans-latin.woff2')
+            _METRICA.append((f.getBestCmap(), f['hmtx'], f['head'].unitsPerEm))
+        except Exception:
+            _METRICA.append(None)
+    if _METRICA[0] is None:
+        return 0.56 * tam * len(txt)
+    cmap, hmtx, em = _METRICA[0]
+    nominal = sum(hmtx[cmap[ord(c)]][0] if ord(c) in cmap else 0.56 * em for c in txt) / em * tam
+    return nominal * (1.05 if peso >= 600 else 1.0)
+
+
+def borde_derecho(partes):
+    """Hasta dónde llega a la derecha el texto de unas partes de SVG."""
+    borde = 0
+    for p in partes:
+        m = re.match(r'<text ([^>]*)>(.*)</text>', p)
+        if not m:
+            continue
+        at = dict(re.findall(r'([\w-]+)="([^"]*)"', m[1]))
+        tam, peso = float(at.get('font-size', E.T_EJE)), int(at.get('font-weight', 400))
+        largo = ancho_texto(re.sub(r'<[^>]+>', '', m[2]).replace('&amp;', '&'), tam, peso)
+        borde = max(borde, float(at['x']) + {'start': largo, 'middle': largo / 2, 'end': 0}[at.get('text-anchor', 'start')])
+    return borde

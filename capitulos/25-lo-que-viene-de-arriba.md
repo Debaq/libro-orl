@@ -77,7 +77,7 @@ Las cuatro pruebas del protocolo, **metría, diadococinesia, sinergia y temblor 
 El protocolo pide al paciente **suspender 48 horas antes** los antivertiginosos, los antieméticos y los ansiolíticos, porque suprimen el nistagmo y pueden esconder un hallazgo. Hay otros dos grupos que producen hallazgos centrales y que **no están en esa lista**: los **anticonvulsivantes** y el **alcohol**. El nistagmo evocado por la mirada en todas las direcciones apunta al cerebelo y tiene muchas causas, entre ellas los fármacos, sobre todo los antiepilépticos, y el consumo crónico de alcohol (Strupp y cols., 2014).
 
 :::comentario Lo que dicen las normas
-**Quien toma un anticonvulsivante o un ansiolítico por una epilepsia no lo suspende por seguir el protocolo.** Esos fármacos los decide el médico tratante, y suspenderlos para el examen puede ser peligroso: aunque el protocolo nombra a los ansiolíticos, un clonazepam o un fenobarbital se toman a menudo para una epilepsia. En este libro la práctica es **anotar qué toma, en qué dosis y desde cuándo, y avisar al médico** que pidió el examen: es él quien decide si el examen se hace con el fármaco y quien interpreta el hallazgo. <!-- verificar: guía o consenso sobre qué fármacos suspender antes de una VNG y qué hacer con los anticonvulsivantes. Pasada 2026-10-18: se buscó el procedimiento de la BSA para la prueba calórica (2010) y no se pudo leer; solo aparecen folletos de hospitales del NHS (suspender 48 h los supresores vestibulares, consultar al médico por benzodiacepinas, seguir con los demás fármacos), que no son citables. -->
+**Quien toma un anticonvulsivante o un ansiolítico por una epilepsia no lo suspende por seguir el protocolo.** Esos fármacos los decide el médico tratante, y suspenderlos para el examen puede ser peligroso: aunque el protocolo nombra a los ansiolíticos, un clonazepam o un fenobarbital se toman a menudo para una epilepsia. En este libro la práctica es **anotar qué toma, en qué dosis y desde cuándo, y avisar al médico** que pidió el examen: es él quien decide si el examen se hace con el fármaco y quien interpreta el hallazgo.
 :::
 
 ### Cómo se ven los nistagmos centrales
@@ -131,18 +131,14 @@ Todos estos cuadros dejan la VNG alterada de una forma que el oído no explica; 
 
 Un grupo de enfermedades degenerativas del cerebelo que se presenta en la adultez con **inestabilidad progresiva**. En una serie de 117 pacientes con nistagmo hacia abajo, la causa más frecuente fue la degeneración cerebelosa (23), seguida de la isquemia cerebelosa (10), y en 38 % no se encontró causa (Wagner y cols., 2008). En esa serie, el 36 % de los pacientes con nistagmo hacia abajo tenía además **pérdida vestibular bilateral**.
 
-Dentro de ese grupo, el **CANVAS** (ataxia cerebelosa, neuropatía y arreflexia vestibular bilateral) tiene un perfil que el examen vestibular **sí** puede mostrar. Es la combinación de tres cosas: un cerebelo que falla, una pérdida sensitiva de los pies y dos laberintos que no responden. En 27 pacientes, 22 tenían atrofia cerebelosa en la resonancia, sobre todo del vermis anterior y dorsal, y un déficit sensitivo con potenciales de nervio sensitivo ausentes resultó ser parte integral del síndrome (Szmulewicz y cols., 2011). La lesión sensitiva es una **neuronopatía**: se pierden las neuronas del ganglio de la raíz dorsal y de los ganglios de los nervios craneales V, VII y VIII, no solo sus fibras (Szmulewicz y cols., 2014).
+Dentro de ese grupo, el **CANVAS** (ataxia cerebelosa, neuropatía y arreflexia vestibular bilateral) tiene un perfil que el examen vestibular **sí** puede mostrar. Es la combinación de tres cosas: un cerebelo que falla, una pérdida sensitiva de los pies y dos laberintos que no responden. En 27 pacientes, 22 tenían atrofia cerebelosa en la resonancia, sobre todo del vermis anterior y dorsal ({{fig rm-canvas}}), y un déficit sensitivo con potenciales de nervio sensitivo ausentes resultó ser parte integral del síndrome (Szmulewicz y cols., 2011). La lesión sensitiva es una **neuronopatía**: se pierden las neuronas del ganglio de la raíz dorsal y de los ganglios de los nervios craneales V, VII y VIII, no solo sus fibras (Szmulewicz y cols., 2014).
 
 El signo clínico característico es un **reflejo vestíbulo-ocular "visualmente reforzado" (VVOR) que falla**: al girar la cabeza fijando un blanco, el reflejo está perdido **y** el seguimiento también, de modo que el ojo no compensa y se necesita una sacada de corrección (Migliaccio y cols., 2004; Szmulewicz y cols., 2011). La causa más frecuente es la expansión bialélica de un repetido intrónico del gen *RFC1*, que se encontró en familias con CANVAS y en una parte de las ataxias de inicio tardío sin causa (Cortese y cols., 2019). En los primeros 100 portadores, la inestabilidad empezó típicamente en la sexta década; una **tos seca** precedía en décadas al problema de marcha, y la oscilopsia, la disautonomía y la disartria aparecían en parte de los casos. Dos tercios tuvieron el CANVAS completo, y la mitad necesitó apoyo para caminar después de diez años de enfermedad (Cortese y cols., 2020).
 
 La audición no es parte del cuadro y el audiograma suele ser el de la edad: lo que lleva al paciente a la consulta es el equilibrio.
 
-:::imagen ilustraciones/cap25-rm-canvas.jpg ancho=100% Resonancias sagitales en la línea media de tres personas con la enfermedad por RFC1, la causa genética más frecuente del CANVAS. Son otras personas, no pacientes de este capítulo. La resonancia la pide y la informa el médico; aquí sirve para ver lo que los ojos del paciente anuncian: un vermis que se achica. Bajo cada imagen, la edad y los años de ataxia al hacerla. B y C: atrofia del vermis (flechas), con los surcos abiertos y llenos de líquido; marcada en C a los 42 años. D: sin atrofia a los 62 años, tras 20 años de ataxia: la atrofia no siempre está. En la serie, la atrofia del vermis figuraba en el informe de 48 de 55 pacientes. Imagen: Traschütz A y cols. (2021), Neurology, doi:10.1212/WNL.0000000000011528, CC BY 4.0, adaptada.
-- @25,52 | **Vermis atrófico**: las hojas se ven finas y separadas por surcos anchos.
-- @63,52 | **Vermis atrófico** en una persona más joven y con menos años de ataxia que la de B.
-- @90,48 | **Vermis de forma conservada**: la atrofia no siempre está, aun con años de enfermedad.
+:::imagen ilustraciones/cap25-rm-canvas.jpg ancho=100% id=rm-canvas Resonancias sagitales en la línea media de tres personas con la enfermedad por RFC1, la causa genética más frecuente del CANVAS. Bajo cada imagen, la edad y los años de ataxia al hacerla. B y C: atrofia del vermis (flechas), con las hojas finas y los surcos abiertos y llenos de líquido; marcada en C, a los 42 años y con menos años de ataxia que B. D: vermis de forma conservada a los 62 años, tras 20 años de ataxia: la atrofia no siempre está. En la serie, la atrofia del vermis figuraba en el informe de 48 de 55 pacientes. Imagen: Traschütz A y cols. (2021), Neurology, doi:10.1212/WNL.0000000000011528, CC BY 4.0, adaptada.
 :::
-
 ### Esclerosis múltiple
 
 Una enfermedad desmielinizante cuyas placas pueden caer en el tronco, donde están los fascículos y los núcleos que mueven los ojos. En el cap. 12 se vio su ABR; aquí importa lo que **hace a los ojos**.
@@ -330,7 +326,7 @@ Sin respuesta a 44 °C, a 30 °C ni a 17 °C, en los dos oídos: **arreflexia ve
 
 Los dos VEMP están **muy bajos y son simétricos**: cVEMP de 21 µV en el OD y 23 µV en el OI (5 %), y oVEMP de 6 µV en los dos (2 %). Es lo que se espera de dos laberintos que no responden.
 
-:::imagen figuras/salida/cap25_canvas_audiosupra.svg ancho=80% Audiometría de Rafael: pérdida descendente y simétrica, de 55 dB en 4 kHz en los dos oídos, la forma de una presbiacusia; discriminación de 92 % en el OD y de 96 % en el OI.
+:::imagen figuras/salida/cap25_canvas_audiosupra.svg ancho=100% Audiometría de Rafael: pérdida descendente y simétrica, de 55 dB en 4 kHz en los dos oídos, la forma de una presbiacusia; discriminación de 92 % en el OD y de 96 % en el OI.
 :::
 
 En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB. Nada del audiograma explica los ojos ni la marcha.
@@ -431,7 +427,7 @@ Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección pr
 
 cVEMP de 342 µV en el OD y de 348 µV en el OI (**0 %**); oVEMP de 26 µV en los dos (**0 %**): simétricos.
 
-:::imagen figuras/salida/cap25_esclerosis_audiosupra.svg ancho=80% Audiometría de Inés: audición normal en los dos oídos y discriminación de 100 %.
+:::imagen figuras/salida/cap25_esclerosis_audiosupra.svg ancho=100% Audiometría de Inés: audición normal en los dos oídos y discriminación de 100 %.
 :::
 
 La audición es **normal**: 0 dB en 4 kHz, SDT de −5 dB y SRT de 0 dB en los dos oídos, con discriminación máxima de 100 % a 30 dB. No es lo que se esperaba de un cuadro de ojos, pero la esclerosis múltiple casi no da hipoacusia.
@@ -529,14 +525,14 @@ Hipoexcitabilidad derecha: (20 + 18 − 19 − 21) / 78 = **3 %**. Dirección pr
 
 cVEMP de 352 µV en el OD y de 610 µV en el OI, con asimetría de **28 %** (menor del 35 %, no significativa); oVEMP de 24 µV en el OD y de 23 µV en el OI (**4 %**).
 
-:::imagen figuras/salida/cap25_chiari_audiosupra.svg ancho=80% Audiometría de Silvia: el OD es normal; el OI tiene una pérdida de 50 dB en 4 kHz y leve en los graves (20 dB en 500 Hz). La discriminación del OI llega a 92 %.
+:::imagen figuras/salida/cap25_chiari_audiosupra.svg ancho=100% Audiometría de Silvia: el OD es normal; el OI tiene una pérdida de 50 dB en 4 kHz y leve en los graves (20 dB en 500 Hz). La discriminación del OI llega a 92 %.
 :::
 
 En el OD, SDT de −5 dB, SRT de 0 dB y discriminación de 100 %. En el OI, SDT de 15 dB, SRT de 20 dB y discriminación máxima de **92 %**, a 60 dB, con ruido de habla al OD.
 
 Las supraliminares del OI no son de cóclea: SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 1 kHz y **reflejos ausentes**. La discriminación es buena, pero la pérdida no recluta y se cansa: es retrococlear, y el tronco está comprimido en la unión craneocervical.
 
-:::imagen figuras/salida/cap25_chiari_impedancia.svg ancho=80% Impedanciometría de Silvia.
+:::imagen figuras/salida/cap25_chiari_impedancia.svg ancho=100% Impedanciometría de Silvia.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,65 mL en el OD y de 1,37 mL en el OI. Cuando el sonido va al OI no hay reflejo, ni ipsi ni contra. Cuando va al OD aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
@@ -637,7 +633,7 @@ Hipoexcitabilidad derecha: (19 + 17 − 18 − 20) / 74 = **3 %**. Dirección pr
 
 cVEMP de 364 µV en el OD y de 198 µV en el OI, con asimetría de **29 %** (menor del 35 %, no significativa); oVEMP de 17 µV en los dos oídos (**1 %**).
 
-:::imagen figuras/salida/cap25_farmaco_audiosupra.svg ancho=80% Audiometría de Álvaro: pérdida descendente y simétrica, de 50 dB en 4 kHz en el OD y de 45 dB en el OI, la de la edad; discriminación de 92 % y de 96 %.
+:::imagen figuras/salida/cap25_farmaco_audiosupra.svg ancho=100% Audiometría de Álvaro: pérdida descendente y simétrica, de 50 dB en 4 kHz en el OD y de 45 dB en el OI, la de la edad; discriminación de 92 % y de 96 %.
 :::
 
 En los dos oídos el SDT es de 5 dB y el SRT, de 10 dB.

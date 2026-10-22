@@ -52,13 +52,13 @@ La fila de referencia se elige por la edad del paciente (y por el sexo desde los
 :::ayuda-ancho Las tres filas que usan los casos (click a 80 dB nHL, en ms)
 | | Onda I | Onda III | Onda V | I-III | III-V | I-V |
 |---|---|---|---|---|---|---|
-| Recién nacido | 1,79 | 4,56 | 7,00 | 2,77 | 2,44 | 5,21 |
+| Recién nacido | 1,79 | 4,56 | 6,90 | 2,77 | 2,42 | 5,08 |
 | Lactante de 1 a 3 años | 1,52 | 3,67 | 5,80 | 2,15 | 2,13 | 4,28 |
 | Adulto, mujer | 1,46 | 3,65 | 5,54 | 2,19 | 1,89 | 4,08 |
 | Adulto, hombre | 1,47 | 3,75 | 5,68 | 2,28 | 1,93 | 4,21 |
 :::
 
-La fila del recién nacido sale de una serie por edad **posconcepcional** (35-36, 37-38 y 39-40 semanas, y 6 meses; Rosa y cols., 2014); la del adulto, de Sanfins y cols. (2026). La del lactante se deriva de las series vecinas. <!-- verificar: a qué grupo de edad de Rosa y cols. (2014) corresponde la fila de recién nacido de LabSim, y la procedencia exacta de la fila del lactante de 1 a 3 años (la planilla la marca como derivada). Pasada de fundamentos 2026-10-18: el resumen de Rosa 2014 da, a 39-40 semanas, I 1,79, III 4,56 y V 6,90 ms; a 37-38 semanas, V 7,05. La I y la III de la fila coinciden con 39-40 semanas, pero la V de la fila (7,00) no coincide con ningún grupo, y los interpicos de la fila son restas de I, III y V. Va al autor (dato de LabSim, no se tocó). -->
+La fila del recién nacido es la de 39-40 semanas de una serie por edad **posconcepcional** (35-36, 37-38 y 39-40 semanas, y 6 meses; Rosa y cols., 2014), con los interpicos que la serie midió. La del adulto es de Sanfins y cols. (2026). La del lactante se deriva de las series vecinas, sin una serie publicada propia.
 
 La consecuencia práctica es la que enseña el cuarto caso: un **prematuro se compara por su edad corregida**, no por los días que lleva de vida. La edad corregida (o posconcepcional) es la edad gestacional con que nació más las semanas que lleva viviendo; un niño nacido a las 32 semanas y evaluado a las 8 semanas de vida tiene 40 semanas corregidas, es decir, la edad de un recién nacido de término.
 
@@ -86,7 +86,7 @@ Hay además un factor de tamaño: antes de las 42 semanas posconcepcionales, ent
 
 ### Por qué la temperatura mueve todo
 
-Un nervio frío conduce más lento y una sinapsis fría transmite más lento. El estudio de Markand y cols. (1987) lo midió en 10 adultos enfriados en cirugía cardíaca: a medida que bajaba la temperatura, las latencias de I, III y V crecían, y **más las de las ondas tardías**, de modo que los interpicos también se alargaban; cada grado que bajaba sumaba cerca de 7 % y a unos 26 °C el I-V se había duplicado. Todas las ondas estaban presentes sobre 23 °C y faltaban bajo 20 °C; al recalentar, el trazo volvía al de antes (Figura 14.1). Un estudio posterior con circulación extracorpórea llegó a lo mismo: bajo los 25 °C la latencia seguía creciendo hasta que el trazo se aplanaba entre 21 y 19 °C, y todo era reversible (Hett y cols., 1995). <!-- verificar: la explicación "cada sinapsis suma retraso" es la habitual en los textos; Markand describe el hecho (más prolongación en componentes tardíos) pero no se leyó su discusión completa. -->
+La explicación habitual es que un nervio frío conduce más lento y una sinapsis fría transmite más lento, de modo que las ondas tardías, con más relevos, se retrasan más. El estudio de Markand y cols. (1987) lo midió en 10 adultos enfriados en cirugía cardíaca: a medida que bajaba la temperatura, las latencias de I, III y V crecían, y **más las de las ondas tardías**, de modo que los interpicos también se alargaban; cada grado que bajaba sumaba cerca de 7 % y a unos 26 °C el I-V se había duplicado. Todas las ondas estaban presentes sobre 23 °C y faltaban bajo 20 °C; al recalentar, el trazo volvía al de antes (Figura 14.1). Un estudio posterior con circulación extracorpórea llegó a lo mismo: bajo los 25 °C la latencia seguía creciendo hasta que el trazo se aplanaba entre 21 y 19 °C, y todo era reversible (Hett y cols., 1995).
 
 :::imagen ilustraciones/cap14-temperatura.svg ancho=80% Cuánto se alarga el I-V al enfriarse el cuerpo, con la regla de 7 % por grado desde un I-V de 4,1 ms a 36 °C. Fíjate en que bastan unos pocos grados para que un I-V normal parezca el de una lesión del tronco: por eso la temperatura se anota antes de leer los interpicos.
 :::
@@ -117,7 +117,7 @@ Es el cuadro del capítulo. Con la temperatura central en 32 °C, más o menos, 
 
 ### Coma y bloqueo proximal
 
-Cuando la lesión del tronco progresa, el ABR se degrada de una forma ordenada. En 27 pacientes que cumplían criterios de muerte encefálica, las respuestas estaban ausentes o solo existía la onda I; cuando la I estaba, tenía amplitud normal pero latencia prolongada. En cuatro pacientes seguidos de varios días, el trazo pasó de intacto a una disminución de amplitud y alargamiento de las ondas tardías, hasta quedar la I sola (Starr, 1976). Garcia-Larrea y cols. (1987) vieron dos formas de deterioro: un alargamiento simultáneo de todas las ondas, que acompañó a la caída de la presión de perfusión cerebral, y un deterioro de las ondas III a V con la I conservada o incluso mayor. <!-- verificar: el resumen de Garcia-Larrea y cols. (1987) describe la segunda forma como "deterioration of brain-stem components" de evolución rostro-caudal; el detalle de la I conservada o mayor no está en el resumen y no se pudo leer el texto completo. --> El patrón de "onda I sola" dice que **la cóclea y el tramo distal del nervio están vivos y que el resto de la vía no responde**. En 138 pacientes en coma con Glasgow 3, un ABR alterado se asoció a mayor probabilidad de muerte que uno normal (de Sousa y cols., 2007).
+Cuando la lesión del tronco progresa, el ABR se degrada de una forma ordenada. En 27 pacientes que cumplían criterios de muerte encefálica, las respuestas estaban ausentes o solo existía la onda I; cuando la I estaba, tenía amplitud normal pero latencia prolongada. En cuatro pacientes seguidos de varios días, el trazo pasó de intacto a una disminución de amplitud y alargamiento de las ondas tardías, hasta quedar la I sola (Starr, 1976). Garcia-Larrea y cols. (1987) vieron dos formas de deterioro: un alargamiento simultáneo de todas las ondas, que acompañó a la caída de la presión de perfusión cerebral, y un deterioro de las ondas III a V con la I conservada o incluso mayor. El patrón de "onda I sola" dice que **la cóclea y el tramo distal del nervio están vivos y que el resto de la vía no responde**. En 138 pacientes en coma con Glasgow 3, un ABR alterado se asoció a mayor probabilidad de muerte que uno normal (de Sousa y cols., 2007).
 
 ### Prematurez
 
@@ -174,17 +174,16 @@ Además de la audiometría, ¿qué pruebas de oído medio y de cóclea agregarí
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap14_toxico_metabolico_audiosupra.svg ancho=80% Audiometría de Carla: pérdida sensorioneural pareja y suave (30 dB en 1 kHz y 45 dB en 4 kHz en el OD, sin muesca; el OI llega a 50 dB en 8 kHz), con la ósea pegada a la aérea.
+:::imagen figuras/salida/cap14_toxico_metabolico_audiosupra.svg ancho=100% Audiometría de Carla: pérdida sensorioneural pareja y suave (30 dB en 1 kHz y 45 dB en 4 kHz en el OD, sin muesca; el OI llega a 50 dB en 8 kHz), con la ósea pegada a la aérea.
 :::
 
 No hay gap. El SDT es de 25 dB en el OD y de 20 en el OI, y el SRT de 30 y 25; la discriminación llega al 72 % en los dos oídos, a 60 dB. SISI de 90 % en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y Metz de 59,5 dB en 4 kHz: recluta, como se espera de una pérdida coclear.
 
-:::imagen figuras/salida/cap14_toxico_metabolico_impedancia.svg ancho=80% Impedanciometría de Carla.
+:::imagen figuras/salida/cap14_toxico_metabolico_impedancia.svg ancho=100% Impedanciometría de Carla.
 :::
 
 Los dos oídos tienen curva A: el oído medio está sano. Los reflejos están presentes en los dos lados, ipsi y contra, entre 105 y 115 dB, sin diferencia entre un oído y otro.
 
-:::lado
 :::figura cap14_toxico_metabolico teoae
 - @OD 2000 | Las emisiones están **ausentes** en las cinco bandas, en los dos oídos: con 30 a 45 dB de pérdida es lo esperable de una pérdida coclear (→ H9).
 :::
@@ -192,14 +191,13 @@ Los dos oídos tienen curva A: el oído medio está sano. Los reflejos están pr
 - OD: presentes en 4 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en 2 de 7 frecuencias.
 :::
-:::
 :::figura cap14_toxico_metabolico abr
 - @OI 90 I | A 90 dB el OI muestra la onda I a 1,2 ms.
-- @OI 90 III | La III llega a 3,5 ms: I-III de 2,3 ms, bajo el límite de 2,6 de la mujer adulta.
-- @OI 90 V | La V llega a 5,4 ms: I-V de 4,2 ms, bajo el límite de 4,6.
-- @OD 80 V | En el OD, a 80 dB, la V llega a 5,8 ms y la III a 3,7. Ambas bajo los límites de la mujer adulta (V 6,0; III 4,1). La onda I no se alcanza a marcar: con 30 a 45 dB de pérdida el click a 80 dB le llega con poca sobreintensidad.
-- @OD 60 V | La V sigue visible a 60 dB, a 6,4 ms; el umbral de click de los dos oídos es de 45 dB nHL.
-- No hay diferencia interaural: la V del OD y la del OI difieren en 0,1 ms a 80 dB y en 0,2 a 90, bajo el límite de 0,4.
+- @OI 90 III | La III llega a 3,5 ms: I-III de 2,3 ms, bajo el límite de 2,5 de la mujer adulta para ese oído.
+- @OI 90 V | La V llega a 5,4 ms: I-V de 4,2 ms, bajo el límite de 4,4.
+- @OD 80 V | En el OD, a 80 dB, la V llega a 5,6 ms, bajo el límite de la mujer adulta (5,9). La I y la III no se repiten en las dos réplicas, y se marcan a 90 dB (I a 1,6 ms, III a 3,6): con 30 a 45 dB de pérdida el click a 80 dB le llega con poca sobreintensidad.
+- @OD 60 V | La V sigue a 60 dB (6,4 ms) y se atrasa con cada escalón: 6,9 ms a 50 dB. A 40 dB no hay respuesta: el umbral de click es de 50 dB nHL en los dos oídos.
+- No hay diferencia interaural: la V del OD y la del OI difieren en 0,0 ms a 80 dB y en 0,2 a 90, bajo el límite de 0,4.
 :::
 
 :::docente Guía del caso
@@ -226,7 +224,6 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap14_hipotermia_farmacos teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas: la cóclea responde, a pesar del frío y de la sedación.
 :::
@@ -234,12 +231,11 @@ Se pide un ABR a la cama para ver si el tronco está sano. ¿Qué dato le pedir�
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap14_hipotermia_farmacos abr
-- @OD 80 I | A 80 dB las tres ondas están claras y la **onda I llega a 2,0 ms**: 0,5 ms más tarde que en un hombre adulto (1,5 ms).
-- @OD 80 III | La III llega a 4,7 ms y la V, a 7,2 ms (el hombre adulto de referencia: 3,75 y 5,68; límite de la V: 6,2).
-- @OD 80 V | I-III de 2,7 ms, III-V de 2,5 ms e **I-V de 5,3 ms**, contra 4,2 de la media (límite 4,7). Los interpicos también están largos.
-- @OD 60 V | Con cada 20 dB menos el trazo se atrasa más: a 60 dB la V llega a 7,6 ms y a 40 dB, a 8,5 ms; la I, a 3,3 ms.
+- @OD 80 I | A 80 dB las tres ondas están claras y la **onda I llega a 2,0 ms**: 0,5 ms más tarde que en un hombre adulto (1,5 ms; límite 1,8).
+- @OD 80 III | La III llega a 4,7 ms y la V, a 7,2 ms (el límite del hombre adulto es de 4,1 y 6,0 ms).
+- @OD 80 V | I-III de 2,7 ms, III-V de 2,5 ms e **I-V de 5,3 ms**, contra un límite de 4,5 ms para un hombre de su edad. Los interpicos también están largos.
+- @OD 60 V | Con cada 20 dB menos el trazo se atrasa más: a 60 dB la V llega a 7,6 ms y a 40 dB, a 8,4 ms; la I, a 3,2 ms. La V se ve todavía a 20 dB (9,5 ms) y a 10 dB (9,7); a 0 dB no hay respuesta.
 - @OI 80 V | El OI replica al OD: no hay diferencia interaural; es el cuerpo entero el que va lento.
 :::
 
@@ -267,7 +263,6 @@ Si el ABR muestra solo una onda, ¿qué te dice cada posibilidad: sordera, lesi�
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap14_bloqueo_proximal teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas: las células ciliadas externas funcionan; el oído no es sordo.
 :::
@@ -275,10 +270,9 @@ Si el ABR muestra solo una onda, ¿qué te dice cada posibilidad: sordera, lesi�
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap14_bloqueo_proximal abr
 - @OD 80 I | A 80 dB hay **solo onda I**, a 1,4 ms: latencia de adulto normal, bien formada.
-- @OD 60 I | Sigue la I a 60 dB (2,0 ms) y a 40 dB (3,1 ms): sube su latencia al bajar la intensidad, como en un oído sano. El umbral de la I es bajo.
+- @OD 60 I | Sigue la I a 60 dB (2,0 ms) y a 40 dB (2,8 ms); a 20 dB ya no se ve: sube su latencia al bajar la intensidad, como en un oído sano. El umbral de la I es bajo.
 - @OD 80 | No hay III ni V a ningún nivel: no es un trazo sin ruido, es un trazo sin respuesta central.
 - @OI 80 I | El OI repite lo mismo: la señal sale de las dos cócleas y no pasa de ahí.
 :::
@@ -306,12 +300,11 @@ Antes de mirar los valores, ¿con qué fila los compararás? ¿Qué pasaría si 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap14_prematuro_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap14_prematuro_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Con la sonda de 1.000 Hz, cada oído muestra una curva con **un solo pico**, cerca de 0 daPa: el oído medio responde con normalidad. El volumen del conducto es pequeño (0,52 mL en el OD y 0,86 en el OI), como en un lactante. Los reflejos están presentes, ipsi y contra con la sonda en cada oído, entre 100 y 110 dB.
 
-:::lado
 :::figura cap14_prematuro teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas, en los dos oídos.
 :::
@@ -319,13 +312,12 @@ Con la sonda de 1.000 Hz, cada oído muestra una curva con **un solo pico**, cer
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap14_prematuro abr
-- @OD 80 I | A 80 dB: I a 2,3 ms, III a 5,0 y V a 7,6 ms; I-V de 5,2 ms y III-V de 2,6 ms.
-- @OD 80 V | Contra la fila del recién nacido (I 1,8; III 4,6; V 7,0): la I y la V quedan 0,5 ms más tarde, y el I-V es igual al de la fila (5,2 ms). El III-V (2,4 en la fila) queda 0,1 ms más largo.
-- @OD 40 V | La V sigue a 40 dB, a 9,0 ms, y el umbral de click es de 10 dB nHL.
-- @OI 80 V | El OI repite lo mismo, con la V a 7,7 ms y el mismo umbral de click, 10 dB nHL.
-- Con la **tabla del adulto** (V 5,5 y I-V 4,1 en la mujer) el mismo trazo tendría una V 2 ms tarde y un I-V sobre el límite de 4,6: parecería un tronco enfermo.
+- @OD 80 I | A 80 dB: I a 2,2 ms, III a 5,0 y V a 7,5 ms; I-V de 5,3 ms y III-V de 2,5 ms.
+- @OD 80 V | Contra la fila del recién nacido (I 1,8; III 4,6; V 6,9): la I queda 0,4 ms más tarde y la V 0,6; el I-V (5,1 en la fila) queda 0,2 ms más largo y el III-V (2,4 en la fila), 0,1. La V (7,5) queda justo bajo el límite de la fila (7,6).
+- @OD 40 V | La V sigue a 40 dB (9,0 ms), a 20 dB (9,5) y a 10 dB (10,4); a 0 dB no hay respuesta: el umbral de click es de 10 dB nHL.
+- @OI 80 V | El OI repite lo mismo, con la V a 7,5 ms y el mismo umbral de click, 10 dB nHL.
+- Con la **tabla del adulto** (límite de la V 6,0 ms y del I-V 4,5 en el hombre) el mismo trazo tendría una V 1,5 ms tarde y un I-V sobre el límite: parecería un tronco enfermo.
 :::
 
 :::docente Guía del caso
@@ -347,10 +339,33 @@ Una pérdida coclear, bilateral y simétrica, con timpanograma normal, emisiones
 
 #### Diagnóstico y qué sigue
 
-Informe:
 
-- OD y OI: a 90 y 80 dB nHL se registran las ondas III y V; a 90 dB también la I. Latencias absolutas dentro de los valores esperados para mujer adulta; interpicos medibles (a 90 dB) dentro del límite. Sin diferencia interaural de la onda V. Umbral de click de 45 dB nHL en ambos oídos.
-- Conclusión: examen compatible con hipofunción sensorioneural bilateral simétrica de grado leve, sin signos retrococleares. Se adjuntan audiometría, impedanciometría y emisiones. Se sugiere control médico por los síntomas descritos.
+:::comentario-ancho Informe de Carla, 45 años (caso 14.1)
+**Motivo**: hipoacusia bilateral de un año, pareja; cansancio, frío, aumento de peso, piel seca y voz ronca.
+
+**Registro**: click a 90, 80, 60, 50, 40 y 30 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, ventana de 12 ms, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE) a 80 dB nHL. Los interpicos se midieron a 90 dB nHL, donde la I y la III se repiten en las dos réplicas.
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I (90 dB nHL) | 1,60 | 1,23 | 1,80 / 1,80 |
+| Onda III (90 dB nHL) | 3,57 | 3,50 | 3,94 / 4,01 |
+| Onda V (80 dB nHL) | 5,60 | 5,60 | 5,89 / 5,92 |
+| I-III | 1,97 | 2,27 | 2,42 / 2,49 |
+| III-V | 2,03 | 1,90 | 2,11 / 2,12 |
+| I-V | 4,00 | 4,17 | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,00 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 50 → 45 | 50 → 45 | hasta 20 dB eHL |
+
+**Morfología**: a 90 dB nHL, ondas I, III y V replicables en los dos oídos; a 80 dB solo la V y, en el OI, la III. La V se sigue hasta 50 dB nHL en los dos oídos; a 40 dB no hay respuesta.
+
+**Interpretación**: latencias absolutas e interpicos dentro de los límites en los dos oídos, sin diferencia interaural. El umbral de 45 dB eHL concuerda con la audiometría (30 a 45 dB) y con emisiones ausentes: pérdida coclear. Sin signos retrococleares.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural en ambos oídos, de aproximadamente 45 dB HL en OD y OI, para el rango frecuencial estudiado de 2 a 4 kHz. Se adjuntan audiometría, impedanciometría y emisiones.
+
+**Recomendación**: control médico por los síntomas descritos.
+:::
 
 El audiólogo no dice "hipotiroidismo": **informa el patrón y avisa**. El diagnóstico lo hace el médico con un perfil tiroideo. Si el diagnóstico se confirma y se trata, hay que anticipar que el audiograma puede mejorar y que el ABR, no necesariamente (Anand y cols., 1989).
 
@@ -366,11 +381,33 @@ Todas las ondas están atrasadas, la I incluida, y los interpicos son largos. Un
 
 #### Diagnóstico y qué sigue
 
-Informe:
 
-- OD y OI: a 80 dB nHL se registran las ondas I, III y V con buena morfología. Latencias absolutas **todas prolongadas**, la onda I incluida. Interpicos I-III, III-V e I-V prolongados (I-V de 5,3 ms). Sin diferencia interaural. Se registra la respuesta hasta 40 dB nHL.
-- Condiciones del registro: temperatura central de 33 °C, sedación con propofol y fentanilo.
-- Conclusión: examen **no interpretable como lesión del tronco** en las condiciones descritas. El patrón es el esperado de la temperatura corporal baja. Se sugiere repetir el ABR con el paciente recalentado a temperatura normal.
+:::comentario-ancho Informe de un paciente de 45 años en UCI (caso 14.2)
+**Motivo**: paro cardiorrespiratorio recuperado a los 12 minutos; evaluación del tronco a las 18 horas.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, ventana de 12 ms, sin enmascaramiento contralateral. **Temperatura central de 33,0 °C** (enfriamiento controlado), sedado con propofol y fentanilo en infusión. Emisiones presentes en ambos oídos.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026), sin corrección por temperatura: límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,97 ↑ | 1,93 ↑ | 1,80 / 1,80 |
+| Onda III | 4,70 ↑ | 4,70 ↑ | 4,05 / 4,14 |
+| Onda V | 7,23 ↑ | 7,17 ↑ | 6,03 / 6,05 |
+| I-III | 2,73 ↑ | 2,77 ↑ | 2,45 / 2,61 |
+| III-V | 2,53 ↑ | 2,47 ↑ | 2,33 / 2,11 |
+| I-V | 5,26 ↑ | 5,24 ↑ | 4,49 / 4,52 |
+| Diferencia interaural de la V | 0,06 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V bien definidas y replicables a 80, 60 y 40 dB nHL en los dos oídos; solo la V a 20 y 10 dB; a 0 dB no hay respuesta.
+
+**Interpretación**: todas las latencias pasan el límite, la I incluida, y los tres interpicos también, con diferencia interaural normal. Una lesión del tronco alarga los interpicos y deja la I a tiempo; aquí la I también está tardía y el retraso es parejo en los dos lados. Es el patrón de una conducción lenta de toda la vía por temperatura baja: con la regla de 7 % por grado bajo 36 °C, un I-V de 4,2 ms (media del hombre adulto) sube a unos 5,1 ms, y se midieron 5,3. Las emisiones presentes y la V hasta 10 dB nHL muestran una cóclea y una vía que responden; la sedación habitual casi no toca la V.
+
+**Conclusión**: latencias absolutas e interpicos prolongados en ambos oídos, en un paciente con temperatura central de 33 °C: examen no interpretable como lesión del tronco en las condiciones descritas.
+
+**Recomendación**: repetir el PEAT con el paciente recalentado a temperatura normal, y anotar la temperatura y los fármacos en cada registro.
+:::
 
 :::ojo Ojo clínico
 El error grave de este caso es leer un ABR enlentecido como daño neurológico **en un paciente al que se le acaba de bajar la temperatura**. Un informe que no menciona la temperatura es un informe incompleto.
@@ -384,11 +421,30 @@ Los dos factores que podían explicar un trazo anormal sin lesión, la temperatu
 
 #### Diagnóstico y qué sigue
 
-Informe:
 
-- OD y OI: a 80 dB nHL se registra solo la **onda I**, con latencia dentro de lo esperado y buena morfología, que se sigue hasta 40 dB nHL. No se registran las ondas II a V a ningún nivel. Emisiones otoacústicas transitorias presentes en ambos oídos.
-- Condiciones: sin sedantes hace más de 24 horas y temperatura central de 36,8 °C.
-- Conclusión: examen con **ausencia de respuestas posteriores a la onda I, con función coclear conservada**. Es un hallazgo compatible con compromiso grave del tronco; el diagnóstico clínico lo hace el equipo médico.
+:::comentario-ancho Informe de un paciente de 45 años en UCI (caso 14.3)
+**Motivo**: hemorragia intracerebral masiva hace cuatro días, intubado y sin respuesta; apoyo al equipo médico.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, ventana de 12 ms, sin enmascaramiento contralateral. Sin sedantes hace más de 24 horas, temperatura central de 36,8 °C. Emisiones transitorias presentes en ambos oídos.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,40 | 1,53 | 1,80 / 1,80 |
+| Onda III | no se identifica | no se identifica | 4,05 / 4,14 |
+| Onda V | no se identifica | no se identifica | 6,03 / 6,05 |
+| Interpicos | no medibles | no medibles | |
+| Umbral de la onda I (dB nHL) | 40 | 40 | |
+
+**Morfología**: onda I bien formada y replicable a 80, 60 y 40 dB nHL, con la latencia que sube al bajar el nivel (2,0 y 2,8 ms a 60 y 40 dB); a 20 dB no se ve. No hay ondas II a V a ningún nivel, en ninguna de las réplicas.
+
+**Interpretación**: los dos factores que podrían enlentecer o apagar el trazo sin lesión, la temperatura y la sedación, están descartados. La cóclea (emisiones) y el tramo distal del nervio (onda I) responden; no hay nada después. Es la ausencia de respuestas posteriores a la onda I con función coclear conservada.
+
+**Conclusión**: ausencia de respuestas posteriores a la onda I, con onda I de latencia normal y emisiones presentes, en ambos oídos. Es un hallazgo compatible con compromiso grave del tronco; el diagnóstico clínico lo hace el equipo médico. El PEAT no estima el umbral auditivo en este paciente.
+
+**Recomendación**: correlación con la clínica y con los criterios del equipo; repetir si cambia la condición del paciente.
+:::
 
 :::comentario Comentario
 El informe no dice "muerte encefálica". Eso es del equipo médico, con sus criterios clínicos y la norma del país. El informe dice qué respondió y qué no, y en qué condiciones se midió.
@@ -398,14 +454,37 @@ El informe no dice "muerte encefálica". Eso es del equipo médico, con sus crit
 
 #### Razonamiento
 
-La pregunta es contra qué se compara. Tiene 8 semanas de vida, pero nació a las 32, así que su edad corregida es de **40 semanas**: la de un recién nacido de término. Con esa fila (V 7,0 ms; I-V 5,2) el niño tiene la V y la I algo tardías, un I-V igual al de la fila y un III-V 0,1 ms más largo, que es lo que describe la literatura en el prematuro a edad de término (0,081 ms; Stipdonk y cols., 2016). Con la tabla del adulto el mismo trazo parece un tronco enfermo. El oído medio responde bien (timpanograma de 1.000 Hz), las emisiones están presentes y el umbral de click es bajo, de 10 dB nHL en los dos oídos: no hay motivo para hablar de pérdida.
+La pregunta es contra qué se compara. Tiene 8 semanas de vida, pero nació a las 32, así que su edad corregida es de **40 semanas**: la de un recién nacido de término. Con esa fila (V 6,9 ms; I-V 5,1) el niño tiene la I y la V más tardías, un I-V 0,2 ms más largo y un III-V 0,1 ms más largo. Va en la dirección que describe la literatura: el prematuro a edad de término tiene el III-V más largo que el nacido a término (en promedio 0,081 ms; Stipdonk y cols., 2016). Con la tabla del adulto el mismo trazo parece un tronco enfermo. El oído medio responde bien (timpanograma de 1.000 Hz), las emisiones están presentes y el umbral de click es bajo, de 10 dB nHL en los dos oídos: no hay motivo para hablar de pérdida.
 
 #### Diagnóstico y qué sigue
 
-Informe:
 
-- OD y OI: a 80 dB nHL se registran las ondas I, III y V. Se comparan con la fila de recién nacido (edad corregida de 40 semanas). Latencias absolutas con retraso leve; interpico I-V igual al de la fila; III-V levemente prolongado, compatible con la prematurez. Umbral de la onda V a 10 dB nHL en ambos oídos.
-- Conclusión: examen sin signos de hipoacusia, con maduración del tronco esperable para su edad corregida. Se sugiere completar con el umbral por frecuencia y el control audiológico del niño de riesgo (→ cap. 17).
+:::comentario-ancho Informe de un lactante de 8 semanas, nacido a las 32 (caso 14.4)
+**Motivo**: AABR referido en el OD al alta de neonatología; seguimiento del prematuro.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, ventana de 15 ms, sin enmascaramiento contralateral. En sueño natural tras comer. Emisiones presentes y timpanograma de 1.000 Hz normal en ambos oídos.
+
+**Referencia**: recién nacido de término, 39 a 40 semanas, que es la edad corregida del niño (Rosa y cols., 2014): media / límite (media + 2 DE).
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Onda I | 2,23 ↑ | 2,43 ↑ | 1,79 / 1,97 |
+| Onda III | 5,03 ↑ | 5,07 ↑ | 4,56 / 5,00 |
+| Onda V | 7,53 | 7,50 | 6,90 / 7,56 |
+| I-III | 2,80 | 2,64 | 2,77 / 3,19 |
+| III-V | 2,50 | 2,43 | 2,42 / 3,64 |
+| I-V | 5,30 | 5,07 | 5,08 / 5,70 |
+| Diferencia interaural de la V | 0,03 | | hasta 0,4 |
+| Umbral con click (dB nHL) | 10 | 10 | |
+
+**Morfología**: ondas I, III y V replicables a 80 dB nHL en los dos oídos; la V se sigue hasta 10 dB nHL y a 0 dB no hay respuesta. No se pasa a dB eHL: la corrección de la BSA (2019) cubre desde las 12 semanas de edad.
+
+**Interpretación**: las ondas I y III llegan 0,4 a 0,5 ms más tarde que la media de la fila y pasan su límite por poco; la V queda bajo el límite y los interpicos están dentro. Con la tabla del adulto el mismo trazo parecería un tronco enfermo. En el prematuro a edad de término el III-V suele ser algo más largo (Stipdonk y cols., 2016); aquí lo es en 0,1 ms. El umbral de 10 dB nHL y las emisiones presentes no sugieren pérdida de audición.
+
+**Conclusión**: examen sugiere audición normal en ambos oídos para la edad corregida. Latencias de las ondas I y III levemente prolongadas con interpicos normales, compatibles con la prematurez. No se confirma el resultado del tamizaje en el OD.
+
+**Recomendación**: completar con el umbral por frecuencia y mantener el control audiológico del niño de riesgo (→ cap. 17). Control del desarrollo del lenguaje; si no avanza como se espera, volver a evaluar.
+:::
 
 :::sabias ¿Sabías que?
 En el prematuro, "normal" cambia cada semana: la fila contra la que se compara a las 36 semanas corregidas no es la de las 40, y esa es otra de las razones para anotar siempre las semanas de gestación al nacer.

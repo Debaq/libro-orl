@@ -70,15 +70,10 @@ La audiometría es el primer lugar donde asoma:
 
 ![Lo que deja una dehiscencia del conducto superior derecho en tres pruebas. Audiograma con la ósea bajo 0 dB y la aérea entre 9 y 11 dB: un gap sin oído medio enfermo. Reflejo presente a pesar del gap. Umbral del cVEMP de 81 dB nHL en el oído con dehiscencia contra 99 en el sano. Cifras promedio de la literatura.](ilustraciones/cap26-dehiscencia.svg)
 
-La dehiscencia **se confirma con la tomografía** de alta resolución de los huesos temporales y la decide el médico. Lo que hace el audiólogo es sospecharla, porque una combinación de síntomas, audiometría con gap sin oído medio, y VEMP, junto con la tomografía, es lo que da el diagnóstico (Zhou y cols., 2007).
+La dehiscencia **se confirma con la tomografía** de alta resolución de los huesos temporales ({{fig tc-dehiscencia}}) y la decide el médico. Lo que hace el audiólogo es sospecharla, porque una combinación de síntomas, audiometría con gap sin oído medio, y VEMP, junto con la tomografía, es lo que da el diagnóstico (Zhou y cols., 2007).
 
-:::imagen ilustraciones/cap26-tc-dehiscencia.jpg ancho=95% Tomografía de alta resolución de los huesos temporales de otra persona (no es un paciente de este capítulo), con una dehiscencia del conducto superior derecho. Los cortes se reconstruyen en dos planos: el de Pöschl va paralelo al conducto superior y lo muestra como un anillo; el de Stenvers va perpendicular a él (Noij y Rauch, 2020, Front Neurol, doi:10.3389/fneur.2020.00695). La tomografía la pide y la informa el médico; aquí sirve para ver el orificio que las pruebas sospechan: compara el techo del conducto en los dos oídos. Imagen: Reddy YM y Pandey AK (2025), Cureus, doi:10.7759/cureus.84477, CC BY 4.0, adaptada.
-- @22,24 | **Stenvers, oído derecho**: el techo óseo del conducto superior falta (flecha).
-- @61,32 | **Pöschl, oído derecho**: el anillo del conducto queda abierto arriba, contra la fosa media.
-- @94,33 | **Pöschl, oído izquierdo**: el mismo conducto con su techo óseo grueso.
-- RT y LT: oído derecho e izquierdo.
+:::imagen ilustraciones/cap26-tc-dehiscencia.jpg ancho=95% id=tc-dehiscencia Tomografía de alta resolución de los huesos temporales, con una dehiscencia del conducto superior derecho (RT, derecho; LT, izquierdo). B, plano de Stenvers, perpendicular al conducto: en el oído derecho falta su techo óseo (flecha). C, plano de Pöschl, paralelo al conducto, que lo muestra como un anillo: en el derecho el anillo queda abierto arriba, contra la fosa media (flecha). D, el mismo plano en el oído izquierdo: el techo óseo es grueso. Los planos, según Noij y Rauch (2020, Front Neurol, doi:10.3389/fneur.2020.00695). Imagen: Reddy YM y Pandey AK (2025), Cureus, doi:10.7759/cureus.84477, CC BY 4.0, adaptada.
 :::
-
 ### Otras terceras ventanas
 
 La dehiscencia del conducto superior es la más conocida, pero no es la única. Merchant y Rosowski (2008) agrupan las lesiones del laberinto que actúan así: dehiscencia del conducto **superior, lateral o posterior**, del **vestíbulo óseo** (acueducto vestibular dilatado y otras malformaciones del oído interno), de la **cóclea** (comunicación entre la carótida y la cóclea, sordera ligada al X con *stapes gusher*) y lesiones **difusas**, como la enfermedad de Paget.
@@ -247,12 +242,12 @@ Hipoexcitabilidad derecha: (20 + 18 − 20 − 19) / 77 = **1 %**. Dirección pr
 
 El cVEMP del OD es de **605 µV** y el del OI, de 350 µV (asimetría de 27 %); el oVEMP del OD es de 42 µV y el del OI, de 27 µV (20 %). Ninguna asimetría llega al límite de 35 % y 33 %, pero **el oído de mayor amplitud es el derecho**, y no el de menor. El umbral dice más que la amplitud: en el OD es de **45 dB nHL** para el cVEMP y de **50 dB nHL** para el oVEMP, contra 65 y 70 dB nHL en el OI, unos 20 dB más bajo.
 
-:::imagen figuras/salida/cap26_dehiscencia_audiosupra.svg ancho=80% Audiometría de Marta: el OD tiene 25 dB por vía aérea en 125, 250 y 500 Hz, con la vía ósea bajo cero (−5 dB en 250 y 500 Hz): un gap de 25 a 30 dB en los graves que se cierra hacia los 2 kHz. El OI es normal. Discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap26_dehiscencia_audiosupra.svg ancho=100% Audiometría de Marta: el OD tiene 25 dB por vía aérea en 125, 250 y 500 Hz, con la vía ósea bajo cero (−5 dB en 250 y 500 Hz): un gap de 25 a 30 dB en los graves que se cierra hacia los 2 kHz. El OI es normal. Discriminación de 100 % en los dos oídos.
 :::
 
 En el OD, SDT de 5 dB y SRT de 15 dB; en el OI, de −5 y 0 dB.
 
-:::imagen figuras/salida/cap26_dehiscencia_impedancia.svg ancho=80% Impedanciometría de Marta.
+:::imagen figuras/salida/cap26_dehiscencia_impedancia.svg ancho=100% Impedanciometría de Marta.
 :::
 
 Curva A en los dos oídos, con compliancia de 0,86 mL en el OD y de 1,38 mL en el OI. El reflejo ipsilateral del OD está **presente** (90, 85, 90 y 90 dB SPL de 500 a 4.000 Hz), a pesar del gap: la cadena se mueve. Los contralaterales también aparecen, de 90 a 95 dB SPL.
@@ -347,12 +342,12 @@ E: erecto; S: supino; D e I: decúbito derecho e izquierdo; CC: cabeza colgando 
 
 Hipoexcitabilidad derecha: (21 + 19 − 22 − 21) / 83 = **4 %**. Dirección preponderante hacia la derecha: **1 %**. Los dos valores son no significativos, y el vHIT es normal.
 
-:::imagen figuras/salida/cap26_otoesclerosis_audiosupra.svg ancho=80% Audiometría de Lourdes: el OD tiene 60 dB por vía aérea en 250 Hz y 0 dB por vía ósea, un gap de 60 dB sin ósea bajo cero; la ósea sube a 25 dB en 2 kHz, la muesca de Carhart. El OI es normal. Discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap26_otoesclerosis_audiosupra.svg ancho=100% Audiometría de Lourdes: el OD tiene 60 dB por vía aérea en 250 Hz y 0 dB por vía ósea, un gap de 60 dB sin ósea bajo cero; la ósea sube a 25 dB en 2 kHz, la muesca de Carhart. El OI es normal. Discriminación de 100 % en los dos oídos.
 :::
 
 En el OD, SDT de 50 dB y SRT de 55 dB, con discriminación de 100 % desde los 80 dB; en el OI, de −5 y 0 dB.
 
-:::imagen figuras/salida/cap26_otoesclerosis_impedancia.svg ancho=80% Impedanciometría de Lourdes.
+:::imagen figuras/salida/cap26_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de Lourdes.
 :::
 
 Tipo As en el OD, de pico bajo y chato (compliancia de 0,19 mL); el OI es normal (0,85 mL). La paciente anterior habría dado una curva A normal.
@@ -454,14 +449,14 @@ Hipoexcitabilidad derecha: (22 + 20 − 21 − 23) / 86 = **2 %**. Dirección pr
 
 cVEMP de 639 µV en el OD y de 643 µV en el OI (**0 %**); oVEMP de 45 µV y de 47 µV (**1 %**). Son **simétricos y grandes**, y el umbral es bajo en los dos oídos: **50 dB nHL** para el cVEMP y para el oVEMP, a los dos lados.
 
-:::imagen figuras/salida/cap26_pendred_audiosupra.svg ancho=80% Audiometría de Joaquín: en 250 Hz el OD tiene 85 dB por vía aérea y 55 dB por vía ósea, un gap de 30 dB; en 1 kHz las dos curvas coinciden en 55 dB y queda una pérdida sensorioneural. El OI repite el patrón: 70 dB por vía aérea y 45 dB por ósea en 250 Hz, un gap de 25 dB.
+:::imagen figuras/salida/cap26_pendred_audiosupra.svg ancho=100% Audiometría de Joaquín: en 250 Hz el OD tiene 85 dB por vía aérea y 55 dB por vía ósea, un gap de 30 dB; en 1 kHz las dos curvas coinciden en 55 dB y queda una pérdida sensorioneural. El OI repite el patrón: 70 dB por vía aérea y 45 dB por ósea en 250 Hz, un gap de 25 dB.
 :::
 
 En el OD, SDT de 50 dB, SRT de 55 dB y discriminación máxima de 68 % a 90 dB; en el OI, SDT de 40 dB, SRT de 45 dB y discriminación máxima de 76 % a 80 dB.
 
 Las supraliminares son de cóclea en los dos oídos: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 19,5 a 40 dB. En 500 Hz el reflejo del OI no aparece: el gap de los graves (la ventana del acueducto) le quita el estímulo.
 
-:::imagen figuras/salida/cap26_pendred_impedancia.svg ancho=80% Impedanciometría de Joaquín.
+:::imagen figuras/salida/cap26_pendred_impedancia.svg ancho=100% Impedanciometría de Joaquín.
 :::
 
 Curva A en los dos oídos, con compliancia de 0,68 mL en el OD y de 0,97 mL en el OI: el oído medio se mueve, y el tubo no tenía nada que arreglar. Los reflejos están presentes de 1 a 4 kHz en los dos oídos, en el nivel que corresponde a su umbral.

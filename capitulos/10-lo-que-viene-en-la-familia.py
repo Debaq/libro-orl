@@ -53,7 +53,7 @@ CASOS = [
            antecedentes=['hipoacusia_familiar']),
     # Lorena, 8 meses: Waardenburg (mechón blanco y heterocromía, como el
     # papá); refirió el tamizaje y llega tarde; la VRA no condiciona con sonido
-    cuadro('waardenburg', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(), fig.abr(niveles=(90,))],
+    cuadro('waardenburg', [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(), fig.abr(niveles=(100, 90))],
            od='waardenburg', oi='waardenburg', grado_od='profunda', grado_oi='profunda', edad_meses=8,
            sexo='mujer',
            anamnesis="""Lorena tiene 8 meses y la trae su mamá. Nació de término, por parto normal, sin

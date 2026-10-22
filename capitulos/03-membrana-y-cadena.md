@@ -18,7 +18,7 @@ Las herramientas son las mismas del capítulo 2: la **audiometría con vía óse
 
 Con la ósea normal, todo lo que la aérea pierde es transmisión (→ H3). En un oído medio estructural interesan tres cosas del gap:
 
-- **Cuánto mide.** Un oído medio con la membrana entera y la cadena cortada pierde unos 50 a 60 dB: es la conductiva más grande posible (Merchant y cols., 1998).<!-- verificar: el abstract de Merchant 1998 explica el gap de la interrupción de cadena por la pérdida del acople osicular, pero no da la cifra; los 50-60 dB no se pudieron ver en el texto completo. En la serie quirúrgica de Farahmand 2016 la discontinuidad completa promedió 35-50 dB de gap. --> Ninguna perforación ni placa llega ahí por sí sola. Un gap de 50 dB o más con la membrana entera apunta a la cadena.
+- **Cuánto mide.** Un oído medio con la membrana entera y la cadena cortada pierde unos 50 a 60 dB según los textos clásicos de otología; en una serie quirúrgica reciente, la discontinuidad completa promedió 35 a 50 dB de gap según la frecuencia (Farahmand y cols., 2016). Es la conductiva más grande que da una lesión estructural. Ninguna perforación ni placa llega ahí por sí sola. Un gap de 50 dB o más con la membrana entera apunta a la cadena.
 - **Qué forma tiene.** Mayor en los graves y más chico en los agudos (configuración ascendente), plano, o mayor en los agudos. Cada forma habla de un mecanismo distinto (ver *Fisiología*).
 - **El grado.** Se calcula igual que siempre, con el promedio BIAP de 500 a 4.000 Hz por vía aérea (→ H3). Una conductiva pura casi nunca pasa de moderada.
 
@@ -64,16 +64,14 @@ En una conductiva unilateral suele quedar solo el ipsilateral del oído sano, m�
 
 El sonido viaja por el aire y la cóclea está llena de líquido. Si el aire empujara el líquido directamente, casi toda la energía rebotaría. El oído medio **adapta las impedancias**: junta la presión que recibe la membrana, que es grande, sobre la platina del estribo, que es chica, y la multiplica (Merchant y cols., 1998).
 
-- **La relación de áreas.** La parte vibrante de la membrana tiene unas 17 veces el área de la platina. La misma fuerza sobre un área menor es más presión.
-- **La palanca de la cadena.** El mango del martillo es algo más largo que la apófisis larga del yunque: la cadena gana un poco más, cerca de 1,3 veces.
-
-<!-- verificar: 17:1 y 1,3:1 son los valores clásicos (Wever y Lawrence, 1954), citados por Merchant 1998; se tomaron de fuentes secundarias. -->
+- **La relación de áreas.** La parte vibrante de la membrana tiene cerca de 20 veces el área de la platina. La misma fuerza sobre un área menor es más presión.
+- **La palanca de la cadena.** El mango del martillo es algo más largo que la apófisis larga del yunque: la cadena gana un poco más, cerca de 1,3 veces (Remenschneider y Cheng, 2024).
 
 La cuenta teórica da unos 25 a 30 dB; lo medido en huesos temporales es menor, unos 23 dB como máximo, cerca de 1,2 kHz (Aibara y cols., 2001).<!-- Pasada de fundamentos 2026-10-18: decía "unos 20 dB, con el máximo cerca de 1 kHz". Aibara 2001 (abstract): "The mean GME magnitude reached 23.5 dB at 1.2 kHz". --> Además, la membrana entera **protege la ventana redonda**: el sonido empuja la cóclea por la ventana oval y no por las dos ventanas a la vez, donde se anularía.
 
 Eso explica las dos lesiones extremas:
 
-- **Cadena cortada con la membrana entera**: no hay transformador y la membrana además tapa el paso directo del sonido a las ventanas. Es la pérdida máxima, de 50 a 60 dB (Merchant y cols., 1998).
+- **Cadena cortada con la membrana entera**: no hay transformador y la membrana además tapa el paso directo del sonido a las ventanas. Es la pérdida máxima, de 50 a 60 dB según los textos clásicos de otología; el mecanismo está en Merchant y cols. (1998).
 - **Perforación**: lo que se pierde no es tanto superficie como **diferencia de presión** entre las dos caras de la membrana, porque el sonido entra también a la caja por el agujero. Por eso el gap crece con el **tamaño** de la perforación, es mayor en los **graves**, es 10 a 20 dB mayor cuando la caja y la mastoides tienen poco aire, y casi no depende de **dónde** está el agujero (Mehta y cols., 2006).
 
 ### Rigidez y masa
@@ -167,8 +165,6 @@ Dos pacientes tienen un timpanograma Ad. Uno tiene un gap de 50 dB y el otro un 
 
 {{caso cap03_perforacion}}
 
-*Otoscopías: Zaka Ur Rehman, OtitisMediaKPJ (Kaggle, 2026), CC BY-NC-SA 4.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué datos de la historia te hablan de una perforación vieja y cuáles de una que está activa? Mira la otoscopía del OD: ¿qué tamaño tiene el agujero y se ve secreción?
 :::
@@ -183,12 +179,12 @@ Dos pacientes tienen un timpanograma Ad. Uno tiene un gap de 50 dB y el otro un 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap03_perforacion_audiosupra.svg ancho=80% Audiometría de Lucía: conductiva ascendente del OD, de grado leve; OI normal.
+:::imagen figuras/salida/cap03_perforacion_audiosupra.svg ancho=100% Audiometría de Lucía: conductiva ascendente del OD, de grado leve; OI normal.
 :::
 
 La aérea del OD está en 50 dB en 125 y 250 Hz, con la ósea en 0: un gap de 50 dB en los graves. Hacia los agudos mejora: 25 dB en 2 kHz y 20 en 4 kHz. Es una conductiva **ascendente**, de grado **leve** (promedio BIAP de 31 dB). El OI es normal. SDT de 25 dB y SRT de 30 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 70 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
 
-:::imagen figuras/salida/cap03_perforacion_impedancia.svg ancho=80% Impedanciometría de Lucía.
+:::imagen figuras/salida/cap03_perforacion_impedancia.svg ancho=100% Impedanciometría de Lucía.
 :::
 
 El OD es plano, sin pico: **B**. Pero el volumen es de 3,70 mL, más del doble que el del OI: la sonda mide el conducto **y** la caja. El OI es **A**, con el pico en −54 daPa, 0,87 mL de compliancia y 1,53 mL de volumen. **Reflejos:** con la sonda en el OD no hay ninguno. Con la sonda en el OI, el ipsilateral está en 85 a 90 dB, con decay negativo, y el contralateral, que estimula el OD, solo aparece en 2 y 4 kHz (115 a 120 dB).
@@ -207,8 +203,6 @@ La **función tubaria de membrana perforada** de Lucía es permeable: con cada d
 
 {{caso cap03_timpanoesclerosis}}
 
-*Otoscopías: Viscaino M, Auat Cheein F, Ear imagery database (figshare, 2020), CC0 1.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué antecedente de la infancia explica lo que se ve en la membrana izquierda? ¿Qué te dice que la pérdida haya llegado "de a poco"?
 :::
@@ -223,12 +217,12 @@ Las placas blancas de la membrana, ¿alcanzan para explicar una pérdida? ¿Qué
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap03_timpanoesclerosis_audiosupra.svg ancho=80% Audiometría de Daniela: conductiva leve del OI, mayor en los graves y sin muesca en la ósea; OD normal.
+:::imagen figuras/salida/cap03_timpanoesclerosis_audiosupra.svg ancho=100% Audiometría de Daniela: conductiva leve del OI, mayor en los graves y sin muesca en la ósea; OD normal.
 :::
 
 La aérea del OI está en 40 dB en 125 y 250 Hz, con la ósea en 0: el gap es mayor en los graves. Desde 500 Hz la aérea queda entre 25 y 30 dB. Conductiva **leve** (promedio BIAP de 29 dB), sin muesca en la ósea. El OD es normal. SDT de −5 dB y SRT de 0 dB en el OD, y de 25 y 30 dB en el OI; la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
 
-:::imagen figuras/salida/cap03_timpanoesclerosis_impedancia.svg ancho=80% Impedanciometría de Daniela.
+:::imagen figuras/salida/cap03_timpanoesclerosis_impedancia.svg ancho=100% Impedanciometría de Daniela.
 :::
 
 El OI tiene el pico en su lugar (−12 daPa), pero mide solo 0,13 mL: **As**. El sistema se mueve poco. El OD es **A**, con 0,96 mL en −15 daPa. Los volúmenes son normales: las membranas están enteras. **Reflejos:** con la sonda en el OI no hay ninguno. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OI, solo aparece en 4 kHz (120 dB SPL).
@@ -257,12 +251,12 @@ La sangre ya se reabsorbió y la membrana se ve normal. ¿Qué puede seguir impi
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap03_disyuncion_cadena_audiosupra.svg ancho=80% Audiometría de Diego: conductiva plana y moderada del OD; OI normal.
+:::imagen figuras/salida/cap03_disyuncion_cadena_audiosupra.svg ancho=100% Audiometría de Diego: conductiva plana y moderada del OD; OI normal.
 :::
 
 La aérea del OD está entre 45 y 55 dB en todas las frecuencias, con la ósea en 0: un gap de 45 a 55 dB. En 4 kHz el gap es casi el mismo que en los graves: es **plano**. Grado **moderado** (promedio BIAP de 49 dB). El OI es normal. SDT de 40 dB y SRT de 45 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 80 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
 
-:::imagen figuras/salida/cap03_disyuncion_cadena_impedancia.svg ancho=80% Impedanciometría de Diego.
+:::imagen figuras/salida/cap03_disyuncion_cadena_impedancia.svg ancho=100% Impedanciometría de Diego.
 :::
 
 El OD tiene el pico en −80 daPa con 2,92 mL, fuera de escala: **Ad**. El volumen es normal (1,96 mL): la membrana está entera. El OI es **A**, con 0,47 mL en −52 daPa. **Reflejos:** solo el ipsilateral de la sonda en el OI (85 a 90 dB). Con la sonda en el OD no hay ninguno, y el contralateral desde el OI, que estimula el OD, tampoco aparece: el gap de 50 dB se come el estímulo.
@@ -274,8 +268,6 @@ El OD tiene el pico en −80 daPa con 2,92 mL, fuera de escala: **Ad**. El volum
 :::
 
 {{caso cap03_colesteatoma}}
-
-*Otoscopías: Zaka Ur Rehman, OtitisMediaKPJ (Kaggle, 2026), CC BY-NC-SA 4.0.*
 
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué tiene de distinto la otorrea de Sergio de la de Lucía (caso 3.1)? ¿Dónde está el hallazgo en la otoscopía izquierda?
@@ -291,12 +283,12 @@ El oído está seco desde hace tres semanas. ¿Puedes poner la sonda? ¿Qué hab
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap03_colesteatoma_audiosupra.svg ancho=80% Audiometría de Sergio: conductiva moderada y bastante plana del OI, con la ósea normal; OD normal.
+:::imagen figuras/salida/cap03_colesteatoma_audiosupra.svg ancho=100% Audiometría de Sergio: conductiva moderada y bastante plana del OI, con la ósea normal; OD normal.
 :::
 
 La aérea del OI está en 55 dB en 125 Hz y entre 40 y 50 en el resto, con la ósea en 0: un gap de 40 a 55 dB, bastante plano. La ósea está normal en todas las frecuencias: la cóclea todavía está a salvo. Grado **moderado** (promedio BIAP de 46 dB). SDT de −5 dB y SRT de 0 dB en el OD, y de 40 y 45 dB en el OI; la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 80 dB en el OI, con ruido en el OD).
 
-:::imagen figuras/salida/cap03_colesteatoma_impedancia.svg ancho=80% Impedanciometría de Sergio.
+:::imagen figuras/salida/cap03_colesteatoma_impedancia.svg ancho=100% Impedanciometría de Sergio.
 :::
 
 El OI es **B**, con un volumen de 1,56 mL, normal y parecido al del OD (1,23 mL): la sonda mide un conducto cerrado. No hay una perforación abierta. El OD es **A**, con el pico en −59 daPa y 1,06 mL. **Reflejos:** solo el ipsilateral de la sonda en el OD (85 a 90 dB). Con la sonda en el OI no hay ninguno, y el contralateral desde el OD, que estimula el OI, tampoco aparece: el gap se lleva el estímulo.
@@ -325,12 +317,12 @@ Un oído con otorrea de años y una pérdida que crece. ¿Esperas una conductiva
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap03_p41_audiosupra.svg ancho=80% Audiometría de Luis: pérdida mixta moderada del OI, con la ósea que cae hacia los agudos; OD normal.
+:::imagen figuras/salida/cap03_p41_audiosupra.svg ancho=100% Audiometría de Luis: pérdida mixta moderada del OI, con la ósea que cae hacia los agudos; OD normal.
 :::
 
 La aérea del OI está en 50 dB en 1 kHz y baja a 65 en 4 kHz y 70 en 8 kHz. La ósea del OI está en 25 dB en 500 y 1.000 Hz: hay gap (25 a 30 dB), pero la ósea **tampoco es normal**. Cae hacia los agudos: 35 dB en 2 kHz y 45 en 4 kHz. Pérdida **mixta**, grado **moderado** (promedio BIAP de 56 dB). SDT de −5 dB y SRT de 0 dB en el OD, y de 45 y 50 dB en el OI. El OD discrimina 100 % a 40 dB; el OI llega a **92 % a 90 dB**, con ruido de habla de 55 dB en el OD: la cóclea izquierda ya no entrega todo lo que recibe.
 
-:::imagen figuras/salida/cap03_p41_impedancia.svg ancho=80% Impedanciometría de Luis.
+:::imagen figuras/salida/cap03_p41_impedancia.svg ancho=100% Impedanciometría de Luis.
 :::
 
 El OI es **B**, con 1,91 mL de volumen, normal y parecido al del OD (1,73 mL): hoy la sonda no está viendo la caja. La membrana está cerrada. El OD es **A**, con el pico en −86 daPa y 0,97 mL. **Reflejos:** con la sonda en el OI no hay ninguno. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OI, solo aparece en 2 y 4 kHz (115 dB SPL).
@@ -393,14 +385,12 @@ Otorrea fétida a repetición desde la adolescencia, una pérdida que crece y un
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia conductiva moderada del OI, con timpanograma B de volumen normal y ósea normal: compatible con **colesteatoma del oído izquierdo sin compromiso coclear**, que el otorrino confirma con la otoscopía y la TC. El tratamiento es quirúrgico (Stankovic, 2008). Se le explica a Sergio que no debe esperar a que el oído vuelva a supurar para controlarse, y que el vértigo o la debilidad de la cara son motivo de urgencia.
+Hipoacusia conductiva moderada del OI, con timpanograma B de volumen normal y ósea normal: compatible con **colesteatoma del oído izquierdo sin compromiso coclear**, que el otorrino confirma con la otoscopía y la TC ({{fig tc-colesteatoma}}). El tratamiento es quirúrgico (Stankovic, 2008). Se le explica a Sergio que no debe esperar a que el oído vuelva a supurar para controlarse, y que el vértigo o la debilidad de la cara son motivo de urgencia.
 
-:::imagen ilustraciones/cap03-tc-colesteatoma.jpg ancho=100% Tomografía coronal de los dos oídos de otra persona, no de Sergio: a la izquierda de la imagen está su oído derecho, con colesteatoma; a la derecha, el izquierdo, sano. La tomografía la pide y la informa el médico; se muestra para que se vea la forma de lo que miden las pruebas. Imagen: Gulati M, Gupta S, Prakash A, Garg A, Dixit R (2019), Insights Imaging, doi:10.1186/s13244-019-0782-y, Fig. 2, CC BY 4.0.
-- @88,46 | **Escudo sano** (flecha amarilla): la punta de hueso donde se apoya el borde de arriba de la membrana.
+:::imagen ilustraciones/cap03-tc-colesteatoma.jpg ancho=100% id=tc-colesteatoma Tomografía coronal de los dos oídos de una persona con colesteatoma del oído derecho, que queda a la izquierda de la imagen; el izquierdo está sano. En el sano, la flecha amarilla marca el escudo: la punta de hueso donde se apoya el borde de arriba de la membrana. Imagen: Gulati M, Gupta S, Prakash A, Garg A, Dixit R (2019), Insights Imaging, doi:10.1186/s13244-019-0782-y, Fig. 2, CC BY 4.0.
 - @79,70 | En el oído sano, la caja y el conducto tienen aire (negro).
 - @15,60 | En el oído enfermo el escudo se borró, y la caja y el conducto están ocupados por partes blandas (gris) en vez de aire.
 :::
-
 ### Caso 3.5
 
 #### Razonamiento
@@ -460,6 +450,7 @@ Niveles de prevención y su marco: → B5.
 
 1. Merchant SN, Ravicz ME, Voss SE, Peake WT, Rosowski JJ. Toynbee Memorial Lecture 1997. Middle ear mechanics in normal, diseased and reconstructed ears. J Laryngol Otol. 1998;112(8):715-31. doi:10.1017/S0022215100141568
 1. Aibara R, Welsh JT, Puria S, Goode RL. Human middle-ear sound transfer function and cochlear input impedance. Hear Res. 2001;152(1-2):100-9. doi:10.1016/S0378-5955(00)00240-9
+1. Remenschneider AK, Cheng JT. Contemporary mechanics of conductive hearing loss. Oper Tech Otolaryngol Head Neck Surg. 2024;35(1):2-10. doi:10.1016/j.otot.2024.01.001. PMID 38680732
 1. Stenfelt S, Goode RL. Bone-conducted sound: physiological and clinical aspects. Otol Neurotol. 2005;26(6):1245-61. doi:10.1097/01.mao.0000187236.10842.d5
 
 ### Patología

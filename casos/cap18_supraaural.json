@@ -1,0 +1,44 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "nihl_cronica",
+      "OI": "nihl_cronica"
+    },
+    "edad": 47,
+    "sexo": "hombre",
+    "grado": {
+      "OD": "leve",
+      "OI": "leve"
+    },
+    "anamnesis": {
+      "otros": "Tiene 47 años y hace 20 opera un chancador en una planta de áridos. Usó protección auditiva solo a ratos. Desde hace unos años tiene un siseo permanente en los dos oídos y le cuesta entender cuando hay ruido de fondo; en silencio conversa sin problema. No tiene mareos, dolor ni secreción de oídos. En la mutual le hicieron una audiometría con caída en los agudos y lo derivaron a un ABR para completar el estudio.",
+      "historia": "{{-60}} Audiometría de vigilancia: caída bilateral en agudos compatible con ruido; se pide un estudio con ABR.",
+      "hist": [
+        "trauma_acustico"
+      ],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        100,
+        80,
+        60,
+        50,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    }
+  ]
+}

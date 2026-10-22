@@ -205,7 +205,7 @@ Tabla: Latencias típicas del adulto con audición normal (orientativas, no son 
 
 ### Asimetrías
 
-En la latencia media, la guía de la AAA (2010) describe que se comparan latencia y amplitud entre los electrodos sobre cada hemisferio; los sujetos normales muestran amplitudes muy parecidas entre ambos lados, y las comparaciones del mismo sujeto dan más información diagnóstica que las comparaciones entre sujetos, por la mayor variabilidad entre personas. Un **efecto de oído** es la diferencia según qué oído se estimula; un **efecto de electrodo**, la diferencia entre un lado de la cabeza y el otro (AAA, 2010). <!-- verificar: no se encontró en las fuentes accesibles un límite numérico de asimetría validado para la MLR; no se da un valor de corte. -->
+En la latencia media, la guía de la AAA (2010) describe que se comparan latencia y amplitud entre los electrodos sobre cada hemisferio; los sujetos normales muestran amplitudes muy parecidas entre ambos lados, y las comparaciones del mismo sujeto dan más información diagnóstica que las comparaciones entre sujetos, por la mayor variabilidad entre personas. Un **efecto de oído** es la diferencia según qué oído se estimula; un **efecto de electrodo**, la diferencia entre un lado de la cabeza y el otro (AAA, 2010). El libro no da un valor de corte: no encontramos un límite numérico de asimetría validado para la MLR.
 
 ### Ejemplo de informe: umbral cortical en un adulto
 
@@ -239,7 +239,7 @@ En la neuropatía auditiva (→ H10, H9) el ABR falta con emisiones presentes. L
 
 ### Audífonos e implante coclear en niños
 
-- **Verificar que el sonido llega a la corteza con audífonos.** En 98 lactantes con audición normal, los corticales a 65 dB SPL se detectaron en todos los que tenían timpanometría normal en ambos oídos; la detección fue de 86 %, 100 % y 92 % para /m/, /g/ y /t/ (Munro y cols., 2019). En lactantes con hipoacusia neurosensorial, se detectaron más respuestas con audífonos puestos que sin ellos (Chang y cols., 2012). Pero cerca de un tercio no responde a 65 dB SPL aun siendo audible, de modo que **una respuesta ausente se interpreta con cautela** y se repite (BSA, 2022). Un estadístico objetivo (T² de Hotelling) distinguió las respuestas del ruido tan bien como los examinadores de más experiencia (Carter y cols., 2010).
+- **Verificar que el sonido llega a la corteza con audífonos.** En lactantes con audición normal (98 evaluados, 91 con resultado utilizable), los corticales a 65 dB SPL se detectaron en todos los que tenían timpanometría normal en ambos oídos; la detección fue de 86 %, 100 % y 92 % para /m/, /g/ y /t/ (Munro y cols., 2020). En lactantes con hipoacusia neurosensorial, se detectaron más respuestas con audífonos puestos que sin ellos (Chang y cols., 2012). Pero cerca de un tercio no responde a 65 dB SPL aun siendo audible, de modo que **una respuesta ausente se interpreta con cautela** y se repite (BSA, 2022). Un estadístico objetivo (T² de Hotelling) distinguió las respuestas del ruido tan bien como los examinadores de más experiencia (Carter y cols., 2010).
 - **La P1 como marcador de maduración y período sensible.** En 104 niños sordos congénitos con implante, los privados de audición por 7 años o más tuvieron latencias de P1 anormales, y los privados por unos 3,5 años o menos alcanzaron latencias propias de su edad en 6 meses; los autores propusieron un período sensible de unos 3,5 años (Sharma y cols., 2002). El seguimiento mostró desarrollo rápido de la forma de onda y de la P1 en los implantados antes de 3,5 años y desarrollo lento y morfología anormal en los implantados después de 7 años (Sharma y cols., 2005).
 
 ### Procesamiento auditivo central y cognición
@@ -261,7 +261,7 @@ Lo conductual (→ H15) y lo electrofisiológico se interpretan **juntos**, nunc
 - **ABR ausente y emisiones presentes, con P1 de latencia normal para la edad.** Neuropatía con llegada cortical; se cruza con la percepción del habla (Rance y cols., 2002).
 - **Niño con implante y sin progreso conductual, con P1 retrasada para la edad.** Posible maduración retrasada de la vía; se revisan la programación y el tiempo de uso (Sharma y cols., 2002).
 
-<!-- verificar: la guía de la AAA (2010) no fija criterios cuantitativos para cruzar hallazgos. La tabla describe asociaciones publicadas, no reglas diagnósticas. -->
+*La guía de la AAA (2010) no fija criterios cuantitativos para cruzar hallazgos. Esta tabla describe asociaciones publicadas, no reglas diagnósticas.*
 
 ## Errores frecuentes
 
@@ -304,7 +304,7 @@ Estas respuestas **no diagnostican** un trastorno del procesamiento auditivo. La
 1. American Academy of Audiology. Clinical practice guidelines: diagnosis, treatment and management of children and adults with central auditory processing disorder. AAA; 2010. Disponible en: https://www.audiology.org/wp-content/uploads/2021/05/CAPD-Guidelines-8-2010.pdf_539952af956c79.73897613.pdf
 1. Duncan CC, Barry RJ, Connolly JF, Fischer C, et al. Event-related potentials in clinical research: guidelines for eliciting, recording, and quantifying mismatch negativity, P300, and N400. Clin Neurophysiol. 2009;120(11):1883-908. doi:10.1016/j.clinph.2009.07.045
 1. Picton TW, Bentin S, Berg P, Donchin E, et al. Guidelines for using human event-related potentials to study cognition: recording standards and publication criteria. Psychophysiology. 2000;37(2):127-52. doi:10.1111/1469-8986.3720127
-1. Hall JW. New handbook of auditory evoked responses. Pearson; 2007. ISBN 978-0-205-36104-5 <!-- verificar: citado como lectura general; no se pudo leer, no se usa ninguna cifra suya. -->
+1. Hall JW. New handbook of auditory evoked responses. Pearson; 2007. ISBN 978-0-205-36104-5
 
 ### Latencia media
 

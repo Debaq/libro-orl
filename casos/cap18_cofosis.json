@@ -1,0 +1,42 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "parotiditis",
+      "OI": "normal"
+    },
+    "edad": 22,
+    "sexo": "hombre",
+    "grado": {
+      "OD": "profunda"
+    },
+    "anamnesis": {
+      "otros": "Tiene 22 años y estudia ingeniería. A los 6 años tuvo paperas y desde entonces no oye por el oído derecho; nunca le habían hecho estudios. Habla por teléfono con el izquierdo y no sabe de dónde viene un sonido. No tiene pitido, mareos, dolor ni secreción. Del oído izquierdo no tiene ninguna queja.",
+      "historia": "{{-5800}} Parotiditis a los 6 años; desde entonces, sin audición en el oído derecho. Sin estudios.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        100,
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    }
+  ]
+}

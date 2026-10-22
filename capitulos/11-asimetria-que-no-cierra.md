@@ -5,6 +5,7 @@
 - Aplicar e interpretar el deterioro tonal (Carhart, Rosenberg, STAT) y el deterioro del reflejo estapedial.
 - Leer un PEAT neurootológico: latencias absolutas, interpicos y diferencia interaural de la onda V.
 - Integrar audiometría, logoaudiometría, reflejos, emisiones y PEAT en una sola hipótesis de sitio de lesión.
+- Separar una asimetría coclear de una retrococlear leyendo el PEAT junto al audiograma.
 :::
 
 Un oído que oye peor que el otro, sin una causa que lo explique, es una de las situaciones que más responsabilidad le exige a quien evalúa. La mayoría de las veces la asimetría es coclear y benigna. Pero detrás de unas pocas hay un tumor del ángulo pontocerebeloso que, encontrado a tiempo, se opera con audición útil y con el nervio facial intacto. Este capítulo trata de cómo separar unas de otras con las pruebas que tenemos en el box.
@@ -64,7 +65,8 @@ Solo se puede hacer si hay reflejo. En los tumores del VIII lo más frecuente es
 El objetivo no es buscar el umbral sino **medir cuánto tarda la señal en llegar al tronco**.
 
 - **Montaje**: activo en vértex, referencia en cada mastoides, tierra en la frente. Impedancias bajo 5 kΩ y parejas entre sí.
-- **Estímulo**: click en rarefacción por fonos de inserción, a 80 o 90 dB nHL. Si a 80 no hay onda V clara, se sube a 90 o 100.
+- **Estímulo**: click por fonos de inserción, a 80 o 90 dB nHL, con la polaridad alternada del libro (→ H10). Si a 80 no hay onda V clara, se sube a 90 o 100.
+- **Enmascaramiento**: cuando un oído oye mucho peor que el otro, el estímulo que sube a 90 o 100 dB nHL puede llegar al oído bueno y la respuesta ser de él. Se estimula el oído peor con ruido en el oído mejor (→ H10).
 - **Registro**: tasa baja (unos 11 a 21 por segundo), filtros de 100 a 3.000 Hz y **dos registros por nivel** para ver que se repiten.
 - **Paciente**: acostado, relajado y con los ojos cerrados. El sueño ayuda, pero no es requisito en el adulto.
 
@@ -80,10 +82,10 @@ Se miden:
 :::ayuda Valores orientativos del adulto
 - Interpico **I-V**: alrededor de 4 ms.
 - **Diferencia interaural de V**: más de 0,3 a 0,4 ms es sospechosa.
-- Mandan los valores normativos del Apéndice A, no estos números.
+- Los límites por sexo, edad y oído están en H10 (Sanfins y cols., 2026); mandan ellos, no estos números.
 :::
 
-**Tasa alta como prueba de esfuerzo.** Al subir la tasa todas las ondas se alargan un poco en un oído normal: de 10 a 90 estímulos por segundo, la I entre un 4 y un 10 %, la III entre un 9 y un 13 % y la V entre un 12 y un 15 % (Jiang y cols., 1991). <!-- Pasada de fundamentos 2026-10-18: decía "la I un 8 %, la III un 11 % y la V un 14 %". El resumen de Jiang 1991 da rangos por grupo de edad (80 niños de 0 a 6 años y 21 adultos): "prolonged by 4-10%, 9-13% and 12-15% respectively" (igual que en el cap. 12). --> Una vía comprometida se alarga mucho más o pierde la onda V.
+**Tasa alta como prueba de esfuerzo.** Al subir la tasa todas las ondas se alargan un poco en un oído normal: de 10 a 90 estímulos por segundo, la I entre un 4 y un 10 %, la III entre un 9 y un 13 % y la V entre un 12 y un 15 % (Jiang y cols., 1991). <!-- Pasada de fundamentos 2026-10-18: decía "la I un 8 %, la III un 11 % y la V un 14 %". El resumen de Jiang 1991 da rangos por grupo de edad (80 niños de 0 a 6 años y 21 adultos): "prolonged by 4-10%, 9-13% and 12-15% respectively" (igual que en el cap. 12). --> Una vía comprometida se alarga mucho más o pierde la onda V. En los casos de este capítulo se ve en Víctor (11.2); en Manuel (11.3) el alargamiento es igual al de un oído sano, y en Javier (11.6), que no tiene lesión neural, también.
 
 <!-- Protocolo ORL 2019: subir la tasa a 81,1/s "en sospecha de neuropatía". La tasa alta es una prueba de la vía retrococlear (desmielinización, compresión). En la neuropatía auditiva lo que decide es la microfónica coclear con polaridades separadas y el tubo pinzado (cap. 13). -->
 
@@ -142,9 +144,9 @@ Tumor benigno de las células de Schwann de la porción vestibular del VIII par.
 
 Aunque nace en el nervio vestibular, el síntoma vestibular es tardío y discreto: el cerebelo compensa el déficit que se instala lento. El VEMP, en cambio, suele estar alterado: el cervical en cerca del 65 % y el ocular en cerca del 76 % de los tumores sin operar. En un 16 % es la única prueba alterada, con audición normal (Chiarovano y cols., 2014).
 
-El diagnóstico lo da la resonancia con gadolinio, que pide el médico. Un tumor pequeño puede caber entero dentro del conducto auditivo interno; uno grande sale al ángulo y empuja el tronco.
+El diagnóstico lo da la resonancia con gadolinio, que pide el médico. Un tumor pequeño puede caber entero dentro del conducto auditivo interno; uno grande sale al ángulo y empuja el tronco ({{fig rm-schwannoma}}).
 
-:::imagen ilustraciones/cap11-rm-schwannoma.jpg ancho=100% Resonancia de dos personas con schwannoma vestibular; no son pacientes de este capítulo. La imagen la pide y la informa el médico; se muestra para que se vea la forma de lo que miden las pruebas. Arriba, un tumor intracanalicular pequeño en el conducto auditivo interno (CAI) izquierdo; abajo, uno grande y quístico en el ángulo pontocerebeloso derecho. A la izquierda, T1 con gadolinio; a la derecha, T2 de alta resolución (CISS), al mismo nivel. Cortes axiales en orientación radiológica: la derecha del paciente queda a la izquierda. Imagen: dataset Vestibular-Schwannoma-SEG (Shapey y cols., 2021, Sci Data 8:286, doi:10.1038/s41597-021-01064-w; TCIA, doi:10.7937/TCIA.9YTJ-5Q73), CC BY 4.0, adaptada.
+:::imagen ilustraciones/cap11-rm-schwannoma.jpg ancho=100% id=rm-schwannoma Resonancia de dos schwannomas vestibulares. Arriba, un tumor intracanalicular pequeño en el conducto auditivo interno (CAI) izquierdo; abajo, uno grande y quístico en el ángulo pontocerebeloso derecho. A la izquierda, T1 con gadolinio; a la derecha, T2 de alta resolución (CISS), al mismo nivel. Cortes axiales en orientación radiológica: la derecha del paciente queda a la izquierda. Imagen: dataset Vestibular-Schwannoma-SEG (Shapey y cols., 2021, Sci Data 8:286, doi:10.1038/s41597-021-01064-w; TCIA, doi:10.7937/TCIA.9YTJ-5Q73), CC BY 4.0, adaptada.
 - @42,12 | **Tumor pequeño con gadolinio**: un nódulo blanco en el fondo del CAI izquierdo: el tumor realza.
 - @91,28 | **El mismo tumor en CISS**: una mancha gris donde debería haber líquido blanco.
 - @57,25 | **El CAI derecho sano**, en el mismo corte: líquido blanco con los nervios como líneas oscuras que van a la cóclea.
@@ -152,7 +154,6 @@ El diagnóstico lo da la resonancia con gadolinio, que pide el médico. Un tumor
 - @72,62 | **El mismo tumor en CISS**, con sus quistes blancos.
 - @83,85 | **El tronco y el cuarto ventrículo** quedan deformados por la masa.
 :::
-
 :::ojo Ojo clínico
 Una audición **normal** no descarta un schwannoma: en la serie de Chiarovano solo un tercio tenía hipoacusia en el promedio de 500 a 2.000 Hz (Chiarovano y cols., 2014). Si el acúfeno es unilateral y persistente, se estudia igual.
 :::
@@ -163,25 +164,16 @@ Enfermedad genética en la que crecen **schwannomas vestibulares en los dos lado
 
 ### Otros tumores del ángulo
 
-El **meningioma** del ángulo y el **epidermoide** dan un cuadro parecido. En 51 meningiomas del hueso petroso, el 65 % tenía hipoacusia y en el 41 % fue el primer síntoma (Bassiouni y cols., 2004). El PEAT está alterado o ausente en la mayoría de los tumores del ángulo: en 309 casos, 31,4 % patológico y 50,2 % sin respuesta (Marangos y cols., 2001).
+El **meningioma** del ángulo y el **epidermoide** dan un cuadro parecido ({{fig rm-epidermoide}}). En 51 meningiomas del hueso petroso, el 65 % tenía hipoacusia y en el 41 % fue el primer síntoma (Bassiouni y cols., 2004). El PEAT está alterado o ausente en la mayoría de los tumores del ángulo: en 309 casos, 31,4 % patológico y 50,2 % sin respuesta (Marangos y cols., 2001).
 
-:::imagen ilustraciones/cap11-rm-epidermoide.jpg ancho=100% Quiste epidermoide del ángulo pontocerebeloso derecho en otra persona: T2 (A), T1 con gadolinio (B) y difusión (C). Imagen: Chon KH, Lee JM, Koh EJ, Choi HY (2012), J Korean Neurosurg Soc 52:148, doi:10.3340/jkns.2012.52.2.148, Fig. 1 A-C, CC BY-NC 3.0, adaptada.
-- @12,62 | **En T2 es blanco**, como el líquido que lo rodea.
-- @44,66 | **Con gadolinio no realza**: queda oscuro. El schwannoma de la figura anterior, en cambio, realza.
-- @79,63 | **En difusión brilla mucho**: es el signo que hace pensar en un epidermoide.
+:::imagen ilustraciones/cap11-rm-epidermoide.jpg ancho=100% id=rm-epidermoide Quiste epidermoide del ángulo pontocerebeloso derecho. A, en T2 es blanco, como el líquido que lo rodea. B, con gadolinio no realza y queda oscuro; el schwannoma, en cambio, realza. C, en difusión brilla mucho: es el signo que hace pensar en un epidermoide. Imagen: Chon KH, Lee JM, Koh EJ, Choi HY (2012), J Korean Neurosurg Soc 52:148, doi:10.3340/jkns.2012.52.2.148, Fig. 1 A-C, CC BY-NC 3.0, adaptada.
 :::
-
 ### Compresión microvascular del VIII par
 
-Un asa vascular, a menudo de la arteria cerebelosa anteroinferior, contacta el nervio en el ángulo o el conducto. Da **acúfeno unilateral**, a veces crisis breves de vértigo, y una pérdida de frecuencia específica, porque el nervio está ordenado por frecuencias y el asa lo toca en un punto (De Ridder y cols., 2005). El PEAT muestra lo que se espera de una lesión proximal del nervio: **la onda II se reduce y el interpico I-III se alarga**, y la frecuencia del acúfeno coincide con la de máxima pérdida (De Ridder y cols., 2007). <!-- Pasada de fundamentos 2026-10-18: decía "casi siempre la arteria cerebelosa anteroinferior" y "una pérdida leve y de frecuencia específica, con los graves conservados (De Ridder y cols.)". Los resúmenes de De Ridder 2005 y 2007 sostienen la pérdida de frecuencia específica, las crisis breves de vértigo, la onda II reducida, el I-III alargado y la coincidencia de frecuencias; no dicen qué arteria es la más frecuente ni que la pérdida sea leve con graves conservados. verificar: frecuencia de la AICA como vaso del conflicto. -->
+Un asa vascular, a menudo de la arteria cerebelosa anteroinferior, contacta el nervio en el ángulo o el conducto ({{fig rm-asa-aica}}). Da **acúfeno unilateral**, a veces crisis breves de vértigo, y una pérdida de frecuencia específica, porque el nervio está ordenado por frecuencias y el asa lo toca en un punto (De Ridder y cols., 2005). El PEAT muestra lo que se espera de una lesión proximal del nervio: **la onda II se reduce y el interpico I-III se alarga**, y la frecuencia del acúfeno coincide con la de máxima pérdida (De Ridder y cols., 2007). <!-- Pasada de fundamentos 2026-10-18: decía "casi siempre la arteria cerebelosa anteroinferior" y "una pérdida leve y de frecuencia específica, con los graves conservados (De Ridder y cols.)". Los resúmenes de De Ridder 2005 y 2007 sostienen la pérdida de frecuencia específica, las crisis breves de vértigo, la onda II reducida, el I-III alargado y la coincidencia de frecuencias; no dicen qué arteria es la más frecuente ni que la pérdida sea leve con graves conservados. verificar: frecuencia de la AICA como vaso del conflicto. -->
 
-:::imagen ilustraciones/cap11-rm-asa-aica.jpg ancho=40% Asa de la arteria cerebelosa anteroinferior (flecha amarilla) en T2 de alta resolución de otras personas, según cómo toca el VIII par (clasificación de Gorrie). Imagen: Kim SH y cols. (2019), PeerJ 7:e6582, doi:10.7717/peerj.6582, Fig. 2, CC BY 4.0.
-- @42,8 | **Tipo 1**: el asa va separada del nervio.
-- @88,22 | **Tipo 2**: el asa corre junto al nervio.
-- @12,92 | **Tipo 3**: el asa desvía el VIII par.
-- @84,90 | **Tipo 4**: el asa pasa entre el VII y el VIII par.
+:::imagen ilustraciones/cap11-rm-asa-aica.jpg ancho=40% id=rm-asa-aica Asa de la arteria cerebelosa anteroinferior (flecha amarilla) en T2 de alta resolución, según cómo toca el VIII par (clasificación de Gorrie). A, tipo 1: el asa va separada del nervio. B, tipo 2: corre junto al nervio. C, tipo 3: desvía el VIII par. D, tipo 4: pasa entre el VII y el VIII par. Imagen: Kim SH y cols. (2019), PeerJ 7:e6582, doi:10.7717/peerj.6582, Fig. 2, CC BY 4.0.
 :::
-
 ### Coclear con componente retrococlear
 
 Una lesión retrococlear no protege la cóclea. El tumor puede comprometer la irrigación del laberinto, y el paciente puede tener además su presbiacusia o daño por ruido. El resultado mezcla signos: pérdida mayor, algo de reclutamiento o emisiones ausentes junto a un PEAT francamente retrococlear. Es el caso que más confunde, porque **cada prueba aislada puede parecer coclear**.
@@ -226,74 +218,6 @@ Un paciente tiene emisiones otoacústicas presentes en un oído con 50 dB de pé
 
 ## Casos
 
-{{caso cap11_p39}}
-
-:::pregunta Paso 1 · ¿Qué datos importan?
-¿Qué datos de su relato orientan a dónde está el problema? ¿Cuáles son señales de alarma?
-:::
-
-:::pregunta Paso 2 · Tus hipótesis
-Plantea al menos tres causas posibles para una pérdida de un solo oído con acúfeno del mismo lado.
-:::
-
-:::pregunta Paso 3 · ¿Qué pedirías y por qué?
-Con una asimetría de agudos y un acúfeno de dos años en el mismo oído, ¿qué pruebas agregarías a la audiometría? ¿Cuál esperas que se altere primero?
-:::
-
-#### Paso 4 · Los resultados
-
-:::imagen figuras/salida/cap11_p39_audiosupra.svg ancho=80% Audiometría de Raúl: en 4 kHz el OD está en 55 dB y el OI en 15; la ósea va pegada a la aérea, así que la pérdida es sensorioneural. El OI es normal para la edad.
-:::
-
-**40 dB de asimetría** en 4 kHz, muy por encima de los 15 que obligan a estudiar. Sin gap: la pérdida es **sensorioneural**. Con un oído sano al lado, cualquier hallazgo del OD se compara contra él. En el OD el SDT es de 10 dB y el SRT de 15 (0 y 5 en el OI). SISI de 10 %, Carhart con deterioro de 30 dB y Metz ausente: no recluta y el tono se apaga (el detalle, en la tabla de abajo).
-
-:::imagen figuras/salida/cap11_p39_logoaudiometria.svg ancho=100% Logoaudiometría de Raúl: el OD no pasa del 52 % y, pasado el máximo, cae al 20 % a 80 dB (roll-over); el OI llega al 100 % a 40 dB.
-:::
-
-El OD no pasa del **52 %**, a 50 dB, aunque en las frecuencias del habla su pérdida es leve: un oído coclear con esa curva suele llegar al 90 % o más. Pasado el máximo la curva **cae**: a 80 dB entiende el 20 %. Es el **roll-over**: (52 − 20) / 52 da un índice de 0,62, por encima del corte de 0,45 que sugiere lesión retrococlear (Jerger y Jerger, 1971). El OI llega al 100 % a 40 dB: es la referencia de lo esperable.
-
-:::imagen figuras/salida/cap11_p39_impedancia.svg ancho=80% Impedanciometría de Raúl.
-:::
-
-Los dos oídos tienen curva A: el oído medio está sano y no explica nada de lo que sigue. Sin este dato, los reflejos no se pueden leer.
-
-Con la sonda en el OD, el ipsilateral (tono por el OD) falta en todas las frecuencias. Con la sonda en el OI, el contralateral también falta: ahí el tono también entra por el OD. En cambio, con el tono por el OI el reflejo aparece. Con la sonda en el OD, ese contralateral está presente a 90 dB en 1 kHz: el músculo y el facial del OD funcionan. Falla **todo lo que se estimula por el OD**: es el patrón diagonal, aferente.
-
-:::ayuda-ancho Lo que entrega Raúl sobre el umbral (→ H6)
-| Prueba | OD | OI |
-|---|---|---|
-| Fowler, 2, 3 y 4 kHz | **sin reclutamiento** | referencia |
-| SISI | **alrededor de 10 %** | 0 % |
-| Carhart y Rosenberg, 500 a 4.000 Hz | **30 dB** | no det. |
-| STAT, 500, 1.000 y 2.000 Hz | **(+)**: baja la mano antes del minuto | (−) |
-:::
-
-Al nivel del STAT a su OD le sobran 70 a 85 dB sobre el umbral, y aun así no sostiene el tono: eso es lo que busca el STAT.
-
-:::lado
-:::figura cap11_p39 teoae
-- @OD 2000 | Las emisiones del OD están **presentes** en las cinco bandas, con reproducibilidad alta.
-- Un oído con 30 a 55 dB de pérdida en esas frecuencias y emisiones presentes: **las células ciliadas externas funcionan**. El problema está después de la cóclea.
-:::
-:::figura cap11_p39 dpoae
-- @OD 4000 | Los productos de distorsión confirman lo mismo: pasan en todas las frecuencias del OD, incluso donde el audiograma marca la mayor pérdida.
-:::
-:::
-:::figura cap11_p39 abr
-- @OI 80 V | La onda V del OI aparece en su lugar, con I y III bien formadas.
-- @OD 80 V | La V del OD llega **0,8 ms más tarde** que la del OI al mismo nivel. La diferencia interaural duplica el límite de 0,4 ms.
-- @OD 80 I | La onda I del OD existe y está en su lugar: la señal sale bien de la cóclea y se atrasa en el camino.
-- @OD 40 | A 40 dB el OD ya no responde, aunque su umbral en 2 kHz es de 30 dB.
-:::
-
-:::docente Guía del caso
-- **Datos clave:** pérdida unilateral del OD de dos años, pitido del mismo lado, dificultad para entender por teléfono (discriminación, no solo umbral), inestabilidad leve; otoscopía normal.
-- **Hipótesis esperables:** coclear unilateral (ruido, súbita antigua), hidrops, **retrococlear**. Sin exposición a ruido ni crisis de vértigo, la asimetría + acúfeno + mala discriminación deben hacer pensar en el VIII par.
-- **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, supraliminares (deterioro tonal, STAT, SISI), impedanciometría con reflejos y su deterioro, emisiones y PEAT (→ H3, H5, H6, H7, H9, H10).
-- **Errores esperables:** atribuirlo a la edad; no enmascarar el OD; leer la latencia de V sin el audiograma.
-- **Para discutir:** Unos 45 minutos con toda la batería.
-:::
-
 {{caso cap11_schwannoma}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
@@ -305,25 +229,29 @@ Al nivel del STAT a su OD le sobran 70 a 85 dB sobre el umbral, y aun así no so
 :::
 
 :::pregunta Paso 3 · ¿Qué pedirías y por qué?
-La pérdida del OD es mayor que en el caso anterior y no hay acúfeno. ¿Cambia en algo el estudio? ¿Te sirve buscar los interpicos en este oído?
+La pérdida del OD es severa en agudos y no hay acúfeno. ¿Cambia en algo el estudio? ¿Te sirve buscar los interpicos en este oído?
 :::
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap11_schwannoma_audiosupra.svg ancho=80% Audiometría de Lourdes: pérdida severa en agudos del OD (95 dB en 4 kHz) y moderada en el habla (45 dB en 1 kHz), con la ósea pegada a la aérea; el OI es normal.
+:::imagen figuras/salida/cap11_schwannoma_audiosupra.svg ancho=100% Audiometría de Lourdes: pérdida severa en agudos del OD (95 dB en 4 kHz) y moderada en el habla (45 dB en 1 kHz), con la ósea pegada a la aérea; el OI es normal.
 :::
 
 En el OD el SDT y el SRT son de 40 dB, pero la discriminación no pasa del **20 %** (19 % a 60 dB y 20 % a 70 y 80 dB): con 45 dB en 1 kHz, un oído coclear entendería bastante más. El OI llega al 100 % a 40 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
 
-:::imagen figuras/salida/cap11_schwannoma_impedancia.svg ancho=80% Impedanciometría de Lourdes.
+:::imagen figuras/salida/cap11_schwannoma_impedancia.svg ancho=100% Impedanciometría de Lourdes.
 :::
 
 Con la sonda en el OD, no hay reflejo ipsilateral. Con la sonda en el OI, tampoco aparece el contralateral, que se estimula por el OD. Cuando el tono entra por el OI, el reflejo está presente: 90 dB en 1 kHz con la sonda en el OD (contralateral) y 85 dB con la sonda en el OI (ipsilateral). Otra vez el **patrón diagonal**: falla lo que se estimula por el OD.
 
 :::figura cap11_schwannoma abr
-- @OD 80 | A 80 dB el OD no muestra ninguna onda que se separe del ruido: ni I ni III, y tampoco una V que se pueda marcar.
-- @OI 80 V | El OI tiene todas sus ondas bien formadas.
+- @OD 80 | A 80 dB el OD no muestra ninguna onda que se repita en las dos curvas: ni I ni III, y tampoco una V que se pueda marcar.
+- @OI 80 V | El OI tiene todas sus ondas bien formadas: I a 1,5 ms, III a 3,7 y V a 5,6, con I-V de 4,0 ms (límite 4,4).
 - Ojo con la lectura: con 70 a 95 dB de pérdida entre 2 y 4 kHz, un click a 80 dB queda casi en el umbral de las frecuencias que usa. Un PEAT sin ondas **no basta solo** para hablar de nervio.
+:::
+:::figura cap11_schwannoma abr 2
+- @OD 90 V | El mismo oído a 100, 90 y 80 dB nHL, **con ruido de 55 dB en el OI**: el estímulo que sube a 100 dB cruza al oído sano, y sin ruido la respuesta podría ser suya. A 100 dB aparecen una III (3,7 ms) y una V (5,9) de baja amplitud, a 90 dB solo la V (6,0), y a 80 dB, nada. **Umbral con click, 90 dB nHL.**
+- Sigue sin I: no hay interpicos que medir.
 :::
 :::figura cap11_schwannoma vemp
 - @OD P13 | El VEMP cervical del OD es pequeño.
@@ -334,7 +262,7 @@ Con la sonda en el OD, no hay reflejo ipsilateral. Con la sonda en el OI, tampoc
 :::docente Guía del caso
 - **Datos clave:** pérdida OD de dos años, discriminación muy mala ("oye pero no entiende"), sin acúfeno, mareo breve al girar en la cama.
 - **Hipótesis:** coclear unilateral contra **retrococlear**. El mareo posicional breve puede ser un VPPB que coexiste, no tiene por qué ser el tumor; que no haya acúfeno no descarta nada.
-- **Qué pedir:** lo mismo que en el caso anterior, más **VEMP**: con una pérdida severa en agudos el PEAT pierde poder y el VEMP no depende de la audición (→ H12).
+- **Qué pedir:** audiometría con enmascaramiento, logoaudiometría, supraliminares, impedanciometría con reflejos y su deterioro, PEAT con el OI enmascarado y **VEMP**: con una pérdida severa en agudos el PEAT pierde poder y el VEMP no depende de la audición (→ H5, H6, H10, H12).
 - **Errores esperables:** concluir "coclear" porque el PEAT no muestra I ni III, cuando la causa es la pérdida.
 :::
 
@@ -354,19 +282,25 @@ Un hombre de 24 años con pérdida en **los dos oídos**, peor a la derecha y co
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap11_nf2_audiosupra.svg ancho=80% Audiometría de Víctor: los dos oídos están afectados, pero de forma muy asimétrica: el OD llega a 90 dB en 4 kHz y el OI a 55.
+:::imagen figuras/salida/cap11_nf2_audiosupra.svg ancho=100% Audiometría de Víctor: los dos oídos están afectados, pero de forma muy asimétrica: el OD llega a 90 dB en 4 kHz y el OI a 55.
 :::
 
 El SDT es de 35 dB en el OD y de 20 en el OI. La discriminación no pasa del **16 %** en el OD ni del **52 %** en el OI, aunque la pérdida del OI en el habla es leve: los **dos** oídos entienden menos de lo que oyen. SISI de 10 % en los dos, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap11_nf2_impedancia.svg ancho=80% Impedanciometría de Víctor.
+:::imagen figuras/salida/cap11_nf2_impedancia.svg ancho=100% Impedanciometría de Víctor.
 :::
 
 No hay reflejos en ninguna combinación: ni ipsilaterales ni contralaterales, con la sonda en el OD y con la sonda en el OI. Con dos nervios afectados, ningún estímulo dispara el arco.
 
 :::figura cap11_nf2 abr
 - @OD 80 | El OD no tiene respuesta a 80 dB.
-- @OI 80 V | El OI muestra ondas de mala morfología y una V tardía para su umbral.
+- @OI 80 V | El OI muestra ondas de baja amplitud: I a 1,4 ms, III a 4,0 y V a 6,1. La I está a tiempo, y el I-III (2,7 ms) y el I-V (4,8) pasan el límite. A 60 dB quedan marcas débiles de III y V.
+:::
+:::figura cap11_nf2 abr 2
+- @OD 90 V | El OD a 100, 90 y 80 dB nHL con ruido de 55 dB en el OI (el OI oye mucho mejor): a 90 dB hay una V mínima, a unos 6,4 ms, y a 80 dB nada. **Umbral con click, 90 dB nHL**; sin I clara, no hay interpicos.
+:::
+:::figura cap11_nf2 abr 3
+- @OI 80 V | El OI a **81,1 estímulos/s**. La V pasa de 6,1 a 7,4 ms: **1,2 ms más tarde (20 %)**, más que el 12 a 15 % de un oído sano, y la respuesta casi se pierde en el ruido. La vía no aguanta el esfuerzo.
 :::
 
 :::docente Guía del caso
@@ -393,19 +327,24 @@ La asimetría es moderada, la pérdida del OI no pasa de moderada y el paciente 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap11_angulo_audiosupra.svg ancho=80% Audiometría de Manuel: el OI está en 45 dB en 4 kHz y el OD en 20; la asimetría no la explica la edad.
+:::imagen figuras/salida/cap11_angulo_audiosupra.svg ancho=100% Audiometría de Manuel: el OI está en 45 dB en 4 kHz y el OD en 20; la asimetría no la explica la edad.
 :::
 
 Una presbiacusia sería **simétrica**. En el OI el SDT y el SRT son de 15 dB, pero la discriminación llega solo al **68 %**, a 50 dB, menos de lo esperable para su curva; el OD llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz, Metz de 94,5 y 95 dB en 500 y 1.000 Hz (ausente en 2 y 4 kHz) y decay del reflejo positivo.
 
-:::imagen figuras/salida/cap11_angulo_impedancia.svg ancho=80% Impedanciometría de Manuel.
+:::imagen figuras/salida/cap11_angulo_impedancia.svg ancho=100% Impedanciometría de Manuel.
 :::
 
 Con el tono por el OI, el reflejo aparece recién a 115 dB en 500 Hz (sonda en el OI, ipsilateral), 25 dB más arriba que con el tono por el OD, que lo dispara a 90 dB: **elevado**. En los agudos ya no aparece. Con la sonda en el OD, el contralateral del mismo oído muestra lo mismo: 120 dB en 500 Hz, contra 95 cuando el tono entra por el OD. El problema está en el oído que recibe el tono.
 
 :::figura cap11_angulo abr
-- @OD 80 V | La V del OD llega en su lugar.
-- @OI 80 V | La V del OI llega más tarde y con amplitud baja, aunque su pérdida a esa altura es leve.
+- @OD 80 V | El OD llega en su lugar: I a 1,9 ms, III a 4,0 y V a 5,9, con I-V de 4,0 ms.
+- @OI 80 I | En el OI **las tres ondas llegan tarde y de a poco**: I a 2,0 ms, III a 4,3 y V a 6,5, y con amplitud baja. Los interpicos (I-III 2,3; I-V 4,5) quedan bajo el límite. El retraso ya está en la I: viene de la cóclea, no del nervio.
+- @OI 80 V | La V del OI llega 0,7 ms después que la del OD, pero con la I tardía y una pérdida de 45 dB en 4 kHz, esa diferencia no se puede leer sola (→ H10).
+:::
+:::figura cap11_angulo abr 2
+- @OD 80 V | A 81,1 estímulos/s la V del OD llega a 6,4 ms: 0,5 ms más tarde (9 %).
+- @OI 80 V | La del OI llega a 7,1 ms: 0,6 ms más tarde (9 %), igual que el OD, con una amplitud casi perdida. **La tasa alta no destapa nada**: el PEAT de Manuel no muestra signos retrococleares, y el resto de las pruebas sí.
 :::
 
 :::docente Guía del caso
@@ -431,20 +370,20 @@ Una mujer de 47 años con zumbido en el OD y una pérdida leve en agudos de ese 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap11_microvascular_audiosupra.svg ancho=80% Audiometría de Lourdes: los graves del OD están conservados (10 dB en 500 Hz) y la pérdida aparece desde 2 kHz hasta 55 dB en 4 kHz; el OI es normal.
+:::imagen figuras/salida/cap11_microvascular_audiosupra.svg ancho=100% Audiometría de Lourdes: los graves del OD están conservados (10 dB en 500 Hz) y la pérdida aparece desde 2 kHz hasta 55 dB en 4 kHz; el OI es normal.
 :::
 
 Los **graves conservados** explican que el Weber no lateralice en 500 Hz: la pérdida es **de frecuencia específica**. En el OD el SDT y el SRT son de 15 dB, pero la discriminación llega solo al **60 %**, a 50 dB, poco para una pérdida que respeta los graves; el OI llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz, Metz de 94,5 dB en 500 Hz (ausente desde 1 kHz) y decay del reflejo positivo.
 
-:::imagen figuras/salida/cap11_microvascular_impedancia.svg ancho=80% Impedanciometría de Lourdes.
+:::imagen figuras/salida/cap11_microvascular_impedancia.svg ancho=100% Impedanciometría de Lourdes.
 :::
 
 Con el tono por el OD, el reflejo aparece en 500 Hz pero elevado: 110 dB (sonda en el OD, ipsilateral), contra 90 dB con el tono por el OI. Desde 1 kHz desaparece, y el contralateral que se estimula por el OD (sonda en el OI) llega solo a 120 dB en 500 Hz. Con umbrales de 20 a 55 dB, una pérdida coclear de ese grado lo conservaría.
 
 :::figura cap11_microvascular abr
-- @OD 80 I | La onda I del OD está en su lugar.
-- @OD 80 III | La III ya llega tarde: el interpico **I-III** está alargado. Es el tramo del nervio dentro del conducto y el ángulo.
-- @OI 80 V | La V del OI marca lo normal para comparar.
+- @OD 80 I | La onda I del OD está en su lugar (1,6 ms), pero las ondas del OD son de **muy baja amplitud**.
+- @OD 80 III | La III llega a 4,0 ms y la V a 6,0: el **I-III (2,4 ms)** está en el límite (2,4) y el I-V (4,4) lo pasa por 0,1 ms. Es el tramo del nervio dentro del conducto y el ángulo.
+- @OI 80 V | La V del OI marca lo normal para comparar (5,5 ms): la diferencia interaural es de 0,5 ms, sobre el límite de 0,4.
 :::
 
 :::docente Guía del caso
@@ -470,20 +409,27 @@ Un hombre de 66 años con pérdida moderada del OI y acúfeno de ese lado. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap11_retrococlear_audiosupra.svg ancho=80% Audiometría de Ramón: pérdida moderada del OI, plana hasta 2 kHz (40 dB en 1 kHz) y de 70 dB en 4 kHz; el OD solo tiene la caída de agudos esperable a su edad.
+:::imagen figuras/salida/cap11_retrococlear_audiosupra.svg ancho=100% Audiometría de Ramón: pérdida moderada del OI, plana hasta 2 kHz (40 dB en 1 kHz) y de 70 dB en 4 kHz; el OD solo tiene la caída de agudos esperable a su edad.
 :::
 
 En el OI el SDT y el SRT son de 35 dB, pero la discriminación **no pasa del 36 %** (a 60 y 70 dB): con esa curva, una lesión solo coclear daría 80 % o más. El OD llega al 100 %. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
 
-:::imagen figuras/salida/cap11_retrococlear_impedancia.svg ancho=80% Impedanciometría de Ramón.
+:::imagen figuras/salida/cap11_retrococlear_impedancia.svg ancho=100% Impedanciometría de Ramón.
 :::
 
 Sin reflejo al estimular el OI: no aparece el ipsilateral (sonda en el OI) ni el contralateral (sonda en el OD). Con el tono por el OD, en cambio, hay reflejo, ipsi con la sonda en el OD y contra con la sonda en el OI, a 85-95 dB. Es un patrón diagonal que parte del OI.
 
 :::figura cap11_retrococlear abr
-- @OI 80 V | A 80 dB el OI apenas muestra III y V.
+- @OI 80 V | A 80 dB el OI apenas muestra III y V (4,5 y 6,4 ms) y **no tiene onda I**: sin I no hay I-III ni I-V que medir. Sin ruido en el OD, estas marcas no son confiables: con una pérdida así, la respuesta puede venir del oído bueno.
 - @OI 60 | A 60 dB el OI ya no responde.
-- @OD 80 V | El OD responde bien.
+- @OD 80 V | El OD responde bien: I a 1,8 ms, III a 3,9 y V a 5,8.
+:::
+:::figura cap11_retrococlear abr 2
+- @OI 90 III | El OI a 100, 90 y 80 dB nHL **con ruido de 55 dB en el OD**: la I a 1,6 ms (100 dB), la III a 4,0 ms (90 dB) y la V a 5,9 (90 dB) y 6,0 (80 dB), de baja amplitud. Con el oído bueno enmascarado, las latencias del OI quedan dentro de los límites: el PEAT no muestra retraso.
+:::
+:::figura cap11_retrococlear abr 2
+- @OI 90 III | El OI a 100, 90 y 80 dB nHL **con ruido de 55 dB en el OD**. A 90 dB hay una III (4,0 ms) y una V (5,9) de baja amplitud, y la V sigue a 80 dB (6,0 ms); la I solo asoma a 100 dB (1,6 ms). Con ondas tan bajas, los interpicos no se miden con confianza.
+- Las latencias del OI quedan dentro de los límites: el PEAT no muestra retraso.
 :::
 
 :::docente Guía del caso
@@ -493,25 +439,66 @@ Sin reflejo al estimular el OI: no aparece el ipsilateral (sonda en el OI) ni el
 - **Errores esperables:** leerlo como "ruido + edad" y volver a indicar audífono sin estudiar el OI.
 :::
 
+{{caso cap11_tirador}}
+
+:::pregunta Paso 1 · ¿Qué datos importan?
+Practica tiro al vuelo desde los 22 años, dispara con la derecha y casi nunca usó protección. El pitido es del oído izquierdo y va y viene. ¿Qué parte de la historia explica que justo ese oído esté peor?
+:::
+
+:::pregunta Paso 2 · Tus hipótesis
+Plantea las causas de una pérdida de un solo oído con acúfeno. ¿Qué datos de la entrevista inclinan hacia la cóclea y cuáles harían pensar en el nervio?
+:::
+
+:::pregunta Paso 3 · ¿Qué pedirías y por qué?
+La asimetría llega a 65 dB en 4 kHz, mucho más que en los casos anteriores. ¿Qué pruebas esperas que den **distinto** que en un tumor? ¿Qué harías con la diferencia interaural de la V?
+:::
+
+#### Paso 4 · Los resultados
+
+:::imagen figuras/salida/cap11_tirador_audiosupra.svg ancho=100% Audiometría de Javier: el OD es normal (20 dB en 8 kHz); el OI cae desde 2 kHz hasta 80 dB en 6 kHz y vuelve a 55 dB en 8 kHz, con la ósea pegada a la aérea.
+:::
+
+La asimetría es de **65 dB** en 4 kHz y la pérdida del OI es sensorioneural, con una forma de muesca que sube en 8 kHz, la forma del daño por ruido. En los dos oídos el SDT es de 0 y 5 dB y el SRT de 5 y 10 dB. Pero a diferencia de los casos anteriores, la discriminación del OI llega al **88 %**, a 50 dB, y no cae al subir la intensidad: la de un oído coclear. El SISI es de **90 %**, hay reclutamiento en el Fowler, el Carhart no detecta deterioro y el decay del reflejo es negativo. El reflejo del OI aparece a 57 y a 19,5 dB sobre su umbral en 2 y 4 kHz (Metz): recluta.
+
+:::imagen figuras/salida/cap11_tirador_impedancia.svg ancho=100% Impedanciometría de Javier.
+:::
+
+Curva A en los dos oídos. Los **reflejos están presentes** en las cuatro combinaciones, a 85 a 105 dB SPL, tanto al estimular el OI como el OD: no hay patrón diagonal. Es lo contrario de los casos anteriores.
+
+:::figura cap11_tirador teoae
+- @OD 2000 | El OD tiene emisiones en las cinco bandas.
+- @OI 2000 | El OI las pierde desde 2 kHz: 2 de 5 bandas. Las células ciliadas externas fallan justo donde cae el audiograma.
+:::
+:::figura cap11_tirador dpoae
+- @OI 4000 | Los productos de distorsión confirman lo mismo: el OI pasa en 3 de 7 frecuencias (hasta 2 kHz) y el OD en las 7.
+:::
+:::figura cap11_tirador abr
+- @OD 80 V | Con **ruido de 55 dB en el OD** mientras se estimula el OI, y al revés. El OD es normal: I a 1,5 ms, III a 3,6 y V a 5,7, y la V sigue hasta 20 dB nHL.
+- @OI 80 III | En el OI **no hay onda I**: es la primera que se pierde en una pérdida de agudos. La III llega a 4,2 ms y la V a 6,2, dentro de los límites del oído (4,2 y 6,2), con III-V de 2,0 ms.
+- @OI 60 V | La V del OI sigue a 60 dB (6,6 ms) y a 50 ya no está: **umbral con click, 60 dB nHL**. El del OD es de 20.
+- La V del OI llega 0,5 ms después que la del OD, algo sobre el límite de 0,4. Con una pérdida de agudos de 60 a 80 dB esa diferencia es del oído, no del nervio.
+:::
+:::figura cap11_tirador abr 2
+- @OD 80 V | A 81,1 estímulos/s la V del OD llega a 6,2 ms: 0,5 ms más tarde (9 %).
+- @OI 80 V | La del OI llega a 6,9 ms: 0,7 ms más tarde (11 %). Los dos oídos se alargan como un oído sano: **la vía aguanta el esfuerzo**.
+:::
+
+:::docente Guía del caso
+- **Datos clave:** 52 años, tirador desde los 22, dispara con la derecha y sin protección; pitido del OI que va y viene tras las tiradas; oye menos en ruido, entiende bien en silencio; otoscopía normal.
+- **Hipótesis:** daño por ruido asimétrico (el oído que mira al cañón es el contrario a la mano que dispara), presbiacusia (simétrica), **retrococlear**. La historia pesa a favor de la cóclea.
+- **Qué pedir:** la batería completa del capítulo, con emisiones y con el oído sano enmascarado en el PEAT (→ H3, H5, H6, H9, H10).
+- **Lo que enseña:** es el caso donde **la asimetría sí cierra**. Discriminación acorde al umbral, reclutamiento, SISI alto, reflejos presentes, emisiones ausentes en la zona de la pérdida y un PEAT sin onda I, con III-V normal y tasa alta bien tolerada. Cada prueba apunta a la cóclea.
+- **Errores esperables:** leer la diferencia interaural de la V sin el audiograma y llamarla retrococlear; o, al revés, dar el caso por cerrado sin avisar que una asimetría tan grande se estudia igual.
+- **Para discutir:** una asimetría de 65 dB en 4 kHz, ¿alcanza para pedir imagen aunque todas las pruebas sean cocleares? Dónde está la frontera entre sobreestudiar y no ver un tumor pequeño (→ Prevención).
+:::
+
 ## Resolución de los casos
 
 Intenta resolver cada caso con los pasos del aprendizaje basado en problemas antes de leer esta sección.
 
+En todos los informes: click por fonos de inserción con polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica y montaje Cz-mastoides con impedancias bajo 5 kΩ. Cuando el oído estudiado oye mucho peor que el otro, se registró con ruido de 55 dB en el oído contrario. En las tablas, ↑ marca lo que pasa el límite (→ H10).
+
 ### Caso 11.1
-
-#### Razonamiento
-
-Todas las pruebas apuntan al mismo lugar. La cóclea del OD funciona: hay emisiones y la onda I está en su lugar. Pero la señal llega tarde al tronco, los reflejos fallan al estimular ese oído, el tono se apaga (deterioro de 30 dB y STAT positivo) y la discriminación es mucho peor que el umbral, con roll-over. Es una **lesión del VIII par derecho** hasta que la imagen demuestre otra cosa.
-
-#### Diagnóstico y qué sigue
-
-Hipoacusia sensorioneural del OD de **características retrococleares**. Se informa así, sin poner nombre al tumor (eso es de la imagen), y se sugiere evaluación por otorrinolaringología con **resonancia magnética de conductos auditivos internos con gadolinio**.
-
-:::comentario Comentario
-Es el caso tal como llega a la consulta: un adulto que "solo" consulta por el teléfono. La anamnesis cuidadosa (cambia de oído para hablar) vale tanto como cualquier prueba.
-:::
-
-### Caso 11.2
 
 #### Razonamiento
 
@@ -519,13 +506,40 @@ El PEAT no puede decir mucho: la pérdida en agudos le quita la señal. Deciden 
 
 #### Diagnóstico y qué sigue
 
+:::comentario-ancho Informe de Lourdes, 52 años (caso 11.1)
+**Motivo**: hipoacusia del OD de dos años con discriminación muy baja; audiometría con pérdida severa de agudos en el OD y reflejos ausentes al estimular ese oído.
+
+**Registro**: click a 80, 60 y 40 dB nHL en el OI y a 100, 90 y 80 dB nHL en el OD, con ruido de 55 dB en el OI. No se buscó el umbral del OI. En reposo.
+
+**Referencia**: mujer de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,53 | 1,87 / 2,06 |
+| Onda III | 3,70 (a 100 dB) | 3,67 | 4,17 / 4,18 |
+| Onda V | 6,03 (a 90 dB) | 5,57 | 6,08 / 6,22 |
+| I-III | no medible | 2,14 | 2,71 / 2,63 |
+| III-V | no medible | 1,90 | 2,16 / 2,27 |
+| I-V | no medible | 4,04 | 4,51 / 4,41 |
+| Diferencia interaural de la V | no medible | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 90 → 85 | no se buscó (V hasta 40) | hasta 20 dB eHL |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables. OD sin ondas a 80 dB nHL; a 90 y 100 dB, ondas III y V de muy baja amplitud.
+
+**Interpretación**: OI normal. En el OD no hay onda I y la III y la V solo aparecen a 90 y 100 dB, de baja amplitud, por lo que no se miden interpicos ni la diferencia interaural. Con 70 a 95 dB de pérdida entre 2 y 4 kHz, el click queda casi en el umbral de las frecuencias que usa: el PEAT sin ondas no separa cóclea de nervio. Pesan la discriminación, los reflejos y el VEMP.
+
+**Conclusión**: OD sin ondas reconocibles a 80 dB nHL y con respuesta mínima a 90 dB nHL: examen sugiere hipoacusia de grado severo en OD, de aproximadamente 85 dB HL, para el rango de 2 a 4 kHz; no se pueden medir interpicos. OI normal. Se adjuntan audiometría, impedanciometría y VEMP.
+
+**Recomendación**: resonancia magnética de conductos auditivos internos con gadolinio, por la discriminación, los reflejos y el VEMP.
+:::
+
 Hipoacusia sensorioneural del OD de predominio en agudos con signos retrococleares. El PEAT no permite medir los interpicos por el grado de la pérdida. Se sugiere resonancia magnética.
 
 :::ojo Ojo clínico
 Cuando la pérdida es severa, el PEAT pierde poder para separar cóclea de nervio. Ahí pesan las pruebas que no dependen tanto del umbral: el VEMP y la discriminación.
 :::
 
-### Caso 11.3
+### Caso 11.2
 
 #### Razonamiento
 
@@ -533,27 +547,82 @@ Un patrón retrococlear en los dos oídos, en una persona joven, apunta a una ca
 
 #### Diagnóstico y qué sigue
 
+:::comentario-ancho Informe de Víctor, 24 años (caso 11.2)
+**Motivo**: hipoacusia bilateral asimétrica con acúfeno bilateral e inestabilidad; la madre perdió la audición de un oído de joven y fue operada de la cabeza.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s en el OI; el OD, a 100, 90 y 80 dB nHL con ruido de 55 dB en el OI. En reposo.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,37 | 1,80 / 1,80 |
+| Onda III | no se identifica | 4,03 | 4,05 / 4,14 |
+| Onda V | mínima, a unos 6,4 (90 dB nHL) | 6,13 ↑ | 6,03 / 6,05 |
+| I-III | no medible | 2,66 ↑ | 2,45 / 2,61 |
+| III-V | no medible | 2,10 | 2,33 / 2,11 |
+| I-V | no medible | 4,76 ↑ | 4,49 / 4,52 |
+| Diferencia interaural de la V | no medible | | hasta 0,4 |
+| V a 81,1 estímulos/s | | 7,37 (+1,24; 20 %) ↑ | alarga 12 a 15 % |
+| Umbral con click (dB nHL → dB eHL) | 90 → 85 | no se buscó (marcas débiles hasta 60) | hasta 20 dB eHL |
+
+**Morfología**: OI con ondas I, III y V de baja amplitud y mala morfología; a 60 dB solo marcas débiles de III y V. OD sin ondas a 80 dB nHL y una V mínima a 90 dB nHL.
+
+**Interpretación**: en el OI la onda I llega a tiempo y la III y la V llegan tarde, con I-III e I-V prolongados; con la tasa alta la V se alarga un 20 % y casi se pierde: es la conducta de una vía comprometida. En el OD solo hay una V mínima a 90 dB nHL y no se miden interpicos. Los dos oídos están afectados.
+
+**Conclusión**: interpicos I-III e I-V prolongados en OI, con onda I de latencia normal y alargamiento anormal de la V con la tasa alta: patrón retrococlear en OI. OD con respuesta solo a 90 dB nHL (unos 85 dB HL para 2 a 4 kHz) y sin interpicos medibles. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: evaluación por otorrinolaringología y neurología, con resonancia de cerebro y conductos auditivos internos.
+:::
+
 Hipoacusia sensorioneural bilateral asimétrica con signos retrococleares bilaterales. Se sugiere evaluación por otorrinolaringología y neurología, con resonancia de cerebro y conductos auditivos internos. Los antecedentes familiares cobran peso.
 
 :::pregunta Para discutir
 Si el tratamiento de uno de los tumores deja ese oído sin audición, ¿qué opciones de rehabilitación tiene un paciente con NF2? ¿Por qué el implante coclear no siempre sirve?
 :::
 
-### Caso 11.4
+### Caso 11.3
 
 #### Razonamiento
 
-La edad explica una pérdida, pero no una pérdida de **un solo oído**. Con acúfeno de ese lado, discriminación baja, reflejos elevados y una onda V tardía, el OI tiene que estudiarse como un oído retrococlear.
+La edad explica una pérdida, pero no una pérdida de **un solo oído**. Con acúfeno de ese lado, discriminación baja, reflejos elevados y con deterioro, el OI tiene que estudiarse como un oído retrococlear aunque el PEAT, con interpicos normales y tasa alta sin hallazgos, no lo muestre: un PEAT normal no descarta un tumor (Marangos y cols., 2001).
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural asimétrica del OI con signos retrococleares. No se debe atribuir a la edad. Se sugiere resonancia magnética.
+:::comentario-ancho Informe de Manuel, 61 años (caso 11.3)
+**Motivo**: hipoacusia del OI notada por la familia y acúfeno del OI, en un ex chofer de buses; audiometría con 25 dB de asimetría en 4 kHz.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s. No se buscó el umbral. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,87 | 2,03 ↑ | 1,90 / 1,91 |
+| Onda III | 4,03 | 4,33 ↑ | 4,16 / 4,22 |
+| Onda V | 5,87 | 6,53 ↑ | 6,16 / 6,24 |
+| I-III | 2,16 | 2,30 | 2,54 / 2,53 |
+| III-V | 1,84 | 2,20 | 2,17 / 2,33 |
+| I-V | 4,00 | 4,50 | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,66 ↑ | | hasta 0,4 |
+| V a 81,1 estímulos/s | 6,40 (+0,53; 9 %) | 7,10 (+0,57; 9 %) | alarga 12 a 15 % |
+
+**Morfología**: OD con ondas I, III y V bien definidas y replicables. OI con ondas I, III y V replicables pero de baja amplitud; a 60 dB solo III y V, y a 40 dB una V mínima.
+
+**Interpretación**: OD normal. En el OI las tres ondas llegan tarde por igual (0,1 a 0,3 ms sobre el límite) y los interpicos quedan dentro del límite: el retraso viene desde la I. La diferencia interaural de la V (0,66 ms) no se puede leer sola, porque el OI tiene la I tardía y una pérdida de agudos. Con la tasa alta los dos oídos se alargan lo mismo (9 %). El PEAT no muestra signos retrococleares; un PEAT así no descarta un tumor.
+
+**Conclusión**: ondas I, III y V del OI de latencia prolongada, con interpicos normales y tasa alta sin alargamiento anormal: el PEAT no muestra signos retrococleares. La discriminación baja, los reflejos elevados y el deterioro tonal sí los sugieren. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: resonancia magnética de conductos auditivos internos con gadolinio; no dar de alta por el PEAT.
+:::
+
+Hipoacusia sensorioneural asimétrica del OI con signos retrococleares en la discriminación y los reflejos, y un PEAT sin interpicos prolongados. No se debe atribuir a la edad. Se sugiere resonancia magnética.
 
 :::ayuda Ayuda memoria
 La presbiacusia es **bilateral y simétrica**. Una "presbiacusia de un solo oído" no es un diagnóstico: es otra cosa hasta que se demuestre lo contrario.
 :::
 
-### Caso 11.5
+### Caso 11.4
 
 #### Razonamiento
 
@@ -561,13 +630,39 @@ El cuadro es retrococlear, pero más discreto que el de un tumor. Un acúfeno un
 
 #### Diagnóstico y qué sigue
 
+:::comentario-ancho Informe de Lourdes, 47 años (caso 11.4)
+**Motivo**: acúfeno del OD, mareos breves y pérdida leve de agudos con sonidos "metálicos" en el OD.
+
+**Registro**: click a 80, 60 y 40 dB nHL. No se buscó el umbral. En reposo.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,60 | 1,50 | 1,80 / 1,80 |
+| Onda III | 4,03 ↑ | 3,57 | 3,94 / 4,01 |
+| Onda V | 6,00 ↑ | 5,53 | 5,89 / 5,92 |
+| I-III | 2,43 | 2,07 | 2,42 / 2,49 |
+| III-V | 1,97 | 1,96 | 2,11 / 2,12 |
+| I-V | 4,40 ↑ | 4,03 | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,47 ↑ | | hasta 0,4 |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables. OD con las tres ondas replicables pero de muy baja amplitud; a 60 dB solo la V, y a 40 dB nada.
+
+**Interpretación**: OI normal. En el OD la I está en su lugar, y la III y la V pasan el límite por décimas (0,09 y 0,11 ms); el I-III queda en el límite y el I-V lo pasa por 0,07 ms. La diferencia interaural de la V es de 0,47 ms. Son alteraciones leves, que se apoyan entre sí: el retraso es en el tramo de la I a la III. Las ondas bajas dan un margen de décimas de milisegundo.
+
+**Conclusión**: ondas III y V e interpico I-V levemente prolongados en OD, con onda I de latencia normal, I-III en el límite y diferencia interaural de la onda V de 0,47 ms: signos retrococleares leves en OD. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: resonancia con secuencias que muestren los vasos del ángulo; un PEAT casi normal no cierra el estudio.
+:::
+
 Hipoacusia sensorioneural leve del OD con signos retrococleares. La resonancia debe incluir secuencias que muestren los vasos del ángulo. El diagnóstico de compresión vascular lo hacen el médico y la imagen; el audiólogo informa el patrón.
 
 :::sabias ¿Sabías que?
 En la compresión microvascular, la frecuencia del acúfeno suele coincidir con la de mayor pérdida. En algunos pacientes la audición mejora después de la descompresión quirúrgica, justo en esa frecuencia (De Ridder y cols., 2005).
 :::
 
-### Caso 11.6
+### Caso 11.5
 
 #### Razonamiento
 
@@ -575,10 +670,78 @@ Este caso mezcla dos lesiones. La pérdida de umbral se explica en parte por la 
 
 #### Diagnóstico y qué sigue
 
+:::comentario-ancho Informe de Ramón, 66 años (caso 11.5)
+**Motivo**: hipoacusia y acúfeno del OI; un audífono comprado sin evaluación que "se oye fuerte, pero no se entiende nada". Treinta años de aserradero.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y el OI a 100, 90 y 80 dB nHL con ruido de 55 dB en el OD. No se buscó el umbral. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,83 | 1,63 (a 100 dB) | 1,90 / 1,91 |
+| Onda III | 3,90 | 3,97 (a 90 dB) | 4,16 / 4,22 |
+| Onda V | 5,80 | 6,00 (a 80 dB) | 6,16 / 6,24 |
+| I-III | 2,07 | no medible | 2,54 / 2,53 |
+| III-V | 1,90 | 1,96 (a 90 dB) | 2,17 / 2,33 |
+| I-V | 3,97 | 4,24 (a 100 dB) | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,20 | | hasta 0,4 |
+
+**Morfología**: OD con ondas I, III y V replicables. OI con ondas III y V de baja amplitud; la I solo a 100 dB, con ruido en el OD.
+
+**Interpretación**: OD normal. En el OI las ondas son de muy baja amplitud. Sin ruido en el OD no son confiables; con el OD enmascarado, la III y la V quedan dentro de los límites y la I solo aparece a 100 dB, con un I-V de 4,24 ms, normal. A 80 y 90 dB no hay I y no se mide I-III. Con 70 dB de pérdida en 4 kHz, una I ausente es lo esperable en una pérdida coclear. La diferencia interaural de la V es de 0,20 ms.
+
+**Conclusión**: OI con ondas de muy baja amplitud, onda I solo a 100 dB, y con III, V e I-V de latencia normal con el oído bueno enmascarado: el PEAT no muestra retraso y no confirma ni descarta compromiso del nervio. La discriminación baja y los reflejos ausentes sugieren un componente retrococlear. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: resonancia magnética de conductos auditivos internos con gadolinio, antes de adaptar un audífono.
+:::
+
 Hipoacusia sensorioneural del OI con componente retrococlear. Se sugiere resonancia magnética. Con audífono el rendimiento será menor de lo que promete el audiograma: hay que anticiparlo al paciente.
 
 :::comentario Comentario
 Es el paciente que vuelve molesto porque "el audífono no le sirve". La discriminación del 36 % lo anunciaba desde el primer día.
+:::
+
+### Caso 11.6
+
+#### Razonamiento
+
+Es el caso donde la asimetría **sí cierra**. La historia da la causa: tiro desde los 22 años, sin protección, y el oído que mira al cañón es el izquierdo. El audiograma tiene la muesca del ruido y las pruebas dicen lo mismo que él: discriminación acorde al umbral, SISI alto, reclutamiento, reflejos presentes con decay negativo, emisiones ausentes donde cae la curva. El PEAT no tiene onda I en ese oído, como pasa con cualquier pérdida de agudos; la III y la V están dentro del límite y la tasa alta se tolera. La diferencia interaural de la V pasa el límite solo porque el oído tiene una pérdida que atrasa la señal.
+
+#### Diagnóstico y qué sigue
+
+:::comentario-ancho Informe de Javier, 52 años (caso 11.6)
+**Motivo**: pérdida asimétrica con acúfeno del OI que va y viene, en un tirador al vuelo que dispara con la derecha y casi nunca usó protección.
+
+**Registro**: click a 80, 60, 50, 40, 20 y 10 dB nHL, y a 80 dB nHL con 81,1 estímulos/s, con ruido de 55 dB en el oído contrario. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,50 | no se identifica | 1,90 / 1,91 |
+| Onda III | 3,63 | 4,20 | 4,16 / 4,22 |
+| Onda V | 5,73 | 6,20 | 6,16 / 6,24 |
+| I-III | 2,13 | no medible | 2,54 / 2,53 |
+| III-V | 2,10 | 2,00 | 2,17 / 2,33 |
+| I-V | 4,23 | no medible | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,47 ↑ | | hasta 0,4 |
+| V a 81,1 estímulos/s | 6,23 (+0,50; 9 %) | 6,87 (+0,67; 11 %) | alarga 12 a 15 % |
+| Umbral con click (dB nHL → dB eHL) | 20 → 15 | 60 → 55 | hasta 20 dB eHL |
+
+**Morfología**: OD con ondas I, III y V bien definidas y replicables; la V sigue hasta 20 dB nHL. OI con ondas III y V replicables y sin onda I; a 50 dB sin respuesta.
+
+**Interpretación**: OD normal, con umbral de 20 dB nHL. En el OI falta la onda I, la primera que se pierde en una pérdida de agudos; la III y la V están dentro del límite del oído y el III-V es normal. La diferencia interaural de la V (0,47 ms) pasa el límite, pero el OI tiene 60 a 80 dB de pérdida entre 3 y 6 kHz, y con esa asimetría la diferencia aparece sola (→ H10). Con la tasa alta los dos oídos se alargan como un oído sano. No hay signos retrococleares en el PEAT. Las emisiones del OI faltan donde cae el audiograma, los reflejos están presentes y la discriminación es acorde al umbral.
+
+**Conclusión**: examen sugiere audición normal en OD y hipoacusia sensorioneural en OI, de aproximadamente 55 dB HL, para el rango frecuencial estudiado de 2 a 4 kHz. Onda I no identificable en OI, con III-V normal y tasa alta bien tolerada: sin signos retrococleares. Se adjuntan audiometría, impedanciometría y emisiones.
+
+**Recomendación**: protección auditiva y control audiológico. Por la magnitud de la asimetría, el médico decide si pide imagen.
+:::
+
+Hipoacusia sensorioneural coclear del OI, de predominio en agudos, compatible con daño por ruido asimétrico, sin signos retrococleares. Se explica al paciente que dejar de exponerse y usar protección es lo que frena la progresión.
+
+:::comentario Comentario
+Una prueba retrococlear normal no vuelve inocente una asimetría de 65 dB: un tumor pequeño puede tener un PEAT normal (Marangos y cols., 2001). Aquí el informe dice lo que las pruebas muestran y deja la decisión de la imagen al médico.
 :::
 
 :::comentario Prevención

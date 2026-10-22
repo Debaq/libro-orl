@@ -21,7 +21,7 @@ TASA_ALTA = fig.abr(niveles=(80,), tasa=81.1)
 BASE = [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 60, 40)), TASA_ALTA]
 
 CASOS = [
-    cuadro('esclerosis_multiple', BASE, od='esclerosis_multiple', oi='esclerosis_multiple', edad=34, sexo='mujer',
+    cuadro('esclerosis_multiple', [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 60, 40)), TASA_ALTA], od='esclerosis_multiple', oi='esclerosis_multiple', edad=34, sexo='mujer',
            semilla=11,
            anamnesis="""Tiene 34 años y es educadora de párvulos. Hace ocho meses vio doble durante tres semanas y
            se le durmió la pierna izquierda; se le pasó sola y no volvió a consultar. Hace poco, después de un turno

@@ -52,7 +52,7 @@ La derivación sale mejor si llega con lo que el equipo de implantes va a pedir 
 Todo lo demás (imágenes del oído interno y del conducto auditivo interno, evaluación médica, anestesia, vacunas) corresponde al equipo médico.
 
 :::comentario Lo que dicen las normas
-**Los materiales.** Los puntajes de las guías están dados con listas en inglés: palabras monosilábicas (CNC) y frases (AzBio, y antes HINT), dentro de una *Minimum Speech Test Battery* que pide ambos tipos, en silencio y en ruido, por oído y con los dos juntos (Zeitler y cols., 2024). El protocolo de este libro usa **bisílabos**, con y sin lectura labial (→ H21, H5), que son más fáciles que los monosílabos porque el contexto ayuda. Un puntaje de bisílabos y uno de CNC no son intercambiables: los cortes de 50 o 60 % no se pueden copiar sin más a una lista en español. <!-- verificar: no encontré un corte validado para bisílabos o frases en español; consultar los equipos de implantes de cada país -->
+**Los materiales.** Los puntajes de las guías están dados con listas en inglés: palabras monosilábicas (CNC) y frases (AzBio, y antes HINT), dentro de una *Minimum Speech Test Battery* que pide ambos tipos, en silencio y en ruido, por oído y con los dos juntos (Zeitler y cols., 2024). El protocolo de este libro usa **bisílabos**, con y sin lectura labial (→ H21, H5), que son más fáciles que los monosílabos porque el contexto ayuda. Un puntaje de bisílabos y uno de CNC no son intercambiables: los cortes de 50 o 60 % no se pueden copiar sin más a una lista en español.
 
 **El ruido.** El protocolo mide en silencio. Las guías piden además **frases en ruido** (en general a +10 dB de relación señal-ruido), porque se parecen más a la escucha de la vida diaria (Zeitler y cols., 2024). <!-- Pasada de fundamentos 2026-10-18: decía "porque es la situación donde el audífono falla antes y donde más se nota la diferencia con el implante", sin fuente. Zeitler 2024 recomienda AzBio "in +10 dB SNR" y dice "Varying the SNR represents real-life listening situations". -->
 :::
@@ -62,14 +62,13 @@ Todo lo demás (imágenes del oído interno y del conducto auditivo interno, eva
 Cuando la pérdida es **conductiva o mixta** y no se opera (porque el paciente no quiere, no puede, o el oído sigue supurando), el audífono aéreo puede ser mal camino: el molde cierra un conducto enfermo, y con un oído medio que no transmite hay que dar mucha ganancia. Los dispositivos de conducción ósea llevan el sonido al cráneo por vibración y lo dejan pasar **por encima** del oído externo y medio. Se agrupan por cómo transmiten (Reinfeldt y cols., 2015):
 
 - **De conducción por la piel**: el vibrador va apoyado en la piel, con banda elástica (*softband*) o con imanes en un implante bajo la piel.
-- **De conducción directa**: el vibrador mueve el hueso sin atravesar la piel. Pueden ser **percutáneos** (un pilar que sale por la piel, la prótesis ancla ósea clásica) o **transcutáneos activos** (el transductor va implantado bajo la piel intacta).
+- **De conducción directa**: el vibrador mueve el hueso sin atravesar la piel. Pueden ser **percutáneos** (un pilar que sale por la piel, la prótesis ancla ósea clásica: {{fig tc-baha}}) o **transcutáneos activos** (el transductor va implantado bajo la piel intacta).
 
-:::imagen ilustraciones/cap29-tc-baha.jpg ancho=42% Tomografía axial de cráneo de otra persona con una prótesis ósea anclada percutánea en el lado derecho. Fíjate en la pieza de titanio fija en el hueso detrás del oído: por ahí entra el sonido, como vibración del cráneo, y se salta el oído externo y el medio. Las imágenes de este capítulo las pide y las informa el médico; aquí sirven para ver lo que el audiólogo indica y programa. Imagen: Mock JA y cols. (2022), Cureus, doi:10.7759/cureus.27436, CC BY, adaptada.
+:::imagen ilustraciones/cap29-tc-baha.jpg ancho=42% id=tc-baha Tomografía axial de cráneo con una prótesis ósea anclada percutánea en el lado derecho: por la pieza de titanio fija en el hueso detrás del oído entra el sonido, como vibración del cráneo, y se salta el oído externo y el medio. Imagen: Mock JA y cols. (2022), Cureus, doi:10.7759/cureus.27436, CC BY, adaptada.
 - @13,68 | **Implante** de titanio fijo en el hueso, detrás del oído derecho (la derecha del paciente queda a la izquierda de la imagen).
 - @31,79 | Las líneas que salen del metal son **artefacto** de la tomografía, no hueso.
 :::
-
-Lo que decide si un paciente es candidato es el **umbral óseo**: el dispositivo solo puede aportar lo que la cóclea de ese lado, o la del otro, es capaz de oír por hueso. Por eso cada dispositivo tiene un **tope de umbral óseo** (en general, un promedio de vía ósea entre 500 y 3.000 Hz) por encima del cual no rinde, y el tope sube con la potencia del procesador. <!-- verificar: los topes de umbral óseo cambian entre fabricantes y modelos (en general alrededor de 45 dB HL para los de potencia estándar y 55 dB HL o algo más para los potentes), y la edad mínima; consultar la ficha vigente de cada dispositivo. Reinfeldt y cols. (2015) describen las categorías, no los topes. -->
+Lo que decide si un paciente es candidato es el **umbral óseo**: el dispositivo solo puede aportar lo que la cóclea de ese lado, o la del otro, es capaz de oír por hueso. Por eso cada dispositivo tiene un **tope de umbral óseo** (calculado sobre el promedio de vía ósea) por encima del cual no rinde, y el tope sube con la potencia del procesador (Reinfeldt y cols., 2015). Los valores cambian según fabricante y modelo, y se leen en la ficha vigente de cada dispositivo.
 
 :::ayuda Ayuda memoria
 **Aérea alta, ósea baja, el audífono aéreo molesta o no es posible** (conducto que supura, atresia, molde que no se tolera): candidato a **conducción ósea**. **Ósea también alta**: el dispositivo se queda corto, y hay que pensar en amplificación aérea potente o en implante coclear.
@@ -77,21 +76,20 @@ Lo que decide si un paciente es candidato es el **umbral óseo**: el dispositivo
 
 ### Otros dos implantes: de oído medio y de tronco
 
-**Implante activo de oído medio.** Un transductor implantado, unido a la cadena de huesecillos o a la membrana de la ventana redonda, mueve directamente la estructura a la que está fijado; el procesador externo capta el sonido y lo envía al implante. No pone un altavoz en el conducto, de modo que no hay molde, y por eso se considera en quien no tolera el audífono aéreo. Con la estimulación de la ventana redonda, sus indicaciones pasaron de la pérdida sensorioneural a la pérdida mixta y a la conductiva, cuando no se puede operar el oído medio (Jenkins y cols., 2021). La indicación y la cirugía son del equipo médico; el audiólogo aporta la audiometría con vía ósea, la discriminación y la historia con el audífono. <!-- verificar: "no tolera el audífono aéreo" como indicación, y los rangos de umbral óseo de cada sistema, en la ficha vigente del dispositivo o en Wagner y cols. 2010 (doi:10.1159/000318518); Jenkins 2021 describe la estimulación de la ventana redonda en la pérdida mixta -->
+**Implante activo de oído medio.** Un transductor implantado, unido a la cadena de huesecillos o a la membrana de la ventana redonda, mueve directamente la estructura a la que está fijado; el procesador externo capta el sonido y lo envía al implante. No pone un altavoz en el conducto, de modo que no hay molde, y se considera cuando la amplificación convencional llega a su límite. Con la estimulación de la ventana redonda, sus indicaciones pasaron de la pérdida sensorioneural a la pérdida mixta y a la conductiva, cuando no se puede operar el oído medio (Jenkins y cols., 2021). La indicación y la cirugía son del equipo médico; el audiólogo aporta la audiometría con vía ósea, la discriminación y la historia con el audífono.
 
-**Implante auditivo de tronco encefálico (ABI).** Pone los electrodos sobre el **núcleo coclear**, en el tronco encefálico, y se salta tanto la cóclea como el nervio. Se creó para la sordera retrococlear de la **neurofibromatosis tipo 2**, en que los schwannomas vestibulares bilaterales, o su extirpación, dejan sin nervio auditivo; se investigan resultados en grupos sin esa enfermedad, como la aplasia del nervio coclear o la osificación de la cóclea, donde el implante coclear no tiene a quién estimular (Shetty y cols., 2021). Es una cirugía de equipos muy especializados y con resultados distintos de los del implante coclear. Al audiólogo le toca reconocer el cuadro que lleva a pensarlo, un nervio ausente o un ABR sin respuesta con una cóclea que sí responde (→ cap. 13), y derivar. <!-- verificar: "resultados distintos de los del implante coclear" y el límite de edad de la indicación en la NF2, en una fuente primaria (p. ej. Shetty 2021, texto completo) -->
+**Implante auditivo de tronco encefálico (ABI).** Pone los electrodos sobre el **núcleo coclear**, en el tronco encefálico, y se salta tanto la cóclea como el nervio. Se creó para la sordera retrococlear de la **neurofibromatosis tipo 2**, en que los schwannomas vestibulares bilaterales, o su extirpación, dejan sin nervio auditivo; se investigan resultados en grupos sin esa enfermedad, como la aplasia del nervio coclear o la osificación de la cóclea, donde el implante coclear no tiene a quién estimular (Shetty y cols., 2021). Es una cirugía de equipos muy especializados, y en la neurofibromatosis tipo 2 sus resultados son más modestos que los del implante coclear (Shetty y cols., 2021). Al audiólogo le toca reconocer el cuadro que lleva a pensarlo, un nervio ausente o un ABR sin respuesta con una cóclea que sí responde (→ cap. 13), y derivar.
 
 ## Fisiología
 
 ### Cómo un implante estimula al nervio
 
-Una cóclea sana convierte el movimiento de la membrana basilar en descargas del nervio: cada región de la cóclea responde a una frecuencia (la **tonotopía**, con los agudos en la base y los graves en el ápice). Cuando las células ciliadas faltan, el audífono ya no tiene dónde entregar la señal por mucho que la amplifique. El implante **se salta** esa etapa: un conjunto de electrodos, introducido en la rampa timpánica, entrega pulsos de corriente directamente a las neuronas del ganglio espiral y a sus fibras (Wilson y Dorman, 2008).
+Una cóclea sana convierte el movimiento de la membrana basilar en descargas del nervio: cada región de la cóclea responde a una frecuencia (la **tonotopía**, con los agudos en la base y los graves en el ápice). Cuando las células ciliadas faltan, el audífono ya no tiene dónde entregar la señal por mucho que la amplifique. El implante **se salta** esa etapa: un conjunto de electrodos, introducido en la rampa timpánica ({{fig rx-implante-coclear}}), entrega pulsos de corriente directamente a las neuronas del ganglio espiral y a sus fibras (Wilson y Dorman, 2008).
 
-:::imagen ilustraciones/cap29-rx-implante-coclear.jpg ancho=52% Radiografía transorbitaria anteroposterior de otra persona con un implante coclear (no es la paciente de este capítulo): el electrodo se ve enrollado dentro de la cóclea, proyectado en la órbita, de la base hacia el ápice: cada contacto queda frente a una zona de distinta frecuencia. Esta placa se toma en el pabellón, recién puesto el electrodo, para ver su posición y que esté entero. Imagen: Molezini FD y cols. (2012), Braz J Otorhinolaryngol, doi:10.1590/S1808-86942012000100005, CC BY 4.0, adaptada.
+:::imagen ilustraciones/cap29-rx-implante-coclear.jpg ancho=52% id=rx-implante-coclear Radiografía transorbitaria anteroposterior con un implante coclear. Esta placa se toma en el pabellón, recién puesto el electrodo, para ver su posición y que esté entero; cada contacto queda frente a una zona de distinta frecuencia. Imagen: Molezini FD y cols. (2012), Braz J Otorhinolaryngol, doi:10.1590/S1808-86942012000100005, CC BY 4.0, adaptada.
 - @38,66 | **Electrodo** enrollado dentro de la cóclea, de la base hacia el ápice.
 - @18,22 | **Receptor-estimulador**, bajo la piel, con la antena y el imán arriba.
 :::
-
 El procesador, detrás de la oreja, divide el sonido en bandas de frecuencia, extrae la **envolvente** de cada una (cuánto sube y baja el sonido en el tiempo) y la convierte en pulsos que van al electrodo de la zona que le corresponde por tonotopía. Un electrodo cerca de la base (la entrada de la cóclea) se oye agudo, y uno cerca del ápice, grave. Es un código muy distinto del natural, y tiene límites que explican lo que el paciente va a decir después de la cirugía:
 
 - Las corrientes de electrodos vecinos **se solapan** y estimulan a las mismas neuronas, de modo que los canales efectivos son pocos, muchos menos que los electrodos (Wilson y Dorman, 2008).
@@ -186,12 +184,11 @@ Además del audiograma, ¿qué mirarías para decidir si es candidata a evaluaci
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap29_autoinmune_audiosupra.svg ancho=80% Audiometría de la paciente: pérdida severa bilateral con discriminación que no pasa de 56 % y 60 %.
+:::imagen figuras/salida/cap29_autoinmune_audiosupra.svg ancho=100% Audiometría de la paciente: pérdida severa bilateral con discriminación que no pasa de 56 % y 60 %.
 :::
 
 El OD está en **70 dB** en 1 kHz y en **80 dB** en 2 kHz; el OI, en 65 y 80. Promedio de 500, 1.000 y 2.000 Hz: **72 dB HL en el OD y 68 en el OI**, sobre el corte de 60. La ósea va sobre la aérea: pérdida **sensorioneural pura**. En 4 kHz el OD está en **95 dB**: la zona donde viven las consonantes casi no tiene señal. El OD llega solo al **56 %** y el OI al **60 %**, y eso a 100 dB HL, un nivel que el audífono no puede entregar de forma sostenida: el OD marca 51 % a 80 dB y 55 a 90, la curva sube tarde y se **aplana** lejos del 100 %. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 9,5 a 34,5 dB: recluta, es coclear.
 
-:::lado
 :::figura cap29_autoinmune teoae
 - @OD 2000 | Emisiones **ausentes** (0 de 5 bandas) en los dos oídos, como corresponde a una cóclea con las células ciliadas externas dañadas. No es el patrón de neuropatía (→ cap. 13), que tiene emisiones presentes.
 :::
@@ -199,8 +196,7 @@ El OD está en **70 dB** en 1 kHz y en **80 dB** en 2 kHz; el OI, en 65 y 80. Pr
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
 - OI: ausentes.
 :::
-:::
-:::imagen figuras/salida/cap29_autoinmune_impedancia.svg ancho=80% Impedanciometría de la paciente.
+:::imagen figuras/salida/cap29_autoinmune_impedancia.svg ancho=100% Impedanciometría de la paciente.
 :::
 
 Con la sonda en el OD, el reflejo ipsilateral existe a **90 dB SPL** en 1.000 Hz, que con un umbral de 70 deja solo 20 dB de margen: es el **reclutamiento** de una cóclea dañada (→ H6). El arco reflejo, y con él el VIII par, se comporta.
@@ -244,7 +240,7 @@ Dice que el audífono "no le sirve" a los tres meses. ¿Cómo se adaptaron? ¿Cu
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap29_aun_no_audiosupra.svg ancho=80% Audiometría del paciente: pérdida moderada sensorioneural, con discriminación de 72 % y 76 %.
+:::imagen figuras/salida/cap29_aun_no_audiosupra.svg ancho=100% Audiometría del paciente: pérdida moderada sensorioneural, con discriminación de 72 % y 76 %.
 :::
 
 Pérdida moderada de **45 dB** en 1 kHz y **55 dB** en 2 kHz; promedio de 500, 1.000 y 2.000 Hz de **48 dB en el OD y 45 en el OI**, bajo el corte de 60. La ósea sigue a la aérea: es sensorioneural. El OD llega al **72 %** (a 80 dB) y el OI al **76 %** (a 70 dB): buena discriminación, sin caída al subir la intensidad. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 19,5 a 54,5 dB: recluta, es coclear.
@@ -288,12 +284,12 @@ Con un oído que supura de forma recurrente, ¿qué pasaría con un audífono co
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap29_p41_audiosupra.svg ancho=80% Audiometría del paciente: OI con brecha aéreo-ósea de 25 dB; OD normal.
+:::imagen figuras/salida/cap29_p41_audiosupra.svg ancho=100% Audiometría del paciente: OI con brecha aéreo-ósea de 25 dB; OD normal.
 :::
 
 La vía aérea del OI está en **50 dB** en 1 kHz; la ósea, en **25**: una brecha de 25 dB. La ósea de 2 kHz está en **35 dB**: el promedio óseo de 500 a 3.000 Hz es de unos **31 dB**, por debajo de los topes habituales de estos dispositivos. El OD es normal: el dispositivo tiene un oído sano al lado. En el OI el SDT es de 45 dB y el SRT de 50; discrimina **92 %**, pero necesita **90 dB**: la cóclea discrimina bien cuando recibe suficiente señal.
 
-:::imagen figuras/salida/cap29_p41_impedancia.svg ancho=80% Impedanciometría del paciente.
+:::imagen figuras/salida/cap29_p41_impedancia.svg ancho=100% Impedanciometría del paciente.
 :::
 
 Curva **B** en el OI: el oído medio no transmite, que es la razón de la brecha. Con la sonda en ese oído no hay reflejo en ninguna combinación: el oído medio ocupado impide registrarlo.
@@ -321,17 +317,16 @@ Perdió el oído derecho a los 6 años, después de las paperas, y "se acostumbr
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap29_p42_audiosupra.svg ancho=80% Audiometría del paciente: OD sin respuesta, OI normal.
+:::imagen figuras/salida/cap29_p42_audiosupra.svg ancho=100% Audiometría del paciente: OD sin respuesta, OI normal.
 :::
 
 El OD no responde: umbral en el **máximo del equipo (120 dB)** en el aéreo, y tampoco en ósea. El OI está en **0 dB**, normal en todas las frecuencias.
 
-:::imagen figuras/salida/cap29_p42_impedancia.svg ancho=80% Impedanciometría del paciente.
+:::imagen figuras/salida/cap29_p42_impedancia.svg ancho=100% Impedanciometría del paciente.
 :::
 
 No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI: es lo esperable en un oído sin audición. Con el tono en el OI y la sonda en el OD, el reflejo aparece: **el arco del OD funciona**; lo que falta es la entrada.
 
-:::lado
 :::figura cap29_p42 teoae
 - @OD 2000 | En el OD no hay emisiones: la cóclea no responde.
 - @OI 2000 | En el OI están **presentes**.
@@ -339,7 +334,6 @@ No hay reflejo ipsilateral en el OD, ni con el tono en el OD y la sonda en el OI
 :::figura cap29_p42 dpoae
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
-:::
 :::
 
 :::docente Guía del caso

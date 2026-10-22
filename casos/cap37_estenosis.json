@@ -1,0 +1,19 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 49,
+    "sexo": "mujer",
+    "semilla": 214,
+    "anamnesis": {
+      "otros": "Tiene 49 años y trabaja como secretaria. Hace catorce meses estuvo hospitalizada 16 días por una neumonía grave, y 12 de esos días con ventilación mecánica por un tubo en la tráquea. Salió ronca y la voz se le normalizó en un mes. Desde hace ocho meses se agita al subir una escalera y al caminar rápido, y desde hace unos tres meses \"hace ruido\" al respirar: lo oyen los demás, sobre todo al inspirar y cuando camina apurada. Un médico pensó en asma y le dio un inhalador con corticoide y formoterol, que usa dos veces al día desde hace cinco meses sin notar cambio. No ha tenido silbidos de pecho antes, ni estornudos, ni picazón; su nariz \"respira bien\" y no hay alergia en la familia. Nunca ha fumado. Para el examen dejó el formoterol 24 horas, como le indicaron.",
+      "historia": "{{-425}} Neumonía grave; ventilación mecánica invasiva durante 12 días; alta a los 16 días.\n{{-240}} Disnea de esfuerzo progresiva.\n{{-150}} Se diagnostica asma; corticoide inhalado con formoterol, sin mejoría.\n{{-30}} Médico general: disnea que no responde al tratamiento del asma; se solicita espirometría con prueba broncodilatadora.",
+      "hist": [],
+      "medicamentos": "Budesonida con formoterol en inhalador, dos veces al día (el formoterol se suspendió 24 horas antes del examen)",
+      "cirugias": ""
+    }
+  },
+  "figuras": []
+}

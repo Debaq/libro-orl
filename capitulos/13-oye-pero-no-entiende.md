@@ -8,7 +8,7 @@
 - Distinguir la neuropatía auditiva congénita de la que forma parte de una enfermedad del sistema nervioso (hereditaria, metabólica o por bilirrubina).
 :::
 
-Una adolescente conversa bien en silencio, mirando a la cara, y en la sala de clases "oye pero no entiende". Su audiograma muestra una pérdida de 35 a 45 dB: la que corresponde a quien oye bajo pero entiende. Y sin embargo no entiende. Sus emisiones otoacústicas son normales, su ABR está plano y sus reflejos no aparecen. Este capítulo trata de pacientes en los que las pruebas que miden **cuánto se oye** y las que miden **cómo se entiende** dicen cosas distintas, y de cómo no equivocarse llamándolos sordos.
+Una adolescente conversa bien en silencio, mirando a la cara, y en la sala de clases "oye pero no entiende". Su audiograma muestra una pérdida de 25 a 45 dB: la que corresponde a quien oye bajo pero entiende. Y sin embargo no entiende. Sus emisiones otoacústicas son normales, su ABR está plano y sus reflejos no aparecen. Este capítulo trata de pacientes en los que las pruebas que miden **cuánto se oye** y las que miden **cómo se entiende** dicen cosas distintas, y de cómo no equivocarse llamándolos sordos.
 
 ## Técnica en foco
 
@@ -62,6 +62,8 @@ Caso 13.1: repite la rarefacción con el tubo pinzado en plena promediación y m
 
 :::comentario Lo que dicen las normas
 El protocolo de este libro registra con polaridad alternada y, ante la sospecha de neuropatía, sube la tasa a 81,1 estímulos por segundo. La guía británica para el ABR de lactantes con sospecha de neuropatía (BSA, 2019) y la serie multicéntrica de Berlin y cols. (2010) usan la maniobra de **polaridades separadas** y la prueba de tubo pinzado, e incluyen la microfónica en el estudio de un ABR ausente con emisiones presentes. La tasa alta pone a prueba la conducción de una vía que descarga; en la neuropatía, con el ABR ya ausente, no agrega información sobre el diagnóstico. Las dos cosas pueden hacerse en el mismo examen: son pasos distintos.
+
+El protocolo, además, cierra el informe con "normal" o con un tipo de hipoacusia (sensorioneural, conductiva o mixta). Está pensado para la evaluación auditiva y no prevé el hallazgo neural, así que este libro lo amplía: con emisiones y microfónica presentes y ABR ausente o desorganizado, la conclusión es **"patrón de neuropatía auditiva"**, no un grado de hipoacusia. La razón es que en la neuropatía el ABR no estima el umbral: el umbral tonal puede ir de normal a profundo (Hood, 2015), y sin ondas medibles no se puede aplicar ninguno de los procedimientos habituales; lo que se informa es la microfónica, registrada con cada polaridad por separado (Musiek y cols., 2015).
 :::
 
 ### Qué más se pide
@@ -150,7 +152,7 @@ Un lactante pasa las emisiones y no pasa el AABR. Los padres preguntan si "oye o
 
 ## Casos
 
-{{caso cap13_p40}}
+{{caso cap13_neuropatia}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
 Hay días en que entiende mejor y días en que casi nada, entiende mejor mirando los labios, y "el examen de oído al nacer salió bueno". ¿Qué antecedentes perinatales pesan? ¿Por qué un tamizaje normal al nacer no descarta nada?
@@ -166,38 +168,36 @@ Además del audiograma, ¿qué pruebas separan una causa coclear de una neural? 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap13_p40_audiosupra.svg ancho=80% Audiometría de Valentina: pérdida leve a moderada y casi plana (40 dB en 1 kHz en el OD y 35 en 4 kHz en el OI), con la ósea pegada a la aérea: no hay componente conductivo.
+:::imagen figuras/salida/cap13_neuropatia_audiosupra.svg ancho=100% Audiometría de Esther: pérdida leve a moderada y casi plana (25 a 35 dB en el OD y 35 a 45 en el OI), con la ósea pegada a la aérea: no hay componente conductivo. Mira la logoaudiometría del panel: la curva no llega al 50 %.
 :::
 
-SDT de 30 dB y SRT de 35 en los dos oídos. La discriminación llega al 32 % en el OD y al 36 % en el OI, a 60 y 70 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
+SDT de 20 dB en el OD y 30 en el OI, SRT de 25 y 35. La discriminación llega al 48 % en el OD y al 28 % en el OI, a 60 y 70 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap13_p40_logoaudiometria.svg ancho=100% Logoaudiometría de Valentina: el OD llega al 32 % a 70 dB y a 100 dB cae al 8 %; el OI llega al 36 %.
+:::imagen figuras/salida/cap13_neuropatia_logoaudiometria.svg ancho=50% Logoaudiometría de Esther: el OD llega al 48 % a 60 dB y el OI al 28 % a 70; a 100 dB las dos curvas **caen** (17 % y 7 %).
 :::
 
-Con 35 a 45 dB de pérdida, un oído coclear no debería bajar de cerca del 60 %. A 100 dB la curva **cae** al 8 %: subir el volumen no ayuda.
+Con 25 a 40 dB de pérdida la discriminación debería ser mucho mejor. Además la curva **cae** al subir la intensidad: subir el volumen no ayuda.
 
-:::imagen figuras/salida/cap13_p40_impedancia.svg ancho=80% Impedanciometría de Valentina.
+:::imagen figuras/salida/cap13_neuropatia_impedancia.svg ancho=100% Impedanciometría de Esther.
 :::
 
 El reflejo está **ausente** en los cuatro arreglos: ipsilateral y contralateral, con la sonda en el OD y con la sonda en el OI. Con un oído medio normal, un reflejo ausente en todas las frecuencias dice que el arco no recibe una señal sincrónica.
 
-:::lado
-:::figura cap13_p40 teoae
-- @OD 2000 | Las emisiones transitorias pasan **5 de 5 bandas**, con reproducibilidad de 93 % en el OD y 92 % en el OI. Las células ciliadas externas funcionan, aunque el audiograma marque 35 a 45 dB.
+:::figura cap13_neuropatia teoae
+- @OD 2000 | Las emisiones transitorias pasan **5 de 5 bandas**, con reproducibilidad de 89 % en el OD y 93 % en el OI. Las células ciliadas externas funcionan, aunque el audiograma marque 25 a 45 dB.
 :::
-:::figura cap13_p40 dpoae
-- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
-- OI: presentes en los 7 frecuencias.
+:::figura cap13_neuropatia dpoae
+- OD: presentes en las 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en las 7 frecuencias.
 :::
-:::
-:::figura cap13_p40 abr
-- @OD 80 | A 80 dB nHL, con polaridad **alternada**, no hay ondas en el OD.
+:::figura cap13_neuropatia abr
+- @OD 80 | A 80 dB nHL, con polaridad **alternada**, no hay ondas en el OD, en ninguna de las dos réplicas.
 - @OI 80 | Tampoco en el OI. Y a 60 y 40 dB, lo mismo. No es un umbral: es la falta de sincronía.
 :::
-:::figura cap13_p40 abr 2
+:::figura cap13_neuropatia abr 2
 - @OD 90 | En **rarefacción**, a 90 dB nHL, aparece una deflexión hacia abajo en el primer milisegundo, y después nada.
 :::
-:::figura cap13_p40 abr 3
+:::figura cap13_neuropatia abr 3
 - @OD 90 | En **condensación** la deflexión sale **hacia arriba**: el mismo potencial, invertido. Es la microfónica coclear, que la alternada había cancelado.
 - Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado.
 :::
@@ -226,17 +226,16 @@ Si el audiograma saliera normal, ¿darías de alta? ¿Qué agregarías para cuan
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap13_neuropatia_hereditaria_audiosupra.svg ancho=80% Audiometría de Carmen: normal en los dos oídos (5 dB en 1 kHz, 0 dB en graves).
+:::imagen figuras/salida/cap13_neuropatia_hereditaria_audiosupra.svg ancho=100% Audiometría de Carmen: normal en los dos oídos (5 dB en 1 kHz, 0 dB en graves).
 :::
 
 Por el audiograma solo, no habría nada: SDT de −5 dB y SRT de 0 dB. Pero la discriminación llega a un máximo del **80 %**, a 30 dB, lejos del 100 % de un oído normal, y **desciende** a 73 % a 40 dB y a 60 % a partir de 50: más volumen la empeora.
 
-:::imagen figuras/salida/cap13_neuropatia_hereditaria_impedancia.svg ancho=80% Impedanciometría de Carmen.
+:::imagen figuras/salida/cap13_neuropatia_hereditaria_impedancia.svg ancho=100% Impedanciometría de Carmen.
 :::
 
 Los reflejos están **ausentes** en los cuatro arreglos, ipsi y contra con cada sonda, con un oído medio normal y umbrales de 0 dB.
 
-:::lado
 :::figura cap13_neuropatia_hereditaria teoae
 - @OD 2000 | Emisiones presentes en 5 de 5 bandas, con reproducibilidad de 89 % y 88 %.
 :::
@@ -244,11 +243,10 @@ Los reflejos están **ausentes** en los cuatro arreglos, ipsi y contra con cada 
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap13_neuropatia_hereditaria abr
-- @OD 80 I | Aquí **sí hay ondas**, pero tardías: la I a 1,4 ms, la III a 4,2 y la V a 6,7.
-- @OD 80 V | El interpico I-V es de alrededor de **5 ms**, contra los cerca de 4 esperables (→ H10): la conducción es lenta, no ausente.
-- @OD 40 | Las ondas siguen hasta 40 dB y más abajo: la **sensibilidad** es normal; lo alterado es la sincronía.
+- @OD 80 I | Aquí **sí hay ondas**, en las dos réplicas, pero tardías: en el OD la I está a 1,43 ms, la III a 4,23 y la V a 6,67.
+- @OD 80 V | El I-V del OD es de **5,24 ms** y el del OI de 5,07, contra un límite de 4,33 y 4,41 para una mujer de su edad (→ H10): la conducción es lenta, no ausente.
+- @OD 40 | Las ondas siguen claras hasta 40 dB y la V todavía se ve a 20 dB (8,5 ms) y a 10 dB (9,1): la **sensibilidad** es normal; lo alterado es la sincronía. A 0 dB no hay respuesta.
 :::
 :::figura cap13_neuropatia_hereditaria vemp
 - @OD P13 | El VEMP cervical está presente, pero la P13 llega **tarde**, cerca de los 19 ms: el nervio vestibular también es lento (→ H12).
@@ -277,17 +275,16 @@ No se le puede pedir que levante la mano de forma fiable durante una hora. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap13_kernicterus_audiosupra.svg ancho=80% Audiometría de Josué: umbral tonal de unos 60 dB en graves y medios, con ligera caída a 65 dB en agudos, y la ósea coincidiendo con la aérea.
+:::imagen figuras/salida/cap13_kernicterus_audiosupra.svg ancho=100% Audiometría de Josué: umbral tonal de unos 60 dB en graves y medios, con ligera caída a 65 dB en agudos, y la ósea coincidiendo con la aérea.
 :::
 
 No hay componente conductivo. El SDT es de 55 dB y el SRT de 60 en los dos oídos, y la discriminación es de **0 % a todos los niveles**: sin importar el volumen, no reconoce palabras. Es mucho menos de lo que predice un umbral de 60 dB. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap13_kernicterus_impedancia.svg ancho=80% Impedanciometría de Josué.
+:::imagen figuras/salida/cap13_kernicterus_impedancia.svg ancho=100% Impedanciometría de Josué.
 :::
 
 Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
 
-:::lado
 :::figura cap13_kernicterus teoae
 - @OD 2000 | Las emisiones están **presentes** en 5 de 5 bandas (reproducibilidad 86 % en el OD y 95 % en el OI): con 60 dB de umbral, no es una pérdida coclear.
 :::
@@ -295,10 +292,9 @@ Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap13_kernicterus abr
-- @OD 80 V | A 80 dB nHL aparece apenas un esbozo de la V, cerca de los 6 ms. La marca de la III cae sobre un trazo que no se separa del ruido: no hay I ni III identificables.
-- @OD 60 | A 60 y 40 dB, nada. El ABR casi plano **no es** una prueba de que la audición sea 60 dB: con la sincronía perdida, no se puede usar el umbral del ABR para fijar la audición.
+- @OD 80 | A 80 dB nHL no hay ondas que se repitan en las dos réplicas: el trazo no se separa del ruido y no hay I, III ni V identificables.
+- @OD 60 | A 60 y 40 dB, tampoco. El ABR plano **no es** una prueba de que la audición sea 60 dB: con la sincronía perdida, no se puede usar el ABR para fijar la audición.
 :::
 
 :::docente Guía del caso
@@ -324,17 +320,16 @@ Si el audiograma sale normal, ¿qué prueba objetiva te dice si el problema est�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap13_leucodistrofia_audiosupra.svg ancho=80% Audiometría de Óscar: normal en los dos oídos, con 10 dB o menos en todo el rango.
+:::imagen figuras/salida/cap13_leucodistrofia_audiosupra.svg ancho=100% Audiometría de Óscar: normal en los dos oídos, con 10 dB o menos en todo el rango.
 :::
 
 El niño no es hipoacúsico: SDT de −5 dB y SRT de 0 dB. Con umbrales normales, la discriminación llega solo al **80 %**, a 30 dB, y baja a 73 % a 40 dB y a 60 % a partir de 50.
 
-:::imagen figuras/salida/cap13_leucodistrofia_impedancia.svg ancho=80% Impedanciometría de Óscar.
+:::imagen figuras/salida/cap13_leucodistrofia_impedancia.svg ancho=100% Impedanciometría de Óscar.
 :::
 
 Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada oído.
 
-:::lado
 :::figura cap13_leucodistrofia teoae
 - @OD 2000 | Emisiones presentes en las cinco bandas.
 :::
@@ -342,11 +337,10 @@ Reflejos **ausentes** en todos los arreglos, ipsi y contra, con la sonda en cada
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
 :::
-:::
 :::figura cap13_leucodistrofia abr
-- @OD 80 I | Las ondas están, pero tardías y con los interpicos largos: la I cerca de 1,7 ms, la III de 4,2 y la V de 6,7.
-- @OD 80 V | El I-V llega a **5 ms**; el OI es parecido (4,9). La conducción central está enlentecida con una cóclea sana.
-- @OI 80 V | Con audición normal, lo esperable sería un I-V cerca de 4 ms (→ H10).
+- @OD 80 I | Las ondas están, pero tardías: en el OD la I está a 1,70 ms, la III a 4,20 y la V a 6,70.
+- @OD 80 V | El I-V del OD llega a **5,00 ms**, contra un límite de 4,69 para un niño de su edad; el III-V (2,50) también lo pasa (→ H10).
+- @OI 80 | En el OI las ondas son aún más tardías, la I incluida (2,0 ms), y se ven en las dos réplicas: la V llega a 6,9 ms con audición normal. Sus interpicos (I-V de 4,9) quedan bajo el límite, que en ese oído es más amplio (5,3).
 :::
 
 :::docente Guía del caso
@@ -366,11 +360,34 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La pérdida es de 35 a 45 dB y con emisiones presentes: la cóclea funciona. La discriminación es del 30 al 40 %, muy por debajo de lo que daría ese umbral, y los reflejos faltan en todas las combinaciones. El ABR plano con polaridad alternada no dice nada por sí solo; con polaridades separadas, aparece una deflexión que **se invierte**: microfónica. Sin ondas neurales detrás, el patrón es el de una **neuropatía auditiva**. Los antecedentes (prematurez, ictericia con exanguinotransfusión) hacen plausible la etiología.
+La pérdida es de 25 a 45 dB y con emisiones presentes: la cóclea funciona. La discriminación es del 28 al 48 %, muy por debajo de lo que daría ese umbral, y los reflejos faltan en todas las combinaciones. El ABR plano con polaridad alternada no dice nada por sí solo; con polaridades separadas, aparece una deflexión que **se invierte**: microfónica. Sin ondas neurales detrás, el patrón es el de una **neuropatía auditiva**. Los antecedentes (prematurez, ictericia con exanguinotransfusión) hacen plausible la etiología.
 
 #### Diagnóstico y qué sigue
 
 Patrón de neuropatía auditiva bilateral: emisiones y microfónica presentes, ABR ausente, reflejos ausentes, discriminación desproporcionada al umbral. Se confirma la microfónica con el **tubo pinzado** y se informa como patrón, no como un tipo de hipoacusia. Se deriva a otorrinolaringología y a un equipo con experiencia en rehabilitación auditiva; la adecuación de apoyos (comunicación visual, sistemas de frecuencia modulada, audífono con cautela) se decide con el equipo: el beneficio del audífono es variable y suele ser menor de lo que haría esperar el audiograma (BSA, 2019; Berlin y cols., 2010). <!-- Pasada de fundamentos 2026-10-18: se resolvió el verificar sobre la cautela con el audífono. Berlin y cols. (2010, 260 pacientes de todas las edades, resumen): "Approximately 15% reported some benefit from hearing aids". BSA 2019 (OD104-85, lista de hallazgos funcionales): "Hearing aids may be of less benefit than the behavioural audiogram would suggest"; es una guía para lactantes, por eso va junto a Berlin. -->
+
+:::comentario-ancho Informe de Esther, 15 años (caso 13.1)
+**Motivo**: dificultad para entender, peor con ruido; prematura con ictericia grave que requirió exanguinotransfusión; discriminación baja en la logoaudiometría.
+
+**Registro**: click a 80, 60 y 40 dB nHL con polaridad alternada; a 90 dB nHL con rarefacción y con condensación. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo.
+
+**Referencia**: mujer de 3 a 17 años, por oído (Sanfins y cols., 2026). Sin ondas no hay latencias que comparar.
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Ondas I, III y V a 80 dB nHL (alternada) | no se identifican | no se identifican | I, III y V presentes |
+| Interpicos | no medibles | no medibles | |
+| Rarefacción y condensación, 90 dB nHL | deflexión en el primer milisegundo que se invierte | ídem | |
+| Umbral del PEAT | no estima la audición | no estima la audición | |
+
+**Morfología**: sin ondas replicables a 80, 60 y 40 dB nHL en ninguno de los dos oídos. A 90 dB nHL, una deflexión hacia abajo con rarefacción y hacia arriba con condensación, sin ondas neurales detrás.
+
+**Interpretación**: la deflexión que se invierte con la polaridad es la microfónica coclear: las células ciliadas externas responden. Lo apoyan las emisiones transitorias y los productos de distorsión presentes en los dos oídos. Falta lo que viene después: ninguna onda neural, reflejos estapediales ausentes y discriminación de 48 % en el OD y 28 % en el OI, desproporcionada a un umbral de 25 a 45 dB HL. Con el audiograma en 25 a 45 dB HL y sin ondas, el ABR no calza con el umbral tonal: es falta de sincronía, no pérdida de sensibilidad.
+
+**Conclusión**: ausencia de ondas con emisiones otoacústicas presentes: patrón de neuropatía auditiva bilateral. En este patrón el PEAT no estima el umbral auditivo (→ H10).
+
+**Recomendación**: repetir la rarefacción con el tubo pinzado para descartar artefacto; derivar a otorrinolaringología y a un equipo de rehabilitación auditiva; no fijar la amplificación con el audiograma. Si el lenguaje no avanza como se espera, volver a evaluar.
+:::
 
 :::comentario Comentario
 Un tamizaje de emisiones "normal" al nacer no descarta una neuropatía: las emisiones pasan. Un niño con factores de riesgo neonatales necesita **AABR** (→ H10, cap. 16).
@@ -386,6 +403,33 @@ Audiograma normal, emisiones presentes, reflejos ausentes y discriminación del 
 
 Patrón de neuropatía auditiva con ABR presente pero lento, en el contexto de una polineuropatía. No es una hipoacusia por umbral. Se coordina con neurología y genética, y se orienta al paciente sobre estrategias para el ruido (ubicación, sistemas FM): en adultos con neuropatía auditiva por ataxia de Friedreich, el sistema FM personal mejoró mucho la escucha en la vida diaria (Rance y cols., 2010).
 
+:::comentario-ancho Informe de Carmen, 28 años (caso 13.2)
+**Motivo**: dificultad para entender en ruido; pies cavos y polineuropatía familiar en estudio.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL con polaridad alternada. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, impedancias bajo 5 kΩ, sin enmascaramiento contralateral. En reposo.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,43 | 1,70 | 1,80 / 1,80 |
+| Onda III | 4,23 ↑ | 4,43 ↑ | 3,94 / 4,01 |
+| Onda V | 6,67 ↑ | 6,77 ↑ | 5,89 / 5,92 |
+| I-III | 2,80 ↑ | 2,73 ↑ | 2,42 / 2,49 |
+| III-V | 2,44 ↑ | 2,34 ↑ | 2,11 / 2,12 |
+| I-V | 5,24 ↑ | 5,07 ↑ | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,10 | | hasta 0,4 |
+| Umbral de la V con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V replicables a 80, 60 y 40 dB nHL en los dos oídos, de amplitud baja. La V sigue a 20 dB (8,5 ms en el OD y 8,8 en el OI) y a 10 dB (9,1 y 9,2); a 0 dB no hay respuesta.
+
+**Interpretación**: la onda I está en su lugar, pero la III y la V llegan tarde y los tres interpicos pasan el límite en los dos oídos, con diferencia interaural normal: la conducción es lenta en las dos vías y de forma simétrica. El umbral de la V (5 dB eHL) es normal y coincide con la audiometría (5 dB en 1 kHz): la sensibilidad se conserva y lo que falla es el tiempo.
+
+**Conclusión**: ondas presentes con interpicos I-III, III-V e I-V prolongados en ambos oídos, con onda I de latencia normal y diferencia interaural de la V de 0,1 ms: patrón retrococlear simétrico bilateral. Con emisiones presentes, reflejos ausentes y discriminación pobre, el conjunto sugiere un trastorno de la sincronía neural. En un patrón de neuropatía el PEAT no estima el umbral auditivo; aquí el umbral de la V coincide con la audiometría.
+
+**Recomendación**: correlación clínica con neurología y genética; VEMP (ya registrado, con P13 tardía) para el nervio vestibular; estrategias para el ruido, como sistema FM.
+:::
+
 :::ayuda Ayuda memoria
 En la neuropatía auditiva el ABR **no siempre es plano**: puede tener ondas y estar solo lento. Lo que la define es el conjunto: emisiones y microfónica presentes, reflejos ausentes y discriminación pobre.
 :::
@@ -399,6 +443,28 @@ Con 60 dB de pérdida un oído coclear no tendría emisiones. Las emisiones est�
 #### Diagnóstico y qué sigue
 
 Neuropatía auditiva bilateral asociada a antecedente de hiperbilirrubinemia neonatal, con un umbral tonal de unos 60 dB y discriminación nula. El audiograma da una pista de la sensibilidad, no de la comprensión: la rehabilitación necesita equipo de audiología, neurología y lenguaje. No se informa como "hipoacusia profunda".
+
+:::comentario-ancho Informe de Josué, 11 años (caso 13.3)
+**Motivo**: no entiende lo que se le dice; hiperbilirrubinemia neonatal sin tamizaje auditivo; trastorno del movimiento atetósico.
+
+**Registro**: click a 80, 60 y 40 dB nHL con polaridad alternada. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, sin enmascaramiento contralateral. Con calma, en reposo.
+
+**Referencia**: hombre de 3 a 17 años, por oído (Sanfins y cols., 2026). Sin ondas no hay latencias que comparar.
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Ondas I, III y V a 80 dB nHL | no se identifican | no se identifican | I, III y V presentes |
+| Interpicos | no medibles | no medibles | |
+| Umbral del PEAT | no estima la audición | no estima la audición | |
+
+**Morfología**: a 80, 60 y 40 dB nHL no hay ondas que se repitan en las dos réplicas; el trazo no se separa del ruido.
+
+**Interpretación**: ABR sin ondas con emisiones transitorias y productos de distorsión presentes en los dos oídos, reflejos ausentes y discriminación de 0 % con un umbral tonal de unos 60 dB. Lo que no responde es la sincronía del nervio, no la cóclea. No se registraron polaridades separadas: la microfónica no está documentada.
+
+**Conclusión**: ausencia de ondas con emisiones otoacústicas presentes: patrón de neuropatía auditiva bilateral. En este patrón el PEAT no estima el umbral auditivo (→ H10).
+
+**Recomendación**: registrar con rarefacción y condensación para documentar la microfónica; derivar a otorrinolaringología y a un equipo de rehabilitación; no fijar un audífono por el audiograma ni informar una hipoacusia profunda. Volver a evaluar si el lenguaje no avanza.
+:::
 
 :::ojo Ojo clínico
 Un audífono ajustado al audiograma de este niño amplifica una señal que el nervio no sincroniza: puede sonar más fuerte sin entenderse más. La decisión se toma con la discriminación y con el equipo, no solo con el umbral.
@@ -414,12 +480,39 @@ El audiograma es normal. Hay emisiones y no hay reflejos, y los interpicos del A
 
 Audición periférica normal con alteración de la conducción central bilateral: **derivación urgente a neurología pediátrica**. El audiólogo informa el patrón; el diagnóstico etiológico no es suyo.
 
+:::comentario-ancho Informe de Óscar, 8 años (caso 13.4)
+**Motivo**: "no oye" y baja de rendimiento escolar en pocos meses, con torpeza y visión borrosa; audiometría normal.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL con polaridad alternada. Fonos de inserción, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, sin enmascaramiento contralateral. En reposo.
+
+**Referencia**: hombre de 3 a 17 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,70 | 2,00 ↑ | 1,71 / 1,70 |
+| Onda III | 4,20 ↑ | 4,77 ↑ | 4,08 / 4,13 |
+| Onda V | 6,70 ↑ | 6,93 ↑ | 6,20 / 6,37 |
+| I-III | 2,50 | 2,77 | 2,61 / 3,06 |
+| III-V | 2,50 ↑ | 2,16 | 2,25 / 2,96 |
+| I-V | 5,00 ↑ | 4,93 | 4,69 / 5,31 |
+| Diferencia interaural de la V | 0,23 | | hasta 0,4 |
+| Umbral de la V con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V replicables a 80, 60 y 40 dB nHL en los dos oídos A 20 dB queda la V, a 8,6 ms en los dos oídos, y a 10 dB a 9,9 y 9,4 ms; a 0 dB no hay respuesta.
+
+**Interpretación**: latencias absolutas prolongadas en los dos oídos con audiometría normal, que no se explican por una pérdida periférica. En el OD los interpicos III-V e I-V pasan el límite. En el OI la I también llega tarde y los interpicos quedan bajo un límite más amplio que el del OD en la serie de referencia. El umbral de la V (5 dB eHL) coincide con la audiometría normal, pero con la V a 8,6 ms no mide la audición.
+
+**Conclusión**: latencias absolutas prolongadas en ambos oídos e interpicos III-V e I-V prolongados en OD, con audición periférica normal en la audiometría y emisiones presentes: alteración de la conducción neural bilateral.
+
+**Recomendación**: derivación urgente a neurología pediátrica con este informe y la audiometría; repetir el PEAT según indique el equipo.
+:::
+
 :::pregunta Para discutir
 ¿Qué le dirías a la mamá, que llegó pensando que su hijo "no oye"? ¿Cómo distingues lo que sabes del audiograma, de lo que sospechas del ABR?
 :::
 
 :::comentario Prevención
-- **Primaria:** la hiperbilirrubinemia grave del recién nacido es una de las causas de neuropatía auditiva (Shapiro y Popelka, 2011); su manejo oportuno sigue la guía clínica vigente de pediatría (Kemper y cols., 2022) y lo decide neonatología. <!-- verificar: la guía AAP 2022 no tiene resumen en PubMed ni se pudo abrir el texto; se cita por su título como marco de manejo, sin afirmar efecto sobre la audición. -->
+- **Primaria:** la hiperbilirrubinemia grave del recién nacido es una de las causas de neuropatía auditiva (Shapiro y Popelka, 2011); su manejo oportuno sigue la guía clínica vigente de pediatría (Kemper y cols., 2022) y lo decide neonatología.
 - **Secundaria:** en el recién nacido de más de cinco días en UCI el tamiz que la detecta es el AABR, no las emisiones, y quien tiene indicadores de riesgo se sigue aunque pase (JCIH, 2019; → cap. 16).
 - **Terciaria:** audífonos, implante coclear y comunicación visual, según el sitio de la lesión y por decisión de un equipo (Rance y Starr, 2015).
 - **Cuaternaria:** no fijar la audición ni la amplificación con el umbral del ABR, que en la neuropatía no estima el umbral tonal, ni llamar "sordo" a un ABR plano con emisiones presentes.
@@ -449,6 +542,8 @@ Niveles de prevención y su marco: → B5.
 
 ### Técnica
 
+1. Hood LJ. Auditory brainstem response: estimation of hearing sensitivity. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 249-66.
+1. Musiek FE, Gonzalez JE, Baran JA. Auditory brainstem response: differential diagnosis. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 231-48.
 1. Starr A, Picton TW, Sininger Y, Hood LJ, Berlin CI. Auditory neuropathy. Brain. 1996;119(Pt 3):741-53. doi:10.1093/brain/119.3.741
 1. Berlin CI, Bordelon J, St John P, Wilensky D, Hurley A, Kluka E, et al. Reversing click polarity may uncover auditory neuropathy in infants. Ear Hear. 1998;19(1):37-47. doi:10.1097/00003446-199802000-00002
 1. Rance G, Beer DE, Cone-Wesson B, Shepherd RK, Dowell RC, King AM, et al. Clinical findings for a group of infants and young children with auditory neuropathy. Ear Hear. 1999;20(3):238-52. doi:10.1097/00003446-199906000-00006

@@ -43,7 +43,7 @@ La prueba de audífonos de este libro compara **las mismas cuatro tareas** sin y
 El **control** tiene dos tiempos. Poco después de la entrega se ajusta lo que el paciente refiere. Después, a intervalos regulares, se hace la **revisión visoauditiva** (→ H22): que el paciente maneje el audífono delante de ti, el estado del molde y del aparato, la pila con probador y la escucha con estetoclip. En el protocolo de este libro la revisión se hace al uno o dos años de entregado el audífono, y su conclusión resume la **adherencia** (buena, parcial o mala), el manejo y la limpieza, lo que se enseñó o reforzó y la derivación que corresponde.
 
 :::comentario Lo que dicen las normas
-**Quién es candidato.** La recomendación 1.6.1 de NICE no fija un corte audiométrico; la candidatura es funcional (NICE, 2018). Kiessling y cols. (2003) piden que se considere también el entorno y la motivación, sobre todo en personas mayores. <!-- verificar: el artículo de Kiessling 2003 no tiene resumen en PubMed ni en Crossref y el texto completo está tras muro de pago (tandfonline 403); no se pudo confirmar que diga esto. -->
+**Quién es candidato.** La recomendación 1.6.1 de NICE no fija un corte audiométrico; la candidatura es funcional (NICE, 2018). En las personas mayores, Kiessling y cols. (2003) piden evaluar también el entorno (el físico y el social, con la familia y lo que los demás esperan de él) y lo personal, como las expectativas y la motivación (su tabla 2).
 
 **Uno o dos audífonos.** El protocolo de este libro pide identificar "el oído" a adaptar y la preferencia del paciente. NICE recomienda ofrecer **dos audífonos** cuando hay pérdida audible en ambos oídos, porque ayudan a entender con ruido y a localizar (recomendación 1.6.2), y considerar el segundo en el control si el paciente eligió solo uno (1.7.3). Un solo audífono es una decisión legítima del paciente, pero se le explica lo que pierde.
 
@@ -145,7 +145,7 @@ Una pérdida leve o con promedio tonal normal y caída solo en los agudos puede 
 
 ### Hipoacusia unilateral: CROS o audífono
 
-La hipoacusia unilateral (*single-sided deafness*, SSD) es una pérdida de moderadamente severa a profunda en un oído con el otro normal o casi. Quien la tiene refiere dificultad para entender con ruido y para saber de dónde viene un sonido, cansancio al escuchar, retraimiento y temor a perder el otro oído (Lucas y cols., 2018). <!-- verificar: el resumen de Lucas 2018 respalda ruido, conciencia espacial, retraimiento y temor a perder el otro oído; el "cansancio al escuchar" no aparece en el resumen y el texto completo no es libre. --> Es decir, no es "oír bien porque tiene un oído sano".
+La hipoacusia unilateral (*single-sided deafness*, SSD) es una pérdida de moderadamente severa a profunda en un oído con el otro normal o casi. Quien la tiene refiere dificultad para entender con ruido y para saber de dónde viene un sonido, retraimiento y temor a perder el otro oído (Lucas y cols., 2018). Es decir, no es "oír bien porque tiene un oído sano".
 
 Antes de hablar de soluciones se pregunta lo mismo que en cualquier asimetría: **cuánto tiempo hace y por qué**. Una pérdida unilateral o asimétrica reciente o sin causa conocida va al especialista (→ cap. 7, cap. 11; NICE, 2018, recomendación 1.1.6). Lo que sigue vale para una pérdida **estable y con causa conocida**, como la que deja la parotiditis en la infancia.
 
@@ -215,7 +215,7 @@ Además de la audiometría, ¿qué logoaudiometría y qué LDL? ¿Qué pruebas h
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap28_primera_vez_audiosupra.svg ancho=80% Audiometría de la paciente de 73 años: pérdida descendente simétrica; discriminación de 76 % y 72 % a 60 dB.
+:::imagen figuras/salida/cap28_primera_vez_audiosupra.svg ancho=100% Audiometría de la paciente de 73 años: pérdida descendente simétrica; discriminación de 76 % y 72 % a 60 dB.
 :::
 
 En 500 Hz el OD está en 20 dB: los graves están casi normales. En 2 kHz cae a 60 dB y en 4 kHz a 90: una pérdida **descendente**, como la presbiacusia del cap. 5. El OI está en 95 dB en 4 kHz, a 5 dB del OD: es **simétrica**, y eso la distingue de lo que se estudia en el cap. 11. Los triángulos del fondo son el LDL: no hay molestia hasta los 120 dB, el tope del equipo, así que el campo dinámico no está estrecho (en 3 kHz quedan al menos 45 dB). SDT y SRT de 20 y 25 dB; el máximo del OD es **76 %** y el del OI 72 %, los dos a 60 dB: aun a un nivel cómodo no llega al 100 %, y eso anuncia que oír no será entender todo. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 27 a 32 dB en 2 kHz: recluta, es coclear.
@@ -250,7 +250,7 @@ Hablar de audífonos con alguien que no los quiere, ¿por dónde empiezas? ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap28_reacio_audiosupra.svg ancho=80% Audiometría del paciente de 68 años: caída abrupta en agudos, LDL de 110 dB y discriminación de 80 % y 76 %.
+:::imagen figuras/salida/cap28_reacio_audiosupra.svg ancho=100% Audiometría del paciente de 68 años: caída abrupta en agudos, LDL de 110 dB y discriminación de 80 % y 76 %.
 :::
 
 Graves y medios casi normales: 25 dB en 1 kHz. A 80 dB en 3 kHz y 100 en 4 kHz la caída es **abrupta**. El LDL (triángulos del fondo) está en 110 dB: queda un campo dinámico de **30 dB**, la misma amplitud del habla, sin margen. El OI es parecido: 75 dB en 3 kHz y LDL de 110. La discriminación máxima es **80 %** en el OD y 76 % en el OI, los dos a 60 dB, lo esperable en una pérdida de agudos de este grado: el audífono no los llevará a 100. SISI de 90 %, Carhart con deterioro de 20 dB en 4 kHz y Metz de 9,5 dB en 4 kHz: recluta, es coclear.
@@ -279,7 +279,7 @@ Con una queja leve y situacional, ¿qué es lo que decide si le ofreces un audí
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap28_leve_audiosupra.svg ancho=80% Audiometría de la profesora de 64 años: normal hasta 1 kHz, caída leve en agudos, discriminación de 96 % y 92 %.
+:::imagen figuras/salida/cap28_leve_audiosupra.svg ancho=100% Audiometría de la profesora de 64 años: normal hasta 1 kHz, caída leve en agudos, discriminación de 96 % y 92 %.
 :::
 
 Hasta 1 kHz está en 15 dB: el promedio de las frecuencias del habla es **normal** (SDT de 5 dB y SRT de 10 dB). Desde 2 kHz la curva baja: 45 dB en 4 kHz y 60 en 8 kHz. Es una presbiacusia **leve**, solo en agudos, y el OI es simétrico (35 dB en 2 kHz). Discrimina el **96 %** con el OD y el 92 % con el OI: en silencio no pierde palabras. Su dificultad aparece donde las consonantes compiten con el ruido. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 y 39,5 dB en 4 kHz: recluta, es coclear.
@@ -308,12 +308,12 @@ Una pérdida unilateral de décadas con causa conocida: ¿qué tendrías que des
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap28_un_oido_audiosupra.svg ancho=80% Audiometría del taxista de 47 años: OD en 90 dB o más y sin respuesta ósea; OI normal.
+:::imagen figuras/salida/cap28_un_oido_audiosupra.svg ancho=100% Audiometría del taxista de 47 años: OD en 90 dB o más y sin respuesta ósea; OI normal.
 :::
 
 El OD está en **90 dB** en 500 Hz y empeora hasta 110 dB en los agudos. La ósea del OD **no responde** (símbolo de sin respuesta), con el otro oído enmascarado: la pérdida es **sensorioneural**, sin nada que operar. El OI es normal: 5 dB en 1 kHz. En el OD el SDT es de 85 dB y el SRT de 90; discrimina 20 % a 90 dB y llega al **35 %** solo con 100 dB. El OI llega al 100 % a 40 dB: es el oído con el que vive.
 
-:::imagen figuras/salida/cap28_un_oido_impedancia.svg ancho=80% Impedanciometría del taxista.
+:::imagen figuras/salida/cap28_un_oido_impedancia.svg ancho=100% Impedanciometría del taxista.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 1,45 mL en el OD y de 1,19 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo: el oído medio está sano y la sordera es sensorioneural.

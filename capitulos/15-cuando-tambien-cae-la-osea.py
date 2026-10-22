@@ -17,12 +17,12 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramient
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # El ABR por vía ósea llega al tope del vibrador (55 dB nHL en la app): 50, 30 y 10
-ABR_AEREO = fig.abr(niveles=(80, 60, 40))
-ABR_OSEO = fig.abr(niveles=(50, 30, 10), transductor='oseo')
+# Por vía ósea el ruido en el oído contrario es obligatorio: el vibrador cruza casi sin pérdida
+ABR_OSEO = fig.abr(niveles=(50, 40, 30, 20, 10), transductor='oseo', enmascaramiento=55)
 
 CASOS = [
     cuadro('mixta_otitis_cronica',
-           [fig.audiosupra(), ABR_AEREO, ABR_OSEO],
+           [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 70, 60, 40, 20, 10, 0)), ABR_OSEO],
            od='mixta_otitis_cronica', grado_od='moderada', edad=52, sexo='mujer',
            anamnesis="""Tiene 52 años y trabaja de costurera. Desde niña le supura el oído derecho cada vez que se
            resfría; hace tres años la secreción no se ha cortado del todo. Con ese oído casi no oye: habla por
@@ -30,7 +30,7 @@ CASOS = [
            deriva el cirujano que le propone cerrar la perforación, y quiere saber cuánto oído "de verdad" le queda
            antes de operar.""",
            historia=[(1500, 'Otorrinolaringología: perforación central amplia del tímpano derecho con otorrea mucosa; se indican gotas y control.'),
-                     (60, 'Control: otoscopía con perforación seca y oído medio húmedo. Se solicita audiometría e impedanciometría antes de decidir una timpanoplastia.')],
+                     (60, 'Control: perforación central amplia del tímpano derecho, todavía con otorrea. Se solicita audiometría e impedanciometría antes de decidir una timpanoplastia.')],
            antecedentes=['otitis']),
     cuadro('mixta_otoesclerosis',
            [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.impedancia()],
@@ -44,7 +44,7 @@ CASOS = [
                      (45, 'Otorrinolaringólogo: otoscopía normal bilateral y Rinne negativo en los dos oídos. Se solicita audiometría con vía ósea e impedanciometría para decidir entre cirugía y audífonos.')],
            antecedentes=['hipoacusia_familiar']),
     cuadro('colesteatoma_fistula',
-           [fig.audiosupra(), fig.impedancia(), ABR_AEREO, ABR_OSEO],
+           [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 60, 50, 40, 20, 10, 0)), ABR_OSEO],
            od='colesteatoma_fistula', grado_od='moderada', edad=38,
            anamnesis="""Tiene 38 años y es técnico en refrigeración. Desde los quince le sale pus de mal olor por el
            oído derecho de vez en cuando, y nunca se lo siguió. Hace dos semanas, al sonarse con fuerza, sintió que la
@@ -64,7 +64,7 @@ CASOS = [
                      (10, 'Control otorrinolaringológico: hemotímpano residual derecho. Se solicita audiometría.')],
            antecedentes=['tce']),
     cuadro('fractura_transversal',
-           [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.abr(niveles=(100, 80, 60))],
+           [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.abr(niveles=(100, 80, 60, 40, 20, 10, 0), enmascaramiento=55)],
            od='fractura_transversal', grado_od='profunda', edad=34,
            anamnesis="""Tiene 34 años y es pintor de edificios. Hace tres semanas cayó de un andamio de unos tres metros y se
            golpeó la parte de atrás de la cabeza. Desde ese día no oye nada por el oído derecho. Los primeros cinco días

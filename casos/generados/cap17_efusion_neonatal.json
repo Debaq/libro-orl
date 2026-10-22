@@ -6,11 +6,11 @@
   },
   "edad": 0,
   "sexo": "mujer",
-  "edad_valor": 4,
-  "edad_unidad": "meses",
+  "edad_valor": 2050,
+  "edad_unidad": "horas",
   "anamnesis": {
-   "otros": "Tiene 4 meses y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde el segundo mes tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
-   "historia": "{{-115}} Alta de la maternidad: AABR refiere OD y OI.\n{{-90}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde las seis semanas tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
+   "historia": "{{-82}} Alta de la maternidad: AABR refiere OD y OI.\n{{-54}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.",
    "hist": [],
    "medicamentos": "",
    "cirugias": ""
@@ -230,7 +230,7 @@
   },
   "sector": "Camara_sono",
   "edad": 0,
-  "edad_horas": 2880,
+  "edad_horas": 2050,
   "nacimiento": {
    "parto": "vaginal",
    "semanas": null,
@@ -253,8 +253,8 @@
    }
   },
   "volume": [
-   0.58,
-   0.45,
+   0.79,
+   0.67,
    "N/D"
   ],
   "volume_cae": [
@@ -420,7 +420,7 @@
    },
    "medicamentos": "",
    "cirugias": "",
-   "otros": "Tiene 4 meses y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde el segundo mes tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde las seis semanas tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
    "ia": {
     "generado": false,
     "verificado": false,
@@ -437,7 +437,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Carmen",
+     "nombre": "Andrea",
      "edad": 0,
      "genero": 1,
      "es_paciente": true,
@@ -450,19 +450,19 @@
      "disposicion": 0
     },
     {
-     "id": "amvbqkc4k2k",
+     "id": "amviyvbnlov",
      "rol": "madre",
-     "nombre": "Blanca Cruz",
-     "edad": 31,
+     "nombre": "Andrea Delgado",
+     "edad": 30,
      "genero": 1,
      "es_paciente": false,
      "informante": true,
      "interrumpe": 100,
      "conciencia": 80,
-     "confiabilidad": 73,
+     "confiabilidad": 94,
      "version": "",
-     "comportamiento": "insistente, repite lo que le preocupa hasta que le contestan",
-     "disposicion": 0
+     "comportamiento": "atenta, contesta corto y espera a que le pregunten",
+     "disposicion": 1
     }
    ]
   },
@@ -570,19 +570,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1720,
+    "average_objetivo": 1684,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.27,
+      "lat": 0.26,
       "amp": -0.07
      },
      "onda_III": {
-      "lat": 0.27,
+      "lat": 0.26,
       "amp": -0.08
      },
      "onda_V": {
-      "lat": 0.27,
-      "amp": -0.11
+      "lat": 0.26,
+      "amp": -0.12
      }
     },
     "nivel_referencia": null,
@@ -650,19 +650,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1668,
+    "average_objetivo": 1805,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.34,
-      "amp": -0.08
+      "lat": 0.22,
+      "amp": -0.06
      },
      "onda_III": {
-      "lat": 0.34,
-      "amp": -0.09
+      "lat": 0.22,
+      "amp": -0.08
      },
      "onda_V": {
-      "lat": 0.34,
-      "amp": -0.13
+      "lat": 0.22,
+      "amp": -0.11
      }
     },
     "nivel_referencia": null,
@@ -677,19 +677,19 @@
    "autor": {
     "set": "__default__",
     "label": "LabSim (default)",
-    "poblacion": "toddler",
+    "poblacion": "neonate",
     "baseline": {
      "I": {
-      "lat": 1.52,
-      "amp": 0.231
+      "lat": 1.79,
+      "amp": 0.171
      },
      "III": {
-      "lat": 3.67,
-      "amp": 0.27
+      "lat": 4.56,
+      "amp": 0.205
      },
      "V": {
-      "lat": 5.8,
-      "amp": 0.388
+      "lat": 6.9,
+      "amp": 0.299
      }
     }
    }
@@ -709,9 +709,9 @@
      "8000": 34
     },
     "atten_db": 0,
-    "ruido_db": 1.6,
-    "sello_pct": 60,
-    "variabilidad_db": 2.1,
+    "ruido_db": 1.1,
+    "sello_pct": 68,
+    "variabilidad_db": 3.4,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -729,9 +729,9 @@
      "8000": 34
     },
     "atten_db": 0,
-    "ruido_db": 2.8,
-    "sello_pct": 61,
-    "variabilidad_db": 2.8,
+    "ruido_db": 1.2,
+    "sello_pct": 82,
+    "variabilidad_db": 3,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -868,6 +868,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.15,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -882,16 +897,16 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T01:46:52+00:00",
+   "at": "2026-10-22T03:13:45+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Carmen Esther",
-   "apellido": "Cruz Delgado",
-   "rut": "28235146",
-   "fecha_nac": "18-06-2026"
+   "nombre": "Andrea Carla",
+   "apellido": "Delgado López",
+   "rut": "28267993",
+   "fecha_nac": "28-07-2026"
   },
-  "historia_clinica": "{{-115}} Alta de la maternidad: AABR refiere OD y OI.\r\n{{-90}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica."
+  "historia_clinica": "{{-82}} Alta de la maternidad: AABR refiere OD y OI.\r\n{{-54}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica."
  }
 }

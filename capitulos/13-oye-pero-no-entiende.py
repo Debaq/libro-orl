@@ -20,10 +20,19 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 BASE = [fig.audiosupra(), fig.impedancia(), fig.teoae(), fig.dpoae()]
 
 CASOS = [
-    demo(40, BASE + [fig.logo(), fig.abr(niveles=(80, 60, 40)),                      # alternada: la microfónica se cancela
-                     fig.abr(niveles=(90,), polaridad='rarefaccion', marcar=()),
-                     fig.abr(niveles=(90,), polaridad='condensacion', marcar=())]),
-    cuadro('neuropatia_hereditaria', BASE + [fig.abr(niveles=(80, 60, 40)), fig.vemp()],
+    cuadro('neuropatia', BASE + [fig.logo(), fig.abr(niveles=(80, 60, 40)),            # alternada: la microfónica se cancela
+                                 fig.abr(niveles=(90,), polaridad='rarefaccion', marcar=()),
+                                 fig.abr(niveles=(90,), polaridad='condensacion', marcar=())],
+           od='neuropatia', oi='neuropatia', grado_od='leve', grado_oi='leve', edad=15, sexo='mujer',
+           anamnesis="""Tiene 15 años y viene con su mamá. Nació a las 33 semanas, con 1.900 g, y estuvo en neonatología por
+           una ictericia grave que necesitó fototerapia y una exanguinotransfusión. El examen de oído del recién nacido
+           "salió bueno". Desde chica, dice la mamá, "oye cuando quiere": hay días en que entiende bien y otros en que
+           casi nada, y entiende mucho mejor si le ve la cara a quien le habla. En la sala, con ruido, se pierde: se sienta
+           adelante y copia del cuaderno de una compañera. En silencio y a solas con su mamá conversa sin problema. Nunca
+           ha tenido pitidos, dolor ni secreción de oído, ni mareos.""",
+           historia=[(5470, 'Neonatología: prematura de 33 semanas con ictericia grave; fototerapia y exanguinotransfusión. Tamizaje auditivo con emisiones otoacústicas: pasa en los dos oídos.'),
+                     (60, 'Profesora jefe: baja de rendimiento y dificultad para seguir instrucciones en la sala; se deriva a evaluación auditiva.')]),
+    cuadro('neuropatia_hereditaria', BASE + [fig.abr(niveles=(80, 60, 40, 20, 10, 0)), fig.vemp()],
            od='neuropatia_hereditaria', oi='neuropatia_hereditaria', edad=28, sexo='mujer',
            anamnesis="""Tiene 28 años y es técnica en enfermería. Desde que se acuerda oye bien "pero no entiende" cuando hay
            ruido: en el casino del hospital, en las reuniones o con la mascarilla puesta se pierde, y por teléfono
@@ -34,7 +43,7 @@ CASOS = [
            historia=[(900, 'Neurólogo: debilidad distal en piernas, pies cavos y arreflexia aquileana; estudio de conducción nerviosa lento.'),
                      (30, 'Neurólogo: solicita evaluación auditiva por dificultad para entender en ruido.')],
            medicamentos='Ninguno'),
-    cuadro('kernicterus', BASE + [fig.abr(niveles=(80, 60, 40))],
+    cuadro('kernicterus', BASE + [fig.abr(niveles=(80, 60, 40), marcar=())],
            od='kernicterus', oi='kernicterus', grado_od='moderada', grado_oi='moderada', edad=11, sexo='hombre',
            anamnesis="""Tiene 11 años y viene con su mamá, que cuenta la historia. Nació de término en un hospital rural; al tercer día
            estaba "amarillo hasta los pies", lo trasladaron tarde y estuvo varios días en fototerapia. El tamizaje de oído
@@ -45,7 +54,7 @@ CASOS = [
            historia=[(4015, 'Hospital rural: hiperbilirrubinemia neonatal al tercer día, fototerapia.'),
                      (1500, 'Neurología infantil: trastorno del movimiento de tipo atetósico.'),
                      (60, 'Fonoaudiología escolar: no responde de forma confiable a la audiometría de tamizaje; se deriva a evaluación auditiva.')]),
-    cuadro('leucodistrofia', BASE + [fig.abr(niveles=(80, 60, 40))],
+    cuadro('leucodistrofia', BASE + [fig.abr(niveles=(80, 60, 40, 20, 10, 0))],
            od='leucodistrofia', oi='leucodistrofia', edad=8, sexo='hombre',
            anamnesis="""Tiene 8 años y viene con su mamá. Hasta hace unos meses era buen alumno. Desde el otoño, dice la mamá, "no oye":
            no responde cuando lo llaman, en la sala no sigue las instrucciones y la profesora cree que es distraído. Ella

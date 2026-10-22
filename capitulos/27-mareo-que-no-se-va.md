@@ -30,15 +30,13 @@ Este capítulo no agrega ninguna prueba nueva. El PPPD **se diagnostica por la h
 
 Cada uno mira algo distinto. Ninguno diagnostica; juntos arman el perfil.
 
-| Instrumento | Qué mide | Cómo se contesta |
+| Instrumento | Qué mide | Cómo se contesta (versión original) |
 |---|---|---|
 | **DHI** (→ H20) (Jacobson y Newman, 1990) | Cuánto limita el mareo la vida diaria, con subescalas funcional, emocional y física | 25 ítems (sí, a veces, no); 0 a 100 |
 | **VSS** (escala de síntomas de vértigo) (Yardley y cols., 1992) | Con qué frecuencia y con qué intensidad hubo síntomas de vértigo-equilibrio y síntomas autonómicos y de ansiedad en los últimos 12 meses | 36 ítems de frecuencia; dos subescalas (Wilhelmsen y cols., 2008) |
 | **VVAS** (escala análoga de vértigo visual) (Dannenbaum y cols., 2011) | Cuánto marean nueve situaciones visuales de la vida diaria: supermercado, multitud, pantallas, tráfico | Una escala análoga de 0 a 10 en cada situación |
 | **NPQ** (cuestionario de Niigata para el PPPD) (Yagi y cols., 2019) | La gravedad del PPPD en sus tres dominios: postura y marcha, movimiento y estímulos visuales | 12 ítems, cuatro por dominio, cada uno de 0 a 6; 0 a 24 por dominio |
 | **ABC** (confianza en el equilibrio) (Powell y Myers, 1995) | Cuán seguro se siente el paciente al hacer 16 actividades, de 0 a 100 % | 16 ítems; promedio en % |
-
-<!-- verificar: el formato de cada instrumento en su versión en español. VSS (36 ítems, 12 meses, dos subescalas) y tramos del ABC se cotejaron en la pasada de contenidos 2026-10-18 con Wilhelmsen 2008 (texto completo) y Myers 1998 (resumen). -->
 
 Cómo se puntúan y se leen la VSS y el ABC está en H20.
 
@@ -73,7 +71,7 @@ La Sociedad Bárány describe tres cambios que se mantienen aunque el vestíbulo
 2. **La vista pesa de más.** Se vio en la neuritis: los pacientes que seguían mareados tenían una mayor dependencia visual (Cousins y cols., 2014) <!-- Cousins 2014 (PMID 25233234), resumen: ~50 % con síntomas a largo plazo; el tercio con peor resultado tuvo más dependencia visual (6,35° vs 3,39°). -->. Y en el "vértigo visual", quienes lo refieren se desordenan más con un entorno visual en movimiento (Guerraz y cols., 2001; Bronstein, 1995). Es la misma lógica de la repesada sensorial de H20: el cerebro reparte la confianza entre vista, pies y vestíbulo (Peterka, 2002), y aquí la vista queda con demasiado peso.
 3. **La integración central amplifica.** Las señales del cuerpo y del entorno se interpretan con más alarma. En un estudio con resonancia funcional, los pacientes con mareo crónico subjetivo activaban menos que los sanos la corteza vestibular, la ínsula, el hipocampo y el cíngulo anterior frente a un estímulo vestibular, regiones que integran el equilibrio con la ansiedad, y esas regiones estaban conectadas de otra manera (Indovina y cols., 2015).
 
-El segundo ajuste, la dependencia visual, se ve en la posturografía de seis condiciones de un paciente con el vestíbulo **sano** y la vista con peso de más: se desordena justo donde la vista miente. La **razón de preferencia visual** del análisis sensorial compara las condiciones con la vista falseada y las de ojos cerrados (Nashner y cols., 1982) <!-- verificar: la razón (3+6)/(2+5) como "preferencia visual" es la que usa el simulador y la posturografía comercial; falta la fuente primaria de esa definición. Pasada 2026-10-18: solo aparece en material de fabricantes y en tablas de artículos que la usan sin citar su origen; Nashner y cols. (1982) describen las condiciones, no la razón. -->. La figura muestra una sola idea del PPPD, como un rasgo fijo, sin la historia, el miedo, la rigidez ni la atención, y no es un criterio diagnóstico: la dependencia visual se describió en los cuadros que precedieron al PPPD, y cuánto se repite en el PPPD está todavía por medirse (Staab y cols., 2017). Por eso la posturografía no se usa para decidir.
+El segundo ajuste, la dependencia visual, se ve en la posturografía de seis condiciones de un paciente con el vestíbulo **sano** y la vista con peso de más: se desordena justo donde la vista miente. La **razón de preferencia visual**, tal como la calcula la posturografía comercial, compara las condiciones con la vista falseada y las de ojos cerrados (las condiciones son las de Nashner y cols., 1982). La figura muestra una sola idea del PPPD, como un rasgo fijo, sin la historia, el miedo, la rigidez ni la atención, y no es un criterio diagnóstico: la dependencia visual se describió en los cuadros que precedieron al PPPD, y cuánto se repite en el PPPD está todavía por medirse (Staab y cols., 2017). Por eso la posturografía no se usa para decidir.
 
 :::imagen ilustraciones/cap27-sot-sano-pppd.svg ancho=100% Posturografía de seis condiciones de dos pacientes: a la izquierda, sano; a la derecha, con el vestíbulo sano y la dependencia visual marcada. Fíjate en que el de la derecha se desordena justo donde la vista miente (condiciones 3 y 6), aunque su vestíbulo esté intacto. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 - @95,46 | **Condición 6, la vista y la plataforma engañan a la vez.** El paciente sano la sostiene; el de la dependencia visual cae. Con el vestíbulo intacto.
@@ -285,7 +283,7 @@ Hipoexcitabilidad izquierda: (11 + 9 − 9 − 7) / 36 = **11 %**, bajo el corte
 
 cVEMP simétrico: **349 µV** en el OD y **343 µV** en el OI (6,86 y 6,82 corregidas por el EMG), asimetría de **0 %**. oVEMP de **27** y **24 µV** (0,65 y 0,57), asimetría de **6 %**, bajo el corte de 33 %. El sáculo y el utrículo del lado enfermo responden.
 
-:::imagen figuras/salida/cap27_neuritis_audiosupra.svg ancho=80% Audiometría de Victoria: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap27_neuritis_audiosupra.svg ancho=100% Audiometría de Victoria: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
 :::
 
 La audición es normal: 5 dB hasta 4 kHz y 10 dB en 6 y 8 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos. La neuritis no dejó huella en la cóclea.
@@ -395,7 +393,7 @@ Hipoexcitabilidad derecha: (11 + 8 − 11 − 9) / 39 = **3 %**. Dirección prep
 
 cVEMP de **348 µV** en el OD y **334 µV** en el OI (6,87 y 6,72 corregidas), asimetría de **1 %**. oVEMP de **25** y **26 µV** (0,58 y 0,62), asimetría de **3 %**. Los dos, bajo el corte.
 
-:::imagen figuras/salida/cap27_vppb_audiosupra.svg ancho=80% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % y 96 %.
+:::imagen figuras/salida/cap27_vppb_audiosupra.svg ancho=100% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % y 96 %.
 :::
 
 Caída de agudos de los dos lados, casi igual, la propia de la edad: el OD tiene **15 dB** en 1 kHz, **60 dB** en 4 kHz y 75 dB en 8 kHz; el OI, 15, **50** y 70 dB. La ósea sigue a la aérea: es **sensorioneural**. SRT de 10 dB en los dos oídos. Discriminación máxima de **92 %** en el OD y **96 %** en el OI: buena, acorde con la pérdida y casi igual en los dos. No hay nada asimétrico ni retrococlear.
@@ -507,22 +505,22 @@ Hipoexcitabilidad izquierda: (15 + 11 − 6 − 4) / 36 = **44 %**. Dirección p
 
 cVEMP de **286 µV** en el OD y **38 µV** en el OI (5,67 y 0,75 corregidas por el EMG): asimetría de **76 %**, sobre el corte de 35 % (→ H12). oVEMP de **26** y **5 µV** (0,61 y 0,10): asimetría de **71 %**, sobre el corte de 33 %. Caen los dos del OI: el sáculo y el utrículo, el nervio vestibular **inferior y el superior**.
 
-:::imagen figuras/salida/cap27_schwannoma_audiosupra.svg ancho=80% Audiometría de Joaquín: el OD tiene la caída suave de la edad; el OI tiene 45 dB en 4 kHz y una discriminación que no pasa de 56 %.
+:::imagen figuras/salida/cap27_schwannoma_audiosupra.svg ancho=100% Audiometría de Joaquín: el OD tiene la caída suave de la edad; el OI tiene 45 dB en 4 kHz y una discriminación que no pasa de 56 %.
 :::
 
 El OD tiene **20 dB** en 4 kHz: la caída suave de la edad. El OI tiene **45 dB** en 4 kHz: **25 dB de asimetría** en esa frecuencia, sobre los 15 que obligan a estudiar (→ cap. 11). La ósea coincide con la aérea: sensorioneural. SRT de 5 dB en el OD y de 20 dB en el OI. La discriminación del OD llega al **100 %**; la del OI **no pasa de 56 %** (a 50 dB) y baja a 52 % a 60 dB, un roll-over leve, aunque su pérdida en las frecuencias del habla es leve: entiende mucho menos de lo que oye.
 
 En el OI, SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 2 kHz y **reflejos ausentes**: la pérdida, aunque leve, no recluta y se cansa (→ H6).
 
-:::imagen figuras/salida/cap27_schwannoma_impedancia.svg ancho=80% Impedanciometría de Joaquín.
+:::imagen figuras/salida/cap27_schwannoma_impedancia.svg ancho=100% Impedanciometría de Joaquín.
 :::
 
 Curva A en los dos oídos, con compliancia de 0,69 mL en el OD y de 0,42 mL en el OI. El OD tiene reflejo ipsilateral desde **85 dB SPL**. El OI **no tiene** reflejo ipsilateral, y tampoco aparece con el tono en el OI y la sonda en el OD: falla todo lo que se estimula por el OI, el patrón aferente (→ cap. 11).
 
-:::imagen figuras/salida/cap27_schwannoma_abr.svg ancho=90% ABR de Joaquín a 80, 60 y 40 dB. La onda V del OI llega más tarde y más chica.
+:::imagen figuras/salida/cap27_schwannoma_abr.svg ancho=90% ABR de Joaquín a 80, 60 y 40 dB nHL. En el OI la III y la V llegan tarde y más chicas; la I, a tiempo.
 :::
 
-La onda V del OD llega en su lugar. La del OI llega cerca de **1 ms más tarde** y de menor amplitud, aunque la pérdida del OI en esa zona es leve. A 40 dB el OI ya no responde.
+En el OD las tres ondas llegan en su lugar (I a 1,67 ms, III a 3,67 y V a 5,67). En el OI la I llega a tiempo (1,57 ms) pero la **III llega a 4,60 y la V a 6,60**: el **I-III es de 3,03 ms**, 1 ms más largo que en el OD, aunque la pérdida del OI en esa zona es leve. La V del OI llega 0,93 ms después que la del OD. A 40 dB el OI ya no responde. El informe completo está en la resolución.
 
 :::ayuda-ancho Supraliminares, batería funcional y cuestionarios (→ H6, H20)
 | Prueba | Resultado |
@@ -607,11 +605,37 @@ El relato **no** calza con el PPPD: no hay un evento que lo dispare (C), empeora
 >
 > **Nistagmo espontáneo:** ausente con y sin fijación. *Head-shaking*: nistagmo débil de 2 °/s que bate a derecha. **Posicional:** sin nistagmo.
 >
-> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 44 % (valor significativo) y dirección preponderante hacia derecha de 6 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,99, lateral izquierdo 0,86), sin sacadas. **VEMP:** cVEMP con asimetría de 76 % y oVEMP con asimetría de 71 % (valores significativos), menores en el OI. **Audiometría:** hipoacusia sensorioneural del OI de grado leve, con 25 dB de asimetría en 4 kHz; OD con caída suave de agudos; SRT de 5 dB en el OD y de 20 dB en el OI; discriminación máxima de 100 % en el OD y de 56 % en el OI. ABR: onda V del OI con latencia prolongada, cerca de 1 ms, y sin respuesta a 40 dB. **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
+> **Calórica bitermal:** según parámetro de VCL: hipoexcitabilidad vestibular izquierda de 44 % (valor significativo) y dirección preponderante hacia derecha de 6 % (valor no significativo). **vHIT:** ganancia del VOR simétrica en los seis canales (lateral derecho 0,99, lateral izquierdo 0,86), sin sacadas. **VEMP:** cVEMP con asimetría de 76 % y oVEMP con asimetría de 71 % (valores significativos), menores en el OI. **Audiometría:** hipoacusia sensorioneural del OI de grado leve, con 25 dB de asimetría en 4 kHz; OD con caída suave de agudos; SRT de 5 dB en el OD y de 20 dB en el OI; discriminación máxima de 100 % en el OD y de 56 % en el OI. PEAT: I-III e I-V prolongados en el OI (informe aparte). **Supraliminares:** OI con SISI de 10 %, deterioro tonal de 30 dB, sin reclutamiento en el Fowler y reflejos ausentes: patrón retrococlear.
 >
 > **Conclusión:** examen compatible con hipofunción vestibular izquierda de canal lateral (calórica) y de sáculo y utrículo (nervio vestibular inferior y superior), con hipoacusia sensorioneural del OI y signos retrococleares. Cuestionarios: DHI 40, VVAS 1,6, NPQ 12, ABC 70 %.
 
 #### Diagnóstico y qué sigue
+
+:::comentario-ancho Informe de PEAT de Joaquín, 58 años (caso 27.3)
+**Motivo**: inestabilidad crónica sin vértigo, acúfeno agudo y dificultad para entender por teléfono con el OI; audiometría con 25 dB de asimetría en 4 kHz y reflejos ausentes al estimular el OI.
+
+**Registro**: click a 80, 60 y 40 dB nHL (polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ, sin enmascaramiento contralateral). No se buscó el umbral. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,67 | 1,57 | 1,90 / 1,91 |
+| Onda III | 3,67 | 4,60 ↑ | 4,16 / 4,22 |
+| Onda V | 5,67 | 6,60 ↑ | 6,16 / 6,24 |
+| I-III | 2,00 | 3,03 ↑ | 2,54 / 2,53 |
+| III-V | 2,00 | 2,00 | 2,17 / 2,33 |
+| I-V | 4,00 | 5,03 ↑ | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,93 ↑ | | hasta 0,4 |
+
+**Morfología**: OD con ondas I, III y V replicables. OI con ondas I, III y V replicables, de menor amplitud; a 60 dB solo III y V, y a 40 dB sin respuesta.
+
+**Interpretación**: OD normal. En el OI la onda I llega a tiempo y la III y la V llegan tarde: el I-III (3,03 ms) y el I-V (5,03) pasan el límite, y el III-V es normal. El retraso está entre la I y la III, en el nervio. La pérdida del OI en 2 a 4 kHz es leve, y no explica un retraso de esa magnitud. Lo apoya la diferencia interaural de la V, de 0,93 ms. No se registró a tasa alta.
+
+**Conclusión**: interpicos I-III e I-V prolongados en OI, con onda I de latencia normal y diferencia interaural de la onda V de 0,93 ms: patrón retrococlear en OI. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: resonancia de conductos auditivos internos con gadolinio. Se adjuntan audiometría, impedanciometría y VEMP.
+:::
 
 Hipoacusia sensorioneural del OI de grado leve con **signos retrococleares** e hipofunción vestibular izquierda. **No** se informa como mareo funcional. Se sugiere evaluación por otorrinolaringología con **resonancia magnética de conductos auditivos internos con gadolinio** (→ cap. 11). El PPPD, si lo hubiera, se considera **después**, y puede coexistir (Staab y cols., 2017).
 

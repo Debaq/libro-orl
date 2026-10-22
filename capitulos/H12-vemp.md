@@ -140,7 +140,7 @@ El VEMP se hace a niveles que en una audiometría serían dolorosos. Si el pacie
 
 La pantalla del equipo tiene a la izquierda lo que configuras (la prueba, el estímulo, el registro) y lo que pasa en el paciente (el EMG), al centro las curvas de cada oído y abajo las medidas y la asimetría. La figura muestra un cVEMP en curso: los dos oídos están registrados y marcados.
 
-:::imagen /docs/manual/img/estudiante/vemp.png Pantalla de VEMP con los dos oídos de un cVEMP registrados
+:::imagen /docs/manual/img/estudiante/vemp.png Pantalla de VEMP con los dos oídos de un cVEMP registrados Imagen propia: captura de LabSim.
 - @-2.5,18 | **Prueba.** El tipo de VEMP (cVEMP, oVEMP o mVEMP) y el **oído estimulado**. Cambiar de tipo cambia el músculo donde se registra.
 - @-2.5,25.6 | **Maniobra.** Cómo contrae el paciente: relajado, girando la cabeza, empujando contra la mano o levantando la cabeza. Debajo dice el músculo y el lado del registro.
 - @-2.5,41 | **Estímulo.** Transductor (inserto o vibrador), frecuencia del tone burst, polaridad, intensidad y tasa.

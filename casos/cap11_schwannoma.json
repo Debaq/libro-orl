@@ -42,6 +42,23 @@
       ]
     },
     {
+      "tipo": "abr",
+      "niveles": [
+        100,
+        90,
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "enmascaramiento": 55.0,
+      "oidos": [
+        "OD"
+      ]
+    },
+    {
       "tipo": "vemp",
       "subtipo": "cvemp"
     }

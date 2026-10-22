@@ -118,8 +118,6 @@ El criterio que ordena las clases es qué hacen sobre la actividad de los núcle
 | **Cinarizina y flunarizina** | Antihistamínicos que además bloquean canales de calcio y, la cinarizina, canales de potasio sensibles a presión; el bloqueo de canales de calcio tipo L podría interferir con la liberación de neurotransmisor en las células ciliadas (Soto y Vega, 2010) | Vértigo recurrente; la flunarizina se ha estudiado también en migraña vestibular | No se encontró un dato propio sobre compensación en las fuentes de este capítulo |
 :::
 
-<!-- verificar: registro/uso del difenidol en Chile; metoclopramida y ondansetrón no se incluyeron por falta de fuente. -->
-
 **Lo que dicen los ensayos sobre la betahistina.** La revisión Cochrane agrupó 17 ensayos con 1.025 participantes con vértigo de causas diversas: más pacientes con betahistina que con placebo refirieron menos síntomas de vértigo (RR 1,30; IC 95 % 1,05 a 1,60; 11 estudios, 606 participantes), con una heterogeneidad alta y evidencia de baja certeza; los efectos adversos fueron similares (16 % contra 15 %) (Murdin y cols., 2016). En enfermedad de Ménière, el ensayo BEMED comparó placebo con 2 × 24 mg y 3 × 48 mg diarios durante nueve meses en 221 pacientes: la razón de tasas de crisis frente a placebo fue 1,036 (IC 95 % 0,942 a 1,140) con la dosis baja y 1,012 (0,919 a 1,114) con la alta, y las crisis bajaron en los tres grupos, incluido el placebo (Adrion y cols., 2016). El resultado no dice que ningún paciente se beneficie; dice que, en ese diseño, la betahistina no redujo las crisis más que el placebo, y que las crisis de un Ménière disminuyen solas con el tiempo (→ cap. 23).
 
 **Lo que significa para quien evalúa.**
@@ -276,7 +274,7 @@ Hipoexcitabilidad derecha: (5 + 3 − 20 − 14) / 42 = **62 %**. Dirección pre
 
 cVEMP simétrico: **284 µV** en el OD y **290 µV** en el OI (5,68 y 5,74 corregidas por el EMG), asimetría de **0 %**. El oVEMP cae al estimular el OD, el lado de la neuritis: **8 µV** contra **23 µV** (0,20 y 0,54), asimetría de **47 %**, sobre el corte de 33 %. Utrículo y nervio vestibular superior, como el vHIT, y el sáculo se salva (→ cap. 21).
 
-:::imagen figuras/salida/cap31_buena_audiosupra.svg ancho=80% Audiometría de Martín: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap31_buena_audiosupra.svg ancho=100% Audiometría de Martín: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
 :::
 
 La audición es normal: 0 dB hasta 1 kHz y 5 dB desde 2 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos. La neuritis no toca la cóclea.
@@ -395,7 +393,7 @@ Hipoexcitabilidad izquierda: (19 + 15 − 3 − 3) / 40 = **70 %**. Dirección p
 
 cVEMP de **622 µV** en el OD y **335 µV** en el OI (12,36 y 6,77 corregidas por el EMG): asimetría de **29 %**, bajo el corte de 35 %. El oVEMP cae al estimular el OI: **9 µV** contra **26 µV** (0,22 y 0,62), asimetría de **47 %**, sobre el corte de 33 %. Utrículo y nervio vestibular superior, como el vHIT.
 
-:::imagen figuras/salida/cap31_lenta_audiosupra.svg ancho=80% Audiometría de Lucía: simétrica y propia de la edad, con discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap31_lenta_audiosupra.svg ancho=100% Audiometría de Lucía: simétrica y propia de la edad, con discriminación de 100 % en los dos oídos.
 :::
 
 La audición es **simétrica y propia de la edad**: 10 dB en 1 kHz, 20 dB en 4 kHz y 25 dB en 8 kHz, en los dos oídos. SRT de 10 dB y discriminación de **100 %** en ambos. No hay una asimetría que sugiera otra cosa.
@@ -512,7 +510,7 @@ Hipoexcitabilidad derecha: (14 + 11 − 20 − 16) / 61 = **18 %**, bajo el cort
 
 cVEMP de **290 µV** en el OD y **275 µV** en el OI (5,70 y 5,60 corregidas), asimetría de **1 %**. oVEMP de **23** y **21 µV** (0,54 y 0,50), asimetría de **4 %**. Los dos, bajo el corte.
 
-:::imagen figuras/salida/cap31_meseta_audiosupra.svg ancho=80% Audiometría de Ignacio: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap31_meseta_audiosupra.svg ancho=100% Audiometría de Ignacio: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
 :::
 
 La audición es normal: 0 dB hasta 6 kHz y 5 dB en 8 kHz, en los dos oídos. SRT de 0 dB y discriminación de **100 %** en ambos.

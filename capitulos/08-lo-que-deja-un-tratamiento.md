@@ -231,14 +231,13 @@ Tiene una audiometría y unas emisiones de base. ¿Qué necesitas medir hoy para
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap08_ototoxica_audiosupra.svg ancho=80% Audiometría de Ernesto: pérdida sensorioneural bilateral simétrica que cae desde 2 kHz sin recuperación en 8 kHz. SDT de −5 dB, SRT de 0 dB, discriminación de 88 % en el OD y 96 % en el OI, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap08_ototoxica_audiosupra.svg ancho=100% Audiometría de Ernesto: pérdida sensorioneural bilateral simétrica que cae desde 2 kHz sin recuperación en 8 kHz. SDT de −5 dB, SRT de 0 dB, discriminación de 88 % en el OD y 96 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
 Hay 0 dB de 125 a 1.000 Hz en los dos oídos: los graves están intactos. Por eso conversa bien en silencio. Desde 2 kHz el OD cae: 35 dB en 2 kHz, 55 en 3 kHz y 75 en 4 kHz, y sigue cayendo, con 90 dB en 6 kHz y 95 en 8 kHz. No hay recuperación: no es una muesca. El OI tiene la misma forma: 25, 55, 70, 85 y 90 dB de 2 a 8 kHz. **Bilateral y simétrica.** La ósea va con la aérea; en 4 kHz el OD no responde al tope del vibrador. Sensorioneural. El SDT es de −5 dB, el SRT de 0 dB y la discriminación llega a 88 % en el OD y 96 % en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB (OD) y 19,5 dB (OI) en 4 kHz: recluta, es coclear.
 
 Contra su base, que era de 0 a 10 dB en todas las frecuencias, el cambio supera los **20 dB desde 3 kHz** en los dos oídos, y desde 2 kHz en el OD. Cumple el primer criterio de la ASHA en cuatro o cinco frecuencias de cada oído, y también el segundo.
 
-:::lado
 :::figura cap08_ototoxica teoae
 - @OD 1500 | En el OD pasan solo 1 y 1,5 kHz. Con 2 de 5 bandas y 47 % de reproducibilidad, no pasa.
 - @OI 2000 | En el OI pasan 1; 1,5 y 2 kHz, 3 de 5, pero con 65 % de reproducibilidad, bajo el 70 % que pide el criterio: tampoco pasa.
@@ -248,7 +247,6 @@ Contra su base, que era de 0 a 10 dB en todas las frecuencias, el cambio supera 
 - @OD 1500 | En el OD hay DP en 1 y 1,5 kHz; desde 2 kHz no se separa del ruido. **2 de 7.**
 - @OI 2000 | En el OI llega hasta 2 kHz: **3 de 7**.
 - @OD 8000 | En la base, los dos oídos tenían DP de 1 a 8 kHz. Lo que se perdió coincide con lo que bajó el audiograma.
-:::
 :::
 
 :::docente Guía del caso
@@ -275,12 +273,11 @@ Se tomó la última aspirina ayer en la mañana. ¿Qué esperas de la audiometr�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap08_salicilatos_audiosupra.svg ancho=80% Audiometría de Natalia: pérdida sensorioneural bilateral, simétrica, leve y casi plana. SDT de 15 y 20 dB, SRT de 20 y 25 dB, discriminación de 96 % en el OD y 92 % en el OI, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap08_salicilatos_audiosupra.svg ancho=100% Audiometría de Natalia: pérdida sensorioneural bilateral, simétrica, leve y casi plana. SDT de 15 y 20 dB, SRT de 20 y 25 dB, discriminación de 96 % en el OD y 92 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
 El OD está en 20 dB en los graves, 25 en 1 y 2 kHz y 35 en 6 y 8 kHz: casi **plano**, apenas inclinado hacia los agudos. El OI tiene la misma forma, de 20 a 40 dB. **Bilateral y simétrica.** La ósea va con la aérea en todas las frecuencias: sensorioneural. Por promedio (BIAP), los dos oídos quedan en **leve**: 25 dB el OD y 29 dB el OI. El SDT es de 15 dB en el OD y 20 dB en el OI, y el SRT de 20 y 25 dB. La discriminación llega al **96 %** en el OD y al 92 % en el OI: entiende las palabras como corresponde a una pérdida leve. El SISI es de 90 % y el Carhart no tiene deterioro en 2 ni en 4 kHz; el Metz va de 49,5 a 69,5 dB, sin la reducción que daría un reclutamiento marcado.
 
-:::lado
 :::figura cap08_salicilatos teoae
 - @OD 1500 | En el OD pasan 1,5 y 2 kHz, con 37 % de reproducibilidad: **no pasa**.
 - @OI 2000 | En el OI no hay emisión: 0 de 5 bandas y 1 % de reproducibilidad.
@@ -289,7 +286,6 @@ El OD está en 20 dB en los graves, 25 en 1 y 2 kHz y 35 en 6 y 8 kHz: casi **pl
 - @OD 3000 | En el OD el DP está presente de 1 a 4 kHz: **5 de 7**. Pero los puntos quedan alrededor de 0 dB SPL o algo por debajo.
 - @OI 4000 | En el OI, presente de 1,5 a 4 kHz: **4 de 7**, también bajo.
 - Compáralo con el OI normal del caso 8.3, con puntos de hasta 10 dB SPL. La DPOAE pasa, pero con poca emisión: el amplificador funciona a media máquina.
-:::
 :::
 
 :::docente Guía del caso
@@ -315,12 +311,12 @@ El oído tapado empezó durante la radioterapia y la pérdida, más de un año d
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap08_post_radioterapia_audiosupra.svg ancho=80% Audiometría de Pablo: pérdida mixta del OD, con gap de 20 a 30 dB en los graves y ósea que cae en los agudos, y OI acorde a la edad. SDT de 40 dB y SRT de 45 dB en el OD, con discriminación de 84 %.
+:::imagen figuras/salida/cap08_post_radioterapia_audiosupra.svg ancho=100% Audiometría de Pablo: pérdida mixta del OD, con gap de 20 a 30 dB en los graves y ósea que cae en los agudos, y OI acorde a la edad. SDT de 40 dB y SRT de 45 dB en el OD, con discriminación de 84 %.
 :::
 
 La aérea del OD está en 45 dB de 250 a 1.000 Hz, enmascarada. La ósea enmascarada está en 15, 20 y 25 dB en 250, 500 y 1.000 Hz: un **gap de 20 a 30 dB** en los graves. En los agudos también cae la ósea: 40 dB en 2 kHz, 45 en 3 kHz y 60 en 4 kHz. El gap se achica a 10 a 20 dB: es una pérdida **mixta**. La aérea llega a 80 dB en 6 kHz y a 90 en 8 kHz. El Rinne del OD es negativo en 500 y 1.000 Hz. El OI está entre 5 y 35 dB, con la caída suave de los agudos que corresponde a sus 63 años: es el oído de referencia, con SDT de 0 dB, SRT de 5 dB y 100 % de discriminación a 40 dB. En el OD el SDT es de 40 dB y el SRT de 45 dB, y la discriminación llega al 84 % a 80 dB. El SISI es de 90 % y el Carhart no tiene deterioro; el Metz no se puede medir, porque con la efusión el reflejo falta.
 
-:::imagen figuras/salida/cap08_post_radioterapia_impedancia.svg ancho=80% Impedanciometría de Pablo.
+:::imagen figuras/salida/cap08_post_radioterapia_impedancia.svg ancho=100% Impedanciometría de Pablo.
 :::
 
 El OD tiene un timpanograma **plano, tipo B**, sin pico y con compliancia de 0,00 mL. El volumen es de 1,97 mL, dentro del rango del adulto y lejos del de una perforación: tímpano entero y caja ocupada. La función tubaria del OD es una disfunción. El OI es **A**, con 1,49 mL a −63 daPa.

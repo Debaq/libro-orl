@@ -35,14 +35,13 @@ El Weber conductivo se comprueba en uno mismo: tápese un oído con el dedo y ta
 
 <!-- Pasada de fundamentos 2026-10-18: el verificar sobre el Weber conductivo se resolvió. Oclusión: con el conducto tapado sube la presión sonora en el conducto y mejora la ósea en 250-1000 Hz (Fagelson y Martin, 1998). Oído medio: al fijar la cadena, el umbral óseo mejora en ese oído y la lateralización se explica, al menos en parte, por una diferencia de intensidad entre las dos cócleas (Sichel y cols., 2002, modelo animal; propone además una vía por el LCR, que es una de varias explicaciones). Lo del ruido ambiente es argumento propio del texto, sin cita. -->
 
-:::imagen ilustraciones/h02-weber-conductivo.svg ancho=100% Por qué el Weber se va al oído con pérdida conductiva, en un corte frontal de la cabeza visto de frente (el OD queda a la izquierda). A: con los dos oídos sanos, la vibración del diapasón llega por el hueso igual a las dos cócleas y se oye al centro. B: con el conducto derecho tapado, la pared del conducto, que vibra con el cráneo, suena dentro de él; ese sonido queda encerrado y empuja el tímpano (efecto de oclusión), y el diapasón se oye en el oído tapado. El ruido del ambiente, que entra solo por el oído abierto, aporta poco.
+:::imagen ilustraciones/h02-weber-conductivo.svg ancho=100% Por qué el Weber se va al oído con pérdida conductiva, en un corte frontal de la cabeza visto de frente (el OD queda a la izquierda). A: con los dos oídos sanos, la vibración del diapasón llega por el hueso igual a las dos cócleas y se oye al centro. B: con el conducto derecho tapado, la pared del conducto, que vibra con el cráneo, suena dentro de él; ese sonido queda encerrado y empuja el tímpano (efecto de oclusión), y el diapasón se oye en el oído tapado. El ruido del ambiente, que entra solo por el oído abierto, aporta poco. Imagen propia del libro.
 :::
 
 **El Schwabach compara dos cabezas.** Mide cuánto tiempo oye el paciente el diapasón por vía ósea, apoyado en la mastoides, y lo compara con el tiempo que lo oye el examinador, cuya audición se asume normal. Una cóclea con menos sensibilidad lo deja de oír antes que la normal: el tiempo se **acorta**. Con una pérdida conductiva la cóclea es normal y el tiempo es igual o **más largo** (ASA, terminología).
 
-**El Bing usa el efecto de oclusión como prueba.** Si tapas el conducto, la vía ósea mejora en los graves cuando el oído medio es normal (más arriba). Si el oído medio ya tiene una pérdida conductiva, tapar el conducto casi no agrega nada: el oído medio ya no deja escapar ni transmitir como uno sano (Swan y Browning, 1989). Se cambia así un tapón puesto por el examinador por la comparación con la vía aérea del Rinne.
+**El Bing usa el efecto de oclusión como prueba.** Si tapas el conducto, la vía ósea mejora en los graves cuando el oído medio es normal (más arriba). Si el oído medio ya tiene una pérdida conductiva, tapar el conducto casi no agrega nada (Swan y Browning, 1989; Golabek y Stephens, 1979). El porqué es una explicación de este libro, no de esas fuentes: el oído medio ya no deja escapar ni transmitir como uno sano. Se cambia así un tapón puesto por el examinador por la comparación con la vía aérea del Rinne.
 
-<!-- verificar: la frase "el oído medio ya no deja escapar ni transmitir como uno sano" es una explicación propia; Swan y Browning (1989) y Golabek y Stephens (1979) dan el principio (la oclusión mejora la ósea salvo que haya pérdida conductiva) y el punto de transición (aprox. 9 dB de gap), pero no el mecanismo. -->
 
 **El falso negativo nace de lo mismo.** La vibración apoyada en la mastoides llega también a la cóclea del otro lado. Si el oído examinado tiene una pérdida sensorioneural **severa**, frente al conducto no oye nada, pero en la mastoides el diapasón lo oye la **otra** cóclea. El paciente dice, con razón, que lo oye más fuerte "atrás": el Rinne sale negativo sin que haya ningún problema conductivo (BSA, 2022).
 
@@ -75,7 +74,7 @@ Se empieza por el Weber porque su resultado es el que permite no pasar por alto 
 <!-- Protocolo ORL 2019: Rinne primero y después Weber. Se cambió al orden de la BSA 2022: Weber primero, y el Rinne empieza por el oído al que lateralizó el Weber. -->
 <!-- Protocolo ORL 2019: hueso nasal como primera opción, triquion como alternativa y "nunca en los senos frontales". La BSA 2022 da la frente como sitio habitual (también vértex, puente nasal o mentón). Sobre los senos: Ungar 2021 muestra que la sinusitis puede lateralizar el Weber, apoyado tanto en la frente como en los incisivos. -->
 
-![{IA} Cómo se aplica el diapasón. Weber: la base en la línea media de la frente. Rinne: las ramas frente al conducto, paralelas a su eje, y luego la base en la mastoides; el cambio se hace sin tocar las ramas, para no apagar la vibración.](ilustraciones/h02-tecnica.png)
+![{IA} Cómo se aplica el diapasón. Weber: la base en la línea media de la frente. Rinne: las ramas frente al conducto, paralelas a su eje, y luego la base en la mastoides; el cambio se hace sin tocar las ramas, para no apagar la vibración. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h02-tecnica.png)
 
 ### 2. Rinne, oído por oído
 
@@ -98,7 +97,7 @@ Frotar el trago del oído no examinado con el índice y el pulgar lo enmascara u
 
 ### 4. Schwabach y Bing (cuando el Rinne y el Weber no bastan)
 
-Son pruebas clásicas de la acumetría, del siglo XIX. Hoy se piden menos, porque la vía ósea se mide con el audiómetro y los diapasones se usan para orientar, pero siguen en los programas de formación y sirven para entender qué compara cada prueba.
+Son pruebas clásicas de la acumetría, del siglo XIX: el Rinne ya lo había descrito Polansky en 1842, Rinne lo publicó en 1855 y Schwabach lo confirmó en 1885 (Huizing, 1975). Hoy se piden menos; es una apreciación de este libro, porque la vía ósea se mide con el audiómetro y los diapasones se usan para orientar, pero siguen en los programas de formación y sirven para entender qué compara cada prueba.
 
 **Schwabach.**
 
@@ -114,10 +113,8 @@ El resultado depende de **tu** audición y de una sala silenciosa. Como la vibra
 2. Con el diapasón sonando, **ocluye el conducto** presionando el trago con el dedo, y suéltalo. Alterna dos o tres veces y pregunta **si lo oye más fuerte, igual o más débil con el conducto tapado**.
 3. Si lo oye **más fuerte tapado** (Bing **positivo**), el oído medio transmite normalmente, o la pérdida es sensorioneural. Si **no cambia** (Bing **negativo**), hay una pérdida conductiva (Swan y Browning, 1989).
 
-Un nombre confunde: aquí **positivo** es lo normal, igual que en el Rinne. El Bing se vuelve negativo con un gap de unos 9 dB (Golabek y Stephens, 1979), así que detecta pérdidas conductivas pequeñas que el Rinne todavía no muestra. Aun así, el Bing con diapasón fue menos sensible que el Rinne de 256 Hz (Swan y Browning, 1989), y en otro estudio ni el Weber ni el Bing sirvieron solos (Miltenburg, 1994): se lee como apoyo, no como reemplazo.
+Un nombre confunde: aquí **positivo** es lo normal, igual que en el Rinne. El Bing se vuelve negativo con un gap de unos 9 dB (Golabek y Stephens, 1979), así que detecta pérdidas conductivas pequeñas que el Rinne todavía no muestra. Aun así, el Bing con diapasón fue menos sensible que el Rinne de 256 Hz (Swan y Browning, 1989), y en otro estudio ni el Weber ni el Bing sirvieron solos (Miltenburg, 1994): se lee como apoyo, no como reemplazo. Aquí se usa el diapasón de 512 Hz también para el Schwabach y el Bing, por coherencia con el resto: es criterio del libro. Swan y Browning (1989) compararon el Bing con el Rinne de 256 Hz.
 
-<!-- verificar: el diapasón de 512 Hz para Schwabach y Bing es una elección del texto, igual que en el Rinne y el Weber. Swan y Browning (1989) compararon el Bing con el Rinne de 256 Hz; Golabek y Stephens (1979) no se pudo leer completo (solo el resumen). -->
-<!-- verificar: "del siglo XIX" (Schwabach confirmó el Rinne en 1885 según el resumen de Huizing, ORL 1975, PMID 1093081, doi:10.1159/000275210) y "se piden menos porque la vía ósea se mide con el audiómetro" es juicio propio sin cita. -->
 
 ## Cómo se informa
 
@@ -153,8 +150,7 @@ Según la BSA (2022). Con una sensorioneural de larga data en un oído, el Weber
 | **Conductiva** | Normal o **alargado** | **Negativo** |
 | **Mixta** | Variable: la cóclea lo acorta y el gap lo alarga | Negativo si el gap alcanza |
 
-Según ASA (terminología) para el Schwabach y Swan y Browning (1989) para el Bing.
-<!-- verificar: la fila "Mixta" es deducción del texto; no se encontró fuente que fije el resultado en la mixta. -->
+Según ASA (terminología) para el Schwabach y Swan y Browning (1989) para el Bing. La fila de la pérdida mixta es una deducción de este libro a partir de las otras dos; ninguna fuente fija su resultado.
 :::
 
 ### Cuánta diferencia hace falta
@@ -259,6 +255,7 @@ Es una cófosis del OD, sin componente conductivo. Con el Rinne solo, se habría
 1. Sichel JY, Freeman S, Sohmer H. Lateralization during the Weber test: animal experiments. Laryngoscope. 2002;112(3):542-6. doi:10.1097/00005537-200203000-00024. PMID 12148868.
 1. Carhart R. Clinical application of bone conduction audiometry. Arch Otolaryngol. 1950;51(6):798-808. doi:10.1001/archotol.1950.00700020824003. PMID 15419943.
 1. Swan IR, Browning GG. The Bing test in the detection of conductive hearing impairment. Clin Otolaryngol Allied Sci. 1989;14(6):539-41. doi:10.1111/j.1365-2273.1989.tb00420.x. PMID 2692884.
+1. Huizing EH. The early descriptions of the so-called tuning-fork tests of Weber, Rinne, Schwabach, and Bing. II. The "Rhine test" and its first description by Polansky. ORL J Otorhinolaryngol Relat Spec. 1975;37(2):88-91. doi:10.1159/000275210. PMID 1093081.
 1. Golabek W, Stephens SD. Some tuning fork tests revisited. Clin Otolaryngol Allied Sci. 1979;4(6):421-30. doi:10.1111/j.1365-2273.1979.tb01775.x. PMID 527244.
 1. Miltenburg DM. The validity of tuning fork tests in diagnosing hearing loss. J Otolaryngol. 1994;23(4):254-9. PMID 7996624.
 1. Acoustical Society of America. Standard acoustical and bioacoustical terminology database: Schwabach test (4.59) [Internet]. Melville (NY): ASA. Disponible en: https://asastandards.org/terms/schwabach-test/

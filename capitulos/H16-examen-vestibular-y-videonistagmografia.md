@@ -47,7 +47,7 @@ Los nervios vestibulares **no están en silencio cuando la cabeza está quieta**
 
 El tronco no lee un nervio, **compara los dos**. Con la cabeza quieta, los dos lados descargan igual, la diferencia es cero y los ojos no se mueven. Si la cabeza gira a la derecha, el lado derecho sube y el izquierdo baja: la diferencia manda los ojos a la izquierda, a la misma velocidad.
 
-:::imagen ilustraciones/h16-vor-pushpull.svg Lo que el tronco lee es la diferencia entre los dos lados. A: con la cabeza quieta los dos descargan igual y los ojos no se mueven. B: al girar a la derecha, el conducto derecho sube y el izquierdo baja. C: si el lado izquierdo deja de descargar, la diferencia es la misma que en B, aunque la cabeza esté quieta.
+:::imagen ilustraciones/h16-vor-pushpull.svg Lo que el tronco lee es la diferencia entre los dos lados. A: con la cabeza quieta los dos descargan igual y los ojos no se mueven. B: al girar a la derecha, el conducto derecho sube y el izquierdo baja. C: si el lado izquierdo deja de descargar, la diferencia es la misma que en B, aunque la cabeza esté quieta. Imagen propia del libro.
 :::
 
 ### Una pérdida de un lado: el nistagmo
@@ -172,7 +172,7 @@ El paciente se presenta con:
 El examen con lentes de Frenzel toma **una hora**, y el de VNG, **una hora y veinte minutos**. Avísale al paciente de entrada: no es un examen corto, y el mareo puede aparecer.
 
 :::comentario Lo que dicen las normas
-Los centros difieren en cuántas horas de ayuno piden y en qué fármacos suspender. Lo que importa es el principio: los **supresores vestibulares** (antihistamínicos, benzodiacepinas, algunos antieméticos) bajan la respuesta, y es el médico quien decide si el paciente puede dejarlos. Si no puede, se anota qué toma y a qué hora, y se interpreta con eso a la vista. <!-- verificar: criterios de ayuno y de suspensión de fármacos. Fife y cols. 2000 (guía retirada de la AAN) no tiene resumen en PubMed y el texto completo devolvió 403. Existe un editorial que cuestiona la evidencia de la suspensión de 24-48 h (McCaslin DL. Stopping medications before vestibular testing: evidence-based or neuromythology? J Am Acad Audiol. 2018;29(7):566-7. doi:10.3766/jaaa.29.7.1), sin resumen y no leído (pasada 2026-10-18). -->
+Los centros difieren en cuántas horas de ayuno piden y en qué fármacos suspender. Lo que importa es el principio: los **supresores vestibulares** (antihistamínicos, benzodiacepinas, algunos antieméticos) bajan la respuesta, y es el médico quien decide si el paciente puede dejarlos. Si no puede, se anota qué toma y a qué hora, y se interpreta con eso a la vista. Las horas de ayuno y la lista de fármacos son criterio de cada servicio; el libro no fija cifras.
 :::
 
 ### Conoce tu equipo: lentes de Frenzel y videonistagmógrafo
@@ -188,7 +188,7 @@ Los centros difieren en cuántas horas de ayuno piden y en qué fármacos suspen
 |---|---|---|---|
 | **Principio** | La córnea y la retina tienen una diferencia de potencial eléctrico; al girar el ojo, electrodos de superficie junto a los ojos registran el cambio (Blakley y Chan, 2015) | Una lente de contacto con una bobina de alambre, dentro de un campo magnético: la corriente inducida depende de la posición del ojo (Robinson, 1963) | Una cámara infrarroja sigue la pupila y el programa la convierte en grados (Blakley y Chan, 2015) |
 | **Ventajas** | Equipo de décadas; los valores normales históricos de la calórica se hicieron con él | La más precisa; mide también la **torsión** y sirve para movimientos de alta frecuencia (Houben y cols., 2006) | Sin electrodos ni pegamento; se **ve** el ojo; sin deriva eléctrica de la línea base (Blakley y Chan, 2015) |
-| **Límites** | Deriva de la línea base; artefactos de parpadeo y de contracción muscular; electrodos que pierden contacto (Blakley y Chan, 2015). Solo registra movimientos horizontales y verticales <!-- verificar: que el EOG con electrodos de superficie no registra torsión; es consecuencia del principio (el dipolo no cambia al rotar sobre la línea de la mirada), no se encontró una fuente abierta que lo afirme. --> | Invasiva (lente de contacto), cara y propensa a fallas; no es de uso clínico corriente (Blakley y Chan, 2015) | Pierde la pupila con maquillaje, cejas y ojos cerrados; muestreo típico de 30 a 60 Hz; la torsión es inferior a la de la bobina (Blakley y Chan, 2015; Houben y cols., 2006) |
+| **Límites** | Deriva de la línea base; artefactos de parpadeo y de contracción muscular; electrodos que pierden contacto (Blakley y Chan, 2015). Solo registra movimientos horizontales y verticales (no la torsión: el dipolo del ojo no cambia al rotar sobre la línea de la mirada; es consecuencia del principio, no una cita) | Invasiva (lente de contacto), cara y propensa a fallas; no es de uso clínico corriente (Blakley y Chan, 2015) | Pierde la pupila con maquillaje, cejas y ojos cerrados; muestreo típico de 30 a 60 Hz; la torsión es inferior a la de la bobina (Blakley y Chan, 2015; Houben y cols., 2006) |
 :::
 
 Las velocidades **no son intercambiables**. En 19 sujetos sanos con calórica y registro simultáneo con EOG y VNG, las velocidades de la fase lenta de la VNG fueron en promedio 1,71 veces las del EOG, y el centro que hizo el estudio subió su límite de reducción calórica bilateral de 30 a 50 °/s al pasar a VNG (Blakley y Chan, 2015). Por eso los valores de referencia se toman del equipo con que se mide (→ H17).
@@ -261,7 +261,7 @@ Antes de los ojos, el paciente está de pie. Estas pruebas muestran **cómo se l
 - **Romberg sensibilizado.** Para un paciente que compensa, se agrega dificultad: **un pie delante del otro** con las manos cruzadas sobre los hombros, o pequeños **empujones** del examinador mientras el paciente hace un **trabajo mental**. Queda a criterio del examinador qué usar.
 - **Brazos extendidos.** Con los brazos al frente y los índices paralelos, ojos cerrados. Se mira si los brazos **se desvían** hacia algún lado. Se recomienda apoyar el dorso del paciente para que el tronco no arrastre los brazos.
 - **Unterberger.** Con los brazos extendidos y los ojos cerrados, el paciente **marcha en el puesto**. Se mira si **gira** sobre su eje.
-- **Babinski-Weil (marcha en estrella).** Con los ojos cerrados, el paciente camina alternando pasos **hacia delante y hacia atrás** sobre la misma línea, varias pasadas. En los estudios de reproducibilidad se usaron 36 pasos en total (Paquet y cols., 2014); otros midieron la desviación con un transportador tras 10 pasos a 1 Hz (Miranda y cols., 2013). La prueba toma su nombre del trazo en estrella que dejan los pasos cuando el paciente se desvía de forma sistemática (Oliva y cols., 1998). Se anota hacia qué lado se desvía en cada tramo; una desviación que se repite en varias pasadas cuenta, una aislada no. <!-- verificar: patrón esperado por tramo (adelante/atrás) en una pérdida unilateral; las fuentes cotejadas (Paquet 2014, Miranda 2013, Oliva 1998) describen la prueba y su variabilidad, no el sentido de la desviación en cada tramo. -->
+- **Babinski-Weil (marcha en estrella).** Con los ojos cerrados, el paciente camina alternando pasos **hacia delante y hacia atrás** sobre la misma línea, varias pasadas. En los estudios de reproducibilidad se usaron 36 pasos en total (Paquet y cols., 2014); otros midieron la desviación con un transportador tras 10 pasos a 1 Hz (Miranda y cols., 2013). La prueba toma su nombre del trazo en estrella que dejan los pasos cuando el paciente se desvía de forma sistemática (Oliva y cols., 1998). Se anota hacia qué lado se desvía en cada tramo; una desviación que se repite en varias pasadas cuenta, una aislada no.
 - **Marcha** con los ojos abiertos hacia delante y hacia atrás, y con los ojos **cerrados** hacia delante y hacia atrás, varias veces.
 - **Marcha en línea (tándem):** talón con punta, ojos abiertos, ida y vuelta.
 
@@ -287,12 +287,12 @@ Cada una se hace con el examinador mirando **cómo** se mueve el miembro, no sol
 | **Descomposición del movimiento** | La misma prueba, mirando la trayectoria | El movimiento se parte en tramos sucesivos en vez de salir de corrido; Holmes la describió entre los signos básicos de la lesión cerebelosa (Roe, 2025) |
 | **Temblor intencional** | Al final de dedo-nariz, mirando el último tramo | Oscilación que **aumenta al acercarse al blanco** (Bodranghien y cols., 2016) |
 | **Diadococinesia** | Pronosupinación rápida de las manos sobre los muslos o en el aire | Más lenta, irregular, de amplitud variable (**disdiadococinesia**); Babinski la describió (Manto, 2022) |
-| **Sinergia** | Una tarea que obliga a combinar varias articulaciones a la vez, como sentarse desde decúbito con los brazos cruzados sobre el pecho | **Asinergia**: los segmentos no se coordinan y la tarea se hace por partes; Babinski la describió en 1899 (Manto, 2022) <!-- verificar: ejemplo de la prueba de sinergia tronco-pierna (sentarse desde decúbito con los brazos cruzados; la pierna se eleva); no se encontró en acceso abierto una fuente que lo describa. --> |
+| **Sinergia** | Una tarea que obliga a combinar varias articulaciones a la vez, como sentarse desde decúbito con los brazos cruzados sobre el pecho | **Asinergia**: los segmentos no se coordinan y la tarea se hace por partes; Babinski la describió en 1899 (Manto, 2022). El ejemplo de sentarse con los brazos cruzados es el clásico de la exploración neurológica, aquí sin cita |
 | **Rebote** (de Holmes) | El examinador resiste con una mano la flexión del codo del paciente y suelta de golpe | El brazo normal frena casi de inmediato; con una lesión cerebelosa **falta el freno** y el brazo se dispara hacia delante (Roe, 2025). Es el defecto de *check and rebound* (Manto, 2022) |
 | **Marcha** | Caminar libre y en tándem | Base ancha, tambaleo y tándem muy alterado (Bodranghien y cols., 2016) |
 :::
 
-Para ubicar la lesión, la pauta habitual es que las pruebas de los miembros (metría, diadococinesia, rebote) indican el hemisferio **del mismo lado**, y que la marcha y el tronco apuntan al **vermis**. <!-- verificar: lateralidad ipsilateral de los signos de miembro y atribución de marcha/tronco al vermis; Bodranghien 2016 (resumen) enumera los signos pero no los localiza. --> Los hallazgos de los ojos (seguimiento sacádico, sacadas dismétricas, nistagmo evocado por la mirada) completan el cuadro (→ paso 8 y cap. 25).
+Para ubicar la lesión, la pauta habitual es que las pruebas de los miembros (metría, diadococinesia, rebote) indican el hemisferio **del mismo lado**, y que la marcha y el tronco apuntan al **vermis**. Es la pauta clásica del examen neurológico; el libro no la apoya en una cita. Los hallazgos de los ojos (seguimiento sacádico, sacadas dismétricas, nistagmo evocado por la mirada) completan el cuadro (→ paso 8 y cap. 25).
 
 ### 4. Antes de mirar el nistagmo: motilidad y conjugación de los ojos
 
@@ -356,7 +356,7 @@ El examen es el mismo, pero lo **registra el equipo**.
 
 Con fijación se mira un punto. **Sin fijación**, las gafas quedan **en oscuridad** y el paciente mantiene los ojos **abiertos** (con los párpados cerrados no se ve la pupila) mientras imagina el objeto en cada posición.
 
-:::imagen ilustraciones/h16-calibracion.svg Por qué la calibración importa. A: con una calibración buena, el trazo del ojo llega a donde está el blanco. B: con una ganancia de 0,7, todos los movimientos se registran un 30 % más chicos, también la velocidad de la fase lenta.
+:::imagen ilustraciones/h16-calibracion.svg Por qué la calibración importa. A: con una calibración buena, el trazo del ojo llega a donde está el blanco. B: con una ganancia de 0,7, todos los movimientos se registran un 30 % más chicos, también la velocidad de la fase lenta. Imagen propia del libro.
 :::
 
 ### 7. Medir la velocidad de la fase lenta
@@ -373,7 +373,7 @@ La VFL **sin** fijación y **con** fijación permite comparar. Con la fijación 
 
 ### 8. Pruebas oculomotoras con VNG
 
-El protocolo de VNG **no incluye** las pruebas oculomotoras, pero la VNG de uso corriente las trae como parte del examen. <!-- verificar: decía "y la literatura las pide (Fife y cols., 2000)". La guía de la AAN no tiene resumen en PubMed y el texto completo devolvió 403; no se pudo confirmar qué dice de las pruebas oculomotoras (pasada 2026-10-18). --> Suelen hacerse **antes** de las posicionales y con el paciente sentado, con la cabeza quieta. Cada una tiene una pantalla con un **blanco** y un registro de los dos ojos.
+El protocolo de VNG **no incluye** las pruebas oculomotoras, pero la VNG de uso corriente las trae como parte del examen. Suelen hacerse **antes** de las posicionales y con el paciente sentado, con la cabeza quieta. Cada una tiene una pantalla con un **blanco** y un registro de los dos ojos.
 
 - **Sacadas.** El blanco **salta** entre dos puntos, a un lado y al otro, o en un orden al azar para que no se pueda anticipar. Se mide la **latencia** (cuánto tarda el ojo en arrancar desde que el blanco saltó), la **velocidad** pico y la **precisión** (cuánto del salto recorrió el ojo en la primera sacada). Una sacada **lenta**, **corta** (hipométrica), **que se pasa** (hipermétrica) o **tardía** son los cuatro hallazgos.
 - **Seguimiento lento.** El blanco **va y viene** con un movimiento suave. Se mide la **ganancia**, y se mira si el ojo alcanza al blanco con **sacadas de alcance**. Un seguimiento suave y de ganancia alta es normal.

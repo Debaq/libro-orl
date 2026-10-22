@@ -1,0 +1,42 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 23,
+    "sexo": "hombre",
+    "anamnesis": {
+      "otros": "Tiene 23 años y se tituló este año de técnico en refrigeración. No tiene ningún síntoma: oye bien, no tiene pitidos, mareos ni secreción y nunca ha tenido infecciones de oído. No ha trabajado con ruido fuerte ni toma medicamentos. Nadie en su familia tiene problemas de audición. Se ofreció de voluntario para que un alumno de electrofisiología practicara con él un ABR.",
+      "historia": "{{-14}} Audiometría de práctica en la universidad: umbrales normales en los dos oídos.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        40,
+        20,
+        10,
+        0
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    }
+  ]
+}

@@ -16,15 +16,16 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 CASOS = [
     # Símbolos sobre un audiograma normal, con la ósea a la vista en todo el rango
     demo(33, [fig.audiograma(estudio=False, ldl=False)]),
-    # Las tres lecturas del gap: conductiva, sensorioneural y mixta
-    demo(34, [fig.audiograma(ldl=False)]),
-    demo(36, [fig.audiograma(ldl=False)]),
+    # Las tres lecturas del gap: conductiva, sensorioneural y mixta. Desde acá la hoja
+    # auditiva del tomo II (él, 2026-10-22); el 33 queda con el audiograma de los símbolos.
+    demo(34, [fig.audiosupra()]),
+    demo(36, [fig.audiosupra()]),
     # Luis va primero en el texto: el 2.º audiograma (con LDL) es la "radiografía de un audiograma"
-    demo(41, [fig.audiograma(ldl=False)]),
+    demo(41, [fig.audiosupra()]),
     # Sin respuesta y curva sombra (el porqué de H4)
-    demo(42, [fig.audiograma(sin_enmascarar=True, ldl=False)]),
+    demo(42, [fig.audiosupra(sin_enmascarar=True)]),
     # Ocupacional: la muesca
-    demo(37, [fig.audiograma(ldl=False)]),
+    demo(37, [fig.audiosupra()]),
 ]
 
 if __name__ == '__main__':

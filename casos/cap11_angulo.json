@@ -40,6 +40,18 @@
         "III",
         "V"
       ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "tasa": 81.1
     }
   ]
 }

@@ -84,7 +84,7 @@ Si la aérea recorre todo el camino y la ósea solo el último tramo, al compara
 - **Las dos alteradas y juntas.** El tramo de transmisión funciona y la falla está en la cóclea o más allá: **hipoacusia sensorioneural**.
 - **Las dos alteradas, con gap.** Hay de ambas cosas: **hipoacusia mixta**.
 
-:::imagen ilustraciones/h03-dos-vias.svg ancho=96% Las dos vías y lo que deja ver cada una. La aérea pasa por todo el oído; la ósea se salta el externo y el medio. Por eso la ósea dice cómo está la cóclea y la distancia entre las dos dice cuánto pierde la transmisión.
+:::imagen ilustraciones/h03-dos-vias.svg ancho=96% Las dos vías y lo que deja ver cada una. La aérea pasa por todo el oído; la ósea se salta el externo y el medio. Por eso la ósea dice cómo está la cóclea y la distancia entre las dos dice cuánto pierde la transmisión. Imagen propia del libro.
 :::
 
 Del mismo dibujo salen tres reglas que vas a usar todo el tiempo:
@@ -101,7 +101,7 @@ En la fijación del estribo la ósea empeora alrededor de 2 kHz aunque la cócle
 
 Lejos por debajo del umbral, el paciente nunca oye el tono; bien por encima, lo oye siempre. Entre medio hay una franja de pocos decibeles en que **el mismo tono, al mismo nivel, a veces se detecta y a veces no**. La señal que llega al nervio compite con la actividad de fondo del propio sistema auditivo, y la atención del paciente sube y baja. La curva que une el nivel del tono con la proporción de veces que se detecta es la **función psicométrica**.
 
-:::imagen ilustraciones/h03-funcion-psicometrica.svg ancho=96% El umbral como probabilidad de detección. Entre el nivel que nunca se oye y el que se oye siempre hay una franja de pocos decibeles; el umbral es el punto de esa subida en que se detecta la mitad de los tonos.
+:::imagen ilustraciones/h03-funcion-psicometrica.svg ancho=96% El umbral como probabilidad de detección. Entre el nivel que nunca se oye y el que se oye siempre hay una franja de pocos decibeles; el umbral es el punto de esa subida en que se detecta la mitad de los tonos. Imagen propia del libro.
 :::
 
 Por eso el umbral se define en el medio de esa subida: el nivel en que el paciente detecta **la mitad** de los tonos. En la clínica no hay tiempo para presentar cien tonos por nivel, y el audiómetro avanza de a 5 dB. La forma práctica de estimar ese 50 % es la regla de las normas: **el nivel más bajo en que el paciente responde en al menos la mitad de las presentaciones en ascenso**, con un mínimo de 2 de 3 (ASHA, 2005; ISO 8253-1, 1989).
@@ -114,7 +114,7 @@ El oído no es igual de sensible en todas las frecuencias. Medido con un micróf
 
 El audiómetro resuelve eso trabajando en **dB HL** (*hearing level*, nivel de audición). En cada frecuencia, **0 dB HL** es el nivel que detecta un adulto joven típico, otológicamente normal, entre 18 y 25 años (ISO 389-7, 2019). <!-- verificar: el rango de 18 a 25 años se confirmó en la edición 1996 de la ISO 389-7 (y en la EN ISO 389-7:1998 y la descripción DIN de la serie ISO 389); la vista previa de la 2019 en ANSI e iso.org no se pudo leer (2026-10-18). --> El equipo guarda esa referencia para cada frecuencia y cada transductor, y la resta. Así, un oído normal dibuja una **línea recta cerca de 0**, y lo que el audiograma muestra es directamente cuánto le falta a ese oído respecto de lo normal.
 
-:::imagen ilustraciones/h03-hl-spl.svg ancho=96% El mismo oído normal, en dB SPL y en dB HL. En SPL el umbral normal cambia con la frecuencia: los graves necesitan mucha más presión. En HL se resta esa referencia, el oído normal queda en 0 en todas y cualquier pérdida se lee como distancia a esa línea.
+:::imagen ilustraciones/h03-hl-spl.svg ancho=96% El mismo oído normal, en dB SPL y en dB HL. En SPL el umbral normal cambia con la frecuencia: los graves necesitan mucha más presión. En HL se resta esa referencia, el oído normal queda en 0 en todas y cualquier pérdida se lee como distancia a esa línea. Imagen propia del libro.
 :::
 
 De aquí salen varias cosas que se ven a diario:
@@ -145,7 +145,7 @@ El audiograma mide de 125 a 8.000 Hz, en octavas y algunas interoctavas. Hay tre
 
 **Cada frecuencia examina un lugar de la cóclea.** La cóclea está ordenada por frecuencias: la base, junto a la ventana oval, responde a los agudos, y el ápice a los graves. La membrana basilar es angosta y rígida en la base, de unos 0,13 mm, y ancha y flexible en el ápice, de unos 0,42 mm (Liu y cols., 2015); por eso cada tramo vibra mejor con una frecuencia distinta (Robles y Ruggero, 2001). <!-- Pasada de fundamentos 2026-10-18: decía "de unos 0,1 mm" en la base y "de unos 0,5 mm" en el ápice. Se corrigió a 126 µm en la base y 418 µm en el ápice, medidos en cócleas humanas (Liu y cols., 2015). --> Sobre 500 Hz, cada octava ocupa un tramo parecido de la membrana (Greenwood, 1990). Por eso el eje de frecuencias del audiograma va en octavas: espacios iguales en el papel corresponden a tramos parecidos de cóclea. Un audiograma es, en el fondo, un mapa de la cóclea de la base al ápice.
 
-:::imagen ilustraciones/h03-tonotopia.svg ancho=96% Dónde cae cada frecuencia del audiograma en la cóclea: los agudos en la base, junto a la ventana oval, y los graves en el ápice. Fíjate en el tramo de la base que queda sobre 8 kHz, fuera de la audiometría convencional.
+:::imagen ilustraciones/h03-tonotopia.svg ancho=96% Dónde cae cada frecuencia del audiograma en la cóclea: los agudos en la base, junto a la ventana oval, y los graves en el ápice. Fíjate en el tramo de la base que queda sobre 8 kHz, fuera de la audiometría convencional. Imagen propia del libro.
 :::
 
 **La base se daña primero.** Las células de la base son más vulnerables: tienen menos defensas frente a los radicales libres y manejan más calcio (Sha y cols., 2001; Fettiplace y Nam, 2019). Por eso el ruido, la edad y los ototóxicos empiezan por los agudos. Y el tramo más basal, sobre 8 kHz, casi una quinta parte del largo de la cóclea (Greenwood, 1990), queda fuera de la audiometría convencional: es lo que agrega la audiometría de alta frecuencia cuando se vigila un ototóxico. Las interoctavas de 3 y 6 kHz se miden siempre porque ahí vive la muesca del ruido (→ cap. 6).
@@ -172,7 +172,7 @@ Eso tiene dos consecuencias prácticas. La primera: una diferencia de 5 dB entre
 
 Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes, cada uno con su pantalla y sus controles, y un **centro** con lo que comparten los dos (la frecuencia, el paso, el cronómetro). Uno lleva el tono al oído que estás midiendo; el otro, cuando hace falta, lleva el ruido que enmascara al oído contrario. La figura muestra un audiómetro armado justo así: tono por el canal 1 al oído derecho y ruido de banda estrecha por el canal 2 al izquierdo.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar.
+:::imagen /docs/manual/img/estudiante/audiometro.png Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.
 - @4,13 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aérea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.
 - @40,10 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de abajo.
 - @51,22 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.
@@ -195,9 +195,8 @@ Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes
 
 ### Tipos de audiómetro
 
-No todos los audiómetros hacen lo mismo. La IEC 60645-1 los clasifica en **tipos 1 a 4** según lo que pueden generar y medir: los tipos 1 a 3 sirven para la audiometría diagnóstica de tono puro y el tipo 4 solo tiene vía aérea, que es lo que pide un screening (IEC 60645-1, 2017).
+No todos los audiómetros hacen lo mismo. La IEC 60645-1 los clasifica en **tipos 1 a 4** según lo que pueden generar y medir: el tipo 1 es el audiómetro diagnóstico completo, con fonos, vibrador óseo y ruido de enmascaramiento, y el tipo 4 es un equipo de screening solo con fonos (Schlauch y Nelson, 2015, que describen la norma ANSI). Los tipos 2 y 3 quedan entre los dos, con menos prestaciones que el 1. No se reproducen aquí las frecuencias y los niveles que exige cada tipo, porque el texto de la norma es de pago.
 
-<!-- verificar: la distinción "tipos 1 a 3 diagnósticos, tipo 4 solo aérea" viene de resúmenes de catálogos de normas (IEC 60645-1, ediciones 2012/2017), no del texto de la norma, que es de pago. No se pudo leer qué frecuencias y niveles exige cada tipo, por eso la tabla no los nombra. -->
 
 Tabla: Tipos de audiómetro según su uso
 
@@ -207,11 +206,10 @@ Tabla: Tipos de audiómetro según su uso
 | **Clínico o diagnóstico** | Vía aérea y ósea, enmascaramiento, canal de habla y dos canales | Umbrales completos, tipo y grado de la pérdida: es el equipo de este capítulo |
 | **De alta frecuencia (rango extendido)** | Vía aérea sobre 8 kHz, con fonos especiales | Seguimiento de ototóxicos y de ruido (más abajo, *Audiometría de alta frecuencia*) |
 | **Automático** | El equipo presenta los tonos con el método ascendente y descendente y el paciente solo responde | Terminar más rápido una audiometría de screening o en terreno; en la vía aérea del adulto sus umbrales difieren poco de los manuales (Mahomed y cols., 2013) |
-| **De Békésy** | El paciente sube y baja el tono con un botón mientras la frecuencia barre el rango y el equipo dibuja el trazo | Hoy casi no se usa; buscaba distinguir lesiones cocleares de retrococleares por la forma del trazo (Békésy, 1947; Jerger, 1960) |
+| **De Békésy** | El paciente sube y baja el tono con un botón mientras la frecuencia barre el rango y el equipo dibuja el trazo | Hoy casi no se usa; buscaba distinguir lesiones cocleares de retrococleares por la forma del trazo (Békésy, 1947; Jerger, 1960; Martin y Clark, 2015) |
 
 Los de screening y clínicos pueden ser manuales o automáticos: lo que cambia no es el tipo de equipo sino quién lleva el método. Esta herramienta describe el método manual.
 
-<!-- verificar: que el Békésy se usaba para distinguir lesión coclear de retrococlear por la forma del trazo (tipos de Jerger) es conocimiento general; Jerger (1960) se citó por su título ("analysis of auditory disorders"), no se leyó el resumen. -->
 
 ### Paciente
 
@@ -233,7 +231,7 @@ Se le dice por qué oído se parte y se le pregunta si entendió. "Aunque sea ap
 
 Rojo en el derecho y azul en el izquierdo, con la membrana centrada sobre la entrada del conducto y los dos a la misma altura. Los pone quien examina, no el paciente (ASHA, 2005). Una vez puestos, el paciente no los toca.
 
-![{IA} La audiometría en cabina. El fono rojo va en el oído derecho y el azul en el izquierdo, centrados sobre el conducto; el paciente responde con el pulsador y no ve el panel. Un fono corrido deja pasar menos sonido y el umbral sale peor de lo que es.](ilustraciones/h03-cabina-fonos.png)
+![{IA} La audiometría en cabina. El fono rojo va en el oído derecho y el azul en el izquierdo, centrados sobre el conducto; el paciente responde con el pulsador y no ve el panel. Un fono corrido deja pasar menos sonido y el umbral sale peor de lo que es. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h03-cabina-fonos.png)
 
 ## Paso a paso
 
@@ -257,7 +255,7 @@ El ascendente no es la única forma de llegar al umbral. La **descendente** es e
 
 <!-- Pasada de fundamentos 2026-10-18: la horquilla (ascensos y descensos de 5 dB, 3 + 3, umbral = promedio) está confirmada en la ISO 8253-1:1989 leída completa (docs/investigacion/tecnica_audiometria_tonal/notas/normativa_internacional.md). Hughson y Westlake (1944) confirmada en catálogos y en la guía ASHA 2005 (Trans Am Acad Ophthalmol Otolaryngol 48 Supl:1-15; también edición aparte, Omaha, Douglas Print Co., WorldCat OCLC 221510216); texto completo no leído. Método en discusión con el equipo: docs/libro/incongruencias_protocolo.md, punto 13b. -->
 
-:::imagen ilustraciones/h03-metodos-umbral.svg ancho=100% Cuatro formas de buscar el umbral, con el mismo umbral de 25 dB HL. Compara en qué dirección avanza cada una y en qué punto se juzga el umbral: la descendente arriesga que el paciente siga respondiendo por inercia.
+:::imagen ilustraciones/h03-metodos-umbral.svg ancho=100% Cuatro formas de buscar el umbral, con el mismo umbral de 25 dB HL. Compara en qué dirección avanza cada una y en qué punto se juzga el umbral: la descendente arriesga que el paciente siga respondiendo por inercia. Imagen propia del libro.
 :::
 
 ### 3. Orden de frecuencias
@@ -302,7 +300,7 @@ Cuando ya tengas la ósea, **revisa**: donde la ósea del oído no evaluado sali
 
 <!-- Protocolo ORL 2019 no fija tolerancia para repetir 1 kHz; se tomó la de 5 dB (ASHA 2005, BSA 2018, ISO 8253-1:1989). -->
 
-![{IA} Dónde va el vibrador óseo: de plano sobre la mastoides, detrás del pabellón sin tocarlo y con el conducto libre. Sobre el pelo, tocando el pabellón o demasiado alto, el umbral óseo sale peor de lo que es.](ilustraciones/h03-vibrador-mastoides.png)
+![{IA} Dónde va el vibrador óseo: de plano sobre la mastoides, detrás del pabellón sin tocarlo y con el conducto libre. Sobre el pelo, tocando el pabellón o demasiado alto, el umbral óseo sale peor de lo que es. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h03-vibrador-mastoides.png)
 
 ¿Por qué no se mide la ósea en 125 Hz ni sobre 4 kHz? El vibrador distorsiona en los graves y en los agudos irradia sonido por el aire. Además, en 250 Hz el paciente puede **sentir** la vibración antes de oírla: en la mastoides, el umbral táctil puede estar en 25 dB a 250 Hz, 55 dB a 500 Hz y 70 dB a 1 kHz (BSA, 2018). Una "respuesta" ósea por encima de esos niveles en graves puede ser tacto, y se anota así en el audiograma (ASHA, 2005).
 
@@ -376,7 +374,7 @@ Los umbrales de alta frecuencia varían mucho entre personas y con la edad. Por 
 
 Los símbolos del audiograma son los de la ASHA (1990). En Chile, el derecho va en **rojo** y el izquierdo en **azul**; si los dos oídos tienen el mismo umbral, el símbolo del izquierdo se dibuja dentro del derecho (ISP, 2018).
 
-:::imagen ilustraciones/h03-simbolos.svg ancho=86% Los símbolos del audiograma, del Fowler y de la acumetría. Rojo para el derecho, azul para el izquierdo; los óseos, corridos hacia el lado del oído, como si el paciente te mirara de frente.
+:::imagen ilustraciones/h03-simbolos.svg ancho=86% Los símbolos del audiograma, del Fowler y de la acumetría. Rojo para el derecho, azul para el izquierdo; los óseos, corridos hacia el lado del oído, como si el paciente te mirara de frente. Imagen propia del libro.
 :::
 
 La aérea se une con línea continua; la ósea, cuando se une, con línea punteada, y el LDL con guiones. Los símbolos óseos del derecho van a la izquierda de la línea de frecuencia y los del izquierdo a la derecha: es el paciente mirándote de frente. Los de campo libre van en **verde** y centrados, porque no son de un oído: los oye el mejor. La lámina trae también los símbolos que se usan más adelante: el LDL (→ H5), la escalera del Fowler (→ H6) y el Weber y el Rinne de la acumetría (→ H2).
@@ -421,31 +419,24 @@ Antes de aceptar un gap, descarta los que fabrica la técnica: un conducto que c
 
 {{caso h3_p34}}
 
-:::figura h3_p34 audiograma
-- @OD 250 | El **triángulo** es la aérea del OD enmascarada: 55 dB en 250 Hz.
-- @OD osea 250 | El **corchete [** es la ósea del OD enmascarada: 10 dB. Entre las dos hay un gap de 45 dB.
-- @OD osea 2000 | En 2 kHz la ósea baja a 25 dB y luego vuelve a subir: es la **muesca de Carhart**, propia de la fijación del estribo.
-- @OI 1000 | El OI es normal: es el que se enmascaró para medir el derecho.
-- Ósea normal, aérea abajo y un gap amplio: **hipoacusia conductiva** del OD.
+:::imagen figuras/salida/h3_p34_audiosupra.svg ancho=100% Hoja auditiva del caso H3.3: hipoacusia conductiva del OD, con el OI normal enmascarado. Imagen propia del libro.
 :::
+
+En el OD la aérea enmascarada está en 55 dB en 250 Hz y la ósea enmascarada en 10 dB: un gap de 45 dB. En 2 kHz la ósea baja a 25 dB y luego vuelve a subir: es la **muesca de Carhart**, propia de la fijación del estribo. El OI es normal, y es el que se enmascaró para medir el derecho. Ósea normal, aérea abajo y un gap amplio: **hipoacusia conductiva** del OD.
 
 {{caso h3_p36}}
 
-:::figura h3_p36 audiograma
-- @OD 4000 | En 4 kHz la aérea del OD está en 60 dB y la ósea en 55: van **juntas**, sin gap.
-- @OI osea 1000 | En el OI pasa lo mismo: aérea y ósea en 30 dB en 1 kHz.
-- @OD 500 | Los graves están casi normales y la pérdida crece hacia los agudos: configuración **descendente**.
-- **Hipoacusia sensorioneural bilateral y simétrica**. La ósea se midió donde la aérea está alterada.
+:::imagen figuras/salida/h3_p36_audiosupra.svg ancho=100% Hoja auditiva del caso H3.4: hipoacusia sensorioneural bilateral, simétrica y descendente. Imagen propia del libro.
 :::
+
+En 4 kHz la aérea del OD está en 60 dB y la ósea en 55: van **juntas**, sin gap. En el OI pasa lo mismo: aérea y ósea en 30 dB en 1 kHz. Los graves están casi normales y la pérdida crece hacia los agudos: configuración **descendente**. Es una **hipoacusia sensorioneural bilateral y simétrica**, y la ósea se midió donde la aérea está alterada.
 
 El OI de Luis, el paciente de la radiografía del comienzo (caso H3.1), es el ejemplo de mixta:
 
-:::figura h3_p41 audiograma
-- @OI 1000 | El **cuadrado** es la aérea del OI enmascarada: 50 dB en 1 kHz.
-- @OI osea 1000 | El **corchete ]** es la ósea del OI enmascarada: 25 dB. Hay gap, pero la ósea tampoco es normal.
-- @OI osea 4000 | En 4 kHz la ósea llega a 45 dB: la cóclea también está dañada, sobre todo en los agudos.
-- Las dos vías alteradas y un gap de 20 a 30 dB: **hipoacusia mixta** del OI.
+:::imagen figuras/salida/h3_p41_audiosupra.svg ancho=100% Hoja auditiva de Luis (caso H3.1): hipoacusia mixta del OI. Imagen propia del libro.
 :::
+
+En el OI la aérea enmascarada está en 50 dB en 1 kHz y la ósea enmascarada en 25 dB: hay gap, pero la ósea tampoco es normal. En 4 kHz la ósea llega a 45 dB: la cóclea también está dañada, sobre todo en los agudos. Con las dos vías alteradas y un gap de 20 a 30 dB, es una **hipoacusia mixta** del OI.
 
 ### El grado
 
@@ -522,23 +513,19 @@ Antes de llamarla asimetría, comprueba que sea real. Un fono corrido o un oído
 
 {{caso h3_p42}}
 
-:::figura h3_p42 audiograma
-- @OD 1000 | El OD "responde" en 40 dB. No es su audición: el tono cruzó el cráneo y lo oyó el OI. Con fonos supraaurales el sonido pierde unos 40 dB al cruzar.
-- @OD osea 1000 | La ósea del OD "responde" en 0 dB: por vía ósea el sonido cruza casi sin perder nada.
-- @OI 1000 | El OI es normal. Es el que estuvo contestando todo el tiempo.
-- La curva del OD copia la del OI unos 40 dB más abajo: es una **curva sombra**. Con el OI enmascarado, el OD no responde ni al máximo del equipo y se dibuja con la flecha de "sin respuesta": **cofosis** del OD. → H4.
+:::imagen figuras/salida/h3_p42_audiosupra.svg ancho=100% Hoja auditiva del caso H3.5: curva sombra en el OD, que sin enmascarar "responde" lo que oye el OI. Imagen propia del libro.
 :::
+
+El OD "responde" en 40 dB, y su ósea en 0 dB. No es su audición: el tono cruzó el cráneo y lo oyó el OI, que es el normal y estuvo contestando todo el tiempo. Con fonos supraaurales el sonido pierde unos 40 dB al cruzar, y por vía ósea casi nada. La curva del OD copia la del OI unos 40 dB más abajo: es una **curva sombra**. Con el OI enmascarado, el OD no responde ni al máximo del equipo y se dibuja con la flecha de "sin respuesta": **cofosis** del OD. → H4.
 
 ### El audiograma ocupacional
 
 {{caso h3_p37}}
 
-:::figura h3_p37 audiograma
-- @OD 4000 | El fondo está en 4 kHz: 55 dB en el OD.
-- @OD 8000 | En 8 kHz el OD vuelve a 30 dB. Esa **recuperación** es la que separa la muesca por ruido de una caída por edad.
-- @OI 4000 | El OI tiene la misma forma, con el fondo en 60 dB: es **bilateral y casi simétrica**, como el ruido laboral.
-- @OD 1000 | Hasta 1 kHz la audición es normal. Por eso el promedio BIAP del OD da solo 21 dB, apenas leve.
+:::imagen figuras/salida/h3_p37_audiosupra.svg ancho=100% Hoja auditiva del caso H3.6: muesca por ruido, bilateral y casi simétrica. Imagen propia del libro.
 :::
+
+El fondo está en 4 kHz: 55 dB en el OD y 60 dB en el OI. En 8 kHz el OD vuelve a 30 dB: esa **recuperación** es la que separa la muesca por ruido de una caída por edad. Es **bilateral y casi simétrica**, como el ruido laboral. Hasta 1 kHz la audición es normal, y por eso el promedio BIAP del OD da solo 21 dB, apenas leve.
 
 Se habla de **muesca** cuando 3, 4 o 6 kHz están al menos 10 dB peor que 1 o 2 kHz y que 6 u 8 kHz (Coles y cols., 2000). El grado por BIAP no refleja bien este daño. Para efectos médico-legales, la SUSESO usa el promedio de 1, 2, 3, 4 y 6 kHz y considera daño auditivo sobre 25 dB HL. En Jorge, ese promedio es 33 dB en el OD y 38 dB en el OI.
 
@@ -662,6 +649,8 @@ Antes de informar, pregúntate si el audiograma **calza con todo lo demás**: co
 ### Tipos de equipo
 
 1. International Electrotechnical Commission. IEC 60645-1:2017. Electroacoustics — Audiometric equipment — Part 1: Equipment for pure-tone and speech audiometry. Ginebra: IEC; 2017.
+1. Schlauch RS, Nelson P. Puretone evaluation. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. p. 29-48.
+1. Martin FN, Clark JG. Nonorganic hearing loss. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7.ª ed. Filadelfia: Wolters Kluwer Health; 2015. cap. 33, desde p. 617.
 1. von Békésy G. A new audiometer. Acta Otolaryngol. 1947;35(5-6):411-22. doi:10.3109/00016484709123756
 1. Jerger J. Bekesy audiometry in analysis of auditory disorders. J Speech Hear Res. 1960;3:275-87. doi:10.1044/jshr.0303.275
 

@@ -46,9 +46,9 @@ Una curva plana dice que el tímpano no se mueve **o** que la sonda no está mid
 - **Volumen alto**: la sonda está midiendo el conducto **más** la caja y la mastoides. Hay una **perforación** o un **tubo de ventilación** que funciona.
 - **Volumen muy bajo**: la sonda está contra la pared del conducto o tapada por cerumen, o un tapón cierra el conducto y la sonda mide solo el aire que queda hasta él (→ cap. 1). No es un resultado del oído medio: se recoloca la oliva y se mide de nuevo, o se resuelve primero el tapón.
 
-Como referencia, el volumen del conducto va de unos 0,4 a 1,0 mL en niños de 3 a 5 años y de 0,6 a 1,5 mL en adultos (Margolis y Heller, 1987); en adultos, normas más recientes dan un rango más amplio, de 0,6 a 2,2 mL (BSA, 2024). Son rangos del 90 %: algunos oídos sanos quedan fuera. Por eso, más que el número aislado, sirve **compararlo con el otro oído**: una perforación da un volumen claramente mayor que el del lado sano. En un niño, un timpanograma plano con más de 1,0 mL es criterio de derivación (ASHA, 1997).
+Como referencia, el volumen del conducto va de unos 0,4 a 1,0 mL en niños de 3 a 5 años y de 0,6 a 1,5 mL en adultos, según la tabla de Margolis y Heller (1987) tal como la reproducen las guías clínicas; en adultos, normas más recientes dan un rango más amplio, de 0,6 a 2,2 mL (BSA, 2024). Son rangos del 90 %: algunos oídos sanos quedan fuera. Por eso, más que el número aislado, sirve **compararlo con el otro oído**: una perforación da un volumen claramente mayor que el del lado sano. En un niño, un timpanograma plano con más de 1,0 mL es criterio de derivación (ASHA, 1997).
 
-<!-- verificar: los rangos de volumen de Margolis y Heller (1987) se tomaron de fuentes secundarias; cotejar con la tabla del artículo (el abstract no da cifras; un manual clínico universitario que lo cita da 0,6-1,4 mL para adultos). Pasada de fundamentos 2026-10-18: se agregó el rango adulto de la BSA 2024 (0,6-2,2 mL, de Hunter y Sanford 2015), que explica los volúmenes de 1,5-1,7 mL del caso 2.3. -->
+<!-- Pasada de fundamentos 2026-10-18: se agregó el rango adulto de la BSA 2024 (0,6-2,2 mL, de Hunter y Sanford 2015), que explica los volúmenes de 1,5-1,7 mL del caso 2.3. Verificación 2026-10-21: la tabla de Margolis y Heller (1987) no está en acceso libre (Audiology, cerrado según Unpaywall); sus rangos (0,4-1,0 mL niños de 3-5 años; 0,6-1,5 mL adultos) se reproducen en material secundario y por eso la frase los atribuye así. -->
 
 :::ojo Ojo clínico
 Un B con volumen normal y otro con volumen alto se dibujan igual. Si informas "curva B" sin el volumen, el médico no sabe si el tímpano está entero.
@@ -210,8 +210,6 @@ Una niña de 4 años tiene un audiograma normal y un timpanograma B bilateral co
 
 {{caso cap02_p35}}
 
-*Otoscopías: Zaka Ur Rehman, OtitisMediaKPJ (Kaggle, 2026), CC BY-NC-SA 4.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué datos de la historia te hablan del oído medio? ¿Cuáles te hablan de cuánto le está costando a Benjamín en el jardín? Mira la otoscopía: ¿qué color tienen los tímpanos y qué se ve detrás?
 :::
@@ -226,12 +224,12 @@ La mamá teme que "se esté quedando sordo" porque un primo usa audífono. ¿Qu�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap02_p35_audiosupra.svg ancho=80% Audiometría de Benjamín: conductiva leve y bilateral, con la muesca de Carhart en 2 kHz en la ósea.
+:::imagen figuras/salida/cap02_p35_audiosupra.svg ancho=44% Audiometría de Benjamín: conductiva leve y bilateral, con la muesca de Carhart en 2 kHz en la ósea.
 :::
 
 La aérea del OD está en 30 dB entre 125 y 500 Hz, con la ósea en 0: un gap de 30 dB. El OI está unos 5 dB peor que el OD en casi todas las frecuencias (35 dB en 2 kHz): es una pérdida conductiva **leve y bilateral**. La ósea baja a 10 dB justo en 2 kHz, en los dos oídos: es la **muesca de Carhart** de la efusión, no un daño de la cóclea. El Weber no lateraliza, porque los dos oídos tienen gaps parecidos, y el Rinne es negativo en los dos: oye mejor el diapasón apoyado en la mastoides que frente al oído. La palabra acompaña: SDT de 20 dB en el OD y de 25 en el OI, SRT de 25 y 30 dB, y discriminación de 100 % en los dos (a 70 dB, con ruido de habla en el oído contrario).
 
-:::imagen figuras/salida/cap02_p35_impedancia.svg ancho=80% Impedanciometría de Benjamín.
+:::imagen figuras/salida/cap02_p35_impedancia.svg ancho=100% Impedanciometría de Benjamín.
 :::
 
 El OD tiene una curva plana, sin pico: **tipo B**, con un volumen de 0,42 mL. El OI también es B, con 0,70 mL. Los dos volúmenes son normales para un niño de 5 años: la sonda mide un conducto cerrado por un tímpano que no se mueve. No hay reflejos con la sonda en ninguno de los dos oídos, y la función tubaria sale con disfunción en ambos.
@@ -248,8 +246,6 @@ Con la sonda en el OD, en el ipsilateral, no hay reflejo en ninguna combinación
 
 {{caso cap02_otitis_media_aguda}}
 
-*Otoscopías: Polat K, eardrum (figshare, 2021), CC BY 4.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Cuánto tiempo lleva Aurora con el problema? ¿Qué cambió entre el primer y el quinto día? Compara la otoscopía de los dos oídos.
 :::
@@ -264,12 +260,12 @@ El dolor ya pasó. ¿Qué esperas de la vía ósea del OD en esta fase? Si sale 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap02_otitis_media_aguda_audiosupra.svg ancho=80% Audiometría de Aurora: conductiva leve y plana del OD, con la ósea del OD algo bajo 0; OI normal.
+:::imagen figuras/salida/cap02_otitis_media_aguda_audiosupra.svg ancho=100% Audiometría de Aurora: conductiva leve y plana del OD, con la ósea del OD algo bajo 0; OI normal.
 :::
 
 La aérea del OD está entre 25 y 35 dB en todas las frecuencias: pérdida leve y plana. La ósea del OD **no está en 0**: queda entre 10 y 15 dB de 1 a 4 kHz, cuando la del OI está en 0. Todavía es normal, pero bajó: en la fase aguda también cae la ósea. El OI está en 0 dB y es la referencia de lo normal para Aurora. En 500 Hz el Weber se va al OD, el oído con gap; en 1 kHz no lateraliza, porque la ósea del OD también bajó (15 dB) y compensa el gap. El Rinne es negativo en el OD y positivo en el OI. SDT y SRT son de 30 dB en el OD y de 0 en el OI, y la discriminación llega a 100 % en los dos oídos (a 60 dB en el OD, con ruido en el OI, y a 30 dB en el OI).
 
-:::imagen figuras/salida/cap02_otitis_media_aguda_impedancia.svg ancho=80% Impedanciometría de Aurora.
+:::imagen figuras/salida/cap02_otitis_media_aguda_impedancia.svg ancho=100% Impedanciometría de Aurora.
 :::
 
 El OD es **B**, con un volumen de 0,85 mL, normal: tímpano entero y caja ocupada. El OI es **A**, con el pico en 16 daPa. Con la sonda en el OD no hay reflejos. Con la sonda en el OI, el ipsilateral aparece en 85 a 90 dB y el contralateral, que estimula el OD enfermo, en 110 a 120 dB.
@@ -300,12 +296,12 @@ El otorrino pidió función tubaria. ¿Qué prueba de función tubaria correspon
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap02_disfuncion_tubaria_audiosupra.svg ancho=80% Audiometría de la paciente: pérdida de graves en los dos oídos, con los agudos casi normales.
+:::imagen figuras/salida/cap02_disfuncion_tubaria_audiosupra.svg ancho=100% Audiometría de la paciente: pérdida de graves en los dos oídos, con los agudos casi normales.
 :::
 
 La pérdida es de graves: 45 dB en 250 Hz en el OD. La ósea está en 10 dB en los graves, en los dos oídos, porque la presión negativa también la baja un poco. Desde 3 kHz los dos oídos están casi normales (15 a 20 dB): el gap es **de graves**. SDT y SRT son de 25 dB en los dos oídos y la discriminación llega a 100 % a 60 dB, con ruido de habla en el oído contrario.
 
-:::imagen figuras/salida/cap02_disfuncion_tubaria_impedancia.svg ancho=80% Impedanciometría de la paciente.
+:::imagen figuras/salida/cap02_disfuncion_tubaria_impedancia.svg ancho=100% Impedanciometría de la paciente.
 :::
 
 El OD tiene el pico en −114 daPa con solo 0,29 mL de compliancia: **Cs**. La caja está a presión negativa y el sistema, rígido; la curva es la más redondeada (gradiente 0,35). El OI tiene el pico en −196 daPa con 1,03 mL: **C**, con compliancia normal (gradiente 0,50). Los volúmenes (1,66 y 1,52 mL) son de un conducto cerrado: los tímpanos están enteros. No hay reflejos con la sonda en ninguno de los dos oídos.
@@ -337,12 +333,12 @@ El tímpano izquierdo está violáceo, con sangre detrás. ¿Qué curva esperas?
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap02_barotrauma_audiosupra.svg ancho=80% Audiometría del paciente: conductiva pura del OI, mayor en los graves; OD normal.
+:::imagen figuras/salida/cap02_barotrauma_audiosupra.svg ancho=100% Audiometría del paciente: conductiva pura del OI, mayor en los graves; OD normal.
 :::
 
 El OI está en 35 dB en los graves y mejora hacia los agudos. Su ósea está en 0 en todas las frecuencias: **conductiva pura**; la cóclea no se dañó. El OD es normal. SDT y SRT son de 0 dB en el OD y de 25 dB en el OI, y la discriminación llega a 100 % en los dos (a 30 dB en el OD y a 60 dB en el OI, con ruido en el OD).
 
-:::imagen figuras/salida/cap02_barotrauma_impedancia.svg ancho=80% Impedanciometría del paciente.
+:::imagen figuras/salida/cap02_barotrauma_impedancia.svg ancho=100% Impedanciometría del paciente.
 :::
 
 El OI es **B**, con 1,30 mL, un volumen normal y parecido al del OD (1,44 mL): el tímpano está entero y la caja, ocupada por sangre. El OD es **A**, con el pico en −75 daPa. Con la sonda en el OD, el ipsilateral está en 85 a 90 dB, con decay negativo, y el contralateral, que estimula el OI, solo aparece en 2 y 4 kHz (115 a 120 dB). Con la sonda en el OI no hay reflejos.

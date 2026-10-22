@@ -218,14 +218,14 @@ Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **10 %** (valo
 
 El cVEMP del **OD** casi no sale del ruido: **34 µV**, **0,67** corregida por el EMG, contra **290 µV** y **5,71** del OI. La asimetría es de **79 %**, sobre el corte de 35 % del protocolo (→ H12), y el lado más chico es el enfermo. El oVEMP está bien formado en los dos oídos: **21 µV** y **0,51** en el OD, **21 µV** y **0,50** en el OI, asimetría de **1 %**. Con el cVEMP caído y el oVEMP conservado, el compromiso es **sacular**: la rama inferior, no la superior.
 
-:::imagen figuras/salida/cap20_meniere_audiosupra.svg ancho=80% Audiometría del paciente: el OD tiene una curva ascendente, con 35 dB en 250 Hz y 20 dB en 4 kHz, y la ósea sobre la aérea; el OI es normal.
+:::imagen figuras/salida/cap20_meniere_audiosupra.svg ancho=100% Audiometría del paciente: el OD tiene una curva ascendente, con 35 dB en 250 Hz y 20 dB en 4 kHz, y la ósea sobre la aérea; el OI es normal.
 :::
 
 La pérdida del OD es **sensorioneural y ascendente**, peor en los graves, como la del hidrops temprano. SRT de 25 dB y discriminación de hasta 96 %, a 60 dB, con ruido de habla al OI.
 
 En el OD, SISI de **90 %**, Fowler con **reclutamiento completo** en 250 Hz y 1 kHz, Carhart sin deterioro en 2 y 4 kHz y Metz de 49,5 y 55 dB en 500 y 1.000 Hz: la pérdida **recluta** y no se deteriora; es coclear (→ H6).
 
-:::imagen figuras/salida/cap20_meniere_impedancia.svg ancho=80% Impedanciometría del paciente.
+:::imagen figuras/salida/cap20_meniere_impedancia.svg ancho=100% Impedanciometría del paciente.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 1,15 mL en el OD y de 0,51 mL en el OI. Los reflejos están presentes, ipsi y contra, de 85 a 95 dB SPL, y el decay es negativo: el oído medio y la vía del reflejo están indemnes.
@@ -328,14 +328,14 @@ Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **71 %**, con 
 
 El cVEMP del **OD** es pequeño: **50 µV**, **0,99** corregida, contra **354 µV** y **6,92** del OI; asimetría de **75 %**. El oVEMP del OD mide **6 µV**, **0,14**, sin respuesta clara, contra **23 µV** y **0,54** del OI; asimetría de **58 %**. Caen **los dos** VEMP del mismo oído, igual que los tres canales: es todo el laberinto, no una rama.
 
-:::imagen figuras/salida/cap20_laberintitis_audiosupra.svg ancho=80% Audiometría de la paciente: el OD tiene una pérdida severa y pareja, de 75 dB en 500 Hz a 90 dB en 8 kHz; el OI es normal.
+:::imagen figuras/salida/cap20_laberintitis_audiosupra.svg ancho=100% Audiometría de la paciente: el OD tiene una pérdida severa y pareja, de 75 dB en 500 Hz a 90 dB en 8 kHz; el OI es normal.
 :::
 
 La pérdida del OD es **sensorioneural severa**. SDT de 70 dB, SRT de 75 dB y discriminación que llega a **51 %**, a 100 dB, con ruido de habla al OI.
 
 Las supraliminares del OD son de cóclea: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 a 27 dB: el reflejo aparece muy cerca del umbral, porque la sonoridad crece rápido.
 
-:::imagen figuras/salida/cap20_laberintitis_impedancia.svg ancho=80% Impedanciometría de la paciente.
+:::imagen figuras/salida/cap20_laberintitis_impedancia.svg ancho=100% Impedanciometría de la paciente.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,40 mL en el OD y de 0,87 mL en el OI. Los reflejos están presentes, pero altos cuando el sonido va al OD: de 105 a 115 dB SPL ipsi y de 110 a 120 desde la sonda del OI. Cuando va al OI aparecen de 85 a 95. Decay negativo.
@@ -433,14 +433,14 @@ Según parámetro de VCL: hipoexcitabilidad vestibular derecha de **40 %**, con 
 
 El cVEMP del **OD** es pequeño: **77 µV**, **1,59** corregida, contra **353 µV** y **6,91** del OI; asimetría de **62 %**. El oVEMP también cae: **8 µV** y **0,18** contra **26 µV** y **0,59**; asimetría de **53 %**. Los dos VEMP del OD están caídos.
 
-:::imagen figuras/salida/cap20_schwannoma_audiosupra.svg ancho=80% Audiometría de la paciente: el OD tiene 25 dB en 1 kHz, 50 dB en 4 kHz y 60 dB en 8 kHz, con la ósea pegada a la aérea; el OI es normal. La asimetría de agudos es de 45 dB.
+:::imagen figuras/salida/cap20_schwannoma_audiosupra.svg ancho=100% Audiometría de la paciente: el OD tiene 25 dB en 1 kHz, 50 dB en 4 kHz y 60 dB en 8 kHz, con la ósea pegada a la aérea; el OI es normal. La asimetría de agudos es de 45 dB.
 :::
 
 La pérdida del OD es **sensorioneural leve en las frecuencias del habla y descendente**: la asimetría de 45 dB en 4 kHz es mucho mayor que los 15 dB que obligan a estudiar. SDT de 15 dB y SRT de 20 dB, pero la discriminación **no pasa de 56 %**, a 50 y 60 dB, con ruido de habla al OI: mucho menos de lo que explica esa pérdida (→ cap. 11).
 
 En el OD el patrón es otro: SISI de **10 %**, **Carhart con deterioro de 30 dB** en 2 y 4 kHz, Fowler **sin reclutamiento** en 1 kHz y **reflejos ausentes**. La pérdida no recluta y se cansa: es retrococlear (→ H6, cap. 11).
 
-:::imagen figuras/salida/cap20_schwannoma_impedancia.svg ancho=80% Impedanciometría de la paciente.
+:::imagen figuras/salida/cap20_schwannoma_impedancia.svg ancho=100% Impedanciometría de la paciente.
 :::
 
 Curva A en los dos oídos, con compliancia de 0,41 mL en el OD y de 0,47 mL en el OI: el oído medio está sano; sin este dato, un VEMP caído puede ser una transmisión que falla. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL.
@@ -535,12 +535,12 @@ Según parámetro de VCL: hipoexcitabilidad vestibular de **1 %** y dirección p
 
 El cVEMP aéreo del **OD** mide **38 µV**, **0,76** corregida, y el del **OI** **36 µV**, **0,73**. El oVEMP del OD mide **7 µV** y **0,15**, y el del OI **6 µV** y **0,15**. Las razones de asimetría son de **2 %** y **0 %**: la razón dice "simétrico" cuando los **dos** oídos están caídos. Un cVEMP normal, como el del OI del caso 20.1, mide **5,71**: estos son mucho menores.
 
-:::imagen figuras/salida/cap20_otoesclerosis_audiosupra.svg ancho=80% Audiometría de la paciente: aérea en 55 dB y ósea en 5 dB en 500 Hz, en los dos oídos. La ósea baja a 20 dB en 2 kHz, la muesca de Carhart.
+:::imagen figuras/salida/cap20_otoesclerosis_audiosupra.svg ancho=100% Audiometría de la paciente: aérea en 55 dB y ósea en 5 dB en 500 Hz, en los dos oídos. La ósea baja a 20 dB en 2 kHz, la muesca de Carhart.
 :::
 
 El gap en 500 Hz es de **50 dB**, justo en la frecuencia del VEMP, y es **simétrico**. SDT de 45 y 50 dB, SRT de 50 y 55 dB (OD y OI); discriminación de 100 % en los dos oídos.
 
-:::imagen figuras/salida/cap20_otoesclerosis_impedancia.svg ancho=80% Impedanciometría de la paciente.
+:::imagen figuras/salida/cap20_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de la paciente.
 :::
 
 Curva As en los dos oídos, de pico bajo y chato: compliancia de 0,14 mL en el OD y de 0,16 mL en el OI. No hay reflejos en ninguna combinación, ipsi ni contra: con los dos estribos fijos no se registra la contracción.

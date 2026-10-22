@@ -18,7 +18,7 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 # Objetivas: lo que no depende de que el paciente levante la mano
 OBJETIVAS = [fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
-             fig.abr(niveles=(80, 60, 40, 20))]
+             fig.abr(niveles=(80, 60, 40, 20, 10, 0))]
 
 CASOS = [
     cuadro('unilateral', OBJETIVAS, od='normal', oi='normal', edad=44, sexo='hombre',
@@ -32,7 +32,7 @@ CASOS = [
                      (7, 'Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.')],
            antecedentes=['tce']),
     cuadro('sobre_real', [fig.audiosupra(), fig.impedancia(), fig.impedancia(), fig.teoae(), fig.dpoae(),
-                          fig.abr(niveles=(80, 60, 40, 20))],
+                          fig.abr(niveles=(80, 60, 50, 40))],
            od='nihl_cronica', oi='nihl_cronica', grado_od='leve', grado_oi='leve', edad=52, sexo='hombre',
            anamnesis="""Tiene 52 años y desde hace 25 maneja una grúa horquilla en una planta de aserrío, sin
            protección auditiva constante hasta hace unos años. Hace dos meses la empresa inició un proceso de
@@ -52,8 +52,17 @@ CASOS = [
            pitido.""",
            historia=[(25, 'Tamizaje escolar de audición: sin respuesta bilateral.'),
                      (10, 'Pediatra: otoscopía normal, sin fiebre ni otitis; se deriva a evaluación auditiva.')]),
-    demo(42, [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.teoae(), fig.dpoae(),
-              fig.abr(niveles=(90, 80))]),
+    cuadro('parotiditis', [fig.audiosupra(), fig.audiosupra(sin_enmascarar=True), fig.impedancia(), fig.teoae(), fig.dpoae(),
+                           {**fig.abr(niveles=(100, 90), promediaciones=4000, marcar=('V',)), 'oidos': ['OD']},    # sin enmascarar: la V que cruza del OI
+                           fig.abr(niveles=(100, 80, 60, 40, 20, 10, 0), enmascaramiento=55)],  # con el OI enmascarado
+           od='parotiditis', oi='normal', grado_od='profunda', edad=22, sexo='hombre',
+           anamnesis="""Tiene 22 años y estudia ingeniería. A los 6 años tuvo paperas, con fiebre y la cara hinchada de un lado, y
+           desde entonces no oye por el oído derecho: dice que "se acostumbró" y que de niño nadie le revisó el oído.
+           Consulta porque en las salas grandes le cuesta seguir al profesor cuando le habla desde el lado derecho y no
+           sabe de dónde vienen los sonidos. Con el oído izquierdo conversa y usa el teléfono sin problema. No tiene pitido
+           ni mareos, ni ha tenido dolor o secreción de oídos. Nadie le pide un certificado: quiere saber qué tiene.""",
+           historia=[(5700, 'Pediatra: parotiditis con fiebre; no se estudió el oído.'),
+                     (20, 'Médico de la universidad: refiere sordera derecha desde la infancia; otoscopía normal bilateral. Se deriva a evaluación auditiva.')]),
 ]
 
 if __name__ == '__main__':

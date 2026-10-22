@@ -28,7 +28,7 @@ Antes de marcar una onda: **ruido bajo, se repite, migra con la intensidad, resi
 
 ### Qué hay entre los electrodos
 
-Los electrodos recogen la suma de todo lo que genera voltaje bajo la piel de la cabeza. Una pequeña parte es la respuesta de tronco que buscamos. El resto es **ruido**: el EEG de fondo (la actividad eléctrica de la corteza, de decenas de microvoltios), la actividad de los músculos del cuello y la cara, el movimiento de los electrodos y la corriente de la red eléctrica. La onda V de un adulto con audición normal mide cerca de **0,5 µV** (Da Silva Nunes y Gentile Matas, 2005), <!-- verificar: la cifra de 0,5 µV en Da Silva Nunes 2005; el resumen confirma que mide amplitudes de I, III y V en 50 adultos, pero el texto completo (revfono.uchile.cl) no se pudo abrir. --> de modo que en un solo barrido la respuesta es invisible: está enterrada en un ruido que la supera varias veces (Picton, 2010).
+Los electrodos recogen la suma de todo lo que genera voltaje bajo la piel de la cabeza. Una pequeña parte es la respuesta de tronco que buscamos. El resto es **ruido**: el EEG de fondo (la actividad eléctrica de la corteza, de decenas de microvoltios), la actividad de los músculos del cuello y la cara, el movimiento de los electrodos y la corriente de la red eléctrica. La onda V de un adulto con audición normal mide entre **0,4 y 0,5 µV** (Da Silva Nunes y Gentile Matas, 2005), de modo que en un solo barrido la respuesta es invisible: está enterrada en un ruido que la supera varias veces (Picton, 2010).
 
 ### Por qué el promedio mejora con la raíz de los barridos
 
@@ -129,12 +129,12 @@ Obtienes un trazo con una onda perfecta a 5,6 ms a 40 dB nHL en un oído que el 
 
 ## Casos
 
-Los pacientes son de práctica corriente: sus oídos son los de siempre. En cada caso hay dos tipos de figura. El **ABR limpio** del paciente, tal como lo toma el equipo bien puesto, es la referencia. El **registro que engaña** es el mismo oído con el artefacto o el ajuste equivocado, simulado: no es el registro de un paciente real.
+Los pacientes son corrientes: sus oídos son los de siempre. En cada caso hay dos tipos de figura. El **ABR limpio** del paciente, tal como lo toma el equipo bien puesto, es la referencia. El **registro que engaña** es el mismo oído con el artefacto o el ajuste equivocado, simulado: no es el registro de un paciente real.
 
-{{caso cap18_p33}}
+{{caso cap18_barridos}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Un técnico recién titulado de 23 años, sin síntomas, con audiograma normal. Un alumno en práctica le hace un ABR "para completar", promedia **250 barridos por curva** para no demorar y concluye: "V presente hasta 40 dB nHL; a 20 dB no hay respuesta; **umbral 40 dB nHL**". ¿Qué dato de la historia no calza con ese umbral?
+Un técnico recién titulado de 23 años, sin síntomas, con audiometría normal. Un alumno en práctica le hace un ABR "para completar", promedia **250 barridos por curva** para no demorar y concluye: "V presente hasta 40 dB nHL; a 20 dB no hay respuesta; **umbral 40 dB nHL**". ¿Qué dato de la historia no calza con ese umbral?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
@@ -147,22 +147,22 @@ Antes de repetir nada, ¿qué dos números del equipo te dirían si el registro 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap18_p33_impedancia.svg ancho=80% Impedanciometría del técnico.
+:::imagen figuras/salida/cap18_barridos_impedancia.svg ancho=100% Impedanciometría del técnico.
 :::
 
-Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 1,54 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. El oído medio está sano: lo que falló fue el registro.
+Timpanograma A en los dos oídos, con compliancia de 0,76 mL en el OD y de 0,51 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. La audiometría tiene 0 dB en todas las frecuencias. El oído medio está sano: lo que falló fue el registro.
 
-:::figura cap18_p33 abr
-- @OD 80 V | La V llega a 5,7 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.
-- @OD 40 V | A 40 dB la V está a 6,8 ms: ahí coincide con lo que anotó el alumno.
-- @OD 20 V | A 20 dB la V existe y se ve, a 7,9 ms. Es la curva que el alumno declaró "sin respuesta".
-- @OD 10 V | A 10 dB la V sigue ahí, a unos 8 ms, en las dos réplicas: el **umbral del paciente está en 10 dB nHL o más abajo**, como dice su audiograma.
+:::figura cap18_barridos abr
+- @OD 80 V | La V llega a 5,6 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.
+- @OD 40 V | A 40 dB la V está a 6,7 ms: ahí coincide con lo que anotó el alumno.
+- @OD 20 V | A 20 dB la V existe y se ve, a 7,7 ms. Es la curva que el alumno declaró "sin respuesta".
+- @OD 10 V | A 10 dB la V sigue ahí, a 8,3 ms, en las dos réplicas: el **umbral del paciente está en 10 dB nHL o más abajo**, como dice su audiometría.
 :::
 
 :::imagen ilustraciones/cap18-promedio.svg ancho=92% El mismo oído a 20 dB nHL, de 250 a 4.000 barridos, con la mitad A del promedio en azul y la mitad B en rojo. Mira en qué fila empiezan a coincidir las dos mitades: recién ahí se puede decir que hay respuesta, y antes tampoco se podía decir que no la había.
-- @92,13 | **250 barridos:** FSP de 1,6 y las dos mitades no se parecen. Los picos de ruido son del tamaño de lo que se busca: aquí no se puede decir ni que hay ni que no hay respuesta.
-- @92,40 | **1.000 barridos:** el ruido residual bajó de 111 a 66 nV y el FSP llega justo al criterio de 3,1, pero las mitades todavía no se pegan.
-- @92,77 | **4.000 barridos:** el FSP pasa el criterio con holgura (16,7). La onda de 8 ms está en las dos mitades.
+- @92,13 | **250 barridos:** FSP de 2,4, bajo el criterio de 3,1, y las dos mitades no se parecen. Los picos de ruido son del tamaño de lo que se busca: aquí no se puede decir ni que hay ni que no hay respuesta.
+- @92,40 | **1.000 barridos:** el ruido residual bajó de 96 a 55 nV y el FSP (5,1) ya pasa el criterio de 3,1, pero las mitades todavía no se pegan del todo.
+- @92,77 | **4.000 barridos:** el ruido residual es de 28 nV y el FSP, de 15,3. La onda de 7,5 ms está en las dos mitades.
 :::
 
 :::docente Guía del caso
@@ -173,10 +173,10 @@ Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 1,54 
 - **Para discutir:** Repetir el ejercicio con 500, 1.000 y 2.000 barridos y ver cómo sube el umbral (→ H10, paso 4).
 :::
 
-{{caso cap18_p37}}
+{{caso cap18_supraaural}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Un operador de chancador de 47 años, con acúfeno bilateral y un audiograma con muesca en 4 kHz. Su ABR lo hizo un colega en otro centro, **con fonos supraaurales** (los de inserción no estaban), a **100 dB nHL en condensación**. El informe dice: "onda I a 0,6 ms, muy grande, y V a 4,7 ms: intervalo I-V acortado". ¿Qué te llama la atención de esa onda I?
+Un operador de chancador de 47 años, con acúfeno bilateral y una audiometría con caída en 4 kHz. Su ABR lo hizo un colega en otro centro, **con fonos supraaurales** (los de inserción no estaban), a **100 dB nHL en condensación**. El informe dice: "onda I a 0,6 ms, muy grande, y V a 4,7 ms: intervalo I-V acortado". ¿Qué te llama la atención de esa onda I?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
@@ -189,15 +189,15 @@ Un operador de chancador de 47 años, con acúfeno bilateral y un audiograma con
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap18_p37_audiosupra.svg ancho=80% Audiometría del paciente de este caso: muesca en 4 kHz en los dos oídos, con la voz normal.
+:::imagen figuras/salida/cap18_supraaural_audiosupra.svg ancho=100% Audiometría del paciente de este caso: caída de agudos con recuperación en 8 kHz en los dos oídos y la voz casi normal.
 :::
 
-Muesca en 4 kHz, de daño por ruido, de 55 dB en el OD y 60 en el OI. SDT de 0 dB y SRT de 5 dB en los dos oídos; discriminación de 100 % a 40 dB en el OD y 96 % en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 34,5 dB en 4 kHz: recluta, es coclear. No hay nada en el audiograma que acorte los intervalos del ABR.
+Caída en 3 a 6 kHz, de daño por ruido, con 70 dB en 4 kHz en los dos oídos, 75 dB en 6 kHz en el OI y recuperación en 8 kHz (50 y 55 dB). SDT de 5 y 10 dB, SRT de 10 y 15 dB; discriminación de 92 % a 50 dB en el OD y 84 % a 55 dB en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB en 4 kHz: recluta, es coclear. No hay nada en la audiometría que acorte los intervalos del ABR.
 
-:::figura cap18_p37 abr
-- @OD 100 I | Con fono de inserción y polaridad alternada, la I llega a 1,2 ms.
-- @OD 100 V | Y la V, a 5,5 ms. Interpico I-V de 4,3 ms.
-- @OD 60 V | A 60 dB la V sigue ahí, más tarde (6,6 ms): la V migra.
+:::figura cap18_supraaural abr
+- @OI 100 I | Con fono de inserción y polaridad alternada, la I del OI llega a 1,2 ms.
+- @OI 100 V | Y la V, a 5,6 ms. Interpico I-V de 4,4 ms.
+- @OD 60 V | En el OD la V pasa de 5,5 ms a 100 dB a 6,0 a 80 y a 6,6 a 60 dB: la V migra.
 :::
 
 :::imagen ilustraciones/cap18-estimulo.svg ancho=92% El mismo oído a 100 dB nHL con distintas condiciones del estímulo. Arriba, la referencia: inserción y polaridad alternada. Segunda fila: fono supraaural en condensación. Tercera: supraaural alternada. Abajo: inserción con el tubo pinzado. Compara el primer milisegundo de cada fila: lo que aparece antes de que el sonido pueda llegar a la cóclea es el estímulo, no una onda.
@@ -215,7 +215,7 @@ Muesca en 4 kHz, de daño por ruido, de 55 dB en el OD y 60 en el OI. SDT de 0 d
 - **Para discutir:** El artefacto del transductor se ve con claridad con el supraaural y el vibrador.
 :::
 
-{{caso cap18_p36}}
+{{caso cap18_postauricular}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
 Un carpintero jubilado de 74 años con una presbiacusia clásica. Se hizo un ABR por curiosidad, a 100 dB nHL, con la **ventana abierta a 25 ms** "para ver todo". El informe: "onda V con latencia de 13 ms; I-V muy prolongado: sospecha de lesión retrococlear". ¿Qué te dice la edad y el audiograma sobre las ondas que esperarías?
@@ -231,15 +231,15 @@ Sin cambiar de paciente, ¿qué mirarías al bajar la intensidad para saber si e
 
 #### Paso 4 · Los resultados
 
-:::figura cap18_p36 abr
-- @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 5,8 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
-- @OD 70 V | A 70 dB la V se atrasa a 6,5 ms.
+:::figura cap18_postauricular abr
+- @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 5,9 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.
+- @OD 70 V | A 70 dB la V se atrasa a 6,3 ms, y a 60 dB, a 6,9. A 50 dB ya no hay V.
 :::
 
 :::imagen ilustraciones/cap18-pam.svg ancho=92% El oído derecho con una respuesta postauricular y la ventana abierta a 25 ms, de 100 a 60 dB nHL. Las dos mitades del promedio coinciden en todo el trazo, así que replicar no basta: lo que delata a la onda muscular es que no se atrasa al bajar la intensidad, como sí lo hace la V.
 - @92,11 | **100 dB.** Una onda grande y ancha a 13 ms, mucho más que cualquier onda del ABR. Con una ventana de 12 ms solo se vería su comienzo.
-- @92,27 | **90 dB.** La V verdadera (verde, a unos 6 ms) es chica; la de 13 ms es varias veces mayor. Y las dos mitades **coinciden**: replicar no la descarta.
-- @92,66 | **70 dB.** La onda tardía ya casi no está; la V de 6,5 ms está atrasada y chica, como corresponde.
+- @92,27 | **90 dB.** La V verdadera (verde, a 5,9 ms) es chica; la de 13 ms es varias veces mayor. Y las dos mitades **coinciden**: replicar no la descarta.
+- @92,66 | **70 dB.** La onda tardía ya casi no está; la V de 6,3 ms está atrasada y chica, como corresponde.
 - @92,88 | **60 dB.** Sin respuesta tardía. La V verdadera se achica de a poco y se atrasa; la onda muscular no se atrasa: cambia de tamaño o desaparece.
 :::
 
@@ -251,14 +251,14 @@ Sin cambiar de paciente, ¿qué mirarías al bajar la intensidad para saber si e
 - **Para discutir:** Con la ventana de 12 ms asoma solo el comienzo de la respuesta postauricular; se ve entera al abrir la ventana.
 :::
 
-{{caso cap18_p42}}
+{{caso cap18_cofosis}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Un estudiante de 22 años que perdió la audición del oído derecho a los 6 años, tras unas paperas. Nunca le habían hecho estudios. Un ABR del oído derecho, hecho con fonos de inserción, informa: "V presente a 5,6 ms entre 70 y 40 dB nHL; **umbral de 40 dB**, audición residual". ¿Con qué dato de su historia choca?
+Un estudiante de 22 años que perdió casi toda la audición del oído derecho a los 6 años, tras unas paperas. Nunca le habían hecho estudios. Un ABR del oído derecho, hecho con fonos de inserción, informa: "V presente a 5,6 ms entre 70 y 40 dB nHL; **umbral de 40 dB**, audición residual". ¿Con qué dato de su historia choca?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
-¿Qué tres explicaciones tendría una onda "V" en un oído sordo desde la infancia? ¿Qué cambiaría si el estímulo fuera de 100 dB en lugar de 70?
+¿Qué tres explicaciones tendría una onda "V" en un oído con una pérdida profunda desde la infancia? ¿Qué cambiaría si el estímulo fuera de 100 dB en lugar de 70?
 :::
 
 :::pregunta Paso 3 · ¿Qué pedirías y por qué?
@@ -267,40 +267,40 @@ Mira solo la latencia de esa onda en cuatro niveles seguidos. ¿Qué esperarías
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap18_p42_audiosupra.svg ancho=80% Audiometría del paciente de este caso: oído derecho sin respuesta, oído izquierdo normal.
+:::imagen figuras/salida/cap18_cofosis_audiosupra.svg ancho=100% Audiometría del paciente de este caso: oído derecho con pérdida profunda, oído izquierdo normal.
 :::
 
-Sin respuesta en el oído derecho a ninguna frecuencia, ni a 130 dB con el OI enmascarado: es una **cofosis**, y coincide con lo que cuenta el paciente. El OI tiene SDT de −5 dB, SRT de 0 dB y discrimina 100 % a 40 dB.
+El oído derecho tiene de 90 a 100 dB HL en todas las frecuencias, con el OI enmascarado; SDT de 90 dB y SRT de 95, y solo discrimina 36 % a 110 dB: es una **pérdida profunda**, casi una cofosis, y coincide con lo que cuenta el paciente. El OI tiene SDT de −5 dB, SRT de 0 dB y discrimina 100 % a 30 dB.
 
-:::imagen figuras/salida/cap18_p42_impedancia.svg ancho=80% Impedanciometría del estudiante.
+:::imagen figuras/salida/cap18_cofosis_impedancia.svg ancho=100% Impedanciometría del estudiante.
 :::
 
-Timpanograma A en los dos oídos, con compliancia de 1,31 mL en el OD y de 1,13 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra, porque ese oído no lo recibe. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
+Timpanograma A en los dos oídos, con compliancia de 0,54 mL en el OD y de 1,51 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra, porque ese oído no lo recibe. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
 
-:::figura cap18_p42 abr
+:::figura cap18_cofosis abr
 - @OI 100 V | El oído izquierdo es normal: I, III y V a lo esperable (V a 5,4 ms).
-- @OD 100 | A 100 dB el trazo del **oído derecho** muestra una onda con réplicas, hacia los 7 ms: es real, pero **no es del derecho**. Es la respuesta del oído izquierdo, que el estímulo alcanza por vía ósea a través del cráneo (la curva sombra; → H10 y H4). Se enmascara y desaparece.
+- @OD 100 | A 100 dB el trazo del **oído derecho** muestra una onda con réplicas, hacia los 7 ms (sin V propia hasta ese nivel): es real, pero **no es del derecho**. Es la respuesta del oído izquierdo, que el estímulo alcanza por vía ósea a través del cráneo (la curva sombra; → H10 y H4). Se enmascara y desaparece.
 :::
 
-:::imagen ilustraciones/cap18-falsa-v.svg ancho=92% El oído derecho cofótico, de 70 a 40 dB nHL, con una falsa onda V. En azul la mitad A del promedio, en rojo la mitad B. Dos cosas la delatan: vive en una sola mitad y no se mueve al bajar la intensidad.
+:::imagen ilustraciones/cap18-falsa-v.svg ancho=92% El oído derecho con pérdida profunda, de 70 a 40 dB nHL, con una falsa onda V. En azul la mitad A del promedio, en rojo la mitad B. Dos cosas la delatan: vive en una sola mitad y no se mueve al bajar la intensidad.
 - @92,19 | **70 dB.** Una "V" perfecta a 5,6 ms, pero solo en la **mitad A**; la B está plana. El FSP no la confirma.
 - @92,42 | **60 dB.** Misma latencia, misma altura: bajó 10 dB y la onda no se movió. Una V verdadera se atrasa y se achica.
 - @92,64 | **50 dB.** Idéntica otra vez. Un artefacto se queda quieto.
-- @92,86 | **40 dB.** La "V" sigue a 5,6 ms, en un oído que no oye nada. El ruido residual es el de siempre y el FSP no pasa de 1.
+- @92,86 | **40 dB.** La "V" sigue a 5,6 ms, en un oído que casi no oye. El ruido residual es el de siempre y el FSP no pasa de 1,3.
 :::
 
 :::docente Guía del caso
-- **Datos clave:** cofosis del OD desde los 6 años (paperas), audición normal en el OI, ninguna prueba previa.
+- **Datos clave:** pérdida profunda del OD desde los 6 años (paperas), audición normal en el OI, ninguna prueba previa.
 - **Dos trampas distintas:** a nivel **alto** (100 dB) lo que aparece en el oído sordo es la **curva sombra**, una respuesta real del oído sano; a nivel **bajo** (70 a 40 dB) lo que aparece es una **falsa onda V**, un artefacto que quedó en una parte de los barridos y no se mueve con la intensidad.
 - **Qué pedir:** enmascarar el oído sano; mirar las dos mitades del promedio; comparar latencias entre niveles; contrastar con el audiograma y la historia.
 - **Errores esperables:** concluir audición residual por una sola onda bonita; no preguntar qué dicen las otras pruebas.
 - **Para discutir:** Es el ejercicio para aprender a pedir los subpromedios A y B.
 :::
 
-{{caso cap18_p38}}
+{{caso cap18_configuracion}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Una profesora de 46 años con crisis de vértigo y plenitud del oído izquierdo, con una pérdida de graves en ese oído. Un ABR del oído izquierdo se tomó con el equipo "como estaba": **ventana de 6 ms**, pasa alto en 300 Hz y pasa bajo en 1.000 Hz, polaridad al azar. El informe: "sin respuesta a 50 dB; V solo a 80 dB; umbral **80 dB nHL**". ¿Qué tiene de raro un umbral de 80 en un oído que da 25 a 35 dB en agudos?
+Una profesora de 46 años con crisis de vértigo y plenitud del oído izquierdo, con una pérdida de graves en ese oído. Un ABR del oído izquierdo se tomó con el equipo "como estaba": **ventana de 6 ms**, pasa alto en 300 Hz y pasa bajo en 1.000 Hz, polaridad al azar. El informe: "sin respuesta a 50 dB; V solo a 80 dB; umbral **80 dB nHL**". ¿Qué tiene de raro un umbral de 80 en un oído que da 20 dB en agudos?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
@@ -313,22 +313,22 @@ Sin cambiar de oído, ¿qué parámetros del equipo pudieron esconder una onda q
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap18_p38_impedancia.svg ancho=80% Impedanciometría de la profesora.
+:::imagen figuras/salida/cap18_configuracion_impedancia.svg ancho=100% Impedanciometría de la profesora.
 :::
 
-Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 0,49 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. Ni el oído medio ni el reflejo explican un umbral de 80 dB.
+Timpanograma A en los dos oídos, con compliancia de 0,45 mL en el OD y de 0,58 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, ipsi y contra, y el decay es negativo. Ni el oído medio ni el reflejo explican un umbral de 80 dB.
 
-:::figura cap18_p38 abr
+:::figura cap18_configuracion abr
 - @OI 80 V | A 80 dB la V del oído izquierdo llega a 5,6 ms.
-- @OI 50 V | A 50 dB está a 6,5 ms. Con una ventana de 6 ms **queda afuera**.
-- @OI 30 V | A 30 dB, a 7,7 ms, en el umbral. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.
+- @OI 50 V | A 50 dB está a 6,4 ms. Con una ventana de 6 ms **queda afuera**.
+- @OI 30 V | A 30 dB, a 7,7 ms, cerca del umbral. A 10 dB ya no hay V. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.
 :::
 
 :::imagen ilustraciones/cap18-polaridad.svg ancho=92% El oído izquierdo con distintas polaridades a 80 dB nHL y con ventana de 12 y de 6 ms a 50 dB nHL. Arriba, otra polaridad cambia la forma y deja de valer la norma de rutina; abajo, la ventana corta deja la V afuera y el oído parece no responder.
-- @92,19 | **Alternada.** Es la referencia de rutina: V clara cerca de 5,7 ms.
+- @92,19 | **Alternada.** Es la referencia de rutina: V clara cerca de 5,6 ms.
 - @92,33 | **Rarefacción.** La forma cambia un poco (las ondas tempranas salen antes y más claras en rarefacción; Stockard y cols., 1979); la V se mantiene.
 - @92,47 | **Condensación.** Más chica la onda I y distinta la forma. Con otra polaridad, la norma de rutina no vale.
-- @92,64 | **Ventana de 12 ms, 50 dB.** La V está, a casi 7 ms.
+- @92,64 | **Ventana de 12 ms, 50 dB.** La V está, a 6,7 ms.
 - @92,84 | **Ventana de 6 ms, 50 dB.** El mismo oído: aquí no hay nada. La onda no se fue; se cortó.
 :::
 
@@ -340,7 +340,7 @@ Timpanograma A en los dos oídos, con compliancia de 1,24 mL en el OD y de 0,49 
 :::
 
 :::docente Guía del caso
-- **Datos clave:** ventana de 6 ms, filtros angostos, polaridad distinta a la de la norma; umbral que no calza con el audiograma.
+- **Datos clave:** ventana de 6 ms, filtros angostos, polaridad distinta a la de la norma; umbral que no calza con la audiometría.
 - **Hipótesis:** pérdida del oído medio o neural (no: no hay datos), **registro mal configurado**. Se revisa antes que el paciente.
 - **Qué pedir:** ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz, polaridad alternada y repetir la serie.
 - **Errores esperables:** informar un umbral que sale de la ventana y no del oído; comparar con la norma de rutina sin igualar los ajustes.
@@ -361,6 +361,35 @@ El audiograma es normal y el paciente no tiene síntomas: un umbral de 40 dB nHL
 
 ABR normal con onda V presente hasta 10 dB nHL, el nivel más bajo registrado. El registro anterior no se informa como pérdida: se rehace con más barridos.
 
+Informe del registro bien hecho:
+
+:::comentario-ancho Informe de Enrique, 23 años (caso 18.1)
+**Motivo**: práctica de ABR en un voluntario sin síntomas, con audiometría normal.
+
+**Registro**: click a 80, 40, 20, 10 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. 4.000 barridos por curva con réplica cerca del umbral. En reposo.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,47 | 1,67 | 1,80 / 1,80 |
+| Onda III | 3,77 | 3,77 | 4,05 / 4,14 |
+| Onda V | 5,63 | 5,67 | 6,03 / 6,05 |
+| I-III | 2,30 | 2,10 | 2,45 / 2,61 |
+| III-V | 1,86 | 1,90 | 2,33 / 2,11 |
+| I-V | 4,16 | 4,00 | 4,49 / 4,52 |
+| Diferencia interaural de la V | 0,04 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 10 → 5 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V bien definidas y replicables en los dos oídos a 80 dB nHL.
+
+**Interpretación**: latencias, interpicos y diferencia interaural dentro de la norma. Onda V presente hasta 10 dB nHL y ausente a 0, con ruido residual bajo.
+
+**Conclusión**: examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz.
+
+**Recomendación**: ninguna.
+:::
+
 :::ayuda Ayuda memoria
 Un "no hay respuesta" solo vale si el **ruido residual** era lo bastante bajo como para verla. Con ruido alto, lo único que se puede decir es "no se ve".
 :::
@@ -373,7 +402,36 @@ Una "onda I" a 0,6 ms no puede ser neural con ese estímulo: el sonido ni siquie
 
 #### Diagnóstico y qué sigue
 
-El intervalo I-V "acortado" no es un hallazgo: se midió sobre un artefacto. Se repite con fonos de inserción y polaridad alternada. Con el registro limpio, la I llega a 1,2 ms y la V a 5,5 ms, sin alteración neural.
+El intervalo I-V "acortado" no es un hallazgo: se midió sobre un artefacto. Se repite con fonos de inserción y polaridad alternada. Con el registro limpio, la I llega a 1,2 ms (OI) y la V a 5,5 ms, sin alteración neural.
+
+Informe del registro bien hecho:
+
+:::comentario-ancho Informe de Roberto, 47 años (caso 18.2)
+**Motivo**: acúfeno bilateral y audiometría con caída en agudos; operador de chancador.
+
+**Registro**: click a 100, 80, 60, 50 y 40 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. Sin artefacto en el primer milisegundo. En reposo.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior.
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I (100 dB nHL) | no se identifica | 1,20 | 1,80 / 1,80 |
+| Onda III (100 dB nHL) | 3,63 | 3,53 | 4,05 / 4,14 |
+| Onda V (100 dB nHL) | 5,53 | 5,57 | 6,03 / 6,05 |
+| I-III | | 2,33 | / 2,61 |
+| III-V | 1,90 | 2,04 | 2,33 / 2,11 |
+| I-V | | 4,37 | / 4,52 |
+| Onda V (80 dB nHL) | 5,97 | 6,17 ↑ | 6,03 / 6,05 |
+| Umbral con click (dB nHL → dB eHL) | 60 → 55 | 60 → 55 | hasta 20 dB eHL |
+
+**Morfología**: ondas III y V replicables en los dos oídos; la I solo se identifica en el OI a 100 dB nHL.
+
+**Interpretación**: a 100 dB nHL, interpicos y latencias dentro de la norma. A 80 dB la V del OI pasa el límite por 0,12 ms, lo esperable en una pérdida de agudos de 70 dB, sin interpicos largos. Umbral de 60 dB nHL (55 dB eHL), que corresponde a la zona de 2 a 4 kHz de la audiometría.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral, de aproximadamente 55 dB HL para el rango de 2 a 4 kHz. Se adjunta audiometría.
+
+**Recomendación**: control con la audiometría de vigilancia y protección auditiva (→ cap. 33).
+:::
 
 :::ojo Ojo clínico
 Replicar no descarta un artefacto de estímulo: **se repite en cada barrido, y por eso sobrevive al promedio**. Las pruebas son otras: cambia con la polaridad, no desaparece al pinzar el tubo, crece con la intensidad y empieza en el instante cero.
@@ -383,11 +441,38 @@ Replicar no descarta un artefacto de estímulo: **se repite en cada barrido, y p
 
 #### Razonamiento
 
-Una latencia de 13 ms no corresponde a la V de un adulto con una pérdida simétrica: la V de este paciente llega cerca de los 6 ms. La onda de 13 ms es ancha, mucho mayor que cualquier onda del ABR y **desaparece al bajar de 80 a 70 dB mientras la V verdadera sigue ahí, achicada y atrasada**. Es la respuesta postauricular, un reflejo muscular a sonido intenso. Se repite en las dos mitades del promedio, así que la replicación no la delata; lo que la delata es **dónde está** y **cómo se comporta con la intensidad**. Y la pérdida simétrica de 74 años no aporta ningún motivo para pensar en un retrococlear.
+Una latencia de 13 ms no corresponde a la V de un adulto con una pérdida simétrica: la V de este paciente llega cerca de los 6 ms. La onda de 13 ms es ancha, mucho mayor que cualquier onda del ABR y **se achica al bajar, casi no está a 70 dB y a 60 ya no hay nada, mientras la V verdadera sigue ahí, achicada y atrasada**. Es la respuesta postauricular, un reflejo muscular a sonido intenso. Se repite en las dos mitades del promedio, así que la replicación no la delata; lo que la delata es **dónde está** y **cómo se comporta con la intensidad**. Y la pérdida simétrica de 74 años no aporta ningún motivo para pensar en un retrococlear.
 
 #### Diagnóstico y qué sigue
 
 ABR con onda V de latencia acorde a la edad y a la pérdida, sin signos retrococleares. La onda tardía se atribuye a una respuesta muscular: se repite el registro con el paciente relajado, el cuello suelto y la ventana de rutina.
+
+Informe del registro bien hecho:
+
+:::comentario-ancho Informe de Alberto, 74 años (caso 18.3)
+**Motivo**: hipoacusia progresiva y pitido bilateral; ABR por curiosidad.
+
+**Registro**: click a 90, 70, 60 y 50 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. Paciente relajado, cuello suelto y cabeza apoyada.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior.
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | no se identifica | 1,90 / 1,91 |
+| Onda III | 3,97 | 4,03 | 4,16 / 4,22 |
+| Onda V | 5,90 | 5,93 | 6,16 / 6,24 |
+| III-V | 1,93 | 1,90 | 2,17 / 2,33 |
+| Diferencia interaural de la V | 0,03 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 60 → 55 | 60 → 55 | hasta 20 dB eHL |
+
+**Morfología**: ondas III y V replicables; sin componente tardío en la ventana de 12 ms.
+
+**Interpretación**: latencias dentro de la norma, interpico III-V normal y sin diferencia entre oídos: sin signos retrococleares. La V se atrasa al bajar el nivel (5,9 ms a 90 dB, 6,3 a 70 y 6,9 a 60).
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral, de aproximadamente 55 dB HL para el rango de 2 a 4 kHz. Se adjunta audiometría.
+
+**Recomendación**: evaluación para audífonos.
+:::
 
 :::sabias ¿Sabías que?
 El mismo músculo ha sido estudiado como una respuesta útil: la respuesta postauricular se ha propuesto como una forma de estimar la sensibilidad auditiva (Purdy y cols., 2005). En un ABR, en cambio, es un contaminante que hay que reconocer.
@@ -397,11 +482,39 @@ El mismo músculo ha sido estudiado como una respuesta útil: la respuesta posta
 
 #### Razonamiento
 
-Una cofosis desde la infancia y una V con latencia exacta a 70, 60, 50 y 40 dB son incompatibles: si bajó 30 dB, la V verdadera se habría **atrasado y achicado**. Esa onda no se movió, y el FSP y las mitades lo confirman: vive solo en la mitad A del promedio. Es una **falsa onda V**, un artefacto que quedó en una parte de los barridos y que por casualidad cayó donde se espera la V. A nivel alto, el trazo del oído sordo muestra además una onda que se repite pero que viene del oído sano: es la **curva sombra**, y se descarta enmascarando. En ningún caso hay audición residual.
+Una pérdida profunda desde la infancia (90 a 100 dB HL) y una V con latencia exacta a 70, 60, 50 y 40 dB nHL son incompatibles: si bajó 30 dB, la V verdadera se habría **atrasado y achicado**. Esa onda no se movió, y el FSP y las mitades lo confirman: vive solo en la mitad A del promedio. Es una **falsa onda V**, un artefacto que quedó en una parte de los barridos y que por casualidad cayó donde se espera la V. A nivel alto, el trazo del oído sordo muestra además una onda que se repite pero que viene del oído sano: es la **curva sombra**, y se descarta enmascarando. Con 90 a 100 dB HL no hay audición que explique una respuesta a 40 dB nHL.
 
 #### Diagnóstico y qué sigue
 
-Cofosis derecha. El ABR del oído derecho no muestra respuesta propia con el oído izquierdo enmascarado. La "V" de 70 a 40 dB es un artefacto; se informa **sin respuesta** y se contrasta con el audiograma.
+Pérdida profunda derecha. El ABR del oído derecho no muestra respuesta propia con el oído izquierdo enmascarado. La "V" de 70 a 40 dB es un artefacto; se informa **sin respuesta** y se contrasta con el audiograma.
+
+Informe del registro bien hecho:
+
+:::comentario-ancho Informe de Sergio, 22 años (caso 18.4)
+**Motivo**: pérdida de audición derecha desde los 6 años, tras paperas. Sin estudios previos.
+
+**Registro**: click a 100 y 80 dB nHL en el OI, y a 100 dB nHL en el OD con ruido de enmascaramiento en el OI. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. En reposo.
+
+**Referencia**: hombre de 18 a 49 años, OI (Sanfins y cols., 2026): límite superior.
+
+| | OD | OI | Límite OI |
+|---|---|---|---|
+| Onda I | sin ondas | 1,50 | 1,80 |
+| Onda III | sin ondas | 3,77 | 4,14 |
+| Onda V | sin ondas | 5,60 | 6,05 |
+| I-III | | 2,27 | 2,61 |
+| III-V | | 1,83 | 2,11 |
+| I-V | | 4,10 | 4,52 |
+| Umbral con click (dB nHL → dB eHL) | sin respuesta a 100 → mayor que 95 | no se buscó | |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables. OD sin ondas reconocibles, con el OI enmascarado.
+
+**Interpretación**: OI normal. En el OD, la única onda que aparece sin enmascarar es la respuesta del OI por vía ósea (curva sombra); enmascarada desaparece. Ninguna onda de los registros anteriores sobrevive al pedir que se repita en las dos curvas y que migre con el nivel.
+
+**Conclusión**: OD sin ondas reconocibles hasta 100 dB nHL, con enmascaramiento: examen sugiere hipoacusia de grado profundo en OD, para el rango de 2 a 4 kHz. OI normal. Se adjunta audiometría.
+
+**Recomendación**: correlación con la audiometría; evaluación otorrinolaringológica.
+:::
 
 :::pregunta Para discutir
 ¿Y si el audiograma no hubiera existido? ¿Qué te habría dicho la onda a 40 dB si solo hubieras tenido ese registro? ¿Qué habría pasado con ese umbral en un lactante, donde no hay otra prueba que lo desmienta?
@@ -411,11 +524,40 @@ Cofosis derecha. El ABR del oído derecho no muestra respuesta propia con el oí
 
 #### Razonamiento
 
-El oído del paciente es el de una hipoacusia leve en agudos con graves caídos; no hay razón para un umbral de 80 dB. Lo que hay son tres ajustes inadecuados: una **ventana de 6 ms**, una banda de **300 a 1.000 Hz** y una polaridad que no es la de la norma. La ventana corta es la que más pesa: la V a 50 dB llega a 6,5 ms y a 30 dB, a casi 8 ms, de modo que **no cabe** y el equipo no la registra. Los filtros angostos, además, achican y redondean las ondas.
+El oído de la paciente tiene los graves caídos (45 dB en 125 y 250 Hz, 25 en 1 kHz) y los agudos en 20 dB; no hay razón para un umbral de 80 dB. Lo que hay son tres ajustes inadecuados: una **ventana de 6 ms**, una banda de **300 a 1.000 Hz** y una polaridad que no es la de la norma. La ventana corta es la que más pesa: la V a 50 dB llega a 6,4 ms y a 30 dB, a casi 8 ms, de modo que **no cabe** y el equipo no la registra. Los filtros angostos, además, achican y redondean las ondas.
 
 #### Diagnóstico y qué sigue
 
-ABR del oído izquierdo con umbral de la onda V en 30 dB nHL con la configuración de rutina. El registro anterior no se usa para informar: se repite con ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz y polaridad alternada.
+ABR del oído izquierdo con onda V hasta 30 dB nHL y sin respuesta a 10 dB, con la configuración de rutina. El registro anterior no se usa para informar: se repite con ventana de 10 a 12 ms, filtros de 100 a 3.000 Hz y polaridad alternada.
+
+Informe del registro bien hecho:
+
+:::comentario-ancho Informe de Noelia, 46 años (caso 18.5)
+**Motivo**: crisis de vértigo y plenitud del oído izquierdo, con pérdida de graves.
+
+**Registro**: click a 80, 50, 30, 20, 10 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. En reposo.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior.
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,43 | 1,43 | 1,80 / 1,80 |
+| Onda III | 3,57 | 3,70 | 3,94 / 4,01 |
+| Onda V | 5,53 | 5,57 | 5,89 / 5,92 |
+| I-III | 2,14 | 2,27 | 2,42 / 2,49 |
+| III-V | 1,96 | 1,87 | 2,11 / 2,12 |
+| I-V | 4,10 | 4,14 | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,04 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 10 → 5 | 30 → 25 | hasta 20 dB eHL |
+
+**Morfología**: ondas I, III y V bien definidas y replicables a 80 dB nHL en los dos oídos.
+
+**Interpretación**: latencias e interpicos normales: sin signos retrococleares. El umbral del OI, 25 dB eHL, queda apenas sobre el límite normal en 2 a 4 kHz; el click no estima los graves, donde está la pérdida mayor de la audiometría.
+
+**Conclusión**: examen sugiere audición normal en OD y, en OI, umbral de 25 dB eHL para el rango frecuencial estudiado de 2 a 4 kHz, sin signos retrococleares. Se adjunta audiometría.
+
+**Recomendación**: umbral por frecuencia con burst o NB chirp si se necesita estimar los graves (→ H10).
+:::
 
 :::comentario Comentario
 El oído estaba bien: lo que estaba mal era el equipo. Por eso la configuración se revisa antes de registrar, y la norma que uses tiene que estar medida con los mismos filtros, polaridad, tasa y transductor (→ H10).
@@ -433,7 +575,7 @@ Niveles de prevención y su marco: → B5.
 
 :::pregunta Preguntas para discutir
 1. ¿Por qué replicar la curva es necesario pero no suficiente? Da un ejemplo de un artefacto que replica y otro que no.
-2. Con 250 barridos el FSP vale 1,6 y el ruido residual es alto; con 4.000, el FSP pasa 3,1. ¿Qué le dirías a quien dice que "con 250 ya se ve que no hay respuesta"?
+2. Con 250 barridos el FSP vale 2,4 y el ruido residual es alto; con 4.000, el FSP llega a 15,3. ¿Qué le dirías a quien dice que "con 250 ya se ve que no hay respuesta"?
 3. Un ABR sale con umbral de 20 dB nHL y el audiograma del mismo oído da 60 dB HL de promedio. ¿Qué tres cosas revisarías antes de decir que el paciente tiene una pérdida no orgánica?
 4. ¿Qué diferencia hay entre una onda V que se queda quieta al bajar la intensidad y una V que se atrasa? ¿Qué te dice cada una?
 5. ¿Cuándo preferirías **no** pinzar el tubo, y qué otra maniobra usarías para separar estímulo de respuesta?
@@ -455,6 +597,7 @@ Niveles de prevención y su marco: → B5.
 
 ### Técnica
 
+1. Sanfins MD, Santillo MEA, Martins MFP, Silva DLdS, Gos E, Skarzynski PH, Hall JW III. The influence of sex, ear, and age on auditory brainstem responses recorded with the NeuroAudio system. Diagnostics. 2026;16(7):971. doi:10.3390/diagnostics16070971
 1. Picton TW. Human auditory evoked potentials. San Diego: Plural Publishing; 2010 (el editor la fecha en 2011).
 1. Picton TW, Linden RD, Hamel G, Maru JT. Aspects of averaging. Semin Hear. 1983;4(4):327-40. doi:10.1055/s-0028-1094195
 1. Don M, Elberling C. Evaluating residual background noise in human auditory brain-stem responses. J Acoust Soc Am. 1994;96(5 Pt 1):2746-57. doi:10.1121/1.411281

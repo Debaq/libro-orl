@@ -26,7 +26,9 @@ os.chdir(RAIZ)
 sys.path.insert(0, str(RAIZ / 'src'))
 from abr.ABR_generator import ABR_Curve  # noqa: E402
 
-DEMO = json.loads((AQUI.parent / 'casos/pacientes_demo.json').read_text(encoding='utf-8'))   # copia propia del libro
+NOMBRES = {33: 'barridos', 37: 'supraaural', 36: 'postauricular', 42: 'cofosis', 38: 'configuracion'}
+DEMO = {str(k): json.loads((AQUI.parent / f'casos/generados/cap18_{v}.json').read_text(encoding='utf-8'))['data']
+        for k, v in NOMBRES.items()}   # los casos propios del capítulo (ya no los pacientes de práctica)
 TINTA, TENUE, GRILLA = '#24101a', '#8a8a90', '#e7e5e0'
 AZUL, ROJO, VERDE = '#2a5d9f', '#c62f3a', '#21796c'
 F = "font-family=\"'Plus Jakarta Sans', sans-serif\""

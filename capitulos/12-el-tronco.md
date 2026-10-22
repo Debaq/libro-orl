@@ -22,7 +22,7 @@ Se mide el tamaño de la onda I y el de la onda V, **del pico al valle que sigue
 - **V/I sobre 1**: lo esperable en el adulto.
 - **V/I bajo 1 con latencias normales**: sospecha de una conducción poco sincrónica; mira los interpicos y repite con otra tasa.
 - **V/I bajo 1 con latencias largas**: patrón retrococlear.
-- Mandan los valores normativos de tu equipo y de la edad del paciente (Apéndice A): este corte es una guía, no una regla.
+- Mandan los valores normativos de tu equipo y de la edad del paciente (→ H10): este corte es una guía, no una regla.
 :::
 
 <!-- Pasada de fundamentos 2026-10-18: Musiek y cols. 1984 (25 oídos normales, 25 cocleares y 25 retrococleares): "amplitude ratios of less than 1.00 seldom occurred in the normal or cochlear ears. However, 44% of the retrocochlear ears revealed an amplitude ratio of less than 1.00". La ACNS (2008) pone entre los criterios retrococleares la "abnormal diminution of the IV-V/I amplitude ratio, especially when accompanied by other abnormalities", con el límite en 2,5 a 3 DE de la norma por edad. El corte 1 de LabSim está en docs/decisiones.md ("La razón V/I normal es mayor que 1"). -->
@@ -156,8 +156,8 @@ Frente a un ABR que no es normal ni coclear, el razonamiento sigue cinco pregunt
 | I ausente, V y III presentes, con pérdida coclear y VEMP caído | **Laberinto** | 12.2 |
 | I-III normal, III-V largo, V que se achica con la tasa, audiograma normal | **Tronco** (intraaxial) | 12.1 |
 | I-III largo, ondas bajas, VEMP caído, pérdida descendente bilateral | **Nervio** en su trayecto cisternal | 12.4 |
-| Todo largo y bajo, a veces solo la V sobrevive | **Tronco**, compresión o infiltración | 12.3 |
-| Interpicos en el límite, V/I bajo 1, tasa que no destapa nada | **Presión** sobre la vía | 12.5 |
+| III-V largo, ondas bajas que casi desaparecen con la tasa alta | **Tronco**, compresión o infiltración | 12.3 |
+| Interpicos apenas sobre el límite, V/I bajo 1, tasa que no destapa nada | **Presión** sobre la vía | 12.5 |
 :::
 
 ### Lo que más se equivoca
@@ -173,7 +173,7 @@ Un paciente tiene los umbrales de la audiometría tonal normales y reflejos esta
 
 ## Casos
 
-En todos los casos, cada nivel del ABR trae sus dos réplicas (las líneas finas, dos subpromedios del mismo registro) bajo el trazo promedio: una onda que está en las dos es respuesta y no ruido (→ H10). Las ondas que se marcan son las que sobresalen del ruido; las latencias que se citan son de esas marcas y tienen un margen de décimas de milisegundo.
+En todos los casos, cada nivel del ABR se registra dos veces y se dibujan los dos trazos juntos: una onda que está en los dos es respuesta y no ruido (→ H10). Las ondas que se marcan son las que sobresalen del ruido; las latencias que se citan son de esas marcas y tienen un margen de décimas de milisegundo.
 
 {{caso cap12_esclerosis_multiple}}
 
@@ -191,25 +191,25 @@ Ella dice que oye bien. ¿Qué te dice eso sobre el audiograma que esperas? ¿Qu
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap12_esclerosis_multiple_audiosupra.svg ancho=80% Audiometría de Rocío: umbrales de 0 dB en todas las frecuencias, en los dos oídos.
+:::imagen figuras/salida/cap12_esclerosis_multiple_audiosupra.svg ancho=100% Audiometría de Rocío: umbrales de 0 dB en todas las frecuencias, en los dos oídos.
 :::
 
 **Audiograma normal**: lo que se busca no está en los umbrales. SDT de −5 dB y SRT de 0 dB en los dos oídos, con una discriminación máxima de 80 %, a 30 dB. Con esta historia, un audiograma sano no tranquiliza.
 
-:::imagen figuras/salida/cap12_esclerosis_multiple_impedancia.svg ancho=80% Impedanciometría de Rocío.
+:::imagen figuras/salida/cap12_esclerosis_multiple_impedancia.svg ancho=100% Impedanciometría de Rocío.
 :::
 
 Los reflejos están **ausentes en los cuatro registros**: el ipsilateral y el contralateral con la sonda en el OD, y los dos con la sonda en el OI. Los umbrales son normales y el oído medio está sano (timpanograma A). El arco del reflejo cruza el tronco: si falla estimulando los dos oídos, el problema no está en la cóclea.
 
 :::figura cap12_esclerosis_multiple abr
-- @OD 80 I | La onda I del OD llega a 1,2 ms y la III a 3,3: **I-III de 2,1 ms**, normal (límite 2,6).
-- @OD 80 V | La V llega a 5,9 ms: **III-V de 2,6 ms** (límite 2,3) e I-V de 4,7 ms, sobre el límite (4,6). El tramo alto del tronco es el que se alarga.
-- @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,6 ms** e I-V de 4,8, sobre el límite. Es lo mismo que en el OD: **el retraso empieza después de la III**.
+- @OD 80 I | La onda I del OD llega a 1,2 ms y la III a 3,3: **I-III de 2,1 ms**, normal (límite 2,4; Sanfins y cols., 2026).
+- @OD 80 V | La V llega a 5,9 ms: **III-V de 2,6 ms** (límite 2,1) e **I-V de 4,7 ms** (límite 4,3). El tramo alto del tronco es el que se alarga.
+- @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,6 ms** (límite 2,1) e **I-V de 4,8** (límite 4,4). Es lo mismo que en el OD: **el retraso empieza después de la III**. La V del OI llega 0,6 ms después que la del OD.
 - Con la tasa de rutina, la V mide cerca de la mitad de la I: V/I alrededor de 0,5 en los dos oídos.
 :::
 :::figura cap12_esclerosis_multiple abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,2 ms: **se atrasó 1,3 ms**, más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
-- @OI 80 V | En el OI la V también llega a 7,1 ms. En los dos oídos la V pierde cerca de un tercio de su amplitud (de 0,24 a 0,15 µV en el OD y de 0,22 a 0,14 en el OI): **la vía no aguanta el esfuerzo**.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,2 ms: **se atrasó 1,3 ms** (22 %), más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.
+- @OI 80 V | En el OI la V llega a 7,1 ms: se atrasó 0,6 ms (9 %), dentro de lo esperable, pero ya partía de una V tardía. En los dos oídos la V pierde cerca de un tercio de su amplitud (de 0,24 a 0,15 µV en el OD y de 0,22 a 0,14 en el OI): en el OD **la vía no aguanta el esfuerzo**.
 :::
 
 :::docente Guía del caso
@@ -236,25 +236,25 @@ Una sordera súbita con vértigo puede ser viral, de oído interno o vascular. �
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap12_infarto_aica_audiosupra.svg ancho=80% Audiometría de Iván: el OD tiene una pérdida sensorioneural moderada (30 dB en graves, 60 dB en 4 kHz), sin gap; el OI, de 25 dB en 4 kHz, es el oído testigo.
+:::imagen figuras/salida/cap12_infarto_aica_audiosupra.svg ancho=100% Audiometría de Iván: el OD tiene una pérdida sensorioneural moderada (30 dB en graves, 60 dB en 4 kHz), sin gap; el OI, de 25 dB en 4 kHz, es el oído testigo.
 :::
 
 En el OD el SDT es de 35 dB y el SRT de 40. La discriminación llega solo al **56 %**, a 70 dB, y a 100 dB baja al 25 %: **roll-over**. El OI llega al 100 %. SISI de 50 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en las cuatro frecuencias.
 
-:::imagen figuras/salida/cap12_infarto_aica_impedancia.svg ancho=80% Impedanciometría de Iván.
+:::imagen figuras/salida/cap12_infarto_aica_impedancia.svg ancho=100% Impedanciometría de Iván.
 :::
 
 Con la sonda en el OD, el reflejo ipsilateral **falta**. También falta el contralateral con la sonda en el OI, que se estimula por el OD: falla todo lo que entra por el OD, patrón **diagonal** (aferente). Con el tono por el OI el reflejo aparece, a 85 dB con la sonda en el OI (ipsilateral) y a 90 dB con la sonda en el OD (contralateral): el músculo y el facial funcionan.
 
 :::figura cap12_infarto_aica abr
 - @OD 80 III | En el OD **no hay onda I**. La III llega a 4,0 ms.
-- @OD 80 V | La V llega a 6,1 ms, de buen tamaño: **III-V de 2,1 ms**, normal. El tronco conduce bien.
-- @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,1 y V a 5,9 ms. La V del OD llega **0,2 ms** después, por debajo del límite de 0,4.
+- @OD 80 V | La V llega a 6,1 ms, de buen tamaño: **III-V de 2,1 ms**, normal (límite 2,2; Sanfins y cols., 2026). El tronco conduce bien.
+- @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,1 y V a 5,9 ms (I-V de 4,0, normal). La V del OD llega **0,2 ms** después, bajo el límite de 0,4.
 - @OD 60 V | A 60 dB el OD conserva solo la V y a 40 dB ya no queda nada.
 :::
 :::figura cap12_infarto_aica abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,7 ms: **0,6 ms más tarde**, un alargamiento esperable. La vía central aguanta.
-- @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,6 ms, lo mismo que el OD.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,7 ms: **0,6 ms más tarde** (10 %), un alargamiento esperable. La vía central aguanta.
+- @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,6 ms (10 %), lo mismo que el OD.
 :::
 :::figura cap12_infarto_aica vemp
 - @OD P13 | El VEMP cervical del OD tiene 44 µV de amplitud pico a pico (0,85 corregida por el EMG).
@@ -285,24 +285,24 @@ La resonancia tiene lista de espera. ¿Qué parte de la evaluación auditiva se 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap12_glioma_tronco_audiosupra.svg ancho=80% Audiometría de Julia: pérdida leve, descendente y simétrica (45 dB en 4 kHz en el OD y 40 en el OI), sensorioneural.
+:::imagen figuras/salida/cap12_glioma_tronco_audiosupra.svg ancho=100% Audiometría de Julia: pérdida leve, descendente y simétrica (45 dB en 4 kHz en el OD y 40 en el OI), sensorioneural.
 :::
 
 Es de un grado que no alcanza para explicar ni la torpeza, ni la cefalea, ni el ojo. El SDT es de 20 dB en el OD y de 15 en el OI, y el SRT de 25 y 20; la discriminación no pasa del 56 % en ninguno. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap12_glioma_tronco_impedancia.svg ancho=80% Impedanciometría de Julia.
+:::imagen figuras/salida/cap12_glioma_tronco_impedancia.svg ancho=100% Impedanciometría de Julia.
 :::
 
 Los reflejos están **ausentes en los cuatro registros**, ipsi y contra con cada sonda, con umbrales de 20 a 35 dB entre 500 y 2.000 Hz. Con esa audición y un timpanograma A, un oído coclear tendría reflejos presentes (Gelfand y cols., 1990). Su ausencia bilateral apunta al arco del reflejo en el tronco.
 
 :::figura cap12_glioma_tronco abr
-- @OD 80 V | La V del OD llega a 6,1 ms, **0,6 ms después** de lo que marca la tabla del niño (5,5 ms), con I-V de 4,6 ms. Las ondas miden 0,2 µV o menos.
-- @OI 80 V | En el OI la V también llega a 6,1 ms (I-V de 4,5): el patrón se repite en los dos oídos, y **no hay un oído testigo**.
+- @OD 80 V | La V del OD llega a 6,07 ms, dentro del límite de una niña de su edad (6,42; Sanfins y cols., 2026), y el I-V es de 4,64 ms, también normal. Pero el **III-V es de 2,47 ms**, sobre el límite de 2,27. Las ondas miden 0,2 µV o menos.
+- @OI 80 V | En el OI la V llega a 6,1 ms y el **III-V es de 2,8 ms** (límite 2,4), con I-III corto (1,7): el patrón se repite en los dos oídos, y **no hay un oído testigo**.
 - @OD 60 V | A 60 dB quedan solo la III y la V; a 40 dB, apenas una V a 7,7 ms.
 :::
 :::figura cap12_glioma_tronco abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 7,1 ms con menos de 0,2 µV.
-- @OI 80 V | En el OI la V llega a 6,9 ms y mide 0,08 µV. Una respuesta tan chica a tasa alta es lo que se espera de una vía que **no aguanta el esfuerzo**.
+- @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 7,07 ms (+1,00 ms, 16 %) con menos de 0,2 µV.
+- @OI 80 V | En el OI la V llega a 6,90 ms (+0,80 ms, 13 %) y mide 0,08 µV. El alargamiento es poco mayor que el de una vía sana, pero la amplitud casi desaparece: una vía que **no aguanta el esfuerzo**.
 :::
 
 :::docente Guía del caso
@@ -329,25 +329,25 @@ Los dos oídos están afectados y no hay oído testigo. ¿Qué pruebas agregarí
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap12_siderosis_audiosupra.svg ancho=80% Audiometría de Fernando: pérdida bilateral y descendente, casi simétrica (45 dB en 4 kHz en el OD y 50 en el OI, que cae a 65 dB en 8 kHz), por sobre lo esperable a los 58 años.
+:::imagen figuras/salida/cap12_siderosis_audiosupra.svg ancho=100% Audiometría de Fernando: pérdida bilateral y descendente, casi simétrica (45 dB en 4 kHz en el OD y 50 en el OI, que cae a 65 dB en 8 kHz), por sobre lo esperable a los 58 años.
 :::
 
 Con un SDT de 15 dB en el OD y de 20 en el OI, y un SRT de 20 y 25, el OD llega solo al **64 %**, a 50 dB, y el OI al **60 %**, a 60 dB: los dos oídos entienden menos de lo que oyen. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap12_siderosis_impedancia.svg ancho=80% Impedanciometría de Fernando.
+:::imagen figuras/salida/cap12_siderosis_impedancia.svg ancho=100% Impedanciometría de Fernando.
 :::
 
 Reflejos ausentes en los cuatro registros: ipsilateral y contralateral, con la sonda en el OD y con la sonda en el OI.
 
 :::figura cap12_siderosis abr
-- @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,7 ms y la III en 4,6: **I-III de 2,9 ms**, sobre el límite de 2,7.
-- @OD 80 V | La V llega a 6,7 ms: I-V de 5,0 ms (límite 4,7).
-- @OI 80 I | En el OI la marca de la I cae en 1,3 ms, antes de lo que suele llegar una onda I normal (cerca de 1,5): es ruido y no se mide con ella. Hay **que ser prudente con un registro de ondas tan bajas**.
-- @OD 60 V | A 60 dB quedan III y V a 5,1 y 6,9 ms; a 40 dB, apenas una marca de V a 7,6 ms que no se separa del ruido.
+- @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,7 ms y la III en 4,6: **I-III de 2,9 ms**, sobre el límite de 2,5 (Sanfins y cols., 2026).
+- @OD 80 V | La V llega a 6,7 ms: I-V de 5,0 ms (límite 4,5) y diferencia interaural de 0,5 ms con la V del OI.
+- @OI 80 I | En el OI la I está en 1,3 ms, algo antes de lo habitual (cerca de 1,5), con III a 3,9 y V a 6,1: I-V de 4,8 ms, sobre el límite de 4,5. Hay **que ser prudente con un registro de ondas tan bajas**.
+- @OD 60 V | A 60 dB quedan III y V a 4,8 y 6,9 ms en el OD, y a 5,1 y 6,9 en el OI; a 40 dB, nada que se separe del ruido.
 :::
 :::figura cap12_siderosis abr 2
-- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms (0,5 ms más tarde) y mide 0,10 µV.
-- @OI 80 V | La V del OI llega a 7,4 ms (1,3 ms más tarde) con 0,09 µV. Las ondas casi se pierden en el ruido, y con marcas tan inestables el atraso de cada oído no se mide con confianza.
+- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms (0,5 ms más tarde, 7 %) y mide 0,10 µV.
+- @OI 80 V | La V del OI llega a 7,4 ms (1,3 ms más tarde, 21 %) con 0,09 µV. Las ondas casi se pierden en el ruido, y con marcas tan inestables el atraso de cada oído no se mide con confianza.
 :::
 :::figura cap12_siderosis vemp
 - @OD P13 | El VEMP cervical del OD mide 26 µV (0,52 corregida por el EMG).
@@ -378,24 +378,24 @@ El médico pensó en Ménière. ¿Qué dato de la historia no calza con un hidro
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap12_hic_idiopatica_audiosupra.svg ancho=80% Audiometría de Laura: pérdida de graves en los dos oídos (55 dB en 125 Hz y 40 en 500 Hz en el OD; 55 dB en 125 y 250 Hz en el OI), ascendente, como la de un hidrops.
+:::imagen figuras/salida/cap12_hic_idiopatica_audiosupra.svg ancho=100% Audiometría de Laura: pérdida de graves en los dos oídos (55 dB en 125 Hz y 40 en 500 Hz en el OD; 55 dB en 125 y 250 Hz en el OI), ascendente, como la de un hidrops.
 :::
 
 Es una pérdida **neurosensorial ascendente**, con 15 a 25 dB desde 2.000 Hz. El SDT es de 15 dB en el OD y de 20 en el OI, y el SRT de 20 y 25; la discriminación llega al 64 % en el OD y al 72 % en el OI. SISI de 10 %, Carhart con deterioro de 30 dB en 2 y 4 kHz y Metz ausente en los dos oídos.
 
-:::imagen figuras/salida/cap12_hic_idiopatica_impedancia.svg ancho=80% Impedanciometría de Laura.
+:::imagen figuras/salida/cap12_hic_idiopatica_impedancia.svg ancho=100% Impedanciometría de Laura.
 :::
 
 Los reflejos están **ausentes** en los cuatro registros, ipsi y contra con cada sonda, con 15 a 30 dB en 1.000 a 4.000 Hz. Un oído coclear con esa audición en las frecuencias medias y agudas tendría reflejos (Gelfand y cols., 1990): su ausencia no encaja con la cóclea sola.
 
 :::figura cap12_hic_idiopatica abr
-- @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4** y **III-V de 2,3 ms**, bajo el límite; **I-V de 4,7 ms**, apenas sobre el límite de 4,58.
-- @OI 80 V | El OI es igual: I-V de 4,7 ms. La diferencia entre los dos oídos es mínima, así que **no hay testigo ni asimetría que leer**.
+- @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4**, en el límite (2,4), **III-V de 2,3 ms** (límite 2,1) e **I-V de 4,7 ms** (límite 4,3; Sanfins y cols., 2026).
+- @OI 80 V | El OI es igual: III-V de 2,4 (límite 2,1) e I-V de 4,7 (límite 4,4). La diferencia interaural de la V es de 0,1 ms: **no hay testigo ni asimetría que leer**, y el alargamiento, de unos 0,3 ms, es leve.
 - @OD 80 V | La V es de 0,25 µV, menor que la I (0,44 µV): V/I alrededor de 0,6.
 :::
 :::figura cap12_hic_idiopatica abr 2
 - @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,9 ms: **se atrasó 0,6 ms** (10 %), dentro del alargamiento de una V sana.
-- @OI 80 V | En el OI llega a 7,0 ms: lo mismo. **La tasa alta no destapa nada**: el registro de esfuerzo sale como el de un oído sano.
+- @OI 80 V | En el OI llega a 7,0 ms (+0,8 ms, 12 %): lo mismo. **La tasa alta no destapa nada más**: el registro de esfuerzo sale como el de un oído sano.
 :::
 
 :::docente Guía del caso
@@ -403,28 +403,57 @@ Los reflejos están **ausentes** en los cuatro registros, ipsi y contra con cada
 - **Hipótesis esperables:** hidrops (Ménière) bilateral, otoesclerosis, causa vascular, hipertensión intracraneal idiopática. La **pulsatilidad** y los síntomas visuales no calzan con un hidrops.
 - **Qué pedir:** audiometría, reflejos, emisiones y ABR (→ H3, H5, H10). El registro de esfuerzo a 81,1 no puede ser el criterio para dar de alta.
 - **Errores esperables:** tratarla como Ménière; leer el ABR "casi normal" como "sin causa neurológica"; no preguntar si el zumbido late con el pulso.
-- **Para discutir en clases:** por qué la presión del líquido cefalorraquídeo llega al oído interno (por el acueducto coclear, según Sismanis, 1987) <!-- verificar: el mecanismo por el acueducto coclear no está en el resumen de Sismanis 1987; no se leyó el texto completo. --> y cómo el médico confirma el diagnóstico.
+- **Para discutir en clases:** por qué la presión del líquido cefalorraquídeo llega al oído interno (por el acueducto coclear, según Carlborg y Farmer, 1983) y cómo el médico confirma el diagnóstico.
 :::
 
 ## Resolución de los casos
 
 Intenta resolver cada caso con los pasos del aprendizaje basado en problemas antes de leer esta sección.
 
+En todos los informes: click con polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ y sin enmascaramiento contralateral. No se buscó el umbral: el examen mira la conducción a 80 dB nHL. En las tablas, ↑ marca lo que pasa el límite (→ H10).
+
 ### Caso 12.1
 
 #### Razonamiento
 
-Audiograma normal, reflejos ausentes en los cuatro registros, interpico III-V largo en los dos oídos con I-III normal, y una V que se achica y se atrasa más de lo esperable al subir la tasa. Todo apunta a una conducción lenta en el tramo alto del tronco, **de los dos lados** y sin que la cóclea intervenga. Una lesión así, repartida y con episodios separados en el tiempo y en el cuerpo, es la que más hace pensar en un proceso desmielinizante.
+Audiograma normal, reflejos ausentes en los cuatro registros, interpicos III-V e I-V largos en los dos oídos con I-III normal, y una V que se achica y se atrasa más de lo esperable al subir la tasa. Todo apunta a una conducción lenta en el tramo alto del tronco, **de los dos lados** y sin que la cóclea intervenga. Una lesión así, repartida y con episodios separados en el tiempo y en el cuerpo, es la que más hace pensar en un proceso desmielinizante.
 
 #### Diagnóstico y qué sigue
 
-ABR **con patrón retrococlear de tronco**, bilateral, con audición normal. Se informa así, sin poner nombre al diagnóstico. La resonancia y el neurólogo lo deciden; el ABR aporta que la vía auditiva del tronco está comprometida aunque ella no lo note, y sirve de base para el seguimiento.
+:::comentario-ancho Informe de Rocío, 34 años (caso 12.1)
+**Motivo**: sospecha de enfermedad desmielinizante, con resonancia en lista de espera. Sin queja auditiva.
 
-:::imagen ilustraciones/cap12-rm-esclerosis-multiple.jpg ancho=80% Resonancia FLAIR de otra persona con esclerosis múltiple; no es la paciente de este caso. La imagen la pide y la informa el médico; se muestra para que se vea la forma de lo que miden las pruebas. Cortes axiales en orientación radiológica: la derecha de la persona queda a la izquierda. Imagen: dataset MSLesSeg (Guarnera F, Rondinella A y cols., 2025, Sci Data 12:920, doi:10.1038/s41597-025-05250-y; datos doi:10.6084/m9.figshare.27919209), CC BY 4.0, adaptada.
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s. En reposo, con los ojos cerrados.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,20 | 1,73 | 1,80 / 1,80 |
+| Onda III | 3,33 | 3,87 | 3,94 / 4,01 |
+| Onda V | 5,90 | 6,50 ↑ | 5,89 / 5,92 |
+| I-III | 2,13 | 2,14 | 2,42 / 2,49 |
+| III-V | 2,57 ↑ | 2,63 ↑ | 2,11 / 2,12 |
+| I-V | 4,70 ↑ | 4,77 ↑ | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,60 ↑ | | hasta 0,4 |
+| Razón V/I | alrededor de 0,5 ↑ | alrededor de 0,5 ↑ | no bajo 1 |
+| V a 81,1 estímulos/s | 7,17 (+1,27; 22 %) ↑ | 7,10 (+0,60; 9 %) | alarga 12 a 15 % |
+
+**Morfología**: ondas I, III y V reconocibles y replicables en los dos oídos; la V, de baja amplitud.
+
+**Interpretación**: I-III normal con III-V e I-V prolongados en los dos oídos: el retraso está después de la III. La V del OD está en el límite (5,90) y la del OI lo pasa. La V es chica frente a la I. A 81,1 estímulos/s la V del OD se alarga más de lo que se alarga una V sana; la del OI, no, pero parte de una V ya tardía. Con umbrales normales y reflejos ausentes, la cóclea no explica el hallazgo.
+
+**Conclusión**: interpicos III-V e I-V prolongados en ambos oídos, con onda I e I-III de latencia normal y razón V/I disminuida: patrón retrococlear de tronco bilateral, con audición normal en la audiometría. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: resonancia y evaluación neurológica. Este registro queda como base para el seguimiento.
+:::
+
+ABR **con patrón retrococlear de tronco**, bilateral, con audición normal. Se informa así, sin poner nombre al diagnóstico. La resonancia ({{fig rm-esclerosis-multiple}}) y el neurólogo lo deciden; el ABR aporta que la vía auditiva del tronco está comprometida aunque ella no lo note, y sirve de base para el seguimiento.
+
+:::imagen ilustraciones/cap12-rm-esclerosis-multiple.jpg ancho=80% id=rm-esclerosis-multiple Resonancia FLAIR en la esclerosis múltiple. Cortes axiales en orientación radiológica: la derecha de la persona queda a la izquierda. Imagen: dataset MSLesSeg (Guarnera F, Rondinella A y cols., 2025, Sci Data 12:920, doi:10.1038/s41597-025-05250-y; datos doi:10.6084/m9.figshare.27919209), CC BY 4.0, adaptada.
 - @31,40 | **Placas en la protuberancia**: las manchas blancas de su lado derecho. Es el tramo del tronco por donde pasa la vía auditiva.
 - @90,72 | **La misma persona, un corte más arriba**: placas alrededor de los ventrículos. Las lesiones están repartidas.
 :::
-
 :::ojo Ojo clínico
 Un ABR normal no descarta la enfermedad: en la serie de Robinson y Rudge (1977), la V fue anormal en el 51 % de los pacientes **sin** signos clínicos de lesión del tronco.
 :::
@@ -437,14 +466,37 @@ Faltan la onda I y la pérdida es coclear (sin gap, con reclutamiento y VEMP ca�
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural moderada del OD, **de inicio súbito y con signos cocleares**, VEMP disminuido del mismo lado y conducción central conservada. La audiometría sola no separa lo viral de lo vascular; en un infarto de la AICA, la sordera súbita puede ser la primera señal (Lee y cols., 2002). Se avisa **el mismo día** al médico tratante para que la evalúe como un posible evento vascular y se solicite imagen.
+:::comentario-ancho Informe de Iván, 63 años (caso 12.2)
+**Motivo**: pérdida de audición súbita en el OD, vértigo intenso y parálisis facial derecha de seis días; hipertenso y diabético.
 
-:::imagen ilustraciones/cap12-rm-infarto-aica.jpg ancho=100% Infarto de la AICA derecha en otra persona; no es el paciente de este caso. Rótulos originales en inglés. Imagen: Kim SH, Kim H, Lee SU y cols. (2024), Front Neurol 15:1448989, doi:10.3389/fneur.2024.1448989, Fig. 1, CC BY 4.0.
-- @53,20 | **vHIT**: ganancia baja en los canales horizontal y posterior de los **dos** lados (0,64 y 0,65 a la derecha; 0,76 y 0,67 a la izquierda).
-- @20,70 | **Audiometría**: hipoacusia sensorioneural de 73 dB en el OD.
-- @66,43 | **Difusión**: el infarto agudo, blanco, en el territorio de la AICA derecha (la derecha queda a la izquierda de la imagen).
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,90 | 1,90 / 1,91 |
+| Onda III | 4,03 | 4,07 | 4,16 / 4,22 |
+| Onda V | 6,10 | 5,87 | 6,16 / 6,24 |
+| I-III | no medible | 2,17 | 2,54 / 2,53 |
+| III-V | 2,07 | 1,80 | 2,17 / 2,33 |
+| I-V | no medible | 3,97 | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,23 | | hasta 0,4 |
+| V a 81,1 estímulos/s | 6,73 (+0,63; 10 %) | 6,43 (+0,56; 10 %) | alarga 12 a 15 % |
+
+**Morfología**: OD con ondas III y V replicables, la V de buen tamaño, y sin onda I. OI con ondas I, III y V replicables.
+
+**Interpretación**: en el OD falta la onda I, y por eso no se miden I-III ni I-V; la III y la V llegan a tiempo y el III-V es normal. No hay diferencia interaural de la V ni alargamiento anormal con la tasa alta. Una onda I que falta con la V a tiempo es un patrón coclear (la audiometría muestra la pérdida sensorioneural del OD). El tronco conduce.
+
+**Conclusión**: onda I ausente en OD con ondas III y V de latencia normal, III-V normal y tasa alta bien tolerada: sin signos de compromiso del tronco; patrón compatible con compromiso coclear del OD. Se adjuntan audiometría, impedanciometría y VEMP.
+
+**Recomendación**: por la historia vascular y los signos neurológicos, avisar el mismo día al médico tratante; el ABR no descarta un infarto.
 :::
 
+Hipoacusia sensorioneural moderada del OD, **de inicio súbito y con signos cocleares**, VEMP disminuido del mismo lado y conducción central conservada. La audiometría sola no separa lo viral de lo vascular; en un infarto de la AICA, la sordera súbita puede ser la primera señal (Lee y cols., 2002). Se avisa **el mismo día** al médico tratante para que la evalúe como un posible evento vascular y se solicite imagen ({{fig rm-infarto-aica}}).
+
+:::imagen ilustraciones/cap12-rm-infarto-aica.jpg ancho=100% id=rm-infarto-aica Infarto de la AICA derecha. A, vHIT: ganancia baja en los canales horizontal y posterior de los dos lados (0,64 y 0,65 a la derecha; 0,76 y 0,67 a la izquierda). B, audiometría: hipoacusia sensorioneural de 73 dB en el OD. C, difusión: el infarto agudo, blanco, en el territorio de la AICA derecha (la derecha queda a la izquierda de la imagen). Rótulos originales en inglés. Imagen: Kim SH, Kim H, Lee SU y cols. (2024), Front Neurol 15:1448989, doi:10.3389/fneur.2024.1448989, Fig. 1, CC BY 4.0.
+:::
 :::comentario Comentario
 El ABR puede tranquilizar sobre el tronco y aun así el paciente necesitar una evaluación neurológica urgente: lo que lo pone en riesgo no está en la señal que llega al colículo, sino en la arteria.
 :::
@@ -453,9 +505,36 @@ El ABR puede tranquilizar sobre el tronco y aun así el paciente necesitar una e
 
 #### Razonamiento
 
-En una niña de 7 años con una pérdida leve y simétrica, los reflejos ausentes en los cuatro registros y una V que llega 0,6 ms más tarde que lo esperable en los dos oídos **no se explican por la cóclea**. Las ondas son bajas, a 60 dB solo quedan la III y la V, y a tasa alta la respuesta casi desaparece. No hay un oído testigo. Junto con la torpeza, la cefalea matinal y la desviación ocular, el cuadro es el de una lesión **dentro del tronco**, por eso la urgencia no es auditiva.
+En una niña de 7 años con una pérdida leve y simétrica, los reflejos ausentes en los cuatro registros y un III-V largo en los dos oídos, con la I y la V dentro de sus límites, **no se explican por la cóclea**. Las ondas son bajas, a 60 dB solo quedan la III y la V, y a tasa alta la respuesta casi desaparece. No hay un oído testigo. Junto con la torpeza, la cefalea matinal y la desviación ocular, el cuadro es el de una lesión **dentro del tronco**, por eso la urgencia no es auditiva.
 
 #### Diagnóstico y qué sigue
+
+:::comentario-ancho Informe de Julia, 7 años (caso 12.3)
+**Motivo**: torpeza progresiva, cefalea matinal y desviación ocular intermitente de seis semanas; la profesora dice que no oye. Resonancia en lista de espera.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s. Despierta y quieta.
+
+**Referencia**: mujer de 3 a 17 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE). El grupo es amplio y su límite es holgado para una niña de 7 años.
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,43 | 1,60 | 1,74 / 1,74 |
+| Onda III | 3,60 | 3,27 | 4,39 / 4,10 |
+| Onda V | 6,07 | 6,10 | 6,42 / 6,32 |
+| I-III | 2,17 | 1,67 | 2,89 / 2,56 |
+| III-V | 2,47 ↑ | 2,83 ↑ | 2,27 / 2,44 |
+| I-V | 4,64 | 4,50 | 4,91 / 4,88 |
+| Diferencia interaural de la V | 0,03 | | hasta 0,4 |
+| V a 81,1 estímulos/s | 7,07 (+1,00; 16 %) ↑ | 6,90 (+0,80; 13 %) | alarga 12 a 15 % |
+
+**Morfología**: ondas I, III y V reconocibles en los dos oídos, de amplitud baja (la V, 0,2 µV o menos); a 60 dB solo III y V. A 81,1 estímulos/s la V mide menos de 0,2 µV en el OD y 0,08 µV en el OI.
+
+**Interpretación**: latencias absolutas e I-V dentro de los límites del grupo, pero III-V prolongado en los dos oídos, sin oído testigo. La amplitud casi se pierde con la tasa alta. Con una pérdida leve en agudos y los reflejos ausentes en los cuatro registros, la cóclea no lo explica.
+
+**Conclusión**: III-V prolongado en ambos oídos, con ondas de amplitud muy baja que casi desaparecen con la tasa alta: patrón retrococlear de tronco bilateral. Se sugiere correlación clínica e imagenológica sin demora.
+
+**Recomendación**: comunicar el hallazgo a la médica tratante antes de la resonancia y pedir que la derivación no espere. Se adjuntan audiometría e impedanciometría.
+:::
 
 Hipoacusia sensorioneural leve bilateral, con **signos retrococleares de tronco** bilaterales y reflejos ausentes. Se informa el patrón y se comunica a la médica tratante **antes de que llegue la resonancia**. En los niños con glioma de tronco el ABR fue anormal en todos (Weston y cols., 1986). El audiólogo no diagnostica el tumor; sí evita que el informe diga "leve" y la deje esperando.
 
@@ -463,9 +542,36 @@ Hipoacusia sensorioneural leve bilateral, con **signos retrococleares de tronco*
 
 #### Razonamiento
 
-Una pérdida bilateral y progresiva que excede lo esperable para su edad, con discriminación pobre y acúfeno agudo, no es presbiacusia. El VEMP bajo en los dos lados dice que el **nervio vestibular** también está comprometido y el ABR, aunque de ondas bajas, muestra un I-III alargado y casi ningún margen a tasa alta. Se suman la inestabilidad, la disartria y un antecedente de trauma con neurocirugía hace 24 años. Es el patrón de una enfermedad que **toca los nervios craneales en su trayecto**.
+Una pérdida bilateral y progresiva que excede lo esperable para su edad, con discriminación pobre y acúfeno agudo, no es presbiacusia. El VEMP bajo en los dos lados dice que el **nervio vestibular** también está comprometido y el ABR, aunque de ondas bajas, muestra en el OD un I-III alargado y, en el OI, una V que se alarga un 21 % a tasa alta. Se suman la inestabilidad, la disartria y un antecedente de trauma con neurocirugía hace 24 años. Es el patrón de una enfermedad que **toca los nervios craneales en su trayecto**.
 
 #### Diagnóstico y qué sigue
+
+:::comentario-ancho Informe de Fernando, 58 años (caso 12.4)
+**Motivo**: pérdida bilateral progresiva con mala discriminación, acúfeno agudo, inestabilidad y disartria; traumatismo de cráneo con hematoma subdural operado hace 24 años.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,67 | 1,33 | 1,90 / 1,91 |
+| Onda III | 4,60 ↑ | 3,87 | 4,16 / 4,22 |
+| Onda V | 6,67 ↑ | 6,13 | 6,16 / 6,24 |
+| I-III | 2,93 ↑ | 2,54 | 2,54 / 2,53 |
+| III-V | 2,07 | 2,26 | 2,17 / 2,33 |
+| I-V | 5,00 ↑ | 4,80 ↑ | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,54 ↑ | | hasta 0,4 |
+| V a 81,1 estímulos/s | 7,13 (+0,46; 7 %) | 7,43 (+1,30; 21 %) ↑ | alarga 12 a 15 % |
+
+**Morfología**: ondas de menos de 0,2 µV, apenas sobre el ruido. En el OI la I (1,33 ms) llega antes de lo esperable.
+
+**Interpretación**: en el OD la I está a tiempo y la III y la V llegan tarde, con I-III e I-V prolongados. En el OI la III queda en el límite del I-III y la V pasa el límite del I-V, con una I algo temprana; la diferencia interaural de la V es de 0,54 ms y a tasa alta la V del OI se alarga 21 %. Con ondas tan bajas, las latencias tienen un margen de décimas de milisegundo.
+
+**Conclusión**: interpicos I-III e I-V prolongados en OD con onda I de latencia normal; en OI el I-V está algo prolongado y la V se alarga con la tasa alta: patrón retrococlear en OD y probable en OI, con registro de amplitud baja que limita la medición. La diferencia interaural de la V es de 0,54 ms. Se sugiere correlación clínica e imagenológica.
+
+**Recomendación**: evaluación por neurología y resonancia; registrar el antecedente neuroquirúrgico. Se adjuntan audiometría y VEMP.
+:::
 
 Hipoacusia sensorioneural bilateral progresiva con signos cocleares y retrococleares, discriminación disminuida y VEMP bilateral reducido. Se sugiere evaluación por neurología y **resonancia**: la combinación de hipoacusia asimétrica y antecedente de trauma o neurocirugía es una señal de alerta (Sydlowski y cols., 2013). Los audífonos pueden dar un beneficio limitado por la discriminación pobre, y en la pérdida avanzada se ha usado el implante coclear (Tyler y cols., 2012): hay que anticipárselo al paciente.
 
@@ -473,9 +579,37 @@ Hipoacusia sensorioneural bilateral progresiva con signos cocleares y retrococle
 
 #### Razonamiento
 
-Dos oídos iguales, pérdida de graves, acúfeno de graves que late con el pulso: parece un hidrops, y por eso el médico partió por ahí. Pero el hidrops no explica un zumbido que late con el pulso, ni la cefalea diaria, ni la visión que se nubla, ni los 15 kilos de más. El ABR está **apenas fuera del límite** (I-V de 4,7 ms) y la tasa alta no destapa nada. Un ABR así no confirma ni descarta: solo dice que la vía no está intacta. El caso enseña lo contrario de los anteriores.
+Dos oídos iguales, pérdida de graves, acúfeno de graves que late con el pulso: parece un hidrops, y por eso el médico partió por ahí. Pero el hidrops no explica un zumbido que late con el pulso, ni la cefalea diaria, ni la visión que se nubla, ni los 15 kilos de más. El ABR está **algo fuera del límite** (III-V e I-V unos 0,3 ms sobre el límite, igual en los dos oídos) y la tasa alta no destapa nada más. Un ABR así no confirma ni descarta: solo dice que la vía no está intacta. El caso enseña lo contrario de los anteriores.
 
 #### Diagnóstico y qué sigue
+
+:::comentario-ancho Informe de Laura, 29 años (caso 12.5)
+**Motivo**: acúfeno grave bilateral que late con el pulso, sensación de oído tapado y cefalea diaria; se piensa en hidrops.
+
+**Registro**: click a 80, 60 y 40 dB nHL, y a 80 dB nHL con 81,1 estímulos/s.
+
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,60 | 1,53 | 1,80 / 1,80 |
+| Onda III | 4,00 ↑ | 3,87 | 3,94 / 4,01 |
+| Onda V | 6,30 ↑ | 6,23 ↑ | 5,89 / 5,92 |
+| I-III | 2,40 | 2,34 | 2,42 / 2,49 |
+| III-V | 2,30 ↑ | 2,36 ↑ | 2,11 / 2,12 |
+| I-V | 4,70 ↑ | 4,70 ↑ | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,07 | | hasta 0,4 |
+| Razón V/I | alrededor de 0,6 ↑ | | no bajo 1 |
+| V a 81,1 estímulos/s | 6,93 (+0,63; 10 %) | 7,00 (+0,77; 12 %) | alarga 12 a 15 % |
+
+**Morfología**: ondas I, III y V reconocibles y replicables en los dos oídos.
+
+**Interpretación**: III-V e I-V prolongados unos 0,3 a 0,4 ms sobre el límite, igual en los dos oídos, con I-III en el límite y sin diferencia interaural. La tasa alta alarga la V como a un oído sano. Es una alteración leve y simétrica.
+
+**Conclusión**: interpicos III-V e I-V levemente prolongados en ambos oídos, simétricos y sin alargamiento anormal con la tasa alta: hallazgo leve e inespecífico; el examen no confirma ni descarta una causa de tronco. Se adjunta audiometría.
+
+**Recomendación**: evaluación por otorrinolaringología, oftalmología (fondo de ojo) y neurología; un ABR casi normal no debe cerrar el estudio.
+:::
 
 Hipoacusia neurosensorial bilateral de graves con acúfeno pulsátil, **sin hallazgos concluyentes en el ABR**. Se sugiere evaluación por otorrinolaringología y oftalmología (fondo de ojo) y neurología: el acúfeno pulsátil y la pérdida de graves pueden ser la manifestación principal o la única de una hipertensión intracraneal (Sismanis, 1987), que se confirma con criterios clínicos y la punción lumbar (Friedman y cols., 2013).
 
@@ -547,6 +681,7 @@ Niveles de prevención y su marco: → B5.
 1. Kumar A, Patni AH, Charbel F. The Chiari I malformation and the neurotologist. Otol Neurotol. 2002;23(5):727-735. doi:10.1097/00129492-200209000-00021
 1. Anderson RC, Emerson RG, Dowling KC, Feldstein NA. Improvement in brainstem auditory evoked potentials after suboccipital decompression in patients with Chiari I malformations. J Neurosurg. 2003;98(3):459-464. doi:10.3171/jns.2003.98.3.0459
 1. Sismanis A. Otologic manifestations of benign intracranial hypertension syndrome: diagnosis and management. Laryngoscope. 1987;97(S42):1-17. doi:10.1288/00005537-198708001-00001
+1. Carlborg BI, Farmer JC. Transmission of cerebrospinal fluid pressure via the cochlear aqueduct and endolymphatic sac. Am J Otolaryngol. 1983;4(4):273-282. doi:10.1016/s0196-0709(83)80071-4. PMID 6625105
 1. Friedman DI, Liu GT, Digre KB. Revised diagnostic criteria for the pseudotumor cerebri syndrome in adults and children. Neurology. 2013;81(13):1159-1165. doi:10.1212/WNL.0b013e3182a55f17
 1. Levy M, Turtzo C, Llinas RH. Superficial siderosis: a case report and review of the literature. Nat Clin Pract Neurol. 2007;3(1):54-58. doi:10.1038/ncpneuro0356
 1. Sydlowski SA, Levy M, Hanks WD, Clark MD, Ackley RS. Auditory profile in superficial siderosis of the central nervous system: a prospective study. Otol Neurotol. 2013;34(4):611-619. doi:10.1097/MAO.0b013e3182908c5a

@@ -23,7 +23,7 @@ La batería de procesamiento central es la **última** prueba de una cadena, no 
 - **Edad del desarrollo**: bajo los 7 años las pruebas conductuales casi no tienen normas útiles (AAA, 2010).
 - **Una queja concreta**: dónde, con quién, con qué ruido. La queja es lo que se compara con el resultado; sin ella, el resultado no tiene contra qué compararse.
 
-Con un cuestionario de conducta de escucha, que el docente y la familia contestan, esa queja deja de ser una impresión. Hay cuestionarios publicados para niños en inglés que se usan para documentar las dificultades de escucha (Barry y cols., 2015). <!-- verificar: no se conoce un cuestionario equivalente validado en español de Chile; no se afirma que exista. -->
+Con un cuestionario de conducta de escucha, que el docente y la familia contestan, esa queja deja de ser una impresión. Hay cuestionarios publicados para niños en inglés que se usan para documentar las dificultades de escucha (Barry y cols., 2015).
 
 ### Cómo se lee un perfil
 
@@ -96,7 +96,7 @@ La guía agrega que la eficacia **no se mide solo con notas ni con mejoras socia
 
 **Por qué la sala importa.** Lo que entiende un niño depende de cuánto más fuerte que el ruido llega la voz del profesor al oído (la relación señal/ruido, SNR). La voz pierde nivel al alejarse del que habla; el ruido de fondo (ventiladores, pasillo, los propios compañeros) no. Además, las reflexiones en paredes y techo (la **reverberación**) llegan retrasadas y tapan los cambios rápidos del habla. El ruido, la reverberación y la distancia al que habla empeoran la percepción del habla tanto en niños con audición normal como con pérdida auditiva (Crandell y Smaldino, 2000), y un niño con un procesamiento auditivo más frágil tiene menos margen para compensar.
 
-**Qué pide la norma.** El estándar ANSI/ASA S12.60-2010, Parte 1, fija criterios para aulas y otros espacios de aprendizaje: en una sala de hasta 283 m³ (10.000 pies³), el ruido de fondo (sala sin ocupantes) no debe pasar de 35 dBA y el tiempo de reverberación de 0,6 s; entre 283 y 566 m³, el tiempo de reverberación admitido es 0,7 s (ANSI/ASA, 2010). <!-- verificar: valores 35 dBA / 0,6 s / 0,7 s leídos en resúmenes secundarios (blog.ansi.org y sitios de especificación); la norma completa es de pago y no pudo leerse. --> En 32 aulas vacías de ocho escuelas de Ohio, la mayoría **no cumplía** los límites de la versión anterior de esa norma (ANSI S12.60-2002) para ruido y reverberación (Knecht y cols., 2002). Por eso el audiólogo que recomienda "una sala silenciosa" puede tener que medirla o pedir que se mida.
+**Qué pide la norma.** El estándar ANSI/ASA S12.60-2010, Parte 1, fija criterios para aulas y otros espacios de aprendizaje: en una sala de hasta 283 m³ (10.000 pies³), el ruido de fondo (sala sin ocupantes) no debe pasar de 35 dBA y el tiempo de reverberación de 0,6 s; entre 283 y 566 m³, el tiempo de reverberación admitido es 0,7 s (ANSI/ASA, 2010; ASA, s. f.). En 32 aulas vacías de ocho escuelas de Ohio, la mayoría **no cumplía** los límites de la versión anterior de esa norma (ANSI S12.60-2002) para ruido y reverberación (Knecht y cols., 2002). Por eso el audiólogo que recomienda "una sala silenciosa" puede tener que medirla o pedir que se mida.
 
 **Qué se puede hacer sin equipo.** Reducir el ruido (cerrar puertas, apagar lo que zumba), absorber (cortinas, cielos, alfombras, tapas en patas de sillas), acercar al niño al que habla, y dar la instrucción de frente y por escrito. Si el especialista valida que no basta, se pasa a la ayuda remota.
 
@@ -147,7 +147,7 @@ En el adulto mayor se suman efectos en todas las capas: menos audibilidad en agu
 
 ### Trastorno del procesamiento auditivo en el niño
 
-**Qué es, según las guías.** La ASHA (2005) y la AAA (2010) lo definen como una dificultad en el procesamiento neural de la información auditiva en el sistema nervioso central, que se manifiesta como problemas de localización, discriminación, reconocimiento de patrones, aspectos temporales y habla en señales competitivas o degradadas. <!-- Pasada de fundamentos 2026-10-18: decía además "con audición periférica normal", que no es parte de la definición (la AAA 2010 la define como "difficulties in the perceptual processing of auditory information in the central nervous system"; la lista de habilidades es la del informe de la ASHA 2005, leída en una reproducción secundaria). --> La BSA (2018) pide, además de los puntajes, una historia estructurada con cuestionarios validados que recoja la dificultad de escucha de la vida diaria. <!-- verificar: redacción de la BSA 2018, leída solo en el resumen de ASHA Evidence Maps ("a structured case history including well-validated questionnaires"); el PDF original no está disponible en thebsa.org.uk. -->
+**Qué es, según las guías.** La ASHA (2005) y la AAA (2010) lo definen como una dificultad en el procesamiento neural de la información auditiva en el sistema nervioso central, que se manifiesta como problemas de localización, discriminación, reconocimiento de patrones, aspectos temporales y habla en señales competitivas o degradadas. <!-- Pasada de fundamentos 2026-10-18: decía además "con audición periférica normal", que no es parte de la definición (la AAA 2010 la define como "difficulties in the perceptual processing of auditory information in the central nervous system"; la lista de habilidades es la del informe de la ASHA 2005, leída en una reproducción secundaria). --> Según el resumen que hace la ASHA, la BSA (2018) pide, además de los puntajes, una historia estructurada con cuestionarios bien validados que recoja la dificultad de escucha de la vida diaria.
 
 **Cómo se presenta.** Pide repetir, confunde palabras parecidas, rinde peor en ruido que en silencio, se cansa al escuchar, tiene dificultades con instrucciones largas o con dictado, y suele ir bien en lo visual. La familia y la escuela lo describen como "distraído" o "no escucha": es la misma queja que la del niño con una pérdida leve, con un déficit de atención o con un trastorno de lenguaje.
 
@@ -246,24 +246,22 @@ Antes de cualquier prueba central, ¿qué debe estar cerrado? Y si lo está, ¿q
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=80% Audiometría de Alejandro: umbrales en 0 dB y discriminación de 100 %.
+:::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=100% Audiometría de Alejandro: umbrales en 0 dB y discriminación de 100 %.
 :::
 
 Umbrales en **0 dB** en todas las frecuencias, en los dos oídos, sin pérdida de agudos que quite consonantes: la queja no se explica por el umbral. SDT de −5 dB y SRT de 0 dB, y la discriminación llega a **100 %** desde los 30 dB HL. En silencio, entiende.
 
-:::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=80% Impedanciometría de Alejandro.
+:::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=100% Impedanciometría de Alejandro.
 :::
 
 Curva A en los dos oídos: el oído medio está sano, y los reflejos están presentes de 85 a 95 dB SPL.
 
-:::lado
 :::figura cap30_nino_tpa teoae
 - OD: presentes en los 5 bandas, con reproducibilidad de 93 %.
 - OI: presentes en los 5 bandas, con reproducibilidad de 93 %.
 :::
 :::figura cap30_nino_tpa dpoae
 - @OD 2000 | Productos de distorsión presentes en todas las bandas: las células ciliadas externas funcionan.
-:::
 :::
 
 Con la periferia cerrada, se hace una batería corta (el z supone una norma de cada versión).
@@ -309,12 +307,12 @@ Con la queja de ruido y un audiograma que no parece suficiente para explicarla, 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=80% Audiometría de Daniela: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.
+:::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=100% Audiometría de Daniela: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.
 :::
 
 En las frecuencias de la voz la pérdida es **leve**: 20 dB en 1 kHz. Hay una **caída en agudos**: 40 dB en 4 kHz y 55 dB en 8 kHz, donde están las consonantes. El OI es parecido, 45 dB en 4 kHz: bilateral y simétrica. SDT de 10 dB y SRT de 15 dB. En silencio, a nivel cómodo, entiende **92 %** (OD) y 96 % (OI): el silencio no revela el problema. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 44,5 dB en 4 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=80% Impedanciometría de Daniela.
+:::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=100% Impedanciometría de Daniela.
 :::
 
 Los reflejos están presentes en los dos oídos, en niveles esperables: sin signos de lesión retrococlear.
@@ -361,12 +359,12 @@ Plantea al menos tres causas posibles para una niña de 7 años que parece distr
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=80% Audiometría de Pilar: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.
+:::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=100% Audiometría de Pilar: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.
 :::
 
 La aérea está en **40 dB** en 500 Hz con la ósea en 15 dB: un **gap de 25 dB** en graves, pérdida conductiva. En agudos está normal (10 dB): la niña oye los agudos y pierde los graves. El OI tiene el mismo patrón y algo más: 55 dB por aérea y 25 por ósea, un **gap de 30 dB**. SDT de 15 y 20 dB y SRT de 20 y 25 dB. La discriminación llega a **100 %**, pero recién a los 60 dB en el OD y los 70 en el OI: necesita más volumen para entender, no tiene un problema de claridad.
 
-:::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=80% Impedanciometría de Pilar.
+:::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=100% Impedanciometría de Pilar.
 :::
 
 Curva **C** en los dos oídos, con presión negativa en el oído medio: −188 daPa en el OD, muy aplanada, y −161 en el OI.
@@ -494,6 +492,7 @@ Niveles de prevención y su marco: → B5.
 1. Crandell CC, Smaldino JJ. Classroom acoustics for children with normal hearing and with hearing impairment. Lang Speech Hear Serv Sch. 2000;31(4):362-70. doi:10.1044/0161-1461.3104.362. PMID 27764475
 1. Knecht HA, Nelson PB, Whitelaw GM, Feth LL. Background noise levels and reverberation times in unoccupied classrooms: predictions and measurements. Am J Audiol. 2002;11(2):65-71. doi:10.1044/1059-0889(2002/009). PMID 12691216
 1. American National Standards Institute / Acoustical Society of America. ANSI/ASA S12.60-2010/Part 1. Acoustical performance criteria, design requirements, and guidelines for schools, part 1: permanent schools. Melville (NY): ASA; 2010. Disponible en: https://webstore.ansi.org/preview-pages/ASA/preview_ANSI+ASA+S12.60-2010+Part+1.pdf
+1. Acoustical Society of America. Classroom acoustics for architects: a companion booklet for ANSI/ASA S12.60 Parts 1 and 2. Melville (NY): ASA; s. f. Disponible en: https://acousticalsociety.org/wp-content/uploads/2022/01/Classroom_Acoustics_for_Architects_4_18_15.pdf
 1. Thibodeau L. Comparison of speech recognition with adaptive digital and FM remote microphone hearing assistance technology by listeners who use hearing aids. Am J Audiol. 2014;23(2):201-10. doi:10.1044/2014_AJA-13-0065. PMID 24699929
 
 ### Fisiología

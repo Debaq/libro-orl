@@ -1,0 +1,18 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 44,
+    "sexo": "hombre",
+    "anamnesis": {
+      "otros": "Tiene 44 años y es jefe de bodega. Su pareja se queja de que ronca \"como motosierra\" desde hace unos cinco años y hace dos meses se cambió de pieza. Dice que a veces se calla un rato y vuelve con un resoplido, pero que no lo ha visto ahogarse. Él duerme de corrido, se levanta descansado y no se queda dormido de día: ni en el auto, ni viendo televisión. Su peso está estable desde hace años. En primavera se le tapa la nariz y el ronquido empeora; el resto del año respira bien. No toma alcohol de noche ni sedantes, no fuma y no tiene la presión alta. Quiere saber si hay algún aparato o una operación que lo haga dejar de roncar.",
+      "historia": "{{-1800}} Su pareja empieza a notar el ronquido.\n{{-60}} Médico general: ronquido habitual sin somnolencia; se deriva a otorrinolaringología y se pide una poligrafía respiratoria.",
+      "hist": [],
+      "medicamentos": "Ninguno",
+      "cirugias": ""
+    }
+  },
+  "figuras": []
+}

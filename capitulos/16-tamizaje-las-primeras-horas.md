@@ -176,7 +176,6 @@ Con diez horas de vida, ¿harías TEOAE, AABR o las dos? ¿Qué harías si un o�
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap16_normal teoae
 - @OD 2000 | En el oído derecho **no pasa ninguna banda** (0 de 5) y la reproducibilidad es de 23 %: no hay emisión que se repita.
 - @OI 2000 | El oído izquierdo tiene **las cinco bandas** y 88 % de reproducibilidad: la cóclea de esta niña funciona.
@@ -185,7 +184,6 @@ Con diez horas de vida, ¿harías TEOAE, AABR o las dos? ¿Qué harías si un o�
 :::figura cap16_normal dpoae
 - OD: presentes en 4 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
-:::
 :::
 :::figura cap16_normal abr
 - @OD 35 V | A 35 dB nHL el oído derecho **sí responde**: la onda V aparece cerca de los 8 ms, repetida en las dos réplicas. Un AABR diría PASA.
@@ -216,15 +214,13 @@ Está a dos días del alta. ¿Qué examen de tamizaje usarías? ¿Qué harías s
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap16_uci teoae
 - @OD 2000 | Las emisiones del oído derecho están **presentes** en las cinco bandas, con 89 % de reproducibilidad.
-- @OI 1000 | En el izquierdo pasan cuatro de cinco bandas (la de 1 kHz, abierta, no): 68 % de reproducibilidad. Un equipo de tamizaje con TEOAE habría tendido a decir **pasa** en los dos oídos.
+- @OI 1000 | En el izquierdo pasan cuatro de cinco bandas (la de 1 kHz, abierta, no) y la reproducibilidad, de 68 %, queda justo bajo el 70 % del criterio. Con TEOAE sola el OD pasa y el OI queda dudoso: ninguno de los dos oídos deja ver que el problema está más atrás.
 :::
 :::figura cap16_uci dpoae
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
-:::
 :::
 :::figura cap16_uci abr
 - @OD 80 | A **80 dB nHL** no hay ninguna onda en el oído derecho, ni siquiera a un nivel mucho mayor que el del tamizaje.
@@ -255,7 +251,6 @@ Pasa el tamizaje y está listo para el alta. ¿Qué le dices a la familia y qué
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap16_riesgo teoae
 - @OD 2000 | Emisiones **presentes** en las cinco bandas, con 90 % de reproducibilidad.
 - @OI 2000 | También las cinco en el izquierdo, con 86 %: cóclea que responde en los dos lados.
@@ -263,7 +258,6 @@ Pasa el tamizaje y está listo para el alta. ¿Qué le dices a la familia y qué
 :::figura cap16_riesgo dpoae
 - OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
 - OI: presentes en los 7 frecuencias.
-:::
 :::
 :::figura cap16_riesgo abr
 - @OD 35 V | La onda V del oído derecho aparece a 35 dB nHL, cerca de los 8 ms.
@@ -294,7 +288,6 @@ Con tres semanas de vida y un "refiere" repetido, ¿ya se puede hablar de hipoac
 
 #### Paso 4 · Los resultados
 
-:::lado
 :::figura cap16_efusion teoae
 - @OD 2000 | **Ninguna banda** pasa en el oído derecho (0 de 5): reproducibilidad 0 %.
 - @OI 2000 | Tampoco en el izquierdo. El tamizaje a esta edad refiere en los dos oídos.
@@ -303,8 +296,7 @@ Con tres semanas de vida y un "refiere" repetido, ¿ya se puede hablar de hipoac
 - OD: ausentes, con L1/L2 de 65/55 dB SPL.
 - OI: ausentes.
 :::
-:::
-:::imagen figuras/salida/cap16_efusion_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap16_efusion_impedancia.svg ancho=100% Impedanciometría.
 :::
 
 Con la sonda de **1000 Hz**, la curva es **plana en los dos oídos**: sin pico, 0,00 mL de compliancia. Es oído medio ocupado, y los reflejos faltan, ipsi y contra, con la sonda en cada oído. Con 226 Hz la pared blanda de su conducto dibujaría un pico falso y esta niña parecería normal.
@@ -337,6 +329,24 @@ Una niña de diez horas, sin indicadores de riesgo. La TEOAE no pasa en el oído
 
 Audición **sin hallazgos de pérdida**; la TEOAE derecha es un "refiere" de rescreening, no un diagnóstico. Se vuelve a tamizar **los dos oídos** más tarde, con la TEOAE o con el AABR, y se informa a la familia con claridad: "este oído no respondió todavía; es frecuente en las primeras horas y se repite".
 
+:::comentario-ancho Informe de tamizaje de Daniela, 10 horas (caso 16.1)
+**Motivo**: tamizaje auditivo neonatal universal, sala cuna. Sin indicadores de riesgo.
+
+**Registro**: TEOAE con click no lineal a 80 dB SPL y DPOAE con L1/L2 de 65/55 dB SPL (→ H9). AABR con click a 35 dB nHL, polaridad alternada, fonos de inserción y montaje vértex-mastoides; el equipo da PASA si la barra de detección llega a 100 % dentro de 120 s y REFIERE si no llega (→ H10). Un oído y luego el otro.
+
+**Criterio**: TEOAE pasa con 3 de 5 bandas con SNR de 6 dB o más, reproducibilidad de 70 % o más y estabilidad de 80 % o más; DPOAE pasa con 4 de 7 frecuencias (→ H9).
+
+| Prueba | OD | OI |
+|---|---|---|
+| TEOAE | **REFIERE**: 0 de 5 bandas, reproducibilidad 23 % | **PASA**: 5 de 5 bandas, reproducibilidad 88 % |
+| DPOAE | PASA: 4 de 7 frecuencias | PASA: 7 de 7 frecuencias |
+| AABR a 35 dB nHL | **PASA**: onda V a 8,40 ms, repetida | **PASA**: onda V a 8,33 ms, repetida |
+
+**Resultado**: OD, TEOAE refiere con AABR y DPOAE que pasan. OI, pasa en las tres pruebas.
+
+**Conducta**: no se da el OD por tamizado ni se habla de hipoacusia. Rescreening de **los dos oídos** más tarde, antes del mes de vida; si el OD vuelve a referir, se deriva a diagnóstico (→ cap. 17).
+:::
+
 :::comentario Comentario
 La tentación es llamar "alterado" al oído derecho y dejar tranquilo al izquierdo. Pero el izquierdo también se repite: la meta es dejar a cada recién nacido con **un tamizaje completo y válido** en los dos oídos.
 :::
@@ -350,6 +360,25 @@ El niño estuvo en la UCI más de cinco días y tiene cuatro indicadores de ries
 #### Diagnóstico y qué sigue
 
 Tamizaje **REFIERE** en los dos oídos con emisiones presentes. Va **directo a diagnóstico** con ABR por vía aérea y ósea y microfónica coclear (→ cap. 17, → cap. 13). No se repite el AABR en el box ni se tranquiliza a la familia con las emisiones.
+
+:::comentario-ancho Informe de tamizaje de Gabriel, 7 días (caso 16.2)
+**Motivo**: tamizaje antes del alta, UCI neonatal desde el segundo día (34 semanas, exanguinotransfusión, gentamicina por 7 días). Más de 5 días en UCI: la prueba es el AABR.
+
+**Registro**: TEOAE con click no lineal a 80 dB SPL y DPOAE con L1/L2 de 65/55 dB SPL (→ H9). AABR con click a 35 dB nHL, polaridad alternada, fonos de inserción y montaje vértex-mastoides; el equipo da PASA si la barra de detección llega a 100 % dentro de 120 s y REFIERE si no llega (→ H10). Un oído y luego el otro.
+
+**Criterio**: TEOAE pasa con 3 de 5 bandas con SNR de 6 dB o más, reproducibilidad de 70 % o más y estabilidad de 80 % o más; DPOAE pasa con 4 de 7 frecuencias (→ H9).
+
+| Prueba | OD | OI |
+|---|---|---|
+| TEOAE | PASA: 5 de 5 bandas, reproducibilidad 89 % | Dudoso: 4 de 5 bandas, reproducibilidad 68 %, bajo el 70 % del criterio |
+| DPOAE | PASA: 7 de 7 frecuencias | PASA: 7 de 7 frecuencias |
+| AABR a 35 dB nHL | **REFIERE**: sin onda V | **REFIERE**: sin onda V |
+| Click a 80 dB nHL | Sin ondas identificables | Sin ondas identificables |
+
+**Resultado**: **REFIERE** en los dos oídos en el AABR, con emisiones presentes. A 80 dB nHL tampoco se identifican las ondas I, III ni V: la ausencia no se explica por el nivel del estímulo.
+
+**Conducta**: derivación **directa** a diagnóstico con ABR por vía aérea y ósea, polaridades separadas para buscar microfónica y tasa alta (→ cap. 13, cap. 17). No se repite el AABR ni se tranquiliza a la familia con las emisiones.
+:::
 
 :::ojo Ojo clínico
 Pasar la TEOAE en un niño de la UCI **no** lo deja tamizado. Si hubiéramos tamizado solo con emisiones, este niño habría salido de alta como "pasa".
@@ -365,6 +394,24 @@ Pasa las dos pruebas en los dos oídos. A 35 dB nHL, hoy, su cóclea y su nervio
 
 Tamizaje **PASA** en los dos oídos. Se deja organizado el seguimiento: si la PCR es positiva, evaluación audiológica a los **3 meses** como máximo y controles cada 12 meses hasta los 3 años. Si es negativa, se sigue como cualquier niño, con atención a la preocupación de la familia. Se le dice a la familia que **hoy** oye bien, no que "oirá siempre bien".
 
+:::comentario-ancho Informe de tamizaje de Diego, 50 horas (caso 16.3)
+**Motivo**: tamizaje antes del alta. Indicador de riesgo: citomegalovirus materno documentado en el segundo trimestre; PCR de saliva del niño pendiente.
+
+**Registro**: TEOAE con click no lineal a 80 dB SPL y DPOAE con L1/L2 de 65/55 dB SPL (→ H9). AABR con click a 35 dB nHL, polaridad alternada, fonos de inserción y montaje vértex-mastoides; el equipo da PASA si la barra de detección llega a 100 % dentro de 120 s y REFIERE si no llega (→ H10). Un oído y luego el otro.
+
+**Criterio**: TEOAE pasa con 3 de 5 bandas con SNR de 6 dB o más, reproducibilidad de 70 % o más y estabilidad de 80 % o más; DPOAE pasa con 4 de 7 frecuencias (→ H9).
+
+| Prueba | OD | OI |
+|---|---|---|
+| TEOAE | **PASA**: 5 de 5 bandas, reproducibilidad 90 % | **PASA**: 5 de 5 bandas, reproducibilidad 86 % |
+| DPOAE | PASA: 7 de 7 frecuencias | PASA: 7 de 7 frecuencias |
+| AABR a 35 dB nHL | **PASA**: onda V a 8,30 ms, repetida | **PASA**: onda V a 8,50 ms, repetida |
+
+**Resultado**: PASA en los dos oídos, con las dos pruebas.
+
+**Conducta**: alta con seguimiento. Si la PCR de saliva resulta positiva, evaluación audiológica a los 3 meses como máximo y control cada 12 meses hasta los 3 años (JCIH, 2019). Se informa a la familia que oye bien **hoy**.
+:::
+
 :::pregunta Para discutir
 ¿Cómo le explicas a una madre que "pasó" y aun así debe volver a control? ¿Qué palabras evitarías?
 :::
@@ -378,6 +425,39 @@ A las tres semanas, el "refiere" ya no se explica por el vérnix. El timpanogram
 #### Diagnóstico y qué sigue
 
 Rescreening **REFIERE** con timpanograma plano y ABR aéreo elevado con ondas conservadas: **sospecha de efusión del oído medio**. No se llama hipoacusia sensorioneural. Se deriva a diagnóstico con ABR por vía aérea y ósea (→ cap. 17) y a otorrinolaringología para el oído medio.
+
+:::comentario-ancho Informe de Verónica, 20 días (caso 16.4)
+**Motivo**: rescreening; refirió con TEOAE en el OD en la maternidad. Congestión nasal reciente.
+
+**Registro**: TEOAE con click no lineal a 80 dB SPL y DPOAE con L1/L2 de 65/55 dB SPL (→ H9). AABR con click a 35 dB nHL, polaridad alternada, fonos de inserción y montaje vértex-mastoides; el equipo da PASA si la barra de detección llega a 100 % dentro de 120 s y REFIERE si no llega (→ H10). Un oído y luego el otro. Además, timpanometría con sonda de 1.000 Hz y click a 80 dB nHL. Referencia: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014): límite = media + 2 DE.
+
+**Criterio**: TEOAE pasa con 3 de 5 bandas con SNR de 6 dB o más, reproducibilidad de 70 % o más y estabilidad de 80 % o más; DPOAE pasa con 4 de 7 frecuencias (→ H9).
+
+| Prueba | OD | OI |
+|---|---|---|
+| TEOAE | **REFIERE**: 0 de 5 bandas, reproducibilidad 0 % | **REFIERE**: 0 de 5 bandas, reproducibilidad 0 % |
+| DPOAE | REFIERE: 0 de 7 frecuencias | REFIERE: 0 de 7 frecuencias |
+| Timpanograma 1.000 Hz | Plano, 0,00 mL | Plano, 0,00 mL |
+| AABR a 35 dB nHL | **REFIERE**: sin onda V | **PASA** en el borde: onda V a 9,67 ms, pequeña |
+
+| Click a 80 dB nHL | OD | OI | Límite |
+|---|---|---|---|
+| Onda I | 2,83 ↑ | 2,60 ↑ | 1,97 |
+| Onda III | 5,43 ↑ | 5,23 ↑ | 5,00 |
+| Onda V | 7,73 ↑ | 7,57 (en el límite) | 7,56 |
+| I-III | 2,60 | 2,63 | 3,19 |
+| III-V | 2,30 | 2,34 | 3,64 |
+| I-V | 4,90 | 4,97 | 5,70 |
+| Diferencia interaural de la V | 0,16 | | hasta 0,4 |
+
+**Morfología**: ondas I, III y V identificables y replicables a 80 dB nHL en los dos oídos.
+
+**Interpretación**: todas las ondas, la I también, llegan tarde, y los interpicos son normales: patrón de **transmisión** en los dos oídos. A 35 dB nHL, el nivel del tamizaje, el OD no responde y el OI responde apenas, con la V atrasada. No se buscó umbral: el tamizaje no lo hace.
+
+**Conclusión**: rescreening REFIERE en los dos oídos, con timpanograma plano y retraso de todas las ondas: sospecha de efusión del oído medio. No se informa hipoacusia sensorioneural.
+
+**Recomendación**: derivar a diagnóstico con ABR por vía aérea y ósea (→ cap. 17) y a otorrinolaringología para el oído medio. Si el lenguaje no se desarrolla como se espera, volver a evaluar.
+:::
 
 :::comentario Comentario
 Si se hubiera usado la sonda de 226 Hz, el timpanograma saldría "normal" y se habría descartado el oído medio. Con sonda de 1000 Hz, la curva plana es la señal.
@@ -414,6 +494,7 @@ En la serie multicéntrica con AABR, la hipoacusia sensorioneural se confirmó e
 
 ### Técnica
 
+1. Rosa LAC, Suzuki MR, Angrisani RG, Azevedo MF. Auditory brainstem response: reference-values for age. CoDAS. 2014;26(2):117-21. doi:10.1590/2317-1782/2014469in
 1. Joint Committee on Infant Hearing. Year 2019 Position Statement: Principles and Guidelines for Early Hearing Detection and Intervention Programs. J Early Hear Detect Interv. 2019;4(2):1-44. doi:10.15142/fptk-b748
 1. Seehiranwong W, Saengrat P. Timing of newborn hearing screening effects on passing rates: a prospective cohort study. Am J Perinatol. 2026;43(5):673-681. doi:10.1055/a-2675-1768
 1. Cheepcharoenrat C, Rerkasem A. Timing effect on transient evoked otoacoustic emission referral rates for newborn hearing screening within and after 48 hours of birth. Int Arch Otorhinolaryngol. 2025;29(3):1-8. doi:10.1055/s-0045-1802580

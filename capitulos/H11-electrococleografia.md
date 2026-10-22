@@ -34,7 +34,7 @@ Hay que tener claros sus límites desde el principio:
 
 Cuando llega un click a la cóclea, el electrodo del oído recoge la suma de tres señales que nacen en lugares distintos y se distinguen porque **se comportan distinto** (Ferraro y Durrant, 2006):
 
-:::imagen ilustraciones/h11-componentes.svg ancho=100% Lo que registra el electrodo del oído con un click (izquierda) y los tres potenciales que lo forman (derecha). Fíjate en cómo se distinguen: la MC se invierte con la polaridad, el PS es un desplazamiento lento que no se invierte y el PA es la descarga del nervio. La razón PS/PA se calcula con las dos amplitudes medidas desde la línea de base.
+:::imagen ilustraciones/h11-componentes.svg ancho=100% Lo que registra el electrodo del oído con un click (izquierda) y los tres potenciales que lo forman (derecha). Fíjate en cómo se distinguen: la MC se invierte con la polaridad, el PS es un desplazamiento lento que no se invierte y el PA es la descarga del nervio. La razón PS/PA se calcula con las dos amplitudes medidas desde la línea de base. Imagen propia del libro.
 :::
 
 - **Microfónica coclear (MC).** Es una oscilación eléctrica que **copia la forma del sonido**: si el estímulo es un tono de 1 kHz, la MC es un tono de 1 kHz. Sale de las células ciliadas, sobre todo de las externas, cuando sus estereocilios se doblan y dejan entrar corriente (Dallos y Cheatham, 1976). No pasa por ninguna sinapsis, así que aparece apenas el sonido llega a la cóclea, y **se invierte cuando se invierte la polaridad del estímulo**: un click en rarefacción da una MC y uno en condensación da su imagen en espejo. Esa es su firma.
@@ -47,7 +47,7 @@ La polaridad merece una advertencia. En el PEAT las ondas se dibujan hacia arrib
 
 En la cóclea sana, la membrana basilar vibra alrededor de una posición de reposo. La respuesta de las células ciliadas a ese movimiento **no es una recta**: tiene forma de S, casi lineal en el medio y aplanada en los extremos. Si el movimiento cae justo donde la curva es simétrica, lo que sube y lo que baja se compensan y el promedio casi no se mueve. Si el punto de trabajo está en una zona más curva, el movimiento hacia un lado produce más respuesta que el movimiento hacia el otro, y **el promedio se corre**: ese corrimiento, que no oscila, es un potencial continuo, el PS.
 
-:::imagen ilustraciones/h11-sesgo.svg ancho=100% La misma vibración de la membrana con dos puntos de trabajo. La respuesta de la célula ciliada tiene forma de S: si la membrana vibra en el tramo del medio, el promedio queda casi en el reposo y el PS es chico; si el hidrops corre el punto de trabajo, el promedio se desplaza y el PS crece. Es la explicación más difundida, no un hecho demostrado.
+:::imagen ilustraciones/h11-sesgo.svg ancho=100% La misma vibración de la membrana con dos puntos de trabajo. La respuesta de la célula ciliada tiene forma de S: si la membrana vibra en el tramo del medio, el promedio queda casi en el reposo y el PS es chico; si el hidrops corre el punto de trabajo, el promedio se desplaza y el PS crece. Es la explicación más difundida, no un hecho demostrado. Imagen propia del libro.
 :::
 
 En el hidrops, la presión de la endolinfa **empuja la membrana basilar** hacia la rampa timpánica y desplaza su punto de trabajo. La misma vibración produce entonces un promedio más corrido: un PS más grande. La relación entre un PS grande y el hidrops la propusieron Gibson y cols. (1977); el mecanismo del punto de trabajo es la explicación más difundida (Hornibrook, 2017) y se apoya en experimentos en los que una polarización continua de la partición coclear cambió el PS (Durrant y Dallos, 1972). La fisiopatología del hidrops en general se revisa en Salt y Plontke (2010). Es una **hipótesis de trabajo**, no una medición directa del desplazamiento en el paciente.
@@ -60,7 +60,7 @@ El hidrops hace dos cosas más en el trazo. El PS no solo sube: **se prolonga**,
 
 Cuanto más cerca de la cóclea, más grande es todo, y por eso la técnica se hace con electrodos dentro del oído. Un electrodo lejano da una respuesta de **una cuarta a una décima parte** de la que da uno en contacto con la cóclea (Hornibrook, 2017; Simpson y cols., 2020).<!-- Pasada de fundamentos 2026-10-18: decía "alrededor de una cuarta parte (Hornibrook, 2017)". Hornibrook da un cuarto en su resumen, pero cita series de 7 y de 10 a 25 veces; Simpson y cols. (2020) dan un PA transtimpánico 5 a 10 veces mayor que el extratimpánico. -->
 
-:::imagen ilustraciones/h11-electrodos.svg ancho=100% Las tres posiciones del electrodo activo: conducto, tímpano y promontorio. Cuanto más cerca de la cóclea, más grande es la respuesta; las barras muestran el orden de magnitud, no la escala.
+:::imagen ilustraciones/h11-electrodos.svg ancho=100% Las tres posiciones del electrodo activo: conducto, tímpano y promontorio. Cuanto más cerca de la cóclea, más grande es la respuesta; las barras muestran el orden de magnitud, no la escala. Imagen propia del libro.
 :::
 
 Pero el electrodo no solo cambia el tamaño: cambia **la razón**. Los límites publicados son **más altos** con los electrodos extratimpánicos que con la aguja en el promontorio (Wuyts y cols., 1997), así que el límite normal es distinto en cada posición.<!-- Pasada de fundamentos 2026-10-18: decía que el PA "es un campo cercano" que se atenúa más rápido con la distancia que el PS y que "por eso" la misma cóclea da razones más altas desde el conducto. No se encontró respaldo para ese mecanismo; queda el hecho de los límites distintos por electrodo (Wuyts 1997: 0,35 transtimpánico, 0,42 extratimpánico, según EcochgReferences.php). --> Comparar una razón con el límite de otro electrodo es el error más fácil de cometer (ver "Cómo se informa").
@@ -86,7 +86,7 @@ El **tone burst** es un tono breve, de 1 kHz por ejemplo, con subida y bajada su
 
 La ECochG se registra con el mismo equipo del PEAT, con un montaje de oído y su propia tabla de valores. La pantalla tiene la misma lógica (→ H10): parámetros a la izquierda, curvas de cada oído al centro, valores a la derecha y, abajo, lo que está pasando mientras registras.
 
-:::imagen /docs/manual/img/estudiante/ecochg.png Pantalla de ECochG con el OI registrado y marcado
+:::imagen /docs/manual/img/estudiante/ecochg.png Pantalla de ECochG con el OI registrado y marcado Imagen propia: captura de LabSim.
 - @-2.5,8.4 | **Prueba: ECochG.** Cambia el montaje, la ventana y la tabla. Cambiar de prueba no borra el PEAT.
 - @-2.5,14.5 | **Estímulo y polaridad.** *Click* o *Burst*. La alternada cancela la MC; para medir la diferencia rarefacción-condensación hacen falta dos curvas, una de cada polaridad.
 - @-2.5,20 | **Intensidad**: 90 dB nHL. El PS se mide entero solo a nivel alto.
@@ -211,7 +211,7 @@ Registra una curva en **rarefacción** y otra en **condensación**, al mismo niv
 
 Si cambias a *Burst* en el estímulo, cambia lo que mides. En los parámetros avanzados, elige la envolvente **1 ms - 10 ms - 1 ms** y abre la ventana a **20 ms**: con 10 la meseta no entra entera. Cuida el pasa-alto: con un filtro de primer orden, a 5 Hz la meseta de 12 ms pierde cerca de un tercio de su altura hacia el final, con 10 Hz pierde más de la mitad, y con 100 Hz desaparece.
 
-:::imagen ilustraciones/h11-burst-filtro.svg ancho=100% El PS con click y con tone burst, y lo que le hace el pasa-alto. Con click, el PS es apenas un hombro antes del PA; con un burst de 1-10-1 ms es una meseta que dura lo que dura el estímulo. Un pasa-alto de 5 Hz la deja casi entera; uno de 100 Hz, el del PEAT, la borra.
+:::imagen ilustraciones/h11-burst-filtro.svg ancho=100% El PS con click y con tone burst, y lo que le hace el pasa-alto. Con click, el PS es apenas un hombro antes del PA; con un burst de 1-10-1 ms es una meseta que dura lo que dura el estímulo. Un pasa-alto de 5 Hz la deja casi entera; uno de 100 Hz, el del PEAT, la borra. Imagen propia del libro.
 :::
 
 El PS se mide **en la mitad de la meseta**, donde ya no llega la espiga del PA, y el retorno se busca después. Con burst, el PA es mucho más chico que con click, y la razón de un oído sano sale muy por encima de los límites publicados, que son de click. Por eso, con burst, las razones se miden pero no se comparan con un límite: no hay uno publicado.

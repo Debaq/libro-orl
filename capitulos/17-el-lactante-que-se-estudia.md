@@ -8,7 +8,7 @@
 - Decidir cuándo el ASSR complementa al ABR y cuándo no se debe usar.
 :::
 
-Un bebé de cuatro meses no pasó el tamizaje. Los papás llegan con la hoja de derivación, preocupados, y con un bebé que, si se queda dormido en la sala de espera, se despertará justo cuando haya que ponerle los electrodos. Aquí no hay respuestas conductuales que se puedan pedir ni un audiograma que se pueda trazar: toda la información sale de unas pocas pruebas objetivas, hechas en el tiempo que dure el sueño. Este capítulo trata de cómo usar ese tiempo y de lo que significa lo que sale. El tamizaje en sí (quién pasa, quién refiere y por qué) es del capítulo 16; la maduración del ABR y qué fila de la normativa usar, del 14.
+Un bebé de tres meses no pasó el tamizaje. Los papás llegan con la hoja de derivación, preocupados, y con un bebé que, si se queda dormido en la sala de espera, se despertará justo cuando haya que ponerle los electrodos. Aquí no hay respuestas conductuales que se puedan pedir ni un audiograma que se pueda trazar: toda la información sale de unas pocas pruebas objetivas, hechas en el tiempo que dure el sueño. Este capítulo trata de cómo usar ese tiempo y de lo que significa lo que sale. El tamizaje en sí (quién pasa, quién refiere y por qué) es del capítulo 16; la maduración del ABR y qué fila de la normativa usar, del 14.
 
 ## Técnica en foco
 
@@ -38,15 +38,21 @@ El protocolo del programa de Columbia Británica (Hatton y cols., 2022) formaliz
 
 ### Umbral por frecuencia: tone burst, NB chirp y la cuenta a dB eHL
 
-El click estima la audición entre 2 y 4 kHz. Con eso se puede decir si hay una pérdida, pero un bebé al que se le va a pensar un audífono necesita saber **qué frecuencias están afectadas y cuánto**. Para eso se repite la búsqueda con un **tone burst** de 500, 1.000, 2.000 y 4.000 Hz o con el **NB CE-Chirp LS** de la misma banda (→ H10, "Umbral por frecuencia"). Estos estímulos sincronizan peor que el click y la onda V es lo único que se reconoce; por eso se marca solo la V y no se buscan interpicos.
+El click estima la audición entre 2 y 4 kHz. Con eso se puede decir si hay una pérdida, pero un bebé al que se le va a pensar un audífono necesita saber **qué frecuencias están afectadas y cuánto**. Para eso se repite la búsqueda con un **tone burst** de 500, 1.000, 2.000 y 4.000 Hz o con el **NB CE-Chirp LS** de la misma banda (→ H10, "Umbral por frecuencia"). Estos estímulos sincronizan peor que el click y la onda V es lo único que se reconoce; por eso se marca solo la V y no se buscan interpicos. En el lactante la V del burst grave llega muy tarde: con 500 y 1.000 Hz la **ventana** se abre a 15 o 20 ms, porque con 12 la V cercana al umbral se sale del registro.
 
-El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En este capítulo se usan las de la BSA (2019) para lactantes de 12 a 24 semanas con fonos de inserción (→ H10): burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; el click no se corrige.
+Para el primer umbral, el rápido, se usa el **CE-Chirp LS** de banda ancha: da una V más grande que el click y ahorra barridos, pero no dice qué frecuencias están afectadas. El orden en este libro: click o CE-Chirp LS para saber si hay pérdida, vía ósea para saber de qué tipo y NB CE-Chirp LS (o burst) por frecuencia para saber cuánto y dónde.
+
+El umbral que sale está en dB nHL y no es el audiograma. Para pasar a dB eHL (*estimated hearing level*) se **resta una corrección por estímulo y frecuencia**; es una estimación, no una medida (→ H10). En este capítulo se usan las de la BSA (2019) para lactantes de 12 a 24 semanas con fonos de inserción (→ H10): burst de 500 Hz, 20 dB; de 1.000 Hz, 15; de 2.000 Hz, 10; de 4.000 Hz, 5; NB CE-Chirp LS de 500 Hz, 15 dB; de 1.000 Hz, 10; de 2.000 Hz, 5; de 4.000 Hz, 0; el click no se corrige. Esa tabla cubre a los lactantes de 12 a 24 semanas: bajo las 12 semanas, o entre los 6 meses y los 2 años, no hay una columna publicada y se informa en dB nHL, diciéndolo.
 
 :::comentario-ancho Lo que dicen las normas
 Las correcciones **no son universales**. Cada programa publica las suyas, calculadas a partir de comparar umbrales de ABR con umbrales de refuerzo visual en grupos de lactantes con su propio equipo, su propio estímulo y su propia forma de registrar. El protocolo de Columbia Británica, por ejemplo, usa para la vía aérea −10 dB en 500 y 1.000 Hz, −5 dB en 2.000 Hz y 0 dB en 4.000 Hz, y para la vía ósea +5 en 500 Hz, −5 en 2.000 Hz y una cifra preliminar de −5 en 4.000 Hz; en 1.000 Hz por vía ósea no hay corrección confiable (Hatton y cols., 2022). Esas cifras son más chicas que las de este libro (→ H10) y valen **solo** para los parámetros de ese protocolo. Sus autores avisan que se debe esperar una desviación de 5 a 10 dB respecto del umbral conductual y, en una de cada veinte veces, de 15 a 20 dB. La consecuencia práctica es la misma en cualquier tabla: un umbral por ABR es un **rango**, no un número. Cuando se informa, se escribe qué tabla se usó. Otros programas publican las suyas (BSA, 2025; Ontario Infant Hearing Program, 2020) y los datos de base de casi todas son los de Stapells (2000).
 :::
 
 Hay un hecho que hay que saber leer en el registro: los umbrales de la V de un bebé **normal** no son cero. En lactantes con audición normal, el tone burst de 500 Hz da respuesta a 20 dB nHL en solo la mitad de los casos y a 30 en el 92 %; el de 2.000 Hz, a 20 dB nHL en el 96 % (Stapells y cols., 1995, citado en Hatton y cols., 2022). Por eso los programas fijan un **nivel mínimo de normalidad** por frecuencia y, cuando hay respuesta en ese nivel, no buscan más abajo.
+
+### Con qué se comparan las latencias
+
+El lactante no se compara con el adulto. A las 12 semanas se usa la fila del recién nacido de término (V de 6,90 ms, con límite de 7,56; Rosa y cols., 2014). A los 6 meses la V ya cae a 6,50 ms (límite 7,04), y el adulto la tiene cerca de 5,6: una V de 5,7 ms en un bebé de tres meses no es normal, es un registro o una norma equivocados (→ cap. 14).
 
 ### ABR por vía ósea: lo que separa transmisión de sensorineural
 
@@ -108,31 +114,21 @@ Entre los bebés que refieren, la causa más común no es una pérdida sensorion
 
 ### Citomegalovirus congénito
 
-La revisión de Goderis y cols. (2014), de 37 estudios, encontró hipoacusia en 1 de cada 3 niños **sintomáticos** (mayormente bilateral) y en 1 de cada 10 **asintomáticos** (mayormente unilateral), más a menudo severa a profunda, con inicio tardío, fluctuación y progresión. En 307 niños con infección asintomática, Fowler y cols. (1997) hallaron hipoacusia en el 7,2 %, que progresó en el 50 %, fue de inicio tardío en el 18,2 % y fluctuó en el 22,7 %. De ahí sale la lección central: **un bebé con CMV puede haber pasado el tamizaje y perder la audición después**, y el seguimiento no termina con la primera evaluación. El audiograma del CMV es de forma variable: en los asintomáticos suele comprometer los agudos y fluctuar (Cohen y cols., 2014). El programa de Columbia Británica cita a todo niño con CMV a un primer ABR a las 4 a 8 semanas de edad corregida, **sin importar el resultado del tamizaje**, y lo mantiene en control prolongado (Hatton y cols., 2022). El JCIH pide la primera evaluación diagnóstica a más tardar a los 3 meses y luego controles cada 12 meses hasta los 3 años, o antes si la familia o el equipo tienen dudas (JCIH, 2019).
+La revisión de Goderis y cols. (2014), de 37 estudios, encontró hipoacusia en 1 de cada 3 niños **sintomáticos** (mayormente bilateral) y en 1 de cada 10 **asintomáticos** (mayormente unilateral), más a menudo severa a profunda, con inicio tardío, fluctuación y progresión. En 307 niños con infección asintomática, Fowler y cols. (1997) hallaron hipoacusia en el 7,2 %, que progresó en el 50 %, fue de inicio tardío en el 18,2 % y fluctuó en el 22,7 %. De ahí sale la lección central: **un bebé con CMV puede haber pasado el tamizaje y perder la audición después** ({{fig rm-cmv}}), y el seguimiento no termina con la primera evaluación. El audiograma del CMV es de forma variable: en los asintomáticos suele comprometer los agudos y fluctuar (Cohen y cols., 2014). El programa de Columbia Británica cita a todo niño con CMV a un primer ABR a las 4 a 8 semanas de edad corregida, **sin importar el resultado del tamizaje**, y lo mantiene en control prolongado (Hatton y cols., 2022). El JCIH pide la primera evaluación diagnóstica a más tardar a los 3 meses y luego controles cada 12 meses hasta los 3 años, o antes si la familia o el equipo tienen dudas (JCIH, 2019).
 
-:::imagen ilustraciones/cap17-rm-cmv.jpg ancho=92% Resonancia de un niño de 17 meses con CMV congénito y una sordera que apareció después del nacimiento (otra persona, no un bebé de este capítulo). Izquierda, corte axial FLAIR: alteración de la sustancia blanca alrededor de los ventrículos, en los dos lados. Derecha, corte coronal T2: quistes en la parte medial de los lóbulos temporales. Lo que hay que llevarse: el virus que daña la cóclea también deja marcas en el cerebro, y la sordera de este niño no estaba al nacer. La resonancia la pide y la informa el médico. Imagen: Lucignani G y cols. (2022), Children, doi:10.3390/children9081210, Fig. 7 (paneles E y F), CC BY 4.0, adaptada.
-- @12,58 | **Sustancia blanca alterada** junto a los ventrículos (más clara de lo normal).
-- @89,64 | **Quiste temporal**, en la cara medial del lóbulo.
+:::imagen ilustraciones/cap17-rm-cmv.jpg ancho=92% id=rm-cmv Resonancia de un niño de 17 meses con CMV congénito y una sordera que apareció después del nacimiento. E, FLAIR axial: la sustancia blanca junto a los ventrículos, más clara de lo normal, en los dos lados. F, T2 coronal: quistes en la cara medial de los lóbulos temporales. El virus que daña la cóclea también deja marcas en el cerebro. Imagen: Lucignani G y cols. (2022), Children, doi:10.3390/children9081210, Fig. 7 (paneles E y F), CC BY 4.0, adaptada.
 :::
+Una pérdida de un oído desde el nacimiento no siempre viene del CMV. La resonancia, que también pide el médico, puede mostrar que el nervio coclear de ese lado no se formó ({{fig rm-nervio-coclear}}).
 
-Una pérdida de un oído desde el nacimiento no siempre viene del CMV. La resonancia, que también pide el médico, puede mostrar que el nervio coclear de ese lado no se formó.
-
-:::imagen ilustraciones/cap17-rm-nervio-coclear.jpg ancho=70% Resonancia sagital oblicua del conducto auditivo interno de un lactante con hipoacusia de un oído desde el nacimiento (otra persona). Izquierda: el oído que oye, con sus cuatro nervios. Derecha: el oído sordo, donde falta la rama coclear (aplasia o hipoplasia severa). Compara los dos lados abajo y adelante: donde en el oído sano está la rama coclear, en el sordo queda un hueco. En la serie de donde viene, 20 lactantes con hipoacusia unilateral congénita, ninguno tenía CMV y la mitad de las 14 resonancias mostró un nervio coclear ausente o muy delgado. Imagen: Johansson M y cols. (2022), J Clin Med, doi:10.3390/jcm11143966, Fig. 4 (paneles b y d), CC BY 4.0, adaptada.
-- @26,16 | **Nervio facial**.
-- @45,30 | **Ramas vestibulares** del VIII.
-- @15,87 | **Rama coclear**, abajo y adelante.
-- @72,14 | Oído sordo: **nervio facial**.
-- @89,91 | **Ramas vestibulares**, presentes.
-- @69,71 | **Sin rama coclear**: el lugar donde debería estar queda vacío.
+:::imagen ilustraciones/cap17-rm-nervio-coclear.jpg ancho=70% id=rm-nervio-coclear Resonancia sagital oblicua del conducto auditivo interno de un lactante con hipoacusia de un oído desde el nacimiento. Izquierda, el oído que oye: las flechas marcan el nervio facial y las ramas vestibulares, arriba, y la rama coclear, abajo y adelante. Derecha, el oído sordo: el facial y las vestibulares están (flechas), pero donde debería estar la rama coclear queda un hueco (aplasia o hipoplasia severa). En la serie de donde viene, 20 lactantes con hipoacusia unilateral congénita, ninguno tenía CMV y la mitad de las 14 resonancias mostró un nervio coclear ausente o muy delgado. Imagen: Johansson M y cols. (2022), J Clin Med, doi:10.3390/jcm11143966, Fig. 4 (paneles b y d), CC BY 4.0, adaptada.
 :::
-
 ### Rubéola y toxoplasmosis congénitas
 
 La rubéola congénita deja una hipoacusia sensorioneural que, en los estudios clásicos, es típicamente **plana, bilateral y estable**: en 41 niños de una epidemia, el audiograma fue plano y solo en 3 se documentó progresión (Anvar y cols., 1984). Donde no se vacuna sigue siendo una causa común de hipoacusia sensorioneural bilateral severa a profunda (Cohen y cols., 2014). Puede acompañarse de otras manifestaciones del síndrome, como cataratas, cardiopatía congénita y microcefalia (Cohen y cols., 2014), lo que cambia el plan de rehabilitación. <!-- Pasada de fundamentos 2026-10-18: decía "Rara vez viene sola: se acompaña de cataratas, cardiopatía congénita y bajo peso" con un verificar. Cohen 2014: "Congenital rubella syndrome manifests as hearing loss, congenital cataracts, microcephaly, mental retardation, thrombocytopenia, cardiac anomalies..."; no respalda "rara vez viene sola" ni el bajo peso. --> La toxoplasmosis congénita, en cambio, deja hipoacusia sensorioneural en el 28 % de los niños sin tratamiento o con uno limitado, en el 12 % con tratamiento de inicio o cumplimiento no asegurados y en ninguno con 12 meses de tratamiento iniciado antes de los 2,5 meses (Brown y cols., 2009): la pérdida es, en buena parte, evitable.
 
 ### Asfixia perinatal
 
-La falta de oxígeno al nacer daña, entre otras estructuras, el **tronco**. En 51 recién nacidos de término con asfixia, las latencias de las ondas III y V y todos los interpicos se alargaron, con un máximo al tercer día (Jiang y cols., 2003). Después las latencias bajan, y al mes ya están en los valores normales, con los interpicos casi normales (Jiang y cols., 2003); el cuadro permanente es mucho menos frecuente. En niños con encefalopatía hipóxico-isquémica tratada con hipotermia, la hipoacusia neurosensorial permanente bilateral apareció en el 2,7 % (Serrao y cols., 2026). Cuando sí aparece, uno de los patrones posibles es el de una **cóclea viva y un tronco desarmado** <!-- Pasada de fundamentos 2026-10-18: decía "el patrón típico es". Serrao 2026 no describe el patrón y habla de "susceptibility to cochlear damage"; no se encontró una serie que muestre que la secuela típica de la asfixia sea la neuropatía. --> <!-- verificar: proporción coclear frente a neural en la hipoacusia permanente tras asfixia perinatal; se buscó en PubMed (ANSD y asfixia/hipoxia en UCI) sin una serie que lo cuantifique. -->: emisiones presentes y ABR ausente, con la microfónica coclear presente (→ cap. 13). Los factores de riesgo suelen acumularse: prematurez, ventilación, ototóxicos.
+La falta de oxígeno al nacer daña, entre otras estructuras, el **tronco**. En 51 recién nacidos de término con asfixia, las latencias de las ondas III y V y todos los interpicos se alargaron, con un máximo al tercer día (Jiang y cols., 2003). Después las latencias bajan, y al mes ya están en los valores normales, con los interpicos casi normales (Jiang y cols., 2003); el cuadro permanente es mucho menos frecuente. En niños con encefalopatía hipóxico-isquémica tratada con hipotermia, la hipoacusia neurosensorial permanente bilateral apareció en el 2,7 % (Serrao y cols., 2026). Cuando sí aparece, uno de los patrones posibles es el de una **cóclea viva y un tronco desarmado**: emisiones presentes y ABR ausente, con la microfónica coclear presente (→ cap. 13). No hay una serie que diga qué parte de estas pérdidas es coclear y qué parte neural. Los factores de riesgo suelen acumularse: prematurez, ventilación, ototóxicos.
 
 :::sabias ¿Sabías que?
 Un ABR **ausente** con emisiones **presentes** no dice cuánto oye el bebé. En la neuropatía auditiva, la audición y la comprensión no se pueden predecir con las pruebas objetivas del lactante, y los umbrales del ASSR no reflejan los conductuales (Rance y cols., 2005). Ese bebé se sigue con conducta, imágenes y una evaluación por el equipo, no con una tabla de corrección.
@@ -187,32 +183,34 @@ La niña está despierta. ¿Qué haces antes de poner los electrodos? Y, cuando 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap17_efusion_neonatal_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap17_efusion_neonatal_impedancia.svg ancho=100% Impedanciometría.
 :::
 
-Con la sonda de **1.000 Hz** la curva es **plana** en los dos oídos: sin pico, compliancia 0,00 mL. El volumen (0,58 mL en el OD y 0,45 en el OI) no se interpreta con esta sonda. Los reflejos faltan, ipsi y contra, con la sonda en cada oído. Hay un problema de transmisión en los dos, pero esta curva no dice **cuánta** pérdida hay ni si hay otra detrás.
+Con la sonda de **1.000 Hz** la curva es **plana** en los dos oídos: sin pico, compliancia 0,00 mL. El volumen (0,79 mL en el OD y 0,67 en el OI) no se interpreta con esta sonda. Los reflejos faltan, ipsi y contra, con la sonda en cada oído. Hay un problema de transmisión en los dos, pero esta curva no dice **cuánta** pérdida hay ni si hay otra detrás.
 
-:::lado
 :::figura cap17_efusion_neonatal teoae
-- @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 0 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.
+- @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 2 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.
+- @OI 2000 | Tampoco en el OI: 0 de 5 bandas, reproducibilidad 17 %.
 :::
 :::figura cap17_efusion_neonatal dpoae
-- OD: ausentes, con L1/L2 de 65/55 dB SPL.
-- OI: ausentes.
-:::
+- OD: 1 de 7 frecuencias, bajo el criterio de 4 de 7, con L1/L2 de 65/55 dB SPL.
+- OI: ausentes (0 de 7).
 :::
 :::figura cap17_efusion_neonatal abr
-- @OD 80 V | A 80 dB nHL aparece la V del OD a **6,37 ms**, con la I a 2,17 y la III a 4,23: todas las ondas **llegan tarde**, la I incluida.
-- @OD 60 V | La V sigue a 60 dB (7,07 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
-- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 8,13 ms: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: unos 40 dB eHL.
-- @OI 40 V | El OI responde igual: V a 7,20 ms con 60 dB nHL y a 8,03 ms con 40.
-- @OD 20 | A 20 dB nHL no hay respuesta en ninguno de los dos oídos.
+- @OD 80 V | A 80 dB nHL la V del OD llega a **7,4 ms**, con la I a 2,4 y la III a 5,0: todas las ondas **llegan tarde**, la I incluida. Un recién nacido de término tiene la I a 1,8 y la V a 6,9 (Rosa y cols., 2014): aquí la I llega 0,6 ms más tarde y la V, 0,5.
+- @OD 60 V | La V sigue a 60 dB (8,2 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.
+- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 9,2 ms; a 30 y a 20 dB no hay: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: 40 dB eHL.
+- @OI 40 V | El OI responde igual: V a 8,1 ms con 60 dB nHL y a 9,1 con 40; sin respuesta a 30.
 :::
 :::figura cap17_efusion_neonatal abr 2
-- @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 6,53 ms.
-- @OD 40 V | A 40 dB nHL, 7,33 ms.
-- @OD 20 V | A **20 dB nHL** todavía hay V (8,47 ms): la cóclea responde en el nivel más bajo que se probó. Con un umbral aéreo de 40 y uno óseo de 20 o menos, la diferencia es de **20 dB o más**: transmisión.
-- @OI 20 V | El OI da lo mismo: V a 8,63 ms con 20 dB nHL por hueso.
+- @OD 40 V | Con **CE-Chirp LS**, el umbral rápido, la V del OD llega a 9,2 ms con 40 dB nHL y a 30 no hay: **40 dB nHL**, igual que con click. Dice que hay pérdida; no dice en qué frecuencias.
+- @OI 40 V | El OI da lo mismo (V a 9,4 ms a 40 dB nHL).
+:::
+:::figura cap17_efusion_neonatal abr 3
+- @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 7,3 ms.
+- @OD 40 V | A 40 dB nHL, 8,1 ms.
+- @OD 10 V | A 20 dB nHL todavía hay V (9,1 ms), a **10 dB nHL** también (9,7 ms) y a 0 no: **umbral óseo de 10 dB nHL**. Con un umbral aéreo de 40 y uno óseo de 10, la diferencia es de **30 dB**: transmisión.
+- @OI 10 V | El OI da lo mismo: V a 9,4 ms con 10 dB nHL por hueso.
 :::
 
 :::docente Guía del caso
@@ -239,39 +237,65 @@ Es un lactante con una infección que puede progresar. ¿Qué te interesa más: 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap17_cmv_congenito_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap17_cmv_congenito_impedancia.svg ancho=100% Impedanciometría.
 :::
 
-Con 1.000 Hz hay **pico claro** sobre la línea de base en los dos oídos: el oído medio no explica nada. Los reflejos están presentes en los dos lados, ipsi y contra, a 85-95 dB.
+Con 1.000 Hz hay **pico claro** sobre la línea de base en los dos oídos (compliancia de 1,38 mL en el OD y 0,89 en el OI): el oído medio no explica nada. Los reflejos están presentes en los dos lados, ipsi y contra, de 85 a 95 dB SPL.
 
-:::lado
 :::figura cap17_cmv_congenito teoae
 - @OD 2000 | El OD **no tiene emisiones**: 0 de 5 bandas y reproducibilidad de 5 %, con el oído medio sano. Las células ciliadas externas de ese oído no responden.
-- @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 93 %.
+- @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 89 %.
 :::
 :::figura cap17_cmv_congenito dpoae
-- OD: ausentes, con L1/L2 de 65/55 dB SPL.
-- OI: presentes en los 7 frecuencias.
-:::
+- OD: ausentes (0 de 7), con L1/L2 de 65/55 dB SPL.
+- OI: presentes en las 7 frecuencias.
 :::
 :::figura cap17_cmv_congenito abr
-- @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **6,00 ms**, 0,3 ms más tarde que la del OI: la pérdida obliga a trabajar con menos nivel efectivo, la vía no es la culpable.
-- @OD 60 V | La V sigue a 60 dB nHL (6,77 ms).
-- @OD 40 | A 40 dB nHL no hay ninguna onda: **umbral con click del OD de 60 dB nHL**, unos 60 dB eHL.
-- @OI 80 V | El OI responde con I, III y V bien formadas: V a 5,70 ms e interpico **I-V de 4,0 ms**, normal para su edad (→ cap. 14).
-- @OI 20 V | Y mantiene la V hasta **20 dB nHL** (7,77 ms): el oído sano al lado sirve de comparación.
+- @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **7,1 ms**, 0,2 ms más tarde que la del OI: dentro de lo esperable para un lactante de esta edad (hasta 7,6 ms; Rosa y cols., 2014).
+- @OD 50 V | La V sigue hasta 50 dB nHL (7,9 ms) y a 40 no hay onda: **umbral con click del OD de 50 dB nHL**, unos 50 dB eHL (a esta edad el click no se corrige).
+- @OI 80 V | El OI responde con I, III y V bien formadas: I a 1,8, III a 4,5 y V a 6,9 ms, con interpico **I-V de 5,1 ms**, dentro del límite de 5,7 (Rosa y cols., 2014; → cap. 14).
+- @OI 0 V | Y mantiene la V hasta **0 dB nHL** (9,9 ms), el nivel más bajo que registra el equipo: el oído sano al lado sirve de comparación.
 :::
 :::figura cap17_cmv_congenito abr 2
-- @OD 60 V | Con **burst de 500 Hz** el OD tiene V a 80 dB nHL (9,00 ms; el tone burst grave llega más tarde que el click) y una V chica a 60 (10,03 ms); a 40 no hay respuesta. 60 − 20 = **40 dB eHL**. Cerca del umbral la V del grave es tan chica que se promedió más: 3.000 barridos.
-- @OI 20 V | El OI responde hasta 20 dB nHL (V a 10,60 ms).
+- @OD 70 V | Con **burst de 500 Hz**, el OD tiene V a 80 y 70 dB nHL (10,9 ms a 70) y no a 60, 50 ni 40: umbral de 70 dB nHL. La ventana de 20 ms deja ver una V que con 12 ms se habría salido. 70 − 20 = **50 dB eHL**. Cerca del umbral la V del grave es tan chica que se promedió más: 3.000 barridos.
+- @OI 20 V | El OI responde hasta 20 dB nHL (V a 12,3 ms) y a 10 no: 20 − 20 = **0 dB eHL**.
 :::
 :::figura cap17_cmv_congenito abr 3
-- @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (7,73 ms) y no a 40: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**: algo más que en 500 Hz, una pérdida levemente descendente.
-- @OI 40 V | El OI responde a 40 dB nHL (V a 7,57 ms).
+- @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (8,5 ms) y no a 50: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**.
+- @OI 10 V | El OI responde hasta 10 dB nHL (V a 10,5 ms) y a 0 no: 10 − 10 = **0 dB eHL**.
+:::
+:::figura cap17_cmv_congenito abr 4
+- @OD 60 V | **NB CE-Chirp LS de 500 Hz**, ventana de 20 ms: V a 60 dB nHL (9,8 ms) y no a 50. 60 − 15 = **45 dB eHL**.
+- @OI 20 V | El OI llega a 20 dB nHL (11,4 ms) y a 10 no: 20 − 15 = **5 dB eHL**.
+:::
+:::figura cap17_cmv_congenito abr 5
+- @OD 60 V | **NB CE-Chirp LS de 1.000 Hz**, ventana de 15 ms: V a 60 dB nHL (9,1 ms) y no a 50. 60 − 10 = **50 dB eHL**.
+- @OI 10 V | El OI llega a 10 dB nHL (10,7 ms) y a 0 no: 10 − 10 = **0 dB eHL**.
+:::
+:::figura cap17_cmv_congenito abr 6
+- @OD 60 V | **NB CE-Chirp LS de 2.000 Hz**: V a 60 dB nHL (7,9 ms) y no a 50. 60 − 5 = **55 dB eHL**.
+- @OI 10 V | El OI llega a 10 dB nHL (9,9 ms) y a 0 no: 10 − 5 = **5 dB eHL**.
+:::
+:::figura cap17_cmv_congenito abr 7
+- @OD 50 V | **NB CE-Chirp LS de 4.000 Hz**: V a 60 y a 50 dB nHL (8,3 ms) y no a 40. Para 4.000 Hz la corrección de lactantes es 0: **50 dB eHL**.
+- @OI 0 V | El OI responde hasta 0 dB nHL (9,8 ms), el nivel más bajo que registra el equipo: **0 dB eHL o menos**.
 :::
 
+Con los cuatro NB CE-Chirp LS queda el audiograma estimado de este lactante:
+
+Tabla: Umbral de la onda V con NB CE-Chirp LS y audiograma estimado (dB); corrección de la BSA (2019) para lactantes de 12 a 24 semanas: 15 / 10 / 5 / 0
+
+| | 500 | 1.000 | 2.000 | 4.000 |
+|---|---|---|---|---|
+| **OD**, NB CE-Chirp LS (nHL) | 60 | 60 | 60 | 50 |
+| **OD**, estimado (eHL) | 45 | 50 | 55 | 50 |
+| **OI**, NB CE-Chirp LS (nHL) | 20 | 10 | 10 | 0 o menos |
+| **OI**, estimado (eHL) | 5 | 0 | 5 | 0 o menos |
+
+El burst da cifras parecidas con otras correcciones: en el OD, 50 dB eHL en 500 Hz y 50 en 2.000. Entre un estímulo y otro hay hasta 5 dB de diferencia, que es parte del rango de un umbral estimado.
+
 :::docente Guía del caso
-- **Datos clave:** CMV congénito confirmado en orina, sin síntomas al nacer, AABR del alta que **pasa** en los dos oídos, control de seguimiento a los 4 meses. Los papás no sospechan nada.
+- **Datos clave:** CMV congénito confirmado en orina, sin síntomas al nacer, AABR del alta que **pasa** en los dos oídos, control de seguimiento a las 12 semanas. Los papás no sospechan nada.
 - **Hipótesis esperables:** hipoacusia unilateral por CMV, pérdida de transmisión, tamizaje falso negativo, pérdida bilateral.
 - **Qué pedir:** ABR por click en ambos oídos, umbral por frecuencia con burst o NB chirp en el oído afectado y en el sano, timpanometría de 1.000 Hz y emisiones. Lo que no cambia es el plan: **seguimiento repetido**, porque el oído sano de hoy puede dejar de serlo (→ H10, H13).
 - **Errores esperables:** tranquilizar a la familia porque el tamizaje pasó; dar de alta tras una evaluación normal; no repetir el control; concluir que "el sano" es normal sin mirar sus umbrales por frecuencia.
@@ -294,29 +318,27 @@ Con un bebé que no reacciona a los portazos, ¿hasta qué nivel de estímulo si
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap17_rubeola_congenita_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap17_rubeola_congenita_impedancia.svg ancho=100% Impedanciometría.
 :::
 
-Con 1.000 Hz los dos oídos tienen **pico**: el oído medio está sano. Los reflejos aparecen elevados, entre 95 y 115 dB, y en los agudos faltan cuando se estimula el OD: en 2 y 4 kHz no hay reflejo ipsi (sonda en el OD) ni contra (sonda en el OI).
+Con 1.000 Hz los dos oídos tienen **pico** (compliancia de 0,33 mL en el OD y 1,01 en el OI): el oído medio está sano. Los reflejos aparecen elevados, entre 95 y 115 dB, y en los agudos faltan cuando se estimula el OD: en 2 y 4 kHz no hay reflejo ipsi (sonda en el OD) ni contra (sonda en el OI).
 
-:::lado
 :::figura cap17_rubeola_congenita teoae
-- @OD 2000 | Sin emisiones en el OD (0 de 5 bandas, reproducibilidad 0 %).
-- @OI 2000 | Tampoco en el OI (0 de 5, 18 %). Con el oído medio sano, es una pérdida **coclear bilateral**.
+- @OD 2000 | Sin emisiones en el OD (0 de 5 bandas, reproducibilidad 4 %).
+- @OI 2000 | Tampoco en el OI (0 de 5, 3 %). Con el oído medio sano, es una pérdida **coclear bilateral**.
 :::
 :::figura cap17_rubeola_congenita dpoae
-- OD: ausentes, con L1/L2 de 65/55 dB SPL.
-- OI: ausentes.
-:::
+- OD: ausentes (0 de 7), con L1/L2 de 65/55 dB SPL.
+- OI: ausentes (0 de 7).
 :::
 :::figura cap17_rubeola_congenita abr
-- @OD 90 V | Con click, la V del OD aparece recién a **90 dB nHL** (6,50 ms), chica, y a 100 (6,00 ms). A 80 dB no hay onda.
-- @OI 90 V | El OI es igual: V a 6,37 ms a 90 dB nHL y a 5,83 a 100, y nada a 80.
-- @OD 80 | Nada a 80 dB nHL, el nivel con el que parte el examen: sin el nivel máximo, este bebé habría salido "sin respuesta".
+- @OD 90 V | Con click, la V del OD aparece recién a **90 dB nHL** (7,8 ms), chica, y a 100 (7,4 ms). A 80 dB no hay onda.
+- @OI 90 V | El OI es igual: V a 7,5 ms a 90 dB nHL y nada a 80.
+- @OD 80 | Nada a 80 dB nHL, el nivel con el que parte el examen: sin el nivel máximo, este bebé habría salido "sin respuesta". Umbral con click de 90 dB nHL en los dos oídos.
 :::
 :::figura cap17_rubeola_congenita abr 2
-- @OD 100 V | Con **burst de 500 Hz**, la V solo aparece a 100 dB nHL (9,17 ms). 100 − 20 = **80 dB eHL**.
-- @OI 100 V | Igual en el OI (9,03 ms): 80 dB eHL, el **umbral está en el tope** del equipo.
+- @OD 100 V | Con **burst de 500 Hz** y ventana de 20 ms, la V solo aparece a 100 dB nHL (10,7 ms) y no a 90. 100 − 20 = **80 dB eHL**.
+- @OI 100 V | Igual en el OI (10,9 ms): 80 dB eHL, el **umbral está en el tope** del equipo.
 :::
 :::figura cap17_rubeola_congenita abr 3
 - @OD 55 | Por **vía ósea**, ni a 55 ni a 40 dB nHL hay respuesta en el OD.
@@ -347,20 +369,18 @@ El tamizaje con AABR refirió y las emisiones se pueden registrar. ¿Qué agrega
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap17_asfixia_perinatal_impedancia.svg ancho=80% Impedanciometría.
+:::imagen figuras/salida/cap17_asfixia_perinatal_impedancia.svg ancho=100% Impedanciometría.
 :::
 
-Con 1.000 Hz los dos oídos tienen **pico**: no es un problema de oído medio. Aun así, los reflejos **faltan** en los cuatro registros, ipsi y contra con cada sonda.
+Con 1.000 Hz los dos oídos tienen **pico** (compliancia de 1,52 mL en el OD y 0,49 en el OI): no es un problema de oído medio. Aun así, los reflejos **faltan** en los cuatro registros, ipsi y contra con cada sonda.
 
-:::lado
 :::figura cap17_asfixia_perinatal teoae
-- @OD 2000 | **Emisiones presentes** en el OD: 5 de 5 bandas, reproducibilidad de 93 %.
-- @OI 2000 | Y en el OI, también 5 de 5 (92 %). Las células ciliadas externas **funcionan**, a pesar de la gentamicina, que si hubiera dañado la cóclea las habría apagado.
+- @OD 2000 | **Emisiones presentes** en el OD: 5 de 5 bandas, reproducibilidad de 91 %.
+- @OI 2000 | Y en el OI, también 5 de 5 (85 %). Las células ciliadas externas **funcionan**, a pesar de la gentamicina, que si hubiera dañado la cóclea las habría apagado.
 :::
 :::figura cap17_asfixia_perinatal dpoae
-- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.
-- OI: presentes en los 7 frecuencias.
-:::
+- OD: presentes en las 7 frecuencias, con L1/L2 de 65/55 dB SPL.
+- OI: presentes en las 7 frecuencias.
 :::
 :::figura cap17_asfixia_perinatal abr
 - @OD 80 | Con click alternado, a 80 dB nHL **no hay ondas**: ni I, ni III, ni V, en ninguno de los tres niveles (90, 80 y 60 dB nHL).
@@ -391,11 +411,42 @@ Intenta resolver cada caso con los pasos del aprendizaje basado en problemas ant
 
 #### Razonamiento
 
-La curva plana de 1.000 Hz y las emisiones ausentes dicen que hay algo en el oído medio, pero no más: ambas aparecen con una pérdida conductiva mínima. Lo que decide es el ABR. Con click el umbral aéreo está en 40 dB nHL en los dos oídos, y por vía ósea hay respuesta a 20 dB nHL en los dos: **la cóclea oye normal y lo que falta está delante de ella**. Los interpicos son normales (en el OD, I-V de 4,2 ms) y todas las ondas, la I también, llegan tarde, que es el sello de una pérdida de transmisión.
+La curva plana de 1.000 Hz y las emisiones ausentes dicen que hay algo en el oído medio, pero no más: ambas aparecen con una pérdida conductiva mínima. Lo que decide es el ABR. Con click el umbral aéreo está en 40 dB nHL en los dos oídos, y por vía ósea hay respuesta a 10 dB nHL en los dos: **la cóclea oye normal y lo que falta está delante de ella**. Los interpicos son normales (en el OD, I-V de 5,1 ms) y todas las ondas, la I también, llegan tarde, que es el sello de una pérdida de transmisión.
 
 #### Diagnóstico y qué sigue
 
-Pérdida de transmisión bilateral, probablemente por un oído medio ocupado, sin componente sensorioneural detectable. Se informa así, con los umbrales aéreos y óseos y las correcciones usadas, y se deriva a otorrinolaringología: el oído medio es un asunto médico. No se adapta audífono. Se repite la evaluación en unas semanas, porque el umbral aéreo es un blanco móvil y esta pérdida suele resolverse.
+Pérdida de transmisión bilateral, probablemente por un oído medio ocupado, sin componente sensorioneural detectable. Se informa así, con los umbrales aéreos y óseos y las correcciones usadas:
+
+:::comentario-ancho Informe de Andrea, 12 semanas (caso 17.1)
+**Motivo**: refirió en el AABR del alta y en el del primer mes, en los dos oídos. Congestión nasal desde las seis semanas.
+
+**Registro**: click a 80, 60, 40, 30 y 20 dB nHL; CE-Chirp LS a 60, 40 y 30; vía ósea (vibrador en la mastoides) a 55, 40, 20, 10 y 0 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides, sin enmascaramiento contralateral. En sueño natural. Antes: timpanometría con sonda de 1.000 Hz y emisiones.
+
+**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014), la fila más cercana a su edad: límite = media + 2 DE.
+
+| | OD | OI | Límite |
+|---|---|---|---|
+| Onda I | 2,37 ↑ | 2,37 ↑ | 1,97 |
+| Onda III | 5,03 ↑ | 5,10 ↑ | 5,00 |
+| Onda V | 7,43 | 7,40 | 7,56 |
+| I-III | 2,66 | 2,73 | 3,19 |
+| III-V | 2,40 | 2,30 | 3,64 |
+| I-V | 5,06 | 5,03 | 5,70 |
+| Diferencia interaural de la V | 0,03 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 40 → 40 | 40 → 40 | hasta 20 dB eHL |
+| Umbral con CE-Chirp LS (dB nHL) | 40 | 40 | |
+| Umbral por vía ósea (dB nHL) | 10 | 10 | hasta 20 |
+
+**Morfología**: ondas I, III y V identificables y replicables a 80 dB nHL en los dos oídos; por vía ósea y con CE-Chirp LS solo se lee la V.
+
+**Interpretación**: todas las ondas llegan tarde, la I incluida, y los interpicos son normales: patrón de **transmisión**. La V a 80 dB queda dentro del límite porque el retraso es de 0,5 ms. Umbral aéreo de 40 dB nHL con click y con CE-Chirp LS; umbral óseo de 10 dB nHL: diferencia de 30 dB entre las dos vías, sin componente sensorioneural. Corrección a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas; el CE-Chirp LS de banda ancha no tiene corrección publicada y se informa en dB nHL. No se hizo umbral por frecuencia: con una pérdida de transmisión pasajera no cambia la conducta.
+
+**Conclusión**: examen sugiere hipoacusia de transmisión bilateral, de aproximadamente 40 dB HL, para el rango frecuencial estudiado de 2 a 4 kHz, con umbral óseo normal. Se adjuntan timpanometría de 1.000 Hz y emisiones: curva plana y emisiones ausentes en los dos oídos.
+
+**Recomendación**: derivar a otorrinolaringología. Repetir la evaluación en unas semanas. Si el lenguaje no se desarrolla como se espera, volver a evaluar.
+:::
+
+Se deriva a otorrinolaringología: el oído medio es un asunto médico. No se adapta audífono. Se repite la evaluación en unas semanas, porque el umbral aéreo es un blanco móvil y esta pérdida suele resolverse.
 
 :::comentario Comentario
 Es el caso que explica por qué el tamizaje "refiere" tanto. La inmensa mayoría de esos bebés no tiene un problema de cóclea, y la única prueba que lo demuestra a esta edad es el ABR por vía ósea.
@@ -405,11 +456,46 @@ Es el caso que explica por qué el tamizaje "refiere" tanto. La inmensa mayoría
 
 #### Razonamiento
 
-El oído medio está sano (pico con 1.000 Hz) y el OD no tiene emisiones: la pérdida es coclear y unilateral. El ABR lo confirma: el OI, que sí muestra las tres ondas, tiene un interpico I-V normal, y el OD tiene un umbral desplazado: 60 dB nHL con click, burst de 500 y de 2.000 Hz, que equivalen a unos 40 dB eHL en 500 Hz y 50 en 2.000, una pérdida moderada y levemente descendente. El OI es normal en todo. La vía ósea no aporta aquí: con un umbral aéreo de 60 dB nHL el vibrador no llega, y lo sensorioneural se sostiene en el oído medio sano y en las emisiones ausentes. Tiene sentido con lo que se sabe del CMV: afecta la cóclea de un solo oído en la mayoría de los asintomáticos y puede aparecer **después** de un tamizaje normal.
+El oído medio está sano (pico con 1.000 Hz) y el OD no tiene emisiones: la pérdida es coclear y unilateral. El ABR lo confirma: el OI, que sí muestra las tres ondas, tiene un interpico I-V normal (5,1 ms), y el OD tiene un umbral desplazado: 50 dB nHL con click, 60 a 70 con burst y 50 a 60 con NB CE-Chirp LS, que equivalen a 45, 50, 55 y 50 dB eHL de 500 a 4.000 Hz: una pérdida moderada, casi plana. El burst da 50 dB eHL en 500 y 2.000 Hz, a 5 dB del chirp. El OI es normal en todo: 5 dB eHL o menos. La vía ósea no aporta aquí: con un umbral aéreo de 60 dB nHL el vibrador no llega, y lo sensorioneural se sostiene en el oído medio sano y en las emisiones ausentes. Tiene sentido con lo que se sabe del CMV: afecta la cóclea de un solo oído en la mayoría de los asintomáticos y puede aparecer **después** de un tamizaje normal.
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural unilateral derecha de grado moderado, en un lactante con CMV congénito. El plan incluye derivación a otorrinolaringología y a un equipo de infectología pediátrica, adaptación de audífono si corresponde y, sobre todo, **un seguimiento programado**, al menos cada 12 meses hasta los 3 años o antes si hay dudas (JCIH, 2019): la pérdida puede progresar y el oído izquierdo puede dejar de ser normal.
+Hipoacusia sensorioneural unilateral derecha de grado moderado, en un lactante con CMV congénito:
+
+:::comentario-ancho Informe de Pedro, 12 semanas (caso 17.2)
+**Motivo**: control audiológico por infección congénita por citomegalovirus (PCR en orina positiva). Pasó el AABR del alta en los dos oídos.
+
+**Registro**: click a 80, 60, 50, 40, 20 y 0 dB nHL; tone burst de 500 Hz (ventana de 20 ms) y de 2.000 Hz; NB CE-Chirp LS de 500 Hz (ventana de 20 ms), 1.000 Hz (ventana de 15 ms), 2.000 y 4.000 Hz, hasta el umbral de cada oído. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica (3.000 en el burst de 500 Hz), fonos de inserción, montaje Cz-mastoides, sin enmascaramiento contralateral. En sueño natural. Antes: timpanometría con sonda de 1.000 Hz y emisiones.
+
+**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014), la fila más cercana a su edad (a los 6 meses la V cae a 6,50 ms): límite = media + 2 DE. Correcciones a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas.
+
+| | OD | OI | Límite |
+|---|---|---|---|
+| Onda I | no se identifica | 1,83 | 1,97 |
+| Onda III | 4,83 | 4,47 | 5,00 |
+| Onda V | 7,13 | 6,90 | 7,56 |
+| I-III | | 2,64 | 3,19 |
+| III-V | 2,30 | 2,43 | 3,64 |
+| I-V | | 5,07 | 5,70 |
+| Diferencia interaural de la V | 0,23 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 50 → 50 | 0 o menos → 0 o menos | hasta 20 dB eHL |
+| Burst de 500 Hz | 70 → 50 | 20 → 0 | |
+| Burst de 2.000 Hz | 60 → 50 | 10 → 0 | |
+| NB CE-Chirp LS de 500 Hz | 60 → 45 | 20 → 5 | |
+| NB CE-Chirp LS de 1.000 Hz | 60 → 50 | 10 → 0 | |
+| NB CE-Chirp LS de 2.000 Hz | 60 → 55 | 10 → 5 | |
+| NB CE-Chirp LS de 4.000 Hz | 50 → 50 | 0 o menos → 0 o menos | |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables. OD con ondas III y V replicables; la I no se identifica. Con burst y NB chirp solo se lee la V.
+
+**Interpretación**: OI normal para la edad, con interpicos dentro del límite y umbral de 0 dB nHL con click. OD con latencias dentro del límite de un recién nacido de término y umbral elevado: la V del OD llega 0,2 ms después de la del OI, una diferencia dentro de lo esperable. El audiograma estimado del OD es de 45, 50, 55 y 50 dB eHL de 500 a 4.000 Hz: pérdida moderada, casi plana. El burst da 50 dB eHL en 500 Hz y 50 en 2.000, a 5 dB del NB chirp; un umbral estimado es un rango de ±10 dB. Con emisiones ausentes en el OD y timpanograma con pico en los dos oídos, el oído medio no explica la elevación.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural en OD, de grado moderado, con umbrales estimados en dB eHL de 45 (500 Hz), 50 (1.000 Hz), 55 (2.000 Hz) y 50 (4.000 Hz), y audición normal en OI, de 500 a 4.000 Hz.
+
+**Recomendación**: derivar a otorrinolaringología e infectología pediátrica. Control audiológico programado: la pérdida puede progresar y el OI puede dejar de ser normal. Estudio con refuerzo visual cuando la edad lo permita.
+:::
+
+El plan incluye derivación a otorrinolaringología y a un equipo de infectología pediátrica, adaptación de audífono si corresponde y, sobre todo, **un seguimiento programado**, al menos cada 12 meses hasta los 3 años o antes si hay dudas (JCIH, 2019): la pérdida puede progresar y el oído izquierdo puede dejar de ser normal.
 
 :::pregunta Para discutir
 ¿Qué le dices a los papás sobre el oído izquierdo? ¿Qué cambia en el plan si la pérdida del derecho es profunda y el izquierdo sigue normal?
@@ -423,7 +509,34 @@ Sin emisiones y con el oído medio sano, la pérdida es coclear en los dos lados
 
 #### Diagnóstico y qué sigue
 
-Hipoacusia sensorioneural bilateral severa a profunda. Se informa cada oído con el estímulo y el nivel máximo, se aclara que **el umbral está en el tope** y que la vía ósea no entrega información. Falta saber si hay resto auditivo: el ASSR (→ H13) y los estudios de imagen, dentro de la evaluación para un implante coclear, completan el cuadro. Al mismo tiempo se coordina con oftalmología y cardiología.
+Hipoacusia sensorioneural bilateral severa a profunda. Se informa cada oído con el estímulo y el nivel máximo, se aclara que **el umbral está en el tope** y que la vía ósea no entrega información:
+
+:::comentario-ancho Informe de Alba, 12 semanas (caso 17.3)
+**Motivo**: refirió en el AABR en los dos oídos. Rubéola congénita (IgM positiva), cataratas y ductus arterioso. No reacciona a los portazos.
+
+**Registro**: click a 100, 90 y 80 dB nHL; tone burst de 500 Hz con ventana de 20 ms a 100, 90 y 80; vía ósea a 55 y 40 dB nHL. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica (3.000 en el burst de 500 Hz), fonos de inserción, montaje Cz-mastoides, sin enmascaramiento contralateral. En sueño natural. Antes: timpanometría con sonda de 1.000 Hz y emisiones.
+
+**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014); la V tiene un límite de 7,56 ms. Correcciones a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas.
+
+| | OD | OI | Límite |
+|---|---|---|---|
+| Onda V a 100 dB nHL (click) | 7,40 | no se identifica | 7,56 |
+| Onda V a 90 dB nHL (click) | 7,77 | 7,47 | 7,56 |
+| Ondas I y III | no se identifican | no se identifican | |
+| Umbral con click (dB nHL → dB eHL) | 90 → 90 | 90 → 90 | hasta 20 dB eHL |
+| Umbral con burst de 500 Hz | 100 → 80 | 100 → 80 | |
+| Umbral por vía ósea | sin respuesta a 55 | sin respuesta a 55 | |
+
+**Morfología**: solo la onda V es identificable, de baja amplitud y replicable en los niveles indicados. A 80 dB nHL no hay ondas.
+
+**Interpretación**: umbrales en el límite superior del equipo, con emisiones ausentes y oído medio sano. La vía ósea sin respuesta a 55 dB nHL no separa una cóclea sin función de una pérdida muy grande: el vibrador no llega más arriba. Con burst de 500 Hz el umbral queda en el nivel máximo, así que el valor en dB eHL es un mínimo.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural bilateral de grado severo a profundo, de aproximadamente 90 dB HL para el rango de 2 a 4 kHz, y de 80 dB eHL o más en 500 Hz. El umbral está en el tope del equipo.
+
+**Recomendación**: derivación temprana al equipo de rehabilitación y de implante coclear; ASSR y estudios de imagen para completar la evaluación (→ H13). Coordinar con oftalmología y cardiología. Los umbrales conductuales se obtienen después, con refuerzo visual.
+:::
+
+ Falta saber si hay resto auditivo: el ASSR (→ H13) y los estudios de imagen, dentro de la evaluación para un implante coclear, completan el cuadro. Al mismo tiempo se coordina con oftalmología y cardiología.
 
 :::ojo Ojo clínico
 Una V solo a 100 dB nHL no dice que el bebé oiga a 100 dB nHL: dice que el examen llegó a su límite. Un informe que escribe "umbral de 100 dB" sin esa aclaración puede cerrarle puertas a la rehabilitación.
@@ -437,7 +550,28 @@ Con emisiones presentes y ABR sin ondas, la cóclea transduce y el nervio o el t
 
 #### Diagnóstico y qué sigue
 
-Patrón de neuropatía auditiva en un lactante con encefalopatía hipóxico-isquémica. No se informa un umbral ni una hipoacusia "moderada": se informa lo que se midió (emisiones presentes, ABR sin ondas, microfónica presente) y se deriva al equipo que sigue al niño. Se vuelve a evaluar, porque el ABR de muchos niños con asfixia mejora durante los primeros meses.
+Patrón de neuropatía auditiva en un lactante con encefalopatía hipóxico-isquémica. No se informa un umbral ni una hipoacusia "moderada": se informa lo que se midió (emisiones presentes, ABR sin ondas, microfónica presente) y se deriva al equipo que sigue al niño:
+
+:::comentario-ancho Informe de Jorge, 12 semanas (caso 17.4)
+**Motivo**: refirió en el AABR en los dos oídos. Asfixia perinatal (Apgar 2/4, pH de cordón 6,9), hipotermia terapéutica, convulsiones y gentamicina por 7 días.
+
+**Registro**: click a 90, 80 y 60 dB nHL en polaridad alternada, y a 80 dB nHL en condensación y en rarefacción por separado. 21,1 estímulos/s, filtros de 100 a 3.000 Hz, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides. En sueño natural. Antes: timpanometría con sonda de 1.000 Hz y emisiones.
+
+| | OD | OI |
+|---|---|---|
+| Ondas I, III y V (click alternado, 90, 80 y 60 dB nHL) | no se identifican | no se identifican |
+| Microfónica coclear (condensación y rarefacción a 80 dB nHL) | presente, se invierte con la polaridad | presente, se invierte con la polaridad |
+| TEOAE | presentes: 5 de 5 bandas, reproducibilidad 91 % | presentes: 5 de 5 bandas, reproducibilidad 85 % |
+| DPOAE | presentes: 7 de 7 frecuencias | presentes: 7 de 7 frecuencias |
+| Timpanograma de 1.000 Hz | con pico | con pico |
+| Reflejos estapediales | ausentes | ausentes |
+
+**Interpretación**: la cóclea transduce, porque hay emisiones y microfónica; el tronco no entrega una señal sincrónica, porque no hay ondas hasta 90 dB nHL. En este patrón el PEAT no estima el umbral auditivo, y por eso no se hizo tone burst ni se informa una pérdida de grado.
+
+**Conclusión**: ausencia de ondas con emisiones otoacústicas presentes y microfónica coclear presente: patrón de neuropatía auditiva bilateral (→ cap. 13).
+
+**Recomendación**: derivar al equipo que sigue al niño; repetir la evaluación porque el ABR de muchos niños con asfixia mejora durante los primeros meses. Adaptación de audífonos solo con evaluación conductual. Si el lenguaje no se desarrolla como se espera, volver a evaluar.
+:::
 
 :::comentario Comentario
 La gentamicina es el distractor. Una cóclea dañada por ototóxicos habría perdido las emisiones; aquí están, y eso aleja el diagnóstico de una pérdida coclear.
@@ -456,7 +590,7 @@ La prevalencia al nacer de la infección congénita por CMV fue de 0,64 % y cerc
 ## Para cerrar
 
 :::pregunta Preguntas para discutir
-1. Un bebé de cuatro meses se despierta después de que registraste el click a 80 y 60 dB nHL en los dos oídos. ¿Qué puedes informar y qué no?
+1. Un bebé de tres meses se despierta después de que registraste el click a 80 y 60 dB nHL en los dos oídos. ¿Qué puedes informar y qué no?
 2. ¿Por qué una timpanometría plana no alcanza para decir que un bebé tiene una pérdida de transmisión importante?
 3. ¿Cuándo usarías el ASSR en un lactante y cuándo no?
 4. Un niño con CMV pasó el tamizaje. ¿Qué sentido tiene volver a evaluarlo?
@@ -475,6 +609,7 @@ La prevalencia al nacer de la infección congénita por CMV fue de 0,64 % y cerc
 
 ### Técnica
 
+1. Rosa LAC, Suzuki MR, Angrisani RG, Azevedo MF. Auditory brainstem response: reference-values for age. CoDAS. 2014;26(2):117-21. doi:10.1590/2317-1782/2014469in
 1. Joint Committee on Infant Hearing. Year 2019 position statement: principles and guidelines for early hearing detection and intervention programs. J Early Hear Detect Interv. 2019;4(2):1-44. doi:10.15142/fptk-b748
 1. Hatton JL, Van Maanen A, Stapells DR. British Columbia Early Hearing Program: auditory brainstem response protocol [Internet]. Vancouver: BC Early Hearing Program, PHSA; 2022 nov. Disponible en: https://ehdi-pals.org/HostedMaterials/British%20Columbia%20ABR%20Protocol.pdf
 1. Hatton JL, Janssen RM, Stapells DR. Auditory brainstem responses to bone-conducted brief tones in young children with conductive or sensorineural hearing loss. Int J Otolaryngol. 2012;2012:284864. doi:10.1155/2012/284864

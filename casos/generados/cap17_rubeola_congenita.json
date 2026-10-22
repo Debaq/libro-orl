@@ -6,15 +6,15 @@
   },
   "edad": 0,
   "sexo": "mujer",
-  "edad_valor": 4,
-  "edad_unidad": "meses",
+  "edad_valor": 2050,
+  "edad_unidad": "horas",
   "grado": {
    "OD": "severa",
    "OI": "severa"
   },
   "anamnesis": {
-   "otros": "Tiene 4 meses y viene con su mamá. Nació a las 37 semanas, con 2.450 g, más chica de lo esperado. Su mamá, que llegó hace poco al país, no estaba vacunada contra la rubéola: a las 9 semanas de embarazo tuvo fiebre y un sarpullido de tres días que no se estudió. Al nacer se encontraron cataratas en los dos ojos y un soplo del corazón (ductus arterioso persistente), y la IgM para rubéola salió positiva. Estuvo 9 días en neonatología. El tamizaje automático (AABR) refirió en los dos oídos. Los papás cuentan que no se asusta con los portazos ni gira la cabeza cuando le hablan; sí responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.",
-   "historia": "{{-115}} Nacimiento a las 37 semanas, 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.\n{{-105}} AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació a las 37 semanas, con 2.450 g, más chica de lo esperado. Su mamá, que llegó hace poco al país, no estaba vacunada contra la rubéola: a las 9 semanas de embarazo tuvo fiebre y un sarpullido de tres días que no se estudió. Al nacer se encontraron cataratas en los dos ojos y un soplo del corazón (ductus arterioso persistente), y la IgM para rubéola salió positiva. Estuvo 9 días en neonatología. El tamizaje automático (AABR) refirió en los dos oídos. Los papás cuentan que no se asusta con los portazos ni gira la cabeza cuando le hablan; sí responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.",
+   "historia": "{{-84}} Nacimiento a las 37 semanas, 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.\n{{-75}} AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica.",
    "hist": [],
    "medicamentos": "",
    "cirugias": ""
@@ -234,7 +234,7 @@
   },
   "sector": "Camara_sono",
   "edad": 0,
-  "edad_horas": 2880,
+  "edad_horas": 2050,
   "nacimiento": {
    "parto": "vaginal",
    "semanas": null,
@@ -257,8 +257,8 @@
    }
   },
   "volume": [
-   0.37,
-   0.71,
+   0.55,
+   0.83,
    "N/D"
   ],
   "volume_cae": [
@@ -424,7 +424,7 @@
    },
    "medicamentos": "",
    "cirugias": "",
-   "otros": "Tiene 4 meses y viene con su mamá. Nació a las 37 semanas, con 2.450 g, más chica de lo esperado. Su mamá, que llegó hace poco al país, no estaba vacunada contra la rubéola: a las 9 semanas de embarazo tuvo fiebre y un sarpullido de tres días que no se estudió. Al nacer se encontraron cataratas en los dos ojos y un soplo del corazón (ductus arterioso persistente), y la IgM para rubéola salió positiva. Estuvo 9 días en neonatología. El tamizaje automático (AABR) refirió en los dos oídos. Los papás cuentan que no se asusta con los portazos ni gira la cabeza cuando le hablan; sí responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació a las 37 semanas, con 2.450 g, más chica de lo esperado. Su mamá, que llegó hace poco al país, no estaba vacunada contra la rubéola: a las 9 semanas de embarazo tuvo fiebre y un sarpullido de tres días que no se estudió. Al nacer se encontraron cataratas en los dos ojos y un soplo del corazón (ductus arterioso persistente), y la IgM para rubéola salió positiva. Estuvo 9 días en neonatología. El tamizaje automático (AABR) refirió en los dos oídos. Los papás cuentan que no se asusta con los portazos ni gira la cabeza cuando le hablan; sí responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.",
    "ia": {
     "generado": false,
     "verificado": false,
@@ -441,7 +441,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Sara",
+     "nombre": "Alba",
      "edad": 0,
      "genero": 1,
      "es_paciente": true,
@@ -454,18 +454,18 @@
      "disposicion": 0
     },
     {
-     "id": "amvbqkggppr",
+     "id": "amviyvh863o",
      "rol": "madre",
-     "nombre": "Marta Campos",
-     "edad": 28,
+     "nombre": "Patricia Ramos",
+     "edad": 33,
      "genero": 1,
      "es_paciente": false,
      "informante": true,
      "interrumpe": 100,
      "conciencia": 80,
-     "confiabilidad": 83,
+     "confiabilidad": 73,
      "version": "",
-     "comportamiento": "cansada, viene de trabajar y quiere terminar rápido",
+     "comportamiento": "ansiosa, se adelanta y contesta por él antes de que termine",
      "disposicion": 0
     }
    ]
@@ -574,19 +574,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 1660,
+    "average_objetivo": 1602,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.04,
-      "amp": -0.06
+      "lat": 0.12,
+      "amp": -0.05
      },
      "onda_III": {
-      "lat": 0.12,
-      "amp": -0.01
+      "lat": 0.08,
+      "amp": -0.02
      },
      "onda_V": {
-      "lat": 0.08,
-      "amp": 0
+      "lat": 0.11,
+      "amp": -0.01
      }
     },
     "nivel_referencia": null,
@@ -654,19 +654,19 @@
      "rar_cond_ms": 0.1,
      "mc": "normal"
     },
-    "average_objetivo": 2128,
+    "average_objetivo": 2279,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.05,
-      "amp": -0.06
+      "lat": 0.14,
+      "amp": -0.04
      },
      "onda_III": {
-      "lat": 0.14,
-      "amp": 0.01
+      "lat": 0.09,
+      "amp": -0.03
      },
      "onda_V": {
-      "lat": 0.09,
-      "amp": 0
+      "lat": 0.13,
+      "amp": 0.02
      }
     },
     "nivel_referencia": null,
@@ -681,19 +681,19 @@
    "autor": {
     "set": "__default__",
     "label": "LabSim (default)",
-    "poblacion": "toddler",
+    "poblacion": "neonate",
     "baseline": {
      "I": {
-      "lat": 1.52,
-      "amp": 0.231
+      "lat": 1.79,
+      "amp": 0.171
      },
      "III": {
-      "lat": 3.67,
-      "amp": 0.27
+      "lat": 4.56,
+      "amp": 0.205
      },
      "V": {
-      "lat": 5.8,
-      "amp": 0.388
+      "lat": 6.9,
+      "amp": 0.299
      }
     }
    }
@@ -713,9 +713,9 @@
      "8000": 45
     },
     "atten_db": 0,
-    "ruido_db": 1.5,
-    "sello_pct": 77,
-    "variabilidad_db": 2.9,
+    "ruido_db": 0.9,
+    "sello_pct": 90,
+    "variabilidad_db": 2.7,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -733,9 +733,9 @@
      "8000": 45
     },
     "atten_db": 0,
-    "ruido_db": 1.8,
-    "sello_pct": 85,
-    "variabilidad_db": 2,
+    "ruido_db": 1.4,
+    "sello_pct": 76,
+    "variabilidad_db": 3.5,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -872,6 +872,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.2,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -886,16 +901,16 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T01:46:58+00:00",
+   "at": "2026-10-22T03:13:52+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Sara Paula",
-   "apellido": "Campos Paredes",
-   "rut": "28235146",
-   "fecha_nac": "18-06-2026"
+   "nombre": "Alba Noelia",
+   "apellido": "Ramos Luna",
+   "rut": "28267993",
+   "fecha_nac": "28-07-2026"
   },
-  "historia_clinica": "{{-115}} Nacimiento a las 37 semanas, 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.\r\n{{-105}} AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica."
+  "historia_clinica": "{{-84}} Nacimiento a las 37 semanas, 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.\r\n{{-75}} AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica."
  }
 }

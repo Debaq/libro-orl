@@ -57,7 +57,7 @@ Las células ciliadas externas son las más vulnerables al ruido, a los ototóxi
 - **Lo fuerte llega casi igual**, porque a ese nivel el amplificador casi no aportaba.
 - Entre un umbral más alto y una molestia que casi no se movió, la sonoridad tiene que recorrer el mismo camino en menos decibeles: **crece más rápido**. Eso es el **reclutamiento** (Moore, 2007).
 
-:::imagen ilustraciones/h06-sonoridad.svg Cómo crece la sonoridad. A: el oído normal oye desde 10 dB y le molesta a 110; el coclear oye desde 45, sube empinado y alcanza al normal a 70 dB; el retrococlear sube paralelo y no lo alcanza. 50 dB en el normal, 65 en el coclear y 85 en el retrococlear suenan igual. B: las mismas curvas leídas como escaleras del Fowler. Cifras de la tabla del Fowler.
+:::imagen ilustraciones/h06-sonoridad.svg Cómo crece la sonoridad. A: el oído normal oye desde 10 dB y le molesta a 110; el coclear oye desde 45, sube empinado y alcanza al normal a 70 dB; el retrococlear sube paralelo y no lo alcanza. 50 dB en el normal, 65 en el coclear y 85 en el retrococlear suenan igual. B: las mismas curvas leídas como escaleras del Fowler. Cifras de la tabla del Fowler. Imagen propia del libro.
 :::
 
 Se nota en todo lo que se mide sobre el umbral. El **LDL** casi no se mueve y el campo dinámico se estrecha (→ H5): Patricia, más abajo, oye por el OI desde 50 dB en 500 Hz y le molesta a 110, igual que por el OD, que oye desde 5; le quedan 60 dB de campo contra 105. El oído nota **cambios de 1 dB** (SISI). El **reflejo estapedial** aparece a poco nivel sobre el umbral (fenómeno de Metz, → H7). Y como se pierde también la sintonía fina, el paciente cuenta que los ruidos fuertes le molestan, que entiende peor con ruido y que las voces suenan "raras" por ese oído.
@@ -86,7 +86,7 @@ Cuando un tumor comprime el nervio, o la mielina está dañada, las fibras sigue
 
 <!-- verificar: el agotamiento de la descarga en fibras comprimidas o desmielinizadas como mecanismo del deterioro tonal; confirmar el capítulo en Møller 2013. -->
 
-:::imagen ilustraciones/h06-adaptacion.svg La adaptación en el tiempo. A: durante un tono continuo, la fibra sana se adapta en pocos segundos y se sostiene; la del nervio comprimido se va agotando y, cuando cae bajo lo que hace falta para oír el tono, el paciente baja la mano. B: en el Carhart cada subida de 5 dB abre un minuto nuevo; en el Rosenberg hay un solo minuto y se cuenta cuánto se subió dentro de él.
+:::imagen ilustraciones/h06-adaptacion.svg La adaptación en el tiempo. A: durante un tono continuo, la fibra sana se adapta en pocos segundos y se sostiene; la del nervio comprimido se va agotando y, cuando cae bajo lo que hace falta para oír el tono, el paciente baja la mano. B: en el Carhart cada subida de 5 dB abre un minuto nuevo; en el Rosenberg hay un solo minuto y se cuenta cuánto se subió dentro de él. Imagen propia del libro.
 :::
 
 En la cóclea dañada, la fibra que recibe señal la sostiene. Cerca del umbral el tono depende de pocas fibras y puede apagarse algo: el Carhart de un oído coclear puede deteriorar hasta 10 a 25 dB. Pero 30 o 40 dB más arriba entra una franja ancha de la cóclea, con muchas fibras, y el tono se sostiene. Por eso el **STAT** trabaja alto (Jerger y Jerger, 1975): a 100 dB HL un oído coclear no deteriora, y un nervio enfermo se apaga igual.
@@ -318,7 +318,7 @@ Igual que el Carhart, pero el reloj **no se reinicia**: la prueba dura un minuto
 | 30 dB o más | sospecha de lesión retrococlear |
 :::
 
-<!-- verificar: cortes 0-5 / 10-25 / 30 o más dB tomados del cap. 11, sin fuente puntual; el protocolo da > 30 dB para el Rosenberg. -->
+*Estos cortes son criterio de este libro, tomados de la lectura habitual del capítulo 11; no tienen una fuente puntual.*
 
 :::ojo Carhart o Rosenberg
 La diferencia está en el reloj. En el **Carhart**, cada subida de 5 dB abre un minuto nuevo. En el **Rosenberg**, el minuto sigue corriendo mientras subes. Si mezclas las dos, el número que anotas no corresponde a ninguna.

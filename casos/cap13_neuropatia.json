@@ -1,0 +1,70 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "neuropatia",
+      "OI": "neuropatia"
+    },
+    "edad": 15,
+    "sexo": "mujer",
+    "grado": {
+      "OD": "leve",
+      "OI": "leve"
+    },
+    "anamnesis": {
+      "otros": "Tiene 15 años y viene con su mamá. Nació a las 33 semanas, con 1.900 g, y estuvo en neonatología por una ictericia grave que necesitó fototerapia y una exanguinotransfusión. El examen de oído del recién nacido \"salió bueno\". Desde chica, dice la mamá, \"oye cuando quiere\": hay días en que entiende bien y otros en que casi nada, y entiende mucho mejor si le ve la cara a quien le habla. En la sala, con ruido, se pierde: se sienta adelante y copia del cuaderno de una compañera. En silencio y a solas con su mamá conversa sin problema. Nunca ha tenido pitidos, dolor ni secreción de oído, ni mareos.",
+      "historia": "{{-5470}} Neonatología: prematura de 33 semanas con ictericia grave; fototerapia y exanguinotransfusión. Tamizaje auditivo con emisiones otoacústicas: pasa en los dos oídos.\n{{-60}} Profesora jefe: baja de rendimiento y dificultad para seguir instrucciones en la sala; se deriva a evaluación auditiva.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "teoae"
+    },
+    {
+      "tipo": "dpoae"
+    },
+    {
+      "tipo": "logoaudiometria",
+      "enmascarado": true
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        90
+      ],
+      "marcar": [],
+      "polaridad": "rarefaccion"
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        90
+      ],
+      "marcar": [],
+      "polaridad": "condensacion"
+    }
+  ]
+}

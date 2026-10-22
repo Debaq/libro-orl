@@ -74,10 +74,8 @@ Se marca primero la **línea de base** (BL), antes de que llegue la respuesta. D
 La pantalla del equipo, marca por marca, está en H11.
 
 :::comentario Lo que dicen las normas
-El límite de la razón de amplitudes cambia de una serie a otra. Con electrodo timpánico, Margolis y cols. (1995) fijaron el criterio para un 95 % de especificidad, y las revisiones que los citan lo sitúan entre 0,40 y 0,49 según el nivel; con solo 12 controles, Satar y cols. (2003) llegaron a 0,32. Con electrodo de conducto, 0,50 es el valor más alto observado en sanos (Roland y cols., 1993), no un corte estadístico. Wuyts y cols. (1997) proponen 0,35 para el transtimpánico y 0,42 para el "extratimpánico", pero agrupan bajo ese nombre el tímpano y el conducto. La razón de áreas (límite 1,94) se publicó con electrodo timpánico (Devaiah y cols., 2003); con aguja en el promontorio no resultó más sensible que la de amplitudes (Baba y cols., 2009). La diferencia entre polaridades la recomiendan Margolis y cols. (1995), pero en la serie de Satar y cols. (2003) los Ménière definidos tuvieron un promedio normal y agregarla no mejoró el diagnóstico. En este libro se usan los límites de la tabla anterior.
+El límite de la razón de amplitudes cambia de una serie a otra. Con electrodo timpánico, Margolis y cols. (1995) fijaron el criterio para un 95 % de especificidad, y las series con ese electrodo que recoge Grasel y cols. (2017) dan cortes de 0,40 a 0,45; con solo 12 controles, Satar y cols. (2003) llegaron a 0,32. Con electrodo de conducto, 0,50 es el valor más alto observado en sanos (Roland y cols., 1993), no un corte estadístico. Wuyts y cols. (1997) proponen 0,35 para el transtimpánico y 0,42 para el "extratimpánico", pero agrupan bajo ese nombre el tímpano y el conducto. La razón de áreas (límite 1,94) se publicó con electrodo timpánico (Devaiah y cols., 2003); con aguja en el promontorio no resultó más sensible que la de amplitudes (Baba y cols., 2009). La diferencia entre polaridades la recomiendan Margolis y cols. (1995), pero en la serie de Satar y cols. (2003) los Ménière definidos tuvieron un promedio normal y agregarla no mejoró el diagnóstico. En este libro se usan los límites de la tabla anterior.
 :::
-
-<!-- verificar: el rango 0,40-0,49 del límite de Margolis 1995 viene de fuente secundaria (EcochgReferences.php lo marca "a confirmar en el original"). -->
 
 ### El reclutamiento: Fowler, SISI y Metz
 
@@ -187,13 +185,10 @@ Lo que se espera encontrar en un Ménière típico, de un lado:
 - **VEMP cervical**: reducido o ausente del lado enfermo (Young, 2013).
 - **Emisiones**: reducidas en la zona de la pérdida, que en el Ménière son los graves.
 
-El hidrops también se puede ver en vivo, con una resonancia hecha horas después de inyectar gadolinio. No es parte de los criterios de 2015: la pide y la informa el médico.
+El hidrops también se puede ver en vivo, con una resonancia hecha horas después de inyectar gadolinio ({{fig rm-hidrops}}). No es parte de los criterios de 2015: la pide y la informa el médico.
 
-:::imagen ilustraciones/cap09-rm-hidrops.jpg ancho=90% Resonancia para hidrops de un hombre de 31 años con Ménière del oído derecho; no es un paciente de este capítulo. Se muestra para que se vea la forma de lo que miden la ECochG y el VEMP. El espacio endolinfático agrandado se ve negro dentro de la perilinfa blanca. Rótulos originales: C, cóclea; S, sáculo; U, utrículo; *Right* y *Left*, oído derecho e izquierdo. Imagen: Young YH, Lin KT (2024), J Otolaryngol Head Neck Surg, doi:10.1177/19160216241250350, Fig. 2, CC BY-NC 4.0.
-- @13,22 | **Oído con Ménière**: hidrops coclear grado II y sacular y utricular grado III (flechas continuas). Las manchas negras son la endolinfa agrandada.
-- @91,48 | **El otro oído, de control**: sin hidrops (flechas punteadas). La perilinfa queda blanca alrededor de la cóclea y el vestíbulo.
+:::imagen ilustraciones/cap09-rm-hidrops.jpg ancho=90% id=rm-hidrops Resonancia para hidrops de un hombre de 31 años con Ménière del oído derecho. El espacio endolinfático agrandado se ve negro dentro de la perilinfa blanca. Izquierda, el oído con Ménière: hidrops coclear grado II y sacular y utricular grado III (flechas continuas). Derecha (*Left*), el otro oído: sin hidrops (flechas punteadas). C, cóclea; S, sáculo; U, utrículo. Imagen: Young YH, Lin KT (2024), J Otolaryngol Head Neck Surg, doi:10.1177/19160216241250350, Fig. 2, CC BY-NC 4.0.
 :::
-
 :::comentario Lo que dicen las normas
 En la clínica el Ménière no siempre es el **típico**, con la ECochG y el VEMP alterados. Entre un cuarto y la mitad de los Ménière tienen la ECochG **normal** (Lamounier y cols., 2014); con electrodo extratimpánico, la sensibilidad fue de alrededor de 48 % y la especificidad de 84 % (Ayub y cols., 2019). En el hidrops retardado, el VEMP cervical salió normal en casi la mitad de los pacientes (Young y cols., 2002). Una ECochG o un VEMP normales **no descartan** el hidrops; uno alterado lo apoya.
 :::
@@ -268,14 +263,14 @@ El otorrinolaringólogo pidió evaluación auditiva y electrococleografía. ¿Qu
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap09_p38_audiosupra.svg ancho=80% Audiometría de Patricia: OD normal y OI con pérdida sensorioneural ascendente, con LDL de 110 dB en los dos oídos y Fowler. Discriminación de 88 % en el OI, SISI de 90 % y Carhart sin deterioro.
+:::imagen figuras/salida/cap09_p38_audiosupra.svg ancho=100% Audiometría de Patricia: OD normal y OI con pérdida sensorioneural ascendente, con LDL de 110 dB en los dos oídos y Fowler. Discriminación de 88 % en el OI, SISI de 90 % y Carhart sin deterioro.
 :::
 
 En los graves el OI está en **50 dB**, enmascarado: la diferencia con el OD es de 45 dB. Hacia los agudos mejora: 30 dB en 2 kHz y 25 en 3, 4 y 6 kHz. Es una curva **ascendente**. La ósea va con la aérea: sensorioneural. El OD está entre 0 y 10 dB y es la referencia para el Fowler. El LDL es de **110 dB** en los dos oídos: el OI oye 45 dB peor en los graves y se molesta al mismo nivel, así que el campo dinámico se estrecha. El OD tiene un SDT de 0 dB, un SRT de 5 dB y llega al 100 % de discriminación a 40 dB. El OI tiene un SDT de 30 dB y un SRT de 35 dB, y llega al **88 %** a 70 dB: algo menos que el OD, acorde a una pérdida coclear leve a moderada.
 
 Sobre el umbral, Patricia entrega lo que se vio en H6: **Fowler** en 1 kHz con reclutamiento completo (los dos oídos suenan igual a 70 dB HL), **SISI** de 90 % en el OI, **Carhart** sin deterioro en 2 ni en 4 kHz, y **STAT** negativo en los dos oídos. Recluta, es coclear.
 
-:::imagen figuras/salida/cap09_p38_impedancia.svg ancho=80% Impedanciometría de Patricia.
+:::imagen figuras/salida/cap09_p38_impedancia.svg ancho=100% Impedanciometría de Patricia.
 :::
 
 Los dos timpanogramas son A. Con la sonda en el OI, el reflejo ipsilateral aparece a 90 dB SPL en 500 Hz, que son 84,5 dB HL: solo **34,5 dB sobre su umbral** de 50 dB. Es **Metz**. En 1 kHz aparece a 85 dB HL, contra un umbral de 40: 45 dB sobre el umbral, también Metz. El OD tiene los reflejos en el mismo nivel, pero con un umbral de 5 dB: 80 dB de distancia, lo normal. Que los reflejos del OI salgan donde los de un oído sano, con 40 a 45 dB de pérdida, es el reclutamiento visto sin preguntarle nada a la paciente.
@@ -316,7 +311,7 @@ El OD no oye desde los seis años. ¿Qué vas a tener que enmascarar, y dónde? 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap09_hidrops_retardado_audiosupra.svg ancho=80% Audiometría de Samuel, de un día sin crisis: OD con pérdida profunda medida con ruido en el OI, y OI con pérdida leve ascendente. Discriminación de 96 % en el OI y 27 % en el OD.
+:::imagen figuras/salida/cap09_hidrops_retardado_audiosupra.svg ancho=100% Audiometría de Samuel, de un día sin crisis: OD con pérdida profunda medida con ruido en el OI, y OI con pérdida leve ascendente. Discriminación de 96 % en el OI y 27 % en el OD.
 :::
 
 El OD está entre 90 y 115 dB, con enmascaramiento en el OI; sin enmascarar, habría respondido el OI. La ósea del OD, enmascarada, no responde al máximo del vibrador. El Weber se va al **OI**, el que oye: en una pérdida sensorioneural va al oído mejor. El Rinne del OD sale negativo en 500 y 1.000 Hz, porque el vibrador derecho lo oye la cóclea izquierda: es un **falso negativo**, y el audiograma enmascarado lo confirma. El OI está en **30 dB** de 125 a 500 Hz y mejora a 20 dB en 1 y 2 kHz: los graves están 10 dB peor que los medios, una curva **ascendente** leve. De 3 a 8 kHz baja de 25 a 35 dB: es la caída de la edad, a los 54 años (→ cap. 5). Este es el audiograma de **un día**: lleva un mes y medio sin crisis.
@@ -333,7 +328,7 @@ Sobre el umbral, el **Fowler no se puede hacer**: no hay un oído de referencia 
 | STAT, 500, 1.000 y 2.000 Hz | (−) |
 :::
 
-:::imagen figuras/salida/cap09_hidrops_retardado_impedancia.svg ancho=80% Impedanciometría de Samuel, de un día sin crisis.
+:::imagen figuras/salida/cap09_hidrops_retardado_impedancia.svg ancho=100% Impedanciometría de Samuel, de un día sin crisis.
 :::
 
 Los dos timpanogramas son A. Con la sonda en el OI, el reflejo ipsilateral aparece a 90 dB SPL en 500 Hz, 84,5 dB HL: **54,5 dB sobre su umbral** de 30. Es Metz, por poco. Con la sonda en el OD no hay reflejo ipsilateral: el tono no llega a ninguna cóclea que lo oiga. Con la sonda en el OI tampoco hay reflejo contralateral, es decir, con el tono en el OD. En cambio, con la sonda en el OD y el tono en el OI, el reflejo aparece en su nivel normal: el oído medio derecho está sano. Falla todo lo que se estimula por el OD.
@@ -426,6 +421,7 @@ Niveles de prevención y su marco: → B5.
 1. Satar B, Meteoğlu A, Yetişer S, Özkaptan Y. Endolenfatik hidropsta kulak zarından elektrokokleografi: klinik ve elektrofizyolojik ilişkinin araştırılması. Türkiye Klinikleri J ENT. 2003;3(1):30-39.
 1. Roland PS, Rosenbloom J, Yellin W, Meyerhoff WL. Intrasubject test-retest variability in clinical electrocochleography. Laryngoscope. 1993;103(9):963-966. doi:10.1288/00005537-199309000-00004. PMID 8361316.
 1. Wuyts FL, Van de Heyning PH, Van Spaendonck MP, Molenberghs G. A review of electrocochleography: instrumentation settings and meta-analysis of criteria for diagnosis of endolymphatic hydrops. Acta Otolaryngol Suppl. 1997;526:14-20. doi:10.3109/00016489709124014.
+1. Grasel SS, Beck RMO, Loureiro RSC, Rossi AC, de Almeida ER, Ferraro J. Normative data for TM electrocochleography measures. J Otol. 2017;12(2):68-73. doi:10.1016/j.joto.2017.04.005. PMID 29937840
 1. Baba A, Takasaki K, Tanaka F, Tsukasaki N, Kumagami H, Takahashi H. Amplitude and area ratios of summating potential/action potential (SP/AP) in Meniere's disease. Acta Otolaryngol. 2009;129(1):25-29. doi:10.1080/00016480701724888. PMID 19003588.
 1. Lamounier P, Gobbo DA, de Souza TSA, de Oliveira CACP, Bahmad F Jr. Electrocochleography for Ménière's disease: is it reliable? Braz J Otorhinolaryngol. 2014;80(6):527-532. doi:10.1016/j.bjorl.2014.08.010.
 1. Klockhoff I, Lindblom U. Endolymphatic hydrops revealed by glycerol test. Preliminary report. Acta Otolaryngol. 1966;61(5):459-62. doi:10.3109/00016486609127084

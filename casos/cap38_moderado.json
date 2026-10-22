@@ -1,0 +1,20 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 52,
+    "sexo": "hombre",
+    "anamnesis": {
+      "otros": "Tiene 52 años y maneja un colectivo. Ronca desde hace años y desde hace dos \"se me va la cabeza\" en los semáforos; el mes pasado se salió un poco de la pista y se asustó. Su señora cuenta que se ahoga y que despierta a veces con un sobresalto. Se levanta con dolor de cabeza y la boca seca, porque duerme con la boca abierta. La nariz derecha no le pasa desde que se la quebró jugando a la pelota a los 20 años y la izquierda se le tapa en primavera, con estornudos y picazón. Para poder dormir usa un spray descongestionante casi todas las noches. Tiene la presión alta, en tratamiento, y ha subido unos ocho kilos en cinco años.",
+      "historia": "{{-7300}} Fractura nasal jugando a la pelota; no consultó.\n{{-730}} Empieza con somnolencia al manejar y ronquido más fuerte.\n{{-90}} Médico general: sospecha de apnea del sueño; se pide una poligrafía respiratoria y evaluación otorrinolaringológica.",
+      "hist": [
+        "hta"
+      ],
+      "medicamentos": "Antihipertensivo; oximetazolina en spray nasal casi todas las noches",
+      "cirugias": ""
+    }
+  },
+  "figuras": []
+}

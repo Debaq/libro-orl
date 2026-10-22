@@ -75,10 +75,10 @@ Tres problemas se parecen y no se manejan igual.
 | | Qué es | Qué se hace |
 |---|---|---|
 | **Acúfeno** | Percibir un sonido que no existe afuera | Consejería, sonido, audífonos, TCC |
-| **Hiperacusia** | Una reacción excesiva a sonidos de nivel moderado que a otras personas no molestan: demasiado fuertes, molestos, atemorizantes o dolorosos (Tyler y cols., 2014) | Medir el LDL (→ H5); consejería y terapia sonora (Jastreboff y Jastreboff, 2015) |
+| **Hiperacusia** | Una reacción excesiva a sonidos de nivel moderado que a otras personas no molestan: demasiado fuertes, molestos, atemorizantes o dolorosos (Tyler y cols., 2014) | Medir el LDL (→ H5; es práctica de este libro: no hay un punto de corte único); consejería y terapia sonora (Jastreboff y Jastreboff, 2015) |
 | **Misofonía** | Reacción negativa intensa a **patrones de sonido específicos** (masticar, respirar, un clic), sin que importe su nivel (Jastreboff, 2015) | Protocolos específicos de consejería y sonido (Jastreboff, 2015) |
 
-Las tres pueden convivir, y se agrupan bajo el nombre de **tolerancia disminuida al sonido** (Jastreboff y Jastreboff, 2015). <!-- verificar: definición operativa de hiperacusia (Tyler 2014 la agrupa en cuatro tipos de reacción: intensidad, molestia, miedo, dolor); falta una fuente primaria para el criterio de LDL y para la misofonía como entidad distinta. -->
+Las tres pueden convivir, y se agrupan bajo el nombre de **tolerancia disminuida al sonido** (Jastreboff y Jastreboff, 2015).
 
 ## Antes de empezar
 
@@ -113,21 +113,21 @@ La batería de arriba es la práctica de este libro, y hay guías que piden meno
 
 El impacto se mide **con el paciente**, no con el equipo. Las guías piden medirlo porque es lo que decide el manejo y lo que permite saber después si algo funcionó. Dos instrumentos son los más usados.
 
-**Tinnitus Handicap Inventory (THI).** Newman y cols. (1996) lo desarrollaron con 25 ítems agrupados en tres subescalas: **funcional**, **emocional** y **catastrófica**. Cada ítem se contesta *sí*, *a veces* o *no*, con 4, 2 o 0 puntos, y la suma va de 0 a 100. <!-- verificar: puntaje 4/2/0 por ítem y suma 0-100; el resumen de PubMed de Newman 1996 confirma 25 ítems y las tres subescalas, no el puntaje. -->
+**Tinnitus Handicap Inventory (THI).** Newman y cols. (1996) lo desarrollaron con 25 ítems agrupados en tres subescalas: **funcional**, **emocional** y **catastrófica**. Cada ítem se contesta *sí*, *a veces* o *no*, con 4, 2 o 0 puntos, y la suma va de 0 a 100.
 
-Tabla: Grados de gravedad del THI
+Tabla: Grados de gravedad del THI (McCombe y cols., 2001)
 
 | Puntaje | Grado |
 |---|---|
-| 0 a 16 | Insignificante |
+| 0 a 16 | Muy leve o ninguno |
 | 18 a 36 | Leve |
 | 38 a 56 | Moderado |
 | 58 a 76 | Severo |
 | 78 a 100 | Catastrófico |
 
-<!-- verificar: puntos de corte de los cinco grados. McCombe y cols. (2001) proponen cinco grados (leve a catastrófico), pero los puntos de corte del THI por grado no están en el resumen de PubMed; confirmar con Newman 1998 o McCombe 2001 leído completo. -->
 
-**Tinnitus Functional Index (TFI).** Meikle y cols. (2012) lo desarrollaron con 25 ítems en ocho subescalas, para medir tanto la gravedad al ingreso como el **cambio con el tratamiento** (sensibilidad). Su validez convergente con el THI es alta (r = 0,86) y reaccionó más que el THI y que la escala visual análoga en los estudios de tratamiento. La guía británica sugiere considerar el TFI para evaluar el impacto en adultos (NICE, 2020, rec. 1.3.1); la americana no elige un instrumento. <!-- verificar: rango del TFI (0 a 100) y escala de cada ítem; el resumen de Meikle 2012 no los da. -->
+
+**Tinnitus Functional Index (TFI).** Meikle y cols. (2012) lo desarrollaron con 25 ítems en ocho subescalas, para medir tanto la gravedad al ingreso como el **cambio con el tratamiento** (sensibilidad). Cada ítem se contesta de 0 a 10 y el total va de 0 a 100 (más alto, más molestia). Su validez convergente con el THI es alta (r = 0,86) y reaccionó más que el THI y que la escala visual análoga en los estudios de tratamiento. La guía británica sugiere considerar el TFI para evaluar el impacto en adultos (NICE, 2020, rec. 1.3.1); la americana no elige un instrumento.
 
 **Escalas visuales.** Una línea de 0 a 10 para molestia, sonoridad percibida o interferencia con el sueño. Se usan cuando no se puede aplicar un cuestionario (idioma, deterioro cognitivo) y en niños (NICE, 2020, rec. 1.3.2 y 1.3.3).
 
@@ -178,9 +178,9 @@ La consejería no es una frase: es un proceso que se retoma en cada control (NIC
 
 La **terapia de reentrenamiento del acúfeno** (*tinnitus retraining therapy*, TRT) combina **consejería estructurada** y **terapia sonora**, con el modelo de Jastreboff como guía (Jastreboff y Hazell, 1993; Jastreboff y Jastreboff, 2000). Su meta es la habituación: que la reacción, y después la percepción, dejen de importar (Jastreboff, 2015).
 
-- **Categorías de pacientes (0 a 4).** Según el impacto del acúfeno, la pérdida auditiva, la hiperacusia y si los síntomas empeoran por un tiempo prolongado tras un sonido fuerte, el paciente se ubica en una categoría que define el tratamiento. En un ensayo clínico se describen, por ejemplo, la **categoría 1** (acúfeno de gran impacto sin otros problemas de audición), la **3** (con hiperacusia) y la **4** (hiperacusia dominante y empeoramiento prolongado) (Scherer y cols., 2014). <!-- verificar: definición completa de las categorías 0 y 2 (0 = acúfeno reciente o poco intenso, 2 = con pérdida auditiva; no leídas en fuente primaria) y el esquema de tratamiento de cada una; Jastreboff y Jastreboff 2000 no está disponible en texto completo. -->
-- **Duración.** Es larga: los ensayos siguen a los participantes por **18 meses** (Scherer y cols., 2014). Jastreboff (2015) sostiene que el tiempo hasta una mejoría clara bajó de un año a un mes con las modificaciones del método. <!-- verificar: la cifra de "un mes" es una afirmación del autor del método, no un resultado de ensayo. -->
-- **Evidencia.** Según la revisión Cochrane que cita el protocolo del ensayo TRTT, solo un ensayo había seguido el protocolo de Jastreboff y Hazell, con posibles sesgos, y los posteriores son pequeños (Scherer y cols., 2014); el estudio de mejor diseño, el ensayo TRTT, comparó TRT, TRT parcial y atención estándar. <!-- verificar: resultados del TRTT (Formby y cols.) no leídos; sin ellos, no afirmar eficacia ni ineficacia. -->
+- **Categorías de pacientes (0 a 4).** Según el impacto del acúfeno, la pérdida auditiva, la hiperacusia y si los síntomas empeoran por un tiempo prolongado tras un sonido fuerte, el paciente se ubica en una categoría que define el tratamiento. En un ensayo clínico se describen, por ejemplo, la **categoría 1** (acúfeno de gran impacto sin otros problemas de audición), la **2** (con pérdida auditiva subjetiva importante), la **3** (con hiperacusia) y la **4** (hiperacusia dominante y empeoramiento prolongado) (Scherer y cols., 2019).
+- **Duración.** Es larga: los ensayos siguen a los participantes por **18 meses** (Scherer y cols., 2014; Scherer y cols., 2019). Jastreboff (2015) sostiene que el tiempo hasta una mejoría clara bajó de un año a un mes con las modificaciones del método; es la afirmación del autor del método, no el resultado de un ensayo.
+- **Evidencia.** Según la revisión Cochrane que cita el protocolo del ensayo TRTT, solo un ensayo había seguido el protocolo de Jastreboff y Hazell, con posibles sesgos, y los posteriores son pequeños (Scherer y cols., 2014); el estudio de mejor diseño, el ensayo TRTT (151 participantes), comparó TRT, TRT parcial (con generadores placebo) y atención estándar. A los 18 meses los tres grupos mejoraron y no hubo diferencias relevantes entre ellos; cerca de la mitad tuvo una reducción clínicamente significativa, y agregar generadores de sonido a la consejería no sumó beneficio en esa población con audición normal. El estudio tuvo reclutamiento lento y más abandono que el previsto (Scherer y cols., 2019).
 - La guía europea considera la TRT segura, y sin recomendación por falta de evidencia de alta calidad (Cima y cols., 2019).
 
 :::comentario Lo que dicen las normas
@@ -191,7 +191,7 @@ La TRT es la terapia más difundida y la menos respaldada. Sus defensores afirma
 
 La **terapia cognitivo-conductual** es la intervención con mayor respaldo para el sufrimiento por acúfeno. La guía americana la recomienda a todo paciente con acúfeno persistente y molesto (Tunkel y cols., 2014; Adams y cols., 2026), y la británica propone un esquema por pasos: primero TCC digital con psicólogos, luego intervenciones grupales (terapia cognitiva basada en atención plena, terapia de aceptación y compromiso o TCC) y después TCC individual (NICE, 2020, rec. 1.5.4).
 
-La revisión Cochrane (28 estudios, 2733 participantes) encontró que la TCC **puede** reducir el impacto del acúfeno frente a la lista de espera: unos **11 puntos menos en el THI**, más que la diferencia mínima de 7 (evidencia de baja certeza). Frente a la atención audiológica habitual la diferencia fue de **5,7 puntos** (certeza moderada), por debajo de esa diferencia mínima; frente a otros tratamientos activos, 5,8 puntos. No hubo efectos adversos serios por la TCC (Fuller y cols., 2020). El audiólogo no la aplica: **derivar** a un psicólogo con experiencia en acúfeno es parte del manejo. La guía de Cima y cols. (2019) la recomienda también. <!-- verificar: la fuerza de la recomendación de TCC y de la consejería en Cima 2019 no se leyó en el texto completo (solo en resúmenes de terceros). -->
+La revisión Cochrane (28 estudios, 2733 participantes) encontró que la TCC **puede** reducir el impacto del acúfeno frente a la lista de espera: unos **11 puntos menos en el THI**, más que la diferencia mínima de 7 (evidencia de baja certeza). Frente a la atención audiológica habitual la diferencia fue de **5,7 puntos** (certeza moderada), por debajo de esa diferencia mínima; frente a otros tratamientos activos, 5,8 puntos. No hubo efectos adversos serios por la TCC (Fuller y cols., 2020). El audiólogo no la aplica: **derivar** a un psicólogo con experiencia en acúfeno es parte del manejo. La guía de Cima y cols. (2019) la da como recomendación fuerte: un enfoque basado en TCC, individual o en grupo, es la opción con más respaldo; para la consejería, la misma guía describe beneficio de la educación y la información en todos los pacientes, sin graduar la recomendación.
 
 ### 5. Lo que las guías no recomiendan
 
@@ -271,7 +271,7 @@ Dos pacientes con el mismo audiograma y el mismo tono de acúfeno pueden tener u
 1. Tunkel DE, Bauer CA, Sun GH, Rosenfeld RM, Chandrasekhar SS, Cunningham ER Jr, et al. Clinical practice guideline: tinnitus. Otolaryngol Head Neck Surg. 2014;151(2 Suppl):S1-S40. doi:10.1177/0194599814545325. PMID: 25273878.
 1. Adams ME, Cramer JD, Tunkel DE, Lee VS, Bourgeois JA, Eshraghi AA, et al. Executive summary of the clinical practice guideline on tinnitus update. Otolaryngol Head Neck Surg. 2026;175(4):739-756. doi:10.1002/ohn.70418. PMID: 42861486.
 1. National Institute for Health and Care Excellence. Tinnitus: assessment and management (NG155). London: NICE; 2020. https://www.nice.org.uk/guidance/ng155. <!-- verificar: recomendaciones leídas en la página web de NICE el 2026-10-19; la web puede mostrar una versión actualizada. -->
-1. Cima RFF, Mazurek B, Haider H, Kikidis D, Lapira A, Noreña A, Hoare DJ. A multidisciplinary European guideline for tinnitus: diagnostics, assessment, and treatment. HNO. 2019;67(Suppl 1):10-42. doi:10.1007/s00106-019-0633-7. PMID: 30847513. <!-- verificar: solo leídos el resumen de PubMed y un resumen de terceros (ASHA); falta el texto completo para la fuerza de cada recomendación. -->
+1. Cima RFF, Mazurek B, Haider H, Kikidis D, Lapira A, Noreña A, Hoare DJ. A multidisciplinary European guideline for tinnitus: diagnostics, assessment, and treatment. HNO. 2019;67(Suppl 1):10-42. doi:10.1007/s00106-019-0633-7. PMID: 30847513.
 1. Newman CW, Jacobson GP, Spitzer JB. Development of the Tinnitus Handicap Inventory. Arch Otolaryngol Head Neck Surg. 1996;122(2):143-8. doi:10.1001/archotol.1996.01890140029007. PMID: 8630207.
 1. McCombe A, Baguley D, Coles R, McKenna L, McKinney C, Windle-Taylor P. Guidelines for the grading of tinnitus severity: the results of a working group commissioned by the British Association of Otolaryngologists, Head and Neck Surgeons, 1999. Clin Otolaryngol Allied Sci. 2001;26(5):388-93. doi:10.1046/j.1365-2273.2001.00490.x. PMID: 11678946.
 1. Meikle MB, Henry JA, Griest SE, Stewart BJ, Abrams HB, McArdle R, et al. The Tinnitus Functional Index: development of a new clinical measure for chronic, intrusive tinnitus. Ear Hear. 2012;33(2):153-76. doi:10.1097/AUD.0b013e31822f67c0. PMID: 22156949.
@@ -281,6 +281,7 @@ Dos pacientes con el mismo audiograma y el mismo tono de acúfeno pueden tener u
 1. Baguley D, McFerran D, Hall D. Tinnitus. Lancet. 2013;382(9904):1600-7. doi:10.1016/S0140-6736(13)60142-7. PMID: 23827090.
 1. Jarach CM, Lugo A, Scala M, van den Brandt PA, Cederroth CR, Odone A, et al. Global prevalence and incidence of tinnitus: a systematic review and meta-analysis. JAMA Neurol. 2022;79(9):888-900. doi:10.1001/jamaneurol.2022.2189. PMID: 35939312.
 1. Scherer RW, Formby C, Gold S, Erdman S, Rodhe C, Carlson M, et al. The Tinnitus Retraining Therapy Trial (TRTT): study protocol for a randomized controlled trial. Trials. 2014;15:396. doi:10.1186/1745-6215-15-396. PMID: 25319676.
+1. Scherer RW, Formby C; Tinnitus Retraining Therapy Trial Research Group. Effect of tinnitus retraining therapy vs standard of care on tinnitus-related quality of life: a randomized clinical trial. JAMA Otolaryngol Head Neck Surg. 2019;145(7):597-608. doi:10.1001/jamaoto.2019.0821.
 1. Tyler RS, Pienkowski M, Roncancio ER, Jun HJ, Brozoski T, Dauman N, et al. A review of hyperacusis and future directions: part I. Definitions and manifestations. Am J Audiol. 2014;23(4):402-19. doi:10.1044/2014_AJA-14-0010. PMID: 25104073.
 1. Eggermont JJ, Roberts LE. The neuroscience of tinnitus. Trends Neurosci. 2004;27(11):676-82. doi:10.1016/j.tins.2004.08.010.
 1. Noreña AJ. An integrative model of tinnitus based on a central gain controlling neural sensitivity. Neurosci Biobehav Rev. 2011;35(5):1089-109. doi:10.1016/j.neubiorev.2010.11.003.

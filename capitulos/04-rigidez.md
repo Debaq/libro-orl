@@ -81,8 +81,6 @@ En la acumetría (→ H2), el **Weber** se va al oído con más gap y el **Rinne
 
 **La muesca de Carhart.** Carhart (1950) describió que en la otoesclerosis la vía ósea cae alrededor de **2 kHz** y que esa caída **se corrige después de la cirugía**: no es la cóclea. La explicación está en cómo se oye por vía ósea. Cuando el cráneo vibra, una parte del estímulo llega a la cóclea porque la cadena de huesecillos, por inercia, se mueve respecto del hueso. Esa parte tiene una resonancia propia cerca de 1,5 a 2 kHz (Homma y cols., 2009). Con el estribo fijo, ese aporte se pierde y el umbral óseo sube justo ahí.
 
-<!-- verificar: Carhart 1950 cuantificó la caída en unos 5 dB en 500 Hz, 10 en 1 kHz, 15 en 2 kHz y 5 en 4 kHz (valores citados en fuentes secundarias; no se leyó el original). No se incluyeron en el texto. -->
-
 Dos consecuencias prácticas:
 
 - La muesca **no es exclusiva** de la otoesclerosis. Aparece con la misma frecuencia en las fijaciones congénitas, en las del martillo o el yunque y en la disyunción de cadena (Kashio y cols., 2011; Cheon y cols., 2023), y también en la otitis con efusión (→ cap. 2). Sugiere un problema mecánico; no dice cuál.
@@ -103,20 +101,14 @@ El perfil clásico calza con Carolina (caso 4.1). En una cohorte británica de 6
 La pérdida es conductiva y progresiva, de los graves primero. Dos síntomas ayudan:
 
 - El **acúfeno**, muy frecuente: en una serie, el 73 % lo tenía, en la mayoría de un solo lado y grave, en torno a 500 Hz (Lima y cols., 2022). <!-- Pasada de fundamentos 2026-10-18: decía "casi siempre grave". Se corrigió a "en la mayoría de un solo lado y grave, en torno a 500 Hz" (Lima y cols., 2022: "mostly unilateral, identified in the low frequencies, namely 500 Hz"). -->
-- La **paracusia de Willis**: el paciente entiende mejor en ambientes ruidosos que en silencio (Toscano y cols., 2025). La explicación habitual es que en el ruido los demás levantan la voz, mientras el oído conductivo atenúa el ruido de fondo.
+- La **paracusia de Willis**: el paciente entiende mejor en ambientes ruidosos que en silencio (Toscano y cols., 2025). La explicación habitual es que el oído conductivo atenúa el ruido de fondo y mejora así la relación señal-ruido (Silva y cols., 2023).
 
-<!-- verificar: la explicación de la paracusia de Willis no está en Toscano 2025; es la clásica de los textos de otología. -->
+La otoscopía es **normal**. En cerca del 10 % de los casos se ve un tinte rosado detrás del tímpano, sobre el promontorio, que es el **signo de Schwartze**; que no esté no descarta nada (Toscano y cols., 2025). Con los años la enfermedad puede tomar también la cóclea y la pérdida se vuelve mixta (→ cap. 15). El tratamiento lo decide el otorrinolaringólogo: la cirugía del estribo o un audífono, que en un oído con la cóclea sana funciona muy bien. Cuando se pide una tomografía, el foco se busca delante de la ventana oval, en la *fissula ante fenestram* ({{fig tc-fissula}}).
 
-La otoscopía es **normal**. En cerca del 10 % de los casos se ve un tinte rosado detrás del tímpano, sobre el promontorio, que es el **signo de Schwartze**; que no esté no descarta nada (Toscano y cols., 2025). Con los años la enfermedad puede tomar también la cóclea y la pérdida se vuelve mixta (→ cap. 15). El tratamiento lo decide el otorrinolaringólogo: la cirugía del estribo o un audífono, que en un oído con la cóclea sana funciona muy bien. Cuando se pide una tomografía, el foco se busca delante de la ventana oval, en la *fissula ante fenestram*.
-
-:::imagen ilustraciones/cap04-tc-fissula.jpg ancho=80% Tomografía axial de ultra alta resolución (cortes de 0,1 mm), muy ampliada a la altura de la ventana oval, de los dos oídos de otra persona, no de los pacientes de este capítulo: el derecho (a), con otoesclerosis fenestral, y el izquierdo (b), sano. La tomografía la pide y la informa el médico; se muestra para que se vea la forma de lo que miden las pruebas. Imagen: Xu N y cols. (2023), Insights Imaging, doi:10.1186/s13244-023-01562-y, Fig. 2, CC BY 4.0.
-- @13,37 | **Fissula ante fenestram** con hueso menos denso (flecha gruesa): el foco de otoesclerosis.
-- @12,49 | **Ligamento anular** engrosado (flecha fina), el que une la platina del estribo a la ventana oval.
+:::imagen ilustraciones/cap04-tc-fissula.jpg ancho=80% id=tc-fissula Tomografía axial de ultra alta resolución (cortes de 0,1 mm), muy ampliada a la altura de la ventana oval. a, oído derecho con otoesclerosis fenestral: la *fissula ante fenestram* tiene hueso menos denso (flecha gruesa), y el ligamento anular, que une la platina del estribo a la ventana oval, está engrosado (flecha fina). b, oído izquierdo sano: fissula de hueso denso y ligamento fino (flechas). Imagen: Xu N y cols. (2023), Insights Imaging, doi:10.1186/s13244-023-01562-y, Fig. 2, CC BY 4.0.
 - @40,16 | **Cóclea**, oscura, a la izquierda del globo.
 - @40,62 | **Vestíbulo**, oscuro, a la izquierda del globo.
-- @84,30 | En el oído sano la fissula es de hueso denso y el ligamento es una línea fina (flechas).
 :::
-
 ### Fijación congénita del estribo
 
 El estribo nace fijo y el tímpano es normal. Entre las anomalías congénitas aisladas de la cadena, es la más frecuente. Suele ser **bilateral**, a diferencia de las malformaciones del yunque y del martillo, que suelen ser de un solo lado (Park y Choung, 2009). El audiograma es el de una otoesclerosis, muesca de Carhart incluida (Kashio y cols., 2011), con un gap preoperatorio promedio de 39 dB (Daniel y cols., 2023).
@@ -129,14 +121,11 @@ Es una enfermedad del **remodelado óseo** del adulto mayor: el hueso se destruy
 
 <!-- Pasada de fundamentos 2026-10-18: el verificar sobre Ralston 2013 (sin resumen) se resolvió con la guía clínica de Ralston y cols. 2019 (texto completo, PMC6522384): remodelado aumentado y desordenado con hueso mecánicamente débil, incidencia que se duplica cada década después de los 50, fosfatasa alcalina como examen de primera línea y bisfosfonatos, de preferencia ácido zoledrónico, para el dolor óseo. -->
 
-Cuando toma el hueso temporal, la hipoacusia es lenta y progresiva, casi siempre bilateral. En una serie de 27 pacientes, el 85 % consultó por hipoacusia; en los audiogramas disponibles, el 65 % era sensorioneural y el 35 % mixta (Deep y cols., 2017). El gap depende del hueso de la cápsula: Monsell (2004) midió la densidad del hueso de la **cápsula coclear** en pacientes con Paget del cráneo y encontró que, cuanto menos denso era, peores eran los umbrales agudos **y mayor era el gap** en 500 y 1000 Hz. El gap del Paget no viene necesariamente de una cadena fija: puede venir de la cápsula. Por eso el timpanograma puede ser A y los reflejos, sin embargo, faltar. En la tomografía, el hueso enfermo se ve grueso y desordenado, y puede llegar a estrechar el conducto auditivo interno.
+Cuando toma el hueso temporal, la hipoacusia es lenta y progresiva, casi siempre bilateral. En una serie de 27 pacientes, el 85 % consultó por hipoacusia; en los audiogramas disponibles, el 65 % era sensorioneural y el 35 % mixta (Deep y cols., 2017). El gap depende del hueso de la cápsula: Monsell (2004) midió la densidad del hueso de la **cápsula coclear** en pacientes con Paget del cráneo y encontró que, cuanto menos denso era, peores eran los umbrales agudos **y mayor era el gap** en 500 y 1000 Hz. El gap del Paget no viene necesariamente de una cadena fija: puede venir de la cápsula. Por eso el timpanograma puede ser A y los reflejos, sin embargo, faltar. En la tomografía, el hueso enfermo se ve grueso y desordenado, y puede llegar a estrechar el conducto auditivo interno ({{fig tc-paget}}).
 
-:::imagen ilustraciones/cap04-tc-paget.jpg ancho=62% Tomografía axial de la base del cráneo de otra persona con enfermedad de Paget, no de Adrián. Imagen: Battal B, Zamora C (2023), Tomography, doi:10.3390/tomography9040097, Fig. 31, CC BY 4.0, adaptada.
-- @9,40 | **CAI derecho** (flecha), estrechado por el engrosamiento del hueso.
-- @88,37 | **CAI izquierdo** (flecha), también estrechado.
+:::imagen ilustraciones/cap04-tc-paget.jpg ancho=62% id=tc-paget Tomografía axial de la base del cráneo en la enfermedad de Paget. Las flechas marcan los dos conductos auditivos internos, estrechados por el engrosamiento del hueso. Imagen: Battal B, Zamora C (2023), Tomography, doi:10.3390/tomography9040097, Fig. 31, CC BY 4.0, adaptada.
 - @5,72 | Hueso de la base y de la calota engrosado, con zonas claras y oscuras mezcladas: el aspecto "en copos de algodón".
 :::
-
 :::comentario Lo que dice la literatura
 En la serie de Deep y cols. (2017), la forma **sensorioneural pura** fue la más frecuente. El caso de este capítulo muestra la forma **mixta**, la que obliga a separar los dos componentes.
 :::
@@ -188,8 +177,6 @@ Una mujer de 30 años oye un poco menos por el oído izquierdo desde hace un añ
 
 {{caso cap04_p34}}
 
-*Otoscopías: Viscaino M, Auat Cheein F, Ear imagery database (figshare, 2020), CC0 1.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué te dice que haya empezado después de un embarazo? ¿Y que entienda mejor en la micro que en la casa? Mira la otoscopía: ¿qué esperas encontrar en un oído que oye mal con un tímpano así?
 :::
@@ -204,12 +191,12 @@ Carolina teme que le pase lo de su mamá. ¿Qué enfermedades pueden dar una pé
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap04_p34_audiosupra.svg ancho=80% Audiometría de Carolina: conductiva del OD con muesca de Carhart en 2 kHz; OI normal.
+:::imagen figuras/salida/cap04_p34_audiosupra.svg ancho=100% Audiometría de Carolina: conductiva del OD con muesca de Carhart en 2 kHz; OI normal.
 :::
 
 La aérea del OD está en 55 dB en 250 Hz y la ósea en 10: un gap de **45 dB**, el mayor del audiograma. La ósea baja a 25 dB en 2 kHz y vuelve a 15 en 4 kHz: es la **muesca de Carhart**, y el gap en 2 kHz es de solo 15 dB. Desde 2 kHz la aérea queda plana en 40 dB; el PTP del OD es de 45 dB. El OI está en 0 dB: es normal. El Weber se va al **OD**, el oído que oye peor, y el Rinne es negativo en el OD en 500 y 1.000 Hz y positivo en el OI. SDT de 35 dB y SRT de 40 dB en el OD, y de −5 y 0 dB en el OI; la discriminación llega a 100 % en los dos (a 80 dB en el OD, con ruido en el OI, y a 40 dB en el OI).
 
-:::imagen figuras/salida/cap04_p34_impedancia.svg ancho=80% Impedanciometría de Carolina.
+:::imagen figuras/salida/cap04_p34_impedancia.svg ancho=100% Impedanciometría de Carolina.
 :::
 
 El OD tiene el pico en su lugar (18 daPa) pero de solo **0,18 mL**: **As**. El volumen, 1,03 mL en el OI y 1,24 mL en el OD, es de un conducto cerrado por un tímpano entero. El OI es **A**, con 1,41 mL. La diferencia entre los dos oídos es el hallazgo. La gradiente es la misma en los dos (0,58): la forma del pico no distingue el As del A, lo distingue la altura. **Reflejos:** con la sonda en el OD no hay ninguno. Con la sonda en el OI, el ipsilateral está en 85 a 90 dB y el contralateral, que estimula el OD, solo aparece en 2 y 4 kHz (110 y 120 dB).
@@ -225,8 +212,6 @@ Con la sonda en el OD no hay reflejo: ni el ipsilateral ni el contralateral, aun
 
 {{caso cap04_fijacion_congenita_estribo}}
 
-*Otoscopías: Viscaino M, Auat Cheein F, Ear imagery database (figshare, 2020), CC0 1.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué dato de la historia te dice desde cuándo oye así? ¿Qué te dice que nunca haya tenido otitis? Compara la otoscopía con la de Carolina.
 :::
@@ -241,12 +226,12 @@ En un niño de 9 años que no pasó el control del colegio, ¿qué causas de hip
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap04_fijacion_congenita_estribo_audiosupra.svg ancho=80% Audiometría de Pepe: conductiva moderada del OD y leve del OI, con la muesca de Carhart en el OD.
+:::imagen figuras/salida/cap04_fijacion_congenita_estribo_audiosupra.svg ancho=100% Audiometría de Pepe: conductiva moderada del OD y leve del OI, con la muesca de Carhart en el OD.
 :::
 
 La aérea del OD está entre 50 y 65 dB de 250 a 3.000 Hz: una pérdida **moderada**. La ósea del OD está casi normal, con una caída a 15 dB en 2 kHz: la **muesca de Carhart**, también en una fijación congénita. El gap es de 40 a 50 dB. El OI tiene una pérdida leve (25 a 35 dB) con un gap de 20 a 25 dB: los **dos** oídos son conductivos. El Weber se va al **OD**, el oído con más gap, y el Rinne es negativo en los **dos** oídos, porque los dos tienen gaps sobre 15 dB. SDT de 45 dB y SRT de 50 dB en el OD, y de 20 y 25 dB en el OI; la discriminación llega a 100 % en los dos oídos (a 80 dB en el OD y a 60 dB en el OI, con ruido en el oído contrario).
 
-:::imagen figuras/salida/cap04_fijacion_congenita_estribo_impedancia.svg ancho=80% Impedanciometría de Pepe.
+:::imagen figuras/salida/cap04_fijacion_congenita_estribo_impedancia.svg ancho=100% Impedanciometría de Pepe.
 :::
 
 El OD tiene el pico bajo (0,14 mL) cerca de la presión normal (−45 daPa). El OI también lo tiene bajo: 0,23 mL, a −88 daPa. Con el criterio del adulto los dos son **As**; para un niño, el rango normal es más bajo (de 0,2 a 1,0 mL entre los 5 y los 7 años; BSA, 2024) y el OI queda en el borde. No hay reflejos con la sonda en ninguno de los dos oídos.
@@ -263,8 +248,6 @@ Con la sonda en el OD, en el ipsilateral, no hay reflejo en ninguna casilla: con
 
 {{caso cap04_paget}}
 
-*Otoscopías: Polat K, eardrum (figshare, 2021), CC BY 4.0.*
-
 :::pregunta Paso 1 · ¿Qué datos importan?
 ¿Qué te dice la historia del sombrero? ¿Qué tiene que ver una enfermedad de la cadera con los oídos?
 :::
@@ -279,12 +262,12 @@ Si la pérdida tiene un componente conductivo, ¿esperas una curva As? ¿Qué es
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap04_paget_audiosupra.svg ancho=80% Audiometría de Adrián: pérdida mixta bilateral y simétrica, con la ósea que cae de 20 o 30 dB en los graves a 60 dB en 4 kHz y un gap chico y constante.
+:::imagen figuras/salida/cap04_paget_audiosupra.svg ancho=100% Audiometría de Adrián: pérdida mixta bilateral y simétrica, con la ósea que cae de 20 o 30 dB en los graves a 60 dB en 4 kHz y un gap chico y constante.
 :::
 
 La ósea del OD está en 30 dB en los graves y baja hasta 60 dB en 4 kHz: hay daño **coclear**, mayor en agudos. La aérea va 10 a 15 dB por debajo de la ósea en todas las frecuencias: un gap **chico pero constante**. Es una hipoacusia **mixta**. El OI es parecido: ósea de 20 a 60 dB y un gap de 10 a 15 dB; los dos oídos van casi parejos. SDT de 40 dB y SRT de 45 dB en el OD, y de 35 y 40 dB en el OI. La discriminación máxima es de **84 %** en los dos oídos (a 80 dB en el OD y a 70 dB en el OI, con ruido de habla en el contrario). Supraliminares: SISI de 90 % y Carhart sin deterioro en 2 y 4 kHz en los dos oídos; el Metz no se puede medir, porque el reflejo está ausente.
 
-:::imagen figuras/salida/cap04_paget_impedancia.svg ancho=80% Impedanciometría de Adrián.
+:::imagen figuras/salida/cap04_paget_impedancia.svg ancho=100% Impedanciometría de Adrián.
 :::
 
 El OD es **A**: 0,80 mL a 18 daPa. El OI también es **A**: 0,65 mL a −31 daPa. Con un gap en los dos oídos, las curvas son normales. No hay reflejos con la sonda en ninguno de los dos oídos.
@@ -402,6 +385,7 @@ Niveles de prevención y su marco: → B5.
 ### Patología
 
 1. Toscano ML, Matz O, Hohman MH, Shermetaro C. Stapes surgery for otosclerosis. En: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 [actualizado 2025 ago 2]. Disponible en: https://www.ncbi.nlm.nih.gov/books/NBK562205/
+1. Silva VAR, Pauna HF, Lavinsky J, Guimarães GC, Abrahão NM, Massuda ET, et al. Brazilian Society of Otology task force – Otosclerosis: evaluation and treatment. Braz J Otorhinolaryngol. 2023;89(5):101303. doi:10.1016/j.bjorl.2023.101303. PMID 37647735
 1. Markou K, Goudakos J. An overview of the etiology of otosclerosis. Eur Arch Otorhinolaryngol. 2009;266(1):25-35. doi:10.1007/s00405-008-0790-x
 1. Crompton M, Cadge BA, Ziff JL, Mowat AJ, Nash R, Lavy JA, et al. The epidemiology of otosclerosis in a British cohort. Otol Neurotol. 2019;40(1):22-30. doi:10.1097/MAO.0000000000002047
 1. Xue J, Sun J. Clinical audiological features of otosclerosis: preoperative hearing analysis in 80 ears. Indian J Otolaryngol Head Neck Surg. 2025;77(8):2842-2847. doi:10.1007/s12070-025-05586-2

@@ -60,7 +60,7 @@ El conducto no es recto: la parte cartilaginosa y la ósea forman un ángulo. Al
 
 En el recién nacido el conducto está lleno de vérnix y restos de líquido amniótico, que pueden ocupar también el oído medio en los primeros días (Eavey, 1993). Una otoscopía difícil en esas horas no es necesariamente patológica.
 
-![{IA} Para ver la membrana hay que alinear el conducto. En el adulto el pabellón se tracciona hacia arriba y atrás; en el niño pequeño, hacia atrás y a veces hacia abajo. El otoscopio se toma como un lápiz, con la mano apoyada en la cabeza: si el paciente se mueve, el espéculo se mueve con él y no lo daña.](ilustraciones/h01-traccion.png)
+![{IA} Para ver la membrana hay que alinear el conducto. En el adulto el pabellón se tracciona hacia arriba y atrás; en el niño pequeño, hacia atrás y a veces hacia abajo. El otoscopio se toma como un lápiz, con la mano apoyada en la cabeza: si el paciente se mueve, el espéculo se mueve con él y no lo daña. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h01-traccion.png)
 
 ### La membrana y sus referencias
 
@@ -71,7 +71,7 @@ La membrana timpánica es un cono poco profundo con el vértice hacia adentro, e
 
 Las referencias que se buscan en toda membrana son tres: la **apófisis corta** del martillo (un relieve blanco arriba), el **mango del martillo** (que baja y va hacia atrás hasta el umbo) y el **triángulo luminoso** (el reflejo de la luz del otoscopio, que sale del umbo hacia adelante y abajo). Una línea a lo largo del mango y otra perpendicular por el umbo dividen la pars tensa en **cuatro cuadrantes**: anterosuperior, anteroinferior, posteroinferior y posterosuperior.
 
-:::imagen ilustraciones/h01-cuadrantes.svg Membranas timpánicas derecha e izquierda vistas por el otoscopio. Son imágenes en espejo: el mango baja siempre hacia atrás y el triángulo luminoso queda siempre adelante y abajo. Así sabes de qué oído es una foto.
+:::imagen ilustraciones/h01-cuadrantes.svg Membranas timpánicas derecha e izquierda vistas por el otoscopio. Son imágenes en espejo: el mango baja siempre hacia atrás y el triángulo luminoso queda siempre adelante y abajo. Así sabes de qué oído es una foto. Imagen propia del libro.
 - @7.5,28 | **Anillo timpánico.** El borde engrosado que fija la membrana al hueso. Si no lo recorres entero, puedes no ver una perforación marginal.
 - @33,11 | **Pars flácida.** La porción pequeña de arriba, sobre la apófisis corta. Es donde se forman las bolsas de retracción del colesteatoma atical.
 - @33.5,19 | **Apófisis corta del martillo.** El punto blanco de arriba: la primera referencia que se busca.
@@ -98,11 +98,10 @@ El triángulo luminoso existe porque la membrana está inclinada y tiene forma d
 
 El otoscopio es una linterna con lupa. La luz entra por el espéculo, ilumina el fondo del conducto, y tú miras por la lente, que agranda la imagen. Todo lo que puede salir mal en una otoscopía tiene que ver con una de sus partes: poca luz, un espéculo chico o la lente sucia.
 
-:::imagen ilustraciones/h01-otoscopio.png {IA} El otoscopio y sus partes
+:::imagen ilustraciones/h01-otoscopio.png {IA} El otoscopio y sus partes Imagen: ilustración generada con inteligencia artificial.
 <!-- dibujo: a handheld clinical otoscope shown from the side: cylindrical handle with battery, the head with its light source, the magnifying viewing lens at the back, and a disposable black ear speculum cone attached at the front. -->
 - @33,16 | **Espéculo.** El cono que entra al conducto. Se usa el más grande que entre cómodo: más luz y más campo de visión. Uno por paciente, o se limpia entre uno y otro.
-- @50,21 | **Fuente de luz.** Tiene que ser blanca e intensa: con luz amarilla, una membrana normal parece inflamada.
-<!-- verificar: no se encontró fuente para "con luz amarilla una membrana normal parece inflamada". Lo que sí está escrito es que la luz débil de ampolletas viejas impide ver bien la membrana (Pichichero, Am Fam Physician 2000, aafp.org/afp/2000/0401/p2051) y que el color de la membrana solo es poco fiable. Si el autor no tiene fuente, reformular a "con luz débil o amarillenta el color de la membrana engaña". -->
+- @50,21 | **Fuente de luz.** Tiene que ser blanca e intensa: con una luz débil, como la de una ampolleta vieja, no se ve bien la membrana (Pichichero, 2000). Y el color solo no basta para juzgarla.
 <!-- Pasada de fundamentos 2026-10-18: "Agranda unas tres veces" se dejó: los otoscopios de diagnóstico traen lentes de 2,5x a 3x (fichas de fabricantes; no hay norma). -->
 - @69,22 | **Lente de aumento.** Por aquí miras. Agranda unas tres veces; en algunos modelos se desliza hacia un lado para pasar instrumentos.
 - @57,32 | **Cabezal.** Une la luz, la lente y el espéculo. En los modelos neumáticos tiene una conexión para la pera de goma (otoscopía neumática).
@@ -148,7 +147,7 @@ Empieza con una pregunta abierta y deja hablar. Las preguntas cerradas vienen de
     - **Otalgia, otorrea, plenitud aural**: dolor y secreción cambian lo que se puede hacer hoy.
     - **Intolerancia a los sonidos.** Pregunta si los sonidos corrientes le suenan demasiado fuertes (**hiperacusia**) o si le duelen o le molestan (**algiacusia**): la hiperacusia reúne reacciones de exceso de sonoridad, molestia, miedo y dolor (Tyler y cols., 2014). Cambia cómo se hace el examen: con ese paciente el nivel de los estímulos sube con cautela y las pruebas de umbral de molestia y los reflejos se hacen solo si importan (H5, H7).
     - **Autofonía**: oír la propia voz, la respiración o el latido resonando dentro de la cabeza. Un oído tapado por cerumen la da (cap. 1); también una trompa de Eustaquio que queda abierta (Ward, 2023) y la dehiscencia del conducto semicircular superior (cap. 26).
-    - **Diplacusia**: oír un mismo sonido con distinto tono en cada oído, o doblado. Se describe en pérdidas cocleares, por ejemplo con una pérdida de graves en un oído (Ichimiya y cols., 2019), y en la pérdida súbita (Knight y cols., 2004). El paciente la cuenta como "las voces suenan metálicas" o "desafinadas".
+    - **Diplacusia**: oír un mismo sonido con distinto tono en cada oído, o doblado. Se describe en pérdidas cocleares, por ejemplo con una pérdida de graves en un oído (Ichimiya y cols., 2019), y en la pérdida súbita (Knight, 2004). El paciente la cuenta como "las voces suenan metálicas" o "desafinadas".
     - **Dificultad en ruido.** "Oigo pero no entiendo cuando hay ruido ambiente" es una queja frecuente que puede existir con un audiograma normal (Guest y cols., 2018). Si está, se pide logoaudiometría o una prueba de habla en ruido, porque el audiograma solo no la explica (H5, H15).
 4. **Antecedentes otológicos.** Otitis (cuántas, de qué tipo), perforaciones, **cirugías de oído**, tubos de ventilación, audífonos, exámenes anteriores. La cirugía y la perforación contraindican el lavado.
 5. **Antecedentes mórbidos.** Diabetes, hipertensión, enfermedades crónicas, traumatismos de cráneo, meningitis, radioterapia de cabeza y cuello, cirugías.
@@ -205,9 +204,10 @@ Tabla: Datos de la anamnesis que orientan
 | "Oigo pero no entiendo" con audiograma normal | Alteración de la discriminación en ruido o del procesamiento central | Logoaudiometría y pruebas de habla en ruido (H5, H15) |
 | Autofonía y oír los latidos | Trompa abierta o tercera ventana | Impedanciometría, VEMP (cap. 26) |
 
+La secuencia de cinco pasos y la tabla son una síntesis de este libro, armada con los capítulos clínicos; solo las filas de hipoacusia súbita y de acúfeno tienen cita propia.
+
 Una hipótesis no es un diagnóstico, y el diagnóstico es médico. Lo tuyo es que ningún dato de la entrevista quede sin una pregunta para el examen.
 
-<!-- verificar: la secuencia de cinco pasos y la tabla son síntesis propia de los capítulos clínicos del libro; las dos citas solo respaldan las filas de hipoacusia súbita (distinguir sensorioneural de conductiva al presentarse) y de acúfeno (la guía pide estudio dirigido ante un acúfeno de un solo oído, pulsátil, con anomalía neurológica focal o pérdida asimétrica). El resto remite a los capítulos que lo desarrollan. -->
 
 ### La otoscopía
 
@@ -248,13 +248,13 @@ Las fotos que siguen son otoscopías reales de dos bancos abiertos, uno de ellos
 
 **Normal.** Gris perla y semitransparente, en posición neutra, con las tres referencias visibles. Es la imagen contra la que se compara todo lo demás: antes de describir un hallazgo, pregúntate qué falta o qué sobra respecto de esta.
 
-![Cerumen. A: tapón oclusivo, una masa café oscura con pelos adheridos que ocupa todo el lumen; no se ve la membrana. B: cerumen amarillento pegado a una pared, que deja un paso libre por el que se ve parte de la membrana. Imágenes: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-cerumen.jpg)
+![Cerumen. A: tapón oclusivo, una masa café oscura con pelos adheridos que ocupa todo el lumen; no se ve la membrana. B: cerumen amarillento pegado a una pared, que deja un paso libre por el que se ve parte de la membrana. Imagen: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-cerumen.jpg)
 
 **Tapón oclusivo (A).** Llena el conducto y no deja ver la membrana. Puede dar una hipoacusia conductiva y altera el timpanograma. **No sigues** con exámenes de conducto: se resuelve el tapón (lavado, si no hay contraindicaciones) y se vuelve a mirar (cap. 1).
 
 **Cerumen no oclusivo (B).** Deja paso y se ve la membrana. Si no da síntomas y permite el examen, **no se trata** (Schwartz y cols., 2017). Ojo con la sonda del impedanciómetro y el fono de inserción: pueden empujarlo y taparse con él.
 
-![Inflamación aguda. A: otitis externa; el conducto se ve estrechado por la piel hinchada, con restos blanquecinos en las paredes, y la membrana no se alcanza a ver. B: otitis media aguda; membrana abombada hacia el conducto, opaca y rojo violácea, sin mango del martillo ni triángulo luminoso visibles. Imágenes: dataset eardrum (Polat, 2021), CC BY 4.0, adaptadas.](otoscopias/h01-otitis-aguda.jpg)
+![Inflamación aguda. A: otitis externa; el conducto se ve estrechado por la piel hinchada, con restos blanquecinos en las paredes, y la membrana no se alcanza a ver. B: otitis media aguda; membrana abombada hacia el conducto, opaca y rojo violácea, sin mango del martillo ni triángulo luminoso visibles. Imagen: dataset eardrum (Polat, 2021), CC BY 4.0, adaptadas.](otoscopias/h01-otitis-aguda.jpg)
 
 **Otitis externa (A).** Conducto enrojecido y edematoso, a veces con secreción o restos, que se estrecha y no deja ver la membrana. **Duele al traccionar el pabellón y al presionar el trago**: muchas veces lo sabes antes de mirar. No se lava ni se pone sonda o fono de inserción: se deriva.
 
@@ -262,13 +262,13 @@ Las fotos que siguen son otoscopías reales de dos bancos abiertos, uno de ellos
 
 **Otitis media con efusión** (sin foto). Membrana opaca o ámbar, a veces retraída, con un **nivel hidroaéreo o burbujas** detrás y poca movilidad en la neumática (Rosenfeld y cols., 2016). Sin dolor ni fiebre: es el niño que "no escucha" en la sala (cap. 2).
 
-![Otitis media crónica. A: perforación ovalada en la pars tensa, de bordes nítidos, por la que se ve la mucosa del oído medio, más oscura; la membrana vecina está engrosada. B: perforación amplia con la mucosa del oído medio enrojecida y una secreción amarilla acumulada en el fondo del conducto. Imágenes: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-perforacion-otorrea.jpg)
+![Otitis media crónica. A: perforación ovalada en la pars tensa, de bordes nítidos, por la que se ve la mucosa del oído medio, más oscura; la membrana vecina está engrosada. B: perforación amplia con la mucosa del oído medio enrojecida y una secreción amarilla acumulada en el fondo del conducto. Imagen: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-perforacion-otorrea.jpg)
 
 **Perforación (A).** Un orificio por el que se ve el oído medio. Describe **dónde** está (cuadrante, central o marginal), **qué tamaño** tiene respecto de la membrana y si está **seca o húmeda**. Contraindica el lavado. El timpanograma sale sin pico y con un volumen grande, porque la sonda mide conducto más oído medio (H7).
 
 **Otorrea (B).** Secreción en el conducto, de una otitis externa o de un oído medio que supura por una perforación. Es un **alto**: no se lava ni se mete sonda o fono, se usa guante y se cambia de espéculo antes del otro oído. Se deriva.
 
-![A: miringoesclerosis; gran placa blanca, de aspecto calcáreo, en la mitad anterior de la pars tensa, con el resto de la membrana gris y translúcido. B: tubo de ventilación; un pequeño carrete blanco, con el lumen al centro, atraviesa la membrana. Imágenes: A, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0; B, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada.](otoscopias/h01-miringoesclerosis-tubo.jpg)
+![A: miringoesclerosis; gran placa blanca, de aspecto calcáreo, en la mitad anterior de la pars tensa, con el resto de la membrana gris y translúcido. B: tubo de ventilación; un pequeño carrete blanco, con el lumen al centro, atraviesa la membrana. Imagen: A, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0; B, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada.](otoscopias/h01-miringoesclerosis-tubo.jpg)
 
 **Miringoesclerosis (A).** Placas blancas como tiza en la pars tensa, secuela de otitis antiguas o de tubos, con la membrana íntegra. Se describe el cuadrante y la extensión. No es una perforación (la placa es blanca y opaca; la perforación, oscura) ni un colesteatoma (que se ve detrás de la membrana o en la pars flácida, no en su espesor). Cerca puede haber una **membrana monomérica**: una perforación antigua que cerró sin su capa fibrosa, más delgada y transparente que el resto, que puede parecer un agujero.
 
@@ -332,7 +332,7 @@ Una **cicatriz detrás de la oreja** es una cirugía de oído hasta que el pacie
 <!-- Pasada de fundamentos 2026-10-18: la dirección posterosuperior, el agua a 37 °C y la cirugía previa como contraindicación quedaron con Sutton y cols. (StatPearls, 2026). Ojo: esa fuente dice además, de forma confusa, que el chorro "should be directed toward the tympanic membrane"; no se usó para eso. -->
 <!-- verificar: "la punta sin ocluir el conducto" sigue sin fuente verificada. Aparece en guías locales de enfermería (NHS Scotland, Ear care and irrigation guideline) y en Hayter, Nursing 2016;46(6):62-5 (doi:10.1097/01.NURSE.0000481437.02178.3b), pero no se pudo leer el texto. -->
 
-![{IA} El lavado de oído. Con el pabellón traccionado, la punta se apoya en la entrada sin ocluir el conducto y el chorro va a la pared posterosuperior: el agua pasa por detrás del tapón y lo empuja hacia afuera. El riñón bajo el oído recibe el agua.](ilustraciones/h01-lavado.png)
+![{IA} El lavado de oído. Con el pabellón traccionado, la punta se apoya en la entrada sin ocluir el conducto y el chorro va a la pared posterosuperior: el agua pasa por detrás del tapón y lo empuja hacia afuera. El riñón bajo el oído recibe el agua. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h01-lavado.png)
 
 **Complicaciones.** Dolor, vértigo, acúfeno, otitis externa, lesión de la piel del conducto y perforación de la membrana (Schwartz y cols., 2017). Casi todas se evitan con las contraindicaciones bien revisadas, agua a la temperatura correcta y poca presión.
 
@@ -417,6 +417,7 @@ Se registra el **oído**, el **motivo**, que se **revisaron las contraindicacion
 1. Sullivan RF. Video otoscopy in audiologic practice. J Am Acad Audiol. 1997;8(6):447-67. PMID: 9433690.
 1. Joint Committee on Infant Hearing. Year 2019 position statement: principles and guidelines for early hearing detection and intervention programs. J Early Hear Detect Interv. 2019;4(2):1-44. doi:10.15142/fptk-b748
 1. Durrant JD, Campbell K, Fausti S, Guthrie O, Jacobson G, Lonsbury-Martin BL, et al. American Academy of Audiology position statement and clinical practice guidelines: ototoxicity monitoring [Internet]. Reston (VA): AAA; 2009 Oct. Disponible en: https://www.audiology.org/wp-content/uploads/2021/06/AAA_OtoMonGuidelines_2009.pdf
+1. Pichichero ME. Acute otitis media: part I. Improving diagnostic accuracy. Am Fam Physician. 2000;61(7):2051-6. PMID 10779248.
 1. Sutton AE, Toscano ML, Launico MV. Ear irrigation. En: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 [actualizado 2026 feb 23; citado 2026 oct 18]. Disponible en: https://www.ncbi.nlm.nih.gov/books/NBK459335/. PMID: 29083577.
 
 ### Anamnesis y marco legal
@@ -424,7 +425,7 @@ Se registra el **oído**, el **motivo**, que se **revisaron las contraindicacion
 1. Tyler RS, Pienkowski M, Roncancio ER, Jun HJ, Brozoski T, Dauman N, et al. A review of hyperacusis and future directions: part I. Definitions and manifestations. Am J Audiol. 2014;23(4):402-19. doi:10.1044/2014_AJA-14-0010. PMID 25104073.
 1. Ward BK, Nieman CL, Poe DS. Patulous Eustachian tube and the differential diagnosis of autophony. En: Textbook of Otitis Media. Cham: Springer; 2023. p. 143-51. doi:10.1007/978-3-031-40949-3_15. <!-- verificar: solo se leyó el título en Crossref. -->
 1. Ichimiya I, Ichimiya H, et al. Complex tone stimulation may induce binaural diplacusis with low-tone hearing loss. PLoS One. 2019;14(1):e0210939. doi:10.1371/journal.pone.0210939. PMID 30682080.
-1. Knight RD. Diplacusis, hearing threshold and otoacoustic emissions in an episode of sudden, unilateral cochlear hearing loss. Int J Audiol. 2004;43(1):45-53. doi:10.1080/14992020400050007. <!-- verificar: solo se leyó el título en Crossref. -->
+1. Knight RD. Diplacusis, hearing threshold and otoacoustic emissions in an episode of sudden, unilateral cochlear hearing loss. Int J Audiol. 2004;43(1):45-53. doi:10.1080/14992020400050007. PMID 14974627.
 1. Guest H, Munro KJ, Prendergast G, Millman RE, Plack CJ. Impaired speech perception in noise with a normal audiogram: no evidence for cochlear synaptopathy and no relation to lifetime noise exposure. Hear Res. 2018;364:142-51. doi:10.1016/j.heares.2018.03.008. PMID 29680183.
 1. Chandrasekhar SS, Tsai Do BS, Schwartz SR, Bontempo LJ, Faucett EA, Finestone SA, et al. Clinical practice guideline: sudden hearing loss (update). Otolaryngol Head Neck Surg. 2019;161(1 Suppl):S1-S45. doi:10.1177/0194599819859885. PMID 31369359.
 1. Tunkel DE, Bauer CA, Sun GH, Rosenfeld RM, Chandrasekhar SS, Cunningham ER Jr, et al. Clinical practice guideline: tinnitus. Otolaryngol Head Neck Surg. 2014;151(2 Suppl):S1-S40. doi:10.1177/0194599814545325. PMID 25273878.

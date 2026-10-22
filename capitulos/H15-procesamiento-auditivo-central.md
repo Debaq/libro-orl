@@ -94,14 +94,14 @@ Cuando los dos oídos oyen **cosas distintas al mismo tiempo**, las dos vías co
 
 Por eso una pequeña **ventaja del oído derecho** es lo esperable en diestros con habla y lenguaje normales. Un oído que rinde claramente peor que el otro, sobre todo el izquierdo, hace pensar en un problema de esa ruta; si falla en los dos, hay que pensar en atención y memoria antes que en el cuerpo calloso.
 
-:::imagen ilustraciones/h15-via-dicotica.svg Escucha dicótica. Cada oído manda su mensaje a los dos hemisferios, pero con competencia gana la vía cruzada (gruesa) y se suprime la del mismo lado (discontinua). El dígito del oído derecho llega directo al hemisferio del lenguaje; el del izquierdo llega al derecho y tiene que cruzar el cuerpo calloso.
+:::imagen ilustraciones/h15-via-dicotica.svg Escucha dicótica. Cada oído manda su mensaje a los dos hemisferios, pero con competencia gana la vía cruzada (gruesa) y se suprime la del mismo lado (discontinua). El dígito del oído derecho llega directo al hemisferio del lenguaje; el del izquierdo llega al derecho y tiene que cruzar el cuerpo calloso. Imagen propia del libro.
 :::
 
 ### Interacción binaural: lo que el tronco hace con la diferencia entre oídos
 
 Un tono enterrado en un ruido se detecta mal cuando el tono y el ruido llegan **idénticos a los dos oídos**: los dos se oyen en el mismo lugar de la imagen. Si el ruido sigue igual pero el tono llega **invertido de fase** a un oído, el tono pasa a ocupar *otro lugar* en la imagen auditiva y el sistema lo separa del ruido. El tono se detecta con **menos nivel**. Esa diferencia en dB entre las dos condiciones es la **diferencia de nivel de enmascaramiento (MLD)**. Se escribe SoNo cuando el tono (S) y el ruido (N) son iguales en los dos oídos, y SπNo cuando el tono tiene fase invertida (π) y el ruido sigue igual (Hirsh, 1948; Wilson y cols., 2003).
 
-:::imagen ilustraciones/h15-mld.svg Interacción binaural. A: tono y ruido iguales en los dos oídos; se oyen en el mismo lugar y el tono cuesta separarlo. B: el ruido igual y el tono con fase invertida en un oído; el tono ocupa otro lugar en la imagen y se detecta con menos nivel. La diferencia entre A y B, en dB, es el MLD.
+:::imagen ilustraciones/h15-mld.svg Interacción binaural. A: tono y ruido iguales en los dos oídos; se oyen en el mismo lugar y el tono cuesta separarlo. B: el ruido igual y el tono con fase invertida en un oído; el tono ocupa otro lugar en la imagen y se detecta con menos nivel. La diferencia entre A y B, en dB, es el MLD. Imagen propia del libro.
 :::
 
 La comparación de fase entre los oídos la hace el tronco bajo. Por eso el MLD sale reducido con frecuencia en lesiones bajo la corteza, como la esclerosis múltiple, y no se altera en las lesiones corticales (Olsen y cols., 1976); y por eso la prueba se hace solo cuando la audición periférica es lo bastante simétrica como para no dar una diferencia artificial entre los oídos.
@@ -188,7 +188,7 @@ Antes de cualquier prueba: **audición periférica revisada, fonos calibrados y 
 
 Se presentan tres tonos seguidos que combinan dos posibilidades: **grave o agudo** (patrones de frecuencia) o **largo o corto** (patrón de duración). Con dos opciones en tres posiciones hay ocho secuencias; sin las dos que repiten el mismo tono, quedan **seis**. El paciente dice el orden que oyó.
 
-:::imagen ilustraciones/h15-patrones.svg ancho=96% Cómo se arma un patrón. A: tres tonos del mismo largo, dos graves y uno agudo. B: tres tonos de la misma frecuencia, dos largos y uno corto. Abajo, las seis secuencias posibles y los dos tipos de error sobre una de ellas.
+:::imagen ilustraciones/h15-patrones.svg ancho=96% Cómo se arma un patrón. A: tres tonos del mismo largo, dos graves y uno agudo. B: tres tonos de la misma frecuencia, dos largos y uno corto. Abajo, las seis secuencias posibles y los dos tipos de error sobre una de ellas. Imagen propia del libro.
 - @-3,82 | **Las seis secuencias.** Las que repiten el mismo tono (GGG, AAA) no se usan: no tienen orden que reconocer.
 - @103,82 | **El error es informativo.** Decir los mismos tonos en otro lugar no es lo mismo que invertirlos todos.
 :::
@@ -198,14 +198,14 @@ Se presentan tres tonos seguidos que combinan dos posibilidades: **grave o agudo
 1. **Instrucción con ejemplo**: "Va a escuchar tres sonidos, unos graves y otros agudos. Dígame el orden. Por ejemplo: grave, agudo, grave. También puede tararearlos." En la prueba de duración: "largos y cortos, todos con el mismo tono".
 2. **Práctica** con retroalimentación. Si no entiende, se vuelve a explicar; el resultado de una persona que no comprendió la tarea no vale.
 3. **Prueba** sin retroalimentación, una secuencia a la vez, esperando que responda antes de pasar a la siguiente.
-4. Se anota **cada secuencia presentada y la respondida**, no solo el total. El error siempre es informativo: confundir *dónde* está el cambio no es lo mismo que confundir *qué* cambio es, y decir el patrón al revés es un error propio de estas tareas (Pinheiro y Ptacek, 1971). <!-- verificar: Pinheiro y Ptacek 1971 no tiene resumen en PubMed; la atribución sale del título (Reversals in the perception of noise and tone patterns). -->
+4. Se anota **cada secuencia presentada y la respondida**, no solo el total. El error siempre es informativo: confundir *dónde* está el cambio no es lo mismo que confundir *qué* cambio es, y decir el patrón al revés es un error propio de estas tareas (Pinheiro y Ptacek, 1971).
 5. Si hay sospecha de asimetría, se repite **por oído**.
 
 El nivel, la duración de cada tono y la separación entre ellos son los de la versión de la prueba que se usa: son propios de cada versión y **no se cambian** sin perder la comparación con sus normas. Si el paciente tiene problemas de lenguaje (para nombrar), la respuesta tarareada o señalada es una alternativa.
 
 ### Resolución temporal: GIN y detección de gaps
 
-Se presenta un ruido continuo, a veces con un **silencio muy breve** en el medio, y el paciente avisa cuando lo oye. En el **GIN** el ruido es de banda ancha y los silencios van de pocos milisegundos hasta 20 ms; el resultado clave es el **umbral de gap**, el silencio más corto que el paciente detecta de forma consistente (Musiek y cols., 2005). <!-- verificar: criterio exacto de consistencia del umbral aproximado del GIN (no está en el resumen de Musiek 2005 ni en la guía de la AAA). Número de ítems resuelto en el resumen de Musiek 2005: segmentos de 6 s de ruido blanco con 0 a 3 silencios de 2 a 20 ms, 60 silencios por lista, cuatro listas. -->
+Se presenta un ruido continuo, a veces con un **silencio muy breve** en el medio, y el paciente avisa cuando lo oye. En el **GIN** el ruido es de banda ancha y los silencios van de pocos milisegundos hasta 20 ms; el resultado clave es el **umbral de gap**, el silencio más corto que el paciente detecta de forma consistente (Musiek y cols., 2005).
 
 **Por qué funciona.** Notar un silencio de unos pocos milisegundos dentro de un ruido depende de qué tan bien el sistema siga los cambios rápidos de intensidad. Como el silencio va dentro de un ruido de banda ancha, no hay otra pista que el tiempo. Es una de las pruebas con **menos carga de lenguaje y de memoria** (AAA, 2010).
 
@@ -235,7 +235,7 @@ Dos dígitos distintos llegan **a la vez**, uno por cada oído, y el paciente lo
 
 El resultado es **por oído**: el puntaje total esconde justo lo que importa. Un puntaje total normal no excluye un oído claramente peor que el otro, y un oído izquierdo por debajo del derecho es esperable en pequeña medida en diestros.
 
-:::imagen ilustraciones/h15-dicotico-oidos.svg ancho=92% Dos pacientes con el mismo puntaje total en dígitos dicóticos (78 %). En el primero los dos oídos rinden parecido; en el segundo el oído izquierdo rinde 36 puntos menos que el derecho. El total esconde la asimetría: mira siempre cada oído por separado.
+:::imagen ilustraciones/h15-dicotico-oidos.svg ancho=92% Dos pacientes con el mismo puntaje total en dígitos dicóticos (78 %). En el primero los dos oídos rinden parecido; en el segundo el oído izquierdo rinde 36 puntos menos que el derecho. El total esconde la asimetría: mira siempre cada oído por separado. Imagen propia del libro.
 :::
 
 ### Otras pruebas dicóticas: SSW, sílabas y oraciones
@@ -246,7 +246,7 @@ La escucha dicótica no es solo de dígitos. La guía de la AAA registra pruebas
 | Prueba | Material y presentación | Qué destaca |
 |---|---|---|
 | **Dígitos dicóticos** (Musiek, 1983) | Pares de dígitos, uno por oído | Poco lenguaje y poco afectada por una pérdida coclear (AAA, 2010). Recuerdo libre (integración) o dirigido (separación) |
-| **SSW** (*Staggered Spondaic Word*; Katz, 1962) | 40 series de cuatro palabras; la segunda y la tercera llegan a la vez, una por oído, y la serie empieza alternadamente por el oído derecho y el izquierdo | Evalúa la integración binaural. Se anotan los errores en cuatro condiciones: oído derecho e izquierdo sin competencia (palabra sola) y con competencia (Jutras y cols., 2012) |
+| **SSW** (*Staggered Spondaic Word*; Katz, 1962) | 40 series de cuatro palabras; la segunda y la tercera se solapan, una por oído, y la serie empieza alternadamente por el oído derecho y el izquierdo | Evalúa la integración binaural. Se anotan los errores en cuatro condiciones: oído derecho e izquierdo sin competencia (palabra sola) y con competencia (Jutras y cols., 2012) |
 | **Sílabas consonante-vocal** (Berlin y cols., 1973) | Sílabas distintas, una por oído, a veces con un desfase entre ambas | Muestra la ventaja del oído derecho con sílabas. La guía de la AAA no lo incluye entre los materiales clínicos que lista (dígitos, palabras y oraciones) |
 | **Oraciones dicóticas** (DSI; Fifer y cols., 1983) | Oraciones sintéticas de tercer orden alineadas, una por oído | Resistente a la pérdida periférica mientras el promedio de 500, 1.000 y 2.000 Hz no pase de unos 50 dB (Fifer y cols., 1983) |
 :::
@@ -256,8 +256,6 @@ La escucha dicótica no es solo de dígitos. La guía de la AAA registra pruebas
 **Cómo se hace.** Igual que en los dígitos: fonos verificados, audición simétrica, instrucción con ejemplo, práctica, prueba sin retroalimentación y resultado **por oído**. En el SSW, la respuesta es repetir **todas** las palabras que oyó, en el orden en que las oyó (Jutras y cols., 2012).
 
 **Qué se mira.** El puntaje por condición y por oído, no el total. Además del puntaje por oído, el SSW permite calcular el sesgo de oído, el sesgo de palabra, el patrón "tipo A" y las inversiones, que alimentan el modelo de Buffalo (Jutras y cols., 2012; → "Cómo se informa").
-
-<!-- verificar: en el SSW original el solapamiento entre la segunda y la tercera palabra es parcial (de ahí "escalonado"); lo anotado en la fila SSW sale de la descripción de Jutras y cols. (2012), que dice "simultáneamente". -->
 
 ### Interacción binaural: MLD
 
@@ -271,7 +269,7 @@ Se mide cuánto mejor se detecta un tono de 500 Hz en ruido cuando el tono llega
 4. Se busca el **umbral de detección del tono** en cada condición con un procedimiento adaptativo, y se resta (Wilson y cols., 2003).
 5. Se informa el **MLD en dB**, no un porcentaje de aciertos.
 
-Un MLD menor que el esperado orienta a la comparación entre oídos en el tronco bajo (Olsen y cols., 1976). La guía de la AAA anota que el MLD se usa poco en la clínica de rutina y que es sensible a disfunción del tronco bajo (AAA, 2010).<!-- verificar: valor esperado del MLD en 500 Hz y su rango en oyentes normales (Wilson y cols., 2003: media ~13 dB, 95 % >= 10 dB); no se incluyen cifras porque el capítulo no da valores de corte. -->
+Un MLD menor que el esperado orienta a la comparación entre oídos en el tronco bajo (Olsen y cols., 1976). La guía de la AAA anota que el MLD se usa poco en la clínica de rutina y que es sensible a disfunción del tronco bajo (AAA, 2010). En el protocolo clínico de 500 Hz de Wilson y cols. (2003), los oyentes normales mostraron un MLD medio de unos 13 dB y el 95 % tuvo 10 dB o más; para decidir, usa la norma de tu propio protocolo.
 
 ### Habla en ruido: HINT, SinB y Matrix
 
@@ -281,7 +279,7 @@ Se presentan frases con **ruido de fondo** y se busca el **SNR** en que el pacie
 - **QuickSIN / SinB** (*speech in babble*): frases con ruido de cuatro voces, con el SNR que baja en pasos fijos dentro de cada lista. Se informa la **pérdida de SNR** respecto de un oyente normal (Killion y cols., 2004).
 - **Matrix**: cada frase se arma con una palabra de cada columna (nombre, verbo, número, objeto y adjetivo), así que las frases son nuevas cada vez y no se pueden memorizar. Hay una versión en español (Hochmuth y cols., 2012). El paciente repite o elige las palabras en una grilla.
 
-:::imagen ilustraciones/h15-matrix.svg ancho=96% La prueba Matrix. A: cada frase toma una palabra de cada columna, así que la estructura es siempre la misma y el contenido no se puede adivinar. B: el recorrido adaptativo de una lista; el SNR baja cuando el paciente acierta la mayoría de las palabras y sube cuando no, hasta oscilar alrededor del SRT. La regla de pasos es genérica (cada versión trae la suya).
+:::imagen ilustraciones/h15-matrix.svg ancho=96% La prueba Matrix. A: cada frase toma una palabra de cada columna, así que la estructura es siempre la misma y el contenido no se puede adivinar. B: el recorrido adaptativo de una lista; el SNR baja cuando el paciente acierta la mayoría de las palabras y sube cuando no, hasta oscilar alrededor del SRT. La regla de pasos es genérica (cada versión trae la suya). Imagen propia del libro.
 - @19,57 | **Primeras frases.** Parte fácil y baja rápido: aquí todavía no se mide nada.
 - @80,80 | **SRT.** El SNR en que repite la mitad de las palabras; se estima con las últimas frases, cuando el recorrido ya oscila.
 :::
@@ -366,7 +364,7 @@ Los dos modelos no se construyeron con datos de fuentes con revisión por pares.
 | Detalle ítem por ítem | cada secuencia presentada y respondida |
 :::
 
-:::imagen ilustraciones/h15-patron-resultado.svg ancho=96% Una sesión de patrón de duración leída por partes. El mismo 77 % puede esconder problemas muy distintos: aquí los errores se concentran en el segundo y el tercer tono y casi todos son los mismos tonos en otro orden.
+:::imagen ilustraciones/h15-patron-resultado.svg ancho=96% Una sesión de patrón de duración leída por partes. El mismo 77 % puede esconder problemas muy distintos: aquí los errores se concentran en el segundo y el tercer tono y casi todos son los mismos tonos en otro orden. Imagen propia del libro.
 - @50,6 | **El total.** 77 % no dice dónde está la dificultad.
 - @-3,20 | **Ítem por ítem.** En rojo, lo presentado y lo que respondió. Los errores se parecen entre sí.
 - @-3,70 | **Acierto por posición.** El primer tono casi no falla; los errores están en el segundo y el tercero.

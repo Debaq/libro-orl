@@ -1,0 +1,52 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "schwannoma"
+    },
+    "edad": 28,
+    "sexo": "mujer",
+    "grado": {
+      "OI": "leve"
+    },
+    "semilla": 22,
+    "anamnesis": {
+      "otros": "Tiene 28 años y es contadora. Hace unos ocho meses empezó con un zumbido agudo y continuo en el oído izquierdo, y desde hace poco nota que por ese lado entiende menos por teléfono. Algunas veces se siente inestable al darse vuelta rápido. No ha tenido infecciones de oído ni ruido en el trabajo. El otorrinolaringólogo vio una audiometría con caída de agudos solo en el oído izquierdo y pide un PEAT.",
+      "historia": "{{-30}} Audiometría: OI con caída de agudos (35 a 50 dB HL de 2 a 4 kHz); OD normal. Se pide PEAT.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        50,
+        40,
+        20,
+        10,
+        0
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ],
+      "tasa": 81.1
+    }
+  ]
+}

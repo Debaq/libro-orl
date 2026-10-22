@@ -1,0 +1,22 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 61,
+    "sexo": "mujer",
+    "semilla": 22,
+    "anamnesis": {
+      "otros": "Tiene 61 años y es dueña de una panadería. Hace dos años tuvo un accidente cerebrovascular isquémico y, desde entonces, su hija la vigila de noche: dice que \"se queda sin respirar\" y que a veces parece que se asfixia. Se levanta con dolor de cabeza y no se siente descansada aunque duerma ocho horas. Se duerme sentada en la caja, esperando a los clientes, y una vez se quedó dormida en el semáforo. Ha subido de peso desde la menopausia. Es hipertensa y diabética, y le cuesta controlarse la presión pese a tres remedios. Nunca se ha hecho un estudio del sueño.",
+      "historia": "{{-730}} Accidente cerebrovascular isquémico sin secuelas importantes.\n{{-120}} Neurología: sospecha de apnea del sueño como factor de riesgo; se pide un estudio del sueño.",
+      "hist": [
+        "hta",
+        "diabetes"
+      ],
+      "medicamentos": "Tres antihipertensivos, metformina y un antiagregante",
+      "cirugias": ""
+    }
+  },
+  "figuras": []
+}

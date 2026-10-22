@@ -69,13 +69,13 @@ Tabla: Tipos de impedanciómetro según su uso
 | **Multifrecuencia** | Timpanogramas con varias frecuencias de sonda, o un barrido de frecuencia, para estimar la **frecuencia de resonancia** del oído medio (Margolis y Goycoolea, 1993) | Sospecha de problemas de cadena que el timpanograma de 226 Hz no distingue (Kaf y Fawzy, 2017) |
 | **De banda ancha** (mención) | En vez de un tono, un estímulo de banda ancha que mide cuánta energía **absorbe** o refleja el oído medio en cada frecuencia (Kaf y Fawzy, 2017) | Complementa a la timpanometría; la revisión de Kaf y Fawzy (2017) señala que podría evaluar el oído medio con mayor rapidez y exactitud, pero no es un examen de rutina de esta herramienta |
 
-<!-- verificar: la columna "Qué mide" de screening y clínico es descripción del uso habitual, no de la IEC 60645-5 (2004), cuyo texto es de pago; de la norma solo se confirmó que define tres tipos. Que la resonancia baja o alta oriente a cadena discontinua o rígida es conocimiento general: Margolis y Goycoolea (1993) estudian cómo estimarla, y solo su resumen se leyó. -->
+*La columna "Qué mide" de los tipos screening y clínico describe el uso habitual y es criterio de este libro; no es texto de la norma IEC 60645-5 (2004). Que la resonancia baja o alta oriente a una cadena discontinua o rígida es conocimiento general (Margolis y Goycoolea, 1993).*
 
 ### Conoce tu equipo: el impedanciómetro
 
 Todos los impedanciómetros tienen la misma lógica: una pantalla que cambia según la prueba, unas **teclas bajo la pantalla** cuya función aparece rotulada en la última línea, y unos controles fijos para elegir el oído, la sonda y la intensidad. La figura muestra uno con un timpanograma recién hecho en el oído derecho de Carolina, la paciente con otoesclerosis que vas a ver más abajo.
 
-:::imagen /docs/manual/img/estudiante/impedanciometro-timpanograma.png Un impedanciómetro en la pantalla de timpanograma. Antes de mirar la curva, lee los tres números de la derecha: compliancia, presión y volumen.
+:::imagen /docs/manual/img/estudiante/impedanciometro-timpanograma.png Un impedanciómetro en la pantalla de timpanograma. Antes de mirar la curva, lee los tres números de la derecha: compliancia, presión y volumen. Imagen propia: captura de LabSim.
 - @55.7,34 | **La curva.** Un pico muy bajo, apenas sobre la línea de base: un oído medio rígido.
 - @89.8,11 | **Compliancia** (*Compliance*): la altura del pico, ya descontado el conducto. Aquí 0,18 mL.
 - @89.8,18 | **Presión** (*Pressure*): dónde cae el pico. Aquí 18 daPa, prácticamente cero.
@@ -99,7 +99,7 @@ La otoscopía decide, oído por oído. No se mide, o se espera y se consulta al 
 
 - **Otorrea activa**: contraindica la timpanometría siempre (BSA, 2024).
 - **Otitis media aguda** con el tímpano rojo y abombado (BSA, 2024).
-- **Otitis externa aguda** o un oído que duele al tocarlo: se parte por el oído sano y el adolorido se mide solo si el resultado cambia la conducta y el paciente acepta (BSA, 2024). Lo mismo con un **herpes zóster ótico** con vesículas o costras en el conducto: duele y contamina la oliva.
+- **Otitis externa aguda** o un oído que duele al tocarlo: se parte por el oído sano y el adolorido se mide solo si el resultado cambia la conducta y el paciente acepta (BSA, 2024). Lo mismo con un **herpes zóster ótico** con vesículas o costras en el conducto: duele y contamina la oliva. (El zóster ótico no figura en la lista de la BSA; se agrega por el mismo criterio que la otitis externa, y es criterio de este libro.)
 - **Cuerpo extraño** en el conducto: la oliva puede empujarlo. Primero se retira (BSA, 2024).
 - **Tapón de cerumen impactado** que la oliva empujaría contra el tímpano (BSA, 2024).
 - **Atresia o estenosis severa** del conducto: no hay dónde sellar. Con una estenosis leve o una microtia a veces sirve una oliva tipo paraguas sobre la entrada (BSA, 2024).
@@ -107,8 +107,6 @@ La otoscopía decide, oído por oído. No se mide, o se espera y se consulta al 
 
 En ese oído no entra **ni la sonda ni el fono** del estímulo contralateral. Por eso no se hacen sus reflejos ipsilaterales, ni los contralaterales que se registran en él, ni los contralaterales que se estimulan por él. Del oído sano solo queda su timpanograma y su ipsilateral. En el informe se escribe **"No realizable"** y el motivo, por ejemplo: "OI: no realizable por otorrea activa".
 :::
-
-<!-- verificar: el herpes zóster ótico no aparece en la lista de la BSA 2024; se agregó por la misma lógica que la otitis externa (dolor y contaminación de la oliva). -->
 
 ## Paso a paso
 
@@ -156,7 +154,7 @@ Pregunta si el reflejo **se sostiene**. Una fibra del VIII par comprimida no man
 
 En los tumores del VIII lo más frecuente es que el reflejo esté **elevado o ausente**; el deterioro completa el cuadro: 95 de 97 oídos con tumor tenían una de las dos alteraciones (Hirsch, 1983).
 
-:::imagen ilustraciones/h7-decay.svg ancho=92% Deterioro del reflejo con un tono de 10 s, 10 dB sobre el umbral del reflejo. Negativo: la contracción se sostiene (94 % de la amplitud inicial a los 10 s). Positivo: cae a menos de la mitad (línea roja).
+:::imagen ilustraciones/h7-decay.svg ancho=92% Deterioro del reflejo con un tono de 10 s, 10 dB sobre el umbral del reflejo. Negativo: la contracción se sostiene (94 % de la amplitud inicial a los 10 s). Positivo: cae a menos de la mitad (línea roja). Imagen propia del libro.
 :::
 
 ### 6. Función tubaria

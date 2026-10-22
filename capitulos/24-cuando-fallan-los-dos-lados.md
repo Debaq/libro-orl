@@ -16,7 +16,7 @@ Este capítulo no pide pruebas nuevas. Pide **leer con otra pregunta** las de si
 
 - **La entrevista** (→ H16). Tres preguntas separan a este paciente de uno con vértigo: ¿ve borroso o saltón cuando camina o gira la cabeza?, ¿empeora a oscuras o sobre piso desparejo?, ¿está bien sentado o acostado? Y una de exposición: ¿recibió aminoglucósidos (gentamicina, amikacina, kanamicina, estreptomicina), tuvo meningitis, o tiene familia con problemas del equilibrio o neuropatía?
 - **La calórica** (→ H17). La mínima del protocolo, con agua a 2 °C, entrega la velocidad de la fase lenta **de cada oído**. Esos dos números son lo importante; el porcentaje de asimetría es lo secundario. Para aplicar el criterio de consenso hace falta la **suma de la respuesta tibia y fría de cada oído**: si la mínima sale baja en los dos, se completa con la bitérmica.
-- **El vHIT** (→ H18). La ganancia de **los dos** canales laterales, con sus sacadas. Una ganancia baja de los dos lados, con sacadas manifiestas hacia los dos, es el cuadro. Aquí importa también el **tamaño** de la ganancia: el consenso pide menos de 0,6, más exigente que el límite de 0,8 con que muchos equipos marcan "alterado".
+- **El vHIT** (→ H18). La ganancia de **los dos** canales laterales, con sus sacadas. Una ganancia baja de los dos lados, con sacadas manifiestas hacia los dos, es el cuadro ({{fig vhit-bilateral}}). Aquí importa también el **tamaño** de la ganancia: el consenso pide menos de 0,6, más exigente que el límite de 0,8 con que muchos equipos marcan "alterado".
 - **La agudeza visual dinámica** (→ H20). Es la forma de medir en la consulta lo que el paciente cuenta: cuántas líneas pierde al leer con la cabeza en movimiento. Es el examen de pie que mejor muestra a este paciente.
 
 :::ayuda Ayuda memoria
@@ -26,13 +26,8 @@ Este capítulo no pide pruebas nuevas. Pide **leer con otra pregunta** las de si
 - Esta pérdida **no da vértigo**: da inestabilidad y oscilopsia.
 :::
 
-:::imagen ilustraciones/cap24-vhit-bilateral.svg ancho=100% Impulsos del canal lateral de un paciente con los dos lados caídos: hacia la derecha y hacia la izquierda, con la cabeza en azul y el ojo, invertido, en naranja. No hay un lado bueno con el que comparar: el déficit se lee en el tamaño de cada ganancia, no en la asimetría. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).
-- @16,52 | **Ojo**: llega a menos de la mitad de la velocidad de la cabeza. Si el reflejo funcionara, las dos curvas se superpondrían.
-- @37,30 | **Sacadas manifiestas** (triángulos): el ojo corrige a saltos, cuando la cabeza ya se detuvo. Hacia los dos lados.
-- @4,87 | **Ganancia derecha** de 0,45, con cinco impulsos aceptados.
-- @53,87 | **Ganancia izquierda** de 0,46: bajo 0,6 de los dos lados.
+:::imagen ilustraciones/cap24-vhit-bilateral.svg ancho=100% id=vhit-bilateral vHIT del canal lateral de un paciente con los dos lados caídos. El ojo (en el color de cada oído) llega a menos de la mitad de la velocidad de la cabeza (gris): ganancia de 0,45 hacia la derecha y de 0,46 hacia la izquierda, bajo 0,6 de los dos lados, con sacadas manifiestas que corrigen cuando la cabeza ya se detuvo. No hay un lado bueno con el que comparar: el déficit se lee en el tamaño de cada ganancia, no en la asimetría.
 :::
-
 ### Por qué la fórmula de asimetría no la ve
 
 La paresia canalicular es un cociente: la diferencia entre lo que responde un oído y el otro, dividida por la suma de las dos respuestas (→ H17). Cuando los dos oídos responden igual de poco, el numerador es casi cero y el resultado es "sin paresia", **sea cual sea** la altura a la que están los dos. Con velocidades pequeñas, además, el cociente se mueve mucho por una diferencia de un solo grado por segundo: la misma suma de 7 °/s da 14 % si un oído lee 3 y el otro 4, y daría 43 % si leyeran 2 y 5.
@@ -53,7 +48,7 @@ El protocolo no fija un número para "severa" ni para "arreflexia". El consenso 
 La DVA de H20 se hace con una tabla de letras a 2,8 m, con la cabeza quieta y luego moviéndola de lado a lado a 3 Hz. Lo que se anota son las **líneas perdidas**. En una pérdida bilateral el paciente pierde muchas, porque el reflejo que le mantenía la imagen quieta ya no la mantiene (→ Fisiología). El consenso la deja como prueba **complementaria**, sin incluirla en la definición, y considera patológica una caída de 0,2 unidades logMAR o más (Strupp y cols., 2017): con una tabla logMAR, donde cada línea vale 0,1, son dos líneas. Hain y cols. (2013) la llaman, en su versión de pie de cama con una "E" que gira (la *dynamic illegible E*), el examen que permite hacer el diagnóstico en la consulta, y advierten que sin ella estos pacientes se confunden fácilmente con un síndrome cerebeloso.
 
 :::comentario Lo que dicen las normas
-Entre las dos fuentes hay una diferencia de criterio. La herramienta H20 de este libro, siguiendo su fuente, considera anormal perder **3 líneas o más**; el consenso, 0,2 logMAR, que son **2 líneas** en una tabla logMAR. Las dos cifras se refieren a pruebas ligeramente distintas (tabla de Snellen a 2,8 m, tabla logMAR). Lo que importa para la práctica es **informar las líneas perdidas con el método usado** y no el "normal/anormal" a secas. <!-- verificar: equivalencia de líneas entre tabla de Snellen y logMAR; criterio de 3 líneas de H20 sin fuente primaria -->
+Entre las dos fuentes hay una diferencia de criterio. La herramienta H20 de este libro, siguiendo su fuente, considera anormal perder **3 líneas o más**; el consenso, 0,2 logMAR, que son **2 líneas** en una tabla logMAR. Las líneas de una tabla de Snellen y las de una tabla logMAR no son siempre equivalentes. Lo que importa para la práctica es **informar las líneas perdidas con el método usado** y no el "normal/anormal" a secas.
 :::
 
 ### Lo que no hace el protocolo de este libro
@@ -264,7 +259,7 @@ Hipoexcitabilidad derecha: (1 + 2 − 1 − 3) / 7 = **14 %** (valor no signific
 
 cVEMP de 290 µV en el OD (5,72 corregida por el EMG) y de 291 µV en el OI (5,62): asimetría de **1 %**. oVEMP de 22 µV en los dos oídos (0,50 y 0,51): **0 %**. Los dos VEMP están conservados y simétricos: sáculo y utrículo responden, y la pérdida es del reflejo canalicular.
 
-:::imagen figuras/salida/cap24_gentamicina_audiosupra.svg ancho=80% Audiometría de Enrique: audición normal y simétrica, con 5 dB en las frecuencias del habla y 20 dB en 8 kHz; discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap24_gentamicina_audiosupra.svg ancho=100% Audiometría de Enrique: audición normal y simétrica, con 5 dB en las frecuencias del habla y 20 dB en 8 kHz; discriminación de 100 % en los dos oídos.
 :::
 
 SDT de 0 dB y SRT de 5 dB en los dos oídos, con discriminación de 100 % desde los 40 dB. Solo un descenso leve en 8 kHz (20 dB), esperable a los 52 años: ni el fármaco ni la edad dejaron aquí nada visible.
@@ -368,7 +363,7 @@ Hipoexcitabilidad izquierda: (3 + 5 − 2 − 3) / 13 = **23 %** (valor no signi
 
 cVEMP de 348 µV en los dos oídos (7,03 y 6,92 corregida por el EMG): asimetría de **1 %**. oVEMP de 27 y 24 µV (0,64 y 0,57): **6 %**. Los dos VEMP están conservados y son simétricos.
 
-:::imagen figuras/salida/cap24_tuberculosis_audiosupra.svg ancho=80% Audiometría de Verónica: graves y 1 kHz en 0 dB, y una caída de agudos bilateral y simétrica desde 2 kHz hasta 105 dB en 8 kHz. Discriminación de 92 % en el OD y de 88 % en el OI.
+:::imagen figuras/salida/cap24_tuberculosis_audiosupra.svg ancho=100% Audiometría de Verónica: graves y 1 kHz en 0 dB, y una caída de agudos bilateral y simétrica desde 2 kHz hasta 105 dB en 8 kHz. Discriminación de 92 % en el OD y de 88 % en el OI.
 :::
 
 SDT de −5 dB y SRT de 0 dB en los dos oídos. La curva cae desde 2 kHz (30 dB el OD, 40 el OI), con **80 dB** en 4 kHz el OD y **85** el OI, y **105 dB** en 8 kHz de los dos lados: la caída bilateral y simétrica de los agudos que deja un aminoglucósido (→ cap. 8). La discriminación llega a **92 %** en el OD y a **88 %** en el OI, a 40 dB: es la que la pérdida permite, y su queja con ruido de fondo es de la cóclea.
@@ -476,7 +471,7 @@ Hipoexcitabilidad derecha: (1 + 3 − 2 − 3) / 9 = **11 %** (valor no signific
 
 cVEMP de 343 µV en el OD (6,86 corregida por el EMG) y de 354 µV en el OI (6,94): asimetría de **1 %**. oVEMP de 28 y 25 µV (0,65 y 0,59): **5 %**. Los dos VEMP están conservados y son simétricos.
 
-:::imagen figuras/salida/cap24_sin_causa_audiosupra.svg ancho=80% Audiometría de Pilar: audición normal en los dos oídos, con 15 a 20 dB en 6 y 8 kHz; discriminación de 100 %.
+:::imagen figuras/salida/cap24_sin_causa_audiosupra.svg ancho=100% Audiometría de Pilar: audición normal en los dos oídos, con 15 a 20 dB en 6 y 8 kHz; discriminación de 100 %.
 :::
 
 SDT de 0 dB y SRT de 5 dB en los dos oídos, con discriminación de 100 % desde los 40 dB. Solo la leve caída de agudos de los 58 años (15 a 20 dB en 6 y 8 kHz).
@@ -582,7 +577,7 @@ Hipoexcitabilidad derecha: (1 + 1 − 1 − 2) / 5 = **20 %** (valor no signific
 
 cVEMP de 214 µV en el OD (4,27 corregida por el EMG) y de 210 µV en el OI (4,13): asimetría de **2 %**. oVEMP de 19 µV en los dos oídos (0,43 y 0,44): **2 %**. Los dos VEMP son simétricos.
 
-:::imagen figuras/salida/cap24_canvas_audiosupra.svg ancho=80% Audiometría de Jorge: graves y medias casi normales y una caída de agudos simétrica, de 50 dB en 4 kHz y 75 y 70 dB en 8 kHz; discriminación de 92 % en el OD y de 96 % en el OI.
+:::imagen figuras/salida/cap24_canvas_audiosupra.svg ancho=100% Audiometría de Jorge: graves y medias casi normales y una caída de agudos simétrica, de 50 dB en 4 kHz y 75 y 70 dB en 8 kHz; discriminación de 92 % en el OD y de 96 % en el OI.
 :::
 
 SDT de 5 dB y SRT de 10 dB en los dos oídos, con 15 dB en 1 kHz. La caída de agudos es **simétrica**: 50 dB en 4 kHz de los dos lados y 75 y 70 dB en 8 kHz. Es la curva de la edad, **no** la de un fármaco ni la de una lesión retrococlear. La discriminación llega a **92 %** en el OD y a **96 %** en el OI, a 50 dB, acorde a la curva: el oído se explica por sí solo.

@@ -47,7 +47,7 @@ El acoplador de uso universal es el de **2 cm³ (2 cc)**. Hay dos cosas que debe
 
 En la práctica, los audífonos retroauriculares con gancho y molde se miden en un acoplador (el HA-2) y los intracanales y los de tubo fino con punta (el HA-1), con la ventilación tapada por fuera; para los audífonos abiertos no hay acoplador estándar (resumen de la ANSI S3.22 en Cole, 2006).
 
-:::imagen ilustraciones/h22-caja-acoplador.svg ancho=96% La cámara de medida: altavoz, micrófono de referencia, audífono y acoplador. El analizador mantiene el tono al nivel pedido con el micrófono de referencia y mide lo que llega al micrófono del acoplador; la ganancia es la salida menos la entrada.
+:::imagen ilustraciones/h22-caja-acoplador.svg ancho=96% La cámara de medida: altavoz, micrófono de referencia, audífono y acoplador. El analizador mantiene el tono al nivel pedido con el micrófono de referencia y mide lo que llega al micrófono del acoplador; la ganancia es la salida menos la entrada. Imagen propia del libro.
 :::
 
 ### Por qué la salida se mide con tonos puros a 90 dB SPL
@@ -63,7 +63,7 @@ La medición usa **tonos puros** que barren las frecuencias, porque un tono puro
 - **Distorsión armónica.** Si le entregas al audífono un tono puro y a la salida aparecen además tonos en el doble, el triple, el cuádruple de esa frecuencia, el audífono está **agregando sonido que no estaba en el original**. La *distorsión armónica total* es la potencia de esos armónicos respecto de la del tono (ANSI S3.22; Cole, 2006). Se produce cuando el amplificador o el receptor se saturan, o cuando la pila está en las últimas. Para el usuario, la distorsión es un sonido áspero, sucio o "vibrado", y puede ser la razón por la que entiende peor con el audífono que sin él aunque el volumen sea el adecuado.
 - **Ruido equivalente de entrada.** Todo circuito produce un siseo propio, incluso en silencio. Medir ese siseo a la salida no sirve para comparar, porque depende de cuánto amplifique el audífono. Por eso se expresa **como si viniera de afuera**: es el nivel del ruido que habría que poner a la entrada de un audífono perfecto para que diera ese mismo siseo (la salida sin señal menos la ganancia; Cole, 2006). Para el usuario es el fondo de siseo que oye en una habitación silenciosa. Pesa más en quien tiene una pérdida leve, que oye bien los sonidos suaves y por lo tanto también oye ese fondo.
 
-:::imagen ilustraciones/h22-distorsion-ruido.svg ancho=96% Qué son la distorsión armónica y el ruido equivalente de entrada. A: con un tono puro a la entrada, todo lo que sale en 2f, 3f y 4f lo agregó el audífono. B: el siseo propio se expresa como si viniera de afuera (nivel de salida menos ganancia), para poder comparar audífonos que amplifican distinto.
+:::imagen ilustraciones/h22-distorsion-ruido.svg ancho=96% Qué son la distorsión armónica y el ruido equivalente de entrada. A: con un tono puro a la entrada, todo lo que sale en 2f, 3f y 4f lo agregó el audífono. B: el siseo propio se expresa como si viniera de afuera (nivel de salida menos ganancia), para poder comparar audífonos que amplifican distinto. Imagen propia del libro.
 :::
 
 ### El audífono en el acoplador y en el oído real
@@ -115,11 +115,11 @@ Tabla: Pilas de aire de uso habitual
 | **13** | Naranja | 7,9 × 5,4 mm | Retroauriculares y intrauriculares mayores |
 | **675** | Azul | 11,6 × 5,4 mm | Retroauriculares de potencia |
 
-<!-- verificar: tamaños y usos por estilo tomados de una guía comercial (Audionova); confirmar con la norma IEC 60086-2 (designaciones PR70, PR41, PR48, PR44) o con fichas de fabricante. Pasada de contenidos 2026-10-18 -->
+Colores y medidas coinciden con fichas de fabricante (designaciones IEC PR70, PR41, PR48 y PR44, según IEC 60086-2); los usos por estilo son orientativos y cambian según el modelo.
 
 La ficha del fabricante indica activarla quitando el sello y **esperando un minuto** antes de usarla (Energizer, s. f.). La duración depende del consumo del audífono y de cómo se usa: la ficha la da para condiciones de ensayo definidas, no para la vida diaria, y por eso la pila se prueba siempre con el probador (paso 4, abajo).
 
-Algunos audífonos usan, en cambio, una batería **recargable**, de dos tipos: de **plata-zinc**, con el tamaño de una pila de aire, que puede reemplazarse por una desechable si se agota, y que suele cambiarse cada cierto tiempo; y de **ion de litio**, sellada dentro del audífono y que se carga en un estuche, con la ventaja de una autonomía mayor y la desventaja de que, si se descarga, no se puede reemplazar por una pila común (Hearing Review, 2015). <!-- verificar: autonomía por carga, frecuencia de recambio de la celda de plata-zinc y efecto de la transmisión de audio; la nota de Hearing Review (2015) es de industria. Confirmar con una fuente independiente -->
+Algunos audífonos usan, en cambio, una batería **recargable**, de dos tipos: de **plata-zinc**, con el tamaño de una pila de aire, que puede reemplazarse por una desechable si se agota, y que según el fabricante dura un día completo, con transmisión de audio incluida, y se cambia más o menos una vez al año (Hearing Review, 2015, nota escrita por un directivo del fabricante del sistema); y de **ion de litio**, sellada dentro del audífono y que se carga en un estuche, con la ventaja de una autonomía mayor y la desventaja de que, si se descarga, no se puede reemplazar por una pila común. <!-- verificar: lo de plata-zinc viene de una nota de industria (Hearing Review, 2015, no independiente); lo de ion de litio (sellada, autonomía) no figura en esa nota y falta una fuente -->
 
 :::ojo Ojo clínico
 Las pilas de botón son un riesgo si las traga un niño o una mascota: se guardan fuera de su alcance, se tira la agotada de inmediato y, ante una ingestión, se va a urgencias sin esperar síntomas (NCPC, 2023).
@@ -177,7 +177,7 @@ Dos observaciones. Si el estetoclip **suena bien** y el paciente igual dice que 
 7. **Imprime el resultado**, corchetéalo o pégalo en la ficha y escribe la conclusión junto con la revisión visoauditiva (véase *Cómo se informa*).
 
 :::comentario Lo que dicen las normas
-**Qué fija la norma y este libro no dice.** La medición del audífono tiene una norma estadounidense, la **ANSI/ASA S3.22** (*Specification of hearing aid characteristics*), y otra internacional, la **IEC 60118-0** (*Measurement of the performance characteristics of hearing aids*). La IEC 60118-0 va en su edición de 2022; para la ANSI/ASA S3.22, los datos técnicos de los fabricantes siguen citando la edición de 2014 y el catálogo de ANSI ya lista una de 2024. <!-- verificar: edición vigente de la ANSI/ASA S3.22 (2014, reafirmada 2020, o 2024); el catálogo ANSI da datos contradictorios y no se pudo leer el texto de la 2024. Los valores de este capítulo salen del resumen de la edición 2003. -->
+**Qué fija la norma y este libro no dice.** La medición del audífono tiene una norma estadounidense, la **ANSI/ASA S3.22** (*Specification of hearing aid characteristics*), y otra internacional, la **IEC 60118-0** (*Measurement of the performance characteristics of hearing aids*). La IEC 60118-0 va en su edición de 2022; para la ANSI/ASA S3.22, los datos técnicos de los fabricantes siguen citando la edición de 2014 y el catálogo de ANSI lista la de 2024 como la más reciente y marca la de 2014 como histórica; no se encontró una reafirmación en 2020. No se pudo leer el texto de la edición 2024, y los valores de este capítulo salen del resumen de la edición 2003.
 
 La norma pide, además de lo de arriba:
 
@@ -213,7 +213,7 @@ Estas son las magnitudes y las tolerancias que fija la edición 2003, según un 
 
 Las tolerancias son del resumen citado; si la ficha del fabricante o el manual del analizador dan otras, mandan esas.
 
-:::imagen ilustraciones/h22-curva-ejemplo.svg ancho=96% Qué mide cada curva: OSPL90, ganancia y promedio de alta frecuencia. La curva roja es el techo del audífono; la verde, lo que entrega con una entrada de 60 dB SPL, y su distancia a la línea de la entrada es la ganancia. El HFA promedia 1.000, 1.600 y 2.500 Hz.
+:::imagen ilustraciones/h22-curva-ejemplo.svg ancho=96% Qué mide cada curva: OSPL90, ganancia y promedio de alta frecuencia. La curva roja es el techo del audífono; la verde, lo que entrega con una entrada de 60 dB SPL, y su distancia a la línea de la entrada es la ganancia. El HFA promedia 1.000, 1.600 y 2.500 Hz. Imagen propia del libro.
 :::
 
 ### Cómo se lee

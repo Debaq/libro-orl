@@ -1,0 +1,19 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 27,
+    "sexo": "hombre",
+    "semilla": 107,
+    "anamnesis": {
+      "otros": "Tiene 27 años y es diseñador gráfico. Desde la adolescencia se le tapa la nariz casi todo el año y peor en primavera: estornuda en salvas, le pica la nariz y los ojos, le gotea agua clara y siente la garganta \"con moco que baja\". Hace dos años adoptó un gato y desde entonces está peor. En los últimos meses se le suma tos seca de madrugada, un silbido en el pecho al subir escaleras o al jugar fútbol, y a veces \"no me llega el aire\" al reírse mucho. Hace un año un médico le dio un inhalador de salbutamol: lo usa dos o tres veces por semana y le alivia. Toma un antihistamínico cuando está muy mal; lo dejó hace tres días, como le pidieron para el examen, y no usó el salbutamol en las últimas 24 horas. No fuma. Su madre tiene rinitis y \"bronquitis alérgica\". Un alergólogo le hizo pruebas en la piel hace un año; le dijo que reaccionaba a los ácaros y al gato.",
+      "historia": "{{-2500}} Control por estornudos y picazón en primavera; antihistamínico oral cuando hay síntomas.\n{{-365}} Pruebas cutáneas con alérgenos inhalantes: reacciona a ácaros y a epitelio de gato (según relata; no trajo el informe). Se indica salbutamol en inhalador a demanda.\n{{-30}} Médico general: rinitis alérgica y sospecha de asma; se solicita espirometría con prueba broncodilatadora.",
+      "hist": [],
+      "medicamentos": "Salbutamol en inhalador a demanda, dos o tres veces por semana (última dosis hace más de 24 horas); antihistamínico oral cuando hay síntomas (lo dejó hace tres días)",
+      "cirugias": ""
+    }
+  },
+  "figuras": []
+}

@@ -30,10 +30,20 @@ def curvas(caso, enmascarado=True):
     return out
 
 
-def dibujar(caso, enmascarado=True, oidos=('OD', 'OI')):
+def dibujar(caso, enmascarado=True, oidos=('OD', 'OI'), compacto=False):
+    """compacto: la del tomo II, que va a media página (dos curvas en una
+    fila): el gráfico más chico y la letra más grande, para que impresa no
+    baje de 7 pt (él, 2026-10-21: con la de siempre salía a 4 pt)."""
     c = curvas(caso, enmascarado)
-    pw, ph, ml, mt = 330, 190, 44, 40
-    s = Svg(ml + pw + 70, mt + ph + 44)
+    if compacto:
+        pw, ph, ml, mt, md, mb = 240, 130, 42, 42, 22, 40
+        t_eje, t_rot, t_chico = 10, 10.5, 9.5
+        tenue = tinta_2 = E.TINTA          # en negro, como la hoja auditiva (él, 2026-10-21)
+    else:
+        pw, ph, ml, mt, md, mb = 330, 190, 44, 40, 70, 44
+        t_eje, t_rot, t_chico = E.T_EJE, E.T_ROTULO, E.T_CHICO
+        tenue, tinta_2 = E.TENUE, E.TINTA_2
+    s = Svg(ml + pw + md, mt + ph + mb)
 
     def X(db):
         return ml + db / 110 * pw
@@ -44,19 +54,21 @@ def dibujar(caso, enmascarado=True, oidos=('OD', 'OI')):
     for db in range(0, 111, 10):
         s.linea(X(db), mt, X(db), mt + ph, E.GRILLA, 1 if db % 20 == 0 else 0.5)
         if db % 20 == 0:
-            s.texto(X(db), mt + ph + 14, db, E.T_EJE, E.TENUE)
+            s.texto(X(db), mt + ph + 4 + t_eje * 1.25, db, t_eje, tenue)
     for p in range(0, 101, 20):
         s.linea(ml, Y(p), ml + pw, Y(p), E.GRILLA, 1)
-        s.texto(ml - 7, Y(p) + 3, p, E.T_EJE, E.TENUE, 'end')
+        s.texto(ml - 7, Y(p) + t_eje * 0.375, p, t_eje, tenue, 'end')
 
     # Leyenda (dos series: siempre, además de los rótulos directos)
+    # (en el compacto la leyenda llena el ancho: "sin enmascarar" va debajo)
+    ley = mt - 28 if compacto else mt - 15
     lx = ml
     for lado in oidos:
-        _simbolo(s, lado, lx + 4, mt - 18)
-        s.texto(lx + 13, mt - 15, E.NOMBRE_LADO[lado], E.T_ROTULO, E.TINTA_2, 'start')
+        _simbolo(s, lado, lx + 4, ley - 3)
+        s.texto(lx + 13, ley, E.NOMBRE_LADO[lado], t_rot, tinta_2, 'start')
         lx += 110
     if not enmascarado:
-        s.texto(ml + pw, mt - 15, 'sin enmascarar', E.T_CHICO, E.TENUE, 'end')
+        s.texto(ml + pw, mt - 10 if compacto else mt - 15, 'sin enmascarar', t_chico, tenue, 'end')
 
     trazos = {lado: [(X(db), Y(p)) for db, p in c[lado]] for lado in oidos}
     ocupados = []
@@ -76,15 +88,15 @@ def dibujar(caso, enmascarado=True, oidos=('OD', 'OI')):
         texto = f'{p_max:.0f} %'
         otras = [t for o, t in trazos.items() if o != lado]
         x, y, ancla, caja = _lugar_rotulo(X(db_max), Y(p_max), texto, trazos.values(), ocupados,
-                                          (ml, mt, ml + pw, mt + ph), otras)
+                                          (ml, mt, ml + pw, mt + ph), otras, t_chico)
         ocupados.append(caja)
         # del color del oído: si el único lugar libre queda del otro lado de
         # la otra curva (paciente 40, dos curvas pegadas), igual se sabe de
         # quién es
-        s.texto(x, y, texto, E.T_CHICO, col, ancla)
+        s.texto(x, y, texto, t_chico, col, ancla)
 
-    s.texto(ml + pw / 2, mt + ph + 30, 'Intensidad (dB HL)', E.T_EJE, E.TENUE)
-    s.texto(12, mt + ph / 2, '% de discriminación', E.T_EJE, E.TENUE,
+    s.texto(ml + pw / 2, mt + ph + 4 + t_eje * 3.25, 'Intensidad (dB HL)', t_eje, tenue)
+    s.texto(12, mt + ph / 2, '% de discriminación', t_eje, tenue,
             extra=f'transform="rotate(-90 12 {mt + ph / 2:.1f})"')
     return s.svg()
 
@@ -127,7 +139,7 @@ def _y_en(puntos, x):
     return None
 
 
-def _lugar_rotulo(px, py, texto, trazos, ocupados, area, otras=()):
+def _lugar_rotulo(px, py, texto, trazos, ocupados, area, otras=(), tam=E.T_CHICO):
     """El primer lugar de _LUGARES que queda dentro del gráfico y no pisa
     ninguna curva ni otro rótulo; si ninguno sirve, el menos malo (el
     primero que entra en el gráfico). Si la otra curva pasa por ARRIBA de
@@ -137,10 +149,12 @@ def _lugar_rotulo(px, py, texto, trazos, ocupados, area, otras=()):
     lugares = _LUGARES
     if any((_y_en(t, px) is not None and _y_en(t, px) < py) for t in otras):
         lugares = [q for q in _LUGARES if q[1] > 0] + [q for q in _LUGARES if q[1] <= 0]
+    # los corrimientos están pensados para la letra chica: crecen con ella
+    k = tam / E.T_CHICO
     dentro = None
     for dx, dy, ancla in lugares:
-        x, y = px + dx, py + dy
-        caja = _caja_texto(x, y, texto, ancla)
+        x, y = px + dx * k, py + dy * k
+        caja = _caja_texto(x, y, texto, ancla, tam)
         if caja[0] < area[0] or caja[2] > area[2] + 30 or caja[1] < area[1] or caja[3] > area[3]:
             continue
         if dentro is None:
@@ -150,7 +164,7 @@ def _lugar_rotulo(px, py, texto, trazos, ocupados, area, otras=()):
     if dentro is not None:
         return dentro
     dx, dy, ancla = _LUGARES[0]
-    return px + dx, py + dy, ancla, _caja_texto(px + dx, py + dy, texto, ancla)
+    return px + dx * k, py + dy * k, ancla, _caja_texto(px + dx * k, py + dy * k, texto, ancla, tam)
 
 
 def _simbolo(s, lado, x, y, r=3.4):

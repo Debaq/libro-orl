@@ -46,7 +46,7 @@ Cada canal se conecta, por tres neuronas, con un par de músculos del ojo, y mue
 - El **canal anterior** da el inverso en lo vertical: fase rápida **hacia abajo** (downbeat), con torsión.
 - El **canal lateral** mueve el ojo en el plano horizontal: nistagmo **horizontal**, sin componente vertical ni torsional.
 
-Los canales no están alineados con la cabeza ni con la camilla: el plano de los canales verticales queda a unos 45° del plano sagital (Blanks y cols., 1975). <!-- verificar: el abstract de Blanks 1975 solo da ángulos entre canales (verticales contralaterales 23-24°, laterales 25° sobre el plano de Reid), no el de cada canal vertical con el plano sagital; confirmar la cifra en sus tablas. La guía AAO-HNS (fig. 1) sostiene que girar 45° alinea el canal posterior con el plano sagital. --> Por eso el Dix-Hallpike **gira la cabeza 45°** hacia el lado que se examina: pone el canal posterior de ese lado en el plano sagital del cuerpo, que es el plano en que cae el paciente al acostarse. De ahí viene la geometría de toda la prueba.
+Los canales no están alineados con la cabeza ni con la camilla: los canales verticales quedan oblicuos al plano sagital (Blanks y cols., 1975). Por eso el Dix-Hallpike **gira la cabeza 45°** hacia el lado que se examina: pone el canal posterior de ese lado en el plano sagital del cuerpo, que es el plano en que cae el paciente al acostarse (Bhattacharyya y cols., 2017). De ahí viene la geometría de toda la prueba.
 
 La segunda ley de Ewald dice que **excitar** un canal da más respuesta que **inhibirlo**: es más fuerte en el lateral hacia la ampolla y en los verticales **al revés**, alejándose de ella (Ewald, 1892; Leigh y Zee, 2015). Lo usarás dos veces: para entender por qué el nistagmo de un lado es más fuerte que el del otro, y para entender el nistagmo que se **invierte** al sentarse.
 
@@ -66,7 +66,7 @@ Con la cabeza en la postura de la prueba, la gravedad empuja las partículas a l
 - **Crescendo-decrescendo.** Empieza suave, sube a un máximo y baja. Mientras las partículas aceleran por el canal, el líquido corre más rápido; cuando llegan al punto más bajo, se frenan.
 - **Duración menor de 1 minuto.** Cuando se detienen, el flujo para y la cúpula vuelve a su sitio. El vértigo y el nistagmo se acaban solos (Bhattacharyya y cols., 2017; von Brevern y cols., 2015).
 - **Inversión al sentarse.** Al volver a la posición inicial, las partículas caen de vuelta y mueven el líquido **al revés**: la cúpula se dobla hacia el lado que inhibe, y el nistagmo sale en sentido contrario, más suave (segunda ley de Ewald).
-- **Fatiga.** Si se repite la postura, el nistagmo sale más débil: se atribuye a que el grupo de partículas se dispersa al caer y empuja menos líquido (Brandt y Steddin, 1993). <!-- verificar: la latencia quedó resuelta con Squires 2004 (abstract: ~5 s para atravesar la ampolla ancha). Falta la dispersión como causa de la fatiga: el abstract de Brandt y Steddin 1993 solo dice que el modelo del coágulo flotante es "compatible" con la fatigabilidad; confirmar en el texto completo que la atribuye a la dispersión de las partículas. -->
+- **Fatiga.** Si se repite la postura, el nistagmo sale más débil. El modelo de partículas libres en el canal es compatible con esa fatiga (Brandt y Steddin, 1993); que el grupo se disperse al caer y empuje menos líquido es la explicación que se supone, no una cifra medida.
 
 La guía de la AAO-HNS **no pide repetir la maniobra para demostrar la fatiga**, porque expone al paciente a otra crisis de vértigo y puede interferir con el tratamiento inmediato (Bhattacharyya y cols., 2017). Aquí la fatiga se explica, pero no se provoca de a propósito.
 
@@ -211,7 +211,7 @@ Aquí se llama a esta prueba "maniobra de McClure"; en la literatura se llama **
 Fuentes: Bhattacharyya y cols., 2017; von Brevern y cols., 2015.
 :::
 
-:::imagen ilustraciones/h19-nistagmo-por-canal.svg Qué se ve en los ojos en cada caso. Las flechas muestran la fase rápida del nistagmo; el arco verde, hacia dónde gira el polo superior del ojo.
+:::imagen ilustraciones/h19-nistagmo-por-canal.svg Qué se ve en los ojos en cada caso. Las flechas muestran la fase rápida del nistagmo; el arco verde, hacia dónde gira el polo superior del ojo. Imagen propia del libro.
 :::
 
 El **orden de lectura** es siempre el mismo: primero **¿hay nistagmo?** (sin nistagmo, el vértigo solo no basta); después, **¿en qué postura salió?** (eso dice el canal); luego **¿hacia dónde bate?** (eso dice el canal y el lado); y al final **¿cómo se comporta en el tiempo?** (latencia, crescendo-decrescendo, duración, fatiga: eso dice canalitiasis, cupulolitiasis o algo que no es VPPB).

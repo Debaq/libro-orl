@@ -75,8 +75,17 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
     pw, ph = 6 * OCTAVA_PX, 130 * db_px
     # clinico: las frecuencias van arriba, como en la hoja clínica (él, 2026-10-20)
     ml, mt, sep, mb = (36, 58, 34, 14) if clinico else (36, 30, 34, 40)
+    if clinico:
+        ml = 32          # "dB HL" más pegado a los números
+    if clinico and not fowler:
+        mt = 42          # sin los rótulos del Fowler sobra el alto de arriba
+    # clinico: letra en negro y sin rótulos más chicos, para que impresa se lea
+    # (él, 2026-10-21); margen derecho justo para el símbolo de 8 kHz
+    tinta, tinta_2 = (E.TINTA, E.TINTA) if clinico else (E.TENUE, E.MUY_TENUE)
+    t_chico = E.T_EJE if clinico else E.T_CHICO
+    md = 8 if clinico else 14
     paneles = 1 if combinado else len(oidos)
-    s = Svg(ml + paneles * pw + (paneles - 1) * sep + 14, mt + ph + mb)
+    s = Svg(ml + paneles * pw + (paneles - 1) * sep + md, mt + ph + mb)
 
     rotulos_ldl = []
     for k, lado in enumerate(oidos):
@@ -97,12 +106,12 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
                 s.linea(x0, Y(db), x0 + pw, Y(db), E.GRILLA_FUERTE if fuerte else E.GRILLA,
                         1 if (fuerte or db % 20 == 0) else 0.5)
                 if k == 0 and db % 20 == 0:
-                    s.texto(x0 - 7, Y(db) + 3, db, E.T_EJE, E.TENUE, 'end')
+                    s.texto(x0 - 7, Y(db) + 3, db, E.T_EJE, tinta, 'end')
             for f in FRECUENCIAS:
                 mayor = f not in (3000, 6000)
                 s.linea(X(f), Y(-10), X(f), Y(120), E.GRILLA, 1 if mayor else 0.5)
-                s.texto(X(f), Y(-10) - 6 if clinico else Y(120) + 14, ROTULO.get(f, f), E.T_EJE if mayor else E.T_CHICO,
-                        E.TENUE if mayor else E.MUY_TENUE)
+                s.texto(X(f), Y(-10) - 6 if clinico else Y(120) + 14, ROTULO.get(f, f), E.T_EJE if mayor else t_chico,
+                        tinta if mayor else tinta_2)
         if not combinado:   # combinado: sin leyenda, el color y el símbolo ya dicen el oído
             s.texto(x0, 14 if clinico else mt - 12, E.NOMBRE_LADO[lado], E.T_TITULO, E.TINTA, 'start', 600)
 
@@ -142,8 +151,8 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
             if clinico and primero and not rotulos_ldl:
                 rotulos_ldl.append(primero[1])
                 xd, yb = primero[0] - 12, primero[1] + 3
-                s.texto(xd, yb, 'LDL:', E.T_CHICO + 0.5, E.TINTA, 'end', 700)
-                s.linea(xd - 17, yb + 1.6, xd, yb + 1.6, E.TINTA, 0.8)     # subrayado
+                s.texto(xd, yb, 'LDL:', E.T_EJE + 0.5, E.TINTA, 'end', 700)
+                s.linea(xd - 19, yb + 1.6, xd, yb + 1.6, E.TINTA, 0.8)     # subrayado
             for i, f in enumerate(FRECUENCIAS):
                 if f in FRECUENCIAS_OSEA and l[i] is not None:
                     y = Y(min(l[i], NIVEL_MAXIMO))
@@ -189,7 +198,8 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
         # dos rótulos cercanos se escalonan para no montarse
         y_rot = mt - 31 if rotulos and x - rotulos[-1] < 55 and len(rotulos) % 2 else mt - 20
         rotulos.append(x)
-        s.texto(x, y_rot, f"Fowler ({'−' if _ == 'none' else '+'})", E.T_CHICO, E.TINTA_2, 'middle', 600)
+        s.texto(x, y_rot, f"Fowler ({'−' if _ == 'none' else '+'})", t_chico, E.TINTA if clinico else E.TINTA_2,
+                'middle', 600)
         for l_od, l_oi in pares:
             y_od = mt + (l_od + 10) * db_px
             y_oi = mt + (l_oi + 10) * db_px
@@ -200,12 +210,13 @@ def dibujar(caso, estudio=True, ldl=True, oidos=('OD', 'OI'), sin_enmascarar=Fal
             s.camino(f'M{xo - r:.2f},{y_oi - r:.2f} L{xo + r:.2f},{y_oi + r:.2f} '
                      f'M{xo - r:.2f},{y_oi + r:.2f} L{xo + r:.2f},{y_oi - r:.2f}', E.OI, 1.2)
     if sin_enmascarar:
-        s.texto(s.ancho - 14, 14, 'sin enmascarar', E.T_CHICO, E.TENUE, 'end')
-    s.texto(14, mt + ph / 2, 'dB HL', E.T_EJE, E.TENUE,
-            extra=f'transform="rotate(-90 14 {mt + ph / 2:.1f})"')
+        s.texto(s.ancho - md, 14, 'sin enmascarar', t_chico, tinta, 'end')
+    xdb = 12 if clinico else 14
+    s.texto(xdb, mt + ph / 2, 'dB HL', E.T_EJE, tinta,
+            extra=f'transform="rotate(-90 {xdb} {mt + ph / 2:.1f})"')
     if clinico:
-        s.texto(ml + (s.ancho - ml - 14) / 2 if combinado else s.ancho / 2, 14 if combinado else 30,
-                'Frecuencia (Hz)', E.T_EJE, E.TENUE)
+        s.texto(ml + (s.ancho - ml - md) / 2 if combinado else s.ancho / 2, 14 if combinado else 30,
+                'Frecuencia (Hz)', E.T_EJE, tinta)
     else:
         s.texto(s.ancho / 2, mt + ph + 34, 'Frecuencia (Hz)', E.T_EJE, E.TENUE)
     return s.svg()

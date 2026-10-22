@@ -75,7 +75,7 @@ La base se toma **antes** (o al comienzo) de la exposición precisamente para de
 
 - **Si es simétrica y con la forma del ruido**, es una exposición previa (otro empleo, tiro, música): se anota, se informa al trabajador y entra al programa. El oído ya dañado no queda más sensible, pero tampoco protegido (→ H24).
 - **Si es asimétrica, con gap, plana o con acúfeno unilateral**, el ruido no es toda la explicación. La vía aérea sin enmascarar del cribado no sirve para estudiarla: con diferencias de 40 dB o más entre los oídos el tono puede estar cruzando al otro lado (ISP, 2026; → H3, H4). Va a audiometría diagnóstica y a otorrinolaringología, y a veces a la pregunta del cap. 11.
-- **Quién decide.** Quien toma la audiometría **informa el patrón**; no decide si el trabajador puede o no ocupar un puesto. En Chile, el protocolo manda que una base alterada o con un perfil de pérdida no laboral o mixto pase al médico de salud ocupacional (MINSAL, 2013; → H24). El resultado individual es del trabajador: a la empresa llegan datos agrupados y sin nombre. <!-- verificar: no se encontró una norma chilena que diga si una base alterada impide la contratación; el libro no lo afirma ni lo niega. Se revisaron el texto de PREXOR (NT 156) y la guía ISP 2026 (2026-10-18): ninguno lo trata. Falta revisar el Código del Trabajo o la Ley 16.744. -->
+- **Quién decide.** Quien toma la audiometría **informa el patrón**; no decide si el trabajador puede o no ocupar un puesto. En Chile, el protocolo manda que una base alterada o con un perfil de pérdida no laboral o mixto pase al médico de salud ocupacional (MINSAL, 2013; → H24). El resultado individual es del trabajador: a la empresa llegan datos agrupados y sin nombre.
 
 :::ojo Ojo clínico
 La audiometría de vigilancia **no es un examen de diagnóstico**: la guía chilena prohíbe usarla para diagnosticar patología otorrinolaringológica, para calificar una enfermedad profesional o en un contexto médico-legal (ISP, 2026). Dice cómo está el umbral hoy. <!-- Pasada de fundamentos 2026-10-18: decía "no es un examen de aptitud ni de diagnóstico (ISP, 2026)". La guía (consideración 4) excluye el diagnóstico clínico, la calificación de enfermedad profesional y el uso médico-legal; no habla de aptitud. --> Lo que se hace con eso, para el trabajador y para el puesto, lo deciden un médico y el programa, con la historia y el nivel de exposición.
@@ -135,12 +135,12 @@ El examen de hoy ya es una confirmación en cámara. ¿Qué más necesitas para 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap33_control_audiosupra.svg ancho=80% Audiometría de control del trabajador: muesca de 4 kHz en los dos oídos, con recuperación en 8 kHz.
+:::imagen figuras/salida/cap33_control_audiosupra.svg ancho=100% Audiometría de control del trabajador: muesca de 4 kHz en los dos oídos, con recuperación en 8 kHz.
 :::
 
 Hasta 1 kHz el OD está en 0 dB HL, igual que en su base: los graves no cambiaron. El fondo está en 4 kHz: 80 dB en el OD, 80 dB más que su base de 0, y en 8 kHz sube de nuevo a 45 dB, la **recuperación** de la muesca, característica del ruido. El OI hace lo mismo, con 85 dB en 4 kHz: **bilateral y casi simétrico**. SDT de −5 dB y SRT de 0 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 y 19,5 dB en 4 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap33_control_impedancia.svg ancho=80% Impedanciometría de control del trabajador.
+:::imagen figuras/salida/cap33_control_impedancia.svg ancho=100% Impedanciometría de control del trabajador.
 :::
 
 Curva A en los dos oídos: el oído medio está sano, así que el cambio no es conductivo.
@@ -180,7 +180,7 @@ La ficha del control de fin de turno y el resultado de la confirmación en cáma
 :::imagen ilustraciones/cap33-reposo.svg ancho=100% El control del final del turno y la confirmación tras 14 horas de reposo, contra la base: el cambio que en la tarde cumplía los criterios ya no está en la mañana.
 :::
 
-:::imagen figuras/salida/cap33_reposo_audiosupra.svg ancho=80% Audiometría en cámara tras 14 horas de reposo: de vuelta en la base.
+:::imagen figuras/salida/cap33_reposo_audiosupra.svg ancho=100% Audiometría en cámara tras 14 horas de reposo: de vuelta en la base.
 :::
 
 En la cámara, 14 horas después del último turno, el OD está en **0 dB HL** en 4 kHz: es la base. El cambio de 30 dB del final del turno desapareció, y el OI también vuelve a la base: en 3 y 6 kHz, donde el control de la tarde tenía 15 a 25 dB de cambio, hoy hay 0. Sin muesca en 8 kHz: este audiograma, solo, no muestra nada de lo que le pasa en el turno.
@@ -211,14 +211,14 @@ Es una audiometría de cribado por vía aérea y sin enmascarar. ¿Sirve para es
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap33_ingreso_audiosupra.svg ancho=80% Audiometría de ingreso: OD normal y OI con una muesca profunda en 4 kHz.
+:::imagen figuras/salida/cap33_ingreso_audiosupra.svg ancho=100% Audiometría de ingreso: OD normal y OI con una muesca profunda en 4 kHz.
 :::
 
 El OD está en 0 dB HL en todas las frecuencias: normal. En el OI la pérdida empieza en 2 kHz con 30 dB y el fondo está en 4 kHz con **95 dB**, 95 dB de diferencia con el otro oído; en 8 kHz recupera a 40 dB: la forma de la muesca, pero muy profunda y de un solo lado. La discriminación del OI es de 88 % a 40 dB contra 100 % del OD, con SDT de −5 dB y SRT de 0 dB en los dos. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 84,5, 85 y 57 dB de 500 a 2.000 Hz en el OI: recluta, es coclear.
 
 Una diferencia de 95 dB entre los oídos sobrepasa los 40 dB desde los cuales, según la guía chilena, aumenta la probabilidad de que el tono cruce al otro oído (ISP, 2026). <!-- Pasada de fundamentos 2026-10-18: decía "el límite de 40 dB desde el cual la guía chilena indica no usar el cribado". La guía solo advierte: "en casos de asimetrías iguales o superiores a 40 dB entre ambos oídos aumenta la probabilidad de que ocurra la transmisión cruzada del estímulo". --> El OI debe estudiarse con vía ósea y enmascaramiento (→ H3, H4).
 
-:::imagen figuras/salida/cap33_ingreso_impedancia.svg ancho=80% Impedanciometría del trabajador.
+:::imagen figuras/salida/cap33_ingreso_impedancia.svg ancho=100% Impedanciometría del trabajador.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 1,46 mL en el OD y de 0,66 mL en el OI. Los reflejos están presentes de 85 a 95 dB SPL, salvo en 4 kHz cuando el sonido va al OI: ahí no hay reflejo, ni ipsi ni contra, porque el oído tiene 95 dB. Decay negativo.
@@ -313,7 +313,7 @@ Alrededor del 16 % de la pérdida auditiva incapacitante del adulto se atribuye 
 1. Occupational Safety and Health Administration. Occupational noise exposure. 29 CFR 1910.95. Disponible en: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95
 1. National Institute for Occupational Safety and Health. Criteria for a recommended standard: occupational noise exposure, revised criteria 1998. Cincinnati (OH): DHHS (NIOSH) Publication No. 98-126; 1998. Disponible en: https://stacks.cdc.gov/view/cdc/6376
 1. Instituto de Salud Pública de Chile. Guía técnica para la evaluación auditiva de vigilancia de la salud de los trabajadores expuestos ocupacionalmente a ruido, versión 3.0. Santiago: ISP; 2026. Disponible en: https://www.ispch.cl/wp-content/uploads/2026/04/Evaluacion-Auditiva.pdf
-1. Ministerio de Salud de Chile. Protocolo sobre normas mínimas para el desarrollo de programas de vigilancia de la pérdida auditiva por exposición a ruido en los lugares de trabajo (PREXOR). Norma Técnica N.° 156, aprobada por D.Ex. N.° 1052 del 14-10-2013. Santiago: MINSAL; 2013. <!-- verificar: sigue sin enlace oficial estable en minsal.cl. El texto del decreto (NT 156, D.Ex. 1052 del 14-10-2013, 55 págs.) se cotejó el 2026-10-18 en la copia de la Escuela de Salud Pública de la Universidad de Chile (educa.saludpublica.uchile.cl). -->
+1. Ministerio de Salud de Chile. Protocolo sobre normas mínimas para el desarrollo de programas de vigilancia de la pérdida auditiva por exposición a ruido en los lugares de trabajo (PREXOR). Norma Técnica N.° 156, aprobada por D.Ex. N.° 1052 del 14-10-2013. Santiago: MINSAL; 2013. Disponible en: https://educa.saludpublica.uchile.cl/espsystem/files/t/asignaturas_bibliografia/8418/archivos/Prortocolo_de_Exposicion_Ocupacional_Ruido%20PREXOR.pdf
 
 ### Fisiología
 

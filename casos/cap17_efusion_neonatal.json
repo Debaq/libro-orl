@@ -6,11 +6,11 @@
     },
     "edad": 0,
     "sexo": "mujer",
-    "edad_valor": 4,
-    "edad_unidad": "meses",
+    "edad_valor": 2050,
+    "edad_unidad": "horas",
     "anamnesis": {
-      "otros": "Tiene 4 meses y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde el segundo mes tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
-      "historia": "{{-115}} Alta de la maternidad: AABR refiere OD y OI.\n{{-90}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.",
+      "otros": "Tiene 12 semanas y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde las seis semanas tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
+      "historia": "{{-82}} Alta de la maternidad: AABR refiere OD y OI.\n{{-54}} Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica.",
       "hist": [],
       "medicamentos": "",
       "cirugias": ""
@@ -33,6 +33,7 @@
         80,
         60,
         40,
+        30,
         20
       ],
       "marcar": [
@@ -44,9 +45,23 @@
     {
       "tipo": "abr",
       "niveles": [
+        60,
+        40,
+        30
+      ],
+      "marcar": [
+        "V"
+      ],
+      "estimulo": "CE-Chirp LS"
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
         55,
         40,
-        20
+        20,
+        10,
+        0
       ],
       "marcar": [
         "V"

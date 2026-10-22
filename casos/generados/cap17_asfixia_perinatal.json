@@ -6,15 +6,15 @@
   },
   "edad": 0,
   "sexo": "hombre",
-  "edad_valor": 4,
-  "edad_unidad": "meses",
+  "edad_valor": 2050,
+  "edad_unidad": "horas",
   "grado": {
    "OD": "moderada",
    "OI": "moderada"
   },
   "anamnesis": {
-   "otros": "Tiene 4 meses y viene con su mamá. Nació a las 39 semanas, con 3.200 g, por un parto vaginal con fórceps, tras un sufrimiento fetal agudo en el período expulsivo. Al nacer no respiraba: Apgar 2 al minuto y 4 a los 5 minutos, pH del cordón 6,9; lo intubaron y lo reanimaron. Por encefalopatía hipóxico-isquémica moderada recibió hipotermia terapéutica durante 72 horas, tuvo convulsiones que se trataron con fenobarbital y estuvo 14 días en neonatología, 7 de ellos con gentamicina. El tamizaje automático (AABR) refirió en los dos oídos. Hoy toma pecho, sostiene la cabeza con dificultad y lo controla neurología por el tono muscular. La mamá dice que se sobresalta con los ruidos fuertes, pero que \"a veces parece no escuchar\". Nadie en la familia tiene problemas de audición.",
-   "historia": "{{-118}} Nacimiento por parto con fórceps tras sufrimiento fetal agudo; Apgar 2/4; hipotermia terapéutica 72 h; fenobarbital por convulsiones.\n{{-100}} Alta de neonatología; AABR refiere OD y OI.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació a las 39 semanas, con 3.200 g, por un parto vaginal con fórceps, tras un sufrimiento fetal agudo en el período expulsivo. Al nacer no respiraba: Apgar 2 al minuto y 4 a los 5 minutos, pH del cordón 6,9; lo intubaron y lo reanimaron. Por encefalopatía hipóxico-isquémica moderada recibió hipotermia terapéutica durante 72 horas, tuvo convulsiones que se trataron con fenobarbital y estuvo 14 días en neonatología, 7 de ellos con gentamicina. El tamizaje automático (AABR) refirió en los dos oídos. Hoy toma pecho, sostiene la cabeza con dificultad y lo controla neurología por el tono muscular. La mamá dice que se sobresalta con los ruidos fuertes, pero que \"a veces parece no escuchar\". Nadie en la familia tiene problemas de audición.",
+   "historia": "{{-84}} Nacimiento por parto con fórceps tras sufrimiento fetal agudo; Apgar 2/4; hipotermia terapéutica 72 h; fenobarbital por convulsiones.\n{{-70}} Alta de neonatología; AABR refiere OD y OI.",
    "hist": [],
    "medicamentos": "Ninguno actual",
    "cirugias": ""
@@ -234,7 +234,7 @@
   },
   "sector": "Camara_sono",
   "edad": 0,
-  "edad_horas": 2880,
+  "edad_horas": 2050,
   "nacimiento": {
    "parto": "vaginal",
    "semanas": null,
@@ -257,8 +257,8 @@
    }
   },
   "volume": [
-   0.33,
-   0.32,
+   0.62,
+   0.61,
    "N/D"
   ],
   "volume_cae": [
@@ -424,7 +424,7 @@
    },
    "medicamentos": "Ninguno actual",
    "cirugias": "",
-   "otros": "Tiene 4 meses y viene con su mamá. Nació a las 39 semanas, con 3.200 g, por un parto vaginal con fórceps, tras un sufrimiento fetal agudo en el período expulsivo. Al nacer no respiraba: Apgar 2 al minuto y 4 a los 5 minutos, pH del cordón 6,9; lo intubaron y lo reanimaron. Por encefalopatía hipóxico-isquémica moderada recibió hipotermia terapéutica durante 72 horas, tuvo convulsiones que se trataron con fenobarbital y estuvo 14 días en neonatología, 7 de ellos con gentamicina. El tamizaje automático (AABR) refirió en los dos oídos. Hoy toma pecho, sostiene la cabeza con dificultad y lo controla neurología por el tono muscular. La mamá dice que se sobresalta con los ruidos fuertes, pero que \"a veces parece no escuchar\". Nadie en la familia tiene problemas de audición.",
+   "otros": "Tiene 12 semanas y viene con su mamá. Nació a las 39 semanas, con 3.200 g, por un parto vaginal con fórceps, tras un sufrimiento fetal agudo en el período expulsivo. Al nacer no respiraba: Apgar 2 al minuto y 4 a los 5 minutos, pH del cordón 6,9; lo intubaron y lo reanimaron. Por encefalopatía hipóxico-isquémica moderada recibió hipotermia terapéutica durante 72 horas, tuvo convulsiones que se trataron con fenobarbital y estuvo 14 días en neonatología, 7 de ellos con gentamicina. El tamizaje automático (AABR) refirió en los dos oídos. Hoy toma pecho, sostiene la cabeza con dificultad y lo controla neurología por el tono muscular. La mamá dice que se sobresalta con los ruidos fuertes, pero que \"a veces parece no escuchar\". Nadie en la familia tiene problemas de audición.",
    "ia": {
     "generado": false,
     "verificado": false,
@@ -441,7 +441,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Miguel",
+     "nombre": "Jorge",
      "edad": 0,
      "genero": 0,
      "es_paciente": true,
@@ -454,19 +454,19 @@
      "disposicion": 0
     },
     {
-     "id": "amvbqyif9k6",
+     "id": "amviyv0lvp",
      "rol": "madre",
-     "nombre": "María Rodríguez",
-     "edad": 27,
+     "nombre": "Lucía Cardenas",
+     "edad": 28,
      "genero": 1,
      "es_paciente": false,
      "informante": true,
      "interrumpe": 100,
      "conciencia": 80,
-     "confiabilidad": 68,
+     "confiabilidad": 93,
      "version": "",
-     "comportamiento": "insistente, repite lo que le preocupa hasta que le contestan",
-     "disposicion": 0
+     "comportamiento": "ansiosa, se adelanta y contesta por él antes de que termine",
+     "disposicion": 1
     }
    ]
   },
@@ -558,7 +558,7 @@
      "sensibilidad_tasa": "severa"
     },
     "repro": false,
-    "repro_var": 0.24,
+    "repro_var": 0.33,
     "inquietud": 0,
     "pam": 0,
     "falsa_v": {
@@ -574,19 +574,19 @@
      "rar_cond_ms": 0.1,
      "mc": "amplificada"
     },
-    "average_objetivo": 3586,
+    "average_objetivo": 3971,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.04,
-      "amp": -0.01
-     },
-     "onda_III": {
       "lat": -0.03,
       "amp": 0
      },
-     "onda_V": {
+     "onda_III": {
       "lat": 0.04,
       "amp": 0
+     },
+     "onda_V": {
+      "lat": -0.03,
+      "amp": -0.02
      }
     },
     "nivel_referencia": null,
@@ -638,7 +638,7 @@
      "sensibilidad_tasa": "severa"
     },
     "repro": false,
-    "repro_var": 0.29,
+    "repro_var": 0.37,
     "inquietud": 0,
     "pam": 0,
     "falsa_v": {
@@ -654,19 +654,19 @@
      "rar_cond_ms": 0.1,
      "mc": "amplificada"
     },
-    "average_objetivo": 3794,
+    "average_objetivo": 3054,
     "desviaciones": {
      "onda_I": {
-      "lat": 0.05,
-      "amp": 0.01
+      "lat": -0.04,
+      "amp": -0.01
      },
      "onda_III": {
-      "lat": -0.04,
-      "amp": -0.02
+      "lat": 0.04,
+      "amp": -0.01
      },
      "onda_V": {
-      "lat": 0.04,
-      "amp": -0.02
+      "lat": 0.03,
+      "amp": 0
      }
     },
     "nivel_referencia": null,
@@ -681,19 +681,19 @@
    "autor": {
     "set": "__default__",
     "label": "LabSim (default)",
-    "poblacion": "toddler",
+    "poblacion": "neonate",
     "baseline": {
      "I": {
-      "lat": 1.52,
-      "amp": 0.231
+      "lat": 1.79,
+      "amp": 0.171
      },
      "III": {
-      "lat": 3.67,
-      "amp": 0.27
+      "lat": 4.56,
+      "amp": 0.205
      },
      "V": {
-      "lat": 5.8,
-      "amp": 0.388
+      "lat": 6.9,
+      "amp": 0.299
      }
     }
    }
@@ -713,9 +713,9 @@
      "8000": 0
     },
     "atten_db": 0,
-    "ruido_db": 0.9,
-    "sello_pct": 87,
-    "variabilidad_db": 3.5,
+    "ruido_db": 1.4,
+    "sello_pct": 95,
+    "variabilidad_db": 3.4,
     "soae_mode": "auto",
     "soae_peaks": []
    },
@@ -733,9 +733,9 @@
      "8000": 0
     },
     "atten_db": 0,
-    "ruido_db": 0.1,
-    "sello_pct": 90,
-    "variabilidad_db": 3.3,
+    "ruido_db": 1.9,
+    "sello_pct": 94,
+    "variabilidad_db": 3.1,
     "soae_mode": "auto",
     "soae_peaks": []
    }
@@ -872,6 +872,21 @@
     }
    }
   },
+  "Central": {
+   "estado": "despierto",
+   "tension_cervical": 0.2,
+   "mlr_hemisferio": "ninguno",
+   "mlr_reduccion": 0,
+   "mlr_pa_retardo_ms": 0,
+   "mlr_oido": "ninguno",
+   "mlr_oido_reduccion": 0,
+   "p1_retardo_ms": 0,
+   "n1p2_reduccion": 0,
+   "p300_retardo_ms": 0,
+   "p300_reduccion": 0,
+   "mmn_reduccion": 0,
+   "conteo_error": 0
+  },
   "Revision": {
    "tabs": {
     "paciente": true,
@@ -886,16 +901,16 @@
     "tinnitus": true,
     "anamnesis": true
    },
-   "at": "2026-10-17T01:57:54+00:00",
+   "at": "2026-10-22T03:13:31+00:00",
    "by": "andrea.soto"
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Miguel Alberto",
-   "apellido": "Rodríguez Cardenas",
-   "rut": "28235146",
-   "fecha_nac": "18-06-2026"
+   "nombre": "Jorge José",
+   "apellido": "Cardenas Cruz",
+   "rut": "28267993",
+   "fecha_nac": "28-07-2026"
   },
-  "historia_clinica": "{{-118}} Nacimiento por parto con fórceps tras sufrimiento fetal agudo; Apgar 2/4; hipotermia terapéutica 72 h; fenobarbital por convulsiones.\r\n{{-100}} Alta de neonatología; AABR refiere OD y OI."
+  "historia_clinica": "{{-84}} Nacimiento por parto con fórceps tras sufrimiento fetal agudo; Apgar 2/4; hipotermia terapéutica 72 h; fenobarbital por convulsiones.\r\n{{-70}} Alta de neonatología; AABR refiere OD y OI."
  }
 }

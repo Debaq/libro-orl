@@ -1,0 +1,49 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "presbiacusia",
+      "OI": "presbiacusia"
+    },
+    "edad": 76,
+    "sexo": "hombre",
+    "semilla": 13,
+    "anamnesis": {
+      "otros": "Tiene 76 años y es agricultor jubilado. Hace años que le cuesta entender cuando hablan varios a la vez, y la familia le sube el volumen a la televisión. Desde hace un año tiene un zumbido en los dos oídos, más molesto de noche. Hace dos meses tuvo un mareo breve al levantarse. Usa enalapril para la presión. El médico pide un PEAT antes de indicarle audífonos.",
+      "historia": "",
+      "hist": [
+        "hta"
+      ],
+      "medicamentos": "Enalapril 10 mg al día",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        50,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        60,
+        40,
+        30,
+        20
+      ],
+      "marcar": [
+        "V"
+      ],
+      "estimulo": "Burst 1"
+    }
+  ]
+}

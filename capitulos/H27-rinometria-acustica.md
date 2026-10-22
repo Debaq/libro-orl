@@ -34,7 +34,7 @@ De la demora y de la intensidad del eco salen los dos ejes de la curva:
 - **La distancia.** El eco que vuelve rápido viene de cerca; el que vuelve más tarde, de más adentro. Como la velocidad del sonido es conocida, el tiempo de ida y vuelta se convierte en distancia desde la narina. La velocidad depende de la temperatura del aire, por eso el equipo se calibra y la sala debe mantenerse a una temperatura estable.
 - **El área.** Un sonido que viaja por un conducto "siente" su sección: lo que se opone a su paso (la **impedancia**) cambia con el área. Si la sección se **estrecha**, parte del pulso rebota con el mismo signo y el eco vuelve reforzado; si se **ensancha**, el eco vuelve con signo invertido. Midiendo cuánto y en qué sentido cambia la presión, el programa calcula, tramo por tramo, cuánto vale el área.
 
-:::imagen ilustraciones/h27-equipo.svg ancho=96% Un tubo de sección constante, un adaptador nasal sellado contra la narina y un micrófono que registra el eco. Abajo, el eco que llega al micrófono: su demora dice a qué distancia está el cambio, y su tamaño, cuánto cambió la sección.
+:::imagen ilustraciones/h27-equipo.svg ancho=96% Un tubo de sección constante, un adaptador nasal sellado contra la narina y un micrófono que registra el eco. Abajo, el eco que llega al micrófono: su demora dice a qué distancia está el cambio, y su tamaño, cuánto cambió la sección. Imagen propia del libro.
 - @12,47 | **Tubo de onda.** Una fuente en un extremo lanza el pulso; el tubo lo lleva sin deformarlo hasta la nariz.
 - @27,9 | **Micrófono.** Registra el pulso que sale y los ecos que vuelven de la fosa nasal.
 - @53,45 | **Adaptador nasal.** Debe calzar la narina y sellarla sin deformarla: si el sonido se escapa o la entrada cambia de forma, la curva miente.
@@ -86,7 +86,7 @@ El método de la reflexión es muy repetible en la zona anterior: en el estudio 
 2. **Más allá de unos 5 cm, el sonido se escapa.** Pasada la zona de los cornetes, las ondas entran a los **senos maxilares** y a la rinofaringe, y esas cavidades suman área que no pertenece a la fosa. En modelos, la curva sobreestimó las áreas por detrás de 6,5 cm (Cakmak y cols., 2005); los senos maxilares aportan de forma significativa a las áreas de la parte posterior de la fosa y de la rinofaringe, sobre todo con descongestión (Hilberg y Pedersen, 1996; Cakmak y cols., 2003).
 3. **Si el sonido se pierde por fuera del adaptador, las áreas se alteran.** Un sello deficiente deja escapar energía; un adaptador que aprieta demasiado deforma la narina y cambia la forma de la entrada (Hilberg y Pedersen, 2000).
 
-:::imagen ilustraciones/h27-limites.svg ancho=96% Dos lugares donde la curva puede no mostrar lo que hay. A: detrás de un estrechamiento marcado. B: pasados los primeros centímetros, donde senos y rinofaringe suman área.
+:::imagen ilustraciones/h27-limites.svg ancho=96% Dos lugares donde la curva puede no mostrar lo que hay. A: detrás de un estrechamiento marcado. B: pasados los primeros centímetros, donde senos y rinofaringe suman área. Imagen propia del libro.
 :::
 
 El primer límite, visto en una fosa simulada con la válvula muy cerrada:
@@ -177,7 +177,7 @@ El protocolo de este libro pide **tres registros con una diferencia de 0,03 o me
 
 El protocolo de este libro aplica el vasoconstrictor **solo si el resultado en reposo sale fuera del rango de referencia** de alguna fosa. La razón es doble: no se medica sin necesidad, y la prueba se pide cuando hay algo que explicar.
 
-1. **Explícale al paciente** qué es el medicamento, por qué se le pone y qué efecto va a sentir: la nariz se destapa. Dile que **si escurre** solo debe secarse con el pañuelo y **no sonarse la nariz**, porque eso mueve la mucosa y cambia el examen. Pregunta por antecedentes que contraindiquen el producto y sigue la indicación del médico. <!-- verificar: contraindicaciones de la oximetazolina tópica -->
+1. **Explícale al paciente** qué es el medicamento, por qué se le pone y qué efecto va a sentir: la nariz se destapa. Dile que **si escurre** solo debe secarse con el pañuelo y **no sonarse la nariz**, porque eso mueve la mucosa y cambia el examen. Pregunta por antecedentes que contraindiquen el producto: las fichas técnicas de la oximetazolina nasal listan, por ejemplo, el uso de inhibidores de la MAO (actual o en las dos semanas previas), el glaucoma de ángulo cerrado y la hipersensibilidad al fármaco; el embarazo y la edad pediátrica varían según la ficha (se consulta la del producto que se usa). Sigue la indicación del médico.
 2. **Prepara el atomizador.** Quita la tapa y bombea hasta que salga neblina fina.
 3. **Con la técnica de la rinoscopía** (→ H25), abre la fosa y pon la boquilla en la narina.
 4. **Aplica dos pulverizaciones**, mientras el paciente **inspira por la nariz**, para que el producto se reparta por toda la mucosa.

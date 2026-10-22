@@ -241,7 +241,7 @@ AudioPAC (procesamiento central), con las normas en sus recuadros.
 |---|---|---|---|---|---|---|---|
 | 122 | 13 | Sospecha de neuropatía | subir la tasa a 81,1/s | el protocolo; recuadro: lo que la define son polaridades separadas + tubo pinzado (igual que H10) | Berlin 1998; BSA 2019 | P | |
 | 123 | 13 | Polaridad de rutina | siempre alternada (oculta la microfónica) | alternada de rutina + paso aparte con rarefacción y condensación | Berlin 1998 | A | |
-| 124 | 13 | Conclusión del informe | normal o hipoacusia SN, conductiva o mixta | se informa "patrón de neuropatía", no un tipo de hipoacusia | Norrix 2014 | A · formato | falta decidir el formato de informe |
+| 124 | 13 | Conclusión del informe | normal o hipoacusia SN, conductiva o mixta | se informa "patrón de neuropatía", no un tipo de hipoacusia | Norrix 2014; Hood 2015 y Musiek 2015 (Katz 7.ª ed.) | A · formato | **Decidido por él (2026-10-21):** el protocolo se limita a la evaluación auditiva y no a la neurológica; se amplía con "patrón de neuropatía auditiva" (cap. 13, recuadro de normas) |
 | 125 | 15 | Tipo de pérdida en el informe del ABR | concluye transmisión / SN / mixta solo con vía aérea | el protocolo como sugerencia; recuadro: para clasificar hace falta ABR óseo | BSA 2018; Seo 2018 | P | |
 | 126 | 15 | Enmascaramiento en el ABR | sube a 90-100 dB nHL sin mencionarlo | el protocolo; el capítulo explica la curva sombra (~35 dB llegan a la otra cóclea con inserto) | Munro 1999 | A · vacío | |
 | 127 | 15 | ABR por vía ósea | no está en el protocolo | se enseña (tope del vibrador 45-55 dB nHL; LabSim 55) | Seo 2018 | A · vacío | |

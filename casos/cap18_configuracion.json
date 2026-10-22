@@ -1,0 +1,46 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "meniere"
+    },
+    "edad": 46,
+    "sexo": "mujer",
+    "grado": {
+      "OI": "leve"
+    },
+    "anamnesis": {
+      "otros": "Tiene 46 años y es profesora de básica. Desde hace unos ocho meses tiene crisis de vértigo giratorio con náuseas que duran un par de horas, con el oído izquierdo \"tapado\" y un zumbido grave que viene y va con las crisis. Entre una crisis y otra, la audición de ese lado sube y baja. El oído derecho está bien. No tiene dolor ni secreción.",
+      "historia": "{{-240}} Primera crisis de vértigo con náuseas y plenitud del oído izquierdo.\n{{-20}} Otorrinolaringología: sospecha de enfermedad de Ménière; se pide audiometría y ABR.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        50,
+        30,
+        20,
+        10,
+        0
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    }
+  ]
+}

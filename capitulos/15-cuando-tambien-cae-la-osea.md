@@ -32,7 +32,7 @@ El ABR por aire entrega un umbral que mezcla el oído medio y la cóclea. Si el 
 - **Montaje.** El mismo del ABR por aire; el vibrador va en la mastoides, y el artefacto de estímulo, a pocos centímetros del electrodo, tapa el primer o los dos primeros milisegundos, sobre todo a 50 dB nHL o más y en las ondas tempranas, como la I (Seo y cols., 2018). Por eso se lee **solo la onda V**, no la I ni la III. <!-- Pasada de fundamentos 2026-10-18: la cita a Seo y cols. (2018) sostenía "se lee solo la onda V". El texto completo (PMC5894486) dice que el artefacto "can obscure the first 1 to 2 ms of the ABR waveforms", "especially at high intensities with 50 dB above normal hearing level (nHL) and also at earlier waves such as Wave I", y su tabla 3 da latencias óseas normativas de I, III y V. Leer solo la V queda como criterio del libro, sin cita. -->
 - **Techo.** El vibrador entrega poco: de 45 a 55 dB nHL según el equipo (Seo y cols., 2018). Y el cero óseo está referenciado más alto que el aéreo: en el adulto con audición normal el umbral del click por hueso queda unos 15 dB sobre el aéreo (→ H10). Una cóclea con 30 dB de pérdida ósea ya no cabe en la ventana.
 - **Enmascaramiento.** En el adulto la atenuación interaural por vía ósea es casi nula, de modo que ambas cócleas reciben lo mismo y hay que enmascarar **siempre** el oído contrario. En el lactante el cráneo transmite peor de un lado al otro y el enmascaramiento pesa menos (→ H10).
-- **Por aire, también.** Con fonos de inserción el estímulo pierde unos 60 a 70 dB al cruzar. <!-- verificar: 60 a 70 dB de atenuación interaural del click con inserto (LabSim usa 65); mismo verificar que en H10. Munro y Agnew (1999) miden tonos puros con ER-3A: 15 a 20 dB más que el supraaural (mediana ~60 dB), con 55 dB como regla para enmascarar. --> A 100 dB nHL, lo que llega a la otra cóclea son 30 a 40 dB: sobra para que responda un oído sano. Mientras el oído estudiado oiga menos que el contrario, hay que enmascarar o desconfiar de la V (→ H10, paso 5); por eso conviene mirar siempre el canal contralateral.
+- **Por aire, también.** Con fonos de inserción bien puestos el estímulo pierde mucho al cruzar: sobre 1.000 Hz, entre 50 y 95 dB según la persona, y 50 dB como estimación conservadora (Yacullo, 2015). Por eso, con inserto, el cruce aparece solo a intensidades altas y con asimetrías grandes (Hood, 2015). A 100 dB nHL, con unos 65 dB de atenuación, lo que llega a la otra cóclea son unos 35 dB: sobra para que responda un oído sano. Con el click en particular no todos los estudios ven la misma ventaja: en dos adultos con sordera de un lado, la ventaja del inserto sobre el supraaural fue clara con tonos puros y escasa con el click (Van Campen y cols., 1990), y con electrococleografía también se registró cruce con inserto (Sobhy y Gould, 1993). Mientras el oído estudiado oiga mucho menos que el contrario, hay que enmascarar o desconfiar de la V (→ H10, paso 5); por eso conviene mirar siempre el canal contralateral.
 
 :::ojo Ojo clínico
 Un ABR óseo "sin respuesta" a 50 dB nHL no es lo mismo que una cóclea sin función. Solo dice que el umbral está **por encima de lo que el vibrador entrega**. En la práctica, el examen responde cuando la ósea conductual está cerca de lo normal; con una pérdida coclear de 30 dB o más, el ABR óseo se sale de la ventana.
@@ -79,13 +79,10 @@ Una perforación o una otorrea de años dejan un oído medio húmedo y una caden
 
 ### Otoesclerosis avanzada
 
-La otoesclerosis es una enfermedad del hueso que rodea la cóclea y fija el estribo (→ cap. 4). En su fase avanzada, además del gap, la ósea baja: en parte por la muesca de Carhart (mecánica) y en parte por una lesión real de la cóclea. No hay forma de separar las dos con la audiometría; el pronóstico se conoce **después** de la cirugía, cuando el gap se cierra y la ósea vuelve a subir. En la serie de Xue y Sun (2025), el gap fue máximo en graves y mínimo en 2 kHz, y subía de nuevo en 4 kHz. La curva timpanométrica A o As y los reflejos ausentes son lo habitual (Forli y cols., 2025). Cuando la enfermedad toma la cóclea, la tomografía puede mostrarla como un anillo oscuro alrededor de ella.
+La otoesclerosis es una enfermedad del hueso que rodea la cóclea y fija el estribo (→ cap. 4). En su fase avanzada, además del gap, la ósea baja: en parte por la muesca de Carhart (mecánica) y en parte por una lesión real de la cóclea. No hay forma de separar las dos con la audiometría; el pronóstico se conoce **después** de la cirugía, cuando el gap se cierra y la ósea vuelve a subir. En la serie de Xue y Sun (2025), el gap fue máximo en graves y mínimo en 2 kHz, y subía de nuevo en 4 kHz. La curva timpanométrica A o As y los reflejos ausentes son lo habitual (Forli y cols., 2025). Cuando la enfermedad toma la cóclea, la tomografía puede mostrarla como un anillo oscuro alrededor de ella ({{fig tc-otoesclerosis-coclear}}).
 
-:::imagen ilustraciones/cap15-tc-otoesclerosis-coclear.jpg ancho=80% Tomografía axial de los oídos derecho (a) e izquierdo (b) de un adulto con hipoacusia sensorioneural severa bilateral por otoesclerosis coclear (otra persona, no un paciente de este capítulo). Busca el anillo oscuro que rodea la cóclea: es la enfermedad que ya no se queda en el estribo y toca la cápsula de la cóclea, la parte que hace caer también la ósea. La tomografía la pide y la informa el médico. Imagen: Purohit B, Hermans R, Op de Beeck K (2014), Insights Imaging, doi:10.1007/s13244-014-0313-9, Fig. 12, CC BY, adaptada.
-- @20,22 | **Doble anillo** (flecha): una banda oscura de hueso desmineralizado rodea la cóclea por fuera.
-- @69,12 | El mismo anillo en el otro oído: la enfermedad es bilateral.
+:::imagen ilustraciones/cap15-tc-otoesclerosis-coclear.jpg ancho=80% id=tc-otoesclerosis-coclear Tomografía axial de los oídos derecho (a) e izquierdo (b) de un adulto con hipoacusia sensorioneural severa bilateral por otoesclerosis coclear. La flecha marca el doble anillo: una banda oscura de hueso desmineralizado que rodea la cóclea por fuera, en los dos oídos. Es la enfermedad que ya no se queda en el estribo y toca la cápsula de la cóclea, la parte que hace caer también la ósea. Imagen: Purohit B, Hermans R, Op de Beeck K (2014), Insights Imaging, doi:10.1007/s13244-014-0313-9, Fig. 12, CC BY, adaptada.
 :::
-
 :::sabias ¿Sabías que?
 En una pérdida bilateral "pareja" la ósea sin enmascarar repite la misma curva en los dos oídos, porque es la de la mejor cóclea. Por eso en la otoesclerosis, que suele ser simétrica, la ósea se enmascara en cada oído.
 :::
@@ -142,36 +139,36 @@ Un oído con otorrea de años y una perforación: ¿qué pérdida esperas en la 
 :::
 
 :::pregunta Paso 3 · ¿Qué pedirías y por qué?
-Además de la audiometría con ósea enmascarada, ¿qué más agregarías? Piensa en el Weber de una mujer con un oído sano y otro con pérdida mixta, y en si tiene sentido pedir un ABR por vía ósea en un adulto que responde con la mano.
+Además de la audiometría con ósea enmascarada, ¿qué más agregarías? ¿Le harías la impedanciometría, y en qué oído? Piensa en el Weber de una mujer con un oído sano y otro con pérdida mixta, y en si tiene sentido pedir un ABR por vía ósea en un adulto que responde con la mano.
 :::
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap15_mixta_otitis_cronica_audiosupra.svg ancho=80% Audiometría de Verónica: en el OD la aérea está en 55 dB en 1 kHz y la ósea en 30 (gap de 25 dB), con la ósea ya en 25 dB en 250 Hz y en 45 dB en 4 kHz; el OI es normal.
+:::imagen figuras/salida/cap15_mixta_otitis_cronica_audiosupra.svg ancho=100% Audiometría de Verónica: en el OD la aérea está en 55 dB en 1 kHz y la ósea en 30 (gap de 25 dB), con la ósea ya en 25 dB en 250 Hz y en 45 dB en 4 kHz; el OI es normal.
 :::
 
 El gap es de 25 dB y la ósea **no es normal**: la cóclea acompaña al oído medio. En 4 kHz el gap se achica a 15 dB. En el OD el SDT es de 50 dB y el SRT de 55, y la discriminación llega al 88 %, a 90 dB, con ruido al OI; el OI llega al 100 %. El Weber **no lateraliza**: el gap lo llevaría al OD y la ósea peor lo aleja, y los dos efectos se compensan. El Rinne del OD es negativo.
 
-:::imagen figuras/salida/cap15_mixta_otitis_cronica_impedancia.svg ancho=80% Impedanciometría de Verónica.
+:::imagen figuras/salida/cap15_mixta_otitis_cronica_impedancia.svg ancho=100% Impedanciometría de Verónica: el OD no es realizable por otorrea activa.
 :::
 
-La curva del OD es **B**: no hay pico, y el volumen es de 1,37 mL, mayor que el del OI (1,12 mL, curva A). La otoscopía, con la perforación, explica por qué (→ H7). Con la sonda en el OD no hay reflejos, ni ipsi ni contra. Con la sonda en el OI, el ipsi aparece entre 85 y 90 dB; el contra, que estimula el OD, falta en 500 a 2.000 Hz y solo se ve a 110 dB en 4 kHz y a 120 dB con el ruido de banda angosta.
+El OD supura. En ese oído no entra la sonda ni el fono: su timpanograma y todos los reflejos que pasan por él se informan **no realizables por otorrea activa** (→ H7). Del OI quedan su timpanograma, curva A con 1,12 mL, y su reflejo ipsilateral, entre 85 y 90 dB. La perforación ya la mostró la otoscopía. El timpanograma del OD se hace cuando el oído esté seco, antes de operar.
 
 :::figura cap15_mixta_otitis_cronica abr
-- @OI 80 V | El OI tiene sus ondas I, III y V en el lugar.
-- @OD 80 V | La V del OD llega **cerca de 2 ms más tarde** y es la única onda que se ve: el oído medio atenúa el estímulo y todo se corre.
-- @OD 60 | A 60 dB no hay respuesta. El umbral por aire del click está en **65 dB nHL**.
+- @OI 80 V | El OI tiene sus ondas I, III y V en el lugar: la V a 5,6 ms.
+- @OD 80 V | La V del OD llega a 7,7 ms, **unos 2 ms más tarde**, y es la única onda que se ve en las dos réplicas: el oído medio atenúa el estímulo y todo se corre.
+- @OD 60 | A 60 dB no hay respuesta. La V sigue a 70 dB (7,9 ms): el umbral por aire del click del OD es de **70 dB nHL**.
 :::
 :::figura cap15_mixta_otitis_cronica abr 2
-- @OI 50 V | Por **vía ósea**, el OI sano responde a 50 dB con una V cerca de 6,5 ms, y todavía a 30 dB, más tarde. A 10 no hay nada: su umbral óseo está cerca de 25 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
-- @OD 50 | El OD **no responde a 50 dB**. Con una ósea conductual de 30 a 45 dB, su umbral óseo en el ABR queda más arriba de lo que el vibrador entrega: la pregunta no se puede contestar con este examen.
+- @OI 50 V | Por **vía ósea**, con el OD enmascarado, el OI sano responde a 50 dB con una V a 6,6 ms, y todavía a 30 dB, a 8,2. A 10 no hay nada: su umbral óseo está cerca de 30 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.
+- @OD 50 | El OD **no responde a 50 dB**, con el OI enmascarado con 55 dB. Por hueso el estímulo llega al otro oído casi entero (el vibrador pierde unos 5 dB): a 50 dB nHL le llegan unos 45, y el ruido tiene que superarlos. Con una ósea conductual de 30 a 45 dB, el umbral óseo del OD en el ABR queda más arriba de lo que el vibrador entrega: la pregunta no se puede contestar con este examen.
 :::
 
 :::docente Guía del caso
 - **Datos clave:** otorrea y perforación de años, oído derecho con poca audición, quiere saber cuánto oído "de verdad" queda antes de operar.
 - **Hipótesis esperables:** mixta por otitis crónica contra conductiva pura de una perforación. La respuesta separa la **ósea**: normal en una conductiva pura, caída en una mixta.
-- **Qué pedir:** audiometría con ósea enmascarada en el OD y acumetría; timpanograma, con el oído seco (→ H2, H3, H4, H7). No hay razón para un ABR óseo en un adulto que contesta.
-- **Errores esperables:** anotar una ósea sin enmascarar y concluir "conductiva pura"; leer el ABR óseo sin respuesta como cóclea muerta.
+- **Qué pedir:** audiometría con ósea enmascarada en el OD y acumetría (→ H2, H3, H4). La impedanciometría, solo del OI: el OD supura y se informa no realizable; su timpanograma, cuando esté seco (→ H7). No hay razón para un ABR óseo en un adulto que contesta.
+- **Errores esperables:** poner la sonda en un oído que supura; anotar una ósea sin enmascarar y concluir "conductiva pura"; leer el ABR óseo sin respuesta como cóclea muerta.
 :::
 
 {{caso cap15_mixta_otoesclerosis}}
@@ -195,12 +192,12 @@ Los dos oídos oyen casi igual. ¿Hace falta enmascarar la ósea? ¿Qué ocurre 
 
 **Sin enmascarar**, no sabes de qué cóclea es cada una de las dos óseas: en 1 kHz marcan lo mismo. En 3 kHz la ósea del OI marca unos 45 dB, donde enmascarada llega a 50: con oídos tan parecidos la diferencia es pequeña; con oídos distintos, sería grande.
 
-:::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra.svg ancho=80% Audiometría de Verónica enmascarada: en el OD la aérea está en 55 dB y la ósea en 35 en 500 Hz (gap de 20 dB), que se achica a 10 dB en 2 kHz; la ósea del OI está en 40 dB en 1 kHz y en 50 en 3 kHz.
+:::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra.svg ancho=100% Audiometría de Verónica enmascarada: en el OD la aérea está en 55 dB y la ósea en 35 en 500 Hz (gap de 20 dB), que se achica a 10 dB en 2 kHz; la ósea del OI está en 40 dB en 1 kHz y en 50 en 3 kHz.
 :::
 
 **Enmascarada**, la ósea del OI está en 40 dB en 1 kHz, 5 dB peor que la del OD, y en 3 kHz llega a 50, contra 45 del OD: la cóclea del OI está algo más dañada. El gap es mayor en graves y mínimo en 2 kHz, la forma típica de la otoesclerosis (Xue y Sun, 2025). El SDT es de 45 dB en el OD y de 50 en el OI, y el SRT de 50 y 55; la discriminación llega al 92 % en el OD y al 84 % en el OI, a 80 dB. SISI de 90 % en los dos oídos, Carhart sin deterioro en 2 y 4 kHz y Metz ausente.
 
-:::imagen figuras/salida/cap15_mixta_otoesclerosis_impedancia.svg ancho=80% Impedanciometría de Verónica enmascarada.
+:::imagen figuras/salida/cap15_mixta_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de Verónica enmascarada.
 :::
 
 La curva del OD es **As**: baja y rígida, de pico bajo (0,29 mL). El OI es igual (0,18 mL): la rigidez es bilateral.
@@ -231,24 +228,24 @@ Otorrea fétida de años y un mareo con la presión: ¿qué estructura puede est
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap15_colesteatoma_fistula_audiosupra.svg ancho=80% Audiometría de Francisco: en el OD la aérea está en 50 dB en 1 kHz y la ósea en 20 (gap de 30 dB), y la ósea cae a 25 dB en 500 Hz y a 30 en 4 kHz; el OI es normal.
+:::imagen figuras/salida/cap15_colesteatoma_fistula_audiosupra.svg ancho=100% Audiometría de Francisco: en el OD la aérea está en 50 dB en 1 kHz y la ósea en 20 (gap de 30 dB), y la ósea cae a 25 dB en 500 Hz y a 30 en 4 kHz; el OI es normal.
 :::
 
 El gap de 30 dB es el esperable de un colesteatoma, pero la ósea cae: **la cóclea ya no está intacta**. En el OD el SDT es de 45 dB y el SRT de 50, y la discriminación llega al 96 %, a 80 dB, con ruido al OI; el OI llega al 100 %. El OI es la referencia para saber cuánto perdió el oído enfermo.
 
 :::figura cap15_colesteatoma_fistula abr
-- @OI 80 V | El OI tiene su V en el lugar.
-- @OD 80 V | En el OD la V llega tarde, a la manera de una transmisión: el umbral por aire del click es de **55 dB nHL**.
+- @OI 80 V | El OI tiene su V en el lugar, a 5,7 ms.
+- @OD 80 V | En el OD la III (5,6 ms) y la V (7,2) llegan tarde, a la manera de una transmisión; la V sigue a 60 dB y a 40 ya no hay respuesta: el umbral por aire del click es de **55 dB nHL**.
 :::
 :::figura cap15_colesteatoma_fistula abr 2
-- @OD 50 V | Por vía ósea, a 50 dB el OD **apenas muestra una V**, chica y tardía, a 9,1 ms: está en su umbral óseo, a 5 dB del último escalón del vibrador (55).
-- @OI 50 V | El OI sano responde a 50 y a 30 dB. La diferencia es de pocos decibeles: el ABR óseo apenas separa a un oído con 20 a 30 dB de ósea caída de uno normal.
+- @OD 50 V | Por vía ósea, con el OI enmascarado con 55 dB, a 50 dB el OD **apenas muestra una V**, chica y tardía, a 8,7 ms: está en su umbral óseo, a 5 dB del último escalón del vibrador (55).
+- @OI 50 V | El OI sano responde a 50 dB (V a 6,6 ms) y a 30 dB (7,7). La diferencia con el OD es de pocos decibeles: el ABR óseo apenas separa a un oído con 20 a 30 dB de ósea caída de uno normal.
 :::
 
 :::docente Guía del caso
 - **Datos clave:** otorrea fétida desde los 15 años sin control, vértigo breve al sonarse, al toser y al apretar el trago, hipoacusia progresiva, masa blanquecina en el ático.
 - **Hipótesis esperables:** otitis crónica colesteatomatosa con **fístula laberíntica**. El vértigo con la presión es la pista.
-- **Qué pedir:** audiometría con ósea enmascarada (→ H3, H4) y derivar el mismo día. **No** se presuriza el oído: la prueba de presión puede provocar el vértigo, y con otorrea la timpanometría no se hace (→ cap. 3). <!-- verificar: la timpanometría como desencadenante de vértigo en fístula; práctica prudente, no se encontró una cifra publicada. -->
+- **Qué pedir:** audiometría con ósea enmascarada (→ H3, H4) y derivar el mismo día. **No** se presuriza el oído: la presión sobre el oído es justo lo que provoca el vértigo en una fístula (el signo de la fístula), y con otorrea la timpanometría no se hace (→ cap. 3).
 - **Errores esperables:** hacer una timpanometría o una maniobra de Valsalva; leer la ósea como "normal" sin compararla con la del OI; tratar el cuadro como una otitis más.
 :::
 
@@ -268,12 +265,12 @@ Un golpe en la cabeza puede dañar el oído medio y el interno. ¿Cómo se verí
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap15_trauma_craneal_completo_audiosupra.svg ancho=80% Audiometría de Manuel: en el OD, en 250 Hz la aérea está en 45 dB y la ósea en 0 (gap de 45 dB); en 4 kHz la ósea cae a 60 dB con la aérea en 95; el OI es normal.
+:::imagen figuras/salida/cap15_trauma_craneal_completo_audiosupra.svg ancho=100% Audiometría de Manuel: en el OD, en 250 Hz la aérea está en 45 dB y la ósea en 0 (gap de 45 dB); en 4 kHz la ósea cae a 60 dB con la aérea en 95; el OI es normal.
 :::
 
 En graves hay **gap** y cóclea normal; en 4 kHz hay un gap de 35 dB **y** una cóclea dañada. En 2 kHz la ósea baja a 35 dB: la caída coclear empieza en los agudos medios, y el gap, de 20 dB, está en su valle. El Weber lateraliza al **OD**, el oído con gap, y el Rinne del OD es negativo en 500 Hz, donde el gap es grande. En el OD el SDT es de 35 dB y el SRT de 40, y la discriminación llega al 92 %, a 70 dB, con ruido al OI; el OI llega al 100 %.
 
-:::imagen figuras/salida/cap15_trauma_craneal_completo_impedancia.svg ancho=80% Impedanciometría de Manuel.
+:::imagen figuras/salida/cap15_trauma_craneal_completo_impedancia.svg ancho=100% Impedanciometría de Manuel.
 :::
 
 La curva del OD es **B**, sin pico, con el hemotímpano que todavía no se resuelve; el OI tiene curva A. Con la sonda en el OD no hay reflejos, ni ipsi ni contra. Con la sonda en el OI, el ipsi aparece entre 85 y 90 dB; el contra, que estimula el OD, solo se ve a 115 dB en 2 kHz.
@@ -307,19 +304,19 @@ Un oído sin audición no contesta ningún tono. ¿Cómo sabes que no estás mid
 
 **Sin enmascarar**, el OD "oye" 40 dB en 1 kHz: es la curva sombra del OI, que es normal. Con un supraaural, el tono pierde unos 40 dB al cruzar el cráneo y la cóclea sana lo oye. La ósea marca **0 dB**: es la del OI, la que oye el vibrador. El SDT sale de 40 dB, el SRT de 45 y la discriminación de 100 %, a 90 dB: todo es el OI. Leído así, el OD tendría una **conductiva pura de unos 40 dB**, con tímpano normal y curva A: un cuadro que parece de cirugía. Lo que debe hacerte desconfiar es la historia: un golpe violento y una sordera total que el paciente cuenta no calzan con un oído que "oye" 40 dB.
 
-:::imagen figuras/salida/cap15_fractura_transversal_audiosupra.svg ancho=80% Audiometría de Hugo enmascarada: el OD está en 95 dB, con la ósea coincidiendo con la aérea; el OI es normal.
+:::imagen figuras/salida/cap15_fractura_transversal_audiosupra.svg ancho=100% Audiometría de Hugo enmascarada: el OD está en 95 dB, con la ósea coincidiendo con la aérea; el OI es normal.
 :::
 
 **Enmascarado**, el aéreo del OD está en 95 dB y la ósea **coincide con la aérea**: no hay gap. Es una pérdida sensorioneural profunda, y el oído medio está sano. El SDT es de 90 dB y el SRT de 95, con ruido al OI, y la discriminación no pasa del 30 %, a 100 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz ausente. El Rinne del OD sale negativo, pero es un **falso negativo**: lo que se oye en la mastoides lo oye la otra cóclea (→ H2). El Weber lateraliza al **OI**, el oído sano.
 
-:::imagen figuras/salida/cap15_fractura_transversal_impedancia.svg ancho=80% Impedanciometría de Hugo enmascarada.
+:::imagen figuras/salida/cap15_fractura_transversal_impedancia.svg ancho=100% Impedanciometría de Hugo enmascarada.
 :::
 
 Con la sonda en el OD no hay reflejo ipsilateral: la cóclea no lo transmite. Con la sonda en el OI tampoco aparece el contralateral, porque también se estimula por el OD. Cuando el tono entra por el OI el reflejo **existe**: a 90 dB con la sonda en el OD (contralateral) y a 85 dB con la sonda en el OI (ipsilateral). El estapedio del OD y su nervio facial funcionan. Es un patrón de lesión **aferente**.
 
 :::figura cap15_fractura_transversal abr
-- @OD 100 | Con el click a 100 dB nHL, el OD no muestra ninguna onda reconocible. Hacia los 7 ms se ve una ondulación pequeña: es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 dB de atenuación). No se rotula como V: no es del oído que se estudia.
-- @OI 80 V | El OI tiene sus ondas I, III y V.
+- @OD 100 | Con el click a 100 dB nHL y el OI enmascarado con 55 dB, el OD no muestra ninguna onda en las dos réplicas, a ningún nivel. Sin ruido, hacia los 7 ms aparece una ondulación pequeña: es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 dB de atenuación), y el ruido de 55 dB, mayor que esos 35, la borra (→ caso 19.4).
+- @OI 80 V | El OI tiene sus ondas I, III y V, la V a 5,7 ms, y la V sigue hasta 10 dB nHL.
 :::
 
 :::docente Guía del caso
@@ -342,6 +339,34 @@ La aérea de 55 a 65 dB con un gap de 25 en los graves es el de una perforación
 #### Diagnóstico y qué sigue
 
 Hipoacusia mixta del OD, con un gap de unos 25 dB y una ósea de 25 a 45 dB. Se sugiere evaluación por otorrinolaringología. La timpanoplastia puede cerrar el gap, pero no mejorará la parte coclear: se le dice al paciente que lo que puede recuperar es el gap.
+
+:::comentario-ancho Informe de Verónica, 52 años (caso 15.1)
+**Motivo**: hipoacusia derecha con otorrea de años y perforación; evaluación antes de una timpanoplastia.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL por vía aérea; click a 50, 30 y 10 dB nHL por vía ósea, con el oído contrario enmascarado con ruido de 55 dB. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides, impedancias bajo 5 kΩ. En reposo.
+
+**Referencia**: mujer de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,43 | 1,87 / 2,06 |
+| Onda III | no se identifica | 3,67 | 4,17 / 4,18 |
+| Onda V | 7,67 ↑ | 5,57 | 6,08 / 6,22 |
+| I-III | no medible | 2,24 | 2,71 / 2,63 |
+| III-V | no medible | 1,90 | 2,16 / 2,27 |
+| I-V | no medible | 4,14 | 4,51 / 4,41 |
+| Diferencia interaural de la V | 2,10 (no valorable) | | hasta 0,4 |
+| Umbral con click por aire (dB nHL → dB eHL) | 70 → 65 | 10 → 5 | hasta 20 dB eHL |
+| Umbral de la V por vía ósea (dB nHL) | sin respuesta a 50 | 30 | |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables. OD con una sola onda replicable, la V, a 80 y 70 dB nHL; a 60 dB no hay respuesta. OI con la V hasta 10 dB nHL.
+
+**Interpretación**: el OI es normal. En el OD la V llega 2 ms tarde y las ondas anteriores no se identifican: un estímulo atenuado antes de llegar a la cóclea desplaza todo el trazo. Con el OD enmascarado el OI responde por hueso hasta 30 dB nHL, que es su cero óseo; el OD no responde a 50 dB nHL, el tope del vibrador. Eso no mide su ósea: solo dice que está sobre lo que el vibrador entrega. La diferencia interaural no se valora porque el OD tiene un componente de transmisión.
+
+**Conclusión**: examen sugiere hipoacusia mixta en OD, de aproximadamente 65 dB HL, con umbral de onda V por vía ósea elevado (sin respuesta a 50 dB nHL), para el rango de 2 a 4 kHz. OI con audición normal. Se adjuntan audiometría con vía ósea enmascarada e impedanciometría.
+
+**Recomendación**: la vía ósea conductual enmascarada (25 a 45 dB) cuantifica la parte coclear; se sugiere evaluación por otorrinolaringología.
+:::
 
 :::ojo Ojo clínico
 Cuando el cirujano pregunta cuánto se puede ganar, la respuesta es el gap, no la aérea. La parte coclear de la pérdida queda igual.
@@ -371,6 +396,34 @@ El dato que ordena todo no está en el audiograma: es el **vértigo con la presi
 
 Hipoacusia mixta del OD en un oído con colesteatoma y sospecha de fístula laberíntica. Se deriva **el mismo día** a otorrinolaringología, con la audiometría y su ósea enmascarada. Si se abre la membrana del laberinto en la cirugía, la ósea empeora (Geerse y cols., 2017).
 
+:::comentario-ancho Informe de Francisco, 38 años (caso 15.3)
+**Motivo**: otorrea fétida de años, vértigo breve al sonarse, toser o presionar el trago; hipoacusia derecha progresiva.
+
+**Registro**: click a 80, 60, 40, 20 y 0 dB nHL por vía aérea; click a 50, 30 y 10 dB nHL por vía ósea, con el oído contrario enmascarado con ruido de 55 dB. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides. Sin presurizar el oído.
+
+**Referencia**: hombre de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,47 | 1,80 / 1,80 |
+| Onda III | 5,63 ↑ | 3,80 | 4,05 / 4,14 |
+| Onda V | 7,17 ↑ | 5,67 | 6,03 / 6,05 |
+| I-III | no medible | 2,33 | 2,45 / 2,61 |
+| III-V | 1,54 | 1,87 | 2,33 / 2,11 |
+| I-V | no medible | 4,20 | 4,49 / 4,52 |
+| Diferencia interaural de la V | 1,50 (no valorable) | | hasta 0,4 |
+| Umbral con click por aire (dB nHL → dB eHL) | 60 → 55 | 10 → 5 | hasta 20 dB eHL |
+| Umbral de la V por vía ósea (dB nHL) | 50 | 30 | |
+
+**Morfología**: OI con ondas I, III y V replicables. OD con III y V replicables a 80 dB y V a 60 dB; a 50 y 40 dB no hay respuesta por aire; OI con la V hasta 10 dB nHL.
+
+**Interpretación**: el OI es normal. En el OD la III y la V llegan tarde y el III-V es normal: el retraso viene de antes de la cóclea, no de la vía neural. El umbral por aire (55 dB eHL) es el de una pérdida de transmisión o mixta. Por vía ósea el OD responde solo a 50 dB nHL, cerca del tope del vibrador, mientras el OI normal llega a 30: la cóclea del OD puede estar tocada, y la ósea conductual lo cuantifica.
+
+**Conclusión**: examen sugiere hipoacusia mixta en OD, de aproximadamente 55 dB HL, con umbral de onda V por vía ósea elevado (50 dB nHL), para el rango de 2 a 4 kHz. OI con audición normal.
+
+**Recomendación**: derivación el mismo día a otorrinolaringología por la sospecha de fístula; no presurizar el oído. Se adjunta audiometría con vía ósea enmascarada.
+:::
+
 :::ojo Ojo clínico
 En un oído con otorrea y vértigo con la presión, el audiólogo no presuriza: informa lo que mide y deriva.
 :::
@@ -393,11 +446,37 @@ La ósea que cae **solo en los agudos** después de un golpe es una cóclea dañ
 
 #### Razonamiento
 
-Sin enmascarar, el audiograma dice que el OD tiene una **conductiva pura de unos 40 dB**: aérea de 40 dB, ósea en 0 y tímpano normal. Pero esa ósea es la del OI, y esa aérea es la curva sombra: el tono del OD, atenuado unos 40 dB por el cráneo, lo oye el OI. Enmascarado, el oído no responde: la aérea y la ósea coinciden en 95 dB, no hay gap, y el tímpano está íntegro. El Rinne negativo es falso, y el Weber al OI lo confirma. En el ABR, el click a 100 dB no tiene respuesta del OD, y lo que se ve a 7 ms es el OI.
+Sin enmascarar, el audiograma dice que el OD tiene una **conductiva pura de unos 40 dB**: aérea de 40 dB, ósea en 0 y tímpano normal. Pero esa ósea es la del OI, y esa aérea es la curva sombra: el tono del OD, atenuado unos 40 dB por el cráneo, lo oye el OI. Enmascarado, el oído no responde: la aérea y la ósea coinciden en 95 dB, no hay gap, y el tímpano está íntegro. El Rinne negativo es falso, y el Weber al OI lo confirma. En el ABR con el OI enmascarado, el click a 100 dB no tiene respuesta del OD; sin enmascarar, la ondulación de 7 ms sería del OI.
 
 #### Diagnóstico y qué sigue
 
 Hipoacusia sensorioneural profunda del OD, de tipo coclear, tras un traumatismo con fractura de peñasco. La imagen dirá si la fractura viola la cápsula ótica. Se sugiere evaluación por otorrinolaringología y, para el pronóstico del vértigo, estudio vestibular (→ cap. 20). El pronóstico auditivo del oído derecho es muy malo; el cuidado del OI pasa a ser prioridad.
+
+:::comentario-ancho Informe de Hugo, 34 años (caso 15.5)
+**Motivo**: sordera derecha desde una caída de altura con fractura de peñasco; vértigo inicial.
+
+**Registro**: click a 100, 80, 60, 40, 20 y 0 dB nHL por vía aérea, con el OI enmascarado con ruido de 55 dB: el estímulo cruza el cráneo con unos 65 dB de pérdida, de modo que a 100 dB nHL llegan unos 35 dB al OI, y el ruido tiene que superarlos. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, montaje Cz-mastoides.
+
+**Referencia**: hombre de 18 a 49 años, OI (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OI |
+|---|---|---|---|
+| Onda I | no se identifica | 1,57 | 1,80 |
+| Onda III | no se identifica | 3,77 | 4,14 |
+| Onda V | no se identifica | 5,70 | 6,05 |
+| I-III | no medible | 2,20 | 2,61 |
+| III-V | no medible | 1,93 | 2,11 |
+| I-V | no medible | 4,13 | 4,52 |
+| Umbral con click (dB nHL → dB eHL) | sin respuesta a 100 | 10 → 5 | hasta 20 dB eHL |
+
+**Morfología**: OI con ondas I, III y V bien definidas y replicables, y V hasta 10 dB nHL. OD sin ondas reconocibles a ningún nivel.
+
+**Interpretación**: con el oído sano enmascarado, el OD no tiene respuesta hasta 100 dB nHL, el máximo del equipo. El resultado coincide con la audiometría enmascarada (95 dB HL, ósea igual a la aérea) y con el reflejo ausente al estimular el OD. Sin enmascarar, a 100 dB nHL se vería en el OD una V pequeña y tardía que viene del OI. OI normal.
+
+**Conclusión**: OD sin ondas reconocibles hasta 100 dB nHL con el oído contrario enmascarado: examen sugiere hipoacusia de grado profundo en OD, para el rango de 2 a 4 kHz. OI con audición normal.
+
+**Recomendación**: estudio por imagen y vestibular (→ cap. 20); proteger el OI.
+:::
 
 :::pregunta Para discutir
 Un audiómetro con ósea enmascarada con 50 dB de ruido y una pérdida profunda unilateral: ¿qué le pasaría al paciente con un ruido de 80 dB sobre el oído sano? ¿Cuándo el ruido que enmascara deja de proteger y pasa a molestar?
@@ -436,6 +515,10 @@ Tras una meningitis bacteriana, el riesgo mediano de al menos una secuela mayor 
 
 1. British Society of Audiology. Recommended procedure: pure-tone air-conduction and bone-conduction threshold audiometry with and without masking. BSA; 2018. Disponible en: https://www.thebsa.org.uk/wp-content/uploads/2024/01/Recommended-Procedure-Pure-Tone-Audiometry-2018.pdf
 1. Seo YJ, Kwak C, Kim S, Park YA, Park KH, Han W. Update on bone-conduction auditory brainstem responses: a review. J Audiol Otol. 2018;22(2):53-8. doi:10.7874/jao.2017.00346. PMID 29471611.
+1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 77-111.
+1. Hood LJ. Auditory brainstem response: estimation of hearing sensitivity. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 249-66.
+1. Van Campen LE, Sammeth CA, Peek BF. Interaural attenuation using etymotic ER-3A insert earphones in auditory brain stem response testing. Ear Hear. 1990;11(1):66-9. doi:10.1097/00003446-199002000-00013. PMID 2307307.
+1. Sobhy OA, Gould HJ. Interaural attenuation using insert earphones: electrocochleographic approach. J Am Acad Audiol. 1993;4(2):76-9. PMID 8471788.
 1. Munro KJ, Agnew N. A comparison of inter-aural attenuation with the Etymotic ER-3A insert earphone and the Telephonics TDH-39 supra-aural earphone. Br J Audiol. 1999;33(4):259-62. doi:10.3109/03005369909090106. PMID 10509860.
 1. Studebaker GA. Clinical masking of air- and bone-conducted stimuli. J Speech Hear Disord. 1964;29(1):23-35. doi:10.1044/jshd.2901.23. PMID 14122665.
 1. Naunton RF. A masking dilemma in bilateral conduction deafness. Arch Otolaryngol. 1960;72(6):753-7. doi:10.1001/archotol.1960.00740010767008.

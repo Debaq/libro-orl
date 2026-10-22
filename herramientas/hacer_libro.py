@@ -45,6 +45,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import urllib.parse
 
 import markdown
 
@@ -112,7 +113,8 @@ AUTORES = {
                   titulo=['Tecnóloga Médica', 'Doctora en Ciencias Biomédicas'],
                   afiliacion=[UACH_PM, TECMEDHUB], orcid='0000-0002-0810-7684'),
     'poza': dict(nombre='Pablo', apellidos='Poza-Nauto', areas='Evaluación y rehabilitación vestibular',
-                 titulo=['Tecnólogo Médico'], afiliacion=UACH_PM, orcid='0009-0006-1364-4990'),
+                 titulo=['Tecnólogo Médico', 'Máster en Neurociencia Aplicada mención Neurotología'],
+                 afiliacion=UACH_PM, orcid='0009-0006-1364-4990'),
     'uribe': dict(nombre='Vanessa', apellidos='Uribe-Hernández', areas='Audiología y rinología',
                   titulo=['Tecnóloga Médica', 'Máster en Inteligencia Artificial en Salud'],
                   afiliacion=[UACH_PM, TECMEDHUB], orcid='0009-0003-0795-7921'),
@@ -273,6 +275,18 @@ def tomo_de(cap):
     return 'I' if cap[:1] in ('B', 'H') else 'II'
 
 
+def estilo_t2(cap):
+    """¿Va con la maquetación del tomo II (letra, texto corrido, leyendas en el
+    pie, créditos al final, paginador)? El tomo II siempre. El tomo I (él,
+    2026-10-22: "copiar las reglas del tomo II") también; ESTILO_T2_TOMO1 lo
+    gobierna: por defecto "todos" (activado el 2026-10-22); una lista ("H3,H10") o "no"
+    para probar o volver atrás."""
+    if tomo_de(cap) == 'II':
+        return True
+    pedido = os.environ.get('ESTILO_T2_TOMO1', 'todos').strip().lower()
+    return pedido == 'todos' or cap.lower() in {x.strip() for x in pedido.split(',')}
+
+
 # Créditos de las imágenes del tomo II (él, 2026-10-20): la fuente, los autores
 # y la licencia salen del pie de la figura ("Imagen: ...", "Imagen propia ...")
 # y van a un índice al final del tomo. {capítulo: [(número de figura, crédito)]},
@@ -283,7 +297,7 @@ CREDITO = re.compile(r'\s*(Imagen(?: propia)?\b[:\s].*)$', re.S)
 
 def separar_credito(cap, numero, titulo):
     """(título sin crédito, crédito). Solo en el tomo II; en el I no cambia."""
-    if tomo_de(cap) != 'II':
+    if not estilo_t2(cap):
         return titulo, None
     m = CREDITO.search(titulo or '')
     if not m:
@@ -355,6 +369,43 @@ def clave_rostro(nombre, spec):
     return nombre
 
 
+_OTO = []
+FUENTE_OTO = {'KPJ': 'OtitisMediaKPJ (Kaggle, 2026)', 'Polat': 'eardrum (figshare, 2021)',
+              'Viscaino': 'Ear imagery database (figshare, 2020)'}
+
+
+def otoscopias_datos():
+    """{archivo: (normal, crédito)} de las tablas otoscopias/CREDITOS-*.md y
+    {oído: descripción} de otoscopias/DESCRIPCIONES.md (él, 2026-10-21: todos
+    los pacientes del tomo II con otoscopía, y su descripción al lado)."""
+    if not _OTO:
+        fotos, desc = {}, {}
+        for cred in sorted(OTOSCOPIAS.glob('CREDITOS-*.md')) if OTOSCOPIAS.exists() else []:
+            cab = None
+            for linea in cred.read_text(encoding='utf-8').splitlines():
+                celdas = [c.strip() for c in linea.strip().strip('|').split('|')]
+                if linea.startswith('| Archivo'):
+                    cab = celdas
+                    continue
+                if not cab or not re.match(r'cap\S+\.jpg$', celdas[0]):
+                    continue
+                f = dict(zip(cab, celdas))
+                hallazgo = f.get('Hallazgo') or f.get('Hallazgo (rótulo del banco)') or ''
+                banco = f.get('Banco', '')
+                credito = ', '.join(x for x in (f.get('Autor'), FUENTE_OTO.get(banco, banco), f.get('Licencia')) if x)
+                if (f.get('Reflejada') or '').lower().startswith('s'):
+                    credito += ', reflejada horizontalmente'
+                fotos[celdas[0]] = (bool(re.search(r'\bnormal\b', hallazgo, re.I)), credito)
+        arch = OTOSCOPIAS / 'DESCRIPCIONES.md'
+        if arch.exists():
+            for linea in arch.read_text(encoding='utf-8').splitlines():
+                m = re.match(r'\|\s*(cap\S+_o[di])\s*\|\s*(.+?)\s*\|\s*$', linea)
+                if m:
+                    desc[m[1]] = m[2]
+        _OTO.append((fotos, desc))
+    return _OTO[0]
+
+
 def ficha(nombre, numero, cap, labsim=True):
     spec, d = cargar(nombre)
     pac = d.get('paciente_snapshot') or {}
@@ -402,18 +453,35 @@ def ficha(nombre, numero, cap, labsim=True):
     # Sin anamnesis en el caso (los armados por cuadro): la cuenta el texto del capítulo
     anamnesis = ''.join(partes)
 
-    otos, hay_otoscopia = [], False
+    # Otoscopía de cada oído: la foto y, al lado, su descripción; un oído sin
+    # foto va con la descripción sola. El tamaño es del paciente, no del oído:
+    # si una oreja está alterada, las dos van grandes; si las dos son
+    # normales, las dos chicas (él, 2026-10-21). El crédito va al índice de
+    # créditos del tomo.
+    fotos, descripciones = otoscopias_datos()
+    oidos = []
     for lado in ('od', 'oi'):
         f = next((p for p in OTOSCOPIAS.glob(f'{nombre}_{lado}.*')), None) if OTOSCOPIAS.exists() else None
-        hay_otoscopia = hay_otoscopia or f is not None
-        otos.append(f'<figure class="oto"><img src="{f.as_uri()}"><figcaption>{lado.upper()}</figcaption></figure>' if f
-                    else f'<div class="oto vacia">Otoscopía {lado.upper()}</div>')
+        texto = descripciones.get(f'{nombre}_{lado}')
+        if f is not None or texto is not None:
+            oidos.append((lado, f, texto))
+    # un oído sin foto es un hallazgo (ningún banco lo trae): cuenta como alterado
+    tam = 'chica' if oidos and all(f is not None and fotos.get(f.name, (False,))[0] for _, f, _ in oidos) else 'grande'
+    otos = []
+    for lado, f, texto in oidos:
+        credito = fotos.get(f.name, (False, None))[1] if f else None
+        if credito:
+            CREDITOS.setdefault(cap, []).append((f'Caso {cap}.{numero}, otoscopía {lado.upper()}', credito))
+        img = (f'<img class="{tam}" src="{f.as_uri()}">' if f
+               else f'<div class="sin-foto {tam}">sin foto</div>')
+        otos.append(f'<figure class="oto">{img}<figcaption><strong class="{lado}">{lado.upper()}</strong> '
+                    f'{html.escape(texto or "")}</figcaption></figure>')
 
     cab = f'''<section class="caso">
 <div class="caso-cab">{rostro}<div><p class="caso-num">Caso {cap}.{numero}</p>
 <p class="caso-quien">{html.escape(quien)}</p><p class="caso-datos">{edad_txt} · {sexo}</p></div></div>
 <div class="anamnesis">{anamnesis}</div>
-{f'<div class="otoscopia">{"".join(otos)}</div>' if hay_otoscopia else ''}
+{f'<div class="otoscopia">{"".join(otos)}</div>' if otos else ''}
 </section>'''
     return cab
 
@@ -516,7 +584,7 @@ def leyenda_globos(obs, numero):
     obs: [(número o None, html)]. Devuelve (para el pie, para abajo)."""
     if not obs:
         return '', ''
-    if tomo_de(str(numero).split('.')[0]) == 'II':
+    if estilo_t2(str(numero).split('.')[0]):
         partes = [f'<span class="ley">' + (f'<span class="globo-mini">{k}</span> ' if k else '') + f'{h}</span>'
                   for k, h in obs]
         return f'<span class="leyenda">{" ".join(partes)}</span>', ''
@@ -580,8 +648,58 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     if 'sin enmascarar' in svg and 'sin enmascarar' not in rot:
         rot += ' sin enmascarar'
     leyenda, lista = leyenda_globos(obs, numero_fig)
-    return (f'<div class="figobs figobs-motor"><figure class="fig">{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
+    return (f'<div class="figobs figobs-motor fig-{tipo}"><figure class="fig">{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
             f'{lista}</div>')
+
+
+def proporcion(archivo):
+    """Ancho / alto de una imagen (SVG por su viewBox o width/height), o None."""
+    try:
+        if archivo.suffix == '.svg':
+            s = archivo.read_text(encoding='utf-8', errors='ignore')[:3000]
+            m = re.search(r'viewBox="[\d.\-]+[ ,]+[\d.\-]+[ ,]+([\d.]+)[ ,]+([\d.]+)"', s)
+            if not m:
+                m = re.search(r'width="([\d.]+)[^"]*"[^>]*height="([\d.]+)', s)
+            return float(m[1]) / float(m[2]) if m else None
+        from PIL import Image
+        w, h = Image.open(archivo).size
+        return w / h
+    except Exception:
+        return None
+
+
+# Una figura de teoría el doble de ancha que de alta, o más, corta las columnas
+# y va a todo el ancho (él, 2026-10-21: en la columna no se leían, p. ej. la
+# cóclea desenrollada del cap. 5 o la función tubaria del cap. 2)
+APAISADA = 1.9
+
+
+# Y un dibujo (SVG) cuya letra, a ancho de columna (~83 mm), quedaría impresa
+# bajo 7 pt también va a todo el ancho (él, 2026-10-21: "cualquiera con letras
+# muy chicas"). En una foto no se puede medir la letra: vale la proporción.
+COLUMNA_MM, LETRA_MIN_PT = 83.0, 7.0
+
+
+def letra_en_columna(archivo):
+    """La letra más chica de un SVG, en pt, impreso a ancho de columna; o None."""
+    try:
+        s = archivo.read_text(encoding='utf-8', errors='ignore')
+        m = re.search(r'viewBox="[\d.\-]+[ ,]+[\d.\-]+[ ,]+([\d.]+)[ ,]+([\d.]+)"', s)
+        tams = [float(x) for x in re.findall(r'font-size[=:]\s*"?([\d.]+)', s)]
+        return min(tams) * (COLUMNA_MM / float(m[1])) / 0.3528 if m and tams else None
+    except Exception:
+        return None
+
+
+def clase_apaisada(archivo):
+    p = proporcion(archivo)
+    if p and p >= APAISADA:
+        return ' apaisada'
+    if archivo.suffix == '.svg':
+        letra = letra_en_columna(archivo)
+        if letra is not None and letra < LETRA_MIN_PT:
+            return ' apaisada'
+    return ''
 
 
 def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
@@ -612,7 +730,7 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
     # lo que la columna, así los % de los globos son de la imagen (WeasyPrint
     # no entiende width: fit-content).
     estilo = f' style="width:{ancho}"' if ancho else ''
-    return (f'<div class="figobs"><figure class="fig"><div class="img-centro"><div class="img-globos"{estilo}>'
+    return (f'<div class="figobs{clase_apaisada(archivo)}"><figure class="fig"><div class="img-centro"><div class="img-globos"{estilo}>'
             f'<img src="{archivo.as_uri()}">{"".join(globos)}</div></div><figcaption>{ia}Figura {numero}. {html.escape(titulo)}{leyenda}</figcaption></figure>{lista}</div>')
 
 
@@ -626,6 +744,7 @@ def capitulo(md_texto):
     cap = cap[1] if cap else '0'
     CREDITOS[cap] = []
     marcas, contador, actual, nfig = {}, [0], {}, {}
+    etiquetas = {}      # id de una :::imagen -> su número ("7.1")
 
     def guardar(h):
         clave = f'@@BLOQUE{len(marcas)}@@'
@@ -672,6 +791,12 @@ def capitulo(md_texto):
             html_lado = markdown.markdown(dentro, extensions=['tables'])
             figs = re.findall(r'<p>(@@BLOQUE\d+@@)</p>', html_lado)
             tablas = re.findall(r'<table>.*?</table>', html_lado, re.S)
+            # ':::lado ancho': dos figuras de la misma forma (las dos curvas de
+            # logoaudiometría) que llenan el ancho, cada una a la mitad y con su
+            # alto proporcional (él, 2026-10-21: apiladas quedaban enormes)
+            ancha = titulo == 'ancho'
+            if ancha:
+                titulo = ''
             tit = f'<p class="caja-titulo">{html.escape(titulo)}</p>' if titulo else ''
             # sin pop: guardar() numera por len(marcas)
             def como_img(h):
@@ -683,10 +808,21 @@ def capitulo(md_texto):
                     datos = base64.b64encode(m[0].replace(' class="grafico"', '', 1).encode('utf-8')).decode('ascii')
                     return f'<img class="grafico-img" src="data:image/svg+xml;base64,{datos}">'
                 return re.sub(r'<svg class="grafico".*?</svg>', rep, h, count=1, flags=re.S)
-            celdas = [f'<div class="fila-fig">{como_img(marcas[f])}</div>' for f in figs]
+            def aspecto(h):
+                # ancho / alto de la figura de una celda (SVG en línea o archivo)
+                m = re.search(r'<svg class="grafico"[^>]*viewBox="[\d.\-]+ [\d.\-]+ ([\d.]+) ([\d.]+)"', h)
+                if m:
+                    return float(m[1]) / float(m[2])
+                m = re.search(r'<img src="file://([^"]+)"', h)
+                return (proporcion(pathlib.Path(urllib.parse.unquote(m[1]))) if m else None) or 1.0
+            # en la fila ancha cada figura crece según su proporción: así las
+            # dos quedan a la misma altura y llenan el ancho (él, 2026-10-21:
+            # el campo libre de Adrián al lado de su audiograma)
+            celdas = [f'<div class="fila-fig"' + (f' style="flex: {aspecto(marcas[f]):.3f} 1 0"' if ancha else '')
+                      + f'>{como_img(marcas[f])}</div>' for f in figs]
             if tablas:
                 celdas.append(f'<div class="fila-tab">{tit}{"".join(tablas)}</div>')
-            return guardar(f'<div class="fila">{"".join(celdas)}</div>')
+            return guardar(f'<div class="fila{" fila-ancha" if ancha else ""}">{"".join(celdas)}</div>')
         # Un solo libro (decisión 2026-10-15): la guía del docente va
         # dentro de cada caso, en su recuadro verde, no en otra edición.
         ancho = tipo.endswith('-ancho')
@@ -711,7 +847,7 @@ def capitulo(md_texto):
             largo = False
         # Tomo II: la letra de los recuadros, como la de la bibliografía (él, 2026-10-20)
         return guardar(f'<aside class="caja caja-{tipo}{" ancho" if ancho else ""}{" larga" if largo else ""}'
-                       f'{" paso" if paso else ""}{" t2" if tomo_de(cap) == "II" else ""}">'
+                       f'{" paso" if paso else ""}{" t2" if estilo_t2(cap) else ""}">'
                        f'<p class="caja-titulo">{html.escape(titulo)}</p>{cuerpo_caja}</aside>')
 
     # En orden de aparición: la ficha numera el caso y sus figuras toman ese número
@@ -724,8 +860,22 @@ def capitulo(md_texto):
         # ':::imagen ruta ancho=60% Título': el tamaño va antes del título
         m = re.match(r'ancho=(\d+(?:\.\d+)?(?:%|mm))\s*(.*)', titulo or '')
         ancho, titulo = (m[1], m[2]) if m else (None, titulo)
+        # 'completa' (después del ancho): a todo el ancho aunque no sea apaisada
+        m = re.match(r'completa\s+(.*)', titulo or '')
+        completa = bool(m)
+        if m:
+            titulo = m[1]
+        # 'id=nombre' (después del ancho): el texto la cita con {{fig nombre}}
+        # y el armado pone el número, que así no se desfasa si se mueve una figura
+        m = re.match(r'id=([a-z0-9-]+)\s*(.*)', titulo or '')
+        if m:
+            etiquetas[m[1]] = f'{cap}.{nfig["img"]}'
+            titulo = m[2]
         titulo, _ = separar_credito(cap, f'{cap}.{nfig["img"]}', titulo or '')
-        return guardar(imagen_con_globos(ruta, titulo or '', cuerpo_img.splitlines(), f'{cap}.{nfig["img"]}', ancho))
+        h = imagen_con_globos(ruta, titulo or '', cuerpo_img.splitlines(), f'{cap}.{nfig["img"]}', ancho)
+        if completa and ' apaisada' not in h[:40]:
+            h = h.replace('<div class="figobs', '<div class="figobs apaisada', 1)
+        return guardar(h)
 
     texto_img = re.compile(r'^:::imagen\s+(\S+)(?:[ \t]+(.*?))?\s*\n(.*?)^:::\s*$', re.M | re.S)
     # Imágenes, figuras del motor que no son de un caso e ilustraciones
@@ -754,7 +904,7 @@ def capitulo(md_texto):
     # a todo el ancho (fichas de caso, figuras relatadas, recuadros -ancho)
     # CORTA las columnas en vez de usar column-span: WeasyPrint perdía todo lo
     # que seguía cuando un column-span caía justo en un salto de página.
-    tomo2 = tomo_de(cap) == 'II'
+    tomo2 = estilo_t2(cap)
 
     def es_ancho(h):
         # Tomo II: las figuras ya no cortan las columnas (él, 2026-10-20: "se
@@ -832,7 +982,7 @@ def capitulo(md_texto):
         alt, _ = separar_credito(cap, f'{cap}.{n}', alt)
         pie = f'<figcaption>{ia}Figura {cap}.{n}. {html.escape(alt)}</figcaption>'
         if ruta.exists():
-            return f'<figure class="ilustracion"><img src="{ruta.as_uri()}">{pie}</figure>'
+            return f'<figure class="ilustracion{clase_apaisada(ruta)}"><img src="{ruta.as_uri()}">{pie}</figure>'
         # pendiente: la descripción completa va en el recuadro; el pie, solo la primera frase
         corto = re.split(r'(?<=[.:;])\s', alt, maxsplit=1)[0].rstrip('.:;')
         pie = f'<figcaption>Figura {cap}.{n}. {html.escape(corto)}.</figcaption>'
@@ -854,7 +1004,7 @@ def capitulo(md_texto):
             titulo = (m[1] or '').strip()
             pie = f'<span class="tabla-n">Tabla {cap}.{ntab[0]}</span>' + (f' {titulo}' if titulo else '')
             # Tomo II: la letra de las tablas, como la de la bibliografía (él, 2026-10-20)
-            clase = ' class="t2"' if tomo_de(cap) == 'II' else ''
+            clase = ' class="t2"' if estilo_t2(cap) else ''
             return f'<table{clase}><caption>{pie}</caption>'
         cuerpo = re.sub(r'(?:<p>Tabla:\s*(.*?)</p>\s*)?<table>', tabla, cuerpo, flags=re.S)
 
@@ -881,7 +1031,14 @@ def capitulo(md_texto):
                     f'<span class="ap-n">{cap}</span></div><div class="ap-tit"><h1 class="capitulo" data-marca="{marca}">'
                     f'{m[1]}</h1>{firma_capitulo(cap)}</div></header>')
         cuerpo = cuerpo[:m.start()] + apertura + cuerpo[m.end():]
-    if tomo_de(cap) == 'II':
+    # citas a figuras con etiqueta: {{fig nombre}} -> "figura 7.1"
+    def cita(m):
+        if m[1] not in etiquetas:
+            print(f'  aviso: cap. {cap} cita la figura "{m[1]}", que no existe', file=sys.stderr)
+            return 'figura ?'
+        return f'figura {etiquetas[m[1]]}'
+    cuerpo = re.sub(r'\{\{fig\s+([a-z0-9-]+)\}\}', cita, cuerpo)
+    if estilo_t2(cap):
         # la letra del tomo II (él, 2026-10-20): ver TOMO2_CSS
         return f'<div class="tomo2">{cuerpo}</div>'
     return cuerpo
@@ -913,26 +1070,34 @@ def tipo_css():
             ".caja p, .caja li, td p, figcaption, ol.obs li { text-align: left; hyphens: manual; }\n" + orden)
 
 
-# Letra del tomo II (él, 2026-10-20): texto corrido en 8,5 pt y todo lo demás un
-# punto menos que en el tomo I, sin bajar de 7,2 pt. El tomo I no cambia.
+# Letra del tomo II (él, 2026-10-20; +0,5 el 2026-10-21): texto corrido en 9 pt y
+# lo chico (recuadros, tablas, pies, leyendas, rótulos) en 7,7 pt; la
+# bibliografía se queda en 7,2 pt. El tomo I no cambia.
 TOMO2_CSS = """
-div.tomo2 { font-size: 8.5pt; }
+div.tomo2 { font-size: 9pt; }
 div.tomo2 h1.capitulo { font-size: 25pt; }
 div.tomo2 h2 { font-size: 14pt; }
 div.tomo2 h3 { font-size: 11pt; }
-div.tomo2 .caja, div.tomo2 .caja.t2, div.tomo2 .pasos .caja.t2, div.tomo2 .cards .caja { font-size: 7.2pt; }
-div.tomo2 table, div.tomo2 table.t2, div.tomo2 .caja table.t2 { font-size: 7.2pt; }
+div.tomo2 .caja, div.tomo2 .caja.t2, div.tomo2 .pasos .caja.t2, div.tomo2 .cards .caja { font-size: 7.7pt; }
+div.tomo2 table, div.tomo2 table.t2, div.tomo2 .caja table.t2 { font-size: 7.7pt; }
 div.tomo2 .referencias { font-size: 7.2pt; }
 div.tomo2 .referencias h3 { font-size: 8pt; }
-div.tomo2 figcaption { font-size: 7.2pt; }
-div.tomo2 .leyenda { font-size: 7.2pt; }
-div.tomo2 .caja-titulo { font-size: 7.2pt; }
-div.tomo2 .rotulo-chico { font-size: 7.2pt; }
+div.tomo2 figcaption { font-size: 7.7pt; }
+div.tomo2 .leyenda { font-size: 7.7pt; }
+div.tomo2 .caja-titulo { font-size: 7.7pt; }
+div.tomo2 .rotulo-chico { font-size: 7.7pt; }
 /* tomo II: las figuras del motor ya no llevan el cuadro de notas al lado
    (la leyenda va en el pie), así que van solas, centradas, al 80 % */
 div.tomo2 .figobs-motor { display: block; }
 div.tomo2 .figobs-motor .fig { width: 80%; margin: 0 auto; }
 div.tomo2 .fila .figobs-motor .fig { width: 100%; }
+/* figuras de teoría apaisadas: cortan las columnas y van a todo el ancho (ver APAISADA) */
+div.tomo2 .dos-col .apaisada { column-span: all; margin: 3mm 0; }
+div.tomo2 .dos-col .apaisada .img-globos, div.tomo2 .dos-col figure.apaisada img { max-width: 100%; }
+/* la logoaudiometría del tomo II es compacta (letra grande): sola, a media página */
+div.tomo2 .figobs-motor.fig-logoaudiometria .fig { width: 50%; }
+/* las emisiones del tomo II (compactas): cada una a todo el ancho (él, 2026-10-21) */
+div.tomo2 .figobs-motor.fig-teoae .fig, div.tomo2 .figobs-motor.fig-dpoae .fig { width: 100%; }
 .fila { display: flex; gap: 4mm; align-items: flex-start; break-inside: avoid; margin: 2mm 0 3mm; }
 .fila-fig { flex: 1.7 1 0; }
 .fila-tab { flex: 1 1 0; }
@@ -946,6 +1111,11 @@ div.tomo2 .fila .figobs-motor .fig { width: 100%; }
 .fila table { margin: 0; }
 /* figuras del motor en una fila (TEOAE y DPOAE), pasadas a <img>: la misma altura */
 .fila img.grafico-img { display: block; height: 36mm; width: auto; max-width: 100%; margin: 0 auto; }
+/* ':::lado ancho': las dos mitades del ancho, alto proporcional */
+.fila-ancha .fila-fig { flex: 1 1 0; min-width: 0; }
+.fila-ancha .img-globos { width: 100% !important; }
+.fila-ancha .img-globos img { height: auto; width: 100%; }
+.fila-ancha img.grafico-img { height: auto; width: 100%; }
 """
 
 
@@ -1152,11 +1322,18 @@ li {{ margin-bottom: .8mm; }}
                  margin: 3mm 0 1mm; break-after: avoid; }}
 .historia {{ list-style: none; padding: 0; font-size: 8.8pt; }}
 .historia .cuando {{ font-weight: 700; color: #7a2341; margin-right: 1.5mm; }}
-.otoscopia {{ display: flex; gap: 6mm; margin: 2mm 0 4mm; }}
-.oto {{ width: 38mm; margin: 0; }}
-.oto img {{ width: 38mm; height: 38mm; border-radius: 50%; object-fit: cover; }}
-.oto.vacia {{ height: 38mm; border-radius: 50%; border: .8pt dashed #c9b3bc; color: #a8939b; font-size: 8pt;
-              display: flex; align-items: center; justify-content: center; }}
+.otoscopia {{ display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; margin: 2mm 0 4mm; break-inside: avoid; }}
+/* cada oído: la foto y, a su lado, la descripción; la alterada más grande (él, 2026-10-21) */
+.oto {{ display: flex; align-items: center; gap: 3mm; margin: 0; }}
+.oto img {{ flex: none; border-radius: 50%; object-fit: cover; }}
+.oto img.grande {{ width: 34mm; height: 34mm; }}
+.oto img.chica {{ width: 24mm; height: 24mm; }}
+.oto .sin-foto.grande {{ width: 34mm; height: 34mm; }}
+.oto .sin-foto {{ flex: none; width: 24mm; height: 24mm; border-radius: 50%; border: .8pt dashed #c9b3bc;
+  color: #a8939b; font-size: 7.2pt; display: flex; align-items: center; justify-content: center; }}
+.oto figcaption {{ font-size: 8pt; line-height: 1.35; text-align: left; margin: 0; }}
+.oto figcaption .od {{ color: #c62f3a; }}
+.oto figcaption .oi {{ color: #2c5cb0; }}
 .dos-col {{ column-count: 2; column-gap: 7mm; }}
 .referencias {{ column-count: 2; column-gap: 6mm; font-size: 7.6pt; line-height: 1.38; color: #3a2a30; }}
 .referencias h3 {{ font-size: 9pt; margin: 2.5mm 0 1mm; }}
@@ -1635,7 +1812,7 @@ def main():
     # abierto (o dos armados a la vez) nunca ve un PDF a medio escribir.
     temporal = destino.with_name(f'.{destino.stem}.{os.getpid()}.pdf')
     try:
-        if pedido and all(tomo_de(clave(x)) == 'II' for x in pedido):
+        if pedido and all(estilo_t2(clave(x)) for x in pedido):
             # Tomo II: con el acomodo (acomodar.py), para que la prueba de un
             # capítulo salga como en el tomo: el texto sube a los huecos de las
             # columnas y las figuras se achican si hace falta

@@ -99,7 +99,7 @@ Las emisiones otoacústicas son el subproducto de ese motor (→ H9). Si las cé
 
 ### Lo que hace el ruido
 
-Las células ciliadas externas son las más frágiles del órgano de Corti frente al ruido, y la base de la cóclea es más vulnerable que el ápice, por cómo maneja el calcio y la carga metabólica de la transducción (Fettiplace y Nam, 2019). El ruido de banda ancha de una faena o de una discoteca termina dañando una zona alrededor de **4 kHz**, aunque tenga energía en todas las frecuencias. Dónde cae exactamente la muesca depende, entre otras cosas, de la frecuencia del ruido y del largo del conducto auditivo (ACOEM, 2003). <!-- verificar: el detalle del mecanismo (resonancia del conducto en 2,5-3 kHz que refuerza esa zona, y daño máximo media octava sobre la frecuencia del estímulo) sigue sin fuente verificada; ACOEM 2003 solo dice "The exact location of the notch depends on multiple factors including the frequency of the damaging noise and the length of the ear canal". -->
+Las células ciliadas externas son las más frágiles del órgano de Corti frente al ruido, y la base de la cóclea es más vulnerable que el ápice, por cómo maneja el calcio y la carga metabólica de la transducción (Fettiplace y Nam, 2019). El ruido de banda ancha de una faena o de una discoteca termina dañando una zona alrededor de **4 kHz**, aunque tenga energía en todas las frecuencias. Dónde cae exactamente la muesca depende, entre otras cosas, de la frecuencia del ruido y del largo del conducto auditivo (ACOEM, 2003).
 
 El daño tiene dos tiempos:
 
@@ -130,7 +130,7 @@ En el grado BIAP la muesca casi no pesa: con 500 Hz y 1 kHz sanos, el promedio q
 
 ### Trauma acústico agudo
 
-Es el daño de **una sola exposición muy intensa**: un disparo, una explosión, un petardo. La pérdida es de **un solo oído** o asimétrica, porque el impulso llega de un lado (Temmel y cols., 1999), y la muesca es más profunda y más estrecha que la crónica. <!-- verificar: "más profunda y más estrecha que la crónica" no está en Temmel 1999 ni en Zloczower 2022 (abstracts); no se buscó otra fuente. --> En más del 75 % de los oídos la pérdida queda sobre 2 kHz (Temmel y cols., 1999); el daño se concentra entre 3 y 6 kHz y suele alcanzar los 8 kHz (Zloczower y cols., 2022).
+Es el daño de **una sola exposición muy intensa**: un disparo, una explosión, un petardo. La pérdida es de **un solo oído** o asimétrica, porque el impulso llega de un lado (Temmel y cols., 1999). En más del 75 % de los oídos la pérdida queda sobre 2 kHz (Temmel y cols., 1999); el daño se concentra entre 3 y 6 kHz y suele alcanzar los 8 kHz (Zloczower y cols., 2022).
 
 - **Acúfeno**: casi todos lo tienen al consultar. En 418 conscriptos con trauma por disparo, todos lo refirieron (Mrena y cols., 2002); al terminar el servicio militar seguía en el 29 %.
 - **Vértigo**: raro, del 2,5 al 5 % (Yehudai y cols., 2017).
@@ -192,12 +192,11 @@ Es un examen para la empresa. ¿Te basta la audiometría o agregarías algo pens
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap06_p33_audiosupra.svg ancho=80% Audiometría de Tomás: 0 dB HL en todas las frecuencias de los dos oídos, sin muesca en 4 kHz. Diapasones normales, SDT de −5 dB y SRT de 0 dB.
+:::imagen figuras/salida/cap06_p33_audiosupra.svg ancho=100% Audiometría de Tomás: 0 dB HL en todas las frecuencias de los dos oídos, sin muesca en 4 kHz. Diapasones normales, SDT de −5 dB y SRT de 0 dB.
 :::
 
 Tomás tiene 0 dB HL en todas las frecuencias, también en 4 kHz, que es donde el ruido va a dejar su marca si la deja. Los dos oídos son iguales: el concierto de hace dos años no dejó nada que el audiograma pueda ver. Como la aérea es normal, no hace falta la ósea. Weber y Rinne son normales, el SDT es de −5 dB, el SRT de 0 dB y la discriminación llega al 100 % a 40 dB.
 
-:::lado
 :::figura cap06_p33 teoae
 - @OD 2000 | Las cinco bandas del OD están llenas: pasan el criterio.
 - @OI 3000 | En el OI, lo mismo. La respuesta va muy por encima de la zona gris, que es el ruido.
@@ -207,7 +206,6 @@ Tomás tiene 0 dB HL en todas las frecuencias, también en 4 kHz, que es donde e
 - @OD 4000 | El DP-grama del OD está entre 2 y 9 dB SPL de 1 a 8 kHz, muy por encima del ruido.
 - @OI 8000 | El del OI también llega hasta 8 kHz: **7 de 7** en los dos oídos.
 - Este DP-grama es parte de su línea de base: si en unos años el ruido le daña la cóclea, se va a comparar contra él.
-:::
 :::
 
 :::docente Guía del caso
@@ -233,12 +231,11 @@ Hace ocho años su audiometría de la empresa salió "dentro de rangos", y hace 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap06_p37_audiosupra.svg ancho=80% Audiometría de Jorge: muesca bilateral simétrica con fondo en 4 kHz y recuperación en 8 kHz, discriminación de 100 % en el OD y 96 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 34,5 y 29,5 dB en 4 kHz.
+:::imagen figuras/salida/cap06_p37_audiosupra.svg ancho=100% Audiometría de Jorge: muesca bilateral simétrica con fondo en 4 kHz y recuperación en 8 kHz, discriminación de 100 % en el OD y 96 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 34,5 y 29,5 dB en 4 kHz.
 :::
 
 El fondo está en 4 kHz: 55 dB en el OD y 60 dB en el OI. Los 5 dB de diferencia están dentro de lo que varía la prueba: es **simétrica**. En 8 kHz el OD vuelve a 30 dB: es la **recuperación** de la muesca, que con los años de exposición se achica. La ósea va con la aérea: sensorioneural. Con graves y 1 kHz casi normales, las palabras en silencio se entienden: el SDT es de 0 dB, el SRT de 5 dB y la discriminación llega al 100 % a 40 dB en el OD y al 96 % en el OI, sin nada que haga pensar en el nervio (→ cap. 11). Los supraliminares dicen lo mismo: SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 34,5 dB en 4 kHz en el OD (29,5 dB en el OI): recluta, es coclear.
 
-:::lado
 :::figura cap06_p37 teoae
 - @OD 2000 | En el OD pasan 1; 1,5 y 2 kHz, y la reproducibilidad es de 86 %. Con **3 de 5**, es lo que pide el criterio para decir "pasa".
 - @OD 3000 | Pero 3 y 4 kHz quedan vacías: la TEOAE ve la muesca, aunque su resumen no la diga.
@@ -248,7 +245,6 @@ El fondo está en 4 kHz: 55 dB en el OD y 60 dB en el OI. Los 5 dB de diferencia
 - @OD 2000 | En el OD el DP está presente hasta 2 kHz.
 - @OD 4000 | Desde 3 kHz se pega al ruido: **3 de 7**, no pasa. El DP-grama dibuja la muesca.
 - @OI 3000 | En el OI el punto de 3 kHz queda apenas sobre el ruido, en −16 dB SPL, y cuenta como presente. Con él suma **4 de 7** y el equipo dice "pasa", aunque es el oído que oye peor en 3 y 4 kHz.
-:::
 :::
 
 :::docente Guía del caso
@@ -275,19 +271,18 @@ El oído derecho no tuvo nada. ¿Qué cuidado de técnica vas a necesitar para m
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap06_trauma_acustico_agudo_audiosupra.svg ancho=80% Audiometría de Samuel: OD normal y muesca profunda del OI con fondo de 90 dB en 4 kHz y recuperación en 8 kHz. SISI de 90 %, Carhart sin deterioro y Metz ausente en 4 kHz.
+:::imagen figuras/salida/cap06_trauma_acustico_agudo_audiosupra.svg ancho=100% Audiometría de Samuel: OD normal y muesca profunda del OI con fondo de 90 dB en 4 kHz y recuperación en 8 kHz. SISI de 90 %, Carhart sin deterioro y Metz ausente en 4 kHz.
 :::
 
 El OI cae hasta **90 dB en 4 kHz**, con 75 en 3 kHz y 70 en 6 kHz. Es una muesca profunda. Hasta 1 kHz está en 0 dB: los graves no se tocaron. En 8 kHz vuelve a 55 dB: hay recuperación, pero el oído sigue lejos de lo normal. La ósea enmascarada va con la aérea (40 dB en 2 kHz); en 3 y 4 kHz no responde al tope del vibrador. Es **sensorioneural**: no hay componente del tímpano. El OD está en 0 en todas las frecuencias. Con tanta diferencia, la aérea del OI hubo que medirla **enmascarada**: sin ruido en el OD habría respondido el oído sano (→ H4). La discriminación del OI llega al 88 % a 40 dB (100 % en el OD); el SDT es de −5 dB y el SRT de 0 dB. En los supraliminares el SISI es de 90 %, el Carhart no tiene deterioro en 2 ni en 4 kHz y el reflejo del OI falta en 4 kHz: recluta, es coclear.
 
 El Weber **no lateraliza** en 500 Hz ni en 1 kHz, y el Rinne es positivo en los dos oídos. Los diapasones de 500 y 1.000 Hz prueban justo las frecuencias que el disparo no tocó: una acumetría normal **no descarta** una muesca en agudos.
 
-:::imagen figuras/salida/cap06_trauma_acustico_agudo_impedancia.svg ancho=80% Impedanciometría de Samuel.
+:::imagen figuras/salida/cap06_trauma_acustico_agudo_impedancia.svg ancho=100% Impedanciometría de Samuel.
 :::
 
 El timpanograma es **A** en los dos oídos, con volúmenes de 1,61 mL en el OD y 0,93 mL en el OI, y el decay es negativo. Con la sonda en el OD, el ipsilateral aparece en 90, 85, 90 y 90 dB SPL, y el contralateral, que estimula el OI, en 95, 90 y 95 dB SPL en 500, 1.000 y 2.000 Hz, y **falta en 4 kHz**. Con la sonda en el OI falta el ipsilateral en 4 kHz, pero el contralateral, que estimula el OD, está completo. El reflejo falta solo donde está la muesca: el oído medio está sano y la pérdida es coclear.
 
-:::lado
 :::figura cap06_trauma_acustico_agudo teoae
 - @OD 2000 | El OD pasa las cinco bandas, con 90 % de reproducibilidad.
 - @OI 1000 | En el OI solo queda la banda de 1 kHz, donde la audición es normal. Con **1 de 5** y 40 % de reproducibilidad, no pasa.
@@ -296,7 +291,6 @@ El timpanograma es **A** en los dos oídos, con volúmenes de 1,61 mL en el OD y
 - @OI 1500 | En el OI el DP está presente en 1 y 1,5 kHz.
 - @OI 2000 | Desde 2 kHz desaparece: es la misma frontera del audiograma, donde la aérea pasa de 0 a 40 dB.
 - @OD 4000 | El OD tiene **7 de 7**: es la referencia de lo que el OI tenía antes del disparo.
-:::
 :::
 
 :::docente Guía del caso
@@ -322,14 +316,13 @@ Su último turno fue hace tres días. ¿Te sirve para medirla hoy? ¿Qué emisi�
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap06_muesca_4k_audiosupra.svg ancho=80% Audiometría de Lourdes: muesca bilateral simétrica con fondo en 4 kHz (75 dB en el OD, 70 dB en el OI) y recuperación en 8 kHz. Discriminación de 92 %, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.
+:::imagen figuras/salida/cap06_muesca_4k_audiosupra.svg ancho=100% Audiometría de Lourdes: muesca bilateral simétrica con fondo en 4 kHz (75 dB en el OD, 70 dB en el OI) y recuperación en 8 kHz. Discriminación de 92 %, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.
 :::
 
 Hasta 1 kHz hay 0 dB en los dos oídos: por eso conversa bien en silencio. El OD cae a **75 dB en 4 kHz**, desde 30 en 2 kHz, y en 8 kHz vuelve a 40 dB: **35 dB de recuperación**. Es la muesca de libro, y es lo que la separa de una caída por edad. El OI tiene la misma forma, con el fondo en 70 dB y la recuperación hasta 30 dB en 8 kHz: **bilateral y simétrica**. La ósea va con la aérea; en 4 kHz el OD no responde al tope del vibrador. Sensorioneural. La discriminación llega al 92 % a 40 dB, con SDT de −5 dB y SRT de 0 dB. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB en 4 kHz: recluta, es coclear.
 
 Las marcas de molestia (LDL) están en 90 dB HL en todas las frecuencias. En 4 kHz, entre su umbral y la molestia le quedan **15 dB** en el OD: el campo dinámico estrecho del reclutamiento.
 
-:::lado
 :::figura cap06_muesca_4k teoae
 - OD: ausentes, con reproducibilidad de 32 %.
 - OI: presentes en 2 de 5 bandas, con reproducibilidad de 48 %.
@@ -338,7 +331,6 @@ Las marcas de molestia (LDL) están en 90 dB HL en todas las frecuencias. En 4 k
 - @OD 2000 | En el OD el DP pasa en 1; 1,5 y 2 kHz, pero en 2 kHz ya está bajo, en −10 dB SPL.
 - @OD 4000 | Desde 3 kHz se confunde con el ruido. Con **3 de 7**, no pasa.
 - @OI 8000 | El OI es igual, 3 de 7. En 8 kHz el umbral se recupera hasta 30 dB, pero no tanto como para que vuelva el DP: esa zona también perdió células ciliadas externas.
-:::
 :::
 
 :::docente Guía del caso

@@ -98,7 +98,7 @@ Con fonos de inserción el sonido demora cerca de 1 ms en recorrer el tubo. Algu
 
 Todo equipo de ABR tiene la misma lógica: los parámetros a la izquierda, las curvas de cada oído al centro, los valores que mides a la derecha y, abajo, lo que está pasando mientras registras. La figura muestra un examen en curso: el OD ya está registrado de 80 a 20 dB nHL y el OI va en 40.
 
-:::imagen /docs/manual/img/estudiante/abr.png Pantalla de un equipo de ABR durante una búsqueda de umbral
+:::imagen /docs/manual/img/estudiante/abr.png Pantalla de un equipo de ABR durante una búsqueda de umbral Imagen propia: captura de LabSim.
 - @-2.5,11 | **Estímulo y polaridad.** *Click*, *CE-Chirp* y *CE-Chirp LS* (de banda ancha), y los de frecuencia: *NB CE-Chirp LS* y *Burst* de 500 Hz a 4 kHz. La polaridad: alternada, condensación o rarefacción.
 - @-2.5,17.5 | **Intensidad** en dB nHL y, debajo, el **Masking**: el ruido que va al oído contrario.
 - @-2.5,26.5 | **Tasa** (estímulos por segundo) y **filtros**: *Pasa bajo* y *Pasa alto* fijan la banda de registro.
@@ -143,7 +143,7 @@ Con el paciente acostado de espalda:
 4. **Pon los fonos de inserción**: rojo en el OD, azul en el OI, con la oliva del tamaño del conducto.
 5. Apaga la luz, abriga al paciente y espera que se duerma.
 
-:::imagen /docs/manual/img/estudiante/abr-avanzados-2.png ancho=50% Parámetros de registro de un equipo de ABR
+:::imagen /docs/manual/img/estudiante/abr-avanzados-2.png ancho=50% Parámetros de registro de un equipo de ABR Imagen propia: captura de LabSim.
 - @80,14 | **Transductor**: fono de inserción, supraaural o vibrador óseo. Elegir el vibrador es lo que convierte el examen en un ABR por vía ósea.
 - @88,19.7 | **Montaje**: Cz o Fz contra mastoides, o Cz contra lóbulo.
 - @75,25.5 | **Ventana**: cuántos milisegundos se registran después del estímulo.
@@ -191,16 +191,17 @@ Desde 80 dB nHL se **baja de 20 en 20** mientras la onda V siga presente. Cuando
 
 Ese esquema deja siempre un **escalón bajo el umbral sin onda V**. No es un registro perdido: es la prueba de que el nivel de arriba es el umbral y no un nivel más.
 
-{{caso h10_p33}}
+{{caso h10_mujer_joven}}
 
-:::figura h10_p33 abr
-- @OD 80 I | A 80 dB nHL la **onda I** llega a 1,5 ms, la **III** a 3,7 y la **V** a 5,7. Interpicos: I-III 2,2 ms, III-V 1,9 e I-V 4,1. Todo dentro de lo normal.
-- @OD 40 V | A 40 dB la V llega a 6,8 ms y es más chica. La I y la III se achicaron mucho más que la V.
-- @OD 20 V | A 20 dB queda solo una III mínima y la **V**, a 7,7 ms.
-- @OD 10 V | A 10 dB la V es chica, a 8,1 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
+:::figura h10_mujer_joven abr
+- @OD 80 I | A 80 dB nHL la **onda I** llega a 1,53 ms, la **III** a 3,67 y la **V** a 5,53. Interpicos: I-III 2,14 ms, III-V 1,86 e I-V 4,00. Todo dentro de lo normal para una mujer de su edad.
+- @OD 40 V | A 40 dB la V llega a 6,67 ms y es más chica. La I y la III se achicaron más que la V.
+- @OD 20 V | A 20 dB queda una III mínima y la **V**, a 7,67 ms.
+- @OD 10 V | A 10 dB la V es chica, a 8,20 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.
 - @OD 0 | A 0 dB no hay nada que se repita.
-- El orden de registro fue **80, 60, 40, 20, 0** (sin V) y, subiendo 10, **10** (con V). **Umbral de la onda V: 10 dB nHL**.
-- Mira cómo se corre la V: 0,4 ms de 80 a 60, pero 0,9 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
+- En el OD el orden de registro fue **80, 60, 40, 20, 0** (sin V) y, subiendo 10, **10** (con V). **Umbral de la onda V: 10 dB nHL**. El nivel de 50 dB se registró por el OI.
+- Mira cómo se corre la V: 0,44 ms de 80 a 60, pero 1,0 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.
+- @OI 80 | El **OI** no se parece al OD. Se lee en *Cómo se informa*.
 :::
 
 Si a 80 dB nHL no hay onda V, se sube a **90 o 100 dB nHL** antes de concluir que no hay respuesta. Más arriba los fonos no entregan sin distorsión.
@@ -216,7 +217,7 @@ Los dos sirven para decidir **cuándo parar**: se sigue promediando hasta que el
 
 ### 5. Enmascara cuando el otro oído puede contestar
 
-El sonido que entra por un oído también llega, más débil, a la cóclea del otro. Con fonos de inserción pierde unos 60 a 70 dB en el camino; por vía ósea, casi nada.<!-- verificar: 60 a 70 dB de atenuación interaural del click con fono de inserción. Munro y Agnew (1999, doi:10.3109/03005369909090106) miden tonos puros con ER-3A: 15 a 20 dB más que el supraaural (mediana ~60) con inserción profunda, y proponen enmascarar desde 55 dB. No se encontró una serie con click de ABR; el 60-70 viene de decisiones.md (aporte del docente, 2026-09-21) sin fuente. --> Si el oído que estudias oye mucho peor que el otro, la respuesta que ves puede ser del oído bueno: es la misma **curva sombra** de la audiometría (→ H4). La regla es la misma: si la intensidad del estímulo, menos lo que se pierde al cruzar, alcanza el umbral óseo del otro oído, se enmascara con ruido en el otro oído (el **Masking** del panel).
+El sonido que entra por un oído también llega, más débil, a la cóclea del otro. Con fonos de inserción pierde unos 60 a 70 dB en el camino (sobre 1.000 Hz va de 50 a 95 dB según la persona; Yacullo, 2015); por vía ósea, casi nada. Si el oído que estudias oye mucho peor que el otro, la respuesta que ves puede ser del oído bueno: es la misma **curva sombra** de la audiometría (→ H4). La regla es la misma: si la intensidad del estímulo, menos lo que se pierde al cruzar, alcanza el umbral óseo del otro oído, se enmascara con ruido en el otro oído (el **Masking** del panel).
 
 ### 6. Si sospechas compromiso neural, sube la tasa
 
@@ -230,7 +231,7 @@ Por eso, cuando la historia o el primer registro sugieren una lesión neural, se
 
 El click estima la audición entre 2 y 4 kHz. Para un audiograma completo, sobre todo en un lactante que se va a equipar con audífonos, hacen falta **estímulos por frecuencia**:
 
-- **Tone burst**: un tono breve de una frecuencia, con subida y bajada suaves (por ejemplo, 2 ciclos de subida, 1 de meseta y 2 de bajada). Excita una zona acotada de la cóclea, pero sincroniza peor que el click: a intensidad alta prácticamente **solo se identifica la onda V**, más ancha y más tardía (Pinto y Matas, 2007). Con un burst grave la V llega tarde: en Tomás, con burst de 500 Hz, la V de su umbral (20 dB nHL) llega a 10,2 ms. Con una ventana de 10 ms se habría salido de la pantalla.
+- **Tone burst**: un tono breve de una frecuencia, con subida y bajada suaves (por ejemplo, 2 ciclos de subida, 1 de meseta y 2 de bajada). Excita una zona acotada de la cóclea, pero sincroniza peor que el click: a intensidad alta prácticamente **solo se identifica la onda V**, más ancha y más tardía (Pinto y Matas, 2007). Con un burst grave la V llega tarde: en Álvaro (caso H10.2), con burst de 1 kHz, la V de 20 dB nHL llega a 10,6 a 10,9 ms. Con una ventana de 10 ms se habría salido de la pantalla, y con un burst de 500 Hz llega todavía más tarde.
 - **Chirp**: un estímulo que manda primero los graves y después los agudos, para que todos lleguen a su lugar de la cóclea al mismo tiempo. Compensa el retraso de la onda viajera y sincroniza mejor: con el CE-Chirp LS de banda ancha la onda V sale más grande que con el click, sin cambiar su latencia a intensidad alta (Cargnelutti y cols., 2017). El **NB CE-Chirp LS** hace lo mismo dentro de una banda de frecuencia: mira la misma zona que el tone burst, con una V más clara.
 
 #### De dB nHL a dB HL
@@ -248,23 +249,40 @@ Valores en dB que se **restan** al umbral en dB nHL, con fonos de inserción, en
 
 Un estímulo de banda ancha (click o CE-Chirp) no estima el umbral por frecuencia, y para el CE-Chirp de banda ancha no hay corrección publicada. Cada corrección vale para el protocolo con que se obtuvo: los programas de Ontario y de Columbia Británica, con sus propios estímulos, restan menos (→ cap. 17). En adultos chilenos con NB CE-Chirp, Fuentes y cols. (2024) obtuvieron 15 / 10 / 10 / 5.
 
-En Tomás: 20 dB nHL con burst de 500 Hz − 20 = **0 dB eHL**, lo mismo que su audiograma en 500 Hz.
+En Álvaro, de 12 semanas: 10 dB nHL con burst de 4 kHz − 5 = **5 dB eHL**.
 :::
 
-{{caso h10_p36}}
+{{caso h10_lactante}}
 
-:::figura h10_p36 abr
-- Hernán tiene una pérdida sensorioneural de agudos: en el OD, 25 dB HL en 1 kHz, 40 en 2 kHz, 50 en 3 kHz y 60 en 4 kHz (su audiograma está en H3).
-- @OD 80 V | Con click, a 80 dB nHL, la V llega a 6,3 ms: todavía dentro de lo normal para sus 74 años.
-- @OD 80 III | **No hay onda I.** La I depende de la base de la cóclea, que es justo la zona dañada: es la primera onda que se pierde en una pérdida de agudos.
-- @OD 60 V | A 60 dB la V sigue presente (6,7 ms). A 50 (no se muestra) ya no hay una V que se repita: **umbral con click, 60 dB nHL**.
-- 60 dB nHL − 5 = **55 dB eHL**: un promedio de la zona de 2 a 4 kHz, donde el audiograma marca 40 a 60 dB HL.
+:::figura h10_lactante abr
+- @OD 80 V | A 80 dB nHL: en el OD, I a 1,73 ms, III a 4,67 y V a 6,97 (I-V 5,24); en el OI, I a 1,87, III a 4,53 y V a 6,97 (I-V 5,10). Son latencias de recién nacido: la V llega 1,4 ms más tarde que en Sofía y está dentro de su fila (hasta 7,56; Rosa y cols., 2014).
+- @OD 20 V | A 20 dB nHL la V sigue (9,27 ms en el OD, 9,30 en el OI). Es el nivel más bajo que se registró con click: alcanza para decir que de 2 a 4 kHz oye normal.
 :::
 
-:::figura h10_p36 abr 2
-- @OD 40 V | Con **burst de 1 kHz** la V aparece hasta 40 dB nHL (9,2 ms).
-- @OD 20 | A 20 dB no hay nada: **umbral con burst de 1 kHz, 40 dB nHL**.
-- 40 dB nHL − 15 = **25 dB eHL**: lo mismo que su audiograma en 1 kHz. El click solo habría dicho "50 dB" y escondido que los graves están casi normales.
+:::figura h10_lactante abr 2
+- @OD 20 V | Con **burst de 1 kHz** la V aparece a 20 dB nHL, a 10,87 ms en el OD y 10,63 en el OI, cerca del borde de la ventana de 12 ms.
+- 20 dB nHL − 15 (corrección de la BSA para su edad) = **5 dB eHL** o mejor.
+:::
+
+:::figura h10_lactante abr 3
+- @OD 10 V | Con **burst de 4 kHz** la V llega hasta 10 dB nHL (9,67 ms en el OD, 9,90 en el OI).
+- @OD 0 | A 0 dB no hay V: **umbral con burst de 4 kHz, 10 dB nHL** en los dos oídos; 10 − 5 = **5 dB eHL**.
+- El OI, el que refirió en el tamizaje, oye igual que el OD: un "refiere" de las primeras horas no es una sordera (→ cap. 16).
+:::
+
+{{caso h10_anciano}}
+
+:::figura h10_anciano abr
+- Juan Joaquín tiene una pérdida sensorioneural de agudos: 20 dB HL en 1 kHz, 35 en 2 kHz, 45 en 3 kHz y 60 (OD) o 55 (OI) en 4 kHz.
+- @OD 80 I | En el OD la **onda I** es chica y llega tarde, a 2,10 ms: la genera la base de la cóclea, que es justo la zona dañada.
+- @OI 80 III | En el OI **no hay onda I**: es la primera onda que se pierde en una pérdida de agudos.
+- @OD 80 V | Pero la **V** llega a 6,00 ms en el OD y a 6,17 en el OI, dentro de lo normal para un hombre de 50 años o más (hasta 6,16 y 6,24; Sanfins y cols., 2026). El I-V del OD, 3,90 ms, es incluso corto.
+- @OD 50 V | Con click la V se repite hasta 50 dB nHL; a 40 ya no: **umbral con click, 50 dB nHL** en los dos oídos. 50 − 5 = **45 dB eHL**: un promedio de 2 a 4 kHz, donde el audiograma marca 35 a 60 dB HL.
+:::
+
+:::figura h10_anciano abr 2
+- @OD 40 V | Con **burst de 1 kHz** la V llega hasta 40 dB nHL (9,07 ms); a 30 y a 20 no hay V: **umbral, 40 dB nHL** en los dos oídos.
+- 40 dB nHL − 15 = **25 dB eHL**, cerca de su audiograma en 1 kHz (20 dB HL). El click solo habría dicho "45 dB" y habría escondido que los graves están casi normales.
 :::
 
 ### 8. ABR por vía ósea
@@ -310,7 +328,7 @@ Leer bien el resultado es la mitad del examen:
 - **REFIERE no es hipoacusia.** En las primeras horas de vida, el vérnix en el conducto y el líquido en el oído medio hacen referir a muchos oídos sanos (→ cap. 16). Refiere también el bebé que se movió. Lo que sigue es un nuevo tamizaje o un ABR diagnóstico.
 - El AABR **detecta la neuropatía auditiva** y las emisiones otoacústicas no: en la neuropatía las emisiones pasan y el AABR refiere. Por eso a los recién nacidos con más de 5 días en UCI neonatal se les tamiza con AABR (JCIH, 2019).
 
-:::imagen /docs/manual/img/estudiante/aabr.png ancho=75% Pantalla de un AABR después de tamizar el OD
+:::imagen /docs/manual/img/estudiante/aabr.png ancho=75% Pantalla de un AABR después de tamizar el OD Imagen propia: captura de LabSim.
 - @25,21.8 | **Estímulo**: CE-Chirp, el de fábrica.
 - @29,26.5 | **Nivel**: 35 dB nHL.
 - @25,31.1 | **Tasa**: los equipos de tamizaje estimulan rápido para terminar antes.
@@ -335,26 +353,27 @@ El nivel del tamizaje es fijo por una razón: 35 dB nHL separa un oído que oye 
 
 - **Latencias absolutas** de las ondas I, III y V a 80 dB nHL, por oído.
 - **Interpicos** I-III, III-V e I-V.
-- **Diferencia interaural de la onda V** al mismo nivel. En normoyentes es de apenas 0,08 ms en promedio (Sanfins y cols., 2026); según el centro, se considera anormal sobre 0,2 a 0,4 ms (Selters y Brackmann, 1977).
-- **Razón de amplitudes V/I**. En un oído normal la V es más grande que la I (Musiek y cols., 1984). Una V proporcionalmente chica (V/I menor que 1) es un hallazgo retrococlear.
-- **Morfología y replicabilidad**: si las ondas son claras y se repiten.
+- **Diferencia interaural de la onda V** al mismo nivel, cuando los dos oídos oyen parecido: es anormal sobre 0,2 a 0,4 ms (Hood, 1998; Selters y Brackmann, 1977); Musiek y cols. (2015) toman 0,3 a 0,4 ms. Con una pérdida de agudos asimétrica o un gap, la diferencia aparece sola.
+- **Razón de amplitudes V/I**. En un oído normal la V es más grande que la I. Musiek y cols. (1984) toman como anormal una V/I menor que 1; en la revisión de Musiek y cols. (2015), menor que 0,75. No es frecuente, pero cuando la V es mucho más chica que la I es un hallazgo retrococlear.
+- **Morfología y replicabilidad**: a 75 u 80 dB nHL, un ABR normal tiene picos bien definidos y **al menos las ondas I, III y V en cada oído**; la IV y la V pueden venir fundidas sin que eso sea anormal (Hood, 1998). Cada curva se repite.
+- **La V con tasa alta**, si se registró (paso 6).
 - **Umbral de la onda V** por estímulo, en dB nHL, y su estimación en dB eHL.
 
 ### Contra qué se compara
 
 Cada laboratorio debe tener su propia norma, medida con su equipo, su transductor y su protocolo, estratificada por sexo y edad (Sanfins y cols., 2026; ACNS, 2008). En las mujeres las ondas III y V llegan 0,08 a 0,19 ms antes que en los hombres, y los interpicos son 0,07 a 0,15 ms más cortos (Jerger y Hall, 1980; Sanfins y cols., 2026). Con la edad adulta la V se alarga unos 0,2 ms entre los 25 y los 55 años y su amplitud cae cerca de un 10 % (Jerger y Hall, 1980). El recién nacido tiene la onda I algo más tardía que la del adulto y un I-V largo (Rosa y cols., 2014). La onda V, y con ella los interpicos, se acorta rápido hasta los 18 meses mientras la I casi no cambia (Gorga y cols., 1989), y después de los 3 años sigue acortándose más lento (Sharma y cols., 2016).<!-- Pasada de fundamentos 2026-10-18: decía "la onda I casi de adulto" y que el I-V llega "a valores de adulto entre los 9 meses y los 3 años". Rosa y cols. (2014) dan la onda I del término en 1,79 ms (adulto ~1,47); Gorga y cols. (1989) ven acortarse la V al menos hasta los 18 meses, y Sharma y cols. (2016) la ven madurar del todo recién a los 12 años. --> La temperatura también cuenta: la hipotermia alarga el I-V (→ cap. 14).
 
-:::ayuda-ancho Valores de referencia en el adulto (click a 80 dB nHL, en ms)
-| | Hombre: media | Hombre: límite | Mujer: media | Mujer: límite |
+:::ayuda-ancho Límites del adulto (click a 80 dB nHL, oído derecho, en ms)
+| Límite superior | Hombre, 18 a 49 años | Mujer, 18 a 49 años | Hombre, 50 o más | Mujer, 50 o más |
 |---|---|---|---|---|
-| Onda I | 1,47 | 1,87 | 1,46 | 1,86 |
-| Onda III | 3,75 | 4,19 | 3,65 | 4,09 |
-| Onda V | 5,68 | 6,18 | 5,54 | 6,04 |
-| I-III | 2,28 | 2,72 | 2,19 | 2,63 |
-| III-V | 1,93 | 2,37 | 1,89 | 2,33 |
-| I-V | 4,21 | 4,71 | 4,08 | 4,58 |
+| Onda I | 1,80 | 1,80 | 1,90 | 1,87 |
+| Onda III | 4,05 | 3,94 | 4,16 | 4,17 |
+| Onda V | 6,03 | 5,89 | 6,16 | 6,08 |
+| I-III | 2,45 | 2,42 | 2,54 | 2,71 |
+| III-V | 2,33 | 2,11 | 2,17 | 2,16 |
+| I-V | 4,49 | 4,33 | 4,53 | 4,51 |
 
-Medias de la serie de Sanfins y cols. (2026), con fonos de inserción. El límite es la media más 2 desviaciones estándar.
+Media más 2 desviaciones estándar, con fonos de inserción, en 244 personas de 3 a 79 años con audición normal (Sanfins y cols., 2026, tabla 7). La serie da también el oído izquierdo, que difiere en centésimas o décimas: en el informe se usa la columna de cada oído. El recién nacido tiene su propia tabla (Rosa y cols., 2014; → cap. 14).
 :::
 
 ### Cuatro patrones
@@ -370,54 +389,164 @@ Medias de la serie de Sanfins y cols. (2026), con fonos de inserción. El límit
 Una pérdida periférica (conductiva o coclear) alarga las latencias absolutas y deja normales los interpicos. Ese es el dato que separa lo periférico de lo retrococlear.
 :::
 
-{{caso h10_p34}}
+El oído izquierdo de Sofía (caso H10.1) es el patrón retrococlear. Los patrones conductivo y de neuropatía están en los caps. 15 y 13.
 
-:::figura h10_p34 abr
-- @OI 80 V | El **OI** es normal: I a 1,5 ms, III a 3,6 y V a 5,5. I-V de 4,1 ms.
-- @OD 80 I | En el **OD** la onda I llega a 2,6 ms: 1,1 ms tarde. La señal ya sale atrasada de la cóclea.
-- @OD 80 V | La V llega a 6,5 ms. Pero los interpicos son normales (I-III 2,2, III-V 1,8, I-V 3,9 ms): la vía conduce bien; lo que se atrasó fue la llegada del sonido.
-- @OD 60 V | A 60 dB queda la V, a 7,7 ms, y apenas una III.
-- Compara con Tomás a 40 dB nHL (caso H10.1): I a 2,8, III a 5,1 y V a 6,8 ms. El OD de Carolina a 80 se parece a un oído normal a 40: la otoesclerosis le **resta intensidad** al click antes de que llegue a la cóclea, y la cóclea responde como a un sonido más suave.
-- La diferencia interaural de la V es de **1,0 ms**. Una conductiva la fabrica sola: antes de leerla como retrococlear, mira el audiograma y la timpanometría.
+:::figura h10_mujer_joven abr 2
+- @OI 80 I | En el registro de rutina (21,1 estímulos/s, figura del caso H10.1), el OI tiene la **I a tiempo**, a 1,40 ms, pero la III llega a 4,03 y la V a 6,07. El I-III (2,63 ms) y el I-V (4,67) pasan los límites de una mujer de su edad en ese oído (2,49 y 4,41). La diferencia interaural de la V es de 0,54 ms.
+- Esta figura es el mismo examen a **81,1 estímulos/s**.
+- @OD 80 V | En el OD la V pasa de 5,53 a 6,10 ms: se alarga 0,57 ms.
+- @OI 80 III | En el OI, a esta tasa, la **V no se distingue**: queda la I, la III muy aplanada y nada más. En el registro de rutina estaba en 6,07 ms. Una onda que se pierde con la tasa alta es la fatiga de conducción: la vía del OI conduce mal.
+- Sofía tiene 35 a 50 dB HL de 2 a 4 kHz en el OI. Una pérdida coclear así puede atrasar algo la V, pero con la I a tiempo **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio (→ cap. 11).
 :::
 
-{{caso h10_p39}}
+### Lo que hay que saber de memoria
 
-:::figura h10_p39 abr
-- @OI 80 V | El **OI** es normal: I a 1,6 ms, III a 3,8 y V a 5,7. I-V de 4,1 ms.
-- @OD 80 I | En el **OD** la onda I llega a 1,6 ms, en su lugar: la cóclea entrega la señal a tiempo.
-- @OD 80 III | La III llega a 4,2 ms: I-III de 2,6 ms, justo bajo el límite de 2,7.
-- @OD 80 V | La V llega a 6,5 ms: III-V de 2,3 (límite 2,4). Cada tramo queda en el borde, pero sumados dan un **I-V de 5,0 ms** (límite 4,7). La diferencia interaural de la V es de **0,8 ms**.
-- @OD 60 V | A 60 dB solo queda una V chica; la I y la III desaparecen.
-- Raúl tiene 30 a 55 dB de pérdida entre 2 y 4 kHz en el OD. Una pérdida coclear así puede atrasar algo la V, pero **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio. Es un **patrón retrococlear** (→ cap. 11).
+:::ayuda-ancho Los números del PEAT (adulto, click a 80 dB nHL, fonos de inserción)
+| Qué | Valor | Para qué sirve |
+|---|---|---|
+| Morfología | A 75 u 80 dB nHL, picos claros y al menos las ondas I, III y V en cada oído (Hood, 1998) | Si falta una onda, el informe dice cuál |
+| Ondas I, III y V | I ≈ 1,5 ms; III ≈ 3,7; V ≈ 5,6 en el adulto. Límite de la V: 5,9 a 6,0 ms de 18 a 49 años y 6,1 a 6,2 ms desde los 50, según el sexo (Sanfins y cols., 2026) | Una latencia absoluta larga dice que algo atrasa la señal, pero no dónde |
+| Interpicos | I-III ≈ 2,2 ms; III-V ≈ 1,9; I-V ≈ 4,1. Límite del I-V: 4,3 a 4,5 ms según la edad y el sexo (Sanfins y cols., 2026) | Separan lo periférico (interpicos normales) de lo retrococlear (interpicos largos) |
+| Diferencia interaural de la V | Anormal sobre 0,2 a 0,4 ms (Hood, 1998); 0,3 a 0,4 ms para Musiek y cols. (2015) | Solo vale si los dos oídos tienen una audición parecida en agudos y sin gap |
+| Razón V/I | La V es más grande que la I; anormal bajo 1 (Musiek y cols., 1984) o bajo 0,75 (Musiek y cols., 2015) | Sirve cuando las latencias están en el límite |
+| Latencia-intensidad | La V pasa de unos 5,5 ms a 90 dB nHL a unos 8,2 ms a 20 dB nHL (Delgado Hernández y cols., 2003) | Una V tardía cerca del umbral es normal; a 80 dB, no |
+| Tasa de 81,1/s | De 10 a 90 estímulos/s la V se alarga un 12 a 15 % en un oído normal (Jiang y cols., 1991) | Más que eso es fatiga de una vía comprometida |
+| Umbral | Click: mira de 2 a 4 kHz. dB eHL = umbral en dB nHL menos la corrección (click: 5 dB en adultos; BSA, 2019). Hasta 20 dB eHL es audición normal (→ H3) | Da el "aproximadamente XX dB HL" de la conclusión |
 :::
 
-{{caso h10_p40}}
+Los niños y los recién nacidos tienen otras latencias. Un recién nacido de término tiene la V a 6,90 ms, con límite de 7,56 (Rosa y cols., 2014): en un adulto eso sería un hallazgo, en él es lo normal (→ cap. 14).
 
-:::figura h10_p40 abr
-- @OD 80 | A 80 dB nHL el OD no tiene ondas.
-- @OI 80 | El OI tampoco. Valentina tiene un audiograma de 30 a 45 dB HL: con esa pérdida, un oído coclear daría una V clara a 80 dB.
-- La falta de ondas no se explica por el umbral: la vía no descarga en sincronía.
+### Del trazo a la conclusión
+
+Se piensa siempre en el mismo orden. Cada paso descarta algo antes de pasar al siguiente.
+
+1. **¿Hay ondas que se repiten a 80 dB nHL?** Si no, se sube a 90 o 100 dB nHL. Si sigue sin haber ondas, se miran las emisiones: presentes, es un patrón de neuropatía (→ cap. 13); ausentes, es una pérdida severa a profunda en la zona del click. Una ausencia de ABR puede ser cualquiera de las dos cosas, y las emisiones son las que las separan (Hood, 2015).
+2. **¿Los interpicos son normales?** Si la I está a tiempo y el I-III o el I-V se alargan, el retraso está después de la cóclea: es un **patrón retrococlear**. La diferencia interaural de la V y una V/I menor que 1 lo apoyan, y la tasa alta puede destaparlo (→ cap. 11).
+3. **Si los interpicos son normales, el problema es periférico.** ¿La I llega tarde y todas las ondas se corren juntas? Es **transmisión**: se mira la impedanciometría y, si hace falta, el ABR por vía ósea (→ cap. 15). ¿La I falta o es chica, y la V llega a tiempo a intensidad alta? Es **coclear**.
+4. **¿Dónde está el umbral de la V?** Se pasa a dB eHL. Ese número es el grado aproximado de la conclusión, y vale para la zona de 2 a 4 kHz. Si se midió con tone burst o NB chirp, se informa cada frecuencia.
+5. **¿Calza con el audiograma, si lo hay?** Si no calza, el informe lo dice: un ABR mejor que el audiograma es un hallazgo (→ cap. 19).
+
+### Las frases de la conclusión
+
+En este libro la conclusión dice qué audición **sugiere** el examen, en qué oído y de qué grado aproximado. Cuando el hallazgo no es un tipo de hipoacusia, la conclusión lo describe y no le pone nombre de enfermedad: eso lo hace el médico con la imagen y la clínica.
+
+:::ayuda-ancho Qué se escribe en la conclusión
+| Patrón | Conclusión |
+|---|---|
+| Normal | Examen sugiere audición normal en ambos oídos, para el rango frecuencial estudiado de 2 a 4 kHz. |
+| Transmisión | Examen sugiere hipoacusia de transmisión en OD, de aproximadamente 45 dB HL, para el rango frecuencial estudiado de 2 a 4 kHz. Se adjunta impedanciometría. |
+| Sensorioneural | Examen sugiere hipoacusia sensorioneural en ambos oídos, de aproximadamente 55 dB HL en OD y 60 dB HL en OI, para el rango frecuencial estudiado de 2 a 4 kHz. |
+| Mixta | Examen sugiere hipoacusia mixta en OI, de aproximadamente 65 dB HL, con umbral de onda V por vía ósea elevado (XX dB nHL), para el rango de 2 a 4 kHz (→ cap. 15). |
+| Retrococlear | Interpicos I-III e I-V prolongados en OD, con onda I de latencia normal y diferencia interaural de la onda V de 0,8 ms: patrón retrococlear en OD. Se sugiere correlación clínica e imagenológica. |
+| Neuropatía | Ausencia de ondas con emisiones otoacústicas presentes: patrón de neuropatía auditiva bilateral. En este patrón el PEAT no estima el umbral auditivo (→ cap. 13). |
+| Sin respuesta | OD sin ondas reconocibles hasta 100 dB nHL, con emisiones ausentes: examen sugiere hipoacusia de grado severo a profundo en OD, para el rango de 2 a 4 kHz. |
+| Por frecuencia | Umbrales estimados con tone burst, en dB eHL: OD 500 Hz XX, 1.000 Hz XX, 2.000 Hz XX, 4.000 Hz XX (corrección de la BSA, 2019). |
 :::
 
-:::figura h10_p40 teoae
-- @OD 2000 | Las **emisiones transitorias** del OD están presentes en 4 de 5 bandas, y las del OI en todas: las células ciliadas externas funcionan.
-- **Emisiones presentes y ABR ausente**: es el patrón de la **neuropatía auditiva** (Starr y cols., 1996). El siguiente paso es registrar en **rarefacción** y en **condensación** por separado: la microfónica coclear se invierte con la polaridad y la respuesta neural no (Berlin y cols., 1998). Con polaridad alternada, la microfónica se cancela y no se ve (→ cap. 13).
+Las cifras de la tabla son de ejemplo. El grado sale siempre del umbral en dB eHL del paciente.
+
+### Qué lleva el informe
+
+El informe del protocolo de este libro describe cada oído y concluye. Hood (1998, cap. 9) agrega lo que le permite a otro profesional revisar el examen: los parámetros, los valores medidos y los trazos con las ondas marcadas. Un informe completo lleva:
+
+1. **Motivo** y la historia que importa.
+2. **Lo que se hizo antes**: audiometría, impedanciometría y emisiones, si las hay. El PEAT se interpreta junto a ellos.
+3. **Registro**: estímulos, transductor, polaridad, tasa, intensidad, filtros, ventana, barridos y réplica, montaje, impedancias, enmascaramiento y estado del paciente.
+4. **Referencia**: con qué tabla se compara (edad, sexo, oído y fuente).
+5. **Tabla de valores**: latencias, interpicos, diferencia interaural, la V con tasa alta si se hizo, y los umbrales en dB nHL y en dB eHL. Lo que sale del límite se marca.
+6. **Interpretación**: qué es normal y qué no, y en qué se basa.
+7. **Conclusión**, con las frases de la tabla de arriba.
+8. **Recomendación**. En un niño, Hood agrega siempre una nota: si el lenguaje no se desarrolla como se espera, hay que volver a evaluarlo, porque un ABR normal no descarta un problema central.
+9. **Los trazos**, con las ondas marcadas.
+
+### Informes de ejemplo
+
+Los tres pacientes de este capítulo, informados de principio a fin. En los tres: polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, 2.000 barridos por curva con réplica, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ y sin enmascaramiento contralateral. Los trazos marcados son las figuras de cada caso. En las tablas, ↑ marca lo que pasa el límite.
+
+:::comentario-ancho Informe de Álvaro, 12 semanas (caso H10.2)
+**Motivo**: refirió dos veces en el tamizaje con emisiones del OI.
+
+**Registro**: click a 80, 40 y 20 dB nHL; tone burst de 1 kHz a 40 y 20, y de 4 kHz a 40, 20, 10 y 0 dB nHL. En sueño fisiológico.
+
+**Referencia**: recién nacido de término, 39 a 40 semanas (Rosa y cols., 2014): media / límite (media + 2 DE).
+
+| | OD | OI | Referencia |
+|---|---|---|---|
+| Onda I | 1,73 | 1,87 | 1,79 / 1,97 |
+| Onda III | 4,67 | 4,53 | 4,56 / 5,00 |
+| Onda V | 6,97 | 6,97 | 6,90 / 7,56 |
+| I-III | 2,94 | 2,66 | 2,77 / 3,19 |
+| III-V | 2,30 | 2,44 | 2,42 / 3,64 |
+| I-V | 5,24 | 5,10 | 5,08 / 5,70 |
+| Diferencia interaural de la V | 0,00 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 20 o menos → 20 o menos | 20 o menos → 20 o menos | hasta 20 dB eHL |
+| Umbral con burst de 1 kHz | 20 o menos → 5 o menos | 20 o menos → 5 o menos | |
+| Umbral con burst de 4 kHz | 10 → 5 | 10 → 5 | |
+
+**Morfología**: ondas I, III y V bien definidas y replicables en ambos oídos.
+
+**Interpretación**: latencias absolutas e interpicos dentro de lo esperado para la edad, sin diferencia interaural. Onda V presente hasta 20 dB nHL con click y con burst de 1 kHz, el nivel más bajo registrado, y hasta 10 dB nHL con burst de 4 kHz. Correcciones a dB eHL de la BSA (2019) para lactantes de 12 a 24 semanas.
+
+**Conclusión**: examen sugiere audición normal en ambos oídos, de 1 a 4 kHz. No se confirma el resultado del tamizaje en el OI.
+
+**Recomendación**: control del desarrollo del lenguaje; si no avanza como se espera, volver a evaluar.
 :::
 
-### Un ejemplo de informe
+:::comentario-ancho Informe de Sofía, 28 años (caso H10.1)
+**Motivo**: zumbido y menor audición en el OI; audiometría con caída de agudos en el OI.
 
-El informe describe primero lo que se vio a 80 dB nHL en cada oído y después el umbral; recién al final, la conclusión.
+**Registro**: click a 80, 60, 50, 40, 20, 10 y 0 dB nHL, y a 80 dB nHL con 81,1 estímulos/s. En reposo, con los ojos cerrados.
 
-> **Potenciales evocados auditivos de tronco cerebral.** Click, polaridad alternada, 21,1 estímulos/s, filtros 100-3.000 Hz, fonos de inserción. Paciente en sueño fisiológico.
->
-> **OD**: a 80 dB nHL se observan ondas I, III y V de buena morfología y replicabilidad. Latencias absolutas e interpicos I-III, III-V e I-V dentro de lo esperado. Umbral de onda V en 10 dB nHL.
->
-> **OI**: a 80 dB nHL se observan ondas I, III y V de buena morfología y replicabilidad. Latencias absolutas e interpicos dentro de lo esperado. Umbral de onda V en 10 dB nHL.
->
-> **Conclusión**: el examen sugiere audición normal en ambos oídos para el rango de frecuencias estudiado (2 a 4 kHz).
+**Referencia**: mujer de 18 a 49 años, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
 
-La conclusión dice qué tipo de audición **sugiere** el examen: normal, hipoacusia conductiva, sensorioneural o mixta, en qué oído y de qué grado aproximado en dB HL. Si hay un patrón retrococlear, se describe ("interpicos I-III e I-V prolongados en el OD, con diferencia interaural de la onda V de 1,0 ms") sin ponerle nombre de enfermedad. Se anota si se adjunta otro examen, como la impedanciometría.
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 1,53 | 1,40 | 1,80 / 1,80 |
+| Onda III | 3,67 | 4,03 ↑ | 3,94 / 4,01 |
+| Onda V | 5,53 | 6,07 ↑ | 5,89 / 5,92 |
+| I-III | 2,14 | 2,63 ↑ | 2,42 / 2,49 |
+| III-V | 1,86 | 2,04 | 2,11 / 2,12 |
+| I-V | 4,00 | 4,67 ↑ | 4,33 / 4,41 |
+| Diferencia interaural de la V | 0,54 ↑ | | hasta 0,4 |
+| V a 81,1 estímulos/s | 6,10 (+0,57) | 7,37 (+1,30) ↑ | |
+| Umbral con click (dB nHL → dB eHL) | 10 → 5 | 50 → 45 | hasta 20 dB eHL |
+
+**Morfología**: OD con ondas I, III y V bien definidas y replicables. OI con ondas I, III y V replicables, de menor amplitud.
+
+**Interpretación**: OD normal. OI anormal: onda I de latencia normal con ondas III y V prolongadas e interpicos I-III e I-V prolongados. Lo apoyan la diferencia interaural de la onda V (0,54 ms) y el alargamiento de la V con la tasa alta (1,30 ms en el OI frente a 0,57 en el OD).
+
+**Conclusión**: patrón retrococlear en OI. El umbral sugiere una pérdida de aproximadamente 45 dB HL en OI y audición normal en OD, para el rango de 2 a 4 kHz. Se adjunta audiometría.
+
+**Recomendación**: se sugiere correlación clínica e imagenológica.
+:::
+
+:::comentario-ancho Informe de Juan Joaquín, 76 años (caso H10.3)
+**Motivo**: dificultad para entender y zumbido bilateral; PEAT antes de indicar audífonos.
+
+**Registro**: click a 80, 60, 50 y 40 dB nHL, y tone burst de 1 kHz a 60, 40, 30 y 20 dB nHL. En reposo.
+
+**Referencia**: hombre de 50 años o más, por oído (Sanfins y cols., 2026): límite superior (media + 2 DE).
+
+| | OD | OI | Límite OD / OI |
+|---|---|---|---|
+| Onda I | 2,10 ↑ | no se identifica | 1,90 / 1,91 |
+| Onda III | 4,23 ↑ | 4,20 | 4,16 / 4,22 |
+| Onda V | 6,00 | 6,17 | 6,16 / 6,24 |
+| I-III | 2,13 | | 2,54 / 2,53 |
+| III-V | 1,77 | 1,97 | 2,17 / 2,33 |
+| I-V | 3,90 | | 4,53 / 4,54 |
+| Diferencia interaural de la V | 0,17 | | hasta 0,4 |
+| Umbral con click (dB nHL → dB eHL) | 50 → 45 | 50 → 45 | hasta 20 dB eHL |
+| Umbral con burst de 1 kHz | 40 → 25 | 40 → 25 | |
+
+**Morfología**: OD con ondas I, III y V replicables; la I es de baja amplitud. OI con ondas III y V replicables; la onda I no se identifica.
+
+**Interpretación**: onda I tardía en OD y ausente en OI, con onda V de latencia normal, interpicos normales y diferencia interaural normal: patrón de pérdida coclear de agudos. Sin signos de alteración retrococlear.
+
+**Conclusión**: examen sugiere hipoacusia sensorioneural en ambos oídos, de aproximadamente 45 dB HL para el rango de 2 a 4 kHz, con umbral estimado de 25 dB eHL en 1 kHz: la pérdida predomina en agudos. Se adjunta audiometría.
+
+**Recomendación**: evaluación para audífonos.
+:::
 
 <!-- Protocolo ORL 2019, ejemplo de informe: entre las conclusiones ofrece "Hipofunción sensorioneural". El término para el tipo de pérdida es "hipoacusia sensorioneural" (ASHA y BIAP); se dejó así. -->
 
@@ -455,18 +584,21 @@ Antes de informar un ABR, pregúntate si **calza con lo demás**: con el audiogr
 ## Para practicar
 
 :::pregunta Preguntas para practicar
-1. En el caso de Tomás, ¿qué intensidades registrarías si a 20 dB nHL **no** hubiera onda V? ¿Cuál sería su umbral si a 30 sí la hay?
+1. En el OD de Sofía, ¿qué intensidades registrarías si a 20 dB nHL **no** hubiera onda V? ¿Cuál sería su umbral si a 30 sí la hay?
 2. Promedias 500 barridos en un oído con umbral real de 30 dB nHL y encuentras la V hasta 45. ¿El oído empeoró? ¿Qué harías para saberlo?
-3. Carolina tiene una diferencia interaural de la onda V de 1,0 ms y Raúl de 0,8 ms. ¿Por qué una es conductiva y la otra retrococlear? ¿Qué número de la figura lo decide?
-4. Con los umbrales de Hernán (click 60 y burst de 1 kHz 40 dB nHL), estima su audición en dB eHL. ¿Qué le habría dicho a un médico un ABR solo con click?
-5. Un lactante tiene un ABR por vía aérea con umbral de 50 dB nHL y por vía ósea no responde a 55. ¿Puedes concluir que la pérdida es sensorioneural? ¿Qué cambia si es un adulto?
-6. En un AABR, un oído refiere dos veces. La enfermera propone subir el nivel a 60 dB "para que pase". ¿Qué le contestas?
+3. Sofía tiene en el OI una diferencia interaural de la onda V de 0,54 ms. ¿Qué otro número de su registro dice que no es una pérdida coclear? ¿Qué agrega la tasa de 81,1?
+4. Álvaro tiene la onda V a 6,97 ms. ¿Es normal? ¿Lo sería en Sofía?
+5. Con los umbrales de Juan Joaquín (click 50 y burst de 1 kHz 40 dB nHL), estima su audición en dB eHL. ¿Qué le habría dicho a un médico un ABR solo con click?
+6. Un lactante tiene un ABR por vía aérea con umbral de 50 dB nHL y por vía ósea no responde a 55. ¿Puedes concluir que la pérdida es sensorioneural? ¿Qué cambia si es un adulto?
+7. En un AABR, un oído refiere dos veces. La enfermera propone subir el nivel a 60 dB "para que pase". ¿Qué le contestas?
 :::
 
 ## Referencias
 
 ### Técnica
 
+1. Hood LJ. Auditory brainstem response: estimation of hearing sensitivity. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 249-66.
+1. Yacullo WS. Clinical masking. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 77-111.
 1. Picton TW. Human auditory evoked potentials. San Diego: Plural Publishing; 2010 (el editor la fecha en 2011).
 1. Hall JW 3rd. New handbook of auditory evoked responses. Boston: Pearson; 2007.
 1. American Clinical Neurophysiology Society. Guideline 9C: Guidelines on short-latency auditory evoked potentials. ACNS; 2008. Disponible en: https://www.acns.org/pdf/guidelines/Guideline-9C.pdf
@@ -490,13 +622,14 @@ Antes de informar un ABR, pregúntate si **calza con lo demás**: con el audiogr
 
 1. Sanfins MD, Santillo MEA, Martins MFP, Silva DLdS, Gos E, Skarzynski PH, Hall JW III. The influence of sex, ear, and age on auditory brainstem responses recorded with the NeuroAudio system. Diagnostics. 2026;16(7):971. doi:10.3390/diagnostics16070971
 1. Jerger J, Hall J. Effects of age and sex on auditory brainstem response. Arch Otolaryngol. 1980;106(7):387-91. doi:10.1001/archotol.1980.00790310011003
-1. Hood LJ. Clinical applications of the auditory brainstem response. San Diego: Singular Publishing Group; 1998. Tabla 2-3. <!-- verificar: año y ciudad de la edición; la planilla de LabSim no los trae. -->
+1. Hood LJ. Clinical applications of the auditory brainstem response. San Diego: Singular Publishing Group; 1998.
 1. Delgado Hernández J, Zenker Castro F, Barajas del Prat JJ. Normalización de los potenciales evocados auditivos del tronco cerebral I: resultados en una muestra de adultos normoyentes. Auditio. 2003;2(1):13-8. doi:10.51445/sja.auditio.vol2.2003.0020
 1. Aguilar-Madrid G, Torres-Valenzuela A, Hinojos-Escobar W, Cabello-López A, Gopar-Nieto R, Ravelo-Cortés PE, et al. Latencias de los potenciales evocados auditivos del tallo cerebral, por edad y sexo, en población adulta mexicana. Rev Med Inst Mex Seguro Soc. 2016;54(2):203-10. PMID 26960049.
 1. Gorga MP, Kaminski JR, Beauchaine KL, Jesteadt W, Neely ST. Auditory brainstem responses from children three months to three years of age: normal patterns of response II. J Speech Hear Res. 1989;32(2):281-8. doi:10.1044/jshr.3202.281
 1. Rosa LAC, Suzuki MR, Angrisani RG, Azevedo MF. Auditory brainstem response: reference-values for age. CoDAS. 2014;26(2):117-21. doi:10.1590/2317-1782/2014469in
 1. Sharma M, Bist SS, Kumar S. Age-related maturation of wave V latency of auditory brainstem response in children. J Audiol Otol. 2016;20(2):97-101. doi:10.7874/jao.2016.20.2.97
 1. Selters WA, Brackmann DE. Acoustic tumor detection with brain stem electric response audiometry. Arch Otolaryngol. 1977;103(4):181-7. doi:10.1001/archotol.1977.00780210037001
+1. Musiek FE, Gonzalez JE, Baran JA. Auditory brainstem response: differential diagnosis. En: Katz J, Chasin M, English K, Hood LJ, Tillery KL, editores. Handbook of clinical audiology. 7th ed. Philadelphia: Wolters Kluwer; 2015. p. 231-48.
 1. Musiek FE, Kibbe K, Rackliffe L, Weider DJ. The auditory brain stem response I-V amplitude ratio in normal, cochlear, and retrocochlear ears. Ear Hear. 1984;5(1):52-5. doi:10.1097/00003446-198401000-00011
 
 ### Umbral por frecuencia y tamizaje

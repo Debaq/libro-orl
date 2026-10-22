@@ -32,7 +32,7 @@ El oído externo recoge el sonido y lo lleva hasta la membrana timpánica. Lo fo
 
 El pabellón es una lámina de **cartílago elástico** cubierta de piel, que se prolonga hacia abajo en el **lóbulo**, hecho solo de grasa y piel. Sus relieves tienen nombre porque se usan al describir la otoscopía y al tirar del oído para enderezar el conducto (→ H1):
 
-:::imagen ilustraciones/b1-pabellon.svg ancho=48% Los relieves del pabellón derecho: son los nombres que usarás para describir una malformación y para saber de dónde tomar el pabellón en la otoscopía.
+:::imagen ilustraciones/b1-pabellon.svg ancho=48% Los relieves del pabellón derecho: son los nombres que usarás para describir una malformación y para saber de dónde tomar el pabellón en la otoscopía. Imagen propia del libro.
 :::
 
 - El **hélix** es el borde enrollado. Nace dentro de la concha como un pliegue (la cruz del hélix) y rodea todo el pabellón.
@@ -78,7 +78,7 @@ Por eso el cerumen se produce afuera y **no debe manipularse adentro** sin ver: 
 
 La membrana timpánica separa el oído externo del medio. Es una lámina casi circular, de cerca de **1 cm** de diámetro y muy delgada, **inclinada**: su borde superior queda más afuera que el inferior, de modo que el piso del conducto es más largo que el techo. Se ve por otoscopía, y todo lo que se describe en ella tiene un nombre fijo.
 
-:::imagen ilustraciones/b1-membrana.svg ancho=100% Referencias de la membrana timpánica derecha y dónde cae cada hallazgo. Ubica primero el mango y el umbo: desde ellos se trazan los cuadrantes que usarás para dar la posición de una perforación.
+:::imagen ilustraciones/b1-membrana.svg ancho=100% Referencias de la membrana timpánica derecha y dónde cae cada hallazgo. Ubica primero el mango y el umbo: desde ellos se trazan los cuadrantes que usarás para dar la posición de una perforación. Imagen propia del libro.
 :::
 
 - **Pars tensa.** Es casi toda la membrana. Tiene tres capas (piel por fuera, mucosa por dentro y, en medio, fibras de colágeno), y se sostiene en el **anillo timpánico**, un borde fibrocartilaginoso encajado en el hueso (→ B3).
@@ -173,7 +173,7 @@ La trompa comunica la caja con la **rinofaringe**. Su trabajo es **igualar la pr
 
 Tiene dos porciones: una **ósea**, cercana al oído medio, y otra **cartilaginosa y membranosa**, que se abre en la pared lateral de la rinofaringe, detrás del cornete inferior, rodeada por un reborde (el *torus tubario*) y, detrás de él, un surco, el **receso faríngeo** (fosa de Rosenmüller).
 
-:::imagen ilustraciones/b1-trompa.svg ancho=100% La trompa del lactante y del adulto. En el lactante es más corta y más horizontal: por eso lo que pasa en la rinofaringe llega con facilidad al oído medio. Con las medidas de Ishijima y cols. (2000).
+:::imagen ilustraciones/b1-trompa.svg ancho=100% La trompa del lactante y del adulto. En el lactante es más corta y más horizontal: por eso lo que pasa en la rinofaringe llega con facilidad al oído medio. Con las medidas de Ishijima y cols. (2000). Imagen propia del libro.
 :::
 
 **El niño no es un adulto pequeño.** En un estudio con reconstrucción tridimensional de huesos temporales, el largo de la trompa de un lactante de 3 meses fue de unos **21 mm**, contra unos **37 mm** del adulto; la porción cartilaginosa y de transición es 8 veces más larga que la ósea en el lactante y 4 veces en el adulto. Además, en el niño las dos porciones están alineadas, y en el adulto la cartilaginosa se inclina hacia abajo y afuera (Ishijima y cols., 2000). Una trompa más corta y más horizontal se abre peor y drena peor, y por eso el niño pequeño tiene más otitis media con efusión (→ cap. 2).
@@ -328,7 +328,7 @@ Estación por estación:
 4. **Lemnisco lateral**. Es la vía que sube por el tronco con las fibras de los núcleos cocleares y del olivar, hasta el colículo inferior.
 5. **Colículo inferior**, en el mesencéfalo. Casi todas las fibras ascendentes hacen sinapsis aquí, y una **comisura** une el de un lado con el del otro; integra las claves de localización y la estructura temporal del sonido (Møller, 2013).
 6. **Cuerpo geniculado medial**, en el tálamo: el último relevo antes de la corteza. Su parte ventral lleva el mapa de frecuencias a la corteza primaria (Kaas y Hackett, 2000).
-7. **Corteza auditiva primaria**, en el giro transverso del lóbulo temporal (giro de Heschl): conserva el mapa de frecuencias. Alrededor de ella está la **corteza de asociación**, que procesa lo que el sonido significa: la voz, el lenguaje, la música (Kaas y Hackett, 2000, en primates, con un núcleo auditivo humano muy parecido). Los dos hemisferios se comunican a través del **cuerpo calloso**.<!-- verificar: Kaas y Hackett (2000) describen primates; el resumen dice que chimpancés y humanos tienen un núcleo auditivo parecido, pero no localiza el núcleo humano en el giro de Heschl. -->
+7. **Corteza auditiva primaria**, en el giro transverso del lóbulo temporal (giro de Heschl): conserva el mapa de frecuencias (Snell, 2014: áreas 41 y 42 de Brodmann, que incluyen el giro de Heschl). Alrededor de ella está la **corteza de asociación**, que procesa lo que el sonido significa: la voz, el lenguaje, la música. Esa organización en un núcleo y varios anillos se describió en primates, y el núcleo auditivo de chimpancés y humanos se parece mucho al del mono (Kaas y Hackett, 2000). Los dos hemisferios se comunican a través del **cuerpo calloso**.
 
 **Cruces y lateralidad.** La vía cruza en más de un nivel: las fibras del núcleo coclear van al olivar de los dos lados, el lemnisco y el colículo de cada lado se conectan por comisuras, y los dos hemisferios, por el cuerpo calloso. Cada oído llega, por tanto, a las dos cortezas, con predominio del lado opuesto (Møller, 2013). La consecuencia clínica es la del inicio: una lesión del nervio o del núcleo coclear de un lado afecta a **ese oído**; una lesión de un solo lado por encima del olivar deja los **umbrales normales** en los dos oídos y altera la localización, la comprensión en ruido o las tareas que comparan los oídos (→ H15, cap. 30).
 
@@ -349,7 +349,7 @@ Tabla: Estación que genera cada onda del PEAT
 | **IV** | complejo olivar superior | complejo olivar |
 | **V** | lemnisco lateral, al llegar al colículo inferior | lemnisco lateral y colículo |
 
-Es un mapa útil pero no literal: cada onda recibe aportes de varias estaciones y una misma estación contribuye a más de una onda (Melcher y Kiang, 1996), y el PEAT recibe aporte de estructuras cruzadas y no cruzadas del tronco (Møller y cols., 1995; → H10, cap. 12). El geniculado y la corteza no generan ondas del PEAT: sus respuestas son las de latencia media y tardía (→ H14). Por eso un PEAT normal no descarta una lesión por encima del mesencéfalo.<!-- verificar: la última frase es la lectura habitual del PEAT (sus ondas terminan en el mesencéfalo); no se encontró una cita puntual en las fuentes ya verificadas del libro. -->
+Es un mapa útil pero no literal: cada onda recibe aportes de varias estaciones y una misma estación contribuye a más de una onda (Melcher y Kiang, 1996), y el PEAT recibe aporte de estructuras cruzadas y no cruzadas del tronco (Møller y cols., 1995; → H10, cap. 12). El geniculado y la corteza no generan ondas del PEAT: sus respuestas son las de latencia media y tardía (→ H14). Por eso un PEAT normal no descarta una lesión por encima del mesencéfalo. Es una deducción del libro a partir de los generadores de las ondas, no el hallazgo de un estudio.
 
 :::imagen ilustraciones/b1-lam-peat.svg ancho=100% El PEAT de los mismos casos (clic a 80 dB, oído derecho arriba e izquierdo abajo). A: ondas I a V del oído sano. B: schwannoma izquierdo; la I queda y las ondas siguientes se atrasan y bajan, como en una lesión retrococlear (→ H10, cap. 11). C: complejo olivar izquierdo; baja la IV, la onda que se asigna a esa estación. D: colículo inferior izquierdo; el modelo no cambia las ondas. Compara cada trazo del oído izquierdo con el derecho de la misma lámina. Las cifras del eje son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
@@ -385,7 +385,7 @@ Tabla: Qué músculos activa cada canal vertical al excitarse
 | **Anterior** | recto superior | oblicuo inferior | arriba |
 | **Posterior** | oblicuo superior | recto inferior | abajo |
 
-<!-- verificar: la asignación de músculos de los canales verticales sigue Leigh y Zee (2015; el libro no se pudo cotejar por página); se coteja con la tabla de pares de canales de H16 y H18. -->
+Fuente de la tabla: Murofushi y Kaga (2009, tabla 2: canal anterior, excitación del recto superior ipsilateral y del oblicuo inferior contralateral; canal posterior, del oblicuo superior ipsilateral y del recto inferior contralateral); coincide con Leigh y Zee (2015).
 
 Cada canal activa dos músculos, uno de cada ojo, que juntos mueven la mirada en el plano de ese canal.
 
@@ -411,7 +411,7 @@ Por el mismo nervio vestibular van el **utrículo** (rama superior) y el **sácu
 
 #### Hacia la médula: las vías vestibuloespinales
 
-Dos haces llevan el tono postural desde los núcleos vestibulares. El **vestibuloespinal lateral**, desde el núcleo vestibular lateral, baja por el mismo lado y activa los músculos que sostienen el cuerpo contra la gravedad, los extensores de las piernas y del tronco. El **vestibuloespinal medial**, desde el núcleo medial, baja por el fascículo longitudinal medial hasta el cuello y actúa sobre los músculos que mantienen estable la cabeza (Cullen, 2012; → H16 "El reflejo vestíbulo-espinal", H20).<!-- verificar: la distinción lateral/medial es la clásica de los textos; la revisión de Cullen (2012) la trata, pero no se cotejó la página. -->
+Dos haces llevan el tono postural desde los núcleos vestibulares. El **vestibuloespinal lateral**, desde el núcleo vestibular lateral, baja por el mismo lado y activa los músculos que sostienen el cuerpo contra la gravedad, los extensores de las piernas y del tronco. El **vestibuloespinal medial**, desde el núcleo medial (y también del inferior y del lateral), baja por el fascículo longitudinal medial hasta la parte media del tórax y actúa sobre los músculos que mantienen estable la cabeza (Murofushi y Kaga, 2009; Cullen, 2012; → H16 "El reflejo vestíbulo-espinal", H20).
 
 :::imagen ilustraciones/b1-lam-esp.svg ancho=100% Las vías vestibuloespinales y las que las acompañan en el control postural. A y B: la capa vestibular con el cuerpo inclinado a un lado (A) y adelante y atrás (B); desde los canales y los otolitos, los núcleos vestibulares (Deiters, medial e inferior) llegan a la médula cervical, hacia los músculos del cuello, y a la lumbar, hacia los extensores de las piernas y los tibiales. C: la vía propioceptiva, del tobillo y de la planta a la médula, al cerebelo y a la corteza. D: lo que las junta, con la visión y las áreas de la corteza. Mira qué fibras se calientan y cuáles se enfrían cuando cambia la inclinación, y compara A con B. Rojo, la vía dispara más que en reposo; azul, menos. Las cifras que escribe el esquema son del modelo, no valores de referencia (→ H16 "El reflejo vestíbulo-espinal", H20). Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
 :::
@@ -525,7 +525,7 @@ Tabla: Sitio de la lesión y el signo que deja
 
 El oído interno recibe sangre de una arteria sola, la **arteria laberíntica** (auditiva interna), casi siempre una rama de la **AICA**, que a su vez sale de la arteria basilar (Mazzoni, 1972). Se divide en:
 
-:::imagen ilustraciones/b1-irrigacion.svg ancho=100% Las arterias del laberinto: una sola arteria, terminal, que se reparte entre la cóclea y el vestíbulo. Por eso una falla de irrigación puede quitar audición y equilibrio a la vez. Según Mazzoni (1972).
+:::imagen ilustraciones/b1-irrigacion.svg ancho=100% Las arterias del laberinto: una sola arteria, terminal, que se reparte entre la cóclea y el vestíbulo. Por eso una falla de irrigación puede quitar audición y equilibrio a la vez. Según Mazzoni (1972). Imagen propia del libro.
 :::
 
 - La **arteria vestibular anterior**, que irriga el utrículo, los canales lateral y superior y parte del sáculo: el territorio del nervio vestibular superior.
@@ -544,7 +544,7 @@ La nariz externa tiene forma de pirámide: la **raíz** arriba, el **dorso** has
 - La parte **ósea**, arriba: los **huesos nasales** y las ramas frontales de los maxilares.
 - La parte **cartilaginosa**, abajo: los **cartílagos laterales superiores**, que forman el dorso y se unen al tabique; los **cartílagos alares** (mayores), que forman la punta y las narinas; y el **cartílago del tabique**.
 
-:::imagen ilustraciones/b1-valvula.svg ancho=100% A: la pirámide nasal vista de lado, con su parte ósea y su parte cartilaginosa. B: la válvula nasal interna en un corte frontal, el punto más estrecho de la vía aérea. Con las cifras de Pirola y cols. (2025).
+:::imagen ilustraciones/b1-valvula.svg ancho=100% A: la pirámide nasal vista de lado, con su parte ósea y su parte cartilaginosa. B: la válvula nasal interna en un corte frontal, el punto más estrecho de la vía aérea. Con las cifras de Pirola y cols. (2025). Imagen propia del libro.
 :::
 
 ### El vestíbulo y la válvula nasal
@@ -687,7 +687,7 @@ El laberinto membranoso alcanza su tamaño de adulto a mitad del embarazo; lo qu
 1. Taylor RL, McGarvie LA, Reid N, Young AS, Halmagyi GM, Welgampola MS. Vestibular neuritis affects both superior and inferior vestibular nerves. Neurology. 2016;87(16):1704-12. doi:10.1212/WNL.0000000000003223
 1. Adibelli ZH, Songu M, Adibelli H. Paranasal sinus development in children: a magnetic resonance imaging analysis. Am J Rhinol Allergy. 2011;25(1):30-5. doi:10.2500/ajra.2011.25.3552
 1. Nemzek WR, Brodie HA, Chong BW, Babcook CJ, Hecht ST, Salamat S, et al. Imaging findings of the developing temporal bone in fetal specimens. AJNR Am J Neuroradiol. 1996;17(8):1467-77. PMID 8883642
-1. Møller AR. Hearing: anatomy, physiology and disorders of the auditory system. 3.ª ed. San Diego: Plural Publishing; 2013.<!-- verificar: editorial y ISBN; la edición 3.ª de 2013 figura en la reseña de Atcherson (Int J Audiol 2015, doi:10.3109/14992027.2014.996828), no se pudo cotejar el ISBN -->
+1. Møller AR. Hearing: anatomy, physiology and disorders of the auditory system. 3.ª ed. San Diego: Plural Publishing; 2013. ISBN 978-1-59756-427-4
 1. Møller AR, Jho HD, Yokota M, Jannetta PJ. Contribution from crossed and uncrossed brainstem structures to the brainstem auditory evoked potentials: a study in humans. Laryngoscope. 1995;105(6):596-605. doi:10.1288/00005537-199506000-00007
 1. Oertel D, Young ED. What's a cerebellar circuit doing in the auditory system? Trends Neurosci. 2004;27(2):104-10. doi:10.1016/j.tins.2003.12.001
 1. Grothe B, Pecka M, McAlpine D. Mechanisms of sound localization in mammals. Physiol Rev. 2010;90(3):983-1012. doi:10.1152/physrev.00026.2009
@@ -710,3 +710,9 @@ El laberinto membranoso alcanza su tamaño de adulto a mitad del embarazo; lo qu
 1. Brandt T, Dieterich M. The vestibular cortex: its locations, functions, and disorders. Ann N Y Acad Sci. 1999;871:293-312. doi:10.1111/j.1749-6632.1999.tb09193.x
 1. Dieterich M, Bense S, Lutz S, Drzezga A, Stephan T, Bartenstein P, et al. Dominance for vestibular cortical function in the non-dominant hemisphere. Cereb Cortex. 2003;13(9):994-1007. doi:10.1093/cercor/13.9.994
 1. Keane JR. Internuclear ophthalmoplegia: unusual causes in 114 of 410 patients. Arch Neurol. 2005;62(5):714-7. doi:10.1001/archneur.62.5.714
+1. Touska P, Connor SEJ. ESR Essentials: imaging of middle ear cholesteatoma-practice recommendations by the European Society of Head and Neck Radiology. Eur Radiol. 2025;35(4):2053-64. doi:10.1007/s00330-024-11021-x
+1. Feraco P, Piccinini S, Gagliardo C. Imaging of inner ear malformations: a primer for radiologists. Radiol Med. 2021;126(10):1282-95. doi:10.1007/s11547-021-01387-z
+1. Johansson M, Karltorp E, Edholm K, Drott M, Berninger E. A prospective study of etiology and auditory profiles in infants with congenital unilateral sensorineural hearing loss. J Clin Med. 2022;11(14):3966. doi:10.3390/jcm11143966
+1. Aphiwatthanasumet K, Jethwa K, Glover P, O'Donoghue G, Auer D, Gowland P. Morphology of the human inner ear and vestibulocochlear nerve assessed using 7 T MRI. MAGMA. 2025;38(1):121-30. doi:10.1007/s10334-024-01213-3
+1. Snell RS. Neuroanatomía clínica. 7.ª ed. Barcelona: Wolters Kluwer; 2014. ISBN 978-84-16004-18-8
+1. Murofushi T, Kaga K. Vestibular evoked myogenic potential: its basics and clinical applications. Tokyo: Springer; 2009.

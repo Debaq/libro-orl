@@ -105,13 +105,10 @@ La neuritis y la laberintitis se distinguen en un dato que el audiólogo mide: l
 
 Entre 240 infartos cerebelosos consecutivos, 25 (10,4 %) se presentaron como un cuadro de neuritis, y en 24 de ellos el territorio era la rama medial de la PICA (Lee y cols., 2006). Se llaman **pseudoneuritis**. Con vértigo, vómitos y un nistagmo que a veces parece periférico, el único dato nuevo puede ser un impulso cefálico **normal**, un skew o una marcha imposible. Los signos neurológicos clásicos faltan con frecuencia: en 15 ictus pequeños solo el 27 % tenía signos neurológicos focales (Saber Tehrani y cols., 2014). Los factores de riesgo vascular (hipertensión, diabetes, tabaco, edad) pesan, pero no son un filtro: en la serie de 101 pacientes todos los incluidos los tenían, y aun así 25 eran periféricos (Kattah y cols., 2009).
 
-En la resonancia, un infarto reciente se ve brillante en la secuencia de difusión y oscuro en el mapa ADC.
+En la resonancia, un infarto reciente se ve brillante en la secuencia de difusión y oscuro en el mapa ADC ({{fig rm-infarto-cerebeloso}}).
 
-:::imagen ilustraciones/cap21-rm-infarto-cerebeloso.jpg ancho=80% Resonancia de un infarto en el hemisferio derecho del cerebelo, en un corte axial de la fosa posterior. Es otra persona, no un paciente de este capítulo. La resonancia la pide y la informa el médico; esto es lo que el examen de cabecera tiene que sospechar antes de que haya imagen. Izquierda: difusión (b = 1000). Derecha: mapa ADC del mismo corte. Convención radiológica: la derecha del paciente queda a la izquierda de la imagen. El infarto mide unos 3,5 mL. Imagen: dataset ISLES 2022 (Hernandez Petzsche y cols., 2022, Sci Data, doi:10.1038/s41597-022-01875-5), CC BY 4.0, adaptada.
-- @7,82 | **Difusión**: el infarto es la mancha blanca, en la parte posterior del hemisferio derecho.
-- @55,84 | **ADC**: en el mismo lugar el tejido se ve más oscuro que el resto del cerebelo: el agua se mueve menos ahí (difusión restringida).
+:::imagen ilustraciones/cap21-rm-infarto-cerebeloso.jpg ancho=80% id=rm-infarto-cerebeloso Resonancia de un infarto en el hemisferio derecho del cerebelo, en un corte axial de la fosa posterior; la derecha del paciente queda a la izquierda de la imagen. Izquierda, difusión (b = 1000): el infarto es la mancha blanca, en la parte posterior del hemisferio. Derecha, mapa ADC del mismo corte: ahí el tejido se ve más oscuro, porque el agua se mueve menos (difusión restringida). Mide unos 3,5 mL. Es lo que el examen de cabecera tiene que sospechar antes de que haya imagen. Imagen: dataset ISLES 2022 (Hernandez Petzsche y cols., 2022, Sci Data, doi:10.1038/s41597-022-01875-5), CC BY 4.0, adaptada.
 :::
-
 La imagen tampoco es infalible. La resonancia con difusión fue falsamente normal en el 12 % de los pacientes dentro de las 48 horas (Kattah y cols., 2009), y en los ictus pequeños en el 53 % entre las 6 y las 48 horas (Saber Tehrani y cols., 2014). Una imagen temprana normal **no cierra** un HINTS con un signo central.
 
 :::imagen ilustraciones/cap21-rm-difusion-negativa.jpg ancho=100% Una difusión normal que tres días después ya no lo es. Paciente con vértigo recurrente e hipoacusia fluctuante del oído derecho con acúfeno; la calórica mostraba una paresia derecha de 65 %. A: resonancia con difusión al día 1, normal (dos cortes axiales). D: tres días después, con más vértigo y más hipoacusia, la difusión repetida muestra focos brillantes en el cerebelo anterior derecho, flóculo incluido: un infarto en el territorio de la arteria cerebelosa anteroinferior (AICA), no de la PICA. Por eso una resonancia temprana normal no cierra un signo central. Imagen: Kim HA, Lee H (2017), J Stroke, doi:10.5853/jos.2016.00857, Fig. 1 (paneles A y D), CC BY-NC 4.0, adaptada.
@@ -248,7 +245,7 @@ Hipoexcitabilidad derecha: (6 + 8 − 26 − 18) / 58 = **52 %**. Dirección pre
 
 cVEMP simétrico (**0 %**); el oVEMP cae al estimular el OD (8 contra 24 µV, **50 %**): utrículo y nervio vestibular superior, como el vHIT.
 
-:::imagen figuras/salida/cap21_neuritis_audiosupra.svg ancho=80% Audiometría de Ana: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap21_neuritis_audiosupra.svg ancho=100% Audiometría de Ana: audición normal y simétrica, y discriminación de 100 % en los dos oídos.
 :::
 
 :::docente Guía del caso
@@ -347,14 +344,14 @@ Hipoexcitabilidad derecha: (3 + 4 − 24 − 19) / 50 = **72 %**. Dirección pre
 
 Caen los dos VEMP del OD: cVEMP de 45 contra 292 µV (**73 %**) y oVEMP de 5 contra 24 µV (**65 %**). Con los tres canales, es **todo el laberinto** derecho y no una rama del nervio (→ H12 y cap. 20).
 
-:::imagen figuras/salida/cap21_laberintitis_audiosupra.svg ancho=80% Audiometría de Javier: el OD tiene una pérdida sensorioneural severa y casi plana (70 dB en 1 kHz, 80 dB en 2 y 4 kHz), con la ósea pegada a la aérea; el OI es normal.
+:::imagen figuras/salida/cap21_laberintitis_audiosupra.svg ancho=100% Audiometría de Javier: el OD tiene una pérdida sensorioneural severa y casi plana (70 dB en 1 kHz, 80 dB en 2 y 4 kHz), con la ósea pegada a la aérea; el OI es normal.
 :::
 
 En el OD el SRT es de 70 dB y la discriminación no pasa del **60 %**, a 100 dB, con ruido de habla al OI.
 
 Las supraliminares del OD son de cóclea: SISI de **90 %**, Carhart sin deterioro en 2 y 4 kHz y Metz de 17 a 20 dB.
 
-:::imagen figuras/salida/cap21_laberintitis_impedancia.svg ancho=80% Impedanciometría de Javier.
+:::imagen figuras/salida/cap21_laberintitis_impedancia.svg ancho=100% Impedanciometría de Javier.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 1,52 mL en el OD y de 0,49 mL en el OI. Los reflejos están presentes y algo más altos cuando el sonido va al OD: de 90 a 105 dB SPL ipsi y de 100 a 105 desde la sonda del OI. Cuando va al OI aparecen de 85 a 95. Decay negativo.
@@ -406,7 +403,7 @@ El nistagmo **cambia de sentido con la mirada**: 8 °/s hacia la izquierda al mi
 
 Con tres signos centrales **se detiene el examen y se avisa en el momento**. La audiometría se hace después, si el estado del paciente lo permite.
 
-:::imagen figuras/salida/cap21_pseudoneuritis_audiosupra.svg ancho=80% Audiometría de Martín: simétrica y descendente, 10 dB en los graves y 30 dB en 4 kHz, esperable a los 67 años; discriminación de 100 % en los dos oídos.
+:::imagen figuras/salida/cap21_pseudoneuritis_audiosupra.svg ancho=100% Audiometría de Martín: simétrica y descendente, 10 dB en los graves y 30 dB en 4 kHz, esperable a los 67 años; discriminación de 100 % en los dos oídos.
 :::
 
 :::docente Guía del caso
@@ -459,14 +456,14 @@ Con el skew y una paciente que no se sostiene de pie, **se avisa antes de seguir
 
 Caen los dos VEMP del OI: cVEMP de 52 contra 351 µV (**75 %**) y oVEMP de 6 contra 23 µV (**61 %**).
 
-:::imagen figuras/salida/cap21_aica_audiosupra.svg ancho=80% Audiometría de Inés: el OI tiene una pérdida sensorioneural moderada (50 dB en 500 Hz, 60 dB en 4 kHz); el OD es normal.
+:::imagen figuras/salida/cap21_aica_audiosupra.svg ancho=100% Audiometría de Inés: el OI tiene una pérdida sensorioneural moderada (50 dB en 500 Hz, 60 dB en 4 kHz); el OD es normal.
 :::
 
 En el OI el SRT es de 50 dB y la discriminación llega solo al **60 %**, a 80 dB; a 100 dB baja a 37 %: **roll-over** de 0,38 (→ cap. 11).
 
 El OI tiene de las dos cosas. SISI de **90 %** y Fowler con **reclutamiento completo** en 250 Hz y 2 kHz, que son de cóclea; pero también **Carhart con deterioro de 30 dB** en 2 y 4 kHz y **reflejos ausentes**, que son del nervio. Con el roll-over, la lesión toca la cóclea y el nervio: la AICA irriga los dos.
 
-:::imagen figuras/salida/cap21_aica_impedancia.svg ancho=80% Impedanciometría de Inés.
+:::imagen figuras/salida/cap21_aica_impedancia.svg ancho=100% Impedanciometría de Inés.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 1,55 mL en el OD y de 1,00 mL en el OI. Cuando el sonido va al OI no hay reflejo, ni ipsi ni contra. Cuando va al OD aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.

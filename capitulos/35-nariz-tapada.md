@@ -69,13 +69,12 @@ El tabique se desvía de la línea media y estrecha una fosa. Se describen dos o
 
 Lo que la distingue en los exámenes es que **no depende de la mucosa**:
 
-- **Rinoscopía**: se ve el tabique desviado, a veces con un espolón, y el estrechamiento del lado afectado.
+- **Rinoscopía**: se ve el tabique desviado, a veces con un espolón, y el estrechamiento del lado afectado; la tomografía lo muestra igual ({{fig tc-tabique}}).
 - **Rinomanometría**: curva baja de un solo lado; la resistencia inspiratoria y la espiratoria son parecidas; después del vasoconstrictor casi no cambia (obstrucción **mecánica**, → H26).
 - **Rinometría acústica**: el primer mínimo (MCA1) es más chico en ese lado, a la distancia a la que está el obstáculo (→ H27).
 
-:::imagen ilustraciones/cap35-tc-tabique.jpg ancho=46% Tomografía coronal de los senos paranasales de otra persona (no es el paciente de este capítulo): se ve el tabique desviado, los cornetes inferiores aumentados de tamaño, una concha bullosa y una duplicación del cornete inferior izquierdo, una variante rara. El tabique es hueso y cartílago: un vasoconstrictor no lo mueve. La tomografía la pide y la informa el médico; aquí sirve para ver lo que las curvas miden. Imagen: Simsim R y cols. (2026), J Surg Case Rep, doi:10.1093/jscr/rjag689, CC BY 4.0.
+:::imagen ilustraciones/cap35-tc-tabique.jpg ancho=46% id=tc-tabique Tomografía coronal de los senos paranasales: el tabique desviado, los cornetes inferiores aumentados de tamaño, una concha bullosa y una duplicación del cornete inferior izquierdo, una variante rara. El tabique es hueso y cartílago: un vasoconstrictor no lo mueve. Imagen: Simsim R y cols. (2026), J Surg Case Rep, doi:10.1093/jscr/rjag689, CC BY 4.0.
 :::
-
 :::sabias ¿Sabías que?
 La resistencia total engaña. Con una fosa en 0,53 y la otra en 0,33 Pa/(cm³/s), la total da **0,20**: más baja que la mejor de las dos, porque son dos caminos en paralelo (→ H26). Un paciente con una fosa obstruida de un solo lado puede tener una resistencia total que parece buena. Por eso el informe da cada fosa por separado.
 :::
@@ -90,15 +89,14 @@ Los signos que el consenso acepta son: el colapso visible de la pared o del ala 
 La maniobra de Cottle es una **señal**, no una prueba definitiva: en 106 voluntarios, la versión modificada mejoró la respiración incluso en quienes no tenían insuficiencia de pared lateral (falsos positivos); una variante que solo sostiene pasivamente la pared lateral mejoró únicamente a los que sí la tenían (Pak y cols., 2025). El examen físico se interpreta junto al relato, no solo.
 :::
 
-¿Y los equipos? Ni la rinometría acústica ni la rinomanometría son, hoy, un estándar para este diagnóstico (Rhee y cols., 2010). La rinometría en apnea no ve una pared que solo cede con flujo. La rinomanometría puede mostrar el comportamiento distinto de las dos fases: en una serie de 55 pacientes, la diferencia entre el flujo inspiratorio y el espiratorio fue mayor en los que tenían colapso de válvula, y con un punto de corte el examen tuvo una sensibilidad del 82 % y una especificidad del 59 %; se hizo con rinomanometría posterior, no con la anterior que usa este libro (Maalouf y cols., 2016). Es una pista, no un diagnóstico. La tomografía tampoco lo resuelve: mira la válvula quieta.
+¿Y los equipos? Ni la rinometría acústica ni la rinomanometría son, hoy, un estándar para este diagnóstico (Rhee y cols., 2010). La rinometría en apnea no ve una pared que solo cede con flujo. La rinomanometría puede mostrar el comportamiento distinto de las dos fases: en una serie de 55 pacientes, la diferencia entre el flujo inspiratorio y el espiratorio fue mayor en los que tenían colapso de válvula, y con un punto de corte el examen tuvo una sensibilidad del 82 % y una especificidad del 59 %; se hizo con rinomanometría posterior, no con la anterior que usa este libro (Maalouf y cols., 2016). Es una pista, no un diagnóstico. La tomografía tampoco lo resuelve: mira la válvula quieta ({{fig tc-valvula}}).
 
-:::imagen ilustraciones/cap35-tc-valvula.jpg ancho=90% La válvula nasal interna en tomografía, en un corte coronal reformateado perpendicular al eje del flujo, justo delante de la cabeza del cornete inferior. Es otra persona, no un paciente de este capítulo, operada por obstrucción nasal (rinoplastía); los dos cortes son de antes de la cirugía. A: el ángulo entre el tabique y el cartílago lateral superior (los autores dan 10 a 15° en personas sin síntomas). C: el área de aire de cada lado, contorneada. Compara los lados: el derecho tiene el ángulo más cerrado y menos área. Pero es una válvula quieta: en 20 pacientes operados, el NOSE bajó de 67,5 a 39,0 en promedio, y ni el ángulo ni el área medidos así cambiaron de forma significativa. Imagen: Shafik AG y cols. (2020), Braz J Otorhinolaryngol, doi:10.1016/j.bjorl.2019.08.009, CC BY 4.0, adaptada.
+:::imagen ilustraciones/cap35-tc-valvula.jpg ancho=90% id=tc-valvula La válvula nasal interna en tomografía, en un corte coronal reformateado perpendicular al eje del flujo, justo delante de la cabeza del cornete inferior, de una persona con obstrucción nasal antes de operarse. A: el ángulo entre el tabique y el cartílago lateral superior (los autores dan 10 a 15° en personas sin síntomas). C: el área de aire de cada lado, contorneada. El derecho tiene el ángulo más cerrado y menos área. Pero es una válvula quieta: en 20 pacientes operados, el NOSE bajó de 67,5 a 39,0 en promedio, y ni el ángulo ni el área medidos así cambiaron de forma significativa. Imagen: Shafik AG y cols. (2020), Braz J Otorhinolaryngol, doi:10.1016/j.bjorl.2019.08.009, CC BY 4.0, adaptada.
 - @15,56 | **Ángulo derecho: 6,0°** (izquierda de la imagen), entre el tabique y el cartílago lateral superior.
 - @35,56 | **Ángulo izquierdo: 10,7°**.
 - @63,76 | **Área derecha: 115,3 mm²**.
 - @85,76 | **Área izquierda: 159,4 mm²**.
 :::
-
 ### Cuando lo que se siente y lo que se mide no coinciden
 
 La correlación entre lo que el paciente siente y lo que miden la rinomanometría y la rinometría **sigue sin estar clara**. Una revisión de 16 estudios encontró casi todas las combinaciones posibles de correlación y ausencia de ella; fue más probable que hubiera correlación cuando había síntomas y cuando cada fosa se evaluaba por separado (André y cols., 2009). Una revisión posterior concluyó que la obstrucción nasal es un **diagnóstico clínico**, que el NOSE es la escala mejor validada, y que ninguna medida objetiva disponible es un patrón de referencia: las medidas de flujo, presión y volumen son necesarias pero insuficientes (Mohan y cols., 2018).
@@ -331,7 +329,7 @@ Mónica sentada y tranquila respira "normal", y su espiración (0,36) está dent
 :::
 
 :::comentario Lo que dicen las normas
-La rinomanometría **no es** un examen aceptado para diagnosticar el colapso de la válvula: el consenso clínico dice que lo mejor son la historia y el examen físico, y que no hay un estándar objetivo (Rhee y cols., 2010). Lo que muestra este caso es el comportamiento de las dos fases en una nariz simulada; la serie de Maalouf y cols. (2016) usó rinomanometría posterior y obtuvo una sensibilidad de 82 % y una especificidad de 59 %. Aquí la inspiración forzada se usa para ver con claridad la física del colapso; <!-- verificar: si la inspiración forzada se usa en la rinomanometría anterior de la práctica clínica, o solo se compara la fase inspiratoria con la espiratoria como en Maalouf y cols. (2016). --> en la práctica, la diferencia entre fases a presiones de trabajo y la exploración física pesan más.
+La rinomanometría **no es** un examen aceptado para diagnosticar el colapso de la válvula: el consenso clínico dice que lo mejor son la historia y el examen físico, y que no hay un estándar objetivo (Rhee y cols., 2010). Lo que muestra este caso es el comportamiento de las dos fases en una nariz simulada; la serie de Maalouf y cols. (2016) usó rinomanometría posterior y obtuvo una sensibilidad de 82 % y una especificidad de 59 %. Aquí se compara la fase inspiratoria con la espiratoria, como en esa serie, y la inspiración forzada se usa para ver con claridad la física del colapso; en la práctica, la diferencia entre fases a presiones de trabajo y la exploración física pesan más.
 :::
 
 ### Caso 35.3

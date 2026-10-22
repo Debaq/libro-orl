@@ -1,43 +1,27 @@
-# Pendientes urgentes antes de publicar (2026-10-17)
+# Pendientes urgentes (actualizada el 2026-10-21)
 
-El texto de todos los capítulos del índice está escrito como primer borrador (tandas 1-12, ver ESTADO.md). Esto es lo que falta para que el libro esté listo, de más a menos importante.
+Lo que falta para que el libro esté listo. Se trabaja en el tomo II; el tomo I no se toca por ahora ("aún no decido nada").
 
-1. **281 `<!-- verificar -->`** en los capítulos: citas sin texto completo leído, cifras de fuentes secundarias, normas sin DOI. Resolver uno por uno.
-2. **169 incongruencias con el protocolo** (`incongruencias_protocolo.md`) para decidir con el equipo. 16 son "P · revertir": hoy el texto sigue a la literatura y no al protocolo, contra la regla del autor, hasta que se decidan.
+## Tomo II (caps. 1 a 36)
+
+1. ~~**44 `<!-- verificar -->`**~~ **Resuelto el 2026-10-21**: quedan 0 en los capítulos 1 a 36 (informes en `investigacion/verificar_2026-10-21/`). Decidido por él: Farahmand 2016 no mueve el 50-60 dB del cap. 3; fórmula chilena en el cap. 34 (su clase del D.S. 109); donde LabSim no documenta su dato y la referencia es más fuerte, gana la referencia y LabSim recibe aviso (`LabSim/docs/limites_desde_el_libro.md`: fila del recién nacido). La atenuación del inserto (65 dB en LabSim) queda respaldada por el Katz 7.ª ed. (Yacullo, cap. 6; Hood, cap. 14), en `~/Escritorio/Libros/Auditivo/`; a H10 (tomo I) solo le falta esa cita en vez del `verificar`.
+2. **58 incongruencias con el protocolo** en los capítulos 1 a 36 (`incongruencias_protocolo.md`; en todo el libro son 195), para decidir con el equipo; una es "P · revertir".
+3. ~~**Decisiones del autor** que tocan el tomo II~~ **Resueltas el 2026-10-21**: fórmula chilena en el cap. 34 (su clase del D.S. 109; la AMA sigue citada a través del ECAB) y "patrón de neuropatía auditiva" como ampliación del protocolo, que se limita a lo auditivo (cap. 13, Katz: Hood 2015 y Musiek 2015).
+4. **Casos de nariz: los más pobres del libro (dicho por él, 2026-10-20).** No hay espirometría ni SAOS (polisomnografía o poligrafía), y faltan muchos casos. Hay que completar la parte de nariz con casos que usen esas pruebas (H30-H32). **Decidido 2026-10-21:** dos casos de cada prueba en dos capítulos nuevos de la Parte XII: cap. 37 "Nariz y pulmón" (espirometría: rinitis alérgica con asma, estenosis de vía aérea alta) y cap. 38 "El que ronca" (poligrafía: roncador simple y SAOS moderado con obstrucción nasal; polisomnografía: SAOS grave y un caso donde la poligrafía no alcanza). Espirometría según el manual SER Chile 2024 (Schönffeldt y cols., Rev Chil Enferm Respir 2024;40:93-109): H30 se actualiza entero a ese manual.
+5. **Otoscopía de tres casos con efusión, sin decidir (2026-10-21: "ese es otro problema, luego").** Todos los pacientes de los caps. 1 a 34 llevan otoscopía (foto y descripción, `otoscopias/CREDITOS-casos.md` y `otoscopias/DESCRIPCIONES.md`), salvo estos tres, cuyo texto no dice qué se ve: cap16_efusion (20 días, OD refiere, timpanograma plano), cap17_efusion_neonatal (4 meses, bilateral) y cap30_nino_otitis (7 años, "tímpanos opacos" hace 60 días, curva C bilateral). Falta decidir la descripción y si llevan foto de efusión del banco. Además, los autores revisan el lado de cada foto en `investigacion/otoscopias_revision/` (columna "Reflejada" + `herramientas/armar_otoscopias.py`).
+
+## Tomo I (caps. B y H y anexos), en espera
+
+-1. **Estilo del tomo II en el tomo I (2026-10-22):** activado por defecto (letra, texto corrido, leyendas, créditos al final, paginador). H3 convertido (casos con hoja auditiva y prosa en vez de globos; respaldo `investigacion/prueba_paginas/*.antes`). Los créditos de las imágenes del tomo I van al índice del final del tomo II (`armado_incremental.py`, `_solo_creditos`; suma ~1 min al armado del II); el tomo I no lleva índice propio. **Habrá un solo índice de créditos; dónde queda se decide después (él, 2026-10-22).** Los pies de las imágenes del tomo I ya declaran su crédito ("Imagen propia del libro.", "Imagen propia: captura de LabSim.", o "Imagen: ilustración generada con inteligencia artificial."); falta ponerlo a las 4 que aún no existen. Faltan las figuras de los casos del resto de las H (hoja auditiva, impedanciometría, motor al 80 %), regenerarlas compactas con LabSim y rearmar `libro-tomo-I.pdf` (el último, 22-oct 00:57, es de antes del estilo). Los 90 `verificar` que quedan: informes en `investigacion/verificar_tomo1_2026-10-22/`.
+
+0. **H10 a medio camino (2026-10-22, se paró por pedido del autor: "no estamos trabajando en tomo 1").** Tiene los pacientes nuevos (bebé de 12 semanas, mujer de 28, hombre de 76) y el formato "Del trazo al informe" con informes completos, pero sus figuras se rehicieron con réplicas y con la regla del nivel bajo el umbral: el click del bebé quedó solo a 80 dB (sus globos de 20 dB y la fila del umbral con click del informe ya no calzan) y hay que releer globos y tablas de los tres informes contra las figuras nuevas. Respaldo en investigacion/del_trazo_al_informe/.
+
+1. **236 `<!-- verificar -->`** en los capítulos B y H (280 en todo el libro, 2026-10-21): citas sin texto completo leído, cifras de fuentes secundarias, normas sin DOI. Resolver uno por uno.
+2. **137 incongruencias con el protocolo** en los capítulos B y H (`incongruencias_protocolo.md`) para decidir con el equipo. 16 son "P · revertir": hoy el texto sigue a la literatura y no al protocolo, contra la regla del autor, hasta que se decidan.
 3. **Capítulos sin escribir:** B2 fisiología (la colega) y B3 histología (fuera por ahora). Varios capítulos ya remiten a B2 y B3.
-4. **Apéndices A-E** del índice sin hacer: tablas normativas del ABR y la ECochG (los caps. 9, 11, 12, 14 y 17 remiten al A), clasificaciones, tasas de tamizaje, glosario, créditos de imágenes.
-5. **Ilustraciones que no existen** (salen como recuadro con la descripción): `cap06-electromotilidad`, `04-formas-reflejo`, `cap10-potasio`, `h04-grafico-meseta`, `h03-alta-frecuencia`, `h09-sonda`, `h08-sala-vra`. H12 ya tiene las vías del VEMP (captura de labyrinthus3d). Revisar si labyrinthus3d o los otros simuladores también sirven para `cap09-hidrops` y `cap10-potasio`. Las ilustraciones de Gemini del 2026-10-15 que el autor dio por "llenas de errores" siguen en el libro. Imagenología (TC/RM/Rx): 29 imágenes insertadas el 2026-10-17 (tandas A y B, ver ESTADO.md).
-6. **Decisiones del autor** ("Para él" en ESTADO.md): fórmulas médico-legales del cap. 34 (AMA y SUSESO sin fuente primaria leída), formato del informe con "patrón de neuropatía", LDL en H3, restricciones después de la maniobra en H19, publicar RinoSim y su dirección, fotos propias de los equipos nasales.
-7. ~~Rostros sin el signo clínico~~: rehechos con el modelo Pro el 2026-10-17 (`rostros/REHACER.md`); dos narices desviadas quedan sutiles.
-8. ~~**Maquetación:** huecos al pie~~: pasada hecha el 2026-10-19 (ESTADO.md, Armador); quedan ~35 págs. en blanco repartidas en el tomo I y ~22 en el II, casi todas figuras grandes seguidas de figuras.
-9. **Pendientes anteriores al loop:** pasada de "fundamento fisiológico" en H1, H2, H4, H5, H7, H8, H9 y H10; índice de Hood para citarlo en los capítulos de ABR; práctica offline de los pacientes del libro.
-10. **Casos vestibulares: rehacerlos, hoy casi no sirven (dicho por él, 2026-10-20).** Lo que tiene un examen vestibular:
-    - equilibrio estático y dinámico;
-    - pares craneales;
-    - pruebas cerebelosas;
-    - nistagmo espontáneo y provocado, con maniobras de provocación, y su gráfico: el "de mariposa", con la dirección preponderante, y la fijación ocular (OFI);
-    - prueba calórica, vHIT y VEMP;
-    - audiometría, con pruebas supraliminares en los casos que corresponda.
-
-    Lo que **no** va:
-    - **emisiones otoacústicas**, salvo el caso raro en que objetivamente se necesiten (ejemplo de lo que sobra: el caso 23.3, migraña vestibular);
-    - **ECochG**, salvo en el Ménière y en la dehiscencia.
-
-    Se rehacen las baterías de todos los casos vestibulares (caps. 20 a 27, 31 y 32) con este esquema y se sacan las pruebas que sobran.
-11. **Figura 24.1 (`ilustraciones/cap24-vhit-bilateral.svg`, vHIT bilateral hecho con trainHIT): rehacerla (anotado por él, 2026-10-20).** "Está terrible, cuadrada": hacerla con más detalle, con uno de los generadores mejores que ya tenemos.
-12. **Casos de nariz: los más pobres del libro (dicho por él, 2026-10-20).** No hay espirometría ni SAOS (polisomnografía o poligrafía), y faltan muchos casos. Hay que completar la parte de nariz con casos que usen esas pruebas (H30-H32).
-13. **Logoaudiometría: sacar el gráfico (dicho por él, 2026-10-20).** No sirve, y menos en los casos vestibulares. En casi todos los casos lo que interesa son tres datos:
-    - **SDT**: intensidad a la que se logró;
-    - **SRT**: intensidad a la que se logró;
-    - **UMD**: intensidad, porcentaje y masking si corresponde, con solo los tres mejores intentos.
-
-    Hay que cambiar la figura por esos datos en todos los casos.
-
-14. **Figura 22.2 (`ilustraciones/cap22-trazas-posterior.svg`, trazas esquemáticas del Dix-Hallpike de Luisa): "ni idea qué es" (dicho por él, 2026-10-20).** No se entiende qué muestra: rehacerla para que se lea sola.
-
-15. **Figuras 22.5 y demás "trazas esquemáticas" del cap. 22 (`ilustraciones/cap22-trazas-*.svg`): no se entiende qué examen las da (dicho por él, 2026-10-20).** Van junto al punto 14.
-16. ~~Figura 23.1~~: se queda donde está (él, 2026-10-20: "déjala, no veo problema").
-17. **Supraliminares en todas las audiometrías que corresponda (dicho por él, 2026-10-20): deterioro tonal y reclutamiento.** Tienen que ser realistas, con sus datos, no un resumen. LabSim ya trae en cada caso SISI, Fowler (patrón por frecuencia), Carhart y Rosemberg (500 a 4.000 Hz) y los reflejos (Metz).
-18. **Nistagmo: el espontáneo va siempre (dicho por él, 2026-10-20).** Hexágonos con (−) en las miradas sin nistagmo, nunca en blanco; tabla posicional partida en dos, lado a lado (decúbitos y cabeza colgando). Calórica y vHIT, lado a lado. Hecho el 2026-10-20 en los 36 casos vestibulares.
+4. **Apéndices A-E** del índice sin hacer (van en el tomo I, por volumen; 2026-10-21). Los caps. 9, 11, 12, 14 y 17 del tomo II remiten al A: tablas normativas del ABR y la ECochG (los caps. 9, 11, 12, 14 y 17 remiten al A), clasificaciones, tasas de tamizaje, glosario, créditos de imágenes.
+5. **Ilustraciones que no existen** (salen como recuadro con la descripción): quedan las del tomo I, `h04-grafico-meseta`, `h03-alta-frecuencia`, `h09-sonda` y `h08-sala-vra` (al 2026-10-21 ya existen `cap06-electromotilidad`, `04-formas-reflejo` y `cap10-potasio`). H12 ya tiene las vías del VEMP (captura de labyrinthus3d). Revisar si labyrinthus3d o los otros simuladores también sirven para `cap09-hidrops` y `cap10-potasio`. Las ilustraciones de Gemini del 2026-10-15 que el autor dio por "llenas de errores" siguen en el libro. Imagenología (TC/RM/Rx): 29 imágenes insertadas el 2026-10-17 (tandas A y B, ver ESTADO.md).
+6. **Decisiones del autor** del tomo I: LDL en H3, restricciones después de la maniobra en H19, publicar RinoSim y su dirección, fotos propias de los equipos nasales.
+7. **Pendientes anteriores al loop:** pasada de "fundamento fisiológico" en H1, H2, H4, H5, H7, H8, H9 y H10; índice de Hood para citarlo en los capítulos de ABR; práctica offline de los pacientes del libro.
 
 Además: la revisión de fondo del texto como material docente (clínica correcta, tono del autor) todavía no la hace nadie del equipo.
