@@ -57,7 +57,7 @@ CASOS = [
                            {**fig.abr(niveles=(100, 90), promediaciones=4000, marcar=('V',)), 'oidos': ['OD']},    # sin enmascarar: la V que cruza del OI
                            fig.abr(niveles=(100, 80, 60, 40, 20, 10, 0), enmascaramiento=55)],  # con el OI enmascarado
            od='parotiditis', oi='normal', grado_od='profunda', edad=22, sexo='hombre',
-           anamnesis="""Tiene 22 años y estudia ingeniería. A los 6 años tuvo paperas, con fiebre y la cara hinchada de un lado, y
+           anamnesis="""Tiene 22 años y estudia pedagogía en historia. A los 6 años tuvo paperas, con fiebre y la cara hinchada de un lado, y
            desde entonces no oye por el oído derecho: dice que "se acostumbró" y que de niño nadie le revisó el oído.
            Consulta porque en las salas grandes le cuesta seguir al profesor cuando le habla desde el lado derecho y no
            sabe de dónde vienen los sonidos. Con el oído izquierdo conversa y usa el teléfono sin problema. No tiene pitido

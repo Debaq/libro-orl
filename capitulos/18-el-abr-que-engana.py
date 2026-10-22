@@ -45,10 +45,13 @@ CASOS = [
            historia=[(30, 'Control con su médico general: hipoacusia bilateral lentamente progresiva; se pide audiometría.')]),
     cuadro('cofosis', [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(100, 80))],
            od='parotiditis', grado_od='profunda', edad=22, sexo='hombre',
-           anamnesis="""Tiene 22 años y estudia ingeniería. A los 6 años tuvo paperas y desde entonces no oye por el oído
-           derecho; nunca le habían hecho estudios. Habla por teléfono con el izquierdo y no sabe de dónde viene un
-           sonido. No tiene pitido, mareos, dolor ni secreción. Del oído izquierdo no tiene ninguna queja.""",
-           historia=[(5800, 'Parotiditis a los 6 años; desde entonces, sin audición en el oído derecho. Sin estudios.')]),
+           anamnesis="""Tiene 22 años y trabaja de garzón en un restaurante del centro. No oye por el oído derecho desde
+           que tiene memoria: se lo encontraron en el control de salud del colegio, a los 7 años, y a su mamá le dijeron
+           que era "de nacimiento" y que no había nada que hacer. Nunca le hicieron otro estudio. En el restaurante se
+           acomoda para que los clientes le hablen por la izquierda, y con el local lleno no sabe de dónde lo llaman.
+           No tiene pitido, mareos, dolor ni secreción. Del oído izquierdo no tiene ninguna queja.""",
+           historia=[(5475, 'Control de salud escolar: no oye por el oído derecho; se informa como sordera de nacimiento. Sin estudios.'),
+                     (20, 'Médico general: sordera derecha de larga data; pide audiometría y ABR.')]),
     cuadro('configuracion', [fig.audiosupra(), fig.impedancia(), fig.abr(niveles=(80, 50, 30, 20, 10, 0))],
            od='normal', oi='meniere', grado_oi='leve', edad=46, sexo='mujer',
            anamnesis="""Tiene 46 años y es profesora de básica. Desde hace unos ocho meses tiene crisis de vértigo

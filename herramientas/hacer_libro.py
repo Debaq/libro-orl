@@ -735,9 +735,9 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
             f'<img src="{archivo.as_uri()}">{"".join(globos)}</div></div><figcaption>{ia}Figura {numero}. {html.escape(titulo)}{leyenda}</figcaption></figure>{lista}</div>')
 
 
-# Capítulos vestibulares y nasales: sus casos llevan el sello de LabSim solo si
+# Capítulos vestibulares, nasales y de pulmón y sueño (37, 38): sus casos llevan el sello de LabSim solo si
 # tienen VEMP, que es lo único de ellos que se hace en el simulador
-CAPS_SIN_LABSIM = {'21', '22', '23', '24', '25', '26', '27', '31', '32', '35', '36'}
+CAPS_SIN_LABSIM = {'21', '22', '23', '24', '25', '26', '27', '31', '32', '35', '36', '37', '38'}
 
 
 def capitulo(md_texto):

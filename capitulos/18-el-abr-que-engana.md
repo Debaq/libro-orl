@@ -254,7 +254,7 @@ Sin cambiar de paciente, ¿qué mirarías al bajar la intensidad para saber si e
 {{caso cap18_cofosis}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Un estudiante de 22 años que perdió casi toda la audición del oído derecho a los 6 años, tras unas paperas. Nunca le habían hecho estudios. Un ABR del oído derecho, hecho con fonos de inserción, informa: "V presente a 5,6 ms entre 70 y 40 dB nHL; **umbral de 40 dB**, audición residual". ¿Con qué dato de su historia choca?
+Un garzón de 22 años que no oye por el oído derecho desde que tiene memoria: se lo encontraron en el control de salud del colegio y nunca le hicieron otro estudio. Un ABR del oído derecho, hecho con fonos de inserción, informa: "V presente a 5,6 ms entre 70 y 40 dB nHL; **umbral de 40 dB**, audición residual". ¿Con qué dato de su historia choca?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
@@ -272,7 +272,7 @@ Mira solo la latencia de esa onda en cuatro niveles seguidos. ¿Qué esperarías
 
 El oído derecho tiene de 90 a 100 dB HL en todas las frecuencias, con el OI enmascarado; SDT de 90 dB y SRT de 95, y solo discrimina 36 % a 110 dB: es una **pérdida profunda**, casi una cofosis, y coincide con lo que cuenta el paciente. El OI tiene SDT de −5 dB, SRT de 0 dB y discrimina 100 % a 30 dB.
 
-:::imagen figuras/salida/cap18_cofosis_impedancia.svg ancho=100% Impedanciometría del estudiante.
+:::imagen figuras/salida/cap18_cofosis_impedancia.svg ancho=100% Impedanciometría del garzón.
 :::
 
 Timpanograma A en los dos oídos, con compliancia de 0,54 mL en el OD y de 1,51 mL en el OI. Cuando el sonido va al OD no hay reflejo, ni ipsi ni contra, porque ese oído no lo recibe. Cuando va al OI aparece en los dos oídos, de 85 a 95 dB SPL, y el decay es negativo.
@@ -290,7 +290,7 @@ Timpanograma A en los dos oídos, con compliancia de 0,54 mL en el OD y de 1,51 
 :::
 
 :::docente Guía del caso
-- **Datos clave:** pérdida profunda del OD desde los 6 años (paperas), audición normal en el OI, ninguna prueba previa.
+- **Datos clave:** pérdida profunda del OD desde la infancia, de causa nunca estudiada (detectada en el control escolar), audición normal en el OI, ninguna prueba previa.
 - **Dos trampas distintas:** a nivel **alto** (100 dB) lo que aparece en el oído sordo es la **curva sombra**, una respuesta real del oído sano; a nivel **bajo** (70 a 40 dB) lo que aparece es una **falsa onda V**, un artefacto que quedó en una parte de los barridos y no se mueve con la intensidad.
 - **Qué pedir:** enmascarar el oído sano; mirar las dos mitades del promedio; comparar latencias entre niveles; contrastar con el audiograma y la historia.
 - **Errores esperables:** concluir audición residual por una sola onda bonita; no preguntar qué dicen las otras pruebas.
@@ -491,7 +491,7 @@ Pérdida profunda derecha. El ABR del oído derecho no muestra respuesta propia 
 Informe del registro bien hecho:
 
 :::comentario-ancho Informe de Sergio, 22 años (caso 18.4)
-**Motivo**: pérdida de audición derecha desde los 6 años, tras paperas. Sin estudios previos.
+**Motivo**: pérdida de audición derecha desde la infancia, detectada en el control de salud escolar. Sin estudios previos.
 
 **Registro**: click a 100 y 80 dB nHL en el OI, y a 100 dB nHL en el OD con ruido de enmascaramiento en el OI. Polaridad alternada, 21,1 estímulos/s, filtros de 100 a 3.000 Hz, ventana de 12 ms, fonos de inserción, montaje Cz-mastoides con impedancias bajo 5 kΩ. En reposo.
 
