@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Referencias del libro ORL</title>
+<meta name="description" content="Referencias bibliográficas y créditos de las imágenes de Evaluación y rehabilitación en otorrinolaringología, con buscador y botón de copiar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --fondo: #faf8f7; --papel: #ffffff; --tinta: #1d1d1f; --tenue: #6e6e73; --linea: #e6e1df;
+  --vino: #6f5a63; --vino-suave: #f1ebee; --acento: #8a3b55; --ok: #2e7d4f;
+  --sombra: 0 1px 2px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fondo: #17141a; --papel: #211d24; --tinta: #ece8ee; --tenue: #a39ba8; --linea: #3a333f;
+    --vino: #c8a9b6; --vino-suave: #2e2730; --acento: #e39ab3; --ok: #7fd1a1; --sombra: none;
+  }
+}
+:root[data-theme="dark"] {
+  --fondo: #17141a; --papel: #211d24; --tinta: #ece8ee; --tenue: #a39ba8; --linea: #3a333f;
+  --vino: #c8a9b6; --vino-suave: #2e2730; --acento: #e39ab3; --ok: #7fd1a1; --sombra: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--tinta);
+  font: 15px/1.55 'Plus Jakarta Sans', system-ui, sans-serif; }
+.envoltura { max-width: 980px; margin: 0 auto; padding: 0 16px 64px; }
+header { padding: 36px 0 18px; }
+header .libro { color: var(--vino); font-weight: 600; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; margin: 0 0 6px; }
+header h1 { margin: 0; font-size: clamp(24px, 4vw, 32px); line-height: 1.2; }
+header p { margin: 8px 0 0; color: var(--tenue); max-width: 680px; }
+.pestanas { display: flex; gap: 6px; border-bottom: 1px solid var(--linea); margin: 18px 0 16px; }
+.pestanas button { appearance: none; border: 0; background: none; color: var(--tenue); font: inherit; font-weight: 600;
+  padding: 10px 14px; border-bottom: 2px solid transparent; cursor: pointer; margin-bottom: -1px; }
+.pestanas button[aria-selected="true"] { color: var(--vino); border-bottom-color: var(--vino); }
+.pestanas .n { font-weight: 500; color: var(--tenue); font-size: 13px; margin-left: 4px; }
+.controles { position: sticky; top: 0; z-index: 2; background: var(--fondo); padding: 10px 0 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; }
+.controles input { flex: 1 1 320px; }
+.controles select { flex: 0 1 300px; max-width: 100%; }
+.controles input, .controles select { font: inherit; color: var(--tinta); background: var(--papel);
+  border: 1px solid var(--linea); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+.controles input:focus, .controles select:focus { outline: 2px solid var(--vino); outline-offset: -1px; }
+.barra { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--tenue); font-size: 13px; margin: 2px 0 12px; }
+.lista { display: grid; gap: 10px; }
+.item { background: var(--papel); border: 1px solid var(--linea); border-radius: 12px; padding: 14px 16px; box-shadow: var(--sombra); }
+.item .texto { margin: 0; overflow-wrap: anywhere; }
+.item .fig { margin: 0 0 4px; font-weight: 600; }
+.item .titulo-fig { margin: 0 0 6px; color: var(--tenue); font-size: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 10px; }
+.chip { font-size: 12px; border-radius: 999px; padding: 2px 9px; background: var(--vino-suave); color: var(--vino);
+  border: 0; font-family: inherit; cursor: pointer; white-space: nowrap; }
+.chip.sec { background: transparent; border: 1px solid var(--linea); color: var(--tenue); cursor: default; }
+.chip.tipo-terceros { background: transparent; border: 1px solid var(--acento); color: var(--acento); cursor: default; }
+.chip.tipo-propia, .chip.tipo-ia { background: transparent; border: 1px solid var(--linea); color: var(--tenue); cursor: default; }
+.acciones { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+.boton { font: inherit; font-size: 13px; font-weight: 600; border-radius: 8px; padding: 5px 11px; cursor: pointer;
+  border: 1px solid var(--linea); background: var(--papel); color: var(--tinta); text-decoration: none; white-space: nowrap; }
+.boton:hover { border-color: var(--vino); color: var(--vino); }
+.boton.copiar { background: var(--vino); border-color: var(--vino); color: #fff; }
+:root[data-theme="dark"] .boton.copiar { color: #17141a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .boton.copiar { color: #17141a; } }
+.boton.copiar.hecho { background: var(--ok); border-color: var(--ok); }
+.mas { display: block; margin: 16px auto 0; }
+.vacio { text-align: center; color: var(--tenue); padding: 40px 0; }
+mark { background: color-mix(in srgb, var(--acento) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+footer { color: var(--tenue); font-size: 13px; margin-top: 36px; border-top: 1px solid var(--linea); padding-top: 14px; }
+@media (max-width: 640px) {
+  .controles select { flex: 1 1 100%; }
+  .acciones { margin-left: 0; width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="envoltura">
+  <header>
+    <p class="libro">Evaluación y rehabilitación en otorrinolaringología</p>
+    <h1>Referencias e imágenes del libro</h1>
+    <p>Todas las referencias de los dos tomos y la fuente de cada imagen. Busca por autor, título, año, revista o DOI, filtra por capítulo y copia la cita tal como va en el libro.</p>
+  </header>
+
+  <nav class="pestanas" role="tablist">
+    <button role="tab" id="tab-refs" aria-selected="true">Referencias<span class="n" id="n-refs"></span></button>
+    <button role="tab" id="tab-imgs" aria-selected="false">Imágenes<span class="n" id="n-imgs"></span></button>
+  </nav>
+
+  <div class="controles">
+    <input id="q" type="search" placeholder="Buscar: autor, título, año, revista, DOI…" autocomplete="off" aria-label="Buscar">
+    <select id="cap" aria-label="Capítulo"></select>
+    <select id="tipo" aria-label="Tipo de imagen" hidden>
+      <option value="">Todas las imágenes</option>
+      <option value="terceros">De otros autores</option>
+      <option value="propia">Propias del libro</option>
+      <option value="ia">Hechas con IA</option>
+    </select>
+  </div>
+  <div class="barra">
+    <span id="cuenta"></span>
+    <button class="boton" id="copiar-todas">Copiar las visibles</button>
+  </div>
+  <div class="lista" id="lista"></div>
+  <button class="boton mas" id="mas" hidden>Mostrar más</button>
+
+  <footer>
+    Las referencias van en formato Vancouver, como en el libro. Las imágenes de otros autores se usan con la licencia que indica su crédito.
+  </footer>
+</div>
+
+<script src="datos.js"></script>
+<script>
+(function () {
+  var D = window.LIBRO || { caps: [], refs: [], imgs: [] };
+  var PASO = 150;
+  var estado = { vista: 'refs', q: '', cap: '', tipo: '', mostrar: PASO };
+  var titulos = {};
+  D.caps.forEach(function (c) { titulos[c.c] = c.t; });
+
+  var $ = function (id) { return document.getElementById(id); };
+  var sinTildes = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); };
+  D.refs.forEach(function (r) { r._b = sinTildes(r.t + ' ' + r.s.join(' ')); });
+  D.imgs.forEach(function (i) { i._b = sinTildes(i.n + ' ' + i.f + ' ' + i.t); });
+
+  var miles = function (n) { return n.toLocaleString('es-CL'); };
+  $('n-refs').textContent = miles(D.refs.length);
+  $('n-imgs').textContent = miles(D.imgs.length);
+
+  function rotulo(c) { return (/^B/.test(c) ? 'Base ' : /^H/.test(c) ? 'Herramienta ' : 'Cap. ') + c; }
+  function llenarCapitulos() {
+    var sel = $('cap'), usados = {};
+    (estado.vista === 'refs' ? D.refs : D.imgs).forEach(function (x) {
+      (x.c instanceof Array ? x.c : [x.c]).forEach(function (c) { usados[c] = (usados[c] || 0) + 1; });
+    });
+    var h = '<option value="">Todos los capítulos</option>';
+    ['I', 'II'].forEach(function (v) {
+      var ops = D.caps.filter(function (c) { return c.v === v && usados[c.c]; });
+      if (!ops.length) return;
+      h += '<optgroup label="Tomo ' + v + '">' + ops.map(function (c) {
+        return '<option value="' + c.c + '">' + c.c + '. ' + esc(c.t) + ' (' + usados[c.c] + ')</option>';
+      }).join('') + '</optgroup>';
+    });
+    sel.innerHTML = h;
+    sel.value = usados[estado.cap] ? estado.cap : '';
+    estado.cap = sel.value;
+  }
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function marcar(texto, terminos) {
+    var h = esc(texto);
+    if (!terminos.length) return h;
+    // marca sobre el texto con tildes: busca cada término ignorando tildes
+    var base = sinTildes(texto), rangos = [];
+    terminos.forEach(function (t) {
+      var i = 0;
+      while ((i = base.indexOf(t, i)) !== -1) { rangos.push([i, i + t.length]); i += t.length; }
+    });
+    if (!rangos.length) return h;
+    rangos.sort(function (a, b) { return a[0] - b[0]; });
+    var out = '', pos = 0;
+    rangos.forEach(function (r) {
+      if (r[0] < pos) return;
+      out += esc(texto.slice(pos, r[0])) + '<mark>' + esc(texto.slice(r[0], r[1])) + '</mark>';
+      pos = r[1];
+    });
+    return out + esc(texto.slice(pos));
+  }
+
+  function filtrados() {
+    var terminos = sinTildes(estado.q).split(/\s+/).filter(Boolean);
+    var lista = estado.vista === 'refs' ? D.refs : D.imgs;
+    return {
+      terminos: terminos,
+      items: lista.filter(function (x) {
+        if (estado.cap && (x.c instanceof Array ? x.c.indexOf(estado.cap) < 0 : x.c !== estado.cap)) return false;
+        if (estado.vista === 'imgs' && estado.tipo && x.k !== estado.tipo) return false;
+        for (var i = 0; i < terminos.length; i++) if (x._b.indexOf(terminos[i]) < 0) return false;
+        return true;
+      })
+    };
+  }
+
+  function enlacesDe(x) {
+    var h = '';
+    if (x.doi) h += '<a class="boton" target="_blank" rel="noopener" href="https://doi.org/' + esc(x.doi) + '">DOI</a>';
+    if (x.pmid) h += '<a class="boton" target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/' + esc(x.pmid) + '/">PubMed</a>';
+    if (!x.doi && x.url) h += '<a class="boton" target="_blank" rel="noopener" href="' + esc(x.url) + '">Enlace</a>';
+    return h;
+  }
+
+  var TIPO = { terceros: 'De otros autores', propia: 'Propia del libro', ia: 'Hecha con IA' };
+  function tarjeta(x, i, terminos) {
+    if (estado.vista === 'refs') {
+      return '<article class="item"><p class="texto">' + marcar(x.t, terminos) + '</p><div class="meta">'
+        + x.c.map(function (c) { return '<button class="chip" data-cap="' + c + '" title="' + esc(titulos[c] || '') + '">' + rotulo(c) + '</button>'; }).join('')
+        + x.s.map(function (s) { return '<span class="chip sec">' + esc(s) + '</span>'; }).join('')
+        + '<span class="acciones">' + enlacesDe(x) + '<button class="boton copiar" data-i="' + i + '">Copiar</button></span></div></article>';
+    }
+    var fig = /^Caso/.test(x.n) ? x.n : 'Figura ' + x.n;
+    return '<article class="item"><p class="fig">' + esc(fig) + '</p>'
+      + (x.f ? '<p class="titulo-fig">' + marcar(x.f, terminos) + '</p>' : '')
+      + '<p class="texto">' + marcar(x.t, terminos) + '</p><div class="meta">'
+      + '<button class="chip" data-cap="' + x.c + '" title="' + esc(titulos[x.c] || '') + '">' + rotulo(x.c) + '</button>'
+      + '<span class="chip tipo-' + x.k + '">' + TIPO[x.k] + '</span>'
+      + '<span class="acciones">' + enlacesDe(x) + '<button class="boton copiar" data-i="' + i + '">Copiar crédito</button></span></div></article>';
+  }
+
+  var visibles = [];
+  function pintar() {
+    var r = filtrados();
+    visibles = r.items;
+    var total = (estado.vista === 'refs' ? D.refs : D.imgs).length;
+    var nombre = estado.vista === 'refs' ? 'referencias' : 'imágenes';
+    $('cuenta').textContent = visibles.length === total ? miles(total) + ' ' + nombre
+      : miles(visibles.length) + ' de ' + miles(total) + ' ' + nombre;
+    var trozo = visibles.slice(0, estado.mostrar);
+    $('lista').innerHTML = trozo.length ? trozo.map(function (x, i) { return tarjeta(x, i, r.terminos); }).join('')
+      : '<p class="vacio">Nada coincide con la búsqueda.</p>';
+    $('mas').hidden = visibles.length <= estado.mostrar;
+    $('mas').textContent = 'Mostrar más (' + miles(visibles.length - estado.mostrar) + ' restantes)';
+    $('copiar-todas').hidden = !visibles.length;
+  }
+
+  function textoDe(x) {
+    if (estado.vista === 'refs') return x.t;
+    return (/^Caso/.test(x.n) ? x.n : 'Figura ' + x.n) + '. ' + x.t;
+  }
+  function copiar(texto, boton, rotuloOk) {
+    var listo = function () {
+      var antes = boton.textContent;
+      boton.textContent = rotuloOk || 'Copiada';
+      boton.classList.add('hecho');
+      setTimeout(function () { boton.textContent = antes; boton.classList.remove('hecho'); }, 1400);
+    };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(texto).then(listo, function () { respaldo(texto); listo(); });
+    } else { respaldo(texto); listo(); }
+  }
+  function respaldo(texto) {
+    var t = document.createElement('textarea');
+    t.value = texto; t.style.position = 'fixed'; t.style.opacity = '0';
+    document.body.appendChild(t); t.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(t);
+  }
+
+  function vista(v) {
+    estado.vista = v; estado.mostrar = PASO;
+    $('tab-refs').setAttribute('aria-selected', v === 'refs');
+    $('tab-imgs').setAttribute('aria-selected', v === 'imgs');
+    $('tipo').hidden = v !== 'imgs';
+    $('q').placeholder = v === 'refs' ? 'Buscar: autor, título, año, revista, DOI…' : 'Buscar: figura, autor, revista, licencia…';
+    llenarCapitulos();
+    pintar();
+    if (history.replaceState) history.replaceState(null, '', v === 'imgs' ? '#imagenes' : location.pathname + location.search);
+  }
+
+  var espera;
+  $('q').addEventListener('input', function (e) {
+    clearTimeout(espera);
+    espera = setTimeout(function () { estado.q = e.target.value; estado.mostrar = PASO; pintar(); }, 120);
+  });
+  $('cap').addEventListener('change', function (e) { estado.cap = e.target.value; estado.mostrar = PASO; pintar(); });
+  $('tipo').addEventListener('change', function (e) { estado.tipo = e.target.value; estado.mostrar = PASO; pintar(); });
+  $('tab-refs').addEventListener('click', function () { vista('refs'); });
+  $('tab-imgs').addEventListener('click', function () { vista('imgs'); });
+  $('mas').addEventListener('click', function () { estado.mostrar += PASO; pintar(); });
+  $('copiar-todas').addEventListener('click', function (e) {
+    copiar(visibles.map(textoDe).join('\n'), e.target, 'Copiadas ' + miles(visibles.length));
+  });
+  $('lista').addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    if (b.dataset.cap) {
+      estado.cap = b.dataset.cap; $('cap').value = estado.cap; estado.mostrar = PASO; pintar();
+      window.scrollTo({ top: $('lista').offsetTop - 90, behavior: 'smooth' });
+    } else if (b.dataset.i !== undefined) {
+      copiar(textoDe(visibles[+b.dataset.i]), b, estado.vista === 'refs' ? 'Copiada' : 'Copiado');
+    }
+  });
+
+  // ?q=hood&cap=17 abre la búsqueda hecha (para compartir un enlace)
+  var params = new URLSearchParams(location.search);
+  if (params.get('q')) { estado.q = params.get('q'); $('q').value = estado.q; }
+  if (params.get('cap')) estado.cap = params.get('cap');
+  vista(location.hash === '#imagenes' ? 'imgs' : 'refs');
+})();
+</script>
+</body>
+</html>
