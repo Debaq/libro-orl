@@ -33,7 +33,7 @@ Para aprender a leer el audiograma desde el principio, el capítulo parte con su
 
 Todo lo que sigue termina en este gráfico. Es un audiograma con **todos** sus elementos juntos. Aquí solo se nombran; el resto del capítulo explica de dónde sale cada uno, y *Cómo se informa* enseña a sacar de él el tipo, el grado y la configuración. El derecho va siempre en <span class="od">rojo</span> y el izquierdo en <span class="oi">azul</span>.
 
-:::figura h3radiografia audiograma
+:::figura h3radiografia audiograma completa
 - @OD 125 | **Frecuencias**: graves a la izquierda, agudos a la derecha, de octava en octava. Las interoctavas (3 y 6 kHz) llevan un rótulo más chico.
 - @OI 125 | **dB HL**: crecen hacia abajo; más abajo es oír peor. El 0 no es silencio, es lo que oye un joven normal. La franja gris, hasta 20 dB, es lo normal.
 - @OD 250 | <span class="od">○</span> **aérea del OD sin enmascarar**, 25 dB. Los puntos de la aérea se unen con línea continua.
@@ -172,7 +172,7 @@ Eso tiene dos consecuencias prácticas. La primera: una diferencia de 5 dB entre
 
 Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes, cada uno con su pantalla y sus controles, y un **centro** con lo que comparten los dos (la frecuencia, el paso, el cronómetro). Uno lleva el tono al oído que estás midiendo; el otro, cuando hace falta, lleva el ruido que enmascara al oído contrario. La figura muestra un audiómetro armado justo así: tono por el canal 1 al oído derecho y ruido de banda estrecha por el canal 2 al izquierdo.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.
+:::imagen /docs/manual/img/estudiante/audiometro.png completa Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.
 - @4,13 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aérea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.
 - @40,10 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de abajo.
 - @51,22 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.

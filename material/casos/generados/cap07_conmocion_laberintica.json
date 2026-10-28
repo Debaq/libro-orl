@@ -417,7 +417,7 @@
     {
      "id": "p1",
      "rol": "paciente",
-     "nombre": "Juan",
+     "nombre": "Bruno",
      "edad": 19,
      "genero": 0,
      "es_paciente": true,
@@ -859,8 +859,8 @@
   },
   "tipo": "normal",
   "paciente_snapshot": {
-   "nombre": "Juan Mario",
-   "apellido": "Zamora Vargas",
+   "nombre": "Bruno Mario",
+   "apellido": "Riquelme Vargas",
    "rut": "22680754",
    "fecha_nac": "06-12-2007"
   },

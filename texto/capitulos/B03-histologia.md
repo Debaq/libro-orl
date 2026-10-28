@@ -195,10 +195,10 @@ El laberinto membranoso vestibular tiene cinco receptores: dos **máculas** (en 
 - **Mácula.** Sobre los haces ciliares hay una **membrana otolítica**, una capa de gel; sobre el gel, las **otoconias** (u **otolitos**): cristales de carbonato de calcio que le dan peso. Cuando la cabeza se inclina o acelera en línea recta, la masa de cristales se mueve por inercia y dobla los haces. La mácula del utrículo está casi horizontal y la del sáculo, casi vertical (→ B1, H12).
 - **Cresta.** Encima de las células hay una **cúpula**, un gel que cierra la ampolla de lado a lado como una compuerta, sin cristales. Cuando la endolinfa se mueve por una rotación de la cabeza, empuja la cúpula y dobla los haces (→ H16, H19).
 
-:::imagen ilustraciones/b3-macula-openstax.jpg ancho=92% La mácula: a la izquierda, su lugar en el utrículo y un corte con el gel y los cristales de carbonato de calcio (otoconias); a la derecha, con la cabeza erguida y con la cabeza inclinada hacia delante. Compara cómo cambia la posición de la capa de cristales y el doblez de los haces ciliares al inclinar la cabeza. Rótulos en inglés. Imagen: OpenStax College, Anatomy & Physiology, CC BY 3.0.
+:::imagen ilustraciones/b3-macula-openstax.jpg ancho=92% La mácula: a la izquierda, su lugar en el utrículo y un corte con el gel y los cristales de carbonato de calcio (otoconias); a la derecha, con la cabeza erguida y con la cabeza inclinada hacia delante. Compara cómo cambia la posición de la capa de cristales y el doblez de los haces ciliares al inclinar la cabeza. Imagen: OpenStax College, Anatomy & Physiology, CC BY 3.0, rótulos traducidos.
 :::
 
-:::imagen ilustraciones/b3-cresta-openstax.jpg ancho=92% La cresta ampular: la cúpula cierra la ampolla desde las células ciliadas, sin cristales. Con la cabeza en reposo está recta; con la cabeza en rotación, la endolinfa la dobla en el sentido opuesto al del giro. Rótulos en inglés. Imagen: OpenStax College, Anatomy & Physiology, CC BY 3.0.
+:::imagen ilustraciones/b3-cresta-openstax.jpg ancho=92% La cresta ampular: la cúpula cierra la ampolla desde las células ciliadas, sin cristales. Con la cabeza en reposo está recta; con la cabeza en rotación, la endolinfa la dobla en el sentido opuesto al del giro. Imagen: OpenStax College, Anatomy & Physiology, CC BY 3.0, rótulos traducidos.
 :::
 
 ### Células ciliadas tipo I y tipo II
@@ -281,7 +281,7 @@ Debajo, en la lámina propia, están las **glándulas de Bowman**, cuyo moco cub
 - @45,70 | **Glándulas de Bowman**: su moco baña a los cilios.
 :::
 
-:::imagen ilustraciones/b3-olfato-openstax.jpg ancho=52% El sistema olfatorio, de la mucosa al bulbo. Sigue una neurona desde el penacho de cilios, en el moco, hasta el axón que atraviesa el hueso etmoides y termina sobre una célula mitral del bulbo. Rótulos en inglés. Imagen: OpenStax, Anatomy and Physiology 2e (panel b), CC BY 4.0, recortada.
+:::imagen ilustraciones/b3-olfato-openstax.jpg ancho=52% El sistema olfatorio, de la mucosa al bulbo. Sigue una neurona desde el penacho de cilios, en el moco, hasta el axón que atraviesa el hueso etmoides y termina sobre una célula mitral del bulbo. Imagen: OpenStax, Anatomy and Physiology 2e (panel b), CC BY 4.0, recortada y con rótulos traducidos.
 :::
 
 Esa estructura explica tres cosas que el libro usa:
@@ -328,7 +328,7 @@ Esa estructura explica tres cosas que el libro usa:
 ## Créditos de las figuras
 
 - Gray H. Anatomy of the Human Body (1918), láminas 857, 931 y 932, dominio público. Dibujos de H. V. Carter; la 931 es de G. Retzius y la 932, de Testut.
-- OpenStax College, Anatomy & Physiology (Wikimedia Commons: *1409 Maculae and Equilibrium*, *1410 Equilibrium and Semicircular Canals*), CC BY 3.0. OpenStax, Anatomy and Physiology 2e, figura del sistema olfatorio (*1403 Olfaction*, panel b recortado), CC BY 4.0 en Wikimedia Commons; el sitio de OpenStax declara hoy CC BY-NC-SA 4.0 para el libro, compatible con este.
+- OpenStax College, Anatomy & Physiology (Wikimedia Commons: *1409 Maculae and Equilibrium*, *1410 Equilibrium and Semicircular Canals*), CC BY 3.0. OpenStax, Anatomy and Physiology 2e, figura del sistema olfatorio (*1403 Olfaction*, panel b recortado), CC BY 4.0 en Wikimedia Commons; el sitio de OpenStax declara hoy CC BY-NC-SA 4.0 para el libro, compatible con este. En las tres figuras de OpenStax se tradujeron los rótulos al español.
 - Esquemas propios (hechos con `hacer_b3.py`): la vuelta de la cóclea, las células ciliadas, las células vestibulares y la mácula, las mucosas y la membrana timpánica. Las cifras que llevan salen de la bibliografía del capítulo.
 - El detalle de cada imagen, con enlace y fecha de verificación, está en `ilustraciones/CREDITOS_B3.md`.
 

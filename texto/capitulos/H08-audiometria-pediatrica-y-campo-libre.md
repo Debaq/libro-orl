@@ -75,7 +75,7 @@ La audiometría por juego la describió Barr (1955) en preescolares, muchos de e
 
 <!-- Protocolo ORL 2019: remitía la verificación diaria a la ISO 8253-1:1989, anulada (vigente: ISO 8253-1:2010). Para el campo libre la norma que corresponde es la ISO 8253-2:2009, y la calibración de referencia, la ISO 389-7:2019 (BSA 2025b). -->
 
-![Sala de VRA vista desde arriba. El niño sentado en las rodillas de su mamá, en el punto calibrado (marca en el piso). A cada lado, a unos 90° y a 1 m de la cabeza del niño, un parlante con un cabinete de refuerzo visual encima (juguete iluminado). Frente al niño, una mesa baja con un segundo examinador que lo entretiene con un juguete silencioso. Tras un vidrio, en la sala de control, el examinador que maneja el audiómetro y los refuerzos. La mamá con un fono que le pasa música, para que no reaccione al sonido.](ilustraciones/h08-sala-vra.png)
+![Sala de VRA vista desde arriba. El niño sentado en las rodillas de su mamá, en el punto calibrado (marca en el piso). A cada lado, a unos 90° y a 1 m de la cabeza del niño, un parlante con un cabinete de refuerzo visual encima (juguete iluminado). Frente al niño, una mesa baja con un segundo examinador que lo entretiene con un juguete silencioso. Tras un vidrio, en la sala de control, el examinador que maneja el audiómetro y los refuerzos. La mamá con un fono que le pasa música, para que no reaccione al sonido. Imagen propia del libro.](ilustraciones/h08-sala-vra.svg)
 
 ### Calibración de los parlantes
 

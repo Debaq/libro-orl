@@ -240,3 +240,93 @@ crédito lo dice). Un mismo paciente en dos capítulos (p33, p41...) lleva la mi
 | cap34_honesto_oi.jpg | Membrana timpánica normal | Viscaino | `viscaino/Datos/Testing/Normal/n2.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
 | cap02_disfuncion_tubaria_od.jpg | Membrana retraída (elegida por los autores; el banco la rotula otitis media aguda) | Polat | `basaran/eardrum/Abnormal/AOM/100_0297.png` | no | Polat K | CC BY 4.0 |
 | cap02_disfuncion_tubaria_oi.jpg | Membrana retraída (elegida por los autores; el banco la rotula otitis media aguda) | Polat | `basaran/eardrum/Abnormal/AOM/100_0173.png` | no | Polat K | CC BY 4.0 |
+
+## Tomo I (casos de las H)
+
+Misma regla (él, 2026-10-27: "los casos [del tomo I] deben tener las otoscopías"). Un paciente de
+práctica (p33 a p42) lleva la foto y la descripción que tiene en el tomo II. Los casos por cuadro
+llevan fotos normales del banco que no usa nadie más, salvo el OD de h7_retraccion: los bancos no
+rotulan la retracción y la foto la eligen los autores (como la del cap. 2); mientras, va solo con
+su descripción. h7_lactante (efusión neonatal) queda sin otoscopía, igual que cap17_efusion_neonatal,
+hasta que se decida (pendientes, tomo II, punto 1).
+
+| Archivo | Hallazgo | Banco | Ruta original (en `bancos/`) | Reflejada | Autor | Licencia |
+|---|---|---|---|---|---|---|
+| h1_p35_od.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_11325.62.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h1_p35_oi.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_16725.5.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h2_p34_od.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n110.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h2_p34_oi.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n152.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h2_p39_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.29.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h2_p39_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.13.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h2_p42_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.25.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h2_p42_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_10225.2.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p41_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_7325.20.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p33_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.77.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p33_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_16325.50.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p34_od.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n110.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h3_p34_oi.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n152.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h3_p36_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.56.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p36_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.31.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p42_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.25.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p42_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_10225.2.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p37_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22225.43.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h3_p37_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_7325.8.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h4_p42_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.25.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h4_p42_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_10225.2.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h4_p41_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_7325.20.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h5_p34_od.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n110.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h5_p34_oi.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n152.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h5_p36_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.56.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h5_p36_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.31.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h5_p39_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.29.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h5_p39_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.13.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h5_p41_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_7325.20.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h6_p38_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.30.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h6_p38_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_20125.10.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h6_p39_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.29.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h6_p39_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.13.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h7_p34_od.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n110.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h7_p34_oi.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n152.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h7_p35_od.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_11325.62.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h7_p35_oi.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_16725.5.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h8_p35_od.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_11325.62.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h8_p35_oi.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_16725.5.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p33_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.77.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p33_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_16325.50.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p36_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.56.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p36_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.31.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p35_od.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_11325.62.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p35_oi.jpg | Otitis media con efusión | KPJ | `kpj/otitis media effusion/Processed_16725.5.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p40_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_19425.13.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_p40_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.19.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h11_p38_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.30.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h11_p38_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_20125.10.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p33_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.77.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p33_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_16325.50.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p38_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.30.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p38_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_20125.10.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p34_od.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n110.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h12_p34_oi.jpg | Normal | Viscaino | `viscaino/Datos/Training-validation/Normal/n152.jpg` | no | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h12_p42_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_11325.25.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h12_p42_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_10225.2.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h21_p36_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.56.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h21_p36_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_4425.31.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h24_p33_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.77.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h24_p33_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_16325.50.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h24_p37_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22225.43.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h24_p37_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_7325.8.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h4_dilema_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_10225.3.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h4_dilema_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_1125.5.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h7_retraccion_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_16325.14.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h7_disyuncion_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_19125.12.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h7_disyuncion_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_20325.26.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h8_unilateral_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.20.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h8_unilateral_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.24.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_rn_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.26.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h9_rn_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.32.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_mujer_joven_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22125.51.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_mujer_joven_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22225.12.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_lactante_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22225.34.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_lactante_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_22225.9.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_anciano_od.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_20325.20.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |
+| h10_anciano_oi.jpg | Membrana timpánica normal | KPJ | `kpj/normal/Processed_21325.18.jpg` | no | Zaka Ur Rehman | CC BY-NC-SA 4.0 |

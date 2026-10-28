@@ -15,10 +15,10 @@ from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 CASOS = [
     # Audiometría condicionada por juego en un niño de 5 años (OME bilateral)
-    demo(35, [fig.audiograma(ldl=False)]),
+    demo(35, [fig.audiograma(ldl=False, combinado=True)]),
     # Por qué el campo libre solo mide el oído mejor: hipoacusia unilateral
     # que un campo libre "normal" no vio
-    cuadro('unilateral', [fig.audiograma(ldl=False)],
+    cuadro('unilateral', [fig.audiograma(ldl=False, combinado=True)],
            oi='cmv_congenito', grado_oi='severa', edad=4, sexo='mujer',
            anamnesis="""Aurora tiene 4 años y va al jardín infantil. A los 2 años decía pocas palabras y la
            llevaron a una fonoaudióloga, que le hizo un examen de audición "con parlantes y unos juguetes que

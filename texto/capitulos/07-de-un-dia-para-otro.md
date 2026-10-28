@@ -274,7 +274,7 @@ Los dos timpanogramas son **A**: el OD con pico en 0 daPa y 0,32 mL, el OI con 1
 {{caso cap07_conmocion_laberintica}}
 
 :::pregunta Paso 1 · ¿Qué datos importan?
-Separa lo que Juan cuenta del accidente de lo que cuenta de antes del accidente. ¿Cuál de los datos de antes te va a servir más para leer su audiograma?
+Separa lo que Bruno cuenta del accidente de lo que cuenta de antes del accidente. ¿Cuál de los datos de antes te va a servir más para leer su audiograma?
 :::
 
 :::pregunta Paso 2 · Tus hipótesis
@@ -287,12 +287,12 @@ Un golpe en la cabeza y los dos oídos "apagados". Plantea una causa conductiva 
 
 #### Paso 4 · Los resultados
 
-:::imagen figuras/salida/cap07_conmocion_laberintica_audiosupra.svg ancho=100% Audiometría de Juan: muesca bilateral simétrica con fondo en 6 kHz y recuperación en 8 kHz. Discriminación de 84 % en el OD y 88 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.
+:::imagen figuras/salida/cap07_conmocion_laberintica_audiosupra.svg ancho=100% Audiometría de Bruno: muesca bilateral simétrica con fondo en 6 kHz y recuperación en 8 kHz. Discriminación de 84 % en el OD y 88 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.
 :::
 
 Hasta 500 Hz hay 0 dB en los dos oídos; en 1 kHz, 15. Desde 2 kHz cae de golpe: **55 dB** en el OD y 50 en el OI. El fondo está en 6 kHz, con **70 dB**, y en 8 kHz el OD vuelve a 55: una **muesca** con recuperación. El OI tiene la misma forma, con 20 dB de recuperación en 8 kHz: **bilateral y simétrica**. La ósea va con la aérea. Sensorioneural. Con los dos oídos casi iguales, aquí no hizo falta enmascarar. El SDT es de 0 dB, el SRT de 5 dB y la discriminación llega a 84 % en el OD y 88 % en el OI. SISI de 90 %, Carhart sin deterioro en 2 y 4 kHz y Metz de 24,5 dB en 4 kHz: recluta, es coclear.
 
-:::imagen figuras/salida/cap07_conmocion_laberintica_impedancia.svg ancho=100% Impedanciometría de Juan.
+:::imagen figuras/salida/cap07_conmocion_laberintica_impedancia.svg ancho=100% Impedanciometría de Bruno.
 :::
 
 Los dos timpanogramas son **A**: el OD con 1,52 mL en −80 daPa, dentro de lo normal, y el OI con 0,47 mL en −52 daPa. No hay sangre en el oído medio (la curva sería plana) ni cadena desarticulada (sería muy alta): el golpe no pasó por ahí. Los reflejos están presentes en los dos oídos, ipsi y contralaterales, entre 85 y 100 dB SPL.
@@ -412,7 +412,7 @@ Hipoacusia sensorioneural profunda del OD, con timpanograma A y VEMP cervical de
 
 #### Razonamiento
 
-Una pérdida sensorioneural **bilateral y simétrica**, descendente desde 1 kHz, con muesca en 6 kHz y recuperación en 8, en un joven que se golpeó la cabeza hace tres semanas. El oído medio está sano en los dos lados, así que el golpe no pasó por la caja timpánica. La forma es la de un ruido, pero Juan no tiene exposición y tenía una audiometría normal hace un año: la pérdida apareció entre esa audiometría y hoy, y lo único que pasó en medio fue el accidente.
+Una pérdida sensorioneural **bilateral y simétrica**, descendente desde 1 kHz, con muesca en 6 kHz y recuperación en 8, en un joven que se golpeó la cabeza hace tres semanas. El oído medio está sano en los dos lados, así que el golpe no pasó por la caja timpánica. La forma es la de un ruido, pero Bruno no tiene exposición y tenía una audiometría normal hace un año: la pérdida apareció entre esa audiometría y hoy, y lo único que pasó en medio fue el accidente.
 
 #### Diagnóstico y qué sigue
 

@@ -20,9 +20,9 @@ CASOS = [
     # Otoesclerosis OD: el OI normal es la curva de referencia y el OD, la misma corrida a la derecha
     demo(34, [fig.logo()]),
     # Presbiacusia: máximo bajo el 100 %, caída pasado el máximo, LDL cerca del umbral en agudos
-    demo(36, [fig.audiograma(), fig.logo()]),
+    demo(36, [fig.audiograma(combinado=True), fig.logo()]),
     # Schwannoma OD: discriminación desproporcionada para la pérdida
-    demo(39, [fig.audiograma(), fig.logo()]),
+    demo(39, [fig.audiograma(combinado=True), fig.logo()]),
     # Otitis crónica mixta OI: lo que anota quien no enmascara la logo
     demo(41, [fig.logo(enmascarado=False), fig.logo()]),
 ]

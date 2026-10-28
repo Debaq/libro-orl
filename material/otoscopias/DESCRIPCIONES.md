@@ -265,3 +265,85 @@ Un oído sin foto (ningún banco abierto trae el hallazgo) va solo con su descri
 | cap34_hidrops_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
 | cap34_honesto_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
 | cap34_honesto_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h1_p35_od | Membrana opaca, de color ámbar. |
+| h1_p35_oi | Membrana ámbar, con burbujas y niveles de líquido detrás. |
+| h2_p34_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h2_p34_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h2_p39_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h2_p39_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h2_p42_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h2_p42_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p41_od | Membrana íntegra, con el mango del martillo y el triángulo luminoso. |
+| h3_p41_oi | Conducto seco, sin secreción; membrana opaca y engrosada. |
+| h3_p33_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p33_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p34_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p34_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p36_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p36_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p42_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p42_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p37_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h3_p37_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h4_p42_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h4_p42_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h4_p41_od | Membrana íntegra, con el mango del martillo y el triángulo luminoso. |
+| h4_p41_oi | Conducto seco, sin secreción; membrana opaca y engrosada. |
+| h5_p34_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p34_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p36_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p36_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p39_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p39_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h5_p41_od | Membrana íntegra, con el mango del martillo y el triángulo luminoso. |
+| h5_p41_oi | Conducto seco, sin secreción; membrana opaca y engrosada. |
+| h6_p38_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h6_p38_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h6_p39_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h6_p39_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h7_p34_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h7_p34_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h7_p35_od | Membrana opaca, de color ámbar. |
+| h7_p35_oi | Membrana ámbar, con burbujas y niveles de líquido detrás. |
+| h8_p35_od | Membrana opaca, de color ámbar. |
+| h8_p35_oi | Membrana ámbar, con burbujas y niveles de líquido detrás. |
+| h9_p33_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_p33_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_p36_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_p36_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_p35_od | Membrana opaca, de color ámbar. |
+| h9_p35_oi | Membrana ámbar, con burbujas y niveles de líquido detrás. |
+| h9_p40_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_p40_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h11_p38_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h11_p38_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p33_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p33_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p38_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p38_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p34_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p34_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p42_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h12_p42_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h21_p36_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h21_p36_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h24_p33_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h24_p33_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h24_p37_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h24_p37_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h4_dilema_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h4_dilema_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h7_retraccion_od | Membrana retraída, sin líquido visible. |
+| h7_retraccion_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h7_disyuncion_od | Conducto sano; membrana íntegra y translúcida, sin sangre detrás. |
+| h7_disyuncion_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h8_unilateral_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h8_unilateral_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_rn_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h9_rn_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_mujer_joven_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_mujer_joven_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_lactante_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_lactante_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_anciano_od | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |
+| h10_anciano_oi | Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso. |

@@ -95,7 +95,7 @@ def css():
         ('height: 297mm', f'height: {mm(alto)}'),          # portada, contraportada, parte: a sangre
         ('width: 210mm', f'width: {mm(ancho)}'),           # trazos de la portada
         ('height: 255mm', f'height: {mm(caja - 7)}'),      # portada interior: el alto del texto - 7 mm, como en A4
-        ('padding-top: 105mm', 'padding-top: 60mm'),       # créditos: más bajos y con tres tomos no caben a 105
+        ('padding-top: 85mm', 'padding-top: 60mm'),        # créditos: más bajos y con tres tomos no caben a 85
     ]
     for viejo, nuevo in cambios:
         if viejo not in s:

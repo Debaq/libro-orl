@@ -244,7 +244,7 @@ Recórrela siempre en este orden:
 
 Las fotos que siguen son otoscopías reales de dos bancos abiertos, uno de ellos del Hospital Clínico de la Universidad de Chile. Junto a cada una, lo que tienes que mirar.
 
-![Membrana timpánica normal. Arriba se ve el relieve blanco de la apófisis corta; desde ahí baja el mango del martillo hasta el umbo, en el centro, donde nace el triángulo luminoso. La membrana es gris y semitransparente, y el conducto está limpio. Imagen: dataset eardrum (Polat, 2021), CC BY 4.0.](otoscopias/h01-normal.jpg)
+![Membranas timpánicas normales. A: oído derecho. B: oído izquierdo. En las dos, arriba está el relieve blanco de la apófisis corta; desde ahí baja el mango del martillo hasta el umbo, en el centro, donde nace el triángulo luminoso. Compáralas: son imágenes en espejo. El mango baja hacia atrás y el triángulo queda adelante y abajo, a la derecha en A y a la izquierda en B. La membrana es gris y semitransparente. Imagen: dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0, adaptadas.](otoscopias/h01-normal.jpg)
 
 **Normal.** Gris perla y semitransparente, en posición neutra, con las tres referencias visibles. Es la imagen contra la que se compara todo lo demás: antes de describir un hallazgo, pregúntate qué falta o qué sobra respecto de esta.
 

@@ -52,6 +52,8 @@ CASOS = [
                      (12, 'Otorrinolaringólogo: probable laberintitis viral del OD. Indica tratamiento y solicita audiometría, impedanciometría y VEMP; evaluación vestibular completa en el control.')],
            medicamentos='Tomó un medicamento para el mareo los primeros días; ya no lo usa.'),
     # Juan: golpe en bicicleta, pérdida bilateral simétrica con muesca; audiometría previa normal
+    # El nombre (Bruno Riquelme) se cambió a mano en generados/ el 2026-10-28: LabSim le había
+    # puesto Juan Zamora, el mismo del caso 30.1. Si se rearma, volver a cambiarlo.
     cuadro('conmocion_laberintica', [fig.audiosupra(), fig.impedancia()],
            od='conmocion_laberintica', oi='conmocion_laberintica', edad=19,
            anamnesis="""Tiene 19 años y estudia diseño. Hace tres semanas se cayó de la bicicleta de montaña bajando un

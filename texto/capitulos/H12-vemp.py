@@ -21,7 +21,7 @@ CASOS = [
     # Cófosis del OD tras parotiditis: VEMP del OD casi plano
     demo(42, [fig.vemp()]),
     # Otoesclerosis del OD: el gap aéreo-óseo apaga el VEMP por vía aérea
-    demo(34, [fig.vemp(), fig.audiograma()]),
+    demo(34, [fig.vemp(), fig.audiograma(combinado=True)]),
 ]
 
 if __name__ == '__main__':

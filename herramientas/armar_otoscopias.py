@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Copia a otoscopias/ las fotos de otoscopía de los casos del tomo II, según
+"""Copia a otoscopias/ las fotos de otoscopía de los casos (tomo II y, desde el
+2026-10-27, los de las H del tomo I), según
 otoscopias/CREDITOS-casos.md: desde los bancos (otoscopias/bancos/, que no se
 versionan), en JPEG de calidad 90 con el lado mayor en 800 px, y reflejadas
 horizontalmente si la columna "Reflejada" dice "sí" (una foto del otro lado).
@@ -18,7 +19,7 @@ OTOS = Path(__file__).resolve().parent.parent / 'material' / 'otoscopias'
 
 def filas():
     for linea in (OTOS / 'CREDITOS-casos.md').read_text(encoding='utf-8').splitlines():
-        m = re.match(r'\|\s*(cap\S+\.jpg)\s*\|(.*)\|\s*$', linea)
+        m = re.match(r'\|\s*((?:cap|h)\d+_\S+\.jpg)\s*\|(.*)\|\s*$', linea)   # tomo II y casos de las H
         if m:
             c = [x.strip() for x in m[2].split('|')]
             yield m[1], c[2].strip('`'), c[3].lower().startswith('s')

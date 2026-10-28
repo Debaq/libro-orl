@@ -15,7 +15,8 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
-PAR = [fig.audiograma(sin_enmascarar=True), fig.audiograma()]
+# Unidas, como se hace una audiometría (él, 2026-10-27).
+PAR = [fig.audiograma(sin_enmascarar=True, combinado=True), fig.audiograma(combinado=True)]
 
 CASOS = [
     # Cófosis OD: la curva sombra pura, en tonos y en palabras
@@ -23,7 +24,7 @@ CASOS = [
     # Otitis crónica mixta OI: sin enmascarar la ósea, la mixta parece conductiva
     demo(41, PAR),
     # Otoesclerosis bilateral con gaps grandes: el dilema
-    cuadro('dilema', [fig.audiograma()], od='otoesclerosis', oi='otoesclerosis',
+    cuadro('dilema', [fig.audiograma(combinado=True)], od='otoesclerosis', oi='otoesclerosis',
            grado_od='moderada', grado_oi='moderada', edad=38, sexo='mujer'),
 ]
 

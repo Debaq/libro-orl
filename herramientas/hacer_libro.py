@@ -393,7 +393,8 @@ FUENTE_OTO = {'KPJ': 'OtitisMediaKPJ (Kaggle, 2026)', 'Polat': 'eardrum (figshar
 def otoscopias_datos():
     """{archivo: (normal, crédito)} de las tablas otoscopias/CREDITOS-*.md y
     {oído: descripción} de otoscopias/DESCRIPCIONES.md (él, 2026-10-21: todos
-    los pacientes del tomo II con otoscopía, y su descripción al lado)."""
+    los pacientes del tomo II con otoscopía, y su descripción al lado; desde el
+    2026-10-27 también los casos de las H del tomo I)."""
     if not _OTO:
         fotos, desc = {}, {}
         for cred in sorted(OTOSCOPIAS.glob('CREDITOS-*.md')) if OTOSCOPIAS.exists() else []:
@@ -403,7 +404,7 @@ def otoscopias_datos():
                 if linea.startswith('| Archivo'):
                     cab = celdas
                     continue
-                if not cab or not re.match(r'cap\S+\.jpg$', celdas[0]):
+                if not cab or not re.match(r'(?:cap|h)\d+_\S+\.jpg$', celdas[0]):   # tomo II y casos de las H
                     continue
                 f = dict(zip(cab, celdas))
                 hallazgo = f.get('Hallazgo') or f.get('Hallazgo (rótulo del banco)') or ''
@@ -415,7 +416,7 @@ def otoscopias_datos():
         arch = OTOSCOPIAS / 'DESCRIPCIONES.md'
         if arch.exists():
             for linea in arch.read_text(encoding='utf-8').splitlines():
-                m = re.match(r'\|\s*(cap\S+_o[di])\s*\|\s*(.+?)\s*\|\s*$', linea)
+                m = re.match(r'\|\s*((?:cap|h)\d+_\S+_o[di])\s*\|\s*(.+?)\s*\|\s*$', linea)
                 if m:
                     desc[m[1]] = m[2]
         _OTO.append((fotos, desc))
@@ -674,7 +675,10 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     tope = ''
     if apaisada and 0.8 * (2 * COLUMNA_MM + 6) * alto / ancho > 110:
         tope = f' style="width:{110 * ancho / alto:.0f}mm"'
-    return (f'<div class="figobs figobs-motor fig-{tipo}{apaisada}"><figure class="fig"{tope}>{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
+    # angosta (audiograma unido, campo libre, logo): fuera de la columna va a
+    # media página en el tomo I (ver TOMO2_CSS); los de dos paneles, no
+    angosta = ' angosta' if ancho / alto < 1.5 else ''
+    return (f'<div class="figobs figobs-motor fig-{tipo}{apaisada}{angosta}"><figure class="fig"{tope}>{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
             f'{lista}</div>')
 
 
@@ -796,17 +800,23 @@ def capitulo(md_texto):
         except CasoPendiente:
             return pendiente(nombre)
 
-    def fig(nombre, tipo, n, cuerpo_fig):
+    def fig(nombre, tipo, n, cuerpo_fig, completa=False):
+        # ':::figura nombre tipo [n] completa': a todo el ancho aunque no sea
+        # apaisada (él, 2026-10-27: la radiografía del audiograma de H3)
+        def guardar_fig(h):
+            if completa and ' apaisada' not in h[:60]:
+                h = h.replace('<div class="figobs figobs-motor', '<div class="figobs figobs-motor apaisada', 1)
+            return guardar(h)
         if nombre not in actual:
             # figura del motor que no es de un caso (p. ej. la radiografía de
             # un audiograma de H3): se numera como las imágenes, H3.N
             n_suelta = numeros['fig'].pop(0) if numeros['fig'] else 0
-            return guardar(figura_con_globos(nombre, tipo, int(n or 1), cuerpo_fig.splitlines(),
-                                             f'{cap}.{n_suelta}'))
+            return guardar_fig(figura_con_globos(nombre, tipo, int(n or 1), cuerpo_fig.splitlines(),
+                                                 f'{cap}.{n_suelta}'))
         num = actual.get(nombre, 0)
         nfig[num] = nfig.get(num, 0) + 1
-        return guardar(figura_con_globos(nombre, tipo, int(n or 1), cuerpo_fig.splitlines(),
-                                         f'{cap}.{num}.{nfig[num]}'))
+        return guardar_fig(figura_con_globos(nombre, tipo, int(n or 1), cuerpo_fig.splitlines(),
+                                             f'{cap}.{num}.{nfig[num]}'))
 
     def caja(m):
         tipo, titulo, dentro = m[1], (m[2] or '').strip(), m[3]
@@ -879,7 +889,7 @@ def capitulo(md_texto):
 
     # En orden de aparición: la ficha numera el caso y sus figuras toman ese número
     patron = re.compile(r'\{\{caso\s+([a-z0-9_]+)\}\}|\{\{resultados\s+([a-z0-9_]+)\}\}'
-                        r'|^:::figura\s+([a-z0-9_]+)\s+([a-z_]+)(?:\s+(\d+))?\s*\n(.*?)^:::\s*$', re.M | re.S)
+                        r'|^:::figura\s+([a-z0-9_]+)\s+([a-z_]+)(?:\s+(\d+))?(\s+completa)?\s*\n(.*?)^:::\s*$', re.M | re.S)
 
     def img(ruta, titulo, cuerpo_img):
         cuerpo_img = re.sub(r'<!--.*?-->', '', cuerpo_img, flags=re.S)   # notas internas (p. ej. el pedido del dibujo)
@@ -922,7 +932,7 @@ def capitulo(md_texto):
             return caso(m[1])
         if m[2]:
             return res(m[2])
-        return fig(m[3], m[4], m[5], m[6])
+        return fig(m[3], m[4], m[5], m[7], bool(m[6]))
 
     texto = patron.sub(uno, md_texto)
     texto = re.sub(r'^:::([a-z-]+)(?:[ \t]+(.*?))?\n(.*?)^:::\s*$', caja, texto, flags=re.M | re.S)
@@ -1067,7 +1077,8 @@ def capitulo(md_texto):
     cuerpo = re.sub(r'\{\{fig\s+([a-z0-9-]+)\}\}', cita, cuerpo)
     if estilo_t2(cap):
         # la letra del tomo II (él, 2026-10-20): ver TOMO2_CSS
-        return f'<div class="tomo2">{cuerpo}</div>'
+        # tomo1: las figuras del motor en la columna, a su ancho (ver TOMO2_CSS)
+        return f'<div class="tomo2{" tomo1" if tomo_de(cap) == "I" else ""}">{cuerpo}</div>'
     return cuerpo
 
 
@@ -1125,6 +1136,14 @@ div.tomo2 .dos-col .apaisada .img-globos, div.tomo2 .dos-col figure.apaisada img
 div.tomo2 .figobs-motor.fig-logoaudiometria .fig { width: 50%; }
 /* las emisiones del tomo II (compactas): cada una a todo el ancho (él, 2026-10-21) */
 div.tomo2 .figobs-motor.fig-teoae .fig, div.tomo2 .figobs-motor.fig-dpoae .fig { width: 100%; }
+/* tomo I (él, 2026-10-27: "usar los tamaños del tomo 2"): las figuras del motor
+   que van en la columna, a todo su ancho (~83 mm). Así el audiograma unido
+   mide lo que el de la hoja auditiva del tomo II (76 mm) y la logo compacta, lo
+   que la del tomo II a media página; al 80 % de la columna no se leían.
+   Fuera de la columna (caso a todo el ancho), las angostas (audiograma unido,
+   campo libre, logo) a media página: al 80 % el audiograma unido quedaba de 138 mm */
+div.tomo2.tomo1 .figobs-motor.angosta .fig { width: 50%; }
+div.tomo2.tomo1 .dos-col .figobs-motor:not(.apaisada) .fig { width: 100%; }
 .fila { display: flex; gap: 4mm; align-items: flex-start; break-inside: avoid; margin: 2mm 0 3mm; }
 .fila-fig { flex: 1.7 1 0; }
 .fila-tab { flex: 1 1 0; }
@@ -1246,7 +1265,7 @@ h1.prelim {{ font: 700 24pt Fraunces, serif; color: #24101a; margin: 0 0 6mm; pa
 .portadilla {{ padding-top: 80mm; text-align: center; }}
 .pd-titulo {{ font: 700 24pt/1.15 Fraunces, serif; color: #24101a; margin: 0 20mm 4mm; }}
 .pd-bajada {{ font: 12pt 'Plus Jakarta Sans'; color: #8e2a4a; }}
-.creditos {{ padding-top: 105mm; font-size: 8.4pt; line-height: 1.5; color: #4a3a40; }}
+.creditos {{ padding-top: 85mm; font-size: 8.4pt; line-height: 1.5; color: #4a3a40; }}
 .creditos p {{ margin: 0 0 3mm; }}
 
 .titulo-indice {{ font: 700 26pt Fraunces, serif; color: #24101a; margin: 0 0 6mm; padding-bottom: 3mm; border-bottom: 2pt solid #8e2a4a; }}

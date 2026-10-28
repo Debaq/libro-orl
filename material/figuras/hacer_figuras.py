@@ -44,7 +44,7 @@ def figura(caso, f):
         return audiograma.dibujar(caso, estudio=f.get('estudio', True), ldl=f.get('ldl', True),
                                   oidos=tuple(f.get('oidos', ('OD', 'OI'))),
                                   sin_enmascarar=f.get('sin_enmascarar', False),
-                                  clinico=f.get('clinico', False))
+                                  clinico=f.get('clinico', False), combinado=f.get('combinado', False))
     if tipo == 'acumetria':
         return acumetria.dibujar(caso)
     if tipo == 'timpanograma':
@@ -127,8 +127,9 @@ def main(patrones):
         for f in spec['figuras']:
             n = vistos[f['tipo']] = vistos.get(f['tipo'], 0) + 1
             nombre = f"{arch.stem}_{f['tipo']}" + (f'_{n}' if n > 1 else '') + '.svg'
-            # los casos del tomo II (cap05_..., no h5_...) llevan la logo compacta
-            (SALIDA / nombre).write_text(figura(caso, {**f, 'tomo2': arch.stem.startswith('cap')}), encoding='utf-8')
+            # la logo y las emisiones compactas: tomo II (cap05_...) y, desde el
+            # 2026-10-27, también los casos de las H ("los tamaños del tomo 2")
+            (SALIDA / nombre).write_text(figura(caso, {**f, 'tomo2': arch.stem.startswith(('cap', 'h'))}), encoding='utf-8')
             hechas.append((arch.stem, nombre))
             print('  ', nombre)
     _hoja()

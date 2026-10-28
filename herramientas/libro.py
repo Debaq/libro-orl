@@ -34,11 +34,15 @@ class fig:
     """Las figuras que sabe hacer el motor (figuras/motor/), con sus opciones."""
 
     @staticmethod
-    def audiograma(estudio=True, ldl=True, sin_enmascarar=False, clinico=False):
+    def audiograma(estudio=True, ldl=True, sin_enmascarar=False, clinico=False, combinado=False):
         """estudio: ósea solo donde la aérea es anormal; sin_enmascarar: la curva sombra;
-        clinico: la forma de la hoja del tomo II (frecuencias arriba, ósea completa, LDL:)."""
-        return {'tipo': 'audiograma', 'estudio': estudio, 'ldl': ldl, 'sin_enmascarar': sin_enmascarar,
-                'clinico': clinico}
+        clinico: la forma de la hoja del tomo II (frecuencias arriba, ósea completa, LDL:);
+        combinado: los dos oídos en una sola grilla, como se hace una audiometría."""
+        f = {'tipo': 'audiograma', 'estudio': estudio, 'ldl': ldl, 'sin_enmascarar': sin_enmascarar,
+             'clinico': clinico}
+        if combinado:
+            f['combinado'] = True
+        return f
 
     @staticmethod
     def acumetria():

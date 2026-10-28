@@ -310,14 +310,14 @@ La división no es absoluta: hay anastomosis entre las ramas, y el sáculo recib
 Desde el nervio coclear, la señal pasa por una cadena de estaciones en el tronco, el mesencéfalo, el tálamo y la corteza. Casi todas están **repetidas a cada lado**, y casi todas reciben información de **los dos oídos**; por eso una lesión central de un lado rara vez produce una pérdida de umbral: altera, en cambio, la localización, la comprensión en ruido o la integración entre los oídos (→ H15, cap. 13).
 
 :::imagen ilustraciones/b1-sim-auditiva.png ancho=64% La vía auditiva central, de la cóclea a la corteza, de frente: a la izquierda de la figura queda el lado derecho del paciente. Sigue una fibra del oído derecho desde abajo: en el núcleo coclear se reparte y sube por los dos lados, y desde el complejo olivar cada lado ya lleva información de los dos oídos. Los cruces son las líneas que atraviesan el eje del centro. Rojo, conexión que excita; azul, la que inhibe. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).
-- @7,70 | **Núcleo coclear**: la primera estación; ahí termina el nervio.
-- @20.5,79.5 | **Nervio coclear** (VIII): lleva el orden de frecuencias de la cóclea.
-- @12,58 | **Complejo olivar superior**: primera estación con los dos oídos (LSO y MSO, con el núcleo trapezoide en medio).
+- @4,70.5 | **Núcleo coclear**: la primera estación; ahí termina el nervio.
+- @21,81.5 | **Nervio coclear** (VIII): lleva el orden de frecuencias de la cóclea.
+- @15.5,57.5 | **Complejo olivar superior**: primera estación con los dos oídos (LSO y MSO, con el núcleo trapezoide en medio).
 - @47.5,50.5 | **Cruces**: por aquí pasan al lado opuesto las fibras que van del núcleo coclear al olivar y al lemnisco.
-- @13,45 | **Lemnisco lateral**.
-- @18,33.5 | **Colículo inferior**: estación obligatoria del mesencéfalo.
-- @17,21.5 | **Cuerpo geniculado medial**, en el tálamo.
-- @10,8.5 | **Corteza auditiva**, en el lóbulo temporal.
+- @12,45.7 | **Lemnisco lateral**.
+- @19,33.9 | **Colículo inferior**: estación obligatoria del mesencéfalo.
+- @16,22.4 | **Cuerpo geniculado medial**, en el tálamo.
+- @9,8.8 | **Corteza auditiva**, en el lóbulo temporal.
 :::
 
 Estación por estación:

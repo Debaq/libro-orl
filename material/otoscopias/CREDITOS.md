@@ -19,11 +19,13 @@ JPEG (calidad 90) sin otro cambio que el formato.
 Fotos reales de los bancos, convertidas a JPEG (calidad 90). Las compuestas
 ponen dos fotos lado a lado (A y B), recortadas al cuadrado desde el centro y
 llevadas a 500 × 500 px, con la letra del panel en la esquina; no tienen otro
-cambio.
+cambio. `h01-normal.jpg` se arma con `armar_h01_normal.py` (2026-10-27; antes era
+una sola foto, Polat `Normal/100_0038.png`).
 
 | Archivo | Panel | Hallazgo | Banco | Ruta original (en `bancos/`) | Autor | Licencia |
 |---|---|---|---|---|---|---|
-| h01-normal.jpg | — | Membrana timpánica normal | Polat | `basaran/eardrum/Normal/100_0038.png` | Polat K | CC BY 4.0 |
+| h01-normal.jpg | A | Membrana timpánica normal, OD | Viscaino | `viscaino/Datos/Testing/Normal/n14.jpg` | Viscaino M, Auat Cheein F | CC0 1.0 |
+| h01-normal.jpg | B | Membrana timpánica normal, OI | Viscaino | `viscaino/Datos/Testing/Normal/n11.jpg` | Viscaino M, Auat Cheein F | CC0 1.0 |
 | h01-cerumen.jpg | A | Tapón de cerumen oclusivo | Polat | `basaran/eardrum/Abnormal/Earwax/100_0330.png` | Polat K | CC BY 4.0 |
 | h01-cerumen.jpg | B | Cerumen no oclusivo | Viscaino | `viscaino/Datos/Testing/Earwax plug/e30.jpg` | Viscaino M, Auat Cheein F | CC0 1.0 |
 | h01-otitis-aguda.jpg | A | Otitis externa | Polat | `basaran/eardrum/Abnormal/OtitisEksterna/100_0261.png` | Polat K | CC BY 4.0 |
