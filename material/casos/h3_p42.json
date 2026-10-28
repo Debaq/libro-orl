@@ -2,8 +2,12 @@
   "caso": "demo:42",
   "figuras": [
     {
-      "tipo": "audiosupra",
-      "sin_enmascarar": true
+      "tipo": "audiograma",
+      "estudio": true,
+      "ldl": true,
+      "sin_enmascarar": true,
+      "clinico": true,
+      "combinado": true
     }
   ]
 }

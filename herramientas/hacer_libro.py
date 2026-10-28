@@ -423,6 +423,54 @@ def otoscopias_datos():
     return _OTO[0]
 
 
+# Pacientes de práctica que vuelven en las H (él, 2026-10-28: "vamos creciendo
+# con el caso"). La primera vez que aparecen en el tomo I van con la ficha
+# completa; las siguientes, con la cara, el nombre, una línea de resumen (el
+# motivo de consulta, sin el diagnóstico) y dónde está cada cosa. Patricia
+# Rivas (demo 38) no entra: sigue con la ficha completa (él). En el tomo II
+# las fichas no cambian.
+RESUMEN_PACIENTE = {
+    'demo:33': 'Examen preocupacional para una minera; no nota problemas para oír.',
+    'demo:34': 'Oye menos por el oído derecho desde su segundo embarazo, y cada vez peor.',
+    'demo:35': 'Resfríos y otitis desde el invierno; no responde cuando lo llaman.',
+    'demo:36': 'Le cuesta entender a sus nietos y en los almuerzos familiares.',
+    'demo:37': '22 años en un chancador; pito en los dos oídos y no entiende desde otra pieza.',
+    'demo:39': 'Pito en el oído derecho; por ese lado oye la voz, pero no entiende.',
+    'demo:41': 'Supura del oído izquierdo con cada resfrío y oye cada vez menos por ese lado.',
+    'demo:42': 'No oye por el oído derecho desde las paperas, a los 6 años.',
+}
+NO_RECORRE = {'demo:38'}
+TEMA_H = {'H1': 'Anamnesis', 'H2': 'Acumetría', 'H3': 'Audiometría', 'H4': 'Enmascaramiento',
+          'H5': 'Logoaudiometría', 'H6': 'Supraliminares', 'H7': 'Impedanciometría',
+          'H8': 'Audiometría pediátrica', 'H9': 'Emisiones', 'H10': 'PEAT', 'H11': 'ECochG',
+          'H12': 'VEMP', 'H21': 'Prueba de audífonos', 'H24': 'Audiometría ocupacional'}
+_RECORRIDO = {}
+
+
+def recorrido_tomo1():
+    """{paciente demo: [(capítulo, número de caso, caso)]} en el orden de las H.
+    El número es el orden de {{caso}} en el capítulo, como lo numera capitulo()."""
+    if not _RECORRIDO:
+        _RECORRIDO['_listo'] = True
+        mds = [(int(m[1]), f) for f in CAPITULOS.glob('H*.md') if (m := re.match(r'H(\d+)-', f.name))]
+        for n, md in sorted(mds):
+            casos = re.findall(r'\{\{caso\s+([a-z0-9_]+)\}\}', md.read_text(encoding='utf-8'))
+            for i, c in enumerate(casos, 1):
+                arch = CASOS / f'{c}.json'
+                o = json.loads(arch.read_text(encoding='utf-8')).get('caso') if arch.exists() else None
+                if isinstance(o, str) and o.startswith('demo:') and o not in NO_RECORRE:
+                    _RECORRIDO.setdefault(o, []).append((f'H{n}', i, c))
+    return _RECORRIDO
+
+
+def mapa_paciente(vueltas, aqui):
+    """'Anamnesis y otoscopía: caso H2.1 · Acumetría: H2.1 · …' sin el caso de aquí."""
+    primero = vueltas[0]
+    partes = [f'Anamnesis y otoscopía: caso {primero[0]}.{primero[1]}']
+    partes += [f'{TEMA_H.get(c, c)}: {c}.{n}' for c, n, _ in vueltas if (c, n) != aqui and c != 'H1']
+    return ' · '.join(partes)
+
+
 def ficha(nombre, numero, cap, labsim=True):
     spec, d = cargar(nombre)
     pac = d.get('paciente_snapshot') or {}
@@ -454,6 +502,17 @@ def ficha(nombre, numero, cap, labsim=True):
         rostro = (f'<div class="rostro-marco">{rostro}'
                   f'<img class="sello-labsim" src="{(LOGOS / "labsim.png").as_uri()}"></div>')
 
+    origen = spec.get('caso')
+    vueltas = recorrido_tomo1().get(origen) if cap.startswith('H') and isinstance(origen, str) else None
+    if vueltas and len(vueltas) > 1 and (cap, numero) != vueltas[0][:2]:
+        # ya se presentó en una H anterior: cara, nombre, resumen y dónde está cada cosa
+        return f'''<section class="caso caso-vuelve">
+<div class="caso-cab">{rostro}<div><p class="caso-num">Caso {cap}.{numero}</p>
+<p class="caso-quien">{html.escape(quien)}</p><p class="caso-datos">{edad_txt} · {sexo}</p></div></div>
+<div class="anamnesis"><p class="resumen">{html.escape(RESUMEN_PACIENTE.get(origen, ''))}</p>
+<p class="mapa">{mapa_paciente(vueltas, (cap, numero))}</p></div>
+</section>'''
+
     an = d.get('Anamnesis') or {}
     marcados = [v for k, v in ANTECEDENTES.items() if (an.get('antecedentes') or {}).get(k)]
     partes = []
@@ -484,6 +543,8 @@ def ficha(nombre, numero, cap, labsim=True):
             oidos.append((lado, f, texto))
     # un oído sin foto es un hallazgo (ningún banco lo trae): cuenta como alterado
     tam = 'chica' if oidos and all(f is not None and fotos.get(f.name, (False,))[0] for _, f, _ in oidos) else 'grande'
+    if tomo_de(cap) == 'I':
+        tam = 'mediana'     # tomo I: todas del mismo tamaño, medianas (él, 2026-10-28)
     otos = []
     for lado, f, texto in oidos:
         credito = fotos.get(f.name, (False, None))[1] if f else None
@@ -494,12 +555,17 @@ def ficha(nombre, numero, cap, labsim=True):
         otos.append(f'<figure class="oto">{img}<figcaption><strong class="{lado}">{lado.upper()}</strong> '
                     f'{html.escape(texto or "")}</figcaption></figure>')
 
+    # la primera vez de un paciente que vuelve: dónde vuelve
+    vuelve = ''
+    if vueltas and len(vueltas) > 1:
+        vuelve = ('<p class="mapa">Vuelve en: '
+                  + ' · '.join(f'{TEMA_H.get(c, c)}, {c}.{n}' for c, n, _ in vueltas[1:]) + '.</p>')
     cab = f'''<section class="caso">
 <div class="caso-cab">{rostro}<div><p class="caso-num">Caso {cap}.{numero}</p>
 <p class="caso-quien">{html.escape(quien)}</p><p class="caso-datos">{edad_txt} · {sexo}</p></div></div>
 <div class="anamnesis">{anamnesis}</div>
 {f'<div class="otoscopia">{"".join(otos)}</div>' if otos else ''}
-</section>'''
+{vuelve}</section>'''
     return cab
 
 
@@ -950,7 +1016,12 @@ def capitulo(md_texto):
         # una columna a la otra. Solo cortan las fichas de caso y los
         # recuadros -ancho. El tomo I sigue como estaba.
         figura = h.startswith(('<div class="figobs"', '<div class="figobs '))
-        return (h.startswith('<section class="caso"') or (figura and not tomo2)
+        # Tomo I: la figura apaisada (a todo el ancho) también corta el bloque
+        # en vez de ir con column-span: WeasyPrint perdía todo el texto que la
+        # seguía hasta la próxima ficha (2026-10-28, H3: de "Conoce tu equipo"
+        # a "Los símbolos"). Se ve igual: las columnas se cierran sobre ella.
+        apaisada = figura and ' apaisada' in h[:80] and tomo_de(cap) == 'I'
+        return (h.startswith('<section class="caso') or (figura and not tomo2) or apaisada
                 or re.match(r'<aside class="caja [^"]*\bancho\b', h) is not None)
 
     def dos_columnas(seccion):
@@ -1364,6 +1435,9 @@ li {{ margin-bottom: .8mm; }}
 .caso-datos {{ color: #7d6670; margin: 0; }}
 .estrella {{ color: #b08900; letter-spacing: 0; text-transform: none; font-weight: 600; }}
 .anamnesis {{ margin: 3mm 0; }}
+/* paciente que vuelve (H): resumen y mapa de dónde está cada cosa */
+.resumen {{ margin: 0 0 1mm; }}
+.mapa {{ font: 7.7pt/1.45 'Plus Jakarta Sans'; color: #7d6670; margin: 1mm 0 2mm; }}
 .rotulo-chico {{ font: 700 7.5pt 'Plus Jakarta Sans'; letter-spacing: 1pt; text-transform: uppercase; color: #8f7a83;
                  margin: 3mm 0 1mm; break-after: avoid; }}
 .historia {{ list-style: none; padding: 0; font-size: 8.8pt; }}
@@ -1374,6 +1448,7 @@ li {{ margin-bottom: .8mm; }}
 .oto img {{ flex: none; border-radius: 50%; object-fit: cover; }}
 .oto img.grande {{ width: 34mm; height: 34mm; }}
 .oto img.chica {{ width: 24mm; height: 24mm; }}
+.oto img.mediana, .oto .sin-foto.mediana {{ width: 29mm; height: 29mm; }}
 .oto .sin-foto.grande {{ width: 34mm; height: 34mm; }}
 .oto .sin-foto {{ flex: none; width: 24mm; height: 24mm; border-radius: 50%; border: .8pt dashed #c9b3bc;
   color: #a8939b; font-size: 7.2pt; display: flex; align-items: center; justify-content: center; }}

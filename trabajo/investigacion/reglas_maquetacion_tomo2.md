@@ -16,6 +16,7 @@ Cada capítulo del tomo II va dentro de `<div class="tomo2">`.
 ## 2. Texto a dos columnas (`capitulo()`: `dos_columnas`, `es_ancho`)
 
 - Las secciones de teoría seguidas (Técnica, Fisiología, Patología, Razonamiento) son **un solo texto corrido**: el título de cada sección va dentro de la columna (`h2.en-columna`). No hay bloques de dos columnas cerrados uno sobre otro.
+- **Tomo I (2026-10-28):** una figura apaisada no va con `column-span` sino que **cierra el bloque de dos columnas** y abre otro después (`es_ancho` en `capitulo()`), como las fichas de caso: con `column-span`, WeasyPrint perdía el texto que seguía a la figura hasta la próxima ficha (H3 perdió 6 páginas). El tomo II sigue con `column-span`.
 - Las figuras del texto van **dentro de la columna**, a su ancho, salvo las **apaisadas** (1,9 veces más anchas que altas o más, `APAISADA = 1.9`; una que no llega se fuerza con `:::imagen ruta ancho=… completa …`) y **todo dibujo SVG cuya letra, a ancho de columna (~83 mm), quedaría bajo 7 pt** (2026-10-21: "cualquiera con letras muy chicas"; hoy son todos los SVG de teoría): esas cortan las columnas y van a todo el ancho (2026-10-21: la 2.1, la 5.1 y la 8.1 no se leían en la columna). Solo cortan las columnas las fichas de caso y los recuadros `-ancho`.
 
 ## 3. Figuras
@@ -34,6 +35,8 @@ Cada capítulo del tomo II va dentro de `<div class="tomo2">`.
 - **Fila** (`:::lado` … `:::`): dos figuras, o una figura y una tabla, lado a lado (ya no las emisiones). Las figuras de una fila van a la misma altura (38 mm), sin el alto propio del SVG. Se usa para la **mariposa con el vHIT** y para el **vHIT con su tabla** cuando no hay calórica.
 
 - **Tomo I: los tamaños del tomo II** (él, 2026-10-27, revisando el digital: "de aquí en adelante usar los tamaños del tomo 2"). Las figuras del motor que van en la columna de una H van a todo el ancho de la columna (~83 mm; `div.tomo2.tomo1 .dos-col .figobs-motor:not(.apaisada)`), no al 80 %: así el audiograma mide lo que el de la hoja auditiva (76 mm) y la logo compacta lo que la del tomo II a media página. Los audiogramas de los casos desde H4 van **unidos** (`fig.audiograma(combinado=True)`: los dos oídos en una grilla, como se hace una audiometría); los globos siguen funcionando. La logo y las emisiones de los casos de las H salen compactas, como en el tomo II (`hacer_figuras.py`, `tomo2` también para `h*`). Una figura del motor que debe ir a todo el ancho sin ser apaisada: `:::figura nombre tipo [n] completa` (H3.1).
+
+- **Pacientes que vuelven en las H** (él, 2026-10-28: "vamos creciendo con el caso"). Un paciente de práctica que aparece en varias H lleva la ficha completa (anamnesis, historia, otoscopía y "Vuelve en: …") solo la primera vez en el tomo I; las siguientes, una ficha corta: cara, nombre, edad, una línea con el motivo de consulta (`RESUMEN_PACIENTE`, sin diagnóstico) y el mapa ("Anamnesis y otoscopía: caso H2.1 · Audiometría: H3.3 · …"), que sale solo del orden de los capítulos (`recorrido_tomo1`). Cada H muestra solo el examen que enseña: H3, solo el audiograma (unido, forma clínica); la logo va en H5 y las supraliminares en H6. Patricia Rivas (demo 38) queda fuera: ficha completa siempre.
 
 ## 4. Generadores del tomo II (`figuras/motor/`)
 

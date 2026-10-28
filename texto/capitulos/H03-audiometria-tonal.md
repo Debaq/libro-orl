@@ -172,21 +172,21 @@ Eso tiene dos consecuencias prácticas. La primera: una diferencia de 5 dB entre
 
 Todo audiómetro clínico tiene la misma lógica: **dos canales** independientes, cada uno con su pantalla y sus controles, y un **centro** con lo que comparten los dos (la frecuencia, el paso, el cronómetro). Uno lleva el tono al oído que estás midiendo; el otro, cuando hace falta, lleva el ruido que enmascara al oído contrario. La figura muestra un audiómetro armado justo así: tono por el canal 1 al oído derecho y ruido de banda estrecha por el canal 2 al izquierdo.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png completa Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.
-- @4,13 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aérea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.
-- @40,10 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de abajo.
-- @51,22 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.
-- @96,13 | **Pantalla del canal 2.** Ruido de banda estrecha (*Narrow Band Noise*) a 60 dB al oído izquierdo: es el enmascarante (→ H4).
-- @10,30 | **Salida.** A qué oído va el canal. Un error aquí invierte el audiograma completo.
-- @26,59 | **Estímulo.** Tono, tono modulado (FM), habla y los ruidos: blanco (WN), banda estrecha (NBN), rosa (PN) y de habla (SN).
-- @36,52 | **Transductor.** Fonos (*Aéreo*) o vibrador (*Osea*). Al pasar a ósea, cambia también lo que tiene puesto el paciente.
-- @42,43 | **Alta frecuencia.** Suma las frecuencias de 9 a 16 kHz para el monitoreo de ototóxicos.
-- @42,53 | **Paso.** 1, 3 o 5 dB por clic de la perilla. Para buscar umbrales se usa 5.
-- @42,61 | **Rango extendido.** Lleva la vía aérea de 100 a 120 dB HL.
-- @8,78 | **Perilla del canal 1.** Sube y baja la intensidad del canal.
-- @16.5,72.5 | **Pulsado e Invertir.** Pulsado: el tono suena en pulsos. Invertir: el canal queda sonando continuo; así se deja encendido el ruido enmascarante.
-- @16.5,84 | **Estímulo (botón grande).** El tono suena **solo mientras lo mantienes apretado**. Uno a dos segundos, con pausas irregulares.
-- @32.5,82 | **Talkback.** Le hablas al paciente dentro de la cabina, por ejemplo para darle la instrucción.
+:::imagen ilustraciones/labsim-audiometro-tono.png completa Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.
+- @3,6 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aerea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.
+- @40,9 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de *Frecuencia*.
+- @31,23.5 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.
+- @97,6 | **Pantalla del canal 2.** Ruido de banda estrecha (*Narrow Band Noise*) a 60 dB al oído izquierdo: es el enmascarante (→ H4).
+- @3.2,35.4 | **Salida.** A qué oído va el canal. Un error aquí invierte el audiograma completo.
+- @18.8,31.5 | **Estímulo.** Tono, tono modulado (FM), habla y los ruidos: blanco (WN), banda estrecha (NBN), rosa (PN) y de habla (SN).
+- @29.7,31.5 | **Transductor.** Fonos (*Aéreo*) o vibrador (*Osea*). Al pasar a ósea, cambia también lo que tiene puesto el paciente.
+- @53.6,35.4 | **Alta frecuencia.** Suma las frecuencias de 9 a 16 kHz para el monitoreo de ototóxicos.
+- @39.2,44.6 | **Pasos.** 1, 3 o 5 dB por clic de la perilla. Para buscar umbrales se usa 5.
+- @60.8,44.5 | **Rango extendido** (*Ext.*). Lleva la vía aérea de 100 a 120 dB HL.
+- @6,80 | **Perilla del canal 1.** Sube y baja la intensidad del canal.
+- @17.6,78.9 | **Pulsado e Invertir.** Pulsado: el tono suena en pulsos. Invertir: el canal queda sonando continuo; así se deja encendido el ruido enmascarante.
+- @17.6,90.4 | **Estímulo (botón grande).** El tono suena **solo mientras lo mantienes apretado**. Uno a dos segundos, con pausas irregulares.
+- @39.2,69.1 | **Talkback.** Le hablas al paciente dentro de la cabina, por ejemplo para darle la instrucción.
 :::
 
 :::ayuda Antes de cada tono, de izquierda a derecha
@@ -419,21 +419,21 @@ Antes de aceptar un gap, descarta los que fabrica la técnica: un conducto que c
 
 {{caso h3_p34}}
 
-:::imagen figuras/salida/h3_p34_audiosupra.svg ancho=100% Hoja auditiva del caso H3.3: hipoacusia conductiva del OD, con el OI normal enmascarado. Imagen propia del libro.
+:::imagen figuras/salida/h3_p34_audiograma.svg ancho=100% Audiometría del caso H3.3: hipoacusia conductiva del OD, con el OI normal enmascarado. Imagen propia del libro.
 :::
 
 En el OD la aérea enmascarada está en 55 dB en 250 Hz y la ósea enmascarada en 10 dB: un gap de 45 dB. En 2 kHz la ósea baja a 25 dB y luego vuelve a subir: es la **muesca de Carhart**, propia de la fijación del estribo. El OI es normal, y es el que se enmascaró para medir el derecho. Ósea normal, aérea abajo y un gap amplio: **hipoacusia conductiva** del OD.
 
 {{caso h3_p36}}
 
-:::imagen figuras/salida/h3_p36_audiosupra.svg ancho=100% Hoja auditiva del caso H3.4: hipoacusia sensorioneural bilateral, simétrica y descendente. Imagen propia del libro.
+:::imagen figuras/salida/h3_p36_audiograma.svg ancho=100% Audiometría del caso H3.4: hipoacusia sensorioneural bilateral, simétrica y descendente. Imagen propia del libro.
 :::
 
 En 4 kHz la aérea del OD está en 60 dB y la ósea en 55: van **juntas**, sin gap. En el OI pasa lo mismo: aérea y ósea en 30 dB en 1 kHz. Los graves están casi normales y la pérdida crece hacia los agudos: configuración **descendente**. Es una **hipoacusia sensorioneural bilateral y simétrica**, y la ósea se midió donde la aérea está alterada.
 
 El OI de Luis (caso H3.1) es el ejemplo de mixta:
 
-:::imagen figuras/salida/h3_p41_audiosupra.svg ancho=100% Hoja auditiva de Luis (caso H3.1): hipoacusia mixta del OI. Imagen propia del libro.
+:::imagen figuras/salida/h3_p41_audiograma.svg ancho=100% Audiometría de Luis (caso H3.1): hipoacusia mixta del OI. Imagen propia del libro.
 :::
 
 En el OI la aérea enmascarada está en 50 dB en 1 kHz y la ósea enmascarada en 25 dB: hay gap, pero la ósea tampoco es normal. En 4 kHz la ósea llega a 45 dB: la cóclea también está dañada, sobre todo en los agudos. Con las dos vías alteradas y un gap de 20 a 30 dB, es una **hipoacusia mixta** del OI.
@@ -513,7 +513,7 @@ Antes de llamarla asimetría, comprueba que sea real. Un fono corrido o un oído
 
 {{caso h3_p42}}
 
-:::imagen figuras/salida/h3_p42_audiosupra.svg ancho=100% Hoja auditiva del caso H3.5: curva sombra en el OD, que sin enmascarar "responde" lo que oye el OI. Imagen propia del libro.
+:::imagen figuras/salida/h3_p42_audiograma.svg ancho=100% Audiometría del caso H3.5: curva sombra en el OD, que sin enmascarar "responde" lo que oye el OI. Imagen propia del libro.
 :::
 
 El OD "responde" en 40 dB, y su ósea en 0 dB. No es su audición: el tono cruzó el cráneo y lo oyó el OI, que es el normal y estuvo contestando todo el tiempo. Con fonos supraaurales el sonido pierde unos 40 dB al cruzar, y por vía ósea casi nada. La curva del OD copia la del OI unos 40 dB más abajo: es una **curva sombra**. Con el OI enmascarado, el OD no responde ni al máximo del equipo y se dibuja con la flecha de "sin respuesta": **cofosis** del OD. → H4.
@@ -522,7 +522,7 @@ El OD "responde" en 40 dB, y su ósea en 0 dB. No es su audición: el tono cruz�
 
 {{caso h3_p37}}
 
-:::imagen figuras/salida/h3_p37_audiosupra.svg ancho=100% Hoja auditiva del caso H3.6: muesca por ruido, bilateral y casi simétrica. Imagen propia del libro.
+:::imagen figuras/salida/h3_p37_audiograma.svg ancho=100% Audiometría del caso H3.6: muesca por ruido, bilateral y casi simétrica. Imagen propia del libro.
 :::
 
 El fondo está en 4 kHz: 55 dB en el OD y 60 dB en el OI. En 8 kHz el OD vuelve a 30 dB: esa **recuperación** es la que separa la muesca por ruido de una caída por edad. Es **bilateral y casi simétrica**, como el ruido laboral. Hasta 1 kHz la audición es normal, y por eso el promedio BIAP del OD da solo 21 dB, apenas leve.

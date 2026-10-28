@@ -95,14 +95,14 @@ La norma define un **campo cuasi libre**: un parlante a 1 m o más y un nivel qu
 
 Para pasar de fonos a parlantes se cambia el **transductor** del canal; la **salida** elige entonces el parlante en vez del oído.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png Los controles del campo libre en el audiómetro Imagen propia: captura de LabSim.
-- @36.5,50.5 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos.
-- @15.5,50.5 | **Simultáneo.** Hace sonar los dos lados a la vez; en campo libre, los dos parlantes. También en gris.
-- @10,30 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.
-- @26,59 | **Estímulo.** En campo libre, **FM** (tono modulado, *warble*) o **NBN**. Nunca *Tono*: el tono puro forma ondas estacionarias en la sala.
-- @42,53 | **Paso.** En la VRA se baja de 20 en 20 mientras el niño responde; cerca del nivel mínimo, 10 abajo y 5 arriba.
-- @16.5,84 | **Estímulo (botón grande).** En la VRA el sonido dura 2 a 3 segundos, nunca a ritmo fijo; el refuerzo se enciende solo si el niño giró.
-- @32.5,82 | **Talkback.** Para hablarle al niño, al acompañante y al examinador que está adentro.
+:::imagen ilustraciones/labsim-audiometro-campo-libre.png completa Los controles del campo libre en el audiómetro, con el canal 1 en tono modulado (FM) Imagen propia: captura de LabSim.
+- @23.8,49.6 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos. En LabSim está en gris: el campo libre todavía no se practica.
+- @3.2,49.6 | **Simultáneo.** Hace sonar los dos lados a la vez; en campo libre, los dos parlantes. También en gris.
+- @3.2,35.4 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.
+- @18.8,31.5 | **Estímulo.** En campo libre, **FM** (tono modulado, *warble*) o **NBN**. Nunca *Tono*: el tono puro forma ondas estacionarias en la sala.
+- @39.2,44.6 | **Pasos.** En la VRA se baja de 20 en 20 mientras el niño responde; cerca del nivel mínimo, 10 abajo y 5 arriba.
+- @17.6,90.4 | **Estímulo (botón grande).** En la VRA el sonido dura 2 a 3 segundos, nunca a ritmo fijo; el refuerzo se enciende solo si el niño giró.
+- @39.2,69.1 | **Talkback.** Para hablarle al niño, al acompañante y al examinador que está adentro.
 :::
 
 ### El niño y su familia

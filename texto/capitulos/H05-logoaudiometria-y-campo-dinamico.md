@@ -88,14 +88,14 @@ Cuando la cóclea pierde sus células ciliadas externas, el umbral sube y el LDL
 
 Es el mismo audiómetro de la audiometría tonal (→ H3). Cambian el estímulo del canal 1, que pasa a ser la voz, y el ruido del canal 2, que pasa a ser ruido de habla.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro: lo que se usa en la logoaudiometría Imagen propia: captura de LabSim.
-- @4,13 | **Pantalla del canal 1.** Con *Habla*, el nivel de la voz en dB HL y el oído al que va.
-- @36,17 | **Prueba.** Al elegir *Habla* cambia de *Umbrales* a *Logoaudiometría* y muestra los aciertos, por ejemplo *0/25 : 0%*.
-- @10,30 | **Salida.** La voz va al oído evaluado; el ruido, al otro.
-- @26,59 | **Habla.** Convierte el canal en canal de voz. Con *Invertir* queda abierto y cada palabra que elijas en la lista suena.
-- @74,59 | **SN, ruido de habla.** En el canal 2, al oído contrario y con *Invertir* para que quede sonando: el enmascarante de la logoaudiometría (→ H4).
-- @32.3,75 | **+1 · Limpiar · -1.** Cuentan los aciertos: un +1 por palabra bien repetida; *Limpiar* antes de cada lista.
-- @32.5,82 | **Talkback.** La instrucción: *Escuche mi voz* para el SDT, *Pitos fuertes* para el LDL.
+:::imagen ilustraciones/labsim-audiometro-habla.png completa El audiómetro en logoaudiometría: habla por el canal 1 al oído evaluado y ruido de habla por el canal 2 al contrario. Imagen propia: captura de LabSim.
+- @3,6 | **Pantalla del canal 1.** Con *Habla*, el nivel de la voz en dB HL (aquí 50) y el oído al que va.
+- @40,9 | **Prueba.** Al elegir *Habla* cambia de *Umbrales* a *Logoaudiometría* y muestra los aciertos: *0/25 : 0%* al empezar una lista.
+- @3.2,35.4 | **Salida.** La voz va al oído evaluado; el ruido, al otro.
+- @14.3,49.6 | **Habla.** Convierte el canal en canal de voz. Con *Invertir* queda abierto y cada palabra que elijas en la lista suena.
+- @85.7,60 | **SN, ruido de habla.** En el canal 2, al oído contrario (*Speech Noise* en su pantalla) y con *Invertir* para que quede sonando: el enmascarante de la logoaudiometría (→ H4).
+- @39.2,62.7 | **+1 · Limpiar · -1.** Cuentan los aciertos: un +1 por palabra bien repetida; *Limpiar* antes de cada lista.
+- @39.2,69.1 | **Talkback.** La instrucción: *Escuche mi voz* para el SDT, *Pitos fuertes* para el LDL.
 :::
 
 ## Paso a paso

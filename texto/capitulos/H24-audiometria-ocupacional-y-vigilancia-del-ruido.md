@@ -273,17 +273,17 @@ Para la vigilancia, la guía 3.0 pide que la verificación objetiva de la calibr
 
 El audiómetro es el de H3 (dos canales y un centro con lo común). En la vigilancia ocupacional solo se usa **un canal**, con tono por **vía aérea**, y todo lo demás queda apagado. La figura marca lo que se revisa en el chequeo del día y lo que no se toca.
 
-:::imagen /docs/manual/img/estudiante/audiometro.png El audiómetro, con el canal 1 armado para una audiometría de vigilancia Imagen propia: captura de LabSim.
-- @4,13 | **Pantalla del canal 1.** Aquí se lee lo que va a sonar: nivel, transductor (*Aérea*), salida y estímulo. En el chequeo del día se recorre con un oyente de audición conocida, de nivel bajo a nivel alto, buscando ruidos extraños.
-- @40,10 | **Frecuencia.** El chequeo la recorre de 250 a 8.000 Hz; la vigilancia usa 500 a 8.000 (250 solo en confirmación y egreso).
-- @10,30 | **Salida.** A qué oído va el tono. Un error aquí invierte el audiograma, y como es un control contra una base, **inventa un cambio** que no existe.
-- @26,59 | **Estímulo.** En vigilancia, solo *Tono*. Los ruidos (blanco, banda estrecha) son para el enmascaramiento, que este método no usa.
-- @36,52 | **Transductor.** *Aéreo*, siempre. El vibrador óseo no forma parte de la vigilancia.
-- @42,53 | **Paso.** 5 dB para buscar el umbral, igual que en H3.
-- @42,43 | **Alta frecuencia.** Fuera de la vigilancia de ruido (se usa para ototóxicos, → H3).
-- @96,13 | **Pantalla del canal 2.** Sin uso: no se enmascara, y por eso el método sirve para pérdidas simétricas.
-- @16.5,84 | **Estímulo (botón grande).** El tono suena solo mientras lo mantienes apretado: 1 a 2 segundos, con pausas irregulares.
-- @32.5,82 | **Talkback.** Para dar la instrucción antes de poner los fonos y para pedir una pausa si algo distrae al trabajador.
+:::imagen ilustraciones/labsim-audiometro-vigilancia.png completa El audiómetro, con el canal 1 armado para una audiometría de vigilancia Imagen propia: captura de LabSim.
+- @3,6 | **Pantalla del canal 1.** Aquí se lee lo que va a sonar: nivel, transductor (*Aérea*), salida y estímulo. En el chequeo del día se recorre con un oyente de audición conocida, de nivel bajo a nivel alto, buscando ruidos extraños.
+- @40,9 | **Frecuencia.** El chequeo la recorre de 250 a 8.000 Hz; la vigilancia usa 500 a 8.000 (250 solo en confirmación y egreso).
+- @3.2,35.4 | **Salida.** A qué oído va el tono. Un error aquí invierte el audiograma, y como es un control contra una base, **inventa un cambio** que no existe.
+- @18.8,31.5 | **Estímulo.** En vigilancia, solo *Tono*. Los ruidos (blanco, banda estrecha) son para el enmascaramiento, que este método no usa.
+- @29.7,31.5 | **Transductor.** *Aéreo*, siempre. El vibrador óseo no forma parte de la vigilancia.
+- @39.2,44.6 | **Pasos.** 5 dB para buscar el umbral, igual que en H3.
+- @53.6,35.4 | **Alta frecuencia.** Fuera de la vigilancia de ruido (se usa para ototóxicos, → H3).
+- @97,6 | **Pantalla del canal 2.** Sin uso: no se enmascara, y por eso el método sirve para pérdidas simétricas.
+- @17.6,90.4 | **Estímulo (botón grande).** El tono suena solo mientras lo mantienes apretado: 1 a 2 segundos, con pausas irregulares.
+- @39.2,69.1 | **Talkback.** Para dar la instrucción antes de poner los fonos y para pedir una pausa si algo distrae al trabajador.
 :::
 
 ### El trabajador
