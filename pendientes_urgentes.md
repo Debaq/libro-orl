@@ -1,10 +1,18 @@
-# Pendientes urgentes (actualizada el 2026-10-21)
+# Pendientes urgentes (actualizada el 2026-10-26)
 
 Lo que falta para que el libro esté listo. Se trabaja en el tomo II; el tomo I no se toca por ahora ("aún no decido nada").
 
 ## Tomo II (caps. 1 a 38)
 
 1. **Otoscopía de tres casos con efusión, sin decidir (2026-10-21: "ese es otro problema, luego").** Todos los pacientes de los caps. 1 a 34 llevan otoscopía (foto y descripción, `otoscopias/CREDITOS-casos.md` y `otoscopias/DESCRIPCIONES.md`), salvo estos tres, cuyo texto no dice qué se ve: cap16_efusion (20 días, OD refiere, timpanograma plano), cap17_efusion_neonatal (12 semanas, bilateral) y cap30_nino_otitis (7 años, "tímpanos opacos" hace 60 días, curva C bilateral). Falta decidir la descripción y si llevan foto de efusión del banco. Además, los autores revisan el lado de cada foto en `investigacion/otoscopias_revision/` (columna "Reflejada" + `herramientas/armar_otoscopias.py`).
+
+## Para el libro, desde las clases de Electro (2026-10-26)
+
+0. **H13 y H14 no tienen casos con registro: LabSim sí los modela.** `material/ilustraciones/hacer_cap17_assr.py` dice "LabSim no genera ASSR" y simula a mano; `ESTADO.md` anota H13 "sin LabSim". Pero `src/abr/assr.py` (`Recording`, búsqueda automática, grilla con p, espectro, nHL → eHL) y `src/abr/cortical.py` (MLR C3/Cz/C4, CAEP, P300, MMN, con el bloque `Central`: hemisferio, oído, estado, tensión cervical, retardo de P1 y P300, error de conteo) generan todo eso desde los casos. Hallazgos al armar los decks:
+   - **ASSR**: el único caso con figura es Alba (17.3), dibujado a mano. Con el motor salen la grilla y el audiograma estimado de Pedro (17.2), Andrea (17.1), Jorge (17.4; el ASSR "detecta" 60-80 nHL con ABR plano: es el caso que enseña por qué no se hace), Enrique (19.2) y Marta Sofía (19.3). Para Alba el motor da umbrales de 100 a 120 nHL (sobre el tope de la BSA) si se deja subir: sirve como advertencia. La corrección del motor es 15/12/10/10 (criterio de trabajo), no la de la BSA: decidir cuál usa el libro.
+   - **MLR**: solo Juan (30.1) tiene MLR, y es simétrico. No hay ningún caso con efecto electrodo ni efecto oído, ni con el reflejo postauricular dibujado (H14 lo describe), ni dormido. Con `Central` se generan: ACV con C4 reducido con los dos oídos, schwannoma (Lourdes, 11.2) con el OD mínimo en todos los canales (y la advertencia de descontar la periferia), Natalia (30.3) dormida vs despierta, Sara (30.2) con PAM (mastoides vs lóbulo). Candidatos a casos de H14 o del cap. 30.
+   - **Corticales**: falta un caso de P1 en implante coclear (período sensible de Sharma) y uno de P300 lenta con tarea mal hecha; generados sobre cap19_nina (edad 6 → 7, `p1_retardo_ms` 130 → 85) y h10_anciano (`p300_retardo_ms` 70, `conteo_error` 0,3).
+   - Scripts, JSON y el cómo en `trabajo/investigacion/electro_2026-10-26/LEEME.md`.
 
 ## Tomo I (caps. B y H y anexos), en espera
 

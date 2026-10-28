@@ -26,8 +26,8 @@ LIBRO = AQUI.parent
 sys.path.insert(0, str(AQUI))
 import hacer_libro as H  # noqa: E402
 
-PROTOCOLO = LIBRO / 'investigacion' / 'errores_tomo1_2026-10-22' / 'protocolo_vs_libro.xlsx'
-SALIDA = LIBRO / 'revision_colegas' / 'tareas_revision_autores.xlsx'
+PROTOCOLO = LIBRO / 'trabajo' / 'investigacion' / 'errores_tomo1_2026-10-22' / 'protocolo_vs_libro.xlsx'
+SALIDA = LIBRO / 'trabajo' / 'revision_colegas' / 'tareas_revision_autores.xlsx'
 FILAS_OBS = 60
 
 FUENTE = 'Arial'
@@ -54,7 +54,7 @@ GRAVEDAD = '"Grave,Importante,Menor"'
 
 def paginas(tomo):
     """{'H3' o '17': (título, primera, última)} del índice del PDF."""
-    r = PdfReader(LIBRO / f'libro-tomo-{tomo}.pdf')
+    r = PdfReader(LIBRO / 'ediciones' / 'digital' / f'libro-tomo-{tomo}.pdf')
     planos = []
 
     def recorrer(o):
@@ -108,7 +108,7 @@ def orden_cap(cap):
 
 def casos_por_capitulo():
     out = {}
-    for f in (LIBRO / 'capitulos').glob('[0-9][0-9]-*.md'):
+    for f in (LIBRO / 'texto' / 'capitulos').glob('[0-9][0-9]-*.md'):
         out[str(int(f.name[:2]))] = f.read_text(encoding='utf-8').count('{{caso ')
     return out
 

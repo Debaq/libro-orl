@@ -1,8 +1,8 @@
-# El compilado (libro.pdf) se rearma con herramientas/hacer_libro.py
-libro.pdf
-libro-tomo-*.pdf
+# Los PDF de ediciones/ se rearman (hacer_libro.py, hacer_kdp.py) o son copias entregadas
+/ediciones/**/*.pdf
+/ediciones/kdp/pruebas/
 /salida/
 # Material privado del autor: no se publica
 fuentes/
-otoscopias/bancos/
+material/otoscopias/bancos/
 __pycache__/

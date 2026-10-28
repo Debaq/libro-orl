@@ -34,5 +34,5 @@ for c in mod['CASOS']:
         if previo != c['caso']:
             sys.exit(f'{n}: el pedido del caso cambió y habría que rearmarlo con LabSim (Capitulo.generar).')
     nombres.append(n)
-subprocess.run([*libro.python_figuras(), str(libro.LIBRO / 'figuras' / 'hacer_figuras.py'), *nombres],
+subprocess.run([*libro.python_figuras(), str(libro.MATERIAL / 'figuras' / 'hacer_figuras.py'), *nombres],
                check=True, cwd=libro.RAIZ, env=dict(os.environ, QT_QPA_PLATFORM='offscreen'))

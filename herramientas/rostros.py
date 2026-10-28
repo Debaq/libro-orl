@@ -28,7 +28,7 @@ from ilustrar import clave, MODELO  # noqa: E402
 import base64  # noqa: E402
 
 LIBRO = pathlib.Path(__file__).resolve().parent.parent
-ROSTROS = LIBRO / 'rostros'
+ROSTROS = LIBRO / 'material' / 'rostros'
 PEDIDOS = ROSTROS / 'pedidos.json'
 REGISTRO = ROSTROS / 'REGISTRO.md'
 

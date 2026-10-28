@@ -368,7 +368,8 @@ def armar(forzar=False, destino=None, tomo=None, solo_frente=False, caps=None, c
 
     writer.add_metadata({'/Title': H.TITULO + (f'. Tomo {tomo}' if tomo else '')})
     writer.page_mode = '/UseOutlines'
-    destino = pathlib.Path(destino) if destino else H.LIBRO / f'libro{sufijo}.pdf'
+    destino = pathlib.Path(destino) if destino else H.DIGITAL / f'libro{sufijo}.pdf'
+    destino.parent.mkdir(parents=True, exist_ok=True)
     temporal = destino.with_name(f'.{destino.stem}.{os.getpid()}.pdf')
     with open(temporal, 'wb') as f:
         writer.write(f)

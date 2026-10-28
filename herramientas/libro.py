@@ -25,7 +25,8 @@ import sys
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent                                   # docs/libro
 RAIZ = pathlib.Path(os.environ.get('LABSIM', LIBRO.parent / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
-CASOS = LIBRO / 'casos'
+MATERIAL = LIBRO / 'material'
+CASOS = MATERIAL / 'casos'
 GENERADOS = CASOS / 'generados'
 
 
@@ -280,11 +281,11 @@ class Capitulo:
         if '--solo-pdf' not in argv:
             if rearmar:
                 print('Armando casos:', ', '.join(rearmar))
-                subprocess.run([str(LIBRO / 'figuras' / 'armar_casos.sh'), *rearmar], check=True, cwd=RAIZ)
+                subprocess.run([str(MATERIAL / 'figuras' / 'armar_casos.sh'), *rearmar], check=True, cwd=RAIZ)
             # sin casos no hay figuras: hacer_figuras.py sin nombres rehace las de todo el libro
             if nombres and '--sin-figuras' not in argv:
                 print('Figuras:', ', '.join(nombres))
-                subprocess.run([*python_figuras(), str(LIBRO / 'figuras' / 'hacer_figuras.py'),
+                subprocess.run([*python_figuras(), str(MATERIAL / 'figuras' / 'hacer_figuras.py'),
                                 *nombres], check=True, cwd=RAIZ, env=dict(os.environ, QT_QPA_PLATFORM='offscreen'))
         # solo el capítulo: el libro entero se arma aparte (hacer_libro.py --completo)
         subprocess.run([sys.executable, str(AQUI / 'hacer_libro.py'), str(self.numero)], check=True, cwd=RAIZ)

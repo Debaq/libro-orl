@@ -13,7 +13,7 @@ from pathlib import Path
 
 from PIL import Image, ImageOps
 
-OTOS = Path(__file__).resolve().parent.parent / 'otoscopias'
+OTOS = Path(__file__).resolve().parent.parent / 'material' / 'otoscopias'
 
 
 def filas():

@@ -1,0 +1,5 @@
+PDF entregados para la revisión final (2026-10-27). Versión digital A4, dos tomos.
+Congelados: no se rearman ni se tocan. Los PDF de ediciones/digital/
+(libro-tomo-I.pdf, libro-tomo-II.pdf) pueden cambiar con nuevos armados; estos no.
+Verificar integridad:  sha256sum -c SHA256SUMS
+Tomo I: 516 págs. (armado 2026-10-22 18:46) · Tomo II: 868 págs. (armado 2026-10-22 18:45)

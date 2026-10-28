@@ -51,13 +51,16 @@ import markdown
 
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent                                   # docs/libro
-RAIZ = LIBRO / 'labsim'   # copia de los recursos de LabSim que usa el armado (labsim/LEEME.md)
+TEXTO = LIBRO / 'texto'                               # capítulos, preliminares e índice
+MATERIAL = LIBRO / 'material'                         # casos, figuras, ilustraciones, fotos, logos
+RAIZ = MATERIAL / 'labsim'   # copia de los recursos de LabSim que usa el armado (material/labsim/LEEME.md)
 SALIDA = LIBRO / 'salida'                             # PDF de capítulos sueltos (no se versiona)
-CAPITULOS = LIBRO / 'capitulos'
-CASOS = LIBRO / 'casos'
-SALIDA_FIG = LIBRO / 'figuras' / 'salida'
-ROSTROS = LIBRO / 'rostros'
-OTOSCOPIAS = LIBRO / 'otoscopias'
+DIGITAL = LIBRO / 'ediciones' / 'digital'            # libro.pdf y los dos tomos A4 (no se versionan)
+CAPITULOS = TEXTO / 'capitulos'
+CASOS = MATERIAL / 'casos'
+SALIDA_FIG = MATERIAL / 'figuras' / 'salida'
+ROSTROS = MATERIAL / 'rostros'
+OTOSCOPIAS = MATERIAL / 'otoscopias'
 FUENTES = RAIZ / 'docs' / 'manual' / 'fuentes'
 CASOS_DEMO = RAIZ / 'docs' / 'manual' / 'capturas' / 'casos_demo.json'
 
@@ -268,8 +271,8 @@ LICENCIA = 'CC BY-NC-SA 4.0'
 EDICION = 'Primera edición'
 SELLO = ['TecMedHub', 'Universidad Austral de Chile', 'Sede Puerto Montt']
 CIUDAD = 'Puerto Montt'
-LOGOS = LIBRO / 'logos'
-PRELIMINARES = LIBRO / 'preliminares'
+LOGOS = MATERIAL / 'logos'
+PRELIMINARES = TEXTO / 'preliminares'
 
 # Tomos (él, 2026-10-19): la obra sale en dos tomos (libro-tomo-I.pdf y
 # libro-tomo-II.pdf) y en una edición de tapa dura de un solo tomo
@@ -614,7 +617,7 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     archivo = SALIDA_FIG / (f'{nombre}_{tipo}' + (f'_{n}' if n > 1 else '') + '.svg')
     if not archivo.exists():
         # figuras del motor hechas a mano (versionadas): ilustraciones/
-        archivo = LIBRO / 'ilustraciones' / archivo.name
+        archivo = MATERIAL / 'ilustraciones' / archivo.name
     if not archivo.exists():
         return f'<p class="pendiente">Falta la figura {archivo.name}: correr figuras/hacer_figuras.py {nombre}</p>'
     svg = archivo.read_text(encoding='utf-8')
@@ -661,7 +664,17 @@ def figura_con_globos(nombre, tipo, n, lineas, numero_fig):
     if 'sin enmascarar' in svg and 'sin enmascarar' not in rot:
         rot += ' sin enmascarar'
     leyenda, lista = leyenda_globos(obs, numero_fig)
-    return (f'<div class="figobs figobs-motor fig-{tipo}"><figure class="fig">{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
+    # apaisada (emisiones, timpanograma...) o de ondas (PEAT, ECochG, VEMP: un
+    # panel por oído, alta si tiene muchos niveles): en el texto a dos columnas
+    # corta las columnas, como los dibujos de teoría (él, 2026-10-27: el PEAT
+    # H10.1.2 se veía muy chico en la columna)
+    apaisada = ' apaisada' if ancho / alto >= APAISADA or tipo in ('abr', 'ecochg', 'vemp', 'cortical') else ''
+    # una de ondas con muchos niveles es alta: al 80 % del ancho (~138 mm)
+    # pasaría de 110 mm de alto y dejaría la página vacía; se achica a ese alto
+    tope = ''
+    if apaisada and 0.8 * (2 * COLUMNA_MM + 6) * alto / ancho > 110:
+        tope = f' style="width:{110 * ancho / alto:.0f}mm"'
+    return (f'<div class="figobs figobs-motor fig-{tipo}{apaisada}"><figure class="fig"{tope}>{svg}<figcaption>Figura {numero_fig}. {rot}.{leyenda}</figcaption></figure>'
             f'{lista}</div>')
 
 
@@ -723,7 +736,7 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
     repo con '/docs/...'). `ancho` (p. ej. '60%' o '80mm') achica la imagen;
     sin él ocupa lo que dé la columna."""
     titulo, ia = aviso_ia(titulo)
-    archivo = (RAIZ / ruta.lstrip('/')) if ruta.startswith('/') else (LIBRO / ruta)
+    archivo = (RAIZ / ruta.lstrip('/')) if ruta.startswith('/') else (MATERIAL / ruta)
     if not archivo.exists():
         return f'<p class="pendiente"><span>Falta la imagen</span> {html.escape(ruta)}</p>'
     globos, obs, k = [], [], 0
@@ -820,6 +833,7 @@ def capitulo(md_texto):
                     import base64
                     datos = base64.b64encode(m[0].replace(' class="grafico"', '', 1).encode('utf-8')).decode('ascii')
                     return f'<img class="grafico-img" src="data:image/svg+xml;base64,{datos}">'
+                h = h.replace(' apaisada"', '"', 1)   # en la fila no corta columnas
                 return re.sub(r'<svg class="grafico".*?</svg>', rep, h, count=1, flags=re.S)
             def aspecto(h):
                 # ancho / alto de la figura de una celda (SVG en línea o archivo)
@@ -991,7 +1005,7 @@ def capitulo(md_texto):
         alt, src = html.unescape(m[1]), m[2]
         alt, ia = aviso_ia(alt)
         n = numeros['ilu'].pop(0) if numeros['ilu'] else 0
-        ruta = LIBRO / src
+        ruta = MATERIAL / src
         alt, _ = separar_credito(cap, f'{cap}.{n}', alt)
         pie = f'<figcaption>{ia}Figura {cap}.{n}. {html.escape(alt)}</figcaption>'
         if ruta.exists():
@@ -1464,7 +1478,7 @@ strong {{ color: #24101a; }}
 def partes_del_indice():
     """{clave de capítulo: (parte, título de la parte)} leído de indice.md."""
     out, parte = {}, None
-    for linea in (LIBRO / 'indice.md').read_text(encoding='utf-8').splitlines():
+    for linea in (TEXTO / 'indice.md').read_text(encoding='utf-8').splitlines():
         m = re.match(r'^## (.+)$', linea)
         if m:
             titulo = m[1].strip()
@@ -1819,7 +1833,7 @@ def main():
         SALIDA.mkdir(exist_ok=True)
         destino = SALIDA / f'capitulo-{"-".join(pedido)}.pdf'
     else:
-        destino = LIBRO / 'libro.pdf'
+        destino = DIGITAL / 'libro.pdf'
     weasy = shutil.which('weasyprint') or str(pathlib.Path.home() / '.local' / 'bin' / 'weasyprint')
     with tempfile.NamedTemporaryFile('w', suffix='.html', encoding='utf-8', delete=False) as f:
         f.write(doc)

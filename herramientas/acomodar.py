@@ -255,6 +255,7 @@ def componer(doc, base_url):
     raiz, mejor = _fichas_enteras(raiz, mejor, render_de)
     raiz, mejor = _partir_guias(raiz, mejor, render_de)
     raiz, mejor = _fichas_enteras(raiz, mejor, render_de)
+    raiz, mejor = _saltos_de_mas(raiz, mejor, render_de)
     return _ahorrar_ultima(raiz, mejor, render_de)
 
 
@@ -311,6 +312,32 @@ def _fichas_enteras(raiz, render, render_de):
         if not cambios:
             break
         render = render_de(raiz)
+    return raiz, render
+
+
+def _saltos_de_mas(raiz, render, render_de):
+    """Quita el salto de página que _fichas_enteras le puso a una ficha si
+    dejó la página anterior con un hueco grande y sin él la cabecera y la
+    anamnesis (y los Pasos) ya quedan juntas: el salto se decidió en una
+    composición anterior y después el texto se movió (él, 2026-10-27: la
+    ficha de Álvaro del cap. H10 dejaba la página 10 casi en blanco)."""
+    import copy
+    for c in raiz.find_class('caso'):
+        ident = c.get('id')
+        if c.tag != 'section' or 'break-before' not in (c.get('style') or ''):
+            continue
+        pagina = _pagina_de(render)
+        h = pagina.get(ident)
+        if not h or _hueco(render.pages[h - 1]) < HUECO_MAX:
+            continue
+        prueba = copy.deepcopy(raiz)
+        f = prueba.get_element_by_id(ident)
+        del f.attrib['style']
+        nuevo = render_de(prueba)
+        pag = _pagina_de(nuevo)
+        h2 = pag.get(ident)
+        if max(pag.get(ident + '-a', h2), pag.get(ident + '-p', h2)) == h2 and len(nuevo.pages) <= len(render.pages):
+            raiz, render = prueba, nuevo
     return raiz, render
 
 

@@ -38,9 +38,9 @@ import unicodedata
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent                                   # docs/libro
 RAIZ = pathlib.Path(os.environ.get('LABSIM', LIBRO.parent / 'LabSim'))   # checkout de LabSim (solo para rearmar casos y figuras)
-INDICE = LIBRO / 'indice.md'
-CAPITULOS = LIBRO / 'capitulos'
-INVESTIGACION = LIBRO / 'investigacion'
+INDICE = LIBRO / 'texto' / 'indice.md'
+CAPITULOS = LIBRO / 'texto' / 'capitulos'
+INVESTIGACION = LIBRO / 'trabajo' / 'investigacion'
 
 PHP_DATOS = r'''
 foreach (["Bibliografia","BibliografiaPatologias","AbrReferences","EcochgReferences","CaseProfile"] as $c) require_once "src/$c.php";
@@ -239,7 +239,7 @@ od=, oi=, grado_od=, grado_oi=, edad=, sexo='hombre'|'mujer', semilla=.
 import pathlib
 import sys
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 FIGURAS = [{figuras_por_defecto(n)}]
@@ -349,7 +349,7 @@ Una herramienta no necesita pacientes, pero puede ilustrar con algunos
 import pathlib
 import sys
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'herramientas'))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'herramientas'))
 from libro import Capitulo, cuadro, demo, fig  # noqa: E402,F401
 
 CASOS = [

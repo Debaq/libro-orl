@@ -29,7 +29,7 @@ import urllib.request
 
 AQUI = pathlib.Path(__file__).resolve().parent        # docs/libro/herramientas
 LIBRO = AQUI.parent
-ILUSTRACIONES = LIBRO / 'ilustraciones'
+ILUSTRACIONES = LIBRO / 'material' / 'ilustraciones'
 REGISTRO = ILUSTRACIONES / 'REGISTRO.md'
 # El más económico por defecto (2026-10-17); para rostros con signos que el
 # Lite no dibuja (ver rostros/REHACER.md): LIBRO_MODELO_IMAGEN=gemini-3.1-flash-image
@@ -60,7 +60,7 @@ def clave():
 def pedidos():
     """{nombre: descripción} de todas las ilustraciones nombradas en los capítulos."""
     out = {}
-    for md in sorted((LIBRO / 'capitulos').glob('*.md')):
+    for md in sorted((LIBRO / 'texto' / 'capitulos').glob('*.md')):
         texto = md.read_text(encoding='utf-8')
         for desc, ruta in re.findall(r'!\[([^\]]+)\]\((ilustraciones/[^)]+)\)', texto):
             out[pathlib.Path(ruta).stem] = desc

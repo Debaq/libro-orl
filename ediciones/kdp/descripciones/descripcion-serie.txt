@@ -1,0 +1,22 @@
+NOMBRE DE LA SERIE
+Evaluación y rehabilitación en otorrinolaringología
+
+DESCRIPCIÓN DE LA SERIE
+
+Un libro para aprender a evaluar y rehabilitar en otorrinolaringología como se aprende en el box: con pacientes.
+
+La obra nació en 2015, en una sala con diez estudiantes que simulaban una reunión clínica, para aprender a decidir frente al paciente. Hoy es un tratado de otorrinolaringología para tecnólogos médicos, armado en torno a la discusión clínica y el aprendizaje basado en problemas. Cada técnica se explica paso a paso y cada caso se razona desde la anamnesis hasta el diagnóstico, con los exámenes relatados sobre sus gráficos.
+
+La serie tiene tres tomos:
+
+Tomo I · Bases y caja de herramientas. Anatomía, fisiología auditiva y vestibular, histología, física y salud pública, y 32 técnicas de audición, equilibrio, rehabilitación auditiva, salud ocupacional y nariz y sueño. De cada una: para qué sirve, su fundamento, qué preparar, el paso a paso, cómo se informa y los errores frecuentes.
+
+Tomo II · Casos clínicos, Partes I a VI. El oído que transmite, la cóclea, más allá de la cóclea, las hipoacusias mixtas, el recién nacido y los casos en que el problema es la técnica.
+
+Tomo III · Casos clínicos, Partes VII a XII. El vértigo, el equilibrio, la rehabilitación auditiva y vestibular, la salud ocupacional y la nariz.
+
+Los pacientes son ficticios y sus exámenes se generan con simuladores de apoyo (LabSim, trainHIT y labyrinthus3d), así que muchos casos se pueden atender en el simulador.
+
+Para estudiantes y tecnólogos médicos de otorrinolaringología, y para los docentes que los forman.
+
+Escuela de Tecnología Médica, Universidad Austral de Chile, Sede Puerto Montt · TecMedHub.
