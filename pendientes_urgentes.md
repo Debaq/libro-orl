@@ -2,6 +2,21 @@
 
 Lo que falta para que el libro esté listo. Se trabaja en el tomo II; el tomo I no se toca por ahora ("aún no decido nada").
 
+## Exámenes previos de los pacientes en LabSim: revisar (2026-10-29)
+
+En la práctica libre de LabSim, la ficha de cada paciente del libro trae la hoja de los exámenes previos: los que el libro muestra y el capítulo no enseña (el paciente del cap. 11 viene al PEATC con su audiometría hecha) y los que cuenta su historia clínica ("{{-138}} Audiometría de base…": esa línea lleva su hoja). Se dibujan con este mismo motor de figuras. Tabla completa en LabSim, `scripts/libro/historia_examenes.json`; resumen en LabSim `docs/audiometria_previa.md`.
+
+1. **Estados anteriores, provisorios: revisar y regenerar.** Seis exámenes cuentan un estado distinto al de hoy y no hay figura del libro para ellos. Se pidieron con su cuadro y su edad en `material/casos/previo_*.json`, pero `armar_casos.sh` no corrió: podman no arranca en este kernel ("overlay is not supported over extfs") y el disco está al 99 %. Por eso `generados/previo_*.json` lleva, por ahora, los datos de otro caso ya generado con el mismo cuadro y sexo (campo `_reusado_de`):
+   - Cap. 8, ototóxica (8.1), base de -138 días y control de -116: de cap31_meseta (normal, hombre de 33; él tenía 31). Audiometría y emisiones.
+   - Cap. 19, sobre lo real, ingreso de -2200: de cap33_control (muesca de 4 kHz, 41; él tenía 46).
+   - Cap. 33, control, ingreso de -2920 y control de -2555: de cap33_base (normal, 33).
+   - Cap. 33, reposo, control en terreno de -14 (TTS): de cap33_control (muesca, 41; él tenía 29). Es un TTS: decidir si la muesca de un trauma crónico sirve.
+   - Cap. 34, hidrops, audiometría de -1100: de cap24_gentamicina (normal, 52; él tenía 51).
+   - Paciente 37 (cap. 6), ocupacional de -2900: de cap31_buena (normal, 41; él tenía 39).
+   Al volver podman: `material/figuras/armar_casos.sh 'previo_*'` y, en LabSim, `scripts/libro/previos.py --solo-historia`.
+2. **Sin hoja todavía:** cap. 7 autoinmune, -70 días ("SN moderada OD, OI normal": no hay caso con un oído autoinmune y el otro sano); cap. 10 GJB2, PEATC de -1065 (umbral de V 70 dB) y refuerzo visual de -365 (60-65 dB, que no calza con la severa de hoy); cap. 34 exagera, ingreso de -2200 (la audiometría real, sin la exageración de hoy); H8 unilateral, refuerzo visual en campo libre de -730.
+3. **Tamizajes:** 23 líneas ("AABR refiere OD y OI", "tamizaje escolar: no pasa") llevan una tarjeta con el resultado de cada oído, sin curva. Revisar dos inferencias: cap. 16 efusión, -18 ("refiere en el oído derecho": se puso OI pasa), y cap. 1 estenosis/atresia, -2900 (OD "no evaluable").
+
 ## Tomo II (caps. 1 a 38)
 
 1. **Otoscopía de tres casos con efusión, sin decidir (2026-10-21: "ese es otro problema, luego").** Todos los pacientes de los caps. 1 a 34 llevan otoscopía (foto y descripción, `otoscopias/CREDITOS-casos.md` y `otoscopias/DESCRIPCIONES.md`), salvo estos tres, cuyo texto no dice qué se ve: cap16_efusion (20 días, OD refiere, timpanograma plano), cap17_efusion_neonatal (12 semanas, bilateral) y cap30_nino_otitis (7 años, "tímpanos opacos" hace 60 días, curva C bilateral). Falta decidir la descripción y si llevan foto de efusión del banco. Además, los autores revisan el lado de cada foto en `investigacion/otoscopias_revision/` (columna "Reflejada" + `herramientas/armar_otoscopias.py`).

@@ -1,0 +1,23 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "normal",
+      "OI": "normal"
+    },
+    "edad": 31,
+    "sexo": "hombre",
+    "semilla": 1
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra"
+    },
+    {
+      "tipo": "teoae"
+    },
+    {
+      "tipo": "dpoae"
+    }
+  ],
+  "_nota": "Examen anterior de un paciente del libro, armado para LabSim (ficha clínica de la práctica libre): REVISAR. Ver pendientes_urgentes.md."
+}

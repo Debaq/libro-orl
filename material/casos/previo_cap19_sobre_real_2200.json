@@ -1,0 +1,17 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "muesca_4k",
+      "OI": "muesca_4k"
+    },
+    "edad": 46,
+    "sexo": "hombre",
+    "semilla": 1
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra"
+    }
+  ],
+  "_nota": "Examen anterior de un paciente del libro, armado para LabSim (ficha clínica de la práctica libre): REVISAR. Ver pendientes_urgentes.md."
+}
