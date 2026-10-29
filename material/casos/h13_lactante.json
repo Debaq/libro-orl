@@ -1,0 +1,48 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "gjb2",
+      "OI": "gjb2"
+    },
+    "edad": 0,
+    "sexo": "mujer",
+    "edad_valor": 7,
+    "edad_unidad": "meses",
+    "grado": {
+      "OD": "severa",
+      "OI": "severa"
+    },
+    "semilla": 1481668643,
+    "anamnesis": {
+      "otros": "Tiene 7 meses y viene con su mamá y su papá. Nació de término, sin complicaciones, y no pasó el tamizaje auditivo en ninguno de los dos oídos. A los 3 meses le hicieron un PEAT con click que mostró una hipoacusia severa en los dos lados y el estudio genético salió positivo para GJB2. Los papás dicen que no se asusta con los portazos, pero que sí se ríe cuando le hablan mirándola. Balbucea poco. Un tío por el lado de la mamá es sordo desde chico. No ha tenido otitis ni hospitalizaciones.",
+      "historia": "{{-120}} Maternidad: tamizaje con emisiones refiere OD y OI; se repite antes del alta y vuelve a referir.\n{{-100}} Otorrinolaringólogo: PEAT con click, onda V hasta 85 dB nHL en OD y 90 dB nHL en OI. Solicita estudio genético.\n{{-30}} Genetista: dos variantes patogénicas en GJB2. Consejo genético a los padres.\n{{-7}} Otorrinolaringólogo: indica audífonos bilaterales. Solicita potenciales de estado estable para estimar los umbrales por frecuencia.",
+      "hist": [
+        "hipoacusia_familiar"
+      ],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "timpanograma",
+      "sonda": 1000
+    },
+    {
+      "tipo": "teoae"
+    }
+  ]
+}

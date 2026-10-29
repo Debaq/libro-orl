@@ -1,0 +1,43 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "cmv_congenito",
+      "OI": "normal"
+    },
+    "edad": 4,
+    "sexo": "hombre",
+    "grado": {
+      "OD": "moderada"
+    },
+    "semilla": 1153267858,
+    "anamnesis": {
+      "otros": "Tiene 4 años y viene con su mamá. Tiene diagnóstico de trastorno del espectro autista desde los 2 años y va a un jardín con apoyo. Habla poco, con frases cortas, y no tolera los audífonos de la audiometría: se los saca y llora. Al nacer le encontraron CMV en la orina por un examen que le pidieron por bajo peso; pasó el tamizaje de los dos oídos. La educadora notó que cuando lo llaman por la derecha no se da vuelta. En la casa sube el volumen de la tableta. No ha tenido otitis.",
+      "historia": "{{-400}} Neuropediatra: trastorno del espectro autista. Antecedente de CMV congénito sin tratamiento. Seguimiento auditivo anual.\n{{-60}} Fonoaudióloga del jardín: no gira al llamado por la derecha. Sugiere evaluación auditiva.\n{{-20}} Otorrinolaringólogo: otoscopía normal. Audiometría por juego no lograda: no tolera los fonos. Solicita PEAT y potenciales de estado estable.",
+      "hist": [],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "timpanograma",
+      "sonda": 226
+    },
+    {
+      "tipo": "teoae"
+    }
+  ]
+}

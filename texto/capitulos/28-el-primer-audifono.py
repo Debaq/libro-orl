@@ -62,6 +62,23 @@ CASOS = [
            "hay audífonos para el que oye de un solo oído" y quiere saber si le servirían.""",
            historia=[(13700, 'Parotiditis (paperas) con fiebre alta; desde entonces no oye por el oído derecho.'),
                      (60, 'Médico general: hipoacusia OD antigua, otoscopía normal. Se deriva a evaluación audiológica y de audífonos.')]),
+    # Alba: demencia moderada, respuestas conductuales que no se repiten; el
+    # ASSR estima los umbrales para adaptar audífonos. La hija (sala) y la poca
+    # conciencia de Alba se pusieron a mano en generados/ el 2026-10-29: cuadro()
+    # no declara acompañantes. Si se rearma, volver a ponerlos.
+    cuadro('no_colabora', [fig.audiosupra(), fig.abr(), fig.impedancia()],
+           od='presbiacusia', oi='presbiacusia', grado_od='moderada', grado_oi='moderada', edad=84, sexo='mujer',
+           central='deterioro_cognitivo', semilla=3867986864,
+           anamnesis="""Tiene 84 años y viene con su hija, que la cuida. Tiene una demencia tipo Alzheimer diagnosticada
+           hace tres años. La hija cuenta que la mamá oye cada vez menos, que la televisión está siempre fuerte y que en
+           las reuniones familiares se aísla y se pone irritable. Ella dice que oye bien y que la gente habla bajito. En
+           una audiometría anterior contestaba cuando no había sonido y se distraía a la mitad. Toma donepezilo y un
+           remedio para la presión. No ha tenido otitis ni mareos.""",
+           historia=[(900, 'Neurólogo: demencia tipo Alzheimer moderada. Inicia donepezilo.'),
+                     (45, 'Médico general: hipoacusia bilateral referida por la familia. Audiometría con respuestas inconsistentes, no confiable. Deriva a otorrinolaringología.'),
+                     (10, 'Otorrinolaringólogo: otoscopía normal. Indica audífonos. Solicita impedanciometría y potenciales de estado estable para estimar umbrales.')],
+           antecedentes=['hta'],
+           medicamentos='Donepezilo 10 mg al día. Losartán 50 mg al día.'),
 ]
 
 if __name__ == '__main__':

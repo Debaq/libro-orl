@@ -1,0 +1,919 @@
+{
+  "pedido": {
+    "cuadro": {
+      "OD": "gjb2",
+      "OI": "gjb2"
+    },
+    "edad": 0,
+    "sexo": "mujer",
+    "edad_valor": 7,
+    "edad_unidad": "meses",
+    "grado": {
+      "OD": "severa",
+      "OI": "severa"
+    },
+    "semilla": 1481668643,
+    "anamnesis": {
+      "otros": "Tiene 7 meses y viene con su mamá y su papá. Nació de término, sin complicaciones, y no pasó el tamizaje auditivo en ninguno de los dos oídos. A los 3 meses le hicieron un PEAT con click que mostró una hipoacusia severa en los dos lados y el estudio genético salió positivo para GJB2. Los papás dicen que no se asusta con los portazos, pero que sí se ríe cuando le hablan mirándola. Balbucea poco. Un tío por el lado de la mamá es sordo desde chico. No ha tenido otitis ni hospitalizaciones.",
+      "historia": "{{-120}} Maternidad: tamizaje con emisiones refiere OD y OI; se repite antes del alta y vuelve a referir.\n{{-100}} Otorrinolaringólogo: PEAT con click, onda V hasta 85 dB nHL en OD y 90 dB nHL en OI. Solicita estudio genético.\n{{-30}} Genetista: dos variantes patogénicas en GJB2. Consejo genético a los padres.\n{{-7}} Otorrinolaringólogo: indica audífonos bilaterales. Solicita potenciales de estado estable para estimar los umbrales por frecuencia.",
+      "hist": [
+        "hipoacusia_familiar"
+      ],
+      "medicamentos": "",
+      "cirugias": ""
+    }
+  },
+  "semilla": 1481668643,
+  "data": {
+    "gender": 1,
+    "id": 9643,
+    "Aerea": [
+      [
+        70,
+        75
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        75,
+        85
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        85,
+        90
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        80,
+        85
+      ]
+    ],
+    "Osea": [
+      [
+        70,
+        75
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        75,
+        85
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        85,
+        90
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        80,
+        85
+      ]
+    ],
+    "LDL": [
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ],
+      [
+        110,
+        110
+      ]
+    ],
+    "Aerea_mkg": [
+      [
+        70,
+        75
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        75,
+        85
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        85,
+        90
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        80,
+        85
+      ]
+    ],
+    "Osea_mkg": [
+      [
+        70,
+        75
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        75,
+        85
+      ],
+      [
+        75,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        80,
+        80
+      ],
+      [
+        85,
+        90
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        80,
+        85
+      ]
+    ],
+    "Z_OD": "A",
+    "Z_OI": "A",
+    "Z1000_OD": "auto",
+    "Z1000_OI": "auto",
+    "Rinne": {
+      "500": {
+        "od": "positivo",
+        "oi": "positivo"
+      },
+      "1000": {
+        "od": "positivo",
+        "oi": "positivo"
+      }
+    },
+    "Weber": {
+      "500": "od",
+      "1000": "centrado"
+    },
+    "sector": "Camara_sono",
+    "edad": 0,
+    "edad_horas": 5040,
+    "nacimiento": {
+      "parto": "vaginal",
+      "semanas": null,
+      "peso_g": null,
+      "torch": null,
+      "torch_sintomatica": false,
+      "uci_dias": null,
+      "ototoxicos": false,
+      "exanguinotransfusion": false,
+      "peg": false,
+      "vernix_limpiado": false,
+      "liquido_persistente": false,
+      "cesarea": false,
+      "pretermino_tardio": false,
+      "pretermino": false,
+      "muy_bajo_peso": false,
+      "percentil": {
+        "OD": 0.8526,
+        "OI": 0.2494
+      }
+    },
+    "volume": [
+      0.41,
+      0.57,
+      "N/D"
+    ],
+    "volume_cae": [
+      "normal",
+      "normal"
+    ],
+    "UMD": [
+      {
+        "int": 105,
+        "percentage": 56
+      },
+      {
+        "int": 110,
+        "percentage": 52
+      }
+    ],
+    "SDT": [
+      70,
+      75
+    ],
+    "SRT": [
+      75,
+      80
+    ],
+    "Fowler": {
+      "enabled": false,
+      "patterns": [],
+      "diplacusia": false
+    },
+    "Stenger": [
+      false,
+      false
+    ],
+    "SISI": [
+      90,
+      90
+    ],
+    "box": "Box_1",
+    "result": 1,
+    "state_login": 1,
+    "recruit": [
+      true,
+      true
+    ],
+    "decay": [
+      false,
+      false
+    ],
+    "Carhart": [
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "Stat": [
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "Rosemberg": [
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "Reflex": {
+      "ipsi": [
+        [
+          100,
+          110
+        ],
+        [
+          95,
+          100
+        ],
+        [
+          105,
+          105
+        ],
+        [
+          110,
+          130
+        ]
+      ],
+      "contra": [
+        [
+          115,
+          110
+        ],
+        [
+          110,
+          105
+        ],
+        [
+          110,
+          110
+        ],
+        [
+          130,
+          115
+        ],
+        [
+          115,
+          110
+        ]
+      ],
+      "tipo": {
+        "od": "normal",
+        "oi": "normal"
+      },
+      "decay": {
+        "od": false,
+        "oi": false
+      }
+    },
+    "ETF": [
+      "Normal",
+      "Normal"
+    ],
+    "Anamnesis": {
+      "antecedentes": {
+        "hipoacusia_familiar": true,
+        "ototoxicos": false,
+        "trauma_acustico": false,
+        "otitis": false,
+        "meningitis": false,
+        "tce": false,
+        "diabetes": false,
+        "hta": false
+      },
+      "medicamentos": "",
+      "cirugias": "",
+      "otros": "Tiene 7 meses y viene con su mamá y su papá. Nació de término, sin complicaciones, y no pasó el tamizaje auditivo en ninguno de los dos oídos. A los 3 meses le hicieron un PEAT con click que mostró una hipoacusia severa en los dos lados y el estudio genético salió positivo para GJB2. Los papás dicen que no se asusta con los portazos, pero que sí se ríe cuando le hablan mirándola. Balbucea poco. Un tío por el lado de la mamá es sordo desde chico. No ha tenido otitis ni hospitalizaciones.",
+      "ia": {
+        "generado": false,
+        "verificado": false,
+        "generado_en": "",
+        "verificado_por": "",
+        "verificado_en": ""
+      }
+    },
+    "PatientBehavior": "",
+    "PatientDisposition": 0,
+    "Sala": {
+      "version": 1,
+      "personas": [
+        {
+          "id": "p1",
+          "rol": "paciente",
+          "nombre": "Gabriela",
+          "edad": 0,
+          "genero": 1,
+          "es_paciente": true,
+          "informante": false,
+          "interrumpe": 20,
+          "conciencia": 0,
+          "confiabilidad": 79,
+          "version": "",
+          "comportamiento": "",
+          "disposicion": 0
+        },
+        {
+          "id": "amvt120mr7a",
+          "rol": "madre",
+          "nombre": "Carla García",
+          "edad": 32,
+          "genero": 1,
+          "es_paciente": false,
+          "informante": true,
+          "interrumpe": 100,
+          "conciencia": 80,
+          "confiabilidad": 62,
+          "version": "",
+          "comportamiento": "callada, deja hablar al paciente y solo corrige lo que sabe",
+          "disposicion": 1
+        }
+      ]
+    },
+    "Tinnitus": {
+      "presente": false
+    },
+    "Otoscopia": {
+      "fases": [
+        {
+          "texto": ""
+        }
+      ]
+    },
+    "Perfil": {
+      "version": 1,
+      "OD": {
+        "cce_pct": 95,
+        "retro": {
+          "i_iii_ms": 0.2,
+          "iii_v_ms": 0.2,
+          "global_delay_ms": 0,
+          "bloqueo": "ninguno",
+          "v_i_factor": 0.45,
+          "microfonica": "normal",
+          "desincronia": "ninguna",
+          "sensibilidad_tasa": "severa"
+        }
+      },
+      "OI": {
+        "cce_pct": 95,
+        "retro": {
+          "i_iii_ms": 0.2,
+          "iii_v_ms": 0.2,
+          "global_delay_ms": 0,
+          "bloqueo": "ninguno",
+          "v_i_factor": 0.45,
+          "microfonica": "normal",
+          "desincronia": "ninguna",
+          "sensibilidad_tasa": "severa"
+        }
+      },
+      "auto": {
+        "abr": true,
+        "eoas": true,
+        "reflex": true,
+        "recruit": true,
+        "logo": true
+      },
+      "ldl_tolerancia_db": 110
+    },
+    "ABR": {
+      "OD": {
+        "type": "coclear",
+        "umbral": 85,
+        "umbral_por_estimulo": {
+          "tone_burst_500Hz": 95,
+          "tone_burst_1000Hz": 90,
+          "tone_burst_2000Hz": 90,
+          "tone_burst_4000Hz": 95,
+          "nb_ce_chirp_ls_500Hz": 90,
+          "nb_ce_chirp_ls_1000Hz": 85,
+          "nb_ce_chirp_ls_2000Hz": 85,
+          "nb_ce_chirp_ls_4000Hz": 90,
+          "click": 85,
+          "ce_chirp": 85,
+          "ce_chirp_ls": 85
+        },
+        "umbral_por_estimulo_oseo": {
+          "tone_burst_500Hz": null,
+          "tone_burst_1000Hz": null,
+          "tone_burst_2000Hz": null,
+          "tone_burst_4000Hz": null,
+          "nb_ce_chirp_ls_500Hz": null,
+          "nb_ce_chirp_ls_1000Hz": null,
+          "nb_ce_chirp_ls_2000Hz": null,
+          "nb_ce_chirp_ls_4000Hz": null,
+          "click": null,
+          "ce_chirp": null,
+          "ce_chirp_ls": null
+        },
+        "neural": {
+          "i_iii_ms": 0.2,
+          "iii_v_ms": 0.2,
+          "global_delay_ms": 0,
+          "bloqueo": "ninguno",
+          "v_i_factor": 0.45,
+          "microfonica": "normal",
+          "desincronia": "ninguna",
+          "sensibilidad_tasa": "severa"
+        },
+        "repro": true,
+        "repro_var": 0,
+        "inquietud": 0,
+        "pam": 0,
+        "falsa_v": {
+          "amp": 0,
+          "lat": 5.6,
+          "int_min": 0,
+          "int_max": 120,
+          "mitad": "auto"
+        },
+        "ecochg": {
+          "sp_ap": 0.31,
+          "tasa": 1,
+          "rar_cond_ms": 0.1,
+          "mc": "normal"
+        },
+        "average_objetivo": 2482,
+        "desviaciones": {
+          "onda_I": {
+            "lat": 0.01,
+            "amp": -0.09
+          },
+          "onda_III": {
+            "lat": 0.11,
+            "amp": 0
+          },
+          "onda_V": {
+            "lat": 0.05,
+            "amp": 0.01
+          }
+        },
+        "nivel_referencia": null,
+        "barridos_criterio": 2000,
+        "respuesta_en_referencia": "presente",
+        "fsp_puntos": {
+          "800": 2.3,
+          "2000": 2.8,
+          "objetivo": 3
+        }
+      },
+      "OI": {
+        "type": "coclear",
+        "umbral": 90,
+        "umbral_por_estimulo": {
+          "tone_burst_500Hz": 105,
+          "tone_burst_1000Hz": 95,
+          "tone_burst_2000Hz": 90,
+          "tone_burst_4000Hz": 100,
+          "nb_ce_chirp_ls_500Hz": 100,
+          "nb_ce_chirp_ls_1000Hz": 90,
+          "nb_ce_chirp_ls_2000Hz": 85,
+          "nb_ce_chirp_ls_4000Hz": 95,
+          "click": 90,
+          "ce_chirp": 90,
+          "ce_chirp_ls": 90
+        },
+        "umbral_por_estimulo_oseo": {
+          "tone_burst_500Hz": null,
+          "tone_burst_1000Hz": null,
+          "tone_burst_2000Hz": null,
+          "tone_burst_4000Hz": null,
+          "nb_ce_chirp_ls_500Hz": null,
+          "nb_ce_chirp_ls_1000Hz": null,
+          "nb_ce_chirp_ls_2000Hz": null,
+          "nb_ce_chirp_ls_4000Hz": null,
+          "click": null,
+          "ce_chirp": null,
+          "ce_chirp_ls": null
+        },
+        "neural": {
+          "i_iii_ms": 0.2,
+          "iii_v_ms": 0.2,
+          "global_delay_ms": 0,
+          "bloqueo": "ninguno",
+          "v_i_factor": 0.45,
+          "microfonica": "normal",
+          "desincronia": "ninguna",
+          "sensibilidad_tasa": "severa"
+        },
+        "repro": true,
+        "repro_var": 0,
+        "inquietud": 0,
+        "pam": 0,
+        "falsa_v": {
+          "amp": 0,
+          "lat": 5.6,
+          "int_min": 0,
+          "int_max": 120,
+          "mitad": "auto"
+        },
+        "ecochg": {
+          "sp_ap": 0.29,
+          "tasa": 1,
+          "rar_cond_ms": 0.1,
+          "mc": "normal"
+        },
+        "average_objetivo": 2181,
+        "desviaciones": {
+          "onda_I": {
+            "lat": 0.14,
+            "amp": -0.09
+          },
+          "onda_III": {
+            "lat": 0.02,
+            "amp": -0.02
+          },
+          "onda_V": {
+            "lat": 0.04,
+            "amp": -0.01
+          }
+        },
+        "nivel_referencia": null,
+        "barridos_criterio": 2000,
+        "respuesta_en_referencia": "presente",
+        "fsp_puntos": {
+          "800": 2.3,
+          "2000": 2.8,
+          "objetivo": 3
+        }
+      },
+      "autor": {
+        "set": "__default__",
+        "label": "LabSim (default)",
+        "poblacion": "infant",
+        "baseline": {
+          "I": {
+            "lat": 1.7,
+            "amp": 0.191
+          },
+          "III": {
+            "lat": 4.37,
+            "amp": 0.219
+          },
+          "V": {
+            "lat": 6.5,
+            "amp": 0.331
+          }
+        }
+      }
+    },
+    "EOAS": {
+      "OD": {
+        "type": "coclear",
+        "umbral": 0,
+        "desviaciones": {
+          "500": 45,
+          "1000": 45,
+          "1500": 45,
+          "2000": 45,
+          "3000": 45,
+          "4000": 45,
+          "6000": 45,
+          "8000": 45
+        },
+        "atten_db": 0,
+        "ruido_db": 3.2,
+        "sello_pct": 84,
+        "variabilidad_db": 1.5,
+        "soae_mode": "auto",
+        "soae_peaks": []
+      },
+      "OI": {
+        "type": "coclear",
+        "umbral": 0,
+        "desviaciones": {
+          "500": 45,
+          "1000": 45,
+          "1500": 45,
+          "2000": 45,
+          "3000": 45,
+          "4000": 45,
+          "6000": 45,
+          "8000": 45
+        },
+        "atten_db": 0,
+        "ruido_db": 3.3,
+        "sello_pct": 83,
+        "variabilidad_db": 1.7,
+        "soae_mode": "auto",
+        "soae_peaks": []
+      }
+    },
+    "VEMP": {
+      "OD": {
+        "type": "normal",
+        "subtipos": {
+          "CVEMP": {
+            "peaks": [
+              "p13",
+              "n23"
+            ],
+            "umbral": 70,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 200,
+            "desviaciones": {
+              "p13": {
+                "lat": 0,
+                "amp": 0
+              },
+              "n23": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          },
+          "OVEMP": {
+            "peaks": [
+              "n10",
+              "p16"
+            ],
+            "umbral": 75,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 300,
+            "desviaciones": {
+              "n10": {
+                "lat": 0,
+                "amp": 0
+              },
+              "p16": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          },
+          "MVEMP": {
+            "peaks": [
+              "p13",
+              "n23"
+            ],
+            "umbral": 65,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 300,
+            "desviaciones": {
+              "p13": {
+                "lat": 0,
+                "amp": 0
+              },
+              "n23": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          }
+        }
+      },
+      "OI": {
+        "type": "normal",
+        "subtipos": {
+          "CVEMP": {
+            "peaks": [
+              "p13",
+              "n23"
+            ],
+            "umbral": 60,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 200,
+            "desviaciones": {
+              "p13": {
+                "lat": 0,
+                "amp": 0
+              },
+              "n23": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          },
+          "OVEMP": {
+            "peaks": [
+              "n10",
+              "p16"
+            ],
+            "umbral": 65,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 300,
+            "desviaciones": {
+              "n10": {
+                "lat": 0,
+                "amp": 0
+              },
+              "p16": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          },
+          "MVEMP": {
+            "peaks": [
+              "p13",
+              "n23"
+            ],
+            "umbral": 80,
+            "repro": true,
+            "repro_var": 0.2,
+            "average_objetivo": 300,
+            "desviaciones": {
+              "p13": {
+                "lat": 0,
+                "amp": 0
+              },
+              "n23": {
+                "lat": 0,
+                "amp": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "Central": {
+      "estado": "despierto",
+      "tension_cervical": 0.2,
+      "mlr_hemisferio": "ninguno",
+      "mlr_reduccion": 0,
+      "mlr_pa_retardo_ms": 0,
+      "mlr_oido": "ninguno",
+      "mlr_oido_reduccion": 0,
+      "p1_retardo_ms": 0,
+      "n1p2_reduccion": 0,
+      "p300_retardo_ms": 0,
+      "p300_reduccion": 0,
+      "mmn_reduccion": 0,
+      "conteo_error": 0
+    },
+    "Revision": {
+      "tabs": {
+        "paciente": true,
+        "sala": true,
+        "perfil": true,
+        "audiometria": true,
+        "otoscopia": true,
+        "timpanometria": true,
+        "abr": true,
+        "eoas": true,
+        "vemp": true,
+        "tinnitus": true,
+        "anamnesis": true
+      },
+      "at": "2026-10-29T04:12:38+00:00",
+      "by": "andrea.soto"
+    },
+    "tipo": "normal",
+    "paciente_snapshot": {
+      "nombre": "Gabriela Silvia",
+      "apellido": "García Alvarez",
+      "rut": "28171916",
+      "fecha_nac": "02-04-2026"
+    },
+    "historia_clinica": "{{-120}} Maternidad: tamizaje con emisiones refiere OD y OI; se repite antes del alta y vuelve a referir.\n{{-100}} Otorrinolaringólogo: PEAT con click, onda V hasta 85 dB nHL en OD y 90 dB nHL en OI. Solicita estudio genético.\n{{-30}} Genetista: dos variantes patogénicas en GJB2. Consejo genético a los padres.\n{{-7}} Otorrinolaringólogo: indica audífonos bilaterales. Solicita potenciales de estado estable para estimar los umbrales por frecuencia."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "caso": {
+    "cuadro": {
+      "OD": "presbiacusia",
+      "OI": "presbiacusia"
+    },
+    "edad": 84,
+    "sexo": "mujer",
+    "grado": {
+      "OD": "moderada",
+      "OI": "moderada"
+    },
+    "semilla": 3867986864,
+    "central": "deterioro_cognitivo",
+    "anamnesis": {
+      "otros": "Tiene 84 años y viene con su hija, que la cuida. Tiene una demencia tipo Alzheimer diagnosticada hace tres años. La hija cuenta que la mamá oye cada vez menos, que la televisión está siempre fuerte y que en las reuniones familiares se aísla y se pone irritable. Ella dice que oye bien y que la gente habla bajito. En una audiometría anterior contestaba cuando no había sonido y se distraía a la mitad. Toma donepezilo y un remedio para la presión. No ha tenido otitis ni mareos.",
+      "historia": "{{-900}} Neurólogo: demencia tipo Alzheimer moderada. Inicia donepezilo.\n{{-45}} Médico general: hipoacusia bilateral referida por la familia. Audiometría con respuestas inconsistentes, no confiable. Deriva a otorrinolaringología.\n{{-10}} Otorrinolaringólogo: otoscopía normal. Indica audífonos. Solicita impedanciometría y potenciales de estado estable para estimar umbrales.",
+      "hist": [
+        "hta"
+      ],
+      "medicamentos": "Donepezilo 10 mg al día. Losartán 50 mg al día.",
+      "cirugias": ""
+    }
+  },
+  "figuras": [
+    {
+      "tipo": "audiosupra",
+      "sin_enmascarar": false
+    },
+    {
+      "tipo": "abr",
+      "niveles": [
+        80,
+        60,
+        40
+      ],
+      "marcar": [
+        "I",
+        "III",
+        "V"
+      ]
+    },
+    {
+      "tipo": "impedancia",
+      "sonda": 226
+    }
+  ]
+}
