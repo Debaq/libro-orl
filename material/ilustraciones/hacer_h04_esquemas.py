@@ -5,10 +5,14 @@
                              vibrador óseo y fono de inserción
     h04-efecto-oclusion.svg  efecto de oclusión: conducto abierto, conducto tapado por la copa
                              de un fono y la tabla del capítulo en barras
+    h04-grafico-meseta.svg   el método del plateau (Hood, 1960): umbral del oído evaluado contra
+                             el ruido en el no evaluado, en escala 1:1, con sus cuatro tramos
 
 Esquemas, no a escala. Las cifras son las del capítulo: atenuación interaural 40 a 80 dB con
 supraaural, 55 dB o más con inserción y casi 0 dB con vibrador (BSA, 2018; Munro y Agnew, 1999);
 efecto de oclusión con supraaural 15/15/10/0 dB (tabla de la cátedra, marcada `verificar`).
+El gráfico del plateau es un esquema con valores ilustrativos: pasos de ruido de 10 dB y un plateau
+de cuatro puntos, como pide la BSA (2018) en el procedimiento del capítulo.
 El corte frontal de la cabeza viene de hacer_h02_esquemas.py (de frente al paciente: OD a la
 izquierda del dibujo)."""
 import pathlib
@@ -17,7 +21,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from hacer_h02_esquemas import (HUESO, HUESO_CLARO, OD, OI, TINTA_2, cabeza_frontal, camino,  # noqa: E402
                                 onda, rect)
-from hacer_h13 import COCLEAR, GRILLA, TENUE, TINTA, Lienzo  # noqa: E402
+from hacer_h13 import COCLEAR, GRILLA, RETRO, TENUE, TINTA, Lienzo  # noqa: E402
 
 GRIS_FONO = '#6b6b72'
 ESPUMA = '#e9b949'
@@ -196,6 +200,70 @@ def oclusion():
     c.guardar('h04-efecto-oclusion.svg', defs)
 
 
+# ---------------------------------------------------------------- el plateau
+
+# (ruido en el no evaluado, umbral del evaluado): sin cruce hasta 25, 1:1 hasta el plateau
+# en 60 dB HL (umbral verdadero), y 1:1 otra vez desde 85 (sobreenmascaramiento)
+MESETA = ((0, 35), (25, 35), (50, 60), (85, 60), (100, 75))
+PASOS = ((10, 35), (20, 35), (30, 40), (40, 50), (50, 60), (60, 60), (70, 60), (80, 60), (90, 65), (100, 75))
+
+
+def meseta():
+    c = Lienzo(800, 350)
+    defs = punta('p-od', OD, 8)
+    c.t(14, 20, 'El método del plateau: cómo cambia el umbral al subir el ruido', 10.5, TINTA, 'start', 700)
+    # escala 1:1: 1 dB mide lo mismo en los dos ejes
+    ax, yb, k = 96, 290, 3.4
+    X = lambda ruido: ax + ruido * k        # noqa: E731
+    Y = lambda umbral: yb - (umbral - 20) * k  # noqa: E731
+    for v in range(0, 101, 10):
+        c.l(X(v), Y(20), X(v), Y(90), GRILLA, 1)
+        c.t(X(v), yb + 16, str(v), 8, TENUE)
+    for v in range(20, 91, 10):
+        c.l(X(0), Y(v), X(100), Y(v), GRILLA, 1)
+        c.t(X(0) - 8, Y(v) + 3.5, str(v), 8, TENUE, 'end')
+    c.l(X(0), Y(20), X(100), Y(20), TENUE, 1)
+    c.l(X(0), Y(20), X(0), Y(90), TENUE, 1)
+    c.t(X(50), yb + 36, 'ruido en el oído no evaluado (dB EM)', 8.5, TINTA_2, 'middle', 600)
+    c.out.append(f'<text transform="translate(40 {Y(55):.1f}) rotate(-90)" '
+                 f'font-family="\'Plus Jakarta Sans\', sans-serif" font-size="{8.5 * 1.2:.1f}" fill="{TINTA_2}" '
+                 f'text-anchor="middle" font-weight="600">umbral del oído evaluado (dB HL)</text>')
+    # plateau: la franja del umbral verdadero
+    rect(c, X(50), Y(60) - 8, X(85) - X(50), 16, '#e3efe9', 'none', 0, 4)
+    # umbral sin enmascarar, en el eje vertical
+    flecha(c, f'M{X(0) - 18:.1f},{Y(35):.1f} L{X(0) - 3:.1f},{Y(35):.1f}', OD, 2, 'p-od')
+    c.t(X(17.5), Y(35) + 26, 'flecha roja: umbral sin ruido (35 dB HL)', 7.8, OD, 'start', 700)
+    # la línea y las mediciones
+    c.poli([(X(r), Y(u)) for r, u in MESETA], TINTA, 2.2)
+    for r, u in PASOS:
+        c.out.append(f'<circle cx="{X(r):.1f}" cy="{Y(u):.1f}" r="4.2" fill="#fff" stroke="{TINTA}" stroke-width="1.6"/>')
+    # letra de cada tramo, sobre la curva
+    tramos = (('a', X(12.5), Y(35) + 22, TINTA, 'el ruido se oye, pero aún no enmascara'),
+              ('b', X(37.5) - 18, Y(47.5) - 14, TINTA, 'subenmascaramiento: el umbral sube 1 dB por dB',
+               'de ruido; todavía contesta el oído no evaluado'),
+              ('c', X(67.5), Y(60) - 24, RETRO, 'plateau: el umbral ya no se mueve; es el verdadero',
+               '(aquí, 60 dB HL)'),
+              ('d', X(92.5) - 18, Y(67.5) - 14, OD, 'sobreenmascaramiento: el ruido cruza al oído',
+               'evaluado y lo tapa; el umbral vuelve a subir 1:1'))
+    lx, ly = X(100) + 34, Y(88)
+    for n, (letra, x, y, col, *texto) in enumerate(tramos):
+        for xx, yy in ((x, y), (lx + 9, ly + n * 40 - 3)):
+            c.out.append(f'<circle cx="{xx:.1f}" cy="{yy:.1f}" r="9" fill="{col}"/>')
+            c.t(xx, yy + 4, letra, 8.5, '#ffffff', 'middle', 700)
+        for i, linea in enumerate(texto):
+            c.t(lx + 24, ly + n * 40 + 14 * i, linea, 7.8, col if i == 0 else TINTA_2, 'start', 700 if i == 0 else 400)
+    # cómo se da por bueno el plateau
+    yy = ly + 4 * 40 + 6
+    c.l(lx, yy - 14, lx + 290, yy - 14, GRILLA, 1)
+    for i, linea in enumerate(('Cada punto es una medición: se sube el ruido de a 10 dB',
+                               'y se busca de nuevo el umbral. El plateau vale con al menos',
+                               'cuatro mediciones y tres seguidas con el mismo umbral',
+                               '(BSA, 2018).')):
+        c.t(lx, yy + 14 * i, linea, 7.8, TINTA_2, 'start')
+    c.guardar('h04-grafico-meseta.svg', defs)
+
+
 if __name__ == '__main__':
     cruce()
     oclusion()
+    meseta()

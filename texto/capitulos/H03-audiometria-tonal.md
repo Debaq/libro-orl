@@ -366,7 +366,8 @@ También se ha propuesto la alta frecuencia para detectar **antes** el daño por
 
 Los umbrales de alta frecuencia varían mucho entre personas y con la edad. Por eso cada control se compara contra **la línea de base del mismo paciente**, no contra una norma. La guía de la AAA describe además una versión abreviada que en los controles sigue solo la octava más alta que el paciente oye, propia de cada uno y fijada en la línea de base; ahí aparecen casi 9 de cada 10 de los primeros cambios (Durrant y cols., 2009).
 
-![Dos audiogramas de alta frecuencia del mismo oído, superpuestos: línea de base (gris) y control a las seis semanas de cisplatino (azul). De 250 Hz a 8 kHz las curvas coinciden; de 10 a 16 kHz el control cae 20 a 30 dB. Una franja marca el rango convencional y otra el de alta frecuencia.](ilustraciones/h03-alta-frecuencia.png)
+:::imagen ilustraciones/h03-alta-frecuencia.svg ancho=100% Por qué se mide sobre 8 kHz cuando se vigila un ototóxico. El mismo oído antes del cisplatino (gris) y a las seis semanas (azul): hasta 8 kHz las curvas coinciden y el audiograma convencional no muestra nada; sobre 8 kHz el control cae 20 a 30 dB. Por eso cada control se compara con la línea de base del mismo paciente. Valores ilustrativos. Imagen propia del libro.
+:::
 
 ## Cómo se informa
 

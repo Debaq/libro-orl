@@ -8,12 +8,17 @@ no IA: son esquemas exactos, con los números de sus fuentes.
     h03-metodo-ascendente.svg   la escalera de 10 abajo / 5 arriba
     h03-metodos-umbral.svg      las cuatro formas de buscar el umbral
     h03-tonotopia.svg           dónde cae cada frecuencia del audiograma
+    h03-alta-frecuencia.svg     seguimiento de un ototóxico: línea de base y control
+                                superpuestos, de 250 Hz a 16 kHz
 
 Fuentes de los números:
 - RETSPL del TDH-39: ISO 389-1, tal como la reproduce la hoja técnica del
   Interacoustics AT235 (la misma que usa Bibliografia.php, clave AT235).
 - Posición de cada frecuencia: función de Greenwood (1990) para el humano,
   F = 165,4 (10^(2,1 x) - 0,88), con x = fracción del largo desde el ápice.
+- Audiogramas de alta frecuencia: valores ilustrativos, no de un paciente. El
+  control cae 10 dB en 9 kHz y 20 a 30 dB de 10 a 16 kHz, lo que cumple el
+  criterio de cambio de ASHA (1994) que da el capítulo.
 - Ancho de la membrana basilar (~0,1 mm en la base, ~0,5 mm en el ápice): cifra
   clásica atribuida a Békésy, sin fuente primaria leída (verificar).
 """
@@ -446,6 +451,75 @@ def tonotopia():
     c.guardar('h03-tonotopia.svg')
 
 
+# ---------------------------------------------------------------------------
+# 7. Alta frecuencia en el seguimiento de un ototóxico
+
+BASE_AF = ((250, 10), (500, 10), (1000, 5), (2000, 10), (4000, 15), (8000, 20),
+           (9000, 20), (10000, 25), (11200, 30), (12500, 35), (14000, 40), (16000, 50))
+CAMBIO_AF = {9000: 10, 10000: 20, 11200: 25, 12500: 25, 14000: 30, 16000: 25}
+
+
+def cruz(c, x, y, color, r=3.6, ancho=1.6):
+    """Símbolo de la vía aérea del OI."""
+    for d in (1, -1):
+        c.linea(x - r, y - d * r, x + r, y + d * r, color, ancho)
+
+
+def alta_frecuencia():
+    c = Lienzo(680, 330)
+    ax, aw, yt, yb = 64, 470, 74, 290
+    fmin, fmax = math.log2(250), math.log2(16000)
+    X = lambda f: ax + (math.log2(f) - fmin) / (fmax - fmin) * aw  # noqa: E731
+    Y = lambda db: yt + (db + 10) / 100 * (yb - yt)                # noqa: E731
+    corte = X(8485)   # entre 8 y 9 kHz
+    c.t(14, 20, 'El seguimiento de un ototóxico: el mismo oído (OI) antes y a las seis semanas de cisplatino',
+        10.5, TINTA, 'start', 700)
+    c.t(14, 37, 'Valores ilustrativos. Cada control se compara con la línea de base del mismo paciente.',
+        7.5, TENUE, 'start')
+    # las dos franjas
+    c.rect(ax - 10, yt - 18, corte - ax + 10, yb - yt + 18, SOMBRA, 'none', 0, 0)
+    c.rect(corte, yt - 18, ax + aw + 10 - corte, yb - yt + 18, '#e6ecf7', 'none', 0, 0)
+    c.t((ax + corte) / 2, yt - 6, 'rango convencional: 250 a 8.000 Hz', 7.8, TINTA, 'middle', 700)
+    c.t((corte + ax + aw + 10) / 2, yt - 6, 'alta frecuencia: 9 a 16 kHz', 7.8, AZUL, 'middle', 700)
+    # grilla
+    for db in range(-10, 91, 10):
+        c.linea(ax - 10, Y(db), ax + aw + 10, Y(db), FUERTE if db == 0 else GRILLA, 0.9 if db == 0 else 0.7)
+        c.t(ax - 15, Y(db) + 3, db, 7, TENUE, 'end')
+    c.t(22, (yt + yb) / 2 - 6, 'dB HL', 7.5, TENUE, 'middle', 600)
+    for f, s in ((250, '250'), (500, '500'), (1000, '1k'), (2000, '2k'), (4000, '4k'), (8000, '8k'),
+                 (10000, '10k'), (12500, '12,5k'), (16000, '16k')):
+        c.linea(X(f), yt, X(f), yb, GRILLA, 0.7)
+        c.t(X(f), yb + 13, s, 7, AZUL if f > 8000 else TENUE, 'middle', 700 if f > 8000 else 400)
+    c.t(ax + aw / 2, yb + 27, 'Frecuencia (Hz)', 7.5, TENUE)
+    # curvas: la base en gris debajo, el control en azul encima
+    control = [(f, v + CAMBIO_AF.get(f, 0)) for f, v in BASE_AF]
+    # la base va más gruesa y clara, para que se vea debajo del control donde coinciden
+    for datos, color, ancho in ((BASE_AF, '#b9b9bf', 5), (control, AZUL, 1.6)):
+        c.raw('<polyline points="' + ' '.join(f'{X(f):.1f},{Y(v):.1f}' for f, v in datos) +
+              f'" fill="none" stroke="{color}" stroke-width="{ancho}"/>')
+        for f, v in datos:
+            cruz(c, X(f), Y(v), TENUE if datos is BASE_AF else color)
+    # el cambio, en 12,5 kHz
+    xa, y0, y1 = X(12500) + 9, Y(35), Y(60)
+    c.linea(xa, y0, xa, y1, OD, 1.1)
+    c.linea(xa - 3, y0, xa + 3, y0, OD, 1.1)
+    c.linea(xa - 3, y1, xa + 3, y1, OD, 1.1)
+    c.t((corte + ax + aw + 10) / 2, Y(84), 'en 12,5 kHz cae 25 dB', 7.5, OD, 'middle', 700)
+    c.t((ax + corte) / 2, Y(42), 'hasta 8 kHz las dos curvas coinciden:', 7.5, TINTA, 'middle', 700)
+    c.t((ax + corte) / 2, Y(42) + 12, 'el audiograma convencional sale igual', 7.5, TINTA, 'middle')
+    # leyenda
+    lx, ly = ax + aw + 26, yt + 6
+    for i, (color, trazo, grosor, rot1, rot2) in enumerate(
+            ((TENUE, '#b9b9bf', 5, 'línea de base', 'antes del cisplatino'),
+             (AZUL, AZUL, 1.6, 'control', 'a las seis semanas'))):
+        y = ly + i * 40
+        c.linea(lx, y, lx + 22, y, trazo, grosor)
+        cruz(c, lx + 11, y, color)
+        c.t(lx + 28, y + 3, rot1, 7.6, color, 'start', 700)
+        c.t(lx + 28, y + 15, rot2, 7, TENUE, 'start')
+    c.guardar('h03-alta-frecuencia.svg')
+
+
 if __name__ == '__main__':
     dos_vias()
     psicometrica()
@@ -453,3 +527,4 @@ if __name__ == '__main__':
     ascendente()
     metodos_umbral()
     tonotopia()
+    alta_frecuencia()

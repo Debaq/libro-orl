@@ -72,7 +72,8 @@ Qué hace el sistema por el paciente sigue en estudio. Hay dos funciones propues
 - **Otoscopio.**
 - Un lugar **silencioso**. No hace falta cabina, pero el ruido del ambiente entra al micrófono igual que la emisión.
 
-![Corte del conducto auditivo externo con la sonda de OEA puesta: la oliva sella la entrada del conducto; dentro de la sonda, dos tubos de parlante (f1 y f2) y un tubo de micrófono abren frente al tímpano. Flechas: el estímulo entra hacia el tímpano y la cadena; una flecha de vuelta, más delgada, sale de la cóclea, pasa por la cadena y el tímpano y llega al micrófono. Rótulo en el oído medio: "la emisión cruza aquí dos veces".](ilustraciones/h09-sonda.png)
+:::imagen ilustraciones/h09-sonda.svg ancho=100% La sonda de OEA puesta. Mira la oliva: sella la entrada; sin ese sello, el ruido de la sala llega al micrófono. El estímulo va de los parlantes a la cóclea y la emisión vuelve por el mismo camino, mucho más débil, hasta el micrófono: cruza dos veces el oído medio, y por eso un oído medio con líquido la apaga. Imagen propia del libro.
+:::
 
 ### Paciente
 

@@ -251,6 +251,20 @@ def aviso_ia(titulo):
     return titulo, ''
 
 
+# SIN_IA=1: versión aparte sin los dibujos hechos con IA; cada uno sale como
+# recuadro "Ilustración pendiente" con su descripción (él, 2026-10-30)
+SIN_IA = os.environ.get('SIN_IA') == '1'
+
+
+def ilustracion_pendiente(desc, src, pie):
+    """Recuadro de una ilustración por hacer, con la descripción y el archivo."""
+    desc = re.sub(r'\s*Imagen: ilustración generada con inteligencia artificial\.?', '', desc)
+    corto = re.split(r'(?<=[.:;])\s', desc, maxsplit=1)[0].rstrip('.:;')
+    return (f'<figure class="ilustracion"><div class="ilu-pendiente"><span>Ilustración pendiente</span>'
+            f'{html.escape(desc)}<br><small>{html.escape(src)}</small></div>'
+            f'<figcaption>{pie}{html.escape(corto)}.</figcaption></figure>')
+
+
 def capitulos_de(clave):
     """Lista compacta de los capítulos de un autor, en el orden del libro."""
     def orden(c):
@@ -807,6 +821,8 @@ def imagen_con_globos(ruta, titulo, lineas, numero, ancho=None):
     sin él ocupa lo que dé la columna."""
     titulo, ia = aviso_ia(titulo)
     archivo = (RAIZ / ruta.lstrip('/')) if ruta.startswith('/') else (MATERIAL / ruta)
+    if ia and SIN_IA:
+        return ilustracion_pendiente(titulo, ruta, f'Figura {numero}. ')
     if not archivo.exists():
         return f'<p class="pendiente"><span>Falta la imagen</span> {html.escape(ruta)}</p>'
     globos, obs, k = [], [], 0
@@ -1088,6 +1104,8 @@ def capitulo(md_texto):
         n = numeros['ilu'].pop(0) if numeros['ilu'] else 0
         ruta = MATERIAL / src
         alt, _ = separar_credito(cap, f'{cap}.{n}', alt)
+        if ia and SIN_IA:
+            return ilustracion_pendiente(alt, src, f'Figura {cap}.{n}. ')
         pie = f'<figcaption>{ia}Figura {cap}.{n}. {html.escape(alt)}</figcaption>'
         if ruta.exists():
             return f'<figure class="ilustracion{clase_apaisada(ruta)}"><img src="{ruta.as_uri()}">{pie}</figure>'

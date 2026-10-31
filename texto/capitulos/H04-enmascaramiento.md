@@ -197,7 +197,8 @@ Con los márgenes de Yacullo (2015), la aérea quedaría entre 20 y 60 dB, y la 
 
 Las fórmulas suponen que conoces los umbrales verdaderos, que es justo lo que estás buscando. El **método del plateau** no supone nada: sube el ruido de a poco y mira qué hace el umbral (Hood, 1960). Es el que recomienda la BSA (2018) para aérea y ósea.
 
-![Gráfico de enmascaramiento en escala 1:1: eje horizontal "ruido en el oído no evaluado (dB EM)", eje vertical "umbral del oído evaluado (dB HL)". Una línea con cuatro tramos y sus rótulos: (a) corto tramo plano al inicio, "el ruido se oye pero aún no enmascara"; (b) subida a 45 grados, "subenmascaramiento: el umbral sube 1 dB por cada dB de ruido, contesta el oído no evaluado"; (c) tramo plano largo, "plateau: umbral verdadero"; (d) segunda subida a 45 grados, "sobreenmascaramiento: el ruido cruza y tapa al oído evaluado". Una flecha horizontal en el eje vertical marca el umbral sin enmascarar.](ilustraciones/h04-grafico-meseta.png)
+:::imagen ilustraciones/h04-grafico-meseta.svg ancho=100% El método del plateau. Mira la forma de la curva: mientras el umbral sube 1 dB por cada dB de ruido, falta ruido (b); cuando se aplana, ese es el umbral verdadero (c); si vuelve a subir 1 a 1, el ruido cruzó y sobra (d). Valores ilustrativos. Imagen propia del libro.
+:::
 
 1. **Vuelve a buscar el umbral sin ruido**, para que el paciente recuerde qué escuchar. En la ósea es obligatorio, porque necesitas el umbral con el oído no evaluado ya tapado por el fono.
 2. **Pon el ruido** en el oído no evaluado, partiendo de un nivel igual a su umbral aéreo en esa frecuencia. Espera unos segundos por si contesta al ruido.
