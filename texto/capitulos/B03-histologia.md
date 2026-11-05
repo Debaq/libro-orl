@@ -74,7 +74,7 @@ La **parte flácida** (de Shrapnell), arriba, tiene la misma epidermis y la mism
 Con las capas se entienden dos hallazgos de la otoscopía:
 
 - **Placa de timpanoesclerosis.** Es una mancha blanca y calcárea. Histológicamente es colágeno hialinizado con depósitos de calcio dentro de la lámina propia, el resultado de una inflamación crónica o repetida (Schiff y cols., 1980). La epidermis pasa por encima intacta; por eso la placa se ve a través de la membrana sin que esta esté perforada (→ cap. 3).
-- **Membrana cicatricial.** Cuando una perforación se cierra, el tejido nuevo tiene epidermis y mucosa con una lámina propia muy reducida (de 2 a 3 µm en las zonas más finas), con fibrillas pero sin la organización en fibras radiales y circulares; todo el adelgazamiento se debe a esa capa (estudio en membranas humanas, Acta Otolaryngol, 1988). Es más delgada y más móvil que una membrana normal, y por eso se hunde o se abomba con facilidad. <!-- verificar: autores del artículo doi:10.3109/00016488809097011 -->
+- **Membrana cicatricial.** Cuando una perforación se cierra, el tejido nuevo tiene epidermis y mucosa con una lámina propia muy reducida (de 2 a 3 µm en las zonas más finas), con fibrillas pero sin la organización en fibras radiales y circulares; todo el adelgazamiento se debe a esa capa (Govaerts y cols., 1988, en membranas humanas). Es más delgada y más móvil que una membrana normal, y por eso se hunde o se abomba con facilidad.
 
 ### La mucosa del oído medio y de la trompa
 
@@ -346,10 +346,10 @@ Esa estructura explica tres cosas que el libro usa:
 1. Alberti PW. Epithelial migration on the tympanic membrane. J Laryngol Otol. 1964;78:808-30. doi:10.1017/s0022215100062800
 1. Lim DJ. Tympanic membrane. Electron microscopic observation. I: pars tensa. Acta Otolaryngol. 1968a;66(3):181-98. doi:10.3109/00016486809126286
 1. Lim DJ. Tympanic membrane. Part II: pars flaccida. Acta Otolaryngol. 1968b;66(1-6):515-32. doi:10.3109/00016486809126316
-1. [Autores por confirmar]. Histological study of the thin replacement membrane of human tympanic membrane perforations. Acta Otolaryngol. 1988;105(3-4):297-302. doi:10.3109/00016488809097011
+1. Govaerts PJ, Jacob WA, Marquet J. Histological study of the thin replacement membrane of human tympanic membrane perforations. Acta Otolaryngol. 1988;105(3-4):297-302. doi:10.3109/00016488809097011
 1. Schiff M, Poliquin JF, Catanzaro A, Ryan AF. Tympanosclerosis. A theory of pathogenesis. Ann Otol Rhinol Laryngol Suppl. 1980;89(4 Pt 2):1-16. PMID 6775569
 1. Sadé J. Middle ear mucosa. Arch Otolaryngol. 1966;84(2):137-43. doi:10.1001/archotol.1966.00760030139005
-1. Shimada T, Lim DJ. Distribution of ciliated cells in the human middle ear: electron and light microscopic observations. Ann Otol Rhinol Laryngol. 1972;81(2):203-11. doi:10.1177/000348947208100205 <!-- verificar: páginas y doi -->
+1. Shimada T, Lim DJ. Distribution of ciliated cells in the human middle ear: electron and light microscopic observations. Ann Otol Rhinol Laryngol. 1972;81(2):203-11. doi:10.1177/000348947208100205
 1. Padurariu S, Röösli C, Røge R, Stensballe A, Vyberg M, Gaihede M. On the functional compartmentalization of the normal middle ear. Morpho-histological modelling parameters of its mucosa. Hear Res. 2019;378:176-84. doi:10.1016/j.heares.2019.01.023
 1. Tos M, Bak-Pedersen K. Goblet cell population in the pathological middle ear and eustachian tube of children and adults. Ann Otol Rhinol Laryngol. 1977;86(2 Pt 1):209-18. doi:10.1177/000348947708600212
 1. Eavey RD. Abnormalities of the neonatal ear: otoscopic observations, histologic observations, and a model for contamination of the middle ear by cellular contents of amniotic fluid. Laryngoscope. 1993;103(1 Pt 2 Suppl 58):1-31. doi:10.1002/lary.1993.103.s58.1
@@ -397,8 +397,8 @@ Esa estructura explica tres cosas que el libro usa:
 1. Schuknecht HF. Cupulolithiasis. Arch Otolaryngol. 1969;90(6):765-78. doi:10.1001/archotol.1969.00770030767020
 1. Moore JK, Linthicum FH Jr. The human auditory system: a timeline of development. Int J Audiol. 2007;46(9):460-78. doi:10.1080/14992020701383019
 1. Pujol R, Lavigne-Rebillard M. Development of neurosensory structures in the human cochlea. Acta Otolaryngol. 1992;112(2):259-64. doi:10.1080/00016489.1992.11665415
-1. Chang KW, Vohr BR, Norton SJ, Lekas MD. External and middle ear status related to evoked otoacoustic emission in neonates. Arch Otolaryngol Head Neck Surg. 1993;119(3):276-82. doi:10.1001/archotol.1993.01880150024004 <!-- verificar: autores y doi -->
-1. Doyle KJ, Burggraaff B, Fujikawa S, Kim J, MacArthur CJ. Neonatal hearing screening with otoscopy, auditory brain stem response, and otoacoustic emissions. Otolaryngol Head Neck Surg. 1997;116(6):597-603. doi:10.1016/S0194-59989770234-8 <!-- verificar: doi -->
+1. Chang KW, Vohr BR, Norton SJ, Lekas MD. External and middle ear status related to evoked otoacoustic emission in neonates. Arch Otolaryngol Head Neck Surg. 1993;119(3):276-82. doi:10.1001/archotol.1993.01880150024004
+1. Doyle KJ, Burggraaff B, Fujikawa S, Kim J, MacArthur CJ. Neonatal hearing screening with otoscopy, auditory brain stem response, and otoacoustic emissions. Otolaryngol Head Neck Surg. 1997;116(6):597-603. doi:10.1016/S0194-5998(97)70234-1
 
 ### Nariz
 
@@ -412,7 +412,7 @@ Esa estructura explica tres cosas que el libro usa:
 1. Graziadei PP, Graziadei GA. Neurogenesis and neuron regeneration in the olfactory system of mammals. I. Morphological aspects of differentiation and structural organization of the olfactory sensory neurons. J Neurocytol. 1979;8(1):1-18. doi:10.1007/BF01206454
 1. Schwob JE. Neural regeneration and the peripheral olfactory system. Anat Rec. 2002;269(1):33-49. doi:10.1002/ar.10047
 1. Naessen R. An enquiry on the morphological characteristics and possible changes with age in the olfactory region of man. Acta Otolaryngol. 1971;71(1):49-62. doi:10.3109/00016487109125332
-1. Paik SI, Lehman MN, Seiden AM, Duncan HJ, Smith DV. Human olfactory biopsy: the influence of age and receptor distribution. Arch Otolaryngol Head Neck Surg. 1992;118(7):731-8. doi:10.1001/archotol.1992.01880070061012 <!-- verificar: autores y doi -->
+1. Paik SI, Lehman MN, Seiden AM, Duncan HJ, Smith DV. Human olfactory biopsy: the influence of age and receptor distribution. Arch Otolaryngol Head Neck Surg. 1992;118(7):731-8. doi:10.1001/archotol.1992.01880070061012
 1. Brann DH, Tsukahara T, Weinreb C, Lipovsek M, Van den Berge K, Gong B, et al. Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia. Sci Adv. 2020;6(31):eabc5801. doi:10.1126/sciadv.abc5801
 1. Kuo CL, Shiao AS, Yung M, Sakagami M, Sudhoff H, Wang CH, et al. Updates and knowledge gaps in cholesteatoma research. Biomed Res Int. 2015;2015:854024. doi:10.1155/2015/854024
 1. Netter FH. Atlas of human anatomy. 8.ª ed. Philadelphia: Elsevier; 2023.
