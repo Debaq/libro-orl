@@ -1,6 +1,6 @@
 # Bitácora B2 (y pendientes de B3)
 
-Fase actual: **producción terminada (2026-11-05)**; queda dibujar las 10 figuras. Después: lectura y ajuste de la autora → verificación manual de referencias.
+Fase actual: **producción terminada (2026-11-05)**, texto y 10 figuras. Sigue: lectura de la autora. Después: lectura y ajuste de la autora → verificación manual de referencias.
 
 Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verificar en línea) · 🟡 media (fuente verificada, pero la cifra o el matiz conviene leerlo en el original) · 🟢 baja (verificado en línea: autores, año, doi).
 
@@ -18,7 +18,7 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | 7 | Nariz | Redactada | 2026-11-05 |
 | 8 | Cierre (12 preguntas, respuestas, créditos) | Redactado | 2026-11-05 |
 
-## Figuras pendientes (esquemas propios)
+## Figuras (esquemas propios, hechas con `hacer_b2.py` el 2026-11-05)
 
 | Archivo | Sección | Qué debe mostrar |
 |---|---|---|
@@ -33,7 +33,7 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | `ilustraciones/b2-olfaccion.svg` | 7 | Cascada de transducción en el cilio + vía al bulbo y corteza piriforme |
 | `ilustraciones/b2-binaural.svg` | 4 | DIT (graves) y DIN/sombra (agudos) con fuente a la derecha; oliva medial y lateral |
 
-Creado `material/ilustraciones/CREDITOS_B2.md` (todas pendientes). No se agregó ayuda memoria final: cada sección tiene la suya.
+Créditos en `material/ilustraciones/CREDITOS_B2.md`. Las curvas (resonancia, onda viajera, sintonía, frecuencia de disparo) son aproximadas, no medidas: revisar que el pie lo diga. No se agregó ayuda memoria final: cada sección tiene la suya.
 
 ## Qué revisar (autora)
 
