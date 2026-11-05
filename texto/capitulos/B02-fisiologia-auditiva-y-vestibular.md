@@ -685,7 +685,41 @@ La forma de los cornetes hace que el aire pase en capas finas y con turbulencia,
 - **Anosmia conductiva:** el olor no llega a la hendidura; neurosensorial: se daña el epitelio o la vía.
 :::
 
-<!-- SECCIÓN PENDIENTE: 8 Cierre: preguntas, respuestas, créditos (ver bitácora) -->
+:::pregunta Preguntas para practicar
+1. La parte de la membrana que vibra con eficacia mide unos 55 mm² y la platina, unos 3,2 mm²; la palanca de la cadena multiplica por 1,3. ¿Cuánto multiplica el oído medio la presión? ¿A cuántos decibeles corresponde, aproximadamente?
+2. Una paciente de 35 años tiene una pérdida conductiva que predomina en los graves, una ósea que baja 15 dB en 2 kHz y el reflejo estapedial ausente. ¿Qué componente del oído medio aumentó? ¿Por qué baja la ósea en 2 kHz si la cóclea está sana?
+3. Un paciente tiene el oído derecho normal y el izquierdo con una pérdida de 60 dB por vía aérea. Sin enmascarar, la ósea del lado izquierdo sale en 10 dB. ¿Es una pérdida conductiva izquierda? ¿Por qué?
+4. En ratones sin prestina, la transducción de las CCE está intacta, pero la sensibilidad cae entre 40 y 60 dB. ¿Qué función se perdió? ¿Qué esperarías encontrar en las emisiones otoacústicas?
+5. Ordena los pasos de la transducción: liberación de glutamato; entrada de K⁺; deflexión del haz hacia el estereocilio más alto; despolarización; apertura del canal de transducción; tensión de los enlaces apicales; entrada de Ca²⁺ por la base de la célula.
+6. Un paciente en una unidad de cuidados intensivos recibe una dosis alta de un diurético de asa y nota que oye peor en todas las frecuencias. Días después mejora. ¿Qué estructura se afectó y qué potencial bajó? ¿Por qué la pérdida es plana?
+7. Un lactante tiene emisiones otoacústicas presentes, una microfónica coclear visible y un PEAT sin ondas reconocibles. ¿Qué parte de la vía funciona y cuál no? ¿Cómo se llama el cuadro?
+8. Dos pacientes tienen un PEAT alterado. En el primero el interpico I-III está alargado y el III-V es normal; en el segundo, al revés. ¿Dónde está la lesión en cada uno?
+9. Una fuente sonora está a la derecha del paciente. ¿Qué pista usa para localizar un tono de 500 Hz y cuál para uno de 4 kHz? ¿Qué estación del tronco compara cada una?
+10. Un paciente tiene una neuritis vestibular izquierda aguda. ¿Hacia dónde bate su nistagmo espontáneo? ¿Hacia qué lado muestra el video-impulso una ganancia baja? ¿Hacia qué lado tiende a caer? Si el cVEMP izquierdo está normal y el oVEMP izquierdo ausente, ¿qué rama del nervio se afectó?
+11. En la maniobra de Dix-Hallpike, un paciente presenta un nistagmo torsional y hacia arriba que empieza a los 5 segundos, dura 20 segundos y es más débil al repetir la maniobra. ¿Canalitiasis o cupulolitiasis? ¿Qué canal? ¿Por qué hay latencia?
+12. Dos pacientes perdieron el olfato: uno tiene poliposis nasal que ocupa la parte alta de las fosas; el otro lo perdió después de una infección viral, con las fosas libres. ¿Qué tipo de anosmia tiene cada uno? ¿En cuál esperas que el olfato mejore al tratar la obstrucción?
+:::
+
+:::ayuda-ancho Respuestas
+1. 55 / 3,2 ≈ 17; 17 × 1,3 ≈ **22 veces** en presión. En decibeles: 20 × log₁₀(22) ≈ **27 dB**. La ganancia medida es algo menor, cercana a 20 dB alrededor de 1 kHz (Aibara y cols., 2001).
+2. Aumentó la **rigidez** (platina fija: otoesclerosis), por eso caen los graves. La ósea baja en 2 kHz porque la platina fija quita el componente de **inercia de la cadena** de la conducción ósea, máximo cerca de la resonancia de la cadena: es la **muesca de Carhart**, mecánica y no coclear (Carhart, 1950). El reflejo no se registra porque el estribo no puede moverse.
+3. No necesariamente. La atenuación interaural de la ósea es casi **0 dB**: la ósea sin enmascarar puede ser la de la cóclea **derecha**, que está sana. Hay que enmascarar el oído derecho para saber cuál es la ósea real del izquierdo (→ H4).
+4. Se perdió el **amplificador coclear** (la electromotilidad de las CCE): la ganancia, la sintonía fina y la compresión. Las **emisiones otoacústicas** deberían estar ausentes o muy reducidas, porque son el producto de ese amplificador (Liberman y cols., 2002).
+5. Deflexión hacia el más alto → tensión de los enlaces apicales → apertura del canal → entrada de K⁺ → despolarización → entrada de Ca²⁺ por la base → liberación de glutamato.
+6. La **estría vascular**: bajó el **potencial endococlear**. Como ese potencial es la fuerza que empuja el K⁺ hacia todas las células ciliadas, la transducción pierde fuerza en toda la cóclea a la vez, y la pérdida es **plana**. Los diuréticos de asa la deprimen de forma reversible (→ B3, cap. 8).
+7. Las **CCE funcionan** (hay EOA y microfónica); lo que falla es la **CCI, su sinapsis o el nervio**, y con ello la **sincronía neural** que necesita el PEAT. Es una **neuropatía auditiva** (→ cap. 13).
+8. I-III alargado: **nervio coclear o entrada al tronco** (por ejemplo, un schwannoma vestibular). III-V alargado: **tronco alto**, entre el núcleo coclear y el colículo (por ejemplo, desmielinización) (→ cap. 11, cap. 12).
+9. 500 Hz: la **diferencia interaural de tiempo**, que compara la **oliva superior medial**. 4 kHz: la **diferencia interaural de nivel** por la sombra de la cabeza, que compara la **oliva superior lateral** (Grothe y cols., 2010).
+10. El nistagmo bate hacia la **derecha** (el lado sano, ahora más activo). El video-impulso muestra ganancia baja con giros hacia la **izquierda** (el canal lesionado no se excita y el sano no compensa: tercera ley de Ewald). Tiende a caer hacia la **izquierda** (menos tono vestíbulo-espinal de ese lado). cVEMP normal y oVEMP ausente: se afectó la **rama superior** (utrículo) y se respetó la inferior (sáculo).
+11. **Canalitiasis** del canal **posterior**: latencia, duración menor a un minuto y fatiga. La latencia es el tiempo que tardan las partículas libres en empezar a caer y arrastrar la endolinfa (→ H19, cap. 22).
+12. Poliposis: anosmia **conductiva**, porque el olor no llega a la hendidura olfatoria; puede **mejorar al tratar la obstrucción**. Posviral: anosmia **neurosensorial**, por daño del epitelio o de sus células de soporte; no depende de la vía aérea (→ B3, H28, cap. 35).
+:::
+
+## Créditos de las figuras
+
+- Esquemas propios: resonancia del conducto, el oído medio como adaptador, arco del reflejo estapedial, mecanismos de la conducción ósea, onda viajera, transducción, códigos del nervio, audición binaural, leyes de Ewald y transducción olfatoria. Las cifras que llevan salen de la bibliografía del capítulo.
+- La anatomía de las vías y los esquemas de las lesiones se toman de B1 (láminas de labyrinthus3d) y la histología, de B3; este capítulo remite a ellos en vez de repetirlos.
+- El detalle de cada imagen está en `ilustraciones/CREDITOS_B2.md`.
 
 ## Referencias
 
