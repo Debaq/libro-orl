@@ -492,7 +492,200 @@ La maduración depende también de la **estimulación**. Una vía que no recibe 
 - **Corteza y procesamiento central:** maduran hasta la adolescencia.
 :::
 
-<!-- SECCIONES PENDIENTES: 6 Vestibular · 7 Nariz · 8 Cierre (ver bitácora) -->
+## Sistema vestibular
+
+### Qué mide cada receptor
+
+El laberinto tiene dos tipos de receptores, y cada uno mide un tipo de movimiento distinto (→ B1, B3):
+
+Tabla: Receptores vestibulares
+
+| Receptor | Qué mide | Ejemplo | Prueba |
+|---|---|---|---|
+| Canales semicirculares (3 por lado) | Aceleración **angular**: la cabeza gira | Decir "no" con la cabeza | Video-impulso, calóricas, silla rotatoria (H16-H18) |
+| Utrículo | Aceleración **lineal** horizontal e inclinación | Un auto que frena; inclinar la cabeza de lado | oVEMP, vertical visual subjetiva (H12) |
+| Sáculo | Aceleración **lineal** vertical y gravedad | Un ascensor | cVEMP (H12) |
+
+Las fibras del nervio vestibular **disparan aunque la cabeza esté quieta**, con una actividad de reposo alta: unos 90 potenciales por segundo en el mono (Goldberg y Fernández, 1971). Esa actividad de reposo es la clave de todo el sistema. Un movimiento **sube** la frecuencia de disparo en un lado y la **baja** en el otro, y el cerebro lee la **diferencia** entre los dos lados. Mientras los dos lados disparan igual, el cerebro interpreta que la cabeza está quieta (→ H16).
+
+**Asimetría.** Si un laberinto deja de funcionar, por ejemplo en una neuritis, su nervio deja de disparar en reposo. El cerebro recibe entonces la misma diferencia que recibiría si la cabeza girara hacia el lado sano, y aparecen un vértigo rotatorio y un **nistagmo espontáneo** aunque la cabeza esté quieta (→ cap. 20, cap. 22).
+
+### Los canales semicirculares
+
+**Los pares coplanares.** Los seis canales forman tres pares, con los dos canales de cada par en el mismo plano: los dos laterales; el anterior izquierdo con el posterior derecho (LARP); y el anterior derecho con el posterior izquierdo (RALP). Un giro en el plano de un par **excita un canal e inhibe al otro**: es el sistema de empuje y tracción (→ B1: láminas del reflejo vestíbulo-ocular).
+
+**La dinámica de la cúpula.** Cuando la cabeza empieza a girar, la endolinfa, por inercia, queda atrás y empuja la cúpula, que se dobla y dobla los haces de las células (→ B3). La cúpula se comporta como un **péndulo de torsión** muy amortiguado: el roce de la endolinfa en un tubo tan fino es enorme. El resultado es que, en el rango de frecuencias de los movimientos naturales de la cabeza, la desviación de la cúpula es proporcional a la **velocidad** de giro, no a la aceleración: el canal "integra" la aceleración y le entrega al cerebro una señal de velocidad (Goldberg y Fernández, 1971).
+
+Si el giro se mantiene a velocidad constante, la cúpula vuelve poco a poco a su posición y la respuesta se apaga en unos segundos (la **constante de tiempo** de la cúpula). El tronco y el cerebelo prolongan esa señal en un circuito llamado **almacenamiento de velocidad**, y por eso el nistagmo que sigue a una rotación dura más de lo que dura la deflexión de la cúpula (Raphan y cols., 1979). Es lo que mide la silla rotatoria (→ H18).
+
+**Las leyes de Ewald.** Resumen cómo se comportan los canales (Baloh y cols., 2011):
+
+1. **El nistagmo va en el plano del canal estimulado.** Los ojos se mueven en el plano del canal que se excita. Por eso la dirección del nistagmo del VPPB dice qué canal está afectado (→ H19, cap. 22).
+2. **El sentido del flujo que excita depende del canal.** En el canal lateral excita el flujo de la endolinfa **hacia la ampolla** (ampulípeto); en los verticales, el flujo que se **aleja de la ampolla** (ampulífugo). Se debe a cómo está orientado el kinocilio en cada cresta (→ sección Cóclea: transducción).
+3. **La excitación es más potente que la inhibición.** Un canal puede subir su frecuencia de disparo sin límite práctico, pero solo puede bajarla hasta cero. Por eso, con giros rápidos, el canal sano que se inhibe no alcanza a compensar al que falta, y el video-impulso hacia el lado lesionado muestra una ganancia baja y sacadas correctoras (→ H17).
+
+:::imagen ilustraciones/b2-ewald.svg ancho=90% Las tres leyes de Ewald. A: el canal lateral derecho visto desde arriba; el flujo hacia la ampolla dobla los haces hacia el kinocilio y excita. B: un canal posterior; el flujo que se aleja de la ampolla excita. C: frecuencia de disparo de un canal según la velocidad de la cabeza; mira cómo la curva sube sin tope y cómo, hacia el otro lado, se aplana en cero. Esquema propio. Imagen propia del libro.
+:::
+
+### El reflejo vestíbulo-ocular
+
+El **reflejo vestíbulo-ocular** (RVO) mantiene la mirada fija en un punto mientras la cabeza se mueve: si la cabeza gira a la derecha, los ojos giran a la izquierda a la misma velocidad. Su arco tiene **tres neuronas**: nervio vestibular, núcleo vestibular y núcleo motor del ojo (→ B1). Es uno de los reflejos más rápidos del cuerpo, con unos 10 ms de latencia, y por eso puede estabilizar la mirada durante movimientos que la persecución visual no alcanza a seguir.
+
+Se describe con dos números:
+
+- **Ganancia:** velocidad del ojo dividida por la velocidad de la cabeza. Lo normal es cercano a 1. Una ganancia baja significa que el ojo se queda atrás y la imagen se corre en la retina: el paciente ve borroso al moverse (oscilopsia) y hace una **sacada correctora** para volver al blanco (Halmagyi y Curthoys, 1988) (→ H17).
+- **Fase:** si el ojo se mueve a tiempo con la cabeza. Se mide sobre todo en la silla rotatoria (→ H18).
+
+**Por qué el nistagmo bate hacia el lado más activo.** Si un lado dispara más que el otro, el RVO empuja los ojos lentamente hacia el lado **contrario** al más activo: es la **fase lenta**, que es la vestibular. Cuando los ojos llegan al borde, el tronco los devuelve con una sacada rápida: es la **fase rápida**, que por convención da el nombre al nistagmo. Por eso, en una lesión periférica aguda, el nistagmo **bate hacia el lado sano**, que es el que ahora dispara más. Y por eso, al irrigar un oído con agua caliente, que excita el canal lateral, el nistagmo bate hacia ese oído (→ H16, H18, cap. 20).
+
+### Las máculas y los reflejos otolíticos
+
+En cada mácula hay una línea curva, la **estriola**, que divide el epitelio en dos mitades con las células orientadas en **sentidos opuestos**: en el utrículo los kinocilios miran hacia la estriola, y en el sáculo, hacia afuera de ella (→ B3). Como la mácula es una superficie con células orientadas en todas las direcciones del plano, cualquier inclinación o aceleración lineal excita a unas células e inhibe a otras: el patrón de cuáles se excitan dice la dirección del movimiento.
+
+**Inclinación o traslación.** Las otoconias no distinguen entre inclinar la cabeza y acelerar en línea recta: las dos cosas desplazan los cristales igual. El cerebro resuelve la ambigüedad combinando la información de los otolitos con la de los canales, que sí se activan cuando la cabeza rota al inclinarse y no cuando solo se traslada (Angelaki y cols., 1999). Esa **integración canal-otolito** es la base de la percepción de la vertical.
+
+**Los reflejos otolíticos.**
+
+- **Contrarrotación ocular.** Al inclinar la cabeza hacia un hombro, los ojos rotan un poco en sentido contrario.
+- **Vertical visual subjetiva.** En la oscuridad, una persona sana coloca una línea luminosa casi exactamente vertical. Una lesión del utrículo o de sus vías la inclina hacia el lado lesionado (→ H12, cap. 25).
+- **Reacción de inclinación ocular.** Una lesión aguda del utrículo o de la vía en el tronco puede dar la tríada de cabeza inclinada, desviación vertical de los ojos (*skew*) y torsión ocular (→ cap. 25, cap. 27).
+
+### Los VEMP: los reflejos del sáculo y del utrículo
+
+Un sonido intenso o una vibración mueve, además de la cóclea, las máculas. Esa estimulación produce dos reflejos que se registran con electrodos en la piel (Rosengren y cols., 2010) (→ H12, cap. 20):
+
+Tabla: Los dos VEMP
+
+| | cVEMP (cervical) | oVEMP (ocular) |
+|---|---|---|
+| Órgano | Sáculo | Utrículo |
+| Nervio | Vestibular inferior | Vestibular superior |
+| Vía | Núcleos vestibulares → vía vestíbulo-espinal medial → músculo del mismo lado | Núcleos vestibulares → cruza → músculo del ojo del lado contrario |
+| Músculo | Esternocleidomastoideo del mismo lado | Oblicuo inferior del lado contrario |
+| Respuesta | Inhibitoria (hay que contraer el músculo) | Excitatoria (mirada hacia arriba) |
+
+Como cada VEMP depende de una rama distinta del nervio, juntos permiten saber si una neuritis afectó la rama superior, la inferior o las dos (→ cap. 20). En la dehiscencia del canal superior, el sonido entra con más facilidad al laberinto, y los VEMP aparecen con umbrales anormalmente bajos (→ H12).
+
+### El mecanismo del VPPB
+
+La histología del VPPB está en B3: otoconias que se desprenden del utrículo. La fisiología explica los signos (→ H19, cap. 22):
+
+- **Canalitiasis.** Las partículas libres caen por gravedad dentro del canal cuando la cabeza cambia de posición, y arrastran la endolinfa. El nistagmo aparece con **latencia** (las partículas tardan en empezar a moverse), dura **menos de un minuto** (se detiene cuando las partículas llegan al punto más bajo) y se **fatiga** si se repite la maniobra (las partículas se dispersan).
+- **Cupulolitiasis.** Los cristales pegados a la cúpula la vuelven sensible a la gravedad. El nistagmo aparece **sin latencia** y **dura mientras se mantiene la posición**.
+- **Qué canal.** Por la primera ley de Ewald, el nistagmo sale en el plano del canal afectado: torsional y hacia arriba en el canal posterior; horizontal en el lateral.
+
+Las maniobras de reposición usan la gravedad para llevar las partículas fuera del canal, de vuelta al utrículo (→ H19).
+
+### Los reflejos vestíbulo-espinal y vestíbulo-cólico
+
+Además de los ojos, el vestíbulo controla el cuerpo y el cuello (→ H20, cap. 32):
+
+- **Vía vestíbulo-espinal lateral.** Sale del núcleo vestibular lateral (de Deiters) y baja por el mismo lado de la médula a los músculos **antigravitatorios** de las extremidades. Ante una inclinación, activa los extensores del lado hacia el que cae el cuerpo.
+- **Vía vestíbulo-espinal medial.** Sale del núcleo medial, baja por los dos lados hasta la médula cervical y controla los **músculos del cuello**. Es la base del **reflejo vestíbulo-cólico**, que estabiliza la cabeza en el espacio, y del cVEMP.
+
+Por eso una lesión vestibular unilateral aguda hace que el paciente **caiga o se desvíe hacia el lado lesionado**: ese lado tiene menos tono extensor.
+
+### Las vías vestibulares centrales
+
+La anatomía de los núcleos y de las vías está en B1. Lo que hace cada estación:
+
+Tabla: Estaciones vestibulares centrales
+
+| Estación | Qué hace |
+|---|---|
+| Núcleos vestibulares | Reciben el nervio, la vista, la propiocepción del cuello y el cerebelo; comparan los dos lados por fibras comisurales inhibitorias; generan el RVO, los reflejos espinales y el almacenamiento de velocidad |
+| Cerebelo: flóculo | Ajusta la ganancia del RVO cuando no estabiliza bien la mirada; persecución lenta |
+| Cerebelo: nódulo y úvula | Almacenamiento de velocidad; integración canal-otolito; orientación respecto de la gravedad |
+| Tálamo | Relevo hacia la corteza |
+| Corteza vestibular | Varias áreas; la central es la región insular posterior y la unión temporoparietal; percepción del movimiento propio y de la vertical, integración con la vista y el cuerpo (Lopez y Blanke, 2011) |
+
+La **percepción del movimiento propio** es siempre **multisensorial**: el cerebro combina el vestíbulo, la vista y la propiocepción, y le da más peso a la fuente más confiable en cada momento. Cuando las fuentes no coinciden, como al leer en un auto, aparece el mareo (→ cap. 25, cap. 27).
+
+### Compensación central: la base de la rehabilitación
+
+Después de una lesión vestibular unilateral, los síntomas mejoran aunque el laberinto no se recupere. Es la **compensación vestibular**, y tiene dos partes que se recuperan de forma distinta (Lacour y cols., 2016):
+
+Tabla: Compensación vestibular
+
+| Déficit | Qué es | Cómo se recupera | Velocidad |
+|---|---|---|---|
+| Estático | Nistagmo espontáneo, inclinación, vértigo en reposo | Se reequilibra la actividad de los dos núcleos vestibulares | Días a semanas; suele ser completa |
+| Dinámico | Mala respuesta a los movimientos de la cabeza, oscilopsia, inestabilidad al caminar | **Adaptación** (cambia la ganancia del RVO), **sustitución** (otras señales y estrategias, como sacadas encubiertas, reemplazan lo perdido) y **habituación** (baja la respuesta a lo que provoca síntomas) | Semanas a meses; a menudo incompleta |
+
+La compensación necesita **movimiento y error visual**: el cerebro ajusta la ganancia cuando la imagen se corre en la retina. Por eso los ejercicios de rehabilitación vestibular hacen mover la cabeza mirando un blanco, y por eso los sedantes vestibulares usados por mucho tiempo la retrasan (→ H20).
+
+:::ayuda Ayuda memoria: sistema vestibular
+- **Canales:** rotación; **otolitos:** traslación e inclinación.
+- **Actividad de reposo alta;** el cerebro lee la diferencia entre los lados.
+- **Cúpula:** péndulo de torsión; integra la aceleración y entrega velocidad; almacenamiento de velocidad la prolonga.
+- **Ewald:** plano del canal; lateral excita hacia la ampolla, verticales al alejarse; excitación > inhibición.
+- **Nistagmo:** fase lenta vestibular; bate hacia el lado más activo (el sano en una lesión aguda).
+- **cVEMP:** sáculo, vestibular inferior, ECM mismo lado. **oVEMP:** utrículo, vestibular superior, oblicuo inferior contrario.
+- **VPPB:** canalitiasis (latencia, < 1 min, fatiga) vs cupulolitiasis (sin latencia, persistente).
+- **Compensación:** estática (reequilibrio) rápida; dinámica (adaptación, sustitución, habituación) lenta.
+:::
+
+## Nariz
+
+### El ciclo nasal
+
+Las dos fosas nasales no respiran igual al mismo tiempo. El tejido eréctil de los cornetes y del tabique se llena en una fosa mientras se vacía en la otra, y después se invierte: es el **ciclo nasal** (→ B3: tejido eréctil). La resistencia **total** de la nariz se mantiene casi constante; lo que cambia es cómo se reparte entre los dos lados. Se encuentra en un 70 a 80 % de los adultos sanos (Pendolino y cols., 2018). En un registro de 24 horas, cada fosa dominó en promedio unas 2 a 2,5 horas, y el ciclo duró más durante el sueño (Kahana-Zweig y cols., 2016). Lo controla el sistema nervioso autónomo a través del calibre de los senos venosos (Eccles, 1996).
+
+Dos consecuencias clínicas:
+
+- Una persona sana no nota su ciclo, pero alguien con un **tabique desviado** sí: cuando la fosa estrecha entra en su fase congestiva, se tapa por completo, y la obstrucción "cambia de lado" a lo largo del día (→ H26).
+- Cualquier medición de una sola fosa (rinomanometría, rinometría acústica, flujo inspiratorio) depende del momento del ciclo, y por eso se repite **después de un vasoconstrictor**, que vacía el tejido eréctil y deja ver la vía aérea fija (→ H26, H27).
+
+### La resistencia al flujo y la válvula nasal
+
+La nariz es la parte de la vía aérea que más se opone al paso del aire. La resistencia depende sobre todo del **calibre**: en un tubo, el flujo cae con la cuarta potencia del radio, así que una pequeña reducción del área tiene un efecto grande (→ B4: flujo y resistencia).
+
+El punto más estrecho es la **válvula nasal**, en la entrada de la fosa: el espacio entre el tabique, el borde del cartílago lateral superior y la cabeza del cornete inferior. Ahí el aire se acelera, la presión cae y la pared lateral, que es blanda, tiende a ser **succionada hacia adentro** en una inspiración fuerte. Una válvula débil o estrecha da obstrucción **inspiratoria**, que mejora al tirar la mejilla hacia afuera (→ H25, H26).
+
+### El acondicionamiento del aire
+
+Antes de llegar a los pulmones, el aire tiene que estar **caliente, húmedo y limpio**, y la nariz hace casi todo ese trabajo (→ H25, cap. 36):
+
+Tabla: Cómo acondiciona la nariz el aire inspirado
+
+| Función | Cómo lo hace |
+|---|---|
+| Calentar | Los cornetes aumentan la superficie de contacto, y el flujo de sangre de la mucosa le entrega calor al aire |
+| Humedecer | Las glándulas seromucosas y el agua de la mucosa saturan el aire de vapor |
+| Filtrar | Los pelos del vestíbulo retienen las partículas grandes; las más chicas chocan contra la mucosa en las curvas del flujo y quedan atrapadas en el moco |
+| Depurar | El **transporte mucociliar** lleva el moco hacia la rinofaringe, donde se traga (→ B3) |
+
+La forma de los cornetes hace que el aire pase en capas finas y con turbulencia, en contacto con la mucosa. Por eso, cuando se reseca o se pierde mucosa de los cornetes, el aire llega frío y seco aunque la nariz "esté abierta": el paciente puede sentirse tapado con una fosa amplia (→ H26).
+
+### La olfacción
+
+**Cómo llega el olor.** Las moléculas olorosas llegan a la **hendidura olfatoria**, en el techo de la fosa, de dos maneras: con el aire que entra por la nariz (vía **ortonasal**) o desde la boca, al tragar, por la rinofaringe (vía **retronasal**). La vía retronasal es la que da casi todo el "sabor" de los alimentos. Para que una molécula se detecte tiene que disolverse en el moco que cubre los cilios de las neuronas olfatorias (→ B3).
+
+**La transducción.** Ocurre en los cilios de la neurona olfatoria (Kleene, 2008):
+
+1. La molécula olorosa se une a un **receptor olfatorio**, una proteína de membrana acoplada a proteína G. Hay una gran familia de genes para estos receptores, y cada neurona expresa uno solo (Buck y Axel, 1991).
+2. El receptor activa una proteína G propia del olfato, que activa la **adenilato ciclasa**.
+3. Sube el **AMP cíclico**, que abre **canales catiónicos activados por nucleótidos cíclicos**: entran Na⁺ y Ca²⁺.
+4. El Ca²⁺ que entra abre **canales de cloruro activados por calcio**. Como la neurona olfatoria tiene mucho cloruro adentro, el **cloruro sale** y despolariza aún más: es un amplificador.
+5. La despolarización genera **potenciales de acción** que viajan por el axón.
+6. **Adaptación:** el mismo Ca²⁺ reduce después la sensibilidad de los canales. Por eso un olor constante se deja de notar.
+
+:::imagen ilustraciones/b2-olfaccion.svg ancho=100% La transducción olfatoria en el cilio y la vía hasta la corteza. Arriba, la cascada: receptor, proteína G, adenilato ciclasa, AMP cíclico, canal catiónico, canal de cloruro. Abajo, el camino: neurona, lámina cribosa, glomérulo del bulbo, célula mitral, tracto olfatorio y corteza piriforme. Esquema propio a partir de Kleene (2008). Imagen propia del libro.
+:::
+
+**La vía.** Los axones cruzan la lámina cribosa y terminan en el **bulbo olfatorio**, en unas estructuras llamadas **glomérulos**. Todos los axones de las neuronas que expresan el mismo receptor convergen en los mismos glomérulos, así que el bulbo tiene un mapa de qué receptores se activaron. Las **células mitrales** llevan la señal por el **tracto olfatorio** a la **corteza piriforme**, a la amígdala y a la corteza entorrinal. A diferencia de los demás sentidos, el olfato llega a la corteza **sin pasar primero por el tálamo**, y tiene conexiones directas con las áreas de la emoción y la memoria. Desde la corteza olfatoria primaria, la información sigue a la corteza orbitofrontal, donde se identifica el olor (→ B1).
+
+**Por qué la obstrucción nasal quita el olfato.** Si el aire no llega a la hendidura olfatoria, las moléculas no llegan a los receptores, aunque las neuronas estén sanas. Es la **anosmia conductiva**: aparece con un pólipo, una mucosa muy inflamada o mucha secreción, y puede recuperarse cuando se trata la obstrucción (→ H28, cap. 35). Se distingue de la anosmia **neurosensorial**, en la que se dañan las neuronas, sus células de soporte o la vía, como después de una infección viral o un traumatismo (→ B3: células sustentaculares).
+
+:::ayuda Ayuda memoria: nariz
+- **Ciclo nasal:** alternancia de congestión entre las fosas, resistencia total constante; control autónomo; 70-80 % de los adultos.
+- **Resistencia:** depende del radio a la cuarta; el punto más estrecho es la válvula nasal.
+- **Acondicionamiento:** calentar, humedecer, filtrar, depurar.
+- **Olfacción:** receptor → proteína G → AMPc → canal catiónico → salida de Cl⁻ → potencial de acción → glomérulo → mitral → corteza piriforme (sin tálamo).
+- **Anosmia conductiva:** el olor no llega a la hendidura; neurosensorial: se daña el epitelio o la vía.
+:::
+
+<!-- SECCIÓN PENDIENTE: 8 Cierre: preguntas, respuestas, créditos (ver bitácora) -->
 
 ## Referencias
 
@@ -500,6 +693,7 @@ La maduración depende también de la **estimulación**. Una vía que no recibe 
 
 1. Pickles JO. An introduction to the physiology of hearing. 4.ª ed. Leiden: Brill; 2013. ISBN 978-90-04-24377-4
 1. von Békésy G. Experiments in hearing. Nueva York: McGraw-Hill; 1960.
+1. Baloh RW, Honrubia V, Kerber KA. Baloh and Honrubia's clinical neurophysiology of the vestibular system. 4.ª ed. Nueva York: Oxford University Press; 2011. ISBN 978-0-19-538783-4 <!-- verificar: ISBN -->
 1. Bregman AS. Auditory scene analysis: the perceptual organization of sound. Cambridge (MA): MIT Press; 1990. ISBN 978-0-262-02297-2
 1. Moore BCJ. Cochlear hearing loss: physiological, psychological and technical issues. 2.ª ed. Chichester: Wiley; 2007. ISBN 978-0-470-51633-1
 
@@ -550,3 +744,21 @@ La maduración depende también de la **estimulación**. Una vía que no recibe 
 1. Moore JK, Linthicum FH Jr. The human auditory system: a timeline of development. Int J Audiol. 2007;46(9):460-78. doi:10.1080/14992020701383019
 1. Eggermont JJ, Salamy A. Maturational time course for the ABR in preterm and full term infants. Hear Res. 1988;33(1):35-47. doi:10.1016/0378-5955(88)90019-6 <!-- verificar: doi -->
 1. Kei J, Allison-Levick J, Dockray J, Harrys R, Kirkegard C, Wong J, et al. High-frequency (1000 Hz) tympanometry in normal neonates. J Am Acad Audiol. 2003;14(1):20-8. doi:10.3766/jaaa.14.1.4 <!-- verificar: autores y doi -->
+
+### Sistema vestibular
+
+1. Goldberg JM, Fernández C. Physiology of peripheral neurons innervating semicircular canals of the squirrel monkey. I. Resting discharge and response to constant angular accelerations. J Neurophysiol. 1971;34(4):635-60. doi:10.1152/jn.1971.34.4.635
+1. Raphan T, Matsuo V, Cohen B. Velocity storage in the vestibulo-ocular reflex arc (VOR). Exp Brain Res. 1979;35(2):229-48. doi:10.1007/BF00236613 <!-- verificar: doi -->
+1. Halmagyi GM, Curthoys IS. A clinical sign of canal paresis. Arch Neurol. 1988;45(7):737-9. doi:10.1001/archneur.1988.00520310043015 <!-- verificar: doi -->
+1. Angelaki DE, McHenry MQ, Dickman JD, Newlands SD, Hess BJ. Computation of inertial motion: neural strategies to resolve ambiguous otolith information. J Neurosci. 1999;19(1):316-27. doi:10.1523/JNEUROSCI.19-01-00316.1999 <!-- verificar: doi -->
+1. Rosengren SM, Welgampola MS, Colebatch JG. Vestibular evoked myogenic potentials: past, present and future. Clin Neurophysiol. 2010;121(5):636-51. doi:10.1016/j.clinph.2009.10.016
+1. Lopez C, Blanke O. The thalamocortical vestibular system in animals and humans. Brain Res Rev. 2011;67(1-2):119-46. doi:10.1016/j.brainresrev.2010.12.002 <!-- verificar: doi -->
+1. Lacour M, Helmchen C, Vidal PP. Vestibular compensation: the neuro-otologist's best friend. J Neurol. 2016;263(Suppl 1):S54-64. doi:10.1007/s00415-015-7903-4
+
+### Nariz
+
+1. Eccles R. A role for the nasal cycle in respiratory defence. Eur Respir J. 1996;9(2):371-6. doi:10.1183/09031936.96.09020371
+1. Pendolino AL, Lund VJ, Nardello E, Ottaviano G. The nasal cycle: a comprehensive review. Rhinology Online. 2018;1:67-76. doi:10.4193/RHINOL/18.021
+1. Kahana-Zweig R, Geva-Sagiv M, Weissbrod A, Secundo L, Soroker N, Sobel N. Measuring and characterizing the human nasal cycle. PLoS One. 2016;11(10):e0162918. doi:10.1371/journal.pone.0162918
+1. Buck L, Axel R. A novel multigene family may encode odorant receptors: a molecular basis for odor recognition. Cell. 1991;65(1):175-87. doi:10.1016/0092-8674(91)90418-X
+1. Kleene SJ. The electrochemical basis of odor transduction in vertebrate olfactory cilia. Chem Senses. 2008;33(9):839-59. doi:10.1093/chemse/bjn048

@@ -14,8 +14,8 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | 3 | Cóclea | Redactada | 2026-11-05 |
 | 4 | Nervio y vía central | Redactada | 2026-11-05 |
 | 5 | Desarrollo | Redactada | 2026-11-05 |
-| 6 | Sistema vestibular | Pendiente | |
-| 7 | Nariz | Pendiente | |
+| 6 | Sistema vestibular | Redactada | 2026-11-05 |
+| 7 | Nariz | Redactada | 2026-11-05 |
 | 8 | Cierre (preguntas, respuestas, ayuda memoria final, créditos) | Pendiente | |
 
 ## Figuras pendientes (esquemas propios)
@@ -29,6 +29,8 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | `ilustraciones/b2-onda-viajera.svg` | 3 | Cóclea desenrollada, envolvente de la onda para 3 tonos |
 | `ilustraciones/b2-transduccion.svg` | 3 | Haz en reposo/excitado/inhibido + célula (K⁺, Ca²⁺, glutamato) |
 | `ilustraciones/b2-codificacion.svg` | 4 | Curvas de sintonía, bloqueo de fase, tasa vs intensidad (alta/baja actividad espontánea) |
+| `ilustraciones/b2-ewald.svg` | 6 | Tres leyes de Ewald: lateral ampulípeto, vertical ampulífugo, curva asimétrica de disparo |
+| `ilustraciones/b2-olfaccion.svg` | 7 | Cascada de transducción en el cilio + vía al bulbo y corteza piriforme |
 | `ilustraciones/b2-binaural.svg` | 4 | DIT (graves) y DIN/sombra (agudos) con fuente a la derecha; oliva medial y lateral |
 
 Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
@@ -97,6 +99,30 @@ Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
 | 🔴 | "Intervención antes de los 6 meses" | Sin cita (JCIH); probablemente ya citado en cap. 16 |
 | 🔴 | "Repetir EOA días después baja falsos positivos" | Sin cita en B2 (cap. 16 debería tenerla) |
 | 🟢 | Moore y Linthicum 2007 | Verificado (ya en B3) |
+
+### Sección 6 — Sistema vestibular
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | "≈ 90 potenciales/s en reposo" | Citado a Goldberg y Fernández 1971 (verificado el artículo, no la cifra) |
+| 🔴 | Latencia del RVO ≈ 10 ms | Sin cita |
+| 🔴 | Polarización: utrículo hacia la estriola, sáculo hacia afuera | De memoria; confirmar (Baloh 2011 o B3) |
+| 🔴 | Tabla de VEMP (vías, músculo, inhibitorio/excitatorio) | Citada a Rosengren 2010 (verificado); confirmar detalle de vías |
+| 🔴 | Ganancia normal del RVO "cercana a 1" | Sin cifra de corte; H17 debería tener normas |
+| 🔴 | Doi de memoria | Raphan 1979; Halmagyi y Curthoys 1988; Angelaki 1999; Lopez y Blanke 2011; Baloh 2011 (ISBN) |
+| 🔴 | "Sedantes vestibulares retrasan la compensación" | Sin cita propia (Lacour 2016 lo menciona en general) |
+| 🟡 | Leyes de Ewald | Citadas a Baloh 2011 (manual, no verificado en línea) |
+| 🟢 | Rosengren 2010; Lacour 2016; Goldberg y Fernández 1971 | Verificados (artículo) |
+
+### Sección 7 — Nariz
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | "La nariz es la parte de la vía aérea que más se opone al paso del aire" | Sin cita |
+| 🔴 | Válvula nasal (límites, colapso inspiratorio) | Sin cita; sugerencia: citar texto de rinología o B1 |
+| 🔴 | Tabla de acondicionamiento del aire | Sin cita por fila |
+| 🔴 | Vía olfatoria sin tálamo; corteza orbitofrontal | De memoria, sin cita; sugerencia: citar un manual de neurociencia |
+| 🟢 | Pendolino 2018; Kahana-Zweig 2016; Kleene 2008; Buck y Axel 1991 | Verificados |
 
 ### B3 (de la revisión del 2026-11-05)
 
