@@ -12,8 +12,8 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | 1 | Oído externo y medio | Redactada | 2026-11-05 |
 | 2 | Conducción ósea | Redactada | 2026-11-05 |
 | 3 | Cóclea | Redactada | 2026-11-05 |
-| 4 | Nervio y vía central | Pendiente | |
-| 5 | Desarrollo | Pendiente | |
+| 4 | Nervio y vía central | Redactada | 2026-11-05 |
+| 5 | Desarrollo | Redactada | 2026-11-05 |
 | 6 | Sistema vestibular | Pendiente | |
 | 7 | Nariz | Pendiente | |
 | 8 | Cierre (preguntas, respuestas, ayuda memoria final, créditos) | Pendiente | |
@@ -28,6 +28,8 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | `ilustraciones/b2-mecanismos-co.svg` | 2 | Caminos de la vibración del cráneo a la cóclea (5 componentes) |
 | `ilustraciones/b2-onda-viajera.svg` | 3 | Cóclea desenrollada, envolvente de la onda para 3 tonos |
 | `ilustraciones/b2-transduccion.svg` | 3 | Haz en reposo/excitado/inhibido + célula (K⁺, Ca²⁺, glutamato) |
+| `ilustraciones/b2-codificacion.svg` | 4 | Curvas de sintonía, bloqueo de fase, tasa vs intensidad (alta/baja actividad espontánea) |
+| `ilustraciones/b2-binaural.svg` | 4 | DIT (graves) y DIN/sombra (agudos) con fuente a la derecha; oliva medial y lateral |
 
 Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
 
@@ -71,6 +73,30 @@ Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
 | 🟡 | Moore 2007 | ISBN de memoria |
 | 🟢 | Liberman 2002 | Verificado (40-60 dB sin prestina) |
 | 🟢 | Fettiplace 2017; Guinan 2006 | Verificados |
+
+### Sección 4 — Nervio y vía central
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | Generadores del PEAT | Tabla según Møller y cols. 1981 (título y doi de memoria). Coherente con B1 (onda IV = olivar). Confirmar en el original |
+| 🔴 | "I-V ≈ 4 ms en el adulto" | Sin cita; remite a H10 para normas |
+| 🔴 | Roll-over: Jerger y Jerger 1971 | Doi de memoria |
+| 🔴 | Doi de memoria | Zatorre 2002; Litovsky 1999; ASHA 2005 |
+| 🔴 | "Pérdida auditiva oculta" y fibras de baja actividad espontánea | Afirmación sin cita propia en B2 (sugerencia: Furman y cols. 2013, J Neurophysiol; Wu y cols. 2019 ya está en B3) |
+| 🔴 | Tabla de estaciones (núcleo coclear dorsal = muescas espectrales; geniculado = atención) | Escrita de memoria, sin cita por fila; sugerencia: citar Pickles 2013 |
+| 🟡 | DIT máxima ≈ 0,7 ms; teoría dúplex | Citado a Grothe 2010; confirmar la cifra |
+| 🟡 | Lateralización hemisférica y ventaja del oído derecho | Citado a Zatorre 2002; la ventaja del oído derecho no tiene cita propia (Kimura 1961) |
+| 🟢 | Liberman 1978; Johnson 1980; Grothe 2010 | Verificados |
+
+### Sección 5 — Desarrollo
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | "PEAT adulto hacia los 2 años"; onda I casi adulta al nacer | Citado a Eggermont y Salamy 1988 (doi de memoria); confirmar cifras |
+| 🔴 | Kei y cols. 2003 (1.000 Hz) | Autores y doi de memoria |
+| 🔴 | "Intervención antes de los 6 meses" | Sin cita (JCIH); probablemente ya citado en cap. 16 |
+| 🔴 | "Repetir EOA días después baja falsos positivos" | Sin cita en B2 (cap. 16 debería tenerla) |
+| 🟢 | Moore y Linthicum 2007 | Verificado (ya en B3) |
 
 ### B3 (de la revisión del 2026-11-05)
 

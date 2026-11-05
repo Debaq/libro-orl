@@ -324,7 +324,175 @@ Tabla: Qué parte de la cóclea mide cada prueba
 - **Reclutamiento:** pérdida de compresión → campo dinámico estrecho.
 :::
 
-<!-- SECCIONES PENDIENTES: 4 Nervio y vía central · 5 Desarrollo · 6 Vestibular · 7 Nariz · 8 Cierre (ver bitácora) -->
+## Nervio y vía central
+
+### Cómo codifica el nervio la frecuencia, la intensidad y el tiempo
+
+El nervio coclear tiene unas 30.000 fibras (→ B3). Cada una dispara potenciales de acción todos iguales: no puede mandar "más fuerte" ni "más agudo" cambiando la forma de la señal. Todo lo que el cerebro sabe del sonido lo deduce de **qué fibras** disparan, **cuántas veces** y **en qué momento**.
+
+**Frecuencia: código de lugar y código temporal.**
+
+- **Código de lugar.** Cada fibra viene de un punto de la cóclea y responde mejor a su frecuencia característica (→ sección Cóclea: tonotopía). Qué fibras están activas dice qué frecuencias tiene el sonido. Sirve en todo el rango audible y es el único código para los agudos.
+- **Código temporal (bloqueo de fase).** En las frecuencias bajas, la fibra tiende a disparar siempre en la misma fase de la onda: los disparos quedan "pegados" al ritmo del sonido. El intervalo entre disparos dice la frecuencia. El bloqueo de fase se debilita al subir la frecuencia; en el gato se mantiene hasta unos 4 a 5 kHz (Johnson, 1980), y en el humano el límite se discute. Es la base de la percepción fina del tono grave y de la localización por diferencias de tiempo (más abajo).
+
+**Intensidad: frecuencia de disparo, tipos de fibra y población.** Una sola fibra sube su frecuencia de disparo con la intensidad, pero solo a lo largo de unos 20 a 30 dB; después se satura (Johnson, 1980). El oído cubre unos 120 dB con tres recursos:
+
+1. **Fibras con distinta actividad espontánea.** Las fibras se clasifican por cuánto disparan en silencio (Liberman, 1978). Las de **alta actividad espontánea** son la mayoría, tienen el umbral más bajo y se saturan pronto: codifican los sonidos suaves. Las de **baja actividad espontánea** tienen umbral alto y un rango dinámico amplio: siguen informando en los sonidos fuertes y en el ruido.
+2. **Sumación por población.** Un sonido más fuerte mueve un tramo más largo de la membrana basilar y recluta fibras de frecuencias vecinas.
+3. **La compresión coclear** de las CCE, que mete un rango grande de presiones en el rango de las fibras (→ sección Cóclea).
+
+Las fibras de baja actividad espontánea son las primeras que se pierden en la sinaptopatía por ruido y con la edad. Como no fijan el umbral, el audiograma queda normal, pero la escucha en ruido empeora: es la llamada **pérdida auditiva oculta** (→ B3, cap. 6).
+
+**Tiempo y adaptación.** El nervio marca con precisión el comienzo de un sonido: muchas fibras disparan juntas al inicio, y después la frecuencia de disparo baja a un nivel sostenido. Es la **adaptación neural**. Esa descarga sincrónica del comienzo es la que registra el PEAT, y por eso el PEAT necesita estímulos breves, como el clic (→ H10). Una adaptación exagerada, en la que la fibra deja de responder en segundos, es un signo de lesión del nervio (→ sección Cóclea: adaptación).
+
+:::imagen ilustraciones/b2-codificacion.svg ancho=100% Tres códigos del nervio coclear. A: código de lugar; cada fibra tiene su curva de sintonía con la punta en su frecuencia característica. B: bloqueo de fase; con un tono grave, los disparos caen siempre en la misma fase de la onda. C: frecuencia de disparo según la intensidad para una fibra de alta y una de baja actividad espontánea; mira dónde se satura cada una. Esquema propio a partir de Liberman (1978) y Johnson (1980). Imagen propia del libro.
+:::
+
+### Los neurotransmisores de la vía central
+
+El potencial de acción viaja por el axón y, en cada sinapsis, se convierte en la liberación de un neurotransmisor. La vía auditiva y la vestibular usan sobre todo tres:
+
+Tabla: Neurotransmisores de las vías auditiva y vestibular centrales
+
+| Transmisor | Efecto | Dónde pesa |
+|---|---|---|
+| Glutamato | Excitador | Fibras del nervio coclear y vestibular; casi todas las conexiones ascendentes |
+| Glicina | Inhibidor | Complejo olivar: la inhibición del lado contrario que permite comparar los dos oídos; núcleos vestibulares |
+| GABA | Inhibidor | Colículo inferior, núcleos cocleares, núcleos vestibulares (inhibición entre los dos lados) y cerebelo (células de Purkinje) |
+
+La **inhibición** es tan importante como la excitación: la comparación entre los dos oídos en el complejo olivar y el equilibrio entre los dos núcleos vestibulares dependen de que un lado frene al otro (Grothe y cols., 2010) (→ B1, sección Sistema vestibular).
+
+**Mielina y velocidad.** El potencial de acción viaja más rápido en los axones gruesos y mielinizados, porque salta de un nodo de Ranvier al siguiente. La vía auditiva del tronco depende de esa velocidad y de su sincronía: una fibra desmielinizada conduce más lento y con más dispersión. Por eso la **esclerosis múltiple** alarga los interpicos del PEAT, y por eso el PEAT del recién nacido, con la vía todavía en mielinización, tiene latencias más largas que el del adulto (→ cap. 12, sección Desarrollo).
+
+### Qué hace cada estación de la vía
+
+La anatomía de la vía está en B1, con las láminas de labyrinthus3d. Aquí, lo que hace cada estación. Hay dos ideas que atraviesan toda la vía: la **tonotopía se conserva** en todas las estaciones, de la cóclea a la corteza, y desde el complejo olivar hacia arriba **cada lado recibe información de los dos oídos**.
+
+Tabla: Función de cada estación de la vía auditiva
+
+| Estación | Qué hace |
+|---|---|
+| Núcleo coclear ventral | Reparte la señal en vías paralelas; algunas neuronas conservan con precisión el tiempo de los disparos y lo llevan al complejo olivar; es el punto de partida del reflejo estapedial |
+| Núcleo coclear dorsal | Analiza el espectro: detecta las muescas que el pabellón produce según la elevación del sonido |
+| Complejo olivar superior | Primera estación binaural: compara tiempo e intensidad entre los oídos (localización); origen de las eferentes olivococleares; parte del arco estapedial |
+| Lemnisco lateral | Lleva la información hacia el mesencéfalo; sus núcleos procesan el tiempo |
+| Colículo inferior | Estación obligatoria: casi todas las vías ascendentes hacen sinapsis aquí; integra la información binaural, espectral y temporal; reflejos de orientación |
+| Cuerpo geniculado medial | Relevo talámico hacia la corteza; filtra y modula lo que llega según la atención |
+| Corteza auditiva primaria | Giro de Heschl, en el lóbulo temporal; mapa tonotópico; detecta rasgos del sonido |
+| Áreas secundarias y de asociación | Alrededor de la primaria; analizan sonidos complejos, el habla y la música, y los conectan con el lenguaje y la memoria |
+
+**Lateralización hemisférica.** Los dos hemisferios no hacen lo mismo. El izquierdo es mejor para los cambios temporales rápidos, como los del habla; el derecho, para el detalle espectral, como el tono y la melodía (Zatorre y cols., 2002). En la mayoría de las personas el lenguaje depende del hemisferio izquierdo, y por eso, en las pruebas dicóticas, el oído derecho, cuya vía principal cruza al izquierdo, suele reconocer un poco mejor (→ H15).
+
+### Audición binaural y localización
+
+La cóclea no tiene un mapa del espacio: la posición de una fuente se calcula en el tronco, comparando los dos oídos (Grothe y cols., 2010). Hay dos pistas principales:
+
+- **Diferencia interaural de tiempo (DIT).** Un sonido que viene de un lado llega antes al oído de ese lado. La diferencia máxima, con la fuente de lado, es de unos 0,7 ms. La comparan las neuronas de la **oliva superior medial**, que reciben de los dos núcleos cocleares. Sirve sobre todo en los **graves**, donde el bloqueo de fase es bueno.
+- **Diferencia interaural de nivel (DIN).** La cabeza hace **sombra**: el oído del lado contrario recibe menos sonido. La sombra es grande en los **agudos**, cuya longitud de onda es menor que la cabeza, y casi nula en los graves, que la rodean. La compara la **oliva superior lateral**, que recibe excitación de su lado e inhibición del lado contrario.
+
+Esa división, tiempo para los graves y nivel para los agudos, es la **teoría dúplex**. Las pistas espectrales del pabellón completan la información para distinguir adelante de atrás y arriba de abajo (→ sección Oído externo y medio).
+
+**Efecto de precedencia.** En una sala, al oído llega el sonido directo y, milisegundos después, sus ecos. El sistema auditivo localiza la fuente por el **primer frente de onda** y le resta peso a los ecos que llegan poco después (Litovsky y cols., 1999).
+
+**Análisis de la escena auditiva y efecto cóctel.** En un ambiente con muchas fuentes, el cerebro separa la mezcla en "objetos" según su tono, su ritmo, su timbre y su posición (Bregman, 1990). Así se puede seguir una voz en una fiesta, el **efecto cóctel** (Cherry, 1953). Las dos orejas ayudan mucho: separar la voz del ruido en el espacio mejora la comprensión. Por eso una pérdida unilateral, o la pérdida de las fibras que trabajan en el ruido, se nota sobre todo en ambientes ruidosos (→ H15, cap. 30).
+
+:::imagen ilustraciones/b2-binaural.svg ancho=90% Las dos pistas de la localización, con una fuente a la derecha. A: diferencia de tiempo; el sonido grave llega antes al oído derecho. B: diferencia de nivel; el agudo queda en la sombra de la cabeza en el oído izquierdo. Abajo, las dos olivas que hacen cada comparación. Esquema propio a partir de Grothe y cols. (2010). Imagen propia del libro.
+:::
+
+### Los generadores del PEAT
+
+El PEAT registra desde el cuero cabelludo la actividad sincrónica de la vía en los primeros 10 ms después de un clic. Sus ondas se nombran con números romanos. Las grabaciones hechas durante cirugías en humanos permiten asignar cada una a una estación (Møller y cols., 1981):
+
+Tabla: Generadores de las ondas del PEAT
+
+| Onda | Generador principal |
+|---|---|
+| I | Porción distal del nervio coclear (cerca de la cóclea) |
+| II | Porción proximal del nervio coclear (al entrar al tronco) |
+| III | Núcleo coclear |
+| IV | Complejo olivar superior |
+| V | Lemnisco lateral al llegar al colículo inferior |
+
+Cada onda tiene más de un generador, y desde la onda III en adelante contribuyen los dos lados. Aun así, el esquema sirve para leer las lesiones (Møller y cols., 1981):
+
+- **La latencia de la onda I** depende de la cóclea y del oído medio: se alarga en una pérdida conductiva.
+- **Los interpicos I-III, III-V y I-V** miden la conducción central y no dependen de la pérdida periférica. El I-V dura unos 4 ms en el adulto; los valores de referencia están en H10.
+- **Un I-III alargado** apunta al nervio o a la entrada del tronco, como en el schwannoma vestibular (→ cap. 11). **Un III-V alargado** apunta al tronco alto (→ cap. 12).
+- **Una onda V ausente con la I presente** sugiere un problema del nervio o del tronco; **todas ausentes con EOA presentes**, una neuropatía auditiva (→ cap. 13).
+
+La maduración del PEAT en el lactante está en la sección Desarrollo, y las láminas de B1 muestran cómo cambia el PEAT con una lesión en cada estación.
+
+### Procesamiento central del habla
+
+Entender el habla exige más que oír: hay que seguir cambios rápidos de frecuencia e intensidad, separar la voz del ruido y reconocer las palabras. Eso depende de la **precisión temporal** del nervio y de la vía.
+
+Por eso la discriminación del habla cae **más en lo retrococlear** que en lo coclear. En una pérdida coclear, la discriminación empeora en proporción a la pérdida, y al subir la intensidad suele mejorar o mantenerse. En una lesión del nervio o del tronco, la señal llega con menos fibras y sin sincronía, y la discriminación puede ser **mucho peor de lo que predice el audiograma**. Además, al subir la intensidad, puede empeorar en vez de mejorar: es el fenómeno de **roll-over** (Jerger y Jerger, 1971) (→ H5, cap. 11, cap. 13).
+
+### Procesamiento auditivo central
+
+El **procesamiento auditivo central** es lo que la vía hace con la señal después de la cóclea: ordenarla en el tiempo, compararla entre los oídos y separarla del fondo. Cuando falla con un audiograma normal se habla de un **trastorno del procesamiento auditivo** (ASHA, 2005). Las pruebas del libro miden cuatro capacidades (→ H15):
+
+Tabla: Capacidades del procesamiento auditivo central
+
+| Capacidad | Qué es | Cómo se mide |
+|---|---|---|
+| Resolución temporal | Detectar cambios muy breves, como un silencio de pocos milisegundos | Detección de silencios (*gaps*) |
+| Ordenamiento temporal | Reconocer el orden de varios sonidos | Patrones de frecuencia y de duración |
+| Interacción binaural | Combinar lo que llega a los dos oídos | Nivel de diferencia de enmascaramiento, localización |
+| Escucha dicótica y figura-fondo | Atender a un oído o a una voz cuando hay otra señal | Dígitos y palabras dicóticas; habla en ruido |
+
+Estas capacidades **maduran hasta la adolescencia**, al ritmo de la mielinización y de la corteza (Moore y Linthicum, 2007). Por eso los resultados de un niño se comparan con normas de su edad, y por eso un niño pequeño puede "fallar" una prueba central sin tener un trastorno (→ H15, sección Desarrollo).
+
+:::ayuda Ayuda memoria: nervio y vía central
+- **Frecuencia:** código de lugar (todo el rango) y bloqueo de fase (graves).
+- **Intensidad:** cada fibra cubre 20-30 dB; fibras de alta y baja actividad espontánea, población y compresión coclear cubren 120 dB.
+- **Fibras de baja actividad espontánea:** se pierden primero con ruido y edad; audiograma normal, mal en ruido.
+- **Transmisores:** glutamato excita; glicina y GABA inhiben.
+- **Binaural:** DIT en oliva medial (graves); DIN en oliva lateral (agudos); sombra de la cabeza.
+- **PEAT:** I nervio distal, II nervio proximal, III núcleo coclear, IV olivar, V lemnisco/colículo.
+- **Retrococlear:** discriminación peor que el audiograma; roll-over.
+:::
+
+## Desarrollo
+
+### El oído del recién nacido
+
+Al nacer, la **cóclea ya tiene forma casi adulta** y funciona: las emisiones otoacústicas se registran desde los primeros días (→ B3, H9). Lo que todavía cambia es lo que la rodea:
+
+- **El conducto** es corto y sus paredes son blandas, sin la parte ósea formada. Se deforma con la presión de la sonda y puede cerrarse. Además, puede estar ocupado por vérnix (→ B3, cap. 16).
+- **El oído medio** puede tener **mesénquima** y líquido amniótico en las primeras horas o días (→ B3). Su masa y su rigidez son distintas de las del adulto.
+- **La trompa** es corta y horizontal (→ B1).
+
+Dos consecuencias para el tamizaje y el diagnóstico:
+
+1. **Las EOA del primer día fallan más.** Un conducto ocupado o un oído medio con líquido apagan las emisiones aunque la cóclea esté sana. Repetir la prueba unos días después baja mucho los falsos positivos (→ cap. 16).
+2. **La timpanometría con sonda de 226 Hz no sirve en el lactante pequeño.** Las paredes blandas del conducto se mueven con la sonda grave y pueden dar una curva normal con el oído medio lleno de líquido. Por eso en los primeros meses se usa una sonda de **1.000 Hz** (Kei y cols., 2003) (→ H7, cap. 17).
+
+### Maduración del tronco y de la corteza
+
+La vía auditiva sigue madurando después de nacer, de abajo hacia arriba (Moore y Linthicum, 2007):
+
+Tabla: Maduración de la vía auditiva
+
+| Nivel | Cuándo madura | Cómo se ve en las pruebas |
+|---|---|---|
+| Cóclea | Antes de nacer (final del segundo trimestre) | EOA presentes al nacer |
+| Nervio y tronco | Mielinización en el período perinatal y los primeros años | Latencias del PEAT más largas en el recién nacido; acortamiento progresivo hasta valores adultos hacia los 2 años |
+| Tálamo y corteza | Durante la infancia; capas superficiales de la corteza hasta los 12 años | Potenciales corticales que cambian hasta la adolescencia; procesamiento central inmaduro |
+
+En el recién nacido la onda I tiene una latencia cercana a la del adulto, porque depende de la cóclea, que ya está madura. Lo que se alarga son los **interpicos**, porque la vía del tronco todavía se está mielinizando (Eggermont y Salamy, 1988). Por eso el PEAT de un lactante se lee siempre con normas de su edad gestacional y corregida (→ H10, cap. 14, cap. 17).
+
+La maduración depende también de la **estimulación**. Una vía que no recibe sonido en los primeros años no madura igual, y ese es el fundamento de la detección temprana y de la intervención antes de los 6 meses (→ cap. 16, cap. 17).
+
+:::ayuda Ayuda memoria: desarrollo
+- **Al nacer:** cóclea madura; conducto blando, oído medio con mesénquima o líquido.
+- **Tamizaje:** las EOA del primer día fallan más por conducto u oído medio, no por cóclea.
+- **Timpanometría en el lactante:** sonda de 1.000 Hz.
+- **PEAT:** onda I casi adulta; interpicos largos que se acortan hasta los 2 años.
+- **Corteza y procesamiento central:** maduran hasta la adolescencia.
+:::
+
+<!-- SECCIONES PENDIENTES: 6 Vestibular · 7 Nariz · 8 Cierre (ver bitácora) -->
 
 ## Referencias
 
@@ -332,6 +500,7 @@ Tabla: Qué parte de la cóclea mide cada prueba
 
 1. Pickles JO. An introduction to the physiology of hearing. 4.ª ed. Leiden: Brill; 2013. ISBN 978-90-04-24377-4
 1. von Békésy G. Experiments in hearing. Nueva York: McGraw-Hill; 1960.
+1. Bregman AS. Auditory scene analysis: the perceptual organization of sound. Cambridge (MA): MIT Press; 1990. ISBN 978-0-262-02297-2
 1. Moore BCJ. Cochlear hearing loss: physiological, psychological and technical issues. 2.ª ed. Chichester: Wiley; 2007. ISBN 978-0-470-51633-1
 
 ### Oído externo y medio
@@ -363,3 +532,21 @@ Tabla: Qué parte de la cóclea mide cada prueba
 1. Hibino H, Nin F, Tsuzuki C, Kurachi Y. How is the highly positive endocochlear potential formed? The specific architecture of the stria vascularis and the roles of the ion-transport apparatus. Pflugers Arch. 2010;459(4):521-33. doi:10.1007/s00424-009-0754-z
 1. Wangemann P. Supporting sensory transduction: cochlear fluid homeostasis and the endocochlear potential. J Physiol. 2006;576(Pt 1):11-21. doi:10.1113/jphysiol.2006.112888
 1. Kemp DT. Stimulated acoustic emissions from within the human auditory system. J Acoust Soc Am. 1978;64(5):1386-91. doi:10.1121/1.382104
+
+### Nervio y vía central
+
+1. Liberman MC. Auditory-nerve response from cats raised in a low-noise chamber. J Acoust Soc Am. 1978;63(2):442-55. doi:10.1121/1.381736
+1. Johnson DH. The relationship between spike rate and synchrony in responses of auditory-nerve fibers to single tones. J Acoust Soc Am. 1980;68(4):1115-22. doi:10.1121/1.384982
+1. Grothe B, Pecka M, McAlpine D. Mechanisms of sound localization in mammals. Physiol Rev. 2010;90(3):983-1012. doi:10.1152/physrev.00026.2009
+1. Zatorre RJ, Belin P, Penhune VB. Structure and function of auditory cortex: music and speech. Trends Cogn Sci. 2002;6(1):37-46. doi:10.1016/S1364-6613(00)01816-7 <!-- verificar: doi -->
+1. Litovsky RY, Colburn HS, Yost WA, Guzman SJ. The precedence effect. J Acoust Soc Am. 1999;106(4 Pt 1):1633-54. doi:10.1121/1.427914 <!-- verificar: doi -->
+1. Cherry EC. Some experiments on the recognition of speech, with one and with two ears. J Acoust Soc Am. 1953;25(5):975-9. doi:10.1121/1.1907229
+1. Møller AR, Jannetta PJ, Møller MB. Neural generators of brainstem evoked potentials. Results from human intracranial recordings. Ann Otol Rhinol Laryngol. 1981;90(6 Pt 1):591-6. doi:10.1177/000348948109000616 <!-- verificar: título y doi -->
+1. Jerger J, Jerger S. Diagnostic significance of PB word functions. Arch Otolaryngol. 1971;93(6):573-80. doi:10.1001/archotol.1971.00770060875006 <!-- verificar: doi -->
+1. American Speech-Language-Hearing Association. (Central) auditory processing disorders [informe técnico]. 2005. doi:10.1044/policy.TR2005-00043 <!-- verificar: doi -->
+
+### Desarrollo
+
+1. Moore JK, Linthicum FH Jr. The human auditory system: a timeline of development. Int J Audiol. 2007;46(9):460-78. doi:10.1080/14992020701383019
+1. Eggermont JJ, Salamy A. Maturational time course for the ABR in preterm and full term infants. Hear Res. 1988;33(1):35-47. doi:10.1016/0378-5955(88)90019-6 <!-- verificar: doi -->
+1. Kei J, Allison-Levick J, Dockray J, Harrys R, Kirkegard C, Wong J, et al. High-frequency (1000 Hz) tympanometry in normal neonates. J Am Acad Audiol. 2003;14(1):20-8. doi:10.3766/jaaa.14.1.4 <!-- verificar: autores y doi -->
