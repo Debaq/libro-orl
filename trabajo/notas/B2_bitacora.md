@@ -10,8 +10,8 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 |---|---|---|---|
 | 0 | Apertura (objetivos, tabla de uso) | Redactada | 2026-11-05 |
 | 1 | Oído externo y medio | Redactada | 2026-11-05 |
-| 2 | Conducción ósea | Pendiente | |
-| 3 | Cóclea | Pendiente | |
+| 2 | Conducción ósea | Redactada | 2026-11-05 |
+| 3 | Cóclea | Redactada | 2026-11-05 |
 | 4 | Nervio y vía central | Pendiente | |
 | 5 | Desarrollo | Pendiente | |
 | 6 | Sistema vestibular | Pendiente | |
@@ -25,6 +25,9 @@ Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verifica
 | `ilustraciones/b2-resonancia-cae.svg` | 1 | Ganancia campo libre → membrana vs frecuencia (curva tipo Shaw 1974), pico ~3 kHz |
 | `ilustraciones/b2-adaptador-oido-medio.svg` | 1 | Razón de áreas + palanca martillo/yunque |
 | `ilustraciones/b2-arco-estapedial.svg` | 1 | Arco ipsi y contralateral con estímulo derecho |
+| `ilustraciones/b2-mecanismos-co.svg` | 2 | Caminos de la vibración del cráneo a la cóclea (5 componentes) |
+| `ilustraciones/b2-onda-viajera.svg` | 3 | Cóclea desenrollada, envolvente de la onda para 3 tonos |
+| `ilustraciones/b2-transduccion.svg` | 3 | Haz en reposo/excitado/inhibido + célula (K⁺, Ca²⁺, glutamato) |
 
 Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
 
@@ -44,6 +47,30 @@ Al final: crear `material/ilustraciones/CREDITOS_B2.md`.
 | 🟡 | Pickles 2013 | Cifras de manual (99,9 % / 30 dB; 55 mm²; 3,2 mm²; 1,3; ≈ 27 dB): cotejar con la edición |
 | 🟡 | Sadé y Ar 1997 | Verificado; "dos décimos de segundo" viene de una fuente secundaria que lo cita |
 | 🟢 | Mukerji y cols. 2010 | Verificado |
+
+### Sección 2 — Conducción ósea
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | Carhart: valores 5/10/15/5 dB | Una fuente secundaria los atribuye a **Carhart 1971** (capítulo de libro), no a 1950. Confirmar y ajustar la cita |
+| 🔴 | Tonndorf 1966 | Asignación de cada mecanismo a graves/medios/agudos escrita de memoria |
+| 🔴 | Tabla de atenuación interaural | Cifras de uso clínico sin cita primaria (ósea ≈ 0-15 dB; supraural ≈ 40; inserción ≈ 55-70). Sugerencia: citar un manual (p. ej. Gelfand, Essentials of Audiology) |
+| 🔴 | Doi de memoria | Stenfelt y Reinfeldt 2007; Stenfelt 2012; Carhart 1950 |
+| 🟢 | Stenfelt y Goode 2005 | Verificado (5 componentes; inercia de los líquidos la más importante) |
+
+### Sección 3 — Cóclea
+
+| Prio | Qué | Detalle |
+|---|---|---|
+| 🔴 | "CCE de la base más sensibles al estrés oxidativo" | Sin cita. Posible fuente: Sha y cols. 2001, Hear Res (vulnerabilidad basal vs apical a radicales libres) |
+| 🔴 | "EOA desaparecen sobre unos 30-40 dB HL" | Sin cita específica |
+| 🔴 | Hidrops: desplazamiento de la basilar hacia la rampa timpánica → PS grande | Mecanismo escrito de memoria, sin cita propia |
+| 🟡 | Doi de memoria (alta confianza) | Greenwood 1990; Robles y Ruggero 2001; Glowatzki y Fuchs 2002; Wangemann 2006; Kemp 1978 |
+| 🟡 | Detalles de transducción | Canales en la punta de los estereocilios cortos; ≈ 150 mV de fuerza impulsora (citado a Fettiplace 2017) |
+| 🟡 | Eferente lateral: ACh, GABA, dopamina | Citado a Guinan 2006 |
+| 🟡 | Moore 2007 | ISBN de memoria |
+| 🟢 | Liberman 2002 | Verificado (40-60 dB sin prestina) |
+| 🟢 | Fettiplace 2017; Guinan 2006 | Verificados |
 
 ### B3 (de la revisión del 2026-11-05)
 
