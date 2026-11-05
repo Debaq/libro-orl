@@ -60,13 +60,13 @@ El **cerumen** es la mezcla de sebo, secreción ceruminosa y células descamadas
 
 ### Las capas de la membrana timpánica
 
-La parte tensa de la membrana timpánica tiene **tres capas** (Lim, 1968):
+La parte tensa de la membrana timpánica tiene **tres capas** (Lim, 1968a):
 
 1. **Epidérmica**, hacia el conducto: epitelio plano estratificado, la continuación de la piel.
 2. **Lámina propia fibrosa**, en el medio: fibras de colágeno **radiales** (las más externas) y **circulares** (las más internas), con el mango del martillo incluido. Es la capa que le da la tensión y la forma de cono.
 3. **Mucosa**, hacia la caja: una capa de epitelio plano o cúbico, la misma mucosa que reviste el oído medio.
 
-La **parte flácida** (de Shrapnell), arriba, tiene la misma epidermis y la misma mucosa, pero su lámina propia es fina y laxa, sin las capas de fibras organizadas. <!-- verificar: Lim DJ 1968, Acta Otolaryngol 66:515-32 (pars flaccida); no se pudo cotejar en PubMed -->
+La **parte flácida** (de Shrapnell), arriba, tiene la misma epidermis y la misma mucosa, pero su lámina propia es de tejido conectivo laxo, sin las fibras de colágeno ordenadas de la parte tensa y con abundantes fibras elásticas; es más gruesa que la parte tensa, pero mucho menos tensa (Lim, 1968b, en gato, mono, conejo y oveja).
 
 :::imagen ilustraciones/b3-oido-medio.svg ancho=100% Capas de la membrana timpánica y mucosa del oído medio. A la izquierda, las tres capas de la parte tensa, la parte flácida (sin capa fibrosa organizada) y una placa de timpanoesclerosis dentro de la lámina propia; a la derecha, el epitelio de la caja sano y en una otitis con efusión (más alto, ciliado y con más células caliciformes, en azul). Esquema propio. Imagen propia del libro.
 :::
@@ -74,11 +74,11 @@ La **parte flácida** (de Shrapnell), arriba, tiene la misma epidermis y la mism
 Con las capas se entienden dos hallazgos de la otoscopía:
 
 - **Placa de timpanoesclerosis.** Es una mancha blanca y calcárea. Histológicamente es colágeno hialinizado con depósitos de calcio dentro de la lámina propia, el resultado de una inflamación crónica o repetida (Schiff y cols., 1980). La epidermis pasa por encima intacta; por eso la placa se ve a través de la membrana sin que esta esté perforada (→ cap. 3).
-- **Membrana cicatricial.** Cuando una perforación se cierra, el tejido nuevo suele ser epidermis y mucosa pegadas, sin la capa fibrosa organizada del medio. Es más delgada y más móvil que una membrana normal, y por eso se hunde o se abomba con facilidad. <!-- verificar: fuente de la membrana cicatricial "dimérica" sin capa fibrosa (Lim 1968 / Standring 2020) -->
+- **Membrana cicatricial.** Cuando una perforación se cierra, el tejido nuevo tiene epidermis y mucosa con una lámina propia muy reducida (de 2 a 3 µm en las zonas más finas), con fibrillas pero sin la organización en fibras radiales y circulares; todo el adelgazamiento se debe a esa capa (estudio en membranas humanas, Acta Otolaryngol, 1988). Es más delgada y más móvil que una membrana normal, y por eso se hunde o se abomba con facilidad. <!-- verificar: autores del artículo doi:10.3109/00016488809097011 -->
 
 ### La mucosa del oído medio y de la trompa
 
-La caja timpánica y la trompa están revestidas por **mucosa**, no por piel, y el epitelio cambia según la zona. En la mayor parte de la caja, sobre todo en el promontorio y la cadena, el epitelio es **plano o cúbico bajo**; en la parte anterior e inferior, cerca de la trompa, y en la propia trompa, es el **epitelio respiratorio** de la nariz: cilíndrico, ciliado, con células caliciformes (Sadé, 1966). Los cilios baten hacia la rinofaringe y arrastran el moco hacia afuera: es el mecanismo de limpieza del oído medio, igual que el del conducto pero con otra dirección. <!-- verificar: distribución del epitelio por zonas de la caja (Sadé 1966, sin resumen en PubMed) y sentido del batido en la trompa -->
+La caja timpánica y la trompa están revestidas por **mucosa**, no por piel, y el epitelio cambia según la zona. En la trompa y en la mitad a dos tercios anteroinferiores de la caja (hipotímpano, parte anterior del promontorio y techo del epitímpano) es el **epitelio respiratorio** de la nariz: cilíndrico, ciliado, con células caliciformes (Sadé, 1966). Hacia atrás y arriba el epitelio se aplana y pierde cilios: es **cúbico** en la parte posterior de la caja y **plano** sobre la cadena y en las celdas mastoideas (Shimada y Lim, 1972; Padurariu y cols., 2019). Los cilios baten hacia la rinofaringe y arrastran el moco hacia afuera: es el mecanismo de limpieza del oído medio, igual que el del conducto pero con otra dirección.
 
 Las **células caliciformes** existen en todas las partes de la trompa y la caja, y su densidad aumenta cuando el oído se enferma: es mayor en una otitis media aguda, en una otitis crónica activa y, sobre todo, en la **otitis con efusión** (Tos y Bak-Pedersen, 1977). En una otitis con efusión el epitelio se vuelve más alto, con más caliciformes, y produce moco espeso que llena la caja. Lo que ves en la otoscopía (membrana opaca, nivel de líquido) y en la timpanometría (curva plana o con pico muy bajo) es ese moco detrás de la membrana (→ cap. 2).
 
@@ -93,7 +93,7 @@ El oído interno está dentro de un hueso especial, la **cápsula ótica**, part
 Dos enfermedades rompen esa quietud:
 
 - **Otoesclerosis.** Es una enfermedad **focal** de la remodelación del hueso de la cápsula: el hueso estable se reabsorbe y después se rellena con hueso nuevo, más denso (Chole y McKenna, 2001). La zona predilecta es delante de la ventana oval (la *fissula ante fenestram*), donde el foco puede llegar a fijar la platina del estribo (→ cap. 4).
-- **Enfermedad de Paget.** El hueso se remodela de forma acelerada y desordenada, y la cápsula pierde la densidad uniforme; en un estudio de personas mayores con Paget del cráneo, los PEAT fueron normales en 56 de 64 oídos y ninguno fue anormal (en los otros ocho no hubo respuesta, con umbrales agudos elevados), y el umbral se correlacionó con la densidad mineral de la cápsula: a menos densidad, peor umbral agudo y mayor brecha aire-hueso. La conclusión del autor es un mecanismo **coclear**, ligado a la pérdida de densidad de la cápsula (Monsell, 2004) (→ cap. 4).
+- **Enfermedad de Paget.** El hueso se remodela de forma acelerada y desordenada, y la cápsula pierde la densidad uniforme; en un estudio de personas mayores con Paget del cráneo, el PEAT fue normal en 56 de 64 oídos; en los otros ocho no hubo respuesta, por umbrales agudos elevados, y ninguno mostró un PEAT alterado. El umbral se correlacionó con la densidad mineral de la cápsula: a menos densidad, peor umbral agudo y mayor brecha aire-hueso. La conclusión del autor es un mecanismo **coclear**, ligado a la pérdida de densidad de la cápsula (Monsell, 2004) (→ cap. 4).
 
 ### Colesteatoma: epitelio plano donde no corresponde
 
@@ -124,7 +124,7 @@ El **órgano de Corti** es el receptor del oído. Se apoya en la membrana basila
 - @66,62 | **Células de Deiters**: sostienen cada CCE desde abajo.
 :::
 
-**Las células ciliadas.** Hay una hilera de **células ciliadas internas** (CCI) y tres de **células ciliadas externas** (CCE). En un oído humano hay unas **3.400 CCI y 12.000 CCE**, y alrededor de 30.000 neuronas del nervio auditivo (Giese y cols., 2024). Es decir, hay unas tres CCE por cada CCI, pero casi todo el nervio sale de las CCI: **90 a 95 % de las fibras** (las de tipo I) contactan a las CCI, y solo el 5 a 10 % (tipo II) contacta a las CCE (Spoendlin, 1972; Fong y cols., 2024). La CCI es la que informa al cerebro; la CCE, más abundante pero casi sin cable propio hacia arriba, es la que **amplifica** (→ B2).
+**Las células ciliadas.** Hay una hilera de **células ciliadas internas** (CCI) y tres de **células ciliadas externas** (CCE). En un oído humano hay unas **3.400 CCI y 12.000 CCE**, y alrededor de 30.000 neuronas del nervio auditivo (Giese y cols., 2024). Es decir, hay unas 3,5 CCE por cada CCI, pero casi todo el nervio sale de las CCI: **90 a 95 % de las fibras** (las de tipo I) contactan a las CCI, y solo el 5 a 10 % (tipo II) contacta a las CCE (Spoendlin, 1972; Fong y cols., 2024). La CCI es la que informa al cerebro; la CCE, más abundante pero casi sin cable propio hacia arriba, es la que **amplifica** (→ B2).
 
 :::imagen ilustraciones/b3-ciliadas.svg ancho=94% Célula ciliada interna y externa. La interna es un matraz con muchas fibras que la contactan; la externa, un cilindro que recibe pocas aferencias y una eferencia grande. Mira, en la vista desde la rampa media, una hilera de internas y tres de externas, cuyos haces forman una W. Esquema propio; cifras de Giese y cols. (2024), Spoendlin (1972) y Fong y cols. (2024). Imagen propia del libro.
 :::
@@ -140,7 +140,7 @@ Lo que sale por arriba de cada célula son los **estereocilios**, filamentos rí
 
 ### La estría vascular y el ligamento espiral
 
-La pared lateral de la rampa media es un tejido muy especializado. La **estría vascular** es un epitelio de **dos capas epiteliales**: una de células **marginales**, hacia la endolinfa, y otra de células **intermedias y basales**, hacia el ligamento (Hibino y cols., 2010), atravesadas por una red de capilares, algo muy poco común en un epitelio: es un epitelio vascularizado (Gartner, 2018). La estría es la que fabrica el potencial endococlear: entre las dos capas queda un espacio extracelular con poco potasio y potencial positivo, aislado de los líquidos vecinos (Hibino y cols., 2010). Detrás de la estría está el **ligamento espiral**, un conectivo con cinco tipos de **fibrocitos** (I a V), cada uno con su propia maquinaria de transporte de iones (Spicer y Schulte, 1991).
+La pared lateral de la rampa media es un tejido muy especializado. La **estría vascular** tiene **dos barreras epiteliales**: una de células **marginales**, hacia la endolinfa, y otra de células **basales**, hacia el ligamento; entre ellas están las células **intermedias**, de origen melanocítico (Hibino y cols., 2010). El conjunto está atravesado por una red de capilares, algo muy poco común en un epitelio: es un epitelio vascularizado (Gartner, 2018). La estría es la que fabrica el potencial endococlear: entre las dos capas queda un espacio extracelular con poco potasio y potencial positivo, aislado de los líquidos vecinos (Hibino y cols., 2010). Detrás de la estría está el **ligamento espiral**, un conectivo con cinco tipos de **fibrocitos** (I a V), cada uno con su propia maquinaria de transporte de iones (Spicer y Schulte, 1991).
 
 **La conexina 26.** Las células de la cóclea se comunican entre sí por **uniones comunicantes** (*gap junctions*), canales hechos de proteínas llamadas conexinas. En la cóclea hay dos redes: una **epitelial**, que une las células de sostén del órgano de Corti, y una de **tejido conectivo**, que une los fibrocitos del ligamento espiral y las células de la estría (Kikuchi y cols., 1995, 2000). Las conexinas más abundantes son la **26** y la **30**, codificadas por los genes *GJB2* y *GJB6*. Las mutaciones de *GJB2* causan una sordera neurosensorial hereditaria no sindrómica (Kelsell y cols., 1997) (→ cap. 10).
 
@@ -179,7 +179,7 @@ Lo que muestra el corte en cada caso:
 - **Hidrops.** La rampa media se distiende y la membrana de Reissner se abomba hacia la rampa vestibular (Hallpike y Cairns, 1938). Los 28 casos con Ménière típico tenían hidrops, pero también hubo hidrops en oídos sin los síntomas: es un **marcador histológico**, no necesariamente la causa (Merchant y cols., 2005).
 - **Conexina 26.** Las mutaciones de *GJB2* dan una sordera neurosensorial no sindrómica (Kelsell y cols., 1997).
 - **CMV congénito.** En seis fetos de 19 a 35 semanas, la infección predominó en la estría vascular (5 de 6), con menos compromiso del sostén del órgano de Corti (2 de 6); el vestíbulo estaba infectado en 4 de 6 (Teissier y cols., 2011).
-- **Rubéola congénita.** Lesión coclear y sacular (Lindsay y cols., 1953; Hemenway y cols., 1969). <!-- verificar: descripción histológica exacta (colapso de Reissner, atrofia de estría y de Corti, daño sacular); los dos artículos no tienen resumen en PubMed -->
+- **Rubéola congénita.** Degeneración cocleosacular, del tipo descrito por Scheibe: lesión de la estría vascular, de la membrana tectoria, de las células ciliadas del órgano de Corti y de la mácula del sáculo (Hemenway y cols., 1969); son típicas además las adherencias de la membrana de Reissner (Lindsay y cols., 1953). <!-- verificar: Lindsay 1953 (sin resumen en PubMed) -->
 - **Neuropatía auditiva.** La transducción y la amplificación de las CCE se conservan y el fallo está en la codificación neural, por daño de la CCI, de sus sinapsis o de las neuronas del ganglio (Moser y Starr, 2016).
 
 :::ojo Ojo clínico
@@ -235,7 +235,7 @@ Dos consecuencias para el libro:
 
 ### El oído medio del recién nacido
 
-Véase el recuadro "¿Sabías que?" de la sección de la mucosa: mesénquima en la caja y células del líquido amniótico en un recién nacido grave (Eavey, 1993). La **vérnix caseosa**, la capa grasa de la piel del recién nacido, también puede llegar al conducto y sumarse a lo que se ve en la primera otoscopía (→ cap. 16). <!-- verificar: presencia de vérnix en el conducto del recién nacido; fuente (Eavey 1993 u otra) -->
+Véase el recuadro "¿Sabías que?" de la sección de la mucosa: mesénquima en la caja y células del líquido amniótico en un recién nacido grave (Eavey, 1993). La **vérnix caseosa**, la capa grasa de la piel del recién nacido, también llega al conducto: en 200 recién nacidos sanos, el 13 % de los oídos tenía vérnix que tapaba la vista de la membrana, y limpiarla subió la tasa de paso del tamizaje (Doyle y cols., 1997; Chang y cols., 1993) (→ cap. 16).
 
 ## Nariz
 
@@ -288,7 +288,7 @@ Esa estructura explica tres cosas que el libro usa:
 
 - **El moco y los cilios son el receptor.** Una mucosa edematosa o con mucha secreción, como en una rinitis, impide que las moléculas olorosas lleguen a los cilios: una causa de anosmia **conductiva** (→ H28).
 - **Las células sustentaculares son el punto débil frente a un virus.** En el epitelio olfatorio humano, los genes por los que entra el SARS-CoV-2 se expresan en células **no neuronales**, entre ellas las sustentaculares, y no en las neuronas (Brann y cols., 2020); lo que sugiere que la anosmia por COVID nace de la lesión de las células de soporte y no de la neurona directamente (→ H28). Es una hipótesis: Brann y cols. mostraron dónde se expresan los genes, no cómo se recupera el olfato.
-- **El epitelio olfatorio envejece y es reemplazado en parches por epitelio respiratorio**, lo que contribuye a la pérdida del olfato con la edad (Naessen, 1971). <!-- verificar: Naessen 1971 (no hay resumen en PubMed); confirmar el hallazgo de parches respiratorios antes de citarlo así -->
+- **El epitelio olfatorio envejece y es reemplazado en parches por epitelio respiratorio**: con la edad se pierde la distribución ordenada de los núcleos de las células de sostén y sensoriales (Naessen, 1971), y en biopsias aparecen parches de epitelio respiratorio dentro de la zona olfatoria, más probables cuanto mayor es la persona (Paik y cols., 1992). Eso contribuye a la pérdida del olfato con la edad.
 
 :::pregunta Preguntas para practicar
 1. En una cóclea humana hay unas 3.400 CCI y 12.000 CCE. ¿Cuántas CCE hay por cada CCI? Si el 90 % de las fibras del nervio contactan a las CCI y el nervio tiene unas 30.000, ¿cuántas fibras salen de las CCI?
@@ -307,8 +307,8 @@ Esa estructura explica tres cosas que el libro usa:
 2. Las **sinapsis en cinta** y las neuronas de las CCI (sinaptopatía, Kujawa y Liberman, 2009; en ratón). No cambian el umbral; el audiograma convencional no las ve, y la discriminación con ruido, el PEAT o las emisiones (que se conservan si las CCE están bien) sí cambian el cuadro (→ cap. 6, H10).
 3. La presbiacusia **estrial** (metabólica): un umbral plano apunta a la estría vascular y a la pérdida del potencial endococlear (Schuknecht y Gacek, 1993).
 4. Porque el defecto está en las uniones comunicantes de las células de **sostén** y del ligamento, no en las ciliadas; y además la conexina 26 es esencial para el desarrollo del epitelio sensorial (Jagger y Forge, 2015).
-5. En la **estría vascular** (5 de 6 fetos), con menos compromiso de las células de sostén del órgano de Corti (2 de 6) y del vestíbulo (4 de 6) (Teissier y cols., 2011).
-6. Los 28 casos clásicos de Ménière tenían hidrops, pero también había hidrops en oídos sin los síntomas, y algunos con síntomas no lo tenían (Merchant y cols., 2005).
+5. En la **estría vascular** (5 de 6 fetos); el sostén del órgano de Corti estaba afectado en 2 de 6 y el vestíbulo en 4 de 6 (Teissier y cols., 2011).
+6. Los 28 casos clásicos de Ménière tenían hidrops, pero también había hidrops en oídos sin los síntomas (Merchant y cols., 2005).
 7. Se desprendieron de la **mácula** y flotan en la endolinfa del canal (canalitiasis) o se pegaron a la cúpula (cupulolitiasis). Una cúpula normal no tiene cristales: solo se mueve cuando se mueve la endolinfa, no con la gravedad.
 8. Porque el vasoconstrictor vacía los **senos venosos** de la mucosa del cornete; el tabique es cartílago y hueso, sin senos que vaciar (→ H26, H27).
 9. En común: células basales de reserva, membrana basal y epitelio pseudoestratificado, con moco encima. Solo el respiratorio tiene **caliciformes, glándulas seromucosas y senos venosos**; solo el olfatorio tiene **neuronas bipolares, células sustentaculares y glándulas de Bowman**.
@@ -344,9 +344,13 @@ Esa estructura explica tres cosas que el libro usa:
 ### Oído externo y medio
 
 1. Alberti PW. Epithelial migration on the tympanic membrane. J Laryngol Otol. 1964;78:808-30. doi:10.1017/s0022215100062800
-1. Lim DJ. Tympanic membrane. Electron microscopic observation. I: pars tensa. Acta Otolaryngol. 1968;66(3):181-98. doi:10.3109/00016486809126286
+1. Lim DJ. Tympanic membrane. Electron microscopic observation. I: pars tensa. Acta Otolaryngol. 1968a;66(3):181-98. doi:10.3109/00016486809126286
+1. Lim DJ. Tympanic membrane. Part II: pars flaccida. Acta Otolaryngol. 1968b;66(1-6):515-32. doi:10.3109/00016486809126316
+1. [Autores por confirmar]. Histological study of the thin replacement membrane of human tympanic membrane perforations. Acta Otolaryngol. 1988;105(3-4):297-302. doi:10.3109/00016488809097011
 1. Schiff M, Poliquin JF, Catanzaro A, Ryan AF. Tympanosclerosis. A theory of pathogenesis. Ann Otol Rhinol Laryngol Suppl. 1980;89(4 Pt 2):1-16. PMID 6775569
 1. Sadé J. Middle ear mucosa. Arch Otolaryngol. 1966;84(2):137-43. doi:10.1001/archotol.1966.00760030139005
+1. Shimada T, Lim DJ. Distribution of ciliated cells in the human middle ear: electron and light microscopic observations. Ann Otol Rhinol Laryngol. 1972;81(2):203-11. doi:10.1177/000348947208100205 <!-- verificar: páginas y doi -->
+1. Padurariu S, Röösli C, Røge R, Stensballe A, Vyberg M, Gaihede M. On the functional compartmentalization of the normal middle ear. Morpho-histological modelling parameters of its mucosa. Hear Res. 2019;378:176-84. doi:10.1016/j.heares.2019.01.023
 1. Tos M, Bak-Pedersen K. Goblet cell population in the pathological middle ear and eustachian tube of children and adults. Ann Otol Rhinol Laryngol. 1977;86(2 Pt 1):209-18. doi:10.1177/000348947708600212
 1. Eavey RD. Abnormalities of the neonatal ear: otoscopic observations, histologic observations, and a model for contamination of the middle ear by cellular contents of amniotic fluid. Laryngoscope. 1993;103(1 Pt 2 Suppl 58):1-31. doi:10.1002/lary.1993.103.s58.1
 1. Zehnder AF, Kristiansen AG, Adams JC, Merchant SN, McKenna MJ. Osteoprotegerin in the inner ear may inhibit bone remodeling in the otic capsule. Laryngoscope. 2005;115(1):172-7. doi:10.1097/01.mlg.0000150702.28451.35
@@ -393,6 +397,8 @@ Esa estructura explica tres cosas que el libro usa:
 1. Schuknecht HF. Cupulolithiasis. Arch Otolaryngol. 1969;90(6):765-78. doi:10.1001/archotol.1969.00770030767020
 1. Moore JK, Linthicum FH Jr. The human auditory system: a timeline of development. Int J Audiol. 2007;46(9):460-78. doi:10.1080/14992020701383019
 1. Pujol R, Lavigne-Rebillard M. Development of neurosensory structures in the human cochlea. Acta Otolaryngol. 1992;112(2):259-64. doi:10.1080/00016489.1992.11665415
+1. Chang KW, Vohr BR, Norton SJ, Lekas MD. External and middle ear status related to evoked otoacoustic emission in neonates. Arch Otolaryngol Head Neck Surg. 1993;119(3):276-82. doi:10.1001/archotol.1993.01880150024004 <!-- verificar: autores y doi -->
+1. Doyle KJ, Burggraaff B, Fujikawa S, Kim J, MacArthur CJ. Neonatal hearing screening with otoscopy, auditory brain stem response, and otoacoustic emissions. Otolaryngol Head Neck Surg. 1997;116(6):597-603. doi:10.1016/S0194-59989770234-8 <!-- verificar: doi -->
 
 ### Nariz
 
@@ -406,6 +412,7 @@ Esa estructura explica tres cosas que el libro usa:
 1. Graziadei PP, Graziadei GA. Neurogenesis and neuron regeneration in the olfactory system of mammals. I. Morphological aspects of differentiation and structural organization of the olfactory sensory neurons. J Neurocytol. 1979;8(1):1-18. doi:10.1007/BF01206454
 1. Schwob JE. Neural regeneration and the peripheral olfactory system. Anat Rec. 2002;269(1):33-49. doi:10.1002/ar.10047
 1. Naessen R. An enquiry on the morphological characteristics and possible changes with age in the olfactory region of man. Acta Otolaryngol. 1971;71(1):49-62. doi:10.3109/00016487109125332
+1. Paik SI, Lehman MN, Seiden AM, Duncan HJ, Smith DV. Human olfactory biopsy: the influence of age and receptor distribution. Arch Otolaryngol Head Neck Surg. 1992;118(7):731-8. doi:10.1001/archotol.1992.01880070061012 <!-- verificar: autores y doi -->
 1. Brann DH, Tsukahara T, Weinreb C, Lipovsek M, Van den Berge K, Gong B, et al. Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia. Sci Adv. 2020;6(31):eabc5801. doi:10.1126/sciadv.abc5801
 1. Kuo CL, Shiao AS, Yung M, Sakagami M, Sudhoff H, Wang CH, et al. Updates and knowledge gaps in cholesteatoma research. Biomed Res Int. 2015;2015:854024. doi:10.1155/2015/854024
 1. Netter FH. Atlas of human anatomy. 8.ª ed. Philadelphia: Elsevier; 2023.
