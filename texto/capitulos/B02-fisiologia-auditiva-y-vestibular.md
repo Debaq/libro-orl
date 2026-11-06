@@ -1,17 +1,5 @@
 # B2. Fisiología auditiva y vestibular
 
-> ✍ Borrador en producción (2026-11-05). Lo pendiente y lo que hay que revisar está en `trabajo/notas/B2_bitacora.md`.
-
-## Para la autora: licencias de las imágenes
-
-> ✍ **Fernanda: el libro es gratuito y se publica con licencia CC BY-NC-SA 4.0, así que cada imagen que entre al capítulo tiene que tener una licencia compatible.** Sirven, y se pueden recortar, traducir o rotular: dominio público, CC0, CC BY, CC BY-NC y CC BY-NC-SA (de cualquier versión).
-
-> ✍ **CC BY-SA** solo se puede incluir sin modificar: sin recortes, sin flechas ni globos encima, sin traducir sus rótulos. **Cualquier licencia con ND (SinDerivadas) no sirve**, ni tampoco las imágenes "con todos los derechos reservados" de libros, atlas o presentaciones.
-
-> ✍ En un artículo de acceso abierto, la licencia del artículo **no cubre** las figuras cuyo pie dice "reproduced from", "adapted from" o "with permission of": esas son de terceros y quedan fuera. Radiopaedia tampoco sirve (sus términos prohíben usarla en libros de texto). Nada de imágenes hechas con inteligencia artificial para anatomía, histología o esquemas.
-
-> ✍ Fuentes que ya usa el libro: Servier Medical Art (CC BY 4.0), OpenStax Anatomy and Physiology (CC BY 4.0 / CC BY-NC-SA 4.0), Gray's Anatomy de 1918 (dominio público), artículos CC BY de PubMed Central y esquemas propios. Para histología sirven además las láminas de dominio público de Commons y las figuras CC BY de artículos. Cada imagen lleva en su pie autor, fuente, licencia y si se modificó, y se anota en un archivo de créditos como `ilustraciones/CREDITOS_B1.md`. Si dudas de una licencia, déjala marcada y la revisamos antes de publicar.
-
 :::objetivos En este capítulo
 - Explicar qué hacen el pabellón y el conducto con el sonido antes de que llegue a la membrana, y qué se pierde cuando el conducto se tapa.
 - Explicar por qué hace falta un oído medio y cómo recupera la energía que se perdería entre el aire y el líquido de la cóclea.
@@ -28,6 +16,8 @@
 Este capítulo explica **cómo funciona** lo que B1 mostró por fuera y B3 por dentro. Cada prueba del libro mide una parte de esta fisiología: la timpanometría, la mecánica del oído medio; las emisiones, el amplificador coclear; el PEAT, la sincronía del nervio y del tronco; el video-impulso, el reflejo vestíbulo-ocular. Si entiendes qué hace cada parte, entiendes qué mide cada prueba y por qué un cuadro altera una y respeta otra. Cada vez que otro capítulo escribe → B2, la explicación está aquí.
 
 La física de base (decibeles, impedancia, resonancia) está en B4; la anatomía de las vías, en B1, con las láminas de labyrinthus3d; las células y los tejidos, en B3.
+
+Las figuras de este capítulo son esquemas propios del libro, dibujados para explicar un mecanismo y no a escala; las curvas son aproximadas y las cifras que llevan salen de la bibliografía. Se publican con la licencia del libro (CC BY-NC-SA 4.0) y el detalle de cada una está en `ilustraciones/CREDITOS_B2.md`.
 
 Tabla: Dónde se usa cada sección
 

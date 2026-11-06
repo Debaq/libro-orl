@@ -1,17 +1,5 @@
 # B3. Histología
 
-> ✍ Borrador para revisión de la autora (2026-10-19).
-
-## Para la autora: licencias de las imágenes
-
-> ✍ **Fernanda: el libro es gratuito y se publica con licencia CC BY-NC-SA 4.0, así que cada imagen que entre al capítulo tiene que tener una licencia compatible.** Sirven, y se pueden recortar, traducir o rotular: dominio público, CC0, CC BY, CC BY-NC y CC BY-NC-SA (de cualquier versión).
-
-> ✍ **CC BY-SA** solo se puede incluir sin modificar: sin recortes, sin flechas ni globos encima, sin traducir sus rótulos. **Cualquier licencia con ND (SinDerivadas) no sirve**, ni tampoco las imágenes "con todos los derechos reservados" de libros, atlas o presentaciones.
-
-> ✍ En un artículo de acceso abierto, la licencia del artículo **no cubre** las figuras cuyo pie dice "reproduced from", "adapted from" o "with permission of": esas son de terceros y quedan fuera. Radiopaedia tampoco sirve (sus términos prohíben usarla en libros de texto). Nada de imágenes hechas con inteligencia artificial para anatomía, histología o esquemas.
-
-> ✍ Fuentes que ya usa el libro: Servier Medical Art (CC BY 4.0), OpenStax Anatomy and Physiology (CC BY 4.0 / CC BY-NC-SA 4.0), Gray's Anatomy de 1918 (dominio público), artículos CC BY de PubMed Central y esquemas propios. Para histología sirven además las láminas de dominio público de Commons y las figuras CC BY de artículos. Cada imagen lleva en su pie autor, fuente, licencia y si se modificó, y se anota en un archivo de créditos como `ilustraciones/CREDITOS_B1.md`. Si dudas de una licencia, déjala marcada y la revisamos antes de publicar.
-
 :::objetivos En este capítulo
 - Reconocer en un corte los cuatro tejidos básicos que aparecen en el oído y la nariz (epitelio, conectivo, hueso y nervio) y decir qué hace cada uno.
 - Describir las capas de la piel del conducto y de la membrana timpánica, y explicar por qué el conducto se limpia solo.
@@ -27,6 +15,8 @@
 Este capítulo mira por dentro lo que B1 mostró por fuera. El oído y la nariz están hechos de pocos tejidos que se repiten: una piel o una mucosa que reviste, tejido conectivo que sostiene y nutre, hueso que protege, y nervio. Con esos pocos tejidos, las mismas células aparecen en lugares distintos y se dañan de maneras distintas, y de eso depende lo que ves después en una otoscopía, un audiograma o una emisión. Cada sección termina diciendo **qué cuadro del libro daña ese tejido**, y cada vez que otro capítulo escribe → B3, la explicación está aquí.
 
 La fisiología fina (cómo se abre un canal al doblarse un estereocilio, de dónde sale el potencial endococlear, cómo se codifica la frecuencia) está en B2. Aquí solo hay **estructura**: qué células hay, cómo se ordenan y qué se puede romper.
+
+Las ilustraciones vienen de las láminas de **Gray's Anatomy** de 1918 (dominio público), de **OpenStax** (CC BY 3.0 y 4.0, con los rótulos traducidos) y de esquemas propios del libro. Cada pie dice el autor, la fuente y la licencia, y el detalle está al final, en "Créditos de las figuras".
 
 Tabla: Dónde se usa cada sección
 

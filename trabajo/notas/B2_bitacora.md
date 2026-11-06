@@ -1,6 +1,6 @@
 # Bitácora B2 (y pendientes de B3)
 
-Fase actual: **producción terminada (2026-11-05)**, texto y 10 figuras. Sigue: lectura de la autora. Después: lectura y ajuste de la autora → verificación manual de referencias.
+Fase actual: **producción terminada (2026-11-05)**; recuadros amarillos "Para la autora" quitados de B2 y B3 (2026-11-06), texto y 10 figuras. Sigue: lectura de la autora. Después: lectura y ajuste de la autora → verificación manual de referencias.
 
 Prioridad de revisión: 🔴 alta (dato o cita escritos de memoria, sin verificar en línea) · 🟡 media (fuente verificada, pero la cifra o el matiz conviene leerlo en el original) · 🟢 baja (verificado en línea: autores, año, doi).
 
@@ -130,6 +130,13 @@ Créditos en `material/ilustraciones/CREDITOS_B2.md`. Las curvas (resonancia, on
 |---|---|---|
 | 🔴 | Lindsay y cols. 1953 | Sin resumen en línea; ver en fuente impresa (adherencias de Reissner en rubéola) |
 | 🟡 | Lim 1968b | Estudio en animales; confirmar redacción "más gruesa que la parte tensa" |
+
+## Reglas de licencias de imágenes (del editor; antes en el recuadro amarillo de B2 y B3)
+
+- **El libro es gratuito y se publica con licencia CC BY-NC-SA 4.0, así que cada imagen que entre al capítulo tiene que tener una licencia compatible.** Sirven, y se pueden recortar, traducir o rotular: dominio público, CC0, CC BY, CC BY-NC y CC BY-NC-SA (de cualquier versión).
+- **CC BY-SA** solo se puede incluir sin modificar: sin recortes, sin flechas ni globos encima, sin traducir sus rótulos. **Cualquier licencia con ND (SinDerivadas) no sirve**, ni tampoco las imágenes "con todos los derechos reservados" de libros, atlas o presentaciones.
+- En un artículo de acceso abierto, la licencia del artículo **no cubre** las figuras cuyo pie dice "reproduced from", "adapted from" o "with permission of": esas son de terceros y quedan fuera. Radiopaedia tampoco sirve (sus términos prohíben usarla en libros de texto). Nada de imágenes hechas con inteligencia artificial para anatomía, histología o esquemas.
+- Fuentes que ya usa el libro: Servier Medical Art (CC BY 4.0), OpenStax Anatomy and Physiology (CC BY 4.0 / CC BY-NC-SA 4.0), Gray's Anatomy de 1918 (dominio público), artículos CC BY de PubMed Central y esquemas propios. Para histología sirven además las láminas de dominio público de Commons y las figuras CC BY de artículos. Cada imagen lleva en su pie autor, fuente, licencia y si se modificó, y se anota en un archivo de créditos como `ilustraciones/CREDITOS_B1.md`. Si dudas de una licencia, déjala marcada y la revisamos antes de publicar.
 
 ## Pauta original de B2 (de Nicolás; se borra cuando todo esté cubierto)
 
