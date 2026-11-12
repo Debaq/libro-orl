@@ -1,75 +1,788 @@
 # B2. Fisiología auditiva y vestibular
 
-> ✍ La escribe Fernanda López-Moncada; se recibe más adelante. Abajo, lo que tiene que dejar claro para que se entienda el resto del libro, y dónde se usa.
+:::objetivos En este capítulo
+- Explicar qué hacen el pabellón y el conducto con el sonido antes de que llegue a la membrana, y qué se pierde cuando el conducto se tapa.
+- Explicar por qué hace falta un oído medio y cómo recupera la energía que se perdería entre el aire y el líquido de la cóclea.
+- Decir por qué la rigidez pesa en los graves y la masa en los agudos, y reconocerlo en un audiograma y en una timpanometría.
+- Describir la función de la trompa y qué le pasa a la presión del oído medio cuando no se abre.
+- Recorrer el arco del reflejo estapedial, ipsi y contralateral, y decir qué cambia su umbral y su decay.
+- Explicar los tres mecanismos de la conducción ósea, el efecto de oclusión y la atenuación interaural.
+- Explicar la onda viajera, la tonotopía y el amplificador coclear, y seguir paso a paso la transducción mecanoeléctrica.
+- Decir cómo se codifican la frecuencia, la intensidad y el tiempo en el nervio, y qué hace cada estación de la vía central.
+- Explicar cómo los canales detectan la rotación y los otolitos la aceleración lineal, y por qué el nistagmo bate hacia el lado más activo.
+- Explicar el ciclo nasal, el acondicionamiento del aire y la transducción olfatoria.
+:::
 
-## Para la autora: licencias de las imágenes
+Este capítulo explica **cómo funciona** lo que B1 mostró por fuera y B3 por dentro. Cada prueba del libro mide una parte de esta fisiología: la timpanometría, la mecánica del oído medio; las emisiones, el amplificador coclear; el PEAT, la sincronía del nervio y del tronco; el video-impulso, el reflejo vestíbulo-ocular. Si entiendes qué hace cada parte, entiendes qué mide cada prueba y por qué un cuadro altera una y respeta otra. Cada vez que otro capítulo escribe → B2, la explicación está aquí.
 
-> ✍ **Fernanda: el libro es gratuito y se publica con licencia CC BY-NC-SA 4.0, así que cada imagen que entre al capítulo tiene que tener una licencia compatible.** Sirven, y se pueden recortar, traducir o rotular: dominio público, CC0, CC BY, CC BY-NC y CC BY-NC-SA (de cualquier versión).
+La física de base (decibeles, impedancia, resonancia) está en B4; la anatomía de las vías, en B1, con las láminas de labyrinthus3d; las células y los tejidos, en B3.
 
-> ✍ **CC BY-SA** solo se puede incluir sin modificar: sin recortes, sin flechas ni globos encima, sin traducir sus rótulos. **Cualquier licencia con ND (SinDerivadas) no sirve**, ni tampoco las imágenes "con todos los derechos reservados" de libros, atlas o presentaciones.
+Las figuras de este capítulo son esquemas propios del libro, dibujados para explicar un mecanismo y no a escala; las curvas son aproximadas y las cifras que llevan salen de la bibliografía. Se publican con la licencia del libro (CC BY-NC-SA 4.0) y el detalle de cada una está en `ilustraciones/CREDITOS_B2.md`.
 
-> ✍ En un artículo de acceso abierto, la licencia del artículo **no cubre** las figuras cuyo pie dice "reproduced from", "adapted from" o "with permission of": esas son de terceros y quedan fuera. Radiopaedia tampoco sirve (sus términos prohíben usarla en libros de texto). Nada de imágenes hechas con inteligencia artificial para anatomía, histología o esquemas.
+Tabla: Dónde se usa cada sección
 
-> ✍ Fuentes que ya usa el libro: Servier Medical Art (CC BY 4.0), OpenStax Anatomy and Physiology (CC BY 4.0 / CC BY-NC-SA 4.0), Gray's Anatomy de 1918 (dominio público), artículos CC BY de PubMed Central y esquemas propios. Para histología sirven además las láminas de dominio público de Commons y las figuras CC BY de artículos. Cada imagen lleva en su pie autor, fuente, licencia y si se modificó, y se anota en un archivo de créditos como `ilustraciones/CREDITOS_B1.md`. Si dudas de una licencia, déjala marcada y la revisamos antes de publicar.
+| Sección | Se usa sobre todo en |
+|---|---|
+| Oído externo y medio | H7, cap. 1, 2, 3, 4 |
+| Conducción ósea | H2, H3, H4, cap. 4, 7, 15 |
+| Cóclea | H5, H6, H9, H11, cap. 5, 6, 8, 9, 10, 13 |
+| Nervio y vía central | H10, H15, cap. 11, 12, 13, 14, 17, 30 |
+| Desarrollo | cap. 16, 17 |
+| Sistema vestibular | H12, H16 a H20, cap. 20, 22, 25, 27, 32 |
+| Nariz | H25 a H28, cap. 35, 36 |
 
-## Para la autora: lo que pide el checklist de la carrera
+## Oído externo y medio
 
-> ✍ **Fernanda: el libro se cotejó contra el checklist de contenidos de las 14 asignaturas (2026-10-18/19). Lo que sigue lo pide la carrera y hoy solo lo cubre este capítulo**; el resto del libro lo usa y remite acá:
-> - Transducción mecanoeléctrica en las células ciliadas (Morfofisiopatología; Otoneurología, "mecanismos de transducción").
-> - Neurotransmisores e integración de señales bioeléctricas (Otoneurología).
-> - Codificación de frecuencia, intensidad y tiempo en el nervio coclear y los núcleos cocleares (Otoneurología).
-> - Procesamiento de la aceleración lineal (otolitos) además de la angular (Morfofisiopatología).
-> - Fisiología de la olfacción (Morfofisiopatología); H28 trae la técnica y una base, pero la transducción olfatoria va acá.
-> La anatomía de las vías ya está en B1 con las láminas de labyrinthus3d: conviene remitir a ellas en vez de dibujarlas de nuevo.
+### El pabellón y el conducto: un amplificador de agudos
 
-## Qué tiene que tener
+Antes de llegar a la membrana, el sonido ya cambió. La cabeza, el pabellón y el conducto funcionan como un conjunto de resonadores que **suben la presión** en la membrana respecto de la que hay afuera, sobre todo entre 2 y 5 kHz. El conducto es un tubo de unos 2,5 cm cerrado por un extremo (la membrana); un tubo así resuena cuando su largo es un cuarto de la longitud de onda, lo que lo pone cerca de los 3 kHz. La concha agrega otra resonancia, más aguda, cerca de los 5 kHz. Sumadas, dan una ganancia de unos 15 a 20 dB en esa zona (Shaw, 1974) (→ B4: resonancia).
+
+:::imagen ilustraciones/b2-resonancia-cae.svg ancho=80% Ganancia del pabellón y del conducto: la presión en la membrana comparada con la del campo libre, según la frecuencia. Mira dónde está el pico, cerca de 3 kHz, y piensa qué pasa con él cuando un molde o un tapón ocupan el conducto. Esquema propio a partir de Shaw (1974). Imagen propia del libro.
+:::
+
+Esa ganancia es una de las razones de que el audiograma normal sea más sensible entre 2 y 4 kHz, y explica dos cosas que verás en el libro:
+
+- **El conducto ocluido.** Un tapón de cerumen o un molde cambian el largo y el volumen del tubo y se pierde la resonancia natural. El cerumen casi no mueve el umbral mientras queda una rendija; la pérdida conductiva aparece cuando el conducto se cierra por completo (→ H1, cap. 1).
+- **La ganancia de inserción de un audífono.** Al tapar el conducto con un molde se pierde la resonancia propia del oído, y el audífono tiene que reponerla además de compensar la pérdida (→ cap. 28).
+
+El pabellón aporta también algo que no es ganancia: sus relieves filtran el sonido de manera distinta según de dónde viene, sobre todo arriba de 5 kHz, y esas diferencias ayudan a saber si un sonido viene de adelante, de atrás o de arriba (→ sección Nervio y vía central: localización).
+
+### Por qué hace falta un oído medio
+
+La cóclea está llena de líquido. Si el sonido que viaja por el aire golpeara directamente ese líquido, casi toda la energía rebotaría: el aire es liviano y fácil de mover; el líquido, denso y difícil. Entre los dos hay una gran diferencia de **impedancia**, y en el paso de uno al otro se refleja cerca del 99,9 % de la energía, una pérdida de unos 30 dB (Pickles, 2013) (→ B4: impedancia).
+
+El oído medio es el **adaptador de impedancia**: recoge la presión del sonido en una superficie grande y la concentra en una pequeña. Lo hace con dos mecanismos:
+
+1. **La razón de áreas.** La parte de la membrana que vibra con eficacia mide unos 55 mm²; la platina del estribo, unos 3,2 mm². La misma fuerza repartida en un área unas 17 veces menor da una presión unas 17 veces mayor.
+2. **La palanca de la cadena.** El mango del martillo es más largo que la apófisis larga del yunque, y eso multiplica la fuerza por un factor de alrededor de 1,3.
+
+Multiplicados, los dos dan una ganancia teórica de unas 22 veces en presión, cerca de 27 dB, que recupera casi toda la pérdida entre el aire y el líquido (Pickles, 2013). Medida en huesos temporales humanos, la ganancia real es algo menor y depende de la frecuencia: es máxima alrededor de 1 kHz, donde ronda los 20 dB, y cae en los agudos (Aibara y cols., 2001).
+
+:::imagen ilustraciones/b2-adaptador-oido-medio.svg ancho=90% El oído medio como adaptador de impedancia. A la izquierda, la razón de áreas: la fuerza que recoge la membrana se concentra en la platina. A la derecha, la palanca: el mango del martillo es el brazo largo y la apófisis larga del yunque, el corto. Esquema propio. Imagen propia del libro.
+:::
+
+Hay un tercer detalle: el estribo empuja la **ventana oval**, y la **ventana redonda** tiene que ceder hacia la caja para que el líquido, que no se comprime, pueda moverse. Si el sonido llegara con la misma fuerza a las dos ventanas, los empujes se anularían. La membrana íntegra protege la ventana redonda del sonido directo y asegura que la presión llegue sobre todo a la oval (Pickles, 2013). Por eso una perforación no solo resta superficie: también deja que el sonido llegue a las dos ventanas a la vez (→ cap. 3).
+
+:::ojo Ojo clínico
+Lo que mide la brecha aire-hueso es, en buena parte, cuánto de este adaptador se perdió. Una cadena interrumpida con la membrana íntegra puede dar una brecha mayor que una membrana ausente: la membrana sigue recogiendo el sonido, pero ya no hay nada que lo lleve a la platina, y la ventana oval queda tapada (→ cap. 3).
+:::
+
+### Rigidez en los graves, masa en los agudos
+
+El oído medio es un sistema que vibra, y como todo sistema que vibra tiene **rigidez** (lo que se opone a ser deformado), **masa** (lo que se opone a ser acelerado) y **fricción** (lo que disipa energía). Cada una pesa en una zona de frecuencias distinta (→ B4):
+
+- La **rigidez** se opone sobre todo a los **graves**. La aportan el aire encerrado en la caja, la membrana, los ligamentos y el ligamento anular del estribo.
+- La **masa** se opone sobre todo a los **agudos**. La aportan los huesecillos y lo que cargue la membrana.
+- En la **frecuencia de resonancia** del oído medio, entre unos 800 y 1.200 Hz en el adulto, rigidez y masa se compensan y el oído transmite con menos oposición (Margolis y Goycoolea, 1993).
+
+Con esa regla se lee una buena parte de las pérdidas conductivas del libro:
+
+Tabla: Qué cambia en el oído medio y qué se ve
+
+| Cambio | Qué aumenta | Dónde cae el umbral | Ejemplo |
+|---|---|---|---|
+| Platina fija | Rigidez | Graves | Otoesclerosis (cap. 4) |
+| Presión negativa, membrana retraída | Rigidez | Graves | Disfunción tubaria (cap. 2) |
+| Líquido en la caja | Masa (y rigidez) | Plano o agudos | Otitis con efusión (cap. 2) |
+| Cadena interrumpida | — (se pierde el acople) | Todas, brecha grande | Luxación del yunque (cap. 3) |
+| Membrana flácida o cicatricial | Menos rigidez | Pico alto en la timpanometría | Membrana cicatricial (cap. 3) |
+
+La timpanometría mide justamente eso: cuánto se deja mover el sistema (la admitancia) y cómo cambia con la presión y con la frecuencia de la sonda (→ H7).
+
+### La trompa: ventilación, drenaje y protección
+
+La trompa de Eustaquio conecta la caja con la rinofaringe. Está **cerrada casi todo el tiempo** y se abre por un momento, unos dos décimos de segundo, cuando tragamos o bostezamos, por acción del músculo tensor del velo del paladar (Sadé y Ar, 1997) (→ B1: la trompa). Tiene tres funciones:
+
+1. **Ventilación.** La mucosa de la caja absorbe gas de forma continua hacia la sangre. Cada apertura de la trompa repone ese gas e iguala la presión de la caja con la del ambiente (Sadé y Ar, 1997).
+2. **Drenaje.** El moco y lo que produce la mucosa se van hacia la rinofaringe, arrastrados por los cilios del epitelio de la trompa (→ B3).
+3. **Protección.** Cerrada, impide que la presión y las secreciones de la rinofaringe, y la propia voz, lleguen al oído medio.
+
+Si la trompa no se abre, la mucosa sigue absorbiendo gas y la presión de la caja **baja**: la membrana se retrae, la timpanometría corre el pico hacia presiones negativas y, si la situación se mantiene, la mucosa empieza a secretar y la caja se llena de líquido (→ cap. 2, H7). En el lactante la trompa es más corta y más horizontal, y por eso se abre peor y deja pasar con más facilidad lo que hay en la rinofaringe (→ B1).
+
+### El reflejo estapedial
+
+Ante un sonido fuerte, el **músculo del estribo** se contrae, tira del estribo y endurece la cadena: aumenta la rigidez del oído medio y baja un poco la transmisión de los graves. La contracción ocurre **en los dos oídos**, aunque el sonido entre por uno (Mukerji y cols., 2010).
+
+**El arco.** El sonido llega a la cóclea y sube por el nervio coclear al **núcleo coclear ventral**. Desde ahí la vía va, directamente o pasando por el **complejo olivar superior**, al **núcleo motor del facial** de los dos lados, y el facial (VII par) lleva la orden al músculo del estribo (Mukerji y cols., 2010). El arco **ipsilateral** se queda en un lado; el **contralateral** cruza la línea media en el tronco. La anatomía de la vía está en B1.
+
+:::imagen ilustraciones/b2-arco-estapedial.svg ancho=90% El arco del reflejo estapedial con el estímulo en el oído derecho. Sigue los dos caminos desde el núcleo coclear ventral derecho: uno se queda en el lado derecho y llega al facial derecho (ipsilateral); el otro cruza y llega al facial izquierdo (contralateral). Una lesión en cada tramo apaga un patrón distinto de respuestas. Esquema propio. Imagen propia del libro.
+:::
+
+Como el arco tiene tramo sensitivo (cóclea y VIII par), central (tronco) y motor (facial y oído medio), cada lesión deja un patrón que se puede leer:
+
+- **El umbral.** En un oído normal el reflejo aparece con tonos de unos 70 a 100 dB HL. En una pérdida coclear el reflejo puede aparecer a pocos decibeles sobre el umbral auditivo, porque el **reclutamiento** hace que la sonoridad crezca rápido; una distancia de menos de 60 dB entre el umbral y el reflejo se consideró un signo de lesión coclear (Metz, 1952) (→ sección Cóclea: reclutamiento).
+- **El decay.** Con un tono sostenido 10 dB sobre el umbral del reflejo, la contracción se mantiene en un oído normal o coclear. Si cae a menos de la mitad en 10 segundos, a 500 o 1.000 Hz, sugiere una lesión del nervio (Anderson y cols., 1970) (→ H7, cap. 11).
+- **El oído medio.** Cualquier problema del oído medio de la sonda impide registrar el cambio de admitancia, aunque el músculo se contraiga.
+
+:::ayuda Ayuda memoria: oído externo y medio
+- **Pabellón y conducto:** suben unos 15 a 20 dB entre 2 y 5 kHz; el conducto resuena cerca de 3 kHz.
+- **Sin oído medio:** se perderían unos 30 dB entre el aire y el líquido.
+- **Adaptador:** razón de áreas (≈ 17) por palanca (≈ 1,3); ganancia real máxima cerca de 1 kHz.
+- **Rigidez en graves, masa en agudos;** resonancia del oído medio entre 800 y 1.200 Hz.
+- **Trompa:** cerrada en reposo, se abre al tragar; si no se abre, la presión de la caja baja.
+- **Reflejo estapedial:** VIII → núcleo coclear ventral → (olivar) → facial de ambos lados → músculo del estribo.
+:::
+
+## Conducción ósea
+
+### Cómo se oye por hueso
+
+Cuando el vibrador se apoya en la mastoides, todo el cráneo vibra, y la cóclea lo nota sin que el sonido pase por el conducto ni por la cadena como en la vía aérea. Por eso se dice que la conducción ósea mide la **cóclea**: si la vía aérea está peor que la ósea, la diferencia (la brecha aire-hueso) está en el oído externo o medio (→ H2, H3, H4).
+
+Clásicamente se describen **tres mecanismos** (Tonndorf, 1966):
+
+1. **Compresión.** La vibración comprime y descomprime la cápsula ótica. Como la ventana redonda cede más que la oval, el líquido se mueve y la membrana basilar también. Pesa sobre todo en los agudos.
+2. **Inercia de la cadena.** El cráneo se mueve y los huesecillos, por su masa, quedan un poco atrás: el estribo se mueve respecto de la ventana oval como si lo empujara el sonido. Pesa en las frecuencias medias, cerca de la resonancia de la cadena.
+3. **Radiación al conducto.** Las paredes del conducto vibran y producen sonido dentro de él, que entra por la vía aérea normal. Pesa en los graves, y más si el conducto está tapado.
+
+Hoy se cuentan **cinco** componentes: los tres anteriores más la **inercia de los líquidos cocleares**, que parece ser el más importante, y la presión que llega desde el **líquido cefalorraquídeo** (Stenfelt y Goode, 2005). Para leer un audiograma bastan las tres ideas clásicas, porque explican los dos fenómenos que siguen.
+
+:::imagen ilustraciones/b2-mecanismos-co.svg ancho=90% Los caminos por los que la vibración del cráneo llega a la cóclea: compresión de la cápsula, inercia de la cadena, inercia de los líquidos y sonido radiado al conducto. Mira cuáles dependen del oído externo y medio: son los que cambian en una otoesclerosis o con el conducto tapado. Esquema propio a partir de Stenfelt y Goode (2005). Imagen propia del libro.
+:::
+
+### El efecto de oclusión
+
+Si tapas el conducto (con un dedo, un auricular o un molde), los **graves** por vía ósea se oyen más fuerte. El sonido que el hueso radia dentro del conducto, que con el conducto abierto se escapa por la entrada, queda atrapado y llega a la membrana (Stenfelt y Reinfeldt, 2007). El efecto es grande en 250 y 500 Hz, pequeño en 1 kHz y desaparece en los agudos. Dos consecuencias prácticas:
+
+- Al **enmascarar** la vía ósea con un auricular en el oído contrario, ese oído queda ocluido y hay que sumar el efecto de oclusión al nivel de enmascaramiento (→ H4).
+- Es la razón de que el paciente con un audífono de molde cerrado sienta su propia voz "dentro de la cabeza" (→ cap. 28).
+
+### La atenuación interaural
+
+Un sonido presentado a un oído también llega al otro, a través del cráneo. La **atenuación interaural** es cuánto se pierde en ese cruce:
+
+Tabla: Atenuación interaural según el transductor (valores mínimos de uso clínico)
+
+| Transductor | Atenuación interaural | Consecuencia |
+|---|---|---|
+| Vibrador óseo | ≈ 0 dB (hasta unos 10-15 dB en agudos) | La ósea sin enmascarar puede ser la del oído contrario |
+| Auricular supraural | ≈ 40 dB | Enmascarar la aérea si la diferencia supera 40 dB |
+| Auricular de inserción | ≈ 55-70 dB | Se enmascara menos veces |
+
+Con el vibrador en la mastoides, la atenuación transcraneal es casi nula en los graves y sube poco en los agudos (Stenfelt, 2012). Por eso **la ósea cruza casi entera**: una ósea sin enmascarar refleja la mejor cóclea, no necesariamente la del lado probado (→ H4, cap. 7).
+
+### La muesca de Carhart
+
+En la otoesclerosis, la platina fija no solo dificulta la vía aérea: también quita el componente de **inercia de la cadena** de la vía ósea. El resultado es una caída de la ósea sin daño coclear, la **muesca de Carhart**, máxima en 2 kHz: en promedio unos 5 dB en 500 Hz, 10 dB en 1 kHz, 15 dB en 2 kHz y 5 dB en 4 kHz (Carhart, 1950). La muesca cae en 2 kHz porque ahí está la resonancia de la cadena para la vía ósea, y desaparece cuando la cirugía devuelve la movilidad al estribo (→ cap. 4, cap. 15).
+
+:::ojo Ojo clínico
+Una ósea que baja en 2 kHz en un oído con brecha no siempre es una cóclea dañada. Si el patrón es el de Carhart, la "pérdida neurosensorial" puede ser mecánica y recuperarse con la cirugía. Por eso la ósea se interpreta junto con la timpanometría y el reflejo estapedial, que en la otoesclerosis suele estar ausente (→ cap. 4).
+:::
+
+:::ayuda Ayuda memoria: conducción ósea
+- **Tres mecanismos clásicos:** compresión (agudos), inercia de la cadena (medios), radiación al conducto (graves); hoy se suman inercia de los líquidos y presión del LCR.
+- **Oclusión:** tapar el conducto sube la ósea en graves; se suma al enmascarar.
+- **Atenuación interaural:** ósea ≈ 0 dB, supraural ≈ 40 dB, inserción ≈ 55-70 dB.
+- **Carhart:** caída de la ósea máxima en 2 kHz por platina fija; es mecánica.
+:::
+
+## Cóclea
+
+### La onda viajera y la tonotopía
+
+Cuando el estribo empuja la ventana oval, el líquido se desplaza y la **membrana basilar** se deforma. La deformación no es igual en todo su largo: empieza en la base y avanza hacia el ápice como una **onda viajera**, que crece hasta un punto máximo y después se apaga de golpe (von Békésy, 1960). El lugar del máximo depende de la frecuencia, porque la membrana cambia a lo largo de la cóclea: en la **base** es angosta y rígida y responde a los **agudos**; en el **ápice** es ancha y flexible y responde a los **graves** (→ B3). Cada punto de la membrana tiene así su **frecuencia característica**, y el mapa de frecuencias a lo largo de la cóclea es la **tonotopía**. En el humano va de unos 20 kHz en la base a unos 20 Hz en el ápice (Greenwood, 1990).
+
+:::imagen ilustraciones/b2-onda-viajera.svg ancho=100% La cóclea desenrollada y la onda viajera para tres tonos. Mira dónde llega a su máximo cada uno: el agudo, cerca de la base; el grave, cerca del ápice, después de recorrer toda la membrana. Esquema propio a partir de von Békésy (1960) y Greenwood (1990). Imagen propia del libro.
+:::
+
+La forma de la onda explica por qué **la base se daña primero**. Toda onda, aguda o grave, pasa por la base antes de llegar a su lugar, y la base recibe además su propia estimulación de agudos: es la zona que más trabaja. Las CCE de la base son también las más sensibles al estrés oxidativo y a los ototóxicos (→ B3). Por eso el ruido, la presbiacusia y los aminoglucósidos empiezan por los agudos (→ cap. 5, cap. 6, cap. 8).
+
+### El amplificador coclear
+
+Una membrana basilar pasiva, como la que estudió von Békésy en cócleas de cadáver, responde con poca sensibilidad y con picos anchos. En la cóclea viva la respuesta es unas cien veces más sensible, unos 40 dB, y el pico es mucho más agudo. La diferencia es el **amplificador coclear**, y su motor son las **células ciliadas externas** (Robles y Ruggero, 2001).
+
+Las CCE tienen **electromotilidad**: cuando se despolarizan se acortan y cuando se hiperpolarizan se alargan, al ritmo del sonido, gracias a la proteína **prestina** de su membrana lateral (→ B3). Como están ancladas entre la membrana basilar y la lámina reticular, al cambiar de largo empujan la membrana en fase con la vibración y la refuerzan justo en el punto de su frecuencia característica. En ratones sin prestina, las CCE pierden la electromotilidad y la sensibilidad coclear cae entre 40 y 60 dB, aunque la transducción sigue intacta (Liberman y cols., 2002).
+
+El amplificador hace tres cosas, y cada una tiene su síntoma cuando falla:
+
+Tabla: Qué hace el amplificador coclear y qué pasa cuando fallan las CCE
+
+| Función | Qué hace | Si se pierde |
+|---|---|---|
+| Sensibilidad | Suma unos 40 a 60 dB a los sonidos suaves | Pérdida de hasta unos 50-60 dB |
+| Sintonía fina | Afila el pico de la onda | Peor discriminación, sobre todo en ruido |
+| Compresión | Amplifica mucho lo suave y poco lo fuerte | Reclutamiento: la sonoridad crece demasiado rápido |
+
+Como el amplificador también produce sonido, sus fallas se ven en las **emisiones otoacústicas** (más abajo).
+
+### La transducción mecanoeléctrica, paso a paso
+
+La **transducción** es el paso de un movimiento a una señal eléctrica, y ocurre en los estereocilios de cada célula ciliada (Fettiplace, 2017):
+
+1. **Deflexión.** La membrana basilar sube y baja, y la membrana tectoria se desliza sobre el órgano de Corti. Eso dobla los haces de estereocilios. En las CCE los más altos están pegados a la tectoria; en las CCI los mueve el líquido.
+2. **Enlaces apicales.** Los estereocilios están unidos por filamentos finísimos, los **enlaces apicales** (*tip links*), que van de la punta de cada estereocilio al costado del vecino más alto (→ B3). Cuando el haz se dobla **hacia el estereocilio más alto**, los enlaces se tensan; hacia el lado contrario, se aflojan.
+3. **Canal de transducción.** Esa tensión abre los **canales de transducción**, que están en la punta de los estereocilios más cortos. En reposo una fracción de los canales ya está abierta, por eso la célula responde a los dos sentidos: un sentido abre más canales y el otro cierra los que estaban abiertos.
+4. **Entrada de K⁺.** Los estereocilios están bañados en **endolinfa**, rica en potasio y con +80 mV (→ B3). Por el canal abierto entra **K⁺** (y algo de Ca²⁺). La fuerza que lo empuja es la suma del potencial endococlear y del potencial negativo del interior de la célula, unos 150 mV.
+5. **Despolarización.** La entrada de cargas positivas despolariza la célula: es el **potencial de receptor**.
+6. **Liberación de glutamato.** En la base de la célula, la despolarización abre canales de **calcio** dependientes de voltaje. El calcio que entra hace que las vesículas se fusionen y liberen **glutamato** sobre la fibra del nervio.
+7. **Salida de K⁺ y reciclaje.** El potasio sale por la parte basal de la célula hacia la perilinfa, que tiene poco potasio, y desde ahí la red de células de sostén y del ligamento lo devuelve a la estría vascular (→ B3: conexina 26).
+8. **Adaptación.** Si la deflexión se mantiene, el Ca²⁺ que entró hace que los canales se cierren un poco y la corriente baja, aunque el haz siga doblado. Así la célula se reajusta y sigue siendo sensible a cambios pequeños.
+
+:::imagen ilustraciones/b2-transduccion.svg ancho=100% La transducción en una célula ciliada. Arriba, el haz en reposo, doblado hacia el estereocilio más alto (enlaces tensos, canales abiertos, entrada de K⁺) y hacia el más corto (canales cerrados). Abajo, la célula: despolarización, entrada de Ca²⁺ en la base, liberación de glutamato en la sinapsis y salida de K⁺ hacia la perilinfa. Esquema propio a partir de Fettiplace (2017). Imagen propia del libro.
+:::
+
+**Lo mismo en el vestíbulo.** Las células ciliadas de las máculas y las crestas transducen igual, con una diferencia: además de los estereocilios tienen un cilio verdadero más largo, el **kinocilio**, al lado de los estereocilios más altos (→ B3). Por eso se dice que la célula se excita cuando el haz se dobla **hacia el kinocilio** y se inhibe cuando se dobla en sentido contrario. Toda la fisiología vestibular sale de esa polarización (→ sección Sistema vestibular).
+
+:::ojo Ojo clínico
+Cada paso de la lista tiene una sordera asociada. Los enlaces apicales y el canal de transducción fallan en algunas sorderas genéticas; el reciclaje de potasio, en la de la conexina 26; el potencial endococlear, con los diuréticos de asa y en la presbiacusia estrial; la sinapsis, en la sinaptopatía por ruido y en la neuropatía auditiva (→ B3, cap. 6, cap. 8, cap. 10, cap. 13).
+:::
+
+### Las células ciliadas internas y la sinapsis
+
+Las CCI son las verdaderas receptoras: casi todas las fibras del nervio, las **de tipo I**, salen de ellas (→ B3). Cada fibra de tipo I contacta **una sola** CCI, y cada CCI recibe varias fibras, cada una en una **sinapsis en cinta**. La cinta es una estructura que sujeta muchas vesículas cerca de la membrana y permite liberar glutamato de forma rápida, precisa y sostenida, sin agotarse (Glowatzki y Fuchs, 2002). Esa precisión es la base de la **sincronía neural**: muchas fibras disparan al mismo tiempo ante un estímulo breve, y de esa descarga sincrónica viven el potencial de acción compuesto y las ondas del PEAT (→ H10). En la neuropatía auditiva la cóclea amplifica bien pero la sincronía se pierde (→ cap. 13).
+
+Las fibras de **tipo II**, pocas y finas, contactan muchas CCE y llevan poca información; su función se discute (Fettiplace, 2017).
+
+### La neurotransmisión en la cóclea
+
+Tabla: Neurotransmisores en la cóclea
+
+| Sinapsis | Transmisor | Efecto |
+|---|---|---|
+| CCI → fibra de tipo I (aferente) | Glutamato | Excita la fibra: dispara potenciales de acción |
+| Eferente olivococlear medial → CCE | Acetilcolina | Hiperpolariza la CCE y baja la ganancia del amplificador |
+| Eferente olivococlear lateral → fibra de tipo I | Acetilcolina, GABA, dopamina y otros | Modula la descarga de la fibra |
+
+La acetilcolina actúa sobre la CCE a través de un receptor nicotínico especial que deja entrar calcio, y ese calcio abre canales de potasio que hiperpolarizan la célula (Guinan, 2006). Las neuronas y las fibras usan potenciales de acción, que viajan más rápido cuanto más gruesa y más mielinizada es la fibra; eso pesa en la vía central y en el PEAT (→ sección Nervio y vía central).
+
+### El sistema eferente olivococlear
+
+La cóclea no solo envía información: también la recibe del tronco. Las fibras **eferentes** salen del complejo olivar superior (→ B1) en dos sistemas (Guinan, 2006):
+
+- **Olivococlear medial.** Va a las **CCE**. Cuando se activa, reduce la ganancia del amplificador. Eso protege la cóclea de los sonidos intensos y, sobre todo, mejora la escucha en ruido: al bajar la respuesta al ruido de fondo, deja que destaquen los cambios de la señal. Se activa por sonido en cualquiera de los dos oídos.
+- **Olivococlear lateral.** Va a las **dendritas de las fibras de tipo I** bajo las CCI y modula su descarga. Su función se conoce menos; una de las propuestas es que protege a las fibras del daño por sonido excesivo.
+
+El efecto del sistema medial se puede medir en clínica: un ruido en el oído contrario baja la amplitud de las emisiones del oído probado. Es la **supresión contralateral de las EOA** (→ H9). Para que la medida sea válida, el ruido no debe activar el reflejo estapedial (Guinan, 2006).
+
+### El potencial endococlear
+
+La endolinfa tiene un potencial de unos **+80 mV** respecto de la perilinfa: el **potencial endococlear**. Lo genera la **estría vascular**, que bombea potasio hacia la endolinfa; su arquitectura de dos barreras epiteliales y su espacio intermedio está en B3 (Hibino y cols., 2010). El potencial endococlear es la "batería" de la transducción: sumado al potencial negativo de la célula, da la fuerza que empuja el K⁺ hacia dentro (Wangemann, 2006).
+
+Si el potencial baja, la transducción pierde fuerza en toda la cóclea a la vez. Por eso una estría que falla da una pérdida **plana**: los diuréticos de asa la deprimen de forma transitoria, y en la presbiacusia estrial el daño es lento y permanente (→ B3, cap. 5, cap. 8). El potasio que sale de las células vuelve a la estría por las uniones comunicantes de la conexina 26 (→ B3, cap. 10).
+
+### Los potenciales cocleares
+
+Con un electrodo cerca de la cóclea (en el promontorio, la membrana o el conducto) se registran tres señales eléctricas, que son la base de la electrococleografía (→ H11):
+
+Tabla: Los potenciales cocleares
+
+| Potencial | De dónde sale | Qué forma tiene | Para qué sirve |
+|---|---|---|---|
+| Microfónica coclear (MC) | Corriente de transducción, sobre todo de las CCE | Copia la onda del estímulo | Muestra que las CCE funcionan; presente en la neuropatía auditiva |
+| Potencial de sumación (PS) | Respuesta sostenida, asimétrica, de las células ciliadas | Desplazamiento continuo durante el estímulo | Grande respecto del PA en el hidrops |
+| Potencial de acción compuesto (PA) | Disparo sincrónico de las fibras del nervio | Pico negativo breve | Es la onda I del PEAT |
+
+En el **hidrops endolinfático**, la membrana basilar se desplaza hacia la rampa timpánica y la respuesta de las células se vuelve más asimétrica: el PS crece respecto del PA, y la razón PS/PA aumentada es el hallazgo clásico de la electrococleografía en la enfermedad de Ménière (→ H11, cap. 9).
+
+### Las emisiones otoacústicas
+
+Si el amplificador mueve la membrana basilar, ese movimiento también viaja hacia atrás: sale por la ventana oval, mueve la cadena y la membrana timpánica, y se convierte en un sonido en el conducto. Ese sonido son las **emisiones otoacústicas**, descritas por Kemp (1978). Son una medida directa del funcionamiento de las **CCE** (→ H9):
+
+- **Espontáneas.** Tonos que algunos oídos sanos emiten sin estímulo.
+- **Transitorias (EOAT).** La respuesta a un clic, que sale unos milisegundos después.
+- **Productos de distorsión (PD).** Con dos tonos, f1 y f2, la cóclea, que no es lineal, produce un tercero, sobre todo en 2f1-f2. Su presencia muestra que las CCE de la zona de f2 funcionan.
+
+Para que haya emisiones hacen falta dos cosas: **CCE sanas** y un **oído medio que deje pasar** el sonido en los dos sentidos. Por eso una otitis con efusión las apaga aunque la cóclea esté sana, y por eso las emisiones desaparecen cuando la pérdida coclear supera, en general, unos 30 a 40 dB HL (→ H9, cap. 16). En la neuropatía auditiva, en cambio, las emisiones están presentes con un PEAT ausente o muy alterado (→ cap. 13).
+
+### Reclutamiento, campo dinámico y adaptación
+
+**Reclutamiento.** En un oído sano, el amplificador comprime: gana mucho para los sonidos suaves y poco para los fuertes. Cuando se pierden las CCE se pierde esa compresión: los sonidos suaves no se oyen, pero los fuertes llegan casi igual que en el oído sano. La sonoridad crece entonces más rápido de lo normal: es el **reclutamiento**, típico de la pérdida coclear (Moore, 2007). El paciente lo describe como "no oigo cuando me hablan bajo, pero si me gritan me molesta" (→ H5, H6).
+
+**Campo dinámico.** Es la distancia entre el umbral y el nivel de molestia. Con reclutamiento, el umbral sube y el nivel de molestia casi no cambia, así que el campo dinámico se **estrecha**. Es la razón de que los audífonos usen compresión: tienen que meter los sonidos del ambiente en un campo más angosto (→ cap. 28).
+
+**Adaptación.** Ante un tono sostenido, la respuesta del nervio baja un poco con el tiempo, y la sonoridad también: es una adaptación normal y pequeña. En una lesión del nervio la adaptación es **exagerada**: el tono deja de oírse en segundos. Es la base de las pruebas de deterioro tonal (*tone decay*) y del decay del reflejo estapedial (→ H6, H7, cap. 11).
+
+Tabla: Qué parte de la cóclea mide cada prueba
+
+| Estructura | Qué la daña | Prueba que la ve |
+|---|---|---|
+| CCE | Ruido, ototóxicos, presbiacusia sensorial | EOA (ausentes), reclutamiento, audiograma |
+| Estría vascular | Diuréticos de asa, presbiacusia estrial | Audiograma plano; EOA reducidas |
+| Rampa media (volumen) | Hidrops | Electrococleografía (PS/PA aumentado) |
+| CCI y sinapsis | Ruido (sinaptopatía), neuropatía auditiva | PEAT alterado con EOA presentes; habla en ruido |
+| Reciclaje de K⁺ | Conexina 26 | Audiograma; diagnóstico genético |
+
+:::ayuda Ayuda memoria: cóclea
+- **Tonotopía:** base = agudos (angosta, rígida); ápice = graves; la base se daña primero.
+- **Amplificador:** CCE + prestina; ≈ 40 dB de ganancia, sintonía fina y compresión.
+- **Transducción:** deflexión hacia el más alto → enlaces apicales tensos → canal abierto → entra K⁺ → despolarización → Ca²⁺ → glutamato.
+- **CCI:** sinapsis en cinta con fibras de tipo I; base de la sincronía neural.
+- **Eferente medial:** a las CCE, baja la ganancia; se mide con supresión contralateral de las EOA.
+- **Potencial endococlear:** +80 mV, estría vascular; si falla, pérdida plana.
+- **Potenciales:** MC (CCE), PS (asimetría; ↑ en hidrops), PA (nervio = onda I).
+- **EOA:** CCE sanas + oído medio que deje pasar; desaparecen sobre unos 30-40 dB HL.
+- **Reclutamiento:** pérdida de compresión → campo dinámico estrecho.
+:::
+
+## Nervio y vía central
+
+### Cómo codifica el nervio la frecuencia, la intensidad y el tiempo
+
+El nervio coclear tiene unas 30.000 fibras (→ B3). Cada una dispara potenciales de acción todos iguales: no puede mandar "más fuerte" ni "más agudo" cambiando la forma de la señal. Todo lo que el cerebro sabe del sonido lo deduce de **qué fibras** disparan, **cuántas veces** y **en qué momento**.
+
+**Frecuencia: código de lugar y código temporal.**
+
+- **Código de lugar.** Cada fibra viene de un punto de la cóclea y responde mejor a su frecuencia característica (→ sección Cóclea: tonotopía). Qué fibras están activas dice qué frecuencias tiene el sonido. Sirve en todo el rango audible y es el único código para los agudos.
+- **Código temporal (bloqueo de fase).** En las frecuencias bajas, la fibra tiende a disparar siempre en la misma fase de la onda: los disparos quedan "pegados" al ritmo del sonido. El intervalo entre disparos dice la frecuencia. El bloqueo de fase se debilita al subir la frecuencia; en el gato se mantiene hasta unos 4 a 5 kHz (Johnson, 1980), y en el humano el límite se discute. Es la base de la percepción fina del tono grave y de la localización por diferencias de tiempo (más abajo).
+
+**Intensidad: frecuencia de disparo, tipos de fibra y población.** Una sola fibra sube su frecuencia de disparo con la intensidad, pero solo a lo largo de unos 20 a 30 dB; después se satura (Johnson, 1980). El oído cubre unos 120 dB con tres recursos:
+
+1. **Fibras con distinta actividad espontánea.** Las fibras se clasifican por cuánto disparan en silencio (Liberman, 1978). Las de **alta actividad espontánea** son la mayoría, tienen el umbral más bajo y se saturan pronto: codifican los sonidos suaves. Las de **baja actividad espontánea** tienen umbral alto y un rango dinámico amplio: siguen informando en los sonidos fuertes y en el ruido.
+2. **Sumación por población.** Un sonido más fuerte mueve un tramo más largo de la membrana basilar y recluta fibras de frecuencias vecinas.
+3. **La compresión coclear** de las CCE, que mete un rango grande de presiones en el rango de las fibras (→ sección Cóclea).
+
+Las fibras de baja actividad espontánea son las primeras que se pierden en la sinaptopatía por ruido y con la edad. Como no fijan el umbral, el audiograma queda normal, pero la escucha en ruido empeora: es la llamada **pérdida auditiva oculta** (→ B3, cap. 6).
+
+**Tiempo y adaptación.** El nervio marca con precisión el comienzo de un sonido: muchas fibras disparan juntas al inicio, y después la frecuencia de disparo baja a un nivel sostenido. Es la **adaptación neural**. Esa descarga sincrónica del comienzo es la que registra el PEAT, y por eso el PEAT necesita estímulos breves, como el clic (→ H10). Una adaptación exagerada, en la que la fibra deja de responder en segundos, es un signo de lesión del nervio (→ sección Cóclea: adaptación).
+
+:::imagen ilustraciones/b2-codificacion.svg ancho=100% Tres códigos del nervio coclear. A: código de lugar; cada fibra tiene su curva de sintonía con la punta en su frecuencia característica. B: bloqueo de fase; con un tono grave, los disparos caen siempre en la misma fase de la onda. C: frecuencia de disparo según la intensidad para una fibra de alta y una de baja actividad espontánea; mira dónde se satura cada una. Esquema propio a partir de Liberman (1978) y Johnson (1980). Imagen propia del libro.
+:::
+
+### Los neurotransmisores de la vía central
+
+El potencial de acción viaja por el axón y, en cada sinapsis, se convierte en la liberación de un neurotransmisor. La vía auditiva y la vestibular usan sobre todo tres:
+
+Tabla: Neurotransmisores de las vías auditiva y vestibular centrales
+
+| Transmisor | Efecto | Dónde pesa |
+|---|---|---|
+| Glutamato | Excitador | Fibras del nervio coclear y vestibular; casi todas las conexiones ascendentes |
+| Glicina | Inhibidor | Complejo olivar: la inhibición del lado contrario que permite comparar los dos oídos; núcleos vestibulares |
+| GABA | Inhibidor | Colículo inferior, núcleos cocleares, núcleos vestibulares (inhibición entre los dos lados) y cerebelo (células de Purkinje) |
+
+La **inhibición** es tan importante como la excitación: la comparación entre los dos oídos en el complejo olivar y el equilibrio entre los dos núcleos vestibulares dependen de que un lado frene al otro (Grothe y cols., 2010) (→ B1, sección Sistema vestibular).
+
+**Mielina y velocidad.** El potencial de acción viaja más rápido en los axones gruesos y mielinizados, porque salta de un nodo de Ranvier al siguiente. La vía auditiva del tronco depende de esa velocidad y de su sincronía: una fibra desmielinizada conduce más lento y con más dispersión. Por eso la **esclerosis múltiple** alarga los interpicos del PEAT, y por eso el PEAT del recién nacido, con la vía todavía en mielinización, tiene latencias más largas que el del adulto (→ cap. 12, sección Desarrollo).
+
+### Qué hace cada estación de la vía
+
+La anatomía de la vía está en B1, con las láminas de labyrinthus3d. Aquí, lo que hace cada estación. Hay dos ideas que atraviesan toda la vía: la **tonotopía se conserva** en todas las estaciones, de la cóclea a la corteza, y desde el complejo olivar hacia arriba **cada lado recibe información de los dos oídos**.
+
+Tabla: Función de cada estación de la vía auditiva
+
+| Estación | Qué hace |
+|---|---|
+| Núcleo coclear ventral | Reparte la señal en vías paralelas; algunas neuronas conservan con precisión el tiempo de los disparos y lo llevan al complejo olivar; es el punto de partida del reflejo estapedial |
+| Núcleo coclear dorsal | Analiza el espectro: detecta las muescas que el pabellón produce según la elevación del sonido |
+| Complejo olivar superior | Primera estación binaural: compara tiempo e intensidad entre los oídos (localización); origen de las eferentes olivococleares; parte del arco estapedial |
+| Lemnisco lateral | Lleva la información hacia el mesencéfalo; sus núcleos procesan el tiempo |
+| Colículo inferior | Estación obligatoria: casi todas las vías ascendentes hacen sinapsis aquí; integra la información binaural, espectral y temporal; reflejos de orientación |
+| Cuerpo geniculado medial | Relevo talámico hacia la corteza; filtra y modula lo que llega según la atención |
+| Corteza auditiva primaria | Giro de Heschl, en el lóbulo temporal; mapa tonotópico; detecta rasgos del sonido |
+| Áreas secundarias y de asociación | Alrededor de la primaria; analizan sonidos complejos, el habla y la música, y los conectan con el lenguaje y la memoria |
+
+**Lateralización hemisférica.** Los dos hemisferios no hacen lo mismo. El izquierdo es mejor para los cambios temporales rápidos, como los del habla; el derecho, para el detalle espectral, como el tono y la melodía (Zatorre y cols., 2002). En la mayoría de las personas el lenguaje depende del hemisferio izquierdo, y por eso, en las pruebas dicóticas, el oído derecho, cuya vía principal cruza al izquierdo, suele reconocer un poco mejor (→ H15).
+
+### Audición binaural y localización
+
+La cóclea no tiene un mapa del espacio: la posición de una fuente se calcula en el tronco, comparando los dos oídos (Grothe y cols., 2010). Hay dos pistas principales:
+
+- **Diferencia interaural de tiempo (DIT).** Un sonido que viene de un lado llega antes al oído de ese lado. La diferencia máxima, con la fuente de lado, es de unos 0,7 ms. La comparan las neuronas de la **oliva superior medial**, que reciben de los dos núcleos cocleares. Sirve sobre todo en los **graves**, donde el bloqueo de fase es bueno.
+- **Diferencia interaural de nivel (DIN).** La cabeza hace **sombra**: el oído del lado contrario recibe menos sonido. La sombra es grande en los **agudos**, cuya longitud de onda es menor que la cabeza, y casi nula en los graves, que la rodean. La compara la **oliva superior lateral**, que recibe excitación de su lado e inhibición del lado contrario.
+
+Esa división, tiempo para los graves y nivel para los agudos, es la **teoría dúplex**. Las pistas espectrales del pabellón completan la información para distinguir adelante de atrás y arriba de abajo (→ sección Oído externo y medio).
+
+**Efecto de precedencia.** En una sala, al oído llega el sonido directo y, milisegundos después, sus ecos. El sistema auditivo localiza la fuente por el **primer frente de onda** y le resta peso a los ecos que llegan poco después (Litovsky y cols., 1999).
+
+**Análisis de la escena auditiva y efecto cóctel.** En un ambiente con muchas fuentes, el cerebro separa la mezcla en "objetos" según su tono, su ritmo, su timbre y su posición (Bregman, 1990). Así se puede seguir una voz en una fiesta, el **efecto cóctel** (Cherry, 1953). Las dos orejas ayudan mucho: separar la voz del ruido en el espacio mejora la comprensión. Por eso una pérdida unilateral, o la pérdida de las fibras que trabajan en el ruido, se nota sobre todo en ambientes ruidosos (→ H15, cap. 30).
+
+:::imagen ilustraciones/b2-binaural.svg ancho=90% Las dos pistas de la localización, con una fuente a la derecha. A: diferencia de tiempo; el sonido grave llega antes al oído derecho. B: diferencia de nivel; el agudo queda en la sombra de la cabeza en el oído izquierdo. Abajo, las dos olivas que hacen cada comparación. Esquema propio a partir de Grothe y cols. (2010). Imagen propia del libro.
+:::
+
+### Los generadores del PEAT
+
+El PEAT registra desde el cuero cabelludo la actividad sincrónica de la vía en los primeros 10 ms después de un clic. Sus ondas se nombran con números romanos. Las grabaciones hechas durante cirugías en humanos permiten asignar cada una a una estación (Møller y cols., 1981):
+
+Tabla: Generadores de las ondas del PEAT
+
+| Onda | Generador principal |
+|---|---|
+| I | Porción distal del nervio coclear (cerca de la cóclea) |
+| II | Porción proximal del nervio coclear (al entrar al tronco) |
+| III | Núcleo coclear |
+| IV | Complejo olivar superior |
+| V | Lemnisco lateral al llegar al colículo inferior |
+
+Cada onda tiene más de un generador, y desde la onda III en adelante contribuyen los dos lados. Aun así, el esquema sirve para leer las lesiones (Møller y cols., 1981):
+
+- **La latencia de la onda I** depende de la cóclea y del oído medio: se alarga en una pérdida conductiva.
+- **Los interpicos I-III, III-V y I-V** miden la conducción central y no dependen de la pérdida periférica. El I-V dura unos 4 ms en el adulto; los valores de referencia están en H10.
+- **Un I-III alargado** apunta al nervio o a la entrada del tronco, como en el schwannoma vestibular (→ cap. 11). **Un III-V alargado** apunta al tronco alto (→ cap. 12).
+- **Una onda V ausente con la I presente** sugiere un problema del nervio o del tronco; **todas ausentes con EOA presentes**, una neuropatía auditiva (→ cap. 13).
+
+La maduración del PEAT en el lactante está en la sección Desarrollo, y las láminas de B1 muestran cómo cambia el PEAT con una lesión en cada estación.
+
+### Procesamiento central del habla
+
+Entender el habla exige más que oír: hay que seguir cambios rápidos de frecuencia e intensidad, separar la voz del ruido y reconocer las palabras. Eso depende de la **precisión temporal** del nervio y de la vía.
+
+Por eso la discriminación del habla cae **más en lo retrococlear** que en lo coclear. En una pérdida coclear, la discriminación empeora en proporción a la pérdida, y al subir la intensidad suele mejorar o mantenerse. En una lesión del nervio o del tronco, la señal llega con menos fibras y sin sincronía, y la discriminación puede ser **mucho peor de lo que predice el audiograma**. Además, al subir la intensidad, puede empeorar en vez de mejorar: es el fenómeno de **roll-over** (Jerger y Jerger, 1971) (→ H5, cap. 11, cap. 13).
+
+### Procesamiento auditivo central
+
+El **procesamiento auditivo central** es lo que la vía hace con la señal después de la cóclea: ordenarla en el tiempo, compararla entre los oídos y separarla del fondo. Cuando falla con un audiograma normal se habla de un **trastorno del procesamiento auditivo** (ASHA, 2005). Las pruebas del libro miden cuatro capacidades (→ H15):
+
+Tabla: Capacidades del procesamiento auditivo central
+
+| Capacidad | Qué es | Cómo se mide |
+|---|---|---|
+| Resolución temporal | Detectar cambios muy breves, como un silencio de pocos milisegundos | Detección de silencios (*gaps*) |
+| Ordenamiento temporal | Reconocer el orden de varios sonidos | Patrones de frecuencia y de duración |
+| Interacción binaural | Combinar lo que llega a los dos oídos | Nivel de diferencia de enmascaramiento, localización |
+| Escucha dicótica y figura-fondo | Atender a un oído o a una voz cuando hay otra señal | Dígitos y palabras dicóticas; habla en ruido |
+
+Estas capacidades **maduran hasta la adolescencia**, al ritmo de la mielinización y de la corteza (Moore y Linthicum, 2007). Por eso los resultados de un niño se comparan con normas de su edad, y por eso un niño pequeño puede "fallar" una prueba central sin tener un trastorno (→ H15, sección Desarrollo).
+
+:::ayuda Ayuda memoria: nervio y vía central
+- **Frecuencia:** código de lugar (todo el rango) y bloqueo de fase (graves).
+- **Intensidad:** cada fibra cubre 20-30 dB; fibras de alta y baja actividad espontánea, población y compresión coclear cubren 120 dB.
+- **Fibras de baja actividad espontánea:** se pierden primero con ruido y edad; audiograma normal, mal en ruido.
+- **Transmisores:** glutamato excita; glicina y GABA inhiben.
+- **Binaural:** DIT en oliva medial (graves); DIN en oliva lateral (agudos); sombra de la cabeza.
+- **PEAT:** I nervio distal, II nervio proximal, III núcleo coclear, IV olivar, V lemnisco/colículo.
+- **Retrococlear:** discriminación peor que el audiograma; roll-over.
+:::
+
+## Desarrollo
+
+### El oído del recién nacido
+
+Al nacer, la **cóclea ya tiene forma casi adulta** y funciona: las emisiones otoacústicas se registran desde los primeros días (→ B3, H9). Lo que todavía cambia es lo que la rodea:
+
+- **El conducto** es corto y sus paredes son blandas, sin la parte ósea formada. Se deforma con la presión de la sonda y puede cerrarse. Además, puede estar ocupado por vérnix (→ B3, cap. 16).
+- **El oído medio** puede tener **mesénquima** y líquido amniótico en las primeras horas o días (→ B3). Su masa y su rigidez son distintas de las del adulto.
+- **La trompa** es corta y horizontal (→ B1).
+
+Dos consecuencias para el tamizaje y el diagnóstico:
+
+1. **Las EOA del primer día fallan más.** Un conducto ocupado o un oído medio con líquido apagan las emisiones aunque la cóclea esté sana. Repetir la prueba unos días después baja mucho los falsos positivos (→ cap. 16).
+2. **La timpanometría con sonda de 226 Hz no sirve en el lactante pequeño.** Las paredes blandas del conducto se mueven con la sonda grave y pueden dar una curva normal con el oído medio lleno de líquido. Por eso en los primeros meses se usa una sonda de **1.000 Hz** (Kei y cols., 2003) (→ H7, cap. 17).
+
+### Maduración del tronco y de la corteza
+
+La vía auditiva sigue madurando después de nacer, de abajo hacia arriba (Moore y Linthicum, 2007):
+
+Tabla: Maduración de la vía auditiva
+
+| Nivel | Cuándo madura | Cómo se ve en las pruebas |
+|---|---|---|
+| Cóclea | Antes de nacer (final del segundo trimestre) | EOA presentes al nacer |
+| Nervio y tronco | Mielinización en el período perinatal y los primeros años | Latencias del PEAT más largas en el recién nacido; acortamiento progresivo hasta valores adultos hacia los 2 años |
+| Tálamo y corteza | Durante la infancia; capas superficiales de la corteza hasta los 12 años | Potenciales corticales que cambian hasta la adolescencia; procesamiento central inmaduro |
+
+En el recién nacido la onda I tiene una latencia cercana a la del adulto, porque depende de la cóclea, que ya está madura. Lo que se alarga son los **interpicos**, porque la vía del tronco todavía se está mielinizando (Eggermont y Salamy, 1988). Por eso el PEAT de un lactante se lee siempre con normas de su edad gestacional y corregida (→ H10, cap. 14, cap. 17).
+
+La maduración depende también de la **estimulación**. Una vía que no recibe sonido en los primeros años no madura igual, y ese es el fundamento de la detección temprana y de la intervención antes de los 6 meses (→ cap. 16, cap. 17).
+
+:::ayuda Ayuda memoria: desarrollo
+- **Al nacer:** cóclea madura; conducto blando, oído medio con mesénquima o líquido.
+- **Tamizaje:** las EOA del primer día fallan más por conducto u oído medio, no por cóclea.
+- **Timpanometría en el lactante:** sonda de 1.000 Hz.
+- **PEAT:** onda I casi adulta; interpicos largos que se acortan hasta los 2 años.
+- **Corteza y procesamiento central:** maduran hasta la adolescencia.
+:::
+
+## Sistema vestibular
+
+### Qué mide cada receptor
+
+El laberinto tiene dos tipos de receptores, y cada uno mide un tipo de movimiento distinto (→ B1, B3):
+
+Tabla: Receptores vestibulares
+
+| Receptor | Qué mide | Ejemplo | Prueba |
+|---|---|---|---|
+| Canales semicirculares (3 por lado) | Aceleración **angular**: la cabeza gira | Decir "no" con la cabeza | Video-impulso, calóricas, silla rotatoria (H16-H18) |
+| Utrículo | Aceleración **lineal** horizontal e inclinación | Un auto que frena; inclinar la cabeza de lado | oVEMP, vertical visual subjetiva (H12) |
+| Sáculo | Aceleración **lineal** vertical y gravedad | Un ascensor | cVEMP (H12) |
+
+Las fibras del nervio vestibular **disparan aunque la cabeza esté quieta**, con una actividad de reposo alta: unos 90 potenciales por segundo en el mono (Goldberg y Fernández, 1971). Esa actividad de reposo es la clave de todo el sistema. Un movimiento **sube** la frecuencia de disparo en un lado y la **baja** en el otro, y el cerebro lee la **diferencia** entre los dos lados. Mientras los dos lados disparan igual, el cerebro interpreta que la cabeza está quieta (→ H16).
+
+**Asimetría.** Si un laberinto deja de funcionar, por ejemplo en una neuritis, su nervio deja de disparar en reposo. El cerebro recibe entonces la misma diferencia que recibiría si la cabeza girara hacia el lado sano, y aparecen un vértigo rotatorio y un **nistagmo espontáneo** aunque la cabeza esté quieta (→ cap. 20, cap. 22).
+
+### Los canales semicirculares
+
+**Los pares coplanares.** Los seis canales forman tres pares, con los dos canales de cada par en el mismo plano: los dos laterales; el anterior izquierdo con el posterior derecho (LARP); y el anterior derecho con el posterior izquierdo (RALP). Un giro en el plano de un par **excita un canal e inhibe al otro**: es el sistema de empuje y tracción (→ B1: láminas del reflejo vestíbulo-ocular).
+
+**La dinámica de la cúpula.** Cuando la cabeza empieza a girar, la endolinfa, por inercia, queda atrás y empuja la cúpula, que se dobla y dobla los haces de las células (→ B3). La cúpula se comporta como un **péndulo de torsión** muy amortiguado: el roce de la endolinfa en un tubo tan fino es enorme. El resultado es que, en el rango de frecuencias de los movimientos naturales de la cabeza, la desviación de la cúpula es proporcional a la **velocidad** de giro, no a la aceleración: el canal "integra" la aceleración y le entrega al cerebro una señal de velocidad (Goldberg y Fernández, 1971).
+
+Si el giro se mantiene a velocidad constante, la cúpula vuelve poco a poco a su posición y la respuesta se apaga en unos segundos (la **constante de tiempo** de la cúpula). El tronco y el cerebelo prolongan esa señal en un circuito llamado **almacenamiento de velocidad**, y por eso el nistagmo que sigue a una rotación dura más de lo que dura la deflexión de la cúpula (Raphan y cols., 1979). Es lo que mide la silla rotatoria (→ H18).
+
+**Las leyes de Ewald.** Resumen cómo se comportan los canales (Baloh y cols., 2011):
+
+1. **El nistagmo va en el plano del canal estimulado.** Los ojos se mueven en el plano del canal que se excita. Por eso la dirección del nistagmo del VPPB dice qué canal está afectado (→ H19, cap. 22).
+2. **El sentido del flujo que excita depende del canal.** En el canal lateral excita el flujo de la endolinfa **hacia la ampolla** (ampulípeto); en los verticales, el flujo que se **aleja de la ampolla** (ampulífugo). Se debe a cómo está orientado el kinocilio en cada cresta (→ sección Cóclea: transducción).
+3. **La excitación es más potente que la inhibición.** Un canal puede subir su frecuencia de disparo sin límite práctico, pero solo puede bajarla hasta cero. Por eso, con giros rápidos, el canal sano que se inhibe no alcanza a compensar al que falta, y el video-impulso hacia el lado lesionado muestra una ganancia baja y sacadas correctoras (→ H17).
+
+:::imagen ilustraciones/b2-ewald.svg ancho=90% Las tres leyes de Ewald. A: el canal lateral derecho visto desde arriba; el flujo hacia la ampolla dobla los haces hacia el kinocilio y excita. B: un canal posterior; el flujo que se aleja de la ampolla excita. C: frecuencia de disparo de un canal según la velocidad de la cabeza; mira cómo la curva sube sin tope y cómo, hacia el otro lado, se aplana en cero. Esquema propio. Imagen propia del libro.
+:::
+
+### El reflejo vestíbulo-ocular
+
+El **reflejo vestíbulo-ocular** (RVO) mantiene la mirada fija en un punto mientras la cabeza se mueve: si la cabeza gira a la derecha, los ojos giran a la izquierda a la misma velocidad. Su arco tiene **tres neuronas**: nervio vestibular, núcleo vestibular y núcleo motor del ojo (→ B1). Es uno de los reflejos más rápidos del cuerpo, con unos 10 ms de latencia, y por eso puede estabilizar la mirada durante movimientos que la persecución visual no alcanza a seguir.
+
+Se describe con dos números:
+
+- **Ganancia:** velocidad del ojo dividida por la velocidad de la cabeza. Lo normal es cercano a 1. Una ganancia baja significa que el ojo se queda atrás y la imagen se corre en la retina: el paciente ve borroso al moverse (oscilopsia) y hace una **sacada correctora** para volver al blanco (Halmagyi y Curthoys, 1988) (→ H17).
+- **Fase:** si el ojo se mueve a tiempo con la cabeza. Se mide sobre todo en la silla rotatoria (→ H18).
+
+**Por qué el nistagmo bate hacia el lado más activo.** Si un lado dispara más que el otro, el RVO empuja los ojos lentamente hacia el lado **contrario** al más activo: es la **fase lenta**, que es la vestibular. Cuando los ojos llegan al borde, el tronco los devuelve con una sacada rápida: es la **fase rápida**, que por convención da el nombre al nistagmo. Por eso, en una lesión periférica aguda, el nistagmo **bate hacia el lado sano**, que es el que ahora dispara más. Y por eso, al irrigar un oído con agua caliente, que excita el canal lateral, el nistagmo bate hacia ese oído (→ H16, H18, cap. 20).
+
+### Las máculas y los reflejos otolíticos
+
+En cada mácula hay una línea curva, la **estriola**, que divide el epitelio en dos mitades con las células orientadas en **sentidos opuestos**: en el utrículo los kinocilios miran hacia la estriola, y en el sáculo, hacia afuera de ella (→ B3). Como la mácula es una superficie con células orientadas en todas las direcciones del plano, cualquier inclinación o aceleración lineal excita a unas células e inhibe a otras: el patrón de cuáles se excitan dice la dirección del movimiento.
+
+**Inclinación o traslación.** Las otoconias no distinguen entre inclinar la cabeza y acelerar en línea recta: las dos cosas desplazan los cristales igual. El cerebro resuelve la ambigüedad combinando la información de los otolitos con la de los canales, que sí se activan cuando la cabeza rota al inclinarse y no cuando solo se traslada (Angelaki y cols., 1999). Esa **integración canal-otolito** es la base de la percepción de la vertical.
+
+**Los reflejos otolíticos.**
+
+- **Contrarrotación ocular.** Al inclinar la cabeza hacia un hombro, los ojos rotan un poco en sentido contrario.
+- **Vertical visual subjetiva.** En la oscuridad, una persona sana coloca una línea luminosa casi exactamente vertical. Una lesión del utrículo o de sus vías la inclina hacia el lado lesionado (→ H12, cap. 25).
+- **Reacción de inclinación ocular.** Una lesión aguda del utrículo o de la vía en el tronco puede dar la tríada de cabeza inclinada, desviación vertical de los ojos (*skew*) y torsión ocular (→ cap. 25, cap. 27).
+
+### Los VEMP: los reflejos del sáculo y del utrículo
+
+Un sonido intenso o una vibración mueve, además de la cóclea, las máculas. Esa estimulación produce dos reflejos que se registran con electrodos en la piel (Rosengren y cols., 2010) (→ H12, cap. 20):
+
+Tabla: Los dos VEMP
+
+| | cVEMP (cervical) | oVEMP (ocular) |
+|---|---|---|
+| Órgano | Sáculo | Utrículo |
+| Nervio | Vestibular inferior | Vestibular superior |
+| Vía | Núcleos vestibulares → vía vestíbulo-espinal medial → músculo del mismo lado | Núcleos vestibulares → cruza → músculo del ojo del lado contrario |
+| Músculo | Esternocleidomastoideo del mismo lado | Oblicuo inferior del lado contrario |
+| Respuesta | Inhibitoria (hay que contraer el músculo) | Excitatoria (mirada hacia arriba) |
+
+Como cada VEMP depende de una rama distinta del nervio, juntos permiten saber si una neuritis afectó la rama superior, la inferior o las dos (→ cap. 20). En la dehiscencia del canal superior, el sonido entra con más facilidad al laberinto, y los VEMP aparecen con umbrales anormalmente bajos (→ H12).
+
+### El mecanismo del VPPB
+
+La histología del VPPB está en B3: otoconias que se desprenden del utrículo. La fisiología explica los signos (→ H19, cap. 22):
+
+- **Canalitiasis.** Las partículas libres caen por gravedad dentro del canal cuando la cabeza cambia de posición, y arrastran la endolinfa. El nistagmo aparece con **latencia** (las partículas tardan en empezar a moverse), dura **menos de un minuto** (se detiene cuando las partículas llegan al punto más bajo) y se **fatiga** si se repite la maniobra (las partículas se dispersan).
+- **Cupulolitiasis.** Los cristales pegados a la cúpula la vuelven sensible a la gravedad. El nistagmo aparece **sin latencia** y **dura mientras se mantiene la posición**.
+- **Qué canal.** Por la primera ley de Ewald, el nistagmo sale en el plano del canal afectado: torsional y hacia arriba en el canal posterior; horizontal en el lateral.
+
+Las maniobras de reposición usan la gravedad para llevar las partículas fuera del canal, de vuelta al utrículo (→ H19).
+
+### Los reflejos vestíbulo-espinal y vestíbulo-cólico
+
+Además de los ojos, el vestíbulo controla el cuerpo y el cuello (→ H20, cap. 32):
+
+- **Vía vestíbulo-espinal lateral.** Sale del núcleo vestibular lateral (de Deiters) y baja por el mismo lado de la médula a los músculos **antigravitatorios** de las extremidades. Ante una inclinación, activa los extensores del lado hacia el que cae el cuerpo.
+- **Vía vestíbulo-espinal medial.** Sale del núcleo medial, baja por los dos lados hasta la médula cervical y controla los **músculos del cuello**. Es la base del **reflejo vestíbulo-cólico**, que estabiliza la cabeza en el espacio, y del cVEMP.
+
+Por eso una lesión vestibular unilateral aguda hace que el paciente **caiga o se desvíe hacia el lado lesionado**: ese lado tiene menos tono extensor.
+
+### Las vías vestibulares centrales
+
+La anatomía de los núcleos y de las vías está en B1. Lo que hace cada estación:
+
+Tabla: Estaciones vestibulares centrales
+
+| Estación | Qué hace |
+|---|---|
+| Núcleos vestibulares | Reciben el nervio, la vista, la propiocepción del cuello y el cerebelo; comparan los dos lados por fibras comisurales inhibitorias; generan el RVO, los reflejos espinales y el almacenamiento de velocidad |
+| Cerebelo: flóculo | Ajusta la ganancia del RVO cuando no estabiliza bien la mirada; persecución lenta |
+| Cerebelo: nódulo y úvula | Almacenamiento de velocidad; integración canal-otolito; orientación respecto de la gravedad |
+| Tálamo | Relevo hacia la corteza |
+| Corteza vestibular | Varias áreas; la central es la región insular posterior y la unión temporoparietal; percepción del movimiento propio y de la vertical, integración con la vista y el cuerpo (Lopez y Blanke, 2011) |
+
+La **percepción del movimiento propio** es siempre **multisensorial**: el cerebro combina el vestíbulo, la vista y la propiocepción, y le da más peso a la fuente más confiable en cada momento. Cuando las fuentes no coinciden, como al leer en un auto, aparece el mareo (→ cap. 25, cap. 27).
+
+### Compensación central: la base de la rehabilitación
+
+Después de una lesión vestibular unilateral, los síntomas mejoran aunque el laberinto no se recupere. Es la **compensación vestibular**, y tiene dos partes que se recuperan de forma distinta (Lacour y cols., 2016):
+
+Tabla: Compensación vestibular
+
+| Déficit | Qué es | Cómo se recupera | Velocidad |
+|---|---|---|---|
+| Estático | Nistagmo espontáneo, inclinación, vértigo en reposo | Se reequilibra la actividad de los dos núcleos vestibulares | Días a semanas; suele ser completa |
+| Dinámico | Mala respuesta a los movimientos de la cabeza, oscilopsia, inestabilidad al caminar | **Adaptación** (cambia la ganancia del RVO), **sustitución** (otras señales y estrategias, como sacadas encubiertas, reemplazan lo perdido) y **habituación** (baja la respuesta a lo que provoca síntomas) | Semanas a meses; a menudo incompleta |
+
+La compensación necesita **movimiento y error visual**: el cerebro ajusta la ganancia cuando la imagen se corre en la retina. Por eso los ejercicios de rehabilitación vestibular hacen mover la cabeza mirando un blanco, y por eso los sedantes vestibulares usados por mucho tiempo la retrasan (→ H20).
+
+:::ayuda Ayuda memoria: sistema vestibular
+- **Canales:** rotación; **otolitos:** traslación e inclinación.
+- **Actividad de reposo alta;** el cerebro lee la diferencia entre los lados.
+- **Cúpula:** péndulo de torsión; integra la aceleración y entrega velocidad; almacenamiento de velocidad la prolonga.
+- **Ewald:** plano del canal; lateral excita hacia la ampolla, verticales al alejarse; excitación > inhibición.
+- **Nistagmo:** fase lenta vestibular; bate hacia el lado más activo (el sano en una lesión aguda).
+- **cVEMP:** sáculo, vestibular inferior, ECM mismo lado. **oVEMP:** utrículo, vestibular superior, oblicuo inferior contrario.
+- **VPPB:** canalitiasis (latencia, < 1 min, fatiga) vs cupulolitiasis (sin latencia, persistente).
+- **Compensación:** estática (reequilibrio) rápida; dinámica (adaptación, sustitución, habituación) lenta.
+:::
+
+## Nariz
+
+### El ciclo nasal
+
+Las dos fosas nasales no respiran igual al mismo tiempo. El tejido eréctil de los cornetes y del tabique se llena en una fosa mientras se vacía en la otra, y después se invierte: es el **ciclo nasal** (→ B3: tejido eréctil). La resistencia **total** de la nariz se mantiene casi constante; lo que cambia es cómo se reparte entre los dos lados. Se encuentra en un 70 a 80 % de los adultos sanos (Pendolino y cols., 2018). En un registro de 24 horas, cada fosa dominó en promedio unas 2 a 2,5 horas, y el ciclo duró más durante el sueño (Kahana-Zweig y cols., 2016). Lo controla el sistema nervioso autónomo a través del calibre de los senos venosos (Eccles, 1996).
+
+Dos consecuencias clínicas:
+
+- Una persona sana no nota su ciclo, pero alguien con un **tabique desviado** sí: cuando la fosa estrecha entra en su fase congestiva, se tapa por completo, y la obstrucción "cambia de lado" a lo largo del día (→ H26).
+- Cualquier medición de una sola fosa (rinomanometría, rinometría acústica, flujo inspiratorio) depende del momento del ciclo, y por eso se repite **después de un vasoconstrictor**, que vacía el tejido eréctil y deja ver la vía aérea fija (→ H26, H27).
+
+### La resistencia al flujo y la válvula nasal
+
+La nariz es la parte de la vía aérea que más se opone al paso del aire. La resistencia depende sobre todo del **calibre**: en un tubo, el flujo cae con la cuarta potencia del radio, así que una pequeña reducción del área tiene un efecto grande (→ B4: flujo y resistencia).
+
+El punto más estrecho es la **válvula nasal**, en la entrada de la fosa: el espacio entre el tabique, el borde del cartílago lateral superior y la cabeza del cornete inferior. Ahí el aire se acelera, la presión cae y la pared lateral, que es blanda, tiende a ser **succionada hacia adentro** en una inspiración fuerte. Una válvula débil o estrecha da obstrucción **inspiratoria**, que mejora al tirar la mejilla hacia afuera (→ H25, H26).
+
+### El acondicionamiento del aire
+
+Antes de llegar a los pulmones, el aire tiene que estar **caliente, húmedo y limpio**, y la nariz hace casi todo ese trabajo (→ H25, cap. 36):
+
+Tabla: Cómo acondiciona la nariz el aire inspirado
+
+| Función | Cómo lo hace |
+|---|---|
+| Calentar | Los cornetes aumentan la superficie de contacto, y el flujo de sangre de la mucosa le entrega calor al aire |
+| Humedecer | Las glándulas seromucosas y el agua de la mucosa saturan el aire de vapor |
+| Filtrar | Los pelos del vestíbulo retienen las partículas grandes; las más chicas chocan contra la mucosa en las curvas del flujo y quedan atrapadas en el moco |
+| Depurar | El **transporte mucociliar** lleva el moco hacia la rinofaringe, donde se traga (→ B3) |
+
+La forma de los cornetes hace que el aire pase en capas finas y con turbulencia, en contacto con la mucosa. Por eso, cuando se reseca o se pierde mucosa de los cornetes, el aire llega frío y seco aunque la nariz "esté abierta": el paciente puede sentirse tapado con una fosa amplia (→ H26).
+
+### La olfacción
+
+**Cómo llega el olor.** Las moléculas olorosas llegan a la **hendidura olfatoria**, en el techo de la fosa, de dos maneras: con el aire que entra por la nariz (vía **ortonasal**) o desde la boca, al tragar, por la rinofaringe (vía **retronasal**). La vía retronasal es la que da casi todo el "sabor" de los alimentos. Para que una molécula se detecte tiene que disolverse en el moco que cubre los cilios de las neuronas olfatorias (→ B3).
+
+**La transducción.** Ocurre en los cilios de la neurona olfatoria (Kleene, 2008):
+
+1. La molécula olorosa se une a un **receptor olfatorio**, una proteína de membrana acoplada a proteína G. Hay una gran familia de genes para estos receptores, y cada neurona expresa uno solo (Buck y Axel, 1991).
+2. El receptor activa una proteína G propia del olfato, que activa la **adenilato ciclasa**.
+3. Sube el **AMP cíclico**, que abre **canales catiónicos activados por nucleótidos cíclicos**: entran Na⁺ y Ca²⁺.
+4. El Ca²⁺ que entra abre **canales de cloruro activados por calcio**. Como la neurona olfatoria tiene mucho cloruro adentro, el **cloruro sale** y despolariza aún más: es un amplificador.
+5. La despolarización genera **potenciales de acción** que viajan por el axón.
+6. **Adaptación:** el mismo Ca²⁺ reduce después la sensibilidad de los canales. Por eso un olor constante se deja de notar.
+
+:::imagen ilustraciones/b2-olfaccion.svg ancho=100% La transducción olfatoria en el cilio y la vía hasta la corteza. Arriba, la cascada: receptor, proteína G, adenilato ciclasa, AMP cíclico, canal catiónico, canal de cloruro. Abajo, el camino: neurona, lámina cribosa, glomérulo del bulbo, célula mitral, tracto olfatorio y corteza piriforme. Esquema propio a partir de Kleene (2008). Imagen propia del libro.
+:::
+
+**La vía.** Los axones cruzan la lámina cribosa y terminan en el **bulbo olfatorio**, en unas estructuras llamadas **glomérulos**. Todos los axones de las neuronas que expresan el mismo receptor convergen en los mismos glomérulos, así que el bulbo tiene un mapa de qué receptores se activaron. Las **células mitrales** llevan la señal por el **tracto olfatorio** a la **corteza piriforme**, a la amígdala y a la corteza entorrinal. A diferencia de los demás sentidos, el olfato llega a la corteza **sin pasar primero por el tálamo**, y tiene conexiones directas con las áreas de la emoción y la memoria. Desde la corteza olfatoria primaria, la información sigue a la corteza orbitofrontal, donde se identifica el olor (→ B1).
+
+**Por qué la obstrucción nasal quita el olfato.** Si el aire no llega a la hendidura olfatoria, las moléculas no llegan a los receptores, aunque las neuronas estén sanas. Es la **anosmia conductiva**: aparece con un pólipo, una mucosa muy inflamada o mucha secreción, y puede recuperarse cuando se trata la obstrucción (→ H28, cap. 35). Se distingue de la anosmia **neurosensorial**, en la que se dañan las neuronas, sus células de soporte o la vía, como después de una infección viral o un traumatismo (→ B3: células sustentaculares).
+
+:::ayuda Ayuda memoria: nariz
+- **Ciclo nasal:** alternancia de congestión entre las fosas, resistencia total constante; control autónomo; 70-80 % de los adultos.
+- **Resistencia:** depende del radio a la cuarta; el punto más estrecho es la válvula nasal.
+- **Acondicionamiento:** calentar, humedecer, filtrar, depurar.
+- **Olfacción:** receptor → proteína G → AMPc → canal catiónico → salida de Cl⁻ → potencial de acción → glomérulo → mitral → corteza piriforme (sin tálamo).
+- **Anosmia conductiva:** el olor no llega a la hendidura; neurosensorial: se daña el epitelio o la vía.
+:::
+
+:::pregunta Preguntas para practicar
+1. La parte de la membrana que vibra con eficacia mide unos 55 mm² y la platina, unos 3,2 mm²; la palanca de la cadena multiplica por 1,3. ¿Cuánto multiplica el oído medio la presión? ¿A cuántos decibeles corresponde, aproximadamente?
+2. Una paciente de 35 años tiene una pérdida conductiva que predomina en los graves, una ósea que baja 15 dB en 2 kHz y el reflejo estapedial ausente. ¿Qué componente del oído medio aumentó? ¿Por qué baja la ósea en 2 kHz si la cóclea está sana?
+3. Un paciente tiene el oído derecho normal y el izquierdo con una pérdida de 60 dB por vía aérea. Sin enmascarar, la ósea del lado izquierdo sale en 10 dB. ¿Es una pérdida conductiva izquierda? ¿Por qué?
+4. En ratones sin prestina, la transducción de las CCE está intacta, pero la sensibilidad cae entre 40 y 60 dB. ¿Qué función se perdió? ¿Qué esperarías encontrar en las emisiones otoacústicas?
+5. Ordena los pasos de la transducción: liberación de glutamato; entrada de K⁺; deflexión del haz hacia el estereocilio más alto; despolarización; apertura del canal de transducción; tensión de los enlaces apicales; entrada de Ca²⁺ por la base de la célula.
+6. Un paciente en una unidad de cuidados intensivos recibe una dosis alta de un diurético de asa y nota que oye peor en todas las frecuencias. Días después mejora. ¿Qué estructura se afectó y qué potencial bajó? ¿Por qué la pérdida es plana?
+7. Un lactante tiene emisiones otoacústicas presentes, una microfónica coclear visible y un PEAT sin ondas reconocibles. ¿Qué parte de la vía funciona y cuál no? ¿Cómo se llama el cuadro?
+8. Dos pacientes tienen un PEAT alterado. En el primero el interpico I-III está alargado y el III-V es normal; en el segundo, al revés. ¿Dónde está la lesión en cada uno?
+9. Una fuente sonora está a la derecha del paciente. ¿Qué pista usa para localizar un tono de 500 Hz y cuál para uno de 4 kHz? ¿Qué estación del tronco compara cada una?
+10. Un paciente tiene una neuritis vestibular izquierda aguda. ¿Hacia dónde bate su nistagmo espontáneo? ¿Hacia qué lado muestra el video-impulso una ganancia baja? ¿Hacia qué lado tiende a caer? Si el cVEMP izquierdo está normal y el oVEMP izquierdo ausente, ¿qué rama del nervio se afectó?
+11. En la maniobra de Dix-Hallpike, un paciente presenta un nistagmo torsional y hacia arriba que empieza a los 5 segundos, dura 20 segundos y es más débil al repetir la maniobra. ¿Canalitiasis o cupulolitiasis? ¿Qué canal? ¿Por qué hay latencia?
+12. Dos pacientes perdieron el olfato: uno tiene poliposis nasal que ocupa la parte alta de las fosas; el otro lo perdió después de una infección viral, con las fosas libres. ¿Qué tipo de anosmia tiene cada uno? ¿En cuál esperas que el olfato mejore al tratar la obstrucción?
+:::
+
+:::ayuda-ancho Respuestas
+1. 55 / 3,2 ≈ 17; 17 × 1,3 ≈ **22 veces** en presión. En decibeles: 20 × log₁₀(22) ≈ **27 dB**. La ganancia medida es algo menor, cercana a 20 dB alrededor de 1 kHz (Aibara y cols., 2001).
+2. Aumentó la **rigidez** (platina fija: otoesclerosis), por eso caen los graves. La ósea baja en 2 kHz porque la platina fija quita el componente de **inercia de la cadena** de la conducción ósea, máximo cerca de la resonancia de la cadena: es la **muesca de Carhart**, mecánica y no coclear (Carhart, 1950). El reflejo no se registra porque el estribo no puede moverse.
+3. No necesariamente. La atenuación interaural de la ósea es casi **0 dB**: la ósea sin enmascarar puede ser la de la cóclea **derecha**, que está sana. Hay que enmascarar el oído derecho para saber cuál es la ósea real del izquierdo (→ H4).
+4. Se perdió el **amplificador coclear** (la electromotilidad de las CCE): la ganancia, la sintonía fina y la compresión. Las **emisiones otoacústicas** deberían estar ausentes o muy reducidas, porque son el producto de ese amplificador (Liberman y cols., 2002).
+5. Deflexión hacia el más alto → tensión de los enlaces apicales → apertura del canal → entrada de K⁺ → despolarización → entrada de Ca²⁺ por la base → liberación de glutamato.
+6. La **estría vascular**: bajó el **potencial endococlear**. Como ese potencial es la fuerza que empuja el K⁺ hacia todas las células ciliadas, la transducción pierde fuerza en toda la cóclea a la vez, y la pérdida es **plana**. Los diuréticos de asa la deprimen de forma reversible (→ B3, cap. 8).
+7. Las **CCE funcionan** (hay EOA y microfónica); lo que falla es la **CCI, su sinapsis o el nervio**, y con ello la **sincronía neural** que necesita el PEAT. Es una **neuropatía auditiva** (→ cap. 13).
+8. I-III alargado: **nervio coclear o entrada al tronco** (por ejemplo, un schwannoma vestibular). III-V alargado: **tronco alto**, entre el núcleo coclear y el colículo (por ejemplo, desmielinización) (→ cap. 11, cap. 12).
+9. 500 Hz: la **diferencia interaural de tiempo**, que compara la **oliva superior medial**. 4 kHz: la **diferencia interaural de nivel** por la sombra de la cabeza, que compara la **oliva superior lateral** (Grothe y cols., 2010).
+10. El nistagmo bate hacia la **derecha** (el lado sano, ahora más activo). El video-impulso muestra ganancia baja con giros hacia la **izquierda** (el canal lesionado no se excita y el sano no compensa: tercera ley de Ewald). Tiende a caer hacia la **izquierda** (menos tono vestíbulo-espinal de ese lado). cVEMP normal y oVEMP ausente: se afectó la **rama superior** (utrículo) y se respetó la inferior (sáculo).
+11. **Canalitiasis** del canal **posterior**: latencia, duración menor a un minuto y fatiga. La latencia es el tiempo que tardan las partículas libres en empezar a caer y arrastrar la endolinfa (→ H19, cap. 22).
+12. Poliposis: anosmia **conductiva**, porque el olor no llega a la hendidura olfatoria; puede **mejorar al tratar la obstrucción**. Posviral: anosmia **neurosensorial**, por daño del epitelio o de sus células de soporte; no depende de la vía aérea (→ B3, H28, cap. 35).
+:::
+
+## Créditos de las figuras
+
+- Esquemas propios: resonancia del conducto, el oído medio como adaptador, arco del reflejo estapedial, mecanismos de la conducción ósea, onda viajera, transducción, códigos del nervio, audición binaural, leyes de Ewald y transducción olfatoria. Las cifras que llevan salen de la bibliografía del capítulo.
+- La anatomía de las vías y los esquemas de las lesiones se toman de B1 (láminas de labyrinthus3d) y la histología, de B3; este capítulo remite a ellos en vez de repetirlos.
+- El detalle de cada imagen está en `ilustraciones/CREDITOS_B2.md`.
+
+## Referencias
+
+### Textos
+
+1. Pickles JO. An introduction to the physiology of hearing. 4.ª ed. Leiden: Brill; 2013. ISBN 978-90-04-24377-4
+1. von Békésy G. Experiments in hearing. Nueva York: McGraw-Hill; 1960.
+1. Baloh RW, Honrubia V, Kerber KA. Baloh and Honrubia's clinical neurophysiology of the vestibular system. 4.ª ed. Nueva York: Oxford University Press; 2011. ISBN 978-0-19-538783-4 <!-- verificar: ISBN -->
+1. Bregman AS. Auditory scene analysis: the perceptual organization of sound. Cambridge (MA): MIT Press; 1990. ISBN 978-0-262-02297-2
+1. Moore BCJ. Cochlear hearing loss: physiological, psychological and technical issues. 2.ª ed. Chichester: Wiley; 2007. ISBN 978-0-470-51633-1
 
 ### Oído externo y medio
-- Resonancia del conducto y del pabellón; qué pasa cuando el conducto se ocluye (→ cap. 1).
-- Adaptación de impedancia del oído medio: razón de áreas, palanca de la cadena; por qué la rigidez pesa en los graves y la masa en los agudos (→ H7, cap. 3, cap. 4; la física, en B4).
-- Función de la trompa: ventilación, drenaje, protección; qué pasa con la presión cuando no abre (→ cap. 2, H7).
-- Reflejo estapedial: arco ipsi y contralateral, umbral, decay (→ H7, cap. 11).
+
+1. Shaw EAG. Transformation of sound pressure level from the free field to the eardrum in the horizontal plane. J Acoust Soc Am. 1974;56(6):1848-61. doi:10.1121/1.1903522
+1. Aibara R, Welsh JT, Puria S, Goode RL. Human middle-ear sound transfer function and cochlear input impedance. Hear Res. 2001;152(1-2):100-9. doi:10.1016/S0378-5955(00)00240-9
+1. Margolis RH, Goycoolea HG. Multifrequency tympanometry in normal adults. Ear Hear. 1993;14(6):408-13. doi:10.1097/00003446-199312000-00006 <!-- verificar: doi y rango de resonancia -->
+1. Sadé J, Ar A. Middle ear and auditory tube: middle ear clearance, gas exchange, and pressure regulation. Otolaryngol Head Neck Surg. 1997;116(4):499-524. doi:10.1016/S0194-5998(97)70302-4
+1. Mukerji S, Windsor AM, Lee DJ. Auditory brainstem circuits that mediate the middle ear muscle reflex. Trends Amplif. 2010;14(3):170-91. doi:10.1177/1084713810381771
+1. Metz O. Threshold of reflex contractions of muscles of middle ear and recruitment of loudness. Arch Otolaryngol. 1952;55(5):536-43. doi:10.1001/archotol.1952.00710010550003 <!-- verificar: doi -->
+1. Anderson H, Barr B, Wedenberg E. Early diagnosis of VIIIth-nerve tumours by acoustic reflex tests. Acta Otolaryngol Suppl. 1970;263:232-7. doi:10.3109/00016487009131551 <!-- verificar: título, año y doi -->
 
 ### Conducción ósea
-- Los tres mecanismos (compresión, inercia de la cadena, radiación al conducto) y el efecto de oclusión (→ H2, H3, H4).
-- Atenuación interaural y por qué la ósea cruza casi entera (→ H4, cap. 7).
-- Por qué la ósea cae en la otoesclerosis sin daño coclear (muesca de Carhart) (→ cap. 4, cap. 15).
+
+1. Tonndorf J. Bone conduction. Studies in experimental animals. Acta Otolaryngol. 1966;Suppl 213:1-132.
+1. Stenfelt S, Goode RL. Bone-conducted sound: physiological and clinical aspects. Otol Neurotol. 2005;26(6):1245-61. doi:10.1097/01.mao.0000187236.10842.d5
+1. Stenfelt S, Reinfeldt S. A model of the occlusion effect with bone-conducted stimulation. Int J Audiol. 2007;46(10):595-608. doi:10.1080/14992020701545880 <!-- verificar: doi -->
+1. Stenfelt S. Transcranial attenuation of bone-conducted sound when stimulation is at the mastoid and at the bone conduction hearing aid position. Otol Neurotol. 2012;33(2):105-14. doi:10.1097/MAO.0b013e31823e28ab <!-- verificar: doi -->
+1. Carhart R. Clinical application of bone conduction audiometry. Arch Otolaryngol. 1950;51(6):798-808. doi:10.1001/archotol.1950.00700020824003 <!-- verificar: doi -->
 
 ### Cóclea
-- Onda viajera y tonotopía; por qué la base (agudos) se daña primero (→ cap. 5, cap. 6, cap. 8).
-- Células ciliadas externas: electromotilidad y amplificador coclear; sensibilidad y sintonía fina (→ H9, cap. 6).
-- Transducción mecanoeléctrica, paso a paso: deflexión de los estereocilios, enlaces apicales, canal de transducción, entrada de K+, despolarización, liberación de glutamato; adaptación del canal; lo mismo en las células del vestíbulo (polarización hacia el cinocilio). Hoy cap. 10 ("el detalle de la transducción está en B2") y cap. 9 remiten acá (→ cap. 6, cap. 9, cap. 10).
-- Células ciliadas internas: sinapsis en cinta y fibras del nervio (tipo I y II); sincronía neural (→ cap. 13).
-- Neurotransmisión: glutamato en la sinapsis aferente; acetilcolina y GABA en las eferentes; glutamato, GABA y glicina en los núcleos vestibulares; potencial de acción, mielina y velocidad de conducción (→ cap. 12, cap. 13, cap. 30).
-- Sistema eferente olivococlear medial y lateral: qué hace sobre las CCE, protección y escucha en ruido (→ H9, que trae la supresión contralateral de las EOA; B1 da la vía).
-- Potencial endococlear y estría vascular; homeostasis del potasio y conexina 26 (→ cap. 9, cap. 10; la histología, en B3).
-- Potenciales cocleares: microfónica, potencial de sumación, potencial de acción (→ H11, cap. 9).
-- Emisiones otoacústicas: de dónde salen y qué dicen (→ H9).
-- Reclutamiento y campo dinámico; adaptación (→ H5, H6).
+
+1. Greenwood DD. A cochlear frequency-position function for several species—29 years later. J Acoust Soc Am. 1990;87(6):2592-605. doi:10.1121/1.399052
+1. Robles L, Ruggero MA. Mechanics of the mammalian cochlea. Physiol Rev. 2001;81(3):1305-52. doi:10.1152/physrev.2001.81.3.1305
+1. Liberman MC, Gao J, He DZ, Wu X, Jia S, Zuo J. Prestin is required for electromotility of the outer hair cell and for the cochlear amplifier. Nature. 2002;419(6904):300-4. doi:10.1038/nature01059
+1. Fettiplace R. Hair cell transduction, tuning, and synaptic transmission in the mammalian cochlea. Compr Physiol. 2017;7(4):1197-227. doi:10.1002/cphy.c160049
+1. Glowatzki E, Fuchs PA. Transmitter release at the hair cell ribbon synapse. Nat Neurosci. 2002;5(2):147-54. doi:10.1038/nn796
+1. Guinan JJ Jr. Olivocochlear efferents: anatomy, physiology, function, and the measurement of efferent effects in humans. Ear Hear. 2006;27(6):589-607. doi:10.1097/01.aud.0000240507.83072.e7
+1. Hibino H, Nin F, Tsuzuki C, Kurachi Y. How is the highly positive endocochlear potential formed? The specific architecture of the stria vascularis and the roles of the ion-transport apparatus. Pflugers Arch. 2010;459(4):521-33. doi:10.1007/s00424-009-0754-z
+1. Wangemann P. Supporting sensory transduction: cochlear fluid homeostasis and the endocochlear potential. J Physiol. 2006;576(Pt 1):11-21. doi:10.1113/jphysiol.2006.112888
+1. Kemp DT. Stimulated acoustic emissions from within the human auditory system. J Acoust Soc Am. 1978;64(5):1386-91. doi:10.1121/1.382104
 
 ### Nervio y vía central
-- Codificación de frecuencia, intensidad y tiempo en el nervio: código de lugar y de ritmo, bloqueo de fase y su límite en frecuencia, fibras de alta y baja actividad espontánea y rango dinámico, sumación por población; adaptación neural (→ H6, cap. 11, cap. 13, cap. 30).
-- Núcleos cocleares ventral y dorsal, complejo olivar, lemnisco, colículo, geniculado y corteza: qué hace cada estación (tonotopía conservada, áreas secundarias, lateralización hemisférica) (→ H15, cap. 12; la anatomía, en B1).
-- Audición binaural y localización: diferencias interaurales de tiempo (oliva superior medial) y de nivel (oliva superior lateral), rango de frecuencias de cada pista, sombra de la cabeza, efecto de precedencia, análisis de la escena auditiva y efecto cóctel (→ H15, cap. 30).
-- Generadores de las ondas I a V del PEAT; latencias e interpicos; maduración y mielinización en el lactante (→ H10, cap. 14, cap. 17).
-- Procesamiento central del habla; por qué la discriminación cae más en lo retrococlear (→ H5, cap. 13).
-- Procesamiento auditivo central: resolución y ordenamiento temporal, interacción binaural, escucha dicótica, separación figura-fondo; maduración hasta la adolescencia (→ H15).
+
+1. Liberman MC. Auditory-nerve response from cats raised in a low-noise chamber. J Acoust Soc Am. 1978;63(2):442-55. doi:10.1121/1.381736
+1. Johnson DH. The relationship between spike rate and synchrony in responses of auditory-nerve fibers to single tones. J Acoust Soc Am. 1980;68(4):1115-22. doi:10.1121/1.384982
+1. Grothe B, Pecka M, McAlpine D. Mechanisms of sound localization in mammals. Physiol Rev. 2010;90(3):983-1012. doi:10.1152/physrev.00026.2009
+1. Zatorre RJ, Belin P, Penhune VB. Structure and function of auditory cortex: music and speech. Trends Cogn Sci. 2002;6(1):37-46. doi:10.1016/S1364-6613(00)01816-7 <!-- verificar: doi -->
+1. Litovsky RY, Colburn HS, Yost WA, Guzman SJ. The precedence effect. J Acoust Soc Am. 1999;106(4 Pt 1):1633-54. doi:10.1121/1.427914 <!-- verificar: doi -->
+1. Cherry EC. Some experiments on the recognition of speech, with one and with two ears. J Acoust Soc Am. 1953;25(5):975-9. doi:10.1121/1.1907229
+1. Møller AR, Jannetta PJ, Møller MB. Neural generators of brainstem evoked potentials. Results from human intracranial recordings. Ann Otol Rhinol Laryngol. 1981;90(6 Pt 1):591-6. doi:10.1177/000348948109000616 <!-- verificar: título y doi -->
+1. Jerger J, Jerger S. Diagnostic significance of PB word functions. Arch Otolaryngol. 1971;93(6):573-80. doi:10.1001/archotol.1971.00770060875006 <!-- verificar: doi -->
+1. American Speech-Language-Hearing Association. (Central) auditory processing disorders [informe técnico]. 2005. doi:10.1044/policy.TR2005-00043 <!-- verificar: doi -->
 
 ### Desarrollo
-- Oído del recién nacido: vérnix, mesénquima y líquido en el oído medio las primeras horas (→ cap. 16); maduración del oído medio y del tronco (→ cap. 17).
+
+1. Moore JK, Linthicum FH Jr. The human auditory system: a timeline of development. Int J Audiol. 2007;46(9):460-78. doi:10.1080/14992020701383019
+1. Eggermont JJ, Salamy A. Maturational time course for the ABR in preterm and full term infants. Hear Res. 1988;33(1):35-47. doi:10.1016/0378-5955(88)90019-6 <!-- verificar: doi -->
+1. Kei J, Allison-Levick J, Dockray J, Harrys R, Kirkegard C, Wong J, et al. High-frequency (1000 Hz) tympanometry in normal neonates. J Am Acad Audiol. 2003;14(1):20-8. doi:10.3766/jaaa.14.1.4 <!-- verificar: autores y doi -->
 
 ### Sistema vestibular
-- Canales semicirculares (aceleraciones angulares) y otolitos (lineales y gravedad); actividad de reposo y asimetría (→ H16).
-- Dinámica de la cúpula: por qué el canal se comporta como integrador de la aceleración (modelo de péndulo de torsión), constante de tiempo y almacenamiento de velocidad; leyes de Ewald (→ H17, H18, H19).
-- Fisiología macular: estriola y polarización opuesta de las células, inclinación frente a traslación, reflejos otolíticos (contrarrotación ocular, vertical visual subjetiva), integración canal-otolito (→ H12, cap. 20, cap. 22).
-- Reflejo vestíbulo-ocular: ganancia, fase; por qué el nistagmo bate hacia el lado más activo (→ H16, H17, H18).
-- Vías vestíbulo-cólica (cVEMP) y vestíbulo-ocular (oVEMP); sáculo y utrículo (→ H12, cap. 20).
-- Mecanismo del VPPB: canalitiasis y cupulolitiasis (→ H19).
-- Reflejos vestíbulo-espinal y vestíbulo-cólico: vías lateral y medial, control postural (→ H20, cap. 32).
-- Vías vestibulares centrales: núcleos, cerebelo (flóculo y nódulo), tálamo y corteza vestibular (región insular posterior); percepción de la vertical y del movimiento propio, integración multisensorial (→ cap. 25, cap. 27).
-- Compensación central, adaptación y sustitución: la base de la rehabilitación (→ H20).
+
+1. Goldberg JM, Fernández C. Physiology of peripheral neurons innervating semicircular canals of the squirrel monkey. I. Resting discharge and response to constant angular accelerations. J Neurophysiol. 1971;34(4):635-60. doi:10.1152/jn.1971.34.4.635
+1. Raphan T, Matsuo V, Cohen B. Velocity storage in the vestibulo-ocular reflex arc (VOR). Exp Brain Res. 1979;35(2):229-48. doi:10.1007/BF00236613 <!-- verificar: doi -->
+1. Halmagyi GM, Curthoys IS. A clinical sign of canal paresis. Arch Neurol. 1988;45(7):737-9. doi:10.1001/archneur.1988.00520310043015 <!-- verificar: doi -->
+1. Angelaki DE, McHenry MQ, Dickman JD, Newlands SD, Hess BJ. Computation of inertial motion: neural strategies to resolve ambiguous otolith information. J Neurosci. 1999;19(1):316-27. doi:10.1523/JNEUROSCI.19-01-00316.1999 <!-- verificar: doi -->
+1. Rosengren SM, Welgampola MS, Colebatch JG. Vestibular evoked myogenic potentials: past, present and future. Clin Neurophysiol. 2010;121(5):636-51. doi:10.1016/j.clinph.2009.10.016
+1. Lopez C, Blanke O. The thalamocortical vestibular system in animals and humans. Brain Res Rev. 2011;67(1-2):119-46. doi:10.1016/j.brainresrev.2010.12.002 <!-- verificar: doi -->
+1. Lacour M, Helmchen C, Vidal PP. Vestibular compensation: the neuro-otologist's best friend. J Neurol. 2016;263(Suppl 1):S54-64. doi:10.1007/s00415-015-7903-4
 
 ### Nariz
-- Ciclo nasal, resistencia al flujo y válvula nasal; mucosa y respuesta al vasoconstrictor (→ H25-H27).
-- Acondicionamiento del aire: calentamiento, humidificación, filtrado y depuración mucociliar; papel de los cornetes y del flujo sanguíneo de la mucosa (→ H25, cap. 36).
-- Olfacción: hendidura olfatoria, transducción en la neurona receptora, bulbo, vía y corteza olfatoria; por qué la obstrucción nasal quita el olfato (→ H25, cap. 35).
+
+1. Eccles R. A role for the nasal cycle in respiratory defence. Eur Respir J. 1996;9(2):371-6. doi:10.1183/09031936.96.09020371
+1. Pendolino AL, Lund VJ, Nardello E, Ottaviano G. The nasal cycle: a comprehensive review. Rhinology Online. 2018;1:67-76. doi:10.4193/RHINOL/18.021
+1. Kahana-Zweig R, Geva-Sagiv M, Weissbrod A, Secundo L, Soroker N, Sobel N. Measuring and characterizing the human nasal cycle. PLoS One. 2016;11(10):e0162918. doi:10.1371/journal.pone.0162918
+1. Buck L, Axel R. A novel multigene family may encode odorant receptors: a molecular basis for odor recognition. Cell. 1991;65(1):175-87. doi:10.1016/0092-8674(91)90418-X
+1. Kleene SJ. The electrochemical basis of odor transduction in vertebrate olfactory cilia. Chem Senses. 2008;33(9):839-59. doi:10.1093/chemse/bjn048
