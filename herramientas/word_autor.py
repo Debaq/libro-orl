@@ -572,10 +572,11 @@ def png_de(ruta, destino):
 
 def figuras_motor(nombre, tipo, n):
     """:::figura nombre tipo [n] -> figuras/salida/<nombre>_<tipo>[ _n].svg (si existe)."""
-    base = MATERIAL / 'figuras' / 'salida'
-    for cand in (f'{nombre}_{tipo}_{n}.svg', f'{nombre}_{tipo}{n}.svg', f'{nombre}_{tipo}.svg'):
-        if (base / cand).exists() and (n in ('', '1') or cand != f'{nombre}_{tipo}.svg'):
-            return f'figuras/salida/{cand}'
+    # como el libro: las del motor en figuras/salida y las hechas a mano en ilustraciones/
+    for carpeta in ('figuras/salida', 'ilustraciones'):
+        for cand in (f'{nombre}_{tipo}_{n}.svg', f'{nombre}_{tipo}{n}.svg', f'{nombre}_{tipo}.svg'):
+            if (MATERIAL / carpeta / cand).exists() and (n in ('', '1') or cand != f'{nombre}_{tipo}.svg'):
+                return f'{carpeta}/{cand}'
     return None
 
 
@@ -759,7 +760,14 @@ def empaquetar(autor):
 
 
 def exportar(cap, autor):
-    md = next(CAPITULOS.glob(f'{cap}-*.md'))
+    m = re.fullmatch(r'([BH]?)0*(\d+)', cap)
+    if not m:
+        raise SystemExit(f'capítulo no válido: {cap}')
+    cap = f'{m[1]}{int(m[2])}'                                   # B05 -> B5, 01 -> 1
+    nombres = {f'{m[1]}{int(m[2]):02d}', f'{m[1]}{int(m[2])}'}  # el archivo es B05-…, H01-…, 01-…, H12-…
+    md = next((x for x in sorted(CAPITULOS.glob('*.md')) if x.stem.split('-')[0] in nombres), None)
+    if md is None:
+        raise SystemExit(f'no encontré el .md del capítulo {cap}')
     salida = carpeta_autor(autor) / md.stem
     salida.mkdir(parents=True, exist_ok=True)
     escribir_leeme(salida.parent / 'LEEME.docx')
