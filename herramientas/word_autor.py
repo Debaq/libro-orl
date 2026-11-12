@@ -2,7 +2,7 @@
 """Capítulos en Word para un coautor que solo usa Office, y vuelta al .md.
 
     python3 herramientas/word_autor.py exportar 21 [--autor poza]
-        -> trabajo/para_<autor>/21-vertigo-agudo/
+        -> trabajo/Poza/21-vertigo-agudo/   (y trabajo/Poza.zip para enviar, sin los .mapa.json)
              21-vertigo-agudo.docx   el texto, con recuadros, tablas y marcas de figura y caso
              21-figuras.pdf          las figuras numeradas F21-01, F21-02… (solo para mirar)
              21-figuras.xlsx         planilla: qué es cada figura, ¿sirve?, qué cambiar, figuras nuevas
@@ -741,9 +741,26 @@ def escribir_leeme(destino):
     d.save(destino)
 
 
+def carpeta_autor(autor):
+    """trabajo/Poza: el nombre que ve el coautor al recibir el zip (él, 2026-11-12: 'para_poza'
+    es feo para enviárselo)."""
+    return TRABAJO / autor.capitalize()
+
+
+def empaquetar(autor):
+    """trabajo/Poza.zip con la carpeta del autor, sin los .mapa.json (son nuestros)."""
+    carpeta = carpeta_autor(autor)
+    destino = carpeta.with_suffix('.zip')
+    with zipfile.ZipFile(destino, 'w', zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(carpeta.rglob('*')):
+            if f.is_file() and f.name != '.mapa.json':
+                z.write(f, f.relative_to(TRABAJO))
+    print(f'{destino.relative_to(LIBRO)} listo para enviar')
+
+
 def exportar(cap, autor):
     md = next(CAPITULOS.glob(f'{cap}-*.md'))
-    salida = TRABAJO / f'para_{autor}' / md.stem
+    salida = carpeta_autor(autor) / md.stem
     salida.mkdir(parents=True, exist_ok=True)
     escribir_leeme(salida.parent / 'LEEME.docx')
     exp = Exportador(cap, md, salida)
@@ -1365,5 +1382,6 @@ if __name__ == '__main__':
     if a.orden == 'exportar':
         for c in a.caps:
             exportar(c, a.autor)
+        empaquetar(a.autor)
     else:
         importar(a.docx, a.mapa)
