@@ -1,0 +1,47 @@
+{
+ "capitulo": "H16",
+ "md": "texto/capitulos/H16-examen-vestibular-y-videonistagmografia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH16-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-vor-pushpull.svg Lo que el tronco lee es la diferencia entre los dos lados. A: con la cabeza quieta los dos descargan igual y los ojos no se mueven. B: al girar a la derecha, el conducto derecho sube y el izquierdo baja. C: si el lado izquierdo deja de descargar, la diferencia es la misma que en B, aunque la cabeza esté quieta. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH16-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-nistagmo-trazas.svg Nistagmo espontáneo de una neuritis del lado izquierdo en fase aguda, visto como posición horizontal del ojo en el tiempo. A: sin fijación; el diente de sierra es evidente. B: con fijación, la fase lenta se frena. La velocidad de la fase lenta es la pendiente de cada tramo lento. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH16-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-mirada.svg Desviación del ojo respecto de la posición pedida al mirar a la izquierda, al frente y a la derecha. A: un nistagmo periférico mantiene su dirección y cambia de intensidad (ley de Alexander). B: un nistagmo evocado por la mirada cambia de dirección con ella. Sin fijación. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH16-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-simulador-frenzel.png ancho=80% Un paciente con una neuritis vestibular superior izquierda, a las 6 horas, sin fijación. A la izquierda, con las lentes de Frenzel puestas; a la derecha, su ojo derecho de cerca. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @40,29 | **Lentes de Frenzel.** Agrandan los ojos para quien mira y no dejan fijar al paciente.\n- @97,21 | **El ojo de cerca**, como lo ve la cámara infrarroja de la VNG: el programa sigue la pupila y la convierte en grados.\n:::",
+   "id": null,
+   "globos": [
+    "@40,29",
+    "@97,21"
+   ]
+  },
+  "FH16-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-calibracion.svg Por qué la calibración importa. A: con una calibración buena, el trazo del ojo llega a donde está el blanco. B: con una ganancia de 0,7, todos los movimientos se registran un 30 % más chicos, también la velocidad de la fase lenta. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH16-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h16-oculomotor.svg Pruebas oculomotoras. A: el blanco salta 20°; normal, hipométrica (vermis), con una dirección hipermétrica y otra hipométrica (fastigio) y tardía hacia un lado (campo frontal y colículo). B: seguimiento normal y con los dos flóculos lesionados, que sale sacádico y de ganancia baja. C: optocinético normal. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

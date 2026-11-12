@@ -1,0 +1,38 @@
+{
+ "capitulo": "H32",
+ "md": "texto/capitulos/H32-cpap-y-dispositivos-de-avance-mandibular.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH32-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h32-ferula.svg ancho=100% A. Sin presión positiva, la luz de la faringe se cierra a la altura del paladar blando y de la base de la lengua. B. Con una mascarilla nasal y presión positiva, la luz queda abierta durante todo el ciclo respiratorio. Esquema: las proporciones son aproximadas. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH32-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h32-avance.svg ancho=100% A. Sin dispositivo, la base de la lengua queda cerca de la pared posterior de la faringe. B. Con la férula en las dos arcadas, la mandíbula avanza unos milímetros, la lengua se adelanta y la luz retrolingual se ensancha. Esquema: las proporciones son aproximadas. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH32-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h32-interfaces.svg ancho=100% Las tres interfaces más usadas, de frente. A. Mascarilla nasal. B. Almohadillas nasales, que se apoyan en las narinas. C. Mascarilla oronasal, que cubre nariz y boca. Esquemas: las formas reales varían según el fabricante. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH32-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h32-titulacion.svg ancho=100% Una titulación manual de ejemplo. Arriba, la presión sube un escalón de 1 cmH₂O cada 10 minutos desde 4 cmH₂O. Abajo, apneas, hipopneas y ronquido: a medida que sube la presión, los eventos disminuyen y desaparecen a partir de 10 cmH₂O (en el ejemplo, la presión eficaz). Los eventos son datos de ejemplo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH32-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h32-descarga.svg ancho=100% Resumen de una descarga de 30 noches (datos de ejemplo). Cada barra es una noche; la línea punteada marca 4 horas. En el ejemplo, el promedio es 5,3 h, hay 23 noches de 30 con 4 h o más (77 %), el IAH residual es 3,1 por hora y la fuga no intencional (percentil 95) es 11 L/min. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

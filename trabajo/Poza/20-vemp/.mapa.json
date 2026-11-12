@@ -1,0 +1,226 @@
+{
+ "capitulo": "20",
+ "md": "texto/capitulos/20-vemp.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F20-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap20-ramas.svg ancho=92% El mismo montaje con la lesión en cada nivel del oído derecho: el OI es el mismo, normal, en las tres filas. Mira qué VEMP cae en cada fila: el cVEMP sigue a la rama inferior y el oVEMP a la superior, y cuando caen los dos el daño es del laberinto o del nervio entero.\n- @101,19 | **Rama superior.** El cVEMP del OD (282 µV, 5,69 corregida) es igual al del OI; el oVEMP del OD casi no sale del ruido (5 µV, 0,12 contra 0,52 del OI). Es la huella de la neuritis superior, sin hipoacusia.\n- @101,48 | **Rama inferior.** Al revés: el cVEMP del OD cae (17 µV, 0,33) y el oVEMP se conserva (20 µV, 0,48). Es el patrón sacular del hidrops, o de una neuritis inferior.\n- @101,78 | **Laberinto o nervio.** Caen los dos (0,41 y 0,16). En la laberintitis la hipoacusia sensorioneural lo separa de las filas de arriba.\n:::",
+   "id": null,
+   "globos": [
+    "@101,19",
+    "@101,48",
+    "@101,78"
+   ]
+  },
+  "F20-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_nistagmo.svg ancho=55% Nistagmo espontáneo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_mariposa.svg Gráfico de mariposa del paciente: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos se parecen.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_vhit.svg vHIT del paciente: ganancia de 0,92 hacia la derecha y de 0,95 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea: cVEMP a la izquierda del par y oVEMP a la derecha. Mira la amplitud del oído derecho en cada uno.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_audiosupra.svg ancho=100% Audiometría del paciente: el OD tiene una curva ascendente, con 35 dB en 250 Hz y 20 dB en 4 kHz, y la ósea sobre la aérea; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_impedancia.svg ancho=100% Impedanciometría del paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_meniere_ecochg.svg ancho=80% Electrococleografía con electrodo timpánico, click alternado a 90 dB nHL.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_nistagmo.svg ancho=55% Nistagmo espontáneo de la paciente en la hoja del campo clínico. Triángulos: mirada a la izquierda y a la derecha; franjas: arriba, al frente y abajo. Cada flecha apunta hacia donde bate la fase rápida, y su número da la intensidad.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_mariposa.svg Gráfico de mariposa de la paciente: las dos irrigaciones del OD casi no se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_vhit.svg vHIT de la paciente: ganancia de 0,34 hacia la derecha, con sacadas covert y overt y de 0,97 hacia la izquierda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea. Mira los dos del oído derecho: las marcas del equipo caen sobre una onda que apenas se separa del ruido.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_audiosupra.svg ancho=100% Audiometría de la paciente: el OD tiene una pérdida severa y pareja, de 75 dB en 500 Hz a 90 dB en 8 kHz; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_laberintitis_impedancia.svg ancho=100% Impedanciometría de la paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_nistagmo.svg ancho=55% Nistagmo espontáneo de la paciente en la hoja del campo clínico. Sin fijación aparece una flecha al frente y otra a la izquierda; con fijación no hay ninguna.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_mariposa.svg Gráfico de mariposa de la paciente: las irrigaciones del OD (rojas) alcanzan menos de la mitad de las del OI.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_vhit.svg vHIT de la paciente: ganancia de 0,74 hacia la derecha, con sacadas covert y de 0,98 hacia la izquierda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea. Los dos del oído derecho son más chicos que los del izquierdo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_audiosupra.svg ancho=100% Audiometría de la paciente: el OD tiene 25 dB en 1 kHz, 50 dB en 4 kHz y 60 dB en 8 kHz, con la ósea pegada a la aérea; el OI es normal. La asimetría de agudos es de 45 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_schwannoma_impedancia.svg ancho=100% Impedanciometría de la paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_nistagmo.svg ancho=55% Nistagmo espontáneo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_mariposa.svg Gráfico de mariposa de la paciente: las cuatro curvas son simétricas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-23": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_vhit.svg vHIT de la paciente: ganancia de 0,96 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-24": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_vemp.svg ancho=100% VEMP aéreo a 100 dB nHL, tone burst de 500 Hz. Todos los trazos están casi planos, y los dos oídos por igual.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-25": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_audiosupra.svg ancho=100% Audiometría de la paciente: aérea en 55 dB y ósea en 5 dB en 500 Hz, en los dos oídos. La ósea baja a 20 dB en 2 kHz, la muesca de Carhart.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-26": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap20_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de la paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F20-27": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap20-oseo.svg ancho=92% Los mismos oídos de la paciente por vía aérea (arriba) y por vía ósea, con el vibrador en la mastoides (abajo). Por aire los VEMP parecen ausentes porque el oído medio no transmite; por hueso aparecen: el vestíbulo estaba sano. Vía aérea: los cuatro VEMP casi planos, 37 y 35 µV en el cuello y 6 y 5 µV bajo el ojo. Vía ósea: los cuatro con tamaño normal, 342 y 344 µV en el cuello y 25 y 26 µV bajo el ojo.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap20_meniere": {
+   "numero": "20.1",
+   "ficha": [
+    "**Raúl Delgado**, 45 años · hombre",
+    "Tiene 45 años y es chofer de buses interurbanos. Hace cinco meses empezó con crisis: primero siente el oído derecho \"tapado\" y un zumbido grave, como de motor; después todo gira, con náuseas y vómitos, durante unas tres horas. Al terminar queda agotado y el oído derecho oye menos; en los días siguientes mejora en parte. Lleva cuatro crisis y la última fue hace tres semanas. Entre una y otra oye casi igual, pero el zumbido grave no se le ha ido. No tiene dolor ni secreción de oídos, no ha tenido golpes en la cabeza y le da miedo manejar por si una crisis lo pilla en la ruta.",
+    "Historia clínica",
+    "Hace 5 meses: Primera crisis: tapazón y zumbido del oído derecho, giro de unas tres horas con vómitos.",
+    "Hace 21 días: Cuarta crisis, la última; el oído derecho quedó más sordo unos días.",
+    "Hace 14 días: Otorrinolaringólogo: otoscopía normal; se piden audiometría y VEMP entre crisis.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap20_laberintitis": {
+   "numero": "20.2",
+   "ficha": [
+    "**Susana Romero**, 34 años · mujer",
+    "Tiene 34 años y es contadora. Hace doce días tuvo un resfrío con fiebre baja. Al quinto día despertó con el cuarto girando y vómitos, y no pudo levantarse por dos días. Desde esa mañana oye muy poco por el oído derecho, \"como si lo tuviera tapado con algodón\", y el teléfono por ese lado no le sirve. El giro cedió, pero camina \"como en un barco\" y se marea si gira rápido la cabeza. No tiene dolor ni secreción de oídos, no tiene zumbido, y no ha tenido dolor de cabeza intenso, visión doble ni dificultad para hablar o para tragar. Nunca había tenido algo parecido.",
+    "Historia clínica",
+    "Hace 12 días: Resfrío con fiebre baja durante tres días.",
+    "Hace 7 días: Servicio de urgencia: vértigo intenso con vómitos y sordera del oído derecho; se trata el síntoma y se indica reposo.",
+    "Hace 3 días: Control: persiste la sordera; se deriva a otorrinolaringología con audiometría y VEMP.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap20_schwannoma": {
+   "numero": "20.3",
+   "ficha": [
+    "**Cecilia Ruiz**, 41 años · mujer",
+    "Tiene 41 años y es profesora de enseñanza básica. Hace más de un año nota que por el oído derecho la voz del teléfono \"suena menos nítida\" y se cambia de lado. De noche, o al girar rápido en el patio del colegio, se siente \"un poco inestable\", sin giros ni vómitos. No tiene zumbido, ni plenitud, ni dolor de oídos. Nunca ha tenido crisis de vértigo, golpes en la cabeza ni exposición a ruido.",
+    "Historia clínica",
+    "Hace 1 año: Primera vez que nota la voz menos nítida por el oído derecho.",
+    "Hace 45 días: Médico general: otoscopía normal; se solicita audiometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap20_otoesclerosis": {
+   "numero": "20.4",
+   "ficha": [
+    "**Adriana Hernández**, 38 años · mujer",
+    "Tiene 38 años y es cajera de supermercado. Hace unos cuatro años, poco después de su segundo embarazo, empezó a oír menos por los dos oídos, un poco más por el derecho; con ruido de fondo se defiende mejor que en silencio. Tiene un zumbido constante en los dos oídos. Desde hace unos meses, al agacharse y levantarse rápido o al caminar entre mucha gente, se siente \"inestable\" por unos segundos. No ha tenido crisis de vértigo ni secreción de oídos. Su madre usa audífonos desde los 40 años.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 4 años: Primera vez que nota que oye menos, después del segundo embarazo.",
+    "Hace 30 días: Médico general: por la inestabilidad se solicita un VEMP; no hay audiometría reciente.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

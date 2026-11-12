@@ -1,0 +1,185 @@
+{
+ "capitulo": "H10",
+ "md": "texto/capitulos/H10-potenciales-evocados-auditivos-de-tronco.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH10-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h10-generadores.svg ancho=100% La vía auditiva y el PEAT de un paciente sano. A: la vía de la cóclea a la corteza, de frente (a la izquierda queda el lado derecho del paciente). B: el PEAT del oído derecho con un clic a 80 dB, con las ondas I a V y los interpicos. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @12,84 | **Cóclea y nervio VIII**: la onda I sale de la porción distal del nervio y la II de la proximal, donde entra al tronco.\n- @1,68 | **Núcleo coclear**: la onda III.\n- @22,57 | **Complejo olivar superior** (MSO, LSO y MNTB): la onda IV. Desde aquí la vía cruza y los dos oídos se comparan.\n- @21,40 | **Lemnisco lateral** llegando al **colículo inferior**: la onda V.\n- @57,22 | Cada onda aparece cuando la señal llega a su estación, con el retardo de cada tramo.\n- @88,16 | La **V** es la más alta y la más estable: es la que se sigue al bajar la intensidad.\n- @88,72 | Los **interpicos** miden el viaje dentro de la vía: I-III, III-V e I-V.\n:::",
+   "id": null,
+   "globos": [
+    "@12,84",
+    "@1,68",
+    "@22,57",
+    "@21,40",
+    "@57,22",
+    "@88,16",
+    "@88,72"
+   ]
+  },
+  "FH10-02": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/abr.png completa Pantalla de un equipo de ABR durante una búsqueda de umbral Imagen propia: captura de LabSim.\n- @-2.5,11 | **Estímulo y polaridad.** *Click*, *CE-Chirp* y *CE-Chirp LS* (de banda ancha), y los de frecuencia: *NB CE-Chirp LS* y *Burst* de 500 Hz a 4 kHz. La polaridad: alternada, condensación o rarefacción.\n- @-2.5,17.5 | **Intensidad** en dB nHL y, debajo, el **Masking**: el ruido que va al oído contrario.\n- @-2.5,26.5 | **Tasa** (estímulos por segundo) y **filtros**: *Pasa bajo* y *Pasa alto* fijan la banda de registro.\n- @-2.5,34.3 | **Pinzar tubo.** Bloquea el tubo del fono de inserción: el sonido no llega, pero el artefacto eléctrico del transductor sigue.\n- @-2.5,40.5 | **Promediación** (cuántos barridos va a sumar la curva) y **lado**.\n- @63,5.7 | **Línea de estado** de la curva que se registra: nivel y oído, barridos, aceptados, FSP, ruido residual, replicabilidad (*repro*) y el veredicto del equipo.\n- @38,12.5 | **Las ondas marcadas.** Se marcan con las banderas **A** y **A'**, que se arrastran sobre el trazo.\n- @51.3,21 | **Rótulo de intensidad.** Un clic en él elige la curva con la que vas a trabajar.\n- @88.5,5.6 | **Valores.** Latencia y amplitud de cada onda, por oído.\n- @95.5,25.8 | **Variables**: los interpicos y la razón V/I se calculan solos. Lo que queda fuera de la norma se pinta en rojo.\n- @10,79.5 | **EEG** en vivo de los dos canales. Si está sucio, el promedio va a salir sucio.\n- @78.5,88 | **FSP y ruido residual** contra los barridos. La línea roja es el criterio de detección.\n:::",
+   "id": null,
+   "globos": [
+    "@-2.5,11",
+    "@-2.5,17.5",
+    "@-2.5,26.5",
+    "@-2.5,34.3",
+    "@-2.5,40.5",
+    "@63,5.7",
+    "@38,12.5",
+    "@51.3,21",
+    "@88.5,5.6",
+    "@95.5,25.8",
+    "@10,79.5",
+    "@78.5,88"
+   ]
+  },
+  "FH10-03": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/abr-avanzados-2.png ancho=50% Parámetros de registro de un equipo de ABR Imagen propia: captura de LabSim.\n- @80,14 | **Transductor**: fono de inserción, supraaural o vibrador óseo. Elegir el vibrador es lo que convierte el examen en un ABR por vía ósea.\n- @88,19.7 | **Montaje**: Cz o Fz contra mastoides, o Cz contra lóbulo.\n- @75,25.5 | **Ventana**: cuántos milisegundos se registran después del estímulo.\n- @78,42.4 | **Filtro de red**: el notch de 50 Hz. Es el último recurso, no el primero: primero se arreglan las impedancias.\n- @52,68 | **Electrodo activo** en el vértex (Cz).\n- @86,68 | **Impedancia** de cada electrodo. Un número alto acá se paga en ruido.\n- @52,76.5 | **Referencias**: A2 a la derecha y A1 a la izquierda (en el sistema 10-20, la zona de la oreja de cada lado).\n- @52,85.1 | **Tierra** en la frente (Fpz).\n:::",
+   "id": null,
+   "globos": [
+    "@80,14",
+    "@88,19.7",
+    "@75,25.5",
+    "@78,42.4",
+    "@52,68",
+    "@86,68",
+    "@52,76.5",
+    "@52,85.1"
+   ]
+  },
+  "FH10-04": {
+   "kind": "fig",
+   "src": ":::figura h10_mujer_joven abr\n- @OD 80 I | A 80 dB nHL la **onda I** llega a 1,53 ms, la **III** a 3,67 y la **V** a 5,53. Interpicos: I-III 2,14 ms, III-V 1,86 e I-V 4,00. Todo dentro de lo normal para una mujer de su edad.\n- @OD 40 V | A 40 dB la V llega a 6,67 ms y es más chica. La I y la III se achicaron más que la V.\n- @OD 20 V | A 20 dB queda una III mínima y la **V**, a 7,67 ms.\n- @OD 10 V | A 10 dB la V es chica, a 8,20 ms, pero está en las dos réplicas (las líneas finas): es una respuesta.\n- @OD 0 | A 0 dB no hay nada que se repita.\n- En el OD el orden de registro fue **80, 60, 40, 20, 0** (sin V) y, subiendo 10, **10** (con V). **Umbral de la onda V: 10 dB nHL**. El nivel de 50 dB se registró por el OI.\n- Mira cómo se corre la V: 0,44 ms de 80 a 60, pero 1,0 ms de 40 a 20. Esa es la **función latencia-intensidad**: plana arriba y empinada cerca del umbral.\n- @OI 80 | El **OI** no se parece al OD. Se lee en *Cómo se informa*.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 I",
+    "@OD 40 V",
+    "@OD 20 V",
+    "@OD 10 V",
+    "@OD 0",
+    null,
+    null,
+    "@OI 80"
+   ]
+  },
+  "FH10-05": {
+   "kind": "fig",
+   "src": ":::figura h10_lactante abr\n- @OD 80 V | A 80 dB nHL: en el OD, I a 1,73 ms, III a 4,67 y V a 6,97 (I-V 5,24); en el OI, I a 1,87, III a 4,53 y V a 6,97 (I-V 5,10). Son latencias de lactante pequeño: la V llega 1,4 ms más tarde que en Sofía. Queda bajo el límite del recién nacido de término (7,56) y bajo el de los 6 meses (7,04; Rosa y cols., 2014).\n- @OD 20 V | A 20 dB nHL la V sigue (9,27 ms en el OD, 9,30 en el OI). Es el nivel más bajo que se registró con click: alcanza para decir que de 2 a 4 kHz oye normal.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 20 V"
+   ]
+  },
+  "FH10-06": {
+   "kind": "fig",
+   "src": ":::figura h10_lactante abr 2\n- @OD 20 V | Con **burst de 1 kHz** la V aparece a 20 dB nHL, a 10,87 ms en el OD y 10,63 en el OI, en una ventana de 20 ms; con una de 12 ms habría quedado pegada al borde.\n- @OD 10 | A 10 dB ya no hay V en ningún oído: **umbral con burst de 1 kHz, 20 dB nHL**. 20 − 15 (corrección de la BSA para su edad) = **5 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 20 V",
+    "@OD 10"
+   ]
+  },
+  "FH10-07": {
+   "kind": "fig",
+   "src": ":::figura h10_lactante abr 3\n- @OD 10 V | Con **burst de 4 kHz** la V llega hasta 10 dB nHL (9,67 ms en el OD, 9,90 en el OI).\n- @OD 0 | A 0 dB no hay V: **umbral con burst de 4 kHz, 10 dB nHL** en los dos oídos; 10 − 5 = **5 dB eHL**.\n- El OI, el que refirió en el tamizaje, oye igual que el OD: un \"refiere\" de las primeras horas no es una sordera (→ cap. 16).\n:::",
+   "id": null,
+   "globos": [
+    "@OD 10 V",
+    "@OD 0",
+    null
+   ]
+  },
+  "FH10-08": {
+   "kind": "fig",
+   "src": ":::figura h10_anciano abr\n- Juan Joaquín tiene una pérdida sensorioneural de agudos: 20 dB HL en 1 kHz, 35 en 2 kHz, 45 en 3 kHz y 60 (OD) o 55 (OI) en 4 kHz.\n- @OD 80 I | En el OD la **onda I** es chica y llega tarde, a 2,10 ms: la genera la base de la cóclea, que es justo la zona dañada.\n- @OI 80 III | En el OI **no hay onda I**: es la primera onda que se pierde en una pérdida de agudos.\n- @OD 80 V | Pero la **V** llega a 6,00 ms en el OD y a 6,17 en el OI, dentro de lo normal para un hombre de 50 años o más (hasta 6,16 y 6,24; Sanfins y cols., 2026). El I-V del OD, 3,90 ms, es incluso corto.\n- @OD 50 V | Con click la V se repite hasta 50 dB nHL; a 40 ya no: **umbral con click, 50 dB nHL** en los dos oídos. 50 − 5 = **45 dB eHL**: un promedio de 2 a 4 kHz, donde el audiograma marca 35 a 60 dB HL.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    "@OD 80 I",
+    "@OI 80 III",
+    "@OD 80 V",
+    "@OD 50 V"
+   ]
+  },
+  "FH10-09": {
+   "kind": "fig",
+   "src": ":::figura h10_anciano abr 2\n- @OD 40 V | Con **burst de 1 kHz** la V llega hasta 40 dB nHL (9,07 ms); a 30 y a 20 no hay V: **umbral, 40 dB nHL** en los dos oídos.\n- 40 dB nHL − 15 = **25 dB eHL**, cerca de su audiograma en 1 kHz (20 dB HL). El click solo habría dicho \"45 dB\" y habría escondido que los graves están casi normales.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 40 V",
+    null
+   ]
+  },
+  "FH10-10": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/aabr.png ancho=75% Pantalla de un AABR después de tamizar el OD Imagen propia: captura de LabSim.\n- @25,21.8 | **Estímulo**: CE-Chirp, el de fábrica.\n- @29,26.5 | **Nivel**: 35 dB nHL.\n- @25,31.1 | **Tasa**: los equipos de tamizaje estimulan rápido para terminar antes.\n- @29,40.2 | **Criterio FSP** (3,1) y, arriba, los barridos máximos (6.000): lo que el equipo exige antes de decir PASA.\n- @29.5,63 | **Restaurar valores de fábrica** devuelve el protocolo de tamizaje.\n- @97.5,9.7 | Los **cuatro pasos** que el equipo hace solo: sonda, impedancias, registro y resultado.\n- @89.5,32.3 | **Impedancias**: en el tamizaje el límite es más amplio que en el diagnóstico.\n- @80,36.8 | **Barridos**: 1.882 de 6.000. Se detuvo antes porque cruzó el criterio.\n- @41,45 | **FSP 3,13**: sobre 3,1.\n- @80,53 | **PASA**.\n- @59,68.7 | En el **informe**, el resultado de cada oído viene precargado, pero se puede cambiar.\n- @88,80 | **Observaciones** del registro y **conducta**: rescreening, ABR diagnóstico o alta.\n:::",
+   "id": null,
+   "globos": [
+    "@25,21.8",
+    "@29,26.5",
+    "@25,31.1",
+    "@29,40.2",
+    "@29.5,63",
+    "@97.5,9.7",
+    "@89.5,32.3",
+    "@80,36.8",
+    "@41,45",
+    "@80,53",
+    "@59,68.7",
+    "@88,80"
+   ]
+  },
+  "FH10-11": {
+   "kind": "fig",
+   "src": ":::figura h10_mujer_joven abr 2\n- @OI 80 I | En el registro de rutina (21,1 estímulos/s, figura del caso H10.1), el OI tiene la **I a tiempo**, a 1,40 ms, pero la III llega a 4,03 y la V a 6,07. El I-III (2,63 ms) y el I-V (4,67) pasan los límites de una mujer de su edad en ese oído (2,49 y 4,41). La diferencia interaural de la V es de 0,54 ms.\n- Esta figura es el mismo examen a **81,1 estímulos/s**.\n- @OD 80 V | En el OD la V pasa de 5,53 a 6,10 ms: se alarga 0,57 ms.\n- @OI 80 V | En el OI, a esta tasa, todo se aplana y la **V llega a 7,37 ms**: se alarga 1,30 ms, más del doble que en el OD. En el registro de rutina estaba en 6,07. Una onda que se atrasa y se achata con la tasa alta es la fatiga de conducción: la vía del OI conduce mal.\n- Sofía tiene 35 a 50 dB HL de 2 a 4 kHz en el OI. Una pérdida coclear así puede atrasar algo la V, pero con la I a tiempo **no alarga los interpicos**: el retraso está entre la I y la V, en el nervio (→ cap. 11).\n:::",
+   "id": null,
+   "globos": [
+    "@OI 80 I",
+    null,
+    "@OD 80 V",
+    "@OI 80 V",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h10_mujer_joven": {
+   "numero": "H10.1",
+   "ficha": [
+    "**Sofía Reyes**, 28 años · mujer",
+    "Tiene 28 años y es contadora. Hace unos ocho meses empezó con un zumbido agudo y continuo en el oído izquierdo, y desde hace poco nota que por ese lado entiende menos por teléfono. Algunas veces se siente inestable al darse vuelta rápido. No ha tenido infecciones de oído ni ruido en el trabajo. El otorrinolaringólogo vio una audiometría con caída de agudos solo en el oído izquierdo y pide un PEAT.",
+    "Historia clínica",
+    "Hace 30 días: Audiometría: OI con caída de agudos (35 a 50 dB HL de 2 a 4 kHz); OD normal. Se pide PEAT.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h10_lactante": {
+   "numero": "H10.2",
+   "ficha": [
+    "**Álvaro Cardenas**, 3 meses · hombre",
+    "Tiene 12 semanas y viene con sus papás. Nació de término, con 3.400 g, sin UCI. En el tamizaje con emisiones, a las 36 horas, el oído izquierdo refirió; al repetirlo antes del alta volvió a referir. La mamá cuenta que se asusta con los portazos y que se calma cuando ella le habla. No hay sordera en la familia. Lo derivan para un PEAT de diagnóstico.",
+    "Historia clínica",
+    "Hace 3 meses: Tamizaje con emisiones: OD pasa, OI refiere; se repite antes del alta y vuelve a referir.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h10_anciano": {
+   "numero": "H10.3",
+   "ficha": [
+    "**Juan López**, 76 años · hombre",
+    "Tiene 76 años y es agricultor jubilado. Hace años que le cuesta entender cuando hablan varios a la vez, y la familia le sube el volumen a la televisión. Desde hace un año tiene un zumbido en los dos oídos, más molesto de noche. Hace dos meses tuvo un mareo breve al levantarse. Usa enalapril para la presión. El médico pide un PEAT antes de indicarle audífonos.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg al día",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

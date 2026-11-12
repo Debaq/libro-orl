@@ -1,0 +1,327 @@
+{
+ "capitulo": "17",
+ "md": "texto/capitulos/17-el-lactante-que-se-estudia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F17-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap17-rm-cmv.jpg ancho=92% id=rm-cmv Resonancia de un niño de 17 meses con CMV congénito y una sordera que apareció después del nacimiento. E, FLAIR axial: la sustancia blanca junto a los ventrículos, más clara de lo normal, en los dos lados. F, T2 coronal: quistes en la cara medial de los lóbulos temporales. El virus que daña la cóclea también deja marcas en el cerebro. Imagen: Lucignani G y cols. (2022), Children, doi:10.3390/children9081210, Fig. 7 (paneles E y F), CC BY 4.0, adaptada.\n:::",
+   "id": "rm-cmv",
+   "globos": []
+  },
+  "F17-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap17-rm-nervio-coclear.jpg ancho=70% id=rm-nervio-coclear Resonancia sagital oblicua del conducto auditivo interno de un lactante con hipoacusia de un oído desde el nacimiento. Izquierda, el oído que oye: las flechas marcan el nervio facial y las ramas vestibulares, arriba, y la rama coclear, abajo y adelante. Derecha, el oído sordo: el facial y las vestibulares están (flechas), pero donde debería estar la rama coclear queda un hueco (aplasia o hipoplasia severa). En la serie de donde viene, 20 lactantes con hipoacusia unilateral congénita, ninguno tenía CMV y la mitad de las 14 resonancias mostró un nervio coclear ausente o muy delgado. Imagen: Johansson M y cols. (2022), J Clin Med, doi:10.3390/jcm11143966, Fig. 4 (paneles b y d), CC BY 4.0, adaptada.\n:::",
+   "id": "rm-nervio-coclear",
+   "globos": []
+  },
+  "F17-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap17_efusion_neonatal_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F17-04": {
+   "kind": "fig",
+   "src": ":::figura cap17_efusion_neonatal teoae\n- @OD 2000 | Sin emisiones en el OD: **0 de 5 bandas**, reproducibilidad 2 %. Un oído medio ocupado las apaga aunque la cóclea esté sana, y con apenas 5 dB de pérdida conductiva.\n- @OI 2000 | Tampoco en el OI: 0 de 5 bandas, reproducibilidad 17 %.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F17-05": {
+   "kind": "fig",
+   "src": ":::figura cap17_efusion_neonatal dpoae\n- OD: 1 de 7 frecuencias, bajo el criterio de 4 de 7, con L1/L2 de 65/55 dB SPL.\n- OI: ausentes (0 de 7).\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F17-06": {
+   "kind": "fig",
+   "src": ":::figura cap17_efusion_neonatal abr\n- @OD 80 V | A 80 dB nHL la V del OD llega a **7,4 ms**, con la I a 2,4 y la III a 5,0: todas las ondas **llegan tarde**, la I incluida. Un recién nacido de término tiene la I a 1,8 y la V a 6,9 (Rosa y cols., 2014): aquí la I llega 0,6 ms más tarde y la V, 0,5.\n- @OD 60 V | La V sigue a 60 dB (8,2 ms): cada 20 dB que baja el estímulo, la V se retrasa cerca de 1 ms, el comportamiento esperable de una pérdida de transmisión.\n- @OD 40 V | A 40 dB nHL todavía hay una V pequeña, a 9,2 ms; a 30 y a 20 dB no hay: **umbral del OD de 40 dB nHL con click**; a esta edad el click no se corrige: 40 dB eHL.\n- @OI 40 V | El OI responde igual: V a 8,1 ms con 60 dB nHL y a 9,1 con 40; sin respuesta a 30.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 60 V",
+    "@OD 40 V",
+    "@OI 40 V"
+   ]
+  },
+  "F17-07": {
+   "kind": "fig",
+   "src": ":::figura cap17_efusion_neonatal abr 2\n- @OD 40 V | Con **CE-Chirp LS**, el umbral rápido, la V del OD llega a 9,2 ms con 40 dB nHL y a 30 no hay: **40 dB nHL**, igual que con click. Dice que hay pérdida; no dice en qué frecuencias.\n- @OI 40 V | El OI da lo mismo (V a 9,4 ms a 40 dB nHL).\n:::",
+   "id": null,
+   "globos": [
+    "@OD 40 V",
+    "@OI 40 V"
+   ]
+  },
+  "F17-08": {
+   "kind": "fig",
+   "src": ":::figura cap17_efusion_neonatal abr 3\n- @OD 55 V | Por **vía ósea**, a 55 dB nHL la V del OD llega a 7,3 ms.\n- @OD 40 V | A 40 dB nHL, 8,1 ms.\n- @OD 10 V | A 20 dB nHL todavía hay V (9,1 ms), a **10 dB nHL** también (9,7 ms) y a 0 no: **umbral óseo de 10 dB nHL**. Con un umbral aéreo de 40 y uno óseo de 10, la diferencia es de **30 dB**: transmisión.\n- @OI 10 V | El OI da lo mismo: V a 9,4 ms con 10 dB nHL por hueso.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 55 V",
+    "@OD 40 V",
+    "@OD 10 V",
+    "@OI 10 V"
+   ]
+  },
+  "F17-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap17_cmv_congenito_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F17-10": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito teoae\n- @OD 2000 | El OD **no tiene emisiones**: 0 de 5 bandas y reproducibilidad de 5 %, con el oído medio sano. Las células ciliadas externas de ese oído no responden.\n- @OI 2000 | El OI las tiene en las **cinco bandas**, con reproducibilidad de 89 %.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F17-11": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito dpoae\n- OD: ausentes (0 de 7), con L1/L2 de 65/55 dB SPL.\n- OI: presentes en las 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F17-12": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr\n- @OD 80 V | Con click a 80 dB nHL, la V del OD llega a **7,1 ms**, 0,2 ms más tarde que la del OI: dentro de lo esperable para un lactante de esta edad (hasta 7,6 ms; Rosa y cols., 2014).\n- @OD 50 V | La V sigue hasta 50 dB nHL (7,9 ms) y a 40 no hay onda: **umbral con click del OD de 50 dB nHL**, unos 50 dB eHL (a esta edad el click no se corrige).\n- @OI 80 V | El OI responde con I, III y V bien formadas: I a 1,8, III a 4,5 y V a 6,9 ms, con interpico **I-V de 5,1 ms**, dentro del límite de 5,7 (Rosa y cols., 2014; → cap. 14).\n- @OI 0 V | Y mantiene la V hasta **0 dB nHL** (9,9 ms), el nivel más bajo que registra el equipo: el oído sano al lado sirve de comparación.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 50 V",
+    "@OI 80 V",
+    "@OI 0 V"
+   ]
+  },
+  "F17-13": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 2\n- @OD 70 V | Con **burst de 500 Hz**, el OD tiene V a 80 y 70 dB nHL (10,9 ms a 70) y no a 60, 50 ni 40: umbral de 70 dB nHL. La ventana de 20 ms deja ver una V que con 12 ms se habría salido. 70 − 20 = **50 dB eHL**. Cerca del umbral la V del grave es tan chica que se promedió más: 3.000 barridos.\n- @OI 20 V | El OI responde hasta 20 dB nHL (V a 12,3 ms) y a 10 no: 20 − 20 = **0 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 70 V",
+    "@OI 20 V"
+   ]
+  },
+  "F17-14": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 3\n- @OD 60 V | Con **burst de 2 kHz** el OD tiene V a 80 y a 60 dB nHL (8,5 ms) y no a 50: umbral de 60 dB nHL. 60 − 10 = **50 dB eHL**.\n- @OI 10 V | El OI responde hasta 10 dB nHL (V a 10,5 ms) y a 0 no: 10 − 10 = **0 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 60 V",
+    "@OI 10 V"
+   ]
+  },
+  "F17-15": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 4\n- @OD 60 V | **NB CE-Chirp LS de 500 Hz**, ventana de 20 ms: V a 60 dB nHL (9,8 ms) y no a 50. 60 − 15 = **45 dB eHL**.\n- @OI 20 V | El OI llega a 20 dB nHL (11,4 ms) y a 10 no: 20 − 15 = **5 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 60 V",
+    "@OI 20 V"
+   ]
+  },
+  "F17-16": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 5\n- @OD 60 V | **NB CE-Chirp LS de 1.000 Hz**, ventana de 15 ms: V a 60 dB nHL (9,1 ms) y no a 50. 60 − 10 = **50 dB eHL**.\n- @OI 10 V | El OI llega a 10 dB nHL (10,7 ms) y a 0 no: 10 − 10 = **0 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 60 V",
+    "@OI 10 V"
+   ]
+  },
+  "F17-17": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 6\n- @OD 60 V | **NB CE-Chirp LS de 2.000 Hz**: V a 60 dB nHL (7,9 ms) y no a 50. 60 − 5 = **55 dB eHL**.\n- @OI 10 V | El OI llega a 10 dB nHL (9,9 ms) y a 0 no: 10 − 5 = **5 dB eHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 60 V",
+    "@OI 10 V"
+   ]
+  },
+  "F17-18": {
+   "kind": "fig",
+   "src": ":::figura cap17_cmv_congenito abr 7\n- @OD 50 V | **NB CE-Chirp LS de 4.000 Hz**: V a 60 y a 50 dB nHL (8,3 ms) y no a 40. Para 4.000 Hz la corrección de lactantes es 0: **50 dB eHL**.\n- @OI 0 V | El OI responde hasta 0 dB nHL (9,8 ms), el nivel más bajo que registra el equipo: **0 dB eHL o menos**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 50 V",
+    "@OI 0 V"
+   ]
+  },
+  "F17-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap17_rubeola_congenita_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F17-20": {
+   "kind": "fig",
+   "src": ":::figura cap17_rubeola_congenita teoae\n- @OD 2000 | Sin emisiones en el OD (0 de 5 bandas, reproducibilidad 4 %).\n- @OI 2000 | Tampoco en el OI (0 de 5, 3 %). Con el oído medio sano, es una pérdida **coclear bilateral**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F17-21": {
+   "kind": "fig",
+   "src": ":::figura cap17_rubeola_congenita dpoae\n- OD: ausentes (0 de 7), con L1/L2 de 65/55 dB SPL.\n- OI: ausentes (0 de 7).\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F17-22": {
+   "kind": "fig",
+   "src": ":::figura cap17_rubeola_congenita abr\n- @OD 90 V | Con click, la V del OD aparece recién a **90 dB nHL** (7,8 ms), chica, y a 100 (7,4 ms). A 80 dB no hay onda.\n- @OI 90 V | El OI es igual: V a 7,5 ms a 90 dB nHL y nada a 80.\n- @OD 80 | Nada a 80 dB nHL, el nivel con el que parte el examen: sin el nivel máximo, este bebé habría salido \"sin respuesta\". Umbral con click de 90 dB nHL en los dos oídos.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 90 V",
+    "@OI 90 V",
+    "@OD 80"
+   ]
+  },
+  "F17-23": {
+   "kind": "fig",
+   "src": ":::figura cap17_rubeola_congenita abr 2\n- @OD 100 V | Con **burst de 500 Hz** y ventana de 20 ms, la V solo aparece a 100 dB nHL (10,7 ms) y no a 90. 100 − 20 = **80 dB eHL**.\n- @OI 100 V | Igual en el OI (10,9 ms): 80 dB eHL, el **umbral está en el tope** del equipo.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 100 V",
+    "@OI 100 V"
+   ]
+  },
+  "F17-24": {
+   "kind": "fig",
+   "src": ":::figura cap17_rubeola_congenita abr 3\n- @OD 55 | Por **vía ósea**, ni a 55 ni a 40 dB nHL hay respuesta en el OD.\n- @OI 55 | Igual en el OI. El vibrador ya no alcanza: este resultado **no distingue** una cóclea sin función de una pérdida muy grande.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 55",
+    "@OI 55"
+   ]
+  },
+  "F17-25": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap17_asfixia_perinatal_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F17-26": {
+   "kind": "fig",
+   "src": ":::figura cap17_asfixia_perinatal teoae\n- @OD 2000 | **Emisiones presentes** en el OD: 5 de 5 bandas, reproducibilidad de 91 %.\n- @OI 2000 | Y en el OI, también 5 de 5 (85 %). Las células ciliadas externas **funcionan**, a pesar de la gentamicina, que si hubiera dañado la cóclea las habría apagado.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F17-27": {
+   "kind": "fig",
+   "src": ":::figura cap17_asfixia_perinatal dpoae\n- OD: presentes en las 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en las 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F17-28": {
+   "kind": "fig",
+   "src": ":::figura cap17_asfixia_perinatal abr\n- @OD 80 | Con click alternado, a 80 dB nHL **no hay ondas**: ni I, ni III, ni V, en ninguno de los tres niveles (90, 80 y 60 dB nHL).\n- @OI 80 | Lo mismo en el OI. Con emisiones presentes, un ABR plano **no es una pérdida coclear**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 80"
+   ]
+  },
+  "F17-29": {
+   "kind": "fig",
+   "src": ":::figura cap17_asfixia_perinatal abr 2\n- @OD 80 | Registrando solo en **condensación**, aparece una deflexión en el primer milisegundo: no es una onda neural, es la **microfónica coclear**.\n- @OI 80 | En el OI, igual.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 80"
+   ]
+  },
+  "F17-30": {
+   "kind": "fig",
+   "src": ":::figura cap17_asfixia_perinatal abr 3\n- @OD 80 | En **rarefacción** la deflexión se invierte: sigue la fase del estímulo. Con polaridad alternada la microfónica se promedia y se cancela, por eso la primera figura quedó plana. Esa inversión es lo que la separa de un artefacto.\n- @OI 80 | Igual en el OI: la cóclea transduce, la señal no sale del nervio o no llega sincrónica al tronco.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 80"
+   ]
+  },
+  "F17-31": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap17-assr-deteccion.svg ancho=100% Detección del ASSR de Alba por oído, frecuencia y nivel. Cada celda es un nivel probado y su valor de p; las verdes son respuestas claras y el borde grueso marca el umbral, con una celda sin respuesta 5 dB más abajo. Figura propia del libro, de un modelo de detección; no es el registro de un equipo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F17-32": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap17-assr-audiograma.svg ancho=100% Audiograma estimado por ASSR y su comparación con el ABR. Cada frecuencia tiene dos estimaciones, según la corrección usada (BSA con círculo, diferencia de lactantes con cuadrado); la banda es el rango entre ambas. Los triángulos son lo que dio el ABR. Figura propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap17_efusion_neonatal": {
+   "numero": "17.1",
+   "ficha": [
+    "**Andrea Delgado**, 3 meses · mujer",
+    "Tiene 12 semanas y viene con su mamá. Nació de término, con 3.350 g, por parto vaginal; el embarazo y el parto fueron normales, la mamá no tuvo infecciones ni tomó medicamentos y la guagua no estuvo en neonatología. El tamizaje automático del alta (AABR) refirió en los dos oídos y el retamizaje del primer mes también. Desde las seis semanas tiene la nariz tapada, hace ruido al mamar y toma la mamadera casi acostada. No ha tenido fiebre, secreción por los oídos ni llanto al tocarlos. Se sobresalta con los ruidos fuertes y se calma con la voz de su mamá. Nadie en la familia tiene problemas de audición. Llegó despierta, comió justo antes del examen y se durmió en brazos de su mamá.",
+    "Historia clínica",
+    "Hace 3 meses: Alta de la maternidad: AABR refiere OD y OI.",
+    "Hace 54 días: Retamizaje a los 30 días: refiere en ambos oídos. Se agenda evaluación diagnóstica."
+   ]
+  },
+  "cap17_cmv_congenito": {
+   "numero": "17.2",
+   "ficha": [
+    "**Pedro Moreno**, 3 meses · hombre",
+    "Tiene 12 semanas y viene con su papá y su mamá. Nació de término, a las 40 semanas, con 3.100 g, sin ningún signo al examen. Durante el embarazo la mamá tuvo, a las 14 semanas, unos días de fiebre y dolor de garganta que se estudiaron con exámenes de sangre compatibles con una infección reciente por citomegalovirus (CMV). En la maternidad se confirmó la infección congénita: PCR de CMV positiva en orina en la primera semana. El tamizaje automático del alta (AABR) pasó en los dos oídos, y por la infección lo citan a un control audiológico a las 12 semanas. Mama bien, sigue la mirada y sonríe. Los papás no han notado que oiga peor de un lado. Nadie en la familia tiene problemas de audición.",
+    "Historia clínica",
+    "Hace 3 meses: Nacimiento de término (40 semanas); AABR del alta: pasa OD y OI.",
+    "Hace 2 meses: PCR de CMV en orina positiva: infección congénita sin síntomas. Se indica seguimiento audiológico y del desarrollo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap17_rubeola_congenita": {
+   "numero": "17.3",
+   "ficha": [
+    "**Alba Ramos**, 3 meses · mujer",
+    "Tiene 12 semanas y viene con su mamá. Nació de término, a las 40 semanas, con 2.450 g, más chica de lo esperado. Su mamá, que llegó hace poco al país, no estaba vacunada contra la rubéola: a las 9 semanas de embarazo tuvo fiebre y un sarpullido de tres días que no se estudió. Al nacer se encontraron cataratas en los dos ojos y un soplo del corazón (ductus arterioso persistente), y la IgM para rubéola salió positiva. Estuvo 9 días en neonatología. El tamizaje automático (AABR) refirió en los dos oídos. Los papás cuentan que no se asusta con los portazos ni gira la cabeza cuando le hablan; sí responde al tacto y al balanceo. Nadie en la familia tiene problemas de audición.",
+    "Historia clínica",
+    "Hace 3 meses: Nacimiento de término (40 semanas), 2.450 g; cataratas bilaterales y ductus arterioso. IgM de rubéola positiva.",
+    "Hace 2 meses: AABR refiere OD y OI. Se deriva a evaluación audiológica diagnóstica.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap17_asfixia_perinatal": {
+   "numero": "17.4",
+   "ficha": [
+    "**Jorge Cardenas**, 3 meses · hombre",
+    "Tiene 12 semanas y viene con su mamá. Nació de término, a las 40 semanas, con 3.200 g, por un parto vaginal con fórceps, tras un sufrimiento fetal agudo en el período expulsivo. Al nacer no respiraba: Apgar 2 al minuto y 4 a los 5 minutos, pH del cordón 6,9; lo intubaron y lo reanimaron. Por encefalopatía hipóxico-isquémica moderada recibió hipotermia terapéutica durante 72 horas, tuvo convulsiones que se trataron con fenobarbital y estuvo 14 días en neonatología, 7 de ellos con gentamicina. El tamizaje automático (AABR) refirió en los dos oídos. Hoy toma pecho, sostiene la cabeza con dificultad y lo controla neurología por el tono muscular. La mamá dice que se sobresalta con los ruidos fuertes, pero que \"a veces parece no escuchar\". Nadie en la familia tiene problemas de audición.",
+    "**Medicamentos:** Ninguno actual",
+    "Historia clínica",
+    "Hace 3 meses: Nacimiento por parto con fórceps tras sufrimiento fetal agudo; Apgar 2/4; hipotermia terapéutica 72 h; fenobarbital por convulsiones.",
+    "Hace 2 meses: Alta de neonatología; AABR refiere OD y OI.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

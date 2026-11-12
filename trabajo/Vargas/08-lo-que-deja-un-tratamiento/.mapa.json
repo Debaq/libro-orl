@@ -1,0 +1,133 @@
+{
+ "capitulo": "8",
+ "md": "texto/capitulos/08-lo-que-deja-un-tratamiento.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F8-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-tonotopia.svg ancho=96% Dónde cae cada frecuencia del audiograma en la cóclea\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F8-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap08_ototoxica_audiosupra.svg ancho=100% Audiometría de Ernesto: pérdida sensorioneural bilateral simétrica que cae desde 2 kHz sin recuperación en 8 kHz. SDT de −5 dB, SRT de 0 dB, discriminación de 88 % en el OD y 96 % en el OI, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F8-03": {
+   "kind": "fig",
+   "src": ":::figura cap08_ototoxica teoae\n- @OD 1500 | En el OD pasan solo 1 y 1,5 kHz. Con 2 de 5 bandas y 47 % de reproducibilidad, no pasa.\n- @OI 2000 | En el OI pasan 1; 1,5 y 2 kHz, 3 de 5, pero con 65 % de reproducibilidad, bajo el 70 % que pide el criterio: tampoco pasa.\n- La TEOAE no llega más allá de 4 kHz: no mira la zona donde el cisplatino empieza.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1500",
+    "@OI 2000",
+    null
+   ]
+  },
+  "F8-04": {
+   "kind": "fig",
+   "src": ":::figura cap08_ototoxica dpoae\n- @OD 1500 | En el OD hay DP en 1 y 1,5 kHz; desde 2 kHz no se separa del ruido. **2 de 7.**\n- @OI 2000 | En el OI llega hasta 2 kHz: **3 de 7**.\n- @OD 8000 | En la base, los dos oídos tenían DP de 1 a 8 kHz. Lo que se perdió coincide con lo que bajó el audiograma.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1500",
+    "@OI 2000",
+    "@OD 8000"
+   ]
+  },
+  "F8-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap08_salicilatos_audiosupra.svg ancho=100% Audiometría de Natalia: pérdida sensorioneural bilateral, simétrica, leve y casi plana. SDT de 15 y 20 dB, SRT de 20 y 25 dB, discriminación de 96 % en el OD y 92 % en el OI, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F8-06": {
+   "kind": "fig",
+   "src": ":::figura cap08_salicilatos teoae\n- @OD 1500 | En el OD pasan 1,5 y 2 kHz, con 37 % de reproducibilidad: **no pasa**.\n- @OI 2000 | En el OI no hay emisión: 0 de 5 bandas y 1 % de reproducibilidad.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1500",
+    "@OI 2000"
+   ]
+  },
+  "F8-07": {
+   "kind": "fig",
+   "src": ":::figura cap08_salicilatos dpoae\n- @OD 3000 | En el OD el DP está presente de 1 a 4 kHz: **5 de 7**. Pero los puntos quedan alrededor de 0 dB SPL o algo por debajo.\n- @OI 4000 | En el OI, presente de 1,5 a 4 kHz: **4 de 7**, también bajo.\n- Compáralo con el OI normal del caso 8.3, con puntos de hasta 10 dB SPL. La DPOAE pasa, pero con poca emisión: el amplificador funciona a media máquina.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 3000",
+    "@OI 4000",
+    null
+   ]
+  },
+  "F8-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap08_post_radioterapia_audiosupra.svg ancho=100% Audiometría de Pablo: pérdida mixta del OD, con gap de 20 a 30 dB en los graves y ósea que cae en los agudos, y OI acorde a la edad. SDT de 40 dB y SRT de 45 dB en el OD, con discriminación de 84 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F8-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap08_post_radioterapia_impedancia.svg ancho=100% Impedanciometría de Pablo.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap08_ototoxica": {
+   "numero": "8.1",
+   "ficha": [
+    "**Ernesto Jiménez**, 31 años · hombre",
+    "Tiene 31 años y es profesor de educación física. Hace cinco meses le encontraron un tumor en el testículo izquierdo; lo operaron y después recibió cuatro ciclos de quimioterapia, uno cada tres semanas. Antes del primer ciclo le hicieron una audiometría y le dijeron que oía bien. Fue al control de audición antes del segundo ciclo, pero no a los siguientes: vive lejos del hospital y se sentía bien. Durante el tercer ciclo empezó a sentir un siseo en los dos oídos, parejo, que ahora tiene todo el día. Terminó la quimioterapia hace diez semanas. Desde entonces le cuesta entender a los alumnos cuando hablan todos a la vez en el gimnasio, y ya no oye el pitido del microondas ni el canto de los pájaros en la mañana. Conversando de a dos, en silencio, se arregla bien. No ha tenido mareos ni dolor de oídos. Nunca ha trabajado con ruido y nadie en su familia es sordo.",
+    "**Antecedentes:** ototóxicos.",
+    "**Medicamentos:** Ninguno. Terminó hace diez semanas cuatro ciclos de bleomicina, etopósido y cisplatino",
+    "**Cirugías:** Orquiectomía izquierda hace cinco meses",
+    "Historia clínica",
+    "Hace 5 meses: Urólogo: tumor testicular izquierdo. Orquiectomía izquierda; biopsia: tumor germinal no seminomatoso. Deriva a oncología.",
+    "Hace 5 meses: Oncólogo: indica cuatro ciclos de bleomicina, etopósido y cisplatino, cada 21 días. Solicita evaluación audiológica de base antes del primer ciclo.",
+    "Hace 5 meses: Audiometría de base con alta frecuencia: umbrales de 0 a 10 dB HL de 125 a 8.000 Hz en ambos oídos, con respuesta hasta 16 kHz. DPOAE presentes de 1 a 8 kHz en ambos oídos.",
+    "Hace 4 meses: Control audiológico antes del segundo ciclo: sin cambio significativo respecto de la base.",
+    "Hace 3 meses: Tercer ciclo de quimioterapia. No asiste al control audiológico programado.",
+    "Hace 2 meses: Cuarto y último ciclo. Refiere siseo en ambos oídos desde el ciclo anterior. No asiste al control audiológico.",
+    "Hace 20 días: Oncólogo, control al terminar el tratamiento: en remisión. Refiere siseo bilateral y dificultad para entender en grupo. Deriva a otorrinolaringología.",
+    "Hace 8 días: Otorrinolaringólogo: otoscopía normal bilateral. Solicita audiometría con alta frecuencia y emisiones otoacústicas para comparar con la base.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap08_salicilatos": {
+   "numero": "8.2",
+   "ficha": [
+    "**Natalia Luna**, 57 años · mujer",
+    "Tiene 57 años y es dueña de un almacén de barrio, donde pasa el día de pie. Tiene artrosis en las dos rodillas. Hace tres semanas el dolor empeoró y, como el antiinflamatorio que le habían dado le caía mal al estómago, empezó a tomar aspirina por su cuenta: dos comprimidos de 500 mg cada seis horas, todos los días. Hace unos diez días le apareció un silbido agudo en los dos oídos, parejo, que no se le quita en todo el día, y siente que oye \"como con algodones\": tiene que pedir que le repitan en el almacén y subió el volumen de la radio. No ha tenido mareos, dolor ni secreción de oídos. Antes de esto oía bien; nunca ha trabajado con ruido. Ayer el otorrinolaringólogo le suspendió la aspirina y se tomó la última dosis en la mañana.",
+    "**Antecedentes:** ototóxicos, HTA.",
+    "**Medicamentos:** Ácido acetilsalicílico 500 mg, dos comprimidos cada 6 horas por tres semanas, por su cuenta (suspendido ayer); losartán 50 mg al día",
+    "Historia clínica",
+    "Hace 3 años: Medicina del trabajo, operativo preventivo: audiometría de tamizaje normal en ambos oídos.",
+    "Hace 1 año: Traumatólogo: gonartrosis bilateral. Indica ibuprofeno y kinesiterapia; suspende el ibuprofeno por dolor epigástrico.",
+    "Hace 5 días: Médico general: acúfeno bilateral y sensación de oído tapado de una semana. Otoscopía normal. Deriva a otorrinolaringología.",
+    "Hace 1 día: Otorrinolaringólogo: otoscopía normal. Consumo de ácido acetilsalicílico de 4 g al día por tres semanas, sin indicación médica. Sospecha ototoxicidad por salicilatos: suspende la aspirina. Solicita audiometría y emisiones otoacústicas ahora y control en una semana.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap08_post_radioterapia": {
+   "numero": "8.3",
+   "ficha": [
+    "**Pablo Rojas**, 63 años · hombre",
+    "Tiene 63 años y es jubilado; trabajó como chofer de micro. Hace dos años le operaron un cáncer de la parótida derecha y después recibió seis semanas de radioterapia en ese lado de la cara y el cuello. Hacia el final de la radioterapia empezó a sentir el oído derecho tapado, \"como en el avión\", y eso nunca se le pasó del todo. Desde hace unos meses siente que por ese oído oye cada vez menos: ya no contesta el celular por la derecha. No tiene pitidos ni mareos. Le quedó la boca seca y la piel del lado derecho del cuello más dura y oscura; la cara la mueve bien. Del oído izquierdo oye bien. Nunca tuvo otitis de adulto.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg cada 12 horas; saliva artificial",
+    "**Cirugías:** Parotidectomía total derecha hace dos años",
+    "Historia clínica",
+    "Hace 2 años: Cirujano de cabeza y cuello: carcinoma de parótida derecha. Parotidectomía total derecha con preservación del nervio facial.",
+    "Hace 2 años: Radioterapeuta: radioterapia postoperatoria de la región parotídea y el cuello derechos, seis semanas. Sin quimioterapia.",
+    "Hace 2 años: Control al terminar la radioterapia: radiodermitis cervical derecha, xerostomía. Refiere oído derecho tapado.",
+    "Hace 6 meses: Oncólogo, control semestral: sin recidiva. Refiere que oye menos por el oído derecho. Deriva a otorrinolaringología.",
+    "Hace 12 días: Otorrinolaringólogo: membrana timpánica derecha opaca y retraída, sin perforación; nasofibroscopía sin lesiones. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Membrana opaca y retraída, sin perforación.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

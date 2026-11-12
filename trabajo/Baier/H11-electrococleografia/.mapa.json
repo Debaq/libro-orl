@@ -1,0 +1,82 @@
+{
+ "capitulo": "H11",
+ "md": "texto/capitulos/H11-electrococleografia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH11-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h11-componentes.svg ancho=100% Lo que registra el electrodo del oído con un click (izquierda) y los tres potenciales que lo forman (derecha). Fíjate en cómo se distinguen: la MC se invierte con la polaridad, el PS es un desplazamiento lento que no se invierte y el PA es la descarga del nervio. La razón PS/PA se calcula con las dos amplitudes medidas desde la línea de base. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH11-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h11-sesgo.svg ancho=100% La misma vibración de la membrana con dos puntos de trabajo. La respuesta de la célula ciliada tiene forma de S: si la membrana vibra en el tramo del medio, el promedio queda casi en el reposo y el PS es chico; si el hidrops corre el punto de trabajo, el promedio se desplaza y el PS crece. Es la explicación más difundida, no un hecho demostrado. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH11-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h11-electrodos.svg ancho=100% Las tres posiciones del electrodo activo: conducto, tímpano y promontorio. Cuanto más cerca de la cóclea, más grande es la respuesta; las barras muestran el orden de magnitud, no la escala. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH11-04": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/ecochg.png completa Pantalla de ECochG con el OI registrado y marcado Imagen propia: captura de LabSim.\n- @-2.5,8.4 | **Prueba: ECochG.** Cambia el montaje, la ventana y la tabla. Cambiar de prueba no borra el PEAT.\n- @-2.5,14.5 | **Estímulo y polaridad.** *Click* o *Burst*. La alternada cancela la MC; para medir la diferencia rarefacción-condensación hacen falta dos curvas, una de cada polaridad.\n- @-2.5,20 | **Intensidad**: 90 dB nHL. El PS se mide entero solo a nivel alto.\n- @-2.5,26 | **Tasa**: 11,1 estímulos por segundo. Parte al azar: configurarla es parte del examen.\n- @-2.5,32 | **Pasa alto** en 5 Hz. Con el del PEAT (100 Hz) el PS se achica.\n- @-2.5,38 | **Promediación**: 1.500 barridos, que también parte al azar.\n- @72,0.8 | **Línea de estado**: nivel, barridos, aceptados, FSP, ruido residual y el rechazo de artefactos.\n- @17.4,25.9 | El botón **↕** invierte el eje: con él ves el PA hacia arriba, como en el PEAT.\n- @57,51 | El **PS** y el **PA** marcados sobre el trazo del OI. El PA va hacia abajo.\n- @66,34 | La **línea de base** punteada, desde la marca BL.\n- @102,34 | Las marcas: **BL**, **Ini**, **PS**, **PA**, **Fin** y **MC**. **Auto** marca la curva elegida, pero la marca se revisa.\n- @102,40 | **Amplitud del PS y del PA**, medidas desde la línea de base.\n- @102,46 | **Razón PS/PA** (0,562, sobre el 0,40 del electrodo timpánico) y **razón de áreas**, que se calcula cuando están el inicio y el retorno.\n- @102,52 | **Ancho del PA** y **duración del complejo**.\n- @102,56.5 | **Δ latencia por tasa**: necesita dos curvas del mismo oído a distinta tasa.\n:::",
+   "id": null,
+   "globos": [
+    "@-2.5,8.4",
+    "@-2.5,14.5",
+    "@-2.5,20",
+    "@-2.5,26",
+    "@-2.5,32",
+    "@-2.5,38",
+    "@72,0.8",
+    "@17.4,25.9",
+    "@57,51",
+    "@66,34",
+    "@102,34",
+    "@102,40",
+    "@102,46",
+    "@102,52",
+    "@102,56.5"
+   ]
+  },
+  "FH11-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h11-burst-filtro.svg ancho=100% El PS con click y con tone burst, y lo que le hace el pasa-alto. Con click, el PS es apenas un hombro antes del PA; con un burst de 1-10-1 ms es una meseta que dura lo que dura el estímulo. Un pasa-alto de 5 Hz la deja casi entera; uno de 100 Hz, el del PEAT, la borra. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH11-06": {
+   "kind": "fig",
+   "src": ":::figura h11_p38 ecochg\n- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,25**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,17**, bajo 1,94. La latencia del PA es de 1,37 ms.\n- @OD PS | El PS del OD es el hombro de la bajada hacia el PA, y mide menos de un tercio de él.\n- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,63**, sobre el límite.\n- @OI PA | El PA del OI llega a 1,50 ms y es ancho. Después no vuelve a la base dentro de la figura: el retorno está a 8,8 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,87**.\n- Mismo electrodo, mismo nivel y mismos filtros en los dos oídos: la diferencia es del oído.\n:::",
+   "id": null,
+   "globos": [
+    "@OD PA",
+    "@OD PS",
+    "@OI PS",
+    "@OI PA",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h11_p38": {
+   "numero": "H11.1",
+   "ficha": [
+    "**Patricia Rivas**, 46 años · mujer",
+    "Tiene 46 años y es profesora de lenguaje en un liceo. Hace poco más de un año tuvo la primera crisis: el mundo le daba vueltas por horas y vomitaba sin parar; desde entonces ha tenido cuatro o cinco. Antes de cada crisis siente el oído izquierdo lleno, \"como con agua\", y un zumbido grave que sube. Entre crisis nota que por ese oído las voces se escuchan raras, como metálicas, y que los ruidos fuertes le molestan mucho, sobre todo los gritos de los alumnos en el recreo. Hay días en que oye casi bien y otros en que no. Le da miedo que le venga una crisis haciendo clases o manejando.",
+    "**Medicamentos:** Betahistina 24 mg cada 12 horas.",
+    "Historia clínica",
+    "Hace 1 año: Consulta en servicio de urgencia por vértigo rotatorio de 3 horas con náuseas y vómitos; se trata con antieméticos, alta al ceder.",
+    "Hace 7 meses: Nueva consulta en urgencia por crisis de vértigo de 2 horas, con oído izquierdo tapado y zumbido.",
+    "Hace 3 meses: Otorrinolaringólogo: otoscopia normal; indica betahistina y dieta baja en sal.",
+    "Hace 12 días: Nueva crisis de vértigo de 2 horas. Otorrinolaringólogo deriva a evaluación auditiva, electrococleografía y evaluación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

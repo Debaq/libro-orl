@@ -1,0 +1,135 @@
+{
+ "capitulo": "38",
+ "md": "texto/capitulos/38-el-que-ronca.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F38-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-colapso.svg ancho=100% id=colapso Esquema de la nariz y la faringe durante la inspiración dormida. A: con la nariz permeable, la presión en la faringe baja poco y la pared se mantiene abierta. B: con la nariz obstruida, para el mismo flujo la presión baja más y la faringe tiende a cerrarse. Mira cómo cambia la barra de presión entre A y B. Es un esquema: las proporciones no son medidas. Imagen propia.\n:::",
+   "id": "colapso",
+   "globos": []
+  },
+  "F38-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-pg-roncador-resumen.svg ancho=100% id=pg-roncador Resumen de la poligrafía de Miguel. Cada marca es un evento: hay pocos y no forman racimos. Las marcas punteadas son reducciones de flujo sin desaturación, que esta técnica no cuenta. El ronquido (barras) ocupa más de la mitad de la noche y es más continuo de espaldas. La saturación se mantiene alta toda la noche y solo tiene unas muescas cortas. Imagen propia.\n:::",
+   "id": "pg-roncador",
+   "globos": []
+  },
+  "F38-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-pg-roncador-trazo.svg ancho=100% id=pg-roncador-trazo Dos minutos de la poligrafía de Miguel, de espaldas. Compara el ronquido con el flujo y los esfuerzos: el ronquido acompaña cada inspiración y ninguno de los canales cae. Imagen propia.\n- @50,29 | **Ronquido.** Una ráfaga en cada inspiración: es sonido, no un evento respiratorio.\n- @50,14 | **Flujo.** Las ondas mantienen su amplitud durante los 120 s: no hay caída de 30 % ni de 90 %.\n- @84,80 | **Saturación.** Se mantiene en 97 %: el ronquido, por sí solo, no la baja.\n:::",
+   "id": "pg-roncador-trazo",
+   "globos": [
+    "@50,29",
+    "@50,14",
+    "@84,80"
+   ]
+  },
+  "F38-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-pg-moderado-resumen.svg ancho=100% id=pg-moderado Resumen de la poligrafía de Adrián. Los eventos se juntan en racimos y cada racimo deja una serie de caídas de la saturación bajo la línea de 90 %. Mira las dos hileras de abajo: los racimos coinciden con las horas de espaldas, y el ronquido ocupa casi todo el registro. Imagen propia.\n:::",
+   "id": "pg-moderado",
+   "globos": []
+  },
+  "F38-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-pg-moderado-trazo.svg ancho=100% id=pg-moderado-trazo Dos minutos de la poligrafía de Adrián, de espaldas: una apnea mixta (rojo) y una hipopnea (naranja). Sigue las bandas de esfuerzo durante la apnea y el nadir de la saturación después de ella. Imagen propia.\n- @51,9 | **Apnea mixta de 13 s.** El flujo cae a casi cero. Al principio no hay esfuerzo en las bandas y después aparece y crece: por eso es mixta y no obstructiva ni central.\n- @51,30 | **Ronquido.** Se corta durante la apnea y vuelve con la respiración de recuperación.\n- @61,73 | **Saturación.** Baja a 86 % unos 7 s después de que termina la apnea: la desaturación llega con retraso (→ H31).\n- @84,9 | **Hipopnea de 27 s.** El flujo baja y se aplana, y el esfuerzo continúa.\n:::",
+   "id": "pg-moderado-trazo",
+   "globos": [
+    "@51,9",
+    "@51,30",
+    "@61,73",
+    "@84,9"
+   ]
+  },
+  "F38-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-psg-grave-resumen.svg ancho=100% id=psg-grave Resumen de la polisomnografía de Raquel. Arriba, el hipnograma: el sueño casi no pasa de N2, hay muy poco N3 y poco REM, con muchos despertares. Las hileras siguientes muestran eventos y despertares casi continuos en toda la noche, y la saturación, que no deja de caer bajo la línea de 90 %. Imagen propia.\n:::",
+   "id": "psg-grave",
+   "globos": []
+  },
+  "F38-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-psg-grave-trazo.svg ancho=100% id=psg-grave-trazo Noventa segundos de la polisomnografía de Raquel, en N1 y de espaldas: dos apneas obstructivas de más de 20 s y una hipopnea. Las barras negras de arriba marcan los despertares. Compara el EEG y el EMG del mentón antes y después de cada apnea. Imagen propia.\n- @33,39 | **Apnea obstructiva de 21 s.** El flujo desaparece, y tórax y abdomen se mueven en oposición: el esfuerzo continúa contra la vía cerrada.\n- @69,12 | **Despertar.** Al terminar la segunda apnea el EEG pasa a una actividad rápida y el EMG del mentón sube de golpe.\n- @48,73 | **Saturación.** Cae hasta 82 % después de cada apnea y no alcanza a recuperarse antes de la siguiente.\n:::",
+   "id": "psg-grave-trazo",
+   "globos": [
+    "@33,39",
+    "@69,12",
+    "@48,73"
+   ]
+  },
+  "F38-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-psg-dudosa-pg.svg ancho=100% id=pg-dudosa Resumen de la poligrafía previa de Yolanda. Hay eventos repartidos en toda la noche, y las marcas punteadas (reducciones de flujo sin desaturación) son más que las continuas. La saturación casi no se mueve. Imagen propia.\n:::",
+   "id": "pg-dudosa",
+   "globos": []
+  },
+  "F38-09": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-psg-dudosa-resumen.svg ancho=100% id=psg-dudosa Resumen de la polisomnografía de Yolanda. El hipnograma muestra vigilias largas, que acortan el sueño real. Las hileras de eventos, RERA y despertares son densas toda la noche, y la saturación casi no baja de 90 %: lo que se ve en el EEG no se ve en el oxímetro. Imagen propia.\n:::",
+   "id": "psg-dudosa",
+   "globos": []
+  },
+  "F38-10": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap38-psg-dudosa-trazo.svg ancho=100% id=psg-dudosa-trazo Noventa segundos de la polisomnografía de Yolanda, en N1 y de espaldas: dos hipopneas de 11 y 12 s. Compara el flujo con la saturación, y los despertares (barras negras) con el EEG y el EMG. Imagen propia.\n- @63,39 | **Hipopnea de 12 s.** El flujo se achata y baja, y el esfuerzo del tórax y el abdomen continúa: la vía se estrecha sin cerrarse.\n- @69,12 | **Despertar.** El EEG pasa a actividad rápida y el EMG sube. Esta hipopnea cuenta porque termina en un despertar.\n- @56,80 | **Saturación.** Se queda en 97 %: sin desaturación, un oxímetro y una poligrafía no ven estas hipopneas.\n:::",
+   "id": "psg-dudosa-trazo",
+   "globos": [
+    "@63,39",
+    "@69,12",
+    "@56,80"
+   ]
+  }
+ },
+ "casos": {
+  "cap38_roncador": {
+   "numero": "38.1",
+   "ficha": [
+    "**Miguel Delgado**, 44 años · hombre",
+    "Tiene 44 años y es jefe de bodega. Su pareja se queja de que ronca \"como motosierra\" desde hace unos cinco años y hace dos meses se cambió de pieza. Dice que a veces se calla un rato y vuelve con un resoplido, pero que no lo ha visto ahogarse. Él duerme de corrido, se levanta descansado y no se queda dormido de día: ni en el auto, ni viendo televisión. Su peso está estable desde hace años. En primavera se le tapa la nariz y el ronquido empeora; el resto del año respira bien. No toma alcohol de noche ni sedantes, no fuma y no tiene la presión alta. Quiere saber si hay algún aparato o una operación que lo haga dejar de roncar.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 5 años: Su pareja empieza a notar el ronquido.",
+    "Hace 2 meses: Médico general: ronquido habitual sin somnolencia; se deriva a otorrinolaringología y se pide una poligrafía respiratoria."
+   ]
+  },
+  "cap38_moderado": {
+   "numero": "38.2",
+   "ficha": [
+    "**Adrián Solís**, 52 años · hombre",
+    "Tiene 52 años y maneja un colectivo. Ronca desde hace años y desde hace dos \"se me va la cabeza\" en los semáforos; el mes pasado se salió un poco de la pista y se asustó. Su señora cuenta que se ahoga y que despierta a veces con un sobresalto. Se levanta con dolor de cabeza y la boca seca, porque duerme con la boca abierta. La nariz derecha no le pasa desde que se la quebró jugando a la pelota a los 20 años y la izquierda se le tapa en primavera, con estornudos y picazón. Para poder dormir usa un spray descongestionante casi todas las noches. Tiene la presión alta, en tratamiento, y ha subido unos ocho kilos en cinco años.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Antihipertensivo; oximetazolina en spray nasal casi todas las noches",
+    "Historia clínica",
+    "Hace 20 años: Fractura nasal jugando a la pelota; no consultó.",
+    "Hace 2 años: Empieza con somnolencia al manejar y ronquido más fuerte.",
+    "Hace 3 meses: Médico general: sospecha de apnea del sueño; se pide una poligrafía respiratoria y evaluación otorrinolaringológica."
+   ]
+  },
+  "cap38_grave": {
+   "numero": "38.3",
+   "ficha": [
+    "**Raquel Sánchez**, 61 años · mujer",
+    "Tiene 61 años y es dueña de una panadería. Hace dos años tuvo un accidente cerebrovascular isquémico y, desde entonces, su hija la vigila de noche: dice que \"se queda sin respirar\" y que a veces parece que se asfixia. Se levanta con dolor de cabeza y no se siente descansada aunque duerma ocho horas. Se duerme sentada en la caja, esperando a los clientes, y una vez se quedó dormida en el semáforo. Ha subido de peso desde la menopausia. Es hipertensa y diabética, y le cuesta controlarse la presión pese a tres remedios. Nunca se ha hecho un estudio del sueño.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Tres antihipertensivos, metformina y un antiagregante",
+    "Historia clínica",
+    "Hace 2 años: Accidente cerebrovascular isquémico sin secuelas importantes.",
+    "Hace 4 meses: Neurología: sospecha de apnea del sueño como factor de riesgo; se pide un estudio del sueño."
+   ]
+  },
+  "cap38_dudosa": {
+   "numero": "38.4",
+   "ficha": [
+    "**Yolanda Rojas**, 41 años · mujer",
+    "Tiene 41 años y es ingeniera. Duerme mal hace años: se acuesta rendida, despierta varias veces en la noche y a veces se queda despierta una o dos horas. Se levanta cansada, con dolor de cabeza y la mandíbula apretada, y en las reuniones de la tarde le cuesta no cabecear. Ronca poco, solo cuando está resfriada, y su pareja no ha visto pausas. Le diagnosticaron hipertensión hace seis meses, a pesar de tener un peso normal y hacer deporte. Hace un mes se hizo una poligrafía en la casa y le dijeron que \"salió normal\", pero ella sigue igual de cansada. Pregunta si la apnea del sueño se puede tener sin roncar.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Antihipertensivo",
+    "Historia clínica",
+    "Hace 5 años: Insomnio de mantención y bruxismo, sin tratamiento.",
+    "Hace 6 meses: Diagnóstico de hipertensión arterial; inicia tratamiento.",
+    "Hace 30 días: Poligrafía respiratoria domiciliaria: índice de eventos respiratorios bajo 5 por hora. El médico mantiene la sospecha y pide una polisomnografía."
+   ]
+  }
+ }
+}

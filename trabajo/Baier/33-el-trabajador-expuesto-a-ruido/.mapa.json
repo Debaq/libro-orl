@@ -1,0 +1,98 @@
+{
+ "capitulo": "33",
+ "md": "texto/capitulos/33-el-trabajador-expuesto-a-ruido.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F33-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap33-ttspts.svg ancho=100% Cada turno sube el umbral y cada noche de reposo lo baja. Al principio el oído vuelve a la base; con los años puede quedar un resto que ya no vuelve: el desplazamiento permanente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap33_control_audiosupra.svg ancho=100% Audiometría de control del trabajador: muesca de 4 kHz en los dos oídos, con recuperación en 8 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap33_control_impedancia.svg ancho=100% Impedanciometría de control del trabajador.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap33-cambio.svg ancho=100% El control de hoy contra la base de la ficha, oído por oído: el cambio pasa de 15 dB desde 2 kHz hacia arriba, y los tres criterios lo declaran positivo en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap33-reposo.svg ancho=100% El control del final del turno y la confirmación tras 14 horas de reposo, contra la base: el cambio que en la tarde cumplía los criterios ya no está en la mañana.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap33_reposo_audiosupra.svg ancho=100% Audiometría en cámara tras 14 horas de reposo: de vuelta en la base.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap33_ingreso_audiosupra.svg ancho=100% Audiometría de ingreso: OD normal y OI con una muesca profunda en 4 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F33-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap33_ingreso_impedancia.svg ancho=100% Impedanciometría del trabajador.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap33_control": {
+   "numero": "33.1",
+   "ficha": [
+    "**Marcos Hernández**, 41 años · hombre",
+    "Tiene 41 años y hace ocho trabaja de operario en un aserradero, en la línea de corte. Entró a los 33 y su audiometría de ingreso fue normal. El primer año lo controlaron, pero después cambió de empresa contratista y de turno, y nadie más le pidió el examen hasta ahora. Usa tapones de espuma, \"cuando se acuerda\": a veces se los saca para hablar con el compañero o porque le pican. Fuera del trabajo no tiene ruido: no dispara, no va a recitales y no escucha música con audífonos. No tiene pitido ni mareos, y dice que oye bien; su señora le comenta que sube la tele. La audiometría de hoy se tomó en cámara, con más de doce horas sin ruido y la última exposición anotada en la ficha.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 8 años: Audiometría de ingreso a la empresa: umbrales de 0 dB HL en todas las frecuencias, los dos oídos.",
+    "Hace 7 años: Control anual: sin cambios respecto de la base.",
+    "Hace 30 días: Control periódico en terreno: cambio en 3, 4 y 6 kHz de los dos oídos; se cita a confirmación en cámara.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap33_reposo": {
+   "numero": "33.2",
+   "ficha": [
+    "**Joaquín Rodríguez**, 29 años · hombre",
+    "Tiene 29 años y hace tres es operador de un molino de bolas en una planta de molienda. Su audiometría de ingreso fue normal. Usa orejeras y tapones juntos \"cuando el jefe pasa\", y a veces solo las orejeras. En el control de este mes, tomado en la sala de la planta al terminar el turno, salió con cambio en los dos oídos; se repitió al tiro, reinstruido y con los fonos recolocados, y el cambio siguió. Hoy vuelve a la cámara a las 8 de la mañana: su último turno terminó anoche a las 18 horas y desde entonces estuvo en su casa, sin ruido. Hace unos meses le apareció un siseo en los dos oídos que antes se le iba en la noche; ahora lo nota también en la mañana. Entiende bien en silencio, pero en la planta, con todo andando, le cuesta seguir a los compañeros.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 3 años: Audiometría de ingreso: 0 dB HL en todas las frecuencias, los dos oídos.",
+    "Hace 1 año: Control anual en cámara: sin cambios respecto de la base.",
+    "Hace 14 días: Control en terreno al final del turno: cambio en 2, 3, 4 y 6 kHz de los dos oídos; se repite y persiste. Se cita a confirmación en cámara con reposo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap33_ingreso": {
+   "numero": "33.3",
+   "ficha": [
+    "**Adrián Castillo**, 27 años · hombre",
+    "Tiene 27 años y postula a un puesto de mecánico en una faena minera. Es tirador deportivo desde los 17 y sale a cazar con escopeta un par de veces al año; durante años disparó sin protección, y ahora usa tapones \"a veces\". Es diestro. Hace cinco años, tras una temporada de tiro, quedó con un pitido agudo en el oído izquierdo que no se le ha ido; nunca consultó. Dice que oye perfecto: en conversación no tiene problemas, aunque por teléfono usa el oído derecho. No ha tenido mareos, dolor ni secreción. En el examen de ingreso de hoy, hecho con reposo de más de doce horas, el oído izquierdo salió muy distinto del derecho.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 5 años: Temporada de tiro con pitido persistente en el oído izquierdo; no consultó.",
+    "Hace 1 día: Examen de ingreso a la faena: audiometría de vía aérea con diferencia marcada entre los dos oídos; se deriva a evaluación diagnóstica.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

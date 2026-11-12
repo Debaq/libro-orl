@@ -1,0 +1,193 @@
+{
+ "capitulo": "15",
+ "md": "texto/capitulos/15-cuando-tambien-cae-la-osea.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F15-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap15-tc-otoesclerosis-coclear.jpg ancho=80% id=tc-otoesclerosis-coclear Tomografía axial de los oídos derecho (a) e izquierdo (b) de un adulto con hipoacusia sensorioneural severa bilateral por otoesclerosis coclear. La flecha marca el doble anillo: una banda oscura de hueso desmineralizado que rodea la cóclea por fuera, en los dos oídos. Es la enfermedad que ya no se queda en el estribo y toca la cápsula de la cóclea, la parte que hace caer también la ósea. Imagen: Purohit B, Hermans R, Op de Beeck K (2014), Insights Imaging, doi:10.1007/s13244-014-0313-9, Fig. 12, CC BY, adaptada.\n:::",
+   "id": "tc-otoesclerosis-coclear",
+   "globos": []
+  },
+  "F15-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_mixta_otitis_cronica_audiosupra.svg ancho=100% Audiometría de Verónica: en el OD la aérea está en 55 dB en 1 kHz y la ósea en 30 (gap de 25 dB), con la ósea ya en 25 dB en 250 Hz y en 45 dB en 4 kHz; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_mixta_otitis_cronica_impedancia.svg ancho=100% Impedanciometría de Verónica: el OD no es realizable por otorrea activa.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-04": {
+   "kind": "fig",
+   "src": ":::figura cap15_mixta_otitis_cronica abr\n- @OI 80 V | El OI tiene sus ondas I, III y V en el lugar: la V a 5,6 ms.\n- @OD 80 V | La V del OD llega a 7,7 ms, **unos 2 ms más tarde**, y es la única onda que se ve en las dos réplicas: el oído medio atenúa el estímulo y todo se corre.\n- @OD 60 | A 60 dB no hay respuesta. La V sigue a 70 dB (7,9 ms): el umbral por aire del click del OD es de **70 dB nHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 80 V",
+    "@OD 80 V",
+    "@OD 60"
+   ]
+  },
+  "F15-05": {
+   "kind": "fig",
+   "src": ":::figura cap15_mixta_otitis_cronica abr 2\n- @OI 50 V | Por **vía ósea**, con el OD enmascarado, el OI sano responde a 50 dB con una V a 6,6 ms, y todavía a 30 dB, a 8,2. A 10 no hay nada: su umbral óseo está cerca de 30 dB nHL, a pesar de tener 5 dB HL en la audiometría. Así es el cero del hueso.\n- @OD 50 | El OD **no responde a 50 dB**, con el OI enmascarado con 55 dB. Por hueso el estímulo llega al otro oído casi entero (el vibrador pierde unos 5 dB): a 50 dB nHL le llegan unos 45, y el ruido tiene que superarlos. Con una ósea conductual de 30 a 45 dB, el umbral óseo del OD en el ABR queda más arriba de lo que el vibrador entrega: la pregunta no se puede contestar con este examen.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 50 V",
+    "@OD 50"
+   ]
+  },
+  "F15-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra_2.svg ancho=80% Audiometría de Verónica sin enmascarar, lo que anota quien no enmascara: la ósea del OD marca 35 dB en 1 kHz y la del OI marca la misma.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_mixta_otoesclerosis_audiosupra.svg ancho=100% Audiometría de Verónica enmascarada: en el OD la aérea está en 55 dB y la ósea en 35 en 500 Hz (gap de 20 dB), que se achica a 10 dB en 2 kHz; la ósea del OI está en 40 dB en 1 kHz y en 50 en 3 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_mixta_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de Verónica enmascarada.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_colesteatoma_fistula_audiosupra.svg ancho=100% Audiometría de Francisco: en el OD la aérea está en 50 dB en 1 kHz y la ósea en 20 (gap de 30 dB), y la ósea cae a 25 dB en 500 Hz y a 30 en 4 kHz; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-10": {
+   "kind": "fig",
+   "src": ":::figura cap15_colesteatoma_fistula abr\n- @OI 80 V | El OI tiene su V en el lugar, a 5,7 ms.\n- @OD 80 V | En el OD la III (5,6 ms) y la V (7,2) llegan tarde, a la manera de una transmisión; la V sigue a 60 dB y a 40 ya no hay respuesta: el umbral por aire del click es de **55 dB nHL**.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 80 V",
+    "@OD 80 V"
+   ]
+  },
+  "F15-11": {
+   "kind": "fig",
+   "src": ":::figura cap15_colesteatoma_fistula abr 2\n- @OD 50 V | Por vía ósea, con el OI enmascarado con 55 dB, a 50 dB el OD **apenas muestra una V**, chica y tardía, a 8,7 ms: está en su umbral óseo, a 5 dB del último escalón del vibrador (55).\n- @OI 50 V | El OI sano responde a 50 dB (V a 6,6 ms) y a 30 dB (7,7). La diferencia con el OD es de pocos decibeles: el ABR óseo apenas separa a un oído con 20 a 30 dB de ósea caída de uno normal.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 50 V",
+    "@OI 50 V"
+   ]
+  },
+  "F15-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_trauma_craneal_completo_audiosupra.svg ancho=100% Audiometría de Manuel: en el OD, en 250 Hz la aérea está en 45 dB y la ósea en 0 (gap de 45 dB); en 4 kHz la ósea cae a 60 dB con la aérea en 95; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_trauma_craneal_completo_impedancia.svg ancho=100% Impedanciometría de Manuel.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_fractura_transversal_audiosupra_2.svg ancho=80% Audiometría de Hugo sin enmascarar, lo que anota quien no enmascara: el OD \"oye\" 40 dB en 1 kHz y la ósea marca 0 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_fractura_transversal_audiosupra.svg ancho=100% Audiometría de Hugo enmascarada: el OD está en 95 dB, con la ósea coincidiendo con la aérea; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap15_fractura_transversal_impedancia.svg ancho=100% Impedanciometría de Hugo enmascarada.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F15-17": {
+   "kind": "fig",
+   "src": ":::figura cap15_fractura_transversal abr\n- @OD 100 | Con el click a 100 dB nHL y el OI enmascarado con 55 dB, el OD no muestra ninguna onda en las dos réplicas, a ningún nivel. Sin ruido, hacia los 7 ms aparece una ondulación pequeña: es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 dB de atenuación), y el ruido de 55 dB, mayor que esos 35, la borra (→ caso 19.4).\n- @OI 80 V | El OI tiene sus ondas I, III y V, la V a 5,7 ms, y la V sigue hasta 10 dB nHL.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 100",
+    "@OI 80 V"
+   ]
+  }
+ },
+ "casos": {
+  "cap15_mixta_otitis_cronica": {
+   "numero": "15.1",
+   "ficha": [
+    "**Verónica Peña**, 52 años · mujer",
+    "Tiene 52 años y trabaja de costurera. Desde niña le supura el oído derecho cada vez que se resfría; hace tres años la secreción no se ha cortado del todo. Con ese oído casi no oye: habla por teléfono con el izquierdo y la familia se queja de que sube la tele. No tiene pitido ni mareos. Hoy la deriva el cirujano que le propone cerrar la perforación, y quiere saber cuánto oído \"de verdad\" le queda antes de operar.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 4 años: Otorrinolaringología: perforación central amplia del tímpano derecho con otorrea mucosa; se indican gotas y control.",
+    "Hace 2 meses: Control: perforación central amplia del tímpano derecho, todavía con otorrea. Se solicita audiometría e impedanciometría antes de decidir una timpanoplastia.",
+    "**Otoscopía OD:** Perforación central amplia, con otorrea.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap15_mixta_otoesclerosis": {
+   "numero": "15.2",
+   "ficha": [
+    "**Verónica López**, 48 años · mujer",
+    "Tiene 48 años y es profesora de básica. Hace unos quince años empezó a oír menos, primero por un lado y después por los dos, y notó que empeoró después de sus dos embarazos. Dice que en la sala de profesores, con ruido, entiende mejor que en la calma. Tiene un zumbido grave en los dos oídos, todo el día. Su madre y una tía usaron audífonos desde los cuarenta. Nunca ha tenido secreción ni dolor, ni mareos.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 5 años: Audiometría de salud ocupacional: hipoacusia bilateral, sin seguimiento.",
+    "Hace 45 días: Otorrinolaringólogo: otoscopía normal bilateral y Rinne negativo en los dos oídos. Se solicita audiometría con vía ósea e impedanciometría para decidir entre cirugía y audífonos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap15_colesteatoma_fistula": {
+   "numero": "15.3",
+   "ficha": [
+    "**Francisco González**, 38 años · hombre",
+    "Tiene 38 años y es técnico en refrigeración. Desde los quince le sale pus de mal olor por el oído derecho de vez en cuando, y nunca se lo siguió. Hace dos semanas, al sonarse con fuerza, sintió que la pieza giraba unos segundos; le ha pasado de nuevo al apretarse el trago del oído y al toser. Con ese oído oye cada vez menos. No tiene pitido y la cara se le mueve normal.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 10 años: Otitis media crónica derecha con otorrea; tratamiento con gotas, sin control posterior.",
+    "Hace 10 días: Servicio de urgencia: vértigo breve al sonarse la nariz y al presionar el trago. Otoscopía con secreción fétida y masa blanquecina en el cuadrante posterosuperior derecho. Se deriva a otorrinolaringología con audiometría.",
+    "**Otoscopía OD:** Secreción fétida y masa blanquecina en el cuadrante posterosuperior.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap15_trauma_craneal_completo": {
+   "numero": "15.4",
+   "ficha": [
+    "**Manuel Molina**, 29 años · hombre",
+    "Tiene 29 años y es repartidor en moto. Hace seis semanas chocó, sin casco, y se golpeó el lado derecho de la cabeza. Estuvo dos días hospitalizado; le sangró el oído derecho y desde entonces oye mucho menos por ahí. Dice que el sonido le llega \"como con algodón\" y que las voces agudas, las de mujeres y niños, le cuestan más. No ha tenido mareos que recuerde ni la cara caída.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 45 días: Urgencia: traumatismo craneoencefálico en accidente de moto. TAC: fractura del hueso temporal derecho que respeta el laberinto; otorragia derecha, sin parálisis facial.",
+    "Hace 10 días: Control otorrinolaringológico: hemotímpano residual derecho. Se solicita audiometría.",
+    "sin foto",
+    "**Otoscopía OD:** Membrana íntegra, con sangre detrás que todavía no se reabsorbe.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap15_fractura_transversal": {
+   "numero": "15.5",
+   "ficha": [
+    "**Hugo Guzmán**, 34 años · hombre",
+    "Tiene 34 años y es pintor de edificios. Hace tres semanas cayó de un andamio de unos tres metros y se golpeó la parte de atrás de la cabeza. Desde ese día no oye nada por el oído derecho. Los primeros cinco días tuvo un mareo giratorio muy intenso con vómitos, que fue cediendo. Le quedó un zumbido agudo permanente en ese oído y algo de inestabilidad al caminar rápido.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 25 días: Urgencia: caída de altura con traumatismo craneoencefálico. TAC: fractura del peñasco derecho que cruza el laberinto. Hospitalizado seis días.",
+    "Hace 7 días: Control: otoscopía normal, membrana timpánica íntegra. Se solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

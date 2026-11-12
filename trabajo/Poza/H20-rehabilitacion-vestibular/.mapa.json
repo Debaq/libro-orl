@@ -1,0 +1,46 @@
+{
+ "capitulo": "H20",
+ "md": "texto/capitulos/H20-rehabilitacion-vestibular.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH20-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h20-compensacion.svg Recuperación en el tiempo después de perder un laberinto, en un paciente. El reposo se equilibra primero y solo; la función con el movimiento tarda más y necesita movimiento para recuperarse; el reflejo vestíbulo-ocular recupera solo una parte de lo perdido, y el resto lo cubre la sustitución. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH20-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h20-vor-ejercicios.svg Arriba, el deslizamiento de la imagen cuando el reflejo se queda corto: ese error en la retina es la señal que recalibra la ganancia. Abajo, los tres ejercicios de la rehabilitación: en x1 el blanco está quieto y se le pide al reflejo ganancia 1; en x2 se mueve en sentido contrario a la cabeza y se le pide 2; en la sustitución el ojo va al blanco antes que la cabeza. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH20-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h20-mctsib.svg Cómo se balancea el cuerpo adelante-atrás en las cuatro condiciones del mCTSIB, con un laberinto sano (arriba) y sin vestíbulo (abajo). Sin vestíbulo, mientras quedan la vista o los pies el balanceo se compensa; con ojos cerrados sobre espuma, no queda nada que lo sostenga. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH20-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h20-romberg.png ancho=90% Un paciente sano de pie en la plataforma, con los ojos abiertos y sobre superficie firme: el centro de presión y los dos balanceos de los últimos 20 s. Aun quieto, el cuerpo se corrige todo el tiempo; la plataforma mide cuánto. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @73,24 | **El centro de presión** se arrastra dentro de la plataforma: el trazo naranja es lo que el cuerpo hace para no caerse.\n- @52,64 | **El balanceo a los lados** y, debajo, **el balanceo adelante-atrás**.\n- @16,90 | **El paciente**, de pie con los pies juntos sobre la plataforma de fuerza.\n:::",
+   "id": null,
+   "globos": [
+    "@73,24",
+    "@52,64",
+    "@16,90"
+   ]
+  },
+  "FH20-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h20-sot.png ancho=70% Las seis condiciones del SOT en un paciente sano, con los puntajes y el análisis sensorial. Las condiciones le van quitando o falseando la vista y los pies; comparar los puntajes entre condiciones dice de cuál depende el paciente. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @83,12 | **Las seis condiciones**: la 5, con la plataforma que sigue al balanceo y los ojos cerrados, deja solo al vestíbulo.\n- @18,30 | **Puntaje de equilibrio** de cada una (100 sin balanceo, 0 si se cae); el rayado rojo es su límite normal.\n- @34,85 | **Las razones del análisis sensorial**: cuánto le sirve cada sentido.\n:::",
+   "id": null,
+   "globos": [
+    "@83,12",
+    "@18,30",
+    "@34,85"
+   ]
+  }
+ },
+ "casos": {}
+}

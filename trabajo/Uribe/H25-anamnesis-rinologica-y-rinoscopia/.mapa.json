@@ -1,0 +1,49 @@
+{
+ "capitulo": "H25",
+ "md": "texto/capitulos/H25-anamnesis-rinologica-y-rinoscopia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH25-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h25-fosa-lateral.svg ancho=100% Pared lateral de la fosa nasal derecha, con el tabique imaginariamente retirado. Se ven el vestíbulo, la válvula nasal (línea roja punteada), los tres cornetes con sus meatos, la hendidura olfatoria bajo la lámina cribosa (amarillo), la coana y, ya en la nasofaringe, la boca de la trompa de Eustaquio. Los senos aparecen solo como referencia. Imagen propia del libro.\n- @17,55 | **Entrada.** El vestíbulo tiene pelos y piel; la rinoscopía arranca aquí, con la punta del espéculo apenas pasada la narina.\n- @24,55 | **Válvula nasal.** La zona más angosta de la vía aérea. Si el pasaje se estrecha aquí, se nota más que en cualquier otro punto.\n- @34,62 | **Cornete inferior.** Su cabeza es lo primero que ves; su mucosa se hincha y se deshincha (ciclo nasal).\n- @31,34 | **Zona olfatoria.** Solo una parte pequeña del aire llega aquí: un cornete medio o una mucosa hinchada pueden cerrarla y se pierde el olfato.\n- @73,58 | **Trompa de Eustaquio.** Se abre en la nasofaringe, detrás de la coana. La nariz y el oído medio están conectados (→ H7).\n:::",
+   "id": null,
+   "globos": [
+    "@17,55",
+    "@24,55",
+    "@34,62",
+    "@31,34",
+    "@73,58"
+   ]
+  },
+  "FH25-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h25-valvula.svg ancho=100% La válvula nasal en tres miradas. A: el ángulo agudo que forman el tabique y el cartílago lateral superior. B: resistencia contra radio en un tubo rígido de flujo laminar; el punto rojo de la izquierda es el pasaje reducido a la mitad (16 veces más resistencia). C: en un estrechamiento el aire se acelera y su presión lateral baja; si la pared es blanda, se colapsa en la inspiración. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH25-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h25-ciclo-corte.svg ancho=96% El ciclo nasal. Dos cortes frontales de la nariz, vistos desde delante: en A el cornete inferior de la fosa derecha está congestionado y el aire pasa sobre todo por la izquierda; unas horas después, B, se invierte. El flujo de cada lado cambia; la suma de los dos, mucho menos. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH25-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h25-equipo.svg ancho=100% Espéculo nasal bivalvo, espejo frontal y lámpara de cuello flexible. A la izquierda, el espéculo con las valvas abiertas y, abajo, visto de frente. En el centro, el espejo frontal, cóncavo y con un orificio. A la derecha, la lámpara. Imagen propia del libro.\n- @9,22 | **Valvas.** Entran en el vestíbulo y se abren apenas: lo justo para ver. Si las apoyas en el tabique, duele.\n- @27,31 | **Resorte y mangos.** Quedan en la mano izquierda; al soltar, las valvas se cierran.\n- @47,15 | **Espejo frontal.** Mira por el agujero central; la luz de la lámpara rebota en el espejo y cae en la nariz, en el mismo eje que tu vista.\n- @80,17 | **Lámpara de cuello flexible.** Se deja al lado derecho del paciente; con el cuello flexible la dejas orientada sin sostenerla.\n:::",
+   "id": null,
+   "globos": [
+    "@9,22",
+    "@27,31",
+    "@47,15",
+    "@80,17"
+   ]
+  },
+  "FH25-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h25-posiciones.svg ancho=100% Hasta dónde llega la mirada. Cabeza recta (0°): el piso de la fosa, la cabeza del cornete inferior y el tabique. A 30° de extensión: el cornete medio y la entrada del meato medio. A 60°: el techo de la fosa y la parte alta del tabique. La luz entra por el vestíbulo, y al extender la cabeza la línea de visión sube dentro de la nariz. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

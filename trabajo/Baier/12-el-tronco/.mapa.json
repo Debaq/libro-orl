@@ -1,0 +1,264 @@
+{
+ "capitulo": "12",
+ "md": "texto/capitulos/12-el-tronco.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F12-01": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_esclerosis_multiple_audiosupra.svg ancho=100% Audiometría de Rocío: umbrales de 0 dB en todas las frecuencias, en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_esclerosis_multiple_impedancia.svg ancho=100% Impedanciometría de Rocío.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-03": {
+   "kind": "fig",
+   "src": ":::figura cap12_esclerosis_multiple abr\n- @OD 80 I | La onda I del OD llega a 1,2 ms y la III a 3,3: **I-III de 2,1 ms**, normal (límite 2,4; Sanfins y cols., 2026).\n- @OD 80 V | La V llega a 5,9 ms: **III-V de 2,6 ms** (límite 2,1) e **I-V de 4,7 ms** (límite 4,3). El tramo alto del tronco es el que se alarga.\n- @OI 80 V | En el OI el I-III es de 2,1 ms, normal, y la V llega a 6,5: **III-V de 2,6 ms** (límite 2,1) e **I-V de 4,8** (límite 4,4). Es lo mismo que en el OD: **el retraso empieza después de la III**. La V del OI llega 0,6 ms después que la del OD.\n- Con la tasa de rutina, la V mide cerca de la mitad de la I: V/I alrededor de 0,5 en los dos oídos.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 I",
+    "@OD 80 V",
+    "@OI 80 V",
+    null
+   ]
+  },
+  "F12-04": {
+   "kind": "fig",
+   "src": ":::figura cap12_esclerosis_multiple abr 2\n- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,2 ms: **se atrasó 1,3 ms** (22 %), más que el 12 a 15 % que se alarga una V sana. Las ondas son más chicas.\n- @OI 80 V | En el OI la V llega a 7,1 ms: se atrasó 0,6 ms (9 %), dentro de lo esperable, pero ya partía de una V tardía. En los dos oídos la V pierde cerca de un tercio de su amplitud (de 0,24 a 0,15 µV en el OD y de 0,22 a 0,14 en el OI): en el OD **la vía no aguanta el esfuerzo**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V"
+   ]
+  },
+  "F12-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_infarto_aica_audiosupra.svg ancho=100% Audiometría de Iván: el OD tiene una pérdida sensorioneural moderada (30 dB en graves, 60 dB en 4 kHz), sin gap; el OI, de 25 dB en 4 kHz, es el oído testigo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_infarto_aica_impedancia.svg ancho=100% Impedanciometría de Iván.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-07": {
+   "kind": "fig",
+   "src": ":::figura cap12_infarto_aica abr\n- @OD 80 III | En el OD **no hay onda I**. La III llega a 4,0 ms.\n- @OD 80 V | La V llega a 6,1 ms, de buen tamaño: **III-V de 2,1 ms**, normal (límite 2,2; Sanfins y cols., 2026). El tronco conduce bien.\n- @OI 80 V | El OI tiene las tres ondas: I a 1,9, III a 4,1 y V a 5,9 ms (I-V de 4,0, normal). La V del OD llega **0,2 ms** después, bajo el límite de 0,4.\n- @OD 60 V | A 60 dB el OD conserva solo la V y a 40 dB ya no queda nada.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 III",
+    "@OD 80 V",
+    "@OI 80 V",
+    "@OD 60 V"
+   ]
+  },
+  "F12-08": {
+   "kind": "fig",
+   "src": ":::figura cap12_infarto_aica abr 2\n- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,7 ms: **0,6 ms más tarde** (10 %), un alargamiento esperable. La vía central aguanta.\n- @OI 80 V | La V del OI llega a 6,4 ms: se atrasó 0,6 ms (10 %), lo mismo que el OD.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V"
+   ]
+  },
+  "F12-09": {
+   "kind": "fig",
+   "src": ":::figura cap12_infarto_aica vemp\n- @OD P13 | El VEMP cervical del OD tiene 44 µV de amplitud pico a pico (0,85 corregida por el EMG).\n- @OI P13 | El del OI tiene 288 µV (5,76 corregida): la **asimetría es de 74 %**. Con la cóclea, también el laberinto vestibular del OD está caído.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13"
+   ]
+  },
+  "F12-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_glioma_tronco_audiosupra.svg ancho=100% Audiometría de Julia: pérdida leve, descendente y simétrica (45 dB en 4 kHz en el OD y 40 en el OI), sensorioneural.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_glioma_tronco_impedancia.svg ancho=100% Impedanciometría de Julia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-12": {
+   "kind": "fig",
+   "src": ":::figura cap12_glioma_tronco abr\n- @OD 80 V | La V del OD llega a 6,07 ms, dentro del límite de una niña de su edad (6,42; Sanfins y cols., 2026), y el I-V es de 4,64 ms, también normal. Pero el **III-V es de 2,47 ms**, sobre el límite de 2,27. Las ondas miden 0,2 µV o menos.\n- @OI 80 V | En el OI la V llega a 6,1 ms y el **III-V es de 2,8 ms** (límite 2,4), con I-III corto (1,7): el patrón se repite en los dos oídos, y **no hay un oído testigo**.\n- @OD 60 V | A 60 dB quedan solo la III y la V; a 40 dB, apenas una V a 7,7 ms.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V",
+    "@OD 60 V"
+   ]
+  },
+  "F12-13": {
+   "kind": "fig",
+   "src": ":::figura cap12_glioma_tronco abr 2\n- @OD 80 V | A 81,1 estímulos por segundo la respuesta casi se pierde: la V llega a 7,07 ms (+1,00 ms, 16 %) con menos de 0,2 µV.\n- @OI 80 V | En el OI la V llega a 6,90 ms (+0,80 ms, 13 %) y mide 0,08 µV. El alargamiento es poco mayor que el de una vía sana, pero la amplitud casi desaparece: una vía que **no aguanta el esfuerzo**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V"
+   ]
+  },
+  "F12-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_siderosis_audiosupra.svg ancho=100% Audiometría de Fernando: pérdida bilateral y descendente, casi simétrica (45 dB en 4 kHz en el OD y 50 en el OI, que cae a 65 dB en 8 kHz), por sobre lo esperable a los 58 años.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_siderosis_impedancia.svg ancho=100% Impedanciometría de Fernando.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-16": {
+   "kind": "fig",
+   "src": ":::figura cap12_siderosis abr\n- @OD 80 III | Las ondas apenas sobresalen del ruido (menos de 0,2 µV). En el OD la I está en 1,7 ms y la III en 4,6: **I-III de 2,9 ms**, sobre el límite de 2,5 (Sanfins y cols., 2026).\n- @OD 80 V | La V llega a 6,7 ms: I-V de 5,0 ms (límite 4,5) y diferencia interaural de 0,5 ms con la V del OI.\n- @OI 80 I | En el OI la I está en 1,3 ms, algo antes de lo habitual (cerca de 1,5), con III a 3,9 y V a 6,1: I-V de 4,8 ms, sobre el límite de 4,5. Hay **que ser prudente con un registro de ondas tan bajas**.\n- @OD 60 V | A 60 dB quedan III y V a 4,8 y 6,9 ms en el OD, y a 5,1 y 6,9 en el OI; a 40 dB, nada que se separe del ruido.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 III",
+    "@OD 80 V",
+    "@OI 80 I",
+    "@OD 60 V"
+   ]
+  },
+  "F12-17": {
+   "kind": "fig",
+   "src": ":::figura cap12_siderosis abr 2\n- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 7,1 ms (0,5 ms más tarde, 7 %) y mide 0,10 µV.\n- @OI 80 V | La V del OI llega a 7,4 ms (1,3 ms más tarde, 21 %) con 0,09 µV. Las ondas casi se pierden en el ruido, y con marcas tan inestables el atraso de cada oído no se mide con confianza.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V"
+   ]
+  },
+  "F12-18": {
+   "kind": "fig",
+   "src": ":::figura cap12_siderosis vemp\n- @OD P13 | El VEMP cervical del OD mide 26 µV (0,52 corregida por el EMG).\n- @OI P13 | El del OI mide 66 µV (1,32 corregida). Los dos son chicos: **el nervio vestibular también está comprometido** (→ H12).\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13"
+   ]
+  },
+  "F12-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_hic_idiopatica_audiosupra.svg ancho=100% Audiometría de Laura: pérdida de graves en los dos oídos (55 dB en 125 Hz y 40 en 500 Hz en el OD; 55 dB en 125 y 250 Hz en el OI), ascendente, como la de un hidrops.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap12_hic_idiopatica_impedancia.svg ancho=100% Impedanciometría de Laura.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F12-21": {
+   "kind": "fig",
+   "src": ":::figura cap12_hic_idiopatica abr\n- @OD 80 I | En el OD la I llega a 1,6 ms, la III a 4,0 y la V a 6,3: **I-III de 2,4**, en el límite (2,4), **III-V de 2,3 ms** (límite 2,1) e **I-V de 4,7 ms** (límite 4,3; Sanfins y cols., 2026).\n- @OI 80 V | El OI es igual: III-V de 2,4 (límite 2,1) e I-V de 4,7 (límite 4,4). La diferencia interaural de la V es de 0,1 ms: **no hay testigo ni asimetría que leer**, y el alargamiento, de unos 0,3 ms, es leve.\n- @OD 80 V | La V es de 0,25 µV, menor que la I (0,44 µV): V/I alrededor de 0,6.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 I",
+    "@OI 80 V",
+    "@OD 80 V"
+   ]
+  },
+  "F12-22": {
+   "kind": "fig",
+   "src": ":::figura cap12_hic_idiopatica abr 2\n- @OD 80 V | A 81,1 estímulos por segundo la V del OD llega a 6,9 ms: **se atrasó 0,6 ms** (10 %), dentro del alargamiento de una V sana.\n- @OI 80 V | En el OI llega a 7,0 ms (+0,8 ms, 12 %): lo mismo. **La tasa alta no destapa nada más**: el registro de esfuerzo sale como el de un oído sano.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OI 80 V"
+   ]
+  },
+  "F12-23": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap12-rm-esclerosis-multiple.jpg ancho=80% id=rm-esclerosis-multiple Resonancia FLAIR en la esclerosis múltiple. Cortes axiales en orientación radiológica: la derecha de la persona queda a la izquierda. Imagen: dataset MSLesSeg (Guarnera F, Rondinella A y cols., 2025, Sci Data 12:920, doi:10.1038/s41597-025-05250-y; datos doi:10.6084/m9.figshare.27919209), CC BY 4.0, adaptada.\n- @31,40 | **Placas en la protuberancia**: las manchas blancas de su lado derecho. Es el tramo del tronco por donde pasa la vía auditiva.\n- @90,72 | **La misma persona, un corte más arriba**: placas alrededor de los ventrículos. Las lesiones están repartidas.\n:::",
+   "id": "rm-esclerosis-multiple",
+   "globos": [
+    "@31,40",
+    "@90,72"
+   ]
+  },
+  "F12-24": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap12-rm-infarto-aica.jpg ancho=100% id=rm-infarto-aica Infarto de la AICA derecha. A, vHIT: ganancia baja en los canales horizontal y posterior de los dos lados (0,64 y 0,65 a la derecha; 0,76 y 0,67 a la izquierda). B, audiometría: hipoacusia sensorioneural de 73 dB en el OD. C, difusión: el infarto agudo, blanco, en el territorio de la AICA derecha (la derecha queda a la izquierda de la imagen). Rótulos originales en inglés. Imagen: Kim SH, Kim H, Lee SU y cols. (2024), Front Neurol 15:1448989, doi:10.3389/fneur.2024.1448989, Fig. 1, CC BY 4.0.\n:::",
+   "id": "rm-infarto-aica",
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap12_esclerosis_multiple": {
+   "numero": "12.1",
+   "ficha": [
+    "**Rocío Torres**, 34 años · mujer",
+    "Tiene 34 años y es educadora de párvulos. Hace ocho meses vio doble durante tres semanas y se le durmió la pierna izquierda; se le pasó sola y no volvió a consultar. Hace poco, después de un turno largo, le volvió un hormigueo en la mano derecha y una fatiga que no se le quita con el descanso. Dice que oye bien, que no tiene pitidos ni mareos: viene porque la neuróloga, que sospecha una enfermedad desmielinizante, le pidió potenciales evocados mientras se consigue hora para la resonancia, que tiene lista de espera de varios meses.",
+    "Historia clínica",
+    "Hace 8 meses: Urgencia: visión doble y adormecimiento de la pierna izquierda; se indica observación y control.",
+    "Hace 45 días: Neurología: examen con signos piramidales leves; solicita resonancia y potenciales evocados visuales, auditivos de tronco y somatosensoriales.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap12_infarto_aica": {
+   "numero": "12.2",
+   "ficha": [
+    "**Iván Torres**, 63 años · hombre",
+    "Tiene 63 años y es taxista. Hace seis días, al levantarse, sintió que la pieza giraba, vomitó varias veces y notó que el oído derecho \"se había apagado\". Se agarraba de las paredes para caminar y la comisura derecha de la boca le quedó caída. El mareo fuerte cedió en un par de días, pero la audición del derecho no volvió y sigue inestable al caminar. No tiene pitido. Lo atendieron en un servicio de urgencia como \"sordera súbita con laberintitis\" y lo derivan con prioridad.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Enalapril 10 mg cada 12 horas; metformina 850 mg cada 12 horas",
+    "Historia clínica",
+    "Hace 6 días: Urgencia: vértigo intenso, vómitos, hipoacusia derecha y parálisis facial derecha de inicio brusco. Se indica corticoide oral y reposo.",
+    "Hace 2 días: Otorrinolaringología: solicita audiometría y potenciales evocados con prioridad.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap12_glioma_tronco": {
+   "numero": "12.3",
+   "ficha": [
+    "**Julia Delgado**, 7 años · mujer",
+    "Es una niña de 7 años que cursa segundo básico. Su mamá cuenta que desde hace unas seis semanas se tropieza y se le caen las cosas, que se queja de dolor de cabeza al despertar y que a veces \"se le va un ojo hacia adentro\". En la sala la profesora dice que \"no escucha cuando la llaman\". La pediatra pidió una resonancia, que está en lista de espera porque necesita sedación, y adelantó la evaluación auditiva.",
+    "Historia clínica",
+    "Hace 40 días: Pediatría: torpeza progresiva, cefalea matinal y desviación ocular intermitente; solicita resonancia con sedación y evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap12_siderosis": {
+   "numero": "12.4",
+   "ficha": [
+    "**Fernando Peña**, 58 años · hombre",
+    "Tiene 58 años y es contador. Hace unos tres años nota que oye menos por los dos oídos y que en las reuniones \"oye pero no entiende\". Tiene un zumbido agudo permanente en ambos oídos. Su señora dice que camina como \"pisando algodón\" y que se le ha enredado la letra. A los 34 años se cayó de un andamio, estuvo dos días inconsciente y lo operaron de un hematoma en la cabeza; después no tuvo secuelas. No toma medicamentos y nunca ha trabajado con ruido.",
+    "**Antecedentes:** TEC.",
+    "**Cirugías:** Drenaje de hematoma subdural hace 24 años",
+    "Historia clínica",
+    "Hace 2 años: Médico general: hipoacusia bilateral, se atribuye a la edad.",
+    "Hace 2 meses: Otorrinolaringología: hipoacusia bilateral progresiva con inestabilidad; solicita evaluación auditiva completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap12_hic_idiopatica": {
+   "numero": "12.5",
+   "ficha": [
+    "**Laura Peña**, 29 años · mujer",
+    "Tiene 29 años y es diseñadora gráfica. Hace cuatro meses le apareció un zumbido grave en los dos oídos que \"late\" con el pulso y que se calma cuando se tiende de lado. Oye como si tuviera los oídos tapados, sobre todo en las mañanas. Tiene dolor de cabeza casi todos los días y, de vez en cuando, la vista se le nubla unos segundos al agacharse. En el último año subió 15 kilos. Sin vértigo ni crisis de horas. El médico general pensó en Ménière y la envía a evaluación auditiva.",
+    "**Medicamentos:** Betahistina 16 mg cada 8 horas (sin mejoría)",
+    "Historia clínica",
+    "Hace 4 meses: Médico general: acúfeno bilateral y sensación de oído tapado; se indica betahistina.",
+    "Hace 30 días: Médico general: sin mejoría; deriva a evaluación auditiva por sospecha de hidrops.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

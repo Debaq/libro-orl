@@ -1,0 +1,95 @@
+{
+ "capitulo": "H1",
+ "md": "texto/capitulos/H01-anamnesis-otoscopia-y-lavado-de-oidos.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH1-01": {
+   "kind": "ilus",
+   "src": "![{IA} Para ver la membrana hay que alinear el conducto. En el adulto el pabellón se tracciona hacia arriba y atrás; en el niño pequeño, hacia atrás y a veces hacia abajo. El otoscopio se toma como un lápiz, con la mano apoyada en la cabeza: si el paciente se mueve, el espéculo se mueve con él y no lo daña. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h01-traccion.png)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h01-cuadrantes.svg Membranas timpánicas derecha e izquierda vistas por el otoscopio. Son imágenes en espejo: el mango baja siempre hacia atrás y el triángulo luminoso queda siempre adelante y abajo. Así sabes de qué oído es una foto. Imagen propia del libro.\n- @7.5,28 | **Anillo timpánico.** El borde engrosado que fija la membrana al hueso. Si no lo recorres entero, puedes no ver una perforación marginal.\n- @33,11 | **Pars flácida.** La porción pequeña de arriba, sobre la apófisis corta. Es donde se forman las bolsas de retracción del colesteatoma atical.\n- @33.5,19 | **Apófisis corta del martillo.** El punto blanco de arriba: la primera referencia que se busca.\n- @31,35 | **Mango del martillo.** Baja desde la apófisis corta hacia **posterior** hasta el umbo. Si se ve más horizontal y marcado, la membrana está retraída.\n- @20,50 | **Umbo.** El centro de la membrana, donde termina el mango.\n- @35,73 | **Triángulo luminoso.** El reflejo de la luz, siempre **anteroinferior**: a las 5 en el oído derecho y a las 7 en el izquierdo. Si falta o está deformado, algo cambió la forma o la posición de la membrana.\n- @46,43 | **Anterior.** Hacia la cara del paciente. En el oído derecho queda a tu derecha; en el izquierdo, a tu izquierda: las dos membranas se ven en espejo.\n- Las líneas punteadas siguen el mango y su perpendicular por el umbo, y dividen la pars tensa en cuatro **cuadrantes**: anterosuperior (AS), anteroinferior (AI), posterosuperior (PS) y posteroinferior (PI). Un hallazgo se ubica diciendo su cuadrante.\n:::",
+   "id": null,
+   "globos": [
+    "@7.5,28",
+    "@33,11",
+    "@33.5,19",
+    "@31,35",
+    "@20,50",
+    "@35,73",
+    "@46,43",
+    null
+   ]
+  },
+  "FH1-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h01-otoscopio.png {IA} El otoscopio y sus partes Imagen: ilustración generada con inteligencia artificial.\n<!-- dibujo: a handheld clinical otoscope shown from the side: cylindrical handle with battery, the head with its light source, the magnifying viewing lens at the back, and a disposable black ear speculum cone attached at the front. -->\n- @33,16 | **Espéculo.** El cono que entra al conducto. Se usa el más grande que entre cómodo: más luz y más campo de visión. Uno por paciente, o se limpia entre uno y otro.\n- @50,21 | **Fuente de luz.** Tiene que ser blanca e intensa: con una luz débil, como la de una ampolleta vieja, no se ve bien la membrana (Pichichero, 2000). Y el color solo no basta para juzgarla.\n<!-- Pasada de fundamentos 2026-10-18: \"Agranda unas tres veces\" se dejó: los otoscopios de diagnóstico traen lentes de 2,5x a 3x (fichas de fabricantes; no hay norma). -->\n- @69,22 | **Lente de aumento.** Por aquí miras. Agranda unas tres veces; en algunos modelos se desliza hacia un lado para pasar instrumentos.\n- @57,32 | **Cabezal.** Une la luz, la lente y el espéculo. En los modelos neumáticos tiene una conexión para la pera de goma (otoscopía neumática).\n- @53,62 | **Mango.** Lleva la batería. Se toma como un lápiz, apoyando el borde de la mano en la mejilla del paciente: si el paciente se mueve, el otoscopio se mueve con él.\n:::",
+   "id": null,
+   "globos": [
+    "@33,16",
+    "@50,21",
+    "@69,22",
+    "@57,32",
+    "@53,62"
+   ]
+  },
+  "FH1-04": {
+   "kind": "ilus",
+   "src": "![Membranas timpánicas normales. A: oído derecho. B: oído izquierdo. En las dos, arriba está el relieve blanco de la apófisis corta; desde ahí baja el mango del martillo hasta el umbo, en el centro, donde nace el triángulo luminoso. Compáralas: son imágenes en espejo. El mango baja hacia atrás y el triángulo queda adelante y abajo, a la derecha en A y a la izquierda en B. La membrana es gris y semitransparente. Imagen: dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0, adaptadas.](otoscopias/h01-normal.jpg)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-05": {
+   "kind": "ilus",
+   "src": "![Cerumen. A: tapón oclusivo, una masa café oscura con pelos adheridos que ocupa todo el lumen; no se ve la membrana. B: cerumen amarillento pegado a una pared, que deja un paso libre por el que se ve parte de la membrana. Imagen: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-cerumen.jpg)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-06": {
+   "kind": "ilus",
+   "src": "![Inflamación aguda. A: otitis externa; el conducto se ve estrechado por la piel hinchada, con restos blanquecinos en las paredes, y la membrana no se alcanza a ver. B: otitis media aguda; membrana abombada hacia el conducto, opaca y rojo violácea, sin mango del martillo ni triángulo luminoso visibles. Imagen: dataset eardrum (Polat, 2021), CC BY 4.0, adaptadas.](otoscopias/h01-otitis-aguda.jpg)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-07": {
+   "kind": "ilus",
+   "src": "![Otitis media crónica. A: perforación ovalada en la pars tensa, de bordes nítidos, por la que se ve la mucosa del oído medio, más oscura; la membrana vecina está engrosada. B: perforación amplia con la mucosa del oído medio enrojecida y una secreción amarilla acumulada en el fondo del conducto. Imagen: A, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada; B, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0.](otoscopias/h01-perforacion-otorrea.jpg)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-08": {
+   "kind": "ilus",
+   "src": "![A: miringoesclerosis; gran placa blanca, de aspecto calcáreo, en la mitad anterior de la pars tensa, con el resto de la membrana gris y translúcido. B: tubo de ventilación; un pequeño carrete blanco, con el lumen al centro, atraviesa la membrana. Imagen: A, dataset Ear imagery database (Viscaino y Auat Cheein, 2020), CC0; B, dataset eardrum (Polat, 2021), CC BY 4.0, adaptada.](otoscopias/h01-miringoesclerosis-tubo.jpg)",
+   "id": null,
+   "globos": []
+  },
+  "FH1-09": {
+   "kind": "ilus",
+   "src": "![{IA} El lavado de oído. Con el pabellón traccionado, la punta se apoya en la entrada sin ocluir el conducto y el chorro va a la pared posterosuperior: el agua pasa por detrás del tapón y lo empuja hacia afuera. El riñón bajo el oído recibe el agua. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h01-lavado.png)",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "h1_p35": {
+   "numero": "H1.1",
+   "ficha": [
+    "**Benjamín Soto**, 5 años · hombre",
+    "Benjamín tiene 5 años y va al kínder. Desde el invierno pasado ha tenido muchos resfríos y dos otitis con dolor y fiebre. La educadora del jardín le dijo a la mamá que a veces no responde cuando lo llaman y que se distrae en la ronda. En la casa sube mucho el volumen de la tele y dice \"¿qué?\" seguido. Ronca de noche y respira con la boca abierta. Le gustan los dinosaurios y andar en bicicleta. La mamá teme que \"se esté quedando sordo\" porque un primo usa audífono.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 4 años: Control sano con pediatra: desarrollo psicomotor normal, screening auditivo neonatal pasa en ambos oídos.",
+    "Hace 10 meses: Consulta con pediatra por otitis media aguda derecha; tratamiento con amoxicilina, buena respuesta.",
+    "Hace 5 meses: Consulta con pediatra por otitis media aguda izquierda; tratamiento con amoxicilina.",
+    "Hace 2 meses: Consulta con pediatra por resfríos a repetición; educadora del jardín refiere que no responde cuando lo llaman. Tímpanos opacos bilaterales. Se deriva a otorrinolaringólogo.",
+    "Hace 20 días: Otorrinolaringólogo: tímpanos opacos con nivel líquido bilateral, hipertrofia adenoidea. Se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana opaca, de color ámbar.",
+    "**Otoscopía OI:** Membrana ámbar, con burbujas y niveles de líquido detrás.",
+    "Vuelve en: Impedanciometría, H7.2 · Audiometría pediátrica, H8.1 · Emisiones, H9.3."
+   ]
+  }
+ }
+}

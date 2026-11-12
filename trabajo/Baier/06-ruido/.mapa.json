@@ -1,0 +1,184 @@
+{
+ "capitulo": "6",
+ "md": "texto/capitulos/06-ruido.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F6-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap06-electromotilidad.svg ancho=96% A la izquierda, el órgano de Corti en corte: una célula ciliada interna y tres externas sobre la membrana basilar, bajo la membrana tectoria. A la derecha, una célula ciliada externa ampliada en dos momentos, acortada y alargada: el cambio de largo es el motor del amplificador coclear.\n- @13.9,52.1 | **Célula ciliada interna** (una hilera): es el receptor, la que manda la señal al nervio.\n- @31.2,56.6 | **Células ciliadas externas** (tres hileras): casi no informan al cerebro; su trabajo es mover la membrana basilar.\n- @19.4,41.6 | **Membrana tectoria**: sobre ella se apoyan los estereocilios de las externas.\n- @51,85.5 | **Membrana basilar**: el movimiento de las externas empuja esta membrana y amplifica la vibración.\n- @78.1,60.5 | **Prestina**, en la pared lateral de la célula: la proteína que cambia de largo con el voltaje.\n- @85,31.6 | **Flecha doble**: la célula se acorta y se alarga siguiendo el sonido; la base queda fija y se mueve el extremo con los estereocilios.\n:::",
+   "id": null,
+   "globos": [
+    "@13.9,52.1",
+    "@31.2,56.6",
+    "@19.4,41.6",
+    "@51,85.5",
+    "@78.1,60.5",
+    "@85,31.6"
+   ]
+  },
+  "F6-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap06_p33_audiosupra.svg ancho=100% Audiometría de Tomás: 0 dB HL en todas las frecuencias de los dos oídos, sin muesca en 4 kHz. Diapasones normales, SDT de −5 dB y SRT de 0 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F6-03": {
+   "kind": "fig",
+   "src": ":::figura cap06_p33 teoae\n- @OD 2000 | Las cinco bandas del OD están llenas: pasan el criterio.\n- @OI 3000 | En el OI, lo mismo. La respuesta va muy por encima de la zona gris, que es el ruido.\n- La reproducibilidad es alta en los dos oídos: las dos memorias se parecen y lo que hay es emisión.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 3000",
+    null
+   ]
+  },
+  "F6-04": {
+   "kind": "fig",
+   "src": ":::figura cap06_p33 dpoae\n- @OD 4000 | El DP-grama del OD está entre 2 y 9 dB SPL de 1 a 8 kHz, muy por encima del ruido.\n- @OI 8000 | El del OI también llega hasta 8 kHz: **7 de 7** en los dos oídos.\n- Este DP-grama es parte de su línea de base: si en unos años el ruido le daña la cóclea, se va a comparar contra él.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 4000",
+    "@OI 8000",
+    null
+   ]
+  },
+  "F6-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap06_p37_audiosupra.svg ancho=100% Audiometría de Jorge: muesca bilateral simétrica con fondo en 4 kHz y recuperación en 8 kHz, discriminación de 100 % en el OD y 96 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 34,5 y 29,5 dB en 4 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F6-06": {
+   "kind": "fig",
+   "src": ":::figura cap06_p37 teoae\n- @OD 2000 | En el OD pasan 1; 1,5 y 2 kHz, y la reproducibilidad es de 86 %. Con **3 de 5**, es lo que pide el criterio para decir \"pasa\".\n- @OD 3000 | Pero 3 y 4 kHz quedan vacías: la TEOAE ve la muesca, aunque su resumen no la diga.\n- @OI 2000 | El OI pasa las mismas tres bandas, pero con una reproducibilidad de 66 %, bajo el 70 % que pide el criterio: no alcanza el \"pasa\".\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OD 3000",
+    "@OI 2000"
+   ]
+  },
+  "F6-07": {
+   "kind": "fig",
+   "src": ":::figura cap06_p37 dpoae\n- @OD 2000 | En el OD el DP está presente hasta 2 kHz.\n- @OD 4000 | Desde 3 kHz se pega al ruido: **3 de 7**, no pasa. El DP-grama dibuja la muesca.\n- @OI 3000 | En el OI el punto de 3 kHz queda apenas sobre el ruido, en −16 dB SPL, y cuenta como presente. Con él suma **4 de 7** y el equipo dice \"pasa\", aunque es el oído que oye peor en 3 y 4 kHz.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OD 4000",
+    "@OI 3000"
+   ]
+  },
+  "F6-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap06_trauma_acustico_agudo_audiosupra.svg ancho=100% Audiometría de Samuel: OD normal y muesca profunda del OI con fondo de 90 dB en 4 kHz y recuperación en 8 kHz. SISI de 90 %, Carhart sin deterioro y Metz ausente en 4 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F6-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap06_trauma_acustico_agudo_impedancia.svg ancho=100% Impedanciometría de Samuel.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F6-10": {
+   "kind": "fig",
+   "src": ":::figura cap06_trauma_acustico_agudo teoae\n- @OD 2000 | El OD pasa las cinco bandas, con 90 % de reproducibilidad.\n- @OI 1000 | En el OI solo queda la banda de 1 kHz, donde la audición es normal. Con **1 de 5** y 40 % de reproducibilidad, no pasa.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 1000"
+   ]
+  },
+  "F6-11": {
+   "kind": "fig",
+   "src": ":::figura cap06_trauma_acustico_agudo dpoae\n- @OI 1500 | En el OI el DP está presente en 1 y 1,5 kHz.\n- @OI 2000 | Desde 2 kHz desaparece: es la misma frontera del audiograma, donde la aérea pasa de 0 a 40 dB.\n- @OD 4000 | El OD tiene **7 de 7**: es la referencia de lo que el OI tenía antes del disparo.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 1500",
+    "@OI 2000",
+    "@OD 4000"
+   ]
+  },
+  "F6-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap06_muesca_4k_audiosupra.svg ancho=100% Audiometría de Lourdes: muesca bilateral simétrica con fondo en 4 kHz (75 dB en el OD, 70 dB en el OI) y recuperación en 8 kHz. Discriminación de 92 %, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F6-13": {
+   "kind": "fig",
+   "src": ":::figura cap06_muesca_4k teoae\n- OD: ausentes, con reproducibilidad de 32 %.\n- OI: presentes en 2 de 5 bandas, con reproducibilidad de 48 %.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F6-14": {
+   "kind": "fig",
+   "src": ":::figura cap06_muesca_4k dpoae\n- @OD 2000 | En el OD el DP pasa en 1; 1,5 y 2 kHz, pero en 2 kHz ya está bajo, en −10 dB SPL.\n- @OD 4000 | Desde 3 kHz se confunde con el ruido. Con **3 de 7**, no pasa.\n- @OI 8000 | El OI es igual, 3 de 7. En 8 kHz el umbral se recupera hasta 30 dB, pero no tanto como para que vuelva el DP: esa zona también perdió células ciliadas externas.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OD 4000",
+    "@OI 8000"
+   ]
+  }
+ },
+ "casos": {
+  "cap06_p33": {
+   "numero": "6.1",
+   "ficha": [
+    "**Tomás Fuentes**, 23 años · hombre",
+    "Tiene 23 años y acaba de titularse de técnico en electricidad; entra a trabajar en una minera del norte en un mes y la empresa le pide todos los exámenes de oído antes de firmar contrato. No nota ningún problema para escuchar: conversa bien en grupo, usa audífonos de celular para escuchar música en el bus pero dice que a volumen moderado. Una vez, después de un concierto hace dos años, quedó con el oído \"tapado\" y un pito por una noche, pero al día siguiente estaba bien. Juega fútbol los fines de semana y vive con sus papás. Lo único que le preocupa es que le vaya mal en el examen y no lo contraten.",
+    "Historia clínica",
+    "Hace 4 años: Consulta en servicio de urgencia por esguince de tobillo derecho jugando fútbol; se inmoviliza, buena evolución.",
+    "Hace 1 año: Control de salud estudiantil, sin hallazgos.",
+    "Hace 45 días: Examen preocupacional en mutualidad para ingreso a faena minera como técnico eléctrico; se solicita evaluación auditiva de base completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap06_p37": {
+   "numero": "6.2",
+   "ficha": [
+    "**Jorge Pizarro**, 47 años · hombre",
+    "Tiene 47 años y lleva 22 trabajando como operador de chancador en una minera, en turnos de 7x7. Usa tapones \"cuando se acuerda\" porque dice que le pican y no escucha la radio. Hace unos cinco años empezó con un pito agudo en los dos oídos, más en el izquierdo, que ahora tiene todo el día y le cuesta dormir con él. En la casa le reclaman que habla fuerte y que no entiende cuando le hablan desde otra pieza; en el trabajo, que no escucha los avisos por radio. Los fines de semana sale a cazar con escopeta. Le preocupa que lo saquen de la faena si sale mal el examen.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 8 años: Audiometría ocupacional anual de la empresa informada como \"dentro de rangos\".",
+    "Hace 2 años: Audiometría ocupacional anual: se indica reforzar uso de protección auditiva.",
+    "Hace 30 días: Evaluación en programa de vigilancia por exposición a ruido de la mutualidad; se deriva a evaluación auditiva y electrofisiológica completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap06_trauma_acustico_agudo": {
+   "numero": "6.3",
+   "ficha": [
+    "**Samuel Medina**, 19 años · hombre",
+    "Tiene 19 años y está haciendo el servicio militar. Hace cuatro días, en una práctica de tiro, un compañero disparó a su izquierda justo cuando él se estaba acomodando el protector auditivo. Desde ese momento siente el oído izquierdo \"tapado\", como con algodón, y tiene un pitido agudo de ese lado que no se le quita y que lo molesta más en la noche, cuando está todo en silencio. Conversa bien, pero dice que por la izquierda los sonidos le llegan \"como apagados\". No tuvo dolor, sangre ni mareos. Antes de esto nunca había tenido problemas de oído.",
+    "**Antecedentes:** trauma acústico.",
+    "**Medicamentos:** Prednisona oral desde hace dos días, indicada por el otorrinolaringólogo",
+    "Historia clínica",
+    "Hace 4 días: Enfermería del regimiento: oído izquierdo tapado y pitido tras práctica de tiro; otoscopía sin perforación. Se deriva a otorrinolaringología.",
+    "Hace 2 días: Otorrinolaringólogo: trauma acústico agudo OI. Indica tratamiento y solicita audiometría y emisiones otoacústicas.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap06_muesca_4k": {
+   "numero": "6.4",
+   "ficha": [
+    "**Lourdes Ruiz**, 32 años · mujer",
+    "Tiene 32 años y hace diez trabaja en la barra de una discoteca, cuatro noches por semana. No usa protección auditiva porque \"tiene que escuchar los pedidos\". Desde hace años sale del turno con los oídos silbando, pero antes se le pasaba al día siguiente. Hace como un año el silbido de los dos oídos ya no se le quita, y lo nota más al acostarse. Le cuesta entender a los clientes y a sus amigas cuando salen a comer a un lugar con ruido; conversando de a dos, en la casa, oye bien. No ha tenido mareos ni dolor de oídos. Su último turno fue hace tres días.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 1 año: Médico general: acúfeno bilateral persistente; otoscopía normal. Se indica evitar el ruido y control.",
+    "Hace 20 días: Otorrinolaringólogo: acúfeno bilateral y dificultad para entender en ruido; solicita evaluación audiológica con emisiones otoacústicas.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

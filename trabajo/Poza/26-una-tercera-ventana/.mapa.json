@@ -1,0 +1,179 @@
+{
+ "capitulo": "26",
+ "md": "texto/capitulos/26-una-tercera-ventana.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F26-01": {
+   "kind": "ilus",
+   "src": "![Dos cócleas desenrolladas. A: oído sano, con la ventana oval, la ventana redonda y una flecha gruesa a cada lado de la membrana basilar. B: el mismo oído con un orificio extra en la rampa vestibular por donde se escapa parte de la presión; las flechas sobre la membrana son más finas porque le llega menos energía, y la vía aérea oye peor.](ilustraciones/cap26-ventanas.svg)",
+   "id": null,
+   "globos": []
+  },
+  "F26-02": {
+   "kind": "ilus",
+   "src": "![Lo que deja una dehiscencia del conducto superior derecho en tres pruebas. Audiograma con la ósea bajo 0 dB y la aérea entre 9 y 11 dB: un gap sin oído medio enfermo. Reflejo presente a pesar del gap. Umbral del cVEMP de 81 dB nHL en el oído con dehiscencia contra 99 en el sano. Cifras promedio de la literatura.](ilustraciones/cap26-dehiscencia.svg)",
+   "id": null,
+   "globos": []
+  },
+  "F26-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap26-tc-dehiscencia.jpg ancho=95% id=tc-dehiscencia Tomografía de alta resolución de los huesos temporales, con una dehiscencia del conducto superior derecho (RT, derecho; LT, izquierdo). B, plano de Stenvers, perpendicular al conducto: en el oído derecho falta su techo óseo (flecha). C, plano de Pöschl, paralelo al conducto, que lo muestra como un anillo: en el derecho el anillo queda abierto arriba, contra la fosa media (flecha). D, el mismo plano en el oído izquierdo: el techo óseo es grueso. Los planos, según Noij y Rauch (2020, Front Neurol, doi:10.3389/fneur.2020.00695). Imagen: Reddy YM y Pandey AK (2025), Cureus, doi:10.7759/cureus.84477, CC BY 4.0, adaptada.\n:::",
+   "id": "tc-dehiscencia",
+   "globos": []
+  },
+  "F26-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_nistagmo.svg ancho=55% Nistagmo espontáneo de Marta en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_mariposa.svg Gráfico de mariposa de Marta: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_vhit.svg vHIT de Marta: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_audiosupra.svg ancho=100% Audiometría de Marta: el OD tiene 25 dB por vía aérea en 125, 250 y 500 Hz, con la vía ósea bajo cero (−5 dB en 250 y 500 Hz): un gap de 25 a 30 dB en los graves que se cierra hacia los 2 kHz. El OI es normal. Discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_impedancia.svg ancho=100% Impedanciometría de Marta.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_dehiscencia_ecochg.svg ancho=80% ECochG a 90 dB con click alternado, electrodo timpánico. El OD tiene la razón PS/PA de 0,64 y la razón de áreas de 2,90; el OI, de 0,33 y 1,65.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Lourdes en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_mariposa.svg Gráfico de mariposa de Lourdes: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_vhit.svg vHIT de Lourdes: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_audiosupra.svg ancho=100% Audiometría de Lourdes: el OD tiene 60 dB por vía aérea en 250 Hz y 0 dB por vía ósea, un gap de 60 dB sin ósea bajo cero; la ósea sube a 25 dB en 2 kHz, la muesca de Carhart. El OI es normal. Discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_impedancia.svg ancho=100% Impedanciometría de Lourdes.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_otoesclerosis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_nistagmo.svg ancho=55% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_mariposa.svg Gráfico de mariposa de Joaquín: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_vhit.svg vHIT de Joaquín: ganancia de 1,00 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_audiosupra.svg ancho=100% Audiometría de Joaquín: en 250 Hz el OD tiene 85 dB por vía aérea y 55 dB por vía ósea, un gap de 30 dB; en 1 kHz las dos curvas coinciden en 55 dB y queda una pérdida sensorioneural. El OI repite el patrón: 70 dB por vía aérea y 45 dB por ósea en 250 Hz, un gap de 25 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F26-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap26_pendred_impedancia.svg ancho=100% Impedanciometría de Joaquín.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap26_dehiscencia": {
+   "numero": "26.1",
+   "ficha": [
+    "**Marta Ramos**, 41 años · mujer",
+    "Tiene 41 años y es diseñadora gráfica. Hace dos años, después de una gripe fuerte, empezó a sentir el oído derecho \"tapado\" y a oír su propia voz demasiado fuerte, \"como hablar dentro de un tambor\". Al masticar una manzana el ruido le retumba en la cabeza y, de noche, con la oreja en la almohada, oye los latidos del corazón y hasta \"el ruido de los ojos\" cuando los mueve. Con la bocina de un bus o la sirena de una ambulancia siente que el piso se mueve un instante; cuando tose fuerte o se suena la nariz, la imagen se le \"salta\" unos segundos. Por el teléfono oye bien, y la conversación en un lugar con ruido no le cuesta más que antes. No ha tenido secreción ni dolor de oídos, ni golpes en la cabeza.",
+    "Historia clínica",
+    "Hace 2 años: Gripe fuerte; desde entonces, sensación de oído derecho tapado y autofonía.",
+    "Hace 4 meses: Otorrinolaringólogo: audiometría con gap aéreo-óseo en los graves del OD y otoscopía normal; se plantea otoesclerosis y se agenda una estapedotomía.",
+    "Hace 10 días: Antes de la cirugía, el mismo médico pide impedanciometría con reflejos y VEMP.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap26_otoesclerosis": {
+   "numero": "26.2",
+   "ficha": [
+    "**Lourdes Vargas**, 47 años · mujer",
+    "Tiene 47 años y es asistente de párvulos. Hace unos tres años nota que por el oído derecho oye menos: pasa el teléfono al otro lado y en la sala de clases se sienta de modo que su oído izquierdo mire al grupo. Su propia voz le suena \"apagada\", y al masticar no le hace ruido. No tiene pitido, mareos ni sensibilidad a los sonidos fuertes; la sirena de una ambulancia no le molesta más que a nadie. No ha tenido secreción ni dolor de oídos ni golpes en la cabeza. Su hermana mayor usa audífono desde los 40 años.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 3 años: Primera vez que nota que oye menos por el oído derecho.",
+    "Hace 2 meses: Otorrinolaringólogo: otoscopía normal; se piden audiometría, impedanciometría y VEMP antes de decidir tratamiento.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap26_pendred": {
+   "numero": "26.3",
+   "ficha": [
+    "**Joaquín Delgado**, 11 años · hombre",
+    "Tiene 11 años y está en sexto básico. Su mamá lo trae porque la profesora dice que \"no escucha\" y porque en el último año le pide que repita más. A los seis años le pusieron tubos de ventilación por \"pérdida conductiva\" y, según la mamá, no cambió nada. No ha tenido secreción de oídos y los resfríos le duran lo mismo que a sus hermanos. No tiene mareos ni zumbido. En los recreos juega a la pelota y es de los que se queda atrás de la conversación.",
+    "Historia clínica",
+    "Hace 5 años: Colocación de tubos de ventilación bilaterales por hipoacusia atribuida a oído medio; sin mejoría.",
+    "Hace 30 días: Pediatra: la profesora informa que no responde cuando se le habla desde atrás; se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

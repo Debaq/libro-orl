@@ -1,0 +1,32 @@
+{
+ "capitulo": "H31",
+ "md": "texto/capitulos/H31-polisomnografia-y-poligrafia-respiratoria.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH31-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h31-hipnograma.svg ancho=100% Hipnograma de una noche de ejemplo de 8 horas en cama. La vigilia está arriba, N3 abajo y el REM, sombreado, entre la vigilia y N1 (como suele graficarse). Cada período REM cierra un ciclo; las interrupciones cortas de vigilia son despertares. Cifras de ejemplo, calculadas con el script que dibuja la figura. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH31-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h31-montaje.svg ancho=100% A. Derivaciones de EEG recomendadas (F4, C4, O2, cada una referida a la mastoides izquierda M1) y de respaldo (F3, C3, O1, referidas a la derecha M2), sobre el sistema 10-20. B. Colocación de los demás sensores. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH31-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h31-eventos.svg ancho=100% Trazos de 30 s calculados para mostrar cuatro eventos respiratorios (la inspiración va hacia arriba; el evento está sombreado; las cifras de saturación son de ejemplo). Obstructiva: el flujo desaparece, el esfuerzo aumenta y tórax y abdomen se mueven en oposición. Central: el flujo y el esfuerzo desaparecen. Mixta: primero sin esfuerzo y luego con esfuerzo creciente. Hipopnea: el flujo baja y se aplana, el esfuerzo continúa, y la saturación cae unos puntos. En los cuatro casos, tras el evento aparecen respiraciones grandes de recuperación. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH31-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h31-informe.svg ancho=100% Resumen gráfico de la noche de ejemplo: hipnograma, eventos respiratorios (cada marca es un evento), posición corporal y saturación de oxígeno. Los eventos se acumulan en REM y en decúbito supino, y cada grupo de eventos deja su serie de desaturaciones. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

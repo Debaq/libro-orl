@@ -1,0 +1,162 @@
+{
+ "capitulo": "H9",
+ "md": "texto/capitulos/H09-emisiones-otoacusticas.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH9-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h09-sonda.svg ancho=100% La sonda de OEA puesta. Mira la oliva: sella la entrada; sin ese sello, el ruido de la sala llega al micrófono. El estímulo va de los parlantes a la cóclea y la emisión vuelve por el mismo camino, mucho más débil, hasta el micrófono: cruza dos veces el oído medio, y por eso un oído medio con líquido la apaga. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH9-02": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/eoa-teoae.png completa Pantalla de TEOAE al terminar un registro. Lee primero la calidad (sonda, reproducibilidad, estabilidad) y recién después el resultado por banda: si la calidad está en rojo, el registro no es confiable, diga PASS o REFER. Imagen propia: captura de LabSim.\n- @11,28 | **Chequeo de sonda.** Antes de medir, el equipo dispara clicks y muestra cómo los recoge el micrófono. Un click limpio y repetido es una sonda bien puesta.\n- @22.5,57 | **Sello.** Qué tan bien cierra la oliva. Con la sonda floja entra menos estímulo y el registro sale peor sin que la cóclea tenga nada.\n- @22.5,68 | **Parámetros.** Nivel del click (en dB SPL) y número de promedios (barridos).\n- @22.5,77.5 | **Oído.** Elige OD u OI antes de iniciar.\n- @28,15 | **Respuesta.** Lo que el micrófono recoge después de cada click, promediado. La emisión ocupa unos 20 ms.\n- @66,9 | **A / B.** El equipo guarda los barridos en dos memorias alternas. Si A y B se parecen, lo que hay es respuesta; si no, es ruido. A−B es el ruido que queda.\n- @80,14 | **Espectro.** La emisión (línea negra) sobre el ruido (gris), de 0,5 a 5 kHz.\n- @56.5,63 | **SNR por banda.** Cuántos dB está la emisión sobre el ruido en cada banda. Verde: pasa.\n- @68,73 | **Umbral.** La línea roja punteada es el criterio del equipo: 6 dB.\n- @16,91 | **Reproducibilidad** (correlación entre A y B) y **estabilidad** del estímulo. Si están en rojo, el registro no es confiable.\n- @81,70 | **Resultado.** PASS o REFER, con cuántas bandas pasaron.\n:::",
+   "id": null,
+   "globos": [
+    "@11,28",
+    "@22.5,57",
+    "@22.5,68",
+    "@22.5,77.5",
+    "@28,15",
+    "@66,9",
+    "@80,14",
+    "@56.5,63",
+    "@68,73",
+    "@16,91",
+    "@81,70"
+   ]
+  },
+  "FH9-03": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/eoa-dpoae.png completa Pantalla de DPOAE, con los dos oídos superpuestos: el OI dentro de la franja normal y el OD pegado al piso de ruido. La comparación entre los dos oídos se ve de un vistazo. Imagen propia: captura de LabSim.\n- @92,18 | **Rango normal.** La franja verde es donde cae la DPOAE de un oído normal en cada f2.\n- @68,22 | **DP del OI.** Dentro de la franja y muy por encima del ruido en todas las frecuencias: presente.\n- @45,31 | **DP del OD.** Pegado al piso de ruido (NF, la zona gris) en todas las frecuencias: ausente.\n- @23.5,60 | **L1 y L2.** El nivel de los dos tonos: 65 y 55 dB SPL.\n- @40,60 | **Espectro del punto en medición.** Los dos picos altos son f1 y f2.\n- @32,67 | El pico chico en 1.918 Hz es el **producto de distorsión**, 2f1−f2: un tono que el equipo no presentó y que fabricó la cóclea.\n- @20,85.5 | **Punto en medición.** Con f2 de 3.000 Hz, f1 es 2.459 Hz (razón 1,22) y el DP cae en 1.918 Hz.\n- @23.5,94 | **Tabla por frecuencia.** DP, ruido, SNR y resultado de cada f2.\n- @85,60 | **Función de entrada/salida.** El DP crece a medida que sube L2. Donde aparece sobre el ruido está el **umbral del DP**.\n:::",
+   "id": null,
+   "globos": [
+    "@92,18",
+    "@68,22",
+    "@45,31",
+    "@23.5,60",
+    "@40,60",
+    "@32,67",
+    "@20,85.5",
+    "@23.5,94",
+    "@85,60"
+   ]
+  },
+  "FH9-04": {
+   "kind": "fig",
+   "src": ":::figura h9_p33 teoae\n- @OD 2000 | Cada punto es una banda. **Lleno**: la emisión pasó el criterio. Los cinco del OD están llenos.\n- @OI 3000 | La línea del oído va muy por encima de la zona gris, que es el ruido.\n- La reproducibilidad es de 91 % en el OD y de 89 % en el OI: las dos memorias se parecen, lo que hay es respuesta.\n- Su DPOAE también está presente en los dos oídos, de 1 a 8 kHz y dentro del rango normal: 7 de 7. Es el informe de ejemplo de arriba. Para la minera, esta es su **línea de base**: si algún día el ruido le daña la cóclea, la DPOAE de agudos va a ser de lo primero en caer.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 3000",
+    null,
+    null
+   ]
+  },
+  "FH9-05": {
+   "kind": "fig",
+   "src": ":::figura h9_p36 dpoae\n- @OD 1000 | En el OD queda emisión en 1 kHz, donde la audición es casi normal.\n- @OD 2000 | En 1,5 y 2 kHz sigue sobre el ruido, pero cada vez más chica: muy por debajo de lo que da un oído normal.\n- @OD 4000 | Desde 3 kHz, el DP se confunde con el ruido. Es el **DP-grama descendente** que acompaña a un audiograma descendente.\n- @OI 1000 | En el OI, que oye 5 dB peor, no queda ningún punto: **0 de 7**.\n- El OD pasa 3 de 7 puntos y no alcanza el criterio. Las dos pruebas están \"ausentes\", pero la DPOAE dice **dónde** queda cóclea funcionando.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OD 2000",
+    "@OD 4000",
+    "@OI 1000",
+    null
+   ]
+  },
+  "FH9-06": {
+   "kind": "fig",
+   "src": ":::figura h9_p35 dpoae\n- @OD 3000 | En el OD quedan tres puntos sobre el ruido, de 2 a 4 kHz, pero en −11 a −17 dB SPL: muy lejos del rango normal. Con 3 de 7, no pasa.\n- @OI 2000 | En el OI, ninguno.\n- Leída sola, esta DPOAE parece la de Hernán. Lo que la separa es el **timpanograma B**: el oído medio lleno frena la emisión dos veces, de ida y de vuelta. Con un B, la ausencia no dice nada de la cóclea.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 3000",
+    "@OI 2000",
+    null
+   ]
+  },
+  "FH9-07": {
+   "kind": "fig",
+   "src": ":::figura h9_rn teoae\n- @OD 2000 | TEOAE presente en los dos oídos: 5 de 5 bandas, reproducibilidad de 83 % (OD) y 87 % (OI). Un equipo de tamizaje diría **pasa**.\n- @OI 3000 | A los 5 días de vida, el vérnix y el líquido del parto ya no estorban: la emisión vuelve entera.\n- El AABR a 35 dB nHL, en cambio, **refiere en los dos oídos**. La hiperbilirrubinemia con exanguinotransfusión es un indicador de riesgo (JCIH, 2019): por eso a Aurora no le basta la TEOAE y se le hace también el AABR.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 3000",
+    null
+   ]
+  },
+  "FH9-08": {
+   "kind": "fig",
+   "src": ":::figura h9_p40 teoae\n- @OD 2000 | TEOAE **presente**: 4 de 5 bandas en el OD y 5 de 5 en el OI, con reproducibilidad de 90 y 91 %. La DPOAE también está presente, de 1 a 8 kHz.\n- @OD 1000 | Solo la banda de 1 kHz del OD queda bajo el criterio. Con 4 de 5, pasa igual.\n- Con 40 dB HL de pérdida coclear estas emisiones no estarían: su cóclea funciona.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OD 1000",
+    null
+   ]
+  },
+  "FH9-09": {
+   "kind": "fig",
+   "src": ":::figura h9_p40 abr\n- @OD 80 | Sin ondas a 80 dB en el OD. A 60 tampoco.\n- @OI 80 | El OI es igual: **ABR ausente** a intensidades altas.\n- OEA presentes con ABR ausente y microfónica coclear presente: **neuropatía auditiva** (si no hay microfónica, primero se revisa el equipo y el estímulo). Las células ciliadas externas funcionan; lo que falla está después: la célula ciliada interna, la sinapsis o el nervio (Starr y cols., 1996). → H10, cap. 13.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 80",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h9_p33": {
+   "numero": "H9.1",
+   "ficha": [
+    "**Tomás Fuentes**, 23 años · hombre",
+    "Examen preocupacional para una minera; no nota problemas para oír.",
+    "Anamnesis y otoscopía: caso H3.2 · Audiometría: H3.2 · VEMP: H12.1 · Audiometría ocupacional: H24.1"
+   ]
+  },
+  "h9_p36": {
+   "numero": "H9.2",
+   "ficha": [
+    "**Hernán Contreras**, 74 años · hombre",
+    "Le cuesta entender a sus nietos y en los almuerzos familiares.",
+    "Anamnesis y otoscopía: caso H3.4 · Audiometría: H3.4 · Logoaudiometría: H5.2 · Prueba de audífonos: H21.1"
+   ]
+  },
+  "h9_p35": {
+   "numero": "H9.3",
+   "ficha": [
+    "**Benjamín Soto**, 5 años · hombre",
+    "Resfríos y otitis desde el invierno; no responde cuando lo llaman.",
+    "Anamnesis y otoscopía: caso H1.1 · Impedanciometría: H7.2 · Audiometría pediátrica: H8.1"
+   ]
+  },
+  "h9_rn": {
+   "numero": "H9.4",
+   "ficha": [
+    "**Aurora Luna**, 5 días · mujer",
+    "Aurora nació hace cinco días, de término y por parto normal. Al segundo día se puso muy amarilla y la bilirrubina siguió subiendo pese a la fototerapia, así que la pasaron a la UCI neonatal y le hicieron una exanguinotransfusión. Hoy está estable, toma pecho y duerme bien. Antes del alta, la matrona pide el tamizaje auditivo. La mamá pregunta si \"lo de la amarilla\" le puede haber hecho algo en los oídos.",
+    "Historia clínica",
+    "Hace 3 días: UCI neonatal: hiperbilirrubinemia grave sin respuesta a fototerapia; exanguinotransfusión.",
+    "Hace 0 días: Neonatología: estable, en preparación para el alta. Solicita tamizaje auditivo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h9_p40": {
+   "numero": "H9.5",
+   "ficha": [
+    "**Valentina Morales**, 15 años · mujer",
+    "Tiene 15 años y está en primero medio. Dice que escucha que le hablan pero muchas veces no entiende las palabras, sobre todo en la sala con ruido o cuando el profesor habla de espaldas; en los dictados le va mal. Hay días en que entiende mejor y días en que casi nada. Le gusta dibujar y ve series con subtítulos. De chica le decían distraída y la mandaron al neurólogo, que dijo que no tenía nada. La mamá cuenta que nació prematura, que estuvo muy amarilla y le cambiaron la sangre, y que el examen de oído al nacer \"salió bueno\".",
+    "Historia clínica",
+    "Hace 15 años: Nacimiento a las 33 semanas, 1.850 g, cesárea. Hiperbilirrubinemia severa con fototerapia y exanguinotransfusión; 20 días en UCI neonatal. Screening auditivo neonatal con emisiones otoacústicas: pasa en ambos oídos.",
+    "Hace 8 años: Control con pediatra: profesora refiere que no sigue instrucciones en clases; se sospecha déficit atencional.",
+    "Hace 2 años: Neurólogo infantil: examen neurológico normal, descarta déficit atencional.",
+    "Hace 40 días: Consulta con otorrinolaringólogo por dificultad para entender en la sala de clases; otoscopia normal. Se deriva a evaluación auditiva y electrofisiológica.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

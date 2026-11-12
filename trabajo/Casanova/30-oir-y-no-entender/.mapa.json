@@ -1,0 +1,186 @@
+{
+ "capitulo": "30",
+ "md": "texto/capitulos/30-oir-y-no-entender.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F30-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap30-que-mide-el-puntaje.svg ancho=96% El puntaje de una prueba central suma cinco cosas, y solo una es la que se quiere medir. Un puntaje bajo no dice cuál falló: las otras cuatro son confusores que hay que cerrar o describir.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_tpa_audiosupra.svg ancho=100% Audiometría de Juan: umbrales en 0 dB y discriminación de 100 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_tpa_impedancia.svg ancho=100% Impedanciometría de Juan.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-04": {
+   "kind": "fig",
+   "src": ":::figura cap30_nino_tpa teoae\n- OD: presentes en los 5 bandas, con reproducibilidad de 93 %.\n- OI: presentes en los 5 bandas, con reproducibilidad de 93 %.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F30-05": {
+   "kind": "fig",
+   "src": ":::figura cap30_nino_tpa dpoae\n- @OD 2000 | Productos de distorsión presentes en todas las bandas: las células ciliadas externas funcionan.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F30-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap30-perfil-nino.svg ancho=96% Perfil de rendimiento de Juan, en desviaciones estándar respecto de la norma de cada versión. La banda rosada marca lo que cae bajo 2 DE: fíjate en que no cae todo el perfil, sino el OI en dígitos dicóticos y el patrón de frecuencia.\n- @39,34 | Un solo oído bajo la banda: el **OI en dígitos dicóticos**, con el OD normal. Es una diferencia entre oídos, no una pérdida general.\n- @41,44 | El **patrón de frecuencia** también cae. Cruzar dos pruebas que exigen cosas distintas es lo que da peso.\n- @77,60 | Habla en ruido, gaps y duración dentro de lo esperable: el perfil es **parcial**, no global.\n:::",
+   "id": null,
+   "globos": [
+    "@39,34",
+    "@41,44",
+    "@77,60"
+   ]
+  },
+  "F30-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_tpa_cortical.svg ancho=100% MLR de Juan con click a 70 dB nHL, C3, Cz y C4 (dos réplicas por canal). Mira si la Pa está en las dos réplicas y si el tamaño de Na-Pa es parecido entre C3 y C4.\n- @23.6,10.7 | **Pa** a 29 ms en C3 y a 32 ms en Cz y C4, en las dos réplicas: dentro de la ventana de 25 a 40 ms.\n- @19.6,62.0 | **Na** de 17 a 18 ms en los tres canales. La barra de escala es de 1 µV: por eso los trazos se ven más ruidosos que los tardíos.\n- @63.4,29.6 | La Na del OI en C3 es débil (21 ms en una réplica y 14 en la otra): no se mide.\n- @66.0,59.7 | **Na-Pa** de 0,9 µV en C3 y 1,1 µV en C4 con el oído izquierdo: 20 % de diferencia entre lados, sin un patrón de hemisferio.\n:::",
+   "id": null,
+   "globos": [
+    "@23.6,10.7",
+    "@19.6,62.0",
+    "@63.4,29.6",
+    "@66.0,59.7"
+   ]
+  },
+  "F30-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_tpa_cortical_2.svg ancho=100% P300 de Juan en Pz, con el estímulo frecuente en gris. Mira si la onda positiva grande aparece en las dos réplicas y en qué milisegundo.\n- @24.5,10.0 | **P3** de 389 ms. La onda es ancha (de 360 a 460 ms), en las dos réplicas.\n- @20.5,19.0 | Solo la P3 se mide: P2 y N2 no se identifican en las dos réplicas.\n- @68.5,8.5 | **P3** de 423 ms sobre el promedio; las réplicas la dan a 431 y a 368 ms. La dispersión (63 ms) es mayor que la diferencia entre oídos.\n:::",
+   "id": null,
+   "globos": [
+    "@24.5,10.0",
+    "@20.5,19.0",
+    "@68.5,8.5"
+   ]
+  },
+  "F30-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_tpa_cortical_3.svg ancho=100% MMN de Juan en Fz (diferencia raro menos frecuente; los promedios, en gris). Mira si la negatividad entre 150 y 250 ms está en las dos réplicas.\n- @69.2,71.0 | **MMN** a 181 ms, en las dos réplicas (−1,8 y −1,7 µV, a 184 y 178 ms): dentro de los 150 a 250 ms y de 0,5 a 5 µV.\n- @26.5,56.9 | En el OD una réplica tiene la MMN (−3,4 µV a 173 ms) y la otra casi no (−0,9 µV): no se repite y queda no concluyente.\n:::",
+   "id": null,
+   "globos": [
+    "@69.2,71.0",
+    "@26.5,56.9"
+   ]
+  },
+  "F30-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_mayor_ruido_audiosupra.svg ancho=100% Audiometría de Sara: pérdida leve en voz y caída en agudos, con discriminación de 92 % y 96 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_mayor_ruido_impedancia.svg ancho=100% Impedanciometría de Sara.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-12": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap30-perfil-mayor.svg ancho=96% Perfil de rendimiento de Sara contra normas de su edad. Bajo la banda de 2 DE quedan el OI en dígitos dicóticos y el habla en ruido, la prueba más parecida a su queja; lo temporal está dentro de su rango.\n- @40,36 | El **oído izquierdo en dígitos dicóticos** queda bajo 2 DE. La ventaja del oído derecho es habitual con la edad; lo que pesa es la distancia respecto de su grupo.\n- @44,73 | El **habla en ruido** también queda bajo la banda: es la prueba más parecida a la queja.\n- @66,50 | Gaps y patrón de duración están dentro del rango de su edad: no hay un déficit temporal global.\n:::",
+   "id": null,
+   "globos": [
+    "@40,36",
+    "@44,73",
+    "@66,50"
+   ]
+  },
+  "F30-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_mayor_ruido_cortical.svg ancho=100% CAEP de Sara en Cz con burst de 1 kHz a 70 dB nHL. Mira P1, N1 y P2 en las dos réplicas y compara los dos oídos.\n- @22.0,74.1 | **N1** a 114 ms en los dos oídos.\n- @27.6,16.0 | **P2** a 190 ms y 192 ms. La BSA (2022) da de 200 a 250 ms como rango típico del adulto: está 10 ms bajo, y el rango es orientativo, no un límite.\n- @61.4,30.7 | **P1** a 75 ms en el OI, en las dos réplicas. En el OD no se identifica en las dos réplicas y no se rotula.\n:::",
+   "id": null,
+   "globos": [
+    "@22.0,74.1",
+    "@27.6,16.0",
+    "@61.4,30.7"
+   ]
+  },
+  "F30-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_mayor_ruido_cortical_2.svg ancho=100% P300 de Sara en Pz, con el estímulo frecuente en gris. Mira la onda positiva ancha hacia los 350 ms y si se repite en las réplicas.\n- @29.2,12.1 | **P3** a 342 ms, en las dos réplicas (337 y 349 ms).\n- @72.3,25.4 | **P3** a 359 ms, ancha: la réplica baja la tiene a 359 ms y la alta a 319 ms. Los demás componentes del OI no están en las dos réplicas.\n- @23.9,62.6 | La N2 de 223 ms (OD) es parte de la misma secuencia; no se mide.\n:::",
+   "id": null,
+   "globos": [
+    "@29.2,12.1",
+    "@72.3,25.4",
+    "@23.9,62.6"
+   ]
+  },
+  "F30-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_otitis_audiosupra.svg ancho=100% Audiometría de Natalia: pérdida conductiva en graves, con discriminación de 100 % solo a 60 y 70 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_otitis_impedancia.svg ancho=100% Impedanciometría de Natalia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F30-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap30_nino_otitis_cortical.svg ancho=100% CAEP de Natalia en Cz a 70 dB nHL. Mira la primera positividad (P1) y si está en las dos réplicas de cada oído.\n- @23.2,24.9 | **P1** a 110 ms en las dos réplicas (una tiene además un hombro a 82 ms). La regresión da 92 ms a los 7 años: está 18 ms sobre la media y en el margen alto de su edad.\n- @66.2,28.2 | En el OI la P1 (121 ms) está en una réplica y la otra no la muestra: no se rotula, **no concluyente**, se repite.\n- @35.8,70.8 | La negatividad que sigue, hacia los 310 ms, es la **N2** del niño, en las dos réplicas. A los 7 años la N1 y la P2 del adulto todavía no se separan: la respuesta del niño es P1 y N2 (Sharma y cols., 1997).\n:::",
+   "id": null,
+   "globos": [
+    "@23.2,24.9",
+    "@66.2,28.2",
+    "@35.8,70.8"
+   ]
+  }
+ },
+ "casos": {
+  "cap30_nino_tpa": {
+   "numero": "30.1",
+   "ficha": [
+    "**Juan Zamora**, 9 años · hombre",
+    "Tiene 9 años y está en cuarto básico. La profesora dice que \"se va\" cuando hay ruido en la sala, que pide repetir las instrucciones largas y que en el dictado cambia palabras parecidas. En el recreo y en el comedor del colegio casi no entiende lo que le dicen. En la casa, con la tele baja, se las arregla bien. Es bueno para armar cosas y para los juegos de mesa. La madre cuenta que \"oye cuando quiere\", pero que en el auto no entiende a quien le habla desde atrás. Lee más lento que sus compañeros. No ha tenido dolor de oídos desde los 3 años.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 10 meses: Fonoaudióloga: lenguaje comprensivo y expresivo en rango esperado; conciencia fonológica algo baja para la edad.",
+    "Hace 7 meses: Psicóloga: capacidad cognitiva en rango medio; atención sin hallazgos importantes.",
+    "Hace 30 días: Médico general: otoscopía normal bilateral. Se deriva a audiología por sospecha de trastorno de procesamiento auditivo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap30_mayor_ruido": {
+   "numero": "30.2",
+   "ficha": [
+    "**Sara Pérez**, 71 años · mujer",
+    "Tiene 71 años, es profesora jubilada y vive con su marido. Desde hace unos tres años le cuesta seguir las conversaciones en los almuerzos familiares y en el almacén. En silencio, en una conversación de a dos y por teléfono se las arregla. Dice: \"oigo, pero no entiendo\", y que sus nietos \"hablan muy rápido\". Se cansa al final del día de tanto esforzarse y ya evita las reuniones. Tiene un pitido leve en los dos oídos, a ratos. No ha tenido mareos ni asimetría. El marido nota que olvida más los nombres, aunque ella lo atribuye a la edad.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día",
+    "Historia clínica",
+    "Hace 3 meses: Médico general: otoscopía normal; audiometría de pesquisa con \"audición casi normal\". Se deriva a evaluación audiológica completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap30_nino_otitis": {
+   "numero": "30.3",
+   "ficha": [
+    "**Natalia Sánchez**, 7 años · mujer",
+    "Tiene 7 años y está en segundo básico. La profesora jefe la describe como \"en las nubes\": no responde cuando se le habla desde lejos, pide repetir y se distrae en las clases. Sugiere evaluar si tiene un trastorno de procesamiento auditivo. La madre cuenta que en la casa sube el volumen de la tele, que ronca y duerme con la boca abierta, y que se resfría seguido; en los últimos dos meses está peor. Habla bien, con alguna \"s\" poco clara. Nunca le han hecho una audiometría.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 2 meses: Consulta por resfrío: tímpanos \"opacos\", sin antibiótico; se indica control que no se hizo.",
+    "Hace 20 días: Profesora jefe: sugiere evaluación auditiva y de \"procesamiento\"."
+   ]
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "capitulo": "H22",
+ "md": "texto/capitulos/H22-revision-y-medicion-electroacustica-del-audifono.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH22-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h22-caja-acoplador.svg ancho=96% La cámara de medida: altavoz, micrófono de referencia, audífono y acoplador. El analizador mantiene el tono al nivel pedido con el micrófono de referencia y mide lo que llega al micrófono del acoplador; la ganancia es la salida menos la entrada. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH22-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h22-distorsion-ruido.svg ancho=96% Qué son la distorsión armónica y el ruido equivalente de entrada. A: con un tono puro a la entrada, todo lo que sale en 2f, 3f y 4f lo agregó el audífono. B: el siseo propio se expresa como si viniera de afuera (nivel de salida menos ganancia), para poder comparar audífonos que amplifican distinto. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH22-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h22-curva-ejemplo.svg ancho=96% Qué mide cada curva: OSPL90, ganancia y promedio de alta frecuencia. La curva roja es el techo del audífono; la verde, lo que entrega con una entrada de 60 dB SPL, y su distancia a la línea de la entrada es la ganancia. El HFA promedia 1.000, 1.600 y 2.500 Hz. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

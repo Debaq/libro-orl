@@ -1,0 +1,44 @@
+{
+ "capitulo": "H28",
+ "md": "texto/capitulos/H28-olfatometria.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH28-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-transduccion.svg ancho=100% Cómo una neurona receptora convierte una molécula en una señal eléctrica. El odorante se une al receptor (1); la proteína G activa la adenilil ciclasa (2); sube el AMPc (3); el AMPc abre un canal CNG por el que entran cationes, entre ellos Ca²⁺ (4); y el Ca²⁺ abre un canal de cloro por el que sale Cl⁻, que suma despolarización (5) (Kleene, 2008; Whitcroft y cols., 2023). El dibujo es un esquema: las proporciones no son reales. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH28-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-via.svg ancho=100% Camino del olor, en corte lateral. Los dos sentidos del aire llegan al mismo epitelio: el ortonasal, al inspirar por la nariz, y el retronasal, desde la boca y la faringe. Los axones atraviesan los orificios de la lámina cribosa y hacen sinapsis en los glomérulos del bulbo; la señal sigue a la corteza primaria y a las áreas secundarias. Esquema sin escala. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH28-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-pruebas.svg ancho=100% Las tres tareas psicofísicas y el puntaje que se obtiene en cada una. En la realidad los bolígrafos tienen el mismo aspecto: los colores del dibujo solo muestran cuál contiene qué, y en el umbral y la discriminación se venda los ojos al paciente. Los nombres de los olores de la identificación son de ejemplo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH28-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-escalera.svg ancho=90% Una escalera de umbral, calculada con la regla de los pasos 1 y 2 para un paciente de ejemplo. Parte del paso 16 (0,000122 %) y sube la concentración con cada error; en el trío 17 hay dos aciertos seguidos en el paso 5: primera inversión. Las inversiones ocurren en los pasos 5, 6, 4, 5, 4, 5 y 4; el promedio de las últimas cuatro (5, 4, 5, 4) es 4,5. Las respuestas son un ejemplo, no un paciente real. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH28-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-edad.svg ancho=100% Promedio (verde, arriba) y percentil 10 (azul, abajo) del TDI por grupo de edad, con los cortes de adultos jóvenes (30,75 y 16). El paciente de ejemplo (31 a 40 años) está bajo el percentil 10 de su grupo; después de tres meses sigue bajo, pero más cerca. Datos de Oleszkiewicz y cols. (2019); el caso es un ejemplo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH28-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h28-tdi.svg ancho=100% Informe de ejemplo: los subpuntajes, el total y la clasificación en la escala de 0 a 48. La paciente pasa de 23,5 a 29, un aumento de 5,5 puntos: alcanza la diferencia mínima importante, pero sigue en hiposmia (el corte de normosmia es 30,75). Ninguna subprueba alcanza por sí sola su diferencia mínima (2,5 y 3). Datos de ejemplo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

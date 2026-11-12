@@ -1,0 +1,232 @@
+{
+ "capitulo": "H3",
+ "md": "texto/capitulos/H03-audiometria-tonal.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH3-01": {
+   "kind": "fig",
+   "src": ":::figura h3radiografia audiograma completa\n- @OD 125 | **Frecuencias**: graves a la izquierda, agudos a la derecha, de octava en octava. Las interoctavas (3 y 6 kHz) llevan un rótulo más chico.\n- @OI 125 | **dB HL**: crecen hacia abajo; más abajo es oír peor. El 0 no es silencio, es lo que oye un joven normal. La franja gris, hasta 20 dB, es lo normal.\n- @OD 250 | <span class=\"od\">○</span> **aérea del OD sin enmascarar**, 25 dB. Los puntos de la aérea se unen con línea continua.\n- @OD 1000 | <span class=\"od\">△</span> **aérea del OD enmascarada**, 60 dB: con el tono tan fuerte, el OI podía oírlo por el OD y se le puso ruido (→ H4).\n- @OI 1000 | <span class=\"oi\">✕</span> **aérea del OI sin enmascarar**, 20 dB.\n- @OI 2000 | <span class=\"oi\">□</span> **aérea del OI enmascarada**, 60 dB.\n- @OD osea 1000 | <span class=\"od\">[</span> **ósea del OD enmascarada**, 20 dB. La ósea se une con línea punteada.\n- @OD osea 4000 | <span class=\"od\">&lt;</span> **ósea del OD sin enmascarar**, 65 dB: no hizo falta ruido porque la aérea y la ósea están juntas.\n- @OI osea 500 | <span class=\"oi\">&gt;</span> **ósea del OI sin enmascarar**, 10 dB; en 2 kHz, <span class=\"oi\">]</span> enmascarada.\n- @OD 500 | **Gap aéreo-óseo**: 55 − 20 = 35 dB en 500 Hz. En los agudos la aérea y la ósea van juntas: en el OD la pérdida es **mixta**.\n- @OD 8000 | **Sin respuesta**: no oyó ni a la salida máxima del equipo. El símbolo va en el tope con una **flecha** hacia abajo.\n- <span class=\"od\">◢</span> <span class=\"oi\">◣</span> **Triángulos rellenos de abajo**: el umbral de molestia (LDL), unidos con guiones (→ H5). En el OD, en 4 kHz no marcó molestia ni al máximo: lleva la misma flecha. En el OI, entre 95 y 105 dB.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 125",
+    "@OI 125",
+    "@OD 250",
+    "@OD 1000",
+    "@OI 1000",
+    "@OI 2000",
+    "@OD osea 1000",
+    "@OD osea 4000",
+    "@OI osea 500",
+    "@OD 500",
+    "@OD 8000",
+    null
+   ]
+  },
+  "FH3-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-dos-vias.svg ancho=96% Las dos vías y lo que deja ver cada una. La aérea pasa por todo el oído; la ósea se salta el externo y el medio. Por eso la ósea dice cómo está la cóclea y la distancia entre las dos dice cuánto pierde la transmisión. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-funcion-psicometrica.svg ancho=96% El umbral como probabilidad de detección. Entre el nivel que nunca se oye y el que se oye siempre hay una franja de pocos decibeles; el umbral es el punto de esa subida en que se detecta la mitad de los tonos. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-hl-spl.svg ancho=96% El mismo oído normal, en dB SPL y en dB HL. En SPL el umbral normal cambia con la frecuencia: los graves necesitan mucha más presión. En HL se resta esa referencia, el oído normal queda en 0 en todas y cualquier pérdida se lee como distancia a esa línea. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-tonotopia.svg ancho=96% Dónde cae cada frecuencia del audiograma en la cóclea: los agudos en la base, junto a la ventana oval, y los graves en el ápice. Fíjate en el tramo de la base que queda sobre 8 kHz, fuera de la audiometría convencional. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/labsim-audiometro-tono.png completa Un audiómetro listo para enmascarar: tono por el canal 1 al oído que mides, ruido por el canal 2 al oído contrario. Lee siempre las dos pantallas antes de presentar. Imagen propia: captura de LabSim.\n- @3,6 | **Pantalla del canal 1.** Intensidad (40 dB HL), transductor (*Aerea*), paso (5 dB), salida (*Derecha*) y estímulo (*Tono*). Léela antes de cada presentación: es lo que de verdad va a sonar.\n- @40,9 | **Frecuencia y prueba.** 1.000 Hz, en *Umbrales*. Se cambia con las flechas de *Frecuencia*.\n- @31,23.5 | **Indicador de respuesta.** Se pone lila cuando el paciente levanta la mano. Es tu único dato: no mires al paciente, mira esto.\n- @97,6 | **Pantalla del canal 2.** Ruido de banda estrecha (*Narrow Band Noise*) a 60 dB al oído izquierdo: es el enmascarante (→ H4).\n- @3.2,35.4 | **Salida.** A qué oído va el canal. Un error aquí invierte el audiograma completo.\n- @18.8,31.5 | **Estímulo.** Tono, tono modulado (FM), habla y los ruidos: blanco (WN), banda estrecha (NBN), rosa (PN) y de habla (SN).\n- @29.7,31.5 | **Transductor.** Fonos (*Aéreo*) o vibrador (*Osea*). Al pasar a ósea, cambia también lo que tiene puesto el paciente.\n- @53.6,35.4 | **Alta frecuencia.** Suma las frecuencias de 9 a 16 kHz para el monitoreo de ototóxicos.\n- @39.2,44.6 | **Pasos.** 1, 3 o 5 dB por clic de la perilla. Para buscar umbrales se usa 5.\n- @60.8,44.5 | **Rango extendido** (*Ext.*). Lleva la vía aérea de 100 a 120 dB HL.\n- @6,80 | **Perilla del canal 1.** Sube y baja la intensidad del canal.\n- @17.6,78.9 | **Pulsado e Invertir.** Pulsado: el tono suena en pulsos. Invertir: el canal queda sonando continuo; así se deja encendido el ruido enmascarante.\n- @17.6,90.4 | **Estímulo (botón grande).** El tono suena **solo mientras lo mantienes apretado**. Uno a dos segundos, con pausas irregulares.\n- @39.2,69.1 | **Talkback.** Le hablas al paciente dentro de la cabina, por ejemplo para darle la instrucción.\n:::",
+   "id": null,
+   "globos": [
+    "@3,6",
+    "@40,9",
+    "@31,23.5",
+    "@97,6",
+    "@3.2,35.4",
+    "@18.8,31.5",
+    "@29.7,31.5",
+    "@53.6,35.4",
+    "@39.2,44.6",
+    "@60.8,44.5",
+    "@6,80",
+    "@17.6,78.9",
+    "@17.6,90.4",
+    "@39.2,69.1"
+   ]
+  },
+  "FH3-07": {
+   "kind": "ilus",
+   "src": "![{IA} La audiometría en cabina. El fono rojo va en el oído derecho y el azul en el izquierdo, centrados sobre el conducto; el paciente responde con el pulsador y no ve el panel. Un fono corrido deja pasar menos sonido y el umbral sale peor de lo que es. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h03-cabina-fonos.png)",
+   "id": null,
+   "globos": []
+  },
+  "FH3-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-metodos-umbral.svg ancho=100% Cuatro formas de buscar el umbral, con el mismo umbral de 25 dB HL. Compara en qué dirección avanza cada una y en qué punto se juzga el umbral: la descendente arriesga que el paciente siga respondiendo por inercia. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-09": {
+   "kind": "ilus",
+   "src": "![{IA} Dónde va el vibrador óseo: de plano sobre la mastoides, detrás del pabellón sin tocarlo y con el conducto libre. Sobre el pelo, tocando el pabellón o demasiado alto, el umbral óseo sale peor de lo que es. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h03-vibrador-mastoides.png)",
+   "id": null,
+   "globos": []
+  },
+  "FH3-10": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-alta-frecuencia.svg ancho=100% Por qué se mide sobre 8 kHz cuando se vigila un ototóxico. El mismo oído antes del cisplatino (gris) y a las seis semanas (azul): hasta 8 kHz las curvas coinciden y el audiograma convencional no muestra nada; sobre 8 kHz el control cae 20 a 30 dB. Por eso cada control se compara con la línea de base del mismo paciente. Valores ilustrativos. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h03-simbolos.svg ancho=86% Los símbolos del audiograma, del Fowler y de la acumetría. Rojo para el derecho, azul para el izquierdo; los óseos, corridos hacia el lado del oído, como si el paciente te mirara de frente. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-12": {
+   "kind": "fig",
+   "src": ":::figura h3_p33 audiograma\n- @OD 1000 | El **círculo rojo** es la aérea del OD: 0 dB HL en todas las frecuencias.\n- @OD osea 1000 | El **< rojo** es la ósea del OD sin enmascarar. Va corrido a la izquierda de la línea de 1 kHz.\n- @OI 2000 | La **✕ azul** es la aérea del OI.\n- @OI osea 2000 | El **> azul** es la ósea del OI, corrida a la derecha.\n- Todo está en 0: audición normal en los dos oídos. En un oído así la ósea no hacía falta; acá está para que veas dónde va cada símbolo.\n- Para la minera, esta es la **audiometría de base**: cada control futuro de Tomás se va a comparar contra ella.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OD osea 1000",
+    "@OI 2000",
+    "@OI osea 2000",
+    null,
+    null
+   ]
+  },
+  "FH3-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/h3_p34_audiograma.svg ancho=100% Audiometría del caso H3.3: hipoacusia conductiva del OD, con el OI normal enmascarado. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/h3_p36_audiograma.svg ancho=100% Audiometría del caso H3.4: hipoacusia sensorioneural bilateral, simétrica y descendente. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/h3_p41_audiograma.svg ancho=100% Audiometría de Luis (caso H3.1): hipoacusia mixta del OI. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-16": {
+   "kind": "ilus",
+   "src": "![El promedio tonal a ojo. A la izquierda, nivelar: 30, 40 y 50 dB pasan a 35, 40 y 45 y luego a 40, 40 y 40, y esa línea es el promedio. A la derecha, el anclaje: 20, 30, 40 y 60 dB contados en escalones desde 30.](ilustraciones/h03-ptp-nivelar.svg)",
+   "id": null,
+   "globos": []
+  },
+  "FH3-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/h3_p42_audiograma.svg ancho=100% Audiometría del caso H3.5: curva sombra en el OD, que sin enmascarar \"responde\" lo que oye el OI. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH3-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/h3_p37_audiograma.svg ancho=100% Audiometría del caso H3.6: muesca por ruido, bilateral y casi simétrica. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "h3_p41": {
+   "numero": "H3.1",
+   "ficha": [
+    "**Luis Navarro**, 41 años · hombre",
+    "Tiene 41 años y es chofer de micro. Desde niño tuvo problemas con los oídos y lo operaron para ponerle tubos. Hace unos cinco años, cada vez que se resfría, le empieza a salir líquido amarillo y con mal olor del oído izquierdo: con gotas se le seca en un par de semanas y vuelve a los meses. La última vez fue hace unos cuatro meses y desde entonces lo tiene seco. Escucha cada vez menos por ese lado y tiene un zumbido intermitente. No ha tenido vértigo. Igual se tapa el oído con algodón para ducharse, por si acaso. Le preocupa que lo tengan que operar y perder días de trabajo.",
+    "**Antecedentes:** otitis.",
+    "**Cirugías:** Colocación de tubos de ventilación en ambos oídos a los 4 años.",
+    "Historia clínica",
+    "Hace 37 años: Colocación de tubos de ventilación bilaterales por otitis media a repetición.",
+    "Hace 5 años: Consulta con médico general por otorrea izquierda; gotas óticas con antibiótico, mejora.",
+    "Hace 1 año: Nueva consulta por otorrea izquierda de mal olor, con un resfrío; gotas óticas, mejora parcial.",
+    "Hace 4 meses: Otro episodio de otorrea izquierda con un resfrío; gotas óticas, se seca.",
+    "Hace 30 días: Otorrinolaringólogo: otorrea izquierda recurrente, hoy oído seco; se solicita tomografía de oídos. Se deriva a evaluación auditiva completa antes de decidir cirugía.",
+    "**Otoscopía OD:** Membrana íntegra, con el mango del martillo y el triángulo luminoso.",
+    "sin foto",
+    "**Otoscopía OI:** Conducto seco, sin secreción; membrana opaca y engrosada.",
+    "Vuelve en: Enmascaramiento, H4.2 · Logoaudiometría, H5.4."
+   ]
+  },
+  "h3_p33": {
+   "numero": "H3.2",
+   "ficha": [
+    "**Tomás Fuentes**, 23 años · hombre",
+    "Tiene 23 años y acaba de titularse de técnico en electricidad; entra a trabajar en una minera del norte en un mes y la empresa le pide todos los exámenes de oído antes de firmar contrato. No nota ningún problema para escuchar: conversa bien en grupo, usa audífonos de celular para escuchar música en el bus pero dice que a volumen moderado. Una vez, después de un concierto hace dos años, quedó con el oído \"tapado\" y un pito por una noche, pero al día siguiente estaba bien. Juega fútbol los fines de semana y vive con sus papás. Lo único que le preocupa es que le vaya mal en el examen y no lo contraten.",
+    "Historia clínica",
+    "Hace 4 años: Consulta en servicio de urgencia por esguince de tobillo derecho jugando fútbol; se inmoviliza, buena evolución.",
+    "Hace 1 año: Control de salud estudiantil, sin hallazgos.",
+    "Hace 45 días: Examen preocupacional en mutualidad para ingreso a faena minera como técnico eléctrico; se solicita evaluación auditiva de base completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Emisiones, H9.1 · VEMP, H12.1 · Audiometría ocupacional, H24.1."
+   ]
+  },
+  "h3_p34": {
+   "numero": "H3.3",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Oye menos por el oído derecho desde su segundo embarazo, y cada vez peor.",
+    "Anamnesis y otoscopía: caso H2.1 · Acumetría: H2.1 · Logoaudiometría: H5.1 · Impedanciometría: H7.1 · VEMP: H12.3"
+   ]
+  },
+  "h3_p36": {
+   "numero": "H3.4",
+   "ficha": [
+    "**Hernán Contreras**, 74 años · hombre",
+    "Tiene 74 años, es carpintero jubilado y vive con su señora. Dice que él escucha bien y que \"la gente ahora habla para adentro\"; lo que más le cuesta es entender a sus nietos y las conversaciones en los almuerzos familiares, donde termina asintiendo sin entender. Pone la tele fuerte y eso molesta a su señora, que fue la que insistió en que viniera. Hace un par de años siente un siseo en los dos oídos, sobre todo cuando está en silencio. En el taller usó sierra y lijadora toda la vida sin protección. No quiere audífonos porque \"son para viejos\".",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg cada 12 horas; aspirina 100 mg al día.",
+    "Historia clínica",
+    "Hace 10 años: Diagnóstico de hipertensión arterial; inicia losartán.",
+    "Hace 1 año: Control cardiovascular en CESFAM, presión controlada.",
+    "Hace 3 meses: Control cardiovascular: esposa refiere que no escucha bien y que discuten por el volumen de la televisión. Se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Logoaudiometría, H5.2 · Emisiones, H9.2 · Prueba de audífonos, H21.1."
+   ]
+  },
+  "h3_p42": {
+   "numero": "H3.5",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "No oye por el oído derecho desde las paperas, a los 6 años.",
+    "Anamnesis y otoscopía: caso H2.3 · Acumetría: H2.3 · Enmascaramiento: H4.1 · VEMP: H12.4"
+   ]
+  },
+  "h3_p37": {
+   "numero": "H3.6",
+   "ficha": [
+    "**Jorge Pizarro**, 47 años · hombre",
+    "Tiene 47 años y lleva 22 trabajando como operador de chancador en una minera, en turnos de 7x7. Usa tapones \"cuando se acuerda\" porque dice que le pican y no escucha la radio. Hace unos cinco años empezó con un pito agudo en los dos oídos, más en el izquierdo, que ahora tiene todo el día y le cuesta dormir con él. En la casa le reclaman que habla fuerte y que no entiende cuando le hablan desde otra pieza; en el trabajo, que no escucha los avisos por radio. Los fines de semana sale a cazar con escopeta. Le preocupa que lo saquen de la faena si sale mal el examen.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 8 años: Audiometría ocupacional anual de la empresa informada como \"dentro de rangos\".",
+    "Hace 2 años: Audiometría ocupacional anual: se indica reforzar uso de protección auditiva.",
+    "Hace 30 días: Evaluación en programa de vigilancia por exposición a ruido de la mutualidad; se deriva a evaluación auditiva y electrofisiológica completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Audiometría ocupacional, H24.2."
+   ]
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "capitulo": "H24",
+ "md": "texto/capitulos/H24-audiometria-ocupacional-y-vigilancia-del-ruido.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH24-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h24-intercambio.svg ancho=90% Dos reglas para el tiempo permitido: 3 dB y 5 dB. Las dos dan 8 horas en su nivel de partida (85 y 90 dB(A)), pero a 100 dB(A) la de 3 dB permite 15 minutos y la de 5 dB, 2 horas: cuanto más fuerte el ruido, más se separan. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH24-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/labsim-audiometro-vigilancia.png completa El audiómetro, con el canal 1 armado para una audiometría de vigilancia Imagen propia: captura de LabSim.\n- @3,6 | **Pantalla del canal 1.** Aquí se lee lo que va a sonar: nivel, transductor (*Aérea*), salida y estímulo. En el chequeo del día se recorre con un oyente de audición conocida, de nivel bajo a nivel alto, buscando ruidos extraños.\n- @40,9 | **Frecuencia.** El chequeo la recorre de 250 a 8.000 Hz; la vigilancia usa 500 a 8.000 (250 solo en confirmación y egreso).\n- @3.2,35.4 | **Salida.** A qué oído va el tono. Un error aquí invierte el audiograma, y como es un control contra una base, **inventa un cambio** que no existe.\n- @18.8,31.5 | **Estímulo.** En vigilancia, solo *Tono*. Los ruidos (blanco, banda estrecha) son para el enmascaramiento, que este método no usa.\n- @29.7,31.5 | **Transductor.** *Aéreo*, siempre. El vibrador óseo no forma parte de la vigilancia.\n- @39.2,44.6 | **Pasos.** 5 dB para buscar el umbral, igual que en H3.\n- @53.6,35.4 | **Alta frecuencia.** Fuera de la vigilancia de ruido (se usa para ototóxicos, → H3).\n- @97,6 | **Pantalla del canal 2.** Sin uso: no se enmascara, y por eso el método sirve para pérdidas simétricas.\n- @17.6,90.4 | **Estímulo (botón grande).** El tono suena solo mientras lo mantienes apretado: 1 a 2 segundos, con pausas irregulares.\n- @39.2,69.1 | **Talkback.** Para dar la instrucción antes de poner los fonos y para pedir una pausa si algo distrae al trabajador.\n:::",
+   "id": null,
+   "globos": [
+    "@3,6",
+    "@40,9",
+    "@3.2,35.4",
+    "@18.8,31.5",
+    "@29.7,31.5",
+    "@39.2,44.6",
+    "@53.6,35.4",
+    "@97,6",
+    "@17.6,90.4",
+    "@39.2,69.1"
+   ]
+  },
+  "FH24-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h24-ergo-puesto.svg ancho=100% Puesto sentado de quien examina (A) y examen de un niño (B). Los ángulos de cuello (menos de 25°) y de rodilla (90° a 135°) son los de la condición aceptable del protocolo chileno de vigilancia de trastornos musculoesqueléticos (MINSAL, 2025); el dibujo es un esquema, no una medida. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH24-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h24-cambio-umbral.svg ancho=100% Dos controles contra la misma base, y qué dice cada criterio. Con la muesca ya formada (A) los tres criterios coinciden; con la muesca incipiente (B) solo NIOSH, que mira una frecuencia sola, marca el cambio. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH24-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h24-flujo.svg ancho=100% Del control periódico al cambio confirmado. Un cambio no se informa en el primer control: se reexplica, se repite y se confirma en condiciones de base antes de mandarlo a revisión. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH24-06": {
+   "kind": "fig",
+   "src": ":::figura h24_p33 audiograma\n- @OD 4000 | 0 dB HL en todas las frecuencias, también en 4 kHz, que es donde el ruido va a dejar su marca si la deja. Esta es la **base**: contra ella se leerá todo.\n- @OI 8000 | El OI es igual. Sin muesca: el audiograma no ve lo que el concierto de hace dos años haya podido dejar en las sinapsis (→ cap. 6).\n- Para la minera, esta es la audiometría de ingreso. El informe de una base lleva lo mismo que el de un control: el equipo, las horas de reposo, la sala, la otoscopía y la fecha.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 4000",
+    "@OI 8000",
+    null
+   ]
+  },
+  "FH24-07": {
+   "kind": "fig",
+   "src": ":::figura h24_p37 audiograma\n- @OD 3000 | A 3 kHz el OD está en 40 dB: ya cayó 35 dB desde 1 kHz (5 dB).\n- @OD 4000 | El fondo, en 55 dB. Si la base de Jorge hubiera sido la de Tomás, el cambio sería de 55 dB: más de tres veces el criterio de NIOSH (15 dB).\n- @OD 8000 | En 8 kHz el OD vuelve a 30 dB: la recuperación de la muesca.\n- @OI 4000 | El OI llega a 60 dB: la misma forma en los dos oídos. El promedio de 2, 3 y 4 kHz del OD es 38,3 dB y el del OI, 43,3 dB. Nada de esto se puede llamar \"cambio\" sin una base: la de Jorge, de hace 22 años, es la que se necesita.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 3000",
+    "@OD 4000",
+    "@OD 8000",
+    "@OI 4000"
+   ]
+  }
+ },
+ "casos": {
+  "h24_p33": {
+   "numero": "H24.1",
+   "ficha": [
+    "**Tomás Fuentes**, 23 años · hombre",
+    "Examen preocupacional para una minera; no nota problemas para oír.",
+    "Anamnesis y otoscopía: caso H3.2 · Audiometría: H3.2 · Emisiones: H9.1 · VEMP: H12.1"
+   ]
+  },
+  "h24_p37": {
+   "numero": "H24.2",
+   "ficha": [
+    "**Jorge Pizarro**, 47 años · hombre",
+    "22 años en un chancador; pito en los dos oídos y no entiende desde otra pieza.",
+    "Anamnesis y otoscopía: caso H3.6 · Audiometría: H3.6"
+   ]
+  }
+ }
+}

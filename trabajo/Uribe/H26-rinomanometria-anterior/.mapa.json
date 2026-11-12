@@ -1,0 +1,69 @@
+{
+ "capitulo": "H26",
+ "md": "texto/capitulos/H26-rinomanometria-anterior.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH26-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-colapso.svg ancho=100% Una válvula blanda, con inspiración forzada. La rama inspiratoria (la fosa derecha, en rojo, en el cuadrante I; la izquierda, en azul, en el II) se aplana en una meseta: por más presión que se haga, el flujo ya no sube. La espiratoria (cuadrantes III y IV) sigue creciendo. A 150 Pa, la resistencia de la fosa derecha es cerca de 0,6 Pa/(cm³/s) al inspirar y 0,36 al espirar. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH26-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-curvas.svg ancho=100% La relación presión-flujo de cada fosa. A: las curvas en los cuatro cuadrantes; la derecha (rojo) pasa por I y III, la izquierda (azul) por II y IV; las líneas verticales de rayas marcan 75 y 150 Pa y la diagonal punteada es la recta de la resistencia de referencia (0,4): una curva que pasa por encima de ella tiene menos resistencia que esa. B: la misma información como resistencia contra presión, en inspiración: sube a medida que la presión crece. A 150 Pa la fosa derecha da 0,35 y la izquierda 0,29 Pa/(cm³/s); el total, 0,16. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH26-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-broms.svg ancho=100% La idea del gráfico polar de Broms. Las dos fosas cortan el mismo círculo de referencia (el dibujo lo muestra como elipse porque los dos ejes no miden lo mismo por unidad); la resistencia de cada una es la pendiente de la recta del origen a su punto. Una pendiente más empinada es menos resistencia. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH26-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-montaje.svg ancho=100% La rinomanometría anterior activa, midiendo la fosa derecha Imagen propia del libro.\n- @36,68 | **Máscara.** Cubre nariz y boca, con una presión leve: si deja escapar aire, el flujo medido es menor que el real. Cubre también la boca para que todo el aire pase por el neumotacógrafo: por eso el paciente debe tener la boca cerrada, porque el aire que entra o sale por ella ya no es el de la nariz.\n- @29,47 | **Adaptador y tubo de presión.** Va en la fosa **contraria** a la que mides. Por ella no circula aire, así que el sensor detecta la presión de la nasofaringe. El tamaño no debe deformar la narina.\n- @40,62 | **Neumotacógrafo.** Un tubo con una resistencia conocida (una malla, en este dibujo): el aire que pasa deja una pequeña diferencia de presión entre sus dos lados, y de ella el equipo calcula el flujo.\n- @45,17 | **Transductor de flujo.** Convierte esa diferencia de presión en una señal eléctrica. Es el eje vertical de la curva.\n- @68,74 | **Transductor de presión.** Recibe la presión del tubo nasal. Es el eje horizontal de la curva.\n- @73,35 | **Registro.** El equipo cruza presión y flujo en cada instante y dibuja la curva; calcula la resistencia a la presión de referencia.\n- @84,59 | **Fosa medida** (la derecha, en rojo): queda libre, sin nada dentro.\n- @90.5,59 | **Fosa ocluida** (la izquierda, en azul): lleva el adaptador y el tubo de presión.\n:::",
+   "id": null,
+   "globos": [
+    "@36,68",
+    "@29,47",
+    "@40,62",
+    "@45,17",
+    "@68,74",
+    "@73,35",
+    "@84,59",
+    "@90.5,59"
+   ]
+  },
+  "FH26-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-equipo.png ancho=96% El resultado de una rinomanometría anterior: curva de las dos fosas, resistencia según la presión y tabla. Paciente con desviación y cornetes congestionados, 4 ciclos por fosa, en reposo (línea continua) y con vasoconstrictor (discontinua). Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @84,19 | **Curva en reposo** de la fosa derecha (roja, continua): el promedio de los ciclos. Las líneas finas son cada ciclo.\n- @75,11 | **Con vasoconstrictor** (discontinua): la misma fosa después de la prueba. Más flujo con la misma presión es menos resistencia.\n- @80,69 | **Cuadrantes.** La fosa derecha (roja) va en I y III; la izquierda (azul), en II y IV. Presión en el eje horizontal, flujo en el vertical.\n- @64,13 | **Recta de 0,4.** La diagonal punteada es la resistencia de referencia del libro: una curva que pasa por debajo de ella tiene más resistencia que 0,4.\n- @59,62 | **75 y 150 Pa.** Las dos líneas verticales de rayas son las presiones en que se lee la resistencia.\n- @76,77 | **Resistencia según la presión.** El gráfico pequeño es el B de la figura de las curvas, con la raya de referencia (0,4).\n- @75,93.8 | **R 150.** Resistencia a 150 Pa de cada fosa: 150 Pa dividido por el flujo de la columna de al lado. En rojo lo que supera 0,4 (la derecha, 0,81); en verde lo que está dentro (la izquierda, 0,38).\n- @92,94 | **R 150 con VC y cambio.** La derecha baja de 0,81 a 0,46 (−43 %): bajó, pero no llegó a 0,4, así que es **mixta** según la tabla de *Cómo se informa*. La izquierda ya estaba dentro de la referencia (0,38) y, según el paso 7, no necesitaba la prueba; aquí se la midió igual y bajó a 0,29, y por eso el total con vasoconstrictor es 0,18.\n- @-2,98.5 | **Total.** Las dos fosas en paralelo, 1 / RT = 1 / RD + 1 / RI: 0,26 en reposo y 0,18 con vasoconstrictor.\n:::",
+   "id": null,
+   "globos": [
+    "@84,19",
+    "@75,11",
+    "@80,69",
+    "@64,13",
+    "@59,62",
+    "@76,77",
+    "@75,93.8",
+    "@92,94",
+    "@-2,98.5"
+   ]
+  },
+  "FH26-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-vasoconstrictor.svg ancho=86% Las tres respuestas al vasoconstrictor en la fosa derecha, como resistencia según la presión: reposo (línea continua) y con vasoconstrictor (discontinua). La raya horizontal punteada es el valor de referencia (0,4) y las verticales, 75 y 150 Pa. A: vasomotora, a 150 Pa baja de 0,57 a 0,29 y queda bajo la referencia. B: mixta, baja de 0,80 a 0,46 sin llegar a la referencia. C: mecánica, 0,53 y 0,48: casi no cambia. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH26-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h26-rs-irregular.svg ancho=100% Una respiración irregular. Los ciclos sueltos (las líneas finas) no se parecen entre sí, tienen pausas y saltos, y el promedio (la línea gruesa) se quiebra. Los ciclos varían 15 % en la fosa derecha y 18 % en la izquierda: no son reproducibles y se repite la medición. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

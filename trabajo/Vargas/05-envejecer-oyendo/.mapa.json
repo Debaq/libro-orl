@@ -1,0 +1,88 @@
+{
+ "capitulo": "5",
+ "md": "texto/capitulos/05-envejecer-oyendo.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F5-01": {
+   "kind": "ilus",
+   "src": "![Cóclea desenrollada de la base al ápex, con la frecuencia que responde en cada tramo (de 20.000 Hz en la base a 20 Hz en el ápex). Sobre ella, dónde caen los sonidos del habla: las vocales y la voz en los tramos graves y medios; las consonantes s, f, ch y t en el tramo basal. La base, donde caen la s, la f, la ch y la t, es la que se pierde primero con la edad: la voz se sigue oyendo, pero se escapan las consonantes.](ilustraciones/05-tonotopia-habla.svg)",
+   "id": null,
+   "globos": []
+  },
+  "F5-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_p36_audiosupra.svg ancho=100% Audiometría de Hernán: sensorioneural descendente y simétrica, con LDL de 100 a 105 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_p36_impedancia.svg ancho=100% Impedanciometría de Hernán.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_p36_logoaudiometria.svg ancho=50% Curva de discriminación de Hernán: sube despacio, llega a su máximo y baja poco.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_metabolica_audiosupra.svg ancho=100% Audiometría de Clara: sensorioneural descendente y simétrica, casi la curva de Hernán, con LDL de 95 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_metabolica_impedancia.svg ancho=100% Impedanciometría de Clara.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_metabolica_logoaudiometria.svg Curva de discriminación de Clara, con el oído contrario enmascarado.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F5-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap05_metabolica_logoaudiometria_2.svg La misma búsqueda del roll-over, sin enmascarar el oído contrario.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap05_p36": {
+   "numero": "5.1",
+   "ficha": [
+    "**Hernán Contreras**, 74 años · hombre",
+    "Tiene 74 años, es carpintero jubilado y vive con su señora. Dice que él escucha bien y que \"la gente ahora habla para adentro\"; lo que más le cuesta es entender a sus nietos y las conversaciones en los almuerzos familiares, donde termina asintiendo sin entender. Pone la tele fuerte y eso molesta a su señora, que fue la que insistió en que viniera. Hace un par de años siente un siseo en los dos oídos, sobre todo cuando está en silencio. En el taller usó sierra y lijadora toda la vida sin protección. No quiere audífonos porque \"son para viejos\".",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg cada 12 horas; aspirina 100 mg al día.",
+    "Historia clínica",
+    "Hace 10 años: Diagnóstico de hipertensión arterial; inicia losartán.",
+    "Hace 1 año: Control cardiovascular en CESFAM, presión controlada.",
+    "Hace 3 meses: Control cardiovascular: esposa refiere que no escucha bien y que discuten por el volumen de la televisión. Se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap05_metabolica": {
+   "numero": "5.2",
+   "ficha": [
+    "**Clara Paredes**, 56 años · mujer",
+    "Tiene 56 años y es secretaria en la oficina de un colegio. Tiene diabetes tipo 2 desde los 41 años; los primeros años no se cuidó mucho y hoy se pone insulina en la noche. Hace dos años le trataron la retina con láser y el año pasado el nefrólogo le dijo que los riñones le están funcionando \"a medias\". Desde hace unos dos años siente un siseo en los dos oídos, parejo, todo el día, que nota más en la noche. Le cuesta entender en las reuniones de apoderados y cuando hablan varios a la vez; por teléfono se arregla bien. Cree que \"es la edad\", porque su mamá usó audífonos desde los 80. Nunca ha trabajado con ruido, no ha tenido mareos ni otitis y no recuerda haber estado hospitalizada.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Metformina 850 mg al día; insulina glargina 22 unidades en la noche; losartán 50 mg cada 12 horas",
+    "Historia clínica",
+    "Hace 2 años: Oftalmólogo: retinopatía diabética no proliferativa en ambos ojos; fotocoagulación con láser.",
+    "Hace 10 meses: Nefrólogo: enfermedad renal crónica etapa 3a por nefropatía diabética. Ajusta la dosis de metformina y mantiene losartán.",
+    "Hace 2 meses: Médico de familia, control cardiovascular: refiere zumbido en ambos oídos y dificultad para entender en grupo. Otoscopía normal. Deriva a otorrinolaringología.",
+    "Hace 15 días: Otorrinolaringólogo: otoscopía normal bilateral. Solicita audiometría con logoaudiometría y emisiones otoacústicas.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

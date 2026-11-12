@@ -1,0 +1,55 @@
+{
+ "capitulo": "H15",
+ "md": "texto/capitulos/H15-procesamiento-auditivo-central.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH15-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-via-dicotica.svg Escucha dicótica. Cada oído manda su mensaje a los dos hemisferios, pero con competencia gana la vía cruzada (gruesa) y se suprime la del mismo lado (discontinua). El dígito del oído derecho llega directo al hemisferio del lenguaje; el del izquierdo llega al derecho y tiene que cruzar el cuerpo calloso. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH15-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-mld.svg Interacción binaural. A: tono y ruido iguales en los dos oídos; se oyen en el mismo lugar y el tono cuesta separarlo. B: el ruido igual y el tono con fase invertida en un oído; el tono ocupa otro lugar en la imagen y se detecta con menos nivel. La diferencia entre A y B, en dB, es el MLD. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH15-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-patrones.svg ancho=96% Cómo se arma un patrón. A: tres tonos del mismo largo, dos graves y uno agudo. B: tres tonos de la misma frecuencia, dos largos y uno corto. Abajo, las seis secuencias posibles y los dos tipos de error sobre una de ellas. Imagen propia del libro.\n- @-3,82 | **Las seis secuencias.** Las que repiten el mismo tono (GGG, AAA) no se usan: no tienen orden que reconocer.\n- @103,82 | **El error es informativo.** Decir los mismos tonos en otro lugar no es lo mismo que invertirlos todos.\n:::",
+   "id": null,
+   "globos": [
+    "@-3,82",
+    "@103,82"
+   ]
+  },
+  "FH15-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-dicotico-oidos.svg ancho=92% Dos pacientes con el mismo puntaje total en dígitos dicóticos (78 %). En el primero los dos oídos rinden parecido; en el segundo el oído izquierdo rinde 36 puntos menos que el derecho. El total esconde la asimetría: mira siempre cada oído por separado. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH15-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-matrix.svg ancho=96% La prueba Matrix. A: cada frase toma una palabra de cada columna, así que la estructura es siempre la misma y el contenido no se puede adivinar. B: el recorrido adaptativo de una lista; el SNR baja cuando el paciente acierta la mayoría de las palabras y sube cuando no, hasta oscilar alrededor del SRT. La regla de pasos es genérica (cada versión trae la suya). Imagen propia del libro.\n- @19,57 | **Primeras frases.** Parte fácil y baja rápido: aquí todavía no se mide nada.\n- @80,80 | **SRT.** El SNR en que repite la mitad de las palabras; se estima con las últimas frases, cuando el recorrido ya oscila.\n:::",
+   "id": null,
+   "globos": [
+    "@19,57",
+    "@80,80"
+   ]
+  },
+  "FH15-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h15-patron-resultado.svg ancho=96% Una sesión de patrón de duración leída por partes. El mismo 77 % puede esconder problemas muy distintos: aquí los errores se concentran en el segundo y el tercer tono y casi todos son los mismos tonos en otro orden. Imagen propia del libro.\n- @50,6 | **El total.** 77 % no dice dónde está la dificultad.\n- @-3,20 | **Ítem por ítem.** En rojo, lo presentado y lo que respondió. Los errores se parecen entre sí.\n- @-3,70 | **Acierto por posición.** El primer tono casi no falla; los errores están en el segundo y el tercero.\n- @103,62 | **Qué confunde.** Seis de los siete errores tienen los mismos tonos en otro orden: el problema es el orden, no distinguir largo de corto.\n:::",
+   "id": null,
+   "globos": [
+    "@50,6",
+    "@-3,20",
+    "@-3,70",
+    "@103,62"
+   ]
+  }
+ },
+ "casos": {}
+}

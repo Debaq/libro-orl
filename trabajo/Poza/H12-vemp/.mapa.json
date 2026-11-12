@@ -1,0 +1,163 @@
+{
+ "capitulo": "H12",
+ "md": "texto/capitulos/H12-vemp.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH12-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h12-vias.png Las vías del VEMP en un paciente sano, siguiendo el oído derecho. Del sáculo y el utrículo salen las dos ramas del nervio vestibular hacia los núcleos vestibulares; de ahí, una vía baja al ECM del mismo lado (cVEMP) y otra sube por el fascículo longitudinal medial y cruza hacia el oblicuo inferior del ojo contrario (oVEMP). Los puntos son los impulsos que corren por cada vía. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @14,88 | **Sáculo**: se atribuye a él el cVEMP (Curthoys, 2010).\n- @46,92 | **Utrículo**: se atribuye a él el oVEMP (Curthoys, 2010).\n- @15,79 | **Nervio vestibular inferior**: lleva las fibras del sáculo.\n- @46,79 | **Nervio vestibular superior**: lleva las fibras del utrículo.\n- @38,73 | **Núcleos vestibulares**: relevo de las dos ramas, en el tronco.\n- @12,72 | **ECM del mismo lado**: aquí se registra el cVEMP; la vía es corta y no cruza (Colebatch y cols., 1994).\n- @50,29 | **Fascículo longitudinal medial (FLM)**: por aquí sube la vía del oVEMP después de cruzar la línea media.\n- @65,27 | **Oblicuo inferior del ojo contrario** (izquierdo, si se estimula el oído derecho): aquí se registra el oVEMP (Iwasaki y cols., 2007).\n:::",
+   "id": null,
+   "globos": [
+    "@14,88",
+    "@46,92",
+    "@15,79",
+    "@46,79",
+    "@38,73",
+    "@12,72",
+    "@50,29",
+    "@65,27"
+   ]
+  },
+  "FH12-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h12-vias-neuritis.png Neuritis del nervio vestibular superior derecho, en el mismo paciente. La cruz verde marca la rama perdida, por la que ya no corren impulsos; la rama inferior, con el sáculo, no está tocada. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @32,78 | **Rama superior interrumpida**: ninguna señal del utrículo llega a los núcleos; es la vía del oVEMP.\n- @14,88 | **Sáculo y rama inferior intactos**: el cVEMP de este oído se conserva.\n:::",
+   "id": null,
+   "globos": [
+    "@32,78",
+    "@14,88"
+   ]
+  },
+  "FH12-03": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/vemp.png completa Pantalla de VEMP con los dos oídos de un cVEMP registrados Imagen propia: captura de LabSim.\n- @-2.5,18 | **Prueba.** El tipo de VEMP (cVEMP, oVEMP o mVEMP) y el **oído estimulado**. Cambiar de tipo cambia el músculo donde se registra.\n- @-2.5,25.6 | **Maniobra.** Cómo contrae el paciente: relajado, girando la cabeza, empujando contra la mano o levantando la cabeza. Debajo dice el músculo y el lado del registro.\n- @-2.5,41 | **Estímulo.** Transductor (inserto o vibrador), frecuencia del tone burst, polaridad, intensidad y tasa.\n- @-2.5,60 | **Registro.** Barridos, rechazo de artefactos y filtros. Arrancan con valores al azar: dejarlos bien puestos es parte del examen.\n- @-2.5,74 | **Registrar y Detener.** Con el músculo fuera de banda no entra ningún barrido y el registro se corta solo.\n- @-2.5,85 | **EMG rectificado.** La contracción del paciente en µV, con su banda aceptable (30 a 150 µV en el cVEMP) y el aviso de si está bien, floja o excesiva.\n- @33,31 | **P13.** Para marcar, pulsas el botón **P13** (o **N23**) y haces clic sobre la curva: la marca se pega al extremo de la polaridad correcta.\n- @47,62 | **N23.** El valle del complejo, a unos 22 ms en esta curva.\n- @74,38 | **El OI.** La misma maniobra, el mismo nivel: el complejo es mucho más chico y su escala (50 µV) es otra que la del OD (200 µV).\n- @60,98 | **Medidas.** Latencias, amplitud pico a pico, el EMG de cada curva y la amplitud corregida (**p-p corr.**).\n- @93,83.5 | **Asimetría.** La razón entre los dos oídos, calculada con las amplitudes **corregidas**: aquí 57 %.\n:::",
+   "id": null,
+   "globos": [
+    "@-2.5,18",
+    "@-2.5,25.6",
+    "@-2.5,41",
+    "@-2.5,60",
+    "@-2.5,74",
+    "@-2.5,85",
+    "@33,31",
+    "@47,62",
+    "@74,38",
+    "@60,98",
+    "@93,83.5"
+   ]
+  },
+  "FH12-04": {
+   "kind": "fig",
+   "src": ":::figura h12_p33 vemp\n- @OD P13 | El cVEMP del **OD** de Tomás tiene la P13 a **13,4 ms**. La amplitud pico a pico es de 295 µV, y **5,68** corregida por el EMG.\n- @OD N23 | La N23 llega a los **23,3 ms**: el complejo P13-N23 tiene la forma de siempre, una subida y una bajada anchas, de unos 15 ms en total. Es un reflejo, no una onda de nervio.\n- @OI P13 | El **OI** tiene la P13 a 12,9 ms y 287 µV, **5,63** corregida.\n- @OI N23 | N23 a 23,1 ms. Los dos oídos se parecen: la **razón de asimetría** es de **0 %**.\n- En estas figuras la contracción es la misma en los dos lados, así que la amplitud cruda y la corregida dicen lo mismo. El EMG de estas figuras es de unos 50 µV, bajo el mínimo de unos 80 µV (Rosengren y cols., 2019); por eso la corregida sale en 5 o 6 y no en 1 a 3 como en la tabla de referencia. Compara un oído con el otro, no con la tabla. En un paciente real no siempre pasa (ver el paso 3).\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OD N23",
+    "@OI P13",
+    "@OI N23",
+    null
+   ]
+  },
+  "FH12-05": {
+   "kind": "fig",
+   "src": ":::figura h12_p33 vemp 2\n- @OD n10 | El oVEMP del **OD** de Tomás se registra bajo el **ojo izquierdo**. La **n10** llega a **10,4 ms**.\n- @OD p16 | La **p16** llega a **15,6 ms**. La amplitud pico a pico es de **23 µV**, diez veces menor que la del cVEMP: por eso el oVEMP pide más ganancia y se ensucia más fácil.\n- @OI n10 | El **OI** tiene la n10 a 9,4 ms y la p16 a 15,6 ms, también con 23 µV.\n- La razón de asimetría es de **1 %**. Los dos utrículos responden igual.\n:::",
+   "id": null,
+   "globos": [
+    "@OD n10",
+    "@OD p16",
+    "@OI n10",
+    null
+   ]
+  },
+  "FH12-06": {
+   "kind": "fig",
+   "src": ":::figura h12_p38 vemp\n- @OD P13 | El cVEMP del **OD**, el oído sano, tiene la P13 a 12,9 ms y 350 µV: **6,79** corregidos por el EMG.\n- @OI P13 | En el **OI** el complejo casi no sale del ruido: **33 µV**, **0,66** corregidos. El sáculo del lado enfermo responde mucho menos.\n- La razón de asimetría es de **82 %**, sobre el 35 % de corte, y el lado más chico es el enfermo: el **cVEMP del OI está alterado**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  },
+  "FH12-07": {
+   "kind": "fig",
+   "src": ":::figura h12_p38 vemp 2\n- @OD n10 | El oVEMP de Patricia: **24 µV** en un oído (LabSim calcula además una amplitud \"corregida\", 0,57, que para el oVEMP no se mide en la práctica)...\n- @OI n10 | ...y **24 µV** (0,55) en el otro. La razón de asimetría es de **1 %**.\n- Con el cVEMP del OI alterado y el oVEMP simétrico, el compromiso es **sacular**: la rama inferior, no la superior. Es lo que se espera en un hidrops, donde el sáculo se daña antes que el utrículo (Young, 2013; → cap. 9).\n:::",
+   "id": null,
+   "globos": [
+    "@OD n10",
+    "@OI n10",
+    null
+   ]
+  },
+  "FH12-08": {
+   "kind": "fig",
+   "src": ":::figura h12_p34 audiograma\n- @OD 500 | El OD tiene 50 dB en 500 Hz por vía aérea...\n- @OD osea 500 | ...y 10 dB por vía ósea: un **gap de 40 dB**. En 1.000 Hz es de 30 dB.\n- El gap está en los graves, justo donde el VEMP se estimula.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 500",
+    "@OD osea 500",
+    null
+   ]
+  },
+  "FH12-09": {
+   "kind": "fig",
+   "src": ":::figura h12_p34 vemp\n- @OD P13 | El cVEMP del **OD** es mucho menor: **109 µV**, **2,15** corregidos.\n- @OI P13 | El **OI** tiene 340 µV, **6,81** corregidos.\n- La razón de asimetría es de **52 %**, sobre el corte. Si la leyeras sola, dirías \"hipofunción sacular del OD\". Pero el umbral del OD es **30 dB más alto** que el del OI, del tamaño del gap. El sonido llega atenuado al vestíbulo: la que falla es la **transmisión**, no el sáculo. Con el vibrador, la respuesta se recupera.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  },
+  "FH12-10": {
+   "kind": "fig",
+   "src": ":::figura h12_p42 vemp\n- @OD P13 | El **OD** no tiene complejo: las marcas del equipo caen sobre el ruido, y miden **19 µV**, **0,38** corregidos.\n- @OI P13 | El **OI**, normal, da **290 µV**, **5,75** corregidos.\n- La razón de asimetría es de **88 %**. El oído medio de Matías está sano (timpanograma A) y el nivel y la contracción son los mismos que los del OI. La falta de respuesta es del laberinto: la parotiditis que le quitó la cóclea le quitó también el sáculo.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h12_p33": {
+   "numero": "H12.1",
+   "ficha": [
+    "**Tomás Fuentes**, 23 años · hombre",
+    "Examen preocupacional para una minera; no nota problemas para oír.",
+    "Anamnesis y otoscopía: caso H3.2 · Audiometría: H3.2 · Emisiones: H9.1 · Audiometría ocupacional: H24.1"
+   ]
+  },
+  "h12_p38": {
+   "numero": "H12.2",
+   "ficha": [
+    "**Patricia Rivas**, 46 años · mujer",
+    "Tiene 46 años y es profesora de lenguaje en un liceo. Hace poco más de un año tuvo la primera crisis: el mundo le daba vueltas por horas y vomitaba sin parar; desde entonces ha tenido cuatro o cinco. Antes de cada crisis siente el oído izquierdo lleno, \"como con agua\", y un zumbido grave que sube. Entre crisis nota que por ese oído las voces se escuchan raras, como metálicas, y que los ruidos fuertes le molestan mucho, sobre todo los gritos de los alumnos en el recreo. Hay días en que oye casi bien y otros en que no. Le da miedo que le venga una crisis haciendo clases o manejando.",
+    "**Medicamentos:** Betahistina 24 mg cada 12 horas.",
+    "Historia clínica",
+    "Hace 1 año: Consulta en servicio de urgencia por vértigo rotatorio de 3 horas con náuseas y vómitos; se trata con antieméticos, alta al ceder.",
+    "Hace 7 meses: Nueva consulta en urgencia por crisis de vértigo de 2 horas, con oído izquierdo tapado y zumbido.",
+    "Hace 3 meses: Otorrinolaringólogo: otoscopia normal; indica betahistina y dieta baja en sal.",
+    "Hace 12 días: Nueva crisis de vértigo de 2 horas. Otorrinolaringólogo deriva a evaluación auditiva, electrococleografía y evaluación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h12_p34": {
+   "numero": "H12.3",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Oye menos por el oído derecho desde su segundo embarazo, y cada vez peor.",
+    "Anamnesis y otoscopía: caso H2.1 · Acumetría: H2.1 · Audiometría: H3.3 · Logoaudiometría: H5.1 · Impedanciometría: H7.1"
+   ]
+  },
+  "h12_p42": {
+   "numero": "H12.4",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "No oye por el oído derecho desde las paperas, a los 6 años.",
+    "Anamnesis y otoscopía: caso H2.3 · Acumetría: H2.3 · Audiometría: H3.5 · Enmascaramiento: H4.1"
+   ]
+  }
+ }
+}

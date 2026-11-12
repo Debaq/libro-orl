@@ -1,0 +1,185 @@
+{
+ "capitulo": "27",
+ "md": "texto/capitulos/27-mareo-que-no-se-va.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F27-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap27-curso.svg Dos caminos del mismo síntoma después de un evento agudo: el mareo que se apaga a medida que el sistema compensa, y el que baja un poco, se queda en una meseta y sube cada vez que el paciente se expone.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap27-sot-sano-pppd.svg ancho=100% Posturografía de seis condiciones de dos pacientes: a la izquierda, sano; a la derecha, con el vestíbulo sano y la dependencia visual marcada. Fíjate en que el de la derecha se desordena justo donde la vista miente (condiciones 3 y 6), aunque su vestíbulo esté intacto. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @95,46 | **Condición 6, la vista y la plataforma engañan a la vez.** El paciente sano la sostiene; el de la dependencia visual cae. Con el vestíbulo intacto.\n- @72,40 | **Condición 3, el entorno visual en movimiento con los pies firmes.** La barra en rojo: no alcanza el límite. El que depende de la vista se desordena con lo que ve moverse.\n- @88,82 | **La razón de preferencia visual** baja (barra roja): mide cuánto cae el paciente cuando se le falsea la vista, en comparación con cuando se le cierran los ojos.\n- @30,83 | **En el sano**, la misma razón está dentro de lo normal: **deja de lado** lo que miente.\n:::",
+   "id": null,
+   "globos": [
+    "@95,46",
+    "@72,40",
+    "@88,82",
+    "@30,83"
+   ]
+  },
+  "F27-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap27-ciclo.svg El círculo que mantiene el mareo: un evento que mareó deja al paciente vigilante, la vigilancia endurece la postura y le da peso de más a la vista, y cada síntoma vuelve a subir la vigilancia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap27-criterios.svg Los cinco criterios aplicados a los tres casos del capítulo. Los casos 27.1 y 27.2 cumplen los cinco; el 27.3 no.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_neuritis_nistagmo.svg ancho=55% Nistagmo espontáneo de Victoria en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_neuritis_mariposa.svg Gráfico de mariposa de Victoria: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas del OD y del OI son casi iguales.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_neuritis_vhit.svg vHIT de Victoria: ganancia de 0,98 hacia la derecha y de 0,93 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_neuritis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_neuritis_audiosupra.svg ancho=100% Audiometría de Victoria: audición normal y simétrica, y discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_vppb_nistagmo.svg ancho=55% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_vppb_mariposa.svg Gráfico de mariposa de Eva: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son casi iguales.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_vppb_vhit.svg vHIT de Eva: ganancia de 0,96 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_vppb_vemp.svg ancho=100% VEMP de Eva a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_vppb_audiosupra.svg ancho=100% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % y 96 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_nistagmo.svg ancho=55% Nistagmo espontáneo de Joaquín en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_mariposa.svg Gráfico de mariposa de Joaquín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) quedan mucho más cerca de la línea que las del OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_vhit.svg vHIT de Joaquín: ganancia de 0,99 hacia la derecha y de 0,86 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_audiosupra.svg ancho=100% Audiometría de Joaquín: el OD tiene la caída suave de la edad; el OI tiene 45 dB en 4 kHz y una discriminación que no pasa de 56 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_impedancia.svg ancho=100% Impedanciometría de Joaquín.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F27-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap27_schwannoma_abr.svg ancho=90% ABR de Joaquín a 80, 60 y 40 dB nHL. En el OI la III y la V llegan tarde y más chicas; la I, a tiempo.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap27_neuritis": {
+   "numero": "27.1",
+   "ficha": [
+    "**Victoria Medina**, 47 años · mujer",
+    "Tiene 47 años y es analista de crédito en un banco. Hace nueve meses despertó con el mundo girando: vértigo intenso, vómitos y dos días sin poder ponerse de pie; en urgencia le dijeron que era una neuritis vestibular del lado izquierdo. El giro se fue en unos días, pero no volvió a sentirse firme: desde entonces tiene un mareo suave todos los días, como si flotara o el piso fuera blando, sin giro. Es peor de pie, en la fila del banco, en el supermercado, frente a la pantalla del computador y en el auto cuando hay mucho tráfico; mejora acostada y cuando está en una conversación que la entretiene. Se le nota más al final del día. No se ha caído, pero evita los centros comerciales y camina con anteojos de sol. Su familia piensa que son \"los nervios\" y a ella le preocupa si \"quedó dañada\". No tiene dolor de cabeza, pitido ni pérdida de audición.",
+    "**Medicamentos:** Ninguno; paracetamol ocasional",
+    "Historia clínica",
+    "Hace 9 meses: Urgencia: vértigo intenso con nistagmo; diagnóstico de neuritis vestibular izquierda, tratada y dada de alta a los cuatro días.",
+    "Hace 8 meses: Control: sin vértigo; persiste mareo al caminar. Se indica seguir con sus actividades.",
+    "Hace 2 meses: Neurólogo: resonancia de cerebro normal; deriva a evaluación auditiva y vestibular por mareo persistente.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap27_vppb": {
+   "numero": "27.2",
+   "ficha": [
+    "**Eva Aguilar**, 64 años · mujer",
+    "Tiene 64 años y está jubilada de una tienda de ropa, donde fue vendedora. Hace cinco meses, al darse vuelta en la cama, todo giró unos segundos; le pasaba cada vez que se acostaba o se levantaba. Le dijeron que eran \"cristales\" y le hicieron dos maniobras; el giro se acabó a las dos semanas. Pero desde entonces el piso \"no está firme\": se siente inestable todos los días, más en el supermercado, en la micro y entre mucha gente, y mejor cuando se sienta en casa. Hace dos meses, en el supermercado, tuvo una crisis: el corazón se le aceleró, sintió que le faltaba el aire y que se caía, y tuvo que salir. Desde entonces no sale sola. En urgencia le dijeron que era ansiedad y le dieron un ansiolítico, que toma a veces de noche. Ella no está de acuerdo: \"antes no era nerviosa; el mareo partió primero\". Hace años oye menos los agudos y no usa audífono; en los lugares ruidosos se le hace todavía más difícil.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día; clonazepam 0,5 mg de noche, a veces",
+    "Historia clínica",
+    "Hace 5 meses: Urgencia: vértigo posicional; Dix-Hallpike positivo derecho; diagnóstico de VPPB del canal posterior derecho.",
+    "Hace 5 meses: Dos maniobras de reposición con resolución del vértigo.",
+    "Hace 2 meses: Urgencia: crisis de angustia en el supermercado; electrocardiograma normal; alta con clonazepam.",
+    "Hace 20 días: Médico de familia: mareo persistente; deriva a otorrinolaringología y evaluación audiovestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap27_schwannoma": {
+   "numero": "27.3",
+   "ficha": [
+    "**Joaquín Jiménez**, 58 años · hombre",
+    "Tiene 58 años y es técnico en refrigeración. Hace diez meses empezó, sin ningún evento que él recuerde, a sentirse inestable: \"como caminar sobre un colchón\". No ha tenido vértigo ni crisis. Es peor de noche, cuando va al baño a oscuras, y al girar rápido; en el supermercado o frente a la pantalla no nota diferencia, y mejora sentado. Ha tropezado dos veces de noche. Desde hace más o menos un año tiene un pitido agudo en el oído izquierdo y le cuesta entender por teléfono con ese lado, por lo que se lo pasa al derecho. Su señora cree que es \"la edad\"; su médico le dijo que era estrés por el trabajo y le recomendó ejercicios de respiración. Él está preocupado porque no mejora.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg cada 12 horas",
+    "Historia clínica",
+    "Hace 10 meses: Médico general: inestabilidad crónica; diagnóstico de \"estrés\"; se indica respiración y pausas.",
+    "Hace 5 meses: Segundo control: sin cambios; se sugiere consulta con psicología.",
+    "Hace 45 días: Otorrinolaringólogo: solicita evaluación audiológica y vestibular por inestabilidad y acúfeno izquierdo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

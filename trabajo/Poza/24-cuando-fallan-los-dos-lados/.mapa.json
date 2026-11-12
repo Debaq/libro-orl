@@ -1,0 +1,215 @@
+{
+ "capitulo": "24",
+ "md": "texto/capitulos/24-cuando-fallan-los-dos-lados.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F24-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap24-vhit-bilateral.svg ancho=100% id=vhit-bilateral vHIT del canal lateral de un paciente con los dos lados caídos. El ojo (en el color de cada oído) llega a menos de la mitad de la velocidad de la cabeza (gris): ganancia de 0,45 hacia la derecha y de 0,46 hacia la izquierda, bajo 0,6 de los dos lados, con sacadas manifiestas que corrigen cuando la cabeza ya se detuvo. No hay un lado bueno con el que comparar: el déficit se lee en el tamaño de cada ganancia, no en la asimetría.\n:::",
+   "id": "vhit-bilateral",
+   "globos": []
+  },
+  "F24-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap24-cociente.svg ancho=82% Los cuatro pacientes del capítulo en un mismo plano: la suma tibia + fría de cada oído. Los cuatro caen dentro de la cuña donde la paresia es menor de 25 %, que es la que la fórmula llama \"no significativa\"; tres de los cuatro caen además en el cuadro verde, donde los dos oídos suman menos de 6 °/s\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap24-oscilopsia.svg ancho=100% Lo que la retina recibe en un segundo de marcha, con el reflejo íntegro y con ganancia 0,2. Con el reflejo íntegro la imagen queda quieta; con ganancia 0,2 resbala en cada paso: es lo que el paciente describe como \"el mundo salta\".\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap24-causas.svg ancho=100% Las causas en las dos series. Cada una usó su propia lista de categorías: no se pueden sumar ni comparar fila con fila\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_gentamicina_nistagmo.svg ancho=55% Nistagmo espontáneo de Enrique en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_gentamicina_mariposa.svg Gráfico de mariposa de Enrique. Las cuatro irrigaciones apenas se separan de la línea: ninguno de los dos oídos responde.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_gentamicina_vhit.svg vHIT de Enrique: ganancia de 0,15 hacia la derecha, con sacadas overt y de 0,20 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_gentamicina_vemp.svg ancho=100% VEMP de Enrique a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_gentamicina_audiosupra.svg ancho=100% Audiometría de Enrique: audición normal y simétrica, con 5 dB en las frecuencias del habla y 20 dB en 8 kHz; discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_tuberculosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Verónica en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_tuberculosis_mariposa.svg Gráfico de mariposa de Verónica. Las curvas del OI (azules) son las más bajas, pero las del OD (rojas) tampoco se despegan mucho de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_tuberculosis_vhit.svg vHIT de Verónica: ganancia de 0,45 hacia la derecha, con sacadas overt y de 0,46 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_tuberculosis_vemp.svg ancho=100% VEMP de Verónica a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_tuberculosis_audiosupra.svg ancho=100% Audiometría de Verónica: graves y 1 kHz en 0 dB, y una caída de agudos bilateral y simétrica desde 2 kHz hasta 105 dB en 8 kHz. Discriminación de 92 % en el OD y de 88 % en el OI.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_sin_causa_nistagmo.svg ancho=55% Nistagmo espontáneo de Pilar en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_sin_causa_mariposa.svg Gráfico de mariposa de Pilar. Las cuatro irrigaciones quedan casi sobre la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_sin_causa_vhit.svg vHIT de Pilar: ganancia de 0,30 hacia la derecha, con sacadas overt y de 0,35 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_sin_causa_vemp.svg ancho=100% VEMP de Pilar a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_sin_causa_audiosupra.svg ancho=100% Audiometría de Pilar: audición normal en los dos oídos, con 15 a 20 dB en 6 y 8 kHz; discriminación de 100 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_canvas_nistagmo.svg ancho=55% Nistagmo espontáneo de Jorge en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_canvas_mariposa.svg Gráfico de mariposa de Jorge. Las cuatro irrigaciones quedan sobre la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_canvas_vhit.svg vHIT de Jorge: ganancia de 0,22 hacia la derecha, con sacadas overt y de 0,25 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-23": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_canvas_vemp.svg ancho=100% VEMP de Jorge a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F24-24": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap24_canvas_audiosupra.svg ancho=100% Audiometría de Jorge: graves y medias casi normales y una caída de agudos simétrica, de 50 dB en 4 kHz y 75 y 70 dB en 8 kHz; discriminación de 92 % en el OD y de 96 % en el OI.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap24_gentamicina": {
+   "numero": "24.1",
+   "ficha": [
+    "**Enrique Sánchez**, 52 años · hombre",
+    "Tiene 52 años y es electricista. Hace diez meses lo operaron de urgencia por una peritonitis, estuvo ocho días en cuidados intensivos y tres semanas hospitalizado. Hacia el final de la segunda semana se sintió \"mareado, flojo\", y lo atribuyeron a la debilidad de haber estado tanto tiempo en cama. Salió de alta sin vértigo. Hoy el problema es otro: cuando camina por la calle los letreros y las caras \"saltan\", y no puede leer el número de la micro si va caminando, pero sí cuando se detiene. En la oscuridad pierde el equilibrio: de noche camina al baño con la mano en la pared, y una vez se cayó al entrar a una pieza sin luz. Sentado o acostado no siente nada, no tiene vértigo, y en la camioneta, por un camino de tierra, ve el paisaje \"temblar\". Oye igual que siempre y no tiene pitidos. Hizo tres meses de kinesiología general sin cambio, y el neurólogo le dijo que la resonancia de cerebro estaba normal y que podía ser \"ansiedad\".",
+    "**Antecedentes:** ototóxicos.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 10 meses: Hospitalización por peritonitis postoperatoria: cuidados intensivos, antibióticos de amplio espectro, entre ellos gentamicina por 12 días. Alza transitoria de la creatinina.",
+    "Hace 9 meses: Alta con diagnóstico de polineuropatía del paciente crítico leve; se indica kinesiología.",
+    "Hace 4 meses: Neurólogo: resonancia de cerebro normal; mareo inespecífico, posible componente ansioso.",
+    "Hace 30 días: Otorrinolaringólogo: oscilopsia al caminar con audición normal; solicita evaluación audiológica y vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap24_tuberculosis": {
+   "numero": "24.2",
+   "ficha": [
+    "**Verónica Torres**, 41 años · mujer",
+    "Tiene 41 años y es peluquera. Hace tres años le diagnosticaron una tuberculosis resistente a los fármacos habituales y la trataron durante un año y medio, con una inyección diaria los primeros meses. Hoy está curada. Viene derivada del programa de tuberculosis porque tiene un pitido en los dos oídos, agudo y permanente, y no entiende bien en la peluquería con las máquinas y el secador prendidos, ni cuando hablan varias personas. Cuando se le pregunta por el equilibrio dice que está \"débil de piernas\" desde el tratamiento: se cansa al caminar, en el metro no se atreve a soltar el pasamanos y a oscuras se agarra de las murallas. Hace dos años le cambiaron los lentes porque \"al caminar rápido veo los carteles movidos\", y no mejoró. No ha tenido vértigo.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 3 años: Diagnóstico de tuberculosis multirresistente. Esquema con kanamicina inyectable más otros fármacos, por 18 meses en total.",
+    "Hace 2 años: Se suspende la kanamicina a los seis meses por alza de la creatinina; sin audiometría de control durante el tratamiento.",
+    "Hace 1 año: Alta con baciloscopias negativas.",
+    "Hace 2 meses: Control de oftalmología: lentes nuevos, sin mejoría de la visión al caminar.",
+    "Hace 25 días: Programa de tuberculosis: acúfeno bilateral e hipoacusia referida; deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap24_sin_causa": {
+   "numero": "24.3",
+   "ficha": [
+    "**Pilar Moreno**, 58 años · mujer",
+    "Tiene 58 años y es administrativa en un colegio. Hace unos tres años le cuesta caminar con seguridad, sobre todo cuando está oscuro o el piso es desparejo: en las escaleras de la micro se afirma con las dos manos y en la playa, con arena, camina \"como si el piso se moviera\". Cuando trota para alcanzar la micro ve la calle temblar. Sentada no tiene ningún síntoma. Tiene jaquecas desde los 20 años, que le laten de un lado, con luz y ruido que le molestan. Hace ocho años tuvo dos episodios de vértigo de unas horas, con náuseas, que le trataron como laberintitis, y después nunca más. No oye peor, no tiene pitidos ni ha tomado antibióticos fuertes, y no ha tenido meningitis. Hace un año se cayó una noche en el pasillo de su casa. Le dijeron que lo suyo era migraña y ansiedad.",
+    "**Medicamentos:** Propranolol 40 mg al día",
+    "Historia clínica",
+    "Hace 8 años: Urgencia: dos episodios de vértigo de horas con náuseas, tratados como laberintitis; sin estudio posterior.",
+    "Hace 1 año: Videonistagmografía en otro centro: calórica mínima informada como \"hipoexcitabilidad no significativa\"; se concluye sin alteración vestibular.",
+    "Hace 7 meses: Neurólogo: migraña; resonancia de cerebro normal. Se indica profilaxis.",
+    "Hace 20 días: Otorrinolaringólogo: inestabilidad crónica con oscilopsia al trotar; pide evaluación audiológica y repetir el estudio vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap24_canvas": {
+   "numero": "24.4",
+   "ficha": [
+    "**Jorge Herrera**, 67 años · hombre",
+    "Tiene 67 años y es carpintero jubilado. Desde hace unos cuatro años camina \"como curado\": abre los pies, se desvía y se agarra de las paredes. Con los ojos cerrados o en la oscuridad empeora mucho. Se ha caído dos veces en el último año. Hace años nota hormigueo y \"como corcho\" en los pies, y dice que a veces no siente el piso. Su hija cuenta que a ratos habla \"arrastrado\". Al caminar rápido ve la calle rebotar. Oye menos desde hace años, parejo de los dos lados, y tiene un pitido agudo permanente. No ha tenido vértigo. No recuerda haber tomado antibióticos fuertes ni haber estado grave.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 4 años: Médico general: neuropatía de los pies; glicemia, vitamina B12 y tiroides normales.",
+    "Hace 2 años: Neurólogo: electromiografía con polineuropatía sensitiva; marcha atáxica.",
+    "Hace 10 meses: Resonancia de cerebro: atrofia del vermis cerebeloso.",
+    "Hace 40 días: Neurólogo: solicita evaluación audiológica y vestibular por oscilopsia e inestabilidad.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

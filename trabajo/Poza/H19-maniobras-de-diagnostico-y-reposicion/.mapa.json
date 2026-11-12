@@ -1,0 +1,43 @@
+{
+ "capitulo": "H19",
+ "md": "texto/capitulos/H19-maniobras-de-diagnostico-y-reposicion.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH19-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h19-dix-hallpike.png Dix-Hallpike hacia la derecha en un paciente con canalitiasis del posterior derecho. De izquierda a derecha: sentado, con la cabeza girada 45°; acostado y colgando, con las partículas ya cayendo en el canal; sentado otra vez, cuando el nistagmo se invierte. A la derecha de cada postura, el canal con sus partículas y la flecha roja que dice dónde queda \"abajo\"; debajo, el ojo derecho y su traza. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @58,20 | **El canal en 2D**: las partículas (amarillas) caen hacia el punto más bajo, que marca la flecha roja de \"abajo\".\n- @41,62 | **El paciente en la camilla**, visto desde la cabecera, con la cabeza colgando fuera del borde.\n- @58,78 | **Traza del ojo** en sus tres componentes: horizontal, vertical y torsional. Aquí sube y gira: es el nistagmo del posterior.\n- @92,78 | **Al sentarse**, la traza se invierte y es más débil.\n:::",
+   "id": null,
+   "globos": [
+    "@58,20",
+    "@41,62",
+    "@58,78",
+    "@92,78"
+   ]
+  },
+  "FH19-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h19-lateral.png Giro supino (1 y 2) y maniobra de Gufoni geotrópica (3 a 6) en un paciente con canalitiasis del canal lateral derecho. Al lado de cada postura, el canal visto desde arriba, con sus partículas y la flecha de \"abajo\". En el giro supino, con el oído enfermo abajo las partículas caen hacia la ampolla y el nistagmo sale más fuerte; en el Gufoni, cada cambio de postura corre el \"abajo\" hasta que, en la última, las partículas ya están en el utrículo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH19-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h19-nistagmo-por-canal.svg Qué se ve en los ojos en cada caso. Las flechas muestran la fase rápida del nistagmo; el arco verde, hacia dónde gira el polo superior del ojo. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH19-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h19-epley.png Maniobra de Epley para un canal posterior derecho en un paciente, paso a paso. En cada postura, a la derecha, el canal con sus partículas. Cada giro corre el punto más bajo del canal y las partículas lo siguen: hacia el final llegan a la cruz común y salen al utrículo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH19-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h19-semont.png Maniobra de Semont para un canal posterior derecho en un paciente. El paso del lado enfermo al lado sano es el movimiento brusco: la inercia despega las partículas de la cúpula, que después caen hacia la salida. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

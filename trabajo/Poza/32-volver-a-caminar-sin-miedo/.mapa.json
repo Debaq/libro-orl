@@ -1,0 +1,155 @@
+{
+ "capitulo": "32",
+ "md": "texto/capitulos/32-volver-a-caminar-sin-miedo.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F32-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap32-sustitucion.svg ancho=100% La sustitución sensorial: cuando un sentido falla los otros suben su peso, y con dos caídos queda uno solo. Si además se apaga la luz, no queda ninguno: es el baño de noche.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap32-factores.svg ancho=100% Los dominios de la evaluación multifactorial: una caída casi nunca tiene una sola causa, y ningún dominio basta solo. En azul, lo que mide quien evalúa la audición y el equilibrio; en naranja, lo que se pregunta, se mide a pie de cama o se deriva.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap32-riesgo.svg ancho=100% La estratificación del riesgo de caída de las Guías Mundiales de Caídas (2022): con unas pocas preguntas y una medida de la marcha se decide si basta la prevención, si hace falta ejercicio o si corresponde una evaluación multifactorial. Ante la duda se mira el texto de la guía.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_vppb_nistagmo.svg ancho=55% Nistagmo espontáneo de Eva en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_vppb_vhit.svg vHIT de Eva: ganancia de 0,92 hacia la derecha y de 0,93 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_vppb_audiosupra.svg ancho=100% Audiometría de Eva: caída de agudos simétrica, sensorioneural, con discriminación de 92 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_fragil_nistagmo.svg ancho=55% Nistagmo espontáneo de Hugo en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_fragil_vhit.svg vHIT de Hugo: ganancia de 0,82 hacia la derecha y de 0,80 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_fragil_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_fragil_audiosupra.svg ancho=100% Audiometría de Hugo: pérdida simétrica con caída fuerte de agudos y discriminación de 64 % y 68 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap32-ortostatismo.svg ancho=80% La presión de Hugo acostado y de pie, con los cortes de la hipotensión ortostática. Acostado, 142/84. Al minuto, 118/70: ya cruzó los dos cortes (bajó 24 la sistólica y 14 la diastólica) y dijo que se le nubló la vista. A los 3 minutos, 112/68: 30 menos la sistólica y 16 menos la diastólica; cumple el criterio y, además, tiene síntomas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_bilateral_nistagmo.svg ancho=55% Nistagmo espontáneo de Isabel en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_bilateral_mariposa.svg Gráfico de mariposa de Isabel: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las cuatro curvas apenas se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_bilateral_vhit.svg vHIT de Isabel: ganancia de 0,54 hacia la derecha, con sacadas overt y de 0,52 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_bilateral_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap32_bilateral_audiosupra.svg ancho=100% Audiometría de Isabel: caída de agudos suave y simétrica, con discriminación de 88 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F32-17": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap32-mctsib-perfiles.svg ancho=100% El mCTSIB de cuatro perfiles. El tercero es el de Isabel, con neuropatía y pérdida vestibular bilateral: se sostiene mientras ve y se cae al cerrar los ojos sobre espuma, porque la vista es su último apoyo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares). Referencia: con ojos cerrados sobre espuma el balanceo es el mayor, pero se sostiene. Solo neuropatía: se sostiene con más balanceo, porque le quedan la vista y el vestíbulo. Neuropatía y pérdida vestibular: con ojos abiertos sobre espuma se sostiene, la vista la está sosteniendo; sin la vista no queda ningún sentido confiable y se cae, es el baño de noche. Y mala vista además: ya con los ojos abiertos se balancea mucho más, se le acaba el último apoyo.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap32_vppb": {
+   "numero": "32.1",
+   "ficha": [
+    "**Eva Paredes**, 79 años · mujer",
+    "Tiene 79 años, es profesora básica jubilada y vive con su hija. En los últimos cuatro meses se ha caído dos veces. La primera fue de noche: se levantó de la cama para ir al baño, \"se me fue el piso\", se agarró del velador y terminó sentada en el suelo, sin golpe. La segunda fue hace cuatro semanas, en la cocina, al estirar el cuello para mirar una repisa alta: cayó de lado y se fracturó la muñeca izquierda. Insiste en que no gira nada: \"no es vértigo, es que se me va el piso un ratito\"; son unos segundos y después queda bien. Le pasa también al agacharse a atarse los zapatos y al darse vuelta en la cama, donde a veces se marea sin caerse. Sentada o caminando no se siente mareada. No ha perdido el conocimiento ni tiene palpitaciones ni dolor de pecho. Oye menos desde hace años, sobre todo en grupos y con la televisión, y tiene un siseo en los dos oídos que va y viene; nunca ha usado audífono. Desde la fractura no sale sola: \"me da miedo que me pase en la calle\". Su médico le dijo que era \"la edad\".",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg al día; alendronato 70 mg a la semana; carbonato de calcio con vitamina D",
+    "Historia clínica",
+    "Hace 28 días: Urgencia: caída en la cocina con fractura de radio distal izquierdo; yeso por seis semanas; alta.",
+    "Hace 10 días: Médico de familia: \"caída por mareo, propio de la edad\". Se solicita evaluación audiológica y del equilibrio.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap32_fragil": {
+   "numero": "32.2",
+   "ficha": [
+    "**Hugo Gómez**, 86 años · hombre",
+    "Tiene 86 años, es electricista jubilado y vive solo desde que enviudó hace tres años; una hija lo llama cada noche. En el último año se ha caído tres veces. Dos fueron en la casa: de noche, camino al baño, y al pararse del excusado. La tercera fue en el jardín, hace dos meses: se cayó al agacharse a arrancar una maleza y no pudo levantarse por unas dos horas, hasta que un vecino lo oyó. No perdió el conocimiento que él recuerde. Cuenta que \"se le nubla la vista y se le va la fuerza de las piernas\" cuando se pone de pie, sobre todo en la mañana y en la noche, y que tiene que esperar agarrado a algo. Ya casi no sale: el vecino le hace las compras y desde la última caída le tiene miedo al jardín y a la calle. Ve mal por cataratas en los dos ojos, en lista de espera hace dos años, y usa anteojos bifocales. Oye mal desde hace muchos años: dice que \"todos murmuran\", pide repetir por teléfono y no escucha el timbre; probó un audífono hace tiempo y lo dejó en el cajón porque \"silbaba\". Tiene un pitido en los dos oídos. Toma siete remedios y de algunos no sabe para qué son. Dice que no es vértigo: \"es que el cuerpo ya no me responde\".",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Amlodipino 5 mg, enalapril 10 mg y furosemida 20 mg en la mañana; tamsulosina 0,4 mg y clonazepam 0,5 mg en la noche; metformina 850 mg dos veces al día; paracetamol cuando le duele la rodilla",
+    "Historia clínica",
+    "Hace 1 año: Control de hipertensión: se agrega furosemida por edema de tobillos.",
+    "Hace 2 meses: Urgencia: caída en el jardín con erosiones; permaneció dos horas en el suelo; alta sin estudio.",
+    "Hace 30 días: Médico de familia: \"caídas a repetición\"; se deriva a evaluación audiológica y del equilibrio.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap32_bilateral": {
+   "numero": "32.3",
+   "ficha": [
+    "**Isabel Salazar**, 74 años · mujer",
+    "Tiene 74 años, trabajó como costurera y vive con su marido. Hace unos ocho meses empezó a sentirse insegura al caminar: \"voy sobre algodón\", dice, y no siente bien el piso. No tiene vértigo ni lo ha tenido. De noche, para ir al baño, se agarra de las murallas, y en esos ocho meses se cayó tres veces, siempre a oscuras o con poca luz: en el pasillo, y en el jardín al anochecer, la última con una costilla fracturada. En la micro, cuando el vehículo va saltando, \"la calle se me mueve\" y no puede leer los letreros; sentada, leyendo, no tiene problema. Hace años tiene hormigueo y ardor en los pies, peor de noche. No recuerda haber recibido gentamicina ni haber tenido meningitis. Ve bien con sus lentes y la oftalmóloga le controla la retina cada año. Oye menos los agudos desde hace años y no usa audífono; no tiene pitido. No ha notado temblor ni dificultad para hablar. Está muy asustada: desde la costilla casi no camina sola.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Metformina 850 mg dos veces al día; enalapril 10 mg al día; atorvastatina 20 mg; gabapentina 300 mg en la noche",
+    "Historia clínica",
+    "Hace 8 meses: Médico de familia: neuropatía diabética sensitiva; se indica gabapentina para el ardor de los pies.",
+    "Hace 3 meses: Urgencia: caída en el jardín al anochecer con fractura de costilla; alta con analgesia.",
+    "Hace 30 días: Neurólogo: polineuropatía sensitiva distal simétrica compatible con diabética; resonancia de cerebro sin atrofia cerebelosa; sugiere evaluación vestibular por inestabilidad y oscilopsia.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

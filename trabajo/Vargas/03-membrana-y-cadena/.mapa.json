@@ -1,0 +1,155 @@
+{
+ "capitulo": "3",
+ "md": "texto/capitulos/03-membrana-y-cadena.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F3-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h7-etf-perforada.svg ancho=92% Función tubaria con membrana perforada: la presión del conducto, llevada a −200 daPa, durante 10 s con tres degluciones. Si la trompa abre, cada deglución deja escapar parte de la presión y el trazo sube por escalones hacia 0; si no abre, queda plano.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_perforacion_audiosupra.svg ancho=100% Audiometría de Lucía: conductiva ascendente del OD, de grado leve; OI normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_perforacion_impedancia.svg ancho=100% Impedanciometría de Lucía.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_timpanoesclerosis_audiosupra.svg ancho=100% Audiometría de Daniela: conductiva leve del OI, mayor en los graves y sin muesca en la ósea; OD normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_timpanoesclerosis_impedancia.svg ancho=100% Impedanciometría de Daniela.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_disyuncion_cadena_audiosupra.svg ancho=100% Audiometría de Diego: conductiva plana y moderada del OD; OI normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_disyuncion_cadena_impedancia.svg ancho=100% Impedanciometría de Diego.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_colesteatoma_audiosupra.svg ancho=100% Audiometría de Sergio: conductiva moderada y bastante plana del OI, con la ósea normal; OD normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_colesteatoma_impedancia.svg ancho=100% Impedanciometría de Sergio.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_p41_audiosupra.svg ancho=100% Audiometría de Luis: pérdida mixta moderada del OI, con la ósea que cae hacia los agudos; OD normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap03_p41_impedancia.svg ancho=100% Impedanciometría de Luis.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F3-12": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap03-tc-colesteatoma.jpg ancho=100% id=tc-colesteatoma Tomografía coronal de los dos oídos de una persona con colesteatoma del oído derecho, que queda a la izquierda de la imagen; el izquierdo está sano. En el sano, la flecha amarilla marca el escudo: la punta de hueso donde se apoya el borde de arriba de la membrana. Imagen: Gulati M, Gupta S, Prakash A, Garg A, Dixit R (2019), Insights Imaging, doi:10.1186/s13244-019-0782-y, Fig. 2, CC BY 4.0.\n- @79,70 | En el oído sano, la caja y el conducto tienen aire (negro).\n- @15,60 | En el oído enfermo el escudo se borró, y la caja y el conducto están ocupados por partes blandas (gris) en vez de aire.\n:::",
+   "id": "tc-colesteatoma",
+   "globos": [
+    "@79,70",
+    "@15,60"
+   ]
+  }
+ },
+ "casos": {
+  "cap03_perforacion": {
+   "numero": "3.1",
+   "ficha": [
+    "**Lucía Cortés**, 36 años · mujer",
+    "Lucía tiene 36 años y es técnica en enfermería en un CESFAM. De niña tuvo muchas otitis y el oído derecho le \"supuraba\" cada invierno. De adulta le ha supurado tres o cuatro veces, siempre después de que le entra agua; la última fue hace más de un año y se le pasó con gotas. Desde entonces el oído está seco. Siente que por el derecho oye menos, sobre todo cuando le hablan bajo o por teléfono, que siempre se pone en el izquierdo. No le zumban los oídos, no le duelen y no se ha mareado. Viene porque el otorrino le propuso operarse para cerrar el tímpano y quiere saber cuánto oye antes de decidir. Le gustaría volver a nadar con sus hijos.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 1 año: Médico general: otorrea derecha después de bañarse en piscina. Gotas óticas con antibiótico por siete días.",
+    "Hace 30 días: Otorrinolaringólogo: perforación central amplia de la membrana derecha, seca, sin colesteatoma. Membrana izquierda normal. Plantea timpanoplastia; solicita audiometría e impedanciometría con función tubaria.",
+    "**Otoscopía OD:** Perforación central amplia, seca; a través de ella se ve la mucosa del oído medio.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap03_timpanoesclerosis": {
+   "numero": "3.2",
+   "ficha": [
+    "**Daniela Torres**, 31 años · mujer",
+    "Daniela tiene 31 años y trabaja en un call center con un audífono de diadema. Hace dos o tres años se dio cuenta de que por el oído izquierdo oye \"más lejos\", y por eso se pone el auricular en el derecho. No sabe decir cuándo empezó: cree que ha ido de a poco. De niña tuvo otitis a repetición y le pusieron tubos en los dos oídos a los 4 años. Desde entonces no ha tenido dolor ni secreción. No le zumban los oídos ni se marea.",
+    "**Antecedentes:** otitis.",
+    "**Cirugías:** Tubos de ventilación en los dos oídos a los 4 años.",
+    "Historia clínica",
+    "Hace 2 meses: Otorrinolaringólogo: membrana derecha normal; membrana izquierda íntegra, con una placa blanca extensa en su mitad posterior. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra, con una placa blanca extensa en su mitad posterior."
+   ]
+  },
+  "cap03_disyuncion_cadena": {
+   "numero": "3.3",
+   "ficha": [
+    "**Diego Contreras**, 23 años · hombre",
+    "Diego tiene 23 años y estudia ingeniería. Hace cuatro meses se cayó de la bicicleta y se golpeó el lado derecho de la cabeza; estuvo inconsciente unos minutos y le salió sangre por el oído derecho. Lo hospitalizaron dos días. Le dijeron que tenía una fisura en el hueso del oído y que oiría mejor cuando se reabsorbiera la sangre, pero sigue oyendo \"como con algodón\" por el derecho. A veces le zumba ese oído, un ruido grave que va y viene. No ha tenido vértigo, la cara se le mueve bien y no le ha vuelto a salir nada del oído.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 4 meses: Servicio de urgencia: traumatismo encefalocraneano con pérdida de conciencia breve y otorragia derecha. TC: fractura longitudinal del temporal derecho que respeta la cápsula ótica; hemotímpano. Sin parálisis facial.",
+    "Hace 3 meses: Otorrinolaringólogo: hemotímpano derecho en reabsorción. Control en dos meses.",
+    "Hace 14 días: Otorrinolaringólogo: membrana derecha íntegra, sin sangre detrás. Persiste la hipoacusia derecha. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Conducto sano; membrana íntegra y translúcida, sin sangre detrás.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap03_colesteatoma": {
+   "numero": "3.4",
+   "ficha": [
+    "**Sergio Guzmán**, 19 años · hombre",
+    "Sergio tiene 19 años y trabaja como garzón. Desde los 15 años le sale de vez en cuando una secreción del oído izquierdo, espesa y con muy mal olor, que se le pasa con gotas y vuelve a los meses. La última vez fue hace tres semanas y ya está seco. Siente que cada año oye un poco menos por ese lado, y a veces le zumba, un ruido grave que va y viene. No le duele, no ha tenido vértigo y la cara se le mueve bien. Le da vergüenza el olor y por eso nunca había consultado en serio.",
+    "**Antecedentes:** otitis.",
+    "Historia clínica",
+    "Hace 21 días: Médico general: otorrea fétida izquierda. Gotas óticas con antibiótico; deriva a otorrinolaringología.",
+    "Hace 7 días: Otorrinolaringólogo: oído izquierdo seco; costra y material blanco en el ático, con el resto de la membrana retraído. Membrana derecha normal. Solicita audiometría, impedanciometría y TC de oídos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Oído seco. Costra y material blanco en el ático; el resto de la membrana, retraído."
+   ]
+  },
+  "cap03_p41": {
+   "numero": "3.5",
+   "ficha": [
+    "**Luis Navarro**, 41 años · hombre",
+    "Tiene 41 años y es chofer de micro. Desde niño tuvo problemas con los oídos y lo operaron para ponerle tubos. Hace unos cinco años, cada vez que se resfría, le empieza a salir líquido amarillo y con mal olor del oído izquierdo: con gotas se le seca en un par de semanas y vuelve a los meses. La última vez fue hace unos cuatro meses y desde entonces lo tiene seco. Escucha cada vez menos por ese lado y tiene un zumbido intermitente. No ha tenido vértigo. Igual se tapa el oído con algodón para ducharse, por si acaso. Le preocupa que lo tengan que operar y perder días de trabajo.",
+    "**Antecedentes:** otitis.",
+    "**Cirugías:** Colocación de tubos de ventilación en ambos oídos a los 4 años.",
+    "Historia clínica",
+    "Hace 37 años: Colocación de tubos de ventilación bilaterales por otitis media a repetición.",
+    "Hace 5 años: Consulta con médico general por otorrea izquierda; gotas óticas con antibiótico, mejora.",
+    "Hace 1 año: Nueva consulta por otorrea izquierda de mal olor, con un resfrío; gotas óticas, mejora parcial.",
+    "Hace 4 meses: Otro episodio de otorrea izquierda con un resfrío; gotas óticas, se seca.",
+    "Hace 30 días: Otorrinolaringólogo: otorrea izquierda recurrente, hoy oído seco; se solicita tomografía de oídos. Se deriva a evaluación auditiva completa antes de decidir cirugía.",
+    "**Otoscopía OD:** Membrana íntegra, con el mango del martillo y el triángulo luminoso.",
+    "sin foto",
+    "**Otoscopía OI:** Conducto seco, sin secreción; membrana opaca y engrosada."
+   ]
+  }
+ }
+}

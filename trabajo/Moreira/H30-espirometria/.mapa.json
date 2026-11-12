@@ -1,0 +1,44 @@
+{
+ "capitulo": "H30",
+ "md": "texto/capitulos/H30-espirometria.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH30-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-volumenes.svg ancho=100% Espirograma de un adulto de ejemplo (los litros son ilustrativos): respiración tranquila, inspiración máxima y espiración máxima. La capacidad vital (VC) es todo lo que se puede mover; el volumen residual, en gris, no sale del tórax y por eso el espirómetro no lo ve. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH30-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-esfuerzo.svg ancho=100% A. Con más esfuerzo sube la presión pleural y el punto de igual presión se corre hacia el alvéolo, pero la presión que empuja el aire hasta él, la retracción elástica, es la misma (10 cmH₂O en el ejemplo, cifras ilustrativas). B. Tres espiraciones con esfuerzos distintos: el pico cambia, el tramo final de la curva es el mismo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH30-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-maniobra.svg ancho=100% Una maniobra normal de ejemplo. A. Curva flujo-volumen: sube hasta el PEF, baja hasta flujo cero en la FVC y vuelve por la inspiración forzada. B. Curva volumen-tiempo: el FEV1 se lee al primer segundo; la meseta (sombreada) marca el final. Los números son de ejemplo. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH30-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-patrones.svg ancho=100% Los tres patrones alterados, calculados a partir de un mismo modelo de espiración forzada (los valores son de ejemplo). Obstrucción: el flujo cae a cada volumen, la curva es cóncava y el volumen sale despacio (FEV1/FVC bajo). Restricción: la curva es pequeña pero conserva su forma y el aire sale rápido (la razón es normal o alta). Mixto: las dos cosas. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH30-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-via-aerea.svg ancho=100% Curvas flujo-volumen con un tope de flujo de 3 L/s en la espiración, en la inspiración o en ambas. Debajo de cada curva, el PEF y la razón FIF50/FEF50 calculada con el modelo de ejemplo: 0,71 en la variable extratorácica, 2,17 en la intratorácica y 1,00 en la fija; la curva normal del modelo da 1,53, que no es el rango de personas reales del manual (FEF50/FIF50 de 0,9 a 1,1). Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH30-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h30-errores.svg ancho=100% La forma que dejan los errores más comunes (flujo-volumen salvo el inicio lento, que se ve en la curva volumen-tiempo). La línea gris punteada es la maniobra normal. Los números del ejemplo salen del modelo de la figura. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

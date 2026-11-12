@@ -1,0 +1,171 @@
+{
+ "capitulo": "7",
+ "md": "texto/capitulos/07-de-un-dia-para-otro.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F7-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap07-tc-fractura.jpg ancho=80% id=tc-fractura Tomografía axial del hueso temporal, en ventana de hueso. a: el trazo de fractura (flecha) queda en la mastoides y respeta la cápsula ótica. b: el trazo (flecha) cruza el conducto semicircular lateral y el vestíbulo: viola la cápsula. Imagen: Trojanowska A y cols. (2012), Insights Imaging, doi:10.1007/s13244-011-0126-z, Fig. 11, CC BY-NC.\n:::",
+   "id": "tc-fractura",
+   "globos": []
+  },
+  "F7-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_subita_audiosupra_2.svg ancho=80% Audiometría de Pablo sin enmascarar, lo que anota quien no enmascara: el OI parece una conductiva moderada, 40 a 50 dB bajo el OD en cada frecuencia, con SDT de 45 dB, SRT de 50 dB y discriminación de 100 % a 80 dB. Es la curva sombra del OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_subita_audiosupra.svg ancho=100% Audiometría de Pablo enmascarada: OD normal y OI con pérdida sensorioneural severa, SDT de 70 dB, SRT de 75 dB y discriminación de 52 % a 100 dB. SISI de 90 %, Carhart sin deterioro y Metz de 24,5 a 27 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_subita_impedancia.svg ancho=100% Impedanciometría de Pablo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_laberintitis_audiosupra.svg ancho=100% Audiometría de Irene: OD con pérdida sensorioneural profunda medida con ruido en el OI, y OI normal. SDT de 85 dB y SRT de 90 dB en el OD, con discriminación de 38 % a 100 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_laberintitis_impedancia.svg ancho=100% Impedanciometría de Irene.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-07": {
+   "kind": "fig",
+   "src": ":::figura cap07_laberintitis vemp\n- @OD P13 | El VEMP cervical del OD apenas se separa del ruido: 46 µV, **0,90** corregido por el EMG.\n- @OI P13 | El del OI es amplio: 348 µV, **6,95** corregido.\n- La razón de asimetría es de **77 %**. El laberinto que perdió la audición perdió también la respuesta del sáculo: la lesión no es solo de la cóclea.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  },
+  "F7-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_conmocion_laberintica_audiosupra.svg ancho=100% Audiometría de Bruno: muesca bilateral simétrica con fondo en 6 kHz y recuperación en 8 kHz. Discriminación de 84 % en el OD y 88 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 24,5 dB en 4 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_conmocion_laberintica_impedancia.svg ancho=100% Impedanciometría de Bruno.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_p42_audiosupra.svg ancho=100% Audiometría de Matías: OD sin respuesta, medido con el OI enmascarado, y OI en 0 dB de 125 a 8.000 Hz. Rinne falso negativo en el OD y discriminación nula en ese oído.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_p42_impedancia.svg ancho=100% Impedanciometría de Matías.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-12": {
+   "kind": "fig",
+   "src": ":::figura cap07_p42 vemp\n- @OD P13 | El VEMP cervical del OD es casi plano: 19 µV, **0,38** corregido por el EMG.\n- @OI P13 | El del OI es normal: 290 µV, **5,75** corregido. Asimetría de **88 %**.\n- Las paperas se llevaron también el sáculo del OD, como en más de la mitad de las sorderas por parotiditis (El-Badry y cols., 2015).\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  },
+  "F7-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_autoinmune_audiosupra.svg ancho=100% Audiometría de Pilar: pérdida sensorioneural bilateral asimétrica, severa en el OD y leve en el OI. Discriminación de 51 % en el OD y 92 % en el OI, SISI de 90 %, Carhart sin deterioro y Metz de 9,5 a 24,5 dB en el OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F7-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap07_autoinmune_impedancia.svg ancho=100% Impedanciometría de Pilar.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap07_subita": {
+   "numero": "7.1",
+   "ficha": [
+    "**Pablo Navarro**, 52 años · hombre",
+    "Tiene 52 años y es profesor de historia en un liceo. Hace cuatro días despertó con el oído izquierdo tapado, \"como con agua\", y con un pitido agudo de ese lado que no se le ha quitado. Pensó que era cera y se echó unas gotas que tenía en la casa, pero siguió igual. Por la izquierda no entiende el celular y tuvo que cambiárselo al otro oído; en la sala de clases le cuesta saber qué alumno le está hablando. No tuvo dolor, secreción ni mareos. La semana anterior estuvo resfriado. Es hipertenso desde hace seis años y toma su remedio todos los días. Antes de esto nunca había tenido problemas de oído.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día. Prednisona oral desde ayer, indicada por el otorrinolaringólogo.",
+    "Historia clínica",
+    "Hace 3 días: Médico general: oído izquierdo tapado y pitido desde ayer. Otoscopía normal, sin tapón de cera. Weber con diapasón lateralizado a la derecha. Se sospecha hipoacusia súbita y se deriva con urgencia a otorrinolaringología.",
+    "Hace 1 día: Otorrinolaringólogo: probable hipoacusia súbita del OI. Inicia prednisona oral y solicita audiometría con enmascaramiento, logoaudiometría e impedanciometría. Resonancia magnética en trámite.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap07_laberintitis": {
+   "numero": "7.2",
+   "ficha": [
+    "**Irene Castro**, 34 años · mujer",
+    "Tiene 34 años y es enfermera en un hospital. Hace tres semanas, unos días después de un resfrío fuerte, despertó con todo girando a su alrededor: no se podía levantar de la cama, vomitó toda la mañana y la llevaron a urgencias. Ese mismo día notó que el oído derecho no oía nada y que tenía un pitido de ese lado. El vértigo fuerte le duró unos tres días y fue pasando de a poco; hoy está mucho mejor, pero se siente insegura cuando gira rápido la cabeza o camina a oscuras. El pitido ahora va y viene. No tuvo dolor de oído, fiebre alta ni secreción, no le dolió la cabeza y no se le durmió ni se le debilitó ninguna parte de la cara o del cuerpo. Antes oía bien de los dos lados.",
+    "**Medicamentos:** Tomó un medicamento para el mareo los primeros días; ya no lo usa.",
+    "Historia clínica",
+    "Hace 21 días: Servicio de urgencia: vértigo intenso con vómitos e hipoacusia del oído derecho desde la mañana. Nistagmo espontáneo horizontal hacia la izquierda. Otoscopía normal. Examen neurológico sin otros hallazgos. Se hospitaliza para hidratación y manejo sintomático.",
+    "Hace 19 días: Alta: vértigo en disminución, camina sin ayuda. Se deriva a otorrinolaringología.",
+    "Hace 12 días: Otorrinolaringólogo: probable laberintitis viral del OD. Indica tratamiento y solicita audiometría, impedanciometría y VEMP; evaluación vestibular completa en el control.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap07_conmocion_laberintica": {
+   "numero": "7.3",
+   "ficha": [
+    "**Bruno Riquelme**, 19 años · hombre",
+    "Tiene 19 años y estudia diseño. Hace tres semanas se cayó de la bicicleta de montaña bajando un cerro y se golpeó fuerte la cabeza contra una roca, con el casco puesto. Perdió el conocimiento unos segundos. Desde que despertó en la ambulancia siente los dos oídos \"apagados\" y un zumbido parejo en ambos, que no se le quita. Los primeros días andaba algo mareado, pero eso se le pasó. Le cuesta entender a sus compañeros en la cafetería y en las clases con ruido; en la casa, conversando, oye bien. No le salió sangre ni líquido por los oídos. No trabaja con ruido, no usa audífonos a volumen alto y no dispara. El verano pasado le hicieron una audiometría para un trabajo de temporada y salió normal.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 21 días: Servicio de urgencia: traumatismo encefalocraneano por caída en bicicleta, con pérdida de conciencia breve. Tomografía de cerebro y de peñascos sin fractura ni sangrado. Otoscopía sin sangre en el conducto ni detrás del tímpano. Observación por 24 horas.",
+    "Hace 8 días: Médico general: oídos \"apagados\" y zumbido bilateral desde el accidente; otoscopía normal. Se deriva a otorrinolaringología.",
+    "Hace 2 días: Otorrinolaringólogo: probable conmoción laberíntica bilateral. Solicita audiometría, impedanciometría y emisiones otoacústicas, y la audiometría del año pasado para comparar.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap07_p42": {
+   "numero": "7.4",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "Tiene 22 años y estudia ingeniería civil. Desde los 6 años, después de unas paperas, no escucha nada por el oído derecho; dice que se acostumbró y que casi no lo piensa. Le cuesta saber de dónde viene un sonido, como cuando lo llaman en la calle o suena un celular. En clases se sienta siempre con el oído bueno hacia el profesor, y en los carretes con ruido le cuesta seguir la conversación si le hablan por la derecha. Un compañero le contó de audífonos que pasan el sonido al otro oído y quiere saber si le sirven. Nunca le hicieron estudios después de esa vez.",
+    "Historia clínica",
+    "Hace 16 años: Consulta con pediatra por parotiditis bilateral; manejo sintomático. A las dos semanas la madre nota que no responde por el oído derecho.",
+    "Hace 16 años: Otorrinolaringólogo infantil: otoscopia normal, se indica control; no vuelve a control.",
+    "Hace 30 días: Consulta con otorrinolaringólogo por dificultad para seguir clases en la universidad; otoscopia normal. Se deriva a evaluación auditiva y electrofisiológica para evaluar opciones de rehabilitación.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap07_autoinmune": {
+   "numero": "7.5",
+   "ficha": [
+    "**Pilar Valdez**, 41 años · mujer",
+    "Tiene 41 años y es contadora. Hace unos tres meses empezó a sentir el oído derecho tapado, con días mejores y días peores, y pensó que era por un resfrío. En pocas semanas dejó de oír el teléfono por ese lado. Con unos corticoides que le dio el otorrinolaringólogo mejoró un poco, pero al terminarlos volvió a empeorar, y hace un mes nota que el oído izquierdo también está más tapado. Ahora le cuesta seguir las reuniones de trabajo y les pide a todos que le hablen más fuerte. No tiene pitidos. A veces se siente un poco inestable al caminar rápido. Tiene hipotiroidismo por una tiroiditis de Hashimoto y toma levotiroxina. En su familia nadie es sordo. No ha tenido infecciones de oído ni ha trabajado con ruido.",
+    "**Medicamentos:** Levotiroxina 75 µg al día. Terminó hace casi dos meses un curso de prednisona de dos semanas.",
+    "Historia clínica",
+    "Hace 3 meses: Médico general: oído derecho tapado de una semana; otoscopía normal, sin tapón. Indica descongestionante nasal y control.",
+    "Hace 2 meses: Otorrinolaringólogo: audiometría con hipoacusia sensorioneural moderada del OD y OI normal. Indica prednisona oral por dos semanas.",
+    "Hace 40 días: Control: mejoría parcial del OD con los corticoides, que empeora al suspenderlos. Empieza a notar el OI tapado.",
+    "Hace 6 días: Otorrinolaringólogo: hipoacusia sensorioneural bilateral, asimétrica y rápidamente progresiva. Sospecha enfermedad autoinmune del oído interno; descartar otosífilis. Solicita serología (incluida la de sífilis), exámenes inmunológicos, resonancia magnética y nueva evaluación audiológica completa. Deriva a reumatología.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

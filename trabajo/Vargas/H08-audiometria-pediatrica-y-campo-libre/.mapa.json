@@ -1,0 +1,84 @@
+{
+ "capitulo": "H8",
+ "md": "texto/capitulos/H08-audiometria-pediatrica-y-campo-libre.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH8-01": {
+   "kind": "ilus",
+   "src": "![Sala de VRA vista desde arriba. El niño sentado en las rodillas de su mamá, en el punto calibrado (marca en el piso). A cada lado, a unos 90° y a 1 m de la cabeza del niño, un parlante con un cabinete de refuerzo visual encima (juguete iluminado). Frente al niño, una mesa baja con un segundo examinador que lo entretiene con un juguete silencioso. Tras un vidrio, en la sala de control, el examinador que maneja el audiómetro y los refuerzos. La mamá con un fono que le pasa música, para que no reaccione al sonido. Imagen propia del libro.](ilustraciones/h08-sala-vra.svg)",
+   "id": null,
+   "globos": []
+  },
+  "FH8-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/labsim-audiometro-campo-libre.png completa Los controles del campo libre en el audiómetro, con el canal 1 en tono modulado (FM) Imagen propia: captura de LabSim.\n- @23.8,49.6 | **C. libre.** El transductor de campo libre: el canal sale por un parlante en vez de por los fonos. En LabSim está en gris: el campo libre todavía no se practica.\n- @3.2,49.6 | **Simultáneo.** Hace sonar los dos lados a la vez; en campo libre, los dos parlantes. También en gris.\n- @3.2,35.4 | **Salida.** Con fonos elige el oído; en campo libre elige el parlante. En ninguno de los dos casos elige el oído que contesta.\n- @18.8,31.5 | **Estímulo.** En campo libre, **FM** (tono modulado, *warble*) o **NBN**. Nunca *Tono*: el tono puro forma ondas estacionarias en la sala.\n- @39.2,44.6 | **Pasos.** En la VRA se baja de 20 en 20 mientras el niño responde; cerca del nivel mínimo, 10 abajo y 5 arriba.\n- @17.6,90.4 | **Estímulo (botón grande).** En la VRA el sonido dura 2 a 3 segundos, nunca a ritmo fijo; el refuerzo se enciende solo si el niño giró.\n- @39.2,69.1 | **Talkback.** Para hablarle al niño, al acompañante y al examinador que está adentro.\n:::",
+   "id": null,
+   "globos": [
+    "@23.8,49.6",
+    "@3.2,49.6",
+    "@3.2,35.4",
+    "@18.8,31.5",
+    "@39.2,44.6",
+    "@17.6,90.4",
+    "@39.2,69.1"
+   ]
+  },
+  "FH8-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h08-campo-libre-audifono.svg ancho=55% Campo libre de un niño con audífonos sobre la zona del habla. Sin audífonos (S) los umbrales quedan bajo la zona; con audífonos (A) suben hasta ella. Esa distancia es lo que le aporta el audífono. Imagen propia del libro.\n- @104,64 | **S**, sin audífonos: todos los umbrales quedan bajo la zona del habla. La voz conversacional no le llega.\n- @104,39 | **A**, con audífonos: los umbrales suben a la zona del habla o quedan muy cerca. En 2 kHz, de 80 a 35 dB: eso es lo que aporta el audífono.\n- @62,22 | La **zona del habla** es aproximada: un esquema para ubicar los umbrales, no una norma.\n- S y A van en **verde** y centrados: en campo libre contesta el oído mejor, no uno en particular.\n:::",
+   "id": null,
+   "globos": [
+    "@104,64",
+    "@104,39",
+    "@62,22",
+    null
+   ]
+  },
+  "FH8-04": {
+   "kind": "fig",
+   "src": ":::figura h8_p35 audiograma\n- @OD 1000 | Cada símbolo es un umbral por juego: el nivel más bajo en que Benjamín guardó un juguete en 2 de 3 presentaciones. 25 dB en 1 kHz en el OD.\n- @OI 2000 | El OI está en 35 dB en 2 kHz, con un umbral por oído: a los 5 años, con fonos, ya se separan los oídos.\n- @OD osea 1000 | Ósea enmascarada en 0 dB. Exige que el niño ignore el ruido y solo juegue con el pito: se le explica antes, y si no lo logra se anota.\n- **Informe:** *audiometría condicionada por juego, con fonos; confiabilidad buena. Hipoacusia conductiva leve bilateral, de configuración plana, con vía ósea enmascarada normal.* Se correlaciona con la impedanciometría (→ H7).\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OI 2000",
+    "@OD osea 1000",
+    null
+   ]
+  },
+  "FH8-05": {
+   "kind": "fig",
+   "src": ":::figura h8_unilateral audiograma\n- @OD 1000 | El OD está en 0 dB en todas las frecuencias: audición normal.\n- @OI 1000 | El OI, medido con ruido en el OD (cuadrado), está en 75 dB en 1 kHz. Promedio BIAP (70 + 75 + 80 + 90) / 4 = 79 dB: hipoacusia **severa**.\n- @OI 4000 | En 4 kHz llega a 90 dB. La ósea no se separa de la aérea: es sensorioneural.\n- A los 2 años, en campo libre, los parlantes llegaban a los dos oídos y contestaba el OD. Responder en 20 o 25 dB era exactamente lo esperable con un oído normal: el informe dijo \"audición normal\" y no mintió, pero no podía ver el OI.\n- **Informe:** *audiometría condicionada por juego, con fonos; confiabilidad buena. Audición normal en OD; hipoacusia sensorioneural severa en OI.* Se agrega que el campo libre previo reflejaba el oído derecho.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OI 1000",
+    "@OI 4000",
+    null,
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h8_p35": {
+   "numero": "H8.1",
+   "ficha": [
+    "**Benjamín Soto**, 5 años · hombre",
+    "Resfríos y otitis desde el invierno; no responde cuando lo llaman.",
+    "Anamnesis y otoscopía: caso H1.1 · Impedanciometría: H7.2 · Emisiones: H9.3"
+   ]
+  },
+  "h8_unilateral": {
+   "numero": "H8.2",
+   "ficha": [
+    "**Aurora Pérez**, 4 años · mujer",
+    "Aurora tiene 4 años y va al jardín infantil. A los 2 años decía pocas palabras y la llevaron a una fonoaudióloga, que le hizo un examen de audición \"con parlantes y unos juguetes que se prendían\" y salió normal; hoy habla bien para su edad. Este año la educadora notó que, cuando la llaman desde su izquierda, mira hacia el lado contrario. Para hablar por teléfono con su abuela se pone el celular siempre en la oreja derecha. Nunca ha tenido otitis ni dolor de oídos. En el embarazo, a los tres meses, la mamá tuvo fiebre y mucho cansancio por unos días, \"como una gripe\".",
+    "Historia clínica",
+    "Hace 4 años: Tamizaje auditivo neonatal con emisiones otoacústicas: pasa en ambos oídos.",
+    "Hace 2 años: Fonoaudióloga, por retraso del lenguaje: audiometría por refuerzo visual en campo libre, respuestas en 20 a 25 dB HL de 500 a 4.000 Hz. Se informa \"audición normal\".",
+    "Hace 45 días: Pediatra, control sano: la educadora refiere que no localiza cuando la llaman por la izquierda. Deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

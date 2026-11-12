@@ -1,0 +1,132 @@
+{
+ "capitulo": "H5",
+ "md": "texto/capitulos/H05-logoaudiometria-y-campo-dinamico.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH5-01": {
+   "kind": "fig",
+   "src": ":::figura h5_p34 logoaudiometria\n- @OI 0 | El OI es normal: a **0 dB HL**, su SRT, repite la mitad de las palabras. Cinco dB más abajo (−5 dB HL) detecta la voz sin entender ninguna; en promedio la diferencia es de 8 a 9 dB (ASHA, 1988).\n- @OI 10 | El tramo empinado: de 0 a 10 dB pasa de 50 a 82 %, unas **8 palabras** de 25.\n- @OI 35 | Desde unos **30 dB HL** repite el 100 %; de ahí en adelante la curva queda plana.\n- @OD 40 | El OD, con su otoesclerosis, no repite ninguna palabra hasta 30 dB y pasa el 50 % a **40 dB**, su SRT: a 5 dB de su PTP de **45 dB**.\n- @OD 80 | Llega al **100 % a 80 dB**: la forma de la curva del OI, corrida unos 40 dB. La cóclea está sana y solo faltaba volumen. Para medirlo hubo que enmascarar el OI (→ paso 5).\n:::",
+   "id": null,
+   "globos": [
+    "@OI 0",
+    "@OI 10",
+    "@OI 35",
+    "@OD 40",
+    "@OD 80"
+   ]
+  },
+  "FH5-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/labsim-audiometro-habla.png completa El audiómetro en logoaudiometría: habla por el canal 1 al oído evaluado y ruido de habla por el canal 2 al contrario. Imagen propia: captura de LabSim.\n- @3,6 | **Pantalla del canal 1.** Con *Habla*, el nivel de la voz en dB HL (aquí 50) y el oído al que va.\n- @40,9 | **Prueba.** Al elegir *Habla* cambia de *Umbrales* a *Logoaudiometría* y muestra los aciertos: *0/25 : 0%* al empezar una lista.\n- @3.2,35.4 | **Salida.** La voz va al oído evaluado; el ruido, al otro.\n- @14.3,49.6 | **Habla.** Convierte el canal en canal de voz. Con *Invertir* queda abierto y cada palabra que elijas en la lista suena.\n- @85.7,60 | **SN, ruido de habla.** En el canal 2, al oído contrario (*Speech Noise* en su pantalla) y con *Invertir* para que quede sonando: el enmascarante de la logoaudiometría (→ H4).\n- @39.2,62.7 | **+1 · Limpiar · -1.** Cuentan los aciertos: un +1 por palabra bien repetida; *Limpiar* antes de cada lista.\n- @39.2,69.1 | **Talkback.** La instrucción: *Escuche mi voz* para el SDT, *Pitos fuertes* para el LDL.\n:::",
+   "id": null,
+   "globos": [
+    "@3,6",
+    "@40,9",
+    "@3.2,35.4",
+    "@14.3,49.6",
+    "@85.7,60",
+    "@39.2,62.7",
+    "@39.2,69.1"
+   ]
+  },
+  "FH5-03": {
+   "kind": "fig",
+   "src": ":::figura h5_p36 logoaudiometria\n- @OD 65 | El OD llega a su máximo, **92 % a 65 dB**: 23 de 25 palabras. Con un PTP de 28 dB, es acorde a la pérdida.\n- @OI 70 | El OI llega a **88 % a 70 dB**. Para alcanzar el máximo hubo que subir mucho más que en un oído normal.\n- @OD 90 | Pasado el máximo la curva baja poco: **84 % a 80 dB** y **80 % desde 90 dB**. Índice de roll-over (92 − 80) / 92 = **0,13**, lejos del corte de 0,45. En un adulto mayor una caída así es frecuente y no apunta a un tumor (Gang, 1976).\n- Calza con lo que cuenta Hernán: con la voz bien alta entiende casi todo; en los almuerzos familiares, asiente sin entender.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 65",
+    "@OI 70",
+    "@OD 90",
+    null
+   ]
+  },
+  "FH5-04": {
+   "kind": "fig",
+   "src": ":::figura h5_p36 audiograma\n- @OD 250 | En 250 Hz el OD está en 20 dB y su LDL en 100: un **campo dinámico de 80 dB**.\n- @OD 4000 | En 4 kHz, umbral de 60 dB y LDL de 105: quedan **45 dB**, la mitad de lo normal. Es el reclutamiento (→ H6).\n- @OI 4000 | El OI, igual: 65 dB de umbral, LDL de 105 y un campo de 40 dB en 4 kHz.\n- Los triángulos chicos unidos por guiones son el **LDL**. Para el audífono que Hernán no quiere, es el dato clave: mucha ganancia en agudos para los sonidos suaves y casi ninguna para los fuertes.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 250",
+    "@OD 4000",
+    "@OI 4000",
+    null
+   ]
+  },
+  "FH5-05": {
+   "kind": "fig",
+   "src": ":::figura h5_p39 audiograma\n- @OD 1000 | El OD tiene 15, 20 y 30 dB en 500, 1.000 y 2.000 Hz: un PTP de **22 dB**.\n- @OD 4000 | Cae a 55 dB en 4 kHz, con el OI en 15: una pérdida **asimétrica**.\n- El LDL del OD llega a **120 dB** en 3 y 4 kHz, el tope del equipo: no hay reclutamiento y el campo dinámico se conserva.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OD 4000",
+    null
+   ]
+  },
+  "FH5-06": {
+   "kind": "fig",
+   "src": ":::figura h5_p39 logoaudiometria\n- @OD max | El máximo del OD es **52 % a 55 dB**: 13 de 25 palabras. Con un PTP de 22 dB, es una discriminación **desproporcionadamente mala**.\n- @OD 40 | Con un máximo tan bajo, la curva de bisílabos apenas pasa el 50 % a **40 dB**, 18 dB sobre el PTP. El SRT con espondeos sigue concordante (15 dB): lo que falla no es el umbral, es la discriminación (ASHA, 1988).\n- @OD 80 | Subir más empeora: 31 % a 70 dB y **20 % desde 80 dB**. Índice de roll-over (52 − 20) / 52 = **0,62**, sobre el corte de 0,45.\n- @OI 40 | El OI, normal: 100 % a 40 dB.\n- Sin enmascarar, desde 55 dB el OI contesta por el OD y la curva \"mejora\" hasta el 100 % a 85 dB: el máximo bajo y el roll-over desaparecen. Raúl ya lo había dicho: por el derecho \"escucha la voz pero no entiende\". Se estudia como retrococlear hasta demostrar lo contrario (→ capítulo 11).\n:::",
+   "id": null,
+   "globos": [
+    "@OD max",
+    "@OD 40",
+    "@OD 80",
+    "@OI 40",
+    null
+   ]
+  },
+  "FH5-07": {
+   "kind": "fig",
+   "src": ":::figura h5_p41 logoaudiometria\n- @OI 45 | A 45 dB el OI ya \"repite\" la mitad. No es el OI: en este paciente la voz cruza con 45 dB menos y alcanza el OD a 0 dB, su SRT.\n- @OI 80 | A 80 dB \"llega\" al **100 %**: al OD llegan 35 dB y el OD normal entiende todo a ese nivel.\n- @OD 35 | La curva del OD: 100 % a 35 dB. Toda la curva del OI sin enmascarar es una copia de ella, corrida 45 dB.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 45",
+    "@OI 80",
+    "@OD 35"
+   ]
+  },
+  "FH5-08": {
+   "kind": "fig",
+   "src": ":::figura h5_p41 logoaudiometria 2\n- @OI 60 | Con ruido de habla en el OD, a 60 dB el OI repite **73 %**; sin enmascarar \"repetía\" 91 %.\n- @OI 90 | Su máximo real es **92 % a 90 dB**. El ruido en el OD va entre 90 − 45 − 0 + 0 = **45 dB** y 28 + 45 = **73 dB** (28 es el PTP óseo del OI). Con los criterios de Yacullo (2015) la ventana es mucho más angosta: de 90 − 40 + 0 = 50 a 20 + 40 − 5 = 55 dB (20 es el mejor óseo del OI, en 250 Hz).\n- @OI 100 | Pasado el máximo baja a **79 %** a 100 dB. Sin enmascarar, la caída tampoco se veía.\n- Toda la curva del OI necesitaba ruido: empieza sobre los 40 dB y el PTP óseo del OD es 0, así que desde 45 dB cada nivel pide enmascarar.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 60",
+    "@OI 90",
+    "@OI 100",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h5_p34": {
+   "numero": "H5.1",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Oye menos por el oído derecho desde su segundo embarazo, y cada vez peor.",
+    "Anamnesis y otoscopía: caso H2.1 · Acumetría: H2.1 · Audiometría: H3.3 · Impedanciometría: H7.1 · VEMP: H12.3"
+   ]
+  },
+  "h5_p36": {
+   "numero": "H5.2",
+   "ficha": [
+    "**Hernán Contreras**, 74 años · hombre",
+    "Le cuesta entender a sus nietos y en los almuerzos familiares.",
+    "Anamnesis y otoscopía: caso H3.4 · Audiometría: H3.4 · Emisiones: H9.2 · Prueba de audífonos: H21.1"
+   ]
+  },
+  "h5_p39": {
+   "numero": "H5.3",
+   "ficha": [
+    "**Raúl Saavedra**, 54 años · hombre",
+    "Pito en el oído derecho; por ese lado oye la voz, pero no entiende.",
+    "Anamnesis y otoscopía: caso H2.2 · Acumetría: H2.2 · Supraliminares: H6.2"
+   ]
+  },
+  "h5_p41": {
+   "numero": "H5.4",
+   "ficha": [
+    "**Luis Navarro**, 41 años · hombre",
+    "Supura del oído izquierdo con cada resfrío y oye cada vez menos por ese lado.",
+    "Anamnesis y otoscopía: caso H3.1 · Audiometría: H3.1 · Enmascaramiento: H4.2"
+   ]
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "capitulo": "37",
+ "md": "texto/capitulos/37-nariz-y-pulmon.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F37-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap37-via-unica.svg ancho=100% id=via-unica Los tramos de la vía aérea de la nariz a los bronquios, con un ejemplo de lo que puede estrecharlos y dónde se ve en la curva flujo-volumen. La banda gris es lo que registra la espirometría: el aire que pasa por la boca. Mira que la nariz queda fuera: la prueba se hace con pinza nasal. Imagen propia.\n:::",
+   "id": "via-unica",
+   "globos": []
+  },
+  "F37-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap37-donde-limita.svg ancho=100% id=donde-limita Tres curvas flujo-volumen calculadas con un modelo sencillo (valores de ejemplo). En línea gris, la curva normal. Compara los paneles: en el asma el flujo cae en el tramo medio y final (curva cóncava); en la estenosis fija el flujo se corta en un tope parejo en la espiración y en la inspiración. Imagen propia.\n:::",
+   "id": "donde-limita",
+   "globos": []
+  },
+  "F37-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap37-espiro-asma.svg ancho=100% id=espiro-asma Espirometría pre y post broncodilatador de Óscar, en el formato del manual chileno. Mira el tramo descendente de la curva flujo-volumen: cóncavo antes (azul) y menos después (rojo, rayas); y el VEF1 del primer segundo en la curva volumen-tiempo, más alto en la curva roja. En la tabla, compara el VEF1/CVF con el LIN y mira el cambio. Imagen propia.\n- @24,30 | **Pre (azul):** pico de 7,4 L/s y un descenso **cóncavo** hacia el eje: el flujo cae en cuanto el pulmón se vacía. La curva **post** (roja, rayas) es más alta y menos cóncava.\n- @70,31 | **VEF1 al primer segundo:** 3,20 L antes (punto azul) y 3,80 L después (punto rojo). El tiempo para llegar a la meseta pasa de 9,3 s a 6,4 s.\n- @74,69.5 | **VEF1 pre:** 3,20 L, 72 % del teórico (4,47 L), **z −2,35** y bajo el LIN de 3,59 L.\n- @80,73 | **VEF1/CVF pre:** 65,3 %, **z −2,50**, bajo el LIN de 72,4 %: hay obstrucción. La CVF está sobre el LIN (4,90 L; LIN 4,34 L).\n- @97,69.5 | **Cambio del VEF1:** 0,60 L, que es **13,4 % del teórico** (0,60 / 4,47): sobre el 10 %. La CVF cambia 3,7 %.\n:::",
+   "id": "espiro-asma",
+   "globos": [
+    "@24,30",
+    "@70,31",
+    "@74,69.5",
+    "@80,73",
+    "@97,69.5"
+   ]
+  },
+  "F37-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap37-espiro-estenosis.svg ancho=100% id=espiro-esten Espirometría pre y post broncodilatador de Verónica, en el formato del manual chileno. Mira la curva flujo-volumen: el flujo se corta en un tope parejo, arriba al espirar y abajo al inspirar, y las curvas pre y post se superponen. Después mira la tabla: el VEF1 y la razón están dentro de lo normal, y el FEM, no. Imagen propia.\n- @23,31 | **Meseta espiratoria:** el flujo sube y se queda en 3,2 L/s hasta cerca de la mitad de la maniobra; el pico no pasa de ahí.\n- @20,45 | **Meseta inspiratoria:** el flujo inspiratorio también se corta, en 3,0 L/s. El estrechamiento limita los dos sentidos: es **fijo**.\n- @60,28 | Las curvas **pre y post se superponen**: el broncodilatador no cambia nada.\n- @74,69.5 | **VEF1:** 2,54 L, 94 % del teórico, **z −0,45**, sobre el LIN de 2,11 L: dentro de lo normal. La razón VEF1/CVF es 78,2 %, sobre el LIN de 69,7 %.\n- @74,76.5 | **FEM:** 3,2 L/s. La ecuación GLI-2012 no trae un valor teórico del FEM, pero el cociente VEF1 (2.540 mL) / FEM (192 L/min) da **13,2**, mayor de 8.\n- @97,69.5 | **Cambio del VEF1:** 0,02 L, 0,7 % del teórico: no hay respuesta.\n:::",
+   "id": "espiro-esten",
+   "globos": [
+    "@23,31",
+    "@20,45",
+    "@60,28",
+    "@74,69.5",
+    "@74,76.5",
+    "@97,69.5"
+   ]
+  }
+ },
+ "casos": {
+  "cap37_asma": {
+   "numero": "37.1",
+   "ficha": [
+    "**Óscar Cardenas**, 27 años · hombre",
+    "Tiene 27 años y es diseñador gráfico. Desde la adolescencia se le tapa la nariz casi todo el año y peor en primavera: estornuda en salvas, le pica la nariz y los ojos, le gotea agua clara y siente la garganta \"con moco que baja\". Hace dos años adoptó un gato y desde entonces está peor. En los últimos meses se le suma tos seca de madrugada, un silbido en el pecho al subir escaleras o al jugar fútbol, y a veces \"no me llega el aire\" al reírse mucho. Hace un año un médico le dio un inhalador de salbutamol: lo usa dos o tres veces por semana y le alivia. Toma un antihistamínico cuando está muy mal; lo dejó hace tres días, como le pidieron para el examen, y no usó el salbutamol en las últimas 24 horas. No fuma. Su madre tiene rinitis y \"bronquitis alérgica\". Un alergólogo le hizo pruebas en la piel hace un año; le dijo que reaccionaba a los ácaros y al gato.",
+    "**Medicamentos:** Salbutamol en inhalador a demanda, dos o tres veces por semana (última dosis hace más de 24 horas); antihistamínico oral cuando hay síntomas (lo dejó hace tres días)",
+    "Historia clínica",
+    "Hace 7 años: Control por estornudos y picazón en primavera; antihistamínico oral cuando hay síntomas.",
+    "Hace 1 año: Pruebas cutáneas con alérgenos inhalantes: reacciona a ácaros y a epitelio de gato (según relata; no trajo el informe). Se indica salbutamol en inhalador a demanda.",
+    "Hace 30 días: Médico general: rinitis alérgica y sospecha de asma; se solicita espirometría con prueba broncodilatadora."
+   ]
+  },
+  "cap37_estenosis": {
+   "numero": "37.2",
+   "ficha": [
+    "**Verónica Castillo**, 49 años · mujer",
+    "Tiene 49 años y trabaja como secretaria. Hace catorce meses estuvo hospitalizada 16 días por una neumonía grave, y 12 de esos días con ventilación mecánica por un tubo en la tráquea. Salió ronca y la voz se le normalizó en un mes. Desde hace ocho meses se agita al subir una escalera y al caminar rápido, y desde hace unos tres meses \"hace ruido\" al respirar: lo oyen los demás, sobre todo al inspirar y cuando camina apurada. Un médico pensó en asma y le dio un inhalador con corticoide y formoterol, que usa dos veces al día desde hace cinco meses sin notar cambio. No ha tenido silbidos de pecho antes, ni estornudos, ni picazón; su nariz \"respira bien\" y no hay alergia en la familia. Nunca ha fumado. Para el examen dejó el formoterol 24 horas, como le indicaron.",
+    "**Medicamentos:** Budesonida con formoterol en inhalador, dos veces al día (el formoterol se suspendió 24 horas antes del examen)",
+    "Historia clínica",
+    "Hace 1 año: Neumonía grave; ventilación mecánica invasiva durante 12 días; alta a los 16 días.",
+    "Hace 8 meses: Disnea de esfuerzo progresiva.",
+    "Hace 5 meses: Se diagnostica asma; corticoide inhalado con formoterol, sin mejoría.",
+    "Hace 30 días: Médico general: disnea que no responde al tratamiento del asma; se solicita espirometría con prueba broncodilatadora."
+   ]
+  }
+ }
+}

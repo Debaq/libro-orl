@@ -1,0 +1,411 @@
+{
+ "capitulo": "B1",
+ "md": "texto/capitulos/B01-anatomia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FB1-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-oido.png El oído completo en un corte frontal. Sigue el camino del sonido: el pabellón y el conducto lo llevan a la membrana, la cadena lo pasa a la cóclea y el VIII par lo lleva al tronco; la trompa ventila el oído medio hacia la rinofaringe. Imagen: Servier Medical Art, CC BY 4.0.\n- @10,45 | **Pabellón** (→ El pabellón).\n- @40,52 | **Conducto auditivo externo**: cartilaginoso afuera, óseo adentro.\n- @58,62 | **Membrana timpánica**, el límite con el oído medio.\n- @61,34 | **Cadena osicular**: martillo, yunque y estribo.\n- @68,24 | **Canales semicirculares** (vestíbulo).\n- @84,58 | **Cóclea**.\n- @94,26 | **Nervio vestibulococlear** (VIII par).\n- @72,78 | **Trompa de Eustaquio**, hacia la rinofaringe.\n:::",
+   "id": null,
+   "globos": [
+    "@10,45",
+    "@40,52",
+    "@58,62",
+    "@61,34",
+    "@68,24",
+    "@84,58",
+    "@94,26",
+    "@72,78"
+   ]
+  },
+  "FB1-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-pabellon.svg ancho=48% Los relieves del pabellón derecho: son los nombres que usarás para describir una malformación y para saber de dónde tomar el pabellón en la otoscopía. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-microtia-grados.jpg ancho=60% Los grados de la microtia, frente a un pabellón normal. A medida que sube el grado se pierden los relieves: en el III queda un remanente con el lóbulo y en el IV no queda nada. Rótulos en inglés (*Class*, grado). Imagen: Truong y cols. (2022), Front Surg, doi:10.3389/fsurg.2022.944223, CC BY 4.0.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-cae-gray907.png ancho=70% Corte del oído externo y la trompa. Mira dónde termina el cartílago y empieza el hueso del conducto: ahí la piel se vuelve fina y el roce empieza a doler. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 907), dominio público.\n- @16,70 | **Parte cartilaginosa** del conducto (*cartilaginous part of ext. acoustic meatus*): piel con pelos y glándulas.\n- @41,56 | **Parte ósea** del conducto (*bony part*): piel fina y muy sensible.\n- @44,44 | **Membrana timpánica** (*tympanic membrane*), que cierra el fondo del conducto.\n- @45,34 | **Ático** y caja timpánica del oído medio, detrás de la membrana.\n- @55,38 | **Tensor del tímpano**, músculo del martillo (→ H7).\n- @74,50 | **Trompa auditiva** (*auditory tube*), que baja hacia la rinofaringe.\n- @33,68 | **Apófisis mastoides**, hueso con celdillas aéreas detrás del pabellón.\n:::",
+   "id": null,
+   "globos": [
+    "@16,70",
+    "@41,56",
+    "@44,44",
+    "@45,34",
+    "@55,38",
+    "@74,50",
+    "@33,68"
+   ]
+  },
+  "FB1-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-membrana.svg ancho=100% Referencias de la membrana timpánica derecha y dónde cae cada hallazgo. Ubica primero el mango y el umbo: desde ellos se trazan los cuadrantes que usarás para dar la posición de una perforación. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-caja-gray911.png ancho=76% Pared medial de la caja timpánica, la que verías si sacaras la membrana. Ubica el promontorio con la ventana oval arriba y la redonda abajo, y el canal del facial pasando justo sobre la oval. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 911), dominio público.\n- @33,22 | **Canal del nervio facial** (*facial canal*): el nervio pasa sobre la ventana oval.\n- @45,31 | **Ventana oval** (*fen. ovale*): ahí apoya la base del estribo.\n- @40,52 | **Ventana redonda** (*fen. rotunda*).\n- @52,42 | **Promontorio**: el relieve que forma la vuelta basal de la cóclea.\n- @35,40 | **Eminencia piramidal** (*pyramid*): de ahí sale el tendón del músculo del estribo.\n- @80,22 | **Semicanal del tensor del tímpano**: el músculo del martillo.\n- @78,36 | **Trompa auditiva** (*Eustachian tube*): su abertura queda en la pared anterior.\n- @24,63 | **Cuerda del tímpano** y nervio facial, bajando por la pared posterior.\n:::",
+   "id": null,
+   "globos": [
+    "@33,22",
+    "@45,31",
+    "@40,52",
+    "@52,42",
+    "@35,40",
+    "@80,22",
+    "@78,36",
+    "@24,63"
+   ]
+  },
+  "FB1-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-tc-coronal.jpg ancho=55% Tomografía coronal de un oído derecho sano, a la altura del ático; afuera queda a la izquierda. El aire es negro y el hueso, blanco: mira el escudo, el borde de hueso que el colesteatoma del ático erosiona. Es una persona real, no un paciente de este libro; la tomografía la pide y la informa el médico, y sirve aquí para ver la forma de lo que miden las pruebas. Imagen: Touska y Connor (2025), Eur Radiol, doi:10.1007/s00330-024-11021-x, CC BY 4.0, adaptada.\n- @36,22 | **Ático** (epitímpano), con aire.\n- @25,57 | **Escudo** (flecha hueca): el borde de hueso donde se apoya la parte alta de la membrana. El colesteatoma del ático lo erosiona (→ cap. 3).\n- @43,58 | **Articulación del yunque con el estribo** (flecha chica).\n- @12,58 | **Conducto auditivo externo**, con aire.\n:::",
+   "id": null,
+   "globos": [
+    "@36,22",
+    "@25,57",
+    "@43,58",
+    "@12,58"
+   ]
+  },
+  "FB1-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-oido-interno.png ancho=62% Membrana, cadena osicular y oído interno juntos. Sigue la cadena desde el mango del martillo, pegado a la membrana, hasta la platina del estribo en la ventana oval: por ahí entra la vibración al laberinto. Imagen: Servier Medical Art, CC BY 4.0.\n- @7,80 | **Membrana timpánica**, vista de lado.\n- @11,26 | **Martillo**: cabeza y mango.\n- @22,54 | **Yunque**: su rama larga baja hacia el estribo.\n- @39,51 | **Estribo**, con la platina en la ventana oval.\n- @31,14 | **Canales semicirculares** (parte del laberinto posterior).\n- @37,31 | **Vestíbulo** (utrículo y sáculo).\n- @53,54 | **Cóclea**.\n- @56,22 | **Nervio vestibular**, con su ganglio.\n- @63,43 | **Nervio coclear**.\n:::",
+   "id": null,
+   "globos": [
+    "@7,80",
+    "@11,26",
+    "@22,54",
+    "@39,51",
+    "@31,14",
+    "@37,31",
+    "@53,54",
+    "@56,22",
+    "@63,43"
+   ]
+  },
+  "FB1-09": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-trompa.svg ancho=100% La trompa del lactante y del adulto. En el lactante es más corta y más horizontal: por eso lo que pasa en la rinofaringe llega con facilidad al oído medio. Con las medidas de Ishijima y cols. (2000). Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-10": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-laberinto-gray920.png ancho=70% Laberinto óseo izquierdo: la cóclea adelante, para la audición, y el vestíbulo con los tres canales atrás, para el equilibrio. Las dos ventanas quedan entre ambos. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 920), dominio público.\n- @28,18 | **Canal semicircular superior** (*superior canal*).\n- @22,64 | **Canal semicircular lateral** (*lateral canal*), el horizontal.\n- @8,70 | **Canal semicircular posterior** (*posterior canal*).\n- @49,41 | **Ampollas**: el ensanchamiento de cada canal, donde está el receptor.\n- @51,68 | **Ventana oval** (*vestibular fenestra*): ahí apoya el estribo.\n- @50,89 | **Ventana redonda** (*cochlear fenestra*), cerrada por una membrana.\n- @53,80 | **Vestíbulo**: contiene al utrículo y al sáculo.\n- @80,58 | **Cóclea**.\n:::",
+   "id": null,
+   "globos": [
+    "@28,18",
+    "@22,64",
+    "@8,70",
+    "@49,41",
+    "@51,68",
+    "@50,89",
+    "@53,80",
+    "@80,58"
+   ]
+  },
+  "FB1-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-tc-axial.jpg ancho=100% Dos cortes axiales de tomografía de un oído normal: a la izquierda, uno más bajo; a la derecha, uno más alto. Adelante queda arriba y afuera, a la izquierda. Es el laberinto de la lámina anterior, ahora dentro del hueso: busca la cóclea, el vestíbulo y los canales, y sigue el facial por la caja y la mastoides. Rótulos en inglés; ICA es la carótida interna. Imagen: Feraco y cols. (2021), Radiol Med, doi:10.1007/s11547-021-01387-z, CC BY 4.0, adaptada.\n- @8.5,51 | **Nervio facial**, segmento mastoideo (*VII-MS*): baja por la mastoides.\n- @17,76 | **Celdillas mastoideas**: hueso lleno de aire, negro.\n- @25,81 | **Canal semicircular lateral** (*LSCC*).\n- @38.3,72 | **Vestíbulo** (*V*).\n- @45.6,54 | **Vuelta basal de la cóclea** (*BTC*).\n- @70.5,12 | **Nervio facial**, segmento timpánico (*VII-TS*), en la pared de la caja.\n- @93.8,15 | **Trompa de Eustaquio**, su entrada (*ET*).\n- @90.6,58 | **Cóclea**: vueltas basal (*BTC*), media (*MTC*) y apical (*ATC*).\n- @86,61 | **Conducto auditivo interno** (*IAC*).\n- @84.5,81 | **Canal semicircular superior** (*SSCC*).\n:::",
+   "id": null,
+   "globos": [
+    "@8.5,51",
+    "@17,76",
+    "@25,81",
+    "@38.3,72",
+    "@45.6,54",
+    "@70.5,12",
+    "@93.8,15",
+    "@90.6,58",
+    "@86,61",
+    "@84.5,81"
+   ]
+  },
+  "FB1-12": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-coclea-openstax.jpg ancho=100% Corte transversal de una vuelta de la cóclea: las tres rampas, con el órgano de Corti apoyado en la membrana basilar, en el piso de la rampa media. Rótulos en inglés. Imagen: OpenStax, Anatomy and Physiology 2e, CC BY 4.0.\n- @56,26 | **Rampa vestibular** (*scala vestibuli*): perilinfa.\n- @51,37 | **Conducto coclear** (rampa media): endolinfa.\n- @61,49 | **Órgano de Corti**, sobre la membrana basilar y bajo la membrana tectoria.\n- @62,67 | **Rampa timpánica** (*scala tympani*): perilinfa.\n- @75,68 | **Ganglio espiral**: los cuerpos de las neuronas del nervio coclear.\n:::",
+   "id": null,
+   "globos": [
+    "@56,26",
+    "@51,37",
+    "@61,49",
+    "@62,67",
+    "@75,68"
+   ]
+  },
+  "FB1-13": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-rm-cai.jpg ancho=90% Resonancia en T2 del CAI de un lactante, en un corte perpendicular al conducto, del oído que oye normal; a la derecha, ampliado. Adelante queda a la izquierda. Busca los cuatro nervios en su cuadrante: el facial arriba y adelante, el coclear abajo y adelante, las ramas vestibulares atrás. Rótulos en inglés. Imagen: Johansson y cols. (2022), J Clin Med, doi:10.3390/jcm11143966, CC BY 4.0, adaptada.\n- @32,72 | El **CAI**, cortado de través, dentro del círculo.\n- @64.5,18 | **Nervio facial** (*facial nerve*): arriba y adelante.\n- @82,22 | **Ramas vestibulares**, superior e inferior (*vestibular branches*): atrás.\n- @81.5,78 | **Nervio coclear** (*cochlear branch*): abajo y adelante. En el otro oído de este niño, sordo, no se ve: aplasia del nervio coclear.\n:::",
+   "id": null,
+   "globos": [
+    "@32,72",
+    "@64.5,18",
+    "@82,22",
+    "@81.5,78"
+   ]
+  },
+  "FB1-14": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-rm-cai-plano.jpg ancho=100% De dónde sale ese corte, en un adulto con audición normal: el plano se traza perpendicular al CAI sobre el corte axial, y en el fondo del conducto los cuatro nervios quedan en una cruz. Compara el esquema con el corte real. Rótulos en inglés (S, superior; A, anterior). Imagen: Aphiwatthanasumet y cols. (2025), MAGMA, doi:10.1007/s10334-024-01213-3, CC BY 4.0, adaptada.\n- @12,8 | **Plano del corte**: la línea blanca larga, perpendicular al CAI.\n- @39,17 | **Facial** (*facial nerve*): anterosuperior.\n- @60,12 | **Vestibular superior**: posterosuperior.\n- @32,72 | **Coclear** (*cochlear nerve*): anteroinferior.\n- @60,88 | **Vestibular inferior**: posteroinferior.\n- @96,88 | El **corte real** a 7 teslas.\n:::",
+   "id": null,
+   "globos": [
+    "@12,8",
+    "@39,17",
+    "@60,12",
+    "@32,72",
+    "@60,88",
+    "@96,88"
+   ]
+  },
+  "FB1-15": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-auditiva.png ancho=64% La vía auditiva central, de la cóclea a la corteza, de frente: a la izquierda de la figura queda el lado derecho del paciente. Sigue una fibra del oído derecho desde abajo: en el núcleo coclear se reparte y sube por los dos lados, y desde el complejo olivar cada lado ya lleva información de los dos oídos. Los cruces son las líneas que atraviesan el eje del centro. Rojo, conexión que excita; azul, la que inhibe. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @4,70.5 | **Núcleo coclear**: la primera estación; ahí termina el nervio.\n- @21,81.5 | **Nervio coclear** (VIII): lleva el orden de frecuencias de la cóclea.\n- @15.5,57.5 | **Complejo olivar superior**: primera estación con los dos oídos (LSO y MSO, con el núcleo trapezoide en medio).\n- @47.5,50.5 | **Cruces**: por aquí pasan al lado opuesto las fibras que van del núcleo coclear al olivar y al lemnisco.\n- @12,45.7 | **Lemnisco lateral**.\n- @19,33.9 | **Colículo inferior**: estación obligatoria del mesencéfalo.\n- @16,22.4 | **Cuerpo geniculado medial**, en el tálamo.\n- @9,8.8 | **Corteza auditiva**, en el lóbulo temporal.\n:::",
+   "id": null,
+   "globos": [
+    "@4,70.5",
+    "@21,81.5",
+    "@15.5,57.5",
+    "@47.5,50.5",
+    "@12,45.7",
+    "@19,33.9",
+    "@16,22.4",
+    "@9,8.8"
+   ]
+  },
+  "FB1-16": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-aud.svg ancho=100% La vía auditiva sana y con la lesión en tres estaciones, con el oído izquierdo a la derecha de cada esquema. A: la vía sana, con los cruces entre los núcleos cocleares, el olivar y el lemnisco. B: el nervio del lado izquierdo a medias (la raya verde), como en un schwannoma del VIII. C: el complejo olivar izquierdo perdido (cruces verdes). D: el colículo inferior izquierdo perdido. Mira que desde el olivar hacia arriba las dos vías están conectadas por los cruces, y que por eso en C y D lo que se pierde no es un oído: el esquema deja la vía del lado sano completa. En rojo viaja la excitación y en azul la inhibición (de la oliva superior lateral). Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-17": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-peat.svg ancho=100% El PEAT de los mismos casos (clic a 80 dB, oído derecho arriba e izquierdo abajo). A: ondas I a V del oído sano. B: schwannoma izquierdo; la I queda y las ondas siguientes se atrasan y bajan, como en una lesión retrococlear (→ H10, cap. 11). C: complejo olivar izquierdo; baja la IV, la onda que se asigna a esa estación. D: colículo inferior izquierdo; el modelo no cambia las ondas. Compara cada trazo del oído izquierdo con el derecho de la misma lámina. Las cifras del eje son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-18": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-vor.png ancho=50% El arco del reflejo vestíbulo-ocular del canal lateral: del canal al nervio, de ahí al núcleo vestibular, cruce hacia el núcleo del VI del otro lado y, de ahí, a los músculos de los dos ojos por el fascículo longitudinal medial. Sigue el trayecto desde el canal lateral derecho: termina en el recto lateral del ojo izquierdo y, por el fascículo, en el recto medial del derecho, y los dos ojos van hacia la izquierda cuando la cabeza gira a la derecha. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @31.5,91.5 | **Canal lateral**: el arco empieza en su cúpula.\n- @30.6,82 | **Nervio vestibular**, rama superior: lleva el lateral, el anterior y el utrículo.\n- @11,72 | **Núcleos vestibulares**: segunda neurona.\n- @50,64.5 | **Cruce** hacia el núcleo del VI del lado opuesto.\n- @29,60.5 | **Núcleo del VI** (abducens): mueve el recto lateral y manda interneuronas hacia el otro ojo.\n- @56,34 | **Fascículo longitudinal medial** (FLM): sube pegado a la línea media.\n- @35,39 | **Núcleo del III**: el recto medial.\n- @7,17 | **Recto lateral** y **recto medial**: los músculos que mueven el ojo en el plano horizontal.\n- @5,66 | **Flóculo**: el cerebelo frena el reflejo cuando hay algo que fijar.\n:::",
+   "id": null,
+   "globos": [
+    "@31.5,91.5",
+    "@30.6,82",
+    "@11,72",
+    "@50,64.5",
+    "@29,60.5",
+    "@56,34",
+    "@35,39",
+    "@7,17",
+    "@5,66"
+   ]
+  },
+  "FB1-19": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-vor.svg ancho=100% Los tres arcos del reflejo vestíbulo-ocular, con un impulso de la cabeza a mitad de camino. A y B: el canal lateral derecho, excitado cuando la cabeza gira a la derecha (A) e inhibido cuando gira a la izquierda (B). C y D: los canales verticales por pares coplanares, LARP (anterior izquierdo y posterior derecho) y RALP (anterior derecho y posterior izquierdo). Mira que en cada par un canal se excita y el otro se inhibe, que el núcleo vestibular excitado recibe del compañero inhibido, y qué músculos de cada ojo se encienden: en C, el recto superior izquierdo y el oblicuo inferior derecho, los de la tabla de arriba. Rojo, excitado; azul, inhibido. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-20": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-otolitos.png ancho=50% Las vías otolíticas: el utrículo (nervio superior) llega a los músculos de los ojos, y el sáculo (nervio inferior), al esternocleidomastoideo. Con los canales apagados, mira solo los dos órganos marcados abajo y los músculos que se iluminan arriba, en los ojos, y a los lados, en el cuello. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @40,92 | **Utrículo** y **sáculo**: los dos otolitos, de cada lado.\n- @33,82 | **Rama superior** (utrículo) y **rama inferior** (sáculo) del nervio vestibular.\n- @4,72 | **Esternocleidomastoideo (ECM)**: el músculo del cVEMP.\n- @17,11 | **Músculos de los ojos** de los dos verticales: la vía del oVEMP.\n:::",
+   "id": null,
+   "globos": [
+    "@40,92",
+    "@33,82",
+    "@4,72",
+    "@17,11"
+   ]
+  },
+  "FB1-21": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-oto.svg ancho=100% Las dos vías otolíticas por separado. A: utrículo y sáculo sanos, con los dos nervios y sus músculos. B: sin los dos sáculos queda solo la rama superior, hacia los músculos de los ojos (la vía del oVEMP). C: sin los dos utrículos queda solo la rama inferior, hacia el esternocleidomastoideo del mismo lado (la vía del cVEMP). D: la neuritis del nervio superior izquierdo corta el utrículo de ese lado y deja el sáculo: cae el oVEMP y el cVEMP se conserva (Taylor y cols., 2016; → H12). Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-22": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-esp.svg ancho=100% Las vías vestibuloespinales y las que las acompañan en el control postural. A y B: la capa vestibular con el cuerpo inclinado a un lado (A) y adelante y atrás (B); desde los canales y los otolitos, los núcleos vestibulares (Deiters, medial e inferior) llegan a la médula cervical, hacia los músculos del cuello, y a la lumbar, hacia los extensores de las piernas y los tibiales. C: la vía propioceptiva, del tobillo y de la planta a la médula, al cerebelo y a la corteza. D: lo que las junta, con la visión y las áreas de la corteza. Mira qué fibras se calientan y cuáles se enfrían cuando cambia la inclinación, y compara A con B. Rojo, la vía dispara más que en reposo; azul, menos. Las cifras que escribe el esquema son del modelo, no valores de referencia (→ H16 \"El reflejo vestíbulo-espinal\", H20). Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-23": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-flo.svg ancho=100% El flóculo como freno por fijación, sobre una neuritis izquierda recién instalada. A: fijando, el flóculo manda su freno (el rojo que termina en T) sobre el núcleo vestibular del lado que dispara de más. B: ocluido, sin un blanco que fijar, el freno se apaga (queda en gris). C y D: sin los dos flóculos (cruces verdes) no hay freno, con luz o sin luz. Eso explica en la clínica que un nistagmo periférico baje con la fijación y uno cerebeloso no (→ H16). Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-24": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-mirada.png ancho=50% Las estaciones que hacen las fases rápidas y sostienen la mirada: el generador horizontal (FRPP), el vertical (riMLF), las omnipausa, y los integradores horizontal (NPH) y vertical (Cajal). Los puntos que corren por los tramos son los impulsos de cada fase rápida. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @19.5,51.5 | **FRPP** (formación reticular pontina paramediana): genera las fases rápidas horizontales hacia su lado.\n- @32,47.5 | **riMLF**: genera las verticales y torsionales.\n- @60.5,68.5 | **Omnipausa**: frenan las ráfagas entre una fase rápida y otra.\n- @36.5,76 | **NPH**: el integrador horizontal, que sostiene el ojo en la posición a la que llegó.\n- @15.5,43.2 | **Cajal** (núcleo intersticial): el integrador vertical.\n:::",
+   "id": null,
+   "globos": [
+    "@19.5,51.5",
+    "@32,47.5",
+    "@60.5,68.5",
+    "@36.5,76",
+    "@15.5,43.2"
+   ]
+  },
+  "FB1-25": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-mir.svg ancho=100% Las estaciones de la mirada y de la fase rápida. A: en reposo, con los generadores (FRPP y riMLF), las omnipausa y los integradores (NPH y Cajal). B y C: durante una sacada horizontal y una vertical, vistas con el modo Oculomotor. D: los dos integradores a medias (rayas verdes), la causa del nistagmo evocado por la mirada. Mira que de cada generador salen las fibras al núcleo del VI (horizontal) y a los del III y IV (vertical), y que las omnipausa quedan entre los dos lados. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-26": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-percepcion.png ancho=50% Del núcleo vestibular al tálamo y a la corteza vestibular, de los dos lados. Los puntos son los impulsos. Mira que la vía sube por los dos lados, con un cruce, y que cada corteza recibe de los dos laberintos. En una corteza normal, el trazo de la vertical subjetiva (en el círculo del centro) queda recto. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @8,20.5 | **Corteza vestibular** (PIVC), una por hemisferio.\n- @31.5,44 | **Tálamo**, con su cruce hacia el lado opuesto.\n- @58.5,26 | **Vertical visual subjetiva**: la línea que la persona ajusta hasta verla vertical.\n:::",
+   "id": null,
+   "globos": [
+    "@8,20.5",
+    "@31.5,44",
+    "@58.5,26"
+   ]
+  },
+  "FB1-27": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-perc.svg ancho=100% Tálamo y corteza vestibular en cuatro situaciones. A: sano, sin sensación de giro y con la vertical subjetiva recta. B: neuritis izquierda recién instalada: el esquema escribe una sensación de giro y la vertical subjetiva (la línea del círculo) sale torcida. C: pérdida unilateral compensada, a los tres meses: la sensación de giro se fue y la vertical casi no se desvía. D: la corteza vestibular izquierda lesionada, con el laberinto y el tronco sanos: sin sensación de giro y la vertical torcida (Brandt y Dieterich, 1999). Mira que la corteza lesionada deja el desvío de la vertical sin que haya nistagmo. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-28": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-sacadas.png ancho=42% La vía de las sacadas: la orden sale del campo ocular frontal y del colículo superior del lado opuesto, el generador (FRPP o riMLF) hace el pulso, las omnipausa lo detienen, y el vermis y el núcleo fastigio del cerebelo ajustan la precisión. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @11.5,33 | **Campo ocular frontal**: decide adónde se salta.\n- @14.5,42.7 | **Colículo superior**: también decide el destino de la sacada.\n- @27.5,51.7 | **FRPP**: el pulso horizontal.\n- @58.5,69.5 | **Omnipausa**: detienen el pulso.\n- @11,67 | **Vermis dorsal y núcleo fastigio** (cerebelo): la precisión.\n:::",
+   "id": null,
+   "globos": [
+    "@11.5,33",
+    "@14.5,42.7",
+    "@27.5,51.7",
+    "@58.5,69.5",
+    "@11,67"
+   ]
+  },
+  "FB1-29": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-sim-seguimiento.png ancho=42% La vía del seguimiento lento: la corteza de movimiento visual (V5/MT y MST) y el campo ocular frontal, los núcleos pontinos dorsolaterales y el flóculo, que desemboca en los núcleos vestibulares. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @11.5,24.9 | **V5/MT y MST**: el movimiento visto.\n- @13,33 | **Campo ocular frontal**.\n- @19.5,55.7 | **Núcleos pontinos dorsolaterales**: relevo hacia el cerebelo.\n- @15.5,62.4 | **Flóculo**: el último paso antes de los núcleos vestibulares.\n:::",
+   "id": null,
+   "globos": [
+    "@11.5,24.9",
+    "@13,33",
+    "@19.5,55.7",
+    "@15.5,62.4"
+   ]
+  },
+  "FB1-30": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-oc1.svg ancho=100% Las vías oculomotoras que examina la VNG (→ H16). A: el seguimiento lento, por V5/MT y MST, el campo ocular frontal, los núcleos pontinos dorsolaterales y el flóculo. B: las sacadas, por el campo ocular frontal y el colículo superior, los generadores del tronco, las omnipausa y, para la precisión, el vermis y el núcleo fastigio. C: la supresión del VOR, que usa la vía del seguimiento. D: el optocinético, con el núcleo del tracto óptico y el almacenamiento de velocidad. Compara A con C: es la misma vía con otro estímulo. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-31": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-oc2.svg ancho=100% El almacenamiento de velocidad en la silla rotatoria (Raphan y cols., 1979). A: la silla gira a la derecha y el almacenamiento se carga. B: al frenar, el almacenamiento se descarga y deja un nistagmo en sentido contrario (el post-rotatorio). C: la sacudida cefálica, que usa el mismo almacenamiento. D: sin nódulo (cruz verde), el almacenamiento no se descarga y el post-rotatorio queda alto, como en el nistagmo periódico alternante (Waespe y cols., 1985). Mira el recuadro del nódulo, bajo los núcleos vestibulares, y lo que escribe el esquema sobre el almacenamiento. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-32": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-pat1.svg ancho=100% Modo Patología, lesión por lesión (lado izquierdo del paciente a la derecha del esquema). A: neuritis del nervio superior; cae el utrículo, quedan el posterior y el sáculo. B: neuritis del nervio inferior; cae el sáculo. C: pérdida de los dos nervios a los 3 meses: el núcleo del lado enfermo recuperó su disparo. D: infarto de la AICA, con el laberinto entero y el flóculo del mismo lado sin función. Mira dónde está la cruz verde y qué canales y otolitos quedan sin vía: la tabla de arriba dice qué signo da cada una. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-33": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-pat2.svg ancho=100% Lesiones del tronco. A: los núcleos vestibulares izquierdos, con el nervio sano. B: oftalmoplejía internuclear, con la cruz en el fascículo longitudinal medial izquierdo. C: parálisis de la mirada horizontal izquierda, con la cruz en la FRPP. D: nistagmo hacia arriba, con la lesión de los tractos tegmentales ventrales. Mira cómo en B y C la cruz está en los generadores y no en el laberinto. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-34": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-pat3.svg ancho=100% Lesiones del cerebelo y de los dos laberintos. A: degeneración cerebelosa, con los dos flóculos perdidos. B: los integradores a medias (evocado por la mirada). C: hipofunción de los dos laberintos. D: arreflexia de los dos laberintos. Mira que en A y B no hay una cruz en el laberinto y la lesión es central, y que en C y D las dos mitades están afectadas por igual: no hay diferencia entre los núcleos que el tronco pueda leer como giro. Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-35": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-lam-pat4.svg ancho=100% La misma neuritis superior izquierda a las 6 horas (A), a los 3 días (B), a las 2 semanas (C) y a los 3 meses (D). Mira cómo el núcleo vestibular del lado enfermo, que al principio dispara menos, recupera su disparo aunque la cruz del nervio no se mueve: es la compensación central (→ cap. 31, H20). Rojo, la vía dispara más que en reposo; azul, menos; gris, igual. La cruz verde marca un sitio perdido y la raya verde, uno a medias. Las cifras que escribe el esquema son del modelo, no valores de referencia. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-36": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-irrigacion.svg ancho=100% Las arterias del laberinto: una sola arteria, terminal, que se reparte entre la cóclea y el vestíbulo. Por eso una falla de irrigación puede quitar audición y equilibrio a la vez. Según Mazzoni (1972). Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-37": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-valvula.svg ancho=100% A: la pirámide nasal vista de lado, con su parte ósea y su parte cartilaginosa. B: la válvula nasal interna en un corte frontal, el punto más estrecho de la vía aérea. Con las cifras de Pirola y cols. (2025). Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB1-38": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-tabique-gray854.png ancho=70% El tabique nasal: hueso atrás y cartílago adelante. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 854), dominio público.\n- @37,36 | **Lámina perpendicular del etmoides** (*perpendicular plate of ethmoid*).\n- @66,46 | **Cartílago del tabique** (*cartilage of septum*), el cuadrangular.\n- @30,62 | **Vómer**.\n- @91,67 | **Cartílago alar mayor** (*greater alar cartilage*): forma la punta.\n- @60,83 | **Maxilar y palatino**: el piso de la fosa y el paladar duro.\n:::",
+   "id": null,
+   "globos": [
+    "@37,36",
+    "@66,46",
+    "@30,62",
+    "@91,67",
+    "@60,83"
+   ]
+  },
+  "FB1-39": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-nariz-sagital.png ancho=64% La pared lateral de la nariz, con sus tres cornetes, y su relación con los senos. Imagen: Servier Medical Art, CC BY 4.0.\n- @8,56 | **Cartílagos de la pirámide**, que sostienen la nariz por fuera.\n- @16,66 | **Vestíbulo nasal**, con las vibrisas.\n- @57,47 | **Cornete superior**.\n- @62,56 | **Cornete medio**: bajo él, el meato medio, donde drenan los senos.\n- @52,65 | **Cornete inferior**: el más grande, el que más resistencia da al flujo.\n- @34,31 | **Seno frontal**.\n- @58,37 | **Lámina cribosa y epitelio olfatorio**, en el techo.\n- @88,46 | **Seno esfenoidal**.\n- @57,79 | **Paladar duro**: separa la nariz de la boca.\n- @92,66 | **Coana**: el límite posterior, donde la fosa se abre a la rinofaringe.\n:::",
+   "id": null,
+   "globos": [
+    "@8,56",
+    "@16,66",
+    "@57,47",
+    "@62,56",
+    "@52,65",
+    "@34,31",
+    "@58,37",
+    "@88,46",
+    "@57,79",
+    "@92,66"
+   ]
+  },
+  "FB1-40": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-pared-lateral-gray856.png ancho=84% Pared lateral de la fosa nasal derecha, con los cornetes cortados para ver los meatos. Fíjate en cuántas aberturas caen en el meato medio, y en lo cerca que queda la trompa de la cola del cornete inferior. Rótulos en inglés. Imagen: Gray's Anatomy (lámina 856), dominio público.\n- @13,64 | **Vestíbulo** de la nariz.\n- @29,19 | **Seno frontal**.\n- @53,40 | **Cornete superior** (cortado).\n- @42,36 | **Cornete medio** (cortado): bajo él se abre el meato medio.\n- @47,30 | **Hiato semilunar** y bulla etmoidal: el drenaje del seno maxilar y de las celdillas anteriores.\n- @50,57 | **Cornete inferior** (cortado).\n- @36,62 | **Meato inferior**, donde desemboca el conducto nasolagrimal.\n- @66,43 | **Seno esfenoidal**.\n- @70,64 | **Orificio de la trompa auditiva**, en la rinofaringe.\n- @80,72 | **Receso faríngeo** (fosa de Rosenmüller), detrás de la trompa.\n:::",
+   "id": null,
+   "globos": [
+    "@13,64",
+    "@29,19",
+    "@53,40",
+    "@42,36",
+    "@47,30",
+    "@50,57",
+    "@36,62",
+    "@66,43",
+    "@70,64",
+    "@80,72"
+   ]
+  },
+  "FB1-41": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b1-senos.png ancho=42% Los senos paranasales, vistos de frente: frontal sobre la órbita, maxilar bajo ella, etmoidal entre las órbitas. Imagen: Servier Medical Art, CC BY 4.0.\n- @62,34 | **Seno frontal**, sobre la órbita.\n- @62,45 | **Celdillas etmoidales**, entre la órbita y la nariz.\n- @70,57 | **Seno maxilar**, el más grande, bajo la órbita.\n- @47,55 | **Fosa nasal** y meatos, por donde drenan.\n:::",
+   "id": null,
+   "globos": [
+    "@62,34",
+    "@62,45",
+    "@70,57",
+    "@47,55"
+   ]
+  }
+ },
+ "casos": {}
+}

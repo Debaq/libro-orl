@@ -1,0 +1,224 @@
+{
+ "capitulo": "19",
+ "md": "texto/capitulos/19-el-paciente-que-no-calza.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F19-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap19-stenger.svg Efecto Stenger con dos tonos iguales a los dos oídos. Izquierda, pérdida real: el tono del oído malo queda bajo su umbral, la imagen se oye en el oído sano y el paciente responde. Derecha, pérdida no orgánica: el tono del oído malo queda sobre su umbral verdadero y es el más fuerte, la imagen se oye de ese lado y, como el paciente dice no oír por él, no responde.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_unilateral_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-03": {
+   "kind": "fig",
+   "src": ":::figura cap19_unilateral teoae\n- @OD 2000 | Las emisiones del OD están **presentes y reproducibles en las cinco bandas** (95 %): las células ciliadas externas funcionan. Con una pérdida coclear de 80 dB no habría nada.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F19-04": {
+   "kind": "fig",
+   "src": ":::figura cap19_unilateral dpoae\n- @OD 4000 | Los productos de distorsión pasan en las 7 frecuencias, también en 4 kHz, donde dijo 75 dB.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 4000"
+   ]
+  },
+  "F19-05": {
+   "kind": "fig",
+   "src": ":::figura cap19_unilateral abr\n- @OD 80 V | La onda V del OD está en su lugar a 80 dB, con I y III bien formadas.\n- @OD 20 V | A **20 dB nHL** el OD todavía muestra onda V, en una latencia alargada, como se espera cerca del umbral (→ H10). La respuesta se repite en las dos réplicas del registro, y a 10 dB nHL todavía responde; a 0 dB nHL no hay respuesta.\n- @OI 20 V | El OI se comporta igual: ambos oídos tienen el mismo umbral objetivo, bien por debajo de lo que dijo el OD.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 20 V",
+    "@OI 20 V"
+   ]
+  },
+  "F19-06": {
+   "kind": "fig",
+   "src": ":::figura cap19_unilateral cortical\n- @OD Cz 60 N1 | A 60 dB nHL el OD, el oído que Felipe dice no oír, tiene N1 a 110 ms y P2 a 181 ms. El N1-P2 mide 9 µV en las dos réplicas.\n- @OI Cz 60 N1 | El OI es igual: N1 a 108 ms, P2 a 193 ms, 8 µV en las dos réplicas.\n- @OD Cz 40 N1 | A 40 dB el OD sigue respondiendo en las dos réplicas: N1 a 118 ms, P2 a 202 ms, N1-P2 de 6 µV. Al bajar el nivel, el N1 se atrasa y el complejo se achica, como debe.\n- @OD Cz 30 N1 | A 30 dB, N1 a 122 ms y P2 a 199 ms, con 4 µV en las dos réplicas.\n- @OD Cz 20 N1 | A 20 dB el OD todavía responde: N1 a 130 ms y P2 a 213 ms, con 2 y 3 µV. Chico, pero está en las dos réplicas. Es el **umbral cortical** del OD.\n- @OI Cz 20 N1 | El OI también responde a 20 dB: N1 a 128 ms, P2 a 200 ms, 3 µV en las dos réplicas. Es el **umbral cortical** del OI.\n- @OI Cz 10 | A 10 dB no hay respuesta en ningún oído: es el nivel de abajo sin respuesta que confirma los dos umbrales.\n:::",
+   "id": null,
+   "globos": [
+    "@OD Cz 60 N1",
+    "@OI Cz 60 N1",
+    "@OD Cz 40 N1",
+    "@OD Cz 30 N1",
+    "@OD Cz 20 N1",
+    "@OI Cz 20 N1",
+    "@OI Cz 10"
+   ]
+  },
+  "F19-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_sobre_real_audiosupra.svg ancho=100% Audiometría verdadera del paciente: normal hasta 1 kHz y caída por ruido desde 2 kHz.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_sobre_real_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-09": {
+   "kind": "fig",
+   "src": ":::figura cap19_sobre_real teoae\n- @OD 1000 | En el OD pasan **1.000, 1.500 y 2.000 Hz** y no pasan 3.000 y 4.000: justo donde cae el umbral real. Las emisiones respetan la pérdida de agudos y contradicen la de graves.\n- @OI 1000 | El OI muestra lo mismo.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OI 1000"
+   ]
+  },
+  "F19-10": {
+   "kind": "fig",
+   "src": ":::figura cap19_sobre_real dpoae\n- OD: presentes en 3 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en 3 de 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F19-11": {
+   "kind": "fig",
+   "src": ":::figura cap19_sobre_real abr\n- @OD 60 V | El umbral de la V al click está en **60 dB nHL**; a 40 dB ya no hay respuesta. El click se parece al umbral de 2 a 4 kHz, que acá es la zona caída.\n- @OI 60 V | El OI responde a 60 y a 50 dB, y no a 40: su umbral es 5 a 10 dB mejor que el del OD.\n- Ese umbral es bastante mejor que los 80 a 85 dB que dijo (sin restar nHL de HL, → H10), pero **no es normal**: Enrique tiene una pérdida real.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 60 V",
+    "@OI 60 V",
+    null
+   ]
+  },
+  "F19-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_nina_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-13": {
+   "kind": "fig",
+   "src": ":::figura cap19_nina teoae\n- @OD 2000 | Emisiones presentes y reproducibles en las cinco bandas (91 % y 88 % de reproducibilidad): ninguna pérdida coclear mayor.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F19-14": {
+   "kind": "fig",
+   "src": ":::figura cap19_nina dpoae\n- @OD 4000 | Los productos de distorsión pasan en todas las frecuencias de los dos oídos.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 4000"
+   ]
+  },
+  "F19-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_parotiditis_audiosupra_2.svg ancho=80% Lo que anota quien no enmascara: el OD responde entre 35 y 50 dB, con SRT de 45 dB y discriminación de 100 % a 90 dB. Es la curva sombra.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_parotiditis_audiosupra.svg ancho=100% Audiometría con el OI enmascarado: el OD está en 95 a 105 dB, con la ósea sin respuesta (flechas), SRT de 95 dB y discriminación de 7 % a 90 dB y 27 % a 100 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap19_parotiditis_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F19-18": {
+   "kind": "fig",
+   "src": ":::figura cap19_parotiditis teoae\n- @OD 2000 | **Sin emisiones**: no pasa ninguna banda en el OD. La cóclea del OD no amplifica nada.\n- @OI 2000 | Emisiones presentes en las cinco bandas.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F19-19": {
+   "kind": "fig",
+   "src": ":::figura cap19_parotiditis dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en las 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F19-20": {
+   "kind": "fig",
+   "src": ":::figura cap19_parotiditis abr\n- @OD 100 | **Sin enmascarar**, a 100 dB nHL el OD muestra una ondulación a 7,0 ms en las dos réplicas, y a 90 dB otra a 7,5 ms. Es la respuesta del **OI**, que llega por el cráneo con unos 35 dB de estímulo (100 dB menos unos 65 de atenuación del inserto) y por eso llega tarde y chica. No se rotula como V: no es del oído que se estudia.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 100"
+   ]
+  },
+  "F19-21": {
+   "kind": "fig",
+   "src": ":::figura cap19_parotiditis abr 2\n- @OD 100 | Con el **OI enmascarado con 55 dB**, la ondulación desaparece: el OD no tiene ondas a ningún nivel. El cálculo es el de la audiometría (→ H4): al OI llegan 100 − 65 = 35 dB, y el umbral óseo del OI es 0, de modo que el ruido mínimo es de 35 dB; el máximo es el umbral óseo del OD más 65, que está sobre los 100 dB. Con 55 dB se queda dentro.\n- @OI 80 V | El OI, con el OD enmascarado, tiene I a 1,5 ms, III a 3,7 y V a 5,6, y la V se sigue hasta 10 dB nHL (8,2 ms); a 0 dB no hay respuesta.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 100",
+    "@OI 80 V"
+   ]
+  }
+ },
+ "casos": {
+  "cap19_unilateral": {
+   "numero": "19.1",
+   "ficha": [
+    "**Felipe Fernández**, 44 años · hombre",
+    "Tiene 44 años y trabaja de maestro de obra. Hace tres semanas, en la faena, le cayó una plancha de zinc desde un andamio y le pegó en el costado derecho de la cabeza; no perdió el conocimiento ni sangró por el oído. Desde ese día dice que \"no escucha nada\" por el oído derecho. Conversa en la consulta sin acercar la cabeza ni pedir que le repitan, aun cuando el entrevistador le habla a media voz desde su lado derecho. No tiene pitido, mareo ni dolor. Su empleador le pidió un certificado y la mutual lo derivó a evaluación auditiva.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 21 días: Urgencia de la mutual: contusión parietal derecha, tomografía de cráneo normal, otoscopía normal bilateral.",
+    "Hace 7 días: Control con médico laboral: refiere hipoacusia derecha total; se deriva a otorrinolaringología y evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap19_sobre_real": {
+   "numero": "19.2",
+   "ficha": [
+    "**Enrique Estrada**, 52 años · hombre",
+    "Tiene 52 años y desde hace 25 maneja una grúa horquilla en una planta de aserrío, sin protección auditiva constante hasta hace unos años. Hace dos meses la empresa inició un proceso de reevaluación de su puesto y desde entonces dice oír \"casi nada\" por los dos oídos: pide que le escriban las indicaciones y no contesta si no lo miran de frente. En la sala de espera, sin embargo, atendió una llamada de su señora con el celular en el oído izquierdo. No tiene pitido ni mareo.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 6 años: Audiometría de ingreso a la empresa: caída en agudos bilateral compatible con ruido.",
+    "Hace 2 meses: Médico laboral: refiere empeoramiento rápido de la audición bilateral; se solicita audiometría y estudio objetivo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap19_nina": {
+   "numero": "19.3",
+   "ficha": [
+    "**Marta Paredes**, 11 años · mujer",
+    "Tiene 11 años y va en sexto básico. La profesora jefe avisó a los padres que \"no oye\" en la sala: no responde cuando le hablan desde atrás y pide repetir todo. En el tamizaje del colegio no respondió a ningún tono. Los padres cuentan que desde hace unas semanas ella está muy angustiada: sus padres se están separando y cambió de curso en marzo. En la casa responde cuando la llaman desde la cocina y se ríe con los dibujos de la tele a volumen bajo. Nunca ha tenido dolor de oídos ni secreción; no tiene pitido.",
+    "Historia clínica",
+    "Hace 25 días: Tamizaje escolar de audición: sin respuesta bilateral.",
+    "Hace 10 días: Pediatra: otoscopía normal, sin fiebre ni otitis; se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap19_parotiditis": {
+   "numero": "19.4",
+   "ficha": [
+    "**Carlos García**, 22 años · hombre",
+    "Tiene 22 años y estudia pedagogía en historia. A los 6 años tuvo paperas, con fiebre y la cara hinchada de un lado, y desde entonces no oye por el oído derecho: dice que \"se acostumbró\" y que de niño nadie le revisó el oído. Consulta porque en las salas grandes le cuesta seguir al profesor cuando le habla desde el lado derecho y no sabe de dónde vienen los sonidos. Con el oído izquierdo conversa y usa el teléfono sin problema. No tiene pitido ni mareos, ni ha tenido dolor o secreción de oídos. Nadie le pide un certificado: quiere saber qué tiene.",
+    "Historia clínica",
+    "Hace 16 años: Pediatra: parotiditis con fiebre; no se estudió el oído.",
+    "Hace 20 días: Médico de la universidad: refiere sordera derecha desde la infancia; otoscopía normal bilateral. Se deriva a evaluación auditiva."
+   ]
+  }
+ }
+}

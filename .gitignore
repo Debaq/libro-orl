@@ -6,3 +6,14 @@
 fuentes/
 material/otoscopias/bancos/
 __pycache__/
+# Word para coautores (herramientas/word_autor.py): docx, PDF, planilla y zip se rearman con
+# "exportar"; solo se versiona el .mapa.json, que hace falta para importar la vuelta
+/trabajo/*.zip
+/trabajo/[A-Z]*/LEEME.docx
+/trabajo/[A-Z]*/*/*.docx
+/trabajo/[A-Z]*/*/*-figuras.pdf
+/trabajo/[A-Z]*/*/*-figuras.xlsx
+# lo que deja "importar" junto al docx devuelto
+*.desde_word.md
+*.cambios.md
+/trabajo/de_*/**/*.diff

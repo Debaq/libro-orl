@@ -1,0 +1,118 @@
+{
+ "capitulo": "35",
+ "md": "texto/capitulos/35-nariz-tapada.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F35-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-tc-tabique.jpg ancho=46% id=tc-tabique Tomografía coronal de los senos paranasales: el tabique desviado, los cornetes inferiores aumentados de tamaño, una concha bullosa y una duplicación del cornete inferior izquierdo, una variante rara. El tabique es hueso y cartílago: un vasoconstrictor no lo mueve. Imagen: Simsim R y cols. (2026), J Surg Case Rep, doi:10.1093/jscr/rjag689, CC BY 4.0.\n:::",
+   "id": "tc-tabique",
+   "globos": []
+  },
+  "F35-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-tc-valvula.jpg ancho=90% id=tc-valvula La válvula nasal interna en tomografía, en un corte coronal reformateado perpendicular al eje del flujo, justo delante de la cabeza del cornete inferior, de una persona con obstrucción nasal antes de operarse. A: el ángulo entre el tabique y el cartílago lateral superior (los autores dan 10 a 15° en personas sin síntomas). C: el área de aire de cada lado, contorneada. El derecho tiene el ángulo más cerrado y menos área. Pero es una válvula quieta: en 20 pacientes operados, el NOSE bajó de 67,5 a 39,0 en promedio, y ni el ángulo ni el área medidos así cambiaron de forma significativa. Imagen: Shafik AG y cols. (2020), Braz J Otorhinolaryngol, doi:10.1016/j.bjorl.2019.08.009, CC BY 4.0, adaptada.\n- @15,56 | **Ángulo derecho: 6,0°** (izquierda de la imagen), entre el tabique y el cartílago lateral superior.\n- @35,56 | **Ángulo izquierdo: 10,7°**.\n- @63,76 | **Área derecha: 115,3 mm²**.\n- @85,76 | **Área izquierda: 159,4 mm²**.\n:::",
+   "id": "tc-valvula",
+   "globos": [
+    "@15,56",
+    "@35,56",
+    "@63,76",
+    "@85,76"
+   ]
+  },
+  "F35-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-desv-rm.svg ancho=78% Rinomanometría de Carlos. Línea continua: reposo; discontinua: con vasoconstrictor. La fosa derecha (rojo) pasa por los cuadrantes I y III; la izquierda (azul), por II y IV. Las rayas verticales marcan 75 y 150 Pa. La fosa derecha es la más cerrada y casi no cambia ni con el vasoconstrictor ni con la fase: un obstáculo mecánico. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @78,38 | **FND (rojo)**: a 150 Pa pasan unos 280 cm³/s, lo que da **0,53 Pa/(cm³/s)**: sobre el valor de trabajo (0,4).\n- @20,38 | **FNI (azul)**: a 150 Pa pasan unos 450 cm³/s, **0,33**: dentro del valor de trabajo.\n- @74,9 | Con vasoconstrictor (rayas) la FND casi no se mueve: **0,48**, una baja de 9 %. Con menos del 15 % se lee como \"igual que en reposo\".\n- @16,60 | Espirando, la FND da **0,50**: casi lo mismo que inspirando. El obstáculo no depende de la fase.\n:::",
+   "id": null,
+   "globos": [
+    "@78,38",
+    "@20,38",
+    "@74,9",
+    "@16,60"
+   ]
+  },
+  "F35-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-desv-ra.svg ancho=78% Rinometría acústica de Carlos. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor. El estrechamiento derecho está a la entrada de la fosa (MCA1) y no se abre con el vasoconstrictor; lo que sí se abre es el cornete izquierdo. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @30,80 | **FND, MCA1 0,36 cm²** a 1,3 cm de la narina: el estrechamiento está en la zona de la válvula, y es más chico que el de la fosa izquierda (0,58). Con vasoconstrictor solo sube a 0,39.\n- @47,50 | **FNI, MCA2 1,32 cm²**: el cornete inferior izquierdo ocupa más espacio y deja menos fosa que el derecho (1,78). Con vasoconstrictor sube a 1,92: ese espacio sí era mucosa.\n- @38,24 | Las dos curvas con vasoconstrictor (rayas) se juntan pasados los 2,5 cm: lo mucoso se fue. Lo que queda de diferencia entre las fosas, en MCA1, es estructura.\n:::",
+   "id": null,
+   "globos": [
+    "@30,80",
+    "@47,50",
+    "@38,24"
+   ]
+  },
+  "F35-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-colapso-rm.svg ancho=78% Rinomanometría de Mónica con inspiración forzada. Fíjate en la escala: llega a 1.200 Pa y 1.500 cm³/s. Línea continua: reposo; discontinua: con vasoconstrictor. Al inspirar, el flujo se estanca en una meseta aunque suba la presión; al espirar, la misma fosa se comporta casi normal. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @80,22 | **Meseta inspiratoria.** En el cuadrante I y el II el flujo casi no sube: de unos 290 cm³/s a 300 Pa pasa a unos 380 a 800 Pa. Por más presión que se haga, no pasa más aire.\n- @21,62 | **Espiración.** En el III y el IV el flujo sigue subiendo: unos 610 cm³/s a 300 Pa y unos 1.020 a 800 Pa. La misma fosa, en la otra fase, se comporta como una fosa casi normal. En la nariz simulada sin obstrucción, a 800 Pa pasan unos 1.110 cm³/s al inspirar y unos 1.180 al espirar: casi lo mismo.\n- @60,75 | A 150 Pa, la cifra de siempre ya muestra la diferencia: **0,61 al inspirar contra 0,36 al espirar**. En la nariz simulada sin obstrucción esas dos cifras son casi iguales (0,32 y 0,31).\n:::",
+   "id": null,
+   "globos": [
+    "@80,22",
+    "@21,62",
+    "@60,75"
+   ]
+  },
+  "F35-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-colapso-ra.svg ancho=78% Rinometría acústica de Mónica. Se mide en apnea, sin flujo de aire, y por eso sale casi normal: con el aire quieto, una pared que solo cede al inspirar no se ve. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @30,80 | **MCA1 0,51 cm²** en las dos fosas, a 1,3 cm: algo menor que el de la nariz simulada sin obstrucción (0,61), pero sin ninguna señal de colapso. Con el aire quieto, la pared no se mueve: este examen no puede mostrar lo que solo pasa al inspirar.\n- @47,50 | **MCA2 1,67 cm²**: el cornete inferior está bien; la que falla no es la mucosa. Con vasoconstrictor sube a 1,97.\n:::",
+   "id": null,
+   "globos": [
+    "@30,80",
+    "@47,50"
+   ]
+  },
+  "F35-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-normal-rm.svg ancho=72% Rinomanometría de Rocío, una nariz sin obstrucción, solo en reposo. Sirve de referencia: las dos fosas son simétricas y quedan bajo el valor de trabajo, e inspirar o espirar da lo mismo. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @76,36 | **FND**: 0,32 a 150 Pa, bajo el valor de trabajo.\n- @18,36 | **FNI**: también 0,32. Las dos curvas son simétricas, sin pausas.\n- @28,70 | Inspirando y espirando da lo mismo: no hay diferencia entre fases.\n:::",
+   "id": null,
+   "globos": [
+    "@76,36",
+    "@18,36",
+    "@28,70"
+   ]
+  },
+  "F35-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap35-rs-normal-ra.svg ancho=72% Rinometría acústica de Rocío, solo en reposo: las dos fosas se superponen, sin estrechamientos ni asimetría. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @30,82 | **MCA1 0,61 cm²** a 1,3 cm de la narina, igual en las dos fosas.\n- @47,50 | **MCA2 1,52 cm²**, igual en las dos. Ni estrechamientos ni asimetría.\n:::",
+   "id": null,
+   "globos": [
+    "@30,82",
+    "@47,50"
+   ]
+  }
+ },
+ "casos": {
+  "cap35_desviacion": {
+   "numero": "35.1",
+   "ficha": [
+    "**Carlos Guzmán**, 33 años · hombre",
+    "Tiene 33 años, es repartidor y juega fútbol los fines de semana. Desde que se quebró la nariz en una jugada, a los 19 años, siente la fosa derecha tapada casi siempre; la izquierda \"a veces\", sobre todo cuando se resfría o cuando duerme de ese lado. De noche ronca si duerme de espaldas y despierta con la boca seca. No tiene estornudos ni picazón, no hay una estación del año peor que otra y no ha tenido sangrados. Hace diez días usó por última vez un descongestionante en spray: \"esa noche se abrió un poco, pero la derecha nunca pasa del todo\". Quiere saber si su problema se arregla con remedios o con una operación.",
+    "**Medicamentos:** Oximetazolina en spray de forma ocasional; la última vez hace diez días",
+    "Historia clínica",
+    "Hace 14 años: Fractura nasal jugando fútbol; no consultó ni se redujo.",
+    "Hace 7 meses: Atención primaria: \"desvío de tabique\"; se indica solución salina, sin mejoría. Se pide evaluación funcional de la nariz."
+   ]
+  },
+  "cap35_valvula": {
+   "numero": "35.2",
+   "ficha": [
+    "**Mónica Estrada**, 52 años · mujer",
+    "Tiene 52 años y es profesora de educación física. Le hicieron una rinoplastia de reducción a los 27 años. Desde hace unos tres años siente que \"la nariz se le pega por los lados\" cuando respira fuerte: al correr, al subir cuestas en bicicleta y en las noches, cuando se da vuelta en la cama. Sentada y tranquila respira bien. Descubrió que si se jala la mejilla hacia el lado con un dedo, entra más aire, y que una tira nasal le ayuda de noche. No tiene estornudos ni picazón ni secreción, y no varía con las estaciones. Un corticoide nasal por dos meses no le cambió nada.",
+    "**Medicamentos:** Corticoide nasal (lo dejó por no notar cambios)",
+    "**Cirugías:** Rinoplastia de reducción a los 27 años",
+    "Historia clínica",
+    "Hace 26 años: Rinoplastia de reducción del dorso, sin complicaciones.",
+    "Hace 5 meses: Médico general: rinitis, corticoide nasal por 8 semanas sin cambios; se deriva a otorrinolaringología."
+   ]
+  },
+  "cap35_discordancia": {
+   "numero": "35.3",
+   "ficha": [
+    "**Rocío Alvarez**, 41 años · mujer",
+    "Tiene 41 años y es contadora. Hace ocho meses tuvo un resfrío fuerte, con fiebre, y desde entonces siente la nariz tapada \"las veinticuatro horas, de los dos lados\". Dice que no entra aire y que es lo peor que le ha pasado, aunque no respira por la boca, duerme sin ronquidos y trota tres veces por semana sin problema. Nota que los olores le llegan menos que antes. No tiene estornudos ni picazón, no ha tenido golpes ni cirugías de la nariz y no usa ningún spray nasal. Ha dejado de ir a reuniones por la incomodidad.",
+    "Historia clínica",
+    "Hace 8 meses: Cuadro respiratorio alto febril; recuperación completa salvo la sensación de nariz tapada.",
+    "Hace 2 meses: Médico general: examen sin hallazgos; se indican lavados nasales, sin mejoría. Se solicita evaluación funcional de la nariz."
+   ]
+  }
+ }
+}

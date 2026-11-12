@@ -1,0 +1,65 @@
+{
+ "capitulo": "H6",
+ "md": "texto/capitulos/H06-pruebas-supraliminares.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH6-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h06-sonoridad.svg Cómo crece la sonoridad. A: el oído normal oye desde 10 dB y le molesta a 110; el coclear oye desde 45, sube empinado y alcanza al normal a 70 dB; el retrococlear sube paralelo y no lo alcanza. 50 dB en el normal, 65 en el coclear y 85 en el retrococlear suenan igual. B: las mismas curvas leídas como escaleras del Fowler. Cifras de la tabla del Fowler. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH6-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h06-adaptacion.svg La adaptación en el tiempo. A: durante un tono continuo, la fibra sana se adapta en pocos segundos y se sostiene; la del nervio comprimido se va agotando y, cuando cae bajo lo que hace falta para oír el tono, el paciente baja la mano. B: en el Carhart cada subida de 5 dB abre un minuto nuevo; en el Rosenberg hay un solo minuto y se cuenta cuánto se subió dentro de él. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH6-03": {
+   "kind": "fig",
+   "src": ":::figura h6_p38 audiograma\n- @OI 500 | En 500 Hz el OI está en 50 dB y el OD en 5: **45 dB de diferencia**, más de lo que admite el Fowler.\n- @OI 1000 | En 1 kHz la diferencia es de 35 dB, y en 2, 3 y 4 kHz de 25, 20 y 20 dB: ahí **sí se puede hacer**. La ósea va junto a la aérea: no hay gap.\n- Los triángulos son el LDL: 110 dB en el OI, igual que en el OD, con un umbral 45 dB peor en los graves. El **campo dinámico se estrecha**: calza con que los gritos del recreo le molesten. Y como no le molesta a 100-105 dB HL, el STAT se puede hacer.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 500",
+    "@OI 1000",
+    null
+   ]
+  },
+  "FH6-04": {
+   "kind": "fig",
+   "src": ":::figura h6_p39 audiograma\n- @OD 2000 | En 2 kHz el OD está en 30 dB y el OI en 5: 25 dB de diferencia. En 3 y 4 kHz la diferencia es de 35 y 40 dB: **el Fowler se puede hacer en las tres**.\n- @OD 1000 | En 1 kHz no: el OD está en 20 dB, todavía en rango normal, y la diferencia es de solo 15 dB.\n- @OD osea 3000 | Ósea junto a la aérea: sensorioneural, igual que Patricia.\n- El LDL del OD sube a 120 dB en 3 y 4 kHz: el campo dinámico **no se estrecha**. Un oído sin reclutamiento necesita más nivel para molestarse.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OD 1000",
+    "@OD osea 3000",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h6_p38": {
+   "numero": "H6.1",
+   "ficha": [
+    "**Patricia Rivas**, 46 años · mujer",
+    "Tiene 46 años y es profesora de lenguaje en un liceo. Hace poco más de un año tuvo la primera crisis: el mundo le daba vueltas por horas y vomitaba sin parar; desde entonces ha tenido cuatro o cinco. Antes de cada crisis siente el oído izquierdo lleno, \"como con agua\", y un zumbido grave que sube. Entre crisis nota que por ese oído las voces se escuchan raras, como metálicas, y que los ruidos fuertes le molestan mucho, sobre todo los gritos de los alumnos en el recreo. Hay días en que oye casi bien y otros en que no. Le da miedo que le venga una crisis haciendo clases o manejando.",
+    "**Medicamentos:** Betahistina 24 mg cada 12 horas.",
+    "Historia clínica",
+    "Hace 1 año: Consulta en servicio de urgencia por vértigo rotatorio de 3 horas con náuseas y vómitos; se trata con antieméticos, alta al ceder.",
+    "Hace 7 meses: Nueva consulta en urgencia por crisis de vértigo de 2 horas, con oído izquierdo tapado y zumbido.",
+    "Hace 3 meses: Otorrinolaringólogo: otoscopia normal; indica betahistina y dieta baja en sal.",
+    "Hace 12 días: Nueva crisis de vértigo de 2 horas. Otorrinolaringólogo deriva a evaluación auditiva, electrococleografía y evaluación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h6_p39": {
+   "numero": "H6.2",
+   "ficha": [
+    "**Raúl Saavedra**, 54 años · hombre",
+    "Pito en el oído derecho; por ese lado oye la voz, pero no entiende.",
+    "Anamnesis y otoscopía: caso H2.2 · Acumetría: H2.2 · Logoaudiometría: H5.3"
+   ]
+  }
+ }
+}

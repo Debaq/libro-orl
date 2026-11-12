@@ -1,0 +1,26 @@
+{
+ "capitulo": "H23",
+ "md": "texto/capitulos/H23-acufeno-impacto-modelos-y-terapias-sonoras.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH23-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h23-ganancia.svg ancho=100% Ganancia central. Cuando la cóclea manda menos señal en una zona de frecuencias (izquierda, zona roja), la vía auditiva central aumenta su ganancia en esa región (derecha, línea roja): la actividad espontánea sube por encima de la respuesta previa a la pérdida (línea de puntos). Esa actividad aumentada y sincronizada es lo que el cerebro percibe como sonido. Es un esquema: la forma de las curvas no son datos de un paciente. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH23-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h23-jastreboff.svg ancho=100% Modelo neurofisiológico de Jastreboff. La señal de la vía auditiva se detecta (subcortical) y se percibe (corteza). Si se evalúa como amenaza, activa el sistema límbico y el autónomo, y la reacción refuerza la detección y la percepción (flecha punteada roja). La consejería actúa sobre la reacción; el enriquecimiento sonoro, sobre la señal. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH23-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h23-manejo.svg ancho=100% Flujo del manejo. Se descartan las banderas rojas, se distingue si el acúfeno molesta y, si molesta, se parte por la consejería; después se agrega el sonido y la amplificación y, si el sufrimiento persiste, la derivación a TCC. El mismo cuestionario del inicio mide el cambio. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

@@ -1,0 +1,120 @@
+{
+ "capitulo": "28",
+ "md": "texto/capitulos/28-el-primer-audifono.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F28-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap28-campo-dinamico.svg ancho=95% El campo dinámico del OD del caso 28.2: el espacio entre el umbral y el LDL. Es ancho en los graves y se angosta en los agudos; en 4.000 Hz ya es más estrecho que los 30 dB que ocupa el habla.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap28-cros.svg ancho=100% A: la cabeza hace sombra, y la voz que llega por el lado sordo le llega débil al oído sano. B: el CROS no devuelve la comparación entre los oídos; lleva al oído que oye lo que capta un micrófono en el lado sordo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap28_primera_vez_audiosupra.svg ancho=100% Audiometría de la paciente de 73 años: pérdida descendente simétrica; discriminación de 76 % y 72 % a 60 dB.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-04": {
+   "kind": "fig",
+   "src": ":::figura cap28_primera_vez campo_libre\n- @S 2000 | Sin audífono, el campo libre (el oído mejor) está en 60 dB en 2 kHz.\n- @A 2000 | Con una ganancia funcional de **30 dB**, queda en 30.\n- @A 4000 | En 4 kHz la misma ayuda deja el umbral en 60 dB: las consonantes agudas siguen casi fuera de alcance.\n:::",
+   "id": null,
+   "globos": [
+    "@S 2000",
+    "@A 2000",
+    "@A 4000"
+   ]
+  },
+  "F28-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap28_reacio_audiosupra.svg ancho=100% Audiometría del paciente de 68 años: caída abrupta en agudos, LDL de 110 dB y discriminación de 80 % y 76 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap28_leve_audiosupra.svg ancho=100% Audiometría de la profesora de 64 años: normal hasta 1 kHz, caída leve en agudos, discriminación de 96 % y 92 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap28_un_oido_audiosupra.svg ancho=100% Audiometría del taxista de 47 años: OD en 90 dB o más y sin respuesta ósea; OI normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap28_un_oido_impedancia.svg ancho=100% Impedanciometría del taxista.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F28-09": {
+   "kind": "fig",
+   "src": ":::figura cap28_un_oido campo_libre\n- @S 2000 | En campo libre, sin audífono, el umbral es de 5 dB: **normal**.\n- @S 4000 | En 4 kHz, 10 dB. El parlante contesta el oído mejor: esta figura **esconde** la pérdida del OD y no sirve para decidir nada sobre ese oído.\n:::",
+   "id": null,
+   "globos": [
+    "@S 2000",
+    "@S 4000"
+   ]
+  }
+ },
+ "casos": {
+  "cap28_primera_vez": {
+   "numero": "28.1",
+   "ficha": [
+    "**Marta López**, 73 años · mujer",
+    "Tiene 73 años, es viuda desde hace tres y vive con su hija y su nieta de nueve años. Fue secretaria hasta jubilar. Hace unos cinco años sube el volumen de la tele y pide que le repitan, sobre todo en la mesa familiar y en el consultorio, donde \"hablan muy bajito\". Por teléfono entiende si está tranquila. Vino porque su hija le dijo \"abuela, no me escuchas\". Quiere probar, pero duda: su hermana tiene audífonos y \"no los usa\". Lo que más desea es entender a su nieta cuando le cuenta del colegio. No tiene pitidos ni mareos, ni ha tenido dolor ni secreción de oídos.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día",
+    "Historia clínica",
+    "Hace 1 año: Médico general: \"hipoacusia de la edad\"; otoscopía normal, se sugiere observar.",
+    "Hace 45 días: Otorrinolaringólogo: otoscopía normal bilateral. Se solicita audiometría y prueba de audífonos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap28_reacio": {
+   "numero": "28.2",
+   "ficha": [
+    "**José Castillo**, 68 años · hombre",
+    "Tiene 68 años y es mecánico jubilado: 35 años en un taller con herramientas neumáticas. Lo trajo su señora: \"le tengo que repetir todo dos veces\". Él dice que oye bien, que \"ahora todos hablan bajito\", y que los audífonos \"son para viejos\" y \"suenan a lata\": su cuñado tiene unos y se la pasa ajustándolos. Lo que sí le molesta son los ruidos fuertes: \"se me clava el oído\" con el golpe de una olla o cuando gritan los nietos. Tiene un pitido agudo en los dos oídos que va y viene, más en la noche, y teme que \"algo en el oído\" se lo empeore.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 7 meses: Médico general: hipoacusia bilateral referida por la esposa; otoscopía normal. Se deriva a otorrinolaringología.",
+    "Hace 30 días: Otorrinolaringólogo: solicita audiometría con umbral de molestia y prueba de audífonos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap28_leve": {
+   "numero": "28.3",
+   "ficha": [
+    "**Sofía Castillo**, 64 años · mujer",
+    "Tiene 64 años y es profesora de enseñanza media: todavía trabaja. Su pareja le insistió en venir porque \"a veces no escucha\" cuando le habla de espaldas. Ella cree que oye bien: solo le cuesta en los restaurantes con mucho ruido y cuando un alumno habla bajito al fondo de la sala. En casa no se pierde las conversaciones ni sube la tele. No tiene pitidos ni mareos, y nunca ha tenido infecciones de oído.",
+    "Historia clínica",
+    "Hace 2 meses: Médico general, control de salud: dificultad referida en ambientes ruidosos; otoscopía normal. Se solicita audiometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap28_un_oido": {
+   "numero": "28.4",
+   "ficha": [
+    "**Francisco Reyes**, 47 años · hombre",
+    "Tiene 47 años y maneja un taxi. A los nueve años tuvo paperas con fiebre alta y desde entonces no oye por el oído derecho: \"siempre fue así\". Con el izquierdo la vida en casa no le cuesta. Lo que sí le cuesta es oír al pasajero que va a su derecha, las conversaciones en una mesa con ruido si la gente está de ese lado, y saber de dónde viene una bocina o quién lo llama en la calle. Gira la cabeza para poner el oído sano y al final del día termina agotado. No tiene pitidos, mareos ni dolor. Un colega le contó que \"hay audífonos para el que oye de un solo oído\" y quiere saber si le servirían.",
+    "Historia clínica",
+    "Hace 38 años: Parotiditis (paperas) con fiebre alta; desde entonces no oye por el oído derecho.",
+    "Hace 2 meses: Médico general: hipoacusia OD antigua, otoscopía normal. Se deriva a evaluación audiológica y de audífonos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

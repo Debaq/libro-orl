@@ -1,0 +1,117 @@
+{
+ "capitulo": "9",
+ "md": "texto/capitulos/09-hidrops.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F9-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap09-hidrops.svg ancho=92% Corte de una espira de la cóclea. A, normal: la rampa media (endolinfa) es un triángulo entre la membrana de Reissner, la membrana basilar y la estría vascular. B, hidrops: la endolinfa aumenta, la membrana de Reissner se abomba hacia la rampa vestibular y la rampa media se agranda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F9-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap09-rm-hidrops.jpg ancho=90% id=rm-hidrops Resonancia para hidrops de un hombre de 31 años con Ménière del oído derecho. El espacio endolinfático agrandado se ve negro dentro de la perilinfa blanca. Izquierda, el oído con Ménière: hidrops coclear grado II y sacular y utricular grado III (flechas continuas). Derecha (*Left*), el otro oído: sin hidrops (flechas punteadas). C, cóclea; S, sáculo; U, utrículo. Imagen: Young YH, Lin KT (2024), J Otolaryngol Head Neck Surg, doi:10.1177/19160216241250350, Fig. 2, CC BY-NC 4.0.\n:::",
+   "id": "rm-hidrops",
+   "globos": []
+  },
+  "F9-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap09_p38_audiosupra.svg ancho=100% Audiometría de Patricia: OD normal y OI con pérdida sensorioneural ascendente, con LDL de 110 dB en los dos oídos y Fowler. Discriminación de 88 % en el OI, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F9-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap09_p38_impedancia.svg ancho=100% Impedanciometría de Patricia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F9-05": {
+   "kind": "fig",
+   "src": ":::figura cap09_p38 ecochg\n- @OD PA | El OD tiene un PA profundo y un PS chico: razón **0,25**, bajo el 0,40 del electrodo timpánico, y razón de áreas **1,17**, bajo 1,94. Es la referencia.\n- @OI PS | En el OI el PS es casi tan grande como el PA: razón **0,63**.\n- @OI PA | Después del PA el trazo no vuelve a la base dentro de la figura: el retorno está a 8,8 ms. Esa cola es el PS prolongado, y lleva la razón de áreas a **3,87**.\n- Click alternado a 90 dB nHL, electrodo timpánico, filtros de 5 a 3.000 Hz.\n:::",
+   "id": null,
+   "globos": [
+    "@OD PA",
+    "@OI PS",
+    "@OI PA",
+    null
+   ]
+  },
+  "F9-06": {
+   "kind": "fig",
+   "src": ":::figura cap09_p38 vemp\n- @OD P13 | El cVEMP del OD tiene una P13 y una N23 bien formadas: 350 µV, 6,79 corregida por el EMG.\n- @OI P13 | El del OI casi no se separa del ruido: 33 µV, 0,66 corregida.\n- La razón de asimetría es de **82 %**: el sáculo del OI responde mucho menos. Es el compromiso sacular del hidrops.\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI P13",
+    null
+   ]
+  },
+  "F9-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap09_hidrops_retardado_audiosupra.svg ancho=100% Audiometría de Samuel, de un día sin crisis: OD con pérdida profunda medida con ruido en el OI, y OI con pérdida leve ascendente. Discriminación de 96 % en el OI y 27 % en el OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F9-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap09_hidrops_retardado_impedancia.svg ancho=100% Impedanciometría de Samuel, de un día sin crisis.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F9-09": {
+   "kind": "fig",
+   "src": ":::figura cap09_hidrops_retardado ecochg\n- @OI PS | En el OI el PS es grande frente al PA: razón PS/PA **0,64**, sobre el límite de 0,40 del electrodo timpánico.\n- @OI PA | La razón de áreas es **1,95**, apenas sobre 1,94. Latencia del PA, **1,60 ms**.\n- En el OD no hay complejo que medir: a 90 dB nHL, en una cóclea que no oye, no aparecen ni PS ni PA.\n- Click alternado a 90 dB nHL, electrodo timpánico, filtros de 5 a 3.000 Hz.\n:::",
+   "id": null,
+   "globos": [
+    "@OI PS",
+    "@OI PA",
+    null,
+    null
+   ]
+  },
+  "F9-10": {
+   "kind": "fig",
+   "src": ":::figura cap09_hidrops_retardado vemp\n- @OI P13 | El cVEMP del OI es pequeño: 32 µV, 0,62 corregida por el EMG.\n- @OD P13 | El del OD también: 50 µV, 0,98 corregida.\n- La razón de asimetría es de **22 %**: los dos lados se parecen, pero porque **los dos** responden poco. Compáralos con el OD sano de Patricia, con el mismo equipo y al mismo nivel: 6,79. Una asimetría baja no significa dos sáculos sanos.\n:::",
+   "id": null,
+   "globos": [
+    "@OI P13",
+    "@OD P13",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "cap09_p38": {
+   "numero": "9.1",
+   "ficha": [
+    "**Patricia Rivas**, 46 años · mujer",
+    "Tiene 46 años y es profesora de lenguaje en un liceo. Hace poco más de un año tuvo la primera crisis: el mundo le daba vueltas por horas y vomitaba sin parar; desde entonces ha tenido cuatro o cinco. Antes de cada crisis siente el oído izquierdo lleno, \"como con agua\", y un zumbido grave que sube. Entre crisis nota que por ese oído las voces se escuchan raras, como metálicas, y que los ruidos fuertes le molestan mucho, sobre todo los gritos de los alumnos en el recreo. Hay días en que oye casi bien y otros en que no. Le da miedo que le venga una crisis haciendo clases o manejando.",
+    "**Medicamentos:** Betahistina 24 mg cada 12 horas.",
+    "Historia clínica",
+    "Hace 1 año: Consulta en servicio de urgencia por vértigo rotatorio de 3 horas con náuseas y vómitos; se trata con antieméticos, alta al ceder.",
+    "Hace 7 meses: Nueva consulta en urgencia por crisis de vértigo de 2 horas, con oído izquierdo tapado y zumbido.",
+    "Hace 3 meses: Otorrinolaringólogo: otoscopia normal; indica betahistina y dieta baja en sal.",
+    "Hace 12 días: Nueva crisis de vértigo de 2 horas. Otorrinolaringólogo deriva a evaluación auditiva, electrococleografía y evaluación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap09_hidrops_retardado": {
+   "numero": "9.2",
+   "ficha": [
+    "**Samuel Arias**, 54 años · hombre",
+    "Tiene 54 años y atiende el mesón de una ferretería. Por el oído derecho no oye desde los seis años, cuando tuvo paperas; siempre se las arregló con el izquierdo y nunca usó audífono. Hace unos ocho meses tuvo la primera crisis: despertó con todo girando, vomitó y estuvo dos horas sin poder levantarse. Desde entonces ha tenido otras dos. Lo que más lo asusta es que, antes y después de cada crisis, el oído izquierdo se le tapa \"como en un avión\" y por unos días no entiende a los clientes ni el teléfono; después vuelve a oír, pero no sabe si tan bien como antes. No le zumba ningún oído. Entre crisis anda bien, pero ya no maneja de noche por miedo a que le dé una.",
+    "**Medicamentos:** Dimenhidrinato 50 mg cuando tiene crisis",
+    "Historia clínica",
+    "Hace 8 meses: Servicio de urgencia: vértigo rotatorio de 2 horas con vómitos; se trata con antieméticos, alta al ceder.",
+    "Hace 5 meses: Médico general: oído izquierdo tapado de varios días y \"oye menos\"; otoscopía normal. Antecedente de sordera derecha desde la infancia (parotiditis). Se deriva a otorrinolaringología.",
+    "Hace 45 días: Nueva crisis de vértigo de 3 horas, con el oído izquierdo tapado.",
+    "Hace 15 días: Otorrinolaringólogo: otoscopía normal. Solicita evaluación auditiva completa, electrococleografía y evaluación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

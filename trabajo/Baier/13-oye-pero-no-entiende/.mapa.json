@@ -1,0 +1,252 @@
+{
+ "capitulo": "13",
+ "md": "texto/capitulos/13-oye-pero-no-entiende.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F13-01": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_neuropatia_audiosupra.svg ancho=100% Audiometría de Esther: pérdida leve a moderada y casi plana (25 a 35 dB en el OD y 35 a 45 en el OI), con la ósea pegada a la aérea: no hay componente conductivo. Mira la logoaudiometría del panel: la curva no llega al 50 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_neuropatia_logoaudiometria.svg ancho=50% Logoaudiometría de Esther: el OD llega al 48 % a 60 dB y el OI al 28 % a 70; a 100 dB las dos curvas **caen** (17 % y 7 %).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_neuropatia_impedancia.svg ancho=100% Impedanciometría de Esther.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-04": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia teoae\n- @OD 2000 | Las emisiones transitorias pasan **5 de 5 bandas**, con reproducibilidad de 89 % en el OD y 93 % en el OI. Las células ciliadas externas funcionan, aunque el audiograma marque 25 a 45 dB.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F13-05": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia dpoae\n- OD: presentes en las 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en las 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F13-06": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia abr\n- @OD 80 | A 80 dB nHL, con polaridad **alternada**, no hay ondas en el OD, en ninguna de las dos réplicas.\n- @OI 80 | Tampoco en el OI. Y a 60 y 40 dB, lo mismo. No es un umbral: es la falta de sincronía.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 80"
+   ]
+  },
+  "F13-07": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia abr 2\n- @OD 90 | En **rarefacción**, a 90 dB nHL, aparece una deflexión hacia abajo en el primer milisegundo, y después nada.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 90"
+   ]
+  },
+  "F13-08": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia abr 3\n- @OD 90 | En **condensación** la deflexión sale **hacia arriba**: el mismo potencial, invertido. Es la microfónica coclear, que la alternada había cancelado.\n- Detrás de la microfónica no hay ondas neurales. Para descartar artefacto, se repite la rarefacción con el tubo pinzado.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 90",
+    null
+   ]
+  },
+  "F13-09": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia cortical\n- @OD Cz 70 N1 | El OD tiene N1 a 128 ms y P2 a 198 ms, con un N1-P2 de 7 µV en la primera réplica y 8 en la segunda: la respuesta cortical **está** y se repite, con el ABR sin ondas.\n- @OD Cz 70 P1 | La P1 del OD cae a 87 ms: 20 ms sobre lo que se espera a los 15 años. El tono llega a solo 20 dB sobre su umbral, y cerca del umbral las latencias se alargan.\n- @OI Cz 70 | El OI también responde: P1 a 89 ms, N1 a 120 y P2 a 216, con un N1-P2 de 5 µV en las dos réplicas, más chico que el del OD. La respuesta cortical es asimétrica, como lo es la neuropatía.\n:::",
+   "id": null,
+   "globos": [
+    "@OD Cz 70 N1",
+    "@OD Cz 70 P1",
+    "@OI Cz 70"
+   ]
+  },
+  "F13-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_neuropatia_hereditaria_audiosupra.svg ancho=100% Audiometría de Carmen: normal en los dos oídos (5 dB en 1 kHz, 0 dB en graves).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_neuropatia_hereditaria_impedancia.svg ancho=100% Impedanciometría de Carmen.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-12": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia_hereditaria teoae\n- @OD 2000 | Emisiones presentes en 5 de 5 bandas, con reproducibilidad de 89 % y 88 %.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F13-13": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia_hereditaria dpoae\n- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F13-14": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia_hereditaria abr\n- @OD 80 I | Aquí **sí hay ondas**, en las dos réplicas, pero tardías: en el OD la I está a 1,43 ms, la III a 4,23 y la V a 6,67.\n- @OD 80 V | El I-V del OD es de **5,24 ms** y el del OI de 5,07, contra un límite de 4,33 y 4,41 para una mujer de su edad (→ H10): la conducción es lenta, no ausente.\n- @OD 40 | Las ondas siguen claras hasta 40 dB y la V todavía se ve a 20 dB (8,5 ms) y a 10 dB (9,1): la **sensibilidad** es normal; lo alterado es la sincronía. A 0 dB no hay respuesta.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 I",
+    "@OD 80 V",
+    "@OD 40"
+   ]
+  },
+  "F13-15": {
+   "kind": "fig",
+   "src": ":::figura cap13_neuropatia_hereditaria vemp\n- @OD P13 | El VEMP cervical está presente, pero la P13 llega **tarde**, cerca de los 19 ms: el nervio vestibular también es lento (→ H12).\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13"
+   ]
+  },
+  "F13-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_kernicterus_audiosupra.svg ancho=100% Audiometría de Josué: umbral tonal de unos 60 dB en graves y medios, con ligera caída a 65 dB en agudos, y la ósea coincidiendo con la aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_kernicterus_impedancia.svg ancho=100% Impedanciometría de Josué.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-18": {
+   "kind": "fig",
+   "src": ":::figura cap13_kernicterus teoae\n- @OD 2000 | Las emisiones están **presentes** en 5 de 5 bandas (reproducibilidad 86 % en el OD y 95 % en el OI): con 60 dB de umbral, no es una pérdida coclear.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F13-19": {
+   "kind": "fig",
+   "src": ":::figura cap13_kernicterus dpoae\n- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F13-20": {
+   "kind": "fig",
+   "src": ":::figura cap13_kernicterus abr\n- @OD 80 | A 80 dB nHL no hay ondas que se repitan en las dos réplicas: el trazo no se separa del ruido y no hay I, III ni V identificables.\n- @OD 60 | A 60 y 40 dB, tampoco. El ABR plano **no es** una prueba de que la audición sea 60 dB: con la sincronía perdida, no se puede usar el ABR para fijar la audición.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OD 60"
+   ]
+  },
+  "F13-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_leucodistrofia_audiosupra.svg ancho=100% Audiometría de Óscar: normal en los dos oídos, con 10 dB o menos en todo el rango.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap13_leucodistrofia_impedancia.svg ancho=100% Impedanciometría de Óscar.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F13-23": {
+   "kind": "fig",
+   "src": ":::figura cap13_leucodistrofia teoae\n- @OD 2000 | Emisiones presentes en las cinco bandas.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F13-24": {
+   "kind": "fig",
+   "src": ":::figura cap13_leucodistrofia dpoae\n- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F13-25": {
+   "kind": "fig",
+   "src": ":::figura cap13_leucodistrofia abr\n- @OD 80 I | Las ondas están, pero tardías: en el OD la I está a 1,70 ms, la III a 4,20 y la V a 6,70.\n- @OD 80 V | El I-V del OD llega a **5,00 ms**, contra un límite de 4,69 para un niño de su edad; el III-V (2,50) también lo pasa (→ H10).\n- @OI 80 | En el OI las ondas son aún más tardías, la I incluida (2,0 ms), y se ven en las dos réplicas: la V llega a 6,9 ms con audición normal. Sus interpicos (I-V de 4,9) quedan bajo el límite, que en ese oído es más amplio (5,3).\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 I",
+    "@OD 80 V",
+    "@OI 80"
+   ]
+  }
+ },
+ "casos": {
+  "cap13_neuropatia": {
+   "numero": "13.1",
+   "ficha": [
+    "**Esther Estrada**, 15 años · mujer",
+    "Tiene 15 años y viene con su mamá. Nació a las 33 semanas, con 1.900 g, y estuvo en neonatología por una ictericia grave que necesitó fototerapia y una exanguinotransfusión. El examen de oído del recién nacido \"salió bueno\". Desde chica, dice la mamá, \"oye cuando quiere\": hay días en que entiende bien y otros en que casi nada, y entiende mucho mejor si le ve la cara a quien le habla. En la sala, con ruido, se pierde: se sienta adelante y copia del cuaderno de una compañera. En silencio y a solas con su mamá conversa sin problema. Nunca ha tenido pitidos, dolor ni secreción de oído, ni mareos.",
+    "Historia clínica",
+    "Hace 15 años: Neonatología: prematura de 33 semanas con ictericia grave; fototerapia y exanguinotransfusión. Tamizaje auditivo con emisiones otoacústicas: pasa en los dos oídos.",
+    "Hace 2 meses: Profesora jefe: baja de rendimiento y dificultad para seguir instrucciones en la sala; se deriva a evaluación auditiva."
+   ]
+  },
+  "cap13_neuropatia_hereditaria": {
+   "numero": "13.2",
+   "ficha": [
+    "**Carmen Salazar**, 28 años · mujer",
+    "Tiene 28 años y es técnica en enfermería. Desde que se acuerda oye bien \"pero no entiende\" cuando hay ruido: en el casino del hospital, en las reuniones o con la mascarilla puesta se pierde, y por teléfono entiende menos aún. En silencio, cara a cara, conversa sin problema. No tiene pitidos ni mareos. De adolescente le salieron los pies arqueados, se tuerce los tobillos con facilidad y le cuesta correr; su padre y una tía camina con bastón. El neurólogo le dijo que \"los nervios de las piernas conducen lento\" y la mandó a control auditivo.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 2 años: Neurólogo: debilidad distal en piernas, pies cavos y arreflexia aquileana; estudio de conducción nerviosa lento.",
+    "Hace 30 días: Neurólogo: solicita evaluación auditiva por dificultad para entender en ruido.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap13_kernicterus": {
+   "numero": "13.3",
+   "ficha": [
+    "**Josué Reyes**, 11 años · hombre",
+    "Tiene 11 años y viene con su mamá, que cuenta la historia. Nació de término en un hospital rural; al tercer día estaba \"amarillo hasta los pies\", lo trasladaron tarde y estuvo varios días en fototerapia. El tamizaje de oído del recién nacido no se hizo. Desde bebé tiene movimientos involuntarios de brazos y cara, le cuesta mirar hacia arriba sin mover la cabeza y los dientes de leche le salieron con el esmalte amarillo verdoso. Va a una escuela especial. Se asusta con los ruidos y se da vuelta cuando lo llaman, pero \"no entiende lo que se le dice\": se comunica con gestos y pocas palabras, y a veces se entiende mejor en la casa que en la escuela.",
+    "Historia clínica",
+    "Hace 11 años: Hospital rural: hiperbilirrubinemia neonatal al tercer día, fototerapia.",
+    "Hace 4 años: Neurología infantil: trastorno del movimiento de tipo atetósico.",
+    "Hace 2 meses: Fonoaudiología escolar: no responde de forma confiable a la audiometría de tamizaje; se deriva a evaluación auditiva.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap13_leucodistrofia": {
+   "numero": "13.4",
+   "ficha": [
+    "**Óscar Alvarez**, 8 años · hombre",
+    "Tiene 8 años y viene con su mamá. Hasta hace unos meses era buen alumno. Desde el otoño, dice la mamá, \"no oye\": no responde cuando lo llaman, en la sala no sigue las instrucciones y la profesora cree que es distraído. Ella nota que además tropieza más, la letra le empeoró y se queja de que \"ve borroso\" el pizarrón. Está más irritable y llorón. Hace años que se broncea muy rápido y la piel de los codos se le ve oscura. Un tío materno murió joven de una \"enfermedad de los nervios\".",
+    "Historia clínica",
+    "Hace 3 meses: Profesora jefe: baja de rendimiento y falta de atención desde marzo.",
+    "Hace 40 días: Pediatra: descarta cerumen, otoscopía normal; sospecha de hipoacusia y déficit atencional, solicita audiometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

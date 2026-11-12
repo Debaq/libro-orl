@@ -1,0 +1,26 @@
+{
+ "capitulo": "B5",
+ "md": "texto/capitulos/B05-salud-publica-y-prevencion.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FB5-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b5-niveles.svg ancho=100% Historia natural de una enfermedad (aquí, la hipoacusia) y los niveles de prevención. Cada nivel actúa en un tramo del proceso; la prevención cuaternaria cubre todos. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB5-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b5-determinantes.svg ancho=100% Determinantes de la salud en capas (modelo de Dahlgren y Whitehead), con un ejemplo de audición y de nariz en cada capa. Una intervención puede actuar en una sola capa o en varias a la vez. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB5-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b5-gantt.svg ancho=100% Carta Gantt del proyecto de ejemplo, 12 semanas. Las medidas (diagnóstico, medición intermedia y encuesta final) enmarcan las acciones. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

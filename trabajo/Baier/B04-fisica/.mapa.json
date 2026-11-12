@@ -1,0 +1,86 @@
+{
+ "capitulo": "B4",
+ "md": "texto/capitulos/B04-fisica.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FB4-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-onda.svg ancho=96% Período, amplitud y fase de un tono puro. El período se lee en el eje del tiempo y la amplitud en el de la presión; la fase dice en qué punto del ciclo está la onda en cada instante. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-estimulos.svg ancho=100% Forma de onda y espectro de los estímulos de los exámenes. Compara cada par: cuanto más corto es el estímulo en el tiempo, más ancho es su espectro. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-ruidos.svg ancho=96% Ruido blanco y rosa, por hercio y por banda de un tercio de octava. El mismo ruido se ve plano o inclinado según cómo se mida: fíjate en qué eje usa cada panel antes de compararlos. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-banda-critica.svg ancho=96% La banda crítica comparada con la banda de un tercio de octava: bajo 500 Hz el tercio de octava es más angosto que la banda crítica y sobre 500 Hz, más ancho. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-filtros.svg ancho=96% Los filtros del PEAT: lo que dejan pasar y lo que sacan. La banda de la respuesta queda adentro; el EEG de fondo, en los graves, y buena parte del ruido muscular y de la red quedan afuera. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-decibel.svg ancho=100% La escala de dB SPL, las reglas de cada paso y cómo suben dos fuentes al sumarse. Cada +20 dB multiplica la presión por 10, y dos fuentes iguales suman solo 3 dB, no el doble de decibeles. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-escalas.svg ancho=96% El mismo tono de 60 dB SPL en dB SPL, dB HL y dB SL. El sonido no cambia: cambia contra qué se compara, un micrófono, el oído normal o el umbral de este paciente. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-resonancia.svg ancho=100% Masa, rigidez y roce, y la admitancia de tres oídos de juguete: uno normal, uno rígido y uno laxo. Mira cómo cambia el orden entre los tres al pasar de la sonda de 226 Hz a la de 1.000 Hz. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-09": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-promedio.svg ancho=100% Al promediar, el ruido residual cae con √N y aparece la señal Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-10": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-onda-estacionaria.svg ancho=100% Un tono puro frente a una pared: el nivel cambia en pocos centímetros Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-audifono.svg ancho=100% Entrada y salida de un audífono, y lo que agrega el recorte. El lineal sigue la recta hasta su techo y ahí recorta; el de compresión baja la ganancia antes de llegar a él. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-12": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-nariz.svg ancho=100% Presión contra flujo en una fosa nasal, y la resistencia de un tubo según su radio. La curva se dobla porque, al subir el flujo, la turbulencia pesa más; y basta achicar un poco el radio para que la resistencia se dispare. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FB4-13": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/b4-reflexion.svg ancho=100% Ecos de un tubo con un estrechamiento, y cuánto del pulso llega hasta lo de atrás. El estrechamiento devuelve un eco del mismo signo y el ensanchamiento, uno invertido; el tiempo del eco dice a qué distancia está cada cambio. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

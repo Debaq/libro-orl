@@ -1,0 +1,171 @@
+{
+ "capitulo": "16",
+ "md": "texto/capitulos/16-tamizaje-las-primeras-horas.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F16-01": {
+   "kind": "fig",
+   "src": ":::figura cap16_normal teoae\n- @OD 2000 | En el oído derecho **no pasa ninguna banda** (0 de 5) y la reproducibilidad es de 23 %: no hay emisión que se repita.\n- @OI 2000 | El oído izquierdo tiene **las cinco bandas** y 88 % de reproducibilidad: la cóclea de esta niña funciona.\n- Los dos oídos son de la misma niña, con la misma cóclea. Lo que cambia es el oído medio de ese lado en esta hora.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000",
+    null
+   ]
+  },
+  "F16-02": {
+   "kind": "fig",
+   "src": ":::figura cap16_normal dpoae\n- OD: presentes en 4 de 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F16-03": {
+   "kind": "fig",
+   "src": ":::figura cap16_normal abr\n- @OD 35 V | A 35 dB nHL el oído derecho **sí responde**: la onda V aparece cerca de los 8 ms, repetida en las dos réplicas. Un AABR diría PASA.\n- @OI 35 V | Lo mismo en el izquierdo. La señal llega al tronco en los dos lados, que es lo que importa para el AABR.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 35 V",
+    "@OI 35 V"
+   ]
+  },
+  "F16-04": {
+   "kind": "fig",
+   "src": ":::figura cap16_uci teoae\n- @OD 2000 | Las emisiones del oído derecho están **presentes** en las cinco bandas, con 89 % de reproducibilidad.\n- @OI 1000 | En el izquierdo pasan cuatro de cinco bandas (la de 1 kHz, abierta, no) y la reproducibilidad, de 68 %, queda justo bajo el 70 % del criterio. Con TEOAE sola el OD pasa y el OI queda dudoso: ninguno de los dos oídos deja ver que el problema está más atrás.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 1000"
+   ]
+  },
+  "F16-05": {
+   "kind": "fig",
+   "src": ":::figura cap16_uci dpoae\n- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F16-06": {
+   "kind": "fig",
+   "src": ":::figura cap16_uci abr\n- @OD 80 | A **80 dB nHL** no hay ninguna onda en el oído derecho, ni siquiera a un nivel mucho mayor que el del tamizaje.\n- @OI 35 | A 35 dB nHL tampoco hay respuesta en el izquierdo: el AABR diría **REFIERE** en los dos oídos.\n- La cóclea responde (hay emisiones) pero el tronco no: es lo que un tamizaje solo con TEOAE no ve.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 35",
+    null
+   ]
+  },
+  "F16-07": {
+   "kind": "fig",
+   "src": ":::figura cap16_riesgo teoae\n- @OD 2000 | Emisiones **presentes** en las cinco bandas, con 90 % de reproducibilidad.\n- @OI 2000 | También las cinco en el izquierdo, con 86 %: cóclea que responde en los dos lados.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F16-08": {
+   "kind": "fig",
+   "src": ":::figura cap16_riesgo dpoae\n- OD: presentes en los 7 frecuencias, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F16-09": {
+   "kind": "fig",
+   "src": ":::figura cap16_riesgo abr\n- @OD 35 V | La onda V del oído derecho aparece a 35 dB nHL, cerca de los 8 ms.\n- @OI 35 V | Y la del izquierdo: el AABR diría PASA en los dos oídos.\n- Todo normal **hoy**. Lo que falta es lo que ningún examen de hoy puede decir.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 35 V",
+    "@OI 35 V",
+    null
+   ]
+  },
+  "F16-10": {
+   "kind": "fig",
+   "src": ":::figura cap16_efusion teoae\n- @OD 2000 | **Ninguna banda** pasa en el oído derecho (0 de 5): reproducibilidad 0 %.\n- @OI 2000 | Tampoco en el izquierdo. El tamizaje a esta edad refiere en los dos oídos.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F16-11": {
+   "kind": "fig",
+   "src": ":::figura cap16_efusion dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: ausentes.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F16-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap16_efusion_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F16-13": {
+   "kind": "fig",
+   "src": ":::figura cap16_efusion abr\n- @OD 80 V | A 80 dB nHL el oído derecho tiene ondas I, III y V bien formadas: el nervio y el tronco conducen. La V cae alrededor de los 8 ms.\n- @OD 35 | A 35 dB nHL no hay respuesta: el AABR diría REFIERE.\n- @OI 35 V | El izquierdo tiene una V a 35 dB, tardía y pequeña, cerca de los 10 ms: un oído en el borde.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 35",
+    "@OI 35 V"
+   ]
+  }
+ },
+ "casos": {
+  "cap16_normal": {
+   "numero": "16.1",
+   "ficha": [
+    "**Daniela Medina**, 10 horas de vida · mujer",
+    "Recién nacida de 10 horas, primera hija de una mujer de 28 años, en la sala de maternidad. Embarazo controlado de 39 semanas, parto vaginal sin complicaciones, 3.350 g, Apgar 9 y 9. La madre no tuvo fiebre ni infecciones en el embarazo y no tomó medicamentos. No hay sordera en la familia. La enfermera cuenta que la niña lleva un rato tranquila después de mamar y que el equipo de tamizaje está listo en la sala.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap16_uci": {
+   "numero": "16.2",
+   "ficha": [
+    "**Gabriel Vargas**, 7 días · hombre",
+    "Recién nacido de 7 días, hospitalizado en la unidad de cuidados intensivos neonatales desde su segundo día de vida. Nació a las 34 semanas, con 2.280 g. A los tres días tuvo una ictericia muy intensa que no cedió con fototerapia y se le hizo una exanguinotransfusión. Recibió gentamicina por una sospecha de infección, que se descartó. Hoy está estable, se alimenta bien y está en la cuna por primera vez, a dos días del alta. La madre, de 31 años, pregunta si el examen \"duele\".",
+    "**Antecedentes:** ototóxicos.",
+    "**Medicamentos:** Gentamicina por 7 días, ya suspendida",
+    "Historia clínica",
+    "Hace 7 días: Nacimiento a las 34 semanas, 2.280 g, ingreso a UCI neonatal.",
+    "Hace 4 días: Hiperbilirrubinemia severa: exanguinotransfusión.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap16_riesgo": {
+   "numero": "16.3",
+   "ficha": [
+    "**Diego Guzmán**, 50 horas de vida · hombre",
+    "Recién nacido de 50 horas, listo para el alta. Nació a las 40 semanas, parto vaginal, 3.620 g, sin problemas. Su madre, de 26 años, tuvo una infección por citomegalovirus en el segundo trimestre, documentada con una seroconversión en los exámenes del embarazo. A él se le tomó hoy una muestra de saliva para buscar el virus; el resultado todavía no llega. Está tranquilo y mamó hace una hora.",
+    "Historia clínica",
+    "Hace 0 días: Muestra de saliva para PCR de citomegalovirus, resultado pendiente.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap16_efusion": {
+   "numero": "16.4",
+   "ficha": [
+    "**Verónica Vega**, 20 días · mujer",
+    "Lactante de 20 días que viene de su casa con su madre. Nació a las 38 semanas por cesárea, sin complicaciones, y se fue de alta a los dos días. En la maternidad el tamizaje con emisiones otoacústicas \"no pasó\" en el oído derecho y le dijeron que volviera. Hace una semana la ven en el consultorio: tuvo congestión nasal, pero sin fiebre ni secreción por los oídos. Se alimenta bien y se sobresalta con los ruidos fuertes. No hay sordera en la familia.",
+    "Historia clínica",
+    "Hace 18 días: Alta de la maternidad; tamizaje con OEA: refiere en el oído derecho.",
+    "Hace 7 días: Control en consultorio: congestión nasal leve, sin fiebre."
+   ]
+  }
+ }
+}

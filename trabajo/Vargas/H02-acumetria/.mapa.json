@@ -1,0 +1,126 @@
+{
+ "capitulo": "H2",
+ "md": "texto/capitulos/H02-acumetria.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH2-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h02-weber-conductivo.svg ancho=100% Por qué el Weber se va al oído con pérdida conductiva, en un corte frontal de la cabeza visto de frente (el OD queda a la izquierda). A: con los dos oídos sanos, la vibración del diapasón llega por el hueso igual a las dos cócleas y se oye al centro. B: con el conducto derecho tapado, la pared del conducto, que vibra con el cráneo, suena dentro de él; ese sonido queda encerrado y empuja el tímpano (efecto de oclusión), y el diapasón se oye en el oído tapado. El ruido del ambiente, que entra solo por el oído abierto, aporta poco. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH2-02": {
+   "kind": "ilus",
+   "src": "![{IA} Cómo se aplica el diapasón. Weber: la base en la línea media de la frente. Rinne: las ramas frente al conducto, paralelas a su eje, y luego la base en la mastoides; el cambio se hace sin tocar las ramas, para no apagar la vibración. Imagen: ilustración generada con inteligencia artificial.](ilustraciones/h02-tecnica.png)",
+   "id": null,
+   "globos": []
+  },
+  "FH2-03": {
+   "kind": "fig",
+   "src": ":::figura h2_p34 acumetria\n- @weber 500 | El Weber se va al **OD**, el oído que oye peor: la firma de una conductiva.\n- @rinne OD 500 | Rinne **negativo** en el OD en las dos frecuencias: lo oye más fuerte en la mastoides.\n- @rinne OI 500 | En el OI, positivo, como en cualquier oído sano.\n:::",
+   "id": null,
+   "globos": [
+    "@weber 500",
+    "@rinne OD 500",
+    "@rinne OI 500"
+   ]
+  },
+  "FH2-04": {
+   "kind": "fig",
+   "src": ":::figura h2_p34 audiograma\n- @OD 500 | La aérea del OD está en 50 dB en 500 Hz…\n- @OD osea 500 | …y la ósea en 10 dB: **40 dB de gap**, de sobra para dar vuelta el Rinne.\n- @OD osea 1000 | En 1 kHz el gap es de 30 dB (45 contra 15): el Rinne sigue negativo.\n- @OI 500 | El OI es normal. Casi toda la asimetría es de transmisión, y por eso el Weber va al OD.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 500",
+    "@OD osea 500",
+    "@OD osea 1000",
+    "@OI 500"
+   ]
+  },
+  "FH2-05": {
+   "kind": "fig",
+   "src": ":::figura h2_p39 acumetria\n- @weber 500 | Aquí el Weber se va al **OI**, el oído que oye **mejor**: la asimetría está en la cóclea.\n- @rinne OD 500 | Rinne **positivo** en el OD, aunque es el oído con la pérdida: la sensorioneural baja las dos vías por igual.\n- @rinne OI 1000 | Positivo también en el OI.\n:::",
+   "id": null,
+   "globos": [
+    "@weber 500",
+    "@rinne OD 500",
+    "@rinne OI 1000"
+   ]
+  },
+  "FH2-06": {
+   "kind": "fig",
+   "src": ":::figura h2_p39 audiograma\n- @OD 500 | En 500 Hz el OD está en 15 dB y el OI en 5: los dos normales, con **10 dB de diferencia**. Basta para que el Weber lateralice.\n- @OD 1000 | En 1 kHz la diferencia es de 15 dB (20 contra 5).\n- @OD osea 2000 | La ósea va con la aérea: sin gap, el Rinne no tiene por qué cambiar.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 500",
+    "@OD 1000",
+    "@OD osea 2000"
+   ]
+  },
+  "FH2-07": {
+   "kind": "fig",
+   "src": ":::figura h2_p42 acumetria\n- @weber 500 | El Weber se va al **OI**, el oído sano.\n- @rinne OD 500 | Y el Rinne del OD es negativo. Weber al sano con Rinne negativo en el enfermo: **falso negativo**.\n- @rinne OI 500 | El OI, positivo.\n:::",
+   "id": null,
+   "globos": [
+    "@weber 500",
+    "@rinne OD 500",
+    "@rinne OI 500"
+   ]
+  },
+  "FH2-08": {
+   "kind": "fig",
+   "src": ":::figura h2_p42 audiograma\n- @OD 500 | El OD **no responde** por vía aérea ni al máximo del audiómetro.\n- @OD osea 500 | Tampoco por vía ósea enmascarada: no hay gap, la cóclea derecha no funciona.\n- @OI 500 | El OI está en 0 dB. Es la cóclea que oyó el diapasón apoyado en la mastoides derecha.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 500",
+    "@OD osea 500",
+    "@OI 500"
+   ]
+  }
+ },
+ "casos": {
+  "h2_p34": {
+   "numero": "H2.1",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Tiene 34 años, es secretaria en una notaría y tiene dos hijos chicos. Empezó a notar que escucha menos por el oído derecho después del embarazo de su segundo hijo, hace unos tres años, y desde entonces ha ido de a poco a peor. Le llama la atención que en lugares con ruido, como la micro o una fiesta, entiende mejor que en la casa en silencio. Tiene un zumbido grave en el oído derecho, que aparece sobre todo en la noche. Su mamá \"quedó sorda de joven\" y la operaron de un oído, aunque no sabe bien de qué. Le preocupa que le pase lo mismo.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 3 años: Control de embarazo (segundo hijo) con ginecólogo; parto vaginal sin complicaciones.",
+    "Hace 2 años: Consulta con médico general por sensación de oído derecho tapado; se indica lavado de oídos, sin tapón de cerumen, sin mejoría.",
+    "Hace 2 meses: Consulta con otorrinolaringólogo: conducto auditivo y tímpano derecho de aspecto normal; se deriva a evaluación auditiva completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Audiometría, H3.3 · Logoaudiometría, H5.1 · Impedanciometría, H7.1 · VEMP, H12.3."
+   ]
+  },
+  "h2_p39": {
+   "numero": "H2.2",
+   "ficha": [
+    "**Raúl Saavedra**, 54 años · hombre",
+    "Tiene 54 años y es contador en una empresa de transporte; pasa gran parte del día al teléfono. Hace como dos años empezó con un pito agudo en el oído derecho que no se le quita nunca. Desde hace unos meses, cuando contesta el teléfono por la derecha escucha la voz pero no entiende lo que le dicen, así que se cambió el teléfono al otro lado. Además anda un poco inestable, como torpe al caminar en la oscuridad o al darse vuelta rápido, pero nunca ha tenido vértigo de verdad. No tiene dolor ni nada en la cara. Su señora le dice que es el estrés.",
+    "Historia clínica",
+    "Hace 3 años: Control de salud: dislipidemia leve, manejo con dieta.",
+    "Hace 1 año: Consulta con médico general por pito en oído derecho; otoscopia normal, se indica observar.",
+    "Hace 2 meses: Consulta con médico general por dificultad para entender por teléfono con el oído derecho e inestabilidad leve. Se deriva a otorrinolaringólogo.",
+    "Hace 15 días: Otorrinolaringólogo: otoscopia normal bilateral. Se deriva a evaluación auditiva y BERA.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Logoaudiometría, H5.3 · Supraliminares, H6.2."
+   ]
+  },
+  "h2_p42": {
+   "numero": "H2.3",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "Tiene 22 años y estudia ingeniería civil. Desde los 6 años, después de unas paperas, no escucha nada por el oído derecho; dice que se acostumbró y que casi no lo piensa. Le cuesta saber de dónde viene un sonido, como cuando lo llaman en la calle o suena un celular. En clases se sienta siempre con el oído bueno hacia el profesor, y en los carretes con ruido le cuesta seguir la conversación si le hablan por la derecha. Un compañero le contó de audífonos que pasan el sonido al otro oído y quiere saber si le sirven. Nunca le hicieron estudios después de esa vez.",
+    "Historia clínica",
+    "Hace 16 años: Consulta con pediatra por parotiditis bilateral; manejo sintomático. A las dos semanas la madre nota que no responde por el oído derecho.",
+    "Hace 16 años: Otorrinolaringólogo infantil: otoscopia normal, se indica control; no vuelve a control.",
+    "Hace 30 días: Consulta con otorrinolaringólogo por dificultad para seguir clases en la universidad; otoscopia normal. Se deriva a evaluación auditiva y electrofisiológica para evaluar opciones de rehabilitación.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "Vuelve en: Audiometría, H3.5 · Enmascaramiento, H4.1 · VEMP, H12.4."
+   ]
+  }
+ }
+}

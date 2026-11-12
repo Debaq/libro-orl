@@ -1,0 +1,32 @@
+{
+ "capitulo": "H14",
+ "md": "texto/capitulos/H14-potenciales-de-latencia-media-y-tardia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH14-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h14-cronologia.svg ancho=90% De la onda V del ABR a la P300. Cada barra es la ventana de latencias típica de una respuesta en el adulto. El color dice qué hay que pedirle al paciente: el ABR se registra incluso dormido; la latencia media, los corticales y la MMN, despierto y quieto; la P300, despierto, atento y cumpliendo una tarea. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH14-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h14-mlr.svg ancho=96% La respuesta de latencia media. A: tras la onda V del ABR vienen Na, Pa, Nb y Pb; las barras de abajo son las ventanas donde se busca cada onda. B: si el estímulo se repite cada 25 ms, las respuestas se encabalgan y forman una onda casi sinusoidal de 40 Hz (Galambos y cols., 1981). Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH14-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h14-corticales.svg ancho=96% La respuesta cortical obligatoria a lo largo del desarrollo. En el adulto, P1 chica, N1 grande y P2; en el escolar, una P1 grande y una negatividad ancha; en el lactante, una onda positiva amplia y una negatividad tardía. Esquema calculado con las latencias de la BSA (2022) y de Sharma y cols. (1997). Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH14-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h14-oddball.svg ancho=96% Paradigma *oddball*, MMN y P300. A: secuencia con estándares frecuentes y desviantes raros. B: el desviante agrega una negatividad entre 150 y 250 ms. C: la resta desviante menos estándar es la MMN. D: si el paciente atiende el blanco, aparece la P300 hacia los 350 ms. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

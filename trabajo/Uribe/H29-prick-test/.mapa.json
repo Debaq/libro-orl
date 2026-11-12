@@ -1,0 +1,32 @@
+{
+ "capitulo": "H29",
+ "md": "texto/capitulos/H29-prick-test.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH29-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h29-curso.svg ancho=100% La reacción inmediata de la piel según el tiempo. La histamina del control positivo da su pápula máxima antes (cerca de los 8 a 10 minutos); la del alérgeno, entre los 15 y 20 minutos, que es la ventana de lectura. La forma de las curvas es un esquema, no son datos de un paciente. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH29-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h29-mapa.svg ancho=100% Dónde y en qué orden se hacen las punciones. Las ocho punciones del ejemplo van en el antebrazo volar, a 2,5 cm una de otra, sin acercarse a menos de 3 cm de los pliegues del codo y de la muñeca. Se empieza por el control negativo y se termina por la histamina. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH29-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h29-lectura.svg ancho=100% A: cómo se mide una pápula. Se mide el diámetro mayor (rojo) y el perpendicular (azul), en milímetros, hasta el borde de la pápula; la zona roja tenue es el eritema y no entra. La pápula del dibujo mide 8 × 6 mm. B: la misma regla frente a pápulas de distinto tamaño: 2 mm no llega al umbral; 3 mm sí. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH29-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h29-resultado.svg ancho=100% El antebrazo del ejemplo a los 15 minutos, con las pápulas dibujadas a su tamaño real (la escala de 1 cm está abajo). La pápula está en el centro; el eritema la rodea. Imagen propia.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

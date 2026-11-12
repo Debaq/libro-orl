@@ -1,0 +1,214 @@
+{
+ "capitulo": "10",
+ "md": "texto/capitulos/10-lo-que-viene-en-la-familia.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F10-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap10-potasio.svg ancho=96% Pared lateral de la cóclea en corte. El potasio (flecha magenta) hace un circuito cerrado: entra a la célula ciliada desde la endolinfa, sale por su base, cruza las células de sostén y los fibrocitos del ligamento espiral por dos redes de uniones gap (marcas verdes), sube a la estría vascular y vuelve a la endolinfa.\n- @29.6,44 | **El potasio entra** por los estereocilios de la célula ciliada, desde la endolinfa. Empuja el potencial endococlear y la carga negativa del interior de la célula.\n- @36,67 | **Sale por la base** de la célula ciliada y pasa a la célula de sostén que la rodea.\n- @53,73.2 | **Células de sostén**: pasan el potasio de una a otra por uniones gap de **conexina 26** (marcas verdes), la primera red.\n- @90.8,47 | **Ligamento espiral**: sus fibrocitos siguen el camino por una segunda red de uniones gap, también de conexina 26, hasta la estría.\n- @78.6,42 | **Estría vascular**, de la endolinfa hacia el ligamento: células marginales, intermedias (melanocitos, con pigmento) y basales. Los capilares rojos corren entre las capas.\n- @71,50.5 | **KCNQ1/KCNE1**: el canal de la célula marginal que devuelve el potasio a la endolinfa y cierra el circuito.\n- @48.6,60.8 | **+80 mV**: el potencial endococlear de la endolinfa respecto de la perilinfa. Lo genera la estría.\n- @14.3,60 | **Célula ciliada interna**, con las tres externas a su derecha. El esquema sigue el camino del potasio de las externas.\n:::",
+   "id": null,
+   "globos": [
+    "@29.6,44",
+    "@36,67",
+    "@53,73.2",
+    "@90.8,47",
+    "@78.6,42",
+    "@71,50.5",
+    "@48.6,60.8",
+    "@14.3,60"
+   ]
+  },
+  "F10-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap10-tc-acueducto.jpg ancho=78% id=tc-acueducto Tomografía axial de alta resolución del hueso temporal: a la izquierda, un oído control; a la derecha, un acueducto vestibular dilatado. Arriba se mide el acueducto en su punto medio (línea verde): un canal fino en el control y 1,0 mm en el dilatado. Abajo, en el opérculo, su salida hacia la fosa posterior (línea celeste): 2,1 mm en el dilatado, una boca ancha. Son los dos puntos de los criterios de Cincinnati, que lo llaman dilatado con más de 0,9 mm en el punto medio o más de 1,9 mm en el opérculo. hSCC y pSCC, conductos semicirculares lateral y posterior; la barra blanca mide 5 mm. Imagen: Weiss NM y cols. (2023), Eur Arch Otorhinolaryngol, doi:10.1007/s00405-022-07681-4, Fig. 4, CC BY 4.0, adaptada.\n:::",
+   "id": "tc-acueducto",
+   "globos": []
+  },
+  "F10-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_gjb2_audiosupra.svg Audiometría de Adrián por juego: pérdida sensorioneural severa, plana, bilateral y simétrica, con la ósea sin respuesta al tope del vibrador.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-04": {
+   "kind": "fig",
+   "src": ":::figura cap10_gjb2 campo_libre\n- @S 2000 | Sin audífonos (S), el campo libre es el oído mejor: 80 dB en 2 kHz, como en el audiograma.\n- @A 2000 | Con sus audífonos (A) detecta en 35 dB en 2 kHz: 45 dB de ganancia funcional.\n- @A 250 | En 250 Hz el A queda en 50 dB. Con A de 35 a 50 dB, la voz cercana le llega; la que viene de la cocina, no siempre.\n- Los umbrales con audífono muestran qué detecta, pero no verifican el audífono: para eso está la medición en oído real (→ H8).\n:::",
+   "id": null,
+   "globos": [
+    "@S 2000",
+    "@A 2000",
+    "@A 250",
+    null
+   ]
+  },
+  "F10-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_gjb2_impedancia.svg ancho=100% Impedanciometría de Adrián por juego.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-06": {
+   "kind": "fig",
+   "src": ":::figura cap10_gjb2 teoae\n- @OD 2000 | Sin emisiones en ninguna banda del OD (0 de 5; reproducibilidad 5 %).\n- @OI 2000 | Tampoco en el OI. Con 80 dB de pérdida es lo esperable: las células ciliadas externas no funcionan. La prueba cruzada cierra: oído medio normal, cóclea sin emisiones.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F10-07": {
+   "kind": "fig",
+   "src": ":::figura cap10_gjb2 dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: ausentes.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F10-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_waardenburg_impedancia.svg ancho=100% Impedanciometría.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-09": {
+   "kind": "fig",
+   "src": ":::figura cap10_waardenburg teoae\n- @OD 2000 | Sin emisiones en el OD: 0 de 5 bandas.\n- @OI 1000 | Tampoco en el OI. Con el timpanograma A, la ausencia es de la cóclea.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 1000"
+   ]
+  },
+  "F10-10": {
+   "kind": "fig",
+   "src": ":::figura cap10_waardenburg dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: ausentes.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F10-11": {
+   "kind": "fig",
+   "src": ":::figura cap10_waardenburg abr\n- @OD 100 V | PEAT con click a 100 y 90 dB nHL, dormida. En el OD aparece una **onda V a 6,7 ms** a 100 dB, y a 90 dB nada: **umbral con click, 100 dB nHL**.\n- @OI 100 | En el OI no hay ondas que se repitan ni a 100 dB: sin respuesta al máximo útil del equipo.\n- El siguiente paso es buscar audición residual por frecuencia, con tone burst o estado estable (→ H10, H13).\n:::",
+   "id": null,
+   "globos": [
+    "@OD 100 V",
+    "@OI 100",
+    null
+   ]
+  },
+  "F10-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_pendred_audiosupra.svg ancho=100% Audiometría de Andrés: pérdida moderada de los dos oídos con gap de 30 dB en 250 Hz que se cierra desde 1 kHz. Discriminación de 72 % en el OD y 68 % en el OI, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_pendred_impedancia.svg ancho=100% Impedanciometría de Andrés.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_alport_audiosupra.svg ancho=100% Audiometría de Javier: pérdida sensorioneural bilateral simétrica en cubeta, con fondo en 2 kHz. Discriminación de 76 % en el OD y 72 % en el OI, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap10_usher_audiosupra.svg ancho=100% Audiometría de Carmen: pérdida sensorioneural descendente, bilateral y simétrica. SDT de 45 dB, SRT de 50 dB y discriminación máxima de 68 % con voz grabada, SISI de 90 % y Carhart sin deterioro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F10-16": {
+   "kind": "fig",
+   "src": ":::figura cap10_usher vemp\n- @OD P13 | cVEMP presente en el OD, con P13 y N23 bien formadas.\n- @OI N23 | Presente también en el OI, con la misma amplitud: asimetría de 0 %. El sáculo funciona; en el tipo 1 no habría respuesta (→ H12, cap. 20).\n:::",
+   "id": null,
+   "globos": [
+    "@OD P13",
+    "@OI N23"
+   ]
+  }
+ },
+ "casos": {
+  "cap10_gjb2": {
+   "numero": "10.1",
+   "ficha": [
+    "**Adrián Salazar**, 3 años · hombre",
+    "Adrián tiene 3 años y viene con su mamá a su control de audición. Al nacer no pasó el tamizaje auditivo en ninguno de los dos oídos, y a los dos meses los potenciales confirmaron una hipoacusia en ambos. El estudio genético mostró dos copias de la misma variante del gen de la conexina 26 (GJB2). Usa audífonos en los dos oídos desde los 5 meses, va a un jardín infantil y tiene fonoaudióloga. Dice frases de dos palabras y entiende órdenes simples. La mamá y el papá oyen bien; un primo de la mamá es sordo desde niño. Hace unos dos meses la mamá nota que, con los audífonos puestos, ya no se da vuelta cuando lo llaman desde la cocina, y la educadora dice que en el jardín está \"más en su mundo\". No ha tenido otitis ni resfríos en el último mes. La mamá está embarazada de 14 semanas y quiere saber si su próximo hijo puede nacer igual.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 3 años: Tamizaje auditivo neonatal con emisiones otoacústicas: refiere en ambos oídos. Repetición al mes: refiere en ambos oídos.",
+    "Hace 3 años: PEAT con click y tone burst: umbral de la onda V en 70 dB nHL en ambos oídos; timpanometría con sonda de 1.000 Hz normal. Hipoacusia sensorioneural bilateral.",
+    "Hace 3 años: Genética: homocigoto para c.35delG en GJB2. Hipoacusia no sindrómica autosómica recesiva. Consejo genético a los padres.",
+    "Hace 3 años: Adaptación de audífonos retroauriculares bilaterales.",
+    "Hace 1 año: Audiometría por refuerzo visual con insertos: niveles mínimos de respuesta de 60 a 65 dB HL de 500 a 4.000 Hz en ambos oídos.",
+    "Hace 2 meses: Pediatra: la mamá nota que responde menos con los audífonos. Deriva a control audiológico.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap10_waardenburg": {
+   "numero": "10.2",
+   "ficha": [
+    "**Lorena Herrera**, 8 meses · mujer",
+    "Lorena tiene 8 meses y la trae su mamá. Nació de término, por parto normal, sin complicaciones ni días en neonatología. No pasó el tamizaje auditivo en ninguno de los dos oídos, ni al nacer ni en la repetición, y la derivaron a diagnóstico; por la lista de espera llega recién ahora. La mamá cuenta que Lorena no se asusta con los portazos ni con la aspiradora, y que despierta cuando la tocan pero no cuando la llaman. Balbucea menos que su hermano mayor a la misma edad. Se sienta sola desde hace un mes. Nació con un mechón de pelo blanco sobre la frente y con un ojo azul y el otro café. El papá tiene el mismo mechón blanco desde chico y oye bien; la abuela paterna era sorda de un oído y tenía canas desde los veinte años.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 8 meses: Tamizaje auditivo neonatal con emisiones otoacústicas: refiere en ambos oídos.",
+    "Hace 7 meses: Repetición del tamizaje con emisiones: refiere en ambos oídos. Se deriva a diagnóstico audiológico.",
+    "Hace 20 días: Pediatra, control de los 8 meses: no reacciona a ruidos fuertes; heterocromía de iris y mechón blanco frontal. Solicita evaluación audiológica completa e interconsulta a genética.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap10_pendred": {
+   "numero": "10.3",
+   "ficha": [
+    "**Andrés Luna**, 6 años · hombre",
+    "Andrés tiene 6 años y está en primero básico. Lo trae su mamá porque hace diez días se cayó de espaldas en el patio del colegio, se golpeó la cabeza, vomitó una vez y estuvo mareado esa tarde; desde entonces \"no oye nada\", aunque tenga puestos sus audífonos. Pasó el tamizaje auditivo al nacer. A los 3 años la educadora del jardín notó que no respondía cuando lo llamaban, le encontraron una hipoacusia en los dos oídos y usa audífonos desde los 4. La mamá cuenta que no es la primera vez: el año pasado, después de un resfrío fuerte, también oyó peor por unas semanas y se recuperó solo en parte. No ha tenido otitis. En la familia nadie es sordo. Camina y corre bien, y hace poco aprendió a andar en bicicleta sin rueditas.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 6 años: Tamizaje auditivo neonatal con emisiones otoacústicas: pasa en ambos oídos.",
+    "Hace 3 años: Audiometría condicionada por juego: hipoacusia sensorioneural moderada bilateral, 40 a 55 dB HL; gap aéreo-óseo de 20 dB en 250 Hz con timpanograma A, atribuido a la técnica. Se indican audífonos.",
+    "Hace 1 año: Otorrinolaringólogo: baja auditiva después de un cuadro respiratorio; al mes, recuperación parcial.",
+    "Hace 10 días: Servicio de urgencia: traumatismo craneano leve en el colegio, sin pérdida de conciencia; un vómito. Observación y alta.",
+    "Hace 3 días: Otorrinolaringólogo: baja auditiva bilateral desde el golpe. Solicita audiometría e impedanciometría; pedirá imágenes de oídos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap10_alport": {
+   "numero": "10.4",
+   "ficha": [
+    "**Javier Campos**, 15 años · hombre",
+    "Javier tiene 15 años y está en segundo medio. Viene con su mamá porque desde hace un año le cuesta seguir las clases: entiende al profesor cuando está adelante, pero no a los compañeros que hablan desde atrás. Sus amigos le dicen que pone el volumen del celular muy alto. A veces siente un pitido en los dos oídos, sobre todo en la noche, que va y viene. Desde chico tiene sangre en la orina en los exámenes de rutina, y hace dos años el nefrólogo le encontró además proteínas en la orina; está en control y toma un remedio para proteger el riñón. Un tío por parte de la mamá se dializa desde los 30 años y usa audífonos. La mamá tiene \"un poco de sangre en la orina\" en los exámenes, pero el riñón le funciona bien y oye normal. Nunca ha tenido otitis ni ha estado expuesto a ruido fuerte.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "**Medicamentos:** Enalapril, indicado por nefrología",
+    "Historia clínica",
+    "Hace 10 años: Pediatra: hematuria microscópica en examen de orina de rutina. Se deriva a nefrología.",
+    "Hace 2 años: Nefrología: hematuria y proteinuria. Sospecha de síndrome de Alport por la historia familiar; inicia enalapril y solicita estudio genético.",
+    "Hace 30 días: Nefrología: no oye bien en clases. Solicita evaluación audiológica y control oftalmológico.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap10_usher": {
+   "numero": "10.5",
+   "ficha": [
+    "**Carmen Reyes**, 17 años · mujer",
+    "Carmen tiene 17 años y está en cuarto medio. Usa audífonos en los dos oídos desde los 5 años, cuando en el jardín notaron que no oía bien; donde nació no se hacía tamizaje auditivo. Le va bien en el colegio y se sienta adelante para leerles los labios a los profesores. Desde hace unos dos años le cuesta ver de noche: en una calle oscura o al entrar al cine queda \"ciega\" por un rato, y se ha golpeado con muebles y con gente que viene por el lado. El oftalmólogo le encontró una retinosis pigmentaria y le dijo que la audición y la vista podían ser \"parte de lo mismo\". Viene a control de audición. Sus papás y su hermano menor oyen y ven bien. Nunca ha tenido mareos; caminó al año y aprendió a andar en bicicleta a los 5 sin problemas.",
+    "Historia clínica",
+    "Hace 12 años: Audiometría: hipoacusia sensorioneural bilateral moderada, descendente. Adaptación de audífonos.",
+    "Hace 6 años: Control audiológico: sin cambios significativos respecto de la evaluación anterior.",
+    "Hace 2 meses: Oftalmología: ceguera nocturna y reducción del campo visual periférico; fondo de ojo con retinosis pigmentaria. Sospecha síndrome de Usher; deriva a otorrinolaringología y genética.",
+    "Hace 20 días: Otorrinolaringólogo: solicita audiometría, logoaudiometría y evaluación de la función vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

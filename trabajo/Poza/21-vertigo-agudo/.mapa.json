@@ -1,0 +1,206 @@
+{
+ "capitulo": "21",
+ "md": "texto/capitulos/21-vertigo-agudo.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F21-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-compensacion.svg ancho=100% Qué cambia con el tiempo tras una pérdida vestibular unilateral aguda. Compara las curvas: el vértigo y el nistagmo se apagan en días, el equilibrio se compensa en semanas, y la ganancia del lado enfermo se recupera de forma variable. Que el paciente ya no tenga vértigo no quiere decir que su laberinto se recuperó.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-rm-infarto-cerebeloso.jpg ancho=80% id=rm-infarto-cerebeloso Resonancia de un infarto en el hemisferio derecho del cerebelo, en un corte axial de la fosa posterior; la derecha del paciente queda a la izquierda de la imagen. Izquierda, difusión (b = 1000): el infarto es la mancha blanca, en la parte posterior del hemisferio. Derecha, mapa ADC del mismo corte: ahí el tejido se ve más oscuro, porque el agua se mueve menos (difusión restringida). Mide unos 3,5 mL. Es lo que el examen de cabecera tiene que sospechar antes de que haya imagen. Imagen: dataset ISLES 2022 (Hernandez Petzsche y cols., 2022, Sci Data, doi:10.1038/s41597-022-01875-5), CC BY 4.0, adaptada.\n:::",
+   "id": "rm-infarto-cerebeloso",
+   "globos": []
+  },
+  "F21-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-rm-difusion-negativa.jpg ancho=100% Una difusión normal que tres días después ya no lo es. Paciente con vértigo recurrente e hipoacusia fluctuante del oído derecho con acúfeno; la calórica mostraba una paresia derecha de 65 %. A: resonancia con difusión al día 1, normal (dos cortes axiales). D: tres días después, con más vértigo y más hipoacusia, la difusión repetida muestra focos brillantes en el cerebelo anterior derecho, flóculo incluido: un infarto en el territorio de la arteria cerebelosa anteroinferior (AICA), no de la PICA. Por eso una resonancia temprana normal no cierra un signo central. Imagen: Kim HA, Lee H (2017), J Stroke, doi:10.5853/jos.2016.00857, Fig. 1 (paneles A y D), CC BY-NC 4.0, adaptada.\n- @12,72 | **Día 1**: difusión sin lesiones.\n- @77,82 | **Día 4**: los focos brillantes del infarto, en el cerebelo anterior derecho.\n:::",
+   "id": null,
+   "globos": [
+    "@12,72",
+    "@77,82"
+   ]
+  },
+  "F21-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_neuritis_nistagmo.svg ancho=55% Nistagmo espontáneo de Ana en la hoja del campo clínico. Triángulos: mirada a la izquierda y a la derecha; franjas: arriba, al frente y abajo. Cada flecha apunta hacia donde bate la fase rápida, y su número da la intensidad.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-ficha-neuritis.svg ancho=90% Hoja de cabecera de Ana. El impulso hacia la derecha tiene una ganancia de 0,38 con sacada manifiesta; hacia la izquierda, de 0,96. El nistagmo es unidireccional y no hay skew: los tres pasos del HINTS salen periféricos (Kattah y cols., 2009).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_neuritis_mariposa.svg Gráfico de mariposa: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_neuritis_vhit.svg vHIT de Ana: ganancia de 0,38 hacia la derecha, con sacadas covert y overt y de 0,96 hacia la izquierda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_neuritis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_neuritis_audiosupra.svg ancho=100% Audiometría de Ana: audición normal y simétrica, y discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_nistagmo.svg ancho=55% Nistagmo espontáneo de Javier en la hoja del campo clínico.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-ficha-laberintitis.svg ancho=90% Hoja de cabecera de Javier. Impulso hacia la derecha con ganancia de 0,30 y sacada manifiesta; hacia la izquierda, 0,98. Nistagmo unidireccional y sin skew: HINTS periférico, igual que el de Ana.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_mariposa.svg Gráfico de mariposa de Javier: las dos irrigaciones del OD casi no se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_vhit.svg vHIT de Javier: ganancia de 0,30 hacia la derecha, con sacadas covert y overt y de 0,98 hacia la izquierda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_vemp.svg ancho=100% VEMP de Javier a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_audiosupra.svg ancho=100% Audiometría de Javier: el OD tiene una pérdida sensorioneural severa y casi plana (70 dB en 1 kHz, 80 dB en 2 y 4 kHz), con la ósea pegada a la aérea; el OI es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_laberintitis_impedancia.svg ancho=100% Impedanciometría de Javier.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_pseudoneuritis_nistagmo.svg ancho=55% Nistagmo de Martín en la hoja del campo clínico. Al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-18": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-ficha-pseudoneuritis.svg ancho=90% Hoja de cabecera de Martín. El impulso es normal a los dos lados (0,98 y 1,02), el nistagmo cambia de sentido con la mirada y hay skew: los tres pasos del HINTS salen centrales; cualquiera bastaba (Kattah y cols., 2009).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_pseudoneuritis_audiosupra.svg ancho=100% Audiometría de Martín: simétrica y descendente, 10 dB en los graves y 30 dB en 4 kHz, esperable a los 67 años; discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_aica_nistagmo.svg ancho=55% Nistagmo espontáneo de Inés en la hoja del campo clínico.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-21": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap21-ficha-aica.svg ancho=90% Hoja de cabecera de Inés. El impulso hacia la izquierda tiene ganancia de 0,45 con sacada y hacia la derecha es normal (0,97); el nistagmo es unidireccional. Pero hay **skew**: un solo signo central basta.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_aica_vemp.svg ancho=100% VEMP de Inés a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-23": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_aica_audiosupra.svg ancho=100% Audiometría de Inés: el OI tiene una pérdida sensorioneural moderada (50 dB en 500 Hz, 60 dB en 4 kHz); el OD es normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F21-24": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap21_aica_impedancia.svg ancho=100% Impedanciometría de Inés.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap21_neuritis": {
+   "numero": "21.1",
+   "ficha": [
+    "**Ana Delgado**, 46 años · mujer",
+    "Tiene 46 años y es profesora de básica. Hace dos días, al levantarse, sintió que la pieza giraba, vomitó tres veces y no pudo ponerse de pie sin agarrarse de la pared. Con los ojos cerrados y acostada de lado mejora; al mover la cabeza, el giro vuelve. Camina \"yéndose hacia la derecha\". Una semana antes tuvo un resfrío con tos. Oye igual que siempre: sin pitido, sin oído tapado, sin dolor. No ha tenido dolor de cabeza, visión doble, dificultad para hablar o tragar, ni debilidad en brazos o piernas. Nunca había tenido un episodio así.",
+    "Historia clínica",
+    "Hace 2 días: Servicio de urgencia: examen neurológico sin focalidad, antiemético. Se indica reposo y evaluación vestibular.",
+    "Hace 9 días: Resfrío con tos y fiebre baja, sin tratamiento.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap21_laberintitis": {
+   "numero": "21.2",
+   "ficha": [
+    "**Javier Gómez**, 39 años · hombre",
+    "Tiene 39 años y trabaja en una bodega. Hace tres días, después de una semana con resfrío, se despertó con el oído derecho \"tapado, como con agua\" y un zumbido a ratos. A las pocas horas empezó un vértigo intenso con vómitos. Hoy el giro bajó, pero por el derecho \"es como si hablaran lejos\": en el teléfono no entiende nada. No ha tenido fiebre alta, dolor ni secreción del oído, dolor de cabeza, visión doble ni trastornos del habla. No fuma y no toma medicamentos. Nunca había tenido vértigo ni problemas de oído.",
+    "Historia clínica",
+    "Hace 3 días: Servicio de urgencia: otoscopía normal, sin signos neurológicos; antiemético y reposo.",
+    "Hace 10 días: Resfrío con congestión y tos, sin tratamiento.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap21_pseudoneuritis": {
+   "numero": "21.3",
+   "ficha": [
+    "**Martín Castillo**, 67 años · hombre",
+    "Tiene 67 años y es jubilado de la construcción. Ayer a media tarde, viendo televisión, sintió un mareo intenso con vómitos. Esta mañana no pudo sentarse en la cama sin irse hacia la derecha y su hija lo trajo al servicio de urgencia. Tiene un dolor de cabeza leve en la nuca desde ayer. No ha notado cambio en la audición ni pitido. Fumó 30 años y dejó hace cinco. Está en tratamiento por presión alta y diabetes.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Losartán 50 mg cada 12 horas; metformina 850 mg cada 12 horas; atorvastatina 20 mg en la noche",
+    "Historia clínica",
+    "Hace 1 día: Mareo súbito con vómitos, sin pérdida de conciencia ni traumatismo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap21_aica": {
+   "numero": "21.4",
+   "ficha": [
+    "**Inés García**, 58 años · mujer",
+    "Tiene 58 años y es cajera de un supermercado. Hace dos días, en plena atención, sintió que todo giraba y vomitó. Dice que el oído izquierdo \"se le apagó de golpe\". Desde entonces no puede caminar sin que la sostengan: si suelta la camilla, se cae hacia la izquierda. No tiene pitido, dolor de oído ni fiebre. Tiene la presión alta, que controla \"cuando se acuerda\" de tomar el remedio, y fuma una cajetilla al día. En urgencia le dijeron que era un cuadro del oído interno y la derivaron a estudio auditivo.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg al día (irregular)",
+    "Historia clínica",
+    "Hace 2 días: Servicio de urgencia: presión 190/100, antiemético y derivación a estudio auditivo.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

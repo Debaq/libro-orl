@@ -1,0 +1,40 @@
+{
+ "capitulo": "H21",
+ "md": "texto/capitulos/H21-prueba-de-audifonos.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH21-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h21-rango-dinamico.svg ancho=100% Por qué la ganancia lineal no alcanza y la compresión sí. En una pérdida coclear el umbral sube pero la molestia no, y el rango que queda es más angosto que el habla. Subir todo igual deja el habla fuerte sobre la molestia; la compresión sube más lo suave y la hace caber entera. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH21-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h21-ventilacion.svg ancho=100% Lo que pasa con los graves según el molde. Cerrado, los graves quedan atrapados: más ganancia grave, pero también oclusión. Con ventilación, parte de los graves se escapa: menos ganancia grave y menos oclusión. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH21-03": {
+   "kind": "fig",
+   "src": ":::figura h21_p36 campo_libre\n- @S 2000 | Sin audífono (S), el campo libre es el del oído mejor: 40 dB en 2 kHz.\n- @A 2000 | Con audífono (A), 10 dB en 2 kHz: una ganancia funcional de **30 dB**.\n- @A 250 | En 250 Hz el audífono casi no le da: es lo esperable en una presbiacusia, donde los graves están cerca de lo normal.\n- La curva con audífono es un ejemplo, no una medición.\n:::",
+   "id": null,
+   "globos": [
+    "@S 2000",
+    "@A 2000",
+    "@A 250",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h21_p36": {
+   "numero": "H21.1",
+   "ficha": [
+    "**Hernán Contreras**, 74 años · hombre",
+    "Le cuesta entender a sus nietos y en los almuerzos familiares.",
+    "Anamnesis y otoscopía: caso H3.4 · Audiometría: H3.4 · Logoaudiometría: H5.2 · Emisiones: H9.2"
+   ]
+  }
+ }
+}

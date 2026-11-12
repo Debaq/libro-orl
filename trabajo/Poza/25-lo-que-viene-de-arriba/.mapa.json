@@ -1,0 +1,236 @@
+{
+ "capitulo": "25",
+ "md": "texto/capitulos/25-lo-que-viene-de-arriba.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F25-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-nistagmos-centrales.svg ancho=100% Los nistagmos centrales y cómo reconocer cada uno: posición del ojo en el tiempo (A, B, C, D, F) y velocidad de la fase lenta (E). En cada panel mira hacia dónde bate la fase rápida, si la luz lo frena y si cambia con la dirección de la mirada. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @30,25 | **Hacia abajo**: la fase lenta sube y la rápida baja, mirando al frente, y la luz (gris ancho) casi no lo cambia.\n- @80,12 | **Hacia arriba**: la fase lenta baja y la rápida sube. Se lo atribuye a lesiones del puente y del bulbo.\n- @28,51 | **Evocado por la mirada**: mirando a la derecha, el ojo se va hacia el centro y vuelve de un salto.\n- @74,55 | **Rebote**: al volver al centro bate al lado contrario del que se miraba y se apaga.\n- @21,77 | **Periódico alternante**: la dirección se invierte cada par de minutos; en un registro corto se ve un solo sentido.\n:::",
+   "id": null,
+   "globos": [
+    "@30,25",
+    "@80,12",
+    "@28,51",
+    "@74,55",
+    "@21,77"
+   ]
+  },
+  "F25-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-rm-canvas.jpg ancho=100% id=rm-canvas Resonancias sagitales en la línea media de tres personas con la enfermedad por RFC1, la causa genética más frecuente del CANVAS. Bajo cada imagen, la edad y los años de ataxia al hacerla. B y C: atrofia del vermis (flechas), con las hojas finas y los surcos abiertos y llenos de líquido; marcada en C, a los 42 años y con menos años de ataxia que B. D: vermis de forma conservada a los 62 años, tras 20 años de ataxia: la atrofia no siempre está. En la serie, la atrofia del vermis figuraba en el informe de 48 de 55 pacientes. Imagen: Traschütz A y cols. (2021), Neurology, doi:10.1212/WNL.0000000000011528, CC BY 4.0, adaptada.\n:::",
+   "id": "rm-canvas",
+   "globos": []
+  },
+  "F25-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-rm-chiari.jpg ancho=62% Malformación de Chiari tipo I en una resonancia sagital (T1) de una niña de 13 años con mareo e inestabilidad al caminar desde hacía 18 meses, sin cefalea y con examen neurológico normal. Las amígdalas cerebelosas bajan 19 mm por debajo de la línea de McRae (la que une los bordes del agujero magno). Fíjate en que el mareo y la inestabilidad eran toda la queja: un Chiari no siempre trae la cefalea clásica. Imagen: Sahuquillo J y cols. (2023), J Clin Med, doi:10.3390/jcm12144626, CC BY 4.0, adaptada.\n- @79,58 | **Amígdalas cerebelosas** herniadas, detrás de la médula, muy por debajo del agujero magno.\n- @61,70 | **Siringe** pequeña (flecha roja): una cavidad de líquido dentro de la médula, justo bajo la punta de las amígdalas.\n:::",
+   "id": null,
+   "globos": [
+    "@79,58",
+    "@61,70"
+   ]
+  },
+  "F25-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_canvas_nistagmo.svg ancho=55% Nistagmo de Rafael en la hoja del campo clínico. Mirando al frente no hay nistagmo; mirando a la izquierda bate a la izquierda y mirando a la derecha, a la derecha. Con fijación no cambia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-caso1-canvas.svg ancho=100% VNG de Rafael: mirada excéntrica y seguimiento. Mirando a la derecha, el ojo se va hacia el centro (fase lenta de 1 a 2 °/s) y vuelve de un salto, y con luz (gris ancho) el nistagmo sigue igual: la fijación no lo frena. El seguimiento es sacádico, con ganancia de 0,55 y 1,7 sacadas de alcance por segundo; uno sin lesión, en la misma escala, tiene ganancia de 0,91 y casi ninguna. Es el cerebelo en los ojos: unos laberintos perdidos no explican ninguna de las dos cosas. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_canvas_mariposa.svg Gráfico de mariposa de Rafael: las cuatro irrigaciones se quedan sobre la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_canvas_vhit.svg vHIT de Rafael: ganancia de 0,15 hacia la derecha, con sacadas overt y de 0,12 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_canvas_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_canvas_audiosupra.svg ancho=100% Audiometría de Rafael: pérdida descendente y simétrica, de 55 dB en 4 kHz en los dos oídos, la forma de una presbiacusia; discriminación de 92 % en el OD y de 96 % en el OI.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_esclerosis_nistagmo.svg ancho=55% Nistagmo espontáneo de Inés en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-caso2-ino.svg ancho=100% Sacadas de 20° en cada ojo de Inés. Mira los dos ojos por separado: hacia la derecha, el ojo derecho llega al blanco y el izquierdo se queda en 0° con el blanco en 10°, a mitad de camino. La precisión del ojo izquierdo es de 0,50 hacia la derecha y de 1,00 hacia la izquierda; la del derecho, de 1,00 hacia los dos lados. Un equipo que registra solo el ojo derecho, como hacen muchos, da el examen por normal. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_esclerosis_mariposa.svg Gráfico de mariposa de Inés: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_esclerosis_vhit.svg vHIT de Inés: ganancia de 1,02 hacia la derecha y de 0,99 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_esclerosis_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_esclerosis_audiosupra.svg ancho=100% Audiometría de Inés: audición normal en los dos oídos y discriminación de 100 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_nistagmo.svg ancho=55% Nistagmo de Silvia en la hoja del campo clínico. Todas las flechas apuntan hacia abajo: al frente, a los lados y, más grande, mirando abajo. Es un nistagmo vertical, que bate hacia abajo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-17": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-caso3-chiari.svg ancho=100% VNG de Silvia: canal horizontal y canal vertical. El canal horizontal está plano: con este registro solo, la paciente sale \"sin nistagmo\". El nistagmo hacia abajo solo aparece en el vertical, de 2,2 °/s mirando al frente (la luz, gris ancho, casi no lo cambia), y crece a 5,8 °/s mirando 20° abajo y a 3,4 °/s mirando 20° a la derecha. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_mariposa.svg Gráfico de mariposa de Silvia: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_vhit.svg vHIT de Silvia: ganancia de 0,97 hacia la derecha y de 0,95 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-21": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_audiosupra.svg ancho=100% Audiometría de Silvia: el OD es normal; el OI tiene una pérdida de 50 dB en 4 kHz y leve en los graves (20 dB en 500 Hz). La discriminación del OI llega a 92 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-22": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_chiari_impedancia.svg ancho=100% Impedanciometría de Silvia.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-23": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_farmaco_nistagmo.svg ancho=55% Nistagmo de Álvaro en la hoja del campo clínico. Mirando al frente no hay nistagmo; en las miradas extremas bate hacia donde mira, con la misma intensidad a los dos lados, y no cambia con la fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-24": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap25-caso4-farmaco.svg ancho=100% VNG de Álvaro: mirada excéntrica, seguimiento y sacadas. Mirando a la derecha, el ojo se va hacia el centro a 3 a 5 °/s y vuelve de un salto; a la izquierda es igual, simétrico, y con luz (gris ancho) sigue. El seguimiento es casi normal, con ganancia de 0,89, y las sacadas llegan a donde está el blanco, con precisión de 1,00. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-25": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_farmaco_mariposa.svg Gráfico de mariposa de Álvaro: las cuatro irrigaciones son parecidas entre los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-26": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_farmaco_vhit.svg vHIT de Álvaro: ganancia de 0,98 hacia la derecha y de 1,01 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-27": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_farmaco_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F25-28": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap25_farmaco_audiosupra.svg ancho=100% Audiometría de Álvaro: pérdida descendente y simétrica, de 50 dB en 4 kHz en el OD y de 45 dB en el OI, la de la edad; discriminación de 92 % y de 96 %.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap25_canvas": {
+   "numero": "25.1",
+   "ficha": [
+    "**Rafael Rojas**, 64 años · hombre",
+    "Tiene 64 años y es electricista jubilado. Hace unos cinco años empezó a andar inseguro: en el baño de noche, sin luz, tiene que agarrarse de las paredes, y en el pasto o en una vereda en mal estado \"se le van los pies\". No siente que todo gire: es inestabilidad. Cuando camina rápido o va en auto por un camino con baches, las letras de los letreros \"saltan\" y no las puede leer. Hace unos dos años se le duermen y le hormiguean los pies. Tiene una tos seca desde los 40 años, que nadie le explicó. Oye algo menos que antes, sobre todo en grupos, como casi todos los de su edad, y tiene un pitido agudo en los dos oídos, permanente, que ya no le molesta; no tiene mareos giratorios. Un hermano mayor \"camina raro\" y se mueve con bastón. Toma un vaso de vino los fines de semana.",
+    "**Medicamentos:** Ninguno de forma permanente",
+    "Historia clínica",
+    "Hace 3 años: Médico general: \"mareo del adulto mayor\"; betahistina por tres meses, sin mejoría.",
+    "Hace 7 meses: Neurología: marcha atáxica y reflejos aquilianos ausentes; solicita resonancia y estudio vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap25_esclerosis": {
+   "numero": "25.2",
+   "ficha": [
+    "**Inés López**, 31 años · mujer",
+    "Tiene 31 años y es cajera en una farmacia. Hace tres semanas, al mirar hacia el lado derecho, empezó a ver doble: las dos imágenes están una al lado de la otra y se juntan cuando mira al frente. A veces siente que el cuadro que mira \"tiembla\". No tiene mareo giratorio, ni pitido, ni cambios en la audición. A los 27 años perdió la visión del ojo derecho durante diez días, con dolor al mover el ojo; se recuperó con tratamiento y no volvió a pensar en eso. Desde hace unos meses un hormigueo en la mano izquierda que va y viene. Su neuróloga sospecha una enfermedad desmielinizante y le pidió que se evalúen los movimientos de los ojos mientras llega la resonancia.",
+    "Historia clínica",
+    "Hace 4 años: Oftalmología: neuritis óptica del ojo derecho, corticoide endovenoso con recuperación.",
+    "Hace 25 días: Neurología: diplopía horizontal a la derecha y hormigueo de la mano izquierda; solicita resonancia y registro de movimientos oculares de los dos ojos.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap25_chiari": {
+   "numero": "25.3",
+   "ficha": [
+    "**Silvia López**, 38 años · mujer",
+    "Tiene 38 años y trabaja en una oficina de partes. Desde hace dos años tiene un dolor de cabeza en la nuca que le sube al toser, estornudar o reírse fuerte. Se siente inestable, \"como si el piso se moviera\", sobre todo al bajar escaleras mirando los peldaños y al leer: dice que las líneas del texto saltan un poco. No gira nada. Por el oído izquierdo oye menos, aunque no tiene pitido. Hace seis meses le hicieron en otro servicio un examen del equilibrio con videonistagmografía: el informe dice \"sin nistagmo, calórica simétrica\". Le hormiguean a veces las manos.",
+    "Historia clínica",
+    "Hace 6 meses: Otorrinolaringología (otro servicio): mareo inespecífico y videonistagmografía sin hallazgos. Se indica observación.",
+    "Hace 30 días: Neurología: cefalea occipital con maniobra de Valsalva; solicita resonancia y repetir el estudio vestibular con registro vertical.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap25_farmaco": {
+   "numero": "25.4",
+   "ficha": [
+    "**Álvaro Cruz**, 71 años · hombre",
+    "Tiene 71 años y es jubilado de la construcción. Desde un golpe en la cabeza a los 45 años tiene epilepsia, controlada. Hace cuatro meses tuvo una convulsión y su neurólogo le subió la dosis de la fenitoína. Desde entonces anda \"mareado, como curado\": no gira nada, pero camina con los pies separados, ve doble o borroso al mirar hacia los lados y le cuesta leer. Oye menos que antes, parejo en los dos oídos, y no tiene pitido. Toma dos o tres vasos de vino al día con la comida. El médico general pensó en un problema del oído interno y lo envía a estudio.",
+    "**Medicamentos:** Fenitoína 100 mg cada 8 horas; clonazepam 0,5 mg en la noche",
+    "Historia clínica",
+    "Hace 4 meses: Neurología: convulsión tónico-clónica; se sube la dosis de fenitoína.",
+    "Hace 20 días: Médico general: \"mareo\", betahistina por tres semanas sin mejoría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

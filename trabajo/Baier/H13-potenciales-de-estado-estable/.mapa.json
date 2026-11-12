@@ -1,0 +1,20 @@
+{
+ "capitulo": "H13",
+ "md": "texto/capitulos/H13-potenciales-de-estado-estable.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH13-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h13-modulacion-espectro.svg ancho=96% De un tono modulado a un pico en el espectro. A: el portador sube y baja con una envolvente regular (línea punteada); la respuesta del cerebro sigue la envolvente. B: en el espectro del EEG de un oído hay un pico justo en cada frecuencia de modulación, sobre un piso de ruido que es parejo. Cada pico pertenece a un portador distinto. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH13-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h13-correccion.svg ancho=96% De los umbrales del examen al audiograma estimado. Los círculos son los umbrales encontrados (en dB nHL); a cada uno se le resta la corrección de su frecuencia y los cuadrados son el audiograma estimado (en dB eHL). Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

@@ -1,0 +1,121 @@
+{
+ "capitulo": "H4",
+ "md": "texto/capitulos/H04-enmascaramiento.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH4-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h04-cruce-craneo.svg ancho=100% Por qué hay que enmascarar. A: el tono de un fono supraaural hace vibrar el cráneo y llega a la otra cóclea por vía ósea, atenuado entre 40 y 80 dB según la persona: es la atenuación interaural. B: con el vibrador óseo la atenuación es casi nula, y las dos cócleas reciben lo mismo. C: el fono de inserción casi no hace vibrar el hueso y atenúa 55 dB o más. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH4-02": {
+   "kind": "fig",
+   "src": ":::figura h4_p42 audiograma\n- @OD 1000 | Sin enmascarar, el OD \"oye\" a **40 dB** en 1 kHz. No es el OD: es el tono que cruza y llega a la cóclea del OI, que oye a 0 dB.\n- @OD 8000 | La curva sombra copia la forma del OI y baja con la atenuación interaural: 35 dB en 125 Hz, 50 dB en 6 y 8 kHz.\n- @OD osea 1000 | La ósea del OD sale en **0 dB**. El vibrador estimula las dos cócleas y contesta la mejor.\n- @OI 1000 | El OI, normal, es el que contesta todo. Juntas, la aérea y la ósea del OD dibujan una **conductiva de 40 dB que no existe**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OD 8000",
+    "@OD osea 1000",
+    "@OI 1000"
+   ]
+  },
+  "FH4-03": {
+   "kind": "fig",
+   "src": ":::figura h4_p42 audiograma 2\n- @OD 1000 | Con el OI enmascarado, el OD no responde ni al máximo del audiómetro. El triángulo es el símbolo de aérea enmascarada del OD.\n- @OD osea 1000 | La ósea enmascarada tampoco responde al tope del vibrador: es una **cófosis**.\n- Entre las dos figuras no cambió el oído, cambió el examen. El Weber de este paciente lateralizaba al OI en 500 y 1.000 Hz: ya avisaba que el OD no aportaba nada.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 1000",
+    "@OD osea 1000",
+    null
+   ]
+  },
+  "FH4-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h04-efecto-oclusion.svg ancho=100% El efecto de oclusión. A: con el conducto abierto, la energía de baja frecuencia que el hueso irradia al conducto se escapa por la entrada. B: tapado por la copa de un fono, queda atrapada y sube la presión frente al tímpano: los graves se oyen mejor por vía ósea. C: cuánto mejora la ósea con fono supraaural, según la tabla de este capítulo; desde 2 kHz el efecto desaparece. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH4-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h04-grafico-meseta.svg ancho=100% El método del plateau. Mira la forma de la curva: mientras el umbral sube 1 dB por cada dB de ruido, falta ruido (b); cuando se aplana, ese es el umbral verdadero (c); si vuelve a subir 1 a 1, el ruido cruzó y sobra (d). Valores ilustrativos. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH4-06": {
+   "kind": "fig",
+   "src": ":::figura h4_p41 audiograma\n- @OI 1000 | Sin enmascarar, el OI marca **40 dB** en 1 kHz: la curva sombra del OD, que es normal.\n- @OI osea 1000 | La ósea del OI sale en **0 dB**: la contesta la cóclea del OD.\n- Leído así, el OI tiene una **conductiva pura**. Con gap de 40 dB, cóclea normal: un buen candidato a cirugía.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 1000",
+    "@OI osea 1000",
+    null
+   ]
+  },
+  "FH4-07": {
+   "kind": "fig",
+   "src": ":::figura h4_p41 audiograma 2\n- @OI 1000 | Enmascarado, el aéreo del OI está en **50 dB**: 10 dB peor que lo anotado.\n- @OI osea 1000 | La ósea enmascarada del OI está en **25 dB**, no en 0.\n- @OI osea 4000 | En 4 kHz llega a **45 dB**: la cóclea del OI también está dañada. Es una **mixta**, con un pronóstico auditivo distinto.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 1000",
+    "@OI osea 1000",
+    "@OI osea 4000"
+   ]
+  },
+  "FH4-08": {
+   "kind": "fig",
+   "src": ":::figura h4_p42 logoaudiometria\n- @OD 40 | Sin enmascarar, el OD anacúsico ya \"entiende\" el **20 %** a 40 dB, y a 45 dB la mitad: al OI llegan 0 dB, su SRT.\n- @OD 80 | A 80 dB repite el **100 %**. Es la curva del OI corrida 45 dB, lo que atenúa el cráneo de este paciente: lo que llega al OI son 35 dB, y a 35 dB el OI entiende todo.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 40",
+    "@OD 80"
+   ]
+  },
+  "FH4-09": {
+   "kind": "fig",
+   "src": ":::figura h4_p42 logoaudiometria 2\n- @OD 80 | Con ruido de habla en el OI, el OD no repite ninguna palabra a 80 dB.\n- @OI 35 | El OI llega al 100 % desde 35 dB. Para medir el OD a 80 dB, el mínimo de ruido en el OI es 80 − 45 − 0 + 0 = **35 dB**. Se calcula con los 45 dB del protocolo, no con lo que atenúa este paciente, que no se conoce de antemano; con los 40 dB de Yacullo (2015) serían 40 dB.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80",
+    "@OI 35"
+   ]
+  },
+  "FH4-10": {
+   "kind": "fig",
+   "src": ":::figura h4_dilema audiograma\n- @OD 250 | En 250 Hz el OD está en 50 dB aéreo y 0 óseo. El OI, en 55 y 0. Con supraaural, para medir el OD: mínimo = 50 − 40 − 0 + 55 = **65 dB**; máximo = 0 + 40 = **40 dB**. No hay ventana (con los márgenes de Yacullo, 75 y 35: menos aún).\n- @OI 250 | La diferencia aérea entre los oídos es de 5 dB y la regla 1 no se cumple. Pero la ósea del OD (0) está 55 dB mejor que el aéreo del OI: la **regla 3** obliga a enmascarar.\n- @OD osea 500 | En la ósea pasa lo mismo: en 500 Hz el mínimo es 50 y el máximo 45 (con los márgenes de Yacullo, 60 y 40).\n- @OD 1000 | En 1 kHz el gap baja a 35 dB y la ventana se abre apenas: de 45 a 50 dB. Con los márgenes de Yacullo (55 y 45) se cierra.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 250",
+    "@OI 250",
+    "@OD osea 500",
+    "@OD 1000"
+   ]
+  }
+ },
+ "casos": {
+  "h4_p42": {
+   "numero": "H4.1",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "No oye por el oído derecho desde las paperas, a los 6 años.",
+    "Anamnesis y otoscopía: caso H2.3 · Acumetría: H2.3 · Audiometría: H3.5 · VEMP: H12.4"
+   ]
+  },
+  "h4_p41": {
+   "numero": "H4.2",
+   "ficha": [
+    "**Luis Navarro**, 41 años · hombre",
+    "Supura del oído izquierdo con cada resfrío y oye cada vez menos por ese lado.",
+    "Anamnesis y otoscopía: caso H3.1 · Audiometría: H3.1 · Logoaudiometría: H5.4"
+   ]
+  },
+  "h4_dilema": {
+   "numero": "H4.3",
+   "ficha": [
+    "**Daniela Paredes**, 38 años · mujer",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

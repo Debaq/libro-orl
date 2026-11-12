@@ -1,0 +1,85 @@
+{
+ "capitulo": "H18",
+ "md": "texto/capitulos/H18-video-head-impulse-test-vhit.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH18-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-ewald.svg ancho=100% Por qué el impulso hacia el lado enfermo muestra el déficit. A: cada canal sube su descarga cuando se excita y la baja cuando se inhibe, pero no puede bajar de cero (el canal que se inhibe llega al silencio con un giro rápido); la excitación da más respuesta que la inhibición (Ewald II). B: con el oído izquierdo dañado, hacia el lado sano el ojo casi alcanza al estímulo; hacia el lado dañado, solo hasta que el oído sano queda en silencio, y después ya no crece. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH18-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-trazas.svg ancho=100% Velocidad de la cabeza y del ojo (invertida) en un impulso. A: con un reflejo normal el ojo copia a la cabeza. B: con ganancia baja, la sacada cae mientras la cabeza todavía gira (encubierta). C: la misma ganancia con la sacada al final, cuando la cabeza ya se detuvo (manifiesta). Lo que clasifica la sacada no es su tamaño sino cuándo cae respecto de la curva de la cabeza. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH18-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-impulsos.svg ancho=100% Impulsos del canal lateral de un paciente: lado derecho sano, izquierdo con déficit. Hacia la derecha las dos curvas se superponen; hacia la izquierda el ojo se queda corto y las sacadas corrigen lo que el reflejo no alcanzó. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).\n- @17,38 | **La cabeza (azul) y el ojo invertido (naranja)** se superponen en los impulsos hacia la derecha: el reflejo sigue a la cabeza.\n- @4,87 | **Ganancia media ± desviación** del lado, en verde si es normal y en rojo si no lo es. Los impulsos rechazados no entran en la media.\n- @72,31 | **Sacadas encubiertas** (triángulos violetas): caen mientras la cabeza todavía se mueve.\n- @86,36 | **Sacadas manifiestas** (triángulos rojos): llegan cuando la cabeza ya se detuvo.\n- @53,87 | **El lado izquierdo**: ganancia baja y mucha dispersión, porque cada impulso tiene un déficit distinto.\n- @83,5 | **Asimetría** entre los dos lados.\n:::",
+   "id": null,
+   "globos": [
+    "@17,38",
+    "@4,87",
+    "@72,31",
+    "@86,36",
+    "@53,87",
+    "@83,5"
+   ]
+  },
+  "FH18-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-rechazos.svg ancho=100% Dos impulsos rechazados de un paciente, sobre los aceptados del mismo lado (en gris): uno por un parpadeo dentro de la ventana y otro porque la cabeza no llegó a la velocidad mínima. Antes de leer la ganancia, revisa qué impulsos sacó el equipo y por qué. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).\n- @37,16 | **La ventana del impulso**: el parpadeo cayó dentro de ella.\n- @20,76 | **Cuadros con el ojo cerrado**: el párpado tapó la pupila y la velocidad del ojo ya no es confiable.\n- @78,52 | **Velocidad mínima**: un impulso que no la alcanza no es un estímulo suficiente para el canal.\n- @67,58 | **Muy lento**: la cabeza no llegó a la velocidad mínima.\n:::",
+   "id": null,
+   "globos": [
+    "@37,16",
+    "@20,76",
+    "@78,52",
+    "@67,58"
+   ]
+  },
+  "FH18-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-ralp.svg ancho=100% Paciente con una neuritis de la rama superior del nervio vestibular derecho: bajan el lateral y el anterior derechos, y el posterior derecho queda sano. Es el patrón por canal, y no el lateral solo, el que dice qué rama del nervio se afectó. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).\n- @34,31 | **Cada canal con su ganancia**, en rojo los que están bajo el corte.\n- @13,63 | **El plano RALP** dibujado sobre la cabeza: une el anterior derecho con el posterior izquierdo.\n- @40,15 | **La posición de la cabeza** que alinea la mirada con el plano: 45° a la izquierda para el RALP.\n- @57,46 | **Sacadas manifiestas** de lo que el canal anterior derecho no alcanza a compensar.\n- @39,85 | **Ganancia baja** del canal afectado.\n- @71,85 | **Ganancia normal** del posterior izquierdo, el otro canal del mismo par.\n:::",
+   "id": null,
+   "globos": [
+    "@34,31",
+    "@13,63",
+    "@40,15",
+    "@57,46",
+    "@39,85",
+    "@71,85"
+   ]
+  },
+  "FH18-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-ganancia.svg ancho=100% Una misma traza leída de tres maneras. A: el cociente de las áreas hasta que la cabeza vuelve a cero. B: la velocidad del ojo sobre la de la cabeza en un solo instante, aquí a los 60 ms. C: la pendiente de la recta que une ojo y cabeza en la subida. Un reflejo de ganancia 0,6 con una latencia de 8 ms da 0,59, 0,52 y 0,61 según el método. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH18-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-ganancias.svg ancho=100% Los mismos impulsos del paciente de \"Conoce tu equipo\", con tres maneras de calcular la ganancia y sin retirar las sacadas encubiertas. Fíjate en el lado izquierdo: según el método, queda bajo o sobre el corte de 0,80. Imagen propia hecha con trainHIT (→ Simuladores, en las preliminares).\n- @22,57 | **El lado izquierdo**: cada impulso con una ganancia distinta, según cuándo cayó su sacada.\n- @30,46 | **Línea de corte** de 0,80.\n- @11,40 | **Un impulso rechazado** por lento: no entra en la media.\n- @77,27 | **Área**: 0,96 a la derecha y 0,69 a la izquierda; las sacadas encubiertas la suben.\n- @71,50 | **60 ms**: 0,47 a la izquierda; mira un instante anterior a las sacadas.\n- @82,69 | **Picos**: 0,87 a la izquierda; divide máximos que no ocurren al mismo tiempo y no delata el déficit.\n:::",
+   "id": null,
+   "globos": [
+    "@22,57",
+    "@30,46",
+    "@11,40",
+    "@77,27",
+    "@71,50",
+    "@82,69"
+   ]
+  },
+  "FH18-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h18-muestreo.svg ancho=100% El mismo impulso de un paciente, con ganancia 0,5 y una sacada encubierta, registrado a 200 muestras por segundo y a 30. Con pocos cuadros la sacada desaparece y un déficit claro pasa por un reflejo apenas bajo. Imagen propia hecha con simHit (→ Simuladores, en las preliminares).\n- @20,35 | **La sacada encubierta** lleva al ojo por encima de la cabeza en pleno impulso.\n- @71,44 | **A 30 cuadros por segundo** la sacada cae entre dos cuadros: el ojo parece solo un reflejo algo bajo.\n:::",
+   "id": null,
+   "globos": [
+    "@20,35",
+    "@71,44"
+   ]
+  }
+ },
+ "casos": {}
+}

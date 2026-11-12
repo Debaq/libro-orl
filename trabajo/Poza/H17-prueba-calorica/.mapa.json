@@ -1,0 +1,29 @@
+{
+ "capitulo": "H17",
+ "md": "texto/capitulos/H17-prueba-calorica.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH17-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h17-conveccion.svg Convección de la endolinfa en el canal lateral puesto de pie (visto de costado, con el oído a la derecha de cada dibujo). A: con agua tibia, la endolinfa del lado del oído se calienta y sube hacia la ampolla, que está arriba: el estímulo es excitatorio. B: con agua fría baja, se aleja de la ampolla: inhibe. Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH17-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h17-simulador-calorica.png ancho=70% Un paciente en la posición de la calórica: acostado, con la cabeza 30° arriba, visto del lado del oído derecho, que se irriga. El laberinto derecho está dibujado agrandado junto a la oreja. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @48,86 | **Canal lateral**, visto de canto: con la cabeza 30° arriba queda vertical, y la endolinfa que se calienta del lado del oído puede subir.\n- @66,11 | **Gafas de VNG**: desde que se abre el agua, se registra sin fijación.\n:::",
+   "id": null,
+   "globos": [
+    "@48,86",
+    "@66,11"
+   ]
+  },
+  "FH17-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h17-mariposa.svg Las cuatro irrigaciones en el tiempo, dibujadas con la velocidad de la fase lenta de cada una (arriba: bate a la derecha; abajo: a la izquierda). A: en un oído sano las cuatro curvas llegan casi a la misma altura y a la misma hora; el agua tibia del derecho coincide con la fría del izquierdo (las dos baten a la derecha). B: con el laberinto izquierdo hipofuncionante, las dos respuestas del izquierdo (azules) son menores; la derecha no cambia. La respuesta no empieza al abrir el agua: el frío o el calor demoran en cruzar el hueso, culminan después de cerrarla y decaen. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {}
+}

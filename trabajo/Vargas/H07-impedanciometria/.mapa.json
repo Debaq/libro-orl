@@ -1,0 +1,154 @@
+{
+ "capitulo": "H7",
+ "md": "texto/capitulos/H07-impedanciometria.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "FH7-01": {
+   "kind": "img",
+   "src": ":::imagen /docs/manual/img/estudiante/impedanciometro-timpanograma.png Un impedanciómetro en la pantalla de timpanograma. Antes de mirar la curva, lee los tres números de la derecha: compliancia, presión y volumen. Imagen propia: captura de LabSim.\n- @55.7,34 | **La curva.** Un pico muy bajo, apenas sobre la línea de base: un oído medio rígido.\n- @89.8,11 | **Compliancia** (*Compliance*): la altura del pico, ya descontado el conducto. Aquí 0,18 mL.\n- @89.8,18 | **Presión** (*Pressure*): dónde cae el pico. Aquí 18 daPa, prácticamente cero.\n- @89.8,25.4 | **Volumen** (*Volume*): el del conducto, 1,24 mL. Se lee en los extremos del barrido.\n- @89.8,32.5 | **Gradiente** (*Gradient*): un número para la forma del pico (ver \"Cómo se informa\").\n- @24.6,59.5 | **Teclas bajo la pantalla.** Mueven el cursor al pico (*<-- -->*) y cambian la dirección del barrido, la escala (2 cc) y los límites (−400 a 200 daPa).\n- @20.3,72 | **Pruebas.** Timpanograma, Reflejos, ETF (función tubaria) y Tone Decay (deterioro del reflejo).\n- @66.7,63.4 | **Leak.** Se enciende si la oliva no sella: sin sellado no hay curva que leer.\n- @49.7,92.9 | **Estímulo.** Inicia el barrido; otro clic lo detiene.\n- @77.5,67.5 | **Control.** El oído (*OD/OI*) y la sonda (*226 Hz* o *1000 Hz*).\n:::",
+   "id": null,
+   "globos": [
+    "@55.7,34",
+    "@89.8,11",
+    "@89.8,18",
+    "@89.8,25.4",
+    "@89.8,32.5",
+    "@24.6,59.5",
+    "@20.3,72",
+    "@66.7,63.4",
+    "@49.7,92.9",
+    "@77.5,67.5"
+   ]
+  },
+  "FH7-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/h7-decay.svg ancho=92% Deterioro del reflejo con un tono de 10 s, 10 dB sobre el umbral del reflejo. Negativo: la contracción se sostiene (94 % de la amplitud inicial a los 10 s). Positivo: cae a menos de la mitad (línea roja). Imagen propia del libro.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "FH7-03": {
+   "kind": "fig",
+   "src": ":::figura h7_p34 timpanograma\n- @OD pico | **Tipo As**: pico en su lugar (18 daPa) pero de solo 0,18 mL, con volumen normal (1,24 mL). Es el oído que muestra la pantalla del equipo en *Conoce tu equipo*.\n- @OI pico | El OI es A (1,41 mL): la diferencia entre los dos oídos es el hallazgo.\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico"
+   ]
+  },
+  "FH7-04": {
+   "kind": "fig",
+   "src": ":::figura h7_p34 reflejos\n- @ipsi OD 1000 | Con la sonda en el OD rígido faltan el ipsilateral y el contralateral que se registra ahí, aunque el tono entre por el OI sano.\n- @contra OI 2000 | Con el **tono en el OD** el reflejo sube lo que pierde en el oído medio: 110 dB SPL en 2 kHz (101 dB HL) y ausente en 500 y 1000 Hz, donde el gap es de 40 y 30 dB. En 4 kHz aparece en 120 dB SPL, 110,5 dB HL, sobre el tope de 105 dB HL: en la clínica la prueba se habría detenido antes, y se deja para ver cuánto sube el reflejo.\n- @ipsi OI 1000 | Solo el ipsilateral del OI sale normal. Tres filas alteradas en torno al OD: **L invertida**, conductivo.\n:::",
+   "id": null,
+   "globos": [
+    "@ipsi OD 1000",
+    "@contra OI 2000",
+    "@ipsi OI 1000"
+   ]
+  },
+  "FH7-05": {
+   "kind": "fig",
+   "src": ":::figura h7_p35 timpanograma\n- @OD pico | **Tipo B** en el OD: no hay pico, la presión es indeterminada.\n- @OI pico | El OI es igual: plano.\n- Los volúmenes son de 0,42 mL (OD) y 0,70 mL (OI). El del OI está en el límite inferior del rango de 5 a 7 años (0,7 a 1,3 mL) y el del OD bajo él: se repite con la sonda bien sellada para descartar que esté apoyada en la pared (BSA, 2024). Con la sonda bien puesta, plano con volumen normal es **efusión**, lo que calza con los tímpanos opacos con nivel líquido de la otoscopía.\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico",
+    null
+   ]
+  },
+  "FH7-06": {
+   "kind": "fig",
+   "src": ":::figura h7_retraccion timpanograma\n- @OD pico | **Tipo C**: el pico tiene altura normal (1,39 mL) pero está corrido a −167 daPa. El oído medio está a presión negativa.\n- @OI pico | El OI es A, con el pico cerca de cero.\n- La gradiente del OD (0,50) es más baja que la del OI (0,58): su curva es más ancha.\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico",
+    null
+   ]
+  },
+  "FH7-07": {
+   "kind": "fig",
+   "src": ":::figura h7_disyuncion timpanograma\n- @OD pico | **Tipo Ad**: un pico de 1,97 mL, casi al tope de la escala, en −43 daPa. Sin la cadena que lo frene, el tímpano se mueve de más.\n- @OI pico | El OI es A (1,46 mL): el OD tiene un pico más alto que el oído sano.\n- La curva del OD es la más en punta de este capítulo: gradiente 0,68, la más alta. Con un gap aéreo-óseo de 50 a 60 dB, un Ad orienta a **disyunción de la cadena** (Lidén y cols., 1974).\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico",
+    null
+   ]
+  },
+  "FH7-08": {
+   "kind": "fig",
+   "src": ":::figura h7_lactante timpanograma\n- @OD pico | Con **226 Hz**, el OD dibuja un pico de 1,63 mL a −90 daPa. Parece un A.\n- @OI pico | El OI también parece normal.\n- A los 2 meses este pico es de la **pared del conducto**. No descarta nada.\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico",
+    null
+   ]
+  },
+  "FH7-09": {
+   "kind": "fig",
+   "src": ":::figura h7_lactante timpanograma 2\n- @OD pico | Con la sonda de **1000 Hz**, el OD queda **plano**: no hay pico sobre la línea de base. Es un resultado **anormal**: el oído medio está ocupado.\n- @OI pico | El OI tiene un pico claro sobre la línea de base: **positivo**, normal.\n- Con 1000 Hz no se informa el volumen ni la compliancia en mL: solo si el pico está sobre o bajo la línea de base.\n:::",
+   "id": null,
+   "globos": [
+    "@OD pico",
+    "@OI pico",
+    null
+   ]
+  }
+ },
+ "casos": {
+  "h7_p34": {
+   "numero": "H7.1",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Oye menos por el oído derecho desde su segundo embarazo, y cada vez peor.",
+    "Anamnesis y otoscopía: caso H2.1 · Acumetría: H2.1 · Audiometría: H3.3 · Logoaudiometría: H5.1 · VEMP: H12.3"
+   ]
+  },
+  "h7_p35": {
+   "numero": "H7.2",
+   "ficha": [
+    "**Benjamín Soto**, 5 años · hombre",
+    "Resfríos y otitis desde el invierno; no responde cuando lo llaman.",
+    "Anamnesis y otoscopía: caso H1.1 · Audiometría pediátrica: H8.1 · Emisiones: H9.3"
+   ]
+  },
+  "h7_retraccion": {
+   "numero": "H7.3",
+   "ficha": [
+    "**Lucía Aguilar**, 29 años · mujer",
+    "Tiene 29 años y es profesora de básica. Hace tres semanas tuvo un resfrío fuerte: el resfrío pasó, pero el oído derecho le quedó tapado, \"como con agua\", y siente que su propia voz le retumba. A ratos, al bostezar, se le destapa un segundo y se vuelve a tapar. Tiene rinitis alérgica desde chica. No le duele, no le ha salido nada del oído y no tiene zumbido.",
+    "**Medicamentos:** Loratadina 10 mg cuando tiene alergia; mometasona nasal desde hace 6 días",
+    "Historia clínica",
+    "Hace 20 días: SAPU: cuadro respiratorio alto; se indica reposo y paracetamol.",
+    "Hace 6 días: Médico general: tímpano derecho retraído, sin líquido evidente. Indica corticoide nasal y deriva a evaluación auditiva.",
+    "sin foto",
+    "**Otoscopía OD:** Membrana retraída, sin líquido visible.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h7_disyuncion": {
+   "numero": "H7.4",
+   "ficha": [
+    "**Mario Romero**, 33 años · hombre",
+    "Tiene 33 años y es repartidor en moto. Hace cuatro meses chocó y se golpeó el lado derecho de la cabeza; estuvo inconsciente unos minutos y lo dejaron un día en observación. Desde el accidente oye menos por el oído derecho, \"como con algodón\", y no ha mejorado. No tiene zumbido ni mareos. Le preocupa porque en el trabajo usa el manos libres en ese oído.",
+    "**Antecedentes:** TEC.",
+    "Historia clínica",
+    "Hace 4 meses: Urgencia: TEC leve por accidente de tránsito en moto; TAC de cerebro sin lesiones agudas. Alta a las 24 horas.",
+    "Hace 20 días: Otorrinolaringólogo: tímpano derecho íntegro, sin hemotímpano. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Conducto sano; membrana íntegra y translúcida, sin sangre detrás.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "h7_lactante": {
+   "numero": "H7.5",
+   "ficha": [
+    "**Sara Delgado**, 2 meses · mujer",
+    "Sara tiene dos meses y viene con su mamá, Esther. Nació de término, por parto normal y sin complicaciones, y se fue de alta a los dos días. En el tamizaje auditivo de la maternidad el oído derecho \"no pasó\" y el izquierdo sí; en el control de las tres semanas volvió a no pasar el derecho. Hace una semana estuvo resfriada, con mocos. La mamá cuenta que se asusta con los portazos y se calma cuando le habla.",
+    "Historia clínica",
+    "Hace 58 días: Tamizaje auditivo neonatal: refiere OD, pasa OI.",
+    "Hace 38 días: Rescreening: refiere OD, pasa OI. Se deriva a evaluación audiológica."
+   ]
+  }
+ }
+}

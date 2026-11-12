@@ -1,0 +1,175 @@
+{
+ "capitulo": "31",
+ "md": "texto/capitulos/31-compensar-una-neuritis.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F31-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap31-balanceo-simulador.svg ancho=100% Balanceo lateral de pie, ojos cerrados sobre espuma, a 1 día, 1 semana, 1 mes y 3 meses de una pérdida unilateral en un paciente. Al día cae enseguida, a la semana aguanta unos segundos y desde el mes se sostiene: es la parte dinámica, la que se compensa con el tiempo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n- @17.6,70 | **A un día de la lesión** el paciente no se sostiene ni un segundo: sin vista y con los pies sobre una superficie que miente, solo le queda el vestíbulo.\n- @40.8,70 | **A la semana** aguanta unos segundos y cae: la parte del reposo ya está compensada, la del movimiento no.\n- @87,76 | **A los tres meses** se sostiene, con un balanceo parecido al del mes: es la parte dinámica que se fue ajustando.\n:::",
+   "id": null,
+   "globos": [
+    "@17.6,70",
+    "@40.8,70",
+    "@87,76"
+   ]
+  },
+  "F31-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_buena_nistagmo.svg ancho=55% Nistagmo de Martín en la hoja del campo clínico. Con fijación no se ve. Sin fijación bate a la izquierda en todas las miradas menos a la derecha, donde se apaga.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_buena_mariposa.svg Gráfico de mariposa de Martín: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OD (rojas) apenas se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_buena_vhit.svg vHIT de Martín: ganancia de 0,45 hacia la derecha, con sacadas overt y de 0,98 hacia la izquierda.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_buena_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_buena_audiosupra.svg ancho=100% Audiometría de Martín: audición normal y simétrica, y discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap31-seguimiento-martin.svg ancho=100% Hoja de seguimiento de Martín: el impulso hacia la derecha y la batería en tres visitas. A la semana 2 la sacada es manifiesta (llega después de que la cabeza se detuvo); a la semana 6 es encubierta (cae dentro del giro) y el paciente no la nota. El DHI baja de 58 a 12 en tres meses con una ganancia que no llega a 1 (0,74): se está bien con un reflejo que no se normalizó.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_lenta_nistagmo.svg ancho=55% Nistagmo espontáneo de Lucía en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_lenta_mariposa.svg Gráfico de mariposa de Lucía: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las del OI (azules) apenas se separan de la línea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_lenta_vhit.svg vHIT de Lucía: ganancia de 1,00 hacia la derecha y de 0,30 hacia la izquierda, con sacadas overt.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_lenta_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_lenta_audiosupra.svg ancho=100% Audiometría de Lucía: simétrica y propia de la edad, con discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-13": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap31-seguimiento-lucia.svg ancho=100% Hoja de seguimiento de Lucía: el impulso hacia la izquierda y la batería en tres visitas. Parte de una ganancia de 0,30, la más baja de los tres casos, con una sacada manifiesta grande que cae mucho después del giro; el DHI parte en 74, en el tramo grave. A la semana 17 la ganancia sube a 0,55 y la sacada ya es encubierta: más lento que Martín, en el mismo sentido.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_meseta_nistagmo.svg ancho=55% Nistagmo espontáneo de Ignacio en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_meseta_mariposa.svg Gráfico de mariposa de Ignacio: las cuatro irrigaciones en el tiempo (arriba, bate a la derecha; abajo, a la izquierda). Las curvas de los dos oídos son parecidas, algo menores las del OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_meseta_vhit.svg vHIT de Ignacio: ganancia de 0,90 hacia la derecha y de 1,00 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_meseta_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap31_meseta_audiosupra.svg ancho=100% Audiometría de Ignacio: audición normal y simétrica, y discriminación de 100 % en los dos oídos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-19": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap31-seguimiento-ignacio.svg ancho=100% Hoja de seguimiento de Ignacio: el impulso hacia la derecha y la batería en tres visitas. El reflejo ya está casi normal (0,90, sin sacadas) y el DHI no baja: función y síntomas dejaron de ir juntos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F31-20": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap31-trayectorias.svg ancho=100% Los tres casos en una sola vista: el DHI (A) y la ganancia del vHIT (B), semana a semana. Compara las curvas: los dos que mejoran bajan el DHI aunque la ganancia no llegue a 1; Ignacio tiene la mejor ganancia y el único DHI que no baja.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap31_buena": {
+   "numero": "31.1",
+   "ficha": [
+    "**Martín Ruiz**, 41 años · hombre",
+    "Tiene 41 años y es conductor de un camión de reparto de bebidas. Hace dos semanas despertó con la pieza girando, vomitó cuatro veces y no pudo ponerse de pie sin agarrarse. En urgencia le dijeron que era un cuadro del nervio del equilibrio del lado derecho. El giro se fue en cuatro días; hoy, en reposo, no gira nada. Pero al mover la cabeza rápido \"las cosas se corren\", camina como \"pisando algodón\", se marea al agacharse y no se atreve a subir la escalerilla del camión. Lo primero que quiere saber es cuándo puede volver a manejar. Hizo reposo los primeros tres días y desde el quinto camina por la casa y por la cuadra. No ha tenido pitido ni cambio de la audición, ni dolor de cabeza, ni visión doble.",
+    "**Medicamentos:** Ninguno (el antiemético lo terminó a los tres días)",
+    "Historia clínica",
+    "Hace 14 días: Servicio de urgencia: vértigo con vómitos, nistagmo hacia la izquierda; diagnóstico de neuritis vestibular derecha. Antiemético por tres días.",
+    "Hace 4 días: Otorrinolaringólogo: confirma la hipofunción vestibular derecha con el examen y lo deriva a rehabilitación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap31_lenta": {
+   "numero": "31.2",
+   "ficha": [
+    "**Lucía López**, 63 años · mujer",
+    "Tiene 63 años y es costurera jubilada. Hace cinco semanas despertó con la pieza girando y vomitando; en urgencia le dijeron que era un problema del nervio del equilibrio del lado izquierdo, le dieron unas pastillas para el mareo y le recomendaron reposo. Las sigue tomando tres veces al día \"porque si no, me marea\", y casi no sale del sillón: su hijo hace las compras, y para ir al baño usa un bastón que era de su marido. Cuando tiene que mirar hacia un lado, gira todo el cuerpo. Hace unos diez días se cayó de noche al levantarse al baño, sin lesión, y desde entonces tiene más miedo. Dice que ya no gira nada, pero que \"no se siente firme\" y que ver la televisión con la cabeza movida la marea. Oye igual que siempre, sin pitido ni dolor.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Dimenhidrinato 50 mg cada 8 horas (desde hace cinco semanas); losartán 50 mg al día",
+    "Historia clínica",
+    "Hace 35 días: Servicio de urgencia: vértigo con vómitos; diagnóstico de neuritis vestibular izquierda. Se indican dimenhidrinato cada 8 horas y reposo.",
+    "Hace 10 días: Caída nocturna sin lesión.",
+    "Hace 5 días: Médico de familia: persiste inestabilidad; solicita examen vestibular y deriva a rehabilitación vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap31_meseta": {
+   "numero": "31.3",
+   "ficha": [
+    "**Ignacio Romero**, 33 años · hombre",
+    "Tiene 33 años y es diseñador de software; trabaja frente a dos pantallas. Hace diez semanas tuvo un vértigo muy intenso con vómitos, que le diagnosticaron como neuritis vestibular derecha. Empezó los ejercicios a las dos semanas y al principio mejoró bastante. Pero desde hace unas cuatro semanas siente que no avanza: un mareo suave y constante, \"como flotando\", que no gira. Es peor frente a las pantallas, en el supermercado, en el metro lleno y en una calle con mucho tráfico, y mejora acostado o cuando se concentra en algo. Dejó de tomar el metro, trabaja desde la casa y cada vez que se marea piensa que va a volver el vértigo. Hace los ejercicios \"cuando me siento bien\", porque los días malos lo marean más. Duerme mal. Oye igual que siempre, sin pitido.",
+    "**Medicamentos:** Ninguno",
+    "Historia clínica",
+    "Hace 2 meses: Servicio de urgencia: vértigo intenso con vómitos y nistagmo; diagnóstico de neuritis vestibular derecha. Antiemético por tres días.",
+    "Hace 56 días: Inicia rehabilitación vestibular con ejercicios en la casa.",
+    "Hace 10 días: Otorrinolaringólogo: sin vértigo; refiere mareo persistente; solicita control del examen vestibular.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "capitulo": "36",
+ "md": "texto/capitulos/36-rinitis-y-vasoconstrictor.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F36-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-ciclo.svg ancho=92% Ciclo nasal: resistencia a 150 Pa de cada fosa y total, cada 5 minutos durante 300. A: nariz normal. B: nariz con los cornetes congestionados (parte de una mucosa mucho más hinchada y oscila la mitad que A); el eje es logarítmico. Compara A con B: con un vaivén menor, en B cada fosa se cierra por turnos mientras el total casi no se mueve, y una sola medición puede caer en cualquier punto de la curva. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @50,22 | **A: nariz normal.** Cada fosa se mueve entre 0,29 y 0,35: apenas cruza la raya del valor de trabajo (0,4). El total, en gris, queda en 0,16.\n- @26,50 | **B: fosa derecha.** En su fase congestionada el modelo la lleva de 0,6 a unos 30 Pa/(cm³/s): una sola medición caería en cualquier parte de esa curva.\n- @47,50 | **B: fosa izquierda.** Hace lo mismo desfasada: cuando una se cierra, la otra queda abierta. En la realidad el ciclo es regular solo en una parte de las personas (11 de 52 voluntarios en Flanagan y Eccles, 1997; → H26).\n- @30,84 | **El total (gris)** sube y baja entre 0,28 y 0,42: casi no se entera, como en las personas sanas, en las que la resistencia total suele mantenerse bastante constante mientras los lados alternan (Hasegawa y Kern, 1977). Por eso el paciente con rinitis siente que \"se tapa un lado y después el otro\" y el total, a veces, sale aceptable.\n:::",
+   "id": null,
+   "globos": [
+    "@50,22",
+    "@26,50",
+    "@47,50",
+    "@30,84"
+   ]
+  },
+  "F36-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rinitis-endoscopia.jpg ancho=38% Endoscopías nasales de dos pacientes con rinitis alérgica, en la columna izquierda antes de empezar un tratamiento con inmunoterapia sublingual y a los 1,5 y 3 años en las otras dos. De arriba abajo: fosa izquierda, fosa derecha y rinofaringe de cada paciente. Recorre cada fila de izquierda a derecha: así luce la mucosa que las curvas miden, antes y durante el tratamiento. Imagen: Liu B y cols. (2026), Front Immunol, doi:10.3389/fimmu.2026.1828695, CC BY.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F36-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-polipos-ra.svg ancho=62% Rinometría acústica de la fosa derecha de una nariz con pólipos. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor. El segundo mínimo cae más atrás que el cornete y casi no se abre con el vasoconstrictor: el pólipo no es mucosa que se retraiga. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @58,70 | **El segundo mínimo no es el cornete**: MCA2 0,42 cm² a 4,9 cm de la narina, y no a unos 3,2 cm como en las otras figuras de este capítulo. Ya está en la zona poco fiable (más allá de ~5 cm).\n- @30,28 | Con vasoconstrictor (rayas) sube solo a 0,68 cm²: lo que se abre es la mucosa de alrededor, no el pólipo.\n:::",
+   "id": null,
+   "globos": [
+    "@58,70",
+    "@30,28"
+   ]
+  },
+  "F36-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-tc-polipos.jpg ancho=80% id=tc-polipos Tomografías coronales de senos paranasales de dos personas con rinosinusitis crónica con pólipos y asma; el aire se ve negro. Izquierda: compromiso leve (puntaje de Lund-Mackay de 0 a 10 sobre 24). Derecha: opacificación total de todos los senos y de los complejos osteomeatales, 24 sobre 24: donde debería haber aire hay tejido. Imagen: Al-Ahmad M y cols. (2024), J Asthma Allergy, doi:10.2147/JAA.S478040, CC BY-NC 3.0, adaptada.\n- @14,58 | **Seno maxilar con aire** y, al medio, los cornetes rodeados de aire.\n- @58,74 | **Seno maxilar lleno**: tiene la misma densidad que los tejidos blandos.\n- @71,66 | **Fosa nasal ocupada**: casi no queda aire entre los cornetes.\n:::",
+   "id": "tc-polipos",
+   "globos": [
+    "@14,58",
+    "@58,74",
+    "@71,66"
+   ]
+  },
+  "F36-05": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-alergica-rm.svg ancho=78% Rinomanometría de Sofía. Línea continua: reposo; discontinua: con vasoconstrictor. La fosa derecha (rojo) pasa por los cuadrantes I y III; la izquierda (azul), por II y IV. En reposo las dos fosas están sobre el valor de trabajo; con vasoconstrictor bajan juntas hasta la referencia: la obstrucción era mucosa. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @78,36 | **FND en reposo**: a 150 Pa pasan unos 220 cm³/s, lo que da **0,68 Pa/(cm³/s)**, sobre el valor de trabajo (0,4).\n- @22,32 | **FNI en reposo**: unos 300 cm³/s, **0,50**: también sobre el valor, pero menos. La diferencia con la derecha es de la **fase del ciclo**: la rinoscopía de las dos fosas es igual.\n- @74,9 | **Con vasoconstrictor** (rayas) las dos fosas quedan casi iguales: unos 515 cm³/s, **0,29** en las dos. Bajan hasta la referencia: vasomotora. Bajaron 57 % (FND) y 42 % (FNI).\n- @26,72 | **Espirando** da lo mismo que inspirando (0,67 y 0,48 en reposo): la obstrucción no depende de la fase, como en una mucosa o un tabique.\n:::",
+   "id": null,
+   "globos": [
+    "@78,36",
+    "@22,32",
+    "@74,9",
+    "@26,72"
+   ]
+  },
+  "F36-06": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-alergica-ra.svg ancho=78% Rinometría acústica de Sofía. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor. Con vasoconstrictor las dos curvas se superponen y el segundo mínimo, el del cornete, casi desaparece: no queda nada estructural. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @53,66 | **MCA2** (el cornete inferior): 0,31 cm² en la derecha y 0,44 en la izquierda; con la mucosa congestionada el cornete casi tapa el paso.\n- @11,58 | **MCA1** (la válvula): 0,44 y 0,46 cm²; con vasoconstrictor sube a 0,67 en las dos. En la nariz normal es 0,61.\n- @38,28 | Con vasoconstrictor (rayas) las dos curvas se **superponen** y el segundo mínimo casi desaparece: 1,92 y 1,91 cm². No queda nada estructural.\n:::",
+   "id": null,
+   "globos": [
+    "@53,66",
+    "@11,58",
+    "@38,28"
+   ]
+  },
+  "F36-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-medic-rm.svg ancho=78% Rinomanometría de Álvaro. Línea continua: reposo; discontinua: con vasoconstrictor. Las curvas de reposo casi no se despegan de la horizontal: las dos fosas están muy cerradas. Con vasoconstrictor se abren del todo. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @82,32 | **FND en reposo**: a 150 Pa pasan solo unos 58 cm³/s: **2,57 Pa/(cm³/s)**, seis veces el valor de trabajo (0,4).\n- @20,28 | **FNI en reposo**: unos 100 cm³/s, **1,47**. Las dos fosas están muy cerradas y la total sale **0,93**: aquí el total sí delata el problema.\n- @74,8 | **Con vasoconstrictor** (rayas) las dos fosas pasan a unos 530 cm³/s: **0,28**. Bajaron 89 % y 81 %.\n- @30,70 | **El modelo abre la nariz de Álvaro como abriría la de cualquiera**: no tiene taquifilaxia ni la menor duración del efecto. En una persona con meses de uso la respuesta puede ser menor.\n:::",
+   "id": null,
+   "globos": [
+    "@82,32",
+    "@20,28",
+    "@74,8",
+    "@30,70"
+   ]
+  },
+  "F36-08": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-medic-ra.svg ancho=78% Rinometría acústica de Álvaro. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor. En reposo los cornetes casi cierran el paso; con vasoconstrictor las dos fosas se superponen: se abrió todo lo mucoso. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @27,76 | **MCA2**: 0,13 cm² (derecha) y 0,17 (izquierda), la quinta parte de lo que dan Sofía y la nariz normal (1,52): los cornetes casi cierran el paso.\n- @9,60 | **MCA1**: 0,44 y 0,47 cm² en reposo; con vasoconstrictor sube a 0,69 y 0,71.\n- @40,20 | Con vasoconstrictor (rayas) las dos fosas se **superponen** y MCA2 pasa a 1,88 y 1,86: se abrió todo lo mucoso. Es la misma curva que la de la nariz de Sofía.\n- @75,62 | En reposo ni siquiera pasados los 5 cm la fosa se abre del todo: a 10 cm la curva sigue muy por debajo de la de rayas. El equipo avisó que, en la fosa derecha con vasoconstrictor, los registros **no se parecían** (MCA2 ±0,03 cm²): en un caso real se repetirían.\n:::",
+   "id": null,
+   "globos": [
+    "@27,76",
+    "@9,60",
+    "@40,20",
+    "@75,62"
+   ]
+  },
+  "F36-09": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-mixta-rm.svg ancho=78% Rinomanometría de Marcos. Línea continua: reposo; discontinua: con vasoconstrictor. Se muestran las dos fosas con vasoconstrictor; según la regla del libro (→ H26) solo se aplicaría en la derecha, que es la única sobre 0,4. La derecha baja a la mitad pero no llega al valor de trabajo: una respuesta mixta. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @79,40 | **FND en reposo**: a 150 Pa pasan unos 160 cm³/s: **0,95**, más del doble del valor de trabajo.\n- @25,36 | **FNI en reposo**: unos 420 cm³/s, **0,36**: dentro del valor, así que no lleva vasoconstrictor.\n- @82,22 | **FND con vasoconstrictor** (rayas): sube el flujo a unos 330 cm³/s, **0,46**. Bajó 52 %, pero **no llegó al valor de trabajo**: es la respuesta mixta.\n- @22,59 | **Espirando**, la FND da 0,89 y baja a 0,44 con vasoconstrictor: lo mismo que inspirando. No hay diferencia entre fases, así que no es un colapso de la válvula (→ cap. 35).\n:::",
+   "id": null,
+   "globos": [
+    "@79,40",
+    "@25,36",
+    "@82,22",
+    "@22,59"
+   ]
+  },
+  "F36-10": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap36-rs-mixta-ra.svg ancho=78% Rinometría acústica de Marcos. El eje del área es logarítmico. Línea continua: reposo; discontinua: con vasoconstrictor (se muestra en las dos fosas; la regla del libro la haría solo en la derecha). En la fosa derecha el cornete se abre y la válvula no: lo que queda es estructura. Imagen propia hecha con RinoSim (→ Simuladores, en las preliminares).\n- @9,66 | **FND, MCA1 0,23 cm²** a 1,3 cm de la narina: el estrechamiento más grande de las dos fosas, en la zona de la válvula.\n- @45,66 | **FND, MCA2 0,49 cm²** a 3,2 cm: el cornete derecho, congestionado.\n- @45,22 | Con vasoconstrictor (rayas) la FND hace dos cosas distintas: **MCA2 se abre a 1,93** (era mucosa) y **MCA1 solo sube a 0,41**: queda el estrechamiento de la válvula, que es estructura (→ cap. 35).\n- @60,56 | **El equipo avisó** que el primer mínimo de la FND en reposo está muy cerrado y que lo de atrás no se puede evaluar (→ H27): el MCA2 de 0,49 en reposo hay que tomarlo con cuidado; el de 1,93 con vasoconstrictor sí es más fiable.\n:::",
+   "id": null,
+   "globos": [
+    "@9,66",
+    "@45,66",
+    "@45,22",
+    "@60,56"
+   ]
+  }
+ },
+ "casos": {
+  "cap36_alergica": {
+   "numero": "36.1",
+   "ficha": [
+    "**Sofía Arias**, 22 años · mujer",
+    "Tiene 22 años y estudia kinesiología. Desde la adolescencia se le tapa la nariz casi todos los años entre septiembre y diciembre: estornuda en tandas de cinco o seis seguidas, le pica la nariz y los ojos y le gotea agua clara. También le pasa, sin ser primavera, cuando ordena el clóset o cuando duerme con su perra en la cama. De noche \"se tapa un lado y después el otro\", y a veces despierta con la boca seca. En invierno mejora a medias, pero nunca queda del todo bien. Nunca ha tenido silbidos en el pecho. Cuando está mal toma un antihistamínico; hace tres días que lo dejó, como le pidieron al darle la hora. No ha usado gotas ni sprays para la nariz. Hace unos dos años un alergólogo le hizo pruebas en la piel del antebrazo y le dijo que reaccionaba a los ácaros y al pasto.",
+    "**Medicamentos:** Antihistamínico oral cuando hay síntomas (lo dejó hace tres días, como se le pidió)",
+    "Historia clínica",
+    "Hace 8 años: Control por estornudos y picazón en primavera; se indica un antihistamínico oral cuando hay síntomas.",
+    "Hace 2 años: Pruebas cutáneas en el antebrazo con alérgenos inhalantes: reacciona a ácaros y a pasto (según relata; no trajo el informe).",
+    "Hace 45 días: Médico general: rinitis alérgica; se solicita evaluación funcional de la nariz."
+   ]
+  },
+  "cap36_medicamentosa": {
+   "numero": "36.2",
+   "ficha": [
+    "**Álvaro Campos**, 29 años · hombre",
+    "Tiene 29 años y trabaja en un call center. Hace unos ocho meses tuvo un resfrío fuerte y desde entonces la nariz no se le ha destapado. Compró un spray descongestionante en la farmacia y le funcionó tan bien que lo sigue usando: hoy se le acaba un frasco por semana, con un par de disparos en cada fosa cada cuatro a seis horas, incluso de madrugada. \"Al principio me duraba toda la noche; ahora me dura dos horas.\" Sin el spray se queda sin aire por los dos lados y duerme con la boca abierta. No tiene estornudos ni picazón, no cambia con las estaciones ni con los animales y nadie en su familia es alérgico. Para este examen aguantó dos días sin el spray: durmió sentado, con la boca seca, y llegó \"desesperado\". Pregunta si después del examen le van a dejar usarlo otra vez.",
+    "**Medicamentos:** Oximetazolina en spray nasal, varias veces al día (la última vez hace dos días, por el examen)",
+    "Historia clínica",
+    "Hace 8 meses: Cuadro respiratorio alto con fiebre; empieza a usar un descongestionante nasal en spray comprado sin receta.",
+    "Hace 2 meses: Médico general: nariz tapada persistente; se le pide no usar el spray 48 horas antes del examen y se solicita evaluación funcional de la nariz."
+   ]
+  },
+  "cap36_mixta": {
+   "numero": "36.3",
+   "ficha": [
+    "**Marcos Ruiz**, 37 años · hombre",
+    "Tiene 37 años y es técnico eléctrico. A los 12 años se cayó de la bicicleta y se golpeó la nariz; no lo atendieron. Desde hace años siente la fosa derecha más tapada que la izquierda: la derecha casi nunca \"pasa\"; la izquierda se tapa y se destapa, sobre todo en primavera y cuando se resfría, y en esa época estornuda un poco y le pica la nariz, aunque no tanto como para tomar remedios. Ronca. Probó un corticoide nasal por seis semanas: \"me abrió el lado izquierdo, el derecho siguió igual\". Usa un descongestionante en spray solo cuando duerme muy mal, unas pocas veces al mes; la última vez fue hace una semana.",
+    "**Medicamentos:** Oximetazolina en spray de forma ocasional (la última vez hace una semana); corticoide nasal por seis semanas, ya terminado",
+    "Historia clínica",
+    "Hace 25 años: Caída en bicicleta con golpe en la nariz; no consultó.",
+    "Hace 4 meses: Médico general: rinitis; corticoide nasal por seis semanas con mejoría solo del lado izquierdo; se solicita evaluación funcional de la nariz."
+   ]
+  }
+ }
+}

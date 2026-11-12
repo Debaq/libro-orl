@@ -1,0 +1,180 @@
+{
+ "capitulo": "22",
+ "md": "texto/capitulos/22-gira-al-acostarse.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F22-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap22-decision.svg Del hallazgo a la maniobra, o a la derivación. Recorre las preguntas en orden: cualquier dato que no encaje te saca del camino de la maniobra y te lleva a derivar. Las maniobras se enseñan en H19.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_posterior_nistagmo.svg ancho=55% Nistagmo espontáneo de Luisa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_posterior_vng.svg ancho=100% VNG del Dix-Hallpike de Luisa, un punto por batida. A la derecha, el nistagmo vertical que bate hacia arriba empieza a los 4 s de llegar a la posición (**latencia**), sube a **24 °/s** y se apaga solo antes de los 30 s (**crescendo-decrescendo**). Al sentarse se invierte, hacia abajo y más débil. A la izquierda no hay nistagmo. La torsión hacia el OD se ve en el video: una VNG de dos canales no la registra.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_posterior_vhit.svg vHIT de Luisa: ganancia de 0,97 hacia la derecha y de 0,98 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_posterior_audiosupra.svg ancho=100% Audiometría de Luisa: pérdida descendente y simétrica en agudos, de 35 dB en 2 kHz a 70 dB en 6 kHz, con la ósea pegada a la aérea. Una audición simétrica no tiene que ver con el vértigo de hoy.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_geotropico_nistagmo.svg ancho=55% Nistagmo espontáneo de Rafael en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_geotropico_vng.svg ancho=100% VNG del giro supino de Rafael. A los dos lados el nistagmo es horizontal y bate hacia el suelo: hacia la derecha con **8 °/s** y hacia la izquierda con **18 °/s**, con latencia de 3 a 4 s, y se apaga antes del minuto. El lado afectado es el que da el más fuerte, el izquierdo.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_geotropico_vhit.svg vHIT de Rafael: ganancia de 0,98 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_geotropico_audiosupra.svg ancho=100% Audiometría de Rafael: audición normal en los dos oídos, y discriminación de 100 %. En un VPPB lateral la audiometría no aporta nada al diagnóstico.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_apogeotropico_nistagmo.svg ancho=55% Nistagmo espontáneo de Rosa en la hoja del campo clínico: (−) en todas las miradas, con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-11": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap22-apogeotropico-sim.png Giro supino de una paciente con cupulolitiasis del canal lateral derecho, vista desde arriba. En cada postura, a la derecha, ese canal en su plano, con las partículas pegadas a la cúpula y la flecha de hacia dónde queda abajo. Mira hacia dónde se dobla la cúpula cargada en cada postura: eso explica que el nistagmo bata siempre hacia el techo. Las partículas (amarillas) están pegadas a la cúpula: no caen, la pesan. Al girar la cabeza al otro lado, abajo queda del lado contrario, la cúpula cargada se dobla al revés y el nistagmo cambia de sentido, siempre hacia el techo. Imagen propia hecha con labyrinthus3d (→ Simuladores, en las preliminares).\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_apogeotropico_vng.svg ancho=100% VNG del giro supino de Rosa. A los dos lados el nistagmo es horizontal y bate hacia el techo, sin latencia, y sigue los 60 s del registro: hacia la izquierda con **5 °/s** (cabeza a la derecha) y hacia la derecha con **12 °/s** (cabeza a la izquierda). En el apogeotrópico el lado del más fuerte es el sano; el afectado es el derecho.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_apogeotropico_vhit.svg vHIT de Rosa: ganancia de 0,95 hacia la derecha y de 0,96 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_apogeotropico_audiosupra.svg ancho=100% Audiometría de Rosa: presbiacusia descendente y simétrica, como en el caso 22.1. No explica el vértigo ni cambia la maniobra.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-15": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_nistagmo.svg ancho=55% Nistagmo del paciente en la hoja del campo clínico. Las flechas laterales apuntan hacia donde se mira, y son iguales con y sin fijación.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-16": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_vng.svg ancho=100% VNG de Felipe con la cabeza colgando. Nistagmo vertical que bate hacia abajo, de **7 °/s**, sin latencia y sin torsión, que sigue los 60 s del registro. Al sentarse no se invierte, y al repetir la maniobra sale igual: no se cansa. Nada de eso lo da un canal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-17": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_mariposa.svg Gráfico de mariposa del paciente: las cuatro curvas son simétricas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-18": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_vhit.svg vHIT de Felipe: ganancia de 0,99 hacia la derecha y de 0,97 hacia la izquierda, sin sacadas.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-19": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_vemp.svg ancho=100% VEMP a 100 dB nHL, tone burst de 500 Hz por vía aérea.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F22-20": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap22_central_audiosupra.svg ancho=100% Audiometría de Felipe: audición normal para su edad, con discriminación de 100 %. Un audiograma normal no tranquiliza: el cerebelo y el tronco no se miden con tonos.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap22_posterior": {
+   "numero": "22.1",
+   "ficha": [
+    "**Luisa Vega**, 58 años · mujer",
+    "Tiene 58 años y es profesora de básica. Hace seis días, al acostarse en la noche y girar hacia el lado derecho, sintió que la pieza le daba vueltas por unos 20 segundos, con náuseas, y le pasó otra vez al levantarse a media noche y al mirar hacia arriba para sacar un pañuelo de un estante. Cuando está sentada o caminando se siente bien. Hace años oye menos en los lugares con ruido y tiene un siseo parejo en los dos oídos que no ha cambiado; no ha tenido dolor de cabeza intenso, visión doble ni dificultad para hablar. No se golpeó la cabeza. Dejó de agacharse a recoger cosas del suelo \"por si acaso\".",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Enalapril 10 mg al día",
+    "Historia clínica",
+    "Hace 6 días: Primer episodio de giro al acostarse sobre el lado derecho.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap22_geotropico": {
+   "numero": "22.2",
+   "ficha": [
+    "**Rafael Torres**, 44 años · hombre",
+    "Tiene 44 años y trabaja como técnico de refrigeración. Hace diez días lo trataron en un centro por un vértigo posicional \"de oído izquierdo\" con una maniobra de acostarlo y girarlo; esa noche mejoró. Hace tres días volvió a molestarle: ya no le pasa al mirar hacia arriba, sino al darse vuelta en la cama, y sobre todo cuando se da vuelta hacia el lado izquierdo, que le da un giro intenso de casi un minuto con náuseas, aunque ahora no vomitó. Sentado está bien. No oye menos ni tiene pitido.",
+    "Historia clínica",
+    "Hace 10 días: Vértigo posicional del oído izquierdo; tratado con una maniobra de reposición, mejoría esa noche.",
+    "Hace 3 días: Reaparece el vértigo al darse vuelta en la cama, sobre todo hacia la izquierda.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap22_apogeotropico": {
+   "numero": "22.3",
+   "ficha": [
+    "**Rosa Rodríguez**, 67 años · mujer",
+    "Tiene 67 años y es dueña de casa. Hace dos semanas, al darse vuelta en la cama, empezó a sentir que todo gira y le dura todo el tiempo que se queda de lado: si se queda mirando hacia la derecha o la izquierda la sensación sigue por uno o dos minutos y solo cede cuando se pone boca arriba. Dice que \"es peor para el lado izquierdo\". Oye menos desde hace años y tiene un pitido parejo en los dos oídos que no ha cambiado con el mareo. Se levanta con cuidado y ya no duerme de costado.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día",
+    "Historia clínica",
+    "Hace 14 días: Primer episodio al darse vuelta en la cama.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap22_central": {
+   "numero": "22.4",
+   "ficha": [
+    "**Felipe Molina**, 54 años · hombre",
+    "Tiene 54 años y es transportista. Hace tres meses siente un mareo que empieza apenas se acuesta y dura mientras está acostado, como si la cama \"se hundiera\"; no se le pasa en 20 segundos como a su cuñado, que tiene \"vértigo de oído\". Camina abriendo las piernas para no irse de lado, ha notado que la letra le sale temblorosa y esta semana le dolió la parte de atrás de la cabeza. Es hipertenso y diabético, con control irregular. No oye menos ni tiene pitido.",
+    "**Antecedentes:** diabetes, HTA.",
+    "**Medicamentos:** Enalapril 20 mg, metformina 850 mg, betahistina",
+    "Historia clínica",
+    "Hace 3 meses: Mareo al acostarse; consultó por urgencia, se le indicó betahistina sin mejoría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

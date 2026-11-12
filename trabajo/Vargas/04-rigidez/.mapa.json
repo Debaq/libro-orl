@@ -1,0 +1,108 @@
+{
+ "capitulo": "4",
+ "md": "texto/capitulos/04-rigidez.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F4-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/04-formas-reflejo.svg ancho=92% Las cuatro formas de la curva del reflejo, con el tono encendido durante 1 s (franja). Normal: la admitancia baja al empezar el tono, se queda abajo y vuelve al terminar. ON-OFF: baja solo al encender y al apagar. OFF: no se mueve mientras suena y baja recién al apagarlo. Invertido: sube en vez de bajar. La línea punteada roja marca los 0,02 mL que debe pasar una deflexión para contar.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap04-tc-fissula.jpg ancho=80% id=tc-fissula Tomografía axial de ultra alta resolución (cortes de 0,1 mm), muy ampliada a la altura de la ventana oval. a, oído derecho con otoesclerosis fenestral: la *fissula ante fenestram* tiene hueso menos denso (flecha gruesa), y el ligamento anular, que une la platina del estribo a la ventana oval, está engrosado (flecha fina). b, oído izquierdo sano: fissula de hueso denso y ligamento fino (flechas). Imagen: Xu N y cols. (2023), Insights Imaging, doi:10.1186/s13244-023-01562-y, Fig. 2, CC BY 4.0.\n- @40,16 | **Cóclea**, oscura, a la izquierda del globo.\n- @40,62 | **Vestíbulo**, oscuro, a la izquierda del globo.\n:::",
+   "id": "tc-fissula",
+   "globos": [
+    "@40,16",
+    "@40,62"
+   ]
+  },
+  "F4-03": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap04-tc-paget.jpg ancho=62% id=tc-paget Tomografía axial de la base del cráneo en la enfermedad de Paget. Las flechas marcan los dos conductos auditivos internos, estrechados por el engrosamiento del hueso. Imagen: Battal B, Zamora C (2023), Tomography, doi:10.3390/tomography9040097, Fig. 31, CC BY 4.0, adaptada.\n- @5,72 | Hueso de la base y de la calota engrosado, con zonas claras y oscuras mezcladas: el aspecto \"en copos de algodón\".\n:::",
+   "id": "tc-paget",
+   "globos": [
+    "@5,72"
+   ]
+  },
+  "F4-04": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_p34_audiosupra.svg ancho=100% Audiometría de Carolina: conductiva del OD con muesca de Carhart en 2 kHz; OI normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_p34_impedancia.svg ancho=100% Impedanciometría de Carolina.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_fijacion_congenita_estribo_audiosupra.svg ancho=100% Audiometría de Pepe: conductiva moderada del OD y leve del OI, con la muesca de Carhart en el OD.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-07": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_fijacion_congenita_estribo_impedancia.svg ancho=100% Impedanciometría de Pepe.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_paget_audiosupra.svg ancho=100% Audiometría de Adrián: pérdida mixta bilateral y simétrica, con la ósea que cae de 20 o 30 dB en los graves a 60 dB en 4 kHz y un gap chico y constante.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F4-09": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap04_paget_impedancia.svg ancho=100% Impedanciometría de Adrián.\n:::",
+   "id": null,
+   "globos": []
+  }
+ },
+ "casos": {
+  "cap04_p34": {
+   "numero": "4.1",
+   "ficha": [
+    "**Carolina Muñoz**, 34 años · mujer",
+    "Tiene 34 años, es secretaria en una notaría y tiene dos hijos chicos. Empezó a notar que escucha menos por el oído derecho después del embarazo de su segundo hijo, hace unos tres años, y desde entonces ha ido de a poco a peor. Le llama la atención que en lugares con ruido, como la micro o una fiesta, entiende mejor que en la casa en silencio. Tiene un zumbido grave en el oído derecho, que aparece sobre todo en la noche. Su mamá \"quedó sorda de joven\" y la operaron de un oído, aunque no sabe bien de qué. Le preocupa que le pase lo mismo.",
+    "**Antecedentes:** hipoacusia familiar.",
+    "Historia clínica",
+    "Hace 3 años: Control de embarazo (segundo hijo) con ginecólogo; parto vaginal sin complicaciones.",
+    "Hace 2 años: Consulta con médico general por sensación de oído derecho tapado; se indica lavado de oídos, sin tapón de cerumen, sin mejoría.",
+    "Hace 2 meses: Consulta con otorrinolaringólogo: conducto auditivo y tímpano derecho de aspecto normal; se deriva a evaluación auditiva completa.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap04_fijacion_congenita_estribo": {
+   "numero": "4.2",
+   "ficha": [
+    "**Pepe Ruiz**, 9 años · hombre",
+    "Pepe tiene 9 años y está en cuarto básico. Viene con su papá, porque en el control de audición que hicieron en el colegio no pasó por ninguno de los dos oídos. La profesora jefe dice que se distrae cuando le hablan desde atrás y que siempre pide que le repitan. En la casa ven la tele fuerte desde que el papá se acuerda: dice que Pepe \"siempre ha sido así\", desde chiquito, y que no lo ha notado peor con los años. Empezó a hablar a la misma edad que su hermana, pero en el kínder fue a fonoaudiólogo porque le costaban algunos sonidos. Nunca ha tenido otitis ni le ha salido líquido de los oídos, y no se queja de zumbidos ni de mareos. Nació de término, sin complicaciones; los papás no recuerdan si le hicieron un examen de audición al nacer. En la familia nadie usa audífonos ni se ha operado de los oídos.",
+    "Historia clínica",
+    "Hace 2 meses: Control de audición escolar: no pasa en el oído derecho ni en el izquierdo. Se deriva a otorrinolaringología.",
+    "Hace 14 días: Otorrinolaringólogo: conductos limpios y tímpanos de aspecto normal en los dos lados. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap04_paget": {
+   "numero": "4.3",
+   "ficha": [
+    "**Adrián Navarro**, 71 años · hombre",
+    "Adrián tiene 71 años y es contador jubilado. Hace unos diez años empezó a oír menos de los dos oídos, de a poco, y ahora le cuesta seguir la conversación en la mesa cuando están todos los nietos; su señora dice que pone la tele demasiado fuerte. A ratos le zumban los dos oídos, con un ruido grave. Hace seis años consultó por dolor en la cadera derecha y dolores de cabeza, y el internista le encontró una enfermedad de Paget en la pelvis y en el cráneo; por esos años se dio cuenta de que los sombreros ya no le quedaban. Lo trataron con una infusión de ácido zoledrónico y el dolor mejoró. No ha tenido vértigo ni otitis, no ha trabajado en ruido y nunca ha usado audífonos. Viene porque su hija insistió.",
+    "**Antecedentes:** HTA.",
+    "**Medicamentos:** Losartán 50 mg al día. Ácido zoledrónico endovenoso, una dosis hace seis años.",
+    "Historia clínica",
+    "Hace 6 años: Medicina interna: dolor de cadera derecha y cefalea. Fosfatasa alcalina elevada; cintigrafía ósea con captación en pelvis y cráneo. Enfermedad de Paget ósea; se indica ácido zoledrónico endovenoso.",
+    "Hace 30 días: Otorrinolaringólogo: hipoacusia bilateral lentamente progresiva. Conductos y tímpanos normales. Solicita audiometría e impedanciometría.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

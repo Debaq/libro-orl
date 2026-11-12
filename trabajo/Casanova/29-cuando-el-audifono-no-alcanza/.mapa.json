@@ -1,0 +1,181 @@
+{
+ "capitulo": "29",
+ "md": "texto/capitulos/29-cuando-el-audifono-no-alcanza.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F29-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap29-tc-baha.jpg ancho=42% id=tc-baha Tomografía axial de cráneo con una prótesis ósea anclada percutánea en el lado derecho: por la pieza de titanio fija en el hueso detrás del oído entra el sonido, como vibración del cráneo, y se salta el oído externo y el medio. Imagen: Mock JA y cols. (2022), Cureus, doi:10.7759/cureus.27436, CC BY, adaptada.\n- @13,68 | **Implante** de titanio fijo en el hueso, detrás del oído derecho (la derecha del paciente queda a la izquierda de la imagen).\n- @31,79 | Las líneas que salen del metal son **artefacto** de la tomografía, no hueso.\n:::",
+   "id": "tc-baha",
+   "globos": [
+    "@13,68",
+    "@31,79"
+   ]
+  },
+  "F29-02": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap29-rx-implante-coclear.jpg ancho=52% id=rx-implante-coclear Radiografía transorbitaria anteroposterior con un implante coclear. Esta placa se toma en el pabellón, recién puesto el electrodo, para ver su posición y que esté entero; cada contacto queda frente a una zona de distinta frecuencia. Imagen: Molezini FD y cols. (2012), Braz J Otorhinolaryngol, doi:10.1590/S1808-86942012000100005, CC BY 4.0, adaptada.\n- @38,66 | **Electrodo** enrollado dentro de la cóclea, de la base hacia el ápice.\n- @18,22 | **Receptor-estimulador**, bajo la piel, con la antena y el imán arriba.\n:::",
+   "id": "rx-implante-coclear",
+   "globos": [
+    "@38,66",
+    "@18,22"
+   ]
+  },
+  "F29-03": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_autoinmune_audiosupra.svg ancho=100% Audiometría de la paciente: pérdida severa bilateral con discriminación que no pasa de 56 % y 60 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-04": {
+   "kind": "fig",
+   "src": ":::figura cap29_autoinmune teoae\n- @OD 2000 | Emisiones **ausentes** (0 de 5 bandas) en los dos oídos, como corresponde a una cóclea con las células ciliadas externas dañadas. No es el patrón de neuropatía (→ cap. 13), que tiene emisiones presentes.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000"
+   ]
+  },
+  "F29-05": {
+   "kind": "fig",
+   "src": ":::figura cap29_autoinmune dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: ausentes.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  },
+  "F29-06": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_autoinmune_impedancia.svg ancho=100% Impedanciometría de la paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-07": {
+   "kind": "fig",
+   "src": ":::figura cap29_autoinmune campo_libre\n- @S 2000 | Sin audífono, el mejor oído está en **80 dB** en 2 kHz.\n- @A 250 | Con el audífono baja a **25 dB** en los graves: llega sonido.\n- @A 4000 | En 4 kHz con audífono sigue en **75 dB**: los agudos del habla no se alcanzan aunque el audífono ya esté al límite.\n:::",
+   "id": null,
+   "globos": [
+    "@S 2000",
+    "@A 250",
+    "@A 4000"
+   ]
+  },
+  "F29-08": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_aun_no_audiosupra.svg ancho=100% Audiometría del paciente: pérdida moderada sensorioneural, con discriminación de 72 % y 76 %.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-09": {
+   "kind": "fig",
+   "src": ":::figura cap29_aun_no campo_libre\n- @S 1000 | Sin audífono, el mejor oído está en **45 dB** en 1 kHz.\n- @A 1000 | Con audífono está en **15 dB**: queda dentro de lo normal en las frecuencias del habla.\n- @A 4000 | En 4 kHz con audífono baja de 70 a **50 dB**: aún hay agudos sin cubrir, la zona donde el ajuste por comodidad suele quedar corto (→ H21).\n:::",
+   "id": null,
+   "globos": [
+    "@S 1000",
+    "@A 1000",
+    "@A 4000"
+   ]
+  },
+  "F29-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_p41_audiosupra.svg ancho=100% Audiometría del paciente: OI con brecha aéreo-ósea de 25 dB; OD normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_p41_impedancia.svg ancho=100% Impedanciometría del paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-12": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_p42_audiosupra.svg ancho=100% Audiometría del paciente: OD sin respuesta, OI normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-13": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap29_p42_impedancia.svg ancho=100% Impedanciometría del paciente.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F29-14": {
+   "kind": "fig",
+   "src": ":::figura cap29_p42 teoae\n- @OD 2000 | En el OD no hay emisiones: la cóclea no responde.\n- @OI 2000 | En el OI están **presentes**.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 2000",
+    "@OI 2000"
+   ]
+  },
+  "F29-15": {
+   "kind": "fig",
+   "src": ":::figura cap29_p42 dpoae\n- OD: ausentes, con L1/L2 de 65/55 dB SPL.\n- OI: presentes en los 7 frecuencias.\n:::",
+   "id": null,
+   "globos": [
+    null,
+    null
+   ]
+  }
+ },
+ "casos": {
+  "cap29_autoinmune": {
+   "numero": "29.1",
+   "ficha": [
+    "**Andrea Rivas**, 58 años · mujer",
+    "Tiene 58 años y era profesora de enseñanza básica; hoy está con licencia. Hace tres años notó que oía menos por los dos oídos, y en pocas semanas ya no entendía a los alumnos del fondo de la sala. El otorrinolaringólogo le indicó corticoides por vía oral y mejoró un poco, pero la pérdida siguió bajando durante el año siguiente. Usa audífonos retroauriculares potentes en los dos oídos desde hace catorce meses, controlados con medición en oído real, y los usa todo el día. Aun así no sigue una conversación sin mirar la cara de quien le habla, no puede usar el teléfono y en la mesa familiar \"se queda afuera\". Dejó de ir a las reuniones del colegio. No tiene acúfeno ni vértigo, y nunca tuvo secreción de oídos. Su hermana mayor también perdió la audición en la adultez. Pregunta si existe algo más que un audífono más fuerte.",
+    "**Medicamentos:** Levotiroxina 75 mcg al día",
+    "Historia clínica",
+    "Hace 3 años: Hipoacusia sensorioneural bilateral de progresión rápida; se solicita estudio y se indican corticoides orales en pauta decreciente.",
+    "Hace 3 años: Control: mejoría parcial de umbrales; se mantiene observación.",
+    "Hace 1 año: Adaptación de audífonos retroauriculares bilaterales, con verificación en oído real.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap29_aun_no": {
+   "numero": "29.2",
+   "ficha": [
+    "**Raúl Castro**, 74 años · hombre",
+    "Tiene 74 años y es jubilado de la minería. Hace unos diez años le dijeron que oía menos y hace tres meses se compró un par de audífonos en una óptica. Dice que \"no le sirven\": en casa, con su señora, se las arregla, pero en el restaurante con los hijos no sigue la conversación y el volumen del televisor no se arregla con el audífono. Le dijeron que \"ya no hay nada más fuerte\". No tiene acúfeno ni vértigo y no ha tenido secreción de oídos. Quiere saber si tiene que operarse de algo. Las gafas y la dentadura le quedan bien; se pone y se saca el audífono sin problema.",
+    "**Medicamentos:** Atorvastatina 20 mg al día",
+    "Historia clínica",
+    "Hace 3 meses: Adaptación de audífonos retroauriculares bilaterales en un comercio; ajuste por comodidad, sin medición en oído real.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  },
+  "cap29_p41": {
+   "numero": "29.3",
+   "ficha": [
+    "**Luis Navarro**, 41 años · hombre",
+    "Tiene 41 años y es chofer de micro. Desde niño tuvo problemas con los oídos y lo operaron para ponerle tubos. Hace unos cinco años, cada vez que se resfría, le empieza a salir líquido amarillo y con mal olor del oído izquierdo: con gotas se le seca en un par de semanas y vuelve a los meses. La última vez fue hace unos cuatro meses y desde entonces lo tiene seco. Escucha cada vez menos por ese lado y tiene un zumbido intermitente. No ha tenido vértigo. Igual se tapa el oído con algodón para ducharse, por si acaso. Le preocupa que lo tengan que operar y perder días de trabajo.",
+    "**Antecedentes:** otitis.",
+    "**Cirugías:** Colocación de tubos de ventilación en ambos oídos a los 4 años.",
+    "Historia clínica",
+    "Hace 37 años: Colocación de tubos de ventilación bilaterales por otitis media a repetición.",
+    "Hace 5 años: Consulta con médico general por otorrea izquierda; gotas óticas con antibiótico, mejora.",
+    "Hace 1 año: Nueva consulta por otorrea izquierda de mal olor, con un resfrío; gotas óticas, mejora parcial.",
+    "Hace 4 meses: Otro episodio de otorrea izquierda con un resfrío; gotas óticas, se seca.",
+    "Hace 30 días: Otorrinolaringólogo: otorrea izquierda recurrente, hoy oído seco; se solicita tomografía de oídos. Se deriva a evaluación auditiva completa antes de decidir cirugía.",
+    "**Otoscopía OD:** Membrana íntegra, con el mango del martillo y el triángulo luminoso.",
+    "sin foto",
+    "**Otoscopía OI:** Conducto seco, sin secreción; membrana opaca y engrosada."
+   ]
+  },
+  "cap29_p42": {
+   "numero": "29.4",
+   "ficha": [
+    "**Matías Castillo**, 22 años · hombre",
+    "Tiene 22 años y estudia ingeniería civil. Desde los 6 años, después de unas paperas, no escucha nada por el oído derecho; dice que se acostumbró y que casi no lo piensa. Le cuesta saber de dónde viene un sonido, como cuando lo llaman en la calle o suena un celular. En clases se sienta siempre con el oído bueno hacia el profesor, y en los carretes con ruido le cuesta seguir la conversación si le hablan por la derecha. Un compañero le contó de audífonos que pasan el sonido al otro oído y quiere saber si le sirven. Nunca le hicieron estudios después de esa vez.",
+    "Historia clínica",
+    "Hace 16 años: Consulta con pediatra por parotiditis bilateral; manejo sintomático. A las dos semanas la madre nota que no responde por el oído derecho.",
+    "Hace 16 años: Otorrinolaringólogo infantil: otoscopia normal, se indica control; no vuelve a control.",
+    "Hace 30 días: Consulta con otorrinolaringólogo por dificultad para seguir clases en la universidad; otoscopia normal. Se deriva a evaluación auditiva y electrofisiológica para evaluar opciones de rehabilitación.",
+    "**Otoscopía OD:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso.",
+    "**Otoscopía OI:** Membrana íntegra y translúcida, con el mango del martillo y el triángulo luminoso."
+   ]
+  }
+ }
+}

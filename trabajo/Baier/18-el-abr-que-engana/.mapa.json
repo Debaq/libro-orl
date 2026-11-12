@@ -1,0 +1,208 @@
+{
+ "capitulo": "18",
+ "md": "texto/capitulos/18-el-abr-que-engana.md",
+ "exportado": "2026-11-12",
+ "figuras": {
+  "F18-01": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-raiz.svg ancho=80% Cuánto cae el ruido residual al aumentar los barridos, con la regla de 1/√N desde 250 barridos. Mira cómo se aplana la curva: cada mitad de ruido que ganas cuesta cuatro veces más barridos.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-02": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap18_barridos_impedancia.svg ancho=100% Impedanciometría del técnico.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-03": {
+   "kind": "fig",
+   "src": ":::figura cap18_barridos abr\n- @OD 80 V | La V llega a 5,6 ms. Con el equipo bien puesto el paciente tiene todas las ondas a 80 dB.\n- @OD 40 V | A 40 dB la V está a 6,7 ms: ahí coincide con lo que anotó el alumno.\n- @OD 20 V | A 20 dB la V existe y se ve, a 7,7 ms. Es la curva que el alumno declaró \"sin respuesta\".\n- @OD 10 V | A 10 dB la V sigue ahí, a 8,3 ms, en las dos réplicas: el **umbral del paciente está en 10 dB nHL o más abajo**, como dice su audiometría.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 80 V",
+    "@OD 40 V",
+    "@OD 20 V",
+    "@OD 10 V"
+   ]
+  },
+  "F18-04": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-promedio.svg ancho=92% El mismo oído a 20 dB nHL, de 250 a 4.000 barridos, con la mitad A del promedio en azul y la mitad B en rojo. Mira en qué fila empiezan a coincidir las dos mitades: recién ahí se puede decir que hay respuesta, y antes tampoco se podía decir que no la había.\n- @92,13 | **250 barridos:** FSP de 2,4, bajo el criterio de 3,1, y las dos mitades no se parecen. Los picos de ruido son del tamaño de lo que se busca: aquí no se puede decir ni que hay ni que no hay respuesta.\n- @92,40 | **1.000 barridos:** el ruido residual bajó de 96 a 55 nV y el FSP (5,1) ya pasa el criterio de 3,1, pero las mitades todavía no se pegan del todo.\n- @92,77 | **4.000 barridos:** el ruido residual es de 28 nV y el FSP, de 15,3. La onda de 7,5 ms está en las dos mitades.\n:::",
+   "id": null,
+   "globos": [
+    "@92,13",
+    "@92,40",
+    "@92,77"
+   ]
+  },
+  "F18-05": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap18_supraaural_audiosupra.svg ancho=100% Audiometría del paciente de este caso: caída de agudos con recuperación en 8 kHz en los dos oídos y la voz casi normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-06": {
+   "kind": "fig",
+   "src": ":::figura cap18_supraaural abr\n- @OI 100 I | Con fono de inserción y polaridad alternada, la I del OI llega a 1,2 ms.\n- @OI 100 V | Y la V, a 5,6 ms. Interpico I-V de 4,4 ms.\n- @OD 60 V | En el OD la V pasa de 5,5 ms a 100 dB a 6,0 a 80 y a 6,6 a 60 dB: la V migra.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 100 I",
+    "@OI 100 V",
+    "@OD 60 V"
+   ]
+  },
+  "F18-07": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-estimulo.svg ancho=92% El mismo oído a 100 dB nHL con distintas condiciones del estímulo. Arriba, la referencia: inserción y polaridad alternada. Segunda fila: fono supraaural en condensación. Tercera: supraaural alternada. Abajo: inserción con el tubo pinzado. Compara el primer milisegundo de cada fila: lo que aparece antes de que el sonido pueda llegar a la cóclea es el estímulo, no una onda.\n- @92,19 | **Referencia.** Inserción y alternada: el primer milisegundo está limpio; la V cae cerca de 5,5 ms.\n- @92,42 | **Supraaural, condensación.** Una deflexión grande **desde 0 ms**, antes de que el sonido pueda llegar a la cóclea: es el estímulo, no una onda. Se lee como una \"I\" temprana y enorme.\n- @92,65 | **Supraaural, alternada.** El artefacto casi desaparece, pero la V llega unos 0,8 ms antes que con inserción: sin el tubo, el sonido llega antes.\n- @92,86 | **Inserción con tubo pinzado.** No llega sonido y no hay ondas; lo que queda en el primer milisegundo es el artefacto. Esta es la maniobra que separa estímulo de respuesta.\n:::",
+   "id": null,
+   "globos": [
+    "@92,19",
+    "@92,42",
+    "@92,65",
+    "@92,86"
+   ]
+  },
+  "F18-08": {
+   "kind": "fig",
+   "src": ":::figura cap18_postauricular abr\n- @OD 90 V | Con la ventana de rutina, a 90 dB la V del OD llega a 5,9 ms. Esa es la onda V de este paciente; es chica porque tiene 74 años.\n- @OD 70 V | A 70 dB la V se atrasa a 6,3 ms, y a 60 dB, a 6,9. A 50 dB ya no hay V.\n:::",
+   "id": null,
+   "globos": [
+    "@OD 90 V",
+    "@OD 70 V"
+   ]
+  },
+  "F18-09": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-pam.svg ancho=92% El oído derecho con una respuesta postauricular y la ventana abierta a 25 ms, de 100 a 60 dB nHL. Las dos mitades del promedio coinciden en todo el trazo, así que replicar no basta: lo que delata a la onda muscular es que no se atrasa al bajar la intensidad, como sí lo hace la V.\n- @92,11 | **100 dB.** Una onda grande y ancha a 13 ms, mucho más que cualquier onda del ABR. Con una ventana de 12 ms solo se vería su comienzo.\n- @92,27 | **90 dB.** La V verdadera (verde, a 5,9 ms) es chica; la de 13 ms es varias veces mayor. Y las dos mitades **coinciden**: replicar no la descarta.\n- @92,66 | **70 dB.** La onda tardía ya casi no está; la V de 6,3 ms está atrasada y chica, como corresponde.\n- @92,88 | **60 dB.** Sin respuesta tardía. La V verdadera se achica de a poco y se atrasa; la onda muscular no se atrasa: cambia de tamaño o desaparece.\n:::",
+   "id": null,
+   "globos": [
+    "@92,11",
+    "@92,27",
+    "@92,66",
+    "@92,88"
+   ]
+  },
+  "F18-10": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap18_cofosis_audiosupra.svg ancho=100% Audiometría del paciente de este caso: oído derecho con pérdida profunda, oído izquierdo normal.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-11": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap18_cofosis_impedancia.svg ancho=100% Impedanciometría del garzón.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-12": {
+   "kind": "fig",
+   "src": ":::figura cap18_cofosis abr\n- @OI 100 V | El oído izquierdo es normal: I, III y V a lo esperable (V a 5,4 ms).\n- @OD 100 | A 100 dB el trazo del **oído derecho** muestra una onda con réplicas, hacia los 7 ms (sin V propia hasta ese nivel): es real, pero **no es del derecho**. Es la respuesta del oído izquierdo, que el estímulo alcanza por vía ósea a través del cráneo (la curva sombra; → H10 y H4). Se enmascara y desaparece.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 100 V",
+    "@OD 100"
+   ]
+  },
+  "F18-13": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-falsa-v.svg ancho=92% El oído derecho con pérdida profunda, de 70 a 40 dB nHL, con una falsa onda V. En azul la mitad A del promedio, en rojo la mitad B. Dos cosas la delatan: vive en una sola mitad y no se mueve al bajar la intensidad.\n- @92,19 | **70 dB.** Una \"V\" perfecta a 5,6 ms, pero solo en la **mitad A**; la B está plana. El FSP no la confirma.\n- @92,42 | **60 dB.** Misma latencia, misma altura: bajó 10 dB y la onda no se movió. Una V verdadera se atrasa y se achica.\n- @92,64 | **50 dB.** Idéntica otra vez. Un artefacto se queda quieto.\n- @92,86 | **40 dB.** La \"V\" sigue a 5,6 ms, en un oído que casi no oye. El ruido residual es el de siempre y el FSP no pasa de 1,3.\n:::",
+   "id": null,
+   "globos": [
+    "@92,19",
+    "@92,42",
+    "@92,64",
+    "@92,86"
+   ]
+  },
+  "F18-14": {
+   "kind": "img",
+   "src": ":::imagen figuras/salida/cap18_configuracion_impedancia.svg ancho=100% Impedanciometría de la profesora.\n:::",
+   "id": null,
+   "globos": []
+  },
+  "F18-15": {
+   "kind": "fig",
+   "src": ":::figura cap18_configuracion abr\n- @OI 80 V | A 80 dB la V del oído izquierdo llega a 5,6 ms.\n- @OI 50 V | A 50 dB está a 6,4 ms. Con una ventana de 6 ms **queda afuera**.\n- @OI 30 V | A 30 dB, a 7,7 ms, cerca del umbral. A 10 dB ya no hay V. Un umbral buscado con la ventana corta se detiene en el nivel donde la V todavía cabe.\n:::",
+   "id": null,
+   "globos": [
+    "@OI 80 V",
+    "@OI 50 V",
+    "@OI 30 V"
+   ]
+  },
+  "F18-16": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-polaridad.svg ancho=92% El oído izquierdo con distintas polaridades a 80 dB nHL y con ventana de 12 y de 6 ms a 50 dB nHL. Arriba, otra polaridad cambia la forma y deja de valer la norma de rutina; abajo, la ventana corta deja la V afuera y el oído parece no responder.\n- @92,19 | **Alternada.** Es la referencia de rutina: V clara cerca de 5,6 ms.\n- @92,33 | **Rarefacción.** La forma cambia un poco (las ondas tempranas salen antes y más claras en rarefacción; Stockard y cols., 1979); la V se mantiene.\n- @92,47 | **Condensación.** Más chica la onda I y distinta la forma. Con otra polaridad, la norma de rutina no vale.\n- @92,64 | **Ventana de 12 ms, 50 dB.** La V está, a 6,7 ms.\n- @92,84 | **Ventana de 6 ms, 50 dB.** El mismo oído: aquí no hay nada. La onda no se fue; se cortó.\n:::",
+   "id": null,
+   "globos": [
+    "@92,19",
+    "@92,33",
+    "@92,47",
+    "@92,64",
+    "@92,84"
+   ]
+  },
+  "F18-17": {
+   "kind": "img",
+   "src": ":::imagen ilustraciones/cap18-filtros.svg ancho=92% El mismo oído a 80 dB nHL con cuatro bandas de filtro. Solo la de rutina deja las ondas como las espera la norma: las otras achican, ensucian o redondean el trazo.\n- @92,17 | **100-3.000 Hz**, la rutina.\n- @92,38 | **Pasa alto de 300 Hz.** El trazo se aplana y se achica: se le quitó parte de la energía de la respuesta, y con un equipo real, además, se correrían las latencias.\n- @92,60 | **Pasa alto de 30 Hz.** Entra la deriva lenta y las mitades A y B se separan: hay más ruido y el promedio tarda más en ser confiable.\n- @92,82 | **Pasa bajo de 1.000 Hz.** Las ondas se redondean y se funden: lo que eran I, III y V se ve como lomas.\n:::",
+   "id": null,
+   "globos": [
+    "@92,17",
+    "@92,38",
+    "@92,60",
+    "@92,82"
+   ]
+  }
+ },
+ "casos": {
+  "cap18_barridos": {
+   "numero": "18.1",
+   "ficha": [
+    "**Enrique Contreras**, 23 años · hombre",
+    "Tiene 23 años y se tituló este año de técnico en refrigeración. No tiene ningún síntoma: oye bien, no tiene pitidos, mareos ni secreción y nunca ha tenido infecciones de oído. No ha trabajado con ruido fuerte ni toma medicamentos. Nadie en su familia tiene problemas de audición. Se ofreció de voluntario para que un alumno de electrofisiología practicara con él un ABR.",
+    "Historia clínica",
+    "Hace 14 días: Audiometría de práctica en la universidad: umbrales normales en los dos oídos."
+   ]
+  },
+  "cap18_supraaural": {
+   "numero": "18.2",
+   "ficha": [
+    "**Roberto Arias**, 47 años · hombre",
+    "Tiene 47 años y hace 20 opera un chancador en una planta de áridos. Usó protección auditiva solo a ratos. Desde hace unos años tiene un siseo permanente en los dos oídos y le cuesta entender cuando hay ruido de fondo; en silencio conversa sin problema. No tiene mareos, dolor ni secreción de oídos. En la mutual le hicieron una audiometría con caída en los agudos y lo derivaron a un ABR para completar el estudio.",
+    "**Antecedentes:** trauma acústico.",
+    "Historia clínica",
+    "Hace 2 meses: Audiometría de vigilancia: caída bilateral en agudos compatible con ruido; se pide un estudio con ABR."
+   ]
+  },
+  "cap18_postauricular": {
+   "numero": "18.3",
+   "ficha": [
+    "**Alberto Gómez**, 74 años · hombre",
+    "Tiene 74 años; fue carpintero hasta que se jubiló hace diez. Hace años oye menos: le cuesta entender la televisión y las conversaciones con ruido, y dice que \"todos murmuran\". Tiene un pitido agudo permanente en los dos oídos. No tiene mareos, dolor ni secreción. Se hizo la audiometría por consejo de su hija y, por curiosidad, también un ABR.",
+    "Historia clínica",
+    "Hace 30 días: Control con su médico general: hipoacusia bilateral lentamente progresiva; se pide audiometría."
+   ]
+  },
+  "cap18_cofosis": {
+   "numero": "18.4",
+   "ficha": [
+    "**Sergio Cruz**, 22 años · hombre",
+    "Tiene 22 años y trabaja de garzón en un restaurante del centro. No oye por el oído derecho desde que tiene memoria: se lo encontraron en el control de salud del colegio, a los 7 años, y a su mamá le dijeron que era \"de nacimiento\" y que no había nada que hacer. Nunca le hicieron otro estudio. En el restaurante se acomoda para que los clientes le hablen por la izquierda, y con el local lleno no sabe de dónde lo llaman. No tiene pitido, mareos, dolor ni secreción. Del oído izquierdo no tiene ninguna queja.",
+    "Historia clínica",
+    "Hace 15 años: Control de salud escolar: no oye por el oído derecho; se informa como sordera de nacimiento. Sin estudios.",
+    "Hace 20 días: Médico general: sordera derecha de larga data; pide audiometría y ABR."
+   ]
+  },
+  "cap18_configuracion": {
+   "numero": "18.5",
+   "ficha": [
+    "**Noelia Moreno**, 46 años · mujer",
+    "Tiene 46 años y es profesora de básica. Desde hace unos ocho meses tiene crisis de vértigo giratorio con náuseas que duran un par de horas, con el oído izquierdo \"tapado\" y un zumbido grave que viene y va con las crisis. Entre una crisis y otra, la audición de ese lado sube y baja. El oído derecho está bien. No tiene dolor ni secreción.",
+    "Historia clínica",
+    "Hace 8 meses: Primera crisis de vértigo con náuseas y plenitud del oído izquierdo.",
+    "Hace 20 días: Otorrinolaringología: sospecha de enfermedad de Ménière; se pide audiometría y ABR."
+   ]
+  }
+ }
+}
