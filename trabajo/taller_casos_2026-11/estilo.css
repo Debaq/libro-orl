@@ -1,0 +1,70 @@
+@page {
+  size: A4;
+  margin: 18mm 17mm 18mm 17mm;
+  @bottom-center { content: "Taller de casos clínicos ORL · " counter(page); font: 8.5pt "Noto Sans"; color: #777; }
+}
+@page :first { @bottom-center { content: none; } }
+
+* { box-sizing: border-box; }
+body { font-family: "Noto Sans", sans-serif; font-size: 10pt; line-height: 1.42; color: #1d1d1f; }
+h1 { font-size: 22pt; margin: 0 0 4pt; color: #17324d; }
+h2 { font-size: 15pt; color: #17324d; margin: 0 0 6pt; padding-bottom: 3pt; border-bottom: 2px solid #17324d; }
+h3 { font-size: 11.5pt; color: #17324d; margin: 12pt 0 4pt; }
+p { margin: 0 0 6pt; }
+.salto { page-break-before: always; }
+.evitar { page-break-inside: avoid; }
+
+.portada { padding-top: 40mm; }
+.portada .sub { font-size: 13pt; color: #444; margin-bottom: 18pt; }
+.portada .fuente { font-size: 9.5pt; color: #555; margin-top: 30pt; border-top: 1px solid #ccc; padding-top: 8pt; }
+
+.etiqueta { display: inline-block; font-size: 8.5pt; font-weight: bold; letter-spacing: .04em; text-transform: uppercase;
+  color: #fff; background: #17324d; padding: 1.5pt 6pt; border-radius: 3pt; margin-bottom: 4pt; }
+.etiqueta.nariz { background: #2f7d5b; }
+.etiqueta.oido { background: #8a3b8f; }
+
+.ficha { display: flex; gap: 12pt; border: 1px solid #c9d3dd; background: #f4f7fa; border-radius: 6pt; padding: 10pt; margin: 6pt 0 10pt; }
+.ficha img { width: 34mm; height: 34mm; border-radius: 6pt; object-fit: cover; flex: none; }
+.ficha .datos { flex: 1; }
+.ficha .nombre { font-size: 13pt; font-weight: bold; color: #17324d; }
+.ficha table { border-collapse: collapse; margin-top: 4pt; }
+.ficha td { padding: 1pt 8pt 1pt 0; vertical-align: top; font-size: 9.5pt; }
+.ficha td:first-child { color: #555; white-space: nowrap; }
+
+.relato { font-style: italic; border-left: 3px solid #c9d3dd; padding-left: 8pt; margin: 6pt 0 8pt; }
+
+.preguntas { border: 1.5px solid #d39b2a; background: #fdf7ea; border-radius: 6pt; padding: 8pt 10pt 4pt; margin: 8pt 0; }
+.preguntas .tit { font-weight: bold; color: #8a5a00; margin-bottom: 4pt; }
+.preguntas ol { margin: 0 0 4pt; padding-left: 16pt; }
+.preguntas li { margin-bottom: 5pt; }
+.preguntas li .lineas { display: block; height: 14mm; border-bottom: 1px dotted #c8b48a; margin-top: 2pt; }
+.preguntas li .lineas.alta { height: 24mm; }
+
+.alto { border: 1px dashed #999; color: #555; text-align: center; padding: 6pt; margin: 10pt 0; font-size: 9pt; border-radius: 4pt; }
+
+table.datos { border-collapse: collapse; width: 100%; margin: 4pt 0 8pt; font-size: 9.5pt; }
+table.datos th, table.datos td { border: 1px solid #c9d3dd; padding: 3pt 6pt; text-align: center; }
+table.datos th { background: #e6edf3; }
+table.datos td:first-child, table.datos th:first-child { text-align: left; }
+.cap { font-size: 8.8pt; color: #555; margin: 2pt 0 8pt; }
+figure { margin: 4pt 0 8pt; text-align: center; page-break-inside: avoid; }
+figure img { max-width: 100%; }
+figure figcaption { font-size: 8.8pt; color: #555; text-align: left; margin-top: 2pt; }
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; align-items: start; }
+.dos > * { min-width: 0; }
+.dos img { width: 100%; }
+
+.informe { border: 1.5px solid #17324d; border-radius: 6pt; padding: 8pt 10pt; margin: 8pt 0; }
+.informe .tit { font-weight: bold; color: #17324d; }
+.informe .lineas { height: 32mm; border-bottom: 1px dotted #9aa; }
+
+.caja { border-radius: 6pt; padding: 8pt 10pt; margin: 6pt 0; }
+.caja.clave { background: #eef5f0; border: 1px solid #b7d3c1; }
+.caja.error { background: #fbeeee; border: 1px solid #e3b8b8; }
+.caja.modelo { background: #f4f7fa; border: 1px solid #c9d3dd; }
+.caja .tit { font-weight: bold; margin-bottom: 3pt; }
+ul { margin: 2pt 0 6pt; padding-left: 15pt; }
+li { margin-bottom: 2pt; }
+.resp li { margin-bottom: 5pt; }
+.resp li b.q { color: #8a5a00; }
+.peq { font-size: 8.8pt; color: #555; }
